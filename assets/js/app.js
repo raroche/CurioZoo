@@ -29,6 +29,7 @@ import { applySpeechButton, renderGiftedExplainer, goForward, goPrev, handleAnsw
 import { answerMath, checkMath, crossOut, nimTake, paintRegion, pickDoor, renderMath, runMachine, settleDoor, stepExercise, tapPeg, toggleBuildCell, turnDial } from './screens/math.js';
 import { renderParents, toggleGuideLanguage } from './screens/parents.js';
 import { renderLearn, renderElemLearn, renderAngleLearn, paintAngTurn, paintAngTrap, paintAngClock, learnStep, learnJump, learnOrder, showElementDetail } from './screens/learn.js';
+import { answerTrivia, setTriviaSetup, triviaAction, triviaKey } from './screens/trivia.js';
 import { backTarget } from './modules/routes.js';
 
 /* ------------------------------------------------------------------ */
@@ -402,6 +403,14 @@ function onClick(ev) {
   const chessTheme = ev.target.closest('[data-chess-theme]');
   if (chessTheme && chess) { chess.chessAction('chess-theme', chessTheme); return; }
 
+  /* ---- Curio Trivia: above the generic .gp-choice handler, as chess is ---- */
+  const triviaPick = ev.target.closest('[data-triviapick]');
+  if (triviaPick) { answerTrivia(Number(triviaPick.dataset.triviapick)); return; }
+  for (const [attr, key] of [['trivialevel', 'level'], ['triviacat', 'category'], ['triviacount', 'count'], ['trivialang', 'lang']]) {
+    const pill = ev.target.closest(`[data-${attr}]`);
+    if (pill) { setTriviaSetup(key, pill.dataset[attr]); return; }
+  }
+
   const choice = ev.target.closest('.gp-choice');
   if (choice && !state.answered) { handleAnswer(choice.dataset.choice); return; }
 
@@ -415,6 +424,10 @@ function onClick(ev) {
   if (!action) return;
   if (action.dataset.action.startsWith('chess-')) {
     if (chess) chess.chessAction(action.dataset.action, action);
+    return;
+  }
+  if (action.dataset.action.startsWith('trivia-')) {
+    triviaAction(action.dataset.action, action);
     return;
   }
   switch (action.dataset.action) {
@@ -542,6 +555,7 @@ function onKeydown(ev) {
     if (ev.key === 'ArrowRight') { ev.preventDefault(); learnStep(1); return; }
     if (ev.key === 'ArrowLeft') { ev.preventDefault(); learnStep(-1); return; }
   }
+  if (triviaKey(ev)) return;
   if (!document.getElementById('screen-quiz').classList.contains('is-active')) return;
   if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
 

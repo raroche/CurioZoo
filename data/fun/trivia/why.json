@@ -1,0 +1,139 @@
+{
+  "note": "Why Is That? Every stem starts with Why / ¿Por qué. The answer is the reason; the why line goes one step deeper.",
+  "category": "why",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "why-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "Why do we wash our hands with soap?", "es": "¿Por qué nos lavamos las manos con jabón?" },
+      "choices": [
+        { "en": "To make them warmer", "es": "Para calentarlas", "emoji": "🔥" },
+        { "en": "To wash away germs", "es": "Para quitar los gérmenes", "emoji": "🧼" },
+        { "en": "To make them grow", "es": "Para que crezcan", "emoji": "🌱" }
+      ],
+      "answer": 1,
+      "why": { "en": "Soap grabs germs and dirt so water can rinse them off; scrubbing for twenty seconds works best.",
+               "es": "El jabón atrapa los gérmenes y la suciedad para que el agua se los lleve; frotar veinte segundos funciona mejor." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/wash-hands.html"
+    },
+    {
+      "id": "why-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Why does ice melt in the sun?", "es": "¿Por qué el hielo se derrite al sol?" },
+      "choices": [
+        { "en": "The wind blows it away", "es": "El viento se lo lleva", "emoji": "💨" },
+        { "en": "The sun warms it up", "es": "El sol lo calienta", "emoji": "☀️" },
+        { "en": "The ice gets sleepy", "es": "El hielo tiene sueño", "emoji": "😴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ice is frozen water, and when sunshine warms it above freezing, it turns back into liquid water.",
+               "es": "El hielo es agua congelada; cuando el sol lo calienta por encima de cero grados, vuelve a ser agua líquida." },
+      "topic": "hot and cold",
+      "source": "https://www.britannica.com/science/melting"
+    },
+    {
+      "id": "why-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "Why does a dog pant on a hot day?", "es": "¿Por qué jadea un perro en un día caluroso?" },
+      "choices": [
+        { "en": "To say hello", "es": "Para saludar", "emoji": "👋" },
+        { "en": "To find a bone", "es": "Para encontrar un hueso", "emoji": "🦴" },
+        { "en": "To cool down", "es": "Para refrescarse", "emoji": "❄️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dogs sweat only a little, through their paws, so they pant to let heat escape from their wet tongue and mouth.",
+               "es": "Los perros sudan muy poco, solo por las patas, así que jadean para soltar calor por la lengua y la boca mojadas." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "why-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌤️",
+      "q": { "en": "Why is the sky blue on a sunny day?", "es": "¿Por qué el cielo es azul en un día soleado?" },
+      "choices": [
+        { "en": "The sky reflects the ocean", "es": "El cielo refleja el océano" },
+        { "en": "Space is blue behind the air", "es": "El espacio es azul detrás del aire" },
+        { "en": "The Sun gives off only blue light", "es": "El Sol solo da luz azul" },
+        { "en": "Air scatters blue light the most", "es": "El aire dispersa más la luz azul" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sunlight holds every color, and tiny air molecules bounce blue light around far more than red, so blue fills the sky.",
+               "es": "La luz del Sol trae todos los colores, y las partículas del aire desvían mucho más la luz azul que la roja." },
+      "topic": "the sky",
+      "source": "https://scijinks.gov/blue-sky/"
+    },
+    {
+      "id": "why-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧅",
+      "q": { "en": "Why do onions make us cry when we cut them?", "es": "¿Por qué lloramos cuando cortamos una cebolla?" },
+      "choices": [
+        { "en": "Onion juice is very salty", "es": "El jugo de cebolla es muy salado" },
+        { "en": "Onions release a gas that stings our eyes", "es": "La cebolla suelta un gas que irrita los ojos" },
+        { "en": "Onions are very cold inside", "es": "La cebolla está muy fría por dentro" },
+        { "en": "The smell makes us feel sad", "es": "El olor nos pone tristes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cutting an onion breaks its cells and lets out a stinging gas; our eyes make tears to wash that gas away.",
+               "es": "Al cortar la cebolla se rompen sus células y sale un gas que pica; los ojos hacen lágrimas para lavarlo." },
+      "topic": "kitchen science",
+      "source": "https://www.loc.gov/everyday-mysteries/chemistry/item/why-does-chopping-an-onion-make-you-cry/"
+    },
+    {
+      "id": "why-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Why do we see lightning before we hear thunder?", "es": "¿Por qué vemos el relámpago antes de oír el trueno?" },
+      "choices": [
+        { "en": "Thunder is quiet at first", "es": "El trueno empieza muy bajito" },
+        { "en": "Our eyes are closer to the sky", "es": "Los ojos están más cerca del cielo" },
+        { "en": "Light travels much faster than sound", "es": "La luz viaja mucho más rápido que el sonido" },
+        { "en": "Clouds hold the sound for a while", "es": "Las nubes guardan el sonido un rato" }
+      ],
+      "answer": 2,
+      "why": { "en": "Light moves almost a million times faster than sound, so the flash reaches you first and the rumble arrives later.",
+               "es": "La luz viaja casi un millón de veces más rápido que el sonido, así que el destello llega primero y el trueno después." },
+      "topic": "light and sound",
+      "source": "https://www.weather.gov/safety/lightning-science-thunder"
+    },
+    {
+      "id": "why-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Why does Earth have seasons like summer and winter?", "es": "¿Por qué la Tierra tiene estaciones como el verano y el invierno?" },
+      "choices": [
+        { "en": "Earth's axis is tilted", "es": "El eje de la Tierra está inclinado" },
+        { "en": "Earth's distance from the Sun changes a lot", "es": "La distancia entre la Tierra y el Sol cambia mucho" },
+        { "en": "The Sun burns hotter in summer", "es": "El Sol arde con más fuerza en verano" },
+        { "en": "The Moon blocks sunlight in winter", "es": "La Luna tapa la luz del Sol en invierno" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth leans about 23.5 degrees, so each half takes turns tipping toward the Sun and getting more direct sunlight.",
+               "es": "La Tierra está inclinada unos 23.5 grados, así que cada mitad se turna para mirar hacia el Sol y recibir luz más directa." },
+      "topic": "seasons",
+      "source": "https://spaceplace.nasa.gov/seasons/"
+    },
+    {
+      "id": "why-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Why is Venus hotter than Mercury, even though Mercury is closer to the Sun?", "es": "¿Por qué Venus es más caliente que Mercurio, aunque Mercurio está más cerca del Sol?" },
+      "choices": [
+        { "en": "Venus has more erupting volcanoes", "es": "Venus tiene más volcanes en erupción" },
+        { "en": "Venus spins much faster", "es": "Venus gira mucho más rápido" },
+        { "en": "Venus has a hotter core", "es": "Venus tiene un núcleo más caliente" },
+        { "en": "Venus's thick carbon dioxide air traps heat", "es": "El aire espeso de dióxido de carbono de Venus atrapa el calor" }
+      ],
+      "answer": 3,
+      "why": { "en": "Venus's thick carbon dioxide atmosphere acts like a heavy blanket, trapping heat until the ground reaches about 465 °C (870 °F).",
+               "es": "La gruesa atmósfera de dióxido de carbono de Venus funciona como una manta y calienta el suelo hasta unos 465 °C (870 °F)." },
+      "topic": "planets",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "id": "why-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍿",
+      "q": { "en": "Why does a popcorn kernel pop when it is heated?", "es": "¿Por qué revienta un grano de maíz palomero al calentarse?" },
+      "choices": [
+        { "en": "The sugar inside melts", "es": "El azúcar de adentro se derrite" },
+        { "en": "Hot oil soaks in and bursts it", "es": "El aceite caliente entra y lo rompe" },
+        { "en": "Water inside turns to steam and bursts the shell", "es": "El agua de adentro se vuelve vapor y rompe la cáscara" },
+        { "en": "The air inside shrinks suddenly", "es": "El aire de adentro se encoge de golpe" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each kernel holds a tiny drop of water; heat turns it to steam, pressure builds, and the hard shell bursts open.",
+               "es": "Cada grano guarda una gotita de agua; el calor la vuelve vapor, la presión crece y la cáscara dura revienta." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/topic/popcorn"
+    }
+  ]
+}

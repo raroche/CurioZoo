@@ -1,0 +1,141 @@
+{
+  "note": "World Cultures & Languages. Three levels in one file so a reviewer sees the ladder.",
+  "category": "cultures",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "cultures-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "👋",
+      "q": { "en": "How do you say hello in Spanish?", "es": "¿Cómo se dice \"hello\" en español?" },
+      "choices": [
+        { "en": "Hola", "es": "Hola", "emoji": "👋" },
+        { "en": "Buenas noches", "es": "Buenas noches", "emoji": "💤" },
+        { "en": "Gracias", "es": "Gracias", "emoji": "🎁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hola means hello in Spanish, and you can wave your hand when you say it to a friend.",
+               "es": "\"Hola\" es la palabra en español para saludar, y puedes mover la mano cuando se lo dices a un amigo." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪅",
+      "q": { "en": "What party toy is filled with candy?", "es": "¿Qué juguete de fiesta se llena de dulces?" },
+      "choices": [
+        { "en": "A kite", "es": "Una cometa", "emoji": "🪁" },
+        { "en": "A drum", "es": "Un tambor", "emoji": "🥁" },
+        { "en": "A piñata", "es": "Una piñata", "emoji": "🪅" }
+      ],
+      "answer": 2,
+      "why": { "en": "Children take turns hitting a piñata with a stick until it breaks and the candy falls out.",
+               "es": "Los niños se turnan para pegarle a la piñata con un palo hasta que se rompe y caen los dulces." },
+      "topic": "celebrations",
+      "source": "https://www.britannica.com/topic/pinata"
+    },
+    {
+      "id": "cultures-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍚",
+      "q": { "en": "In Japan, what do people use to eat rice?", "es": "¿Con qué comen arroz muchas personas en Japón?" },
+      "choices": [
+        { "en": "A paintbrush", "es": "Un pincel", "emoji": "🖌️" },
+        { "en": "Chopsticks", "es": "Palillos", "emoji": "🥢" },
+        { "en": "A pencil", "es": "Un lápiz", "emoji": "✏️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Chopsticks are two thin sticks held in one hand; people in China, Japan and Korea use them every day.",
+               "es": "Los palillos son dos varitas delgadas que se toman con una mano; en China, Japón y Corea se usan todos los días." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/chopsticks"
+    },
+    {
+      "id": "cultures-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌼",
+      "q": { "en": "Día de Muertos, with bright orange marigolds, is a famous celebration from which country?",
+             "es": "¿De qué país es la famosa celebración del Día de Muertos, con flores de cempasúchil?" },
+      "choices": [
+        { "en": "Spain", "es": "España" },
+        { "en": "Mexico", "es": "México" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Peru", "es": "Perú" }
+      ],
+      "answer": 1,
+      "why": { "en": "In Mexico, families build colorful altars with marigolds, photos and favorite foods to remember loved ones on November 1 and 2.",
+               "es": "En México, las familias hacen altares con cempasúchil, fotos y comidas favoritas para recordar a sus seres queridos el 1 y 2 de noviembre." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Day-of-the-Dead"
+    },
+    {
+      "id": "cultures-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐉",
+      "q": { "en": "The Chinese zodiac has a cycle of how many animals?", "es": "¿Cuántos animales hay en el ciclo del zodiaco chino?" },
+      "choices": [
+        { "en": "8", "es": "8" },
+        { "en": "10", "es": "10" },
+        { "en": "6", "es": "6" },
+        { "en": "12", "es": "12" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each year of the Chinese zodiac belongs to one of twelve animals, starting with the rat and ending with the pig.",
+               "es": "Cada año del zodiaco chino corresponde a uno de doce animales: empieza con la rata y termina con el cerdo." },
+      "topic": "festivals and calendars",
+      "source": "https://www.britannica.com/topic/Chinese-zodiac"
+    },
+    {
+      "id": "cultures-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Which language do most people in Brazil speak?", "es": "¿Qué idioma habla la mayoría de las personas en Brasil?" },
+      "choices": [
+        { "en": "Spanish", "es": "Español" },
+        { "en": "French", "es": "Francés" },
+        { "en": "Portuguese", "es": "Portugués" },
+        { "en": "Italian", "es": "Italiano" }
+      ],
+      "answer": 2,
+      "why": { "en": "Brazil was once ruled by Portugal, so Portuguese is its language, even though its neighbors mostly speak Spanish.",
+               "es": "Brasil fue colonia de Portugal, por eso habla portugués, aunque casi todos sus vecinos hablan español." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/place/Brazil"
+    },
+    {
+      "id": "cultures-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥑",
+      "q": { "en": "The English words tomato and avocado come from which language spoken by the Aztecs?",
+             "es": "¿De qué idioma de los aztecas vienen las palabras \"tomate\" y \"aguacate\"?" },
+      "choices": [
+        { "en": "Nahuatl", "es": "Náhuatl" },
+        { "en": "Quechua", "es": "Quechua" },
+        { "en": "Maya", "es": "Maya" },
+        { "en": "Guarani", "es": "Guaraní" }
+      ],
+      "answer": 0,
+      "why": { "en": "In Nahuatl, tomatl meant tomato and ahuacatl meant avocado; Spanish borrowed these words first, and English borrowed them from Spanish.",
+               "es": "En náhuatl, \"tomatl\" era el tomate y \"ahuacatl\" el aguacate; el español tomó estas palabras y el inglés las tomó del español." },
+      "topic": "loanwords",
+      "source": "https://www.britannica.com/topic/Nahuatl-language"
+    },
+    {
+      "id": "cultures-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Spanish, French, Italian and Portuguese all grew out of which ancient language?",
+             "es": "¿De qué lengua antigua nacieron el español, el francés, el italiano y el portugués?" },
+      "choices": [
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Arabic", "es": "Árabe" },
+        { "en": "Sanskrit", "es": "Sánscrito" },
+        { "en": "Latin", "es": "Latín" }
+      ],
+      "answer": 3,
+      "why": { "en": "These are called Romance languages because they grew from the Latin spoken by the Romans, whose empire once covered much of Europe.",
+               "es": "Se llaman lenguas romances porque nacieron del latín que hablaban los romanos, cuyo imperio cubrió gran parte de Europa." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Romance-languages"
+    },
+    {
+      "id": "cultures-hard-003", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Potatoes were first farmed in Ireland before they spread to South America.",
+             "es": "Las papas se cultivaron primero en Irlanda y de ahí llegaron a Sudamérica." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Potatoes were first farmed in the Andes of Peru and Bolivia thousands of years ago; Spanish sailors later carried them to Europe.",
+               "es": "Las papas se cultivaron primero en los Andes de Perú y Bolivia hace miles de años; luego los marineros españoles las llevaron a Europa." },
+      "topic": "where crops come from",
+      "source": "https://www.britannica.com/plant/potato"
+    }
+  ]
+}

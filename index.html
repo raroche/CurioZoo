@@ -625,6 +625,62 @@
   </section>
 
   <!-- ============================================================ -->
+  <!-- Fun: Curio Trivia                                             -->
+  <!-- ============================================================ -->
+  <section class="gp-screen cz-room--orchid" id="screen-triviasetup" aria-labelledby="triviasetup-title">
+    <div class="gp-container">
+      <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun">&larr; Back to games</a>
+      <h1 class="gp-page-title" id="triviasetup-title">Curio Trivia</h1>
+      <p class="gp-page-lede">Questions about animals, space, your body, the world and more. Every
+         answer teaches you something, even the ones you miss.</p>
+      <!-- Two things a child can do here, and they are not the same thing.
+           Looking comes first because being tested on material you have never
+           met is not a game. For trivia the material is the fun facts. -->
+      <section class="cz-mode cz-mode--learn">
+        <p class="cz-mode__tag">Learn</p>
+        <div class="cz-mode__body">
+          <span class="cz-mode__icon" data-icon="book" aria-hidden="true"></span>
+          <div>
+            <h2 class="cz-mode__title">The Fact Book</h2>
+            <p class="cz-mode__blurb">Every fun fact in the game, by topic. The ones you have earned
+               light up. No score, nothing to get wrong.</p>
+          </div>
+        </div>
+        <a class="gp-btn gp-btn--primary gp-btn--big cz-mode__go" href="#/fun/trivia/learn">
+          Open the Fact Book &rarr;
+        </a>
+      </section>
+
+      <section class="cz-mode cz-mode--practice">
+        <p class="cz-mode__tag">Practice</p>
+        <div class="gp-card gp-card--setup" id="gp-trivia-setup"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="gp-screen cz-room--orchid" id="screen-triviagame" aria-labelledby="triviagame-title">
+    <div class="gp-container">
+      <div class="gp-flagbar">
+        <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun/trivia">&larr; Change the round</a>
+        <p class="gp-flagbar__score">
+          <span class="gp-tally gp-tally--right"><span aria-hidden="true">&#10003;</span>
+            <strong data-trivia-right>0</strong><span class="gp-sr-only">right</span></span>
+          <span class="gp-tally gp-tally--wrong"><span aria-hidden="true">&#10007;</span>
+            <strong data-trivia-wrong>0</strong><span class="gp-sr-only">to learn</span></span>
+        </p>
+      </div>
+      <h1 class="gp-sr-only" id="triviagame-title">Curio Trivia</h1>
+      <div id="gp-trivia-body" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="gp-screen cz-room--orchid" id="screen-trivialearn" aria-labelledby="trivialearn-title">
+    <div class="gp-container">
+      <div id="gp-trivia-learn"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
   <!-- Chess Club: three levels, from the pieces to 600+.             -->
   <!-- Built in steps; see docs/research/chess/PLAN.md.               -->
   <!-- ============================================================ -->

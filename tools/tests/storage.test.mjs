@@ -54,6 +54,19 @@ describe('storage migration', () => {
     assert.equal(_migrate(ancient).version, ancient.version);
   });
 
+  test('Curio Trivia memory survives a migration', () => {
+    const trivia = {
+      level: 'medium', count: 10, lang: 'es',
+      seen: { 'animals-easy-001': [1, 0, 20698] },
+      recent: ['animals-easy-001'],
+      stars: { animals: 14 },
+      last: { day: 20698, ids: ['animals-easy-001'] }
+    };
+    const next = _migrate({ ...old, version: 0, settings: { ...old.settings, trivia } });
+    assert.deepEqual(next.settings.trivia, trivia);
+    assert.deepEqual(_migrate({ ...old, version: 0 }).settings.trivia, {});
+  });
+
   test('a setting that no longer exists is dropped, not carried through', () => {
     const next = _migrate({ ...old, settings: { ...old.settings, ancientOption: 'x' } });
     assert.equal(next.settings.ancientOption, undefined);

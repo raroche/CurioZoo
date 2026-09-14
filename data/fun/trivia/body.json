@@ -1,0 +1,139 @@
+{
+  "note": "Human Body & Health. Three levels in one file so a reviewer sees the ladder.",
+  "category": "body",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "body-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "✋",
+      "q": { "en": "How many fingers are on two hands?", "es": "¿Cuántos dedos hay en dos manos?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each hand has five fingers, and five plus five is ten, so count them on your own hands.",
+               "es": "Cada mano tiene cinco dedos, y cinco más cinco son diez; cuéntalos en tus propias manos." },
+      "topic": "counting fingers and toes",
+      "source": "https://www.britannica.com/science/hand-anatomy"
+    },
+    {
+      "id": "body-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "Which body part do you smell with?", "es": "¿Con qué parte del cuerpo hueles?" },
+      "choices": [
+        { "en": "Ear", "es": "La oreja", "emoji": "👂" },
+        { "en": "Eye", "es": "El ojo", "emoji": "👁️" },
+        { "en": "Nose", "es": "La nariz", "emoji": "👃" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your nose smells things, and it also helps you taste, which is why food seems plain with a stuffy nose.",
+               "es": "Tu nariz huele las cosas y también te ayuda a saborear; por eso la comida sabe a poco con la nariz tapada." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/nose.html"
+    },
+    {
+      "id": "body-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "What helps you grow each night?", "es": "¿Qué te ayuda a crecer cada noche?" },
+      "choices": [
+        { "en": "Sleep", "es": "Dormir", "emoji": "😴" },
+        { "en": "Candy", "es": "Los dulces", "emoji": "🍬" },
+        { "en": "Watching TV", "es": "Ver la televisión", "emoji": "📺" }
+      ],
+      "answer": 0,
+      "why": { "en": "When you sleep, your body makes a growth hormone and repairs itself, so kids need lots of sleep.",
+               "es": "Cuando duermes, tu cuerpo produce una hormona del crecimiento y se repara, por eso los niños necesitan dormir mucho." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "❤️",
+      "q": { "en": "Which organ pumps blood around your body?", "es": "¿Qué órgano bombea la sangre por todo tu cuerpo?" },
+      "choices": [
+        { "en": "Lungs", "es": "Los pulmones" },
+        { "en": "Heart", "es": "El corazón" },
+        { "en": "Stomach", "es": "El estómago" },
+        { "en": "Brain", "es": "El cerebro" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your heart is a muscle about the size of your fist, and it beats about 100,000 times a day.",
+               "es": "Tu corazón es un músculo del tamaño de tu puño y late unas 100 000 veces al día." },
+      "topic": "blood and the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What is the longest bone in your body?", "es": "¿Cuál es el hueso más largo de tu cuerpo?" },
+      "choices": [
+        { "en": "Skull", "es": "El cráneo" },
+        { "en": "Rib", "es": "La costilla" },
+        { "en": "Upper arm bone", "es": "El hueso del brazo" },
+        { "en": "Thigh bone", "es": "El hueso del muslo" }
+      ],
+      "answer": 3,
+      "why": { "en": "The thigh bone, called the femur, is also the strongest bone, and it makes up about a quarter of your height.",
+               "es": "El hueso del muslo, llamado fémur, también es el más fuerte, y mide cerca de un cuarto de tu estatura." },
+      "topic": "skeleton",
+      "source": "https://www.britannica.com/science/femur"
+    },
+    {
+      "id": "body-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "Where does food go right after you swallow it?", "es": "¿Adónde va la comida justo después de tragarla?" },
+      "choices": [
+        { "en": "Small intestine", "es": "El intestino delgado" },
+        { "en": "Liver", "es": "El hígado" },
+        { "en": "Esophagus", "es": "El esófago" },
+        { "en": "Large intestine", "es": "El intestino grueso" }
+      ],
+      "answer": 2,
+      "why": { "en": "The esophagus is a muscle tube that squeezes food down to your stomach, so you could even swallow upside down.",
+               "es": "El esófago es un tubo de músculo que aprieta la comida hasta el estómago; por eso podrías tragar hasta de cabeza." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which part of the brain mainly controls balance and coordination?",
+             "es": "¿Qué parte del cerebro controla principalmente el equilibrio y la coordinación?" },
+      "choices": [
+        { "en": "Cerebrum", "es": "El cerebro (corteza)" },
+        { "en": "Brain stem", "es": "El tronco encefálico" },
+        { "en": "Cerebellum", "es": "El cerebelo" },
+        { "en": "Hippocampus", "es": "El hipocampo" }
+      ],
+      "answer": 2,
+      "why": { "en": "\"Cerebellum\" means \"little brain\" in Latin; it sits at the back and fine-tunes every movement you make.",
+               "es": "\"Cerebelo\" significa \"cerebro pequeño\" en latín; está en la parte de atrás y ajusta cada movimiento que haces." },
+      "topic": "the nervous system",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which part of your blood finds and fights germs?", "es": "¿Qué parte de tu sangre busca y combate los microbios?" },
+      "choices": [
+        { "en": "Red blood cells", "es": "Los glóbulos rojos" },
+        { "en": "Platelets", "es": "Las plaquetas" },
+        { "en": "Plasma", "es": "El plasma" },
+        { "en": "White blood cells", "es": "Los glóbulos blancos" }
+      ],
+      "answer": 3,
+      "why": { "en": "White blood cells find and destroy germs; platelets help close cuts, and red blood cells carry oxygen.",
+               "es": "Los glóbulos blancos buscan y destruyen microbios; las plaquetas ayudan a cerrar heridas y los glóbulos rojos llevan oxígeno." },
+      "topic": "red and white blood cells",
+      "source": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "body-hard-003", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Your small intestine is longer than your large intestine.",
+             "es": "Tu intestino delgado es más largo que tu intestino grueso." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The small intestine is about 20 feet, 6 meters, long; it is called small because it is narrower.",
+               "es": "El intestino delgado mide unos 6 metros, 20 pies; se llama delgado porque es más angosto, no más corto." },
+      "topic": "body systems",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "note": "Brain Teasers & Logic. Three levels in one file so a reviewer sees the ladder. One-language items: en and es pools written separately.",
+  "category": "puzzles",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "puzzles-easy-001", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎨",
+      "q": { "en": "Red, blue, red, blue... what comes next?" },
+      "choices": [
+        { "en": "Red", "emoji": "🔴" },
+        { "en": "Green", "emoji": "🟢" },
+        { "en": "Yellow", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "The colors take turns, red then blue, so after blue the pattern starts again with red." },
+      "topic": "patterns",
+      "source": "https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns"
+    },
+    {
+      "id": "puzzles-easy-002", "level": "easy", "type": "mc", "lang": "en", "emoji": "📅",
+      "q": { "en": "If it is Monday, what day comes next?" },
+      "choices": [
+        { "en": "Sunday", "emoji": "⬅️" },
+        { "en": "Friday", "emoji": "🎉" },
+        { "en": "Tuesday", "emoji": "➡️" }
+      ],
+      "answer": 2,
+      "why": { "en": "The days always go in the same order: Sunday, Monday, Tuesday, Wednesday. Right after Monday comes Tuesday." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-003", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐒",
+      "q": { "en": "Long, yellow, and monkeys peel me. What am I?" },
+      "choices": [
+        { "en": "Lemon", "emoji": "🍋" },
+        { "en": "Banana", "emoji": "🍌" },
+        { "en": "Carrot", "emoji": "🥕" }
+      ],
+      "answer": 1,
+      "why": { "en": "A banana is long with a yellow peel. A lemon is yellow but round, and a carrot is long but orange." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/plant/banana-plant"
+    },
+    {
+      "id": "puzzles-easy-004", "level": "easy", "type": "mc", "lang": "es", "emoji": "📅",
+      "q": { "es": "Después de marzo, ¿qué mes sigue?" },
+      "choices": [
+        { "es": "Mayo", "emoji": "5️⃣" },
+        { "es": "Febrero", "emoji": "2️⃣" },
+        { "es": "Abril", "emoji": "4️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los meses van siempre en orden: enero, febrero, marzo y abril, así que después de marzo viene abril." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/month"
+    },
+    {
+      "id": "puzzles-easy-005", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔍",
+      "q": { "es": "Perro, gato, mesa: ¿cuál es diferente a los demás?" },
+      "choices": [
+        { "es": "El perro", "emoji": "🐶" },
+        { "es": "La mesa", "emoji": "🪑" },
+        { "es": "El gato", "emoji": "🐱" }
+      ],
+      "answer": 1,
+      "why": { "es": "El perro y el gato son animales que comen y respiran; la mesa es un mueble hecho de madera." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/science/animal"
+    },
+    {
+      "id": "puzzles-easy-006", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌃",
+      "q": { "es": "Brillo de noche y cambio de forma. ¿Quién soy?" },
+      "choices": [
+        { "es": "La Luna", "emoji": "🌙" },
+        { "es": "El Sol", "emoji": "☀️" },
+        { "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "es": "La Luna brilla de noche con la luz del Sol, y parece cambiar de forma según cuánto de ella vemos iluminado." },
+      "topic": "riddles",
+      "source": "https://science.nasa.gov/moon/moon-phases/"
+    },
+    {
+      "id": "puzzles-medium-001", "level": "medium", "type": "mc", "lang": "en", "emoji": "🔢",
+      "q": { "en": "What number comes next: 2, 4, 6, 8, ?" },
+      "choices": [
+        { "en": "9" },
+        { "en": "10" },
+        { "en": "12" },
+        { "en": "16" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each number is two more than the one before it, so after 8 you add 2 and get 10." },
+      "topic": "patterns",
+      "source": "https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns"
+    },
+    {
+      "id": "puzzles-medium-002", "level": "medium", "type": "mc", "lang": "en", "emoji": "🐱",
+      "q": { "en": "All cats have whiskers. Tom is a cat. What must be true about Tom?" },
+      "choices": [
+        { "en": "Tom is orange" },
+        { "en": "Tom likes fish" },
+        { "en": "Tom is a kitten" },
+        { "en": "Tom has whiskers" }
+      ],
+      "answer": 3,
+      "why": { "en": "If every cat has whiskers and Tom is a cat, then Tom is in that group, so he has whiskers too." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-medium-003", "level": "medium", "type": "mc", "lang": "en", "emoji": "🍇",
+      "q": { "en": "Three friends share 12 grapes equally. How many grapes does each friend get?" },
+      "choices": [
+        { "en": "6" },
+        { "en": "3" },
+        { "en": "4" },
+        { "en": "9" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sharing equally means making three groups of the same size, and 4 + 4 + 4 makes 12 grapes." },
+      "topic": "sharing",
+      "source": "https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide"
+    },
+    {
+      "id": "puzzles-medium-004", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔢",
+      "q": { "es": "En la serie 3, 6, 9, 12, ¿qué número sigue?" },
+      "choices": [
+        { "es": "13" },
+        { "es": "14" },
+        { "es": "15" },
+        { "es": "18" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cada número es tres más que el anterior: 3, 6, 9, 12, y luego 12 más 3 da 15." },
+      "topic": "patterns",
+      "source": "https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns"
+    },
+    {
+      "id": "puzzles-medium-005", "level": "medium", "type": "mc", "lang": "es", "emoji": "🗓️",
+      "q": { "es": "¿Cuántos meses del año tienen por lo menos 28 días?" },
+      "choices": [
+        { "es": "1" },
+        { "es": "6" },
+        { "es": "11" },
+        { "es": "12" }
+      ],
+      "answer": 3,
+      "why": { "es": "Todos los meses tienen 28 días o más: febrero es el más corto, y los demás llegan a 30 o 31." },
+      "topic": "counting",
+      "source": "https://www.britannica.com/science/month"
+    },
+    {
+      "id": "puzzles-medium-006", "level": "medium", "type": "mc", "lang": "es", "emoji": "👧",
+      "q": { "es": "Ana es mayor que Luis y Luis es mayor que Sofía. ¿Quién es más joven?" },
+      "choices": [
+        { "es": "Luis" },
+        { "es": "Sofía" },
+        { "es": "Ana" },
+        { "es": "Los tres tienen la misma edad" }
+      ],
+      "answer": 1,
+      "why": { "es": "Si Ana es mayor que Luis y Luis es mayor que Sofía, entonces Sofía tiene menos años que los otros dos." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-hard-001", "level": "hard", "type": "mc", "lang": "en", "emoji": "🤝",
+      "q": { "en": "Six friends meet, and each friend shakes hands once with every other friend. How many handshakes happen?" },
+      "choices": [
+        { "en": "12" },
+        { "en": "30" },
+        { "en": "15" },
+        { "en": "36" }
+      ],
+      "answer": 2,
+      "why": { "en": "The first friend shakes 5 hands, the next 4 new ones, then 3, 2, 1: 5+4+3+2+1 makes 15." },
+      "topic": "counting",
+      "source": "https://nrich.maths.org/handshakes"
+    },
+    {
+      "id": "puzzles-hard-002", "level": "hard", "type": "mc", "lang": "en", "emoji": "🪷",
+      "q": { "en": "A lily pad patch doubles in size every day and covers the pond on day 30. On which day was the pond half covered?" },
+      "choices": [
+        { "en": "Day 15" },
+        { "en": "Day 20" },
+        { "en": "Day 28" },
+        { "en": "Day 29" }
+      ],
+      "answer": 3,
+      "why": { "en": "The patch doubles each day, so one day earlier it was half as big: half the pond was covered on day 29." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/exponential-growth"
+    },
+    {
+      "id": "puzzles-hard-003", "level": "hard", "type": "mc", "lang": "en", "emoji": "🕵️",
+      "q": { "en": "Of Kim and Lee, one always tells the truth and one always lies. Kim says, \"We both tell the truth.\" Who lies?" },
+      "choices": [
+        { "en": "Lee" },
+        { "en": "Kim" },
+        { "en": "It could be either one" },
+        { "en": "There is no way to know" }
+      ],
+      "answer": 1,
+      "why": { "en": "A truth-teller only says true things, and \"we both tell the truth\" is false here, so Kim must be the liar." },
+      "topic": "logic",
+      "source": "https://en.wikipedia.org/wiki/Knights_and_Knaves"
+    },
+    {
+      "id": "puzzles-hard-004", "level": "hard", "type": "mc", "lang": "es", "emoji": "🪙",
+      "q": { "es": "Si lanzas dos monedas al aire, ¿qué probabilidad hay de que las dos caigan en cara?" },
+      "choices": [
+        { "es": "1 de 2" },
+        { "es": "1 de 3" },
+        { "es": "1 de 4" },
+        { "es": "1 de 8" }
+      ],
+      "answer": 2,
+      "why": { "es": "Dos monedas pueden caer de cuatro maneras igual de probables, y solo en una de ellas las dos muestran cara: 1 de 4." },
+      "topic": "probability",
+      "source": "https://www.britannica.com/science/probability"
+    },
+    {
+      "id": "puzzles-hard-005", "level": "hard", "type": "mc", "lang": "es", "emoji": "🟦",
+      "q": { "es": "En la serie 1, 4, 9, 16, 25, ¿qué número sigue?" },
+      "choices": [
+        { "es": "36" },
+        { "es": "30" },
+        { "es": "49" },
+        { "es": "34" }
+      ],
+      "answer": 0,
+      "why": { "es": "Son números al cuadrado: 1×1, 2×2, 3×3, 4×4 y 5×5, así que el siguiente es 6×6, que da 36." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/square-number"
+    },
+    {
+      "id": "puzzles-hard-006", "level": "hard", "type": "mc", "lang": "es", "emoji": "♟️",
+      "q": { "es": "Todos los que juegan ajedrez también juegan damas. Lucía juega ajedrez. ¿Qué podemos asegurar?" },
+      "choices": [
+        { "es": "Todos los que juegan damas juegan ajedrez" },
+        { "es": "Lucía solo juega ajedrez" },
+        { "es": "Lucía les gana a sus amigos" },
+        { "es": "Lucía juega damas" }
+      ],
+      "answer": 3,
+      "why": { "es": "Lucía está en el grupo de los que juegan ajedrez, y todo ese grupo juega damas; lo contrario no se puede asegurar." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/topic/syllogism"
+    }
+  ]
+}

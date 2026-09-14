@@ -1,0 +1,140 @@
+{
+  "note": "History & Inventions. Three levels in one file so a reviewer sees the ladder.",
+  "category": "history",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "history-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "What did people use for light before light bulbs?", "es": "¿Qué usaba la gente para alumbrarse antes de la luz eléctrica?" },
+      "choices": [
+        { "en": "Mirrors", "es": "Espejos", "emoji": "🪞" },
+        { "en": "Ice cubes", "es": "Cubos de hielo", "emoji": "🧊" },
+        { "en": "Candles", "es": "Velas", "emoji": "🕯️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Before electric lights, people lit candles and oil lamps to see at night, and the flames could flicker in the wind.",
+               "es": "Antes de la luz eléctrica, la gente encendía velas y lámparas de aceite para ver de noche, y el viento movía las llamas." },
+      "topic": "long ago and now",
+      "source": "https://www.britannica.com/technology/candle"
+    },
+    {
+      "id": "history-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "Who lived in castles long ago?", "es": "¿Quién vivía en los castillos hace mucho tiempo?" },
+      "choices": [
+        { "en": "Kings and queens", "es": "Reyes y reinas", "emoji": "👑" },
+        { "en": "Astronauts", "es": "Astronautas", "emoji": "🧑‍🚀" },
+        { "en": "Robots", "es": "Robots", "emoji": "🤖" }
+      ],
+      "answer": 0,
+      "why": { "en": "Kings, queens and knights lived in stone castles with thick walls, tall towers and sometimes a moat of water around them.",
+               "es": "Reyes, reinas y caballeros vivían en castillos de piedra con muros gruesos, torres altas y a veces un foso con agua alrededor." },
+      "topic": "castles and knights",
+      "source": "https://www.britannica.com/technology/castle-architecture"
+    },
+    {
+      "id": "history-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛞",
+      "q": { "en": "Which very old invention helps carts roll?", "es": "¿Qué invento muy antiguo ayuda a las carretas a rodar?" },
+      "choices": [
+        { "en": "The balloon", "es": "El globo", "emoji": "🎈" },
+        { "en": "The wheel", "es": "La rueda", "emoji": "🛞" },
+        { "en": "The kite", "es": "La cometa", "emoji": "🪁" }
+      ],
+      "answer": 1,
+      "why": { "en": "The wheel was invented more than five thousand years ago in Mesopotamia, and potters spun clay on wheels even before carts had them.",
+               "es": "La rueda se inventó hace más de cinco mil años en Mesopotamia, y los alfareros hacían ollas con ruedas antes que las carretas." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/wheel"
+    },
+    {
+      "id": "history-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which ancient people built the pyramids at Giza?", "es": "¿Qué pueblo antiguo construyó las pirámides de Guiza?" },
+      "choices": [
+        { "en": "The Romans", "es": "Los romanos" },
+        { "en": "The Greeks", "es": "Los griegos" },
+        { "en": "The Egyptians", "es": "Los egipcios" },
+        { "en": "The Aztecs", "es": "Los aztecas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Great Pyramid was built about 4500 years ago from more than two million stone blocks, most heavier than a car.",
+               "es": "La Gran Pirámide se construyó hace unos 4500 años con más de dos millones de bloques de piedra, casi todos más pesados que un carro." },
+      "topic": "ancient egypt",
+      "source": "https://www.britannica.com/topic/Pyramids-of-Giza"
+    },
+    {
+      "id": "history-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "✈️",
+      "q": { "en": "Which brothers made the first powered airplane flight in 1903?", "es": "¿Qué hermanos hicieron el primer vuelo en avión con motor en 1903?" },
+      "choices": [
+        { "en": "The Grimm brothers", "es": "Los hermanos Grimm" },
+        { "en": "The Lumière brothers", "es": "Los hermanos Lumière" },
+        { "en": "The Montgolfier brothers", "es": "Los hermanos Montgolfier" },
+        { "en": "The Wright brothers", "es": "Los hermanos Wright" }
+      ],
+      "answer": 3,
+      "why": { "en": "Orville and Wilbur Wright flew at Kitty Hawk, North Carolina, and their very first flight lasted just 12 seconds.",
+               "es": "Orville y Wilbur Wright volaron en Kitty Hawk, Carolina del Norte, y su primer vuelo duró apenas 12 segundos." },
+      "topic": "inventors",
+      "source": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    },
+    {
+      "id": "history-medium-003", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "The Inca built the city of Machu Picchu high in the Andes mountains.",
+             "es": "Los incas construyeron la ciudad de Machu Picchu en lo alto de los Andes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Machu Picchu sits on a mountain ridge in Peru, and its stones fit so tightly that no mortar was needed.",
+               "es": "Machu Picchu está en una montaña de Perú, y sus piedras encajan tan bien que no necesitaron mezcla para unirlas." },
+      "topic": "maya, aztec and inca",
+      "source": "https://www.britannica.com/place/Machu-Picchu"
+    },
+    {
+      "id": "history-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "In which year did humans first walk on the Moon?", "es": "¿En qué año caminaron los humanos por primera vez en la Luna?" },
+      "choices": [
+        { "en": "1957", "es": "1957" },
+        { "en": "1969", "es": "1969" },
+        { "en": "1975", "es": "1975" },
+        { "en": "1981", "es": "1981" }
+      ],
+      "answer": 1,
+      "why": { "en": "On July 20, 1969, Apollo 11's Neil Armstrong and Buzz Aldrin stepped onto the Moon while Michael Collins orbited above.",
+               "es": "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin, del Apolo 11, pisaron la Luna mientras Michael Collins orbitaba arriba." },
+      "topic": "space age",
+      "source": "https://www.nasa.gov/mission/apollo-11/"
+    },
+    {
+      "id": "history-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "Around 1450, which inventor in Germany built a printing press with movable metal type?",
+             "es": "¿Qué inventor construyó en Alemania, hacia 1450, una imprenta de tipos móviles de metal?" },
+      "choices": [
+        { "en": "Johannes Gutenberg", "es": "Johannes Gutenberg" },
+        { "en": "Leonardo da Vinci", "es": "Leonardo da Vinci" },
+        { "en": "Galileo Galilei", "es": "Galileo Galilei" },
+        { "en": "Nicolaus Copernicus", "es": "Nicolás Copérnico" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gutenberg's press could print pages far faster than copying by hand, so books became cheaper and more people learned to read.",
+               "es": "La imprenta de Gutenberg hacía páginas más rápido que copiarlas a mano, así que los libros se abarataron y más gente aprendió a leer." },
+      "topic": "renaissance",
+      "source": "https://www.britannica.com/biography/Johannes-Gutenberg"
+    },
+    {
+      "id": "history-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "The idea of democracy, where citizens vote on laws, began in which ancient Greek city?",
+             "es": "¿En qué ciudad de la antigua Grecia nació la democracia, donde los ciudadanos votaban las leyes?" },
+      "choices": [
+        { "en": "Sparta", "es": "Esparta" },
+        { "en": "Corinth", "es": "Corinto" },
+        { "en": "Athens", "es": "Atenas" },
+        { "en": "Troy", "es": "Troya" }
+      ],
+      "answer": 2,
+      "why": { "en": "Democracy comes from Greek words meaning \"rule by the people\"; in Athens, citizens met on a hill to speak and vote.",
+               "es": "Democracia viene de palabras griegas que significan \"gobierno del pueblo\"; en Atenas, los ciudadanos se reunían en una colina para hablar y votar." },
+      "topic": "ancient greece",
+      "source": "https://www.britannica.com/topic/democracy"
+    }
+  ]
+}

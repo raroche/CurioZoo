@@ -192,7 +192,7 @@ export const ROOMS = [
     href: '#/fun',
     status: 'live',
     blurb: 'Name every flag in the world. Name a country from its shape alone.',
-    meta: '2 games · 492 things to learn'
+    meta: '6 games · English or Spanish'
   },
   {
     id: 'chess',

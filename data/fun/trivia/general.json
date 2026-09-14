@@ -1,0 +1,138 @@
+{
+  "note": "General Knowledge. Breadth, not depth: facts no other category owns. Three levels in one file so a reviewer sees the ladder.",
+  "category": "general",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "general-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "How many days are in one week?", "es": "¿Cuántos días tiene una semana?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 1,
+      "why": { "en": "A week has seven days, from Monday to Sunday, and the weekend is Saturday and Sunday.",
+               "es": "Una semana tiene siete días, de lunes a domingo, y el fin de semana es sábado y domingo." },
+      "topic": "days of the week",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "general-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚒",
+      "q": { "en": "Which helper puts out fires and rescues people?", "es": "¿Quién apaga incendios y rescata a las personas?" },
+      "choices": [
+        { "en": "A baker", "es": "Un panadero", "emoji": "🍞" },
+        { "en": "A mail carrier", "es": "Un cartero", "emoji": "📬" },
+        { "en": "A firefighter", "es": "Un bombero", "emoji": "🚒" }
+      ],
+      "answer": 2,
+      "why": { "en": "Firefighters spray water from long hoses to put out fires, and they wear special suits that protect them from heat.",
+               "es": "Los bomberos lanzan agua con mangueras largas para apagar incendios y usan trajes especiales que los protegen del calor." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/technology/firefighting"
+    },
+    {
+      "id": "general-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌷",
+      "q": { "en": "Which season comes after winter?", "es": "¿Qué estación viene después del invierno?" },
+      "choices": [
+        { "en": "Spring", "es": "Primavera", "emoji": "🌷" },
+        { "en": "Summer", "es": "Verano", "emoji": "☀️" },
+        { "en": "Fall", "es": "Otoño", "emoji": "🍂" }
+      ],
+      "answer": 0,
+      "why": { "en": "After cold winter comes spring, when days get longer, flowers bloom and many baby animals are born.",
+               "es": "Después del frío invierno llega la primavera, cuando los días son más largos, salen flores y nacen muchos animalitos." },
+      "topic": "seasons",
+      "source": "https://www.britannica.com/science/season"
+    },
+    {
+      "id": "general-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕐",
+      "q": { "en": "How many hours are in one day?", "es": "¿Cuántas horas tiene un día?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "24", "es": "24" },
+        { "en": "60", "es": "60" },
+        { "en": "100", "es": "100" }
+      ],
+      "answer": 1,
+      "why": { "en": "One day has 24 hours, the time Earth takes to spin around once, giving us day and night.",
+               "es": "Un día tiene 24 horas, el tiempo que tarda la Tierra en dar una vuelta sobre sí misma, y así hay día y noche." },
+      "topic": "time",
+      "source": "https://www.britannica.com/science/day"
+    },
+    {
+      "id": "general-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "Which color is on the outer edge of a rainbow?", "es": "¿Qué color está en el borde de afuera del arcoíris?" },
+      "choices": [
+        { "en": "Violet", "es": "Violeta" },
+        { "en": "Blue", "es": "Azul" },
+        { "en": "Red", "es": "Rojo" },
+        { "en": "Green", "es": "Verde" }
+      ],
+      "answer": 2,
+      "why": { "en": "A rainbow's colors always go red, orange, yellow, green, blue, indigo and violet, with red on the outside edge.",
+               "es": "Los colores del arcoíris siempre van en orden: rojo, naranja, amarillo, verde, azul, añil y violeta; el rojo queda por fuera." },
+      "topic": "rainbow colors",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "general-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛑",
+      "q": { "en": "How many sides does a stop sign have?", "es": "¿Cuántos lados tiene una señal de alto?" },
+      "choices": [
+        { "en": "4", "es": "4" },
+        { "en": "5", "es": "5" },
+        { "en": "6", "es": "6" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 3,
+      "why": { "en": "A stop sign is an octagon, a shape with eight sides, so drivers can spot it even from behind.",
+               "es": "La señal de alto es un octágono, una figura de ocho lados, para que se reconozca incluso por detrás." },
+      "topic": "shapes around us",
+      "source": "https://mutcd.fhwa.dot.gov/htm/2009/part2/part2b.htm"
+    },
+    {
+      "id": "general-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "How many keys are on a standard piano?", "es": "¿Cuántas teclas tiene un piano estándar?" },
+      "choices": [
+        { "en": "61", "es": "61" },
+        { "en": "88", "es": "88" },
+        { "en": "76", "es": "76" },
+        { "en": "100", "es": "100" }
+      ],
+      "answer": 1,
+      "why": { "en": "A standard piano has 88 keys: 52 white and 36 black, covering more than seven octaves.",
+               "es": "Un piano estándar tiene 88 teclas: 52 blancas y 36 negras, que cubren más de siete octavas." },
+      "topic": "piano",
+      "source": "https://www.britannica.com/art/piano"
+    },
+    {
+      "id": "general-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "Counting squares of every size, from 1×1 up to 8×8, how many squares are on a chessboard?",
+             "es": "Si cuentas cuadrados de todos los tamaños, de 1×1 a 8×8, ¿cuántos cuadrados hay en un tablero de ajedrez?" },
+      "choices": [
+        { "en": "64", "es": "64" },
+        { "en": "128", "es": "128" },
+        { "en": "204", "es": "204" },
+        { "en": "256", "es": "256" }
+      ],
+      "answer": 2,
+      "why": { "en": "There are 64 small squares, but adding the 2×2, 3×3 and bigger squares gives 204, the sum of the first eight square numbers.",
+               "es": "Hay 64 casillas pequeñas, pero sumando los cuadrados de 2×2, 3×3 y mayores salen 204, la suma de los primeros ocho cuadrados." },
+      "topic": "chessboard",
+      "source": "https://mathworld.wolfram.com/Chessboard.html"
+    },
+    {
+      "id": "general-hard-003", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "In Roman numerals, the letter C stands for 500.", "es": "En números romanos, la letra C vale 500." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "C stands for 100, from the Latin word centum; the Roman numeral for 500 is D, and L means 50.",
+               "es": "La C vale 100, de la palabra latina centum; el número romano para 500 es la D, y la L vale 50." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    }
+  ]
+}

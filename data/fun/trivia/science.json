@@ -1,0 +1,137 @@
+{
+  "note": "Science & How Things Work: chemistry, materials, machines, the scientific method, plants and microbes. Physics lives in physics.json.",
+  "category": "science",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "science-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What happens to ice when it gets warm?", "es": "¿Qué le pasa al hielo cuando se calienta?" },
+      "choices": [
+        { "en": "It turns into stone", "es": "Se vuelve piedra", "emoji": "🪨" },
+        { "en": "It melts into water", "es": "Se derrite y se vuelve agua", "emoji": "💧" },
+        { "en": "It turns into snow", "es": "Se vuelve nieve", "emoji": "❄️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ice is frozen water, so when it warms up it melts and turns back into liquid water.",
+               "es": "El hielo es agua congelada; por eso, cuando se calienta, se derrite y vuelve a ser agua líquida." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/melting"
+    },
+    {
+      "id": "science-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What does a plant need to grow?", "es": "¿Qué necesita una planta para crecer?" },
+      "choices": [
+        { "en": "Candy", "es": "Dulces", "emoji": "🍬" },
+        { "en": "Milk", "es": "Leche", "emoji": "🥛" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Plants drink water through their roots, and they also need sunlight and air to make their own food.",
+               "es": "Las plantas toman agua por sus raíces, y también necesitan luz del sol y aire para hacer su propia comida." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/plant"
+    },
+    {
+      "id": "science-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛞",
+      "q": { "en": "What shape is a wheel?", "es": "¿Qué forma tiene una rueda?" },
+      "choices": [
+        { "en": "A circle", "es": "Un círculo", "emoji": "⭕" },
+        { "en": "A square", "es": "Un cuadrado", "emoji": "🟥" },
+        { "en": "A triangle", "es": "Un triángulo", "emoji": "🔺" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wheel is round like a circle, so it can roll smoothly without bumping along the road.",
+               "es": "Una rueda es redonda como un círculo, así que puede rodar suavemente sin dar saltos por el camino." },
+      "topic": "machines",
+      "source": "https://www.britannica.com/technology/wheel"
+    },
+    {
+      "id": "science-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "What gas do plants take from the air to make their food?", "es": "¿Qué gas toman las plantas del aire para hacer su comida?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno" },
+        { "en": "Helium", "es": "Helio" },
+        { "en": "Carbon dioxide", "es": "Dióxido de carbono" },
+        { "en": "Nitrogen", "es": "Nitrógeno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Plants use sunlight, water and carbon dioxide to make sugar, and they give off the oxygen we breathe.",
+               "es": "Las plantas usan luz del sol, agua y dióxido de carbono para hacer azúcar, y sueltan el oxígeno que respiramos." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/photosynthesis"
+    },
+    {
+      "id": "science-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "Which simple machine is a stiff bar that turns on a point, like a seesaw?", "es": "¿Qué máquina simple es una barra rígida que gira sobre un punto, como un subibaja?" },
+      "choices": [
+        { "en": "Pulley", "es": "Polea" },
+        { "en": "Lever", "es": "Palanca" },
+        { "en": "Screw", "es": "Tornillo" },
+        { "en": "Wedge", "es": "Cuña" }
+      ],
+      "answer": 1,
+      "why": { "en": "A lever is a bar that rests on a point called a fulcrum; push one end down and the other end lifts.",
+               "es": "Una palanca es una barra apoyada en un punto llamado fulcro; si empujas un extremo hacia abajo, el otro sube." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/lever"
+    },
+    {
+      "id": "science-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "What do scientists call an idea they can test with an experiment?", "es": "¿Cómo llaman los científicos a una idea que pueden poner a prueba con un experimento?" },
+      "choices": [
+        { "en": "Conclusion", "es": "Conclusión" },
+        { "en": "Observation", "es": "Observación" },
+        { "en": "Measurement", "es": "Medición" },
+        { "en": "Hypothesis", "es": "Hipótesis" }
+      ],
+      "answer": 3,
+      "why": { "en": "A hypothesis is an idea you can test, like \"plants grow faster in sunlight\"; the experiment shows whether it holds up.",
+               "es": "Una hipótesis es una idea que puedes poner a prueba, como \"las plantas crecen más con sol\"; el experimento muestra si es cierta." },
+      "topic": "scientific method",
+      "source": "https://www.britannica.com/science/scientific-hypothesis"
+    },
+    {
+      "id": "science-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥇",
+      "q": { "en": "What is the chemical symbol for gold?", "es": "¿Cuál es el símbolo químico del oro?" },
+      "choices": [
+        { "en": "Ag", "es": "Ag" },
+        { "en": "Go", "es": "Go" },
+        { "en": "Gd", "es": "Gd" },
+        { "en": "Au", "es": "Au" }
+      ],
+      "answer": 3,
+      "why": { "en": "Gold's symbol Au comes from the Latin word \"aurum\"; Ag is silver, from \"argentum\", and Gd is gadolinium.",
+               "es": "El símbolo Au del oro viene del latín \"aurum\"; Ag es la plata, de \"argentum\", y Gd es el gadolinio." },
+      "topic": "elements",
+      "source": "https://www.britannica.com/science/gold-chemical-element"
+    },
+    {
+      "id": "science-hard-002", "level": "hard", "type": "tf", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Melting a bar of chocolate is an example of a chemical change.", "es": "Derretir una barra de chocolate es un ejemplo de cambio químico." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: melting is a physical change, because the chocolate is still chocolate and hardens again when it cools.",
+               "es": "Falso: derretir es un cambio físico, porque el chocolate sigue siendo chocolate y se endurece de nuevo al enfriarse." },
+      "topic": "chemical change",
+      "source": "https://www.britannica.com/science/chemical-reaction"
+    },
+    {
+      "id": "science-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Which scientist first saw living microbes, which he called \"animalcules,\" through microscopes he built himself?", "es": "¿Qué científico vio por primera vez microbios vivos, a los que llamó \"animálculos\", con microscopios que él mismo fabricó?" },
+      "choices": [
+        { "en": "Robert Hooke", "es": "Robert Hooke" },
+        { "en": "Louis Pasteur", "es": "Louis Pasteur" },
+        { "en": "Antonie van Leeuwenhoek", "es": "Antonie van Leeuwenhoek" },
+        { "en": "Alexander Fleming", "es": "Alexander Fleming" }
+      ],
+      "answer": 2,
+      "why": { "en": "In the 1670s the Dutch lens maker Antonie van Leeuwenhoek saw bacteria and tiny creatures in pond water and even in plaque from teeth.",
+               "es": "En la década de 1670, el neerlandés Antonie van Leeuwenhoek vio bacterias y seres diminutos en agua de estanque y hasta en el sarro dental." },
+      "topic": "microbes",
+      "source": "https://www.britannica.com/biography/Antonie-van-Leeuwenhoek"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "note": "Physics & the Universe. Three levels in one file so a reviewer sees the ladder.",
+  "category": "physics",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "physics-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "A ball rolls on grass. What happens next?", "es": "Una pelota rueda por el pasto. ¿Qué pasa después?" },
+      "choices": [
+        { "en": "It slows down and stops", "es": "Va más lento y se detiene", "emoji": "🛑" },
+        { "en": "It rolls faster forever", "es": "Rueda cada vez más rápido", "emoji": "🚀" },
+        { "en": "It flies up to the clouds", "es": "Sube volando a las nubes", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The grass rubs against the ball as it rolls, and that rubbing slowly takes away its speed until it stops.",
+               "es": "El pasto roza la pelota mientras rueda, y ese roce le quita velocidad poco a poco hasta que se detiene." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/friction"
+    },
+    {
+      "id": "physics-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "What will a magnet pick up?", "es": "¿Qué puede levantar un imán?" },
+      "choices": [
+        { "en": "A leaf", "es": "Una hoja", "emoji": "🍃" },
+        { "en": "A crayon", "es": "Un crayón", "emoji": "🖍️" },
+        { "en": "A paper clip", "es": "Un clip", "emoji": "📎" }
+      ],
+      "answer": 2,
+      "why": { "en": "Magnets pull on things made of iron or steel, like a paper clip, but they do not pull on leaves or crayons.",
+               "es": "Los imanes atraen cosas de hierro o acero, como un clip, pero no atraen las hojas ni los crayones." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/science/magnet"
+    },
+    {
+      "id": "physics-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "What do you need to make a shadow?", "es": "¿Qué necesitas para hacer una sombra?" },
+      "choices": [
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Light", "es": "Luz", "emoji": "🔦" },
+        { "en": "Wind", "es": "Viento", "emoji": "🌬️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A shadow forms when something blocks the light, which is why your shadow grows long in the evening.",
+               "es": "Una sombra se forma cuando algo tapa la luz; por eso tu sombra se ve larga al atardecer." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/light"
+    },
+    {
+      "id": "physics-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "A ball is thrown in deep space, far from everything. What does it do?",
+             "es": "Una pelota se lanza en el espacio, lejos de todo. ¿Qué hace?" },
+      "choices": [
+        { "en": "Slows down and stops", "es": "Frena y se detiene" },
+        { "en": "Keeps going at the same speed", "es": "Sigue a la misma velocidad" },
+        { "en": "Speeds up", "es": "Acelera" },
+        { "en": "Turns around and comes back", "es": "Da la vuelta y regresa" }
+      ],
+      "answer": 1,
+      "why": { "en": "A moving object keeps going in a straight line until a force changes it, and in space nothing rubs to slow it.",
+               "es": "Un objeto en movimiento sigue en línea recta hasta que una fuerza lo cambia, y en el espacio nada lo roza para frenarlo." },
+      "topic": "forces and motion",
+      "source": "https://www.grc.nasa.gov/www/k-12/airplane/newton1g.html"
+    },
+    {
+      "id": "physics-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "What does a light-year measure?", "es": "¿Qué mide un año luz?" },
+      "choices": [
+        { "en": "Time", "es": "Tiempo" },
+        { "en": "Brightness", "es": "Brillo" },
+        { "en": "Weight", "es": "Peso" },
+        { "en": "Distance", "es": "Distancia" }
+      ],
+      "answer": 3,
+      "why": { "en": "A light-year is how far light travels in one year, about 9.5 trillion kilometers or 6 trillion miles.",
+               "es": "Un año luz es la distancia que recorre la luz en un año: unos 9.5 millones de millones de kilómetros." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/science/light-year"
+    },
+    {
+      "id": "physics-medium-003", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Sound can travel through the empty space between stars.",
+             "es": "El sonido puede viajar por el espacio vacío entre las estrellas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sound is a vibration that needs air, water or something solid to travel through, so space is silent.",
+               "es": "El sonido es una vibración que necesita aire, agua o algo sólido para viajar, así que el espacio es silencioso." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/sound-physics"
+    },
+    {
+      "id": "physics-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Which of Newton's laws explains how a rocket moves forward by pushing hot gas backward?",
+             "es": "¿Qué ley de Newton explica cómo un cohete avanza al empujar gas caliente hacia atrás?" },
+      "choices": [
+        { "en": "The first law", "es": "La primera ley" },
+        { "en": "The second law", "es": "La segunda ley" },
+        { "en": "The third law", "es": "La tercera ley" },
+        { "en": "The law of gravitation", "es": "La ley de la gravitación" }
+      ],
+      "answer": 2,
+      "why": { "en": "The third law says every action has an equal and opposite reaction: the gas pushes back on the rocket.",
+               "es": "La tercera ley dice que toda acción tiene una reacción igual y opuesta: el gas empuja al cohete hacia adelante." },
+      "topic": "forces and motion",
+      "source": "https://www.grc.nasa.gov/www/k-12/rocket/newton3r.html"
+    },
+    {
+      "id": "physics-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎢",
+      "q": { "en": "At which point on a roller coaster is a car's potential energy greatest?",
+             "es": "¿En qué punto de una montaña rusa tiene el carrito más energía potencial?" },
+      "choices": [
+        { "en": "At the bottom of the first drop", "es": "Abajo de la primera bajada" },
+        { "en": "Halfway down a hill", "es": "A mitad de una bajada" },
+        { "en": "On the flat track at the end", "es": "En la vía plana del final" },
+        { "en": "At the top of the highest hill", "es": "En la cima de la colina más alta" }
+      ],
+      "answer": 3,
+      "why": { "en": "Potential energy is stored by height; as the car drops, it turns into kinetic energy, the energy of motion.",
+               "es": "La energía potencial se guarda con la altura; al bajar, el carrito la convierte en energía cinética, la energía del movimiento." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/potential-energy"
+    },
+    {
+      "id": "physics-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "About how old do scientists estimate the universe is?",
+             "es": "¿Cuántos años calculan los científicos que tiene el universo, aproximadamente?" },
+      "choices": [
+        { "en": "4.6 billion years", "es": "4600 millones de años" },
+        { "en": "13.8 billion years", "es": "13 800 millones de años" },
+        { "en": "1 million years", "es": "1 millón de años" },
+        { "en": "100 billion years", "es": "100 000 millones de años" }
+      ],
+      "answer": 1,
+      "why": { "en": "The universe began with the Big Bang about 13.8 billion years ago; Earth, at 4.6 billion years, is much younger.",
+               "es": "El universo empezó con el Big Bang hace unos 13 800 millones de años; la Tierra, con 4600 millones, es mucho más joven." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/science/big-bang-model"
+    }
+  ]
+}
