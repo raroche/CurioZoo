@@ -4572,3 +4572,175 @@ button, a, label, summary, [role="button"] {
   color: var(--gp-ink-soft);
 }
 .cz-tn-done { display: grid; gap: var(--gp-space-3); justify-items: center; text-align: center; }
+
+/* ============================================================ */
+/* Curio Trivia                                                  */
+/* ============================================================ */
+
+/* The trivia screens wear the orchid of their tile. Like the other room
+   classes it only sets the four values and never provides a default. */
+.cz-room--orchid {
+  --room: var(--cz-orchid);
+  --room-soft: var(--cz-orchid-soft);
+  --room-line: var(--cz-orchid-line);
+  --room-ink: var(--cz-orchid-ink);
+}
+
+/* The topic pills can be seventeen long. On a phone they scroll sideways
+   inside their own row, so the page itself never does. */
+/* A fieldset's default minimum width is its content, so without this the
+   scrolling row stretches the whole page instead of scrolling. */
+#gp-trivia-setup .gp-fieldset,
+.cz-trivia-booktools > * { min-width: 0; }
+/* Some emoji fonts report a narrower glyph than they draw, which eats the
+   space that follows. */
+.cz-trivia-cat > span:first-child,
+.cz-trivia-pills .gp-pill > span:first-child { margin-inline-end: .25em; }
+@media (max-width: 699px) {
+  .cz-trivia-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: var(--gp-space-2);
+    scrollbar-width: thin;
+  }
+  .cz-trivia-pills .gp-pill { flex: none; }
+}
+
+.cz-trivia-card { max-width: 760px; margin-inline: auto; }
+/* Count on the left, language and speaker on the right, the topic chip under
+   both. A grid, so the language pill never wraps under the count on a phone. */
+.cz-trivia-top {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--gp-space-2) var(--gp-space-3);
+  margin-bottom: var(--gp-space-4);
+  text-align: left;
+}
+.cz-trivia-top .gp-ex__count { margin: 0; grid-column: 1; grid-row: 1; }
+.cz-trivia-top .cz-trivia-cat { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+.cz-trivia-cat {
+  margin: 0;
+  padding: var(--gp-space-1) var(--gp-space-3);
+  border-radius: var(--gp-radius-pill);
+  background: var(--room-soft, var(--gp-accent-soft));
+  color: var(--room-ink, var(--gp-accent-strong));
+  font-weight: 700;
+  font-size: var(--gp-text-sm);
+}
+.cz-trivia-tools {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--gp-space-2);
+}
+.cz-trivia-lang { min-height: 44px; padding-inline: var(--gp-space-4); white-space: nowrap; }
+.cz-trivia-say { min-height: 44px; min-width: 44px; padding: 0 var(--gp-space-2); justify-content: center; }
+.cz-trivia-say svg { width: 20px; height: 20px; }
+.cz-trivia-wordnote { margin: 0; font-size: var(--gp-text-sm); color: var(--gp-ink-soft); }
+
+.cz-trivia-again {
+  display: inline-block;
+  margin: 0 0 var(--gp-space-3);
+  padding: var(--gp-space-1) var(--gp-space-3);
+  border-radius: var(--gp-radius-pill);
+  border: 2px dashed var(--room-line, var(--gp-accent-line));
+  font-weight: 700;
+}
+.cz-trivia-q { line-height: 1.3; }
+.cz-trivia-q__emoji { font-size: 1.3em; }
+
+.cz-trivia-choices--2,
+.cz-trivia-choices--4 { grid-template-columns: 1fr; }
+.cz-trivia-choices--3 { grid-template-columns: 1fr; }
+@media (min-width: 560px) {
+  .cz-trivia-choices--2,
+  .cz-trivia-choices--4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 700px) {
+  .cz-trivia-choices--3 { grid-template-columns: repeat(3, 1fr); }
+}
+.cz-trivia-choice {
+  min-height: 64px;
+  justify-content: center;
+  text-align: center;
+  gap: var(--gp-space-3);
+}
+.cz-trivia-choice .gp-choice__body { flex: 0 1 auto; }
+.cz-trivia-choice[disabled] { cursor: default; }
+.cz-trivia-choice__emoji { font-size: 1.25em; line-height: 1; }
+
+/* Easy is played by children who cannot read yet: big tiles, big pictures. */
+.cz-trivia-card--easy .cz-trivia-q { font-size: var(--gp-text-xl); }
+.cz-trivia-card--easy .cz-trivia-choice { min-height: 88px; font-size: var(--gp-text-lg); }
+.cz-trivia-card--easy .cz-trivia-choice__emoji { font-size: 1.6em; }
+.cz-trivia-card--easy .cz-trivia-choices--3 .cz-trivia-choice { flex-direction: column; gap: var(--gp-space-1); }
+.cz-trivia-card--hard .cz-trivia-q { font-size: var(--gp-text-md); }
+
+.cz-trivia-why {
+  max-width: 640px;
+  margin: 0 auto var(--gp-space-5);
+  padding: var(--gp-space-4) var(--gp-space-5);
+  border-radius: var(--gp-radius-lg);
+  background: var(--room-soft, var(--gp-accent-soft));
+  border: 1px solid var(--room-line, var(--gp-accent-line));
+  color: var(--gp-ink);
+  font-size: var(--gp-text-md);
+  line-height: 1.45;
+  text-align: left;
+}
+
+.cz-trivia-stars { font-size: var(--gp-text-lg); font-weight: 800; margin: 0 0 var(--gp-space-2); }
+.cz-trivia-ranks { list-style: none; margin: 0 0 var(--gp-space-5); padding: 0; display: grid; gap: var(--gp-space-1); }
+
+.cz-trivia-last,
+.cz-trivia-learnedbox {
+  margin: var(--gp-space-4) 0;
+  padding: var(--gp-space-4);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface-2);
+  text-align: left;
+}
+.cz-trivia-last__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gp-space-3);
+}
+.cz-trivia-last__title { margin: 0; font-size: var(--gp-text-md); font-weight: 800; }
+.cz-trivia-learned {
+  margin: var(--gp-space-3) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--gp-space-2);
+}
+.cz-trivia-learned li { display: flex; gap: var(--gp-space-2); line-height: 1.4; }
+.cz-trivia-learned li.is-missed { font-weight: 600; }
+
+.cz-trivia-booktools { display: grid; gap: var(--gp-space-3); margin-bottom: var(--gp-space-4); }
+.cz-trivia-booktools .cz-trivia-lang { justify-self: start; }
+.cz-trivia-book {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--gp-space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+}
+.cz-trivia-book__item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gp-space-3);
+  margin: 0;
+  opacity: .78;
+}
+.cz-trivia-book__item.is-got {
+  opacity: 1;
+  border-color: var(--room-line, var(--gp-accent-line));
+  background: var(--room-soft, var(--gp-accent-soft));
+}
+.cz-trivia-book__emoji { font-size: 1.4em; line-height: 1; }
+.cz-trivia-book__why { flex: 1; line-height: 1.4; }
+.cz-trivia-book__star { flex: none; }

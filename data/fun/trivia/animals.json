@@ -1,0 +1,139 @@
+{
+  "note": "Animals & Nature. Three levels in one file so a reviewer sees the ladder.",
+  "category": "animals",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "animals-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "Which farm animal says moo?", "es": "¿Qué animal de la granja hace \"muuu\"?" },
+      "choices": [
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
+        { "en": "Dog", "es": "El perro", "emoji": "🐶" },
+        { "en": "Duck", "es": "El pato", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cows moo to talk to each other, and a mother cow knows her own calf's voice.",
+               "es": "Las vacas mugen para hablar entre ellas, y una mamá vaca reconoce la voz de su ternero." },
+      "topic": "animal sounds",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cow"
+    },
+    {
+      "id": "animals-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "How many legs does a spider have?", "es": "¿Cuántas patas tiene una araña?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "🕷️" },
+        { "en": "Six", "es": "Seis", "emoji": "🐜" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🐕" }
+      ],
+      "answer": 0,
+      "why": { "en": "A spider has eight legs, so it is not an insect; an ant or a bee has six legs.",
+               "es": "Una araña tiene ocho patas, así que no es un insecto; una hormiga o una abeja tiene seis." },
+      "topic": "how many legs",
+      "source": "https://www.britannica.com/animal/spider-arachnid"
+    },
+    {
+      "id": "animals-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "What does a tadpole grow into?", "es": "¿En qué se convierte un renacuajo?" },
+      "choices": [
+        { "en": "A frog", "es": "Una rana", "emoji": "🐸" },
+        { "en": "A fish", "es": "Un pez", "emoji": "🐟" },
+        { "en": "A bird", "es": "Un pájaro", "emoji": "🐦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tadpole hatches in water with a tail, then grows legs and loses its tail to become a frog.",
+               "es": "Un renacuajo nace en el agua con cola; luego le salen patas, pierde la cola y se vuelve rana." },
+      "topic": "baby animals",
+      "source": "https://kids.nationalgeographic.com/animals/amphibians/facts/frog"
+    },
+    {
+      "id": "animals-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "Which animal is the fastest runner on land?", "es": "¿Cuál es el animal que corre más rápido en tierra?" },
+      "choices": [
+        { "en": "Cheetah", "es": "El guepardo" },
+        { "en": "Horse", "es": "El caballo" },
+        { "en": "Lion", "es": "El león" },
+        { "en": "Ostrich", "es": "El avestruz" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cheetah can sprint about 70 miles per hour, 110 km per hour, but only for a few seconds.",
+               "es": "Un guepardo puede correr a unos 110 km por hora, 70 millas por hora, pero solo unos segundos." },
+      "topic": "animal speed",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cheetah"
+    },
+    {
+      "id": "animals-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "What kind of animal is a whale, even though it swims?", "es": "¿Qué tipo de animal es la ballena, aunque nade en el mar?" },
+      "choices": [
+        { "en": "A mammal", "es": "Un mamífero" },
+        { "en": "A fish", "es": "Un pez" },
+        { "en": "A reptile", "es": "Un reptil" },
+        { "en": "An amphibian", "es": "Un anfibio" }
+      ],
+      "answer": 0,
+      "why": { "en": "Whales breathe air through a blowhole and feed their babies milk, just like every other mammal does.",
+               "es": "Las ballenas respiran aire por un orificio en la cabeza y alimentan a sus crías con leche, como todo mamífero." },
+      "topic": "animal groups",
+      "source": "https://www.britannica.com/animal/whale"
+    },
+    {
+      "id": "animals-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "What do we call the long winter sleep of some bears?", "es": "¿Cómo se llama el largo sueño de invierno de algunos osos?" },
+      "choices": [
+        { "en": "Hibernation", "es": "Hibernación" },
+        { "en": "Migration", "es": "Migración" },
+        { "en": "Camouflage", "es": "Camuflaje" },
+        { "en": "Pollination", "es": "Polinización" }
+      ],
+      "answer": 0,
+      "why": { "en": "During hibernation an animal's heartbeat and breathing slow down, so it can live on its stored body fat.",
+               "es": "Durante la hibernación, el corazón y la respiración del animal van más lento y vive de la grasa guardada." },
+      "topic": "migration and hibernation",
+      "source": "https://www.nps.gov/yell/learn/nature/bearhibernation.htm"
+    },
+    {
+      "id": "animals-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Bats find insects in the dark by listening to the echoes of their own calls. What is this called?",
+             "es": "Los murciélagos encuentran insectos en la oscuridad escuchando el eco de sus propios chillidos. ¿Cómo se llama esto?" },
+      "choices": [
+        { "en": "Echolocation", "es": "Ecolocalización" },
+        { "en": "Photosynthesis", "es": "Fotosíntesis" },
+        { "en": "Metamorphosis", "es": "Metamorfosis" },
+        { "en": "Symbiosis", "es": "Simbiosis" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dolphins use echolocation too; the time an echo takes to return tells the animal how far away something is.",
+               "es": "Los delfines también usan la ecolocalización; el tiempo que tarda el eco en volver indica a qué distancia está algo." },
+      "topic": "echolocation",
+      "source": "https://www.britannica.com/science/echolocation-physiology"
+    },
+    {
+      "id": "animals-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "A bee drinks nectar from a flower and carries its pollen to the next flower. What is this relationship called?",
+             "es": "Una abeja toma néctar de una flor y lleva su polen a la siguiente. ¿Cómo se llama esta relación?" },
+      "choices": [
+        { "en": "Mutualism", "es": "Mutualismo" },
+        { "en": "Parasitism", "es": "Parasitismo" },
+        { "en": "Predation", "es": "Depredación" },
+        { "en": "Competition", "es": "Competencia" }
+      ],
+      "answer": 0,
+      "why": { "en": "In mutualism both living things gain: the bee gets food, and the flower gets help making seeds.",
+               "es": "En el mutualismo los dos seres vivos ganan: la abeja consigue comida y la flor recibe ayuda para hacer semillas." },
+      "topic": "symbiosis",
+      "source": "https://education.nationalgeographic.org/resource/mutualism/"
+    },
+    {
+      "id": "animals-hard-003", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "An octopus has three hearts and blue blood.", "es": "Un pulpo tiene tres corazones y sangre azul." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two hearts pump blood through the gills and one through the body; copper in the blood makes it blue.",
+               "es": "Dos corazones bombean sangre a las branquias y uno al cuerpo; el cobre de su sangre la vuelve azul." },
+      "topic": "adaptations",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+    }
+  ]
+}

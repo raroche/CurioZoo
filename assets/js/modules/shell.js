@@ -64,6 +64,9 @@ export const state = {
     setup: { count: 10, mode: 'random', continents: [], pick: 'choice' },
     round: null
   },
+  /* Curio Trivia. `data` caches each category's questions, `setup` is seeded
+     from settings.trivia on the first visit, `book` is the Fact Book's view. */
+  trivia: { manifest: null, data: new Map(), setup: null, round: null, book: null },
   /* Chess Club. `board` and `game` are the live board and the rules object
      for whatever screen is showing; both are torn down on the way out, since
      a board left behind keeps its pointer listeners. */
@@ -107,7 +110,7 @@ export function hydrateIcons(root = document) {
 const SCREENS = ['home', 'gifted', 'tests', 'categories', 'quiz', 'results', 'parents',
   'math', 'mathtopic', 'fun', 'flagsetup', 'flaggame', 'shapesetup', 'shapegame',
   'capsetup', 'capgame', 'elemsetup', 'elemgame', 'angsetup', 'anggame',
-  'learn', 'elemlearn', 'anglearn',
+  'learn', 'elemlearn', 'anglearn', 'triviasetup', 'triviagame', 'trivialearn',
   'chess', 'chesslevel', 'chesslesson', 'chessplay', 'chesspuzzle', 'chessopenings',
   'chesstournament', 'error'];
 

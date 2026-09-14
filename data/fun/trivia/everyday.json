@@ -1,0 +1,141 @@
+{
+  "note": "Everyday Life: Food, Money, Time & Games. Three levels in one file so a reviewer sees the ladder.",
+  "category": "everyday",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "everyday-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which farm animal lays the eggs we eat?", "es": "¿Qué animal de la granja pone los huevos que comemos?" },
+      "choices": [
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
+        { "en": "Pig", "es": "El cerdo", "emoji": "🐖" },
+        { "en": "Hen", "es": "La gallina", "emoji": "🐔" }
+      ],
+      "answer": 2,
+      "why": { "en": "Hens lay eggs, and a healthy hen can lay about one egg almost every day.",
+               "es": "Las gallinas ponen huevos, y una gallina sana puede poner casi un huevo cada día." },
+      "topic": "where food comes from",
+      "source": "https://www.britannica.com/animal/chicken"
+    },
+    {
+      "id": "everyday-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚦",
+      "q": { "en": "Which traffic light color means stop?", "es": "¿Qué color del semáforo significa alto?" },
+      "choices": [
+        { "en": "Red", "es": "Rojo", "emoji": "🔴" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" },
+        { "en": "Yellow", "es": "Amarillo", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Red means stop, green means go, and yellow tells drivers the light is about to turn red.",
+               "es": "El rojo significa alto, el verde significa siga, y el amarillo avisa que la luz pronto cambiará a rojo." },
+      "topic": "traffic lights",
+      "source": "https://www.britannica.com/technology/traffic-signal"
+    },
+    {
+      "id": "everyday-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏰",
+      "q": { "en": "Which tool tells us what time it is?", "es": "¿Qué objeto nos dice qué hora es?" },
+      "choices": [
+        { "en": "Thermometer", "es": "El termómetro", "emoji": "🌡️" },
+        { "en": "Clock", "es": "El reloj", "emoji": "🕒" },
+        { "en": "Ruler", "es": "La regla", "emoji": "📏" }
+      ],
+      "answer": 1,
+      "why": { "en": "A clock shows the time with hands or numbers; the short hand points to the hour.",
+               "es": "Un reloj muestra la hora con manecillas o números; la manecilla corta señala la hora." },
+      "topic": "clocks",
+      "source": "https://www.britannica.com/technology/clock"
+    },
+    {
+      "id": "everyday-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "Which chess piece moves in an L shape?", "es": "¿Qué pieza de ajedrez se mueve en forma de L?" },
+      "choices": [
+        { "en": "Bishop", "es": "El alfil" },
+        { "en": "Rook", "es": "La torre" },
+        { "en": "Knight", "es": "El caballo" },
+        { "en": "Queen", "es": "La reina" }
+      ],
+      "answer": 2,
+      "why": { "en": "The knight moves two squares one way and one square to the side, and it can jump over other pieces.",
+               "es": "El caballo avanza dos casillas en una dirección y una hacia el lado, y puede saltar por encima de otras piezas." },
+      "topic": "chess",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧀",
+      "q": { "en": "Cheese is made mostly from which food?", "es": "¿De qué alimento se hace principalmente el queso?" },
+      "choices": [
+        { "en": "Flour", "es": "Harina" },
+        { "en": "Milk", "es": "Leche" },
+        { "en": "Eggs", "es": "Huevos" },
+        { "en": "Corn", "es": "Maíz" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cheese makers add special bacteria and an enzyme to milk so it thickens into curds, which are pressed and aged.",
+               "es": "Para hacer queso se agregan bacterias y una enzima a la leche; se forma la cuajada, que luego se prensa y se deja madurar." },
+      "topic": "how food is made",
+      "source": "https://www.britannica.com/topic/cheese"
+    },
+    {
+      "id": "everyday-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "Which month has the fewest days?", "es": "¿Qué mes tiene menos días?" },
+      "choices": [
+        { "en": "April", "es": "Abril" },
+        { "en": "June", "es": "Junio" },
+        { "en": "September", "es": "Septiembre" },
+        { "en": "February", "es": "Febrero" }
+      ],
+      "answer": 3,
+      "why": { "en": "February has 28 days, or 29 in a leap year; every other month has 30 or 31 days.",
+               "es": "Febrero tiene 28 días, o 29 en un año bisiesto; todos los demás meses tienen 30 o 31 días." },
+      "topic": "months and seasons",
+      "source": "https://www.britannica.com/science/leap-year-calendar"
+    },
+    {
+      "id": "everyday-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏅",
+      "q": { "en": "In which country did the ancient Olympic Games begin?", "es": "¿En qué país comenzaron los antiguos Juegos Olímpicos?" },
+      "choices": [
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "Italy", "es": "Italia" },
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Turkey", "es": "Turquía" }
+      ],
+      "answer": 0,
+      "why": { "en": "The first Olympic Games were held at Olympia, in Greece, about 2,800 years ago, and the first event was a footrace.",
+               "es": "Los primeros Juegos Olímpicos se hicieron en Olimpia, Grecia, hace unos 2800 años, y la primera prueba fue una carrera a pie." },
+      "topic": "olympic history",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "everyday-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "In chess, what is it called when a pawn reaches the far end of the board and becomes another piece?",
+             "es": "En ajedrez, ¿cómo se llama cuando un peón llega al otro extremo del tablero y se convierte en otra pieza?" },
+      "choices": [
+        { "en": "Castling", "es": "El enroque" },
+        { "en": "Promotion", "es": "La coronación" },
+        { "en": "En passant", "es": "La captura al paso" },
+        { "en": "Checkmate", "es": "El jaque mate" }
+      ],
+      "answer": 1,
+      "why": { "en": "Promotion lets a pawn become a queen, rook, bishop or knight; most players pick a queen, the strongest piece.",
+               "es": "La coronación permite que un peón se convierta en reina, torre, alfil o caballo; casi siempre se elige la reina, la pieza más fuerte." },
+      "topic": "chess terms",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏦",
+      "q": { "en": "When you keep money in a savings account, what is the extra money the bank pays you called?",
+             "es": "Si guardas dinero en una cuenta de ahorros, ¿cómo se llama el dinero extra que te paga el banco?" },
+      "choices": [
+        { "en": "Tax", "es": "Impuesto" },
+        { "en": "Loan", "es": "Préstamo" },
+        { "en": "Change", "es": "Cambio" },
+        { "en": "Interest", "es": "Interés" }
+      ],
+      "answer": 3,
+      "why": { "en": "Interest is a small percentage the bank adds to your savings, because it can lend your money to other people.",
+               "es": "El interés es un pequeño porcentaje que el banco suma a tus ahorros, porque puede prestar tu dinero a otras personas." },
+      "topic": "banks and interest",
+      "source": "https://www.britannica.com/topic/interest-economics"
+    }
+  ]
+}

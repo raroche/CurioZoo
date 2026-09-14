@@ -1,0 +1,139 @@
+{
+  "note": "Art, Music & Stories. Three levels in one file so a reviewer sees the ladder.",
+  "category": "art",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "art-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Which color do blue and yellow make together?", "es": "¿Qué color sale si mezclas azul y amarillo?" },
+      "choices": [
+        { "en": "Purple", "es": "Morado", "emoji": "🟣" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" },
+        { "en": "Orange", "es": "Naranja", "emoji": "🟠" }
+      ],
+      "answer": 1,
+      "why": { "en": "Blue and yellow paint mixed together make green, the color of leaves and grass.",
+               "es": "La pintura azul y la amarilla juntas hacen verde, el color de las hojas y el pasto." },
+      "topic": "mixing colors",
+      "source": "https://www.britannica.com/science/color/The-visible-spectrum"
+    },
+    {
+      "id": "art-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Which instrument do you play by hitting it?", "es": "¿Qué instrumento se toca dándole golpes?" },
+      "choices": [
+        { "en": "Trumpet", "es": "La trompeta", "emoji": "🎺" },
+        { "en": "Guitar", "es": "La guitarra", "emoji": "🎸" },
+        { "en": "Drum", "es": "El tambor", "emoji": "🥁" }
+      ],
+      "answer": 2,
+      "why": { "en": "You hit a drum with your hands or with sticks, and its skin shakes to make a boom.",
+               "es": "Golpeas el tambor con las manos o con baquetas, y su parche vibra y hace un sonido fuerte." },
+      "topic": "instruments",
+      "source": "https://www.britannica.com/art/drum-musical-instrument"
+    },
+    {
+      "id": "art-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐷",
+      "q": { "en": "How many little pigs build houses in the story?", "es": "¿Cuántos cerditos construyen casas en el cuento?" },
+      "choices": [
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Three little pigs build houses of straw, sticks and bricks, and only the brick house stays standing.",
+               "es": "Tres cerditos construyen casas de paja, de palos y de ladrillos, y solo la de ladrillos queda en pie." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/The-Three-Little-Pigs"
+    },
+    {
+      "id": "art-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "Which artist painted the Mona Lisa?", "es": "¿Qué artista pintó la Mona Lisa?" },
+      "choices": [
+        { "en": "Vincent van Gogh", "es": "Vincent van Gogh" },
+        { "en": "Leonardo da Vinci", "es": "Leonardo da Vinci" },
+        { "en": "Pablo Picasso", "es": "Pablo Picasso" },
+        { "en": "Frida Kahlo", "es": "Frida Kahlo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Leonardo da Vinci painted the Mona Lisa in Italy about 500 years ago; it hangs in the Louvre in Paris.",
+               "es": "Leonardo da Vinci pintó la Mona Lisa en Italia hace unos 500 años; está en el Museo del Louvre, en París." },
+      "topic": "famous paintings",
+      "source": "https://www.britannica.com/topic/Mona-Lisa-painting"
+    },
+    {
+      "id": "art-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "To which instrument family does the violin belong?", "es": "¿A qué familia de instrumentos pertenece el violín?" },
+      "choices": [
+        { "en": "Brass", "es": "Metales" },
+        { "en": "Woodwinds", "es": "Viento madera" },
+        { "en": "Percussion", "es": "Percusión" },
+        { "en": "Strings", "es": "Cuerdas" }
+      ],
+      "answer": 3,
+      "why": { "en": "A violin has four strings that you play with a bow, just like its bigger cousins, the viola, cello and double bass.",
+               "es": "El violín tiene cuatro cuerdas que se tocan con un arco, igual que sus primos más grandes: la viola, el violonchelo y el contrabajo." },
+      "topic": "instrument families",
+      "source": "https://www.britannica.com/art/violin"
+    },
+    {
+      "id": "art-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐇",
+      "q": { "en": "Which author wrote and drew The Tale of Peter Rabbit?", "es": "¿Quién escribió y dibujó el cuento de Peter Rabbit?" },
+      "choices": [
+        { "en": "Roald Dahl", "es": "Roald Dahl" },
+        { "en": "Dr. Seuss", "es": "Dr. Seuss" },
+        { "en": "Beatrix Potter", "es": "Beatrix Potter" },
+        { "en": "Hans Christian Andersen", "es": "Hans Christian Andersen" }
+      ],
+      "answer": 2,
+      "why": { "en": "Beatrix Potter wrote and painted The Tale of Peter Rabbit in England, first as a letter to a sick little boy.",
+               "es": "Beatrix Potter escribió y pintó el cuento de Peter Rabbit en Inglaterra; primero fue una carta para un niño enfermo." },
+      "topic": "children's authors",
+      "source": "https://www.britannica.com/biography/Beatrix-Potter"
+    },
+    {
+      "id": "art-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "Claude Monet and Pierre-Auguste Renoir led which art movement that painted light with quick brushstrokes?",
+             "es": "¿Qué movimiento artístico, que pintaba la luz con pinceladas rápidas, encabezaron Claude Monet y Pierre-Auguste Renoir?" },
+      "choices": [
+        { "en": "Cubism", "es": "Cubismo" },
+        { "en": "Impressionism", "es": "Impresionismo" },
+        { "en": "Surrealism", "es": "Surrealismo" },
+        { "en": "Baroque", "es": "Barroco" }
+      ],
+      "answer": 1,
+      "why": { "en": "Impressionism got its name from Monet's painting Impression, Sunrise, shown in Paris in 1874; a critic meant the name as an insult.",
+               "es": "El impresionismo tomó su nombre del cuadro Impresión, sol naciente, de Monet, expuesto en París en 1874; un crítico lo usó como burla." },
+      "topic": "art movements",
+      "source": "https://www.britannica.com/art/Impressionism-art"
+    },
+    {
+      "id": "art-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎼",
+      "q": { "en": "In music, how many beats does a whole note get in 4/4 time?",
+             "es": "En música, ¿cuántos tiempos dura una redonda en un compás de 4/4?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "1", "es": "1" },
+        { "en": "8", "es": "8" },
+        { "en": "4", "es": "4" }
+      ],
+      "answer": 3,
+      "why": { "en": "A whole note fills a whole 4/4 bar with four beats; a half note gets two beats and a quarter note gets one.",
+               "es": "Una redonda llena todo un compás de 4/4 con cuatro tiempos; una blanca dura dos tiempos y una negra dura uno." },
+      "topic": "musical notation",
+      "source": "https://www.britannica.com/art/musical-notation"
+    },
+    {
+      "id": "art-hard-003", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎭",
+      "q": { "en": "Miguel de Cervantes wrote the play Romeo and Juliet.", "es": "Miguel de Cervantes escribió la obra de teatro Romeo y Julieta." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "William Shakespeare wrote Romeo and Juliet in England; Miguel de Cervantes wrote Don Quixote in Spain around the same time.",
+               "es": "William Shakespeare escribió Romeo y Julieta en Inglaterra; Miguel de Cervantes escribió Don Quijote en España por la misma época." },
+      "topic": "shakespeare",
+      "source": "https://www.britannica.com/topic/Romeo-and-Juliet"
+    }
+  ]
+}

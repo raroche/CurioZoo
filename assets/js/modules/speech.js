@@ -57,10 +57,44 @@ function pickVoice() {
     || voices[0];
 }
 
+/* A Spanish voice, for Curio Trivia's Spanish cards. Looked for only when
+   first asked, and forgotten when the voice list changes. `undefined` means
+   not looked for yet; `null` means the device has none. Device voices first,
+   then Mexican or US Spanish (closest to the neutral Latin American the bank
+   is written in), then Latin American, then any Spanish at all. The Eloquence
+   voices are the robotic ones, so they are skipped when anything else exists. */
+let spanishVoice;
+
+function pickSpanish() {
+  if (!SUPPORTED) return null;
+  const all = (window.speechSynthesis.getVoices() || []).filter((v) => /^es\b|^es[-_]/i.test(v.lang));
+  if (!all.length) return null;
+  const nice = all.filter((v) => !/eloquence/i.test(v.name));
+  const list = nice.length ? nice : all;
+  for (const pool of [list.filter(isLocalVoice), list]) {
+    const hit = pool.find((v) => /^es[-_](MX|US)/i.test(v.lang))
+      || pool.find((v) => /^es[-_]419/i.test(v.lang))
+      || pool[0];
+    if (hit) return hit;
+  }
+  return null;
+}
+
+/**
+ * The voice that will read a language, or null when the device has none.
+ * @param {'en'|'es'} lang
+ */
+export function voiceFor(lang) {
+  if (lang !== 'es') return preferredVoice;
+  if (spanishVoice === undefined) spanishVoice = pickSpanish();
+  return spanishVoice;
+}
+
 if (SUPPORTED) {
   preferredVoice = pickVoice();
   window.speechSynthesis.addEventListener('voiceschanged', () => {
     preferredVoice = pickVoice();
+    spanishVoice = undefined;
   });
 }
 
@@ -108,15 +142,17 @@ export function cancel() {
  * mashing the speaker button should restart, not queue five copies.
  *
  * @param {string|string[]} text  a string, or parts spoken with a pause between
- * @param {{ force?: boolean }} [opts] force speaks even when muted
+ * @param {{ force?: boolean, lang?: 'en'|'es' }} [opts] force speaks even when
+ *        muted; lang 'es' reads with a Spanish voice (English is the default)
  * @returns {Promise<void>} resolves when speech finishes or is cancelled
  */
 export function speak(text, opts = {}) {
   if (!SUPPORTED) return Promise.resolve();
   if (!enabled && !opts.force) return Promise.resolve();
 
+  const spanish = opts.lang === 'es';
   const parts = (Array.isArray(text) ? text : [text])
-    .map((t) => cleanForSpeech(t))
+    .map((t) => cleanForSpeech(t, spanish ? 'es' : 'en'))
     .filter(Boolean);
   if (!parts.length) return Promise.resolve();
 
@@ -129,8 +165,16 @@ export function speak(text, opts = {}) {
       if (index >= parts.length) { emit('idle'); resolve(); return; }
       const u = new window.SpeechSynthesisUtterance(parts[index]);
       index += 1;
-      if (preferredVoice) u.voice = preferredVoice;
-      u.lang = (preferredVoice && preferredVoice.lang) || 'en-US';
+      if (spanish) {
+        /* With no Spanish voice the language tag still goes on, so the
+           browser can substitute one rather than read Spanish in English. */
+        const es = voiceFor('es');
+        if (es) u.voice = es;
+        u.lang = 'es-MX';
+      } else {
+        if (preferredVoice) u.voice = preferredVoice;
+        u.lang = (preferredVoice && preferredVoice.lang) || 'en-US';
+      }
       u.rate = rate;
       u.pitch = 1.05;
       u.volume = 1;
@@ -151,18 +195,24 @@ export function speak(text, opts = {}) {
  * Strip characters that speech engines read out awkwardly, and expand the few
  * symbols that appear in maths stems so "3 + 4" is not read as "three four".
  */
-export function cleanForSpeech(raw) {
+const SAY = {
+  en: { plus: 'plus', minus: 'minus', times: 'times', over: 'divided by', equals: 'equals', isTo: 'is to', blank: 'blank' },
+  es: { plus: 'más', minus: 'menos', times: 'por', over: 'entre', equals: 'es igual a', isTo: 'es a', blank: 'espacio' }
+};
+
+export function cleanForSpeech(raw, lang = 'en') {
   if (raw == null) return '';
+  const w = SAY[lang] || SAY.en;
   return String(raw)
     .replace(/\s*[?]\s*$/, '?')
-    .replace(/([0-9])\s*\+\s*([0-9])/g, '$1 plus $2')
-    .replace(/([0-9])\s*[-−]\s*([0-9])/g, '$1 minus $2')
-    .replace(/([0-9])\s*[x×*]\s*([0-9])/g, '$1 times $2')
-    .replace(/([0-9])\s*[÷/]\s*([0-9])/g, '$1 divided by $2')
-    .replace(/\s*=\s*/g, ' equals ')
-    .replace(/\s*::\s*/g, ' is to ')
-    .replace(/\s+:\s+/g, ' is to ')
-    .replace(/[_]{2,}/g, ' blank ')
+    .replace(/([0-9])\s*\+\s*([0-9])/g, `$1 ${w.plus} $2`)
+    .replace(/([0-9])\s*[-−]\s*([0-9])/g, `$1 ${w.minus} $2`)
+    .replace(/([0-9])\s*[x×*]\s*([0-9])/g, `$1 ${w.times} $2`)
+    .replace(/([0-9])\s*[÷/]\s*([0-9])/g, `$1 ${w.over} $2`)
+    .replace(/\s*=\s*/g, ` ${w.equals} `)
+    .replace(/\s*::\s*/g, ` ${w.isTo} `)
+    .replace(/\s+:\s+/g, ` ${w.isTo} `)
+    .replace(/[_]{2,}/g, ` ${w.blank} `)
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -186,4 +236,4 @@ export function unlock() {
   } catch { /* nothing to do; speech simply stays unavailable */ }
 }
 
-export default { isSupported, isEnabled, setEnabled, speak, cancel, unlock, onStateChange, setRate, getRate, cleanForSpeech };
+export default { isSupported, isEnabled, setEnabled, speak, cancel, unlock, onStateChange, setRate, getRate, cleanForSpeech, voiceFor };

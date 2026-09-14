@@ -1,0 +1,137 @@
+{
+  "note": "Geography & Maps. Three levels in one file so a reviewer sees the ladder.",
+  "category": "geography",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "geography-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "What do we call land surrounded by water?", "es": "¿Cómo se llama la tierra rodeada de agua?" },
+      "choices": [
+        { "en": "An island", "es": "Una isla", "emoji": "🏝️" },
+        { "en": "A mountain", "es": "Una montaña", "emoji": "⛰️" },
+        { "en": "A desert", "es": "Un desierto", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "An island is land with water on every side, so you need a boat or a plane to reach it.",
+               "es": "Una isla es tierra con agua por todos lados, así que para llegar necesitas un barco o un avión." },
+      "topic": "islands",
+      "source": "https://education.nationalgeographic.org/resource/island/"
+    },
+    {
+      "id": "geography-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "What shape is a globe of the world?", "es": "¿Qué forma tiene un globo terráqueo?" },
+      "choices": [
+        { "en": "Flat like a plate", "es": "Plano como un plato", "emoji": "🍽️" },
+        { "en": "Round like a ball", "es": "Redondo como una pelota", "emoji": "⚽" },
+        { "en": "Square like a box", "es": "Cuadrado como una caja", "emoji": "📦" }
+      ],
+      "answer": 1,
+      "why": { "en": "A globe is round like a ball because Earth is round, so it shows the land and oceans in their true shapes.",
+               "es": "Un globo terráqueo es redondo como una pelota porque la Tierra es redonda, y muestra la tierra y los mares con su forma real." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/globe/"
+    },
+    {
+      "id": "geography-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which of these holds the most water?", "es": "¿Cuál de estos tiene más agua?" },
+      "choices": [
+        { "en": "A puddle", "es": "Un charco", "emoji": "💧" },
+        { "en": "A lake", "es": "Un lago", "emoji": "🏞️" },
+        { "en": "The ocean", "es": "El océano", "emoji": "🌊" }
+      ],
+      "answer": 2,
+      "why": { "en": "An ocean is far bigger than any lake, and oceans cover more than half of our whole planet.",
+               "es": "Un océano es mucho más grande que cualquier lago, y los océanos cubren más de la mitad de nuestro planeta." },
+      "topic": "land and water",
+      "source": "https://oceanservice.noaa.gov/facts/oceanwater.html"
+    },
+    {
+      "id": "geography-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Which is the largest continent on Earth?", "es": "¿Cuál es el continente más grande de la Tierra?" },
+      "choices": [
+        { "en": "Africa", "es": "África" },
+        { "en": "Europe", "es": "Europa" },
+        { "en": "Australia", "es": "Australia" },
+        { "en": "Asia", "es": "Asia" }
+      ],
+      "answer": 3,
+      "why": { "en": "Asia covers almost one third of all the land on Earth and stretches from Turkey to Japan.",
+               "es": "Asia cubre casi un tercio de toda la tierra firme del planeta y va desde Turquía hasta Japón." },
+      "topic": "continents",
+      "source": "https://www.britannica.com/place/Asia"
+    },
+    {
+      "id": "geography-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What imaginary line circles Earth halfway between the North and South Poles?", "es": "¿Qué línea imaginaria rodea la Tierra a mitad de camino entre el polo norte y el polo sur?" },
+      "choices": [
+        { "en": "The equator", "es": "El ecuador" },
+        { "en": "The Prime Meridian", "es": "El meridiano de Greenwich" },
+        { "en": "The Tropic of Cancer", "es": "El trópico de Cáncer" },
+        { "en": "The Arctic Circle", "es": "El círculo polar ártico" }
+      ],
+      "answer": 0,
+      "why": { "en": "The equator splits Earth into the Northern and Southern Hemispheres, and it crosses Ecuador, a country named after it.",
+               "es": "El ecuador divide la Tierra en los hemisferios norte y sur, y cruza Ecuador, un país que lleva su nombre." },
+      "topic": "equator and poles",
+      "source": "https://education.nationalgeographic.org/resource/equator/"
+    },
+    {
+      "id": "geography-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "In which country can you visit the ancient Inca city of Machu Picchu?", "es": "¿En qué país puedes visitar Machu Picchu, la antigua ciudad inca?" },
+      "choices": [
+        { "en": "Mexico", "es": "México" },
+        { "en": "Chile", "es": "Chile" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Bolivia", "es": "Bolivia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Machu Picchu sits high in the Andes mountains of Peru, about 8000 feet (2400 m) above the sea.",
+               "es": "Machu Picchu está en lo alto de la cordillera de los Andes, en Perú, a unos 2400 m (8000 pies) sobre el mar." },
+      "topic": "landmarks",
+      "source": "https://www.britannica.com/place/Machu-Picchu"
+    },
+    {
+      "id": "geography-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Which landlocked South American country has Asunción as its capital city?", "es": "¿Qué país de Sudamérica sin salida al mar tiene como capital a Asunción?" },
+      "choices": [
+        { "en": "Uruguay", "es": "Uruguay" },
+        { "en": "Paraguay", "es": "Paraguay" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Guyana", "es": "Guyana" }
+      ],
+      "answer": 1,
+      "why": { "en": "Paraguay and Bolivia are the two landlocked countries of South America, yet Paraguay's rivers still carry ships to the Atlantic.",
+               "es": "Paraguay y Bolivia son los dos únicos países de Sudamérica sin salida al mar, pero los ríos paraguayos llevan barcos al Atlántico." },
+      "topic": "landlocked countries",
+      "source": "https://www.britannica.com/place/Paraguay"
+    },
+    {
+      "id": "geography-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "The Prime Meridian, the line of 0° longitude, runs through which city?", "es": "¿Por qué ciudad pasa el meridiano de Greenwich, la línea de longitud 0°?" },
+      "choices": [
+        { "en": "Paris", "es": "París" },
+        { "en": "Madrid", "es": "Madrid" },
+        { "en": "Lisbon", "es": "Lisboa" },
+        { "en": "London", "es": "Londres" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Prime Meridian passes through the Royal Observatory in Greenwich, London, and splits Earth into the Eastern and Western Hemispheres.",
+               "es": "El meridiano de Greenwich pasa por el Observatorio Real de Greenwich, en Londres, y divide la Tierra en hemisferio oriental y occidental." },
+      "topic": "latitude and longitude",
+      "source": "https://education.nationalgeographic.org/resource/prime-meridian/"
+    },
+    {
+      "id": "geography-hard-003", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "The Atacama Desert in Chile is one of the driest places on Earth.", "es": "El desierto de Atacama, en Chile, es uno de los lugares más secos de la Tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: some weather stations in Chile's Atacama Desert have gone years without measuring a single drop of rain.",
+               "es": "Cierto: algunas estaciones del clima en el desierto de Atacama han pasado años sin medir ni una gota de lluvia." },
+      "topic": "deserts",
+      "source": "https://www.britannica.com/place/Atacama-Desert"
+    }
+  ]
+}

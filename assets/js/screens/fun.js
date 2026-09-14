@@ -16,6 +16,7 @@ import * as angles from './../modules/angles.js';
 import { SCENES, sceneSvg } from './../modules/angleart.js';
 import { spreadAnswer, noteSlot } from './../modules/slots.js';
 import { renderLearn, renderElemLearn, renderAngleLearn } from './learn.js';
+import { renderTrivia, renderTriviaLearn } from './trivia.js';
 import { $, $$, paint, react, showError, showScreen, state } from './../modules/shell.js';
 
 /* ------------------------------------------------------------------ */
@@ -71,7 +72,17 @@ const ART = {
     <rect x="13" y="36" width="11" height="16" rx="2" fill="${t}"/>
     <rect x="26.5" y="29" width="11" height="23" rx="2" fill="${t}"/>
     <rect x="40" y="33" width="11" height="19" rx="2" fill="${t}"/>
-    <path d="M10 52 H54" stroke="${t}" stroke-width="3.4" stroke-linecap="round" fill="none"/>`
+    <path d="M10 52 H54" stroke="${t}" stroke-width="3.4" stroke-linecap="round" fill="none"/>`,
+
+  /* A speech bubble asking something. Trivia is a conversation: a question,
+     an answer, and then the "why" that makes it worth having asked. */
+  quiz: (t, p) => `
+    <rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
+    <path d="M14 13 H50 A5 5 0 0 1 55 18 V39 A5 5 0 0 1 50 44 H30 L20 53 V44 H14
+             A5 5 0 0 1 9 39 V18 A5 5 0 0 1 14 13 Z" fill="${t}"/>
+    <path d="M26.5 23.5 A5.5 5.5 0 1 1 34 28.6 C32.6 29.3 32 30.2 32 31.8 V33"
+          fill="none" stroke="${p}" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="38.6" r="2.4" fill="${p}"/>`
 };
 
 const gameArt = (kind) => `<svg class="cz-gameart" viewBox="0 0 64 64" aria-hidden="true"
@@ -93,7 +104,10 @@ const FUN_GAMES = [
     meta: '118 elements \u00b7 4 kinds of question' },
   { id: 'angles', art: 'angle', hue: 'sky', name: 'Guess the Angle',
     sub: 'How far does it open? Clock hands, roofs, ramps and a ball that bounces.',
-    meta: '6 kinds of question \u00b7 no protractor needed' }
+    meta: '6 kinds of question \u00b7 no protractor needed' },
+  { id: 'trivia', art: 'quiz', hue: 'orchid', name: 'Curio Trivia',
+    sub: 'Animals, space, your body, the world. Three levels, every answer teaches you something.',
+    meta: '162 questions \u00b7 English or Spanish' }
 ];
 
 function renderFunHub() {
@@ -117,6 +131,7 @@ export async function renderFun(game, step) {
   if (step === 'learn') {
     if (game === 'elements') { await renderElemLearn(); return; }
     if (game === 'angles') { renderAngleLearn(); return; }
+    if (game === 'trivia') { await renderTriviaLearn(); return; }
     await renderLearn(game);
     return;
   }
@@ -124,6 +139,7 @@ export async function renderFun(game, step) {
   if (game === 'capitals') { await renderCapitals(step); return; }
   if (game === 'elements') { await renderElements(step); return; }
   if (game === 'angles') { renderAngles(step); return; }
+  if (game === 'trivia') { await renderTrivia(step); return; }
   if (game !== 'flags') { renderFunHub(); return; }
   try {
     if (!state.flags.data) state.flags.data = await flags.loadFlags();

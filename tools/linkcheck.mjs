@@ -132,7 +132,7 @@ for (const [link, from] of links) {
     }
   }
   if (head === 'fun' && parts[1] && !open) {
-    const games = new Set(['flags', 'shapes', 'capitals', 'elements', 'angles']);
+    const games = new Set(['flags', 'shapes', 'capitals', 'elements', 'angles', 'trivia']);
     if (!games.has(parts[1])) err(`${link} -> no game called "${parts[1]}"   [${where}]`);
     if (parts[2] && !['play', 'learn'].includes(parts[2])) {
       err(`${link} -> unknown step "${parts[2]}"   [${where}]`);

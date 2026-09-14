@@ -1,0 +1,253 @@
+{
+  "note": "Words & Language. Two native pools per level: lang en tests English, lang es tests Spanish. Never translations of each other.",
+  "category": "words",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "words-easy-001", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐱",
+      "q": { "en": "Which word rhymes with cat?" },
+      "choices": [
+        { "en": "Hat", "emoji": "🎩" },
+        { "en": "Dog", "emoji": "🐶" },
+        { "en": "Sun", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cat and hat end with the same sound, -at, so they rhyme, just like bat, mat and rat." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/rhyme"
+    },
+    {
+      "id": "words-easy-002", "level": "easy", "type": "mc", "lang": "en", "emoji": "⚽",
+      "q": { "en": "Which word starts with the same sound as ball?" },
+      "choices": [
+        { "en": "Moon", "emoji": "🌙" },
+        { "en": "Bear", "emoji": "🐻" },
+        { "en": "Fish", "emoji": "🐟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ball and bear both begin with the b sound; you press your lips together, then pop them open to say it." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/b"
+    },
+    {
+      "id": "words-easy-003", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔥",
+      "q": { "en": "What is the opposite of hot?" },
+      "choices": [
+        { "en": "Big", "emoji": "🐘" },
+        { "en": "Fast", "emoji": "🐇" },
+        { "en": "Cold", "emoji": "🧊" }
+      ],
+      "answer": 2,
+      "why": { "en": "Opposites mean very different things: hot is like a campfire, and cold is like ice or snow." },
+      "topic": "opposites",
+      "source": "https://www.merriam-webster.com/dictionary/cold"
+    },
+    {
+      "id": "words-easy-004", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐱",
+      "q": { "es": "¿Qué palabra rima con gato?" },
+      "choices": [
+        { "es": "Sol", "emoji": "☀️" },
+        { "es": "Pato", "emoji": "🦆" },
+        { "es": "Luna", "emoji": "🌙" }
+      ],
+      "answer": 1,
+      "why": { "es": "Gato y pato terminan con el mismo sonido, -ato, por eso riman, igual que zapato y plato." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/rima"
+    },
+    {
+      "id": "words-easy-005", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔤",
+      "q": { "es": "¿Qué palabra empieza con la letra m?" },
+      "choices": [
+        { "es": "Casa", "emoji": "🏠" },
+        { "es": "Árbol", "emoji": "🌳" },
+        { "es": "Manzana", "emoji": "🍎" }
+      ],
+      "answer": 2,
+      "why": { "es": "Manzana empieza con m, como mamá y mono; casa empieza con c y árbol empieza con a." },
+      "topic": "primera letra",
+      "source": "https://dle.rae.es/manzana"
+    },
+    {
+      "id": "words-easy-006", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐘",
+      "q": { "es": "¿Cuál es lo contrario de grande?" },
+      "choices": [
+        { "es": "Pequeño", "emoji": "🐜" },
+        { "es": "Alto", "emoji": "🦒" },
+        { "es": "Rápido", "emoji": "🐆" }
+      ],
+      "answer": 0,
+      "why": { "es": "Lo contrario de grande es pequeño: un elefante es grande y una hormiga es muy pequeña." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/peque%C3%B1o"
+    },
+    {
+      "id": "words-medium-001", "level": "medium", "type": "mc", "lang": "en", "emoji": "😊",
+      "q": { "en": "Which word is a synonym for happy?" },
+      "choices": [
+        { "en": "Angry" },
+        { "en": "Tired" },
+        { "en": "Glad" },
+        { "en": "Quiet" }
+      ],
+      "answer": 2,
+      "why": { "en": "Synonyms are words with nearly the same meaning; glad and happy both describe feeling good about something." },
+      "topic": "synonyms",
+      "source": "https://www.merriam-webster.com/thesaurus/happy"
+    },
+    {
+      "id": "words-medium-002", "level": "medium", "type": "mc", "lang": "en", "emoji": "🔓",
+      "q": { "en": "What does the prefix un- mean in the word unlock?" },
+      "choices": [
+        { "en": "Before" },
+        { "en": "The opposite of" },
+        { "en": "Again" },
+        { "en": "Very" }
+      ],
+      "answer": 1,
+      "why": { "en": "The prefix un- flips a word's meaning, so unlock is the opposite of lock, and unpack is the opposite of pack." },
+      "topic": "prefixes",
+      "source": "https://www.merriam-webster.com/dictionary/un-"
+    },
+    {
+      "id": "words-medium-003", "level": "medium", "type": "mc", "lang": "en", "emoji": "🌊",
+      "q": { "en": "Which two words sound the same but have different meanings?" },
+      "choices": [
+        { "en": "Big and large" },
+        { "en": "Hot and cold" },
+        { "en": "Cat and hat" },
+        { "en": "Sea and see" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sea and see are homophones: they sound exactly alike, but one is salty water and the other means to look." },
+      "topic": "homophones",
+      "source": "https://www.merriam-webster.com/dictionary/homophone"
+    },
+    {
+      "id": "words-medium-004", "level": "medium", "type": "mc", "lang": "es", "emoji": "🦋",
+      "q": { "es": "¿Cuántas sílabas tiene la palabra mariposa?" },
+      "choices": [
+        { "es": "Dos" },
+        { "es": "Tres" },
+        { "es": "Cuatro" },
+        { "es": "Cinco" }
+      ],
+      "answer": 2,
+      "why": { "es": "Mariposa tiene cuatro sílabas, ma-ri-po-sa; puedes contarlas dando una palmada por cada una." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/s%C3%ADlaba"
+    },
+    {
+      "id": "words-medium-005", "level": "medium", "type": "mc", "lang": "es", "emoji": "✍️",
+      "q": { "es": "¿Qué palabra lleva tilde en la última sílaba?" },
+      "choices": [
+        { "es": "Canción" },
+        { "es": "Árbol" },
+        { "es": "Mesa" },
+        { "es": "Lápiz" }
+      ],
+      "answer": 0,
+      "why": { "es": "Canción lleva tilde en la última sílaba; árbol y lápiz también llevan tilde, pero en la primera sílaba." },
+      "topic": "acentos",
+      "source": "https://dle.rae.es/tilde"
+    },
+    {
+      "id": "words-medium-006", "level": "medium", "type": "mc", "lang": "es", "emoji": "📖",
+      "q": { "es": "¿Qué significa el prefijo re- en la palabra releer?" },
+      "choices": [
+        { "es": "Antes de" },
+        { "es": "Volver a" },
+        { "es": "Debajo de" },
+        { "es": "Sin" }
+      ],
+      "answer": 1,
+      "why": { "es": "El prefijo re- significa volver a hacer algo: releer es leer otra vez, y rehacer es hacer de nuevo." },
+      "topic": "prefijos",
+      "source": "https://dle.rae.es/re-"
+    },
+    {
+      "id": "words-hard-001", "level": "hard", "type": "mc", "lang": "en", "emoji": "🐠",
+      "q": { "en": "The Latin root aqua, found in aquarium and aquatic, means what?" },
+      "choices": [
+        { "en": "Fish" },
+        { "en": "Glass" },
+        { "en": "Water" },
+        { "en": "Blue" }
+      ],
+      "answer": 2,
+      "why": { "en": "Aqua is Latin for water, so an aquarium is a tank of water and aquatic animals, like dolphins, live in water." },
+      "topic": "latin roots",
+      "source": "https://www.merriam-webster.com/dictionary/aquatic"
+    },
+    {
+      "id": "words-hard-002", "level": "hard", "type": "mc", "lang": "en", "emoji": "🥪",
+      "q": { "en": "Where does the English word sandwich get its name?" },
+      "choices": [
+        { "en": "A kind of bread" },
+        { "en": "A Dutch city" },
+        { "en": "A beach picnic" },
+        { "en": "An English earl" }
+      ],
+      "answer": 3,
+      "why": { "en": "It is named for John Montagu, the fourth Earl of Sandwich, who, the story goes, ate meat between bread slices at the card table." },
+      "topic": "etymology",
+      "source": "https://www.britannica.com/topic/sandwich"
+    },
+    {
+      "id": "words-hard-003", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔁",
+      "q": { "en": "Which of these words is a palindrome?" },
+      "choices": [
+        { "en": "Lever" },
+        { "en": "Level" },
+        { "en": "Label" },
+        { "en": "Llama" }
+      ],
+      "answer": 1,
+      "why": { "en": "A palindrome reads the same forwards and backwards; level, racecar and noon all work, but lever turns into revel." },
+      "topic": "palindromes",
+      "source": "https://www.merriam-webster.com/dictionary/palindrome"
+    },
+    {
+      "id": "words-hard-004", "level": "hard", "type": "mc", "lang": "es", "emoji": "🎵",
+      "q": { "es": "¿Cómo se llama una palabra con el acento en la antepenúltima sílaba, como música?" },
+      "choices": [
+        { "es": "Aguda" },
+        { "es": "Llana" },
+        { "es": "Esdrújula" },
+        { "es": "Monosílaba" }
+      ],
+      "answer": 2,
+      "why": { "es": "Música, pájaro y murciélago son esdrújulas: la fuerza de la voz cae en la antepenúltima sílaba y siempre llevan tilde." },
+      "topic": "acentos",
+      "source": "https://dle.rae.es/esdr%C3%BAjulo"
+    },
+    {
+      "id": "words-hard-005", "level": "hard", "type": "mc", "lang": "es", "emoji": "🛏️",
+      "q": { "es": "¿De qué idioma vienen muchas palabras españolas que empiezan con al-, como almohada?" },
+      "choices": [
+        { "es": "Del árabe" },
+        { "es": "Del griego" },
+        { "es": "Del latín" },
+        { "es": "Del francés" }
+      ],
+      "answer": 0,
+      "why": { "es": "El árabe se habló en la península ibérica durante siglos; al- era su artículo y dejó palabras como alfombra y almendra." },
+      "topic": "origen de las palabras",
+      "source": "https://dle.rae.es/almohada"
+    },
+    {
+      "id": "words-hard-006", "level": "hard", "type": "mc", "lang": "es", "emoji": "❄️",
+      "q": { "es": "¿Qué figura literaria compara dos cosas usando como, en «blanco como la nieve»?" },
+      "choices": [
+        { "es": "Metáfora" },
+        { "es": "Hipérbole" },
+        { "es": "Onomatopeya" },
+        { "es": "Símil" }
+      ],
+      "answer": 3,
+      "why": { "es": "Un símil compara dos cosas con la palabra como; la metáfora compara sin ella, como en «tus ojos son luceros»." },
+      "topic": "lenguaje figurado",
+      "source": "https://dle.rae.es/s%C3%ADmil"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "note": "Space & the Sky. Three levels in one file so a reviewer sees the ladder.",
+  "category": "space",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "space-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What gives us light in the daytime?", "es": "¿Qué nos da luz durante el día?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌙" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The stars", "es": "Las estrellas", "emoji": "⭐" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Sun is a star so close to us that its light fills the whole sky during the day.",
+               "es": "El Sol es una estrella tan cercana a nosotros que su luz llena todo el cielo durante el día." },
+      "topic": "the sun is a star",
+      "source": "https://spaceplace.nasa.gov/sun-heat/en/"
+    },
+    {
+      "id": "space-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which planet do we live on?", "es": "¿En qué planeta vivimos?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" },
+        { "en": "Jupiter", "es": "Júpiter", "emoji": "🪐" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth is the only planet we know that has animals, plants and people living on it.",
+               "es": "La Tierra es el único planeta que conocemos con animales, plantas y personas que viven en él." },
+      "topic": "we live on earth",
+      "source": "https://spaceplace.nasa.gov/all-about-earth/en/"
+    },
+    {
+      "id": "space-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Who rides a rocket into space?", "es": "¿Quién viaja al espacio en un cohete?" },
+      "choices": [
+        { "en": "A firefighter", "es": "Un bombero", "emoji": "🚒" },
+        { "en": "An astronaut", "es": "Un astronauta", "emoji": "🧑‍🚀" },
+        { "en": "A farmer", "es": "Un agricultor", "emoji": "🚜" }
+      ],
+      "answer": 1,
+      "why": { "en": "Astronauts train for years before a trip, and in space they float around and sleep in bags tied to the wall.",
+               "es": "Los astronautas entrenan durante años antes de un viaje, y en el espacio flotan y duermen en bolsas atadas a la pared." },
+      "topic": "astronauts",
+      "source": "https://www.nasa.gov/humans-in-space/astronauts/"
+    },
+    {
+      "id": "space-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "How many planets orbit our Sun?", "es": "¿Cuántos planetas giran alrededor de nuestro Sol?" },
+      "choices": [
+        { "en": "9", "es": "9" },
+        { "en": "7", "es": "7" },
+        { "en": "8", "es": "8" },
+        { "en": "12", "es": "12" }
+      ],
+      "answer": 2,
+      "why": { "en": "Since 2006 Pluto has been called a dwarf planet, so the solar system has eight planets.",
+               "es": "Desde 2006 Plutón se considera un planeta enano, así que el sistema solar tiene ocho planetas." },
+      "topic": "eight planets",
+      "source": "https://spaceplace.nasa.gov/planets/en/"
+    },
+    {
+      "id": "space-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "Which planet is called the Red Planet?", "es": "¿Qué planeta se conoce como el planeta rojo?" },
+      "choices": [
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Mars", "es": "Marte" },
+        { "en": "Jupiter", "es": "Júpiter" },
+        { "en": "Mercury", "es": "Mercurio" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mars looks red because its dusty ground is full of iron oxide, the same stuff as rust.",
+               "es": "Marte se ve rojo porque su suelo polvoriento tiene mucho óxido de hierro, lo mismo que el óxido de un clavo." },
+      "topic": "planets",
+      "source": "https://spaceplace.nasa.gov/all-about-mars/en/"
+    },
+    {
+      "id": "space-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What is the name of the galaxy we live in?", "es": "¿Cómo se llama la galaxia donde vivimos?" },
+      "choices": [
+        { "en": "Andromeda", "es": "Andrómeda" },
+        { "en": "Whirlpool Galaxy", "es": "Galaxia del Remolino" },
+        { "en": "Sombrero Galaxy", "es": "Galaxia del Sombrero" },
+        { "en": "Milky Way", "es": "Vía Láctea" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Milky Way holds hundreds of billions of stars, and our Sun is just one of them.",
+               "es": "La Vía Láctea tiene cientos de miles de millones de estrellas, y nuestro Sol es solo una de ellas." },
+      "topic": "the milky way",
+      "source": "https://spaceplace.nasa.gov/galaxy/en/"
+    },
+    {
+      "id": "space-hard-001", "level": "hard", "type": "mc", "lang": "both",
+      "q": { "en": "Pluto, Eris and Haumea belong to which group of solar system objects?",
+             "es": "¿A qué grupo de objetos del sistema solar pertenecen Plutón, Eris y Haumea?" },
+      "choices": [
+        { "en": "Comets", "es": "Cometas" },
+        { "en": "Dwarf planets", "es": "Planetas enanos" },
+        { "en": "Moons", "es": "Lunas" },
+        { "en": "Asteroids", "es": "Asteroides" }
+      ],
+      "answer": 1,
+      "why": { "en": "A dwarf planet is round and orbits the Sun, but it has not cleared other objects from its path.",
+               "es": "Un planeta enano es redondo y gira alrededor del Sol, pero no ha despejado su órbita de otros objetos." },
+      "topic": "dwarf planets",
+      "source": "https://science.nasa.gov/dwarf-planets/"
+    },
+    {
+      "id": "space-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "During a solar eclipse, which object passes between Earth and the Sun?",
+             "es": "Durante un eclipse solar, ¿qué objeto pasa entre la Tierra y el Sol?" },
+      "choices": [
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Mercury", "es": "Mercurio" },
+        { "en": "The Moon", "es": "La Luna" },
+        { "en": "A comet", "es": "Un cometa" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Moon is about 400 times smaller than the Sun but also about 400 times closer, so it can cover it exactly.",
+               "es": "La Luna es unas 400 veces más pequeña que el Sol, pero está unas 400 veces más cerca, así que puede taparlo justo." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/types/"
+    },
+    {
+      "id": "space-hard-003", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Saturn is the only planet in our solar system with rings.",
+             "es": "Saturno es el único planeta de nuestro sistema solar con anillos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jupiter, Uranus and Neptune have rings too, but theirs are thin and dark, while Saturn's are bright ice.",
+               "es": "Júpiter, Urano y Neptuno también tienen anillos, pero son finos y oscuros, y los de Saturno son de hielo brillante." },
+      "topic": "outer planets",
+      "source": "https://science.nasa.gov/saturn/facts/"
+    }
+  ]
+}

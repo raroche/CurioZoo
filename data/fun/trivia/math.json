@@ -1,0 +1,141 @@
+{
+  "note": "Math & Numbers. Three levels in one file so a reviewer sees the ladder.",
+  "category": "math",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "math-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "How many sides does a triangle have?", "es": "¿Cuántos lados tiene un triángulo?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "⬜" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" },
+        { "en": "Five", "es": "Cinco", "emoji": "🖐️" }
+      ],
+      "answer": 1,
+      "why": { "en": "\"Tri\" means three, so a triangle has three sides and three corners.",
+               "es": "\"Tri\" significa tres, así que un triángulo tiene tres lados y tres esquinas." },
+      "topic": "shapes",
+      "source": "https://www.britannica.com/science/triangle-mathematics"
+    },
+    {
+      "id": "math-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "What is two apples plus two apples?", "es": "¿Cuánto es dos manzanas más dos manzanas?" },
+      "choices": [
+        { "en": "Three apples", "es": "Tres manzanas", "emoji": "3️⃣" },
+        { "en": "Five apples", "es": "Cinco manzanas", "emoji": "5️⃣" },
+        { "en": "Four apples", "es": "Cuatro manzanas", "emoji": "4️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Two apples and two more apples make four apples; you can count them on your fingers: one, two, three, four.",
+               "es": "Dos manzanas y dos manzanas más son cuatro manzanas; puedes contarlas con los dedos: uno, dos, tres, cuatro." },
+      "topic": "addition",
+      "source": "https://www.britannica.com/science/addition-mathematics"
+    },
+    {
+      "id": "math-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What number comes right after nine?", "es": "¿Qué número viene justo después del nueve?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "When you count up, nine is followed by ten, and ten is the first number written with two digits.",
+               "es": "Al contar, después del nueve viene el diez, y el diez es el primer número que se escribe con dos cifras." },
+      "topic": "counting",
+      "source": "https://www.britannica.com/science/number-mathematics"
+    },
+    {
+      "id": "math-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "✖️",
+      "q": { "en": "What do you get when you multiply 7 by 8?", "es": "¿Cuánto da 7 multiplicado por 8?" },
+      "choices": [
+        { "en": "54", "es": "54" },
+        { "en": "56", "es": "56" },
+        { "en": "48", "es": "48" },
+        { "en": "64", "es": "64" }
+      ],
+      "answer": 1,
+      "why": { "en": "A handy trick is to count 5, 6, 7, 8, because 56 = 7 × 8, and 6 × 9 is 54.",
+               "es": "Un truco útil es contar 5, 6, 7, 8, porque 56 = 7 × 8, y 6 × 9 es 54." },
+      "topic": "times tables",
+      "source": "https://www.britannica.com/science/multiplication"
+    },
+    {
+      "id": "math-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "Which number does the Roman numeral X stand for?", "es": "¿Qué número representa el número romano X?" },
+      "choices": [
+        { "en": "5", "es": "5" },
+        { "en": "50", "es": "50" },
+        { "en": "100", "es": "100" },
+        { "en": "10", "es": "10" }
+      ],
+      "answer": 3,
+      "why": { "en": "In Roman numerals I is 1, V is 5 and X is 10, so XII means 10 + 1 + 1 = 12.",
+               "es": "En los números romanos, I es 1, V es 5 y X es 10, así que XII significa 10 + 1 + 1 = 12." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    },
+    {
+      "id": "math-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "A rectangle is 4 cm long and 3 cm wide. What is its area?",
+             "es": "Un rectángulo mide 4 cm de largo y 3 cm de ancho. ¿Cuál es su área?" },
+      "choices": [
+        { "en": "14 cm²", "es": "14 cm²" },
+        { "en": "7 cm²", "es": "7 cm²" },
+        { "en": "12 cm²", "es": "12 cm²" },
+        { "en": "24 cm²", "es": "24 cm²" }
+      ],
+      "answer": 2,
+      "why": { "en": "Area is length times width, so 4 × 3 = 12 square centimeters; adding the four sides gives the perimeter, 14 cm.",
+               "es": "El área es el largo por el ancho: 4 × 3 = 12 centímetros cuadrados; si sumas los cuatro lados obtienes el perímetro, 14 cm." },
+      "topic": "area and perimeter",
+      "source": "https://www.britannica.com/science/area"
+    },
+    {
+      "id": "math-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "What is the sum of the three inside angles of any triangle?",
+             "es": "¿Cuánto suman los tres ángulos internos de cualquier triángulo?" },
+      "choices": [
+        { "en": "360°", "es": "360°" },
+        { "en": "90°", "es": "90°" },
+        { "en": "180°", "es": "180°" },
+        { "en": "270°", "es": "270°" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tear the three corners off a paper triangle and line them up: they always make a straight line, which is 180°.",
+               "es": "Arranca las tres esquinas de un triángulo de papel y júntalas: siempre forman una línea recta, que mide 180°." },
+      "topic": "angles",
+      "source": "https://www.britannica.com/science/triangle-mathematics"
+    },
+    {
+      "id": "math-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "Which of these numbers is prime, with exactly two factors, 1 and itself?",
+             "es": "¿Cuál de estos números es primo, con solo dos divisores, el 1 y él mismo?" },
+      "choices": [
+        { "en": "21", "es": "21" },
+        { "en": "29", "es": "29" },
+        { "en": "27", "es": "27" },
+        { "en": "33", "es": "33" }
+      ],
+      "answer": 1,
+      "why": { "en": "29 can only be divided evenly by 1 and 29; 21 is 3 × 7, 27 is 3 × 9, and 33 is 3 × 11.",
+               "es": "29 solo se puede dividir exacto entre 1 y 29; 21 es 3 × 7, 27 es 3 × 9 y 33 es 3 × 11." },
+      "topic": "prime numbers",
+      "source": "https://www.britannica.com/science/prime-number"
+    },
+    {
+      "id": "math-hard-003", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "In the Fibonacci sequence, each number is the sum of the two numbers before it.",
+             "es": "En la sucesión de Fibonacci, cada número es la suma de los dos números anteriores." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The sequence goes 1, 1, 2, 3, 5, 8, 13, and the spirals of many pinecones and sunflowers follow Fibonacci numbers.",
+               "es": "La sucesión es 1, 1, 2, 3, 5, 8, 13, y las espirales de muchos conos de pino y girasoles siguen números de Fibonacci." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/Fibonacci-number"
+    }
+  ]
+}

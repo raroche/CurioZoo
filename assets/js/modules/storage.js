@@ -54,7 +54,12 @@ const DEFAULTS = {
     /* Chess Club: stars, badge, days practised, bot ladder, puzzle rating.
        One object, owned and validated by modules/chessprogress.js. It has to
        be named here or migrate() drops it on the next version bump. */
-    chess: {}
+    chess: {},
+    /* Curio Trivia: level, count and language last chosen, which questions a
+       child has answered and how, stars per category, and the last round.
+       Owned and validated by modules/trivia.js (normaliseMemory). It has to be
+       named here or migrate() drops it on the next version bump. */
+    trivia: {}
   },
   /* stats[categoryId] = { seen, correct, streakBest, lastSeenIso } */
   stats: {},

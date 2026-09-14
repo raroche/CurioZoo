@@ -1,0 +1,135 @@
+{
+  "note": "Earth, Weather & Oceans. Three levels in one file so a reviewer sees the ladder.",
+  "category": "earth",
+  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "questions": [
+    {
+      "id": "earth-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "What falls from the clouds when it rains?", "es": "¿Qué cae de las nubes cuando llueve?" },
+      "choices": [
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Leaves", "es": "Hojas", "emoji": "🍃" }
+      ],
+      "answer": 1,
+      "why": { "en": "Clouds are made of tiny drops of water; when the drops get heavy, they fall as rain.",
+               "es": "Las nubes están hechas de gotitas de agua; cuando las gotas pesan mucho, caen como lluvia." },
+      "topic": "rain and clouds",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle"
+    },
+    {
+      "id": "earth-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "What is snow made of?", "es": "¿De qué está hecha la nieve?" },
+      "choices": [
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" },
+        { "en": "Salt", "es": "Sal", "emoji": "🧂" },
+        { "en": "Frozen water", "es": "Agua congelada", "emoji": "❄️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Snowflakes are tiny pieces of ice, and every snowflake has six sides or six points.",
+               "es": "Los copos de nieve son pedacitos de hielo, y cada copo tiene seis lados o seis puntas." },
+      "topic": "snow",
+      "source": "https://www.noaa.gov/stories/how-do-snowflakes-form-get-science-behind-snow"
+    },
+    {
+      "id": "earth-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What hot thing comes out of a volcano?", "es": "¿Qué cosa caliente sale de un volcán?" },
+      "choices": [
+        { "en": "Lava", "es": "Lava", "emoji": "🌋" },
+        { "en": "Ice cream", "es": "Helado", "emoji": "🍦" },
+        { "en": "Snow", "es": "Nieve", "emoji": "☃️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lava is melted rock so hot that it glows red and orange as it flows down the volcano.",
+               "es": "La lava es roca derretida tan caliente que brilla roja y naranja mientras baja por el volcán." },
+      "topic": "volcanoes",
+      "source": "https://www.britannica.com/science/lava-volcanic-ejecta"
+    },
+    {
+      "id": "earth-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "What is it called when water turns into vapor and rises into the air?", "es": "¿Cómo se llama cuando el agua se convierte en vapor y sube al aire?" },
+      "choices": [
+        { "en": "Condensation", "es": "Condensación" },
+        { "en": "Evaporation", "es": "Evaporación" },
+        { "en": "Precipitation", "es": "Precipitación" },
+        { "en": "Erosion", "es": "Erosión" }
+      ],
+      "answer": 1,
+      "why": { "en": "Evaporation happens when the Sun warms water in oceans, lakes and puddles, turning it into an invisible gas called water vapor.",
+               "es": "La evaporación ocurre cuando el Sol calienta el agua de mares, lagos y charcos y la convierte en un gas: el vapor de agua." },
+      "topic": "water cycle",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle"
+    },
+    {
+      "id": "earth-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which is the largest ocean on Earth?", "es": "¿Cuál es el océano más grande de la Tierra?" },
+      "choices": [
+        { "en": "Atlantic Ocean", "es": "Océano Atlántico" },
+        { "en": "Indian Ocean", "es": "Océano Índico" },
+        { "en": "Pacific Ocean", "es": "Océano Pacífico" },
+        { "en": "Arctic Ocean", "es": "Océano Ártico" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Pacific Ocean is so big that all of Earth's land could fit inside it, with room to spare.",
+               "es": "El océano Pacífico es tan grande que toda la tierra firme del planeta cabría dentro de él, y sobraría espacio." },
+      "topic": "oceans",
+      "source": "https://www.britannica.com/place/Pacific-Ocean"
+    },
+    {
+      "id": "earth-medium-003", "level": "medium", "type": "tf", "lang": "both", "emoji": "⚡",
+      "q": { "en": "A bolt of lightning is hotter than the surface of the Sun.", "es": "Un rayo es más caliente que la superficie del Sol." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: lightning can heat the air to about 50,000 °F (27,000 °C), around five times hotter than the Sun's surface.",
+               "es": "Cierto: un rayo puede calentar el aire a unos 27,000 °C (50,000 °F), unas cinco veces más que la superficie del Sol." },
+      "topic": "thunder and lightning",
+      "source": "https://www.weather.gov/safety/lightning-science-overview"
+    },
+    {
+      "id": "earth-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which ocean trench holds the deepest known point on Earth?", "es": "¿Qué fosa oceánica tiene el punto más profundo conocido de la Tierra?" },
+      "choices": [
+        { "en": "Puerto Rico Trench", "es": "Fosa de Puerto Rico" },
+        { "en": "Peru-Chile Trench", "es": "Fosa de Perú-Chile" },
+        { "en": "Mariana Trench", "es": "Fosa de las Marianas" },
+        { "en": "Tonga Trench", "es": "Fosa de Tonga" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Challenger Deep in the Mariana Trench is about 36,000 feet (11,000 m) down, deeper than Mount Everest is tall.",
+               "es": "El abismo Challenger, en la fosa de las Marianas, tiene unos 11,000 m (36,000 pies) de profundidad: más que la altura del Everest." },
+      "topic": "ocean floor",
+      "source": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    },
+    {
+      "id": "earth-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Which layer of Earth is broken into giant moving pieces called tectonic plates?", "es": "¿Qué capa de la Tierra está dividida en enormes piezas móviles llamadas placas tectónicas?" },
+      "choices": [
+        { "en": "Outer core", "es": "Núcleo externo" },
+        { "en": "Lithosphere", "es": "Litosfera" },
+        { "en": "Inner core", "es": "Núcleo interno" },
+        { "en": "Lower mantle", "es": "Manto inferior" }
+      ],
+      "answer": 1,
+      "why": { "en": "The lithosphere is the crust plus the top of the mantle, and its plates move about as fast as your fingernails grow.",
+               "es": "La litosfera es la corteza más la parte de arriba del manto, y sus placas se mueven tan rápido como crecen tus uñas." },
+      "topic": "plate tectonics",
+      "source": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
+    },
+    {
+      "id": "earth-hard-003", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Most of the fresh water on Earth is found in rivers and lakes.", "es": "La mayor parte del agua dulce de la Tierra está en ríos y lagos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: about 3% of Earth's water is fresh, and most of that is frozen in glaciers and ice caps or hidden underground.",
+               "es": "Falso: cerca del 3% del agua de la Tierra es dulce, y casi toda está congelada en glaciares y casquetes o bajo el suelo." },
+      "topic": "fresh water",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water"
+    }
+  ]
+}

@@ -51,7 +51,7 @@ listing — in [`assets/img/logo/anim/`](assets/img/logo/anim/README.md).
 | Room | What it is |
 |---|---|
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
-| **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element and Guess the Angle — typed answers in English or Spanish, and a typo still counts |
+| **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Curio Trivia — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
 
@@ -117,7 +117,7 @@ router. GitHub Pages, Cloudflare Pages and S3 all work the same way.
 | **Nothing is collected** | No account, no analytics, no third-party requests, no telemetry. The only network traffic is the site fetching its own question files from its own domain. Progress lives in `localStorage` and is never uploaded |
 | **Read-aloud stays on the device** | Voices are chosen device-first. Some browsers ship cloud-backed "Online" voices that send text to a server; those are used only if the device offers no voice of its own |
 | **Parent Guide in Spanish** | A full translation, not a summary, behind a flag button on the guide. The child's screens stay English, matching the real tests |
-| **Fun and games** | Name the Flag (250 flags, vault of flags that no longer exist), Name the Country Shape (242 outlines), Name the Capital (192 capitals) and Name the Element (all 118, four kinds of question). Every game also has a browsing mode with no score, so the material can be met before it is tested, and the element one is a full periodic table with the story of how it was built. Typed answers take English or Spanish and forgive a spelling slip. Guess the Angle asks six different ways — estimate it, sort it, read it off a clock face, find it on a roof or a ladder, or work out where a bounced ball lands — and every angle is drawn with mismatched arms at a random rotation, because judging an angle by the length of its arms is the mistake children actually make |
+| **Fun and games** | Name the Flag (250 flags, vault of flags that no longer exist), Name the Country Shape (242 outlines), Name the Capital (192 capitals) and Name the Element (all 118, four kinds of question). Every game also has a browsing mode with no score, so the material can be met before it is tested, and the element one is a full periodic table with the story of how it was built. Typed answers take English or Spanish and forgive a spelling slip. Guess the Angle asks six different ways — estimate it, sort it, read it off a clock face, find it on a roof or a ladder, or work out where a bounced ball lands — and every angle is drawn with mismatched arms at a random rotation, because judging an angle by the length of its arms is the mistake children actually make. Curio Trivia asks about animals, space, the body, physics, the world and more at three levels (ages 4 to 6, 7 to 10, 11 to 15), every question in English and Spanish with a button to flip it, and a one-line "why" after every answer |
 | **Math Lab** | A separate section for advanced maths, grades 1 to 6. 86 topics in two tracks: real mathematics (maps, bridges, primes, infinity, fractals, pi, three unsolved problems) and number skills |
 | **Chess Club** | Fifty-two lessons across three levels, one idea at a time: the six pieces first (rook before knight, pawn last, following the Steps Method), then the rules, then tactics, endings, openings, planning and tournament manners. Eight mini-games from Pawn Wars up to a whole game, five opponents that lose on purpose, and 3,250 puzzles filtered out of the six million in the CC0 Lichess database. Stars only ever go up, there is no streak to break, and taking a move back is always free. The room is loaded only when a child opens it |
 | **Accessible** | WCAG AA contrast in both themes, full keyboard control, correct/incorrect never signalled by color alone |
@@ -237,6 +237,19 @@ meeting.
 the join: every country has a real image file, every bundled image is used, no
 two countries share a name or a typed answer, and every vault answer matches
 the picture it is shown against.
+
+**Curio Trivia.** Pick a level (Easy 4 to 6, Medium 7 to 10, Hard 11 to 15),
+a topic or Mixed, and 5, 10 or 15 questions. Sixteen topics, from Animals &
+Nature and Physics & the Universe to Why Is That? and Brain Teasers. Every
+question is written in English and Spanish side by side, and a button on the
+card flips it; word games and riddles are two native pools instead, because a
+rhyme cannot be translated. Every answer, right or missed, ends with the right
+answer and a "why" that teaches something. Easy reads itself aloud. There is no
+timer and nothing is taken away: a star for every right answer, and the game
+remembers what a child has seen so a miss comes back two weeks later and a
+fact already known is retired. The Fact Book lists every "why" in the game.
+The bank is a seed of 162 questions today; `tools/triviacheck.mjs` holds every
+question to the writing rules in `docs/research/trivia/PLAN.md`.
 
 ## Math Lab
 
@@ -443,6 +456,7 @@ GiftedPrep/
 │           └── learn.js        the browsing component the games share
 │           ├── fuzzy.js        typo tolerance shared by both typed games
 │           ├── slots.js        caps how often the answer sits in one place
+│           ├── trivia.js       Curio Trivia: rounds, memory, stars
 │           ├── sections.js     the rooms, and the creature that fronts each
 │           └── shell.js        shared state and DOM helpers
 │
@@ -450,6 +464,7 @@ GiftedPrep/
 │           ├── gifted.js       test practice: pickers, questions, results
 │           ├── math.js         the Math Lab lessons and every exercise type
 │           ├── fun.js          the games hub, flags and country shapes
+│           ├── trivia.js       Curio Trivia screens and the Fact Book
 │           ├── parents.js      the Parent Guide screen
 │           └── learn.js        browsing modes, and the periodic table page
 ├── data/
@@ -457,6 +472,7 @@ GiftedPrep/
 │   ├── cogat/  nnat/  olsat/   one JSON file per category
 │   ├── math/                   Math Lab topics, one file per grade
 │   └── fun/                    flag game data: countries, continents, past flags
+│       └── trivia/             Curio Trivia: a manifest and one file per topic
 ├── docs/research/              the sources behind every question
 └── tools/
     ├── validate.mjs            checks the whole bank
