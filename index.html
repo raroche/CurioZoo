@@ -633,9 +633,12 @@
       <h1 class="gp-page-title" id="triviasetup-title">Curio Trivia</h1>
       <p class="gp-page-lede">Questions about animals, space, your body, the world and more. Every
          answer teaches you something, even the ones you miss.</p>
-      <!-- Two things a child can do here, and they are not the same thing.
-           Looking comes first because being tested on material you have never
-           met is not a game. For trivia the material is the fun facts. -->
+      <!-- The game comes first here: trivia is played, not practised, so it
+           has no "Practice" tag. The Fact Book sits below it. -->
+      <section class="cz-mode cz-mode--practice cz-trivia-play">
+        <div class="gp-card gp-card--setup" id="gp-trivia-setup"></div>
+      </section>
+
       <section class="cz-mode cz-mode--learn">
         <p class="cz-mode__tag">Learn</p>
         <div class="cz-mode__body">
@@ -651,10 +654,6 @@
         </a>
       </section>
 
-      <section class="cz-mode cz-mode--practice">
-        <p class="cz-mode__tag">Practice</p>
-        <div class="gp-card gp-card--setup" id="gp-trivia-setup"></div>
-      </section>
     </div>
   </section>
 
