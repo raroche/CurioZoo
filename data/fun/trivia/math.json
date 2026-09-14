@@ -1,7 +1,7 @@
 {
   "note": "Math & Numbers. Three levels in one file so a reviewer sees the ladder.",
   "category": "math",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "math-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
@@ -12,8 +12,7 @@
         { "en": "Five", "es": "Cinco", "emoji": "🖐️" }
       ],
       "answer": 1,
-      "why": { "en": "\"Tri\" means three, so a triangle has three sides and three corners.",
-               "es": "\"Tri\" significa tres, así que un triángulo tiene tres lados y tres esquinas." },
+      "why": { "en": "\"Tri\" means three, so a triangle has three sides and three corners.", "es": "\"Tri\" significa tres, así que un triángulo tiene tres lados y tres esquinas." },
       "topic": "shapes",
       "source": "https://www.britannica.com/science/triangle-mathematics"
     },
@@ -26,8 +25,7 @@
         { "en": "Four apples", "es": "Cuatro manzanas", "emoji": "4️⃣" }
       ],
       "answer": 2,
-      "why": { "en": "Two apples and two more apples make four apples; you can count them on your fingers: one, two, three, four.",
-               "es": "Dos manzanas y dos manzanas más son cuatro manzanas; puedes contarlas con los dedos: uno, dos, tres, cuatro." },
+      "why": { "en": "Two apples and two more apples make four apples; you can count them on your fingers: one, two, three, four.", "es": "Dos manzanas y dos manzanas más son cuatro manzanas; puedes contarlas con los dedos: uno, dos, tres, cuatro." },
       "topic": "addition",
       "source": "https://www.britannica.com/science/addition-mathematics"
     },
@@ -40,8 +38,7 @@
         { "en": "Seven", "es": "Siete", "emoji": "7️⃣" }
       ],
       "answer": 0,
-      "why": { "en": "When you count up, nine is followed by ten, and ten is the first number written with two digits.",
-               "es": "Al contar, después del nueve viene el diez, y el diez es el primer número que se escribe con dos cifras." },
+      "why": { "en": "When you count up, nine is followed by ten, and ten is the first number written with two digits.", "es": "Al contar, después del nueve viene el diez, y el diez es el primer número que se escribe con dos cifras." },
       "topic": "counting",
       "source": "https://www.britannica.com/science/number-mathematics"
     },
@@ -55,8 +52,7 @@
         { "en": "64", "es": "64" }
       ],
       "answer": 1,
-      "why": { "en": "A handy trick is to count 5, 6, 7, 8, because 56 = 7 × 8, and 6 × 9 is 54.",
-               "es": "Un truco útil es contar 5, 6, 7, 8, porque 56 = 7 × 8, y 6 × 9 es 54." },
+      "why": { "en": "A handy trick is to count 5, 6, 7, 8, because 56 = 7 × 8, and 6 × 9 is 54.", "es": "Un truco útil es contar 5, 6, 7, 8, porque 56 = 7 × 8, y 6 × 9 es 54." },
       "topic": "times tables",
       "source": "https://www.britannica.com/science/multiplication"
     },
@@ -70,15 +66,13 @@
         { "en": "10", "es": "10" }
       ],
       "answer": 3,
-      "why": { "en": "In Roman numerals I is 1, V is 5 and X is 10, so XII means 10 + 1 + 1 = 12.",
-               "es": "En los números romanos, I es 1, V es 5 y X es 10, así que XII significa 10 + 1 + 1 = 12." },
+      "why": { "en": "In Roman numerals I is 1, V is 5 and X is 10, so XII means 10 + 1 + 1 = 12.", "es": "En los números romanos, I es 1, V es 5 y X es 10, así que XII significa 10 + 1 + 1 = 12." },
       "topic": "roman numerals",
       "source": "https://www.britannica.com/topic/Roman-numeral"
     },
     {
       "id": "math-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
-      "q": { "en": "A rectangle is 4 cm long and 3 cm wide. What is its area?",
-             "es": "Un rectángulo mide 4 cm de largo y 3 cm de ancho. ¿Cuál es su área?" },
+      "q": { "en": "A rectangle is 4 cm long and 3 cm wide. What is its area?", "es": "Un rectángulo mide 4 cm de largo y 3 cm de ancho. ¿Cuál es su área?" },
       "choices": [
         { "en": "14 cm²", "es": "14 cm²" },
         { "en": "7 cm²", "es": "7 cm²" },
@@ -86,15 +80,13 @@
         { "en": "24 cm²", "es": "24 cm²" }
       ],
       "answer": 2,
-      "why": { "en": "Area is length times width, so 4 × 3 = 12 square centimeters; adding the four sides gives the perimeter, 14 cm.",
-               "es": "El área es el largo por el ancho: 4 × 3 = 12 centímetros cuadrados; si sumas los cuatro lados obtienes el perímetro, 14 cm." },
+      "why": { "en": "Area is length times width, so 4 × 3 = 12 square centimeters; adding the four sides gives the perimeter, 14 cm.", "es": "El área es el largo por el ancho: 4 × 3 = 12 centímetros cuadrados; si sumas los cuatro lados obtienes el perímetro, 14 cm." },
       "topic": "area and perimeter",
       "source": "https://www.britannica.com/science/area"
     },
     {
       "id": "math-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
-      "q": { "en": "What is the sum of the three inside angles of any triangle?",
-             "es": "¿Cuánto suman los tres ángulos internos de cualquier triángulo?" },
+      "q": { "en": "What is the sum of the three inside angles of any triangle?", "es": "¿Cuánto suman los tres ángulos internos de cualquier triángulo?" },
       "choices": [
         { "en": "360°", "es": "360°" },
         { "en": "90°", "es": "90°" },
@@ -102,15 +94,13 @@
         { "en": "270°", "es": "270°" }
       ],
       "answer": 2,
-      "why": { "en": "Tear the three corners off a paper triangle and line them up: they always make a straight line, which is 180°.",
-               "es": "Arranca las tres esquinas de un triángulo de papel y júntalas: siempre forman una línea recta, que mide 180°." },
+      "why": { "en": "Tear the three corners off a paper triangle and line them up: they always make a straight line, which is 180°.", "es": "Arranca las tres esquinas de un triángulo de papel y júntalas: siempre forman una línea recta, que mide 180°." },
       "topic": "angles",
       "source": "https://www.britannica.com/science/triangle-mathematics"
     },
     {
       "id": "math-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
-      "q": { "en": "Which of these numbers is prime, with exactly two factors, 1 and itself?",
-             "es": "¿Cuál de estos números es primo, con solo dos divisores, el 1 y él mismo?" },
+      "q": { "en": "Which of these numbers is prime, with exactly two factors, 1 and itself?", "es": "¿Cuál de estos números es primo, con solo dos divisores, el 1 y él mismo?" },
       "choices": [
         { "en": "21", "es": "21" },
         { "en": "29", "es": "29" },
@@ -118,24 +108,1282 @@
         { "en": "33", "es": "33" }
       ],
       "answer": 1,
-      "why": { "en": "29 can only be divided evenly by 1 and 29; 21 is 3 × 7, 27 is 3 × 9, and 33 is 3 × 11.",
-               "es": "29 solo se puede dividir exacto entre 1 y 29; 21 es 3 × 7, 27 es 3 × 9 y 33 es 3 × 11." },
+      "why": { "en": "29 can only be divided evenly by 1 and 29; 21 is 3 × 7, 27 is 3 × 9, and 33 is 3 × 11.", "es": "29 solo se puede dividir exacto entre 1 y 29; 21 es 3 × 7, 27 es 3 × 9 y 33 es 3 × 11." },
       "topic": "prime numbers",
       "source": "https://www.britannica.com/science/prime-number"
     },
     {
       "id": "math-hard-003", "level": "hard", "type": "tf", "lang": "both",
-      "q": { "en": "In the Fibonacci sequence, each number is the sum of the two numbers before it.",
-             "es": "En la sucesión de Fibonacci, cada número es la suma de los dos números anteriores." },
+      "q": { "en": "In the Fibonacci sequence, each number is the sum of the two numbers before it.", "es": "En la sucesión de Fibonacci, cada número es la suma de los dos números anteriores." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "The sequence goes 1, 1, 2, 3, 5, 8, 13, and the spirals of many pinecones and sunflowers follow Fibonacci numbers.",
-               "es": "La sucesión es 1, 1, 2, 3, 5, 8, 13, y las espirales de muchos conos de pino y girasoles siguen números de Fibonacci." },
+      "why": { "en": "The sequence goes 1, 1, 2, 3, 5, 8, 13, and the spirals of many pinecones and sunflowers follow Fibonacci numbers.", "es": "La sucesión es 1, 1, 2, 3, 5, 8, 13, y las espirales de muchos conos de pino y girasoles siguen números de Fibonacci." },
       "topic": "patterns",
       "source": "https://www.britannica.com/science/Fibonacci-number"
+    },
+    {
+      "id": "math-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙌",
+      "q": { "en": "How many fingers and toes together?", "es": "¿Cuántos dedos tienes entre manos y pies?" },
+      "choices": [
+        { "en": "Twenty", "es": "Veinte", "emoji": "🙌" },
+        { "en": "Ten", "es": "Diez", "emoji": "✋" },
+        { "en": "Fifteen", "es": "Quince", "emoji": "👣" }
+      ],
+      "answer": 0,
+      "why": { "en": "You have ten fingers and ten toes, and ten plus ten makes twenty, which is why counting by tens feels easy.", "es": "Tienes diez dedos en las manos y diez en los pies; diez más diez son veinte, por eso contamos de diez en diez." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "math-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "Which number comes just after fourteen?", "es": "¿Qué número va justo después del catorce?" },
+      "choices": [
+        { "en": "Fifteen", "es": "Quince", "emoji": "🧮" },
+        { "en": "Thirteen", "es": "Trece", "emoji": "🎈" },
+        { "en": "Sixteen", "es": "Dieciséis", "emoji": "🎂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fifteen follows fourteen, and its name hides five and ten, because fifteen is just ten plus five put together.", "es": "El quince sigue al catorce, y su nombre esconde cinco y diez, porque quince es diez más cinco juntos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "math-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "How many eggs make one dozen?", "es": "¿Cuántos huevos hay en una docena?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce", "emoji": "🥚" },
+        { "en": "Ten", "es": "Diez", "emoji": "🍳" },
+        { "en": "Six", "es": "Seis", "emoji": "🐣" }
+      ],
+      "answer": 0,
+      "why": { "en": "A dozen always means twelve, and egg cartons hold twelve because twelve splits evenly into halves, thirds, quarters and sixths.", "es": "Una docena siempre es doce, y los cartones traen doce porque doce se reparte justo en mitades, tercios, cuartos y sextos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/definitions/dozen.html"
+    },
+    {
+      "id": "math-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Which number comes just before ten?", "es": "¿Qué número va justo antes del diez?" },
+      "choices": [
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Eleven", "es": "Once", "emoji": "🎊" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nine comes just before ten, and counting backward from ten is how rockets count down before they lift off.", "es": "El nueve va justo antes del diez, y contar hacia atrás desde diez es lo que hacen los cohetes antes de despegar." },
+      "topic": "counting",
+      "source": "https://www.khanacademy.org/math/early-math/cc-early-math-counting-topic"
+    },
+    {
+      "id": "math-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "How many wheels does a bicycle have?", "es": "¿Cuántas ruedas tiene una bicicleta?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "🚲" },
+        { "en": "Three", "es": "Tres", "emoji": "🛺" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🚗" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bicycle has two wheels, and the word starts with bi, which means two, just like bilingual means two languages.", "es": "La bicicleta tiene dos ruedas, y bi significa dos, igual que en bilingüe, que quiere decir dos idiomas." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "math-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦶",
+      "q": { "en": "How many toes are on one foot?", "es": "¿Cuántos dedos tiene un pie?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "🦶" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🧦" },
+        { "en": "Six", "es": "Seis", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each foot has five toes, and your big toe does most of the work keeping you balanced when you walk.", "es": "Cada pie tiene cinco dedos, y el dedo gordo hace casi todo el trabajo de mantenerte en equilibrio al caminar." },
+      "topic": "counting",
+      "source": "https://www.khanacademy.org/math/early-math/cc-early-math-counting-topic"
+    },
+    {
+      "id": "math-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "When you count by twos, what follows four?", "es": "Cuando cuentas de dos en dos, ¿qué sigue después del cuatro?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Counting by twos skips every other number, and it lands only on even numbers, the ones that split into two equal groups.", "es": "Contar de dos en dos salta un número cada vez y cae solo en los pares, los que se parten en dos grupos iguales." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/even-odd.html"
+    },
+    {
+      "id": "math-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙌",
+      "q": { "en": "How many hands do two children have?", "es": "¿Cuántas manos tienen dos niños juntos?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🙌" },
+        { "en": "Two", "es": "Dos", "emoji": "🤚" },
+        { "en": "Six", "es": "Seis", "emoji": "🖐️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each child has two hands, so two children have four; doubling means adding a number to itself, like two plus two.", "es": "Cada niño tiene dos manos, así que dos niños tienen cuatro; doblar es sumar un número consigo mismo, como dos más dos." },
+      "topic": "counting",
+      "source": "https://www.khanacademy.org/math/early-math/cc-early-math-counting-topic"
+    },
+    {
+      "id": "math-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which group has more, five or three?", "es": "¿Cuál grupo tiene más, cinco o tres?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "🖐️" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five is more than three; you can check by matching them one to one and seeing two extras left over.", "es": "Cinco es más que tres; puedes comprobarlo emparejando uno a uno y verás que sobran dos sin pareja." },
+      "topic": "more and fewer",
+      "source": "https://www.mathsisfun.com/equal-less-greater.html"
+    },
+    {
+      "id": "math-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "Which number is fewer, two or six?", "es": "¿Cuál número es menos, dos o seis?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "🥚" },
+        { "en": "Six", "es": "Seis", "emoji": "🧺" },
+        { "en": "They are equal", "es": "Son iguales", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two is fewer than six, and on a number line two sits closer to zero, so smaller numbers always come first.", "es": "Dos es menos que seis, y en la recta numérica el dos está más cerca del cero, porque los números pequeños van primero." },
+      "topic": "more and fewer",
+      "source": "https://www.mathsisfun.com/numbers/number-line.html"
+    },
+    {
+      "id": "math-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "Which holds more water, a cup or a bathtub?", "es": "¿Qué guarda más agua, una taza o una tina?" },
+      "choices": [
+        { "en": "A bathtub", "es": "Una tina", "emoji": "🛁" },
+        { "en": "A cup", "es": "Una taza", "emoji": "☕" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bathtub holds much more, and comparing how much a container holds is called measuring volume, or capacity.", "es": "La tina guarda mucha más agua, y comparar cuánto cabe en un recipiente se llama medir el volumen o la capacidad." },
+      "topic": "more and fewer",
+      "source": "https://www.mathsisfun.com/measure/index.html"
+    },
+    {
+      "id": "math-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which is more, a pair or a dozen?", "es": "¿Qué es más, un par o una docena?" },
+      "choices": [
+        { "en": "A dozen", "es": "Una docena", "emoji": "🥚" },
+        { "en": "A pair", "es": "Un par", "emoji": "👟" },
+        { "en": "A trio", "es": "Un trío", "emoji": "🎺" }
+      ],
+      "answer": 0,
+      "why": { "en": "A pair is two and a dozen is twelve, so a dozen is ten more; bakers even sell thirteen as a baker's dozen.", "es": "Un par son dos y una docena son doce, diez más; los panaderos a veces regalan uno y venden trece." },
+      "topic": "more and fewer",
+      "source": "https://www.mathsisfun.com/definitions/dozen.html"
+    },
+    {
+      "id": "math-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Which weighs more, a feather or a brick?", "es": "¿Qué pesa más, una pluma o un ladrillo?" },
+      "choices": [
+        { "en": "A brick", "es": "Un ladrillo", "emoji": "🧱" },
+        { "en": "A feather", "es": "Una pluma", "emoji": "🪶" },
+        { "en": "A leaf", "es": "Una hoja", "emoji": "🍃" }
+      ],
+      "answer": 0,
+      "why": { "en": "The brick weighs more because its stuff is packed tightly together; scientists call that packing density, and feathers are mostly air.", "es": "El ladrillo pesa más porque su materia está muy apretada; eso se llama densidad, y las plumas son casi puro aire." },
+      "topic": "more and fewer",
+      "source": "https://www.mathsisfun.com/measure/index.html"
+    },
+    {
+      "id": "math-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "⬜",
+      "q": { "en": "How many corners does a square have?", "es": "¿Cuántas esquinas tiene un cuadrado?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "⬜" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" },
+        { "en": "Five", "es": "Cinco", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A square has four corners and four equal sides, and every corner is a right angle, the same shape as a book's corner.", "es": "El cuadrado tiene cuatro esquinas y cuatro lados iguales, y cada esquina es un ángulo recto, igual que la esquina de un libro." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/square.html"
+    },
+    {
+      "id": "math-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "How many corners does a circle have?", "es": "¿Cuántas esquinas tiene un círculo?" },
+      "choices": [
+        { "en": "Zero", "es": "Cero", "emoji": "🔵" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" },
+        { "en": "Four", "es": "Cuatro", "emoji": "⬜" }
+      ],
+      "answer": 0,
+      "why": { "en": "A circle has no corners at all; its edge curves the same distance from the middle the whole way around.", "es": "El círculo no tiene ninguna esquina; su borde se curva siempre a la misma distancia del centro en toda la vuelta." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/circle.html"
+    },
+    {
+      "id": "math-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍯",
+      "q": { "en": "Which shape do bees build in a honeycomb?", "es": "¿Qué forma construyen las abejas en el panal?" },
+      "choices": [
+        { "en": "Hexagon", "es": "Hexágono", "emoji": "🐝" },
+        { "en": "Circle", "es": "Círculo", "emoji": "🔵" },
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bees build six-sided hexagons because they fit together with no gaps and use the least wax for the most honey.", "es": "Las abejas construyen hexágonos de seis lados porque encajan sin dejar huecos y gastan menos cera para guardar más miel." },
+      "topic": "shapes",
+      "source": "https://kids.nationalgeographic.com/animals/insects/facts/honey-bee"
+    },
+    {
+      "id": "math-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛑",
+      "q": { "en": "How many sides does a stop sign have?", "es": "¿Cuántos lados tiene una señal de alto?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "🛑" },
+        { "en": "Six", "es": "Seis", "emoji": "🐝" },
+        { "en": "Four", "es": "Cuatro", "emoji": "⬜" }
+      ],
+      "answer": 0,
+      "why": { "en": "A stop sign is an octagon with eight sides, and octo means eight, the same eight arms an octopus has.", "es": "La señal de alto es un octágono de ocho lados, y octo significa ocho, como los ocho brazos del pulpo." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/octagon.html"
+    },
+    {
+      "id": "math-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "Which solid shape is shaped like a ball?", "es": "¿Qué cuerpo geométrico tiene forma de pelota?" },
+      "choices": [
+        { "en": "Sphere", "es": "Esfera", "emoji": "⚽" },
+        { "en": "Cube", "es": "Cubo", "emoji": "🧊" },
+        { "en": "Cone", "es": "Cono", "emoji": "🍦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A ball is a sphere, round in every direction; bubbles become spheres because that shape holds the most with the least skin.", "es": "Una pelota es una esfera, redonda por todos lados; las burbujas se hacen esferas porque así guardan más con menos piel." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/sphere.html"
+    },
+    {
+      "id": "math-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "How many faces does a dice cube have?", "es": "¿Cuántas caras tiene un dado cúbico?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "🎲" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🔺" },
+        { "en": "Eight", "es": "Ocho", "emoji": "🛑" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cube has six flat faces, twelve edges and eight corners, and opposite faces of a die always add up to seven.", "es": "El cubo tiene seis caras planas, doce aristas y ocho esquinas, y las caras opuestas de un dado siempre suman siete." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/cube.html"
+    },
+    {
+      "id": "math-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "Which shape has two long and two short sides?", "es": "¿Qué figura tiene dos lados largos y dos cortos?" },
+      "choices": [
+        { "en": "Rectangle", "es": "Rectángulo", "emoji": "🚪" },
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" },
+        { "en": "Circle", "es": "Círculo", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rectangle has four right-angle corners with opposite sides equal; a door and a book cover are both rectangles.", "es": "El rectángulo tiene cuatro esquinas rectas y los lados opuestos iguales; una puerta y la tapa de un libro son rectángulos." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/rectangle.html"
+    },
+    {
+      "id": "math-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "Which shape is strongest for building bridges?", "es": "¿Qué figura es la más fuerte para los puentes?" },
+      "choices": [
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" },
+        { "en": "Circle", "es": "Círculo", "emoji": "🔵" },
+        { "en": "Square", "es": "Cuadrado", "emoji": "⬜" }
+      ],
+      "answer": 0,
+      "why": { "en": "Triangles hold their shape when pushed, so builders fill bridges and towers with them; squares can squash into slanted diamonds.", "es": "Los triángulos guardan su forma al empujarlos, por eso los puentes y las torres van llenos de ellos; el cuadrado se tuerce." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/triangles.html"
+    },
+    {
+      "id": "math-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "How many sides does a snowflake have?", "es": "¿Cuántos lados tiene un copo de nieve?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "❄️" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🧊" },
+        { "en": "Eight", "es": "Ocho", "emoji": "🛑" }
+      ],
+      "answer": 0,
+      "why": { "en": "Snowflakes grow six arms because water molecules lock together at six-sided angles when they freeze, so every flake is a hexagon.", "es": "Los copos de nieve tienen seis brazos porque las moléculas de agua se unen en ángulos de seis lados al congelarse." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/hexagon.html"
+    },
+    {
+      "id": "math-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎉",
+      "q": { "en": "Which shape does a party hat have?", "es": "¿Qué forma tiene un gorro de fiesta?" },
+      "choices": [
+        { "en": "Cone", "es": "Cono", "emoji": "🍦" },
+        { "en": "Cube", "es": "Cubo", "emoji": "🧊" },
+        { "en": "Sphere", "es": "Esfera", "emoji": "⚽" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cone has one circle at the bottom rising to a single point, and volcanoes and ice cream cones share that shape.", "es": "El cono tiene un círculo abajo y sube hasta una sola punta; los volcanes y los helados comparten esa forma." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/cone.html"
+    },
+    {
+      "id": "math-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "0️⃣",
+      "q": { "en": "What is five take away five?", "es": "¿Cuánto es cinco menos cinco?" },
+      "choices": [
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Taking away everything leaves zero, the number for nothing at all, and zero is the only number you can add without changing anything.", "es": "Quitar todo deja cero, el número de la nada, y el cero es el único número que puedes sumar sin cambiar nada." },
+      "topic": "zero",
+      "source": "https://www.mathsisfun.com/definitions/zero.html"
+    },
+    {
+      "id": "math-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "Which number means nothing at all?", "es": "¿Cuál número significa que no hay nada?" },
+      "choices": [
+        { "en": "Zero", "es": "Cero", "emoji": "🕳️" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Zero means none, and people counted for thousands of years before mathematicians in India wrote zero as a number of its own.", "es": "Cero significa ninguno, y la gente contó durante miles de años antes de que en la India lo escribieran como un número." },
+      "topic": "zero",
+      "source": "https://www.mathsisfun.com/definitions/zero.html"
+    },
+    {
+      "id": "math-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "7️⃣",
+      "q": { "en": "What do you get adding zero to seven?", "es": "¿Cuánto da siete más cero?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Adding zero changes nothing because you added no objects at all, which is why zero is called the identity for addition.", "es": "Sumar cero no cambia nada porque no agregaste ningún objeto; por eso el cero se llama el elemento neutro de la suma." },
+      "topic": "zero",
+      "source": "https://www.mathsisfun.com/definitions/zero.html"
+    },
+    {
+      "id": "math-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "How many legs does a snake have?", "es": "¿Cuántas patas tiene una serpiente?" },
+      "choices": [
+        { "en": "Zero", "es": "Cero", "emoji": "🐍" },
+        { "en": "Two", "es": "Dos", "emoji": "🦆" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🐕" }
+      ],
+      "answer": 0,
+      "why": { "en": "A snake has zero legs and slides using its ribs and belly scales, yet some snakes still hide tiny leg bones inside.", "es": "La serpiente tiene cero patas y se desliza con sus costillas y escamas, aunque algunas guardan huesitos de patas por dentro." },
+      "topic": "zero",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/ball-python"
+    },
+    {
+      "id": "math-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "👟",
+      "q": { "en": "How many shoes are in one pair?", "es": "¿Cuántos zapatos hay en un par?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "👟" },
+        { "en": "Three", "es": "Tres", "emoji": "🩴" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🥾" }
+      ],
+      "answer": 0,
+      "why": { "en": "A pair always means two that go together, like shoes, socks or eyes, and the word comes from Latin for equal.", "es": "Un par siempre son dos que van juntos, como zapatos, calcetines u ojos, y la palabra viene del latín para igual." },
+      "topic": "pairs",
+      "source": "https://www.mathsisfun.com/definitions/pair.html"
+    },
+    {
+      "id": "math-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧦",
+      "q": { "en": "How many socks are in three pairs?", "es": "¿Cuántos calcetines hay en tres pares?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "🧦" },
+        { "en": "Three", "es": "Tres", "emoji": "👣" },
+        { "en": "Five", "es": "Cinco", "emoji": "🥿" }
+      ],
+      "answer": 0,
+      "why": { "en": "Three pairs means three groups of two, and two plus two plus two makes six, which is the same as doubling three.", "es": "Tres pares son tres grupos de dos, y dos más dos más dos son seis, lo mismo que doblar el número tres." },
+      "topic": "pairs",
+      "source": "https://www.mathsisfun.com/definitions/pair.html"
+    },
+    {
+      "id": "math-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "How many wings does one butterfly have?", "es": "¿Cuántas alas tiene una mariposa?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🦋" },
+        { "en": "Two", "es": "Dos", "emoji": "🐦" },
+        { "en": "Six", "es": "Seis", "emoji": "🐝" }
+      ],
+      "answer": 0,
+      "why": { "en": "A butterfly has four wings, two on each side, and they hook together so the pair beats as one while flying.", "es": "La mariposa tiene cuatro alas, dos de cada lado, y se enganchan para batir como si fueran una sola al volar." },
+      "topic": "pairs",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/monarch-butterfly"
+    },
+    {
+      "id": "math-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "How many mittens do two children need?", "es": "¿Cuántos mitones necesitan dos niños?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🧤" },
+        { "en": "Two", "es": "Dos", "emoji": "🧣" },
+        { "en": "Six", "es": "Seis", "emoji": "🎒" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each child needs a pair, so two pairs make four mittens; counting by twos gets there faster than counting one by one.", "es": "Cada niño necesita un par, así que dos pares son cuatro mitones; contar de dos en dos llega más rápido que uno por uno." },
+      "topic": "pairs",
+      "source": "https://www.mathsisfun.com/definitions/pair.html"
+    },
+    {
+      "id": "math-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Which of these usually comes in a pair?", "es": "¿Cuál de estos viene casi siempre en par?" },
+      "choices": [
+        { "en": "Eyes", "es": "Los ojos", "emoji": "👀" },
+        { "en": "A nose", "es": "La nariz", "emoji": "👃" },
+        { "en": "A mouth", "es": "La boca", "emoji": "👄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Eyes come in twos, and having two lets your brain compare both views to judge how far away things are.", "es": "Los ojos vienen de dos en dos, y tener dos deja que tu cerebro compare las dos vistas y calcule las distancias." },
+      "topic": "pairs",
+      "source": "https://www.mathsisfun.com/definitions/pair.html"
+    },
+    {
+      "id": "math-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥢",
+      "q": { "en": "How many chopsticks are in two pairs?", "es": "¿Cuántos palillos hay en dos pares?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🥢" },
+        { "en": "Two", "es": "Dos", "emoji": "🍜" },
+        { "en": "Eight", "es": "Ocho", "emoji": "🍱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two pairs make four chopsticks because each pair is two, and two groups of two is the very first multiplication fact.", "es": "Dos pares son cuatro palillos porque cada par son dos, y dos grupos de dos es la primera multiplicación que aprendes." },
+      "topic": "pairs",
+      "source": "https://www.mathsisfun.com/definitions/pair.html"
+    },
+    {
+      "id": "math-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "➕",
+      "q": { "en": "What is two plus three?", "es": "¿Cuánto es dos más tres?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two fingers and three fingers make five fingers, which is exactly one whole hand, so you can check without counting.", "es": "Dos dedos y tres dedos hacen cinco dedos, justo una mano completa, así que puedes revisarlo sin contar uno por uno." },
+      "topic": "addition",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "math-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "What do three cars plus two make?", "es": "¿Cuánto son tres carros más dos carros?" },
+      "choices": [
+        { "en": "Four cars", "es": "Cuatro carros", "emoji": "4️⃣" },
+        { "en": "Five cars", "es": "Cinco carros", "emoji": "5️⃣" },
+        { "en": "Three cars", "es": "Tres carros", "emoji": "3️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Three plus two is five; line up three cars, push two more over, and count the whole row again.", "es": "Tres más dos son cinco; acomoda tres carros, empuja dos más y vuelve a contar toda la fila." },
+      "topic": "addition",
+      "source": "https://kids.britannica.com/kids/article/addition/352835"
+    },
+    {
+      "id": "math-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙌",
+      "q": { "en": "How many are four plus four?", "es": "¿Cuánto es cuatro más cuatro?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Four plus four is eight, a double, and doubles are easy to remember because both hands show the same number.", "es": "Cuatro más cuatro son ocho, un doble; los dobles se aprenden rápido porque las dos manos muestran el mismo número." },
+      "topic": "addition",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "math-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "How many are five plus five?", "es": "¿Cuánto es cinco más cinco?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five plus five makes ten, the number of your fingers, which is why people around the world count in tens.", "es": "Cinco más cinco son diez, los dedos de tus manos, y por eso la gente de todo el mundo cuenta de diez en diez." },
+      "topic": "addition",
+      "source": "https://kids.britannica.com/kids/article/number/353527"
+    },
+    {
+      "id": "math-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "➕",
+      "q": { "en": "How many are six plus three?", "es": "¿Cuánto es seis más tres?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Six plus three is nine; hold up six fingers, add three more, and every finger but one is standing.", "es": "Seis más tres son nueve; levanta seis dedos, agrega tres más y verás que solo queda un dedo abajo." },
+      "topic": "addition",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "math-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "2️⃣",
+      "q": { "en": "What is one plus one?", "es": "¿Cuánto es uno más uno?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "One plus one is two, the first sum children learn, and two is the smallest number that can make a pair.", "es": "Uno más uno son dos, la primera suma que aprendemos, y dos es el número más pequeño que forma una pareja." },
+      "topic": "addition",
+      "source": "https://kids.britannica.com/kids/article/addition/352835"
+    },
+    {
+      "id": "math-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "How many birds are three plus four?", "es": "¿Cuántos pájaros son tres más cuatro?" },
+      "choices": [
+        { "en": "Seven birds", "es": "Siete pájaros", "emoji": "7️⃣" },
+        { "en": "Six birds", "es": "Seis pájaros", "emoji": "6️⃣" },
+        { "en": "Eight birds", "es": "Ocho pájaros", "emoji": "8️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Three and four make seven, and adding works in any order, so four plus three gives seven too.", "es": "Tres y cuatro son siete, y sumar funciona en cualquier orden, así que cuatro más tres también da siete." },
+      "topic": "addition",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "math-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "➕",
+      "q": { "en": "What sign means putting groups together?", "es": "¿Qué signo significa juntar dos grupos?" },
+      "choices": [
+        { "en": "Minus sign", "es": "El signo de menos", "emoji": "➖" },
+        { "en": "Plus sign", "es": "El signo de más", "emoji": "➕" },
+        { "en": "Times sign", "es": "El signo de por", "emoji": "✖️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The plus sign joins groups into one total, and it was first printed in a German book about arithmetic.", "es": "El signo de más junta grupos en un total, y se imprimió por primera vez en un libro alemán de aritmética." },
+      "topic": "addition",
+      "source": "https://www.mathsisfun.com/algebra/mathematical-symbols.html"
+    },
+    {
+      "id": "math-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "➖",
+      "q": { "en": "What is five take away two?", "es": "¿Cuánto es cinco menos dos?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Taking two away from five leaves three; hide two fingers on one hand and count the ones still up.", "es": "Quitar dos de cinco deja tres; esconde dos dedos de una mano y cuenta los que siguen levantados." },
+      "topic": "subtraction",
+      "source": "https://www.mathsisfun.com/numbers/subtraction.html"
+    },
+    {
+      "id": "math-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "Four cookies, you eat one. How many remain?", "es": "Tienes cuatro galletas y te comes una. ¿Cuántas quedan?" },
+      "choices": [
+        { "en": "Three cookies", "es": "Tres galletas", "emoji": "🍪" },
+        { "en": "Four cookies", "es": "Cuatro galletas", "emoji": "4️⃣" },
+        { "en": "Five cookies", "es": "Cinco galletas", "emoji": "5️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Eating one from four leaves three, and subtraction is just addition backward: three plus one returns you to four.", "es": "Comer una de cuatro deja tres, y restar es sumar al revés: tres más una te regresan a cuatro galletas." },
+      "topic": "subtraction",
+      "source": "https://kids.britannica.com/kids/article/subtraction/353876"
+    },
+    {
+      "id": "math-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "9️⃣",
+      "q": { "en": "What is ten take away one?", "es": "¿Cuánto es diez menos uno?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ten minus one is nine; take one away each time and you walk backward down the whole number line.", "es": "Diez menos uno es nueve; si quitas uno cada vez, vas caminando hacia atrás por toda la recta numérica." },
+      "topic": "subtraction",
+      "source": "https://www.mathsisfun.com/numbers/subtraction.html"
+    },
+    {
+      "id": "math-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Six balloons, two float away. How many stay?", "es": "Seis globos y dos se van volando. ¿Cuántos quedan?" },
+      "choices": [
+        { "en": "Six balloons", "es": "Seis globos", "emoji": "6️⃣" },
+        { "en": "Three balloons", "es": "Tres globos", "emoji": "3️⃣" },
+        { "en": "Four balloons", "es": "Cuatro globos", "emoji": "🎈" }
+      ],
+      "answer": 2,
+      "why": { "en": "Six take away two leaves four; you can also count up from two to six and find four steps.", "es": "Seis menos dos deja cuatro; también puedes contar de dos hasta seis y descubrir que son cuatro pasos." },
+      "topic": "subtraction",
+      "source": "https://www.mathsisfun.com/numbers/subtraction.html"
+    },
+    {
+      "id": "math-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "➖",
+      "q": { "en": "What sign means taking some away?", "es": "¿Qué signo significa quitar una parte?" },
+      "choices": [
+        { "en": "Minus sign", "es": "El signo de menos", "emoji": "➖" },
+        { "en": "Plus sign", "es": "El signo de más", "emoji": "➕" },
+        { "en": "Question mark", "es": "El signo de interrogación", "emoji": "❓" }
+      ],
+      "answer": 0,
+      "why": { "en": "The minus sign shows subtraction, and sailors once chalked it on barrels to mark how much water had been used.", "es": "El signo de menos indica restar, y antes los marineros lo marcaban en los barriles para señalar cuánta agua ya se había usado." },
+      "topic": "subtraction",
+      "source": "https://www.mathsisfun.com/algebra/mathematical-symbols.html"
+    },
+    {
+      "id": "math-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "0️⃣",
+      "q": { "en": "What is three take away three?", "es": "¿Cuánto es tres menos tres?" },
+      "choices": [
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" },
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Any number minus itself leaves zero, because you took away exactly as much as you started with.", "es": "Cualquier número menos sí mismo da cero, porque quitaste exactamente la misma cantidad con la que empezaste." },
+      "topic": "subtraction",
+      "source": "https://kids.britannica.com/kids/article/subtraction/353876"
+    },
+    {
+      "id": "math-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Seven fish, three swim away. How many are left?", "es": "Siete peces y tres se alejan. ¿Cuántos quedan?" },
+      "choices": [
+        { "en": "Three fish", "es": "Tres peces", "emoji": "3️⃣" },
+        { "en": "Five fish", "es": "Cinco peces", "emoji": "5️⃣" },
+        { "en": "Four fish", "es": "Cuatro peces", "emoji": "🐟" }
+      ],
+      "answer": 2,
+      "why": { "en": "Seven minus three is four, and four plus three gives seven again, so the two answers check each other.", "es": "Siete menos tres son cuatro, y cuatro más tres vuelve a dar siete, así que una operación comprueba la otra." },
+      "topic": "subtraction",
+      "source": "https://www.mathsisfun.com/numbers/subtraction.html"
+    },
+    {
+      "id": "math-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "What comes next: red, blue, red, blue?", "es": "¿Qué sigue: rojo, azul, rojo, azul?" },
+      "choices": [
+        { "en": "Red", "es": "Rojo", "emoji": "🔴" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" },
+        { "en": "Yellow", "es": "Amarillo", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pattern repeats two colors, so red comes next, and a repeating part like this is called the pattern core.", "es": "El patrón repite dos colores, así que sigue el rojo; esa parte que se repite se llama el núcleo del patrón." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "math-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What comes next: two, four, six, eight?", "es": "¿Qué sigue: dos, cuatro, seis, ocho?" },
+      "choices": [
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Twelve", "es": "Doce", "emoji": "🧮" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each step adds two, so ten follows eight; these are the even numbers, the ones that split into equal halves.", "es": "Cada paso suma dos, así que después del ocho va el diez; son los números pares, los que se parten en mitades iguales." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting-odd-even.html"
+    },
+    {
+      "id": "math-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Which shape continues: circle, square, circle, square?", "es": "¿Qué figura sigue: círculo, cuadrado, círculo, cuadrado?" },
+      "choices": [
+        { "en": "Triangle", "es": "El triángulo", "emoji": "🔺" },
+        { "en": "Star", "es": "La estrella", "emoji": "⭐" },
+        { "en": "Circle", "es": "El círculo", "emoji": "🔵" }
+      ],
+      "answer": 2,
+      "why": { "en": "Shapes take turns in an AB pattern, so a circle comes next; patterns help brains guess what happens later.", "es": "Las figuras se turnan en un patrón AB, así que sigue el círculo; los patrones ayudan al cerebro a predecir." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "math-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦓",
+      "q": { "en": "Which animal wears a striped pattern?", "es": "¿Cuál animal lleva un patrón de rayas?" },
+      "choices": [
+        { "en": "Zebra", "es": "La cebra", "emoji": "🦓" },
+        { "en": "Elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "Pig", "es": "El cerdo", "emoji": "🐷" }
+      ],
+      "answer": 0,
+      "why": { "en": "A zebra repeats black and white stripes, and no two zebras share the same pattern, just like fingerprints.", "es": "La cebra repite rayas negras y blancas, y cada cebra tiene un patrón distinto, igual que las huellas digitales." },
+      "topic": "patterns",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/zebra"
+    },
+    {
+      "id": "math-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔁",
+      "q": { "en": "What comes next: big, small, big, small?", "es": "¿Qué sigue: grande, pequeño, grande, pequeño?" },
+      "choices": [
+        { "en": "Tiny", "es": "Diminuto", "emoji": "🐜" },
+        { "en": "Big", "es": "Grande", "emoji": "🐘" },
+        { "en": "Round", "es": "Redondo", "emoji": "🔵" }
+      ],
+      "answer": 1,
+      "why": { "en": "Size can make a pattern too, so big comes next; patterns can use sounds, movements or colors as well.", "es": "El tamaño también forma patrones, así que sigue grande; los patrones pueden usar sonidos, movimientos o colores." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "math-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "What comes next: five, ten, fifteen?", "es": "¿Qué sigue: cinco, diez, quince?" },
+      "choices": [
+        { "en": "Sixteen", "es": "Dieciséis", "emoji": "🧮" },
+        { "en": "Eighteen", "es": "Dieciocho", "emoji": "🔢" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🙌" }
+      ],
+      "answer": 2,
+      "why": { "en": "Counting by fives jumps five each time, landing on twenty, the same way you count hands or five-cent coins.", "es": "Contar de cinco en cinco salta cinco cada vez y llega a veinte, igual que al contar monedas de cinco centavos." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/skip-counting.html"
+    },
+    {
+      "id": "math-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌗",
+      "q": { "en": "How many halves make one whole?", "es": "¿Cuántas mitades forman un entero?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two equal halves rebuild the whole thing, and halves must be exactly the same size or they are just pieces.", "es": "Dos mitades iguales vuelven a formar el entero, y las mitades deben medir lo mismo o solo son pedazos." },
+      "topic": "halves",
+      "source": "https://www.mathsisfun.com/numbers/fractions.html"
+    },
+    {
+      "id": "math-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "What is half of ten?", "es": "¿Cuánto es la mitad de diez?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Half of ten is five, because five and five together make ten, one number for each of your hands.", "es": "La mitad de diez es cinco, porque cinco y cinco juntos hacen diez, un número para cada una de tus manos." },
+      "topic": "halves",
+      "source": "https://www.mathsisfun.com/numbers/fractions.html"
+    },
+    {
+      "id": "math-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌗",
+      "q": { "en": "What is half of a circle called?", "es": "¿Cómo se llama la mitad de un círculo?" },
+      "choices": [
+        { "en": "Cube", "es": "Cubo", "emoji": "🧊" },
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" },
+        { "en": "Semicircle", "es": "Semicírculo", "emoji": "🌗" }
+      ],
+      "answer": 2,
+      "why": { "en": "Semi means half, so a semicircle is half a circle, and the same semi appears in semifinal and semicolon.", "es": "Semi significa mitad, por eso el semicírculo es medio círculo, y ese mismo semi aparece en la palabra semifinal de un torneo." },
+      "topic": "halves",
+      "source": "https://kids.britannica.com/kids/article/geometry/353136"
+    },
+    {
+      "id": "math-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍕",
+      "q": { "en": "Which fraction means one of two equal parts?", "es": "¿Qué fracción es una de dos partes iguales?" },
+      "choices": [
+        { "en": "One half", "es": "Un medio", "emoji": "🌗" },
+        { "en": "One third", "es": "Un tercio", "emoji": "🥧" },
+        { "en": "One quarter", "es": "Un cuarto", "emoji": "🍕" }
+      ],
+      "answer": 0,
+      "why": { "en": "One half names one of two equal parts, and the bottom number of a fraction tells how many parts there are.", "es": "Un medio es una de dos partes iguales, y el número de abajo de una fracción dice en cuántas partes se dividió." },
+      "topic": "halves",
+      "source": "https://www.mathsisfun.com/numbers/fractions.html"
+    },
+    {
+      "id": "math-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "What is half of four cookies?", "es": "¿Cuánto es la mitad de cuatro galletas?" },
+      "choices": [
+        { "en": "One cookie", "es": "Una galleta", "emoji": "1️⃣" },
+        { "en": "Two cookies", "es": "Dos galletas", "emoji": "🍪" },
+        { "en": "Four cookies", "es": "Cuatro galletas", "emoji": "4️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Half of four is two; deal the cookies one at a time into two piles and both piles end equal.", "es": "La mitad de cuatro es dos; reparte las galletas una por una en dos montones y quedarán iguales." },
+      "topic": "halves",
+      "source": "https://kids.britannica.com/kids/article/fraction/399483"
+    },
+    {
+      "id": "math-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "1️⃣",
+      "q": { "en": "What is half of two?", "es": "¿Cuánto es la mitad de dos?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Half of two is one, and halving keeps working: half of one is a half, a piece smaller than a whole.", "es": "La mitad de dos es uno, y puedes seguir partiendo: la mitad de uno es un medio, más pequeño que un entero." },
+      "topic": "halves",
+      "source": "https://www.mathsisfun.com/numbers/fractions.html"
+    },
+    {
+      "id": "math-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥇",
+      "q": { "en": "What do you call the winner's place?", "es": "¿Cómo se llama el lugar del ganador?" },
+      "choices": [
+        { "en": "First", "es": "Primero", "emoji": "🥇" },
+        { "en": "Second", "es": "Segundo", "emoji": "🥈" },
+        { "en": "Third", "es": "Tercero", "emoji": "🥉" }
+      ],
+      "answer": 0,
+      "why": { "en": "The winner takes first place, and words like first, second and third are ordinals, which tell order instead of amount.", "es": "El ganador queda en primer lugar, y palabras como primero, segundo y tercero son ordinales, porque dicen el orden y no la cantidad." },
+      "topic": "ordinals",
+      "source": "https://www.mathsisfun.com/definitions/ordinal-number.html"
+    },
+    {
+      "id": "math-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥈",
+      "q": { "en": "Which medal does second place win?", "es": "¿Qué medalla gana el segundo lugar?" },
+      "choices": [
+        { "en": "Gold", "es": "La de oro", "emoji": "🥇" },
+        { "en": "Silver", "es": "La de plata", "emoji": "🥈" },
+        { "en": "Bronze", "es": "La de bronce", "emoji": "🥉" }
+      ],
+      "answer": 1,
+      "why": { "en": "Second place wins silver; the top three places have taken gold, silver and bronze since the early Olympic Games.", "es": "El segundo lugar gana plata; los tres primeros lugares reciben oro, plata y bronce desde los primeros Juegos Olímpicos." },
+      "topic": "ordinals",
+      "source": "https://kids.britannica.com/kids/article/Olympic-Games/353539"
+    },
+    {
+      "id": "math-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏢",
+      "q": { "en": "Which floor sits just above the first?", "es": "¿Qué piso está justo arriba del primero?" },
+      "choices": [
+        { "en": "Ground floor", "es": "La planta baja", "emoji": "🚪" },
+        { "en": "Third floor", "es": "El tercer piso", "emoji": "🏬" },
+        { "en": "Second floor", "es": "El segundo piso", "emoji": "🏢" }
+      ],
+      "answer": 2,
+      "why": { "en": "Second comes right after first, so the second floor is one flight up; some buildings skip the number thirteen.", "es": "El segundo va justo después del primero, así que el segundo piso está un tramo arriba; algunos edificios se saltan el trece." },
+      "topic": "ordinals",
+      "source": "https://www.mathsisfun.com/definitions/ordinal-number.html"
+    },
+    {
+      "id": "math-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "Which month is first in the year?", "es": "¿Cuál mes es el primero del año?" },
+      "choices": [
+        { "en": "January", "es": "enero", "emoji": "🎉" },
+        { "en": "March", "es": "marzo", "emoji": "🌷" },
+        { "en": "June", "es": "junio", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "January is the first of twelve months, named for Janus, a Roman god drawn with two faces looking both ways.", "es": "Enero es el primero de los doce meses y lleva el nombre de Jano, un dios romano con dos caras." },
+      "topic": "ordinals",
+      "source": "https://kids.britannica.com/kids/article/calendar/352922"
+    },
+    {
+      "id": "math-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥉",
+      "q": { "en": "Which step comes after the second step?", "es": "¿Qué escalón viene después del segundo?" },
+      "choices": [
+        { "en": "First step", "es": "El primero", "emoji": "🥇" },
+        { "en": "Third step", "es": "El tercero", "emoji": "🥉" },
+        { "en": "Fourth step", "es": "El cuarto", "emoji": "4️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Third follows second, and ordinals keep going: fourth, fifth, sixth, all built from the counting numbers you already know.", "es": "El tercero sigue al segundo, y los ordinales continúan: cuarto, quinto, sexto, todos formados a partir de los números que ya conoces." },
+      "topic": "ordinals",
+      "source": "https://www.mathsisfun.com/definitions/ordinal-number.html"
+    },
+    {
+      "id": "math-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "Which body part was used to measure horses?", "es": "¿Con qué parte del cuerpo se miden los caballos?" },
+      "choices": [
+        { "en": "Feet", "es": "Con los pies", "emoji": "🦶" },
+        { "en": "Elbows", "es": "Con los codos", "emoji": "💪" },
+        { "en": "Hands", "es": "Con las manos", "emoji": "✋" }
+      ],
+      "answer": 2,
+      "why": { "en": "Horses are still measured in hands, and one hand was set at four inches, ten centimeters, so everyone agrees.", "es": "Los caballos todavía se miden en manos, y una mano vale cuatro pulgadas, diez centímetros, para que todos midan igual." },
+      "topic": "measuring",
+      "source": "https://kids.britannica.com/kids/article/horse/353175"
+    },
+    {
+      "id": "math-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which tool tells you how tall something is?", "es": "¿Qué herramienta dice qué tan alto es algo?" },
+      "choices": [
+        { "en": "A ruler", "es": "Una regla", "emoji": "📏" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A cup", "es": "Una taza", "emoji": "🥤" }
+      ],
+      "answer": 0,
+      "why": { "en": "A ruler measures length with marks the same distance apart, so two people measuring the same book agree.", "es": "Una regla mide el largo con marcas separadas por la misma distancia, así dos personas que midan el mismo libro coinciden." },
+      "topic": "measuring",
+      "source": "https://www.mathsisfun.com/measure/us-standard-length.html"
+    },
+    {
+      "id": "math-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Which of these animals is tallest?", "es": "¿Cuál de estos animales es el más alto?" },
+      "choices": [
+        { "en": "A goat", "es": "La cabra", "emoji": "🐐" },
+        { "en": "A giraffe", "es": "La jirafa", "emoji": "🦒" },
+        { "en": "A rabbit", "es": "El conejo", "emoji": "🐇" }
+      ],
+      "answer": 1,
+      "why": { "en": "A giraffe stands about eighteen feet, five and a half meters, tall, and its long neck holds only seven bones.", "es": "Una jirafa mide unos dieciocho pies, cinco metros y medio, y su cuello larguísimo tiene apenas siete huesos." },
+      "topic": "measuring",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giraffe"
+    },
+    {
+      "id": "math-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "Which of these would be heaviest?", "es": "¿Cuál de estas cosas sería la más pesada?" },
+      "choices": [
+        { "en": "A feather", "es": "Una pluma", "emoji": "🪶" },
+        { "en": "An apple", "es": "Una manzana", "emoji": "🍎" },
+        { "en": "An elephant", "es": "Un elefante", "emoji": "🐘" }
+      ],
+      "answer": 2,
+      "why": { "en": "An elephant can weigh as much as six cars, and it still walks on tiptoe with cushions inside its feet.", "es": "Un elefante puede pesar como seis carros, y aun así camina de puntitas sobre cojines de grasa dentro de sus patas." },
+      "topic": "weight",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/african-elephant"
+    },
+    {
+      "id": "math-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which tool shows how heavy something is?", "es": "¿Qué herramienta muestra qué tan pesado es algo?" },
+      "choices": [
+        { "en": "A scale", "es": "Una balanza", "emoji": "⚖️" },
+        { "en": "A clock", "es": "Un reloj", "emoji": "🕐" },
+        { "en": "A ruler", "es": "Una regla", "emoji": "📏" }
+      ],
+      "answer": 0,
+      "why": { "en": "A balance scale tips toward the heavier side, and it stays level only when both pans hold the same weight.", "es": "Una balanza se inclina hacia el lado más pesado y queda derechita solo cuando los dos platos pesan igual." },
+      "topic": "weight",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "math-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Which of these is the lightest?", "es": "¿Cuál de estas cosas es la más ligera?" },
+      "choices": [
+        { "en": "A book", "es": "Un libro", "emoji": "📚" },
+        { "en": "A balloon", "es": "Un globo", "emoji": "🎈" },
+        { "en": "A rock", "es": "Una piedra", "emoji": "🪨" }
+      ],
+      "answer": 1,
+      "why": { "en": "A balloon weighs almost nothing because it is mostly air, and one filled with helium floats up instead of falling.", "es": "Un globo casi no pesa porque es casi puro aire, y si lo llenas de helio sube en vez de caer." },
+      "topic": "weight",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "math-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which word describes a glass with nothing inside?", "es": "¿Qué palabra describe un vaso sin nada adentro?" },
+      "choices": [
+        { "en": "Empty", "es": "Vacío", "emoji": "🕳️" },
+        { "en": "Full", "es": "Lleno", "emoji": "🥛" },
+        { "en": "Heavy", "es": "Pesado", "emoji": "🧱" }
+      ],
+      "answer": 0,
+      "why": { "en": "An empty glass holds zero drops, though it is really full of air, which has weight you cannot feel.", "es": "Un vaso vacío tiene cero gotas, aunque en realidad está lleno de aire, y el aire también pesa un poquito." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/capacity.html"
+    },
+    {
+      "id": "math-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "9️⃣",
+      "q": { "en": "Which of these numbers is the biggest?", "es": "¿Cuál de estos números es el más grande?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nine is the biggest here because it sits farthest from zero, and it is the last single-digit number.", "es": "El nueve es el mayor porque está más lejos del cero, y además es el último número de una sola cifra." },
+      "topic": "comparing",
+      "source": "https://kids.britannica.com/kids/article/number/353527"
+    },
+    {
+      "id": "math-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "1️⃣",
+      "q": { "en": "Which of these numbers is the smallest?", "es": "¿Cuál de estos números es el más pequeño?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "One is the smallest here; on a number line the smaller number always sits to the left of the bigger one.", "es": "El uno es el más pequeño; en una recta numérica el número menor siempre queda a la izquierda del mayor." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/numbers/number-line.html"
+    },
+    {
+      "id": "math-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕐",
+      "q": { "en": "Which clock hand moves the slowest?", "es": "¿Cuál manecilla del reloj se mueve más lento?" },
+      "choices": [
+        { "en": "The hour hand", "es": "La de las horas", "emoji": "🕐" },
+        { "en": "The minute hand", "es": "La de los minutos", "emoji": "⏱️" },
+        { "en": "The second hand", "es": "La de los segundos", "emoji": "⏲️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The hour hand creeps around once every twelve hours, so slowly that you can hardly see it moving.", "es": "La manecilla de las horas da una vuelta cada doce horas, tan despacio que apenas notas su movimiento." },
+      "topic": "time",
+      "source": "https://kids.britannica.com/kids/article/clock/399137"
+    },
+    {
+      "id": "math-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌗",
+      "q": { "en": "How many hours make one whole day?", "es": "¿Cuántas horas tiene un día completo?" },
+      "choices": [
+        { "en": "Twelve hours", "es": "Doce horas", "emoji": "🕛" },
+        { "en": "Twenty-four hours", "es": "Veinticuatro horas", "emoji": "🌗" },
+        { "en": "Ten hours", "es": "Diez horas", "emoji": "🔟" }
+      ],
+      "answer": 1,
+      "why": { "en": "A day has twenty-four hours, twelve on a clock face twice, because Earth spins around once in that time.", "es": "Un día tiene veinticuatro horas, dos vueltas completas al reloj, porque la Tierra gira una vez sobre sí misma." },
+      "topic": "time",
+      "source": "https://www.mathsisfun.com/time.html"
+    },
+    {
+      "id": "math-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "How many days are in one week?", "es": "¿Cuántos días tiene una semana?" },
+      "choices": [
+        { "en": "Five days", "es": "Cinco días", "emoji": "5️⃣" },
+        { "en": "Ten days", "es": "Diez días", "emoji": "🔟" },
+        { "en": "Seven days", "es": "Siete días", "emoji": "📅" }
+      ],
+      "answer": 2,
+      "why": { "en": "A week holds seven days, one for each of the seven sky lights ancient people could watch moving.", "es": "La semana tiene siete días, uno por cada uno de los siete astros que los pueblos antiguos veían moverse en el cielo." },
+      "topic": "time",
+      "source": "https://kids.britannica.com/kids/article/calendar/352922"
+    },
+    {
+      "id": "math-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "When the sky is dark, what time is it?", "es": "Cuando el cielo está oscuro, ¿qué momento es?" },
+      "choices": [
+        { "en": "Night", "es": "La noche", "emoji": "🌙" },
+        { "en": "Noon", "es": "El mediodía", "emoji": "🌞" },
+        { "en": "Morning", "es": "La mañana", "emoji": "🌅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Darkness means night, when your side of Earth has turned away from the Sun for about half a day.", "es": "La oscuridad significa noche: tu lado de la Tierra se alejó del Sol y pasará así media vuelta del reloj." },
+      "topic": "time",
+      "source": "https://kids.britannica.com/kids/article/day-and-night/399201"
+    },
+    {
+      "id": "math-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏰",
+      "q": { "en": "How many minutes make one hour?", "es": "¿Cuántos minutos tiene una hora?" },
+      "choices": [
+        { "en": "Thirty minutes", "es": "Treinta minutos", "emoji": "🕧" },
+        { "en": "Sixty minutes", "es": "Sesenta minutos", "emoji": "⏰" },
+        { "en": "Ten minutes", "es": "Diez minutos", "emoji": "⏲️" }
+      ],
+      "answer": 1,
+      "why": { "en": "An hour has sixty minutes, a count borrowed from Babylonians who did their arithmetic in groups of sixty.", "es": "Una hora tiene sesenta minutos, una cuenta heredada de los babilonios, que hacían sus cálculos en grupos de sesenta." },
+      "topic": "time",
+      "source": "https://www.mathsisfun.com/time.html"
+    },
+    {
+      "id": "math-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "💵",
+      "q": { "en": "How many cents make one dollar?", "es": "¿Cuántos centavos tiene un dólar?" },
+      "choices": [
+        { "en": "Ten cents", "es": "Diez centavos", "emoji": "🔟" },
+        { "en": "Fifty cents", "es": "Cincuenta centavos", "emoji": "5️⃣" },
+        { "en": "One hundred cents", "es": "Cien centavos", "emoji": "💵" }
+      ],
+      "answer": 2,
+      "why": { "en": "A dollar equals one hundred cents, and the word cent comes from centum, the Latin word for hundred.", "es": "Un dólar vale cien centavos, y la palabra centavo viene de centum, que significa cien en latín." },
+      "topic": "money",
+      "source": "https://kids.britannica.com/kids/article/money/353441"
+    },
+    {
+      "id": "math-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "How many five-cent coins make ten cents?", "es": "¿Cuántas monedas de cinco centavos hacen diez?" },
+      "choices": [
+        { "en": "Two coins", "es": "Dos monedas", "emoji": "🪙" },
+        { "en": "Three coins", "es": "Tres monedas", "emoji": "3️⃣" },
+        { "en": "Five coins", "es": "Cinco monedas", "emoji": "5️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five plus five makes ten, so two coins are enough; counting money is really just counting by fives and tens.", "es": "Cinco más cinco son diez, así que bastan dos monedas; contar dinero es contar de cinco en cinco o de diez en diez." },
+      "topic": "money",
+      "source": "https://www.mathsisfun.com/money/index.html"
+    },
+    {
+      "id": "math-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "What shape are most coins?", "es": "¿Qué forma tienen casi todas las monedas?" },
+      "choices": [
+        { "en": "Square", "es": "Cuadrada", "emoji": "⬜" },
+        { "en": "Circle", "es": "Redonda", "emoji": "🪙" },
+        { "en": "Triangle", "es": "Triangular", "emoji": "🔺" }
+      ],
+      "answer": 1,
+      "why": { "en": "Coins are circles because round edges wear down slowly and roll into slots, though a few countries make seven-sided ones.", "es": "Las monedas son redondas porque los bordes curvos se gastan despacio y ruedan bien, aunque unos países las hacen de siete lados." },
+      "topic": "money",
+      "source": "https://kids.britannica.com/kids/article/money/353441"
+    },
+    {
+      "id": "math-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "How many ten-cent coins make fifty cents?", "es": "¿Cuántas monedas de diez centavos hacen cincuenta?" },
+      "choices": [
+        { "en": "Two coins", "es": "Dos monedas", "emoji": "2️⃣" },
+        { "en": "Ten coins", "es": "Diez monedas", "emoji": "🔟" },
+        { "en": "Five coins", "es": "Cinco monedas", "emoji": "🪙" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ten, twenty, thirty, forty, fifty: five jumps of ten get there, which is why skip counting saves so much time.", "es": "Diez, veinte, treinta, cuarenta, cincuenta: cinco saltos de diez llegan, y por eso contar de diez en diez es tan rápido." },
+      "topic": "money",
+      "source": "https://www.mathsisfun.com/numbers/skip-counting.html"
+    },
+    {
+      "id": "math-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "💵",
+      "q": { "en": "What do people use to buy things?", "es": "¿Qué usan las personas para comprar cosas?" },
+      "choices": [
+        { "en": "Money", "es": "El dinero", "emoji": "💵" },
+        { "en": "Rocks", "es": "Las piedras", "emoji": "🪨" },
+        { "en": "Leaves", "es": "Las hojas", "emoji": "🍃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Money stands for an amount everyone agrees on, and long ago people traded salt, shells and cacao beans instead.", "es": "El dinero representa una cantidad que todos aceptan, y hace mucho la gente cambiaba sal, conchas y semillas de cacao." },
+      "topic": "money",
+      "source": "https://kids.britannica.com/kids/article/money/353441"
+    },
+    {
+      "id": "math-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "Which animal has matching wings on both sides?", "es": "¿Cuál animal tiene alas iguales de los dos lados?" },
+      "choices": [
+        { "en": "A snail", "es": "El caracol", "emoji": "🐌" },
+        { "en": "A butterfly", "es": "La mariposa", "emoji": "🦋" },
+        { "en": "A worm", "es": "La lombriz", "emoji": "🪱" }
+      ],
+      "answer": 1,
+      "why": { "en": "A butterfly is symmetrical: fold it down the middle and both halves match, which also keeps its flight balanced.", "es": "La mariposa es simétrica: si la doblas por el medio, las dos mitades coinciden, y eso mantiene su vuelo equilibrado." },
+      "topic": "symmetry",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/butterflies"
+    },
+    {
+      "id": "math-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "What do we call two matching halves?", "es": "¿Cómo se llama tener dos mitades iguales?" },
+      "choices": [
+        { "en": "A pattern", "es": "Un patrón", "emoji": "🔁" },
+        { "en": "A corner", "es": "Una esquina", "emoji": "📐" },
+        { "en": "Symmetry", "es": "La simetría", "emoji": "🪞" }
+      ],
+      "answer": 2,
+      "why": { "en": "Symmetry means one half mirrors the other, and your own face is nearly symmetrical, though not quite perfectly.", "es": "La simetría es cuando una mitad refleja a la otra; tu propia cara es casi simétrica, pero no del todo." },
+      "topic": "symmetry",
+      "source": "https://www.mathsisfun.com/geometry/symmetry.html"
+    },
+    {
+      "id": "math-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "Which letter looks the same in a mirror?", "es": "¿Cuál letra se ve igual en un espejo?" },
+      "choices": [
+        { "en": "The letter A", "es": "La letra A", "emoji": "🅰️" },
+        { "en": "The letter B", "es": "La letra B", "emoji": "🅱️" },
+        { "en": "The letter P", "es": "La letra P", "emoji": "🅿️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The letter A has a mirror line down its middle, so its left and right sides are exactly the same.", "es": "La letra A tiene una línea de simetría en el centro, así que su lado izquierdo y el derecho son idénticos." },
+      "topic": "symmetry",
+      "source": "https://www.mathsisfun.com/geometry/symmetry-line-plane-shapes.html"
+    },
+    {
+      "id": "math-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Which shape has the most lines of symmetry?", "es": "¿Cuál figura tiene más líneas de simetría?" },
+      "choices": [
+        { "en": "A triangle", "es": "El triángulo", "emoji": "🔺" },
+        { "en": "A circle", "es": "El círculo", "emoji": "🔵" },
+        { "en": "A rectangle", "es": "El rectángulo", "emoji": "🚪" }
+      ],
+      "answer": 1,
+      "why": { "en": "A circle folds through its center in endless directions and always matches, so its lines of symmetry never run out.", "es": "Un círculo se puede doblar por su centro en infinitas direcciones y siempre coincide, así que sus líneas de simetría son incontables." },
+      "topic": "symmetry",
+      "source": "https://www.mathsisfun.com/geometry/symmetry.html"
+    },
+    {
+      "id": "math-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "Which of these things is round?", "es": "¿Cuál de estas cosas es redonda?" },
+      "choices": [
+        { "en": "A book", "es": "Un libro", "emoji": "📕" },
+        { "en": "A box", "es": "Una caja", "emoji": "📦" },
+        { "en": "A ball", "es": "Una pelota", "emoji": "⚽" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sorting means putting things with a shared trait together, and a ball joins oranges and coins in the round group.", "es": "Clasificar es juntar cosas que comparten algo, y la pelota va con las naranjas y las monedas en el grupo redondo." },
+      "topic": "sorting",
+      "source": "https://www.mathsisfun.com/data/sorting.html"
+    },
+    {
+      "id": "math-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "What are you doing lining toys smallest to biggest?", "es": "¿Qué haces al formar juguetes del más pequeño al más grande?" },
+      "choices": [
+        { "en": "Sorting by size", "es": "Ordenar por tamaño", "emoji": "📏" },
+        { "en": "Counting by twos", "es": "Contar de dos en dos", "emoji": "2️⃣" },
+        { "en": "Adding numbers", "es": "Sumar números", "emoji": "➕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Putting things in size order is called sorting, and doing it teaches you to compare two things at a glance.", "es": "Acomodar cosas por tamaño se llama ordenar, y hacerlo te enseña a comparar dos objetos de un solo vistazo." },
+      "topic": "sorting",
+      "source": "https://www.mathsisfun.com/data/sorting.html"
+    },
+    {
+      "id": "math-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍐",
+      "q": { "en": "Which one belongs with apples and bananas?", "es": "¿Cuál va junto con las manzanas y los plátanos?" },
+      "choices": [
+        { "en": "A shoe", "es": "Un zapato", "emoji": "👟" },
+        { "en": "A pear", "es": "Una pera", "emoji": "🍐" },
+        { "en": "A chair", "es": "Una silla", "emoji": "🪑" }
+      ],
+      "answer": 1,
+      "why": { "en": "A pear is a fruit, so it joins the group; grouping by what things have in common is where math starts.", "es": "La pera es una fruta, así que entra al grupo; agrupar por lo que tienen en común es el inicio de las matemáticas." },
+      "topic": "sorting",
+      "source": "https://www.mathsisfun.com/data/sorting.html"
+    },
+    {
+      "id": "math-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍇",
+      "q": { "en": "Two friends share six grapes fairly. How many each?", "es": "Dos amigos comparten seis uvas en partes iguales. ¿Cuántas recibe cada uno?" },
+      "choices": [
+        { "en": "Six grapes", "es": "Seis uvas", "emoji": "6️⃣" },
+        { "en": "Two grapes", "es": "Dos uvas", "emoji": "2️⃣" },
+        { "en": "Three grapes", "es": "Tres uvas", "emoji": "🍇" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sharing six between two gives three each; hand them out one by one and the piles come out even.", "es": "Repartir seis entre dos da tres a cada uno; entrégalas de una en una y los montones quedan iguales." },
+      "topic": "sharing",
+      "source": "https://www.mathsisfun.com/numbers/division.html"
+    },
+    {
+      "id": "math-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "Three children share three apples fairly. How many each?", "es": "Tres niños comparten tres manzanas en partes iguales. ¿Cuántas recibe cada uno?" },
+      "choices": [
+        { "en": "One apple", "es": "Una manzana", "emoji": "🍎" },
+        { "en": "Two apples", "es": "Dos manzanas", "emoji": "2️⃣" },
+        { "en": "Three apples", "es": "Tres manzanas", "emoji": "3️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Three apples split three ways gives one apiece, and sharing equally is the everyday name for dividing.", "es": "Tres manzanas repartidas entre tres dan una para cada quien, y repartir en partes iguales es lo mismo que dividir." },
+      "topic": "sharing",
+      "source": "https://kids.britannica.com/kids/article/division/399253"
+    },
+    {
+      "id": "math-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖍️",
+      "q": { "en": "Four friends share eight crayons fairly. How many each?", "es": "Cuatro amigos comparten ocho crayones en partes iguales. ¿Cuántos recibe cada uno?" },
+      "choices": [
+        { "en": "One crayon", "es": "Un crayón", "emoji": "1️⃣" },
+        { "en": "Two crayons", "es": "Dos crayones", "emoji": "🖍️" },
+        { "en": "Four crayons", "es": "Cuatro crayones", "emoji": "4️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Eight shared among four is two each, because four groups of two rebuild the eight you started with.", "es": "Ocho repartidos entre cuatro son dos para cada uno, porque cuatro grupos de dos vuelven a formar los ocho." },
+      "topic": "sharing",
+      "source": "https://www.mathsisfun.com/numbers/division.html"
+    },
+    {
+      "id": "math-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "How many legs does a spider have?", "es": "¿Cuántas patas tiene una araña?" },
+      "choices": [
+        { "en": "Six legs", "es": "Seis patas", "emoji": "6️⃣" },
+        { "en": "Four legs", "es": "Cuatro patas", "emoji": "4️⃣" },
+        { "en": "Eight legs", "es": "Ocho patas", "emoji": "🕷️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A spider has eight legs, two more than an insect, which is why spiders belong to a different animal family.", "es": "Una araña tiene ocho patas, dos más que un insecto, y por eso las arañas pertenecen a otra familia de animales." },
+      "topic": "counting",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/spider"
+    },
+    {
+      "id": "math-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "How many legs do two dogs have?", "es": "¿Cuántas patas tienen dos perros?" },
+      "choices": [
+        { "en": "Eight legs", "es": "Ocho patas", "emoji": "🐕" },
+        { "en": "Four legs", "es": "Cuatro patas", "emoji": "4️⃣" },
+        { "en": "Six legs", "es": "Seis patas", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each dog has four legs, so two dogs give four plus four, which is eight, a double you can count quickly.", "es": "Cada perro tiene cuatro patas, así que dos perros son cuatro más cuatro, o sea ocho, un doble fácil de contar." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "math-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙌",
+      "q": { "en": "Which number comes right after nineteen?", "es": "¿Qué número viene justo después del diecinueve?" },
+      "choices": [
+        { "en": "Eighteen", "es": "Dieciocho", "emoji": "🔢" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🙌" },
+        { "en": "Twelve", "es": "Doce", "emoji": "🧮" }
+      ],
+      "answer": 1,
+      "why": { "en": "Twenty follows nineteen and means two tens, that is two whole groups of ten fingers stacked together.", "es": "El veinte sigue al diecinueve y significa dos decenas, es decir dos grupos de diez dedos completos." },
+      "topic": "counting",
+      "source": "https://kids.britannica.com/kids/article/number/353527"
     }
   ]
 }

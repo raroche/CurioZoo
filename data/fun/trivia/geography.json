@@ -1,7 +1,7 @@
 {
   "note": "Geography & Maps. Three levels in one file so a reviewer sees the ladder.",
   "category": "geography",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "geography-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
@@ -12,8 +12,7 @@
         { "en": "A desert", "es": "Un desierto", "emoji": "🏜️" }
       ],
       "answer": 0,
-      "why": { "en": "An island is land with water on every side, so you need a boat or a plane to reach it.",
-               "es": "Una isla es tierra con agua por todos lados, así que para llegar necesitas un barco o un avión." },
+      "why": { "en": "An island is land with water on every side, so you need a boat or a plane to reach it.", "es": "Una isla es tierra con agua por todos lados, así que para llegar necesitas un barco o un avión." },
       "topic": "islands",
       "source": "https://education.nationalgeographic.org/resource/island/"
     },
@@ -26,8 +25,7 @@
         { "en": "Square like a box", "es": "Cuadrado como una caja", "emoji": "📦" }
       ],
       "answer": 1,
-      "why": { "en": "A globe is round like a ball because Earth is round, so it shows the land and oceans in their true shapes.",
-               "es": "Un globo terráqueo es redondo como una pelota porque la Tierra es redonda, y muestra la tierra y los mares con su forma real." },
+      "why": { "en": "A globe is round like a ball because Earth is round, so it shows the land and oceans in their true shapes.", "es": "Un globo terráqueo es redondo como una pelota porque la Tierra es redonda, y muestra la tierra y los mares con su forma real." },
       "topic": "maps and globes",
       "source": "https://education.nationalgeographic.org/resource/globe/"
     },
@@ -40,8 +38,7 @@
         { "en": "The ocean", "es": "El océano", "emoji": "🌊" }
       ],
       "answer": 2,
-      "why": { "en": "An ocean is far bigger than any lake, and oceans cover more than half of our whole planet.",
-               "es": "Un océano es mucho más grande que cualquier lago, y los océanos cubren más de la mitad de nuestro planeta." },
+      "why": { "en": "An ocean is far bigger than any lake, and oceans cover more than half of our whole planet.", "es": "Un océano es mucho más grande que cualquier lago, y los océanos cubren más de la mitad de nuestro planeta." },
       "topic": "land and water",
       "source": "https://oceanservice.noaa.gov/facts/oceanwater.html"
     },
@@ -55,8 +52,7 @@
         { "en": "Asia", "es": "Asia" }
       ],
       "answer": 3,
-      "why": { "en": "Asia covers almost one third of all the land on Earth and stretches from Turkey to Japan.",
-               "es": "Asia cubre casi un tercio de toda la tierra firme del planeta y va desde Turquía hasta Japón." },
+      "why": { "en": "Asia covers almost one third of all the land on Earth and stretches from Turkey to Japan.", "es": "Asia cubre casi un tercio de toda la tierra firme del planeta y va desde Turquía hasta Japón." },
       "topic": "continents",
       "source": "https://www.britannica.com/place/Asia"
     },
@@ -70,8 +66,7 @@
         { "en": "The Arctic Circle", "es": "El círculo polar ártico" }
       ],
       "answer": 0,
-      "why": { "en": "The equator splits Earth into the Northern and Southern Hemispheres, and it crosses Ecuador, a country named after it.",
-               "es": "El ecuador divide la Tierra en los hemisferios norte y sur, y cruza Ecuador, un país que lleva su nombre." },
+      "why": { "en": "The equator splits Earth into the Northern and Southern Hemispheres, and it crosses Ecuador, a country named after it.", "es": "El ecuador divide la Tierra en los hemisferios norte y sur, y cruza Ecuador, un país que lleva su nombre." },
       "topic": "equator and poles",
       "source": "https://education.nationalgeographic.org/resource/equator/"
     },
@@ -85,8 +80,7 @@
         { "en": "Bolivia", "es": "Bolivia" }
       ],
       "answer": 2,
-      "why": { "en": "Machu Picchu sits high in the Andes mountains of Peru, about 8000 feet (2400 m) above the sea.",
-               "es": "Machu Picchu está en lo alto de la cordillera de los Andes, en Perú, a unos 2400 m (8000 pies) sobre el mar." },
+      "why": { "en": "Machu Picchu sits high in the Andes mountains of Peru, about 8000 feet (2400 m) above the sea.", "es": "Machu Picchu está en lo alto de la cordillera de los Andes, en Perú, a unos 2400 m (8000 pies) sobre el mar." },
       "topic": "landmarks",
       "source": "https://www.britannica.com/place/Machu-Picchu"
     },
@@ -100,8 +94,7 @@
         { "en": "Guyana", "es": "Guyana" }
       ],
       "answer": 1,
-      "why": { "en": "Paraguay and Bolivia are the two landlocked countries of South America, yet Paraguay's rivers still carry ships to the Atlantic.",
-               "es": "Paraguay y Bolivia son los dos únicos países de Sudamérica sin salida al mar, pero los ríos paraguayos llevan barcos al Atlántico." },
+      "why": { "en": "Paraguay and Bolivia are the two landlocked countries of South America, yet Paraguay's rivers still carry ships to the Atlantic.", "es": "Paraguay y Bolivia son los dos únicos países de Sudamérica sin salida al mar, pero los ríos paraguayos llevan barcos al Atlántico." },
       "topic": "landlocked countries",
       "source": "https://www.britannica.com/place/Paraguay"
     },
@@ -115,8 +108,7 @@
         { "en": "London", "es": "Londres" }
       ],
       "answer": 3,
-      "why": { "en": "The Prime Meridian passes through the Royal Observatory in Greenwich, London, and splits Earth into the Eastern and Western Hemispheres.",
-               "es": "El meridiano de Greenwich pasa por el Observatorio Real de Greenwich, en Londres, y divide la Tierra en hemisferio oriental y occidental." },
+      "why": { "en": "The Prime Meridian passes through the Royal Observatory in Greenwich, London, and splits Earth into the Eastern and Western Hemispheres.", "es": "El meridiano de Greenwich pasa por el Observatorio Real de Greenwich, en Londres, y divide la Tierra en hemisferio oriental y occidental." },
       "topic": "latitude and longitude",
       "source": "https://education.nationalgeographic.org/resource/prime-meridian/"
     },
@@ -128,10 +120,1270 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "True: some weather stations in Chile's Atacama Desert have gone years without measuring a single drop of rain.",
-               "es": "Cierto: algunas estaciones del clima en el desierto de Atacama han pasado años sin medir ni una gota de lluvia." },
+      "why": { "en": "True: some weather stations in Chile's Atacama Desert have gone years without measuring a single drop of rain.", "es": "Cierto: algunas estaciones del clima en el desierto de Atacama han pasado años sin medir ni una gota de lluvia." },
       "topic": "deserts",
       "source": "https://www.britannica.com/place/Atacama-Desert"
+    },
+    {
+      "id": "geography-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "What does a map help you do?", "es": "¿Para qué te sirve un mapa?" },
+      "choices": [
+        { "en": "Find places", "es": "Encontrar lugares", "emoji": "🗺️" },
+        { "en": "Bake a cake", "es": "Hornear un pastel", "emoji": "🎂" },
+        { "en": "Brush your teeth", "es": "Lavarte los dientes", "emoji": "🪥" }
+      ],
+      "answer": 0,
+      "why": { "en": "A map is a picture of a place from above, and mapmakers have drawn them for thousands of years.", "es": "Un mapa es un dibujo de un lugar visto desde arriba, y la gente ha dibujado mapas desde hace miles de años." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "💙",
+      "q": { "en": "On a map, what color is water usually?", "es": "En un mapa, ¿de qué color suele estar el agua?" },
+      "choices": [
+        { "en": "Blue", "es": "Azul", "emoji": "💙" },
+        { "en": "Orange", "es": "Naranja", "emoji": "🟠" },
+        { "en": "Purple", "es": "Morado", "emoji": "🟣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mapmakers paint water blue and land green or brown, so your eyes can tell them apart in one glance.", "es": "Los mapas pintan el agua de azul y la tierra de verde o café, para que tus ojos las distingan al instante." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔑",
+      "q": { "en": "What does a map key explain?", "es": "¿Qué explica la leyenda de un mapa?" },
+      "choices": [
+        { "en": "What the pictures mean", "es": "Qué significan los dibujos", "emoji": "🔑" },
+        { "en": "How hot it is", "es": "Qué tan caliente está", "emoji": "🌡️" },
+        { "en": "What day it is", "es": "Qué día es hoy", "emoji": "📅" }
+      ],
+      "answer": 0,
+      "why": { "en": "A map key is a little list that tells you a tree means forest and a blue line means river.", "es": "La leyenda del mapa es una lista pequeña que dice que un árbol significa bosque y una línea azul, río." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Which one can you spin around?", "es": "¿Cuál de estos puedes hacer girar?" },
+      "choices": [
+        { "en": "A globe", "es": "Un globo terráqueo", "emoji": "🌎" },
+        { "en": "A paper map", "es": "Un mapa de papel", "emoji": "🗺️" },
+        { "en": "A photo", "es": "Una foto", "emoji": "📷" }
+      ],
+      "answer": 0,
+      "why": { "en": "A globe spins on a tilted stick just like Earth spins, and that spinning gives us day and night.", "es": "Un globo terráqueo gira sobre un palito inclinado igual que gira la Tierra, y ese giro nos da el día y la noche." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/globe/"
+    },
+    {
+      "id": "geography-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What is the big blue part of a globe?", "es": "¿Qué es la parte azul grande de un globo terráqueo?" },
+      "choices": [
+        { "en": "Ocean water", "es": "Agua del océano", "emoji": "🌊" },
+        { "en": "Tall grass", "es": "Pasto alto", "emoji": "🌿" },
+        { "en": "Soft sand", "es": "Arena suave", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water covers about seven of every ten parts of Earth, so a globe looks mostly blue from far away.", "es": "El agua cubre unas siete de cada diez partes de la Tierra, por eso un globo terráqueo se ve casi todo azul." },
+      "topic": "maps and globes",
+      "source": "https://oceanservice.noaa.gov/facts/howmuchwater.html"
+    },
+    {
+      "id": "geography-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Where would you look to find your street?", "es": "¿Dónde buscarías para encontrar tu calle?" },
+      "choices": [
+        { "en": "On a city map", "es": "En un mapa de la ciudad", "emoji": "🗺️" },
+        { "en": "In a cookbook", "es": "En un libro de cocina", "emoji": "📖" },
+        { "en": "Inside a shoe", "es": "Dentro de un zapato", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "A city map zooms in close, showing streets and parks, while a world map shrinks whole countries to little shapes.", "es": "Un mapa de la ciudad se acerca y muestra calles y parques; un mapa del mundo encoge países enteros a figuritas." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "What is the name for a book of maps?", "es": "¿Cómo se llama un libro lleno de mapas?" },
+      "choices": [
+        { "en": "An atlas", "es": "Un atlas", "emoji": "📚" },
+        { "en": "A menu", "es": "Un menú", "emoji": "📋" },
+        { "en": "A diary", "es": "Un diario", "emoji": "📔" }
+      ],
+      "answer": 0,
+      "why": { "en": "An atlas is a book full of maps, and it takes its name from a giant in old Greek stories.", "es": "Un atlas es un libro lleno de mapas, y lleva el nombre de un gigante de los cuentos griegos antiguos." },
+      "topic": "maps and globes",
+      "source": "https://education.nationalgeographic.org/resource/atlas/"
+    },
+    {
+      "id": "geography-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "Which of these is salty water?", "es": "¿Cuál de estos es agua salada?" },
+      "choices": [
+        { "en": "The sea", "es": "El mar", "emoji": "🌊" },
+        { "en": "A river", "es": "Un río", "emoji": "🏞️" },
+        { "en": "Rain", "es": "La lluvia", "emoji": "☔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rivers and rain are fresh water, but the sea holds so much salt that a bathtub would leave a cupful.", "es": "Los ríos y la lluvia son agua dulce, pero el mar tiene tanta sal que una tina dejaría casi una taza." },
+      "topic": "land and water",
+      "source": "https://oceanservice.noaa.gov/facts/whysalty.html"
+    },
+    {
+      "id": "geography-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "What is a beach made of mostly?", "es": "¿De qué está hecha casi toda la playa?" },
+      "choices": [
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Snow", "es": "Nieve", "emoji": "❄️" },
+        { "en": "Glass", "es": "Vidrio", "emoji": "🪟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Beach sand is tiny bits of rock and shell that waves have crushed and tumbled for thousands of years.", "es": "La arena de la playa son pedacitos de roca y concha que las olas han molido durante miles de años." },
+      "topic": "land and water",
+      "source": "https://oceanservice.noaa.gov/facts/sand.html"
+    },
+    {
+      "id": "geography-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "What do we call low land between hills?", "es": "¿Cómo se llama la tierra baja entre cerros?" },
+      "choices": [
+        { "en": "A valley", "es": "Un valle", "emoji": "🏞️" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" },
+        { "en": "A bridge", "es": "Un puente", "emoji": "🌉" }
+      ],
+      "answer": 0,
+      "why": { "en": "Valleys are often carved by rivers or by slow moving ice, and many towns grow in them because the soil is rich.", "es": "Los valles los tallan los ríos o el hielo que se mueve lento, y muchos pueblos crecen ahí porque la tierra es rica." },
+      "topic": "land and water",
+      "source": "https://education.nationalgeographic.org/resource/valley/"
+    },
+    {
+      "id": "geography-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "What do we call land beside the sea?", "es": "¿Cómo se llama la tierra junto al mar?" },
+      "choices": [
+        { "en": "The coast", "es": "La costa", "emoji": "🌅" },
+        { "en": "The desert", "es": "El desierto", "emoji": "🏜️" },
+        { "en": "The forest", "es": "El bosque", "emoji": "🌲" }
+      ],
+      "answer": 0,
+      "why": { "en": "A coast is where land and sea meet, and waves keep changing its shape by moving sand from place to place.", "es": "La costa es donde se juntan la tierra y el mar, y las olas cambian su forma moviendo la arena de lugar." },
+      "topic": "land and water",
+      "source": "https://education.nationalgeographic.org/resource/coast/"
+    },
+    {
+      "id": "geography-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "What forms when a river falls off a cliff?", "es": "¿Qué se forma cuando un río cae por un acantilado?" },
+      "choices": [
+        { "en": "A waterfall", "es": "Una cascada", "emoji": "💦" },
+        { "en": "A rainbow", "es": "Un arcoíris", "emoji": "🌈" },
+        { "en": "A snowman", "es": "Un muñeco de nieve", "emoji": "⛄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A waterfall forms where hard rock sits above soft rock, and the falling water slowly digs a deep pool below.", "es": "Una cascada nace donde hay roca dura sobre roca blanda, y el agua que cae va cavando una poza honda abajo." },
+      "topic": "rivers",
+      "source": "https://education.nationalgeographic.org/resource/waterfall/"
+    },
+    {
+      "id": "geography-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Which water has land all around it?", "es": "¿Cuál agua tiene tierra por todos lados?" },
+      "choices": [
+        { "en": "A lake", "es": "Un lago", "emoji": "🏞️" },
+        { "en": "An ocean", "es": "Un océano", "emoji": "🌊" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A lake is water wrapped in land, the opposite of an island, and some lakes are deeper than a skyscraper is tall.", "es": "Un lago es agua rodeada de tierra, lo contrario de una isla, y algunos lagos son más hondos que un rascacielos alto." },
+      "topic": "land and water",
+      "source": "https://education.nationalgeographic.org/resource/lake/"
+    },
+    {
+      "id": "geography-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What is under all the ocean water?", "es": "¿Qué hay debajo de toda el agua del océano?" },
+      "choices": [
+        { "en": "The sea floor", "es": "El fondo del mar", "emoji": "🪨" },
+        { "en": "A giant net", "es": "Una red gigante", "emoji": "🕸️" },
+        { "en": "A thick blanket", "es": "Una cobija gruesa", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The ocean floor has mountains and deep valleys just like dry land, and much of it has never been mapped.", "es": "El fondo del mar tiene montañas y valles hondos como la tierra seca, y gran parte de él sigue sin estar mapeada." },
+      "topic": "land and water",
+      "source": "https://oceanservice.noaa.gov/facts/exploration.html"
+    },
+    {
+      "id": "geography-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Which direction is the opposite of north?", "es": "¿Cuál dirección es lo contrario del norte?" },
+      "choices": [
+        { "en": "South", "es": "El sur", "emoji": "⬇️" },
+        { "en": "East", "es": "El este", "emoji": "➡️" },
+        { "en": "West", "es": "El oeste", "emoji": "⬅️" }
+      ],
+      "answer": 0,
+      "why": { "en": "North and south are opposites, and on almost every map north points to the top of the page.", "es": "El norte y el sur son opuestos, y en casi todos los mapas el norte apunta hacia arriba de la hoja." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/cardinal-directions/"
+    },
+    {
+      "id": "geography-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What does a compass needle always point to?", "es": "¿Hacia dónde apunta siempre la aguja de una brújula?" },
+      "choices": [
+        { "en": "North", "es": "El norte", "emoji": "🧭" },
+        { "en": "Your house", "es": "Tu casa", "emoji": "🏠" },
+        { "en": "The moon", "es": "La Luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "A compass needle is a little magnet, and Earth itself acts like a huge magnet that tugs it northward.", "es": "La aguja de la brújula es un imán pequeño, y la Tierra funciona como un imán gigante que la jala hacia el norte." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/compass/"
+    },
+    {
+      "id": "geography-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "Where does the sun come up each morning?", "es": "¿Por dónde sale el Sol cada mañana?" },
+      "choices": [
+        { "en": "In the east", "es": "Por el este", "emoji": "🌅" },
+        { "en": "In the west", "es": "Por el oeste", "emoji": "🌇" },
+        { "en": "Under the ground", "es": "Por debajo del suelo", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The sun rises in the east and sets in the west because Earth spins toward the east all day long.", "es": "El Sol sale por el este y se mete por el oeste porque la Tierra gira hacia el este todo el día." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/cardinal-directions/"
+    },
+    {
+      "id": "geography-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "How many main directions does a compass show?", "es": "¿Cuántas direcciones principales muestra una brújula?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🧭" },
+        { "en": "Two", "es": "Dos", "emoji": "✌️" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "North, south, east and west are the four main directions, and sailors squeeze many more names between them.", "es": "Norte, sur, este y oeste son las cuatro direcciones principales, y los marineros meten muchos más nombres entre ellas." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/compass/"
+    },
+    {
+      "id": "geography-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "➡️",
+      "q": { "en": "On a map, which side is east?", "es": "En un mapa, ¿de qué lado queda el este?" },
+      "choices": [
+        { "en": "The right side", "es": "El lado derecho", "emoji": "➡️" },
+        { "en": "The bottom", "es": "La parte de abajo", "emoji": "⬇️" },
+        { "en": "The left side", "es": "El lado izquierdo", "emoji": "⬅️" }
+      ],
+      "answer": 0,
+      "why": { "en": "On most maps north is up, so east lands on your right hand and west on your left hand.", "es": "En casi todos los mapas el norte va arriba, así que el este queda a tu derecha y el oeste a tu izquierda." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/cardinal-directions/"
+    },
+    {
+      "id": "geography-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Which star helps sailors find north at night?", "es": "¿Cuál estrella ayuda a los marineros a hallar el norte?" },
+      "choices": [
+        { "en": "The North Star", "es": "La estrella polar", "emoji": "⭐" },
+        { "en": "The sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "A comet", "es": "Un cometa", "emoji": "☄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The North Star sits almost straight above the North Pole, so it hardly moves while the other stars wheel around.", "es": "La estrella polar queda casi justo encima del polo norte, así que casi no se mueve mientras las demás estrellas giran." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/celestial-navigation/"
+    },
+    {
+      "id": "geography-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "↗️",
+      "q": { "en": "Which direction is between north and east?", "es": "¿Cuál dirección está entre el norte y el este?" },
+      "choices": [
+        { "en": "Northeast", "es": "El noreste", "emoji": "↗️" },
+        { "en": "Southwest", "es": "El suroeste", "emoji": "↙️" },
+        { "en": "Straight down", "es": "Hacia abajo", "emoji": "⬇️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Northeast is the halfway point between north and east, and a compass rose shows eight or even sixteen such names.", "es": "El noreste está a medio camino entre el norte y el este, y una rosa de los vientos muestra ocho o dieciséis nombres." },
+      "topic": "directions",
+      "source": "https://education.nationalgeographic.org/resource/compass/"
+    },
+    {
+      "id": "geography-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "What is the top of a mountain called?", "es": "¿Cómo se llama la punta de una montaña?" },
+      "choices": [
+        { "en": "The peak", "es": "La cima", "emoji": "⛰️" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The door", "es": "La puerta", "emoji": "🚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pointed top of a mountain is its peak or summit, and the air up there is thin and cold.", "es": "La punta de una montaña es su cima o su pico, y allá arriba el aire es delgado y muy frío." },
+      "topic": "mountains",
+      "source": "https://education.nationalgeographic.org/resource/mountain/"
+    },
+    {
+      "id": "geography-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which mountain range runs down South America?", "es": "¿Cuál cordillera recorre Sudamérica de arriba abajo?" },
+      "choices": [
+        { "en": "The Andes", "es": "Los Andes", "emoji": "🏔️" },
+        { "en": "The Alps", "es": "Los Alpes", "emoji": "🎿" },
+        { "en": "The Rockies", "es": "Las Rocosas", "emoji": "🦅" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Andes stretch through seven countries and are the longest mountain chain on land, home to llamas and condors.", "es": "Los Andes cruzan siete países y son la cadena de montañas más larga en tierra firme, hogar de llamas y cóndores." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Andes-Mountains"
+    },
+    {
+      "id": "geography-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "What white thing sits on top of high mountains?", "es": "¿Qué cosa blanca hay en las montañas altas?" },
+      "choices": [
+        { "en": "Snow", "es": "Nieve", "emoji": "❄️" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Grass", "es": "Pasto", "emoji": "🌿" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air grows colder the higher you climb, so snow can sit on a mountain top even near the hot equator.", "es": "El aire se enfría mientras más alto subes, así que puede haber nieve en una cima incluso cerca del ecuador caliente." },
+      "topic": "mountains",
+      "source": "https://education.nationalgeographic.org/resource/mountain/"
+    },
+    {
+      "id": "geography-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which mountain is the highest on Earth?", "es": "¿Cuál es la montaña más alta de la Tierra?" },
+      "choices": [
+        { "en": "Mount Everest", "es": "El Everest", "emoji": "🏔️" },
+        { "en": "Mount Fuji", "es": "El monte Fuji", "emoji": "🗻" },
+        { "en": "Popocatépetl", "es": "El Popocatépetl", "emoji": "🌋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Everest rises so high that climbers carry bottled air, and its rocks once lay at the bottom of an old sea.", "es": "El Everest es tan alto que los escaladores llevan aire en tanques, y sus rocas estuvieron en el fondo de un mar antiguo." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Mount-Everest"
+    },
+    {
+      "id": "geography-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which mountain can pour out hot rock?", "es": "¿Cuál montaña puede echar roca caliente?" },
+      "choices": [
+        { "en": "A volcano", "es": "Un volcán", "emoji": "🌋" },
+        { "en": "A hill", "es": "Un cerro", "emoji": "🏞️" },
+        { "en": "A sand dune", "es": "Una duna de arena", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Melted rock called lava pushes up through a volcano, and cooled lava builds new land, like the islands of Hawaii.", "es": "La roca derretida, llamada lava, sube por el volcán, y al enfriarse forma tierra nueva, como las islas de Hawái." },
+      "topic": "mountains",
+      "source": "https://www.usgs.gov/programs/VHP"
+    },
+    {
+      "id": "geography-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "What do we call a group of mountains together?", "es": "¿Cómo se llama un grupo de montañas juntas?" },
+      "choices": [
+        { "en": "A range", "es": "Una cordillera", "emoji": "🏔️" },
+        { "en": "A flock", "es": "Una parvada", "emoji": "🐦" },
+        { "en": "A bunch", "es": "Un racimo", "emoji": "🍇" }
+      ],
+      "answer": 0,
+      "why": { "en": "A line of mountains is called a range, and ranges rise where two giant pieces of Earth's crust push together.", "es": "Una fila de montañas se llama cordillera, y las cordilleras se levantan donde dos placas gigantes de la Tierra se empujan." },
+      "topic": "mountains",
+      "source": "https://education.nationalgeographic.org/resource/mountain-range/"
+    },
+    {
+      "id": "geography-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Which is taller, a hill or a mountain?", "es": "¿Qué es más alto, un cerro o una montaña?" },
+      "choices": [
+        { "en": "A mountain", "es": "Una montaña", "emoji": "⛰️" },
+        { "en": "A hill", "es": "Un cerro", "emoji": "🌳" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A mountain is much taller and steeper than a hill, and climbing one can take a whole day or more.", "es": "Una montaña es mucho más alta y empinada que una colina, y subir una puede tomar un día entero o más." },
+      "topic": "mountains",
+      "source": "https://education.nationalgeographic.org/resource/mountain/"
+    },
+    {
+      "id": "geography-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "⬇️",
+      "q": { "en": "Which way does river water always flow?", "es": "¿Hacia dónde corre siempre el agua de un río?" },
+      "choices": [
+        { "en": "Downhill", "es": "Cuesta abajo", "emoji": "⬇️" },
+        { "en": "Uphill", "es": "Cuesta arriba", "emoji": "⬆️" },
+        { "en": "In circles", "es": "En círculos", "emoji": "🔄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gravity pulls river water downhill toward the sea, and along the way it carves canyons out of solid rock.", "es": "La gravedad jala el agua del río cuesta abajo hacia el mar, y en el camino talla cañones en la roca dura." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/rivers-and-streams"
+    },
+    {
+      "id": "geography-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Which big river flows through the rainforest?", "es": "¿Cuál río grande cruza la selva tropical?" },
+      "choices": [
+        { "en": "The Amazon", "es": "El Amazonas", "emoji": "🐬" },
+        { "en": "The Nile", "es": "El Nilo", "emoji": "🐊" },
+        { "en": "The Thames", "es": "El Támesis", "emoji": "🛶" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Amazon carries more water than any other river, and pink dolphins swim in it far from the sea.", "es": "El Amazonas lleva más agua que cualquier otro río, y en él nadan delfines rosados muy lejos del mar." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Amazon-River"
+    },
+    {
+      "id": "geography-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "What is a small river called?", "es": "¿Cómo se llama un río pequeño?" },
+      "choices": [
+        { "en": "A stream", "es": "Un arroyo", "emoji": "🏞️" },
+        { "en": "A pond", "es": "Un estanque", "emoji": "🦆" },
+        { "en": "A well", "es": "Un pozo", "emoji": "🪣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Little streams join together like branches until they make a big river, and the joining place is called a fork.", "es": "Los arroyos pequeños se juntan como ramas hasta formar un río grande, y el lugar donde se unen se llama confluencia." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/rivers-and-streams"
+    },
+    {
+      "id": "geography-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐊",
+      "q": { "en": "Which river runs through Egypt in Africa?", "es": "¿Cuál río cruza Egipto, en África?" },
+      "choices": [
+        { "en": "The Nile", "es": "El Nilo", "emoji": "🐊" },
+        { "en": "The Amazon", "es": "El Amazonas", "emoji": "🐬" },
+        { "en": "The Rio Grande", "es": "El río Bravo", "emoji": "🌵" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Nile flows north for thousands of miles, and farmers have grown food along its banks for six thousand years.", "es": "El Nilo corre hacia el norte por miles de kilómetros, y los campesinos han cultivado en sus orillas por seis mil años." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Nile-River"
+    },
+    {
+      "id": "geography-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "What is the river between Mexico and Texas?", "es": "¿Cuál es el río entre México y Texas?" },
+      "choices": [
+        { "en": "The Rio Grande", "es": "El río Bravo", "emoji": "🌵" },
+        { "en": "The Amazon", "es": "El Amazonas", "emoji": "🌴" },
+        { "en": "The Mississippi", "es": "El Misisipi", "emoji": "🚢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mexicans call it the Río Bravo, and the same water makes the border between two countries for many hundreds of miles.", "es": "En México se llama río Bravo, y esa misma agua marca la frontera entre dos países por cientos de kilómetros." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Rio-Grande-river"
+    },
+    {
+      "id": "geography-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Which of these countries is an island?", "es": "¿Cuál de estos países es una isla?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú", "emoji": "🦙" },
+        { "en": "Cuba", "es": "Cuba", "emoji": "🏝️" },
+        { "en": "Mexico", "es": "México", "emoji": "🌮" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cuba is the largest island in the Caribbean Sea, and you can only get there by boat or plane.", "es": "Cuba es la isla más grande del mar Caribe, y solo puedes llegar allí en barco o en avión." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/Cuba/345602"
+    },
+    {
+      "id": "geography-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What surrounds the island of Puerto Rico?", "es": "¿Qué rodea a la isla de Puerto Rico?" },
+      "choices": [
+        { "en": "Ocean water", "es": "Agua del mar", "emoji": "🌊" },
+        { "en": "Tall mountains", "es": "Montañas altas", "emoji": "⛰️" },
+        { "en": "Thick forest", "es": "Bosque espeso", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Puerto Rico sits in the Caribbean Sea, and its name means rich port, chosen for its fine sheltered harbor.", "es": "Puerto Rico está en el mar Caribe, y su nombre significa puerto rico, por su bahía tranquila y segura." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/Puerto-Rico/353638"
+    },
+    {
+      "id": "geography-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "✈️",
+      "q": { "en": "How do people reach a faraway island?", "es": "¿Cómo llega la gente a una isla lejana?" },
+      "choices": [
+        { "en": "On a bicycle", "es": "En bicicleta", "emoji": "🚲" },
+        { "en": "By boat or plane", "es": "En barco o en avión", "emoji": "✈️" },
+        { "en": "On a school bus", "es": "En un autobús escolar", "emoji": "🚌" }
+      ],
+      "answer": 1,
+      "why": { "en": "Water rings every island, so boats and planes bring people, food, mail and even school supplies across the waves.", "es": "El agua rodea cada isla, así que barcos y aviones llevan gente, comida, correo y hasta útiles escolares." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/island/353137"
+    },
+    {
+      "id": "geography-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What built the Hawaiian islands long ago?", "es": "¿Qué formó las islas de Hawái hace mucho?" },
+      "choices": [
+        { "en": "Ocean waves", "es": "Las olas del mar", "emoji": "🌊" },
+        { "en": "Rain clouds", "es": "Las nubes de lluvia", "emoji": "☁️" },
+        { "en": "Volcanoes", "es": "Los volcanes", "emoji": "🌋" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each Hawaiian island is the top of a giant volcano that grew from the sea floor until it broke the surface.", "es": "Cada isla de Hawái es la punta de un volcán gigante que creció desde el fondo del mar hasta salir." },
+      "topic": "islands",
+      "source": "https://www.usgs.gov/observatories/hvo"
+    },
+    {
+      "id": "geography-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which place gets the least rain?", "es": "¿Qué lugar recibe la menor cantidad de lluvia?" },
+      "choices": [
+        { "en": "A swamp", "es": "Un pantano", "emoji": "🐸" },
+        { "en": "A desert", "es": "Un desierto", "emoji": "🏜️" },
+        { "en": "A rainforest", "es": "Una selva", "emoji": "🌴" }
+      ],
+      "answer": 1,
+      "why": { "en": "A desert gets very little rain, and some parts of Chile's Atacama Desert can wait years for a single shower.", "es": "Un desierto recibe muy poca lluvia, y partes del desierto de Atacama en Chile esperan años por un aguacero." },
+      "topic": "deserts",
+      "source": "https://kids.britannica.com/kids/article/desert/353128"
+    },
+    {
+      "id": "geography-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "Which huge desert covers northern Africa?", "es": "¿Cuál desierto enorme cubre el norte de África?" },
+      "choices": [
+        { "en": "The Sahara", "es": "El Sahara", "emoji": "🐪" },
+        { "en": "The Gobi", "es": "El Gobi", "emoji": "🐫" },
+        { "en": "The Sonoran", "es": "El Sonora", "emoji": "🌵" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sahara is nearly as wide as the whole United States, and its sand can freeze under the night sky.", "es": "El Sahara es casi tan grande como todo Estados Unidos, y su arena puede congelarse durante la noche fría." },
+      "topic": "deserts",
+      "source": "https://kids.nationalgeographic.com/geography/landforms/article/sahara-desert"
+    },
+    {
+      "id": "geography-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "Which plant grows best in a desert?", "es": "¿Cuál planta crece mejor en un desierto?" },
+      "choices": [
+        { "en": "A water lily", "es": "Un nenúfar", "emoji": "🪷" },
+        { "en": "A fern", "es": "Un helecho", "emoji": "🌿" },
+        { "en": "A cactus", "es": "Un cactus", "emoji": "🌵" }
+      ],
+      "answer": 2,
+      "why": { "en": "A cactus keeps water inside its thick stem, and its sharp spines are really leaves that never grew flat.", "es": "Un cactus guarda agua en su tallo grueso, y sus espinas en realidad son hojas que nunca se aplanaron." },
+      "topic": "deserts",
+      "source": "https://kids.britannica.com/kids/article/cactus/352898"
+    },
+    {
+      "id": "geography-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "What does a camel store in its hump?", "es": "¿Qué guarda un camello en su joroba?" },
+      "choices": [
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Fat", "es": "Grasa", "emoji": "🐪" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏜️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A camel's hump is a mound of fat, a snack pack it lives on when the desert offers no food.", "es": "La joroba del camello es un montón de grasa, una reserva que lo alimenta cuando el desierto está vacío." },
+      "topic": "deserts",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dromedary-camel"
+    },
+    {
+      "id": "geography-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "Which desert spreads across northern Mexico?", "es": "¿Cuál desierto se extiende por el norte de México?" },
+      "choices": [
+        { "en": "The Gobi", "es": "El Gobi", "emoji": "🐫" },
+        { "en": "The Sahara", "es": "El Sahara", "emoji": "🐪" },
+        { "en": "The Chihuahuan", "es": "El Chihuahuense", "emoji": "🌵" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Chihuahuan Desert reaches from Mexico into Texas and New Mexico, and it is the biggest desert in North America.", "es": "El desierto de Chihuahua llega de México a Texas y Nuevo México, y es el desierto más grande de Norteamérica." },
+      "topic": "deserts",
+      "source": "https://www.nps.gov/bibe/learn/nature/chihuahuandesert.htm"
+    },
+    {
+      "id": "geography-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "What is a forest mostly full of?", "es": "¿De qué está lleno un bosque?" },
+      "choices": [
+        { "en": "Boats", "es": "Barcos", "emoji": "⛵" },
+        { "en": "Trees", "es": "Árboles", "emoji": "🌳" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A forest is land crowded with trees, and their leaves pour out the oxygen that people and animals breathe.", "es": "Un bosque es tierra llena de árboles, y sus hojas sueltan el oxígeno que respiran las personas y los animales." },
+      "topic": "forests",
+      "source": "https://kids.britannica.com/kids/article/forest/353406"
+    },
+    {
+      "id": "geography-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Which forest gets rain almost every day?", "es": "¿Cuál bosque recibe lluvia casi todos los días?" },
+      "choices": [
+        { "en": "A rainforest", "es": "Una selva", "emoji": "🌴" },
+        { "en": "A snowy forest", "es": "Un bosque nevado", "emoji": "🌲" },
+        { "en": "A dry forest", "es": "Un bosque seco", "emoji": "🍂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rainforests sit near the equator and stay warm and wet, so more kinds of plants live there than anywhere.", "es": "Las selvas están cerca del ecuador y son cálidas y húmedas, por eso viven allí más tipos de plantas." },
+      "topic": "forests",
+      "source": "https://kids.nationalgeographic.com/nature/habitats/article/rainforest"
+    },
+    {
+      "id": "geography-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which rainforest is the largest on Earth?", "es": "¿Cuál selva es la más grande de la Tierra?" },
+      "choices": [
+        { "en": "The Congo", "es": "La del Congo", "emoji": "🦍" },
+        { "en": "The Amazon", "es": "La amazónica", "emoji": "🦜" },
+        { "en": "The Daintree", "es": "La de Daintree", "emoji": "🐨" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Amazon rainforest spreads across nine South American countries, and a single tree there can host dozens of ant kinds.", "es": "La selva amazónica se extiende por nueve países de Sudamérica, y un solo árbol puede alojar docenas de hormigas." },
+      "topic": "forests",
+      "source": "https://kids.britannica.com/kids/article/Amazon-Rainforest/390615"
+    },
+    {
+      "id": "geography-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "Which trees stay green all winter long?", "es": "¿Cuáles árboles siguen verdes todo el invierno?" },
+      "choices": [
+        { "en": "Apple trees", "es": "Los manzanos", "emoji": "🍎" },
+        { "en": "Oak trees", "es": "Los robles", "emoji": "🌳" },
+        { "en": "Pine trees", "es": "Los pinos", "emoji": "🌲" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pines wear thin needles instead of flat leaves, so snow slides off their branches and they keep growing in cold.", "es": "Los pinos tienen agujas delgadas en vez de hojas planas, así la nieve resbala y siguen creciendo con frío." },
+      "topic": "forests",
+      "source": "https://kids.britannica.com/kids/article/conifer/353004"
+    },
+    {
+      "id": "geography-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which place on Earth is the coldest?", "es": "¿Cuál lugar de la Tierra es el más frío?" },
+      "choices": [
+        { "en": "The Amazon", "es": "La Amazonía", "emoji": "🌴" },
+        { "en": "Antarctica", "es": "La Antártida", "emoji": "🐧" },
+        { "en": "The Sahara", "es": "El Sahara", "emoji": "🐪" }
+      ],
+      "answer": 1,
+      "why": { "en": "Antarctica is so cold that no trees can grow, and it is the windiest and driest continent as well.", "es": "La Antártida es tan fría que no crecen árboles, y también es el continente más ventoso y más seco." },
+      "topic": "the poles",
+      "source": "https://kids.nationalgeographic.com/geography/continents/article/antarctica"
+    },
+    {
+      "id": "geography-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐻‍❄️",
+      "q": { "en": "Where do polar bears live in the wild?", "es": "¿Dónde viven los osos polares en la naturaleza?" },
+      "choices": [
+        { "en": "Near the North Pole", "es": "Cerca del Polo Norte", "emoji": "🐻‍❄️" },
+        { "en": "Near the South Pole", "es": "Cerca del Polo Sur", "emoji": "🐧" },
+        { "en": "In the Sahara", "es": "En el Sahara", "emoji": "🐪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Polar bears roam only the far north, and penguins live only in the far south, so the two never meet.", "es": "Los osos polares solo viven en el norte lejano y los pingüinos solo en el sur, así que nunca se encuentran." },
+      "topic": "the poles",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/polar-bear"
+    },
+    {
+      "id": "geography-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What sits at the very bottom of Earth?", "es": "¿Qué está en el fondo de la Tierra?" },
+      "choices": [
+        { "en": "A busy city", "es": "Una ciudad llena de gente", "emoji": "🏙️" },
+        { "en": "The South Pole", "es": "El Polo Sur", "emoji": "🧊" },
+        { "en": "A hot desert", "es": "Un desierto caliente", "emoji": "🏜️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The South Pole rests in Antarctica on ice about two miles, three kilometers, thick, with solid rock far below.", "es": "El Polo Sur está en la Antártida sobre hielo de unas dos millas, tres kilómetros, de grosor, con roca debajo." },
+      "topic": "the poles",
+      "source": "https://kids.britannica.com/kids/article/South-Pole/353769"
+    },
+    {
+      "id": "geography-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What is most of Antarctica covered with?", "es": "¿Con qué está cubierta casi toda la Antártida?" },
+      "choices": [
+        { "en": "Grass", "es": "Pasto", "emoji": "🌿" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Ice", "es": "Hielo", "emoji": "🧊" }
+      ],
+      "answer": 2,
+      "why": { "en": "Antarctic ice holds about seven of every ten drops of fresh water on Earth, frozen solid for ages.", "es": "El hielo de la Antártida guarda unas siete de cada diez gotas de agua dulce de la Tierra, congeladas." },
+      "topic": "the poles",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/ice-snow-and-glaciers-and-water-cycle"
+    },
+    {
+      "id": "geography-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which pole has solid land underneath?", "es": "¿Cuál polo tiene tierra firme debajo?" },
+      "choices": [
+        { "en": "The North Pole", "es": "El Polo Norte", "emoji": "❄️" },
+        { "en": "The South Pole", "es": "El Polo Sur", "emoji": "🐧" },
+        { "en": "Both poles", "es": "Los dos polos", "emoji": "🌍" }
+      ],
+      "answer": 1,
+      "why": { "en": "The North Pole is floating sea ice with deep ocean below, while the South Pole sits on a rocky continent.", "es": "El Polo Norte es hielo flotante con océano profundo debajo, y el Polo Sur está sobre un continente rocoso." },
+      "topic": "the poles",
+      "source": "https://oceanservice.noaa.gov/facts/poles.html"
+    },
+    {
+      "id": "geography-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Where does the sun shine most directly?", "es": "¿Dónde brilla el sol más directamente?" },
+      "choices": [
+        { "en": "Near the equator", "es": "Cerca del ecuador", "emoji": "🌞" },
+        { "en": "Near the poles", "es": "Cerca de los polos", "emoji": "🧊" },
+        { "en": "Inside a cave", "es": "Dentro de una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The equator is an imaginary belt around Earth's middle, where sunlight lands straight down and days stay nearly equal.", "es": "El ecuador es un cinturón imaginario en la mitad de la Tierra, donde el sol cae directo y los días duran igual." },
+      "topic": "hot and cold places",
+      "source": "https://kids.britannica.com/kids/article/Equator/390398"
+    },
+    {
+      "id": "geography-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "What happens to air as you climb higher?", "es": "¿Qué le pasa al aire cuando subes más alto?" },
+      "choices": [
+        { "en": "It turns green", "es": "Se pone verde", "emoji": "🟢" },
+        { "en": "It gets hotter", "es": "Se pone más caliente", "emoji": "🥵" },
+        { "en": "It gets colder", "es": "Se pone más frío", "emoji": "🥶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Air thins as you climb, so a mountain right on the equator can wear snow while jungle steams below.", "es": "El aire se vuelve delgado al subir, así que una montaña en el ecuador puede tener nieve sobre la selva." },
+      "topic": "hot and cold places",
+      "source": "https://scijinks.gov/why-is-it-cold-in-the-mountains/"
+    },
+    {
+      "id": "geography-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Which country has long, snowy winters?", "es": "¿Cuál país tiene inviernos largos y nevados?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba", "emoji": "🌴" },
+        { "en": "Guatemala", "es": "Guatemala", "emoji": "🌋" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" }
+      ],
+      "answer": 2,
+      "why": { "en": "Canada reaches far north toward the Arctic, and some towns there build roads on frozen lakes each cold season.", "es": "Canadá llega muy al norte, cerca del Ártico, y algunos pueblos abren caminos sobre lagos congelados en la temporada fría." },
+      "topic": "hot and cold places",
+      "source": "https://kids.britannica.com/kids/article/Canada/345656"
+    },
+    {
+      "id": "geography-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "Which water stays warm all year long?", "es": "¿Cuál agua se mantiene tibia todo el año?" },
+      "choices": [
+        { "en": "The Caribbean Sea", "es": "El mar Caribe", "emoji": "🐠" },
+        { "en": "The Arctic Ocean", "es": "El océano Ártico", "emoji": "🧊" },
+        { "en": "A mountain lake", "es": "Un lago de montaña", "emoji": "🏞️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Caribbean Sea lies near the equator, so it stays warm enough for coral reefs full of colorful fish.", "es": "El mar Caribe está cerca del ecuador, así que se mantiene tibio y llena de peces sus arrecifes de coral." },
+      "topic": "hot and cold places",
+      "source": "https://oceanservice.noaa.gov/facts/coral-reef-habitat.html"
+    },
+    {
+      "id": "geography-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "How many continents does Earth have?", "es": "¿Cuántos continentes tiene la Tierra?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 1,
+      "why": { "en": "The seven are Africa, Antarctica, Asia, Australia, Europe, North America and South America, and Asia is by far the biggest.", "es": "Los siete son África, Antártida, Asia, Australia, Europa, Norteamérica y Sudamérica, y Asia es con mucho el más grande." },
+      "topic": "continents",
+      "source": "https://kids.nationalgeographic.com/geography/continents"
+    },
+    {
+      "id": "geography-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "On which continent will you find Mexico?", "es": "¿En cuál continente está México?" },
+      "choices": [
+        { "en": "North America", "es": "Norteamérica", "emoji": "🌎" },
+        { "en": "Africa", "es": "África", "emoji": "🌍" },
+        { "en": "Asia", "es": "Asia", "emoji": "🌏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mexico, the United States and Canada share North America, which also holds Central America and the islands of the Caribbean.", "es": "México, Estados Unidos y Canadá comparten Norteamérica, que también incluye Centroamérica y las islas del mar Caribe." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Mexico/345754"
+    },
+    {
+      "id": "geography-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐼",
+      "q": { "en": "Which continent is the biggest of all?", "es": "¿Cuál continente es el más grande de todos?" },
+      "choices": [
+        { "en": "Europe", "es": "Europa", "emoji": "🏰" },
+        { "en": "Australia", "es": "Australia", "emoji": "🦘" },
+        { "en": "Asia", "es": "Asia", "emoji": "🐼" }
+      ],
+      "answer": 2,
+      "why": { "en": "Asia holds more than half the world's people, plus the highest mountain and the deepest lake on the planet.", "es": "Asia tiene más de la mitad de la gente del mundo, la montaña más alta y el lago más profundo." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Asia/352747"
+    },
+    {
+      "id": "geography-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which continent has no countries on it?", "es": "¿Cuál continente no tiene países?" },
+      "choices": [
+        { "en": "Africa", "es": "África", "emoji": "🦁" },
+        { "en": "Europe", "es": "Europa", "emoji": "🏰" },
+        { "en": "Antarctica", "es": "La Antártida", "emoji": "🐧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Antarctica has no towns or countries, only research stations where scientists take turns living to study ice and wildlife.", "es": "La Antártida no tiene pueblos ni países, solo estaciones donde los científicos se turnan para estudiar el hielo y los animales." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Antarctica/345492"
+    },
+    {
+      "id": "geography-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Which continent is also a single country?", "es": "¿Cuál continente es también un solo país?" },
+      "choices": [
+        { "en": "Australia", "es": "Australia", "emoji": "🦘" },
+        { "en": "Africa", "es": "África", "emoji": "🦁" },
+        { "en": "Asia", "es": "Asia", "emoji": "🐼" }
+      ],
+      "answer": 0,
+      "why": { "en": "Australia is a country and a continent at the same time, and koalas and kangaroos live wild nowhere else.", "es": "Australia es un país y un continente a la vez, y los koalas y canguros viven libres solo allí." },
+      "topic": "continents",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/australia"
+    },
+    {
+      "id": "geography-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which continent holds the Amazon River?", "es": "¿Cuál continente tiene el río Amazonas?" },
+      "choices": [
+        { "en": "Europe", "es": "Europa", "emoji": "🏰" },
+        { "en": "South America", "es": "Sudamérica", "emoji": "🦜" },
+        { "en": "Africa", "es": "África", "emoji": "🦁" }
+      ],
+      "answer": 1,
+      "why": { "en": "South America stretches from warm Colombia down to icy Patagonia, and the Amazon crosses it from the mountains to the sea.", "es": "Sudamérica va desde la cálida Colombia hasta la helada Patagonia, y el Amazonas la cruza de las montañas al mar." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/South-America/353768"
+    },
+    {
+      "id": "geography-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "Which continent is the Sahara Desert on?", "es": "¿En cuál continente está el desierto del Sahara?" },
+      "choices": [
+        { "en": "Asia", "es": "Asia", "emoji": "🐼" },
+        { "en": "Europe", "es": "Europa", "emoji": "🏰" },
+        { "en": "Africa", "es": "África", "emoji": "🦁" }
+      ],
+      "answer": 2,
+      "why": { "en": "Africa is crossed by the equator and by both tropic lines, so much of it stays hot all year long.", "es": "África es cruzada por el ecuador y por las dos líneas de los trópicos, por eso gran parte es calurosa." },
+      "topic": "continents",
+      "source": "https://kids.nationalgeographic.com/geography/continents/article/africa"
+    },
+    {
+      "id": "geography-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "Which continent is packed with old castles?", "es": "¿Cuál continente está lleno de castillos antiguos?" },
+      "choices": [
+        { "en": "Antarctica", "es": "La Antártida", "emoji": "🐧" },
+        { "en": "Australia", "es": "Australia", "emoji": "🦘" },
+        { "en": "Europe", "es": "Europa", "emoji": "🏰" }
+      ],
+      "answer": 2,
+      "why": { "en": "Europe is the second smallest continent yet has more than forty countries, and some are small enough to cross quickly.", "es": "Europa es el segundo continente más pequeño, pero tiene más de cuarenta países, y algunos se cruzan en poco tiempo." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Europe/353346"
+    },
+    {
+      "id": "geography-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "How many oceans are on our planet?", "es": "¿Cuántos océanos hay en nuestro planeta?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "🌊" },
+        { "en": "Two", "es": "Dos", "emoji": "✌️" },
+        { "en": "Twelve", "es": "Doce", "emoji": "🕛" }
+      ],
+      "answer": 0,
+      "why": { "en": "The five oceans are the Pacific, Atlantic, Indian, Southern and Arctic, and salt water covers most of the globe.", "es": "Los cinco océanos son el Pacífico, el Atlántico, el Índico, el Austral y el Ártico, y cubren casi todo el planeta." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/howmanyoceans.html"
+    },
+    {
+      "id": "geography-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "Which ocean is the biggest on Earth?", "es": "¿Cuál océano es el más grande de la Tierra?" },
+      "choices": [
+        { "en": "The Atlantic", "es": "El Atlántico", "emoji": "⛵" },
+        { "en": "The Arctic", "es": "El Ártico", "emoji": "🧊" },
+        { "en": "The Pacific", "es": "El Pacífico", "emoji": "🐋" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Pacific Ocean is wider than all the land on Earth put together, and its deepest spot could swallow Everest.", "es": "El océano Pacífico es más ancho que toda la tierra firme junta, y su punto más hondo se tragaría el Everest." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/pacificsize.html"
+    },
+    {
+      "id": "geography-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "Which ocean is between America and Europe?", "es": "¿Cuál océano está entre América y Europa?" },
+      "choices": [
+        { "en": "The Pacific", "es": "El Pacífico", "emoji": "🐋" },
+        { "en": "The Atlantic", "es": "El Atlántico", "emoji": "⛵" },
+        { "en": "The Indian", "es": "El Índico", "emoji": "🐘" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Atlantic Ocean keeps growing wider by about an inch, two centimeters, each year as the sea floor spreads.", "es": "El océano Atlántico se hace más ancho como una pulgada, dos centímetros, cada año porque el fondo del mar se separa." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/atlantic-ocean.html"
+    },
+    {
+      "id": "geography-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "What makes ocean water taste salty?", "es": "¿Qué hace que el agua del mar sea salada?" },
+      "choices": [
+        { "en": "Sugar from plants", "es": "Azúcar de las plantas", "emoji": "🍬" },
+        { "en": "Sand from beaches", "es": "Arena de las playas", "emoji": "🏖️" },
+        { "en": "Salt from rocks", "es": "Sal de las rocas", "emoji": "🧂" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rivers carry tiny bits of salt off the rocks into the sea, where it piles up as water evaporates.", "es": "Los ríos arrastran pedacitos de sal de las rocas hasta el mar, donde se acumula mientras el agua se evapora." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/whysalty.html"
+    },
+    {
+      "id": "geography-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which ocean sits around the North Pole?", "es": "¿Cuál océano rodea el Polo Norte?" },
+      "choices": [
+        { "en": "The Indian", "es": "El Índico", "emoji": "🐘" },
+        { "en": "The Southern", "es": "El Austral", "emoji": "🐧" },
+        { "en": "The Arctic", "es": "El Ártico", "emoji": "🧊" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Arctic Ocean is the smallest ocean, and a thick lid of floating ice covers much of it.", "es": "El océano Ártico es el más pequeño de todos, y una tapa gruesa de hielo flotante cubre gran parte." },
+      "topic": "oceans",
+      "source": "https://kids.britannica.com/kids/article/Arctic-Ocean/345495"
+    },
+    {
+      "id": "geography-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌮",
+      "q": { "en": "Which country lies south of the United States?", "es": "¿Cuál país está al sur de Estados Unidos?" },
+      "choices": [
+        { "en": "Mexico", "es": "México", "emoji": "🌮" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" },
+        { "en": "Brazil", "es": "Brasil", "emoji": "⚽" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mexico and the United States share a border nearly two thousand miles, three thousand kilometers, long.", "es": "México y Estados Unidos comparten una frontera de casi dos mil millas, tres mil kilómetros, de largo." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/mexico"
+    },
+    {
+      "id": "geography-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Which country puts a maple leaf on its flag?", "es": "¿Cuál país tiene una hoja de maple en su bandera?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba", "emoji": "🌴" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" },
+        { "en": "Guatemala", "es": "Guatemala", "emoji": "🌋" }
+      ],
+      "answer": 1,
+      "why": { "en": "Canada is the northern neighbor of the United States, and its sweet maple syrup comes from those very trees.", "es": "Canadá es el vecino del norte de Estados Unidos, y su dulce miel de maple sale de esos árboles." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/canada"
+    },
+    {
+      "id": "geography-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "How many states does the United States have?", "es": "¿Cuántos estados tiene Estados Unidos?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce", "emoji": "🕛" },
+        { "en": "Five", "es": "Cinco", "emoji": "✋" },
+        { "en": "Fifty", "es": "Cincuenta", "emoji": "🔢" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fifty states make the country, and two of them, Alaska and Hawaii, do not touch any of the others.", "es": "Cincuenta estados forman el país, y dos de ellos, Alaska y Hawái, están separados de todos los demás." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.britannica.com/kids/article/United-States/353854"
+    },
+    {
+      "id": "geography-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which country sits right below Mexico?", "es": "¿Cuál país está justo debajo de México?" },
+      "choices": [
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" },
+        { "en": "Guatemala", "es": "Guatemala", "emoji": "🌋" },
+        { "en": "Cuba", "es": "Cuba", "emoji": "🌴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Guatemala borders southern Mexico, and its name in an old language means place of many trees.", "es": "Guatemala limita con el sur de México, y su nombre en una lengua antigua significa lugar de muchos árboles." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.britannica.com/kids/article/Guatemala/345377"
+    },
+    {
+      "id": "geography-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "What is the capital city of Cuba?", "es": "¿Cuál es la capital de Cuba?" },
+      "choices": [
+        { "en": "Havana", "es": "La Habana", "emoji": "🚗" },
+        { "en": "Bogotá", "es": "Bogotá", "emoji": "☕" },
+        { "en": "Quito", "es": "Quito", "emoji": "🌋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Havana is Cuba's capital, famous for old streets where classic cars from long ago still rumble along.", "es": "La Habana es la capital de Cuba, famosa por sus calles viejas donde aún ruedan carros muy antiguos." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.britannica.com/kids/article/Havana/345376"
+    },
+    {
+      "id": "geography-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚧",
+      "q": { "en": "What do we call a line between two countries?", "es": "¿Cómo se llama la línea entre dos países?" },
+      "choices": [
+        { "en": "A ladder", "es": "Una escalera", "emoji": "🪜" },
+        { "en": "A border", "es": "Una frontera", "emoji": "🚧" },
+        { "en": "A bridge", "es": "Un puente", "emoji": "🌉" }
+      ],
+      "answer": 1,
+      "why": { "en": "A border shows where one country ends and the next begins, and some follow rivers or mountain ridges.", "es": "Una frontera marca dónde termina un país y empieza otro, y algunas siguen ríos o cadenas de montañas." },
+      "topic": "countries and neighbors",
+      "source": "https://education.nationalgeographic.org/resource/border/"
+    },
+    {
+      "id": "geography-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "Which country is the biggest in South America?", "es": "¿Cuál país es el más grande de Sudamérica?" },
+      "choices": [
+        { "en": "Ecuador", "es": "Ecuador", "emoji": "🌋" },
+        { "en": "Uruguay", "es": "Uruguay", "emoji": "🧉" },
+        { "en": "Brazil", "es": "Brasil", "emoji": "⚽" }
+      ],
+      "answer": 2,
+      "why": { "en": "Brazil covers almost half of South America, and people there speak Portuguese while their neighbors mostly speak Spanish.", "es": "Brasil cubre casi la mitad de Sudamérica, y allí se habla portugués mientras sus vecinos hablan español." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/brazil"
+    },
+    {
+      "id": "geography-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍇",
+      "q": { "en": "Which country is long and very narrow?", "es": "¿Cuál país es largo y muy angosto?" },
+      "choices": [
+        { "en": "Chile", "es": "Chile", "emoji": "🍇" },
+        { "en": "Cuba", "es": "Cuba", "emoji": "🏝️" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chile runs about two thousand six hundred miles, four thousand three hundred kilometers, down the coast yet stays narrow.", "es": "Chile mide unas dos mil seiscientas millas, cuatro mil trescientos kilómetros, de largo por la costa, pero es angosto." },
+      "topic": "countries and neighbors",
+      "source": "https://kids.britannica.com/kids/article/Chile/345690"
+    },
+    {
+      "id": "geography-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐉",
+      "q": { "en": "Where would you find the Great Wall?", "es": "¿Dónde encontrarías la Gran Muralla?" },
+      "choices": [
+        { "en": "In Peru", "es": "En Perú", "emoji": "🦙" },
+        { "en": "In China", "es": "En China", "emoji": "🐉" },
+        { "en": "In Egypt", "es": "En Egipto", "emoji": "🐫" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Great Wall of China winds over hills for thousands of miles, and workers built it in pieces over centuries.", "es": "La Gran Muralla china serpentea por los cerros miles de millas, y se construyó por partes durante siglos." },
+      "topic": "famous places",
+      "source": "https://kids.britannica.com/kids/article/Great-Wall-of-China/353435"
+    },
+    {
+      "id": "geography-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "What shape are the pyramids of Egypt?", "es": "¿Qué forma tienen las pirámides de Egipto?" },
+      "choices": [
+        { "en": "Round balls", "es": "Bolas redondas", "emoji": "⚽" },
+        { "en": "Flat squares", "es": "Cuadrados planos", "emoji": "🟦" },
+        { "en": "Pointy triangles", "es": "Triángulos puntiagudos", "emoji": "🔺" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each huge pyramid has four sloping sides that meet at one point, and stone blocks inside weigh tons apiece.", "es": "Cada pirámide enorme tiene cuatro lados inclinados que se juntan en un punto, y sus bloques pesan toneladas." },
+      "topic": "famous places",
+      "source": "https://kids.nationalgeographic.com/history/article/pyramids-at-giza"
+    },
+    {
+      "id": "geography-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "Which old stone city sits high in mountains?", "es": "¿Cuál ciudad de piedra está alta en las montañas?" },
+      "choices": [
+        { "en": "Machu Picchu", "es": "Machu Picchu", "emoji": "🦙" },
+        { "en": "Venice", "es": "Venecia", "emoji": "🛶" },
+        { "en": "Cairo", "es": "El Cairo", "emoji": "🐫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Machu Picchu was built by the Inca in Peru, on a ridge so high that clouds drift below it.", "es": "Machu Picchu fue construida por los incas en Perú, en una cresta tan alta que las nubes pasan debajo." },
+      "topic": "famous places",
+      "source": "https://kids.britannica.com/kids/article/Machu-Picchu/353628"
+    },
+    {
+      "id": "geography-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗼",
+      "q": { "en": "In which city is the Eiffel Tower?", "es": "¿En cuál ciudad está la torre Eiffel?" },
+      "choices": [
+        { "en": "Rome", "es": "Roma", "emoji": "🍕" },
+        { "en": "Paris", "es": "París", "emoji": "🗼" },
+        { "en": "London", "es": "Londres", "emoji": "🎡" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Eiffel Tower is made of iron and grows a few inches taller on hot days as the metal expands.", "es": "La torre Eiffel es de hierro y crece unas pulgadas en los días calurosos, porque el metal se expande." },
+      "topic": "famous places",
+      "source": "https://kids.britannica.com/kids/article/Eiffel-Tower/390215"
+    },
+    {
+      "id": "geography-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Where would you find the Grand Canyon?", "es": "¿Dónde encontrarías el Gran Cañón?" },
+      "choices": [
+        { "en": "In Alaska", "es": "En Alaska", "emoji": "❄️" },
+        { "en": "In Florida", "es": "En Florida", "emoji": "🐊" },
+        { "en": "In Arizona", "es": "En Arizona", "emoji": "🏜️" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Colorado River spent millions of years cutting the Grand Canyon, which is a mile, about one and a half kilometers, deep.", "es": "El río Colorado tardó millones de años en tallar el Gran Cañón, que tiene una milla, kilómetro y medio, de hondo." },
+      "topic": "famous places",
+      "source": "https://www.usgs.gov/geology-and-ecology-of-national-parks/grand-canyon-national-park"
+    },
+    {
+      "id": "geography-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "Which stone pyramid stands in a Mexican jungle?", "es": "¿Cuál pirámide de piedra está en la selva de México?" },
+      "choices": [
+        { "en": "Chichén Itzá", "es": "Chichén Itzá", "emoji": "🐍" },
+        { "en": "The Colosseum", "es": "El Coliseo", "emoji": "🏛️" },
+        { "en": "Big Ben", "es": "El Big Ben", "emoji": "🕰️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Maya built Chichén Itzá, and when you clap near its steps the echo chirps like a sacred bird.", "es": "Los mayas construyeron Chichén Itzá, y si aplaudes junto a sus escalones el eco suena como un pájaro sagrado." },
+      "topic": "famous places",
+      "source": "https://kids.britannica.com/kids/article/Chichen-Itza/399962"
+    },
+    {
+      "id": "geography-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗽",
+      "q": { "en": "Which country gave the Statue of Liberty?", "es": "¿Cuál país regaló la Estatua de la Libertad?" },
+      "choices": [
+        { "en": "Japan", "es": "Japón", "emoji": "🍣" },
+        { "en": "Egypt", "es": "Egipto", "emoji": "🐫" },
+        { "en": "France", "es": "Francia", "emoji": "🥐" }
+      ],
+      "answer": 2,
+      "why": { "en": "France sent the statue in pieces by ship, and its copper skin turned green as the sea air wore it.", "es": "Francia envió la estatua en pedazos por barco, y su piel de cobre se volvió verde con el aire salado." },
+      "topic": "famous places",
+      "source": "https://www.nps.gov/stli/learn/historyculture/index.htm"
+    },
+    {
+      "id": "geography-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Where would you find a wild kangaroo?", "es": "¿Dónde encontrarías un canguro salvaje?" },
+      "choices": [
+        { "en": "In Canada", "es": "En Canadá", "emoji": "🍁" },
+        { "en": "In Australia", "es": "En Australia", "emoji": "🦘" },
+        { "en": "In Egypt", "es": "En Egipto", "emoji": "🐫" }
+      ],
+      "answer": 1,
+      "why": { "en": "Kangaroos hop only in Australia and nearby islands, and a big one can leap farther than a car is long.", "es": "Los canguros saltan solo en Australia y sus islas cercanas, y uno grande brinca más largo que un carro." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/red-kangaroo"
+    },
+    {
+      "id": "geography-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐼",
+      "q": { "en": "Where do giant pandas live in the wild?", "es": "¿Dónde viven los pandas gigantes en la naturaleza?" },
+      "choices": [
+        { "en": "In Peru", "es": "En Perú", "emoji": "🦙" },
+        { "en": "In Spain", "es": "En España", "emoji": "🥘" },
+        { "en": "In China", "es": "En China", "emoji": "🐼" }
+      ],
+      "answer": 2,
+      "why": { "en": "Wild pandas live in cool mountain forests in China, munching bamboo for about twelve hours every single day.", "es": "Los pandas salvajes viven en bosques fríos de montaña en China y comen bambú unas doce horas cada día." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giant-panda"
+    },
+    {
+      "id": "geography-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "Where do llamas carry loads for people?", "es": "¿Dónde cargan bultos las llamas para la gente?" },
+      "choices": [
+        { "en": "In the Andes", "es": "En los Andes", "emoji": "🦙" },
+        { "en": "In the Sahara", "es": "En el Sahara", "emoji": "🐪" },
+        { "en": "In the Arctic", "es": "En el Ártico", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Llamas climb the Andes of Peru and Bolivia, carrying bundles on steep paths where trucks could not go.", "es": "Las llamas suben los Andes de Perú y Bolivia cargando bultos por senderos empinados donde los camiones no llegan." },
+      "topic": "where animals live",
+      "source": "https://kids.britannica.com/kids/article/llama/353570"
+    },
+    {
+      "id": "geography-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "Where do lions roam in wide grasslands?", "es": "¿Dónde viven los leones en las sabanas anchas?" },
+      "choices": [
+        { "en": "In Antarctica", "es": "En la Antártida", "emoji": "🐧" },
+        { "en": "In Africa", "es": "En África", "emoji": "🦁" },
+        { "en": "In Canada", "es": "En Canadá", "emoji": "🍁" }
+      ],
+      "answer": 1,
+      "why": { "en": "Lions live in African grasslands in family groups called prides, and a roar carries five miles, eight kilometers.", "es": "Los leones viven en las sabanas de África en familias llamadas manadas, y su rugido viaja cinco millas, ocho kilómetros." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/lion"
+    },
+    {
+      "id": "geography-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Which animal swims in the Amazon River?", "es": "¿Cuál animal nada en el río Amazonas?" },
+      "choices": [
+        { "en": "A penguin", "es": "Un pingüino", "emoji": "🐧" },
+        { "en": "A pink river dolphin", "es": "Un delfín rosado de río", "emoji": "🐬" },
+        { "en": "A camel", "es": "Un camello", "emoji": "🐪" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pink river dolphins live in the Amazon, and they can turn their necks to peek around flooded forest trees.", "es": "Los delfines rosados viven en el Amazonas y pueden girar el cuello para mirar entre los árboles inundados." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/amazon-river-dolphin"
+    },
+    {
+      "id": "geography-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which place has the most people and buildings?", "es": "¿Cuál lugar tiene más gente y más edificios?" },
+      "choices": [
+        { "en": "A farm", "es": "Una granja", "emoji": "🚜" },
+        { "en": "A village", "es": "Una aldea", "emoji": "🏘️" },
+        { "en": "A city", "es": "Una ciudad", "emoji": "🏙️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A city packs thousands of homes, shops and offices close together, so buses and trains carry everyone around.", "es": "Una ciudad junta miles de casas, tiendas y oficinas, por eso los autobuses y los trenes llevan a todos." },
+      "topic": "cities and towns",
+      "source": "https://kids.britannica.com/kids/article/city/352962"
+    },
+    {
+      "id": "geography-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏘️",
+      "q": { "en": "What do we call a very small town?", "es": "¿Cómo se llama un pueblo muy pequeño?" },
+      "choices": [
+        { "en": "A village", "es": "Una aldea", "emoji": "🏘️" },
+        { "en": "A city", "es": "Una ciudad", "emoji": "🏙️" },
+        { "en": "A capital", "es": "Una capital", "emoji": "🏛️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A village is a tiny cluster of houses, often with one school and one store where neighbors all know each other.", "es": "Una aldea es un grupito de casas, muchas veces con una escuela y una tienda donde todos se conocen." },
+      "topic": "cities and towns",
+      "source": "https://education.nationalgeographic.org/resource/rural-area/"
+    },
+    {
+      "id": "geography-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚜",
+      "q": { "en": "Where does a farmer grow food and raise animals?", "es": "¿Dónde cultiva comida y cría animales un granjero?" },
+      "choices": [
+        { "en": "In a subway", "es": "En el metro", "emoji": "🚇" },
+        { "en": "On a farm", "es": "En una granja", "emoji": "🚜" },
+        { "en": "On a boat", "es": "En un barco", "emoji": "⛵" }
+      ],
+      "answer": 1,
+      "why": { "en": "A farm needs wide fields, good soil and water, which is why most farms sit outside of busy towns.", "es": "Una granja necesita campos amplios, buena tierra y agua, por eso casi todas están lejos de los pueblos llenos." },
+      "topic": "cities and towns",
+      "source": "https://kids.britannica.com/kids/article/agriculture/352678"
+    },
+    {
+      "id": "geography-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "What is the main city of a country called?", "es": "¿Cómo se llama la ciudad principal de un país?" },
+      "choices": [
+        { "en": "The corner", "es": "La esquina", "emoji": "📐" },
+        { "en": "The harbor", "es": "El puerto", "emoji": "⚓" },
+        { "en": "The capital", "es": "La capital", "emoji": "🏛️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A capital is where a country's leaders meet and make rules, like Mexico City, Ottawa or Washington.", "es": "Una capital es donde se reúnen los líderes del país y hacen las reglas, como la Ciudad de México." },
+      "topic": "cities and towns",
+      "source": "https://kids.britannica.com/kids/article/Washington-D-C/353883"
+    },
+    {
+      "id": "geography-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which city was built on top of a lake?", "es": "¿Cuál ciudad se construyó encima de un lago?" },
+      "choices": [
+        { "en": "Lima", "es": "Lima", "emoji": "🦙" },
+        { "en": "Mexico City", "es": "La Ciudad de México", "emoji": "🏙️" },
+        { "en": "Bogotá", "es": "Bogotá", "emoji": "☕" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mexico City rose where the Aztec built Tenochtitlan on an island in a lake, and it slowly sinks each year.", "es": "La Ciudad de México creció donde los aztecas construyeron Tenochtitlan en una isla de un lago, y se hunde poco a poco." },
+      "topic": "cities and towns",
+      "source": "https://kids.britannica.com/kids/article/Mexico-City/353651"
+    },
+    {
+      "id": "geography-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "What does a bridge help you cross?", "es": "¿Qué te ayuda a cruzar un puente?" },
+      "choices": [
+        { "en": "A river", "es": "Un río", "emoji": "🌉" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" },
+        { "en": "A book", "es": "Un libro", "emoji": "📕" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bridge carries a road or railway over water or a valley, and many hide triangles inside for strength.", "es": "Un puente lleva un camino o un tren sobre el agua o un valle, y muchos llevan triángulos para ser fuertes." },
+      "topic": "bridges and harbors",
+      "source": "https://kids.britannica.com/kids/article/bridge/352855"
+    },
+    {
+      "id": "geography-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚓",
+      "q": { "en": "Where do big ships tie up safely?", "es": "¿Dónde se amarran los barcos grandes con seguridad?" },
+      "choices": [
+        { "en": "On a mountain", "es": "En una montaña", "emoji": "⛰️" },
+        { "en": "In a desert", "es": "En un desierto", "emoji": "🏜️" },
+        { "en": "In a harbor", "es": "En un puerto", "emoji": "⚓" }
+      ],
+      "answer": 2,
+      "why": { "en": "A harbor is sheltered water where ships load and unload, and cranes lift boxes bigger than a bedroom.", "es": "Un puerto es agua protegida donde los barcos cargan y descargan, y las grúas levantan cajas más grandes que un cuarto." },
+      "topic": "bridges and harbors",
+      "source": "https://oceanservice.noaa.gov/facts/port-harbor.html"
+    },
+    {
+      "id": "geography-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "What does a lighthouse shine at night?", "es": "¿Qué brilla un faro durante la noche?" },
+      "choices": [
+        { "en": "A loud song", "es": "Una canción fuerte", "emoji": "🎵" },
+        { "en": "A bright light", "es": "Una luz brillante", "emoji": "🔦" },
+        { "en": "A cloud of smoke", "es": "Una nube de humo", "emoji": "💨" }
+      ],
+      "answer": 1,
+      "why": { "en": "A lighthouse flashes a beam so sailors can spot rocks, and each one blinks in its own special pattern.", "es": "Un faro lanza un haz de luz para que los marineros vean las rocas, y cada uno parpadea distinto." },
+      "topic": "bridges and harbors",
+      "source": "https://www.nps.gov/subjects/lighthouses/index.htm"
+    },
+    {
+      "id": "geography-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛳️",
+      "q": { "en": "What do boats use a canal for?", "es": "¿Para qué usan los barcos un canal?" },
+      "choices": [
+        { "en": "To climb a mountain", "es": "Para subir una montaña", "emoji": "⛰️" },
+        { "en": "To fly in the sky", "es": "Para volar por el cielo", "emoji": "🪁" },
+        { "en": "To cut across land", "es": "Para cruzar por la tierra", "emoji": "🛳️" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Panama Canal lets ships hop between two oceans, saving a long trip around the tip of South America.", "es": "El canal de Panamá deja que los barcos pasen entre dos océanos y ahorren el viaje por el sur de Sudamérica." },
+      "topic": "bridges and harbors",
+      "source": "https://kids.britannica.com/kids/article/Panama-Canal/353692"
     }
   ]
 }

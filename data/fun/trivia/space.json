@@ -1,7 +1,7 @@
 {
   "note": "Space & the Sky. Three levels in one file so a reviewer sees the ladder.",
   "category": "space",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "space-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
@@ -12,8 +12,7 @@
         { "en": "The stars", "es": "Las estrellas", "emoji": "⭐" }
       ],
       "answer": 1,
-      "why": { "en": "The Sun is a star so close to us that its light fills the whole sky during the day.",
-               "es": "El Sol es una estrella tan cercana a nosotros que su luz llena todo el cielo durante el día." },
+      "why": { "en": "The Sun is a star so close to us that its light fills the whole sky during the day.", "es": "El Sol es una estrella tan cercana a nosotros que su luz llena todo el cielo durante el día." },
       "topic": "the sun is a star",
       "source": "https://spaceplace.nasa.gov/sun-heat/en/"
     },
@@ -26,8 +25,7 @@
         { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
       ],
       "answer": 2,
-      "why": { "en": "Earth is the only planet we know that has animals, plants and people living on it.",
-               "es": "La Tierra es el único planeta que conocemos con animales, plantas y personas que viven en él." },
+      "why": { "en": "Earth is the only planet we know that has animals, plants and people living on it.", "es": "La Tierra es el único planeta que conocemos con animales, plantas y personas que viven en él." },
       "topic": "we live on earth",
       "source": "https://spaceplace.nasa.gov/all-about-earth/en/"
     },
@@ -40,8 +38,7 @@
         { "en": "A farmer", "es": "Un agricultor", "emoji": "🚜" }
       ],
       "answer": 1,
-      "why": { "en": "Astronauts train for years before a trip, and in space they float around and sleep in bags tied to the wall.",
-               "es": "Los astronautas entrenan durante años antes de un viaje, y en el espacio flotan y duermen en bolsas atadas a la pared." },
+      "why": { "en": "Astronauts train for years before a trip, and in space they float around and sleep in bags tied to the wall.", "es": "Los astronautas entrenan durante años antes de un viaje, y en el espacio flotan y duermen en bolsas atadas a la pared." },
       "topic": "astronauts",
       "source": "https://www.nasa.gov/humans-in-space/astronauts/"
     },
@@ -55,8 +52,7 @@
         { "en": "12", "es": "12" }
       ],
       "answer": 2,
-      "why": { "en": "Since 2006 Pluto has been called a dwarf planet, so the solar system has eight planets.",
-               "es": "Desde 2006 Plutón se considera un planeta enano, así que el sistema solar tiene ocho planetas." },
+      "why": { "en": "Since 2006 Pluto has been called a dwarf planet, so the solar system has eight planets.", "es": "Desde 2006 Plutón se considera un planeta enano, así que el sistema solar tiene ocho planetas." },
       "topic": "eight planets",
       "source": "https://spaceplace.nasa.gov/planets/en/"
     },
@@ -70,8 +66,7 @@
         { "en": "Mercury", "es": "Mercurio" }
       ],
       "answer": 1,
-      "why": { "en": "Mars looks red because its dusty ground is full of iron oxide, the same stuff as rust.",
-               "es": "Marte se ve rojo porque su suelo polvoriento tiene mucho óxido de hierro, lo mismo que el óxido de un clavo." },
+      "why": { "en": "Mars looks red because its dusty ground is full of iron oxide, the same stuff as rust.", "es": "Marte se ve rojo porque su suelo polvoriento tiene mucho óxido de hierro, lo mismo que el óxido de un clavo." },
       "topic": "planets",
       "source": "https://spaceplace.nasa.gov/all-about-mars/en/"
     },
@@ -85,15 +80,13 @@
         { "en": "Milky Way", "es": "Vía Láctea" }
       ],
       "answer": 3,
-      "why": { "en": "The Milky Way holds hundreds of billions of stars, and our Sun is just one of them.",
-               "es": "La Vía Láctea tiene cientos de miles de millones de estrellas, y nuestro Sol es solo una de ellas." },
+      "why": { "en": "The Milky Way holds hundreds of billions of stars, and our Sun is just one of them.", "es": "La Vía Láctea tiene cientos de miles de millones de estrellas, y nuestro Sol es solo una de ellas." },
       "topic": "the milky way",
       "source": "https://spaceplace.nasa.gov/galaxy/en/"
     },
     {
       "id": "space-hard-001", "level": "hard", "type": "mc", "lang": "both",
-      "q": { "en": "Pluto, Eris and Haumea belong to which group of solar system objects?",
-             "es": "¿A qué grupo de objetos del sistema solar pertenecen Plutón, Eris y Haumea?" },
+      "q": { "en": "Pluto, Eris and Haumea belong to which group of solar system objects?", "es": "¿A qué grupo de objetos del sistema solar pertenecen Plutón, Eris y Haumea?" },
       "choices": [
         { "en": "Comets", "es": "Cometas" },
         { "en": "Dwarf planets", "es": "Planetas enanos" },
@@ -101,15 +94,13 @@
         { "en": "Asteroids", "es": "Asteroides" }
       ],
       "answer": 1,
-      "why": { "en": "A dwarf planet is round and orbits the Sun, but it has not cleared other objects from its path.",
-               "es": "Un planeta enano es redondo y gira alrededor del Sol, pero no ha despejado su órbita de otros objetos." },
+      "why": { "en": "A dwarf planet is round and orbits the Sun, but it has not cleared other objects from its path.", "es": "Un planeta enano es redondo y gira alrededor del Sol, pero no ha despejado su órbita de otros objetos." },
       "topic": "dwarf planets",
       "source": "https://science.nasa.gov/dwarf-planets/"
     },
     {
       "id": "space-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
-      "q": { "en": "During a solar eclipse, which object passes between Earth and the Sun?",
-             "es": "Durante un eclipse solar, ¿qué objeto pasa entre la Tierra y el Sol?" },
+      "q": { "en": "During a solar eclipse, which object passes between Earth and the Sun?", "es": "Durante un eclipse solar, ¿qué objeto pasa entre la Tierra y el Sol?" },
       "choices": [
         { "en": "Venus", "es": "Venus" },
         { "en": "Mercury", "es": "Mercurio" },
@@ -117,24 +108,1282 @@
         { "en": "A comet", "es": "Un cometa" }
       ],
       "answer": 2,
-      "why": { "en": "The Moon is about 400 times smaller than the Sun but also about 400 times closer, so it can cover it exactly.",
-               "es": "La Luna es unas 400 veces más pequeña que el Sol, pero está unas 400 veces más cerca, así que puede taparlo justo." },
+      "why": { "en": "The Moon is about 400 times smaller than the Sun but also about 400 times closer, so it can cover it exactly.", "es": "La Luna es unas 400 veces más pequeña que el Sol, pero está unas 400 veces más cerca, así que puede taparlo justo." },
       "topic": "eclipses",
       "source": "https://science.nasa.gov/eclipses/types/"
     },
     {
       "id": "space-hard-003", "level": "hard", "type": "tf", "lang": "both",
-      "q": { "en": "Saturn is the only planet in our solar system with rings.",
-             "es": "Saturno es el único planeta de nuestro sistema solar con anillos." },
+      "q": { "en": "Saturn is the only planet in our solar system with rings.", "es": "Saturno es el único planeta de nuestro sistema solar con anillos." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "Jupiter, Uranus and Neptune have rings too, but theirs are thin and dark, while Saturn's are bright ice.",
-               "es": "Júpiter, Urano y Neptuno también tienen anillos, pero son finos y oscuros, y los de Saturno son de hielo brillante." },
+      "why": { "en": "Jupiter, Uranus and Neptune have rings too, but theirs are thin and dark, while Saturn's are bright ice.", "es": "Júpiter, Urano y Neptuno también tienen anillos, pero son finos y oscuros, y los de Saturno son de hielo brillante." },
       "topic": "outer planets",
       "source": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "id": "space-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "How many moons does Earth have?", "es": "¿Cuántas lunas tiene la Tierra?" },
+      "choices": [
+        { "en": "One", "es": "Una", "emoji": "🌕" },
+        { "en": "Three", "es": "Tres", "emoji": "🌝" },
+        { "en": "Ten", "es": "Diez", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth has one Moon, but Jupiter has more than ninety, and little Mercury and Venus have none at all.", "es": "La Tierra tiene una sola Luna, pero Júpiter tiene más de noventa y Mercurio y Venus no tienen ninguna." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/all-about-the-moon/en/"
+    },
+    {
+      "id": "space-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "What are the round holes on the Moon?", "es": "¿Cómo se llaman los hoyos redondos de la Luna?" },
+      "choices": [
+        { "en": "Craters", "es": "Cráteres", "emoji": "🕳️" },
+        { "en": "Lakes", "es": "Lagos", "emoji": "🏞️" },
+        { "en": "Doors", "es": "Puertas", "emoji": "🚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Space rocks smash into the Moon and dig craters; the biggest ones are wider than many countries on Earth.", "es": "Las rocas del espacio chocan con la Luna y abren cráteres; los más grandes son más anchos que muchos países." },
+      "topic": "craters",
+      "source": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "space-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "👣",
+      "q": { "en": "What happens to footprints left on the Moon?", "es": "¿Qué pasa con las huellas dejadas en la Luna?" },
+      "choices": [
+        { "en": "They stay a long time", "es": "Se quedan mucho tiempo", "emoji": "👣" },
+        { "en": "Rain washes them away", "es": "La lluvia las borra", "emoji": "🌧️" },
+        { "en": "Wind blows them away", "es": "El viento las borra", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon has no wind or rain, so the boot prints from the Apollo trips could last millions of years.", "es": "La Luna no tiene viento ni lluvia, así que las huellas de las botas del Apolo pueden durar millones de años." },
+      "topic": "the moon",
+      "source": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "space-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "What is the Moon called when fully round?", "es": "¿Cómo se llama la Luna cuando se ve redonda?" },
+      "choices": [
+        { "en": "Full moon", "es": "Luna llena", "emoji": "🌕" },
+        { "en": "New moon", "es": "Luna nueva", "emoji": "🌑" },
+        { "en": "Half moon", "es": "Media luna", "emoji": "🌗" }
+      ],
+      "answer": 0,
+      "why": { "en": "A full Moon happens about once a month, when the Sun lights the whole side that faces us.", "es": "La Luna llena ocurre casi una vez al mes, cuando el Sol ilumina todo el lado que vemos desde aquí." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Which word names a thin curved Moon?", "es": "¿Cómo se llama la Luna delgada y curva?" },
+      "choices": [
+        { "en": "Crescent", "es": "Luna creciente", "emoji": "🌙" },
+        { "en": "Circle", "es": "Círculo", "emoji": "⭕" },
+        { "en": "Star", "es": "Estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon seems to change shape as it circles Earth, but it is always the same round ball of rock.", "es": "La Luna parece cambiar de forma mientras gira alrededor de la Tierra, pero siempre es la misma bola de roca." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What is the Moon really made of?", "es": "¿De qué está hecha la Luna en realidad?" },
+      "choices": [
+        { "en": "Rock and dust", "es": "Roca y polvo", "emoji": "🪨" },
+        { "en": "Cheese", "es": "Queso", "emoji": "🧀" },
+        { "en": "Ice cream", "es": "Helado", "emoji": "🍨" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon is dry rock under a layer of grey dust so sharp that it scratched the astronauts' boots.", "es": "La Luna es roca seca bajo una capa de polvo gris tan filoso que rayó las botas de los astronautas." },
+      "topic": "the moon",
+      "source": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "space-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What kind of object is the Sun?", "es": "¿Qué tipo de objeto es el Sol?" },
+      "choices": [
+        { "en": "A star", "es": "Una estrella", "emoji": "⭐" },
+        { "en": "A planet", "es": "Un planeta", "emoji": "🪐" },
+        { "en": "A moon", "es": "Una luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun is an ordinary star that looks huge and bright only because it is our closest one.", "es": "El Sol es una estrella común que se ve enorme y brillante solo porque es la estrella más cercana a nosotros." },
+      "topic": "the sun is a star",
+      "source": "https://spaceplace.nasa.gov/sun-heat/en/"
+    },
+    {
+      "id": "space-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "How many Earths could fit inside the Sun?", "es": "¿Cuántas Tierras cabrían dentro del Sol?" },
+      "choices": [
+        { "en": "About a million", "es": "Cerca de un millón", "emoji": "☀️" },
+        { "en": "About ten", "es": "Cerca de diez", "emoji": "🔟" },
+        { "en": "About three", "es": "Cerca de tres", "emoji": "3️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun is so wide that about one million Earths would fit inside it, and it holds almost all the solar system's stuff.", "es": "El Sol es tan ancho que cabrían dentro cerca de un millón de Tierras, y tiene casi toda la materia del sistema solar." },
+      "topic": "the sun",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What keeps Earth warm enough for life?", "es": "¿Qué mantiene la Tierra caliente para la vida?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌙" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight takes about eight minutes to reach us, and without it the oceans would freeze solid.", "es": "La luz del Sol tarda unos ocho minutos en llegar hasta nosotros, y sin ella los océanos se congelarían." },
+      "topic": "the sun gives heat",
+      "source": "https://spaceplace.nasa.gov/sun-heat/en/"
+    },
+    {
+      "id": "space-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "😎",
+      "q": { "en": "Which sky light is unsafe to stare at?", "es": "¿Qué luz del cielo es peligroso mirar fijamente?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌙" },
+        { "en": "A star", "es": "Una estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight is so strong it can hurt your eyes in seconds, which is why eclipse watchers wear special glasses.", "es": "La luz del Sol es tan fuerte que puede dañar tus ojos en segundos; por eso se usan lentes especiales." },
+      "topic": "the sun",
+      "source": "https://science.nasa.gov/eclipses/safety/"
+    },
+    {
+      "id": "space-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What shape is our planet Earth?", "es": "¿Qué forma tiene nuestro planeta, la Tierra?" },
+      "choices": [
+        { "en": "Round like a ball", "es": "Redonda como una pelota", "emoji": "🌍" },
+        { "en": "Flat like a plate", "es": "Plana como un plato", "emoji": "🍽️" },
+        { "en": "Pointy like a star", "es": "Con picos como una estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth is a ball that spins, and it bulges a little at the middle, like a squeezed rubber ball.", "es": "La Tierra es una bola que gira y se abulta un poco en el medio, como una pelota apretada." },
+      "topic": "planets are round",
+      "source": "https://spaceplace.nasa.gov/all-about-earth/en/"
+    },
+    {
+      "id": "space-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "What color does Earth look from space?", "es": "¿De qué color se ve la Tierra desde el espacio?" },
+      "choices": [
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Purple", "es": "Morado", "emoji": "🟣" },
+        { "en": "Orange", "es": "Anaranjado", "emoji": "🟠" }
+      ],
+      "answer": 0,
+      "why": { "en": "Oceans cover most of Earth, so astronauts call it the blue marble when they see it from orbit.", "es": "Los océanos cubren casi toda la Tierra, así que los astronautas la llaman la canica azul desde el espacio." },
+      "topic": "earth from space",
+      "source": "https://science.nasa.gov/earth/"
+    },
+    {
+      "id": "space-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔄",
+      "q": { "en": "What makes day turn into night?", "es": "¿Qué hace que el día se vuelva noche?" },
+      "choices": [
+        { "en": "Earth spinning around", "es": "La Tierra girando", "emoji": "🔄" },
+        { "en": "The Sun going to sleep", "es": "El Sol durmiéndose", "emoji": "😴" },
+        { "en": "Clouds moving by", "es": "Las nubes pasando", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth turns all the way around once a day, so your side faces the Sun and then faces away.", "es": "La Tierra da una vuelta completa cada día, así que tu lado mira al Sol y después mira al otro lado." },
+      "topic": "day and night",
+      "source": "https://kids.nationalgeographic.com/space/article/earth"
+    },
+    {
+      "id": "space-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌏",
+      "q": { "en": "While you sleep, where is the Sun shining?", "es": "Mientras duermes, ¿dónde está brillando el Sol?" },
+      "choices": [
+        { "en": "On the other side of Earth", "es": "Del otro lado de la Tierra", "emoji": "🌏" },
+        { "en": "Under your bed", "es": "Debajo de tu cama", "emoji": "🛏️" },
+        { "en": "Inside the clouds", "es": "Dentro de las nubes", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Half of Earth always faces the Sun, so children on the other side are eating breakfast while you dream.", "es": "La mitad de la Tierra siempre mira al Sol, así que niños del otro lado desayunan mientras tú sueñas." },
+      "topic": "day and night",
+      "source": "https://kids.nationalgeographic.com/space/article/earth"
+    },
+    {
+      "id": "space-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What are stars mostly made of?", "es": "¿De qué están hechas las estrellas?" },
+      "choices": [
+        { "en": "Hot glowing gas", "es": "Gas caliente que brilla", "emoji": "🔥" },
+        { "en": "Cold rock", "es": "Roca fría", "emoji": "🪨" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stars are giant balls of hot glowing gas, and light from the next closest star takes over four years to arrive.", "es": "Las estrellas son bolas gigantes de gas caliente, y la luz de la estrella más cercana tarda más de cuatro años." },
+      "topic": "stars",
+      "source": "https://science.nasa.gov/universe/stars/"
+    },
+    {
+      "id": "space-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Where are the stars during the daytime?", "es": "¿Dónde están las estrellas durante el día?" },
+      "choices": [
+        { "en": "Still up in the sky", "es": "Siguen en el cielo", "emoji": "⭐" },
+        { "en": "Gone far away", "es": "Se fueron lejos", "emoji": "🚪" },
+        { "en": "Inside the Moon", "es": "Dentro de la Luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stars shine all day long, but the Sun's bright light fills the sky and hides them from our eyes.", "es": "Las estrellas brillan todo el día, pero la luz del Sol llena el cielo y las esconde de nuestros ojos." },
+      "topic": "stars",
+      "source": "https://science.nasa.gov/universe/stars/"
+    },
+    {
+      "id": "space-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "What is a pattern of stars called?", "es": "¿Cómo se llama un dibujo hecho con estrellas?" },
+      "choices": [
+        { "en": "A constellation", "es": "Una constelación", "emoji": "✨" },
+        { "en": "A galaxy", "es": "Una galaxia", "emoji": "🌌" },
+        { "en": "A rainbow", "es": "Un arcoíris", "emoji": "🌈" }
+      ],
+      "answer": 0,
+      "why": { "en": "People long ago joined stars into pictures like animals and heroes, and sailors used those pictures to find their way.", "es": "Hace mucho la gente unió estrellas en figuras de animales y héroes, y los marineros las usaban para orientarse." },
+      "topic": "constellations",
+      "source": "https://spaceplace.nasa.gov/constellations/en/"
+    },
+    {
+      "id": "space-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌠",
+      "q": { "en": "What is a shooting star really?", "es": "¿Qué es en realidad una estrella fugaz?" },
+      "choices": [
+        { "en": "A space rock burning up", "es": "Una roca del espacio que se quema", "emoji": "☄️" },
+        { "en": "A star falling down", "es": "Una estrella que se cae", "emoji": "⭐" },
+        { "en": "A bird flying by", "es": "Un pájaro que vuela", "emoji": "🐦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shooting star is a grain of dust burning up as it races into the air, often smaller than a pea.", "es": "Una estrella fugaz es un granito de polvo que se quema al entrar al aire, casi siempre más pequeño que un frijol." },
+      "topic": "shooting stars",
+      "source": "https://spaceplace.nasa.gov/meteor-shower/en/"
+    },
+    {
+      "id": "space-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "☄️",
+      "q": { "en": "What does a comet grow near the Sun?", "es": "¿Qué le crece a un cometa cerca del Sol?" },
+      "choices": [
+        { "en": "A long bright tail", "es": "Una cola larga y brillante", "emoji": "☄️" },
+        { "en": "Green leaves", "es": "Hojas verdes", "emoji": "🍃" },
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A comet is a ball of ice and dust; sunlight melts it and pushes out a glowing tail that points away.", "es": "Un cometa es una bola de hielo y polvo; la luz del Sol lo derrite y forma una cola brillante." },
+      "topic": "comets",
+      "source": "https://spaceplace.nasa.gov/comet-or-asteroid/en/"
+    },
+    {
+      "id": "space-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "What comes out of a rocket at liftoff?", "es": "¿Qué sale de un cohete al despegar?" },
+      "choices": [
+        { "en": "Fire and smoke", "es": "Fuego y humo", "emoji": "🔥" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Snow", "es": "Nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rocket engines burn fuel faster than a bathtub empties, and most of a rocket is just tanks of fuel.", "es": "Los motores de un cohete queman combustible más rápido que una tina que se vacía, y casi todo el cohete son tanques." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/launching-into-space/en/"
+    },
+    {
+      "id": "space-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "What do people count before a launch?", "es": "¿Qué cuentan las personas antes de un despegue?" },
+      "choices": [
+        { "en": "Backwards to zero", "es": "Hacia atrás hasta cero", "emoji": "⏱️" },
+        { "en": "Their toys", "es": "Sus juguetes", "emoji": "🧸" },
+        { "en": "Sheep", "es": "Ovejas", "emoji": "🐑" }
+      ],
+      "answer": 0,
+      "why": { "en": "Launch teams count down so everyone acts at the same second, and the count can stop if one thing looks wrong.", "es": "Los equipos cuentan hacia atrás para que todos actúen en el mismo segundo, y la cuenta se detiene si algo falla." },
+      "topic": "rockets",
+      "source": "https://www.nasa.gov/learning-resources/for-kids-and-students/"
+    },
+    {
+      "id": "space-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "What do astronauts wear outside the spaceship?", "es": "¿Qué usan los astronautas fuera de la nave?" },
+      "choices": [
+        { "en": "A space suit", "es": "Un traje espacial", "emoji": "🧑‍🚀" },
+        { "en": "A raincoat", "es": "Un impermeable", "emoji": "🧥" },
+        { "en": "A swimsuit", "es": "Un traje de baño", "emoji": "🩱" }
+      ],
+      "answer": 0,
+      "why": { "en": "A space suit is like a tiny spaceship with its own air, water and radio, and it takes hours to put on.", "es": "Un traje espacial es como una nave pequeñita con aire, agua y radio propios, y toma horas ponérselo." },
+      "topic": "space suits",
+      "source": "https://www.nasa.gov/humans-in-space/spacewalks/"
+    },
+    {
+      "id": "space-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "How do astronauts move around inside a station?", "es": "¿Cómo se mueven los astronautas dentro de la estación?" },
+      "choices": [
+        { "en": "They float", "es": "Flotando", "emoji": "🧑‍🚀" },
+        { "en": "They ride bikes", "es": "En bicicleta", "emoji": "🚲" },
+        { "en": "They swim in water", "es": "Nadando en agua", "emoji": "🏊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Everything floats in orbit, so astronauts push off walls with one finger and tie their tools down so they stay put.", "es": "En órbita todo flota, así que los astronautas se empujan con un dedo y amarran sus herramientas para que no se vayan." },
+      "topic": "living in space",
+      "source": "https://www.nasa.gov/international-space-station/"
+    },
+    {
+      "id": "space-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "How do astronauts drink juice in space?", "es": "¿Cómo toman jugo los astronautas en el espacio?" },
+      "choices": [
+        { "en": "From a sealed bag", "es": "De una bolsa cerrada", "emoji": "🥤" },
+        { "en": "From an open cup", "es": "De un vaso abierto", "emoji": "☕" },
+        { "en": "From a bowl", "es": "De un tazón", "emoji": "🥣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Liquids form floating balls in space, so drinks come in sealed bags; astronauts sometimes catch loose drops with their mouths.", "es": "En el espacio los líquidos forman bolitas que flotan, así que se toman en bolsas cerradas y atrapan las gotas con la boca." },
+      "topic": "living in space",
+      "source": "https://www.nasa.gov/international-space-station/"
+    },
+    {
+      "id": "space-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "Where do astronauts practice spacewalks on Earth?", "es": "¿Dónde practican los astronautas sus caminatas espaciales?" },
+      "choices": [
+        { "en": "In a giant pool", "es": "En una piscina gigante", "emoji": "🏊" },
+        { "en": "On a mountain", "es": "En una montaña", "emoji": "⛰️" },
+        { "en": "In a desert", "es": "En un desierto", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Floating in a deep pool feels a bit like space, so astronauts train underwater for hours in their suits.", "es": "Flotar en una piscina profunda se parece un poco al espacio, así que los astronautas entrenan bajo el agua con sus trajes." },
+      "topic": "astronauts",
+      "source": "https://www.nasa.gov/humans-in-space/astronauts/"
+    },
+    {
+      "id": "space-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Which place have people walked on besides Earth?", "es": "¿En qué lugar han caminado personas además de la Tierra?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "Jupiter", "es": "Júpiter", "emoji": "🪐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twelve people have walked on the Moon, and they left behind flags, tools and even a family photo.", "es": "Doce personas han caminado en la Luna y dejaron allí banderas, herramientas y hasta una foto de familia." },
+      "topic": "moon landing",
+      "source": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "space-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "What is missing from the Moon's sky?", "es": "¿Qué le falta al cielo de la Luna?" },
+      "choices": [
+        { "en": "Air to breathe", "es": "Aire para respirar", "emoji": "🫁" },
+        { "en": "Rocks", "es": "Rocas", "emoji": "🪨" },
+        { "en": "Dust", "es": "Polvo", "emoji": "🌫️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon has almost no air, so its sky stays black even in daylight and no sound can travel there.", "es": "La Luna casi no tiene aire, así que su cielo se ve negro aun de día y allí no viaja el sonido." },
+      "topic": "the moon",
+      "source": "https://science.nasa.gov/moon/"
+    },
+    {
+      "id": "space-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What tool makes faraway stars look closer?", "es": "¿Qué aparato acerca las estrellas lejanas?" },
+      "choices": [
+        { "en": "A telescope", "es": "Un telescopio", "emoji": "🔭" },
+        { "en": "A hammer", "es": "Un martillo", "emoji": "🔨" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A telescope gathers much more light than your eye, so it shows faint things like moons around other planets.", "es": "Un telescopio junta mucha más luz que tu ojo, así que muestra cosas tenues como las lunas de otros planetas." },
+      "topic": "telescopes",
+      "source": "https://science.nasa.gov/mission/hubble/"
+    },
+    {
+      "id": "space-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "What do we call a home in orbit?", "es": "¿Cómo se llama una casa que gira en órbita?" },
+      "choices": [
+        { "en": "A space station", "es": "Una estación espacial", "emoji": "🛰️" },
+        { "en": "A treehouse", "es": "Una casa del árbol", "emoji": "🌳" },
+        { "en": "A hotel", "es": "Un hotel", "emoji": "🏨" }
+      ],
+      "answer": 0,
+      "why": { "en": "People have lived on the space station without a break for many years, taking turns in crews of about six.", "es": "La gente ha vivido en la estación espacial sin parar durante muchos años, en turnos de unas seis personas." },
+      "topic": "the space station",
+      "source": "https://www.nasa.gov/international-space-station/"
+    },
+    {
+      "id": "space-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "How many sunrises do station crews see daily?", "es": "¿Cuántos amaneceres ve la tripulación cada día?" },
+      "choices": [
+        { "en": "About sixteen", "es": "Unos dieciséis", "emoji": "🌅" },
+        { "en": "Just one", "es": "Solo uno", "emoji": "🌄" },
+        { "en": "None at all", "es": "Ninguno", "emoji": "🌑" }
+      ],
+      "answer": 0,
+      "why": { "en": "The station circles Earth every ninety minutes, so the crew watches the Sun rise and set sixteen times a day.", "es": "La estación da una vuelta a la Tierra cada noventa minutos, así que la tripulación ve dieciséis amaneceres al día." },
+      "topic": "the space station",
+      "source": "https://www.nasa.gov/international-space-station/"
+    },
+    {
+      "id": "space-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "What circles Earth and sends us pictures?", "es": "¿Qué gira alrededor de la Tierra y manda fotos?" },
+      "choices": [
+        { "en": "A satellite", "es": "Un satélite", "emoji": "🛰️" },
+        { "en": "A kite", "es": "Una cometa", "emoji": "🪁" },
+        { "en": "A balloon", "es": "Un globo", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hundreds of satellites circle above us, watching storms, carrying phone calls and helping maps find where you are.", "es": "Cientos de satélites giran sobre nosotros: vigilan tormentas, llevan llamadas y ayudan a los mapas a saber dónde estás." },
+      "topic": "satellites",
+      "source": "https://spaceplace.nasa.gov/satellite/en/"
+    },
+    {
+      "id": "space-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "What kind of robot drives around Mars?", "es": "¿Qué tipo de robot maneja por Marte?" },
+      "choices": [
+        { "en": "A rover", "es": "Un rover", "emoji": "🤖" },
+        { "en": "A robot fish", "es": "Un pez robot", "emoji": "🐟" },
+        { "en": "A flying rocket", "es": "Un cohete volador", "emoji": "🚀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rovers roll slowly across Mars taking pictures, drilling rocks and sending everything home by radio, with no driver aboard.", "es": "Los rovers ruedan despacio por Marte, toman fotos, perforan rocas y mandan todo por radio, sin nadie que los maneje." },
+      "topic": "rovers",
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+    },
+    {
+      "id": "space-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "How many planets does our Sun have?", "es": "¿Cuántos planetas tiene nuestro Sol?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🔢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Eight planets circle the Sun. Pluto counted as the ninth until scientists decided it was a dwarf planet instead.", "es": "Ocho planetas giran alrededor del Sol. Plutón era el noveno hasta que los científicos decidieron que es un planeta enano." },
+      "topic": "planets",
+      "source": "https://spaceplace.nasa.gov/menu/solar-system/"
+    },
+    {
+      "id": "space-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "Which planet looks red in our sky?", "es": "¿Qué planeta se ve rojo en el cielo?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" },
+        { "en": "Saturn", "es": "Saturno", "emoji": "🪐" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mars looks red because its dust is full of rust, the same stuff that turns old nails orange.", "es": "Marte se ve rojo porque su polvo está lleno de óxido, lo mismo que pone anaranjados los clavos viejos." },
+      "topic": "mars",
+      "source": "https://spaceplace.nasa.gov/all-about-mars/en/"
+    },
+    {
+      "id": "space-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Which planet has bright rings around it?", "es": "¿Qué planeta tiene anillos brillantes a su alrededor?" },
+      "choices": [
+        { "en": "Saturn", "es": "Saturno", "emoji": "🪐" },
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "The rings are not solid at all: they are billions of chunks of ice, some as tiny as sugar grains.", "es": "Los anillos no son sólidos: son miles de millones de trozos de hielo, algunos del tamaño de granitos de azúcar." },
+      "topic": "saturn",
+      "source": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+    },
+    {
+      "id": "space-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟠",
+      "q": { "en": "Which planet is the biggest of all?", "es": "¿Cuál es el planeta más grande de todos?" },
+      "choices": [
+        { "en": "Jupiter", "es": "Júpiter", "emoji": "🟠" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Jupiter is so huge that more than a thousand Earths would fit inside it, and it is made mostly of gas.", "es": "Júpiter es tan enorme que más de mil Tierras cabrían dentro de él, y está hecho casi todo de gas." },
+      "topic": "jupiter",
+      "source": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+    },
+    {
+      "id": "space-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which planet sits closest to the Sun?", "es": "¿Qué planeta está más cerca del Sol?" },
+      "choices": [
+        { "en": "Mercury", "es": "Mercurio", "emoji": "⚪" },
+        { "en": "Neptune", "es": "Neptuno", "emoji": "🔵" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mercury is also the smallest planet, and it races all the way around the Sun in just 88 days.", "es": "Mercurio también es el planeta más pequeño y da la vuelta completa al Sol en apenas 88 días." },
+      "topic": "mercury",
+      "source": "https://spaceplace.nasa.gov/all-about-mercury/en/"
+    },
+    {
+      "id": "space-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟡",
+      "q": { "en": "Which planet is the hottest one?", "es": "¿Qué planeta es el más caliente?" },
+      "choices": [
+        { "en": "Venus", "es": "Venus", "emoji": "🟡" },
+        { "en": "Neptune", "es": "Neptuno", "emoji": "🔵" },
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Venus is wrapped in thick clouds that trap heat like a blanket, so it stays hotter than a kitchen oven.", "es": "Venus está envuelto en nubes espesas que atrapan el calor como una cobija, así que está más caliente que un horno." },
+      "topic": "venus",
+      "source": "https://spaceplace.nasa.gov/all-about-venus/en/"
+    },
+    {
+      "id": "space-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕐",
+      "q": { "en": "Where is one day longer than a year?", "es": "¿Dónde dura un día más que un año?" },
+      "choices": [
+        { "en": "On Venus", "es": "En Venus", "emoji": "🟡" },
+        { "en": "On Mars", "es": "En Marte", "emoji": "🔴" },
+        { "en": "On the Moon", "es": "En la Luna", "emoji": "🌕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Venus turns so slowly that one spin takes longer than the whole trip it makes around the Sun.", "es": "Venus gira tan despacio que una vuelta sobre sí mismo tarda más que todo su viaje alrededor del Sol." },
+      "topic": "venus",
+      "source": "https://spaceplace.nasa.gov/all-about-venus/en/"
+    },
+    {
+      "id": "space-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Which planet is farthest from the Sun?", "es": "¿Qué planeta está más lejos del Sol?" },
+      "choices": [
+        { "en": "Neptune", "es": "Neptuno", "emoji": "🔵" },
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Neptune is so far away that its sunlight looks dim, and one year there lasts about 165 Earth years.", "es": "Neptuno está tan lejos que su luz del Sol se ve tenue, y un año allá dura unos 165 años terrestres." },
+      "topic": "neptune",
+      "source": "https://spaceplace.nasa.gov/all-about-neptune/en/"
+    },
+    {
+      "id": "space-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟦",
+      "q": { "en": "Which planet rolls on its side?", "es": "¿Qué planeta gira acostado de lado?" },
+      "choices": [
+        { "en": "Uranus", "es": "Urano", "emoji": "🟦" },
+        { "en": "Saturn", "es": "Saturno", "emoji": "🪐" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Uranus is tipped so far over that it spins like a rolling ball, probably knocked sideways by a giant crash.", "es": "Urano está tan inclinado que gira como una pelota que rueda, quizá porque un choque gigante lo volteó hace mucho." },
+      "topic": "uranus",
+      "source": "https://spaceplace.nasa.gov/all-about-uranus/en/"
+    },
+    {
+      "id": "space-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What do we call the Sun's family?", "es": "¿Cómo se llama la familia del Sol?" },
+      "choices": [
+        { "en": "The solar system", "es": "El sistema solar", "emoji": "☀️" },
+        { "en": "The Milky Way", "es": "La Vía Láctea", "emoji": "🌌" },
+        { "en": "A constellation", "es": "Una constelación", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "The solar system holds the Sun, eight planets, dozens of moons, and millions of asteroids and comets travelling together.", "es": "El sistema solar tiene el Sol, ocho planetas, decenas de lunas y millones de asteroides y cometas que viajan juntos." },
+      "topic": "the solar system",
+      "source": "https://spaceplace.nasa.gov/menu/solar-system/"
+    },
+    {
+      "id": "space-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "How many moons does Mars have?", "es": "¿Cuántas lunas tiene Marte?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "One", "es": "Una", "emoji": "1️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Phobos and Deimos are small lumpy moons that look more like captured asteroids than round worlds like ours.", "es": "Fobos y Deimos son lunas pequeñas y con bultos que parecen asteroides atrapados más que mundos redondos como el nuestro." },
+      "topic": "moons",
+      "source": "https://spaceplace.nasa.gov/all-about-mars/en/"
+    },
+    {
+      "id": "space-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "Which planet could float in a bathtub?", "es": "¿Qué planeta podría flotar en una tina?" },
+      "choices": [
+        { "en": "Saturn", "es": "Saturno", "emoji": "🪐" },
+        { "en": "Mercury", "es": "Mercurio", "emoji": "⚪" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Saturn is mostly gas and so light for its size that it would bob in a giant tub of water.", "es": "Saturno es casi todo gas y tan liviano para su tamaño que flotaría en una tina de agua gigante." },
+      "topic": "saturn",
+      "source": "https://spaceplace.nasa.gov/all-about-saturn/en/"
+    },
+    {
+      "id": "space-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which planet has the biggest volcano?", "es": "¿Qué planeta tiene el volcán más grande?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "Venus", "es": "Venus", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Olympus Mons on Mars stands about three times as high as Mount Everest and spreads as wide as Arizona.", "es": "El Monte Olimpo de Marte mide como tres veces el Everest y es tan ancho como el estado de Arizona." },
+      "topic": "mars",
+      "source": "https://kids.nationalgeographic.com/space/article/mars"
+    },
+    {
+      "id": "space-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "What kind of world is Pluto?", "es": "¿Qué tipo de mundo es Plutón?" },
+      "choices": [
+        { "en": "A dwarf planet", "es": "Un planeta enano", "emoji": "❄️" },
+        { "en": "A giant star", "es": "Una estrella gigante", "emoji": "⭐" },
+        { "en": "A moon of Earth", "es": "Una luna de la Tierra", "emoji": "🌕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pluto is smaller than our own Moon and needs 248 Earth years to finish one lap around the Sun.", "es": "Plutón es más pequeño que nuestra Luna y necesita 248 años terrestres para dar una vuelta alrededor del Sol." },
+      "topic": "dwarf planets",
+      "source": "https://spaceplace.nasa.gov/all-about-pluto/en/"
+    },
+    {
+      "id": "space-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "How long is one trip around the Sun?", "es": "¿Cuánto dura un viaje alrededor del Sol?" },
+      "choices": [
+        { "en": "One year", "es": "Un año", "emoji": "📅" },
+        { "en": "One night", "es": "Una noche", "emoji": "🌙" },
+        { "en": "One hour", "es": "Una hora", "emoji": "⏰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth rides a huge loop of about 584 million miles, 940 million km, around the Sun every single year.", "es": "La Tierra recorre un lazo enorme de unos 584 millones de millas, 940 millones de km, cada año." },
+      "topic": "earth in space",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "space-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "What does the Moon travel around?", "es": "¿Alrededor de qué viaja la Luna?" },
+      "choices": [
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "Mars", "es": "Marte", "emoji": "🔴" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon circles Earth about once a month, and it always keeps the very same face pointed toward us.", "es": "La Luna le da la vuelta a la Tierra casi cada mes y siempre nos muestra exactamente la misma cara." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What did astronauts bring home from the Moon?", "es": "¿Qué trajeron los astronautas desde la Luna?" },
+      "choices": [
+        { "en": "Moon rocks", "es": "Rocas lunares", "emoji": "🪨" },
+        { "en": "Moon water", "es": "Agua lunar", "emoji": "💧" },
+        { "en": "Moon plants", "es": "Plantas lunares", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Apollo crews carried back about 842 pounds, 382 kg, of rock and dust that scientists still study closely.", "es": "Las misiones Apolo trajeron unas 842 libras, 382 kg, de roca y polvo que los científicos siguen estudiando." },
+      "topic": "moon landing",
+      "source": "https://spaceplace.nasa.gov/apollo/en/"
+    },
+    {
+      "id": "space-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "What are the dark patches on the Moon?", "es": "¿Qué son las manchas oscuras de la Luna?" },
+      "choices": [
+        { "en": "Old lava plains", "es": "Llanuras de lava antigua", "emoji": "🌑" },
+        { "en": "Deep oceans", "es": "Océanos profundos", "emoji": "🌊" },
+        { "en": "Thick forests", "es": "Bosques espesos", "emoji": "🌲" }
+      ],
+      "answer": 0,
+      "why": { "en": "Long ago people called them seas, but they hold no water: they are frozen lava from ancient eruptions.", "es": "Hace mucho la gente les decía mares, pero no tienen agua: son lava congelada de erupciones muy antiguas." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/all-about-the-moon/en/"
+    },
+    {
+      "id": "space-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "⬛",
+      "q": { "en": "What color is the sky on the Moon?", "es": "¿De qué color es el cielo en la Luna?" },
+      "choices": [
+        { "en": "Black", "es": "Negro", "emoji": "⬛" },
+        { "en": "Blue", "es": "Azul", "emoji": "🟦" },
+        { "en": "Pink", "es": "Rosa", "emoji": "🌸" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon has no air to spread sunlight around, so its sky stays black even while the Sun shines.", "es": "La Luna no tiene aire que reparta la luz del Sol, así que su cielo sigue negro aunque el Sol brille." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/all-about-the-moon/en/"
+    },
+    {
+      "id": "space-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which is bigger, Earth or the Moon?", "es": "¿Qué es más grande, la Tierra o la Luna?" },
+      "choices": [
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "They are the same", "es": "Son iguales", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "About fifty Moons would fit inside Earth, and the Moon only looks big because it is so close.", "es": "Unas cincuenta Lunas cabrían dentro de la Tierra, y la Luna se ve grande solo porque está muy cerca." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/all-about-the-moon/en/"
+    },
+    {
+      "id": "space-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "How long does a trip to the Moon take?", "es": "¿Cuánto tarda un viaje hasta la Luna?" },
+      "choices": [
+        { "en": "About three days", "es": "Unos tres días", "emoji": "🚀" },
+        { "en": "About one hour", "es": "Como una hora", "emoji": "⏰" },
+        { "en": "About ten years", "es": "Unos diez años", "emoji": "📅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Apollo crews crossed about 240,000 miles, 386,000 km, of empty space in roughly three days each way.", "es": "Las tripulaciones del Apolo cruzaron unas 240,000 millas, 386,000 km, de espacio vacío en unos tres días." },
+      "topic": "moon landing",
+      "source": "https://spaceplace.nasa.gov/apollo/en/"
+    },
+    {
+      "id": "space-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "How long does sunlight take to reach us?", "es": "¿Cuánto tarda la luz del Sol en llegar?" },
+      "choices": [
+        { "en": "About eight minutes", "es": "Unos ocho minutos", "emoji": "⏱️" },
+        { "en": "One quick second", "es": "Un segundo rápido", "emoji": "⚡" },
+        { "en": "About ten years", "es": "Unos diez años", "emoji": "📅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight is the fastest thing there is and still needs eight minutes, so you always see the Sun slightly late.", "es": "La luz del Sol es lo más rápido que existe y aun así tarda ocho minutos, así que la ves con retraso." },
+      "topic": "the sun",
+      "source": "https://spaceplace.nasa.gov/sun-corona/en/"
+    },
+    {
+      "id": "space-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What is the Sun mostly made of?", "es": "¿De qué está hecho el Sol en su mayoría?" },
+      "choices": [
+        { "en": "Glowing gas", "es": "Gas brillante", "emoji": "🔥" },
+        { "en": "Solid rock", "es": "Roca sólida", "emoji": "🪨" },
+        { "en": "Melted gold", "es": "Oro derretido", "emoji": "🪙" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun is a giant ball of glowing hydrogen gas with no hard ground where a spaceship could land.", "es": "El Sol es una bola gigante de hidrógeno brillante, sin suelo firme donde pudiera aterrizar una nave espacial." },
+      "topic": "the sun",
+      "source": "https://spaceplace.nasa.gov/menu/sun/"
+    },
+    {
+      "id": "space-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Which star is nearest to Earth?", "es": "¿Qué estrella está más cerca de la Tierra?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The North Star", "es": "La estrella del norte", "emoji": "⭐" },
+        { "en": "The Big Dipper", "es": "La Osa Mayor", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun is our own star, and the next nearest one is so far its light takes four years to arrive.", "es": "El Sol es nuestra estrella, y la siguiente más cercana está tan lejos que su luz tarda cuatro años en llegar." },
+      "topic": "stars",
+      "source": "https://www.esa.int/kids/en/learn/Our_Universe/Stars/The_Sun"
+    },
+    {
+      "id": "space-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌒",
+      "q": { "en": "What hides the Sun during a solar eclipse?", "es": "¿Qué tapa al Sol durante un eclipse solar?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "A big cloud", "es": "Una nube grande", "emoji": "☁️" },
+        { "en": "A tall mountain", "es": "Una montaña alta", "emoji": "⛰️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon slides in front of the Sun and drops a shadow that turns day into dusk for minutes.", "es": "La Luna se pone delante del Sol y deja una sombra que convierte el día en penumbra por unos minutos." },
+      "topic": "eclipses",
+      "source": "https://spaceplace.nasa.gov/eclipses/en/"
+    },
+    {
+      "id": "space-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What is our galaxy called?", "es": "¿Cómo se llama nuestra galaxia?" },
+      "choices": [
+        { "en": "The Milky Way", "es": "La Vía Láctea", "emoji": "🌌" },
+        { "en": "The solar system", "es": "El sistema solar", "emoji": "☀️" },
+        { "en": "The Big Dipper", "es": "La Osa Mayor", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Our galaxy is a slow swirl of hundreds of billions of stars, and the Sun is only one of them.", "es": "Nuestra galaxia es un remolino lento de cientos de miles de millones de estrellas, y el Sol es solo una." },
+      "topic": "galaxies",
+      "source": "https://spaceplace.nasa.gov/milky-way/en/"
+    },
+    {
+      "id": "space-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "Which star pattern looks like a spoon?", "es": "¿Qué grupo de estrellas parece una cuchara?" },
+      "choices": [
+        { "en": "The Big Dipper", "es": "El Carro Mayor", "emoji": "🥄" },
+        { "en": "Orion the hunter", "es": "Orión el cazador", "emoji": "🏹" },
+        { "en": "The Little Bear", "es": "La Osa Menor", "emoji": "🐻" }
+      ],
+      "answer": 0,
+      "why": { "en": "Its seven bright stars point the way: follow the two at the spoon's edge and you find the North Star.", "es": "Sus siete estrellas brillantes te guían: sigue las dos del borde de la cuchara y encontrarás la estrella del norte." },
+      "topic": "constellations",
+      "source": "https://spaceplace.nasa.gov/constellations/en/"
+    },
+    {
+      "id": "space-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "What color are the hottest stars?", "es": "¿De qué color son las estrellas más calientes?" },
+      "choices": [
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Red", "es": "Rojo", "emoji": "🔴" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blue stars burn hottest and red ones are coolest, while our yellow-white Sun sits comfortably in the middle.", "es": "Las estrellas azules son las más calientes y las rojas las más frías; nuestro Sol amarillo queda justo en medio." },
+      "topic": "stars",
+      "source": "https://www.esa.int/kids/en/learn/Our_Universe/Stars/Stars"
+    },
+    {
+      "id": "space-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "How many stars can your eyes see?", "es": "¿Cuántas estrellas pueden ver tus ojos?" },
+      "choices": [
+        { "en": "About two thousand", "es": "Unas dos mil", "emoji": "✨" },
+        { "en": "About ten", "es": "Como diez", "emoji": "⭐" },
+        { "en": "About a million", "es": "Como un millón", "emoji": "🌌" }
+      ],
+      "answer": 0,
+      "why": { "en": "On a very dark night your eyes pick out two or three thousand stars, while millions more hide behind them.", "es": "En una noche muy oscura tus ojos ven dos o tres mil estrellas, aunque millones más quedan escondidas detrás." },
+      "topic": "stars",
+      "source": "https://spaceplace.nasa.gov/light-pollution/en/"
+    },
+    {
+      "id": "space-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What do we call a big space rock?", "es": "¿Cómo se llama una roca grande del espacio?" },
+      "choices": [
+        { "en": "An asteroid", "es": "Un asteroide", "emoji": "🪨" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" },
+        { "en": "A star", "es": "Una estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Most asteroids circle the Sun in a wide belt between Mars and Jupiter, and many are shaped like potatoes.", "es": "Casi todos los asteroides giran alrededor del Sol en un cinturón entre Marte y Júpiter, y muchos parecen papas." },
+      "topic": "asteroids",
+      "source": "https://spaceplace.nasa.gov/asteroid-or-meteor/en/"
+    },
+    {
+      "id": "space-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "☄️",
+      "q": { "en": "What is a space rock that lands?", "es": "¿Cómo se llama una roca del espacio que cae al suelo?" },
+      "choices": [
+        { "en": "A meteorite", "es": "Un meteorito", "emoji": "☄️" },
+        { "en": "A planet", "es": "Un planeta", "emoji": "🪐" },
+        { "en": "A crater", "es": "Un cráter", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Up in the sky it is a meteor; once it lands it becomes a meteorite, and most are smaller than your fist.", "es": "En el cielo es un meteoro; cuando toca el suelo se vuelve meteorito, y casi todos son menores que tu puño." },
+      "topic": "meteors",
+      "source": "https://spaceplace.nasa.gov/asteroid-or-meteor/en/"
+    },
+    {
+      "id": "space-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What is a comet mostly made of?", "es": "¿De qué está hecho casi todo un cometa?" },
+      "choices": [
+        { "en": "Ice and dust", "es": "Hielo y polvo", "emoji": "🧊" },
+        { "en": "Hot lava", "es": "Lava caliente", "emoji": "🌋" },
+        { "en": "Metal bars", "es": "Barras de metal", "emoji": "🔩" }
+      ],
+      "answer": 0,
+      "why": { "en": "A comet is like a dirty snowball, and near the Sun its ice turns to gas that streams out behind.", "es": "Un cometa es como una bola de nieve sucia; cerca del Sol su hielo se vuelve gas y forma una cola." },
+      "topic": "comets",
+      "source": "https://spaceplace.nasa.gov/comet-tails/en/"
+    },
+    {
+      "id": "space-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "What is the Great Red Spot on Jupiter?", "es": "¿Qué es la Gran Mancha Roja de Júpiter?" },
+      "choices": [
+        { "en": "A giant storm", "es": "Una tormenta gigante", "emoji": "🌀" },
+        { "en": "A big lake", "es": "Un lago grande", "emoji": "🏞️" },
+        { "en": "A red desert", "es": "Un desierto rojo", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "That storm is wider than our whole planet and has been swirling around Jupiter for hundreds of years.", "es": "Esa tormenta es más ancha que todo nuestro planeta y lleva cientos de años girando sobre Júpiter." },
+      "topic": "jupiter",
+      "source": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+    },
+    {
+      "id": "space-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What pushes a rocket up off the ground?", "es": "¿Qué empuja un cohete hacia arriba?" },
+      "choices": [
+        { "en": "Burning fuel", "es": "Combustible que arde", "emoji": "🔥" },
+        { "en": "A giant spring", "es": "Un resorte gigante", "emoji": "🌀" },
+        { "en": "A strong wind", "es": "Un viento fuerte", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rocket shoves hot gas downward and the push back lifts it, emptying its fuel tanks in minutes.", "es": "El cohete lanza gas caliente hacia abajo y ese empujón lo levanta, vaciando sus tanques en pocos minutos." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/launching-rockets/en/"
+    },
+    {
+      "id": "space-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Where does a rocket blast off from?", "es": "¿Desde dónde despega un cohete?" },
+      "choices": [
+        { "en": "A launch pad", "es": "Una plataforma de lanzamiento", "emoji": "🚀" },
+        { "en": "A runway", "es": "Una pista de aterrizaje", "emoji": "✈️" },
+        { "en": "A harbor", "es": "Un puerto", "emoji": "⚓" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pad pours thousands of gallons of water at liftoff, hushing a roar loud enough to shake metal apart.", "es": "La plataforma suelta miles de galones de agua al despegar para calmar un rugido capaz de sacudir el metal." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/launching-rockets/en/"
+    },
+    {
+      "id": "space-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎧",
+      "q": { "en": "Who helps astronauts from the ground?", "es": "¿Quién ayuda a los astronautas desde la Tierra?" },
+      "choices": [
+        { "en": "Mission control", "es": "El control de la misión", "emoji": "🎧" },
+        { "en": "A mail carrier", "es": "Un cartero", "emoji": "📮" },
+        { "en": "A lifeguard", "es": "Un salvavidas", "emoji": "🏊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rooms full of engineers watch every screen and talk with the crew in shifts, all day and all night.", "es": "Salas llenas de ingenieros vigilan cada pantalla y hablan con la tripulación por turnos, de día y de noche." },
+      "topic": "astronauts",
+      "source": "https://kids.britannica.com/kids/article/astronaut/352845"
+    },
+    {
+      "id": "space-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛌",
+      "q": { "en": "How do astronauts sleep in a spaceship?", "es": "¿Cómo duermen los astronautas en una nave?" },
+      "choices": [
+        { "en": "Zipped into a wall bag", "es": "En una bolsa pegada a la pared", "emoji": "🛌" },
+        { "en": "On a soft mattress", "es": "En un colchón suave", "emoji": "🛏️" },
+        { "en": "Hanging from a rope", "es": "Colgados de una cuerda", "emoji": "🪢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Floating means there is no down, so crews zip into bags fixed to a wall and stop bumping into equipment.", "es": "Al flotar no existe el abajo, así que se meten en bolsas sujetas a la pared para dejar de chocar con todo." },
+      "topic": "living in space",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space"
+    },
+    {
+      "id": "space-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What is most space food like?", "es": "¿Cómo es casi toda la comida del espacio?" },
+      "choices": [
+        { "en": "Dried, until water is added", "es": "Seca, hasta que le ponen agua", "emoji": "💧" },
+        { "en": "Frozen ice cream cones", "es": "Conos de helado congelado", "emoji": "🍦" },
+        { "en": "Soup in an open bowl", "es": "Sopa en un plato abierto", "emoji": "🥣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Drying makes meals light enough to launch, then crews squirt water into the pouch and eat straight from it.", "es": "Secar la comida la hace liviana para el despegue; luego le inyectan agua a la bolsa y comen de ahí." },
+      "topic": "living in space",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space"
+    },
+    {
+      "id": "space-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪥",
+      "q": { "en": "How do astronauts brush their teeth?", "es": "¿Cómo se lavan los dientes los astronautas?" },
+      "choices": [
+        { "en": "They swallow the toothpaste", "es": "Se tragan la pasta de dientes", "emoji": "🪥" },
+        { "en": "They spit in a sink", "es": "Escupen en un lavabo", "emoji": "🚰" },
+        { "en": "They use a garden hose", "es": "Usan una manguera de jardín", "emoji": "🚿" }
+      ],
+      "answer": 0,
+      "why": { "en": "There is no sink, and a blob of spit would float away, so crews swallow the foam or use a towel.", "es": "No hay lavabo y una gota de saliva flotaría por todos lados, así que se tragan la espuma o usan una toalla." },
+      "topic": "living in space",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space"
+    },
+    {
+      "id": "space-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤫",
+      "q": { "en": "What would you hear out in space?", "es": "¿Qué escucharías allá afuera en el espacio?" },
+      "choices": [
+        { "en": "Nothing at all", "es": "Nada de nada", "emoji": "🤫" },
+        { "en": "Loud thunder", "es": "Truenos fuertes", "emoji": "⛈️" },
+        { "en": "Whistling wind", "es": "Viento que silba", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sound travels by shaking air, and space has almost none, so even a huge blast out there is silent.", "es": "El sonido viaja sacudiendo el aire y el espacio casi no tiene, así que hasta una explosión enorme es silenciosa." },
+      "topic": "space itself",
+      "source": "https://spaceplace.nasa.gov/what-is-space/en/"
+    },
+    {
+      "id": "space-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "What color is a spacewalk suit?", "es": "¿De qué color es un traje espacial?" },
+      "choices": [
+        { "en": "White", "es": "Blanco", "emoji": "⬜" },
+        { "en": "Black", "es": "Negro", "emoji": "⬛" },
+        { "en": "Red", "es": "Rojo", "emoji": "🔴" }
+      ],
+      "answer": 0,
+      "why": { "en": "White bounces sunlight away and keeps the astronaut cool, and it shows up easily against the black of space.", "es": "El blanco rebota la luz del Sol y mantiene fresco al astronauta, y se ve fácil contra el negro del espacio." },
+      "topic": "space suits",
+      "source": "https://spaceplace.nasa.gov/spacesuits/en/"
+    },
+    {
+      "id": "space-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚶",
+      "q": { "en": "What is a trip outside the spaceship called?", "es": "¿Cómo se llama una salida fuera de la nave?" },
+      "choices": [
+        { "en": "A spacewalk", "es": "Una caminata espacial", "emoji": "🧑‍🚀" },
+        { "en": "A moonwalk", "es": "Un paseo lunar", "emoji": "🌕" },
+        { "en": "A sleepwalk", "es": "Un paseo dormido", "emoji": "😴" }
+      ],
+      "answer": 0,
+      "why": { "en": "On a spacewalk a cord or a small jetpack always holds astronauts, so nobody can drift away from the station.", "es": "En una caminata espacial siempre hay un cable o una mochila con motor para que nadie se aleje de la estación." },
+      "topic": "astronauts",
+      "source": "https://spaceplace.nasa.gov/spacesuits/en/"
+    },
+    {
+      "id": "space-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "What does the space station fly around?", "es": "¿Alrededor de qué vuela la estación espacial?" },
+      "choices": [
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" }
+      ],
+      "answer": 0,
+      "why": { "en": "It loops around Earth every ninety minutes, racing about five miles, eight km, through space every single second.", "es": "Da una vuelta a la Tierra cada noventa minutos y avanza unas cinco millas, ocho km, cada segundo." },
+      "topic": "the space station",
+      "source": "https://spaceplace.nasa.gov/space-station/en/"
+    },
+    {
+      "id": "space-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "What does a Mars rover look for?", "es": "¿Qué busca un robot explorador en Marte?" },
+      "choices": [
+        { "en": "Signs of old water", "es": "Señales de agua antigua", "emoji": "💧" },
+        { "en": "Buried treasure", "es": "Tesoros enterrados", "emoji": "💰" },
+        { "en": "Rain clouds", "es": "Nubes de lluvia", "emoji": "🌧️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rovers drill into rocks and study the dust for clues that rivers and lakes once spread across Mars.", "es": "Los robots exploradores perforan rocas y estudian el polvo buscando pistas de ríos y lagos que hubo en Marte." },
+      "topic": "rovers",
+      "source": "https://spaceplace.nasa.gov/mars-rovers/en/"
+    },
+    {
+      "id": "space-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚁",
+      "q": { "en": "Which machine flew in the air of Mars?", "es": "¿Qué máquina voló en el aire de Marte?" },
+      "choices": [
+        { "en": "A tiny helicopter", "es": "Un helicóptero pequeño", "emoji": "🚁" },
+        { "en": "A paper plane", "es": "Un avión de papel", "emoji": "✈️" },
+        { "en": "A hot air balloon", "es": "Un globo de aire caliente", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Its blades had to spin many times faster than on Earth because the air on Mars is extremely thin.", "es": "Sus aspas tenían que girar muchas veces más rápido que en la Tierra porque el aire de Marte es muy delgado." },
+      "topic": "rovers",
+      "source": "https://spaceplace.nasa.gov/mars-helicopter/en/"
+    },
+    {
+      "id": "space-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "What watches storms from up in space?", "es": "¿Qué vigila las tormentas desde el espacio?" },
+      "choices": [
+        { "en": "A weather satellite", "es": "Un satélite del clima", "emoji": "🛰️" },
+        { "en": "A paper kite", "es": "Una cometa de papel", "emoji": "🪁" },
+        { "en": "A lighthouse", "es": "Un faro", "emoji": "🗼" }
+      ],
+      "answer": 0,
+      "why": { "en": "Satellites photograph storms from above, so forecasters can watch a hurricane grow days before it reaches any coast.", "es": "Los satélites fotografían las tormentas desde arriba, así los expertos ven crecer un huracán días antes de llegar a la costa." },
+      "topic": "satellites",
+      "source": "https://spaceplace.nasa.gov/goes/en/"
+    },
+    {
+      "id": "space-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "What helps a map find your street?", "es": "¿Qué ayuda a un mapa a encontrar tu calle?" },
+      "choices": [
+        { "en": "Satellites", "es": "Los satélites", "emoji": "🛰️" },
+        { "en": "Streetlights", "es": "Los semáforos", "emoji": "🚦" },
+        { "en": "Road signs", "es": "Los letreros", "emoji": "🛑" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dozens of satellites beam time signals down, and a map listens to several at once to work out your spot.", "es": "Decenas de satélites mandan señales de tiempo, y el mapa escucha varias a la vez para saber dónde estás." },
+      "topic": "satellites",
+      "source": "https://spaceplace.nasa.gov/gps/en/"
+    },
+    {
+      "id": "space-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "Where does a space telescope do its work?", "es": "¿Dónde trabaja un telescopio espacial?" },
+      "choices": [
+        { "en": "Above the air", "es": "Arriba del aire", "emoji": "🔭" },
+        { "en": "Under the sea", "es": "Bajo el mar", "emoji": "🌊" },
+        { "en": "Inside a cave", "es": "Dentro de una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Above the wobbling air the view turns sharp, so orbiting telescopes can spot faint galaxies far beyond our own.", "es": "Arriba del aire tembloroso la vista se ve nítida, por eso los telescopios en órbita descubren galaxias débiles y lejanas." },
+      "topic": "telescopes",
+      "source": "https://spaceplace.nasa.gov/telescopes/en/"
+    },
+    {
+      "id": "space-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "In which desert do giant telescopes work?", "es": "¿En qué desierto trabajan telescopios gigantes?" },
+      "choices": [
+        { "en": "The Atacama in Chile", "es": "El Atacama, en Chile", "emoji": "🏜️" },
+        { "en": "The Sahara in Africa", "es": "El Sahara, en África", "emoji": "🐪" },
+        { "en": "The Gobi in Asia", "es": "El Gobi, en Asia", "emoji": "🏕️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Atacama is one of the driest, clearest places on Earth, so many enormous telescopes are built there.", "es": "El Atacama es uno de los lugares más secos y despejados de la Tierra, por eso allí hay telescopios enormes." },
+      "topic": "telescopes",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/chile"
+    },
+    {
+      "id": "space-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "Who was the first Mexican in space?", "es": "¿Quién fue el primer mexicano en el espacio?" },
+      "choices": [
+        { "en": "Rodolfo Neri Vela", "es": "Rodolfo Neri Vela", "emoji": "🧑‍🚀" },
+        { "en": "Diego Rivera", "es": "Diego Rivera", "emoji": "🎨" },
+        { "en": "Octavio Paz", "es": "Octavio Paz", "emoji": "📖" }
+      ],
+      "answer": 0,
+      "why": { "en": "He flew aboard a space shuttle in 1985, helped launch a satellite, and later taught engineering students in Mexico.", "es": "Voló en un transbordador espacial en 1985, ayudó a lanzar un satélite y después enseñó ingeniería en México." },
+      "topic": "astronauts",
+      "source": "https://kids.britannica.com/kids/article/Mexico/345716"
+    },
+    {
+      "id": "space-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "Who was the first Hispanic woman in space?", "es": "¿Quién fue la primera mujer hispana en el espacio?" },
+      "choices": [
+        { "en": "Ellen Ochoa", "es": "Ellen Ochoa", "emoji": "🧑‍🚀" },
+        { "en": "Marie Curie", "es": "Marie Curie", "emoji": "🔬" },
+        { "en": "Frida Kahlo", "es": "Frida Kahlo", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "She flew four shuttle missions, played her flute while in orbit, and later ran a whole NASA space center.", "es": "Voló en cuatro misiones del transbordador, tocó su flauta en órbita y después dirigió un centro espacial de la NASA." },
+      "topic": "astronauts",
+      "source": "https://kids.britannica.com/students/article/Ellen-Ochoa/313522"
+    },
+    {
+      "id": "space-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪰",
+      "q": { "en": "Which animals rode a rocket before people?", "es": "¿Qué animales viajaron en cohete antes que las personas?" },
+      "choices": [
+        { "en": "Fruit flies", "es": "Moscas de la fruta", "emoji": "🪰" },
+        { "en": "Elephants", "es": "Elefantes", "emoji": "🐘" },
+        { "en": "Penguins", "es": "Pingüinos", "emoji": "🐧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fruit flies rode a rocket in 1947 and parachuted back alive, showing that living things could survive the trip.", "es": "Unas moscas de la fruta volaron en cohete en 1947 y regresaron vivas en paracaídas, mostrando que se podía sobrevivir." },
+      "topic": "space history",
+      "source": "https://kids.britannica.com/kids/article/space-exploration/353811"
+    },
+    {
+      "id": "space-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏋️",
+      "q": { "en": "How heavy is a spacewalk suit on Earth?", "es": "¿Cuánto pesa un traje espacial en la Tierra?" },
+      "choices": [
+        { "en": "Heavier than a person", "es": "Más que una persona", "emoji": "🏋️" },
+        { "en": "Light as a shirt", "es": "Como una camisa", "emoji": "👕" },
+        { "en": "Light as a feather", "es": "Como una pluma", "emoji": "🪶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A suit weighs about 280 pounds, 127 kg, on Earth, yet it feels like nothing while floating in orbit.", "es": "El traje pesa unas 280 libras, 127 kg, en la Tierra, pero flotando en órbita se siente como si no pesara." },
+      "topic": "space suits",
+      "source": "https://spaceplace.nasa.gov/spacesuits/en/"
+    },
+    {
+      "id": "space-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏠",
+      "q": { "en": "How much room is inside the space station?", "es": "¿Cuánto espacio hay dentro de la estación espacial?" },
+      "choices": [
+        { "en": "As much as a big house", "es": "Como una casa grande", "emoji": "🏠" },
+        { "en": "As much as a shoebox", "es": "Como una caja de zapatos", "emoji": "📦" },
+        { "en": "As much as a whole city", "es": "Como una ciudad entera", "emoji": "🏙️" }
+      ],
+      "answer": 0,
+      "why": { "en": "There is about as much room as a six-bedroom house, with two bathrooms and a bay of windows facing Earth.", "es": "Hay como el espacio de una casa de seis recámaras, con dos baños y un mirador de ventanas hacia la Tierra." },
+      "topic": "the space station",
+      "source": "https://spaceplace.nasa.gov/space-station/en/"
+    },
+    {
+      "id": "space-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪂",
+      "q": { "en": "How does a crew capsule land back home?", "es": "¿Cómo aterriza de regreso una cápsula con tripulación?" },
+      "choices": [
+        { "en": "Under big parachutes", "es": "Con paracaídas grandes", "emoji": "🪂" },
+        { "en": "On bird wings", "es": "Con alas de ave", "emoji": "🕊️" },
+        { "en": "In a hot air balloon", "es": "En un globo de aire caliente", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Parachutes slow the falling capsule until it splashes into the sea or thumps down gently onto flat ground.", "es": "Los paracaídas frenan la cápsula que cae hasta que amariza en el mar o toca suavemente la tierra plana." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/spacecraft/en/"
+    },
+    {
+      "id": "space-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "How high up does space begin?", "es": "¿A qué altura empieza el espacio?" },
+      "choices": [
+        { "en": "About sixty miles up", "es": "Como sesenta millas arriba", "emoji": "🚀" },
+        { "en": "Just above the clouds", "es": "Justo arriba de las nubes", "emoji": "☁️" },
+        { "en": "At the top of a tree", "es": "En la copa de un árbol", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "The usual line sits about 62 miles, 100 km, up, where the air is far too thin for airplanes.", "es": "La línea está a unas 62 millas, 100 km, de altura, donde el aire es demasiado delgado para los aviones." },
+      "topic": "space itself",
+      "source": "https://spaceplace.nasa.gov/what-is-space/en/"
+    },
+    {
+      "id": "space-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "What have astronauts grown on the station?", "es": "¿Qué han cultivado los astronautas en la estación?" },
+      "choices": [
+        { "en": "Lettuce", "es": "Lechuga", "emoji": "🥬" },
+        { "en": "Apple trees", "es": "Manzanos", "emoji": "🍎" },
+        { "en": "Corn fields", "es": "Campos de maíz", "emoji": "🌽" }
+      ],
+      "answer": 0,
+      "why": { "en": "Crews grow lettuce and other greens inside a small box lit by red and blue lamps, then eat them.", "es": "La tripulación cultiva lechuga y otras hojas verdes en una caja con luces rojas y azules, y luego se las come." },
+      "topic": "living in space",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space"
+    },
+    {
+      "id": "space-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What happens to water on the space station?", "es": "¿Qué pasa con el agua en la estación espacial?" },
+      "choices": [
+        { "en": "It is cleaned and used again", "es": "Se limpia y se vuelve a usar", "emoji": "💧" },
+        { "en": "It is thrown outside", "es": "Se tira afuera", "emoji": "🗑️" },
+        { "en": "It turns into ice", "es": "Se convierte en hielo", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nearly every drop, even sweat and the steam people breathe out, is filtered clean and drunk again by the crew.", "es": "Casi cada gota, incluso el sudor y el vapor que respiran, se filtra y la tripulación la vuelve a tomar." },
+      "topic": "the space station",
+      "source": "https://spaceplace.nasa.gov/space-station/en/"
+    },
+    {
+      "id": "space-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "What is the Moon called when hidden?", "es": "¿Cómo se llama la Luna cuando está escondida?" },
+      "choices": [
+        { "en": "A new moon", "es": "Luna nueva", "emoji": "🌑" },
+        { "en": "A full moon", "es": "Luna llena", "emoji": "🌕" },
+        { "en": "A half moon", "es": "Media luna", "emoji": "🌗" }
+      ],
+      "answer": 0,
+      "why": { "en": "At new moon the sunlit side faces away from us, so the Moon crosses the daytime sky unseen.", "es": "En luna nueva el lado iluminado queda del otro lado, así que la Luna cruza el cielo de día sin verse." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "Which moon has lakes of liquid gas?", "es": "¿Qué luna tiene lagos de gas líquido?" },
+      "choices": [
+        { "en": "Titan, at Saturn", "es": "Titán, en Saturno", "emoji": "🪐" },
+        { "en": "Our own Moon", "es": "Nuestra Luna", "emoji": "🌕" },
+        { "en": "Phobos, at Mars", "es": "Fobos, en Marte", "emoji": "🔴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Titan's lakes hold methane so cold that it stays liquid, and the rain falling there is fuel, not water.", "es": "Los lagos de Titán tienen metano tan frío que sigue líquido, y allá la lluvia que cae es combustible, no agua." },
+      "topic": "moons",
+      "source": "https://spaceplace.nasa.gov/titan/en/"
+    },
+    {
+      "id": "space-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚙",
+      "q": { "en": "What did astronauts drive on the Moon?", "es": "¿Qué manejaron los astronautas en la Luna?" },
+      "choices": [
+        { "en": "A moon buggy", "es": "Un carrito lunar", "emoji": "🚙" },
+        { "en": "A skateboard", "es": "Una patineta", "emoji": "🛹" },
+        { "en": "A train", "es": "Un tren", "emoji": "🚂" }
+      ],
+      "answer": 0,
+      "why": { "en": "A battery buggy let crews drive miles from their lander, and three of those carts are still parked there.", "es": "Un carrito con baterías les permitió alejarse kilómetros del módulo, y tres de esos vehículos siguen estacionados allá." },
+      "topic": "moon landing",
+      "source": "https://spaceplace.nasa.gov/apollo/en/"
+    },
+    {
+      "id": "space-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "👯",
+      "q": { "en": "Which planet is almost the size of Earth?", "es": "¿Qué planeta mide casi lo mismo que la Tierra?" },
+      "choices": [
+        { "en": "Venus", "es": "Venus", "emoji": "🟡" },
+        { "en": "Jupiter", "es": "Júpiter", "emoji": "🟠" },
+        { "en": "Mercury", "es": "Mercurio", "emoji": "⚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Venus is only a little smaller than Earth, so people call it our twin, though its thick air would crush you.", "es": "Venus es apenas un poco más chico que la Tierra, por eso lo llaman su gemelo, aunque su aire espeso te aplastaría." },
+      "topic": "venus",
+      "source": "https://spaceplace.nasa.gov/all-about-venus/en/"
+    },
+    {
+      "id": "space-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What do we call a person who studies stars?", "es": "¿Cómo se llama la persona que estudia las estrellas?" },
+      "choices": [
+        { "en": "An astronomer", "es": "Astrónomo", "emoji": "🔭" },
+        { "en": "A dentist", "es": "Dentista", "emoji": "🦷" },
+        { "en": "A farmer", "es": "Granjero", "emoji": "🚜" }
+      ],
+      "answer": 0,
+      "why": { "en": "Astronomers use telescopes and computers, and many study pictures on a screen instead of peering through an eyepiece.", "es": "Los astrónomos usan telescopios y computadoras, y muchos estudian imágenes en una pantalla en vez de mirar por el ocular." },
+      "topic": "telescopes",
+      "source": "https://kids.britannica.com/kids/article/astronomy/352815"
+    },
+    {
+      "id": "space-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Which planet spins around the fastest?", "es": "¿Qué planeta gira más rápido sobre sí mismo?" },
+      "choices": [
+        { "en": "Jupiter", "es": "Júpiter", "emoji": "🟠" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "Venus", "es": "Venus", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Jupiter turns all the way around in about ten hours, so a whole day there is shorter than yours.", "es": "Júpiter da una vuelta completa en unas diez horas, así que un día entero allá dura menos que el tuyo." },
+      "topic": "jupiter",
+      "source": "https://spaceplace.nasa.gov/all-about-jupiter/en/"
+    },
+    {
+      "id": "space-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "What flies far beyond all the planets?", "es": "¿Qué vuela mucho más allá de todos los planetas?" },
+      "choices": [
+        { "en": "A space probe", "es": "Una sonda espacial", "emoji": "📡" },
+        { "en": "A jet plane", "es": "Un avión de pasajeros", "emoji": "✈️" },
+        { "en": "A hot air balloon", "es": "Un globo de aire caliente", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Voyager one left the planets behind long ago and carries a golden disc of Earth's music, greetings and animal sounds.", "es": "La Voyager uno dejó atrás los planetas hace mucho y lleva un disco dorado con música, saludos y sonidos de la Tierra." },
+      "topic": "space probes",
+      "source": "https://spaceplace.nasa.gov/voyager-to-stars/en/"
     }
   ]
 }

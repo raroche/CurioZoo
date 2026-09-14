@@ -1,7 +1,7 @@
 {
   "note": "Earth, Weather & Oceans. Three levels in one file so a reviewer sees the ladder.",
   "category": "earth",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "earth-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
@@ -12,8 +12,7 @@
         { "en": "Leaves", "es": "Hojas", "emoji": "🍃" }
       ],
       "answer": 1,
-      "why": { "en": "Clouds are made of tiny drops of water; when the drops get heavy, they fall as rain.",
-               "es": "Las nubes están hechas de gotitas de agua; cuando las gotas pesan mucho, caen como lluvia." },
+      "why": { "en": "Clouds are made of tiny drops of water; when the drops get heavy, they fall as rain.", "es": "Las nubes están hechas de gotitas de agua; cuando las gotas pesan mucho, caen como lluvia." },
       "topic": "rain and clouds",
       "source": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle"
     },
@@ -26,8 +25,7 @@
         { "en": "Frozen water", "es": "Agua congelada", "emoji": "❄️" }
       ],
       "answer": 2,
-      "why": { "en": "Snowflakes are tiny pieces of ice, and every snowflake has six sides or six points.",
-               "es": "Los copos de nieve son pedacitos de hielo, y cada copo tiene seis lados o seis puntas." },
+      "why": { "en": "Snowflakes are tiny pieces of ice, and every snowflake has six sides or six points.", "es": "Los copos de nieve son pedacitos de hielo, y cada copo tiene seis lados o seis puntas." },
       "topic": "snow",
       "source": "https://www.noaa.gov/stories/how-do-snowflakes-form-get-science-behind-snow"
     },
@@ -40,8 +38,7 @@
         { "en": "Snow", "es": "Nieve", "emoji": "☃️" }
       ],
       "answer": 0,
-      "why": { "en": "Lava is melted rock so hot that it glows red and orange as it flows down the volcano.",
-               "es": "La lava es roca derretida tan caliente que brilla roja y naranja mientras baja por el volcán." },
+      "why": { "en": "Lava is melted rock so hot that it glows red and orange as it flows down the volcano.", "es": "La lava es roca derretida tan caliente que brilla roja y naranja mientras baja por el volcán." },
       "topic": "volcanoes",
       "source": "https://www.britannica.com/science/lava-volcanic-ejecta"
     },
@@ -55,8 +52,7 @@
         { "en": "Erosion", "es": "Erosión" }
       ],
       "answer": 1,
-      "why": { "en": "Evaporation happens when the Sun warms water in oceans, lakes and puddles, turning it into an invisible gas called water vapor.",
-               "es": "La evaporación ocurre cuando el Sol calienta el agua de mares, lagos y charcos y la convierte en un gas: el vapor de agua." },
+      "why": { "en": "Evaporation happens when the Sun warms water in oceans, lakes and puddles, turning it into an invisible gas called water vapor.", "es": "La evaporación ocurre cuando el Sol calienta el agua de mares, lagos y charcos y la convierte en un gas: el vapor de agua." },
       "topic": "water cycle",
       "source": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle"
     },
@@ -70,8 +66,7 @@
         { "en": "Arctic Ocean", "es": "Océano Ártico" }
       ],
       "answer": 2,
-      "why": { "en": "The Pacific Ocean is so big that all of Earth's land could fit inside it, with room to spare.",
-               "es": "El océano Pacífico es tan grande que toda la tierra firme del planeta cabría dentro de él, y sobraría espacio." },
+      "why": { "en": "The Pacific Ocean is so big that all of Earth's land could fit inside it, with room to spare.", "es": "El océano Pacífico es tan grande que toda la tierra firme del planeta cabría dentro de él, y sobraría espacio." },
       "topic": "oceans",
       "source": "https://www.britannica.com/place/Pacific-Ocean"
     },
@@ -83,8 +78,7 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "True: lightning can heat the air to about 50,000 °F (27,000 °C), around five times hotter than the Sun's surface.",
-               "es": "Cierto: un rayo puede calentar el aire a unos 27,000 °C (50,000 °F), unas cinco veces más que la superficie del Sol." },
+      "why": { "en": "True: lightning can heat the air to about 50,000 °F (27,000 °C), around five times hotter than the Sun's surface.", "es": "Cierto: un rayo puede calentar el aire a unos 27,000 °C (50,000 °F), unas cinco veces más que la superficie del Sol." },
       "topic": "thunder and lightning",
       "source": "https://www.weather.gov/safety/lightning-science-overview"
     },
@@ -98,8 +92,7 @@
         { "en": "Tonga Trench", "es": "Fosa de Tonga" }
       ],
       "answer": 2,
-      "why": { "en": "The Challenger Deep in the Mariana Trench is about 36,000 feet (11,000 m) down, deeper than Mount Everest is tall.",
-               "es": "El abismo Challenger, en la fosa de las Marianas, tiene unos 11,000 m (36,000 pies) de profundidad: más que la altura del Everest." },
+      "why": { "en": "The Challenger Deep in the Mariana Trench is about 36,000 feet (11,000 m) down, deeper than Mount Everest is tall.", "es": "El abismo Challenger, en la fosa de las Marianas, tiene unos 11,000 m (36,000 pies) de profundidad: más que la altura del Everest." },
       "topic": "ocean floor",
       "source": "https://oceanservice.noaa.gov/facts/oceandepth.html"
     },
@@ -113,8 +106,7 @@
         { "en": "Lower mantle", "es": "Manto inferior" }
       ],
       "answer": 1,
-      "why": { "en": "The lithosphere is the crust plus the top of the mantle, and its plates move about as fast as your fingernails grow.",
-               "es": "La litosfera es la corteza más la parte de arriba del manto, y sus placas se mueven tan rápido como crecen tus uñas." },
+      "why": { "en": "The lithosphere is the crust plus the top of the mantle, and its plates move about as fast as your fingernails grow.", "es": "La litosfera es la corteza más la parte de arriba del manto, y sus placas se mueven tan rápido como crecen tus uñas." },
       "topic": "plate tectonics",
       "source": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
     },
@@ -126,10 +118,1270 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "False: about 3% of Earth's water is fresh, and most of that is frozen in glaciers and ice caps or hidden underground.",
-               "es": "Falso: cerca del 3% del agua de la Tierra es dulce, y casi toda está congelada en glaciares y casquetes o bajo el suelo." },
+      "why": { "en": "False: about 3% of Earth's water is fresh, and most of that is frozen in glaciers and ice caps or hidden underground.", "es": "Falso: cerca del 3% del agua de la Tierra es dulce, y casi toda está congelada en glaciares y casquetes o bajo el suelo." },
       "topic": "fresh water",
       "source": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water"
+    },
+    {
+      "id": "earth-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "☂️",
+      "q": { "en": "What do you use to stay dry in rain?", "es": "¿Qué usas para no mojarte cuando llueve?" },
+      "choices": [
+        { "en": "An umbrella", "es": "Un paraguas", "emoji": "☂️" },
+        { "en": "A fan", "es": "Un ventilador", "emoji": "🌀" },
+        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" }
+      ],
+      "answer": 0,
+      "why": { "en": "An umbrella works like a tiny roof, sending raindrops sliding off its curved edges instead of onto your head.", "es": "Un paraguas funciona como un techito: las gotas resbalan por su tela curva y caen lejos de tu cabeza." },
+      "topic": "rain",
+      "source": "https://scijinks.gov/rain/"
+    },
+    {
+      "id": "earth-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What shape is a falling raindrop?", "es": "¿Qué forma tiene una gota de lluvia que cae?" },
+      "choices": [
+        { "en": "Round", "es": "Redonda", "emoji": "🔵" },
+        { "en": "Like a teardrop", "es": "Como una lágrima", "emoji": "💧" },
+        { "en": "Square", "es": "Cuadrada", "emoji": "🟥" }
+      ],
+      "answer": 0,
+      "why": { "en": "Small raindrops are round like beads; bigger ones flatten at the bottom and look more like tiny hamburger buns.", "es": "Las gotas pequeñas son redondas como perlas; las grandes se aplanan abajo y parecen panecitos de hamburguesa." },
+      "topic": "rain",
+      "source": "https://scijinks.gov/raindrop-shape/"
+    },
+    {
+      "id": "earth-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "Where does rain go after it falls?", "es": "¿A dónde va la lluvia después de caer?" },
+      "choices": [
+        { "en": "Into rivers and the sea", "es": "A los ríos y al mar", "emoji": "🌊" },
+        { "en": "Up to the Moon", "es": "Hasta la Luna", "emoji": "🌙" },
+        { "en": "It stays in the air", "es": "Se queda en el aire", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain soaks into the soil or runs downhill into streams and rivers, and those rivers carry the water back to the sea.", "es": "La lluvia se mete en la tierra o corre cuesta abajo hacia arroyos y ríos, y esos ríos la llevan al mar." },
+      "topic": "water cycle",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle"
+    },
+    {
+      "id": "earth-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "What does the ground smell like after rain?", "es": "¿A qué huele la tierra después de la lluvia?" },
+      "choices": [
+        { "en": "Fresh and earthy", "es": "Fresco y a tierra", "emoji": "🌿" },
+        { "en": "Like candy", "es": "A dulces", "emoji": "🍬" },
+        { "en": "Like a campfire", "es": "A fogata", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "That smell has a name, petrichor: it comes from oils in rocks and soil that rain lifts into the air.", "es": "Ese olor tiene nombre, petricor: viene de los aceites de las rocas y la tierra que la lluvia levanta al aire." },
+      "topic": "rain",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/rain-and-precipitation"
+    },
+    {
+      "id": "earth-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "What are clouds made of?", "es": "¿De qué están hechas las nubes?" },
+      "choices": [
+        { "en": "Tiny water drops", "es": "Gotitas de agua", "emoji": "💧" },
+        { "en": "Cotton candy", "es": "Algodón de azúcar", "emoji": "🍬" },
+        { "en": "Smoke", "es": "Humo", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cloud is millions of droplets so light they float, and a big one can weigh as much as many elephants.", "es": "Una nube son millones de gotitas tan livianas que flotan, y una nube grande puede pesar como muchos elefantes juntos." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "What color are rain clouds usually?", "es": "¿De qué color suelen ser las nubes de lluvia?" },
+      "choices": [
+        { "en": "Dark gray", "es": "Gris oscuro", "emoji": "🌧️" },
+        { "en": "Bright pink", "es": "Rosa brillante", "emoji": "🌸" },
+        { "en": "Bright green", "es": "Verde brillante", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain clouds look gray because they are thick with water, and the thick cloud blocks sunlight from passing through.", "es": "Las nubes de lluvia se ven grises porque están llenas de agua, y esa nube gruesa no deja pasar la luz del Sol." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "What do we call a cloud on the ground?", "es": "¿Cómo se llama una nube que está en el suelo?" },
+      "choices": [
+        { "en": "Fog", "es": "Niebla", "emoji": "🌫️" },
+        { "en": "Rain", "es": "Lluvia", "emoji": "🌧️" },
+        { "en": "Wind", "es": "Viento", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fog is a cloud that forms right at ground level, which is why walking through it feels cool and damp.", "es": "La niebla es una nube que se forma a ras del suelo; por eso caminar dentro de ella se siente fresco y húmedo." },
+      "topic": "fog",
+      "source": "https://scijinks.gov/fog/"
+    },
+    {
+      "id": "earth-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "What makes a cloud move across the sky?", "es": "¿Qué hace que una nube se mueva por el cielo?" },
+      "choices": [
+        { "en": "The wind", "es": "El viento", "emoji": "💨" },
+        { "en": "Birds pushing it", "es": "Los pájaros que la empujan", "emoji": "🐦" },
+        { "en": "The Moon pulling it", "es": "La Luna que la jala", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind high above us pushes clouds along, and some high clouds race faster than a car on the highway.", "es": "El viento de las alturas empuja las nubes, y algunas nubes altas viajan más rápido que un carro en la carretera." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "What happens when a cloud gets too heavy?", "es": "¿Qué pasa cuando una nube se pone muy pesada?" },
+      "choices": [
+        { "en": "It rains", "es": "Llueve", "emoji": "🌧️" },
+        { "en": "It pops like a balloon", "es": "Truena como un globo", "emoji": "🎈" },
+        { "en": "It turns into a star", "es": "Se vuelve una estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Droplets bump together until they are heavy enough to fall, and a single raindrop can hold a million droplets.", "es": "Las gotitas chocan hasta pesar lo suficiente para caer, y una sola gota de lluvia puede juntar un millón de gotitas." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Which is colder, snow or rain?", "es": "¿Qué es más frío, la nieve o la lluvia?" },
+      "choices": [
+        { "en": "Snow", "es": "La nieve", "emoji": "❄️" },
+        { "en": "Rain", "es": "La lluvia", "emoji": "🌧️" },
+        { "en": "They are the same", "es": "Las dos igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Snow forms when air is freezing cold, so the water turns to ice crystals before it ever reaches the ground.", "es": "La nieve se forma cuando el aire está helado, así que el agua se vuelve cristales de hielo antes de llegar al suelo." },
+      "topic": "snow",
+      "source": "https://scijinks.gov/snow/"
+    },
+    {
+      "id": "earth-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚪",
+      "q": { "en": "What color is fresh snow?", "es": "¿De qué color es la nieve recién caída?" },
+      "choices": [
+        { "en": "White", "es": "Blanca", "emoji": "⚪" },
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Brown", "es": "Café", "emoji": "🟤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each ice crystal is clear, but snow looks white because its many tiny faces bounce sunlight in every direction.", "es": "Cada cristal de hielo es transparente, pero la nieve se ve blanca porque sus caritas rebotan la luz en todas direcciones." },
+      "topic": "snow",
+      "source": "https://scijinks.gov/snow/"
+    },
+    {
+      "id": "earth-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What happens to snow on a warm day?", "es": "¿Qué le pasa a la nieve en un día tibio?" },
+      "choices": [
+        { "en": "It melts into water", "es": "Se derrite y se vuelve agua", "emoji": "💧" },
+        { "en": "It grows bigger", "es": "Se hace más grande", "emoji": "📈" },
+        { "en": "It turns into sand", "es": "Se vuelve arena", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Warm air gives snow energy, and the ice crystals turn back into liquid water that trickles away as a stream.", "es": "El aire tibio le da energía a la nieve, y los cristales vuelven a ser agua líquida que corre como un arroyito." },
+      "topic": "snow",
+      "source": "https://scijinks.gov/snow/"
+    },
+    {
+      "id": "earth-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Where would you find snow all year?", "es": "¿Dónde encontrarías nieve todo el año?" },
+      "choices": [
+        { "en": "On a high mountain top", "es": "En la cima de una montaña alta", "emoji": "🏔️" },
+        { "en": "In a hot desert", "es": "En un desierto caliente", "emoji": "🏜️" },
+        { "en": "At the beach", "es": "En la playa", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "High mountains stay freezing because air gets colder the higher you climb, so their peaks keep snow even in summer.", "es": "Las montañas altas siguen heladas porque el aire se enfría mientras subes, y sus picos guardan nieve hasta en verano." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/science/mountain-landform"
+    },
+    {
+      "id": "earth-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪁",
+      "q": { "en": "What can wind do to a kite?", "es": "¿Qué le puede hacer el viento a una cometa?" },
+      "choices": [
+        { "en": "Lift it into the sky", "es": "Subirla al cielo", "emoji": "🪁" },
+        { "en": "Turn it into a bird", "es": "Convertirla en pájaro", "emoji": "🐦" },
+        { "en": "Make it heavy", "es": "Ponerla pesada", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind is moving air, and it pushes under a kite the same way it fills a sailboat's sail and pulls it forward.", "es": "El viento es aire en movimiento, y empuja debajo de la cometa igual que llena la vela de un barquito." },
+      "topic": "wind",
+      "source": "https://scijinks.gov/wind/"
+    },
+    {
+      "id": "earth-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "How can you tell the wind is blowing?", "es": "¿Cómo te das cuenta de que sopla el viento?" },
+      "choices": [
+        { "en": "Trees and leaves move", "es": "Los árboles y las hojas se mueven", "emoji": "🌳" },
+        { "en": "The ground shakes", "es": "El suelo tiembla", "emoji": "🪨" },
+        { "en": "The sky turns green", "es": "El cielo se pone verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air is invisible, so we spot wind by what it pushes: swaying branches, rippling puddles, and clothes flapping on a line.", "es": "El aire es invisible, así que notamos el viento por lo que mueve: ramas, charcos con olitas y ropa colgada." },
+      "topic": "wind",
+      "source": "https://scijinks.gov/wind/"
+    },
+    {
+      "id": "earth-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "What spins on top of a windmill?", "es": "¿Qué gira en lo alto de un molino de viento?" },
+      "choices": [
+        { "en": "Big blades", "es": "Aspas grandes", "emoji": "🌀" },
+        { "en": "A clock", "es": "Un reloj", "emoji": "🕐" },
+        { "en": "A door", "es": "Una puerta", "emoji": "🚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind pushes the blades around, and that spinning turns a machine that can grind grain or make electricity for homes.", "es": "El viento empuja las aspas, y ese giro mueve una máquina que muele granos o produce electricidad para las casas." },
+      "topic": "wind",
+      "source": "https://www.britannica.com/technology/windmill"
+    },
+    {
+      "id": "earth-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌪️",
+      "q": { "en": "Which storm has a spinning funnel of wind?", "es": "¿Cuál tormenta tiene un embudo de viento que gira?" },
+      "choices": [
+        { "en": "A tornado", "es": "Un tornado", "emoji": "🌪️" },
+        { "en": "A snowstorm", "es": "Una nevada", "emoji": "❄️" },
+        { "en": "A drizzle", "es": "Una llovizna", "emoji": "🌦️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tornado is a spinning tube of air that reaches from a storm cloud down to the ground, lifting dust and leaves.", "es": "Un tornado es un tubo de aire que gira desde una nube de tormenta hasta el suelo y levanta polvo y hojas." },
+      "topic": "storms",
+      "source": "https://scijinks.gov/tornado/"
+    },
+    {
+      "id": "earth-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "When do you usually see a rainbow?", "es": "¿Cuándo sueles ver un arcoíris?" },
+      "choices": [
+        { "en": "After rain with sunshine", "es": "Después de la lluvia, con sol", "emoji": "🌈" },
+        { "en": "In the middle of the night", "es": "En plena noche", "emoji": "🌙" },
+        { "en": "Deep inside a cave", "es": "Dentro de una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rainbow needs sunlight and raindrops together, and you always see it in the part of sky opposite the Sun.", "es": "El arcoíris necesita sol y gotas de lluvia al mismo tiempo, y siempre aparece en el lado del cielo opuesto al Sol." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "How many colors does a rainbow show?", "es": "¿Cuántos colores muestra un arcoíris?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete", "emoji": "🌈" },
+        { "en": "Two", "es": "Dos", "emoji": "🟦" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" }
+      ],
+      "answer": 0,
+      "why": { "en": "People count seven bands, red through violet, but the colors really blend smoothly with no lines between them.", "es": "La gente cuenta siete franjas, del rojo al violeta, pero los colores se mezclan poco a poco, sin rayas entre ellos." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "Which color sits on top of a rainbow?", "es": "¿Qué color va arriba en un arcoíris?" },
+      "choices": [
+        { "en": "Red", "es": "Rojo", "emoji": "🔴" },
+        { "en": "Purple", "es": "Morado", "emoji": "🟣" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Red always rides on the outside curve, and violet on the inside, because each color bends a different amount in water.", "es": "El rojo siempre va en la curva de afuera y el violeta por dentro, porque cada color se dobla distinto en el agua." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭕",
+      "q": { "en": "What shape is a rainbow really?", "es": "¿Qué forma tiene de verdad un arcoíris?" },
+      "choices": [
+        { "en": "A full circle", "es": "Un círculo completo", "emoji": "⭕" },
+        { "en": "A square", "es": "Un cuadrado", "emoji": "🟨" },
+        { "en": "A straight line", "es": "Una línea recta", "emoji": "➖" }
+      ],
+      "answer": 0,
+      "why": { "en": "From the ground we only see an arc, but a pilot high above can watch the whole rainbow close into a circle.", "es": "Desde el suelo solo vemos un arco, pero un piloto allá arriba puede ver el arcoíris completo, cerrado como un círculo." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍂",
+      "q": { "en": "How many seasons are in one year?", "es": "¿Cuántas estaciones hay en un año?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🍂" },
+        { "en": "Two", "es": "Dos", "emoji": "🟦" },
+        { "en": "Nine", "es": "Nueve", "emoji": "🔷" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spring, summer, autumn and winter each last about three months, and they happen because our planet leans as it circles the Sun.", "es": "Primavera, verano, otoño e invierno duran unos tres meses cada uno, y existen porque la Tierra va inclinada alrededor del Sol." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/seasons/"
+    },
+    {
+      "id": "earth-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "In which season do leaves turn orange?", "es": "¿En qué estación las hojas se vuelven naranjas?" },
+      "choices": [
+        { "en": "Autumn", "es": "El otoño", "emoji": "🍁" },
+        { "en": "Spring", "es": "La primavera", "emoji": "🌷" },
+        { "en": "Summer", "es": "El verano", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves are full of green food-making color; when days shorten the green fades and hidden orange and yellow show through.", "es": "Las hojas están llenas de verde que fabrica alimento; cuando los días se acortan, el verde se va y aparecen naranjas y amarillos." },
+      "topic": "seasons",
+      "source": "https://www.britannica.com/science/autumn-leaf-color"
+    },
+    {
+      "id": "earth-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which season is the warmest of all?", "es": "¿Cuál es la estación más calurosa de todas?" },
+      "choices": [
+        { "en": "Summer", "es": "El verano", "emoji": "☀️" },
+        { "en": "Winter", "es": "El invierno", "emoji": "⛄" },
+        { "en": "Autumn", "es": "El otoño", "emoji": "🍂" }
+      ],
+      "answer": 0,
+      "why": { "en": "In summer your half of the planet leans toward the Sun, so sunlight arrives straighter and the days last longer.", "es": "En verano tu mitad de la Tierra se inclina hacia el Sol, así que la luz llega más derecha y los días son largos." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/seasons/"
+    },
+    {
+      "id": "earth-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍂",
+      "q": { "en": "What do many trees lose in autumn?", "es": "¿Qué pierden muchos árboles en el otoño?" },
+      "choices": [
+        { "en": "Their leaves", "es": "Sus hojas", "emoji": "🍂" },
+        { "en": "Their roots", "es": "Sus raíces", "emoji": "🌱" },
+        { "en": "Their trunks", "es": "Sus troncos", "emoji": "🪵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dropping leaves saves water through the cold months, and the fallen leaves rot into rich soil that feeds the tree later.", "es": "Soltar las hojas ahorra agua en los meses fríos, y las hojas caídas se pudren y forman tierra rica que alimenta al árbol." },
+      "topic": "seasons",
+      "source": "https://www.britannica.com/science/autumn-leaf-color"
+    },
+    {
+      "id": "earth-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌷",
+      "q": { "en": "Which season comes right after winter?", "es": "¿Qué estación llega justo después del invierno?" },
+      "choices": [
+        { "en": "Spring", "es": "La primavera", "emoji": "🌷" },
+        { "en": "Autumn", "es": "El otoño", "emoji": "🍁" },
+        { "en": "Summer", "es": "El verano", "emoji": "🌞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spring follows winter, and warmer soil wakes seeds and bulbs that slept underground all through the cold, dark months.", "es": "La primavera sigue al invierno, y la tierra tibia despierta semillas y bulbos que durmieron bajo el suelo todo el frío." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/seasons/"
+    },
+    {
+      "id": "earth-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "In which season are the days shortest?", "es": "¿En qué estación los días son más cortos?" },
+      "choices": [
+        { "en": "Winter", "es": "El invierno", "emoji": "❄️" },
+        { "en": "Summer", "es": "El verano", "emoji": "🏖️" },
+        { "en": "Spring", "es": "La primavera", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Winter days are short because your side of the planet tilts away from the Sun, giving fewer hours of light.", "es": "Los días de invierno son cortos porque tu lado de la Tierra se inclina lejos del Sol y recibe menos horas de luz." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/seasons/"
+    },
+    {
+      "id": "earth-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛈️",
+      "q": { "en": "What do you hear after a lightning flash?", "es": "¿Qué escuchas después del destello de un rayo?" },
+      "choices": [
+        { "en": "Thunder", "es": "Un trueno", "emoji": "⛈️" },
+        { "en": "A bell", "es": "Una campana", "emoji": "🔔" },
+        { "en": "A train whistle", "es": "El silbato de un tren", "emoji": "🚂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lightning heats the air so fast it explodes outward, and that bang rolling across the sky is what we call thunder.", "es": "El rayo calienta el aire tan rápido que este estalla, y ese estruendo que rueda por el cielo es el trueno." },
+      "topic": "thunder and lightning",
+      "source": "https://scijinks.gov/thunder/"
+    },
+    {
+      "id": "earth-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Which comes first, the thunder or lightning?", "es": "¿Qué llega primero, el trueno o el rayo?" },
+      "choices": [
+        { "en": "The lightning", "es": "El rayo", "emoji": "⚡" },
+        { "en": "The thunder", "es": "El trueno", "emoji": "🔊" },
+        { "en": "They arrive together", "es": "Llegan juntos", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light races much faster than sound, so the flash reaches you first and the rumble arrives a few seconds behind.", "es": "La luz viaja mucho más rápido que el sonido, así que ves el destello primero y el retumbo llega unos segundos después." },
+      "topic": "thunder and lightning",
+      "source": "https://scijinks.gov/thunder/"
+    },
+    {
+      "id": "earth-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏠",
+      "q": { "en": "Where is the safest place during a thunderstorm?", "es": "¿Cuál es el lugar más seguro durante una tormenta eléctrica?" },
+      "choices": [
+        { "en": "Inside a building", "es": "Dentro de un edificio", "emoji": "🏠" },
+        { "en": "Under a tall tree", "es": "Bajo un árbol alto", "emoji": "🌳" },
+        { "en": "In an open field", "es": "En un campo abierto", "emoji": "🌾" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lightning looks for tall paths to the ground, so a building with walls and a roof keeps the charge safely away from you.", "es": "El rayo busca caminos altos hacia el suelo, y un edificio con paredes y techo lleva esa carga lejos de ti, sin peligro." },
+      "topic": "thunder and lightning",
+      "source": "https://www.weather.gov/safety/lightning-safety"
+    },
+    {
+      "id": "earth-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What are the ice balls that fall in storms?", "es": "¿Cómo se llaman las bolitas de hielo que caen en las tormentas?" },
+      "choices": [
+        { "en": "Hail", "es": "Granizo", "emoji": "🧊" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Seeds", "es": "Semillas", "emoji": "🌰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hailstones grow inside tall storm clouds, gaining icy layers like an onion each time wind lifts them up again.", "es": "El granizo crece dentro de nubes de tormenta altas y gana capas de hielo, como una cebolla, cada vez que el viento lo sube." },
+      "topic": "storms",
+      "source": "https://scijinks.gov/hail/"
+    },
+    {
+      "id": "earth-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "What does a thermometer measure?", "es": "¿Qué mide un termómetro?" },
+      "choices": [
+        { "en": "How hot or cold", "es": "Qué tan caliente o frío está", "emoji": "🌡️" },
+        { "en": "How loud a sound is", "es": "Qué tan fuerte suena algo", "emoji": "🔊" },
+        { "en": "How heavy a rock is", "es": "Cuánto pesa una roca", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Inside a thermometer, liquid swells and climbs when it warms, so the higher the line, the hotter the air around it.", "es": "Dentro del termómetro, el líquido se expande y sube cuando se calienta; mientras más alta la rayita, más caliente está el aire." },
+      "topic": "hot and cold",
+      "source": "https://scijinks.gov/thermometer/"
+    },
+    {
+      "id": "earth-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What forms on grass on a cold morning?", "es": "¿Qué se forma en el pasto en una mañana fría?" },
+      "choices": [
+        { "en": "Frost", "es": "Escarcha", "emoji": "🧊" },
+        { "en": "Glitter", "es": "Brillantina", "emoji": "✨" },
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "Frost forms when water vapor in the air turns straight into ice on cold grass, without ever becoming a drop.", "es": "La escarcha aparece cuando el vapor del aire se vuelve hielo directamente sobre el pasto frío, sin pasar por gota de agua." },
+      "topic": "frost and dew",
+      "source": "https://scijinks.gov/frost/"
+    },
+    {
+      "id": "earth-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What does ocean water taste like?", "es": "¿A qué sabe el agua del mar?" },
+      "choices": [
+        { "en": "Salty", "es": "Salada", "emoji": "🧂" },
+        { "en": "Sweet", "es": "Dulce", "emoji": "🍬" },
+        { "en": "Like milk", "es": "Como leche", "emoji": "🥛" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rivers carry tiny bits of salt from rocks into the sea, and the salt stays behind when water evaporates.", "es": "Los ríos llevan pedacitos de sal de las rocas al mar, y la sal se queda cuando el agua se evapora." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/whysalty.html"
+    },
+    {
+      "id": "earth-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which holds more water, an ocean or a puddle?", "es": "¿Qué tiene más agua, el océano o un charco?" },
+      "choices": [
+        { "en": "The ocean", "es": "El océano", "emoji": "🌊" },
+        { "en": "The puddle", "es": "El charco", "emoji": "💧" },
+        { "en": "They match", "es": "Tienen igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth's oceans hold most of the planet's water, so much that they cover more than two-thirds of the surface.", "es": "Los océanos guardan casi toda el agua de la Tierra y cubren más de dos tercios de la superficie del planeta." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/oceanwater.html"
+    },
+    {
+      "id": "earth-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "How many oceans does Earth have?", "es": "¿Cuántos océanos tiene la Tierra?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "The five oceans are the Pacific, Atlantic, Indian, Southern and Arctic, and they all connect into one big world ocean.", "es": "Los cinco océanos son el Pacífico, el Atlántico, el Índico, el Antártico y el Ártico, y todos se conectan entre sí." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/howmanyoceans.html"
+    },
+    {
+      "id": "earth-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What makes waves move on the sea?", "es": "¿Qué hace que se muevan las olas?" },
+      "choices": [
+        { "en": "The wind", "es": "El viento", "emoji": "💨" },
+        { "en": "The sand", "es": "La arena", "emoji": "🏖️" },
+        { "en": "The moonlight", "es": "La luz de la Luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind pushes the water's surface into waves, and a wave can travel for days across the ocean before reaching a beach.", "es": "El viento empuja la superficie del agua y forma olas que pueden viajar muchos días antes de llegar a la playa." },
+      "topic": "waves",
+      "source": "https://oceanservice.noaa.gov/facts/wavesinocean.html"
+    },
+    {
+      "id": "earth-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "What is the white top of a wave called?", "es": "¿Cómo se llama la parte blanca de una ola?" },
+      "choices": [
+        { "en": "Foam", "es": "Espuma", "emoji": "🫧" },
+        { "en": "Fur", "es": "Pelaje", "emoji": "🧸" },
+        { "en": "Frost", "es": "Escarcha", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Foam is air mixed into seawater when a wave tumbles over, and sailors call a foamy wave a whitecap.", "es": "La espuma es aire mezclado con agua cuando la ola se rompe; los marineros llaman cabrilla a esa ola espumosa." },
+      "topic": "waves",
+      "source": "https://kids.britannica.com/kids/article/wave/399798"
+    },
+    {
+      "id": "earth-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What happens to the sea at high tide?", "es": "¿Qué le pasa al mar cuando sube la marea?" },
+      "choices": [
+        { "en": "It climbs up the beach", "es": "Sube por la playa", "emoji": "🌊" },
+        { "en": "It turns bright green", "es": "Se pone verde brillante", "emoji": "🟢" },
+        { "en": "It freezes solid", "es": "Se congela por completo", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon's pull tugs the ocean, so the sea creeps up and back down the beach about twice every day.", "es": "La Luna jala el océano, así que el mar sube y baja por la playa unas dos veces cada día." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/tides.html"
+    },
+    {
+      "id": "earth-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "What pulls the ocean tides up and down?", "es": "¿Qué jala las mareas del mar?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌙" },
+        { "en": "The clouds", "es": "Las nubes", "emoji": "☁️" },
+        { "en": "The fish", "es": "Los peces", "emoji": "🐟" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon's gravity pulls on Earth's water, and the Sun helps a little, making the biggest tides at full moon.", "es": "La gravedad de la Luna jala el agua de la Tierra, y el Sol ayuda un poco a formar mareas grandes." },
+      "topic": "tides",
+      "source": "https://scijinks.gov/tides/"
+    },
+    {
+      "id": "earth-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "What is sand made of?", "es": "¿De qué está hecha la arena?" },
+      "choices": [
+        { "en": "Tiny bits of rock and shell", "es": "Pedacitos de roca y concha", "emoji": "🪨" },
+        { "en": "Tiny bits of sugar", "es": "Pedacitos de azúcar", "emoji": "🍬" },
+        { "en": "Tiny bits of paper", "es": "Pedacitos de papel", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Waves grind rocks and shells into grains for thousands of years, and some beaches are black sand from old lava.", "es": "Las olas muelen rocas y conchas durante miles de años; algunas playas tienen arena negra que viene de lava vieja." },
+      "topic": "sand",
+      "source": "https://kids.britannica.com/kids/article/sand/353675"
+    },
+    {
+      "id": "earth-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What makes beach sand feel hot?", "es": "¿Qué hace que la arena esté caliente?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The waves", "es": "Las olas", "emoji": "🌊" },
+        { "en": "The wind", "es": "El viento", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sand soaks up sunshine quickly because it is dry, while the wet sand near the water stays much cooler.", "es": "La arena seca absorbe el sol muy rápido, y por eso la arena mojada cerca del agua se siente más fresca." },
+      "topic": "sand",
+      "source": "https://kids.britannica.com/kids/article/beach/352757"
+    },
+    {
+      "id": "earth-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Where do seashells come from?", "es": "¿De dónde vienen las conchas de mar?" },
+      "choices": [
+        { "en": "Sea animals", "es": "Animales del mar", "emoji": "🐚" },
+        { "en": "Sea plants", "es": "Plantas del mar", "emoji": "🌿" },
+        { "en": "Sea rocks", "es": "Rocas del mar", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shell is the hard home an animal like a snail or clam grows around itself and then leaves behind.", "es": "Una concha es la casa dura que un animal como un caracol o una almeja construye y luego deja atrás." },
+      "topic": "shells",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/mollusks"
+    },
+    {
+      "id": "earth-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "What do you hear inside a big shell?", "es": "¿Qué escuchas dentro de una concha grande?" },
+      "choices": [
+        { "en": "A soft whooshing sound", "es": "Un susurro suave", "emoji": "🐚" },
+        { "en": "Real ocean waves", "es": "Olas de verdad", "emoji": "🌊" },
+        { "en": "A tiny song", "es": "Una cancioncita", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "The shell bounces back the noises around you and the blood in your ear, so it only sounds like the sea.", "es": "La concha rebota los ruidos de tu cuarto y de tu propia sangre, por eso parece que oyes el mar." },
+      "topic": "shells",
+      "source": "https://kids.britannica.com/kids/article/seashell/353861"
+    },
+    {
+      "id": "earth-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What makes river pebbles smooth and round?", "es": "¿Qué hace lisas y redondas a las piedras del río?" },
+      "choices": [
+        { "en": "Water rolling them for years", "es": "El agua que las rueda por años", "emoji": "💧" },
+        { "en": "Someone polishing them", "es": "Alguien que las pule", "emoji": "🧽" },
+        { "en": "The Sun melting them", "es": "El Sol que las derrite", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tumbling water knocks pebbles together and rubs off their sharp edges, a slow wearing away that people call erosion.", "es": "El agua golpea las piedras entre sí y desgasta sus puntas filosas; a ese desgaste lento se le llama erosión." },
+      "topic": "rocks",
+      "source": "https://kids.britannica.com/kids/article/rock/353578"
+    },
+    {
+      "id": "earth-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which rock floats in water?", "es": "¿Cuál roca flota en el agua?" },
+      "choices": [
+        { "en": "Pumice", "es": "La piedra pómez", "emoji": "🪨" },
+        { "en": "Granite", "es": "El granito", "emoji": "🧱" },
+        { "en": "Marble", "es": "El mármol", "emoji": "⚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pumice cools from volcano froth full of gas bubbles, so it is light enough to bob on top of water.", "es": "La piedra pómez sale de la espuma del volcán llena de burbujas, y por eso flota encima del agua." },
+      "topic": "rocks",
+      "source": "https://www.usgs.gov/faqs/what-pumice"
+    },
+    {
+      "id": "earth-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "What is a geode hiding inside?", "es": "¿Qué esconde una geoda por dentro?" },
+      "choices": [
+        { "en": "Sparkly crystals", "es": "Cristales brillantes", "emoji": "💎" },
+        { "en": "Warm soup", "es": "Sopa caliente", "emoji": "🍲" },
+        { "en": "Tiny seeds", "es": "Semillas diminutas", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "A geode looks like a dull lumpy ball, but water left minerals inside that grew into crystals over many years.", "es": "Una geoda parece una bola gris por fuera, pero adentro el agua dejó minerales que crecieron como cristales brillantes." },
+      "topic": "rocks",
+      "source": "https://kids.britannica.com/kids/article/mineral/353440"
+    },
+    {
+      "id": "earth-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What do we call a sleeping volcano?", "es": "¿Cómo se llama un volcán dormido?" },
+      "choices": [
+        { "en": "Dormant", "es": "Dormido", "emoji": "😴" },
+        { "en": "Broken", "es": "Descompuesto", "emoji": "🔧" },
+        { "en": "Frozen", "es": "Congelado", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "A dormant volcano has rested for a long time but still could wake up, while an extinct one is finished forever.", "es": "Un volcán dormido lleva mucho tiempo sin hacer erupción, pero puede despertar; uno apagado ya jamás volverá a hacerlo." },
+      "topic": "volcanoes",
+      "source": "https://kids.britannica.com/kids/article/volcano/353846"
+    },
+    {
+      "id": "earth-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What do we call lava after it cools?", "es": "¿En qué se convierte la lava al enfriarse?" },
+      "choices": [
+        { "en": "Rock", "es": "Roca", "emoji": "🪨" },
+        { "en": "Ice", "es": "Hielo", "emoji": "🧊" },
+        { "en": "Mud", "es": "Lodo", "emoji": "🟤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cooled lava turns into hard black rock, and over many eruptions that rock piles up to build a whole island.", "es": "La lava fría se vuelve roca negra y dura, y con muchas erupciones esa roca se apila hasta formar una isla." },
+      "topic": "volcanoes",
+      "source": "https://kids.nationalgeographic.com/science/article/volcano"
+    },
+    {
+      "id": "earth-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "What comes out of a volcano besides lava?", "es": "¿Qué sale de un volcán además de lava?" },
+      "choices": [
+        { "en": "Ash and smoke", "es": "Ceniza y humo", "emoji": "🌫️" },
+        { "en": "Rain and hail", "es": "Lluvia y granizo", "emoji": "🧊" },
+        { "en": "Snow and frost", "es": "Nieve y escarcha", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "An erupting volcano throws out clouds of ash, tiny bits of rock that can drift far away on the wind.", "es": "Un volcán en erupción lanza nubes de ceniza, pedacitos de roca que el viento puede llevar muy lejos." },
+      "topic": "volcanoes",
+      "source": "https://www.usgs.gov/faqs/what-volcanic-ash"
+    },
+    {
+      "id": "earth-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Where does a river end its journey?", "es": "¿Dónde termina su viaje un río?" },
+      "choices": [
+        { "en": "In the sea", "es": "En el mar", "emoji": "🌊" },
+        { "en": "In the sky", "es": "En el cielo", "emoji": "☁️" },
+        { "en": "In a cave", "es": "En una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water always runs downhill, so most rivers travel to the ocean, and the place where they meet is a mouth.", "es": "El agua siempre corre hacia abajo, así que casi todos los ríos llegan al mar, y ese lugar se llama desembocadura." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/rivers-and-streams"
+    },
+    {
+      "id": "earth-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Is river water salty or fresh?", "es": "¿El agua del río es dulce o salada?" },
+      "choices": [
+        { "en": "Fresh", "es": "Dulce", "emoji": "💧" },
+        { "en": "Salty", "es": "Salada", "emoji": "🧂" },
+        { "en": "Sugary", "es": "Azucarada", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rivers carry fresh water, the kind we drink, and only a tiny share of all Earth's water is fresh.", "es": "Los ríos llevan agua dulce, la que tomamos, y solo una parte pequeñita del agua de la Tierra es dulce." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/freshwater-earth"
+    },
+    {
+      "id": "earth-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "What is the start of a river called?", "es": "¿Cómo se llama el inicio de un río?" },
+      "choices": [
+        { "en": "The source", "es": "El nacimiento", "emoji": "💧" },
+        { "en": "The bottom", "es": "El fondo", "emoji": "🔽" },
+        { "en": "The bridge", "es": "El puente", "emoji": "🌉" }
+      ],
+      "answer": 0,
+      "why": { "en": "A river usually begins high up as melting snow or a spring, then grows bigger as smaller streams join it.", "es": "Un río suele nacer en lo alto de la nieve derretida o de un manantial, y crece cuando se le unen arroyos." },
+      "topic": "rivers",
+      "source": "https://kids.britannica.com/kids/article/river/353610"
+    },
+    {
+      "id": "earth-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "How is a lake different from a river?", "es": "¿En qué se diferencia un lago de un río?" },
+      "choices": [
+        { "en": "A lake stays in one place", "es": "El lago se queda en un lugar", "emoji": "🏞️" },
+        { "en": "A lake is always salty", "es": "El lago siempre es salado", "emoji": "🧂" },
+        { "en": "A lake runs downhill fast", "es": "El lago corre cuesta abajo", "emoji": "🏃" }
+      ],
+      "answer": 0,
+      "why": { "en": "A lake sits still in a dip in the land, while a river keeps moving, and rivers often feed lakes.", "es": "Un lago descansa quieto en un hueco del terreno, mientras el río sigue corriendo; muchos ríos alimentan a los lagos." },
+      "topic": "lakes",
+      "source": "https://kids.britannica.com/kids/article/lake/353380"
+    },
+    {
+      "id": "earth-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What happens to a lake in winter?", "es": "¿Qué le pasa a un lago en invierno?" },
+      "choices": [
+        { "en": "The top turns to ice", "es": "La parte de arriba se hace hielo", "emoji": "🧊" },
+        { "en": "It fills with sand", "es": "Se llena de arena", "emoji": "🏖️" },
+        { "en": "It turns bright green", "es": "Se pone verde brillante", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ice forms on top first because cold water floats, and fish keep swimming in the liquid water underneath.", "es": "El hielo se forma arriba porque el agua fría flota, y los peces siguen nadando en el agua líquida de abajo." },
+      "topic": "lakes",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/ice-and-glaciers-water-cycle"
+    },
+    {
+      "id": "earth-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "What is the top of a mountain called?", "es": "¿Cómo se llama la parte más alta de una montaña?" },
+      "choices": [
+        { "en": "The peak", "es": "La cumbre", "emoji": "🏔️" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The shore", "es": "La orilla", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pointed top is the peak or summit, and the air up there is thinner and colder than down below.", "es": "La punta se llama pico o cumbre, y allá arriba el aire es más delgado y mucho más frío que abajo." },
+      "topic": "mountains",
+      "source": "https://kids.britannica.com/kids/article/mountain/353453"
+    },
+    {
+      "id": "earth-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "What pushes mountains up from the ground?", "es": "¿Qué empuja las montañas hacia arriba?" },
+      "choices": [
+        { "en": "Earth's moving plates", "es": "Las placas de la Tierra", "emoji": "🌍" },
+        { "en": "Big ocean waves", "es": "Las olas grandes del mar", "emoji": "🌊" },
+        { "en": "Strong desert winds", "es": "Los vientos del desierto", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Slabs of Earth's crust crash together very slowly and crumple the land upward, which is how mountain ranges are born.", "es": "Las placas de la corteza de la Tierra chocan muy despacio y arrugan el suelo hacia arriba, formando cordilleras." },
+      "topic": "mountains",
+      "source": "https://kids.nationalgeographic.com/science/article/mountain"
+    },
+    {
+      "id": "earth-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "What hangs from the roof of a cave?", "es": "¿Qué cuelga del techo de una cueva?" },
+      "choices": [
+        { "en": "Stalactites", "es": "Estalactitas", "emoji": "🪨" },
+        { "en": "Icicles", "es": "Carámbanos", "emoji": "🧊" },
+        { "en": "Roots", "es": "Raíces", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dripping water leaves stone behind drop by drop, growing a stalactite that may take a hundred years to get longer.", "es": "El agua que gotea deja piedra poco a poco y forma una estalactita que puede tardar cien años en crecer un poco." },
+      "topic": "caves",
+      "source": "https://kids.britannica.com/kids/article/cave/352921"
+    },
+    {
+      "id": "earth-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "What is it like deep inside a cave?", "es": "¿Cómo es el fondo de una cueva?" },
+      "choices": [
+        { "en": "Dark and cool", "es": "Oscuro y fresco", "emoji": "🌑" },
+        { "en": "Bright and sunny", "es": "Brillante y soleado", "emoji": "☀️" },
+        { "en": "Windy and dusty", "es": "Ventoso y polvoso", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight cannot reach far inside, so deep caves stay the same cool temperature all year and some animals there are blind.", "es": "La luz del sol no llega al fondo, así que las cuevas profundas siempre están frescas y algunos animales son ciegos." },
+      "topic": "caves",
+      "source": "https://www.nps.gov/subjects/caves/cave-life.htm"
+    },
+    {
+      "id": "earth-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Which animal sleeps in caves during the day?", "es": "¿Qué animal duerme en las cuevas de día?" },
+      "choices": [
+        { "en": "Bats", "es": "Los murciélagos", "emoji": "🦇" },
+        { "en": "Horses", "es": "Los caballos", "emoji": "🐴" },
+        { "en": "Ducks", "es": "Los patos", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bats hang upside down in caves to rest, then fly out at dusk and find insects by listening to echoes.", "es": "Los murciélagos duermen de cabeza en las cuevas y salen al anochecer; encuentran insectos escuchando el eco de sus chillidos." },
+      "topic": "caves",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/bats"
+    },
+    {
+      "id": "earth-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Where does a puddle go on a sunny day?", "es": "¿A dónde se va un charco en un día soleado?" },
+      "choices": [
+        { "en": "Into the air as vapor", "es": "Al aire como vapor", "emoji": "💨" },
+        { "en": "Down a little hole", "es": "Por un hoyito", "emoji": "🕳️" },
+        { "en": "Into hard ice", "es": "Se vuelve hielo duro", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun warms the water until it turns into invisible vapor and floats up, a change called evaporation.", "es": "El Sol calienta el agua hasta que se vuelve vapor invisible y sube al aire; ese cambio se llama evaporación." },
+      "topic": "puddles",
+      "source": "https://climatekids.nasa.gov/water-cycle/"
+    },
+    {
+      "id": "earth-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "What can you see in a still puddle?", "es": "¿Qué puedes ver en un charco quieto?" },
+      "choices": [
+        { "en": "Your reflection", "es": "Tu reflejo", "emoji": "🪞" },
+        { "en": "Your shadow", "es": "Tu sombra", "emoji": "🌑" },
+        { "en": "Your footprints", "es": "Tus huellas", "emoji": "👣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Still water acts like a mirror, bouncing light straight back, and a breeze breaks the picture into wobbly pieces.", "es": "El agua quieta funciona como un espejo y rebota la luz; si sopla el viento, la imagen se rompe en ondas." },
+      "topic": "puddles",
+      "source": "https://kids.britannica.com/kids/article/light/353395"
+    },
+    {
+      "id": "earth-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟤",
+      "q": { "en": "What do you get mixing dirt and water?", "es": "¿Qué se forma al mezclar tierra y agua?" },
+      "choices": [
+        { "en": "Mud", "es": "Lodo", "emoji": "🟤" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Ice", "es": "Hielo", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mud is soil holding lots of water, and animals like pigs and elephants roll in it to stay cool.", "es": "El lodo es tierra con mucha agua, y animales como los cerdos y los elefantes se revuelcan en él para refrescarse." },
+      "topic": "mud",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/soil-moisture"
+    },
+    {
+      "id": "earth-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "What can a footprint in mud become?", "es": "¿En qué puede convertirse una huella en el lodo?" },
+      "choices": [
+        { "en": "A fossil", "es": "Un fósil", "emoji": "🦕" },
+        { "en": "A seed", "es": "Una semilla", "emoji": "🌱" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "If mud hardens into rock before the print washes away, the shape can last for millions of years as a fossil.", "es": "Si el lodo se endurece y se vuelve roca antes de borrarse, la huella puede durar millones de años como fósil." },
+      "topic": "mud",
+      "source": "https://www.usgs.gov/faqs/what-fossil"
+    },
+    {
+      "id": "earth-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which takes up more room, water or ice?", "es": "¿Qué ocupa más espacio, el agua o el hielo?" },
+      "choices": [
+        { "en": "Ice", "es": "El hielo", "emoji": "🧊" },
+        { "en": "Water", "es": "El agua", "emoji": "💧" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water is strange: it swells as it freezes, which is why ice floats and why a full bottle can crack.", "es": "El agua es rara: crece al congelarse, por eso el hielo flota y una botella muy llena se puede reventar." },
+      "topic": "ice",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-density"
+    },
+    {
+      "id": "earth-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "How much of an iceberg is underwater?", "es": "¿Qué parte del iceberg está bajo el agua?" },
+      "choices": [
+        { "en": "Most of it", "es": "Casi todo", "emoji": "🧊" },
+        { "en": "Half of it", "es": "La mitad", "emoji": "⚖️" },
+        { "en": "A tiny bit", "es": "Un pedacito", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "About nine parts in ten float below the surface, so sailors only see the small white tip above the water.", "es": "Casi nueve partes de diez quedan bajo el agua, y los marineros solo ven la puntita blanca que sobresale." },
+      "topic": "ice",
+      "source": "https://oceanservice.noaa.gov/facts/iceberg.html"
+    },
+    {
+      "id": "earth-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What is a river of slow ice called?", "es": "¿Cómo se llama un río de hielo lento?" },
+      "choices": [
+        { "en": "A glacier", "es": "Un glaciar", "emoji": "🧊" },
+        { "en": "A lagoon", "es": "Una laguna", "emoji": "🏝️" },
+        { "en": "A geyser", "es": "Un géiser", "emoji": "♨️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A glacier is ice so thick it creeps downhill like syrup, scraping valleys into the mountains as it goes.", "es": "Un glaciar es hielo tan grueso que baja despacio como miel y va tallando valles en las montañas por donde pasa." },
+      "topic": "ice",
+      "source": "https://climatekids.nasa.gov/ice/"
+    },
+    {
+      "id": "earth-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which place gets the least rain?", "es": "¿Qué lugar recibe menos lluvia?" },
+      "choices": [
+        { "en": "A desert", "es": "El desierto", "emoji": "🏜️" },
+        { "en": "A forest", "es": "El bosque", "emoji": "🌲" },
+        { "en": "A swamp", "es": "El pantano", "emoji": "🐊" }
+      ],
+      "answer": 0,
+      "why": { "en": "A desert gets very little rain all year, and some deserts are cold, like the icy plains of Antarctica.", "es": "En el desierto llueve poquísimo todo el año, y algunos desiertos son fríos, como las llanuras heladas de la Antártida." },
+      "topic": "deserts",
+      "source": "https://kids.nationalgeographic.com/geography/article/desert"
+    },
+    {
+      "id": "earth-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐫",
+      "q": { "en": "What does a camel store in its hump?", "es": "¿Qué guarda el camello en su joroba?" },
+      "choices": [
+        { "en": "Fat", "es": "Grasa", "emoji": "🐫" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The hump is a lump of fat for food when meals are scarce; a camel drinks the water it needs.", "es": "La joroba guarda grasa que sirve de alimento cuando hay poca comida; el camello toma el agua que necesita." },
+      "topic": "deserts",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/bactrian-camel"
+    },
+    {
+      "id": "earth-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "How does a desert feel at night?", "es": "¿Cómo se siente el desierto de noche?" },
+      "choices": [
+        { "en": "Cold", "es": "Frío", "emoji": "🥶" },
+        { "en": "Steamy", "es": "Húmedo y pesado", "emoji": "♨️" },
+        { "en": "Rainy", "es": "Lluvioso", "emoji": "🌧️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dry desert air holds no blanket of moisture, so the daytime heat escapes fast and nights can feel freezing.", "es": "El aire seco del desierto no guarda el calor, así que la temperatura baja rapidísimo y las noches se sienten heladas." },
+      "topic": "deserts",
+      "source": "https://kids.britannica.com/kids/article/desert/353077"
+    },
+    {
+      "id": "earth-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "What do trees give the air we breathe?", "es": "¿Qué le dan los árboles al aire?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno", "emoji": "🌬️" },
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" },
+        { "en": "Salt", "es": "Sal", "emoji": "🧂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves take in the gas we breathe out and give back oxygen, which is why big forests are called Earth's lungs.", "es": "Las hojas toman el gas que exhalamos y devuelven oxígeno; por eso a los bosques grandes se les llama pulmones de la Tierra." },
+      "topic": "forests",
+      "source": "https://kids.britannica.com/kids/article/tree/353803"
+    },
+    {
+      "id": "earth-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Which forest is warm and rainy all year?", "es": "¿Qué bosque es cálido y lluvioso todo el año?" },
+      "choices": [
+        { "en": "A rainforest", "es": "La selva tropical", "emoji": "🌴" },
+        { "en": "A pine forest", "es": "El bosque de pinos", "emoji": "🌲" },
+        { "en": "A desert grove", "es": "El oasis del desierto", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rainforest can get rain almost every day, and more kinds of animals live there than anywhere else on land.", "es": "En la selva tropical llueve casi todos los días, y allí viven más clases de animales que en cualquier otro lugar." },
+      "topic": "forests",
+      "source": "https://kids.nationalgeographic.com/nature/article/rainforest"
+    },
+    {
+      "id": "earth-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "What do you count to tell a tree's age?", "es": "¿Qué cuentas para saber la edad de un árbol?" },
+      "choices": [
+        { "en": "Rings in the trunk", "es": "Los anillos del tronco", "emoji": "🪵" },
+        { "en": "Leaves on a branch", "es": "Las hojas de una rama", "emoji": "🍃" },
+        { "en": "Roots under the ground", "es": "Las raíces bajo la tierra", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each year a tree adds one ring, and thin rings show dry years, so a stump is a little weather diary.", "es": "Cada año el árbol suma un anillo, y los anillos delgados marcan años secos: el tronco es un diario del clima." },
+      "topic": "forests",
+      "source": "https://climatekids.nasa.gov/tree-rings/"
+    },
+    {
+      "id": "earth-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which animal lives at the South Pole?", "es": "¿Qué animal vive en el Polo Sur?" },
+      "choices": [
+        { "en": "Penguins", "es": "Los pingüinos", "emoji": "🐧" },
+        { "en": "Polar bears", "es": "Los osos polares", "emoji": "🐻" },
+        { "en": "Camels", "es": "Los camellos", "emoji": "🐫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Penguins live in the far south, while polar bears live in the far north, so they stay worlds apart.", "es": "Los pingüinos viven en el sur y los osos polares en el norte, así que jamás se encuentran en la naturaleza." },
+      "topic": "the poles",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/penguins"
+    },
+    {
+      "id": "earth-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What is under the ice at the North Pole?", "es": "¿Qué hay debajo del hielo del Polo Norte?" },
+      "choices": [
+        { "en": "Ocean water", "es": "Agua del océano", "emoji": "🌊" },
+        { "en": "Solid land", "es": "Tierra firme", "emoji": "🏔️" },
+        { "en": "Hot sand", "es": "Arena caliente", "emoji": "🏜️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The North Pole is a frozen sheet floating on the Arctic Ocean, while the South Pole sits on a real continent.", "es": "El Polo Norte es una capa de hielo que flota sobre el océano Ártico; el Polo Sur está sobre un continente." },
+      "topic": "the poles",
+      "source": "https://climatekids.nasa.gov/polar-temperatures/"
+    },
+    {
+      "id": "earth-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "What color are a polar bear's hairs?", "es": "¿De qué color son los pelos del oso polar?" },
+      "choices": [
+        { "en": "See-through", "es": "Transparentes", "emoji": "🔍" },
+        { "en": "Snowy white", "es": "Blancos como la nieve", "emoji": "⚪" },
+        { "en": "Pale yellow", "es": "Amarillo claro", "emoji": "🟡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each hair is hollow and clear; it scatters light so the bear looks white, and the skin underneath is black.", "es": "Cada pelo es hueco y transparente; dispersa la luz y por eso el oso se ve blanco, aunque su piel es negra." },
+      "topic": "the poles",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/polar-bear"
+    },
+    {
+      "id": "earth-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What shakes when there is an earthquake?", "es": "¿Qué se mueve cuando hay un temblor?" },
+      "choices": [
+        { "en": "The ground", "es": "El suelo", "emoji": "🌍" },
+        { "en": "The clouds", "es": "Las nubes", "emoji": "☁️" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Huge pieces of rock deep below slip past each other, and the shaking spreads outward like ripples in a pond.", "es": "Unos bloques enormes de roca allá abajo se deslizan, y el temblor se extiende como las ondas de un charco." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes"
+    },
+    {
+      "id": "earth-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪑",
+      "q": { "en": "What is a safe move during an earthquake?", "es": "¿Qué debes hacer durante un temblor?" },
+      "choices": [
+        { "en": "Get under a sturdy table", "es": "Meterte bajo una mesa firme", "emoji": "🪑" },
+        { "en": "Run outside very fast", "es": "Salir corriendo muy rápido", "emoji": "🏃" },
+        { "en": "Stand next to a window", "es": "Pararte junto a una ventana", "emoji": "🪟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Grown-ups practice drop, cover and hold on, because falling objects are the usual danger and a table shields your head.", "es": "Los adultos practican agacharse, cubrirse y agarrarse, porque lo que cae es el mayor peligro y la mesa protege la cabeza." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-preparedness"
+    },
+    {
+      "id": "earth-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "📈",
+      "q": { "en": "What tool draws the shakes of an earthquake?", "es": "¿Qué aparato dibuja los temblores de la tierra?" },
+      "choices": [
+        { "en": "A seismograph", "es": "Un sismógrafo", "emoji": "📈" },
+        { "en": "A telescope", "es": "Un telescopio", "emoji": "🔭" },
+        { "en": "A thermometer", "es": "Un termómetro", "emoji": "🌡️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A seismograph wiggles a pen while the ground moves, and scientists read the squiggles to learn how strong it was.", "es": "El sismógrafo mueve una aguja mientras tiembla el suelo, y los científicos leen esas rayitas para saber qué tan fuerte fue." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/seismograms-seismographs"
+    },
+    {
+      "id": "earth-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟤",
+      "q": { "en": "What is soil mostly made of?", "es": "¿De qué está hecha la tierra del suelo?" },
+      "choices": [
+        { "en": "Bits of rock and old leaves", "es": "Pedacitos de roca y hojas viejas", "emoji": "🟤" },
+        { "en": "Bits of glass and paper", "es": "Pedacitos de vidrio y papel", "emoji": "📄" },
+        { "en": "Bits of ice and snow", "es": "Pedacitos de hielo y nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Soil mixes crumbled rock with rotted plants, air and water, and one spoonful holds more tiny creatures than people on Earth.", "es": "La tierra mezcla roca desmenuzada con plantas podridas, aire y agua; una cucharada tiene más seres vivos que personas hay en el mundo." },
+      "topic": "soil and worms",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/soil-and-water"
+    },
+    {
+      "id": "earth-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪱",
+      "q": { "en": "What do earthworms do for the soil?", "es": "¿Qué hacen las lombrices por el suelo?" },
+      "choices": [
+        { "en": "Make tunnels for air and water", "es": "Hacen túneles para el aire y el agua", "emoji": "🪱" },
+        { "en": "Eat the roots of plants", "es": "Se comen las raíces de las plantas", "emoji": "🌱" },
+        { "en": "Turn the soil into stone", "es": "Convierten la tierra en piedra", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Worms swallow soil, leave rich castings behind and drill tunnels that let rain and air reach hungry plant roots.", "es": "Las lombrices tragan tierra, dejan abono atrás y hacen túneles para que la lluvia y el aire lleguen a las raíces." },
+      "topic": "soil and worms",
+      "source": "https://kids.britannica.com/kids/article/earthworm/353136"
+    },
+    {
+      "id": "earth-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "When do worms come up onto the sidewalk?", "es": "¿Cuándo salen las lombrices a la acera?" },
+      "choices": [
+        { "en": "After heavy rain", "es": "Después de una lluvia fuerte", "emoji": "🌧️" },
+        { "en": "On a dry hot day", "es": "En un día seco y caluroso", "emoji": "☀️" },
+        { "en": "During a snowstorm", "es": "Durante una nevada", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain fills their tunnels, so worms crawl to the surface where they can breathe through wet skin and travel faster.", "es": "La lluvia llena sus túneles, así que las lombrices salen a la superficie, donde respiran por la piel mojada y avanzan rápido." },
+      "topic": "soil and worms",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/earthworm"
+    },
+    {
+      "id": "earth-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which part of the ground helps plants grow?", "es": "¿Qué parte del suelo ayuda a crecer a las plantas?" },
+      "choices": [
+        { "en": "The dark layer on top", "es": "La capa oscura de arriba", "emoji": "🟤" },
+        { "en": "The hard rock below", "es": "La roca dura de abajo", "emoji": "🪨" },
+        { "en": "The dry sand beneath", "es": "La arena seca del fondo", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The dark layer near the surface is full of food for roots, and it takes nature hundreds of years to build.", "es": "La capa oscura de arriba está llena de alimento para las raíces, y la naturaleza tarda cientos de años en formarla." },
+      "topic": "soil and worms",
+      "source": "https://www.usgs.gov/faqs/what-soil"
+    },
+    {
+      "id": "earth-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌤️",
+      "q": { "en": "What does a weather forecast tell you?", "es": "¿Qué te dice el pronóstico del tiempo?" },
+      "choices": [
+        { "en": "What the sky may do", "es": "Lo que hará el cielo", "emoji": "🌤️" },
+        { "en": "What time school starts", "es": "A qué hora empieza la escuela", "emoji": "🏫" },
+        { "en": "What is for dinner", "es": "Qué habrá de cena", "emoji": "🍽️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Forecasters read maps, balloons and satellites to guess tomorrow's weather, and a guess for a week ahead is much shakier.", "es": "Quienes hacen el pronóstico leen mapas, globos y satélites para adivinar el clima de mañana; predecir una semana es mucho más difícil." },
+      "topic": "weather forecast",
+      "source": "https://scijinks.gov/forecast-reliability/"
+    },
+    {
+      "id": "earth-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "What flies up high to measure the air?", "es": "¿Qué sube muy alto para medir el aire?" },
+      "choices": [
+        { "en": "A weather balloon", "es": "Un globo meteorológico", "emoji": "🎈" },
+        { "en": "A paper kite", "es": "Una cometa de papel", "emoji": "🪁" },
+        { "en": "A beach ball", "es": "Una pelota de playa", "emoji": "🏐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twice a day weather balloons rise with tiny instruments, and they swell and pop high above the clouds.", "es": "Dos veces al día suben globos con instrumentos diminutos, que se hinchan y revientan muy por encima de las nubes." },
+      "topic": "weather forecast",
+      "source": "https://scijinks.gov/weather-balloon/"
+    },
+    {
+      "id": "earth-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What does a wind vane show you?", "es": "¿Qué muestra una veleta?" },
+      "choices": [
+        { "en": "Which way the wind blows", "es": "Hacia dónde sopla el viento", "emoji": "🧭" },
+        { "en": "How warm the day is", "es": "Qué tan caluroso está el día", "emoji": "🌡️" },
+        { "en": "How much rain fell", "es": "Cuánta lluvia cayó", "emoji": "🌧️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The arrow swings until it points into the wind, and a wind called northerly is one that comes from the north.", "es": "La flecha gira hasta apuntar hacia donde sopla el viento; un viento del norte es el que viene desde el norte." },
+      "topic": "weather forecast",
+      "source": "https://scijinks.gov/wind/"
+    },
+    {
+      "id": "earth-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "When is fog most likely to appear?", "es": "¿Cuándo aparece la niebla con más frecuencia?" },
+      "choices": [
+        { "en": "Early in the morning", "es": "Temprano en la mañana", "emoji": "🌅" },
+        { "en": "At noon in summer", "es": "Al mediodía en verano", "emoji": "☀️" },
+        { "en": "During a thunderstorm", "es": "Durante una tormenta", "emoji": "⛈️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cool night air cannot hold its water, so drops form near the ground and the Sun burns them off by midmorning.", "es": "El aire frío de la noche suelta su agua en gotitas cerca del suelo, y el Sol las evapora a media mañana." },
+      "topic": "fog",
+      "source": "https://scijinks.gov/fog/"
+    },
+    {
+      "id": "earth-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "What do drivers turn on in fog?", "es": "¿Qué encienden los carros con niebla?" },
+      "choices": [
+        { "en": "Low beam lights", "es": "Las luces bajas", "emoji": "🚗" },
+        { "en": "Loud music", "es": "La música fuerte", "emoji": "📻" },
+        { "en": "The air conditioner", "es": "El aire acondicionado", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bright high beams bounce off the tiny drops and dazzle the driver, so low lights show the road better.", "es": "Las luces altas rebotan en las gotitas y deslumbran a quien maneja, así que las luces bajas dejan ver mejor." },
+      "topic": "fog",
+      "source": "https://www.weather.gov/safety/fog"
+    },
+    {
+      "id": "earth-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What is inside a ball of hail?", "es": "¿Qué hay dentro de una bola de granizo?" },
+      "choices": [
+        { "en": "Layers of ice like an onion", "es": "Capas de hielo como una cebolla", "emoji": "🧅" },
+        { "en": "A little stone", "es": "Una piedrita", "emoji": "🪨" },
+        { "en": "A drop of rain", "es": "Una gota de lluvia", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hailstone grows ring by ring as storm winds toss it up and down through freezing cloud water.", "es": "El granizo crece capa por capa mientras el viento de la tormenta lo sube y lo baja por el agua helada." },
+      "topic": "hail",
+      "source": "https://scijinks.gov/hail/"
+    },
+    {
+      "id": "earth-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "What is wind made of?", "es": "¿De qué está hecho el viento?" },
+      "choices": [
+        { "en": "Moving air", "es": "Aire en movimiento", "emoji": "💨" },
+        { "en": "Moving water", "es": "Agua en movimiento", "emoji": "💧" },
+        { "en": "Moving sand", "es": "Arena en movimiento", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind is simply air on the move, sliding from cool heavy places toward warm light ones, and you feel it without seeing it.", "es": "El viento es aire en movimiento que va de las zonas frías y pesadas hacia las cálidas y ligeras; lo sientes sin verlo." },
+      "topic": "wind",
+      "source": "https://climatekids.nasa.gov/wind/"
+    },
+    {
+      "id": "earth-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "What can strong wind do to sand?", "es": "¿Qué puede hacer el viento fuerte con la arena?" },
+      "choices": [
+        { "en": "Pile it into dunes", "es": "Apilarla en dunas", "emoji": "🏜️" },
+        { "en": "Turn it into glass", "es": "Convertirla en vidrio", "emoji": "🪟" },
+        { "en": "Make it wet", "es": "Dejarla mojada", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind rolls grains up a slope until they tumble down the far side, so a whole dune slowly creeps along.", "es": "El viento empuja los granos por una ladera hasta que caen del otro lado, y así la duna entera avanza despacio." },
+      "topic": "wind",
+      "source": "https://kids.britannica.com/kids/article/sand-dune/390477"
+    },
+    {
+      "id": "earth-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What covers most of the Earth?", "es": "¿Qué cubre la mayor parte de la Tierra?" },
+      "choices": [
+        { "en": "Water", "es": "El agua", "emoji": "🌊" },
+        { "en": "Forest", "es": "El bosque", "emoji": "🌲" },
+        { "en": "Sand", "es": "La arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Seas cover far more of the globe than land, which is why our world looks blue from space.", "es": "Los mares cubren mucho más que la tierra firme, y por eso nuestro planeta se ve azul desde el espacio." },
+      "topic": "our planet",
+      "source": "https://climatekids.nasa.gov/ocean/"
+    },
+    {
+      "id": "earth-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What is under the ground we walk on?", "es": "¿Qué hay debajo del suelo que pisamos?" },
+      "choices": [
+        { "en": "Rock and hot melted rock", "es": "Roca y roca derretida caliente", "emoji": "🪨" },
+        { "en": "Air and empty space", "es": "Aire y espacio vacío", "emoji": "💨" },
+        { "en": "Ice all the way down", "es": "Hielo hasta el fondo", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth has layers like an onion: hard crust, hot squishy rock, then a metal center hotter than a pizza oven.", "es": "La Tierra tiene capas como una cebolla: corteza dura, roca caliente y blanda, y un centro de metal más caliente que un horno." },
+      "topic": "our planet",
+      "source": "https://kids.nationalgeographic.com/science/article/earth"
+    },
+    {
+      "id": "earth-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "What is land with water all around?", "es": "¿Qué es una tierra rodeada de agua?" },
+      "choices": [
+        { "en": "An island", "es": "Una isla", "emoji": "🏝️" },
+        { "en": "A mountain", "es": "Una montaña", "emoji": "🏔️" },
+        { "en": "A cave", "es": "Una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "An island can be the top of an underwater volcano, and Hawaii grew that way, one lava flow at a time.", "es": "Una isla puede ser la punta de un volcán submarino; así nació Hawái, con una colada de lava tras otra." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/island/353314"
+    },
+    {
+      "id": "earth-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎣",
+      "q": { "en": "Which sea creature makes its own light?", "es": "¿Qué animal del mar hace su propia luz?" },
+      "choices": [
+        { "en": "A deep-sea anglerfish", "es": "El pez pescador del fondo", "emoji": "🎣" },
+        { "en": "A goldfish", "es": "El pez dorado", "emoji": "🐠" },
+        { "en": "A starfish", "es": "La estrella de mar", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Down where sunlight never reaches, many animals glow to hunt or hide, a trick scientists call bioluminescence.", "es": "Allá abajo, donde el sol jamás llega, muchos animales brillan para cazar o esconderse; eso se llama bioluminiscencia." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/biolum.html"
+    },
+    {
+      "id": "earth-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "How many sides does a snowflake have?", "es": "¿Cuántos lados tiene un copo de nieve?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "❄️" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🔲" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water freezes into six-sided crystals every time, and no two flakes ever grow exactly the same pattern.", "es": "El agua siempre se congela en cristales de seis lados, y no hay dos copos con el mismo dibujo." },
+      "topic": "snow",
+      "source": "https://scijinks.gov/snowflakes/"
+    },
+    {
+      "id": "earth-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "What washes up on the beach with waves?", "es": "¿Qué traen las olas a la playa?" },
+      "choices": [
+        { "en": "Seaweed and shells", "es": "Algas y conchas", "emoji": "🌿" },
+        { "en": "Snow and ice", "es": "Nieve y hielo", "emoji": "❄️" },
+        { "en": "Leaves and acorns", "es": "Hojas y bellotas", "emoji": "🍂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Waves carry loose things to shore and leave a wiggly line of shells, seaweed and driftwood called the wrack line.", "es": "Las olas arrastran cosas sueltas hasta la orilla y dejan una línea de conchas, algas y madera que marca hasta dónde llegó el agua." },
+      "topic": "the beach",
+      "source": "https://oceanservice.noaa.gov/facts/beach.html"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "note": "Science & How Things Work: chemistry, materials, machines, the scientific method, plants and microbes. Physics lives in physics.json.",
   "category": "science",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "science-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
@@ -12,8 +12,7 @@
         { "en": "It turns into snow", "es": "Se vuelve nieve", "emoji": "❄️" }
       ],
       "answer": 1,
-      "why": { "en": "Ice is frozen water, so when it warms up it melts and turns back into liquid water.",
-               "es": "El hielo es agua congelada; por eso, cuando se calienta, se derrite y vuelve a ser agua líquida." },
+      "why": { "en": "Ice is frozen water, so when it warms up it melts and turns back into liquid water.", "es": "El hielo es agua congelada; por eso, cuando se calienta, se derrite y vuelve a ser agua líquida." },
       "topic": "states of matter",
       "source": "https://www.britannica.com/science/melting"
     },
@@ -26,8 +25,7 @@
         { "en": "Water", "es": "Agua", "emoji": "💧" }
       ],
       "answer": 2,
-      "why": { "en": "Plants drink water through their roots, and they also need sunlight and air to make their own food.",
-               "es": "Las plantas toman agua por sus raíces, y también necesitan luz del sol y aire para hacer su propia comida." },
+      "why": { "en": "Plants drink water through their roots, and they also need sunlight and air to make their own food.", "es": "Las plantas toman agua por sus raíces, y también necesitan luz del sol y aire para hacer su propia comida." },
       "topic": "plants",
       "source": "https://www.britannica.com/science/plant"
     },
@@ -40,8 +38,7 @@
         { "en": "A triangle", "es": "Un triángulo", "emoji": "🔺" }
       ],
       "answer": 0,
-      "why": { "en": "A wheel is round like a circle, so it can roll smoothly without bumping along the road.",
-               "es": "Una rueda es redonda como un círculo, así que puede rodar suavemente sin dar saltos por el camino." },
+      "why": { "en": "A wheel is round like a circle, so it can roll smoothly without bumping along the road.", "es": "Una rueda es redonda como un círculo, así que puede rodar suavemente sin dar saltos por el camino." },
       "topic": "machines",
       "source": "https://www.britannica.com/technology/wheel"
     },
@@ -55,8 +52,7 @@
         { "en": "Nitrogen", "es": "Nitrógeno" }
       ],
       "answer": 2,
-      "why": { "en": "Plants use sunlight, water and carbon dioxide to make sugar, and they give off the oxygen we breathe.",
-               "es": "Las plantas usan luz del sol, agua y dióxido de carbono para hacer azúcar, y sueltan el oxígeno que respiramos." },
+      "why": { "en": "Plants use sunlight, water and carbon dioxide to make sugar, and they give off the oxygen we breathe.", "es": "Las plantas usan luz del sol, agua y dióxido de carbono para hacer azúcar, y sueltan el oxígeno que respiramos." },
       "topic": "plants",
       "source": "https://www.britannica.com/science/photosynthesis"
     },
@@ -70,8 +66,7 @@
         { "en": "Wedge", "es": "Cuña" }
       ],
       "answer": 1,
-      "why": { "en": "A lever is a bar that rests on a point called a fulcrum; push one end down and the other end lifts.",
-               "es": "Una palanca es una barra apoyada en un punto llamado fulcro; si empujas un extremo hacia abajo, el otro sube." },
+      "why": { "en": "A lever is a bar that rests on a point called a fulcrum; push one end down and the other end lifts.", "es": "Una palanca es una barra apoyada en un punto llamado fulcro; si empujas un extremo hacia abajo, el otro sube." },
       "topic": "simple machines",
       "source": "https://www.britannica.com/technology/lever"
     },
@@ -85,8 +80,7 @@
         { "en": "Hypothesis", "es": "Hipótesis" }
       ],
       "answer": 3,
-      "why": { "en": "A hypothesis is an idea you can test, like \"plants grow faster in sunlight\"; the experiment shows whether it holds up.",
-               "es": "Una hipótesis es una idea que puedes poner a prueba, como \"las plantas crecen más con sol\"; el experimento muestra si es cierta." },
+      "why": { "en": "A hypothesis is an idea you can test, like \"plants grow faster in sunlight\"; the experiment shows whether it holds up.", "es": "Una hipótesis es una idea que puedes poner a prueba, como \"las plantas crecen más con sol\"; el experimento muestra si es cierta." },
       "topic": "scientific method",
       "source": "https://www.britannica.com/science/scientific-hypothesis"
     },
@@ -100,8 +94,7 @@
         { "en": "Au", "es": "Au" }
       ],
       "answer": 3,
-      "why": { "en": "Gold's symbol Au comes from the Latin word \"aurum\"; Ag is silver, from \"argentum\", and Gd is gadolinium.",
-               "es": "El símbolo Au del oro viene del latín \"aurum\"; Ag es la plata, de \"argentum\", y Gd es el gadolinio." },
+      "why": { "en": "Gold's symbol Au comes from the Latin word \"aurum\"; Ag is silver, from \"argentum\", and Gd is gadolinium.", "es": "El símbolo Au del oro viene del latín \"aurum\"; Ag es la plata, de \"argentum\", y Gd es el gadolinio." },
       "topic": "elements",
       "source": "https://www.britannica.com/science/gold-chemical-element"
     },
@@ -113,8 +106,7 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "False: melting is a physical change, because the chocolate is still chocolate and hardens again when it cools.",
-               "es": "Falso: derretir es un cambio físico, porque el chocolate sigue siendo chocolate y se endurece de nuevo al enfriarse." },
+      "why": { "en": "False: melting is a physical change, because the chocolate is still chocolate and hardens again when it cools.", "es": "Falso: derretir es un cambio físico, porque el chocolate sigue siendo chocolate y se endurece de nuevo al enfriarse." },
       "topic": "chemical change",
       "source": "https://www.britannica.com/science/chemical-reaction"
     },
@@ -128,10 +120,1270 @@
         { "en": "Alexander Fleming", "es": "Alexander Fleming" }
       ],
       "answer": 2,
-      "why": { "en": "In the 1670s the Dutch lens maker Antonie van Leeuwenhoek saw bacteria and tiny creatures in pond water and even in plaque from teeth.",
-               "es": "En la década de 1670, el neerlandés Antonie van Leeuwenhoek vio bacterias y seres diminutos en agua de estanque y hasta en el sarro dental." },
+      "why": { "en": "In the 1670s the Dutch lens maker Antonie van Leeuwenhoek saw bacteria and tiny creatures in pond water and even in plaque from teeth.", "es": "En la década de 1670, el neerlandés Antonie van Leeuwenhoek vio bacterias y seres diminutos en agua de estanque y hasta en el sarro dental." },
       "topic": "microbes",
       "source": "https://www.britannica.com/biography/Antonie-van-Leeuwenhoek"
+    },
+    {
+      "id": "science-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Where would you make ice cubes?", "es": "¿Dónde harías cubitos de hielo?" },
+      "choices": [
+        { "en": "In the freezer", "es": "En el congelador", "emoji": "🧊" },
+        { "en": "In the oven", "es": "En el horno", "emoji": "🔥" },
+        { "en": "In a drawer", "es": "En un cajón", "emoji": "🗄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water turns solid at 0 °C, 32 °F, and a home freezer is kept well below that.", "es": "El agua se vuelve sólida a 0 °C, 32 °F, y un congelador de casa se mantiene mucho más frío que eso." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/freezing"
+    },
+    {
+      "id": "science-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "What rises from a pot of hot soup?", "es": "¿Qué sube de una olla de sopa caliente?" },
+      "choices": [
+        { "en": "Steam", "es": "Vapor", "emoji": "💨" },
+        { "en": "Snow", "es": "Nieve", "emoji": "❄️" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hot soup turns into a gas called water vapor; it cools in the air and you see it as steam.", "es": "La sopa caliente se convierte en un gas llamado vapor de agua; al enfriarse en el aire lo ves como vaho." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/vaporization"
+    },
+    {
+      "id": "science-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What happens to a puddle in sunshine?", "es": "¿Qué le pasa a un charco bajo el sol?" },
+      "choices": [
+        { "en": "It slowly dries away", "es": "Se seca poco a poco", "emoji": "💨" },
+        { "en": "It turns into a rock", "es": "Se vuelve una piedra", "emoji": "🪨" },
+        { "en": "It grows much bigger", "es": "Se hace mucho más grande", "emoji": "🌊" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun turns the water into invisible vapor that floats away; this is called evaporation, and it happens faster on windy days.", "es": "El Sol convierte el agua en vapor invisible que se va flotando; eso se llama evaporación y ocurre más rápido con viento." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/evaporation"
+    },
+    {
+      "id": "science-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧃",
+      "q": { "en": "Which of these can you pour?", "es": "¿Cuál de estas cosas puedes verter?" },
+      "choices": [
+        { "en": "Juice", "es": "Jugo", "emoji": "🧃" },
+        { "en": "A brick", "es": "Un ladrillo", "emoji": "🧱" },
+        { "en": "A shoe", "es": "Un zapato", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Liquids like juice have no shape of their own, so they take the shape of whatever cup you pour them into.", "es": "Los líquidos como el jugo no tienen forma propia, así que toman la forma del vaso donde los sirves." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/liquid-state-of-matter"
+    },
+    {
+      "id": "science-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "What happens to candle wax when lit?", "es": "¿Qué le pasa a la cera de una vela encendida?" },
+      "choices": [
+        { "en": "It melts and drips", "es": "Se derrite y escurre", "emoji": "🕯️" },
+        { "en": "It turns into water", "es": "Se vuelve agua", "emoji": "💧" },
+        { "en": "It stays hard", "es": "Se queda dura", "emoji": "🧱" }
+      ],
+      "answer": 0,
+      "why": { "en": "The flame's heat melts the wax, and the liquid wax climbs up the wick and burns to keep the flame going.", "es": "El calor de la llama derrite la cera, y la cera líquida sube por el pabilo y se quema para mantener la llama." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/technology/candle"
+    },
+    {
+      "id": "science-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "What is inside a soap bubble?", "es": "¿Qué hay dentro de una burbuja de jabón?" },
+      "choices": [
+        { "en": "Air", "es": "Aire", "emoji": "💨" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Soap", "es": "Jabón", "emoji": "🧼" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bubble is a thin skin of soapy water wrapped around trapped air, which is why it pops when the skin dries.", "es": "Una burbuja es una piel delgada de agua jabonosa que envuelve aire atrapado; por eso revienta cuando la piel se seca." },
+      "topic": "states of matter",
+      "source": "https://www.exploratorium.edu/snacks/soap-bubbles"
+    },
+    {
+      "id": "science-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "Which of these keeps its own shape?", "es": "¿Cuál de estos guarda su propia forma?" },
+      "choices": [
+        { "en": "A wooden block", "es": "Un bloque de madera", "emoji": "🪵" },
+        { "en": "Milk", "es": "Leche", "emoji": "🥛" },
+        { "en": "Air", "es": "Aire", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Solids hold their shape because their tiny pieces are locked together, while liquids and gases let their pieces slide around.", "es": "Los sólidos mantienen su forma porque sus piezas diminutas están unidas, mientras que en los líquidos y gases las piezas se deslizan." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/solid-state-of-matter"
+    },
+    {
+      "id": "science-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "What forms on a cold glass of water?", "es": "¿Qué se forma en un vaso de agua fría?" },
+      "choices": [
+        { "en": "Tiny water drops", "es": "Gotitas de agua", "emoji": "💧" },
+        { "en": "Tiny ice cubes", "es": "Cubitos de hielo", "emoji": "🧊" },
+        { "en": "Tiny holes", "es": "Agujeritos", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water vapor in the warm air cools on the cold glass and turns back into drops; that is called condensation.", "es": "El vapor de agua del aire caliente se enfría en el vaso frío y vuelve a ser gotas; eso se llama condensación." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/condensation-phase-change"
+    },
+    {
+      "id": "science-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Which of these is a gas?", "es": "¿Cuál de estos es un gas?" },
+      "choices": [
+        { "en": "The air in a balloon", "es": "El aire de un globo", "emoji": "🎈" },
+        { "en": "The sand in a bucket", "es": "La arena de una cubeta", "emoji": "🪣" },
+        { "en": "The milk in a cup", "es": "La leche de un vaso", "emoji": "🥛" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gases spread out to fill any space, so the same air can fill a tiny balloon or a huge room.", "es": "Los gases se esparcen para llenar cualquier espacio, así que el mismo aire llena un globo pequeño o un cuarto enorme." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/gas-state-of-matter"
+    },
+    {
+      "id": "science-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "What happens when you stir sugar into water?", "es": "¿Qué pasa cuando revuelves azúcar en agua?" },
+      "choices": [
+        { "en": "It dissolves", "es": "Se disuelve", "emoji": "✨" },
+        { "en": "It floats on top", "es": "Flota encima", "emoji": "🫧" },
+        { "en": "It turns into oil", "es": "Se vuelve aceite", "emoji": "🛢️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The sugar breaks into pieces too small to see and spreads through the water; taste it and the sweetness is still there.", "es": "El azúcar se rompe en pedacitos tan pequeños que no los ves y se reparte en el agua; pruébala y sigue dulce." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/solution-chemistry"
+    },
+    {
+      "id": "science-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫗",
+      "q": { "en": "What happens when you mix oil and water?", "es": "¿Qué pasa cuando mezclas aceite y agua?" },
+      "choices": [
+        { "en": "They separate into two layers", "es": "Se separan en dos capas", "emoji": "🫗" },
+        { "en": "They turn into juice", "es": "Se vuelven jugo", "emoji": "🧃" },
+        { "en": "They freeze solid", "es": "Se congelan", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Oil is lighter than water and the two never mix, so the oil floats on top; shake a jar and watch them split again.", "es": "El aceite es más liviano que el agua y no se mezclan, así que flota arriba; agita un frasco y míralos separarse otra vez." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/emulsion-chemistry"
+    },
+    {
+      "id": "science-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "Which of these dissolves in water?", "es": "¿Cuál de estos se disuelve en agua?" },
+      "choices": [
+        { "en": "Salt", "es": "Sal", "emoji": "🧂" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "A pebble", "es": "Una piedrita", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Salt splits into bits too small to see, while sand just sinks; let the salty water dry and the salt comes back.", "es": "La sal se parte en trocitos invisibles, y la arena solo se hunde; deja secar el agua salada y la sal reaparece." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/solubility"
+    },
+    {
+      "id": "science-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "What happens when you shake sand and water?", "es": "¿Qué pasa cuando agitas arena con agua?" },
+      "choices": [
+        { "en": "The sand sinks back down", "es": "La arena se va al fondo", "emoji": "⬇️" },
+        { "en": "The sand disappears", "es": "La arena desaparece", "emoji": "✨" },
+        { "en": "The water turns to ice", "es": "El agua se hace hielo", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sand is heavier than water and does not dissolve, so after a minute of resting every grain settles at the bottom.", "es": "La arena pesa más que el agua y no se disuelve, así que tras un minuto de reposo cada granito se va al fondo." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/mixture"
+    },
+    {
+      "id": "science-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "What happens when vinegar meets baking soda?", "es": "¿Qué pasa cuando el vinagre toca el bicarbonato?" },
+      "choices": [
+        { "en": "It bubbles and fizzes", "es": "Hace burbujas y espuma", "emoji": "🫧" },
+        { "en": "It turns solid", "es": "Se vuelve sólido", "emoji": "🪨" },
+        { "en": "It glows in the dark", "es": "Brilla en la oscuridad", "emoji": "🔦" }
+      ],
+      "answer": 0,
+      "why": { "en": "The two make a gas called carbon dioxide, the same gas in fizzy drinks; it can blow up a balloon on a bottle.", "es": "Los dos forman un gas llamado dióxido de carbono, el mismo de los refrescos; puede inflar un globo puesto en una botella." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/carbon-dioxide"
+    },
+    {
+      "id": "science-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍝",
+      "q": { "en": "Which tool separates pasta from its water?", "es": "¿Qué herramienta separa la pasta de su agua?" },
+      "choices": [
+        { "en": "A strainer", "es": "Un colador", "emoji": "🧺" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A cup", "es": "Un vaso", "emoji": "🥤" }
+      ],
+      "answer": 0,
+      "why": { "en": "A strainer is full of holes that let water through but hold the pasta back; that trick is called filtering.", "es": "Un colador está lleno de agujeros que dejan pasar el agua pero detienen la pasta; ese truco se llama filtrar." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/filtration-chemistry"
+    },
+    {
+      "id": "science-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Where does a sugar cube dissolve faster?", "es": "¿Dónde se disuelve más rápido un cubito de azúcar?" },
+      "choices": [
+        { "en": "In hot tea", "es": "En té caliente", "emoji": "☕" },
+        { "en": "In cold milk", "es": "En leche fría", "emoji": "🥛" },
+        { "en": "In a dry bowl", "es": "En un tazón seco", "emoji": "🥣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat makes the tiny pieces of water move faster, so they knock the sugar apart sooner; stirring speeds it up too.", "es": "El calor hace que las piezas diminutas del agua se muevan más rápido y rompan el azúcar antes; revolver también ayuda mucho." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/science/solvation"
+    },
+    {
+      "id": "science-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "What happens when you mix flour and water?", "es": "¿Qué pasa cuando mezclas harina con agua?" },
+      "choices": [
+        { "en": "A sticky paste", "es": "Una pasta pegajosa", "emoji": "🥣" },
+        { "en": "A clear liquid", "es": "Un líquido claro", "emoji": "💧" },
+        { "en": "A hard rock", "es": "Una piedra dura", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flour does not dissolve; its tiny grains soak up water and stick together, which is how glue and bread dough begin.", "es": "La harina no se disuelve; sus granitos absorben agua y se pegan, y así empiezan el engrudo y la masa del pan." },
+      "topic": "mixing",
+      "source": "https://www.britannica.com/topic/flour"
+    },
+    {
+      "id": "science-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍿",
+      "q": { "en": "What makes a popcorn kernel pop?", "es": "¿Qué hace que reviente un grano de palomita?" },
+      "choices": [
+        { "en": "Steam bursting out", "es": "El vapor que revienta", "emoji": "💨" },
+        { "en": "A tiny spring", "es": "Un resorte diminuto", "emoji": "🌀" },
+        { "en": "Melting sugar", "es": "El azúcar derretida", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each kernel holds a drop of water; heat turns it to steam until the hard shell bursts and the inside puffs out.", "es": "Cada grano guarda una gota de agua; el calor la vuelve vapor hasta que la cáscara dura revienta y el interior se infla." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/topic/popcorn"
+    },
+    {
+      "id": "science-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "What makes bread dough get bigger?", "es": "¿Qué hace que la masa del pan crezca?" },
+      "choices": [
+        { "en": "Bubbles of gas", "es": "Burbujas de gas", "emoji": "🫧" },
+        { "en": "Extra flour", "es": "Más harina", "emoji": "🌾" },
+        { "en": "Cold water", "es": "Agua fría", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tiny living thing called yeast eats sugar in the dough and burps out gas, and the bubbles push the dough up.", "es": "Un ser vivo diminuto llamado levadura come el azúcar de la masa y suelta gas, y las burbujas empujan la masa hacia arriba." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/science/yeast"
+    },
+    {
+      "id": "science-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍳",
+      "q": { "en": "What happens to egg white when cooked?", "es": "¿Qué le pasa a la clara del huevo al cocinarse?" },
+      "choices": [
+        { "en": "It turns white and firm", "es": "Se vuelve blanca y firme", "emoji": "🍳" },
+        { "en": "It turns bright blue", "es": "Se vuelve azul brillante", "emoji": "🔵" },
+        { "en": "It disappears", "es": "Desaparece", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat changes the clear jelly inside the egg forever, so a cooked egg can never turn runny again, even chilled.", "es": "El calor cambia para siempre la gelatina transparente del huevo, así que un huevo cocido ya no puede volver a ser líquido." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/science/denaturation"
+    },
+    {
+      "id": "science-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "What happens to a cut apple in air?", "es": "¿Qué le pasa a una manzana cortada al aire?" },
+      "choices": [
+        { "en": "It slowly turns brown", "es": "Se pone marrón poco a poco", "emoji": "🟤" },
+        { "en": "It turns bright blue", "es": "Se pone azul brillante", "emoji": "🔵" },
+        { "en": "It grows fur", "es": "Le sale pelo", "emoji": "🧶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air touches the wet inside and browns it, like rust on metal; a squeeze of lemon juice keeps the slice pale.", "es": "El aire toca la parte húmeda y la oscurece, como el óxido en el metal; unas gotas de limón la mantienen clara." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/science/oxidation-reduction-reaction"
+    },
+    {
+      "id": "science-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "What happens to milk left out warm?", "es": "¿Qué le pasa a la leche que se deja tibia?" },
+      "choices": [
+        { "en": "It goes sour", "es": "Se pone agria", "emoji": "😖" },
+        { "en": "It turns into juice", "es": "Se vuelve jugo", "emoji": "🧃" },
+        { "en": "It becomes clear water", "es": "Se vuelve agua clara", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tiny microbes grow in warm milk and make acid, which is the sour taste; a cold fridge slows those microbes down.", "es": "Unos microbios diminutos crecen en la leche tibia y producen ácido, que es el sabor agrio; el refrigerador frío los frena." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/science/lactic-acid"
+    },
+    {
+      "id": "science-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "What makes a cake puff up in the oven?", "es": "¿Qué hace que un pastel se infle en el horno?" },
+      "choices": [
+        { "en": "Tiny gas bubbles", "es": "Burbujas de gas diminutas", "emoji": "🎈" },
+        { "en": "Melting sugar", "es": "El azúcar derretida", "emoji": "🍬" },
+        { "en": "Cold air", "es": "El aire frío", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Baking powder makes gas bubbles that grow in the heat, and the batter sets around them, leaving a soft spongy crumb.", "es": "El polvo para hornear forma burbujas de gas que crecen con el calor, y la masa se endurece alrededor dejando migas esponjosas." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/topic/baking-powder"
+    },
+    {
+      "id": "science-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍜",
+      "q": { "en": "What happens to hard pasta in boiling water?", "es": "¿Qué le pasa a la pasta dura en agua hirviendo?" },
+      "choices": [
+        { "en": "It soaks up water and softens", "es": "Absorbe agua y se ablanda", "emoji": "🍝" },
+        { "en": "It melts into liquid", "es": "Se derrite", "emoji": "💧" },
+        { "en": "It turns back into flour", "es": "Se vuelve harina", "emoji": "🌾" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dry pasta is thirsty; it drinks water, swells and goes soft, which is why it weighs about twice as much cooked.", "es": "La pasta seca tiene sed: bebe agua, se hincha y se ablanda; por eso pesa casi el doble cuando ya está cocida." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/topic/pasta"
+    },
+    {
+      "id": "science-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧅",
+      "q": { "en": "What makes onions sting your eyes?", "es": "¿Qué hace que la cebolla te pique los ojos?" },
+      "choices": [
+        { "en": "A gas the onion lets out", "es": "Un gas que suelta la cebolla", "emoji": "💨" },
+        { "en": "Tiny sharp seeds", "es": "Unas semillas filosas", "emoji": "🌰" },
+        { "en": "The cold of the fridge", "es": "El frío del refrigerador", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cutting an onion breaks tiny bags of chemicals that float up as a stinging gas; chilling the onion first helps a lot.", "es": "Al cortar una cebolla se rompen bolsitas de sustancias que suben como un gas irritante; enfriar la cebolla antes ayuda bastante." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/plant/onion"
+    },
+    {
+      "id": "science-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which part of a plant drinks water?", "es": "¿Qué parte de la planta bebe agua?" },
+      "choices": [
+        { "en": "The roots", "es": "Las raíces", "emoji": "🌱" },
+        { "en": "The flower", "es": "La flor", "emoji": "🌸" },
+        { "en": "The leaves", "es": "Las hojas", "emoji": "🍃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Roots spread underground like tiny straws and also grip the soil, which is what keeps a tall tree from tipping over.", "es": "Las raíces se extienden bajo tierra como tubitos diminutos y agarran el suelo, y eso evita que un árbol alto se caiga." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/root-plant-anatomy"
+    },
+    {
+      "id": "science-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌰",
+      "q": { "en": "What grows from a tiny seed?", "es": "¿Qué crece de una semilla diminuta?" },
+      "choices": [
+        { "en": "A new plant", "es": "Una planta nueva", "emoji": "🌿" },
+        { "en": "A small rock", "es": "Una piedra pequeña", "emoji": "🪨" },
+        { "en": "A drop of water", "es": "Una gota de agua", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A seed carries a baby plant and a packed lunch of food, so it can start growing in the dark before reaching light.", "es": "Una semilla lleva dentro una plantita y comida guardada, así que puede empezar a crecer en la oscuridad antes de ver la luz." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/seed-plant-reproductive-part"
+    },
+    {
+      "id": "science-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "Which part of a plant makes its food?", "es": "¿Qué parte de la planta hace su comida?" },
+      "choices": [
+        { "en": "The leaves", "es": "Las hojas", "emoji": "🍃" },
+        { "en": "The roots", "es": "Las raíces", "emoji": "🌱" },
+        { "en": "The seeds", "es": "Las semillas", "emoji": "🌰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Green leaves catch sunlight and turn it into sugar; that green color comes from chlorophyll, the same stuff that stains clothes.", "es": "Las hojas verdes atrapan la luz del sol y la convierten en azúcar; ese verde viene de la clorofila, la que mancha la ropa." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/leaf-plant-anatomy"
+    },
+    {
+      "id": "science-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍏",
+      "q": { "en": "Where would you find apple seeds?", "es": "¿Dónde encontrarías las semillas de una manzana?" },
+      "choices": [
+        { "en": "Inside the apple", "es": "Dentro de la manzana", "emoji": "🍎" },
+        { "en": "On the leaves", "es": "En las hojas", "emoji": "🍃" },
+        { "en": "Under the roots", "es": "Debajo de las raíces", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fruit is a sweet lunchbox around the seeds, so animals eat it and drop the seeds far from the parent tree.", "es": "La fruta es una lonchera dulce alrededor de las semillas; los animales se la comen y dejan las semillas lejos del árbol." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/fruit-plant-reproductive-body"
+    },
+    {
+      "id": "science-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "Which of these foods is a seed?", "es": "¿Cuál de estos alimentos es una semilla?" },
+      "choices": [
+        { "en": "Beans", "es": "Los frijoles", "emoji": "🫘" },
+        { "en": "Lettuce", "es": "La lechuga", "emoji": "🥬" },
+        { "en": "A carrot", "es": "La zanahoria", "emoji": "🥕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Beans, corn, rice and peanuts are all seeds, so a bag of dry beans is really a bag of sleeping plants.", "es": "Los frijoles, el maíz, el arroz y los cacahuates son semillas, así que una bolsa de frijoles guarda plantas dormidas." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/plant/bean"
+    },
+    {
+      "id": "science-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "How do dandelion seeds travel?", "es": "¿Cómo viajan las semillas del diente de león?" },
+      "choices": [
+        { "en": "The wind carries them", "es": "El viento las lleva", "emoji": "💨" },
+        { "en": "They hop away", "es": "Saltan lejos", "emoji": "🐸" },
+        { "en": "They swim away", "es": "Se van nadando", "emoji": "🐟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each seed hangs from a fluffy parachute, and a good breeze can carry it more than a kilometer, about half a mile.", "es": "Cada semilla cuelga de un paracaídas esponjoso, y una buena brisa puede llevarla más de un kilómetro, casi media milla." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/plant/dandelion"
+    },
+    {
+      "id": "science-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "What do bees carry from flower to flower?", "es": "¿Qué llevan las abejas de flor en flor?" },
+      "choices": [
+        { "en": "Pollen", "es": "Polen", "emoji": "🌼" },
+        { "en": "Leaves", "es": "Hojas", "emoji": "🍃" },
+        { "en": "Pebbles", "es": "Piedritas", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pollen is yellow dust that lets a flower make seeds, and a bee moves it by accident while drinking sweet nectar.", "es": "El polen es un polvo amarillo que permite a la flor hacer semillas, y la abeja lo mueve sin querer mientras toma néctar." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/pollen"
+    },
+    {
+      "id": "science-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "What covers the outside of a tree trunk?", "es": "¿Qué cubre por fuera el tronco de un árbol?" },
+      "choices": [
+        { "en": "Bark", "es": "La corteza", "emoji": "🪵" },
+        { "en": "Fur", "es": "Pelo", "emoji": "🧶" },
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bark is a tough jacket that keeps insects and dryness out, and cork for bottle stoppers is the bark of one oak.", "es": "La corteza es una chaqueta dura que detiene insectos y sequedad, y el corcho de los tapones es la corteza de un roble." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/bark-plant-tissue"
+    },
+    {
+      "id": "science-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "What washes germs off your hands?", "es": "¿Qué quita los gérmenes de tus manos?" },
+      "choices": [
+        { "en": "Soap and water", "es": "Jabón y agua", "emoji": "🧼" },
+        { "en": "Dry sand", "es": "Arena seca", "emoji": "🏖️" },
+        { "en": "A paper bag", "es": "Una bolsa de papel", "emoji": "🛍️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Soap grabs grease and germs so water can carry them away; rub for as long as a slow birthday song.", "es": "El jabón atrapa la grasa y los gérmenes para que el agua se los lleve; frota lo que dura una canción lenta." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/soap"
+    },
+    {
+      "id": "science-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "What makes old bread green and fuzzy?", "es": "¿Qué pone el pan viejo verde y peludo?" },
+      "choices": [
+        { "en": "Mold", "es": "El moho", "emoji": "🍄" },
+        { "en": "Dust", "es": "El polvo", "emoji": "🌫️" },
+        { "en": "Paint", "es": "La pintura", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mold is a fungus that grows from spores floating in the air, and its fuzzy threads spread fastest in warm damp kitchens.", "es": "El moho es un hongo que crece de esporas que flotan en el aire, y sus hilos peludos crecen más rápido en lugares húmedos." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/mold-fungus"
+    },
+    {
+      "id": "science-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "Which tiny living thing turns milk into yogurt?", "es": "¿Cuál ser vivo diminuto convierte la leche en yogur?" },
+      "choices": [
+        { "en": "Bacteria", "es": "Las bacterias", "emoji": "🦠" },
+        { "en": "Beetles", "es": "Los escarabajos", "emoji": "🪲" },
+        { "en": "Butterflies", "es": "Las mariposas", "emoji": "🦋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Friendly bacteria eat the sugar in milk and make acid, which thickens it; people have made yogurt this way for thousands of years.", "es": "Unas bacterias buenas comen el azúcar de la leche y hacen ácido, que la espesa; así se prepara el yogur desde hace milenios." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/topic/yogurt"
+    },
+    {
+      "id": "science-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "What are living things too small to see?", "es": "¿Cómo se llaman los seres vivos que son invisibles?" },
+      "choices": [
+        { "en": "Microbes", "es": "Microbios", "emoji": "🦠" },
+        { "en": "Machines", "es": "Máquinas", "emoji": "⚙️" },
+        { "en": "Minerals", "es": "Minerales", "emoji": "💎" }
+      ],
+      "answer": 0,
+      "why": { "en": "Microbes are everywhere: a single spoonful of garden soil can hold more of them than there are people on Earth.", "es": "Los microbios están en todas partes: una cucharada de tierra de jardín guarda más microbios que personas hay en la Tierra." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/microorganism"
+    },
+    {
+      "id": "science-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "Where would a scientist grow tiny microbes?", "es": "¿Dónde haría crecer microbios un científico?" },
+      "choices": [
+        { "en": "In a flat round dish", "es": "En un platito redondo", "emoji": "🧫" },
+        { "en": "In a pillow", "es": "En una almohada", "emoji": "🛏️" },
+        { "en": "In a sock", "es": "En un calcetín", "emoji": "🧦" }
+      ],
+      "answer": 0,
+      "why": { "en": "The little dish holds jelly food for microbes, and after two warm days the spots you see are millions of them together.", "es": "El platito guarda una gelatina que los alimenta, y tras dos días tibios cada manchita que ves son millones de microbios juntos." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/technology/petri-dish"
+    },
+    {
+      "id": "science-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫄",
+      "q": { "en": "What lives inside your tummy helping digest food?", "es": "¿Qué vive en tu panza y ayuda a digerir?" },
+      "choices": [
+        { "en": "Helpful bacteria", "es": "Bacterias buenas", "emoji": "🦠" },
+        { "en": "Tiny fish", "es": "Pececitos", "emoji": "🐟" },
+        { "en": "Small stones", "es": "Piedritas", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Trillions of helpful bacteria live in your gut, breaking down food your body cannot, and together they weigh about as much as your brain.", "es": "Billones de bacterias buenas viven en tu intestino y rompen comida que tu cuerpo no puede; juntas pesan casi como tu cerebro." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/bacteria"
+    },
+    {
+      "id": "science-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "Where do microbes grow best?", "es": "¿Dónde crecen mejor los microbios?" },
+      "choices": [
+        { "en": "In warm damp places", "es": "En lugares tibios y húmedos", "emoji": "💦" },
+        { "en": "Inside a cold freezer", "es": "Dentro de un congelador frío", "emoji": "🧊" },
+        { "en": "In bright dry sunlight", "es": "Bajo el sol seco y brillante", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Warmth and water let microbes split in two again and again; that is why we dry dishes and keep leftovers chilled.", "es": "El calor y el agua dejan que los microbios se partan en dos una y otra vez; por eso secamos platos y refrigeramos sobras." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/microorganism"
+    },
+    {
+      "id": "science-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What does boiling do to germs in water?", "es": "¿Qué le hace el hervor a los gérmenes del agua?" },
+      "choices": [
+        { "en": "It destroys them", "es": "Los destruye", "emoji": "🔥" },
+        { "en": "It makes them bigger", "es": "Los hace más grandes", "emoji": "🔍" },
+        { "en": "It turns them green", "es": "Los pone verdes", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat wrecks the delicate parts microbes need to live, which is why hospitals steam their instruments and campers boil stream water.", "es": "El calor destruye las partes delicadas que los microbios necesitan; por eso los hospitales usan vapor y los campistas hierven el agua." },
+      "topic": "tiny living things",
+      "source": "https://www.britannica.com/science/pasteurization"
+    },
+    {
+      "id": "science-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "📦",
+      "q": { "en": "Which of these makes lifting a box easier?", "es": "¿Cuál de estos facilita subir una caja?" },
+      "choices": [
+        { "en": "A ramp", "es": "Una rampa", "emoji": "🛝" },
+        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" },
+        { "en": "A rug", "es": "Un tapete", "emoji": "🧶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A ramp is a simple machine: you push the box a longer way but with far less effort than lifting it straight up.", "es": "Una rampa es una máquina simple: empujas la caja por un camino más largo, pero con mucho menos esfuerzo que alzándola." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/inclined-plane"
+    },
+    {
+      "id": "science-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "✂️",
+      "q": { "en": "Which tool is a pair of joined levers?", "es": "¿Cuál herramienta son dos palancas unidas?" },
+      "choices": [
+        { "en": "Scissors", "es": "Las tijeras", "emoji": "✂️" },
+        { "en": "A cup", "es": "Un vaso", "emoji": "🥤" },
+        { "en": "A blanket", "es": "Una cobija", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Scissors join two levers at a pin, and each blade is also a wedge, so one tool hides two simple machines.", "es": "Las tijeras unen dos palancas en un perno, y cada hoja es además una cuña, así que una herramienta esconde dos máquinas simples." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/scissors"
+    },
+    {
+      "id": "science-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "Which simple machine holds two boards together?", "es": "¿Qué máquina simple une dos tablas?" },
+      "choices": [
+        { "en": "A screw", "es": "Un tornillo", "emoji": "🔩" },
+        { "en": "A balloon", "es": "Un globo", "emoji": "🎈" },
+        { "en": "A sponge", "es": "Una esponja", "emoji": "🧽" }
+      ],
+      "answer": 0,
+      "why": { "en": "A screw is really a ramp wrapped around a post, so every turn pulls it a little deeper into the wood.", "es": "Un tornillo es en realidad una rampa enrollada en un poste, así que cada vuelta lo mete un poquito más en la madera." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/screw"
+    },
+    {
+      "id": "science-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪢",
+      "q": { "en": "Which simple machine helps raise a heavy sail?", "es": "¿Qué máquina simple ayuda a izar una vela pesada?" },
+      "choices": [
+        { "en": "A pulley", "es": "Una polea", "emoji": "🪢" },
+        { "en": "A mirror", "es": "Un espejo", "emoji": "🪞" },
+        { "en": "A cushion", "es": "Un cojín", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A pulley is a grooved wheel that turns your downward pull into an upward lift, and two pulleys halve the effort again.", "es": "Una polea es una rueda con canal que convierte tu jalón hacia abajo en un tirón hacia arriba; dos poleas reducen aún más el esfuerzo." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/pulley"
+    },
+    {
+      "id": "science-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "Which simple machine is a doorstop?", "es": "¿Qué máquina simple es un tope de puerta?" },
+      "choices": [
+        { "en": "A wedge", "es": "Una cuña", "emoji": "🔺" },
+        { "en": "A wheel", "es": "Una rueda", "emoji": "🛞" },
+        { "en": "A spring", "es": "Un resorte", "emoji": "🌀" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wedge turns a small push into a strong sideways squeeze, which is also how a doorstop grips the floor and the door.", "es": "Una cuña convierte un empujón pequeño en un apretón lateral fuerte; así el tope agarra a la vez el piso y la puerta." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/wedge-tool"
+    },
+    {
+      "id": "science-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛹",
+      "q": { "en": "Which simple machine sits under a skateboard?", "es": "¿Qué máquina simple va debajo de una patineta?" },
+      "choices": [
+        { "en": "Wheels on axles", "es": "Ruedas sobre ejes", "emoji": "🛞" },
+        { "en": "Magnets", "es": "Imanes", "emoji": "🧲" },
+        { "en": "Mirrors", "es": "Espejos", "emoji": "🪞" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wheel needs a rod called an axle to spin on; without the axle the wheel would simply roll away from you.", "es": "Una rueda necesita una barra llamada eje para girar; sin el eje la rueda simplemente se iría rodando lejos de ti." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/wheel-and-axle"
+    },
+    {
+      "id": "science-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What does a wheelbarrow help you do?", "es": "¿Para qué sirve una carretilla?" },
+      "choices": [
+        { "en": "Carry heavy loads easily", "es": "Llevar cargas pesadas con facilidad", "emoji": "🛞" },
+        { "en": "Cook dinner", "es": "Cocinar la cena", "emoji": "🍳" },
+        { "en": "Tell the time", "es": "Dar la hora", "emoji": "🕰️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wheelbarrow is a lever with a wheel: the load sits near the wheel so your arms lift only a small share.", "es": "Una carretilla es una palanca con rueda: la carga va cerca de la rueda, así que tus brazos levantan solo una parte pequeña." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/wheelbarrow"
+    },
+    {
+      "id": "science-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "What lets a heavy door swing open?", "es": "¿Qué deja que una puerta pesada gire al abrirse?" },
+      "choices": [
+        { "en": "Hinges", "es": "Las bisagras", "emoji": "🔩" },
+        { "en": "Ropes", "es": "Las cuerdas", "emoji": "🪢" },
+        { "en": "Sponges", "es": "Las esponjas", "emoji": "🧽" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hinge lets a door turn around one fixed line, and the handle sits far from it so a small push works.", "es": "Una bisagra deja que la puerta gire sobre una línea fija, y la manija está lejos de ella para que baste un empujón pequeño." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/hinge"
+    },
+    {
+      "id": "science-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "What do gears do inside a machine?", "es": "¿Qué hacen los engranes dentro de una máquina?" },
+      "choices": [
+        { "en": "Turn each other around", "es": "Se hacen girar entre sí", "emoji": "⚙️" },
+        { "en": "Make light", "es": "Hacen luz", "emoji": "💡" },
+        { "en": "Make music", "es": "Hacen música", "emoji": "🔔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gear teeth grip each other, so a small gear spins fast while a big one spins slowly with much more turning strength.", "es": "Los dientes de los engranes se agarran, así que uno pequeño gira rápido y uno grande gira lento pero con más fuerza." },
+      "topic": "simple machines",
+      "source": "https://www.britannica.com/technology/gear"
+    },
+    {
+      "id": "science-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which tool tells you how long a table is?", "es": "¿Qué herramienta te dice qué tan larga es una mesa?" },
+      "choices": [
+        { "en": "A tape measure", "es": "Una cinta métrica", "emoji": "📏" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A cup", "es": "Una taza", "emoji": "🥤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Measuring means comparing a thing to a agreed unit; the metre was once a metal bar kept safe near Paris.", "es": "Medir es comparar algo con una unidad acordada; el metro fue alguna vez una barra de metal guardada cerca de París." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/science/measurement"
+    },
+    {
+      "id": "science-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔍",
+      "q": { "en": "Which tool helps you see tiny things?", "es": "¿Qué herramienta te ayuda a ver cosas pequeñitas?" },
+      "choices": [
+        { "en": "A magnifying glass", "es": "Una lupa", "emoji": "🔍" },
+        { "en": "A telescope", "es": "Un telescopio", "emoji": "🔭" },
+        { "en": "A mirror", "es": "Un espejo", "emoji": "🪞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Its curved glass bends light so an ant looks bigger; a drop of water on plastic wrap works almost as well.", "es": "Su vidrio curvo dobla la luz y la hormiga se ve más grande; una gota de agua sobre plástico funciona casi igual." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/technology/lens"
+    },
+    {
+      "id": "science-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪛",
+      "q": { "en": "What tool turns a screw?", "es": "¿Qué herramienta hace girar un tornillo?" },
+      "choices": [
+        { "en": "A screwdriver", "es": "Un desarmador", "emoji": "🪛" },
+        { "en": "A hammer", "es": "Un martillo", "emoji": "🔨" },
+        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" }
+      ],
+      "answer": 0,
+      "why": { "en": "Its fat handle is a wheel and axle, so your fingers turn a wide circle and the thin tip turns with real strength.", "es": "Su mango grueso es una rueda con eje: tus dedos giran un círculo ancho y la punta delgada gira con mucha fuerza." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/technology/screwdriver"
+    },
+    {
+      "id": "science-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Which tool helps you draw a straight line?", "es": "¿Qué herramienta te ayuda a trazar una línea recta?" },
+      "choices": [
+        { "en": "A ruler", "es": "Una regla", "emoji": "📐" },
+        { "en": "A sponge", "es": "Una esponja", "emoji": "🧽" },
+        { "en": "A funnel", "es": "Un embudo", "emoji": "🥛" }
+      ],
+      "answer": 0,
+      "why": { "en": "A ruler has one perfectly straight edge to guide your pencil, and its marks let you measure the line afterwards.", "es": "Una regla tiene un borde perfectamente recto que guía tu lápiz, y sus marcas te dejan medir la línea después de trazarla." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/science/measurement"
+    },
+    {
+      "id": "science-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔨",
+      "q": { "en": "What part of a hammer pulls out nails?", "es": "¿Qué parte del martillo saca los clavos?" },
+      "choices": [
+        { "en": "The curved claw", "es": "La uña curva", "emoji": "🔨" },
+        { "en": "The wooden handle", "es": "El mango de madera", "emoji": "🪵" },
+        { "en": "The flat face", "es": "La cara plana", "emoji": "⬜" }
+      ],
+      "answer": 0,
+      "why": { "en": "The claw works as a lever: you pull the long handle sideways and the nail slides out with surprisingly little effort.", "es": "La uña funciona como palanca: jalas el mango largo hacia un lado y el clavo sale con sorprendentemente poco esfuerzo." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/technology/hammer-tool"
+    },
+    {
+      "id": "science-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which tool tells you how heavy something is?", "es": "¿Qué herramienta te dice cuánto pesa algo?" },
+      "choices": [
+        { "en": "A scale", "es": "Una báscula", "emoji": "⚖️" },
+        { "en": "A clock", "es": "Un reloj", "emoji": "🕰️" },
+        { "en": "A flashlight", "es": "Una linterna", "emoji": "🔦" }
+      ],
+      "answer": 0,
+      "why": { "en": "The oldest scales were two pans on a beam, and traders balanced grain against small stones kept just for weighing.", "es": "Las básculas más antiguas eran dos platos en una barra, y los comerciantes equilibraban el grano con piedritas guardadas solo para pesar." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/technology/balance-instrument"
+    },
+    {
+      "id": "science-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔧",
+      "q": { "en": "Which tool helps you tighten a bolt?", "es": "¿Qué herramienta te ayuda a apretar un perno?" },
+      "choices": [
+        { "en": "A wrench", "es": "Una llave", "emoji": "🔧" },
+        { "en": "A pencil", "es": "Un lápiz", "emoji": "✏️" },
+        { "en": "A candle", "es": "Una vela", "emoji": "🕯️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wrench is a lever, so a longer handle turns the bolt harder; mechanics grab a long one for stubborn bolts.", "es": "Una llave es una palanca, así que un mango más largo aprieta con más fuerza; los mecánicos usan llaves largas para pernos duros." },
+      "topic": "tools",
+      "source": "https://www.britannica.com/technology/wrench"
+    },
+    {
+      "id": "science-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "What holds the two sides of a zipper?", "es": "¿Qué mantiene unidos los dos lados de un cierre?" },
+      "choices": [
+        { "en": "Tiny teeth that lock", "es": "Dientes diminutos que se traban", "emoji": "🦷" },
+        { "en": "Sticky glue", "es": "Pegamento pegajoso", "emoji": "🩹" },
+        { "en": "Small magnets", "es": "Imanes pequeños", "emoji": "🧲" }
+      ],
+      "answer": 0,
+      "why": { "en": "The slider is a wedge that pushes each tooth into the gap beside the one across; pulling down simply unlocks them.", "es": "El deslizador es una cuña que mete cada diente en el hueco del de enfrente; al bajarlo, los dientes se sueltan otra vez." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/zipper"
+    },
+    {
+      "id": "science-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "How does a straw bring juice upward?", "es": "¿Cómo hace un popote que suba el jugo?" },
+      "choices": [
+        { "en": "You suck the air out", "es": "Sacas el aire de adentro", "emoji": "💨" },
+        { "en": "The juice climbs alone", "es": "El jugo sube solo", "emoji": "🧃" },
+        { "en": "The straw squeezes it", "es": "El popote lo aprieta", "emoji": "🤏" }
+      ],
+      "answer": 0,
+      "why": { "en": "With less air inside, the air pressing on the drink pushes it up the straw; in space a straw would fail.", "es": "Con menos aire adentro, el aire que empuja la bebida la sube por el tubo; en el espacio un popote no serviría." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/science/atmospheric-pressure"
+    },
+    {
+      "id": "science-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "What does a thermometer measure?", "es": "¿Qué mide un termómetro?" },
+      "choices": [
+        { "en": "How hot or cold", "es": "Qué tan caliente o frío", "emoji": "🌡️" },
+        { "en": "How heavy", "es": "Cuánto pesa", "emoji": "⚖️" },
+        { "en": "How loud", "es": "Qué tan fuerte suena", "emoji": "🔔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Liquid inside swells when warmed and creeps up the thin tube, and the same number can read 20 °C or 68 °F.", "es": "El líquido de adentro se expande con el calor y sube por el tubito, y el mismo punto puede marcar 20 °C o 68 °F." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/thermometer"
+    },
+    {
+      "id": "science-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What keeps food cold inside a fridge?", "es": "¿Qué mantiene fría la comida dentro del refrigerador?" },
+      "choices": [
+        { "en": "A pump moving heat outside", "es": "Una máquina que saca el calor", "emoji": "🔄" },
+        { "en": "A big block of ice", "es": "Un gran bloque de hielo", "emoji": "🧊" },
+        { "en": "A fan blowing snow", "es": "Un ventilador que sopla nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fridge does not make cold; it carries heat out through the warm coils on its back, so feel them sometime.", "es": "Un refrigerador no fabrica frío: saca el calor por los tubos tibios de su parte trasera; tócalos alguna vez y verás." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/refrigeration"
+    },
+    {
+      "id": "science-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "☂️",
+      "q": { "en": "What keeps rain from soaking an umbrella?", "es": "¿Qué impide que la lluvia empape un paraguas?" },
+      "choices": [
+        { "en": "Cloth that water rolls off", "es": "Tela por la que el agua resbala", "emoji": "☂️" },
+        { "en": "Tiny holes in it", "es": "Agujeritos en la tela", "emoji": "🕳️" },
+        { "en": "A layer of sugar", "es": "Una capa de azúcar", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "The cloth is coated so drops bead up and slide away, the same trick a duck uses with oil on its feathers.", "es": "La tela lleva una capa para que las gotas se agrupen y resbalen, el mismo truco del pato con el aceite de sus plumas." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/umbrella"
+    },
+    {
+      "id": "science-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "What makes a bicycle wheel turn?", "es": "¿Qué hace girar la rueda de una bicicleta?" },
+      "choices": [
+        { "en": "A chain over toothed rings", "es": "Una cadena sobre ruedas dentadas", "emoji": "⛓️" },
+        { "en": "A hidden magnet", "es": "Un imán escondido", "emoji": "🧲" },
+        { "en": "A coiled spring", "es": "Un resorte enrollado", "emoji": "🌀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your pedals turn a big toothed ring that drags the chain, which spins a smaller ring on the back wheel faster.", "es": "Los pedales giran una rueda dentada grande que jala la cadena, y esta hace girar más rápido una rueda dentada pequeña atrás." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/bicycle"
+    },
+    {
+      "id": "science-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔑",
+      "q": { "en": "What makes a key open only one lock?", "es": "¿Qué hace que una llave abra una sola cerradura?" },
+      "choices": [
+        { "en": "Its bumpy shape", "es": "Su forma con dientes", "emoji": "🔑" },
+        { "en": "Its shiny color", "es": "Su color brillante", "emoji": "🎨" },
+        { "en": "Its heavy weight", "es": "Su peso pesado", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The bumps lift a row of hidden pins to exactly the right heights, and only then can the barrel turn.", "es": "Los dientes levantan una fila de pernos escondidos hasta la altura exacta, y solo entonces el cilindro puede girar." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/lock-security"
+    },
+    {
+      "id": "science-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩴",
+      "q": { "en": "What makes hook and loop tape stick?", "es": "¿Qué hace que la cinta de gancho y bucle pegue?" },
+      "choices": [
+        { "en": "Tiny hooks catching loops", "es": "Ganchitos que atrapan bucles", "emoji": "🪝" },
+        { "en": "Wet sticky glue", "es": "Pegamento húmedo", "emoji": "🩹" },
+        { "en": "Hidden magnets", "es": "Imanes escondidos", "emoji": "🧲" }
+      ],
+      "answer": 0,
+      "why": { "en": "An engineer copied burrs that stuck to his dog after a walk, which is why one side feels rough and one soft.", "es": "Un ingeniero copió los abrojos que se pegaron a su perro en un paseo; por eso un lado es áspero y otro suave." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/fastener"
+    },
+    {
+      "id": "science-easy-069", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What is a window usually made of?", "es": "¿De qué está hecha casi siempre una ventana?" },
+      "choices": [
+        { "en": "Glass", "es": "El vidrio", "emoji": "🪟" },
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" },
+        { "en": "Rubber", "es": "El caucho", "emoji": "🩴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Glass is made by melting sand in a very hot oven, which is why it looks a little like clear ice.", "es": "El vidrio se hace derritiendo arena en un horno muy caliente, por eso se parece un poco al hielo transparente." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/glass/353128"
+    },
+    {
+      "id": "science-easy-070", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which material comes from a sheep?", "es": "¿Qué material viene de una oveja?" },
+      "choices": [
+        { "en": "Plastic", "es": "El plástico", "emoji": "🧴" },
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" },
+        { "en": "Glass", "es": "El vidrio", "emoji": "🪟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sheep grow a woolly coat every year, and a haircut gives the wool; it still warms you when it is damp.", "es": "Las ovejas se dejan crecer lana cada año, y un corte de pelo la da; la lana abriga aunque esté húmeda." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/wool/353911"
+    },
+    {
+      "id": "science-easy-071", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What are most car tires made of?", "es": "¿De qué están hechas casi todas las llantas?" },
+      "choices": [
+        { "en": "Paper", "es": "El papel", "emoji": "📄" },
+        { "en": "Glass", "es": "El vidrio", "emoji": "🪟" },
+        { "en": "Rubber", "es": "El caucho", "emoji": "🛞" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rubber starts as milky sap that drips from a cut in a rubber tree, and it springs back into shape.", "es": "El caucho empieza como una savia lechosa que gotea de un corte en el árbol del caucho, y recupera su forma." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/rubber/353679"
+    },
+    {
+      "id": "science-easy-072", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What is paper mostly made from?", "es": "¿De qué está hecho casi todo el papel?" },
+      "choices": [
+        { "en": "Wood", "es": "La madera", "emoji": "🪵" },
+        { "en": "Metal", "es": "El metal", "emoji": "🔩" },
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Paper is made from wood fibers mashed into a soupy pulp, pressed flat and dried; old paper can be mashed again.", "es": "El papel se hace con fibras de madera molidas en una pasta aguada, prensadas y secadas; el papel viejo se muele otra vez." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/paper/353452"
+    },
+    {
+      "id": "science-easy-073", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which material rusts when left out wet?", "es": "¿Qué material se oxida si queda mojado?" },
+      "choices": [
+        { "en": "Plastic", "es": "El plástico", "emoji": "🧴" },
+        { "en": "Metal", "es": "El metal", "emoji": "🔩" },
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Iron and water and air slowly make rust, a flaky orange coat, and a layer of paint keeps the air away.", "es": "El hierro con agua y aire forma óxido, una capa naranja que se descascara, y una mano de pintura lo protege." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/iron/353066"
+    },
+    {
+      "id": "science-easy-074", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which material keeps a raincoat dry inside?", "es": "¿Qué material mantiene seco un impermeable?" },
+      "choices": [
+        { "en": "Paper", "es": "El papel", "emoji": "📄" },
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" },
+        { "en": "Plastic", "es": "El plástico", "emoji": "🧴" }
+      ],
+      "answer": 2,
+      "why": { "en": "Plastic has no tiny holes for water to soak into, so drops run straight off; most plastic starts as thick oil.", "es": "El plástico carece de huequitos por donde entre el agua, así que las gotas resbalan; casi todo empieza como petróleo." },
+      "topic": "materials",
+      "source": "https://kids.nationalgeographic.com/science/article/plastic"
+    },
+    {
+      "id": "science-easy-075", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Where does cotton come from?", "es": "¿De dónde viene el algodón?" },
+      "choices": [
+        { "en": "A plant", "es": "Una planta", "emoji": "🌱" },
+        { "en": "An animal", "es": "Un animal", "emoji": "🐄" },
+        { "en": "A rock", "es": "Una roca", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cotton grows as fluffy white puffs around the seeds of a bush, and each puff is spun into long thread.", "es": "El algodón crece como copos blancos alrededor de las semillas de un arbusto, y cada copo se hila en hilo largo." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/cotton/352979"
+    },
+    {
+      "id": "science-easy-076", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What are most coins made of?", "es": "¿De qué están hechas casi todas las monedas?" },
+      "choices": [
+        { "en": "Wood", "es": "La madera", "emoji": "🪵" },
+        { "en": "Metal", "es": "El metal", "emoji": "🪙" },
+        { "en": "Glass", "es": "El vidrio", "emoji": "🪟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Coins are stamped from metal because it lasts for years without tearing, and old coins are melted down and made again.", "es": "Las monedas se estampan en metal porque dura años sin romperse, y las monedas viejas se derriten y se hacen otra vez." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/metal/399341"
+    },
+    {
+      "id": "science-easy-077", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What are bricks baked from?", "es": "¿De qué se hornean los ladrillos?" },
+      "choices": [
+        { "en": "Wool", "es": "La lana", "emoji": "🧶" },
+        { "en": "Rubber", "es": "El caucho", "emoji": "🎈" },
+        { "en": "Clay", "es": "La arcilla", "emoji": "🧱" }
+      ],
+      "answer": 2,
+      "why": { "en": "Clay is soft sticky mud that turns rock hard in a hot oven, and some clay bricks have lasted thousands of years.", "es": "La arcilla es lodo pegajoso que se vuelve duro como piedra en un horno caliente; hay ladrillos de hace miles de años." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/brick/352790"
+    },
+    {
+      "id": "science-easy-078", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What happens to a wool sweater in hot water?", "es": "¿Qué le pasa a un suéter de lana en agua caliente?" },
+      "choices": [
+        { "en": "It shrinks", "es": "Se encoge", "emoji": "👕" },
+        { "en": "It turns blue", "es": "Se pone azul", "emoji": "🔵" },
+        { "en": "It gets longer", "es": "Se hace más largo", "emoji": "📏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wool fibers have tiny scales that grab each other in hot water, so the sweater tightens up and never stretches back.", "es": "Las fibras de lana tienen escamitas que se agarran en agua caliente, así que el suéter se aprieta y ya se queda chico." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/kids/article/fiber/399093"
+    },
+    {
+      "id": "science-easy-079", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do scientists call a careful test?", "es": "¿Cómo le dicen los científicos a una prueba cuidadosa?" },
+      "choices": [
+        { "en": "A recipe", "es": "Una receta", "emoji": "📜" },
+        { "en": "An experiment", "es": "Un experimento", "emoji": "🧪" },
+        { "en": "A parade", "es": "Un desfile", "emoji": "🎉" }
+      ],
+      "answer": 1,
+      "why": { "en": "An experiment changes one thing at a time, so you can tell exactly which change made the difference; try it with plants.", "es": "Un experimento cambia una sola cosa a la vez, para saber qué causó la diferencia; pruébalo con dos plantitas iguales." },
+      "topic": "what scientists do",
+      "source": "https://www.sciencekids.co.nz/experiments.html"
+    },
+    {
+      "id": "science-easy-080", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do scientists write in their notebooks?", "es": "¿Qué escriben los científicos en sus cuadernos?" },
+      "choices": [
+        { "en": "Their dreams", "es": "Sus sueños", "emoji": "💭" },
+        { "en": "Their favorite songs", "es": "Sus canciones favoritas", "emoji": "🎵" },
+        { "en": "What they see", "es": "Lo que observan", "emoji": "👀" }
+      ],
+      "answer": 2,
+      "why": { "en": "Notes let another scientist repeat the same test and check the answer, and mistakes in old notebooks have led to discoveries.", "es": "Las notas permiten que otro científico repita la prueba y revise la respuesta; algunos errores anotados llevaron a grandes descubrimientos." },
+      "topic": "what scientists do",
+      "source": "https://kids.britannica.com/kids/article/science/353751"
+    },
+    {
+      "id": "science-easy-081", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What is a scientist's careful guess called?", "es": "¿Cómo se llama la suposición de un científico?" },
+      "choices": [
+        { "en": "A hypothesis", "es": "Una hipótesis", "emoji": "💭" },
+        { "en": "A promise", "es": "Una promesa", "emoji": "🤝" },
+        { "en": "A wish", "es": "Un deseo", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hypothesis is a guess you can test, and a guess proved wrong still teaches you something, so scientists like both answers.", "es": "Una hipótesis es una suposición que puedes probar, y una que resulta falsa también enseña algo, así que ambas respuestas sirven." },
+      "topic": "what scientists do",
+      "source": "https://www.sciencekids.co.nz/sciencefacts.html"
+    },
+    {
+      "id": "science-easy-082", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do scientists wear over their eyes?", "es": "¿Qué se ponen los científicos sobre los ojos?" },
+      "choices": [
+        { "en": "A hat", "es": "Un sombrero", "emoji": "🎩" },
+        { "en": "Goggles", "es": "Unos lentes de seguridad", "emoji": "🥽" },
+        { "en": "Gloves", "es": "Unos guantes", "emoji": "🧤" }
+      ],
+      "answer": 1,
+      "why": { "en": "Goggles seal around your eyes so splashes cannot sneak in from the side, and lab coats guard your clothes the same way.", "es": "Los lentes de seguridad se sellan alrededor de los ojos para que ninguna salpicadura entre de lado; la bata cuida la ropa." },
+      "topic": "what scientists do",
+      "source": "https://www.sciencekids.co.nz/experiments.html"
+    },
+    {
+      "id": "science-easy-083", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Who studies rocks for a living?", "es": "¿Quién estudia las rocas como trabajo?" },
+      "choices": [
+        { "en": "A baker", "es": "Un panadero", "emoji": "🥐" },
+        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" },
+        { "en": "A geologist", "es": "Un geólogo", "emoji": "🪨" }
+      ],
+      "answer": 2,
+      "why": { "en": "A geologist reads layers of rock like pages in a book, and the deepest layers were laid down the longest ago.", "es": "Un geólogo lee las capas de roca como páginas de un libro, y las capas más hondas se formaron hace muchísimo tiempo." },
+      "topic": "what scientists do",
+      "source": "https://kids.britannica.com/kids/article/geology/353063"
+    },
+    {
+      "id": "science-easy-084", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do scientists use to see cells?", "es": "¿Qué usan los científicos para ver células?" },
+      "choices": [
+        { "en": "A microscope", "es": "Un microscopio", "emoji": "🔬" },
+        { "en": "A telescope", "es": "Un telescopio", "emoji": "🔭" },
+        { "en": "A mirror", "es": "Un espejo", "emoji": "🪞" }
+      ],
+      "answer": 0,
+      "why": { "en": "A microscope stacks two lenses so it can magnify hundreds of times, and the first ones showed that pond water is crowded.", "es": "Un microscopio junta dos lentes y agranda cientos de veces; los primeros mostraron que el agua de un charco está llena de vida." },
+      "topic": "what scientists do",
+      "source": "https://kids.britannica.com/kids/article/microscope/353339"
+    },
+    {
+      "id": "science-easy-085", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do scientists do when a test fails?", "es": "¿Qué hacen los científicos cuando una prueba falla?" },
+      "choices": [
+        { "en": "Give up", "es": "Se rinden", "emoji": "🛑" },
+        { "en": "Try again", "es": "Lo intentan otra vez", "emoji": "🔁" },
+        { "en": "Hide it", "es": "Lo esconden", "emoji": "🙈" }
+      ],
+      "answer": 1,
+      "why": { "en": "A test that fails narrows down the answer, so scientists often repeat an experiment many times before they trust what they found.", "es": "Una prueba fallida ayuda a descartar respuestas, por eso los científicos repiten un experimento muchas veces antes de confiar en él." },
+      "topic": "what scientists do",
+      "source": "https://www.sciencekids.co.nz/experiments.html"
+    },
+    {
+      "id": "science-easy-086", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which person spends the day studying plants?", "es": "¿Qué persona pasa el día estudiando plantas?" },
+      "choices": [
+        { "en": "A chef", "es": "Un cocinero", "emoji": "🍳" },
+        { "en": "A driver", "es": "Un chofer", "emoji": "🚗" },
+        { "en": "A botanist", "es": "Un botánico", "emoji": "🌿" }
+      ],
+      "answer": 2,
+      "why": { "en": "A botanist may spend years watching one plant, and some seeds dug from old ground have sprouted after a thousand years.", "es": "Un botánico puede pasar años observando una sola planta, y algunas semillas halladas en tierra antigua brotaron después de mil años." },
+      "topic": "what scientists do",
+      "source": "https://kids.britannica.com/kids/article/botany/352784"
+    },
+    {
+      "id": "science-easy-087", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which tool is used to cut wood?", "es": "¿Qué herramienta sirve para cortar madera?" },
+      "choices": [
+        { "en": "A saw", "es": "Un serrucho", "emoji": "🪚" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A sponge", "es": "Una esponja", "emoji": "🧽" }
+      ],
+      "answer": 0,
+      "why": { "en": "A saw has a row of tiny wedges, and each tooth scrapes out a little wood as you push and pull.", "es": "Un serrucho tiene una fila de cuñas diminutas, y cada diente saca un poco de madera cuando empujas y jalas." },
+      "topic": "tools",
+      "source": "https://kids.britannica.com/kids/article/tool/353836"
+    },
+    {
+      "id": "science-easy-088", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which tool shows if a shelf is straight?", "es": "¿Qué herramienta muestra si un estante está derecho?" },
+      "choices": [
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" },
+        { "en": "A bubble level", "es": "Un nivel de burbuja", "emoji": "🫧" },
+        { "en": "A funnel", "es": "Un embudo", "emoji": "🔻" }
+      ],
+      "answer": 1,
+      "why": { "en": "A level holds a tube of liquid with one bubble inside, and the bubble floats to the very highest spot every time.", "es": "Un nivel tiene un tubo con líquido y una burbuja adentro, y la burbuja siempre sube al punto más alto del tubo." },
+      "topic": "tools",
+      "source": "https://www.exploratorium.edu/explore/tools"
+    },
+    {
+      "id": "science-easy-089", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which tool holds wood while glue dries?", "es": "¿Qué herramienta sujeta la madera mientras seca el pegamento?" },
+      "choices": [
+        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A clamp", "es": "Una prensa", "emoji": "🗜️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A clamp is a screw with jaws, so it can squeeze for hours while your hands go and do something else.", "es": "Una prensa es un tornillo con quijadas, así que puede apretar durante horas mientras tus manos hacen otra cosa." },
+      "topic": "tools",
+      "source": "https://kids.britannica.com/kids/article/tool/353836"
+    },
+    {
+      "id": "science-easy-090", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What pushes the water down a toilet?", "es": "¿Qué empuja el agua dentro del inodoro?" },
+      "choices": [
+        { "en": "A rush of water", "es": "Un chorro de agua", "emoji": "🚽" },
+        { "en": "A tiny motor", "es": "Un motorcito", "emoji": "⚙️" },
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" }
+      ],
+      "answer": 0,
+      "why": { "en": "The tank dumps its water fast, and the bent pipe behind the bowl fills up and pulls the rest down.", "es": "El tanque suelta su agua de golpe, y el tubo curvo detrás de la taza se llena y jala el resto hacia abajo." },
+      "topic": "how things work",
+      "source": "https://www.smithsonianmag.com/innovation/the-history-of-the-flush-toilet-180962953/"
+    },
+    {
+      "id": "science-easy-091", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What cuts the lid off a can?", "es": "¿Qué corta la tapa de una lata?" },
+      "choices": [
+        { "en": "Hot steam", "es": "Vapor caliente", "emoji": "💨" },
+        { "en": "A sharp little wheel", "es": "Una rueda filosa", "emoji": "⚙️" },
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" }
+      ],
+      "answer": 1,
+      "why": { "en": "Turning the handle rolls a sharp wheel around the rim, and the wheel presses hard enough to slice thin metal.", "es": "Al girar la manija, una rueda filosa recorre el borde y aprieta lo suficiente para cortar el metal delgado de la lata." },
+      "topic": "how things work",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/technology.html"
+    },
+    {
+      "id": "science-easy-092", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "How does an eraser remove pencil marks?", "es": "¿Cómo quita el borrador las marcas de lápiz?" },
+      "choices": [
+        { "en": "It washes them off", "es": "Las lava con agua", "emoji": "💧" },
+        { "en": "It paints them white", "es": "Las pinta de blanco", "emoji": "🧴" },
+        { "en": "It grabs the dark bits", "es": "Agarra los granitos oscuros", "emoji": "🩹" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pencil marks are loose grains sitting on paper, and soft rubber grabs them better than the paper does, then crumbs away.", "es": "Las marcas del lápiz son granitos sueltos sobre el papel, y la goma los agarra mejor que el papel y se desmorona." },
+      "topic": "how things work",
+      "source": "https://kids.britannica.com/kids/article/pencil/353474"
+    },
+    {
+      "id": "science-easy-093", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What keeps a thermos drink hot longer?", "es": "¿Qué mantiene caliente la bebida de un termo?" },
+      "choices": [
+        { "en": "A gap with almost no air", "es": "Un hueco casi sin aire", "emoji": "🕳️" },
+        { "en": "A tiny fire", "es": "Un fueguito", "emoji": "🔥" },
+        { "en": "Thick paper", "es": "Papel grueso", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat needs something to travel through, so the empty gap between two walls slows it down and shiny walls bounce it back.", "es": "El calor necesita algo por donde viajar, así que el hueco vacío entre dos paredes lo frena y las paredes brillantes lo rebotan." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/thermos"
+    },
+    {
+      "id": "science-easy-094", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Which way do a plant's roots grow?", "es": "¿Hacia dónde crecen las raíces de una planta?" },
+      "choices": [
+        { "en": "Up toward the clouds", "es": "Hacia las nubes", "emoji": "☁️" },
+        { "en": "Down into the soil", "es": "Hacia abajo, a la tierra", "emoji": "⬇️" },
+        { "en": "Sideways to the Sun", "es": "De lado, hacia el Sol", "emoji": "☀️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Roots sense which way is down and follow it while the stem grows the other way; turn a seedling and both bend back.", "es": "Las raíces sienten dónde está abajo y lo siguen, y el tallo crece al revés; voltea una plantita y ambos se enderezan." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/kids/article/root/353658"
+    },
+    {
+      "id": "science-easy-095", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What do many tree leaves do in autumn?", "es": "¿Qué hacen muchas hojas de los árboles en otoño?" },
+      "choices": [
+        { "en": "Turn into flowers", "es": "Se vuelven flores", "emoji": "🌸" },
+        { "en": "Grow much bigger", "es": "Crecen mucho más", "emoji": "🍃" },
+        { "en": "Change color and fall", "es": "Cambian de color y caen", "emoji": "🍂" }
+      ],
+      "answer": 2,
+      "why": { "en": "The tree stops making green chlorophyll, so orange and yellow colors that were hiding in the leaf all summer finally show.", "es": "El árbol deja de fabricar clorofila verde, y entonces se ven los tonos naranjas y amarillos que estuvieron escondidos todo el verano." },
+      "topic": "plants",
+      "source": "https://kids.nationalgeographic.com/nature/article/why-leaves-change-color"
+    },
+    {
+      "id": "science-easy-096", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "Where do germs hide on your hands?", "es": "¿Dónde se esconden los gérmenes en tus manos?" },
+      "choices": [
+        { "en": "Under your fingernails", "es": "Debajo de las uñas", "emoji": "💅" },
+        { "en": "On your knuckles", "es": "En los nudillos", "emoji": "✊" },
+        { "en": "In your palm lines", "es": "En las líneas de la palma", "emoji": "🤚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nails make a little cave that soap struggles to reach, so scrub under them and between your fingers, which people often skip.", "es": "Las uñas forman una cuevita a la que el jabón llega con trabajo; talla debajo de ellas y entre los dedos, que casi todos olvidan." },
+      "topic": "tiny living things",
+      "source": "https://kids.britannica.com/kids/article/germ/399126"
+    },
+    {
+      "id": "science-easy-097", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What breaks fallen leaves down into soil?", "es": "¿Qué convierte las hojas caídas en tierra?" },
+      "choices": [
+        { "en": "The wind", "es": "El viento", "emoji": "💨" },
+        { "en": "Tiny microbes", "es": "Los microbios diminutos", "emoji": "🦠" },
+        { "en": "Sunlight", "es": "La luz del Sol", "emoji": "☀️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Microbes and worms eat dead leaves and leave crumbly dark soil, which is why a forest floor keeps feeding its trees.", "es": "Los microbios y las lombrices comen hojas muertas y dejan tierra oscura y suelta; por eso el bosque alimenta a sus propios árboles." },
+      "topic": "tiny living things",
+      "source": "https://kids.nationalgeographic.com/nature/article/decomposers"
+    },
+    {
+      "id": "science-easy-098", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What happens when you mix cornstarch and water?", "es": "¿Qué pasa si mezclas maicena con agua?" },
+      "choices": [
+        { "en": "It disappears completely", "es": "Desaparece por completo", "emoji": "✨" },
+        { "en": "It turns into ice", "es": "Se convierte en hielo", "emoji": "🧊" },
+        { "en": "It gets hard when squeezed", "es": "Se endurece al apretarla", "emoji": "🤏" }
+      ],
+      "answer": 2,
+      "why": { "en": "Squeezing jams the tiny grains together so the goo feels solid, then it runs like liquid again; mix two spoonfuls at home.", "es": "Al apretarla, los granitos se atoran y la mezcla se siente dura, luego vuelve a escurrir; prueba con dos cucharadas en casa." },
+      "topic": "mixing",
+      "source": "https://www.exploratorium.edu/snacks/cornstarch-quicksand"
+    },
+    {
+      "id": "science-easy-099", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What happens to sugar in a hot pan?", "es": "¿Qué le pasa al azúcar en un sartén caliente?" },
+      "choices": [
+        { "en": "It melts and browns", "es": "Se derrite y se dora", "emoji": "🍮" },
+        { "en": "It turns into salt", "es": "Se convierte en sal", "emoji": "🧂" },
+        { "en": "It floats into the air", "es": "Se va volando por el aire", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Melted sugar browns into caramel and gains a nutty taste, and that same browning is what makes toast smell good.", "es": "El azúcar derretida se dora y se vuelve caramelo con sabor a nuez, y ese mismo dorado hace que el pan tostado huela rico." },
+      "topic": "kitchen science",
+      "source": "https://www.exploratorium.edu/food/cooking-and-science"
+    },
+    {
+      "id": "science-easy-100", "level": "easy", "type": "mc", "lang": "both",
+      "q": { "en": "What happens to bananas kept near apples?", "es": "¿Qué les pasa a los plátanos cerca de manzanas?" },
+      "choices": [
+        { "en": "They turn green", "es": "Se ponen verdes", "emoji": "🟢" },
+        { "en": "They ripen faster", "es": "Maduran más rápido", "emoji": "🍌" },
+        { "en": "They freeze solid", "es": "Se congelan", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Apples give off an invisible gas that tells fruit to ripen, so a paper bag with an apple softens hard fruit quickly.", "es": "Las manzanas sueltan un gas invisible que le dice a la fruta que madure; una bolsa de papel con manzana ablanda la fruta dura." },
+      "topic": "kitchen science",
+      "source": "https://www.exploratorium.edu/food/ripening"
     }
   ]
 }

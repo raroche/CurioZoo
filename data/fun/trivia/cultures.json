@@ -1,7 +1,7 @@
 {
   "note": "World Cultures & Languages. Three levels in one file so a reviewer sees the ladder.",
   "category": "cultures",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "cultures-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "👋",
@@ -12,8 +12,7 @@
         { "en": "Gracias", "es": "Gracias", "emoji": "🎁" }
       ],
       "answer": 0,
-      "why": { "en": "Hola means hello in Spanish, and you can wave your hand when you say it to a friend.",
-               "es": "\"Hola\" es la palabra en español para saludar, y puedes mover la mano cuando se lo dices a un amigo." },
+      "why": { "en": "Hola means hello in Spanish, and you can wave your hand when you say it to a friend.", "es": "\"Hola\" es la palabra en español para saludar, y puedes mover la mano cuando se lo dices a un amigo." },
       "topic": "greetings",
       "source": "https://www.britannica.com/topic/Spanish-language"
     },
@@ -26,8 +25,7 @@
         { "en": "A piñata", "es": "Una piñata", "emoji": "🪅" }
       ],
       "answer": 2,
-      "why": { "en": "Children take turns hitting a piñata with a stick until it breaks and the candy falls out.",
-               "es": "Los niños se turnan para pegarle a la piñata con un palo hasta que se rompe y caen los dulces." },
+      "why": { "en": "Children take turns hitting a piñata with a stick until it breaks and the candy falls out.", "es": "Los niños se turnan para pegarle a la piñata con un palo hasta que se rompe y caen los dulces." },
       "topic": "celebrations",
       "source": "https://www.britannica.com/topic/pinata"
     },
@@ -40,15 +38,13 @@
         { "en": "A pencil", "es": "Un lápiz", "emoji": "✏️" }
       ],
       "answer": 1,
-      "why": { "en": "Chopsticks are two thin sticks held in one hand; people in China, Japan and Korea use them every day.",
-               "es": "Los palillos son dos varitas delgadas que se toman con una mano; en China, Japón y Corea se usan todos los días." },
+      "why": { "en": "Chopsticks are two thin sticks held in one hand; people in China, Japan and Korea use them every day.", "es": "Los palillos son dos varitas delgadas que se toman con una mano; en China, Japón y Corea se usan todos los días." },
       "topic": "food around the world",
       "source": "https://www.britannica.com/topic/chopsticks"
     },
     {
       "id": "cultures-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌼",
-      "q": { "en": "Día de Muertos, with bright orange marigolds, is a famous celebration from which country?",
-             "es": "¿De qué país es la famosa celebración del Día de Muertos, con flores de cempasúchil?" },
+      "q": { "en": "Día de Muertos, with bright orange marigolds, is a famous celebration from which country?", "es": "¿De qué país es la famosa celebración del Día de Muertos, con flores de cempasúchil?" },
       "choices": [
         { "en": "Spain", "es": "España" },
         { "en": "Mexico", "es": "México" },
@@ -56,8 +52,7 @@
         { "en": "Peru", "es": "Perú" }
       ],
       "answer": 1,
-      "why": { "en": "In Mexico, families build colorful altars with marigolds, photos and favorite foods to remember loved ones on November 1 and 2.",
-               "es": "En México, las familias hacen altares con cempasúchil, fotos y comidas favoritas para recordar a sus seres queridos el 1 y 2 de noviembre." },
+      "why": { "en": "In Mexico, families build colorful altars with marigolds, photos and favorite foods to remember loved ones on November 1 and 2.", "es": "En México, las familias hacen altares con cempasúchil, fotos y comidas favoritas para recordar a sus seres queridos el 1 y 2 de noviembre." },
       "topic": "festivals",
       "source": "https://www.britannica.com/topic/Day-of-the-Dead"
     },
@@ -71,8 +66,7 @@
         { "en": "12", "es": "12" }
       ],
       "answer": 3,
-      "why": { "en": "Each year of the Chinese zodiac belongs to one of twelve animals, starting with the rat and ending with the pig.",
-               "es": "Cada año del zodiaco chino corresponde a uno de doce animales: empieza con la rata y termina con el cerdo." },
+      "why": { "en": "Each year of the Chinese zodiac belongs to one of twelve animals, starting with the rat and ending with the pig.", "es": "Cada año del zodiaco chino corresponde a uno de doce animales: empieza con la rata y termina con el cerdo." },
       "topic": "festivals and calendars",
       "source": "https://www.britannica.com/topic/Chinese-zodiac"
     },
@@ -86,15 +80,13 @@
         { "en": "Italian", "es": "Italiano" }
       ],
       "answer": 2,
-      "why": { "en": "Brazil was once ruled by Portugal, so Portuguese is its language, even though its neighbors mostly speak Spanish.",
-               "es": "Brasil fue colonia de Portugal, por eso habla portugués, aunque casi todos sus vecinos hablan español." },
+      "why": { "en": "Brazil was once ruled by Portugal, so Portuguese is its language, even though its neighbors mostly speak Spanish.", "es": "Brasil fue colonia de Portugal, por eso habla portugués, aunque casi todos sus vecinos hablan español." },
       "topic": "languages of big countries",
       "source": "https://www.britannica.com/place/Brazil"
     },
     {
       "id": "cultures-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥑",
-      "q": { "en": "The English words tomato and avocado come from which language spoken by the Aztecs?",
-             "es": "¿De qué idioma de los aztecas vienen las palabras \"tomate\" y \"aguacate\"?" },
+      "q": { "en": "The English words tomato and avocado come from which language spoken by the Aztecs?", "es": "¿De qué idioma de los aztecas vienen las palabras \"tomate\" y \"aguacate\"?" },
       "choices": [
         { "en": "Nahuatl", "es": "Náhuatl" },
         { "en": "Quechua", "es": "Quechua" },
@@ -102,15 +94,13 @@
         { "en": "Guarani", "es": "Guaraní" }
       ],
       "answer": 0,
-      "why": { "en": "In Nahuatl, tomatl meant tomato and ahuacatl meant avocado; Spanish borrowed these words first, and English borrowed them from Spanish.",
-               "es": "En náhuatl, \"tomatl\" era el tomate y \"ahuacatl\" el aguacate; el español tomó estas palabras y el inglés las tomó del español." },
+      "why": { "en": "In Nahuatl, tomatl meant tomato and ahuacatl meant avocado; Spanish borrowed these words first, and English borrowed them from Spanish.", "es": "En náhuatl, \"tomatl\" era el tomate y \"ahuacatl\" el aguacate; el español tomó estas palabras y el inglés las tomó del español." },
       "topic": "loanwords",
       "source": "https://www.britannica.com/topic/Nahuatl-language"
     },
     {
       "id": "cultures-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
-      "q": { "en": "Spanish, French, Italian and Portuguese all grew out of which ancient language?",
-             "es": "¿De qué lengua antigua nacieron el español, el francés, el italiano y el portugués?" },
+      "q": { "en": "Spanish, French, Italian and Portuguese all grew out of which ancient language?", "es": "¿De qué lengua antigua nacieron el español, el francés, el italiano y el portugués?" },
       "choices": [
         { "en": "Greek", "es": "Griego" },
         { "en": "Arabic", "es": "Árabe" },
@@ -118,24 +108,1282 @@
         { "en": "Latin", "es": "Latín" }
       ],
       "answer": 3,
-      "why": { "en": "These are called Romance languages because they grew from the Latin spoken by the Romans, whose empire once covered much of Europe.",
-               "es": "Se llaman lenguas romances porque nacieron del latín que hablaban los romanos, cuyo imperio cubrió gran parte de Europa." },
+      "why": { "en": "These are called Romance languages because they grew from the Latin spoken by the Romans, whose empire once covered much of Europe.", "es": "Se llaman lenguas romances porque nacieron del latín que hablaban los romanos, cuyo imperio cubrió gran parte de Europa." },
       "topic": "language families",
       "source": "https://www.britannica.com/topic/Romance-languages"
     },
     {
       "id": "cultures-hard-003", "level": "hard", "type": "tf", "lang": "both",
-      "q": { "en": "Potatoes were first farmed in Ireland before they spread to South America.",
-             "es": "Las papas se cultivaron primero en Irlanda y de ahí llegaron a Sudamérica." },
+      "q": { "en": "Potatoes were first farmed in Ireland before they spread to South America.", "es": "Las papas se cultivaron primero en Irlanda y de ahí llegaron a Sudamérica." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "Potatoes were first farmed in the Andes of Peru and Bolivia thousands of years ago; Spanish sailors later carried them to Europe.",
-               "es": "Las papas se cultivaron primero en los Andes de Perú y Bolivia hace miles de años; luego los marineros españoles las llevaron a Europa." },
+      "why": { "en": "Potatoes were first farmed in the Andes of Peru and Bolivia thousands of years ago; Spanish sailors later carried them to Europe.", "es": "Las papas se cultivaron primero en los Andes de Perú y Bolivia hace miles de años; luego los marineros españoles las llevaron a Europa." },
       "topic": "where crops come from",
       "source": "https://www.britannica.com/plant/potato"
+    },
+    {
+      "id": "cultures-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "How do you say thank you in Spanish?", "es": "¿Cómo se dice \"thank you\" en español?" },
+      "choices": [
+        { "en": "Gracias", "es": "Gracias", "emoji": "🙏" },
+        { "en": "Buenos días", "es": "Buenos días", "emoji": "☀️" },
+        { "en": "Adiós", "es": "Adiós", "emoji": "👋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gracias comes from an old word meaning a favor, and in Spain and Latin America children learn it before they can read.", "es": "\"Gracias\" viene de una palabra antigua que significa favor, y los niños la aprenden antes de saber leer." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Which word means hello in French?", "es": "¿Qué palabra significa \"hola\" en francés?" },
+      "choices": [
+        { "en": "Bonjour", "es": "Bonjour", "emoji": "🌞" },
+        { "en": "Bonbon", "es": "Bonbon", "emoji": "🍬" },
+        { "en": "Bonsoir", "es": "Bonsoir", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bonjour joins bon, meaning good, with jour, meaning day, so a French hello literally wishes you a good day.", "es": "\"Bonjour\" une \"bon\", que es bueno, con \"jour\", que es día, así que saluda deseándote un buen día." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/French-language"
+    },
+    {
+      "id": "cultures-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "In France, what do you say for thank you?", "es": "En Francia, ¿qué dices para dar las gracias?" },
+      "choices": [
+        { "en": "Merci", "es": "Merci", "emoji": "🙏" },
+        { "en": "Bonjour", "es": "Bonjour", "emoji": "👋" },
+        { "en": "Oui", "es": "Oui", "emoji": "👍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Merci grew from a Latin word for reward, and a common reply is de rien, which means it was nothing.", "es": "\"Merci\" viene de una palabra latina que significa recompensa, y se responde \"de rien\", o sea, de nada." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/French-language"
+    },
+    {
+      "id": "cultures-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙇",
+      "q": { "en": "Which greeting would you hear in Japan?", "es": "¿Qué saludo escucharías en Japón?" },
+      "choices": [
+        { "en": "Konnichiwa", "es": "Konnichiwa", "emoji": "🙇" },
+        { "en": "Spaghetti", "es": "Espagueti", "emoji": "🍝" },
+        { "en": "Namaste", "es": "Namasté", "emoji": "🙏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Konnichiwa is used in the middle of the day, and people in Japan often bow instead of shaking hands.", "es": "\"Konnichiwa\" se usa a media tarde, y en Japón las personas suelen hacer una reverencia en vez de dar la mano." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Japanese-language"
+    },
+    {
+      "id": "cultures-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Where do people greet you with aloha?", "es": "¿Dónde te saludan con la palabra \"aloha\"?" },
+      "choices": [
+        { "en": "Hawaii", "es": "Hawái", "emoji": "🌺" },
+        { "en": "Egypt", "es": "Egipto", "emoji": "🐫" },
+        { "en": "Norway", "es": "Noruega", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Aloha means both hello and goodbye in Hawaiian, and it also carries the idea of love and kindness.", "es": "\"Aloha\" significa hola y adiós en hawaiano, y también lleva la idea de cariño y amor por los demás." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Hawaiian-language"
+    },
+    {
+      "id": "cultures-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "Which language gives us the greeting jambo?", "es": "¿De qué idioma viene el saludo \"jambo\"?" },
+      "choices": [
+        { "en": "Swahili", "es": "Suajili", "emoji": "🦁" },
+        { "en": "Icelandic", "es": "Islandés", "emoji": "🧊" },
+        { "en": "Irish", "es": "Irlandés", "emoji": "☘️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Swahili is spoken across eastern Africa, and the word simba, which means lion, comes from that same language.", "es": "El suajili se habla en el este de África, y la palabra \"simba\", que significa león, viene de ese idioma." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Swahili-language"
+    },
+    {
+      "id": "cultures-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "Which word is a Japanese thank you?", "es": "¿Qué palabra es \"gracias\" en japonés?" },
+      "choices": [
+        { "en": "Arigato", "es": "Arigato", "emoji": "🙏" },
+        { "en": "Sayonara", "es": "Sayonara", "emoji": "👋" },
+        { "en": "Origami", "es": "Origami", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Arigato once meant something is rare, because a kindness felt rare and precious enough to be worth thanking someone for.", "es": "\"Arigato\" antes significaba \"es raro\", porque una bondad parecía tan rara y valiosa que merecía un agradecimiento." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Japanese-language"
+    },
+    {
+      "id": "cultures-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤝",
+      "q": { "en": "In Italy, which word means both hello and goodbye?", "es": "En Italia, ¿qué palabra significa \"hola\" y \"adiós\"?" },
+      "choices": [
+        { "en": "Ciao", "es": "Ciao", "emoji": "🤝" },
+        { "en": "Pizza", "es": "Pizza", "emoji": "🍕" },
+        { "en": "Grazie", "es": "Grazie", "emoji": "🙏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ciao began as a Venetian phrase meaning your servant, and now it is a friendly word used all over Italy.", "es": "\"Ciao\" nació de una frase veneciana que decía \"tu siervo\", y ahora es una palabra amistosa en toda Italia." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Italian-language"
+    },
+    {
+      "id": "cultures-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐼",
+      "q": { "en": "Which greeting is used in China?", "es": "¿Qué saludo se usa en China?" },
+      "choices": [
+        { "en": "Ni hao", "es": "Ni hao", "emoji": "🐼" },
+        { "en": "Hola", "es": "Hola", "emoji": "👋" },
+        { "en": "Bonjour", "es": "Bonjour", "emoji": "🥖" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ni hao means you good, a short way of asking if you are well, and it is written with two characters.", "es": "\"Ni hao\" significa \"tú bien\", una forma corta de preguntar si estás bien, y se escribe con dos caracteres." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Chinese-languages"
+    },
+    {
+      "id": "cultures-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "People in Brazil say obrigado. What does it mean?", "es": "En Brasil dicen \"obrigado\". ¿Qué significa?" },
+      "choices": [
+        { "en": "Thank you", "es": "Gracias", "emoji": "🙏" },
+        { "en": "Good night", "es": "Buenas noches", "emoji": "🌙" },
+        { "en": "See you", "es": "Nos vemos", "emoji": "👋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Obrigado means I am obliged, and a girl says obrigada instead, because the word changes to match who is speaking.", "es": "\"Obrigado\" significa \"estoy agradecido\", y una niña dice \"obrigada\", porque la palabra cambia según quién la dice." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Portuguese-language"
+    },
+    {
+      "id": "cultures-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "Which greeting comes with hands pressed together?", "es": "¿Qué saludo se hace con las manos juntas?" },
+      "choices": [
+        { "en": "Namaste", "es": "Namasté", "emoji": "🙏" },
+        { "en": "Aloha", "es": "Aloha", "emoji": "🌺" },
+        { "en": "Ciao", "es": "Ciao", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "People in India say namaste while pressing their palms together and bowing their head, a greeting that needs no touching.", "es": "En India dicen \"namasté\" juntando las palmas y bajando la cabeza, un saludo que no necesita tocar a nadie." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Hindi-language"
+    },
+    {
+      "id": "cultures-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "💐",
+      "q": { "en": "In Hawaii, what word means thank you?", "es": "En Hawái, ¿qué palabra significa \"gracias\"?" },
+      "choices": [
+        { "en": "Mahalo", "es": "Mahalo", "emoji": "💐" },
+        { "en": "Aloha", "es": "Aloha", "emoji": "👋" },
+        { "en": "Ukulele", "es": "Ukulele", "emoji": "🎸" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mahalo means thanks and also respect, and the Hawaiian alphabet uses only twelve letters plus one little mark.", "es": "\"Mahalo\" significa gracias y también respeto, y el alfabeto hawaiano tiene solo doce letras más una marquita." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Hawaiian-language"
+    },
+    {
+      "id": "cultures-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "How do you count to three in Spanish?", "es": "¿Cómo se cuenta hasta tres en español?" },
+      "choices": [
+        { "en": "Uno, dos, tres", "es": "Uno, dos, tres", "emoji": "🔢" },
+        { "en": "Un, deux, trois", "es": "Un, deux, trois", "emoji": "🥖" },
+        { "en": "Ichi, ni, san", "es": "Ichi, ni, san", "emoji": "🎎" }
+      ],
+      "answer": 0,
+      "why": { "en": "Uno, dos, tres are the first three numbers in Spanish, and children shout them before hitting a piñata.", "es": "\"Uno, dos, tres\" son los primeros números en español, y los niños los gritan antes de pegarle a la piñata." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "What tool has beads for counting?", "es": "¿Qué herramienta tiene cuentas para contar?" },
+      "choices": [
+        { "en": "An abacus", "es": "Un ábaco", "emoji": "🧮" },
+        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 0,
+      "why": { "en": "An abacus slides beads along rods, and shopkeepers in China and Japan used one long before calculators existed.", "es": "El ábaco mueve cuentas por varillas, y los comerciantes de China y Japón lo usaban mucho antes de las calculadoras." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/technology/abacus"
+    },
+    {
+      "id": "cultures-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥐",
+      "q": { "en": "Which words count one, two, three in French?", "es": "¿Qué palabras cuentan uno, dos, tres en francés?" },
+      "choices": [
+        { "en": "Un, deux, trois", "es": "Un, deux, trois", "emoji": "🥐" },
+        { "en": "Eins, zwei, drei", "es": "Eins, zwei, drei", "emoji": "🥨" },
+        { "en": "Uno, due, tre", "es": "Uno, due, tre", "emoji": "🍝" }
+      ],
+      "answer": 0,
+      "why": { "en": "French numbers get strange later: eighty is said as four twenties, which means four times twenty in French.", "es": "Los números en francés se ponen raros: el ochenta se dice \"cuatro veintes\", o sea cuatro veces veinte." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/French-language"
+    },
+    {
+      "id": "cultures-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎋",
+      "q": { "en": "In Japan, how do children count to three?", "es": "En Japón, ¿cómo cuentan hasta tres los niños?" },
+      "choices": [
+        { "en": "Ichi, ni, san", "es": "Ichi, ni, san", "emoji": "🎋" },
+        { "en": "Eins, zwei, drei", "es": "Eins, zwei, drei", "emoji": "🥨" },
+        { "en": "Uno, dos, tres", "es": "Uno, dos, tres", "emoji": "🌮" }
+      ],
+      "answer": 0,
+      "why": { "en": "In Japanese the counting word changes with the thing counted, so flat paper and long pencils use different words.", "es": "En japonés la palabra para contar cambia según la cosa: el papel plano y los lápices largos usan palabras distintas." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/Japanese-language"
+    },
+    {
+      "id": "cultures-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "In China, how many numbers show on one hand?", "es": "En China, ¿cuántos números caben en una mano?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez", "emoji": "🖐️" },
+        { "en": "Three", "es": "Tres", "emoji": "🤟" },
+        { "en": "Two", "es": "Dos", "emoji": "✌️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chinese hand signs show every number from one to ten on a single hand, so shoppers can bargain across a noisy market.", "es": "Las señas chinas muestran del uno al diez con una sola mano, así los compradores regatean en un mercado ruidoso." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/science/numeral"
+    },
+    {
+      "id": "cultures-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "The Inca counted with knots on what?", "es": "¿En qué hacían nudos los incas para contar?" },
+      "choices": [
+        { "en": "Strings", "es": "Cordones", "emoji": "🧶" },
+        { "en": "Leaves", "es": "Hojas", "emoji": "🍃" },
+        { "en": "Stones", "es": "Piedras", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Inca tied knots in colored strings called quipu, and the place of each knot told how many llamas or sacks.", "es": "Los incas hacían nudos en cordones de colores llamados quipu, y el lugar del nudo decía cuántas llamas había." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/quipu"
+    },
+    {
+      "id": "cultures-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "➖",
+      "q": { "en": "The Maya wrote numbers with dots and what?", "es": "¿Con qué escribían números los mayas, además de puntos?" },
+      "choices": [
+        { "en": "Bars", "es": "Barras", "emoji": "➖" },
+        { "en": "Circles", "es": "Círculos", "emoji": "⭕" },
+        { "en": "Stars", "es": "Estrellas", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A dot meant one and a bar meant five, and the Maya also drew a shell shape to show zero.", "es": "Un punto valía uno y una barra valía cinco, y los mayas dibujaban una concha para mostrar el cero." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/Maya-Mesoamerican-Indian-people"
+    },
+    {
+      "id": "cultures-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Which language counts moja, mbili, tatu?", "es": "¿Qué idioma cuenta \"moja, mbili, tatu\"?" },
+      "choices": [
+        { "en": "Swahili", "es": "Suajili", "emoji": "🦒" },
+        { "en": "Greek", "es": "Griego", "emoji": "🏛️" },
+        { "en": "Korean", "es": "Coreano", "emoji": "🥋" }
+      ],
+      "answer": 0,
+      "why": { "en": "Swahili is the counting language of eastern Africa, and one word, safari, simply means a journey there.", "es": "El suajili se cuenta así en el este de África, y la palabra \"safari\" allí solo significa \"viaje\"." },
+      "topic": "counting in other languages",
+      "source": "https://www.britannica.com/topic/Swahili-language"
+    },
+    {
+      "id": "cultures-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "About how many languages do people speak?", "es": "¿Más o menos cuántos idiomas se hablan en el mundo?" },
+      "choices": [
+        { "en": "About seven thousand", "es": "Como siete mil", "emoji": "🗣️" },
+        { "en": "About twenty", "es": "Como veinte", "emoji": "🔤" },
+        { "en": "About one hundred", "es": "Como cien", "emoji": "💬" }
+      ],
+      "answer": 0,
+      "why": { "en": "People speak about seven thousand languages, and almost half of them are spoken by very small groups of families.", "es": "Se hablan unos siete mil idiomas, y casi la mitad los usan grupos muy pequeños de familias en el mundo." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/topic/language"
+    },
+    {
+      "id": "cultures-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "What do we call someone who speaks two languages?", "es": "¿Cómo se llama quien habla dos idiomas?" },
+      "choices": [
+        { "en": "Bilingual", "es": "Bilingüe", "emoji": "🧠" },
+        { "en": "Triangular", "es": "Triangular", "emoji": "📐" },
+        { "en": "Binocular", "es": "Binocular", "emoji": "🔭" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bi means two and lingua means tongue, so a bilingual person carries two tongues, and more than half the world does.", "es": "\"Bi\" es dos y \"lingua\" es lengua, así que un bilingüe lleva dos lenguas, y más de medio mundo lo es." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/topic/bilingualism"
+    },
+    {
+      "id": "cultures-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤟",
+      "q": { "en": "Which language is spoken with the hands?", "es": "¿Qué idioma se habla con las manos?" },
+      "choices": [
+        { "en": "Sign language", "es": "La lengua de señas", "emoji": "🤟" },
+        { "en": "Picture language", "es": "La lengua de dibujos", "emoji": "🖼️" },
+        { "en": "Cat language", "es": "La lengua de los gatos", "emoji": "🐱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Deaf people sign with hands and faces, and there are many sign languages, so Mexican signing differs from American signing.", "es": "Las personas sordas hablan con las manos y la cara, y hay muchas lenguas de señas distintas, como la mexicana y la americana." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/topic/sign-language"
+    },
+    {
+      "id": "cultures-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Which country has over eight hundred languages?", "es": "¿Qué país tiene más de ochocientos idiomas?" },
+      "choices": [
+        { "en": "Papua New Guinea", "es": "Papúa Nueva Guinea", "emoji": "🏝️" },
+        { "en": "Iceland", "es": "Islandia", "emoji": "🧊" },
+        { "en": "Uruguay", "es": "Uruguay", "emoji": "🧉" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mountains and thick forest kept villages apart in Papua New Guinea, so each valley grew a language of its own.", "es": "Las montañas y la selva separaron a los pueblos de Papúa Nueva Guinea, y cada valle creó su propio idioma." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/place/Papua-New-Guinea"
+    },
+    {
+      "id": "cultures-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "On how many continents do people speak Spanish?", "es": "¿En cuántos continentes se habla español?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🌎" },
+        { "en": "One", "es": "Uno", "emoji": "🗺️" },
+        { "en": "Seven", "es": "Siete", "emoji": "🌐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spanish is official in Spain, across the Americas, and in Equatorial Guinea in Africa, so four continents use it daily.", "es": "El español es oficial en España, en América y en Guinea Ecuatorial, en África, así que lo usan cuatro continentes." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "How many languages does Canada use officially?", "es": "¿Cuántos idiomas oficiales usa Canadá?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "🍁" },
+        { "en": "Six", "es": "Seis", "emoji": "🏔️" },
+        { "en": "One", "es": "Uno", "emoji": "🦫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Canada prints every cereal box and road sign in English and French, because both are official languages there.", "es": "Canadá imprime cada caja de cereal y cada letrero en inglés y francés, porque los dos son idiomas oficiales." },
+      "topic": "many languages",
+      "source": "https://www.britannica.com/place/Canada"
+    },
+    {
+      "id": "cultures-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "⬅️",
+      "q": { "en": "How is Arabic written on a page?", "es": "¿Cómo se escribe el árabe en la página?" },
+      "choices": [
+        { "en": "Right to left", "es": "De derecha a izquierda", "emoji": "⬅️" },
+        { "en": "Top to bottom", "es": "De arriba hacia abajo", "emoji": "⬇️" },
+        { "en": "In circles", "es": "En círculos", "emoji": "🔄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Arabic runs right to left, so a book opens from what English readers would call the back cover.", "es": "El árabe va de derecha a izquierda, así que el libro se abre por donde en español estaría la contraportada." },
+      "topic": "writing around the world",
+      "source": "https://www.britannica.com/topic/Arabic-alphabet"
+    },
+    {
+      "id": "cultures-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🀄",
+      "q": { "en": "Which country writes with thousands of characters?", "es": "¿Qué país escribe con miles de caracteres?" },
+      "choices": [
+        { "en": "China", "es": "China", "emoji": "🀄" },
+        { "en": "Spain", "es": "España", "emoji": "💃" },
+        { "en": "Kenya", "es": "Kenia", "emoji": "🦓" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chinese writing uses a separate character for each word, and a child learns about three thousand of them in school.", "es": "La escritura china usa un carácter para cada palabra, y un niño aprende unos tres mil en la escuela." },
+      "topic": "writing around the world",
+      "source": "https://www.britannica.com/topic/Chinese-writing-system"
+    },
+    {
+      "id": "cultures-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔤",
+      "q": { "en": "Which letter does Spanish have and English lack?", "es": "¿Qué letra tiene el español y le falta al inglés?" },
+      "choices": [
+        { "en": "The letter ñ", "es": "La letra ñ", "emoji": "🔤" },
+        { "en": "The letter q", "es": "La letra q", "emoji": "🔡" },
+        { "en": "The letter z", "es": "La letra z", "emoji": "🔠" }
+      ],
+      "answer": 0,
+      "why": { "en": "The ñ began as a shortcut: busy scribes wrote a small n above another n to save room on costly paper.", "es": "La ñ nació como atajo: los copistas escribían una n pequeña encima de otra n para ahorrar papel caro." },
+      "topic": "writing around the world",
+      "source": "https://www.britannica.com/topic/alphabet-writing"
+    },
+    {
+      "id": "cultures-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "📕",
+      "q": { "en": "Which book helps you read another language?", "es": "¿Qué libro te ayuda a leer otro idioma?" },
+      "choices": [
+        { "en": "A dictionary", "es": "Un diccionario", "emoji": "📕" },
+        { "en": "A cookbook", "es": "Un libro de cocina", "emoji": "🍳" },
+        { "en": "An atlas", "es": "Un atlas", "emoji": "🗺️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A two-language dictionary lines up words side by side, and the first ones were written by hand hundreds of years ago.", "es": "Un diccionario de dos idiomas pone las palabras lado a lado, y los primeros se escribieron a mano hace siglos." },
+      "topic": "writing around the world",
+      "source": "https://www.britannica.com/topic/dictionary"
+    },
+    {
+      "id": "cultures-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪁",
+      "q": { "en": "Which country first flew kites long ago?", "es": "¿En qué país volaron las primeras cometas?" },
+      "choices": [
+        { "en": "China", "es": "China", "emoji": "🪁" },
+        { "en": "Iceland", "es": "Islandia", "emoji": "❄️" },
+        { "en": "Peru", "es": "Perú", "emoji": "🦙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Kites were made in China more than two thousand years ago from silk cloth and thin sticks of bamboo.", "es": "Las cometas se hicieron en China hace más de dos mil años, con tela de seda y varitas de bambú." },
+      "topic": "kites",
+      "source": "https://www.britannica.com/technology/kite-aeronautics"
+    },
+    {
+      "id": "cultures-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "What does a kite need to fly?", "es": "¿Qué necesita una cometa para volar?" },
+      "choices": [
+        { "en": "Wind", "es": "Viento", "emoji": "💨" },
+        { "en": "Rain", "es": "Lluvia", "emoji": "🌧️" },
+        { "en": "Snow", "es": "Nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air pushing on the tilted kite lifts it, and the tail keeps it steady so it stops spinning around.", "es": "El aire empuja la cometa inclinada y la levanta, y la cola la mantiene firme para que deje de girar." },
+      "topic": "kites",
+      "source": "https://www.britannica.com/technology/kite-aeronautics"
+    },
+    {
+      "id": "cultures-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪁",
+      "q": { "en": "Where do people fly giant paper kites?", "es": "¿Dónde vuelan cometas gigantes de papel?" },
+      "choices": [
+        { "en": "Guatemala", "es": "Guatemala", "emoji": "🪁" },
+        { "en": "Finland", "es": "Finlandia", "emoji": "🦌" },
+        { "en": "Egypt", "es": "Egipto", "emoji": "🐪" }
+      ],
+      "answer": 0,
+      "why": { "en": "In two towns in Guatemala, families build kites as wide as a house from tissue paper and bamboo poles.", "es": "En dos pueblos de Guatemala, las familias arman cometas tan anchas como una casa con papel de china y bambú." },
+      "topic": "kites",
+      "source": "https://www.britannica.com/place/Guatemala"
+    },
+    {
+      "id": "cultures-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌮",
+      "q": { "en": "Which country do tacos come from?", "es": "¿De qué país vienen los tacos?" },
+      "choices": [
+        { "en": "Mexico", "es": "México", "emoji": "🌮" },
+        { "en": "Sweden", "es": "Suecia", "emoji": "🧀" },
+        { "en": "India", "es": "India", "emoji": "🍛" }
+      ],
+      "answer": 0,
+      "why": { "en": "A taco is a folded corn tortilla, and corn was first grown in Mexico about nine thousand years ago.", "es": "El taco es una tortilla de maíz doblada, y el maíz se cultivó primero en México hace unos nueve mil años." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/taco"
+    },
+    {
+      "id": "cultures-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍣",
+      "q": { "en": "Where does sushi come from?", "es": "¿De dónde viene el sushi?" },
+      "choices": [
+        { "en": "Japan", "es": "Japón", "emoji": "🍣" },
+        { "en": "Ireland", "es": "Irlanda", "emoji": "🥔" },
+        { "en": "Morocco", "es": "Marruecos", "emoji": "🫖" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sushi started as a way to keep fish fresh in salted rice, and the rice was thrown away back then.", "es": "El sushi nació como una forma de conservar el pescado en arroz salado, y antes el arroz se tiraba." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/sushi"
+    },
+    {
+      "id": "cultures-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍕",
+      "q": { "en": "Pizza with tomato and cheese comes from where?", "es": "La pizza con tomate y queso, ¿de dónde viene?" },
+      "choices": [
+        { "en": "Italy", "es": "Italia", "emoji": "🍕" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" },
+        { "en": "Thailand", "es": "Tailandia", "emoji": "🐘" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pizza was baked in Naples, Italy, as cheap food for workers, and the tomato on top came from the Americas.", "es": "La pizza se horneaba en Nápoles, Italia, como comida barata para los obreros, y el tomate llegó de América." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/pizza"
+    },
+    {
+      "id": "cultures-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "Arepas are round cakes made from what?", "es": "¿De qué están hechas las arepas redondas?" },
+      "choices": [
+        { "en": "Corn", "es": "Maíz", "emoji": "🌽" },
+        { "en": "Rice", "es": "Arroz", "emoji": "🍚" },
+        { "en": "Potato", "es": "Papa", "emoji": "🥔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Arepas are split open and stuffed with cheese or beans, and families in Venezuela and Colombia eat them for breakfast.", "es": "Las arepas se abren y se rellenan de queso o frijoles, y en Venezuela y Colombia se comen en el desayuno." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/place/Venezuela"
+    },
+    {
+      "id": "cultures-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥟",
+      "q": { "en": "Which of these is a stuffed folded pastry?", "es": "¿Cuál de estos es un pastelito relleno y doblado?" },
+      "choices": [
+        { "en": "An empanada", "es": "Una empanada", "emoji": "🥟" },
+        { "en": "A pancake", "es": "Un panqueque", "emoji": "🥞" },
+        { "en": "A cracker", "es": "Una galleta salada", "emoji": "🍘" }
+      ],
+      "answer": 0,
+      "why": { "en": "The word empanada comes from empanar, to wrap in bread, and every country folds and seals the edge its own way.", "es": "\"Empanada\" viene de \"empanar\", envolver en pan, y cada país sella el borde con su propio repulgue." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/empanada"
+    },
+    {
+      "id": "cultures-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫔",
+      "q": { "en": "What are tamales wrapped in?", "es": "¿En qué se envuelven los tamales?" },
+      "choices": [
+        { "en": "Corn husks", "es": "Hojas de maíz", "emoji": "🌽" },
+        { "en": "Cotton cloth", "es": "Tela de algodón", "emoji": "🧵" },
+        { "en": "Paper bags", "es": "Bolsas de papel", "emoji": "🛍️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tamales steam inside corn husks or banana leaves, and people in Mexico have cooked them this way for thousands of years.", "es": "Los tamales se cuecen al vapor en hojas de maíz o de plátano, y en México se preparan así desde hace milenios." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/tamale"
+    },
+    {
+      "id": "cultures-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Which plant gives us chocolate?", "es": "¿Qué planta nos da el chocolate?" },
+      "choices": [
+        { "en": "The cacao tree", "es": "El árbol de cacao", "emoji": "🍫" },
+        { "en": "The apple tree", "es": "El manzano", "emoji": "🍎" },
+        { "en": "The palm tree", "es": "La palmera", "emoji": "🌴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chocolate comes from cacao pods that grow on tree trunks, and the Maya drank it bitter and spicy instead of sweet.", "es": "El chocolate viene de mazorcas de cacao que crecen en el tronco, y los mayas lo tomaban amargo y picante." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/chocolate"
+    },
+    {
+      "id": "cultures-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍛",
+      "q": { "en": "Where would you eat a spicy curry?", "es": "¿Dónde comerías un curry picante?" },
+      "choices": [
+        { "en": "India", "es": "India", "emoji": "🍛" },
+        { "en": "Greenland", "es": "Groenlandia", "emoji": "🧊" },
+        { "en": "Portugal", "es": "Portugal", "emoji": "🐟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Curry blends many ground spices, and the yellow color comes from turmeric, a root that stains fingers bright orange.", "es": "El curry mezcla muchas especias molidas, y el color amarillo viene de la cúrcuma, una raíz que pinta los dedos." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/curry"
+    },
+    {
+      "id": "cultures-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥖",
+      "q": { "en": "A long thin French loaf is called what?", "es": "¿Cómo se llama el pan largo y delgado de Francia?" },
+      "choices": [
+        { "en": "A baguette", "es": "Una baguete", "emoji": "🥖" },
+        { "en": "A pretzel", "es": "Un pretzel", "emoji": "🥨" },
+        { "en": "A bagel", "es": "Un bagel", "emoji": "🥯" }
+      ],
+      "answer": 0,
+      "why": { "en": "A baguette is baked crisp each morning, and its name simply means little stick in French.", "es": "La baguete se hornea crujiente cada mañana, y su nombre en francés significa simplemente \"varita\" o \"palito\"." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/bread"
+    },
+    {
+      "id": "cultures-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍜",
+      "q": { "en": "Which country has eaten noodles the longest?", "es": "¿Qué país lleva más tiempo comiendo fideos?" },
+      "choices": [
+        { "en": "China", "es": "China", "emoji": "🍜" },
+        { "en": "Brazil", "es": "Brasil", "emoji": "🥥" },
+        { "en": "Kenya", "es": "Kenia", "emoji": "🦓" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bowl of noodles four thousand years old was dug up in China, still curled inside the clay dish.", "es": "En China encontraron un tazón de fideos de cuatro mil años, todavía enrollados dentro del plato de barro." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/topic/noodle"
+    },
+    {
+      "id": "cultures-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "In Peru, which dish is fish cooked in lime?", "es": "En Perú, ¿qué platillo es pescado cocido en limón?" },
+      "choices": [
+        { "en": "Ceviche", "es": "Ceviche", "emoji": "🐟" },
+        { "en": "Waffles", "es": "Wafles", "emoji": "🧇" },
+        { "en": "Dumplings", "es": "Bolitas de masa", "emoji": "🥟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lime juice firms the raw fish without any heat, and cooks in Peru have done this for two thousand years.", "es": "El jugo de limón endurece el pescado crudo sin calor, y en Perú se prepara así desde hace dos mil años." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/place/Peru"
+    },
+    {
+      "id": "cultures-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫓",
+      "q": { "en": "In Ethiopia, what flat bread holds the food?", "es": "En Etiopía, ¿qué pan plano sostiene la comida?" },
+      "choices": [
+        { "en": "Injera", "es": "Inyera", "emoji": "🫓" },
+        { "en": "Waffle", "es": "Wafle", "emoji": "🧇" },
+        { "en": "Toast", "es": "Pan tostado", "emoji": "🍞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Injera is a soft spongy pancake used as both plate and spoon, and everyone tears pieces from the same round.", "es": "La inyera es un panqueque esponjoso que sirve de plato y de cuchara, y todos arrancan pedazos del mismo disco." },
+      "topic": "food around the world",
+      "source": "https://www.britannica.com/place/Ethiopia"
+    },
+    {
+      "id": "cultures-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪇",
+      "q": { "en": "Which instrument makes sound when you shake it?", "es": "¿Qué instrumento suena cuando lo agitas?" },
+      "choices": [
+        { "en": "Maracas", "es": "Las maracas", "emoji": "🪇" },
+        { "en": "A flute", "es": "La flauta", "emoji": "🪈" },
+        { "en": "A piano", "es": "El piano", "emoji": "🎹" }
+      ],
+      "answer": 0,
+      "why": { "en": "Maracas are dried gourds filled with seeds or tiny stones, and players in Venezuela and Cuba shake two at once.", "es": "Las maracas son calabazas secas llenas de semillas o piedritas, y en Venezuela y Cuba se agitan dos a la vez." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/maraca"
+    },
+    {
+      "id": "cultures-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "How do you play a pair of bongos?", "es": "¿Cómo se tocan los bongós?" },
+      "choices": [
+        { "en": "With your hands", "es": "Con las manos", "emoji": "🥁" },
+        { "en": "With a bow", "es": "Con un arco", "emoji": "🎻" },
+        { "en": "With your feet", "es": "Con los pies", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bongos are two small drums joined together, one higher and one lower, and they were first played in Cuba.", "es": "Los bongós son dos tambores pequeños unidos, uno agudo y otro grave, y se tocaron por primera vez en Cuba." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/bongo-drum"
+    },
+    {
+      "id": "cultures-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "Which instrument has wooden bars you hit?", "es": "¿Qué instrumento tiene barras de madera que se golpean?" },
+      "choices": [
+        { "en": "A marimba", "es": "La marimba", "emoji": "🪵" },
+        { "en": "A trumpet", "es": "La trompeta", "emoji": "🎺" },
+        { "en": "A harp", "es": "El arpa", "emoji": "🎻" }
+      ],
+      "answer": 0,
+      "why": { "en": "A marimba has hollow tubes under each bar to make the note louder, and it is the national instrument of Guatemala.", "es": "La marimba tiene tubos huecos bajo cada tabla para sonar más fuerte, y es el instrumento nacional de Guatemala." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/marimba"
+    },
+    {
+      "id": "cultures-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "The didgeridoo is a long tube from where?", "es": "El didgeridoo es un tubo largo, ¿de dónde viene?" },
+      "choices": [
+        { "en": "Australia", "es": "Australia", "emoji": "🦘" },
+        { "en": "Iceland", "es": "Islandia", "emoji": "🐟" },
+        { "en": "Mexico", "es": "México", "emoji": "🌵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Aboriginal people in Australia make it from a branch hollowed out by termites, and players breathe in while still blowing.", "es": "Los aborígenes de Australia lo hacen con una rama vaciada por termitas, y el músico respira mientras sigue soplando." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/didjeridu"
+    },
+    {
+      "id": "cultures-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "Steel drums were first made from what?", "es": "¿Con qué se hicieron los primeros tambores de acero?" },
+      "choices": [
+        { "en": "Oil barrels", "es": "Barriles de aceite", "emoji": "🛢️" },
+        { "en": "Glass jars", "es": "Frascos de vidrio", "emoji": "🫙" },
+        { "en": "Tree bark", "es": "Corteza de árbol", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Musicians in Trinidad hammered old oil barrels into bowls with dents, and each dent rings out a different note.", "es": "Los músicos de Trinidad martillaron barriles viejos hasta dejarlos como tazones, y cada abolladura suena en una nota distinta." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/steel-drum"
+    },
+    {
+      "id": "cultures-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "Which instrument is many pipes tied together?", "es": "¿Qué instrumento son muchos tubos atados juntos?" },
+      "choices": [
+        { "en": "Panpipes", "es": "La zampoña", "emoji": "🎶" },
+        { "en": "A cowbell", "es": "El cencerro", "emoji": "🔔" },
+        { "en": "A tambourine", "es": "La pandereta", "emoji": "🪘" }
+      ],
+      "answer": 0,
+      "why": { "en": "In the Andes, panpipes are cut from cane, and the longest tube gives the deepest sound of them all.", "es": "En los Andes, la zampoña se corta de caña, y el tubo más largo da el sonido más grave de todos." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/panpipe"
+    },
+    {
+      "id": "cultures-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪕",
+      "q": { "en": "Which stringed instrument is played in India?", "es": "¿Qué instrumento de cuerda se toca en India?" },
+      "choices": [
+        { "en": "The sitar", "es": "El sitar", "emoji": "🪕" },
+        { "en": "The tuba", "es": "La tuba", "emoji": "🎺" },
+        { "en": "The cello", "es": "El violonchelo", "emoji": "🎻" }
+      ],
+      "answer": 0,
+      "why": { "en": "A sitar has extra strings underneath that nobody touches; they hum on their own and make the sound shimmer.", "es": "El sitar tiene cuerdas extra por debajo que nadie toca; vibran solas y hacen que el sonido brille." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/sitar"
+    },
+    {
+      "id": "cultures-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "💃",
+      "q": { "en": "Which instrument clicks in a dancer's hands?", "es": "¿Qué instrumento suena en las manos de una bailarina?" },
+      "choices": [
+        { "en": "Castanets", "es": "Las castañuelas", "emoji": "💃" },
+        { "en": "A tuba", "es": "La tuba", "emoji": "🎺" },
+        { "en": "A drum", "es": "El tambor", "emoji": "🥁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Castanets are two shells of hard wood tied to the thumb, and flamenco dancers in Spain clack them while dancing.", "es": "Las castañuelas son dos conchas de madera dura atadas al pulgar, y las bailaoras de flamenco las repican bailando." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/castanets"
+    },
+    {
+      "id": "cultures-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪘",
+      "q": { "en": "Which drum is shaped like a goblet?", "es": "¿Qué tambor tiene forma de copa?" },
+      "choices": [
+        { "en": "The djembe", "es": "El yembé", "emoji": "🪘" },
+        { "en": "The triangle", "es": "El triángulo", "emoji": "📐" },
+        { "en": "The xylophone", "es": "El xilófono", "emoji": "🎹" }
+      ],
+      "answer": 0,
+      "why": { "en": "The djembe comes from West Africa, and one pair of hands can make it boom, slap and ring like three drums.", "es": "El yembé viene de África occidental, y un par de manos lo hace sonar grave, seco y agudo como tres tambores." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/drum"
+    },
+    {
+      "id": "cultures-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪗",
+      "q": { "en": "Which instrument you squeeze plays tango music?", "es": "¿Qué instrumento que se aprieta toca tango?" },
+      "choices": [
+        { "en": "The accordion", "es": "El acordeón", "emoji": "🪗" },
+        { "en": "The banjo", "es": "El banjo", "emoji": "🪕" },
+        { "en": "The flute", "es": "La flauta", "emoji": "🪈" }
+      ],
+      "answer": 0,
+      "why": { "en": "In Argentina, a squeezed box called the bandoneon leads tango bands, and pushing or pulling changes the note it plays.", "es": "En Argentina, el bandoneón guía las orquestas de tango, y la nota cambia según si lo abres o lo cierras." },
+      "topic": "instruments around the world",
+      "source": "https://www.britannica.com/art/accordion"
+    },
+    {
+      "id": "cultures-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "👘",
+      "q": { "en": "In Japan, what is a wrapped silk robe called?", "es": "En Japón, ¿cómo se llama la túnica de seda que se envuelve?" },
+      "choices": [
+        { "en": "A kimono", "es": "Un kimono", "emoji": "👘" },
+        { "en": "A raincoat", "es": "Un impermeable", "emoji": "🧥" },
+        { "en": "A scarf", "es": "Una bufanda", "emoji": "🧣" }
+      ],
+      "answer": 0,
+      "why": { "en": "The word kimono simply means thing to wear, and a wide belt called an obi holds the whole robe closed.", "es": "\"Kimono\" significa simplemente \"cosa para vestir\", y una faja ancha llamada obi mantiene cerrada toda la túnica." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/kimono"
+    },
+    {
+      "id": "cultures-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "A sari is one long piece of what?", "es": "El sari es una sola pieza larga, ¿de qué?" },
+      "choices": [
+        { "en": "Cloth", "es": "Tela", "emoji": "🧵" },
+        { "en": "Rope", "es": "Cuerda", "emoji": "🪢" },
+        { "en": "Paper", "es": "Papel", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A sari is wrapped and folded without a single stitch, and it can be as long as five children lying in a row.", "es": "El sari se envuelve y se pliega sin una sola costura, y puede medir lo que cinco niños acostados en fila." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/sari"
+    },
+    {
+      "id": "cultures-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎩",
+      "q": { "en": "What does a wide sombrero brim do?", "es": "¿Para qué sirve el ala ancha del sombrero?" },
+      "choices": [
+        { "en": "Makes shade", "es": "Da sombra", "emoji": "🎩" },
+        { "en": "Holds water", "es": "Guarda agua", "emoji": "🪣" },
+        { "en": "Plays music", "es": "Toca música", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "The word sombrero comes from sombra, the Spanish word for shade, so the hat is named after what it makes.", "es": "\"Sombrero\" viene de \"sombra\", así que el nombre del gorro dice exactamente lo que hace bajo el sol." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/sombrero"
+    },
+    {
+      "id": "cultures-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "How do you put on a poncho?", "es": "¿Cómo te pones un poncho?" },
+      "choices": [
+        { "en": "Over your head", "es": "Por la cabeza", "emoji": "🧥" },
+        { "en": "On your feet", "es": "Por los pies", "emoji": "👟" },
+        { "en": "Around your wrist", "es": "En la muñeca", "emoji": "⌚" }
+      ],
+      "answer": 0,
+      "why": { "en": "A poncho is a blanket with a hole for the head, and shepherds in the Andes wear thick wool ones against cold wind.", "es": "El poncho es una manta con un hueco para la cabeza, y los pastores de los Andes lo usan de lana gruesa." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/poncho"
+    },
+    {
+      "id": "cultures-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "Where do people wear a plaid kilt?", "es": "¿Dónde usan una falda escocesa a cuadros?" },
+      "choices": [
+        { "en": "Scotland", "es": "Escocia", "emoji": "🏰" },
+        { "en": "Peru", "es": "Perú", "emoji": "🦙" },
+        { "en": "Japan", "es": "Japón", "emoji": "🎎" }
+      ],
+      "answer": 0,
+      "why": { "en": "A kilt is pleated wool, and each checked pattern, called a tartan, belongs to a different Scottish family.", "es": "El kilt es de lana plisada, y cada cuadro, llamado tartán, pertenece a una familia escocesa distinta." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/kilt"
+    },
+    {
+      "id": "cultures-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌷",
+      "q": { "en": "Which country is famous for wooden shoes?", "es": "¿Qué país es famoso por sus zapatos de madera?" },
+      "choices": [
+        { "en": "The Netherlands", "es": "Países Bajos", "emoji": "🌷" },
+        { "en": "Egypt", "es": "Egipto", "emoji": "🐫" },
+        { "en": "Chile", "es": "Chile", "emoji": "🍇" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dutch farmers wore carved wooden clogs because they kept feet dry in wet fields and floated if they fell in.", "es": "Los campesinos holandeses usaban zuecos de madera porque mantenían los pies secos en el campo mojado y flotaban." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/place/Netherlands"
+    },
+    {
+      "id": "cultures-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Why do desert people wear long loose robes?", "es": "¿Por qué la gente del desierto usa túnicas largas y sueltas?" },
+      "choices": [
+        { "en": "To stay cool", "es": "Para estar frescos", "emoji": "🏜️" },
+        { "en": "To run fast", "es": "Para correr rápido", "emoji": "🏃" },
+        { "en": "To float", "es": "Para flotar", "emoji": "🛟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Loose cloth keeps the sun off skin and lets air move underneath, so a covered body actually stays cooler.", "es": "La tela suelta tapa el sol y deja pasar el aire por debajo, así que el cuerpo cubierto se mantiene fresco." },
+      "topic": "clothes around the world",
+      "source": "https://www.britannica.com/topic/dress-clothing"
+    },
+    {
+      "id": "cultures-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What is an igloo built from?", "es": "¿Con qué se construye un iglú?" },
+      "choices": [
+        { "en": "Blocks of snow", "es": "Bloques de nieve", "emoji": "🧊" },
+        { "en": "Bricks of clay", "es": "Ladrillos de barro", "emoji": "🧱" },
+        { "en": "Sheets of glass", "es": "Láminas de vidrio", "emoji": "🪟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Snow traps air, so an igloo can be warm inside even when the wind outside is far below freezing.", "es": "La nieve atrapa aire, así que un iglú puede estar tibio por dentro aunque afuera haga un frío tremendo." },
+      "topic": "houses around the world",
+      "source": "https://www.britannica.com/technology/igloo"
+    },
+    {
+      "id": "cultures-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "A yurt is a round tent from where?", "es": "La yurta es una carpa redonda, ¿de dónde viene?" },
+      "choices": [
+        { "en": "Mongolia", "es": "Mongolia", "emoji": "🐎" },
+        { "en": "Brazil", "es": "Brasil", "emoji": "🦜" },
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Families in Mongolia fold a yurt onto a cart and move it, and thick felt walls keep the wind out.", "es": "En Mongolia las familias doblan la yurta, la suben a una carreta y se mudan; el fieltro grueso frena el viento." },
+      "topic": "houses around the world",
+      "source": "https://www.britannica.com/technology/yurt"
+    },
+    {
+      "id": "cultures-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏚️",
+      "q": { "en": "Why do some houses stand on tall poles?", "es": "¿Por qué algunas casas se paran sobre postes altos?" },
+      "choices": [
+        { "en": "To stay above water", "es": "Para quedar sobre el agua", "emoji": "🌊" },
+        { "en": "To touch the clouds", "es": "Para tocar las nubes", "emoji": "☁️" },
+        { "en": "To hide from birds", "es": "Para esconderse de las aves", "emoji": "🐦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stilt houses sit above rivers and tides, so a flood passes underneath and the family stays dry upstairs.", "es": "Las casas sobre pilotes quedan encima del río y de la marea, así la inundación pasa por debajo y la familia sigue seca." },
+      "topic": "houses around the world",
+      "source": "https://www.britannica.com/technology/stilt-house"
+    },
+    {
+      "id": "cultures-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌼",
+      "q": { "en": "Which flower brightens Day of the Dead?", "es": "¿Qué flor adorna el Día de Muertos?" },
+      "choices": [
+        { "en": "The marigold", "es": "El cempasúchil", "emoji": "🌼" },
+        { "en": "The rose", "es": "La rosa", "emoji": "🌹" },
+        { "en": "The sunflower", "es": "El girasol", "emoji": "🌻" }
+      ],
+      "answer": 0,
+      "why": { "en": "Families lay orange marigold petals in a path, because the strong smell is said to guide visiting spirits home.", "es": "Las familias riegan pétalos naranjas de cempasúchil en un camino, porque se dice que su olor fuerte guía a las almas." },
+      "topic": "celebrations",
+      "source": "https://kids.nationalgeographic.com/culture/article/day-of-the-dead"
+    },
+    {
+      "id": "cultures-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "💀",
+      "q": { "en": "Day of the Dead skulls are made of what?", "es": "¿De qué están hechas las calaveritas del Día de Muertos?" },
+      "choices": [
+        { "en": "Stone", "es": "Piedra", "emoji": "🪨" },
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" },
+        { "en": "Paper", "es": "Papel", "emoji": "📄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sugar skulls are pressed in clay molds and decorated with icing, and a child's name is often written across the forehead.", "es": "Las calaveritas se moldean en barro y se adornan con azúcar de colores, y muchas veces llevan escrito el nombre de alguien." },
+      "topic": "celebrations",
+      "source": "https://folklife.si.edu/magazine/day-of-the-dead-sugar-skulls"
+    },
+    {
+      "id": "cultures-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐉",
+      "q": { "en": "Which long animal dances at Chinese New Year?", "es": "¿Qué animal largo baila en el Año Nuevo chino?" },
+      "choices": [
+        { "en": "A tiger", "es": "El tigre", "emoji": "🐅" },
+        { "en": "A whale", "es": "La ballena", "emoji": "🐋" },
+        { "en": "A dragon", "es": "El dragón", "emoji": "🐉" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dozens of dancers hold poles under a cloth dragon, and the longer the dragon, the more luck it is said to bring.", "es": "Muchos bailarines sostienen varas bajo un dragón de tela, y se dice que mientras más largo sea el dragón, más suerte trae." },
+      "topic": "celebrations",
+      "source": "https://kids.britannica.com/kids/article/Chinese-New-Year/631089"
+    },
+    {
+      "id": "cultures-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧧",
+      "q": { "en": "At Chinese New Year, which color means luck?", "es": "En el Año Nuevo chino, ¿qué color trae suerte?" },
+      "choices": [
+        { "en": "Red", "es": "El rojo", "emoji": "❤️" },
+        { "en": "Blue", "es": "El azul", "emoji": "💙" },
+        { "en": "Green", "es": "El verde", "emoji": "💚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Children receive money inside red envelopes, and families sweep the house before the holiday so old luck goes out the door.", "es": "Los niños reciben dinero en sobres rojos, y las familias barren la casa antes de la fiesta para sacar la mala suerte." },
+      "topic": "celebrations",
+      "source": "https://kids.nationalgeographic.com/celebrations/article/chinese-new-year"
+    },
+    {
+      "id": "cultures-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐭",
+      "q": { "en": "How many animals share the Chinese zodiac?", "es": "¿Cuántos animales tiene el zodiaco chino?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "🐍" },
+        { "en": "Twelve", "es": "Doce", "emoji": "🐭" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🐒" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each year takes an animal, from rat to pig, and the cycle repeats, so your grandparents may share your animal.", "es": "Cada año lleva un animal, de la rata al cerdo, y el ciclo se repite, así que tus abuelos pueden tener tu mismo animal." },
+      "topic": "celebrations",
+      "source": "https://kids.britannica.com/kids/article/Chinese-zodiac/631090"
+    },
+    {
+      "id": "cultures-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪔",
+      "q": { "en": "For Diwali, what do families light?", "es": "Para Diwali, ¿qué encienden las familias?" },
+      "choices": [
+        { "en": "Flashlights", "es": "Linternas", "emoji": "🔦" },
+        { "en": "Candles on a cake", "es": "Velas de pastel", "emoji": "🎂" },
+        { "en": "Small clay lamps", "es": "Lamparitas de barro", "emoji": "🪔" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rows of little oil lamps called diyas line doorways, and Diwali is celebrated for five nights across India and beyond.", "es": "Filas de lamparitas de aceite llamadas diyas adornan las puertas, y Diwali se celebra durante cinco noches en India y otros países." },
+      "topic": "celebrations",
+      "source": "https://kids.nationalgeographic.com/celebrations/article/diwali"
+    },
+    {
+      "id": "cultures-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "At Carnival, what covers many faces?", "es": "En el Carnaval, ¿qué cubre muchas caras?" },
+      "choices": [
+        { "en": "Masks", "es": "Las máscaras", "emoji": "🎭" },
+        { "en": "Scarves", "es": "Las bufandas", "emoji": "🧣" },
+        { "en": "Hats", "es": "Los sombreros", "emoji": "🎩" }
+      ],
+      "answer": 0,
+      "why": { "en": "Carnival parades fill streets with drums and feathers, and in Brazil whole neighborhoods spend the year sewing their costumes.", "es": "Los desfiles de Carnaval llenan las calles de tambores y plumas, y en Brasil barrios enteros cosen sus trajes durante meses." },
+      "topic": "celebrations",
+      "source": "https://kids.britannica.com/kids/article/Carnival/632612"
+    },
+    {
+      "id": "cultures-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "At Holi, what do people toss around?", "es": "En Holi, ¿qué se lanzan las personas?" },
+      "choices": [
+        { "en": "Snowballs", "es": "Bolas de nieve", "emoji": "⛄" },
+        { "en": "Colored powder", "es": "Polvos de colores", "emoji": "🎨" },
+        { "en": "Paper hats", "es": "Sombreros de papel", "emoji": "🎩" }
+      ],
+      "answer": 1,
+      "why": { "en": "Holi welcomes spring, and everyone ends up pink, green and gold, because the powders were once made from ground flowers.", "es": "Holi recibe la primavera, y todos terminan rosados, verdes y dorados, porque antes los polvos se hacían con flores molidas." },
+      "topic": "celebrations",
+      "source": "https://kids.nationalgeographic.com/celebrations/article/holi"
+    },
+    {
+      "id": "cultures-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦵",
+      "q": { "en": "In which game do you hop on squares?", "es": "¿En qué juego saltas sobre cuadros?" },
+      "choices": [
+        { "en": "Marbles", "es": "Las canicas", "emoji": "⚪" },
+        { "en": "Jump rope", "es": "La cuerda", "emoji": "🪢" },
+        { "en": "Hopscotch", "es": "La rayuela", "emoji": "🦵" }
+      ],
+      "answer": 2,
+      "why": { "en": "Hopscotch is drawn with chalk in many countries, and Roman children may have hopped similar patterns on stone roads.", "es": "La rayuela se dibuja con gis en muchos países, y quizá los niños romanos ya saltaban figuras parecidas en el piso." },
+      "topic": "games children play",
+      "source": "https://kids.britannica.com/kids/article/hopscotch/353312"
+    },
+    {
+      "id": "cultures-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔮",
+      "q": { "en": "What are most marbles made of?", "es": "¿De qué están hechas casi todas las canicas?" },
+      "choices": [
+        { "en": "Glass", "es": "Vidrio", "emoji": "🔮" },
+        { "en": "Cloth", "es": "Tela", "emoji": "🧶" },
+        { "en": "Paper", "es": "Papel", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Marbles were once rolled from clay or stone, and the colored swirl inside a glass marble is added while it is soft.", "es": "Antes las canicas se hacían de barro o piedra, y el remolino de color dentro del vidrio se agrega cuando aún está blando." },
+      "topic": "games children play",
+      "source": "https://americanhistory.si.edu/collections/object-groups/marbles"
+    },
+    {
+      "id": "cultures-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪢",
+      "q": { "en": "How many children turn a long jump rope?", "es": "¿Cuántos niños giran una cuerda larga?" },
+      "choices": [
+        { "en": "One", "es": "Uno", "emoji": "🧍" },
+        { "en": "Two", "es": "Dos", "emoji": "👭" },
+        { "en": "Six", "es": "Seis", "emoji": "👥" }
+      ],
+      "answer": 1,
+      "why": { "en": "Two turners swing the rope while others jump in, and children chant rhymes to keep everyone jumping at the same speed.", "es": "Dos niños giran la cuerda mientras los demás entran a saltar, y cantan rimas para que todos salten al mismo ritmo." },
+      "topic": "games children play",
+      "source": "https://folklife.si.edu/magazine/jump-rope-rhymes-childrens-folklore"
+    },
+    {
+      "id": "cultures-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙈",
+      "q": { "en": "Which game starts with someone counting aloud?", "es": "¿Qué juego empieza cuando alguien cuenta en voz alta?" },
+      "choices": [
+        { "en": "Tug of war", "es": "El jalón de cuerda", "emoji": "🪢" },
+        { "en": "Chess", "es": "El ajedrez", "emoji": "♟️" },
+        { "en": "Hide and seek", "es": "Las escondidas", "emoji": "🙈" }
+      ],
+      "answer": 2,
+      "why": { "en": "Children play hide and seek almost everywhere, and the counter often shouts a warning phrase before opening their eyes.", "es": "Las escondidas se juegan casi en todo el mundo, y quien cuenta suele gritar un aviso antes de abrir los ojos." },
+      "topic": "games children play",
+      "source": "https://kids.britannica.com/kids/article/hide-and-seek/353310"
+    },
+    {
+      "id": "cultures-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "Which game makes shapes from looped string?", "es": "¿Qué juego forma figuras con un hilo?" },
+      "choices": [
+        { "en": "Cat's cradle", "es": "La cuna del gato", "emoji": "🧶" },
+        { "en": "Leapfrog", "es": "El salto de rana", "emoji": "🐸" },
+        { "en": "Marbles", "es": "Las canicas", "emoji": "⚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "String figures are played from the Arctic to the Pacific islands, and some patterns tell a story as the hands move.", "es": "Las figuras de hilo se juegan desde el Ártico hasta las islas del Pacífico, y algunas cuentan un cuento al moverse." },
+      "topic": "games children play",
+      "source": "https://folklife.si.edu/magazine/string-figures-around-the-world"
+    },
+    {
+      "id": "cultures-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫓",
+      "q": { "en": "In Mexico, which bread is thin and round?", "es": "En México, ¿qué pan es delgado y redondo?" },
+      "choices": [
+        { "en": "A bagel", "es": "El bagel", "emoji": "🥯" },
+        { "en": "A tortilla", "es": "La tortilla", "emoji": "🫓" },
+        { "en": "A muffin", "es": "El panquecito", "emoji": "🧁" }
+      ],
+      "answer": 1,
+      "why": { "en": "Corn for tortillas is first soaked in lime water, which softens it and makes it healthier, and then ground into masa.", "es": "El maíz de las tortillas se cuece primero en agua con cal, lo que lo ablanda y lo hace más nutritivo." },
+      "topic": "bread of the world",
+      "source": "https://folklife.si.edu/magazine/tortilla-corn-nixtamal-mexico"
+    },
+    {
+      "id": "cultures-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Naan bread is baked inside what?", "es": "¿Dentro de qué se hornea el pan naan?" },
+      "choices": [
+        { "en": "A frying pan", "es": "Un sartén", "emoji": "🍳" },
+        { "en": "A freezer", "es": "Un congelador", "emoji": "🧊" },
+        { "en": "A clay oven", "es": "Un horno de barro", "emoji": "🏺" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bakers slap naan onto the hot wall of a clay tandoor, where it cooks in about a minute and puffs up.", "es": "Los panaderos pegan el naan en la pared caliente de un horno tandoor, donde se cuece en un minuto y se infla." },
+      "topic": "bread of the world",
+      "source": "https://kids.britannica.com/kids/article/bread/353022"
+    },
+    {
+      "id": "cultures-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥙",
+      "q": { "en": "Which bread puffs into a pocket?", "es": "¿Qué pan se infla y forma una bolsita?" },
+      "choices": [
+        { "en": "Pita bread", "es": "El pan pita", "emoji": "🫓" },
+        { "en": "A pretzel", "es": "El pretzel", "emoji": "🥨" },
+        { "en": "A bagel", "es": "El bagel", "emoji": "🥯" }
+      ],
+      "answer": 0,
+      "why": { "en": "Steam trapped inside the dough pushes the two sides apart in the hot oven, leaving a pocket cooks fill with food.", "es": "El vapor atrapado en la masa separa los dos lados dentro del horno caliente y deja una bolsita que se puede rellenar." },
+      "topic": "bread of the world",
+      "source": "https://www.si.edu/stories/flatbreads-around-world"
+    },
+    {
+      "id": "cultures-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥯",
+      "q": { "en": "Which bread is boiled before baking?", "es": "¿Qué pan se hierve antes de hornear?" },
+      "choices": [
+        { "en": "A croissant", "es": "El croissant", "emoji": "🥐" },
+        { "en": "A bagel", "es": "El bagel", "emoji": "🥯" },
+        { "en": "A baguette", "es": "La baguette", "emoji": "🥖" }
+      ],
+      "answer": 1,
+      "why": { "en": "A quick swim in boiling water sets the crust, which is why a bagel is chewy and shiny on the outside.", "es": "Un chapuzón rápido en agua hirviendo endurece la corteza, y por eso el bagel queda brillante y masticable por fuera." },
+      "topic": "bread of the world",
+      "source": "https://folklife.si.edu/magazine/how-a-bagel-is-made"
+    },
+    {
+      "id": "cultures-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧉",
+      "q": { "en": "Which drink is sipped through a metal straw?", "es": "¿Qué bebida se toma con un tubito de metal?" },
+      "choices": [
+        { "en": "Juice", "es": "El jugo", "emoji": "🧃" },
+        { "en": "Milk", "es": "La leche", "emoji": "🥛" },
+        { "en": "Mate", "es": "El mate", "emoji": "🧉" }
+      ],
+      "answer": 2,
+      "why": { "en": "Friends pass one gourd around and refill it, and the metal straw has little holes that keep the leaves out.", "es": "Los amigos se pasan la misma calabaza y la rellenan, y la bombilla tiene agujeritos que dejan las hojas afuera." },
+      "topic": "drinks around the world",
+      "source": "https://ich.unesco.org/en/RL/the-culture-of-mate"
+    },
+    {
+      "id": "cultures-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍵",
+      "q": { "en": "Tea leaves grow on what kind of plant?", "es": "¿En qué tipo de planta crecen las hojas de té?" },
+      "choices": [
+        { "en": "A bush", "es": "Un arbusto", "emoji": "🌿" },
+        { "en": "A vine", "es": "Una enredadera", "emoji": "🍇" },
+        { "en": "A cactus", "es": "Un cactus", "emoji": "🌵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Green, black and white tea all come from one bush, and the difference is only how long the leaves dry.", "es": "El té verde, el negro y el blanco salen del mismo arbusto, y solo cambia el tiempo que se secan las hojas." },
+      "topic": "drinks around the world",
+      "source": "https://kids.britannica.com/kids/article/tea/353692"
+    },
+    {
+      "id": "cultures-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "In Mexico, what makes hot chocolate foamy?", "es": "En México, ¿qué hace espumoso el chocolate caliente?" },
+      "choices": [
+        { "en": "A fork", "es": "Un tenedor", "emoji": "🍴" },
+        { "en": "A wooden whisk", "es": "Un molinillo de madera", "emoji": "🪵" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 1,
+      "why": { "en": "The wooden molinillo is twirled between both palms, and people here were drinking chocolate long before anyone added sugar.", "es": "El molinillo de madera se gira entre las dos palmas, y aquí se bebía chocolate mucho antes de que alguien le pusiera azúcar." },
+      "topic": "drinks around the world",
+      "source": "https://www.si.edu/stories/chocolate-ancient-mesoamerica"
+    },
+    {
+      "id": "cultures-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛶",
+      "q": { "en": "Which boat glides along the canals of Venice?", "es": "¿Qué barca se desliza por los canales de Venecia?" },
+      "choices": [
+        { "en": "A ferry", "es": "Un transbordador", "emoji": "⛴️" },
+        { "en": "A raft", "es": "Una balsa", "emoji": "🪵" },
+        { "en": "A gondola", "es": "Una góndola", "emoji": "🛶" }
+      ],
+      "answer": 2,
+      "why": { "en": "One person stands at the back and pushes with a single oar, and every gondola is built slightly crooked to steer straight.", "es": "Una persona va parada atrás y empuja con un solo remo, y cada góndola se construye un poco chueca para ir derecho." },
+      "topic": "boats around the world",
+      "source": "https://whc.unesco.org/en/list/394/"
+    },
+    {
+      "id": "cultures-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "On Lake Titicaca, boats are built from what?", "es": "En el lago Titicaca, ¿de qué se hacen las barcas?" },
+      "choices": [
+        { "en": "Reeds", "es": "De totora", "emoji": "🌾" },
+        { "en": "Ice", "es": "De hielo", "emoji": "🧊" },
+        { "en": "Glass", "es": "De vidrio", "emoji": "🫙" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Uros people tie bundles of totora reed into boats and even into floating islands they can live on.", "es": "Los uros amarran manojos de totora para hacer barcas y hasta islas flotantes donde viven, y las rellenan con totora nueva." },
+      "topic": "boats around the world",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/peru"
+    },
+    {
+      "id": "cultures-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "How do people make a dugout canoe?", "es": "¿Cómo se hace una canoa de tronco?" },
+      "choices": [
+        { "en": "By sewing bark", "es": "Cosiendo corteza", "emoji": "🧵" },
+        { "en": "By hollowing a log", "es": "Ahuecando un tronco", "emoji": "🪵" },
+        { "en": "By tying balloons", "es": "Amarrando globos", "emoji": "🎈" }
+      ],
+      "answer": 1,
+      "why": { "en": "Builders burn and scrape the middle of a tree trunk, and dugout canoes carried people across seas long ago.", "es": "Se quema y se raspa el centro de un tronco, y con canoas así la gente cruzó mares hace muchísimo tiempo." },
+      "topic": "boats around the world",
+      "source": "https://americanindian.si.edu/nk360/canoe-cultures"
+    },
+    {
+      "id": "cultures-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏪",
+      "q": { "en": "At a floating market, what holds the food?", "es": "En un mercado flotante, ¿qué lleva la comida?" },
+      "choices": [
+        { "en": "Wagons", "es": "Las carretas", "emoji": "🛒" },
+        { "en": "Kites", "es": "Las cometas", "emoji": "🪁" },
+        { "en": "Boats", "es": "Las barcas", "emoji": "🛶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sellers paddle from boat to boat in Thailand, cooking noodles right on the water and handing bowls up to visitors.", "es": "En Tailandia los vendedores reman de barca en barca, cocinan fideos sobre el agua y entregan los platos a los visitantes." },
+      "topic": "markets",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/thailand"
+    },
+    {
+      "id": "cultures-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤝",
+      "q": { "en": "What is trading things without money called?", "es": "¿Cómo se llama cambiar cosas sin usar dinero?" },
+      "choices": [
+        { "en": "Bartering", "es": "El trueque", "emoji": "🤝" },
+        { "en": "Saving", "es": "El ahorro", "emoji": "🐷" },
+        { "en": "Borrowing", "es": "El préstamo", "emoji": "📚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Before coins, people swapped salt, cloth and cacao beans, and cacao beans were valuable enough to buy a whole meal.", "es": "Antes de las monedas se cambiaba sal, tela y granos de cacao, y con unos granos de cacao se compraba una comida." },
+      "topic": "markets",
+      "source": "https://www.si.edu/stories/cacao-money-mesoamerica"
+    },
+    {
+      "id": "cultures-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎏",
+      "q": { "en": "What is a flag usually made of?", "es": "¿De qué material suele ser una bandera?" },
+      "choices": [
+        { "en": "Paper", "es": "Papel", "emoji": "📄" },
+        { "en": "Cloth", "es": "Tela", "emoji": "🧵" },
+        { "en": "Glass", "es": "Vidrio", "emoji": "🫙" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cloth ripples in the wind so a flag can be read from far away, and ships still send messages with flags.", "es": "La tela ondea con el viento y así la bandera se ve de lejos, y los barcos todavía mandan mensajes con banderas." },
+      "topic": "flags",
+      "source": "https://kids.britannica.com/kids/article/flag/353152"
+    },
+    {
+      "id": "cultures-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦅",
+      "q": { "en": "Which bird stands on the Mexican flag?", "es": "¿Qué ave está en la bandera mexicana?" },
+      "choices": [
+        { "en": "An owl", "es": "El búho", "emoji": "🦉" },
+        { "en": "A parrot", "es": "El loro", "emoji": "🦜" },
+        { "en": "An eagle", "es": "El águila", "emoji": "🦅" }
+      ],
+      "answer": 2,
+      "why": { "en": "The eagle perches on a cactus, from an old story about where the Mexica people were told to build their city.", "es": "El águila se para sobre un nopal, por una historia antigua sobre el lugar donde los mexicas debían fundar su ciudad." },
+      "topic": "flags",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/mexico"
+    },
+    {
+      "id": "cultures-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛺",
+      "q": { "en": "What holds up the sides of a tipi?", "es": "¿Qué sostiene las paredes de un tipi?" },
+      "choices": [
+        { "en": "Long poles", "es": "Palos largos", "emoji": "🪵" },
+        { "en": "Snow blocks", "es": "Bloques de nieve", "emoji": "🧊" },
+        { "en": "Brick walls", "es": "Paredes de ladrillo", "emoji": "🧱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plains families leaned poles into a cone, covered them with hide, and could take the whole home down in an hour.", "es": "Las familias de las llanuras paraban palos en cono, los cubrían con pieles y podían desarmar la casa en una hora." },
+      "topic": "houses around the world",
+      "source": "https://americanindian.si.edu/nk360/plains-tipi"
+    },
+    {
+      "id": "cultures-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Adobe bricks are mud mixed with what?", "es": "¿Con qué se mezcla el lodo del adobe?" },
+      "choices": [
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" },
+        { "en": "Straw", "es": "Paja", "emoji": "🌾" },
+        { "en": "Rubber", "es": "Hule", "emoji": "🎈" }
+      ],
+      "answer": 1,
+      "why": { "en": "Straw holds the mud together while it dries in the sun, and thick adobe walls keep rooms cool all day.", "es": "La paja amarra el lodo mientras se seca al sol, y las paredes gruesas de adobe mantienen los cuartos frescos." },
+      "topic": "houses around the world",
+      "source": "https://whc.unesco.org/en/list/18/"
+    },
+    {
+      "id": "cultures-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏘️",
+      "q": { "en": "Why are many island houses painted white?", "es": "¿Por qué muchas casas de las islas se pintan de blanco?" },
+      "choices": [
+        { "en": "To stay warm", "es": "Para dar calor", "emoji": "🔥" },
+        { "en": "To look shiny", "es": "Para brillar", "emoji": "✨" },
+        { "en": "To stay cool", "es": "Para estar frescas", "emoji": "☀️" }
+      ],
+      "answer": 2,
+      "why": { "en": "White paint bounces sunlight away instead of soaking it up, and the lime wash also helped keep walls clean and dry.", "es": "La pintura blanca rebota la luz del sol en vez de absorberla, y la cal también ayudaba a mantener limpias las paredes." },
+      "topic": "houses around the world",
+      "source": "https://kids.britannica.com/kids/article/Greece/345680"
+    },
+    {
+      "id": "cultures-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "What is a lullaby sung for?", "es": "¿Para qué se canta una canción de cuna?" },
+      "choices": [
+        { "en": "To help a baby sleep", "es": "Para dormir a un bebé", "emoji": "😴" },
+        { "en": "To wake everyone up", "es": "Para despertar a todos", "emoji": "⏰" },
+        { "en": "To start a race", "es": "Para empezar una carrera", "emoji": "🏁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lullabies are slow and repeat the same tune, and almost every language in the world has its own baby songs.", "es": "Las canciones de cuna son lentas y repiten la misma melodía, y casi todos los idiomas del mundo tienen las suyas." },
+      "topic": "lullabies",
+      "source": "https://folklife.si.edu/magazine/lullabies-around-the-world"
+    },
+    {
+      "id": "cultures-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "👆",
+      "q": { "en": "Which writing is read with your fingers?", "es": "¿Qué escritura se lee con los dedos?" },
+      "choices": [
+        { "en": "Printing", "es": "La imprenta", "emoji": "🖨️" },
+        { "en": "Braille", "es": "El braille", "emoji": "👆" },
+        { "en": "Handwriting", "es": "La letra a mano", "emoji": "✍️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Braille uses up to six raised dots for each letter, and it was invented by a blind teenager in France.", "es": "El braille usa hasta seis puntitos en relieve por letra, y lo inventó un joven ciego en Francia hace mucho tiempo." },
+      "topic": "writing around the world",
+      "source": "https://kids.britannica.com/kids/article/Braille/352944"
     }
   ]
 }

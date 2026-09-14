@@ -1,7 +1,7 @@
 {
   "note": "History & Inventions. Three levels in one file so a reviewer sees the ladder.",
   "category": "history",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "history-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
@@ -12,8 +12,7 @@
         { "en": "Candles", "es": "Velas", "emoji": "🕯️" }
       ],
       "answer": 2,
-      "why": { "en": "Before electric lights, people lit candles and oil lamps to see at night, and the flames could flicker in the wind.",
-               "es": "Antes de la luz eléctrica, la gente encendía velas y lámparas de aceite para ver de noche, y el viento movía las llamas." },
+      "why": { "en": "Before electric lights, people lit candles and oil lamps to see at night, and the flames could flicker in the wind.", "es": "Antes de la luz eléctrica, la gente encendía velas y lámparas de aceite para ver de noche, y el viento movía las llamas." },
       "topic": "long ago and now",
       "source": "https://www.britannica.com/technology/candle"
     },
@@ -26,8 +25,7 @@
         { "en": "Robots", "es": "Robots", "emoji": "🤖" }
       ],
       "answer": 0,
-      "why": { "en": "Kings, queens and knights lived in stone castles with thick walls, tall towers and sometimes a moat of water around them.",
-               "es": "Reyes, reinas y caballeros vivían en castillos de piedra con muros gruesos, torres altas y a veces un foso con agua alrededor." },
+      "why": { "en": "Kings, queens and knights lived in stone castles with thick walls, tall towers and sometimes a moat of water around them.", "es": "Reyes, reinas y caballeros vivían en castillos de piedra con muros gruesos, torres altas y a veces un foso con agua alrededor." },
       "topic": "castles and knights",
       "source": "https://www.britannica.com/technology/castle-architecture"
     },
@@ -40,8 +38,7 @@
         { "en": "The kite", "es": "La cometa", "emoji": "🪁" }
       ],
       "answer": 1,
-      "why": { "en": "The wheel was invented more than five thousand years ago in Mesopotamia, and potters spun clay on wheels even before carts had them.",
-               "es": "La rueda se inventó hace más de cinco mil años en Mesopotamia, y los alfareros hacían ollas con ruedas antes que las carretas." },
+      "why": { "en": "The wheel was invented more than five thousand years ago in Mesopotamia, and potters spun clay on wheels even before carts had them.", "es": "La rueda se inventó hace más de cinco mil años en Mesopotamia, y los alfareros hacían ollas con ruedas antes que las carretas." },
       "topic": "inventions",
       "source": "https://www.britannica.com/technology/wheel"
     },
@@ -55,8 +52,7 @@
         { "en": "The Aztecs", "es": "Los aztecas" }
       ],
       "answer": 2,
-      "why": { "en": "The Great Pyramid was built about 4500 years ago from more than two million stone blocks, most heavier than a car.",
-               "es": "La Gran Pirámide se construyó hace unos 4500 años con más de dos millones de bloques de piedra, casi todos más pesados que un carro." },
+      "why": { "en": "The Great Pyramid was built about 4500 years ago from more than two million stone blocks, most heavier than a car.", "es": "La Gran Pirámide se construyó hace unos 4500 años con más de dos millones de bloques de piedra, casi todos más pesados que un carro." },
       "topic": "ancient egypt",
       "source": "https://www.britannica.com/topic/Pyramids-of-Giza"
     },
@@ -70,22 +66,19 @@
         { "en": "The Wright brothers", "es": "Los hermanos Wright" }
       ],
       "answer": 3,
-      "why": { "en": "Orville and Wilbur Wright flew at Kitty Hawk, North Carolina, and their very first flight lasted just 12 seconds.",
-               "es": "Orville y Wilbur Wright volaron en Kitty Hawk, Carolina del Norte, y su primer vuelo duró apenas 12 segundos." },
+      "why": { "en": "Orville and Wilbur Wright flew at Kitty Hawk, North Carolina, and their very first flight lasted just 12 seconds.", "es": "Orville y Wilbur Wright volaron en Kitty Hawk, Carolina del Norte, y su primer vuelo duró apenas 12 segundos." },
       "topic": "inventors",
       "source": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
     },
     {
       "id": "history-medium-003", "level": "medium", "type": "tf", "lang": "both",
-      "q": { "en": "The Inca built the city of Machu Picchu high in the Andes mountains.",
-             "es": "Los incas construyeron la ciudad de Machu Picchu en lo alto de los Andes." },
+      "q": { "en": "The Inca built the city of Machu Picchu high in the Andes mountains.", "es": "Los incas construyeron la ciudad de Machu Picchu en lo alto de los Andes." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "Machu Picchu sits on a mountain ridge in Peru, and its stones fit so tightly that no mortar was needed.",
-               "es": "Machu Picchu está en una montaña de Perú, y sus piedras encajan tan bien que no necesitaron mezcla para unirlas." },
+      "why": { "en": "Machu Picchu sits on a mountain ridge in Peru, and its stones fit so tightly that no mortar was needed.", "es": "Machu Picchu está en una montaña de Perú, y sus piedras encajan tan bien que no necesitaron mezcla para unirlas." },
       "topic": "maya, aztec and inca",
       "source": "https://www.britannica.com/place/Machu-Picchu"
     },
@@ -99,15 +92,13 @@
         { "en": "1981", "es": "1981" }
       ],
       "answer": 1,
-      "why": { "en": "On July 20, 1969, Apollo 11's Neil Armstrong and Buzz Aldrin stepped onto the Moon while Michael Collins orbited above.",
-               "es": "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin, del Apolo 11, pisaron la Luna mientras Michael Collins orbitaba arriba." },
+      "why": { "en": "On July 20, 1969, Apollo 11's Neil Armstrong and Buzz Aldrin stepped onto the Moon while Michael Collins orbited above.", "es": "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin, del Apolo 11, pisaron la Luna mientras Michael Collins orbitaba arriba." },
       "topic": "space age",
       "source": "https://www.nasa.gov/mission/apollo-11/"
     },
     {
       "id": "history-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
-      "q": { "en": "Around 1450, which inventor in Germany built a printing press with movable metal type?",
-             "es": "¿Qué inventor construyó en Alemania, hacia 1450, una imprenta de tipos móviles de metal?" },
+      "q": { "en": "Around 1450, which inventor in Germany built a printing press with movable metal type?", "es": "¿Qué inventor construyó en Alemania, hacia 1450, una imprenta de tipos móviles de metal?" },
       "choices": [
         { "en": "Johannes Gutenberg", "es": "Johannes Gutenberg" },
         { "en": "Leonardo da Vinci", "es": "Leonardo da Vinci" },
@@ -115,15 +106,13 @@
         { "en": "Nicolaus Copernicus", "es": "Nicolás Copérnico" }
       ],
       "answer": 0,
-      "why": { "en": "Gutenberg's press could print pages far faster than copying by hand, so books became cheaper and more people learned to read.",
-               "es": "La imprenta de Gutenberg hacía páginas más rápido que copiarlas a mano, así que los libros se abarataron y más gente aprendió a leer." },
+      "why": { "en": "Gutenberg's press could print pages far faster than copying by hand, so books became cheaper and more people learned to read.", "es": "La imprenta de Gutenberg hacía páginas más rápido que copiarlas a mano, así que los libros se abarataron y más gente aprendió a leer." },
       "topic": "renaissance",
       "source": "https://www.britannica.com/biography/Johannes-Gutenberg"
     },
     {
       "id": "history-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
-      "q": { "en": "The idea of democracy, where citizens vote on laws, began in which ancient Greek city?",
-             "es": "¿En qué ciudad de la antigua Grecia nació la democracia, donde los ciudadanos votaban las leyes?" },
+      "q": { "en": "The idea of democracy, where citizens vote on laws, began in which ancient Greek city?", "es": "¿En qué ciudad de la antigua Grecia nació la democracia, donde los ciudadanos votaban las leyes?" },
       "choices": [
         { "en": "Sparta", "es": "Esparta" },
         { "en": "Corinth", "es": "Corinto" },
@@ -131,10 +120,1270 @@
         { "en": "Troy", "es": "Troya" }
       ],
       "answer": 2,
-      "why": { "en": "Democracy comes from Greek words meaning \"rule by the people\"; in Athens, citizens met on a hill to speak and vote.",
-               "es": "Democracia viene de palabras griegas que significan \"gobierno del pueblo\"; en Atenas, los ciudadanos se reunían en una colina para hablar y votar." },
+      "why": { "en": "Democracy comes from Greek words meaning \"rule by the people\"; in Athens, citizens met on a hill to speak and vote.", "es": "Democracia viene de palabras griegas que significan \"gobierno del pueblo\"; en Atenas, los ciudadanos se reunían en una colina para hablar y votar." },
       "topic": "ancient greece",
       "source": "https://www.britannica.com/topic/democracy"
+    },
+    {
+      "id": "history-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "✉️",
+      "q": { "en": "How did people send messages long ago?", "es": "¿Cómo enviaba la gente mensajes hace mucho tiempo?" },
+      "choices": [
+        { "en": "Letters on paper", "es": "Cartas de papel", "emoji": "✉️" },
+        { "en": "Video calls", "es": "Videollamadas", "emoji": "💻" },
+        { "en": "Text messages", "es": "Mensajes de texto", "emoji": "📱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Riders on horseback carried letters from town to town, so a single message could take many weeks to arrive.", "es": "Jinetes a caballo llevaban las cartas de pueblo en pueblo, así que un mensaje podía tardar muchas semanas en llegar." },
+      "topic": "long ago and now",
+      "source": "https://www.britannica.com/topic/postal-system"
+    },
+    {
+      "id": "history-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What kept food cold before refrigerators?", "es": "¿Qué mantenía fría la comida antes de los refrigeradores?" },
+      "choices": [
+        { "en": "Big blocks of ice", "es": "Grandes bloques de hielo", "emoji": "🧊" },
+        { "en": "Warm blankets", "es": "Cobijas calientes", "emoji": "🧣" },
+        { "en": "Paper bags", "es": "Bolsas de papel", "emoji": "🛍️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Workers cut ice from frozen lakes in winter and packed it in sawdust so it lasted all through the summer.", "es": "Los trabajadores cortaban hielo de los lagos helados en invierno y lo guardaban en aserrín para que durara todo el verano." },
+      "topic": "long ago and now",
+      "source": "https://www.britannica.com/technology/refrigeration"
+    },
+    {
+      "id": "history-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "How did children wash clothes long ago?", "es": "¿Cómo lavaban la ropa los niños hace mucho tiempo?" },
+      "choices": [
+        { "en": "By hand in a tub", "es": "A mano en una tina", "emoji": "🧺" },
+        { "en": "With a washing machine", "es": "Con una lavadora", "emoji": "🌀" },
+        { "en": "With a vacuum cleaner", "es": "Con una aspiradora", "emoji": "🧹" }
+      ],
+      "answer": 0,
+      "why": { "en": "They scrubbed clothes on a bumpy washboard and squeezed the water out by turning a wringer with a handle.", "es": "Frotaban la ropa en una tabla con surcos y sacaban el agua girando un rodillo con una manivela de madera." },
+      "topic": "long ago and now",
+      "source": "https://www.britannica.com/technology/washing-machine"
+    },
+    {
+      "id": "history-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "What is the water around a castle called?", "es": "¿Cómo se llama el agua que rodea un castillo?" },
+      "choices": [
+        { "en": "A moat", "es": "Un foso", "emoji": "🌊" },
+        { "en": "A pond", "es": "Un estanque", "emoji": "🦆" },
+        { "en": "A puddle", "es": "Un charco", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A moat is a deep ring of water that made the castle walls hard to reach, and drawbridges crossed it.", "es": "El foso es un anillo profundo de agua que dificultaba llegar a los muros, y un puente levadizo lo cruzaba." },
+      "topic": "castles and knights",
+      "source": "https://www.britannica.com/technology/moat"
+    },
+    {
+      "id": "history-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "What animal did knights ride?", "es": "¿Qué animal montaban los caballeros?" },
+      "choices": [
+        { "en": "A horse", "es": "Un caballo", "emoji": "🐴" },
+        { "en": "A penguin", "es": "Un pingüino", "emoji": "🐧" },
+        { "en": "A cow", "es": "Una vaca", "emoji": "🐄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Knights rode strong horses called destriers, and a knight's metal suit was so heavy that helpers lifted him into the saddle.", "es": "Los caballeros montaban caballos fuertes llamados destreros, y su traje de metal pesaba tanto que unos ayudantes lo subían a la silla." },
+      "topic": "castles and knights",
+      "source": "https://www.britannica.com/topic/knight"
+    },
+    {
+      "id": "history-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "Which animal lived long before people?", "es": "¿Qué animal vivió mucho antes que las personas?" },
+      "choices": [
+        { "en": "Dinosaur", "es": "El dinosaurio", "emoji": "🦕" },
+        { "en": "Kitten", "es": "El gatito", "emoji": "🐱" },
+        { "en": "Puppy", "es": "El perrito", "emoji": "🐶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dinosaurs died out about sixty-six million years ago, so no person ever saw a living one walking around.", "es": "Los dinosaurios se extinguieron hace unos sesenta y seis millones de años, así que ninguna persona vio uno vivo caminando." },
+      "topic": "dinosaurs",
+      "source": "https://www.britannica.com/animal/dinosaur"
+    },
+    {
+      "id": "history-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What do we call dinosaur bones in rock?", "es": "¿Cómo se llaman los huesos de dinosaurio en la roca?" },
+      "choices": [
+        { "en": "Fossils", "es": "Fósiles", "emoji": "🦴" },
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" },
+        { "en": "Bubbles", "es": "Burbujas", "emoji": "🫧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fossil forms when minerals slowly fill a buried bone and turn it to stone, keeping its shape for millions of years.", "es": "Un fósil se forma cuando los minerales llenan poco a poco un hueso enterrado y lo vuelven piedra por millones de años." },
+      "topic": "dinosaurs",
+      "source": "https://www.britannica.com/science/fossil"
+    },
+    {
+      "id": "history-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "Which invention carries people on two wheels?", "es": "¿Qué invento lleva a las personas sobre dos ruedas?" },
+      "choices": [
+        { "en": "The bicycle", "es": "La bicicleta", "emoji": "🚲" },
+        { "en": "The boat", "es": "El barco", "emoji": "⛵" },
+        { "en": "The kite", "es": "La cometa", "emoji": "🪁" }
+      ],
+      "answer": 0,
+      "why": { "en": "The first bicycles had no pedals, so riders pushed the ground with their feet and coasted down the hills.", "es": "Las primeras bicicletas no tenían pedales, así que la gente empujaba el suelo con los pies y se deslizaba en las bajadas." },
+      "topic": "old inventions",
+      "source": "https://www.britannica.com/technology/bicycle"
+    },
+    {
+      "id": "history-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "📄",
+      "q": { "en": "What is paper mostly made from?", "es": "¿De qué está hecho casi todo el papel?" },
+      "choices": [
+        { "en": "Trees", "es": "De árboles", "emoji": "🌳" },
+        { "en": "Glass", "es": "De vidrio", "emoji": "🥛" },
+        { "en": "Rocks", "es": "De piedras", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Paper was invented in China about two thousand years ago from mashed plants, and now most of it comes from wood.", "es": "El papel se inventó en China hace unos dos mil años con plantas machacadas, y ahora casi todo viene de la madera." },
+      "topic": "old inventions",
+      "source": "https://www.britannica.com/technology/papermaking"
+    },
+    {
+      "id": "history-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Which invention first let people fly?", "es": "¿Qué invento permitió volar primero a las personas?" },
+      "choices": [
+        { "en": "The hot air balloon", "es": "El globo de aire caliente", "emoji": "🎈" },
+        { "en": "The car", "es": "El carro", "emoji": "🚗" },
+        { "en": "The train", "es": "El tren", "emoji": "🚂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two brothers in France sent a sheep, a duck and a rooster up in a balloon before any person tried it.", "es": "Dos hermanos en Francia subieron una oveja, un pato y un gallo en un globo antes de que alguna persona lo intentara." },
+      "topic": "old inventions",
+      "source": "https://www.britannica.com/technology/balloon-aircraft"
+    },
+    {
+      "id": "history-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "What can you see inside a museum?", "es": "¿Qué puedes ver dentro de un museo?" },
+      "choices": [
+        { "en": "Old bones and paintings", "es": "Huesos antiguos y pinturas", "emoji": "🖼️" },
+        { "en": "Fresh bread and milk", "es": "Pan y leche frescos", "emoji": "🥖" },
+        { "en": "Roller coaster rides", "es": "Juegos de montaña rusa", "emoji": "🎢" }
+      ],
+      "answer": 0,
+      "why": { "en": "A museum keeps real objects from the past so everyone can see them, and most museums store far more than they show.", "es": "Un museo guarda objetos reales del pasado para que todos los vean, y casi todos guardan mucho más de lo que exhiben." },
+      "topic": "museums",
+      "source": "https://www.britannica.com/topic/museum-cultural-institution"
+    },
+    {
+      "id": "history-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "What do museum workers wear on their hands?", "es": "¿Qué usan en las manos los trabajadores de un museo?" },
+      "choices": [
+        { "en": "Soft gloves", "es": "Guantes suaves", "emoji": "🧤" },
+        { "en": "Big sunglasses", "es": "Lentes de sol grandes", "emoji": "🕶️" },
+        { "en": "Rubber boots", "es": "Botas de hule", "emoji": "🥾" }
+      ],
+      "answer": 0,
+      "why": { "en": "Skin leaves oil that slowly damages old objects, so workers wear gloves when they move a vase or a painting.", "es": "La piel deja grasa que daña poco a poco los objetos antiguos, por eso usan guantes al mover un jarrón o un cuadro." },
+      "topic": "museums",
+      "source": "https://www.si.edu/museums"
+    },
+    {
+      "id": "history-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "What pushed old sailing ships across the sea?", "es": "¿Qué empujaba a los antiguos barcos de vela por el mar?" },
+      "choices": [
+        { "en": "The wind", "es": "El viento", "emoji": "💨" },
+        { "en": "A motor", "es": "Un motor", "emoji": "⚙️" },
+        { "en": "Big wheels", "es": "Ruedas grandes", "emoji": "🛞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sailors raised cloth sails to catch the wind, and a ship could sit still for days when the air went calm.", "es": "Los marineros izaban velas de tela para atrapar el viento, y el barco podía quedarse quieto días cuando el aire se calmaba." },
+      "topic": "sailing ships",
+      "source": "https://www.britannica.com/technology/ship"
+    },
+    {
+      "id": "history-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which bird sat on a pirate's shoulder in stories?", "es": "¿Qué ave iba en el hombro de un pirata en los cuentos?" },
+      "choices": [
+        { "en": "A parrot", "es": "Un loro", "emoji": "🦜" },
+        { "en": "An eagle", "es": "Un águila", "emoji": "🦅" },
+        { "en": "A chicken", "es": "Una gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sailors brought bright parrots home from warm islands, and storytellers later put one on every pirate's shoulder in books.", "es": "Los marineros traían loros de colores de las islas cálidas, y luego los cuentos pusieron uno en el hombro de cada pirata." },
+      "topic": "sailing ships",
+      "source": "https://www.britannica.com/topic/piracy"
+    },
+    {
+      "id": "history-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Where did people paint pictures long ago?", "es": "¿Dónde pintaba la gente sus dibujos hace mucho tiempo?" },
+      "choices": [
+        { "en": "On cave walls", "es": "En las paredes de las cuevas", "emoji": "🕳️" },
+        { "en": "On computer screens", "es": "En pantallas de computadora", "emoji": "💻" },
+        { "en": "On glass windows", "es": "En ventanas de vidrio", "emoji": "🪟" }
+      ],
+      "answer": 0,
+      "why": { "en": "In caves in Spain and France people painted horses and bison more than seventeen thousand years ago using colored earth.", "es": "En cuevas de España y Francia la gente pintó caballos y bisontes hace más de diecisiete mil años con tierra de colores." },
+      "topic": "cave paintings",
+      "source": "https://www.britannica.com/place/Lascaux"
+    },
+    {
+      "id": "history-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐂",
+      "q": { "en": "Which animals did cave artists paint most?", "es": "¿Qué animales pintaban más los artistas de las cuevas?" },
+      "choices": [
+        { "en": "Big wild animals", "es": "Animales salvajes grandes", "emoji": "🐂" },
+        { "en": "Tiny insects", "es": "Insectos pequeños", "emoji": "🐜" },
+        { "en": "Sea fish", "es": "Peces del mar", "emoji": "🐟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cave artists painted horses, deer and woolly mammoths, and they blew powdered color through hollow bones to make handprints.", "es": "Los artistas de las cuevas pintaron caballos, venados y mamuts, y soplaban color en polvo por huesos huecos para dejar manos." },
+      "topic": "cave paintings",
+      "source": "https://www.britannica.com/place/Altamira"
+    },
+    {
+      "id": "history-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "What shape are the pyramids of Egypt?", "es": "¿Qué forma tienen las pirámides de Egipto?" },
+      "choices": [
+        { "en": "Pointed like a triangle", "es": "Puntiaguda como un triángulo", "emoji": "🔺" },
+        { "en": "Round like a ball", "es": "Redonda como una pelota", "emoji": "⚽" },
+        { "en": "Flat like a plate", "es": "Plana como un plato", "emoji": "🍽️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each pyramid has a square base and four sloping sides that meet at one point high above the desert sand.", "es": "Cada pirámide tiene una base cuadrada y cuatro lados inclinados que se juntan en un punto muy alto sobre la arena." },
+      "topic": "pyramids",
+      "source": "https://www.britannica.com/topic/Pyramids-of-Giza"
+    },
+    {
+      "id": "history-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What were the pyramids built from?", "es": "¿De qué están hechas las pirámides?" },
+      "choices": [
+        { "en": "Heavy stone blocks", "es": "Bloques pesados de piedra", "emoji": "🧱" },
+        { "en": "Soft pillows", "es": "Almohadas suaves", "emoji": "🛏️" },
+        { "en": "Thin paper", "es": "Papel delgado", "emoji": "📄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Workers cut huge limestone blocks and dragged them on sledges over wet sand, which made them slide much more easily.", "es": "Los obreros cortaban bloques enormes de piedra y los jalaban en trineos sobre arena mojada, que los hacía deslizarse mucho mejor." },
+      "topic": "pyramids",
+      "source": "https://www.britannica.com/topic/Great-Pyramid-of-Giza"
+    },
+    {
+      "id": "history-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which people built a city on a lake?", "es": "¿Qué pueblo construyó una ciudad sobre un lago?" },
+      "choices": [
+        { "en": "The Aztecs", "es": "Los aztecas", "emoji": "🏙️" },
+        { "en": "The Vikings", "es": "Los vikingos", "emoji": "⛵" },
+        { "en": "The Romans", "es": "Los romanos", "emoji": "🏛️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Aztecs built Tenochtitlan on an island in a lake and grew food on floating gardens made of mud and reeds.", "es": "Los aztecas construyeron Tenochtitlan en una isla de un lago y cultivaban comida en jardines flotantes de lodo y juncos." },
+      "topic": "ancient americas",
+      "source": "https://www.britannica.com/place/Tenochtitlan"
+    },
+    {
+      "id": "history-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Who built long roads in the high mountains?", "es": "¿Quiénes construyeron largos caminos en las montañas altas?" },
+      "choices": [
+        { "en": "The Inca", "es": "Los incas", "emoji": "🏔️" },
+        { "en": "The Egyptians", "es": "Los egipcios", "emoji": "🐫" },
+        { "en": "The Greeks", "es": "Los griegos", "emoji": "🏛️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Inca runners carried messages along stone roads through the Andes, passing the news from one runner to the next.", "es": "Los mensajeros incas llevaban noticias por caminos de piedra en los Andes, pasando el mensaje de un corredor al siguiente." },
+      "topic": "ancient americas",
+      "source": "https://www.britannica.com/topic/Inca"
+    },
+    {
+      "id": "history-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔣",
+      "q": { "en": "How did the Maya write their words?", "es": "¿Cómo escribían sus palabras los mayas?" },
+      "choices": [
+        { "en": "With small pictures", "es": "Con dibujos pequeños", "emoji": "🔣" },
+        { "en": "With numbers only", "es": "Solo con números", "emoji": "🔢" },
+        { "en": "With musical notes", "es": "Con notas musicales", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Maya writing used hundreds of picture signs called glyphs, carved on stone and painted in books folded like a screen.", "es": "La escritura maya usaba cientos de signos con dibujos llamados glifos, tallados en piedra y pintados en libros doblados como biombo." },
+      "topic": "ancient americas",
+      "source": "https://www.britannica.com/topic/Maya-people"
+    },
+    {
+      "id": "history-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What did sailors use to find north?", "es": "¿Qué usaban los marineros para encontrar el norte?" },
+      "choices": [
+        { "en": "A compass", "es": "Una brújula", "emoji": "🧭" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A candle", "es": "Una vela", "emoji": "🕯️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A compass needle is a small magnet that always turns toward the north, so sailors could steer even without stars.", "es": "La aguja de la brújula es un imán pequeño que siempre apunta al norte, para guiar el barco aunque no haya estrellas." },
+      "topic": "explorers",
+      "source": "https://www.britannica.com/technology/compass-navigational-instrument"
+    },
+    {
+      "id": "history-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "What did explorers draw to remember places?", "es": "¿Qué dibujaban los exploradores para recordar los lugares?" },
+      "choices": [
+        { "en": "Maps", "es": "Mapas", "emoji": "🗺️" },
+        { "en": "Recipes", "es": "Recetas", "emoji": "🍲" },
+        { "en": "Poems", "es": "Poemas", "emoji": "📜" }
+      ],
+      "answer": 0,
+      "why": { "en": "Early maps left big blank spaces where nobody had sailed yet, and mapmakers sometimes filled them with pictures of sea creatures.", "es": "Los mapas antiguos dejaban espacios en blanco donde nadie había navegado, y a veces los llenaban con dibujos de monstruos marinos." },
+      "topic": "explorers",
+      "source": "https://www.britannica.com/science/map"
+    },
+    {
+      "id": "history-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "☎️",
+      "q": { "en": "What did Alexander Graham Bell invent?", "es": "¿Qué inventó Alexander Graham Bell?" },
+      "choices": [
+        { "en": "The telephone", "es": "El teléfono", "emoji": "☎️" },
+        { "en": "The bathtub", "es": "La bañera", "emoji": "🛁" },
+        { "en": "The umbrella", "es": "El paraguas", "emoji": "☂️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bell taught children who could not hear, and his work on sound led him to build the first working telephone.", "es": "Bell enseñaba a niños sordos, y su trabajo con el sonido lo llevó a construir el primer teléfono que sí funcionó." },
+      "topic": "kind inventors",
+      "source": "https://www.britannica.com/biography/Alexander-Graham-Bell"
+    },
+    {
+      "id": "history-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "What did Thomas Edison help make bright?", "es": "¿Qué ayudó a iluminar Thomas Edison?" },
+      "choices": [
+        { "en": "The light bulb", "es": "El foco", "emoji": "💡" },
+        { "en": "The bicycle", "es": "La bicicleta", "emoji": "🚲" },
+        { "en": "The piano", "es": "El piano", "emoji": "🎹" }
+      ],
+      "answer": 0,
+      "why": { "en": "Edison tested thousands of materials before one glowed for hours, and he also invented a machine that recorded and replayed sound.", "es": "Edison probó miles de materiales antes de que uno brillara por horas, y también inventó una máquina que grababa y repetía sonidos." },
+      "topic": "kind inventors",
+      "source": "https://www.britannica.com/biography/Thomas-Edison"
+    },
+    {
+      "id": "history-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Which place did astronauts first walk on?", "es": "¿En qué lugar caminaron primero los astronautas?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two astronauts stepped onto the Moon in nineteen sixty-nine, and their footprints are still there because there is no wind.", "es": "Dos astronautas pisaron la Luna en mil novecientos sesenta y nueve, y sus huellas siguen ahí porque allá no hay viento." },
+      "topic": "moon landing",
+      "source": "https://www.nasa.gov/mission/apollo-11/"
+    },
+    {
+      "id": "history-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "How did astronauts travel to the Moon?", "es": "¿Cómo viajaron los astronautas a la Luna?" },
+      "choices": [
+        { "en": "In a rocket", "es": "En un cohete", "emoji": "🚀" },
+        { "en": "In a school bus", "es": "En un autobús escolar", "emoji": "🚌" },
+        { "en": "On a bicycle", "es": "En una bicicleta", "emoji": "🚲" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tall rocket lifted them off the ground, and the trip to the Moon took about three days each way.", "es": "Un cohete muy alto los levantó del suelo, y el viaje a la Luna tardaba unos tres días en cada dirección." },
+      "topic": "moon landing",
+      "source": "https://www.britannica.com/topic/Apollo-11"
+    },
+    {
+      "id": "history-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪆",
+      "q": { "en": "What were old dolls often made from?", "es": "¿De qué estaban hechas muchas muñecas antiguas?" },
+      "choices": [
+        { "en": "Wood and cloth", "es": "Madera y tela", "emoji": "🪵" },
+        { "en": "Glass and metal", "es": "Vidrio y metal", "emoji": "⚙️" },
+        { "en": "Ice and snow", "es": "Hielo y nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Children long ago sewed dolls from scraps of cloth or carved them from wood, and corn husks made dolls too.", "es": "Hace mucho los niños cosían muñecas con retazos de tela o las tallaban en madera, y también las hacían con hojas de maíz." },
+      "topic": "old toys and games",
+      "source": "https://www.britannica.com/topic/doll"
+    },
+    {
+      "id": "history-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Which old toy spins on a point?", "es": "¿Qué juguete antiguo gira sobre una punta?" },
+      "choices": [
+        { "en": "A top", "es": "Un trompo", "emoji": "🌀" },
+        { "en": "A ball", "es": "Una pelota", "emoji": "⚽" },
+        { "en": "A drum", "es": "Un tambor", "emoji": "🥁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spinning tops are thousands of years old, and clay ones have been dug up from very old cities in Iraq.", "es": "Los trompos tienen miles de años, y se han encontrado trompos de barro en ciudades muy antiguas de Irak." },
+      "topic": "old toys and games",
+      "source": "https://www.britannica.com/topic/top-toy"
+    },
+    {
+      "id": "history-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "What did people write on before paper?", "es": "¿Sobre qué escribía la gente antes del papel?" },
+      "choices": [
+        { "en": "Wet clay tablets", "es": "Tablillas de barro", "emoji": "🏺" },
+        { "en": "Plastic sheets", "es": "Hojas de plástico", "emoji": "🧴" },
+        { "en": "Metal cans", "es": "Latas de metal", "emoji": "🥫" }
+      ],
+      "answer": 0,
+      "why": { "en": "In Mesopotamia people pressed wedge shapes into soft clay with a reed, then let the tablet dry hard in the sun.", "es": "En Mesopotamia la gente marcaba cuñas en barro blando con una caña, y luego dejaba secar la tablilla al sol." },
+      "topic": "writing long ago",
+      "source": "https://www.britannica.com/topic/cuneiform"
+    },
+    {
+      "id": "history-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "What did people use as a pen?", "es": "¿Qué usaba la gente como pluma para escribir?" },
+      "choices": [
+        { "en": "A bird feather", "es": "Una pluma de ave", "emoji": "🪶" },
+        { "en": "A stone", "es": "Una piedra", "emoji": "🪨" },
+        { "en": "A leaf", "es": "Una hoja", "emoji": "🍃" }
+      ],
+      "answer": 0,
+      "why": { "en": "A goose feather was cut to a point and dipped in ink, and writers trimmed it again when the tip wore down.", "es": "Cortaban en punta una pluma de ganso y la mojaban en tinta, y la volvían a tallar cuando la punta se gastaba." },
+      "topic": "writing long ago",
+      "source": "https://www.britannica.com/technology/quill-pen"
+    },
+    {
+      "id": "history-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "What pulled wagons before cars existed?", "es": "¿Qué jalaba las carretas antes de los carros?" },
+      "choices": [
+        { "en": "Horses", "es": "Caballos", "emoji": "🐎" },
+        { "en": "Kites", "es": "Cometas", "emoji": "🪁" },
+        { "en": "Clouds", "es": "Nubes", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Teams of horses or oxen pulled heavy wagons, and a family might travel about fifteen miles, twenty-four kilometers, in one day.", "es": "Caballos o bueyes jalaban las carretas pesadas, y una familia podía avanzar solo unas quince millas, veinticuatro kilómetros, en un día." },
+      "topic": "travel long ago",
+      "source": "https://www.britannica.com/technology/wagon"
+    },
+    {
+      "id": "history-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚂",
+      "q": { "en": "What made the first trains go?", "es": "¿Qué hacía andar a los primeros trenes?" },
+      "choices": [
+        { "en": "Burning coal and steam", "es": "Carbón ardiendo y vapor", "emoji": "🚂" },
+        { "en": "A big wind-up key", "es": "Una llave gigante de cuerda", "emoji": "🔑" },
+        { "en": "Pedals like a bicycle", "es": "Pedales como los de una bicicleta", "emoji": "🚲" }
+      ],
+      "answer": 0,
+      "why": { "en": "Steam engines boiled water until the steam pushed the wheels around, and the driver shoveled coal into the fire all day.", "es": "Las máquinas de vapor hervían agua y el vapor empujaba las ruedas; el maquinista echaba carbón al fuego todo el día." },
+      "topic": "trains and planes",
+      "source": "https://www.dkfindout.com/us/transportation/trains/steam-trains/"
+    },
+    {
+      "id": "history-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "✈️",
+      "q": { "en": "Who built and flew the first airplane?", "es": "¿Quiénes construyeron y volaron el primer avión?" },
+      "choices": [
+        { "en": "A famous painter", "es": "Un pintor famoso", "emoji": "🎨" },
+        { "en": "The Wright brothers", "es": "Los hermanos Wright", "emoji": "✈️" },
+        { "en": "A school teacher", "es": "Una maestra de escuela", "emoji": "🍎" }
+      ],
+      "answer": 1,
+      "why": { "en": "Orville and Wilbur Wright fixed bicycles before they built their plane, and their very first flight lasted about twelve seconds.", "es": "Orville y Wilbur Wright arreglaban bicicletas antes de construir su avión, y su primer vuelo duró apenas unos doce segundos." },
+      "topic": "trains and planes",
+      "source": "https://airandspace.si.edu/explore/stories/wright-brothers-first-flight"
+    },
+    {
+      "id": "history-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "📞",
+      "q": { "en": "How did you dial old telephones?", "es": "¿Cómo marcabas un número en los teléfonos viejos?" },
+      "choices": [
+        { "en": "You waved at the screen", "es": "Saludabas a la pantalla", "emoji": "👋" },
+        { "en": "You whistled a song", "es": "Silbabas una canción", "emoji": "🎶" },
+        { "en": "You turned a round dial", "es": "Girabas un disco redondo", "emoji": "📞" }
+      ],
+      "answer": 2,
+      "why": { "en": "Old phones had a dial with finger holes; you spun it once for every number and it clicked slowly back.", "es": "Los teléfonos viejos tenían un disco con agujeros; lo girabas una vez por cada número y regresaba haciendo clic." },
+      "topic": "old inventions",
+      "source": "https://kids.britannica.com/kids/article/telephone/353937"
+    },
+    {
+      "id": "history-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏮",
+      "q": { "en": "What burned inside an old street lamp?", "es": "¿Qué ardía dentro de un farol antiguo de la calle?" },
+      "choices": [
+        { "en": "Gas or oil", "es": "Gas o aceite", "emoji": "🔥" },
+        { "en": "Cold water", "es": "Agua fría", "emoji": "🧊" },
+        { "en": "Dry sand", "es": "Arena seca", "emoji": "⏳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Long ago a lamplighter walked the streets at dusk with a long pole and lit every lamp one by one.", "es": "Hace mucho, un farolero caminaba por las calles al anochecer con una vara larga y encendía cada farol uno por uno." },
+      "topic": "old ways",
+      "source": "https://www.museumoflondon.org.uk/discover/gas-lamps-victorian-london"
+    },
+    {
+      "id": "history-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Where were the very first wheels used?", "es": "¿Dónde se usaron las primerísimas ruedas?" },
+      "choices": [
+        { "en": "On a race car", "es": "En un carro de carreras", "emoji": "🏎️" },
+        { "en": "On a potter's spinning table", "es": "En la mesa giratoria de un alfarero", "emoji": "🏺" },
+        { "en": "On an airplane", "es": "En un avión", "emoji": "✈️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The first wheels spun wet clay into pots, and only later did people lay them on their sides to roll carts.", "es": "Las primeras ruedas giraban barro húmedo para hacer ollas; después la gente las puso de lado para rodar carretas." },
+      "topic": "old inventions",
+      "source": "https://kids.britannica.com/kids/article/wheel/390714"
+    },
+    {
+      "id": "history-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Where was paper first made long ago?", "es": "¿Dónde se hizo el primer papel hace mucho?" },
+      "choices": [
+        { "en": "In Antarctica", "es": "En la Antártida", "emoji": "🐧" },
+        { "en": "On the Moon", "es": "En la Luna", "emoji": "🌕" },
+        { "en": "In China", "es": "En China", "emoji": "🏮" }
+      ],
+      "answer": 2,
+      "why": { "en": "People in China made the first paper from mashed plants about two thousand years ago; before that they wrote on silk.", "es": "En China hicieron el primer papel con plantas machacadas hace unos dos mil años; antes de eso escribían sobre seda." },
+      "topic": "old inventions",
+      "source": "https://www.britishmuseum.org/collection/galleries/chinese-paper"
+    },
+    {
+      "id": "history-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "What is the string inside a candle called?", "es": "¿Cómo se llama el hilo que va dentro de una vela?" },
+      "choices": [
+        { "en": "The wick", "es": "La mecha", "emoji": "🕯️" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The handle", "es": "El mango", "emoji": "🧰" }
+      ],
+      "answer": 0,
+      "why": { "en": "The wick soaks up melted wax and carries it up to the flame, so the wax is really the candle's fuel.", "es": "La mecha absorbe la cera derretida y la lleva hasta la llama, así que la cera es el combustible de la vela." },
+      "topic": "old inventions",
+      "source": "https://kids.britannica.com/kids/article/candle/352966"
+    },
+    {
+      "id": "history-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "How did riders move the first bicycles?", "es": "¿Cómo movía la gente las primeras bicicletas?" },
+      "choices": [
+        { "en": "They turned a big key", "es": "Giraban una llave grande", "emoji": "🔑" },
+        { "en": "They pushed with their feet", "es": "Empujaban con los pies", "emoji": "🦶" },
+        { "en": "They pulled a rope", "es": "Jalaban una cuerda", "emoji": "🪢" }
+      ],
+      "answer": 1,
+      "why": { "en": "The first bicycle had no pedals at all, so riders walked it along like a scooter and coasted down the hills.", "es": "La primera bicicleta no tenía pedales, así que la gente caminaba empujándola y se deslizaba cuesta abajo por las lomas." },
+      "topic": "old inventions",
+      "source": "https://www.si.edu/spotlight/bicycles/history-of-the-bicycle"
+    },
+    {
+      "id": "history-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "What did drivers turn to start old cars?", "es": "¿Qué giraban los conductores para arrancar los carros antiguos?" },
+      "choices": [
+        { "en": "A light switch", "es": "Un interruptor de luz", "emoji": "💡" },
+        { "en": "A doorbell", "es": "Un timbre", "emoji": "🔔" },
+        { "en": "A hand crank", "es": "Una manivela de mano", "emoji": "🔧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Early cars started with a crank handle at the front, and the driver spun it hard until the engine coughed alive.", "es": "Los primeros carros arrancaban con una manivela al frente; el conductor la giraba fuerte hasta que el motor despertaba." },
+      "topic": "old inventions",
+      "source": "https://www.thehenryford.org/collections-and-research/digital-collections/model-t"
+    },
+    {
+      "id": "history-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "Who takes care of a museum's old things?", "es": "¿Quién cuida los objetos antiguos de un museo?" },
+      "choices": [
+        { "en": "A curator", "es": "Un curador", "emoji": "🖼️" },
+        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" },
+        { "en": "A cook", "es": "Un cocinero", "emoji": "🍳" }
+      ],
+      "answer": 0,
+      "why": { "en": "A curator chooses what a museum shows and writes down where each object came from and how old it is.", "es": "Un curador elige lo que el museo muestra y anota de dónde vino cada objeto y qué edad tiene." },
+      "topic": "museums",
+      "source": "https://www.si.edu/museums/behind-the-scenes-curators"
+    },
+    {
+      "id": "history-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What did sailors look through to see far?", "es": "¿Por dónde miraban los marineros para ver lejos?" },
+      "choices": [
+        { "en": "A teacup", "es": "Una taza de té", "emoji": "☕" },
+        { "en": "A spyglass", "es": "Un catalejo", "emoji": "🔭" },
+        { "en": "A boot", "es": "Una bota", "emoji": "🥾" }
+      ],
+      "answer": 1,
+      "why": { "en": "A spyglass is a small telescope, and a sailor high on the mast could spot land long before the deck could.", "es": "Un catalejo es un telescopio pequeño; un marinero en lo alto del mástil veía tierra antes que los de la cubierta." },
+      "topic": "sailing ships",
+      "source": "https://www.rmg.co.uk/collections/objects/telescopes-at-sea"
+    },
+    {
+      "id": "history-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚓",
+      "q": { "en": "What did old ships drop to stay still?", "es": "¿Qué soltaban los barcos antiguos para quedarse quietos?" },
+      "choices": [
+        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" },
+        { "en": "A kite", "es": "Una cometa", "emoji": "🪁" },
+        { "en": "An anchor", "es": "Un ancla", "emoji": "⚓" }
+      ],
+      "answer": 2,
+      "why": { "en": "An anchor is a heavy metal hook that digs into the seabed and holds the ship while its crew sleeps.", "es": "El ancla es un gancho pesado de metal que se clava en el fondo del mar y sujeta el barco mientras duermen." },
+      "topic": "sailing ships",
+      "source": "https://www.rmg.co.uk/stories/topics/how-ships-anchor"
+    },
+    {
+      "id": "history-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "What did cave painters use for paint?", "es": "¿Qué usaban los pintores de las cuevas como pintura?" },
+      "choices": [
+        { "en": "Colored dirt and charcoal", "es": "Tierra de colores y carbón", "emoji": "🎨" },
+        { "en": "Bottles from a store", "es": "Botellas de una tienda", "emoji": "🧴" },
+        { "en": "Melted crayons", "es": "Crayones derretidos", "emoji": "🖍️" }
+      ],
+      "answer": 0,
+      "why": { "en": "They ground red and yellow rock into powder, mixed it with water or fat, and blew it through hollow bones.", "es": "Molían rocas rojas y amarillas hasta hacer polvo, lo mezclaban con agua o grasa y lo soplaban por huesos huecos." },
+      "topic": "cave paintings",
+      "source": "https://kids.nationalgeographic.com/history/article/cave-art"
+    },
+    {
+      "id": "history-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "What shape did cave artists blow paint around?", "es": "¿Alrededor de qué soplaban pintura los artistas de las cuevas?" },
+      "choices": [
+        { "en": "Their shoes", "es": "Sus zapatos", "emoji": "👟" },
+        { "en": "Their own hands", "es": "Sus propias manos", "emoji": "🖐️" },
+        { "en": "Their hats", "es": "Sus sombreros", "emoji": "🎩" }
+      ],
+      "answer": 1,
+      "why": { "en": "Artists pressed a hand on the wall and blew paint around it, leaving a pale handprint that lasted thousands of years.", "es": "Ponían la mano en la pared y soplaban pintura alrededor, dejando una huella clara que duró miles de años." },
+      "topic": "cave paintings",
+      "source": "https://www.nhm.ac.uk/discover/handprints-in-prehistoric-cave-art.html"
+    },
+    {
+      "id": "history-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Who rested inside Egypt's great pyramids?", "es": "¿Quiénes descansaban dentro de las grandes pirámides de Egipto?" },
+      "choices": [
+        { "en": "Baby elephants", "es": "Elefantes bebés", "emoji": "🐘" },
+        { "en": "Teachers", "es": "Maestros", "emoji": "📚" },
+        { "en": "Kings called pharaohs", "es": "Reyes llamados faraones", "emoji": "👑" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pharaohs were laid to rest with food, games and furniture because people believed they would need them in the next life.", "es": "Los faraones se enterraban con comida, juegos y muebles porque la gente creía que los necesitarían en la otra vida." },
+      "topic": "pyramids",
+      "source": "https://kids.britannica.com/kids/article/pyramid/353610"
+    },
+    {
+      "id": "history-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "What animal body does the Sphinx have?", "es": "¿De qué animal es el cuerpo de la Esfinge?" },
+      "choices": [
+        { "en": "A lion", "es": "Un león", "emoji": "🦁" },
+        { "en": "A fish", "es": "Un pez", "emoji": "🐟" },
+        { "en": "A frog", "es": "Una rana", "emoji": "🐸" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Great Sphinx has a lion's body and a human head, and it was carved from one huge block of stone.", "es": "La Gran Esfinge tiene cuerpo de león y cabeza humana, y fue tallada en un solo bloque enorme de piedra." },
+      "topic": "pyramids",
+      "source": "https://kids.nationalgeographic.com/history/article/great-sphinx-of-giza"
+    },
+    {
+      "id": "history-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Who digs up dinosaur bones?", "es": "¿Quién desentierra los huesos de dinosaurio?" },
+      "choices": [
+        { "en": "A dentist", "es": "Un dentista", "emoji": "🦷" },
+        { "en": "A paleontologist", "es": "Un paleontólogo", "emoji": "🦴" },
+        { "en": "A baker", "es": "Un panadero", "emoji": "🥖" }
+      ],
+      "answer": 1,
+      "why": { "en": "Paleontologists brush rock away with tiny tools for weeks, because one wrong tap can crack a bone millions of years old.", "es": "Los paleontólogos quitan la roca con herramientas diminutas por semanas, porque un golpe mal dado rompe un hueso antiquísimo." },
+      "topic": "dinosaurs",
+      "source": "https://www.amnh.org/explore/ology/paleontology/what-is-a-paleontologist"
+    },
+    {
+      "id": "history-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "Which dinosaur had a very long neck?", "es": "¿Cuál dinosaurio tenía un cuello larguísimo?" },
+      "choices": [
+        { "en": "Stegosaurus", "es": "El estegosaurio", "emoji": "🦖" },
+        { "en": "Triceratops", "es": "El triceratops", "emoji": "🦏" },
+        { "en": "Brachiosaurus", "es": "El braquiosaurio", "emoji": "🦕" }
+      ],
+      "answer": 2,
+      "why": { "en": "Brachiosaurus could lift its head as high as a four-story building and swallowed whole leaves without ever chewing them.", "es": "El braquiosaurio levantaba la cabeza como un edificio de cuatro pisos y tragaba las hojas enteras sin masticarlas nunca." },
+      "topic": "dinosaurs",
+      "source": "https://www.amnh.org/dinosaurs/brachiosaurus"
+    },
+    {
+      "id": "history-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Which animals are cousins of the dinosaurs?", "es": "¿Cuáles animales son primos de los dinosaurios?" },
+      "choices": [
+        { "en": "Birds", "es": "Las aves", "emoji": "🐦" },
+        { "en": "Fish", "es": "Los peces", "emoji": "🐠" },
+        { "en": "Snails", "es": "Los caracoles", "emoji": "🐌" }
+      ],
+      "answer": 0,
+      "why": { "en": "Birds are living dinosaurs: scientists found feathers on dinosaur fossils, and a chicken's foot looks like a tiny dinosaur's foot.", "es": "Las aves son dinosaurios vivos; hallaron plumas en fósiles de dinosaurio, y la pata de un pollo parece la de uno pequeño." },
+      "topic": "dinosaurs",
+      "source": "https://www.nhm.ac.uk/discover/are-birds-dinosaurs.html"
+    },
+    {
+      "id": "history-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "👣",
+      "q": { "en": "What did astronauts leave on the Moon?", "es": "¿Qué dejaron los astronautas en la Luna?" },
+      "choices": [
+        { "en": "A swimming pool", "es": "Una alberca", "emoji": "🏊" },
+        { "en": "Their footprints", "es": "Sus huellas", "emoji": "👣" },
+        { "en": "A tall tree", "es": "Un árbol alto", "emoji": "🌳" }
+      ],
+      "answer": 1,
+      "why": { "en": "There is no wind and no rain on the Moon, so those footprints can stay exactly where they are for ages.", "es": "En la Luna no hay viento ni lluvia, así que esas huellas pueden quedarse en el mismo lugar durante millones de años." },
+      "topic": "moon landing",
+      "source": "https://spaceplace.nasa.gov/moon-footprints/en/"
+    },
+    {
+      "id": "history-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "What did astronauts wear to walk outside?", "es": "¿Qué se ponían los astronautas para caminar afuera?" },
+      "choices": [
+        { "en": "A raincoat", "es": "Un impermeable", "emoji": "🧥" },
+        { "en": "Swim goggles", "es": "Lentes de nadar", "emoji": "🥽" },
+        { "en": "A spacesuit", "es": "Un traje espacial", "emoji": "🧑‍🚀" }
+      ],
+      "answer": 2,
+      "why": { "en": "A spacesuit is a tiny spaceship you wear: it holds air, keeps you cool in sunshine and warm in shadow.", "es": "El traje espacial es como una nave diminuta: guarda aire, te mantiene fresco bajo el sol y abrigado en la sombra." },
+      "topic": "moon landing",
+      "source": "https://airandspace.si.edu/explore/stories/apollo-spacesuit"
+    },
+    {
+      "id": "history-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Who rode the first hot-air balloon?", "es": "¿Quiénes viajaron en el primer globo de aire caliente?" },
+      "choices": [
+        { "en": "A sheep, a duck and a rooster", "es": "Una oveja, un pato y un gallo", "emoji": "🐑" },
+        { "en": "Two kings", "es": "Dos reyes", "emoji": "👑" },
+        { "en": "A whole school class", "es": "Un salón entero de la escuela", "emoji": "🎒" }
+      ],
+      "answer": 0,
+      "why": { "en": "Before trusting people to fly, the inventors sent up a sheep, a duck and a rooster, and all three landed safely.", "es": "Antes de confiar en las personas, los inventores subieron una oveja, un pato y un gallo, y los tres bajaron sanos." },
+      "topic": "old inventions",
+      "source": "https://airandspace.si.edu/explore/stories/first-balloon-flights"
+    },
+    {
+      "id": "history-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍦",
+      "q": { "en": "How was ice cream made long ago?", "es": "¿Cómo se hacía el helado hace mucho tiempo?" },
+      "choices": [
+        { "en": "Inside an oven", "es": "Dentro de un horno", "emoji": "🔥" },
+        { "en": "By turning a hand crank", "es": "Girando una manivela a mano", "emoji": "🍦" },
+        { "en": "In a freezer", "es": "En un congelador", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Families took turns cranking for half an hour while salt and ice froze the cream inside a wooden bucket.", "es": "Las familias se turnaban media hora girando la manivela mientras la sal y el hielo congelaban la crema en una cubeta." },
+      "topic": "old ways",
+      "source": "https://www.si.edu/stories/history-ice-cream"
+    },
+    {
+      "id": "history-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Who first drank chocolate long ago?", "es": "¿Quiénes tomaron chocolate por primera vez hace mucho?" },
+      "choices": [
+        { "en": "The Vikings", "es": "Los vikingos", "emoji": "⛵" },
+        { "en": "The Egyptians", "es": "Los egipcios", "emoji": "🐫" },
+        { "en": "The Maya and Aztecs", "es": "Los mayas y los aztecas", "emoji": "🍫" }
+      ],
+      "answer": 2,
+      "why": { "en": "They drank it bitter and frothy with chili, never sweet, and cacao beans were so precious that people spent them like money.", "es": "Lo tomaban amargo y espumoso con chile, no dulce, y los granos de cacao eran tan valiosos que servían de dinero." },
+      "topic": "ancient americas",
+      "source": "https://www.si.edu/stories/chocolate-ancient-mesoamerica"
+    },
+    {
+      "id": "history-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪣",
+      "q": { "en": "Where did people get water before taps?", "es": "¿De dónde sacaba la gente el agua antes de las llaves?" },
+      "choices": [
+        { "en": "From a well or river", "es": "De un pozo o un río", "emoji": "🪣" },
+        { "en": "From a vending machine", "es": "De una máquina de refrescos", "emoji": "🥤" },
+        { "en": "From a jar of clouds", "es": "De un frasco de nubes", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Children carried heavy buckets home every day, and the village well was also where neighbors met to share their news.", "es": "Los niños cargaban cubetas pesadas cada día, y el pozo del pueblo era donde los vecinos se juntaban a platicar." },
+      "topic": "old ways",
+      "source": "https://www.dkfindout.com/us/history/victorian-britain/daily-life/"
+    },
+    {
+      "id": "history-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Where did people cook before stoves?", "es": "¿Dónde cocinaba la gente antes de las estufas?" },
+      "choices": [
+        { "en": "Inside the freezer", "es": "Dentro del congelador", "emoji": "🧊" },
+        { "en": "Over an open fire", "es": "Sobre un fuego abierto", "emoji": "🔥" },
+        { "en": "On a sunny window", "es": "En una ventana soleada", "emoji": "🪟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cooks hung heavy pots from a hook above the flames and moved them higher or lower to make the heat gentler.", "es": "Los cocineros colgaban ollas pesadas de un gancho sobre las llamas y las subían o bajaban para cambiar el calor." },
+      "topic": "old ways",
+      "source": "https://www.plimoth.org/learn/just-kids/homework-help/cooking-hearth"
+    },
+    {
+      "id": "history-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏫",
+      "q": { "en": "How did children reach school long ago?", "es": "¿Cómo llegaban los niños a la escuela hace mucho?" },
+      "choices": [
+        { "en": "They flew in planes", "es": "Volaban en avión", "emoji": "✈️" },
+        { "en": "They rode the subway", "es": "Iban en metro", "emoji": "🚇" },
+        { "en": "They walked a long way", "es": "Caminaban un largo trecho", "emoji": "👣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Many walked several miles, and one teacher taught every age together in a single room with one blackboard and one stove.", "es": "Muchos caminaban varios kilómetros, y una sola maestra enseñaba a todas las edades juntas en un cuarto con un pizarrón." },
+      "topic": "long ago and now",
+      "source": "https://www.loc.gov/classroom-materials/one-room-schools/"
+    },
+    {
+      "id": "history-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "What did Egyptians write their words on?", "es": "¿Sobre qué escribían sus palabras los egipcios?" },
+      "choices": [
+        { "en": "Papyrus paper", "es": "Papel de papiro", "emoji": "📜" },
+        { "en": "Banana peels", "es": "Cáscaras de plátano", "emoji": "🍌" },
+        { "en": "Cotton shirts", "es": "Camisas de algodón", "emoji": "👕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Papyrus was made by pressing strips of a river plant together, and some Egyptian scrolls are longer than a school bus.", "es": "El papiro se hacía prensando tiras de una planta del río, y algunos rollos egipcios son más largos que un autobús." },
+      "topic": "writing long ago",
+      "source": "https://www.britishmuseum.org/collection/egyptian-papyrus"
+    },
+    {
+      "id": "history-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔣",
+      "q": { "en": "What are Egyptian picture letters called?", "es": "¿Cómo se llaman las letras dibujadas de Egipto?" },
+      "choices": [
+        { "en": "Crossword puzzles", "es": "Crucigramas", "emoji": "🧩" },
+        { "en": "Hieroglyphs", "es": "Jeroglíficos", "emoji": "🔣" },
+        { "en": "Bar codes", "es": "Códigos de barras", "emoji": "📊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Hieroglyphs are little pictures that stand for sounds and for words, and there are more than seven hundred different ones.", "es": "Los jeroglíficos son dibujitos que representan sonidos y palabras, y existen más de setecientos signos diferentes entre ellos." },
+      "topic": "writing long ago",
+      "source": "https://kids.britannica.com/kids/article/hieroglyphics/353232"
+    },
+    {
+      "id": "history-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "What did the Maya build in the jungle?", "es": "¿Qué construyeron los mayas en la selva?" },
+      "choices": [
+        { "en": "Ice castles", "es": "Castillos de hielo", "emoji": "🧊" },
+        { "en": "Floating houses", "es": "Casas flotantes", "emoji": "🛖" },
+        { "en": "Stone cities with pyramids", "es": "Ciudades de piedra con pirámides", "emoji": "🏛️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Maya cities had ball courts, and their star watchers knew the sky so well that they made a very exact calendar.", "es": "Las ciudades mayas tenían canchas de pelota, y sus observadores conocían tanto el cielo que hicieron un calendario muy exacto." },
+      "topic": "ancient americas",
+      "source": "https://kids.nationalgeographic.com/history/article/maya"
+    },
+    {
+      "id": "history-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "How did the Inca carry messages?", "es": "¿Cómo llevaban los mensajes los incas?" },
+      "choices": [
+        { "en": "Runners on mountain roads", "es": "Corredores por caminos de montaña", "emoji": "🏃" },
+        { "en": "Balloons", "es": "Globos", "emoji": "🎈" },
+        { "en": "Trains", "es": "Trenes", "emoji": "🚂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chaski runners raced from post to post like a relay team, so a message could cross the mountains in a few days.", "es": "Los chasquis corrían de puesto en puesto como en una carrera de relevos, y un mensaje cruzaba las montañas en días." },
+      "topic": "ancient americas",
+      "source": "https://americanindian.si.edu/nk360/inka-road/chasqui"
+    },
+    {
+      "id": "history-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What did the Aztecs grow gardens on?", "es": "¿Sobre qué cultivaban sus huertos los aztecas?" },
+      "choices": [
+        { "en": "The tops of clouds", "es": "La punta de las nubes", "emoji": "☁️" },
+        { "en": "Floating garden islands", "es": "Islas flotantes de cultivo", "emoji": "🌱" },
+        { "en": "Snowy hills", "es": "Lomas nevadas", "emoji": "⛄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Chinampas were mud islands built right in the lake, and their roots reached the water, so the plants never went thirsty.", "es": "Las chinampas eran islas de lodo hechas en el lago, y sus raíces llegaban al agua, así que nunca pasaban sed." },
+      "topic": "ancient americas",
+      "source": "https://www.si.edu/stories/chinampas-aztec-floating-gardens"
+    },
+    {
+      "id": "history-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What does an explorer do?", "es": "¿Qué hace un explorador?" },
+      "choices": [
+        { "en": "Bakes bread", "es": "Hornea pan", "emoji": "🥐" },
+        { "en": "Fixes shoes", "es": "Arregla zapatos", "emoji": "👞" },
+        { "en": "Travels to unknown places", "es": "Viaja a lugares desconocidos", "emoji": "🧭" }
+      ],
+      "answer": 2,
+      "why": { "en": "An explorer goes where their people have no maps yet, and brings back drawings, plants and stories about what they found.", "es": "Un explorador va a donde su gente todavía no tiene mapas y trae dibujos, plantas e historias de lo que encontró." },
+      "topic": "explorers",
+      "source": "https://kids.nationalgeographic.com/history/article/explorers"
+    },
+    {
+      "id": "history-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "What kept castle walls hard to climb?", "es": "¿Qué hacía difícil trepar las murallas del castillo?" },
+      "choices": [
+        { "en": "They were tall and smooth", "es": "Eran altas y lisas", "emoji": "🧱" },
+        { "en": "They were made of jelly", "es": "Eran de gelatina", "emoji": "🍮" },
+        { "en": "They were painted blue", "es": "Estaban pintadas de azul", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Castle walls were thick stone with narrow curving stairs inside, so climbing was slow and everyone within stayed warm and safe.", "es": "Las murallas eran de piedra gruesa con escaleras angostas y curvas adentro, así que subir era lento y todos estaban seguros." },
+      "topic": "castles and knights",
+      "source": "https://www.dkfindout.com/us/history/castles/castle-defenses/"
+    },
+    {
+      "id": "history-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "What was a drawbridge used for?", "es": "¿Para qué servía un puente levadizo?" },
+      "choices": [
+        { "en": "To water the garden", "es": "Para regar el jardín", "emoji": "🪴" },
+        { "en": "To cross the moat", "es": "Para cruzar el foso", "emoji": "🌉" },
+        { "en": "To hang the laundry", "es": "Para colgar la ropa lavada", "emoji": "🧺" }
+      ],
+      "answer": 1,
+      "why": { "en": "The drawbridge pulled up on chains at night, turning the doorway into a flat wall that hid the entrance completely.", "es": "El puente levadizo subía con cadenas por la noche y convertía la entrada en una pared plana que la escondía." },
+      "topic": "castles and knights",
+      "source": "https://kids.britannica.com/kids/article/castle/352993"
+    },
+    {
+      "id": "history-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "What metal clothing did knights wear?", "es": "¿Qué ropa de metal usaban los caballeros?" },
+      "choices": [
+        { "en": "Pajamas", "es": "Pijamas", "emoji": "🛌" },
+        { "en": "Sandals", "es": "Sandalias", "emoji": "🩴" },
+        { "en": "Armor", "es": "Armadura", "emoji": "🛡️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A full suit of armor weighed about as much as a big dog, and a knight needed helpers to put it on.", "es": "Una armadura completa pesaba más o menos como un perro grande, y el caballero necesitaba ayudantes para ponérsela." },
+      "topic": "castles and knights",
+      "source": "https://www.metmuseum.org/learn/kids/arms-and-armor"
+    },
+    {
+      "id": "history-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "How did a boy become a knight?", "es": "¿Cómo se convertía un niño en caballero?" },
+      "choices": [
+        { "en": "By training for many years", "es": "Entrenando durante muchos años", "emoji": "🏰" },
+        { "en": "By winning one race", "es": "Ganando una sola carrera", "emoji": "🏁" },
+        { "en": "By reading one book", "es": "Leyendo un solo libro", "emoji": "📖" }
+      ],
+      "answer": 0,
+      "why": { "en": "A boy began as a page at about seven, then served a knight as a squire until he was roughly twenty.", "es": "Un niño empezaba de paje a los siete años, luego servía como escudero a un caballero hasta tener unos veinte." },
+      "topic": "castles and knights",
+      "source": "https://kids.britannica.com/kids/article/knighthood/353338"
+    },
+    {
+      "id": "history-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "✉️",
+      "q": { "en": "Which came first, the letter or email?", "es": "¿Qué llegó primero, la carta o el correo electrónico?" },
+      "choices": [
+        { "en": "Email", "es": "El correo electrónico", "emoji": "📧" },
+        { "en": "The paper letter", "es": "La carta de papel", "emoji": "✉️" },
+        { "en": "The video call", "es": "La videollamada", "emoji": "📹" }
+      ],
+      "answer": 1,
+      "why": { "en": "People sent paper letters for thousands of years, while email is younger than many grandparents and arrives in one second.", "es": "La gente envió cartas de papel durante miles de años; el correo electrónico es más joven que muchos abuelos y llega al instante." },
+      "topic": "long ago and now",
+      "source": "https://postalmuseum.si.edu/exhibition/history-of-the-mail"
+    },
+    {
+      "id": "history-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "How did people hear music long ago?", "es": "¿Cómo escuchaba música la gente hace mucho tiempo?" },
+      "choices": [
+        { "en": "From a phone", "es": "Desde un celular", "emoji": "📱" },
+        { "en": "From a robot", "es": "Desde un robot", "emoji": "🤖" },
+        { "en": "Someone played it live", "es": "Alguien la tocaba en vivo", "emoji": "🎻" }
+      ],
+      "answer": 2,
+      "why": { "en": "Before recordings existed, every song you ever heard was played right in front of you by a neighbor, a band or yourself.", "es": "Antes de las grabaciones, cada canción que escuchabas la tocaba alguien frente a ti: un vecino, una banda o tú mismo." },
+      "topic": "long ago and now",
+      "source": "https://www.si.edu/stories/history-recorded-sound"
+    },
+    {
+      "id": "history-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "What did the printing press make faster?", "es": "¿Qué hizo más rápido la imprenta?" },
+      "choices": [
+        { "en": "Making books", "es": "Hacer libros", "emoji": "📚" },
+        { "en": "Cooking soup", "es": "Cocinar sopa", "emoji": "🍲" },
+        { "en": "Growing trees", "es": "Hacer crecer árboles", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Before printing, a monk copied one whole book by hand for a year; a press could make hundreds in that time.", "es": "Antes de la imprenta, un monje copiaba un libro entero a mano durante un año; una prensa hacía cientos en ese tiempo." },
+      "topic": "old inventions",
+      "source": "https://kids.britannica.com/kids/article/printing/353570"
+    },
+    {
+      "id": "history-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "What did people use before zippers?", "es": "¿Qué usaba la gente antes de los cierres?" },
+      "choices": [
+        { "en": "Magnets", "es": "Imanes", "emoji": "🧲" },
+        { "en": "Buttons and laces", "es": "Botones y cordones", "emoji": "🧵" },
+        { "en": "Glue", "es": "Pegamento", "emoji": "🧴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Buttons are thousands of years old, while the zipper is so new that your great-grandparents saw the very first ones.", "es": "Los botones tienen miles de años, y el cierre es tan nuevo que tus bisabuelos vieron los primeros que existieron." },
+      "topic": "old inventions",
+      "source": "https://www.si.edu/stories/history-of-the-zipper"
+    },
+    {
+      "id": "history-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What told the time before clocks?", "es": "¿Qué marcaba la hora antes de los relojes?" },
+      "choices": [
+        { "en": "A talking robot", "es": "Un robot que habla", "emoji": "🤖" },
+        { "en": "A flashing sign", "es": "Un letrero que parpadea", "emoji": "🚥" },
+        { "en": "A shadow on a sundial", "es": "Una sombra en un reloj de sol", "emoji": "☀️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A sundial's shadow swings around as the Sun crosses the sky, so it works beautifully in sunshine and stops at night.", "es": "La sombra del reloj de sol gira mientras el Sol cruza el cielo, funciona muy bien de día y se detiene de noche." },
+      "topic": "old inventions",
+      "source": "https://kids.britannica.com/kids/article/sundial/353876"
+    },
+    {
+      "id": "history-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪀",
+      "q": { "en": "Which old toy rolls up a string?", "es": "¿Cuál juguete antiguo sube por un hilo?" },
+      "choices": [
+        { "en": "A yo-yo", "es": "Un yoyo", "emoji": "🪀" },
+        { "en": "A teddy bear", "es": "Un osito de peluche", "emoji": "🧸" },
+        { "en": "A kite", "es": "Una cometa", "emoji": "🪁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Yo-yos are thousands of years old, and a Greek bowl painted long ago shows a boy playing with one.", "es": "Los yoyos tienen miles de años; un plato griego pintado hace mucho muestra a un niño jugando con uno." },
+      "topic": "old toys and games",
+      "source": "https://www.si.edu/stories/yo-yo-history"
+    },
+    {
+      "id": "history-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "What were the first marbles made from?", "es": "¿De qué estaban hechas las primeras canicas?" },
+      "choices": [
+        { "en": "Chocolate", "es": "Chocolate", "emoji": "🍫" },
+        { "en": "Clay and stone", "es": "Barro y piedra", "emoji": "🪨" },
+        { "en": "Paper", "es": "Papel", "emoji": "📄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Children rolled clay marbles in ancient Egypt and Rome, and the glass ones with colored swirls came much, much later.", "es": "Los niños jugaban canicas de barro en el antiguo Egipto y en Roma; las de vidrio con remolinos llegaron mucho después." },
+      "topic": "old toys and games",
+      "source": "https://www.britishmuseum.org/collection/roman-games-and-toys"
+    },
+    {
+      "id": "history-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "Which board game is very, very old?", "es": "¿Cuál juego de mesa es antiquísimo?" },
+      "choices": [
+        { "en": "Video soccer", "es": "Fútbol de videojuego", "emoji": "🎮" },
+        { "en": "Bingo", "es": "Lotería", "emoji": "🎱" },
+        { "en": "Chess", "es": "Ajedrez", "emoji": "♟️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chess began in India about fifteen hundred years ago, and the pieces slowly changed their names as the game traveled west.", "es": "El ajedrez nació en India hace unos mil quinientos años, y las piezas cambiaron de nombre mientras el juego viajaba al oeste." },
+      "topic": "old toys and games",
+      "source": "https://kids.britannica.com/kids/article/chess/353055"
+    },
+    {
+      "id": "history-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "What do we call old objects in museums?", "es": "¿Cómo llamamos a los objetos antiguos de los museos?" },
+      "choices": [
+        { "en": "Artifacts", "es": "Artefactos", "emoji": "🏺" },
+        { "en": "Groceries", "es": "Despensa", "emoji": "🛒" },
+        { "en": "Puppets", "es": "Títeres", "emoji": "🎭" }
+      ],
+      "answer": 0,
+      "why": { "en": "An artifact is anything people made long ago, from a golden crown to a cracked cooking pot or a child's leather shoe.", "es": "Un artefacto es cualquier cosa que la gente hizo hace mucho: una corona de oro, una olla rota o un zapato de niño." },
+      "topic": "museums",
+      "source": "https://www.si.edu/stories/what-is-an-artifact"
+    },
+    {
+      "id": "history-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "What did sailors eat on long voyages?", "es": "¿Qué comían los marineros en los viajes largos?" },
+      "choices": [
+        { "en": "Fresh ice cream", "es": "Helado fresco", "emoji": "🍦" },
+        { "en": "Hard dry biscuits", "es": "Galletas duras y secas", "emoji": "🍪" },
+        { "en": "Hot soup every day", "es": "Sopa caliente todos los días", "emoji": "🍲" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ship biscuits were so hard that sailors soaked them in soup, and they could last for years without ever spoiling.", "es": "Las galletas de barco eran tan duras que los marineros las remojaban en sopa, y duraban años sin echarse a perder." },
+      "topic": "sailing ships",
+      "source": "https://www.rmg.co.uk/stories/topics/food-at-sea"
+    },
+    {
+      "id": "history-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "What did explorers bring back from faraway lands?", "es": "¿Qué traían los exploradores de tierras lejanas?" },
+      "choices": [
+        { "en": "New clouds", "es": "Nubes nuevas", "emoji": "☁️" },
+        { "en": "New days", "es": "Días nuevos", "emoji": "📅" },
+        { "en": "New foods and plants", "es": "Comidas y plantas nuevas", "emoji": "🌽" }
+      ],
+      "answer": 2,
+      "why": { "en": "Potatoes, tomatoes, corn and chocolate all came from the Americas, and they changed the way the whole world eats.", "es": "La papa, el tomate, el maíz y el chocolate salieron de América y cambiaron la forma de comer del mundo entero." },
+      "topic": "explorers",
+      "source": "https://kids.britannica.com/kids/article/Columbian-Exchange/631220"
+    },
+    {
+      "id": "history-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "Where did people get clothes long ago?", "es": "¿De dónde sacaba la gente su ropa hace mucho?" },
+      "choices": [
+        { "en": "They sewed them at home", "es": "La cosían en casa", "emoji": "🧶" },
+        { "en": "From a website", "es": "De un sitio de internet", "emoji": "💻" },
+        { "en": "From a robot helper", "es": "De un robot ayudante", "emoji": "🤖" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cloth was spun and woven by hand, so one dress cost weeks of work and younger children wore their siblings' clothes.", "es": "La tela se hilaba y tejía a mano, así que un vestido costaba semanas de trabajo y los niños heredaban la ropa." },
+      "topic": "old ways",
+      "source": "https://www.vam.ac.uk/articles/handmade-clothing-before-factories"
+    },
+    {
+      "id": "history-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "What cooled people before electric fans?", "es": "¿Qué refrescaba a la gente antes de los ventiladores?" },
+      "choices": [
+        { "en": "A freezer", "es": "Un congelador", "emoji": "🧊" },
+        { "en": "A fan waved by hand", "es": "Un abanico movido con la mano", "emoji": "🌬️" },
+        { "en": "A warm blanket", "es": "Una cobija calientita", "emoji": "🧣" }
+      ],
+      "answer": 1,
+      "why": { "en": "People waved paper or feather fans, and in hot countries a helper pulled a giant cloth fan hanging from the ceiling.", "es": "La gente agitaba abanicos de papel o pluma, y en países calurosos alguien jalaba un abanico gigante de tela colgado del techo." },
+      "topic": "old ways",
+      "source": "https://www.vam.ac.uk/articles/the-history-of-fans"
+    },
+    {
+      "id": "history-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "📺",
+      "q": { "en": "What colors were the first televisions?", "es": "¿De qué colores eran las primeras televisiones?" },
+      "choices": [
+        { "en": "Bright rainbow colors", "es": "Colores brillantes del arcoíris", "emoji": "🌈" },
+        { "en": "Gold and silver", "es": "Dorado y plateado", "emoji": "🥇" },
+        { "en": "Black and white", "es": "Blanco y negro", "emoji": "📺" }
+      ],
+      "answer": 2,
+      "why": { "en": "Early screens showed only shades of gray, and whole families crowded into one neighbor's living room just to watch together.", "es": "Las primeras pantallas mostraban solo tonos grises, y familias enteras se juntaban en la sala de un vecino para ver juntas." },
+      "topic": "long ago and now",
+      "source": "https://www.si.edu/stories/history-of-television"
+    },
+    {
+      "id": "history-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖥️",
+      "q": { "en": "How big were the very first computers?", "es": "¿De qué tamaño eran las primerísimas computadoras?" },
+      "choices": [
+        { "en": "As big as a room", "es": "Del tamaño de un cuarto", "emoji": "🖥️" },
+        { "en": "As small as a coin", "es": "Del tamaño de una moneda", "emoji": "🪙" },
+        { "en": "As tiny as an ant", "es": "Del tamaño de una hormiga", "emoji": "🐜" }
+      ],
+      "answer": 0,
+      "why": { "en": "The first computers filled whole rooms, weighed more than an elephant, and needed a team of people to keep them running.", "es": "Las primeras computadoras llenaban cuartos enteros, pesaban más que un elefante y necesitaban un equipo de personas para funcionar." },
+      "topic": "old inventions",
+      "source": "https://www.computerhistory.org/revolution/birth-of-the-computer"
+    },
+    {
+      "id": "history-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚂",
+      "q": { "en": "Which came first, the train or the airplane?", "es": "¿Qué llegó primero, el tren o el avión?" },
+      "choices": [
+        { "en": "The airplane", "es": "El avión", "emoji": "✈️" },
+        { "en": "The train", "es": "El tren", "emoji": "🚂" },
+        { "en": "The rocket", "es": "El cohete", "emoji": "🚀" }
+      ],
+      "answer": 1,
+      "why": { "en": "Steam trains already crossed whole countries when the Wright brothers flew, so trains carried people for almost a hundred years first.", "es": "Los trenes de vapor ya cruzaban países enteros cuando volaron los hermanos Wright, así que el tren llegó casi cien años antes." },
+      "topic": "long ago and now",
+      "source": "https://www.dkfindout.com/us/transportation/history-of-transportation/"
+    },
+    {
+      "id": "history-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "What do we call a hundred years?", "es": "¿Cómo le decimos a cien años?" },
+      "choices": [
+        { "en": "A week", "es": "Una semana", "emoji": "🗓️" },
+        { "en": "An hour", "es": "Una hora", "emoji": "⏰" },
+        { "en": "A century", "es": "Un siglo", "emoji": "📅" }
+      ],
+      "answer": 2,
+      "why": { "en": "Century comes from a Latin word meaning hundred, and ten centuries together make a thousand years, which we call a millennium.", "es": "Siglo viene de una palabra latina para cien, y diez siglos juntos hacen mil años, que llamamos un milenio." },
+      "topic": "history words",
+      "source": "https://kids.britannica.com/kids/article/calendar/352951"
+    },
+    {
+      "id": "history-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "What is a person who studies the past called?", "es": "¿Cómo se llama quien estudia el pasado?" },
+      "choices": [
+        { "en": "A historian", "es": "Un historiador", "emoji": "📜" },
+        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" },
+        { "en": "A dentist", "es": "Un dentista", "emoji": "🦷" }
+      ],
+      "answer": 0,
+      "why": { "en": "Historians read old letters, diaries and lists to work out how people lived, then check whether the different stories agree.", "es": "Los historiadores leen cartas viejas, diarios y listas para saber cómo vivía la gente, y revisan si las historias coinciden." },
+      "topic": "history words",
+      "source": "https://www.loc.gov/classroom-materials/thinking-like-a-historian/"
+    },
+    {
+      "id": "history-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "What was carved onto Viking ship fronts?", "es": "¿Qué tallaban al frente de los barcos vikingos?" },
+      "choices": [
+        { "en": "A big mirror", "es": "Un espejo grande", "emoji": "🪞" },
+        { "en": "A dragon head", "es": "Una cabeza de dragón", "emoji": "🐉" },
+        { "en": "A flower pot", "es": "Una maceta", "emoji": "🪴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Viking longships were light enough to carry over land, and those carved heads were meant to frighten away sea monsters.", "es": "Los barcos vikingos eran tan ligeros que se cargaban por tierra, y esas cabezas talladas debían espantar a los monstruos marinos." },
+      "topic": "ancient world",
+      "source": "https://www.britishmuseum.org/collection/vikings-longships"
+    },
+    {
+      "id": "history-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Which country built a very long wall?", "es": "¿Qué país construyó una muralla larguísima?" },
+      "choices": [
+        { "en": "Iceland", "es": "Islandia", "emoji": "🧊" },
+        { "en": "Peru", "es": "Perú", "emoji": "🏔️" },
+        { "en": "China", "es": "China", "emoji": "🧱" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Great Wall of China is so long that walking its whole length would take months, and it was built over many centuries.", "es": "La Gran Muralla china es tan larga que caminarla entera tomaría meses, y se construyó a lo largo de muchos siglos." },
+      "topic": "ancient world",
+      "source": "https://kids.nationalgeographic.com/history/article/great-wall-of-china"
+    },
+    {
+      "id": "history-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "What did Romans build to carry water?", "es": "¿Qué construyeron los romanos para llevar agua?" },
+      "choices": [
+        { "en": "Aqueducts", "es": "Acueductos", "emoji": "🌉" },
+        { "en": "Balloons", "es": "Globos", "emoji": "🎈" },
+        { "en": "Umbrellas", "es": "Paraguas", "emoji": "☂️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Aqueducts were stone bridges that let water run gently downhill into a city for miles, and some still carry water.", "es": "Los acueductos eran puentes de piedra que dejaban correr el agua cuesta abajo hacia la ciudad por kilómetros; algunos siguen sirviendo." },
+      "topic": "ancient world",
+      "source": "https://kids.britannica.com/kids/article/aqueduct/399226"
+    },
+    {
+      "id": "history-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Where did the first Olympic Games happen?", "es": "¿Dónde ocurrieron los primeros Juegos Olímpicos?" },
+      "choices": [
+        { "en": "On a sailing ship", "es": "En un barco de vela", "emoji": "⛵" },
+        { "en": "In ancient Greece", "es": "En la antigua Grecia", "emoji": "🏛️" },
+        { "en": "In ancient Egypt", "es": "En el antiguo Egipto", "emoji": "🐫" }
+      ],
+      "answer": 1,
+      "why": { "en": "Runners raced at Olympia nearly three thousand years ago, and the winner's prize was a simple crown of olive leaves.", "es": "Los corredores competían en Olimpia hace casi tres mil años, y el premio del ganador era una corona de hojas de olivo." },
+      "topic": "ancient world",
+      "source": "https://kids.britannica.com/kids/article/Olympic-Games/353483"
+    },
+    {
+      "id": "history-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "What carried letters across America long ago?", "es": "¿Qué llevaba las cartas por América hace mucho?" },
+      "choices": [
+        { "en": "Flying machines", "es": "Máquinas voladoras", "emoji": "🛸" },
+        { "en": "Electric scooters", "es": "Patines eléctricos", "emoji": "🛴" },
+        { "en": "Riders on fast horses", "es": "Jinetes en caballos veloces", "emoji": "🐎" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pony Express riders swapped to a fresh horse every ten miles and crossed the country in about ten days, sleeping little.", "es": "Los jinetes del Pony Express cambiaban de caballo cada quince kilómetros y cruzaban el país en unos diez días, durmiendo poco." },
+      "topic": "old ways",
+      "source": "https://postalmuseum.si.edu/exhibition/the-pony-express"
+    },
+    {
+      "id": "history-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤝",
+      "q": { "en": "What did people use before coins?", "es": "¿Qué usaba la gente antes de las monedas?" },
+      "choices": [
+        { "en": "They traded things", "es": "Intercambiaban cosas", "emoji": "🤝" },
+        { "en": "They used plastic cards", "es": "Usaban tarjetas de plástico", "emoji": "💳" },
+        { "en": "They used paper tickets", "es": "Usaban boletos de papel", "emoji": "🎟️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Trading like that is called barter: you swapped three chickens for a pot, and both people had to want the swap.", "es": "Eso se llama trueque: cambiabas tres gallinas por una olla, y los dos tenían que querer lo que el otro traía." },
+      "topic": "old ways",
+      "source": "https://americanhistory.si.edu/collections/object-groups/value-of-money"
+    },
+    {
+      "id": "history-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "What did people rub to make fire?", "es": "¿Qué frotaba la gente para hacer fuego?" },
+      "choices": [
+        { "en": "Two metal spoons", "es": "Dos cucharas de metal", "emoji": "🥄" },
+        { "en": "Sticks and stones", "es": "Palos y piedras", "emoji": "🪵" },
+        { "en": "Two ice cubes", "es": "Dos cubos de hielo", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spinning a dry stick against wood makes hot dust that begins to smoke, and a spark from flint stone works even faster.", "es": "Girar un palo seco contra la madera hace polvo caliente que empieza a humear, y una chispa de pedernal funciona aún más rápido." },
+      "topic": "old ways",
+      "source": "https://www.nhm.ac.uk/discover/how-early-humans-made-fire.html"
+    },
+    {
+      "id": "history-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛖",
+      "q": { "en": "What were the first houses made from?", "es": "¿De qué estaban hechas las primeras casas?" },
+      "choices": [
+        { "en": "Glass and steel", "es": "Vidrio y acero", "emoji": "🏢" },
+        { "en": "Plastic bricks", "es": "Ladrillos de plástico", "emoji": "🧱" },
+        { "en": "Mud, sticks and grass", "es": "Lodo, palos y pasto", "emoji": "🛖" }
+      ],
+      "answer": 2,
+      "why": { "en": "Some of the oldest homes were round huts of mud and reeds, with a roof of grass tied down in thick bundles.", "es": "Algunas de las casas más antiguas eran chozas redondas de lodo y juncos, con techo de pasto atado en manojos gruesos." },
+      "topic": "old ways",
+      "source": "https://www.dkfindout.com/us/history/stone-age/stone-age-homes/"
+    },
+    {
+      "id": "history-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "What did people use to grind grain?", "es": "¿Qué usaba la gente para moler el grano?" },
+      "choices": [
+        { "en": "Two heavy stones", "es": "Dos piedras pesadas", "emoji": "🪨" },
+        { "en": "A juice blender", "es": "Una licuadora", "emoji": "🧃" },
+        { "en": "Their own teeth", "es": "Sus propios dientes", "emoji": "🦷" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hand mill of two stones turned wheat into flour, and grinding enough for one family's bread could take hours.", "es": "Un molino de mano con dos piedras convertía el trigo en harina, y moler lo de un día podía tomar horas." },
+      "topic": "old ways",
+      "source": "https://www.britishmuseum.org/collection/ancient-grinding-stones"
+    },
+    {
+      "id": "history-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "Why did people stay still in old photos?", "es": "¿Por qué la gente se quedaba quieta en las fotos antiguas?" },
+      "choices": [
+        { "en": "They were all very shy", "es": "Eran muy penosos", "emoji": "😊" },
+        { "en": "The camera worked slowly", "es": "La cámara trabajaba despacio", "emoji": "📷" },
+        { "en": "The film was cold", "es": "La película estaba fría", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Early cameras needed a whole minute of light, so a smile would blur, and some sitters leaned on a hidden metal stand.", "es": "Las cámaras antiguas necesitaban un minuto entero de luz, así que una sonrisa salía borrosa; algunos se apoyaban en un soporte escondido." },
+      "topic": "old ways",
+      "source": "https://www.si.edu/stories/early-photography-portraits"
     }
   ]
 }

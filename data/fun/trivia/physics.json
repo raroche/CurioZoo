@@ -1,7 +1,7 @@
 {
   "note": "Physics & the Universe. Three levels in one file so a reviewer sees the ladder.",
   "category": "physics",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "physics-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
@@ -12,8 +12,7 @@
         { "en": "It flies up to the clouds", "es": "Sube volando a las nubes", "emoji": "☁️" }
       ],
       "answer": 0,
-      "why": { "en": "The grass rubs against the ball as it rolls, and that rubbing slowly takes away its speed until it stops.",
-               "es": "El pasto roza la pelota mientras rueda, y ese roce le quita velocidad poco a poco hasta que se detiene." },
+      "why": { "en": "The grass rubs against the ball as it rolls, and that rubbing slowly takes away its speed until it stops.", "es": "El pasto roza la pelota mientras rueda, y ese roce le quita velocidad poco a poco hasta que se detiene." },
       "topic": "forces and motion",
       "source": "https://www.britannica.com/science/friction"
     },
@@ -26,8 +25,7 @@
         { "en": "A paper clip", "es": "Un clip", "emoji": "📎" }
       ],
       "answer": 2,
-      "why": { "en": "Magnets pull on things made of iron or steel, like a paper clip, but they do not pull on leaves or crayons.",
-               "es": "Los imanes atraen cosas de hierro o acero, como un clip, pero no atraen las hojas ni los crayones." },
+      "why": { "en": "Magnets pull on things made of iron or steel, like a paper clip, but they do not pull on leaves or crayons.", "es": "Los imanes atraen cosas de hierro o acero, como un clip, pero no atraen las hojas ni los crayones." },
       "topic": "electricity and magnets",
       "source": "https://www.britannica.com/science/magnet"
     },
@@ -40,15 +38,13 @@
         { "en": "Wind", "es": "Viento", "emoji": "🌬️" }
       ],
       "answer": 1,
-      "why": { "en": "A shadow forms when something blocks the light, which is why your shadow grows long in the evening.",
-               "es": "Una sombra se forma cuando algo tapa la luz; por eso tu sombra se ve larga al atardecer." },
+      "why": { "en": "A shadow forms when something blocks the light, which is why your shadow grows long in the evening.", "es": "Una sombra se forma cuando algo tapa la luz; por eso tu sombra se ve larga al atardecer." },
       "topic": "light and sound",
       "source": "https://www.britannica.com/science/light"
     },
     {
       "id": "physics-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚽",
-      "q": { "en": "A ball is thrown in deep space, far from everything. What does it do?",
-             "es": "Una pelota se lanza en el espacio, lejos de todo. ¿Qué hace?" },
+      "q": { "en": "A ball is thrown in deep space, far from everything. What does it do?", "es": "Una pelota se lanza en el espacio, lejos de todo. ¿Qué hace?" },
       "choices": [
         { "en": "Slows down and stops", "es": "Frena y se detiene" },
         { "en": "Keeps going at the same speed", "es": "Sigue a la misma velocidad" },
@@ -56,8 +52,7 @@
         { "en": "Turns around and comes back", "es": "Da la vuelta y regresa" }
       ],
       "answer": 1,
-      "why": { "en": "A moving object keeps going in a straight line until a force changes it, and in space nothing rubs to slow it.",
-               "es": "Un objeto en movimiento sigue en línea recta hasta que una fuerza lo cambia, y en el espacio nada lo roza para frenarlo." },
+      "why": { "en": "A moving object keeps going in a straight line until a force changes it, and in space nothing rubs to slow it.", "es": "Un objeto en movimiento sigue en línea recta hasta que una fuerza lo cambia, y en el espacio nada lo roza para frenarlo." },
       "topic": "forces and motion",
       "source": "https://www.grc.nasa.gov/www/k-12/airplane/newton1g.html"
     },
@@ -71,29 +66,25 @@
         { "en": "Distance", "es": "Distancia" }
       ],
       "answer": 3,
-      "why": { "en": "A light-year is how far light travels in one year, about 9.5 trillion kilometers or 6 trillion miles.",
-               "es": "Un año luz es la distancia que recorre la luz en un año: unos 9.5 millones de millones de kilómetros." },
+      "why": { "en": "A light-year is how far light travels in one year, about 9.5 trillion kilometers or 6 trillion miles.", "es": "Un año luz es la distancia que recorre la luz en un año: unos 9.5 millones de millones de kilómetros." },
       "topic": "the universe",
       "source": "https://www.britannica.com/science/light-year"
     },
     {
       "id": "physics-medium-003", "level": "medium", "type": "tf", "lang": "both",
-      "q": { "en": "Sound can travel through the empty space between stars.",
-             "es": "El sonido puede viajar por el espacio vacío entre las estrellas." },
+      "q": { "en": "Sound can travel through the empty space between stars.", "es": "El sonido puede viajar por el espacio vacío entre las estrellas." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "Sound is a vibration that needs air, water or something solid to travel through, so space is silent.",
-               "es": "El sonido es una vibración que necesita aire, agua o algo sólido para viajar, así que el espacio es silencioso." },
+      "why": { "en": "Sound is a vibration that needs air, water or something solid to travel through, so space is silent.", "es": "El sonido es una vibración que necesita aire, agua o algo sólido para viajar, así que el espacio es silencioso." },
       "topic": "light and sound",
       "source": "https://www.britannica.com/science/sound-physics"
     },
     {
       "id": "physics-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
-      "q": { "en": "Which of Newton's laws explains how a rocket moves forward by pushing hot gas backward?",
-             "es": "¿Qué ley de Newton explica cómo un cohete avanza al empujar gas caliente hacia atrás?" },
+      "q": { "en": "Which of Newton's laws explains how a rocket moves forward by pushing hot gas backward?", "es": "¿Qué ley de Newton explica cómo un cohete avanza al empujar gas caliente hacia atrás?" },
       "choices": [
         { "en": "The first law", "es": "La primera ley" },
         { "en": "The second law", "es": "La segunda ley" },
@@ -101,15 +92,13 @@
         { "en": "The law of gravitation", "es": "La ley de la gravitación" }
       ],
       "answer": 2,
-      "why": { "en": "The third law says every action has an equal and opposite reaction: the gas pushes back on the rocket.",
-               "es": "La tercera ley dice que toda acción tiene una reacción igual y opuesta: el gas empuja al cohete hacia adelante." },
+      "why": { "en": "The third law says every action has an equal and opposite reaction: the gas pushes back on the rocket.", "es": "La tercera ley dice que toda acción tiene una reacción igual y opuesta: el gas empuja al cohete hacia adelante." },
       "topic": "forces and motion",
       "source": "https://www.grc.nasa.gov/www/k-12/rocket/newton3r.html"
     },
     {
       "id": "physics-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎢",
-      "q": { "en": "At which point on a roller coaster is a car's potential energy greatest?",
-             "es": "¿En qué punto de una montaña rusa tiene el carrito más energía potencial?" },
+      "q": { "en": "At which point on a roller coaster is a car's potential energy greatest?", "es": "¿En qué punto de una montaña rusa tiene el carrito más energía potencial?" },
       "choices": [
         { "en": "At the bottom of the first drop", "es": "Abajo de la primera bajada" },
         { "en": "Halfway down a hill", "es": "A mitad de una bajada" },
@@ -117,15 +106,13 @@
         { "en": "At the top of the highest hill", "es": "En la cima de la colina más alta" }
       ],
       "answer": 3,
-      "why": { "en": "Potential energy is stored by height; as the car drops, it turns into kinetic energy, the energy of motion.",
-               "es": "La energía potencial se guarda con la altura; al bajar, el carrito la convierte en energía cinética, la energía del movimiento." },
+      "why": { "en": "Potential energy is stored by height; as the car drops, it turns into kinetic energy, the energy of motion.", "es": "La energía potencial se guarda con la altura; al bajar, el carrito la convierte en energía cinética, la energía del movimiento." },
       "topic": "energy",
       "source": "https://www.britannica.com/science/potential-energy"
     },
     {
       "id": "physics-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
-      "q": { "en": "About how old do scientists estimate the universe is?",
-             "es": "¿Cuántos años calculan los científicos que tiene el universo, aproximadamente?" },
+      "q": { "en": "About how old do scientists estimate the universe is?", "es": "¿Cuántos años calculan los científicos que tiene el universo, aproximadamente?" },
       "choices": [
         { "en": "4.6 billion years", "es": "4600 millones de años" },
         { "en": "13.8 billion years", "es": "13 800 millones de años" },
@@ -133,10 +120,1270 @@
         { "en": "100 billion years", "es": "100 000 millones de años" }
       ],
       "answer": 1,
-      "why": { "en": "The universe began with the Big Bang about 13.8 billion years ago; Earth, at 4.6 billion years, is much younger.",
-               "es": "El universo empezó con el Big Bang hace unos 13 800 millones de años; la Tierra, con 4600 millones, es mucho más joven." },
+      "why": { "en": "The universe began with the Big Bang about 13.8 billion years ago; Earth, at 4.6 billion years, is much younger.", "es": "El universo empezó con el Big Bang hace unos 13 800 millones de años; la Tierra, con 4600 millones, es mucho más joven." },
       "topic": "the universe",
       "source": "https://www.britannica.com/science/big-bang-model"
+    },
+    {
+      "id": "physics-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛝",
+      "q": { "en": "What makes a swing start moving?", "es": "¿Qué hace que un columpio empiece a moverse?" },
+      "choices": [
+        { "en": "A push", "es": "Un empujón", "emoji": "🤚" },
+        { "en": "A song", "es": "Una canción", "emoji": "🎵" },
+        { "en": "A whisper", "es": "Un susurro", "emoji": "🤫" }
+      ],
+      "answer": 0,
+      "why": { "en": "A push is a force, and every time you pump your legs on a swing you are adding another small push.", "es": "Un empujón es una fuerza, y cada vez que mueves las piernas en el columpio le das otro empujón pequeño." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/force-physics"
+    },
+    {
+      "id": "physics-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "Let go of a ball. What does it do?", "es": "Sueltas una pelota. ¿Qué hace?" },
+      "choices": [
+        { "en": "It falls down", "es": "Se cae al suelo", "emoji": "🍎" },
+        { "en": "It floats up", "es": "Sube flotando", "emoji": "🎈" },
+        { "en": "It stays in the air", "es": "Se queda en el aire", "emoji": "🪄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gravity pulls everything toward the ground, even a feather, and it is the same pull that keeps you from floating away.", "es": "La gravedad jala todo hacia el suelo, hasta una pluma, y es la misma fuerza que te mantiene pegado a la tierra." },
+      "topic": "forces and motion",
+      "source": "https://spaceplace.nasa.gov/what-is-gravity/en/"
+    },
+    {
+      "id": "physics-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "📦",
+      "q": { "en": "Which one is harder to push?", "es": "¿Cuál es más difícil de empujar?" },
+      "choices": [
+        { "en": "A full toy box", "es": "Una caja llena de juguetes", "emoji": "🧸" },
+        { "en": "An empty shoe box", "es": "Una caja de zapatos vacía", "emoji": "👟" },
+        { "en": "A paper plate", "es": "Un plato de papel", "emoji": "🍽️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heavier things need a bigger push to start moving, so try sliding an empty box and then the same box full.", "es": "Las cosas pesadas necesitan un empujón más grande para moverse; prueba deslizar una caja vacía y luego la misma caja llena." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/mass-physics"
+    },
+    {
+      "id": "physics-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "You kick a ball harder. What happens?", "es": "Pateas la pelota más fuerte. ¿Qué pasa?" },
+      "choices": [
+        { "en": "It goes farther", "es": "Llega más lejos", "emoji": "🥅" },
+        { "en": "It stops sooner", "es": "Se detiene antes", "emoji": "🛑" },
+        { "en": "It turns pink", "es": "Se vuelve rosa", "emoji": "🎀" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bigger push gives more speed, so the ball travels farther before the grass and the air slow it down.", "es": "Un empujón más fuerte da más velocidad, así que la pelota llega más lejos antes de que el pasto y el aire la frenen." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/force-physics"
+    },
+    {
+      "id": "physics-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛒",
+      "q": { "en": "You pull a wagon. Which way does it go?", "es": "Jalas un carrito. ¿Hacia dónde va?" },
+      "choices": [
+        { "en": "Toward you", "es": "Hacia ti", "emoji": "🧒" },
+        { "en": "Away from you", "es": "Lejos de ti", "emoji": "🏃" },
+        { "en": "Straight up", "es": "Derecho hacia arriba", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "A pull moves a thing toward you and a push moves it away; both are forces, just in opposite directions.", "es": "Jalar acerca las cosas y empujar las aleja; las dos son fuerzas, solo que apuntan en direcciones opuestas." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/force-physics"
+    },
+    {
+      "id": "physics-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "Where does a toy car roll fastest?", "es": "¿Dónde rueda más rápido un carrito de juguete?" },
+      "choices": [
+        { "en": "On a smooth floor", "es": "En un piso liso", "emoji": "🏠" },
+        { "en": "On thick carpet", "es": "En una alfombra gruesa", "emoji": "🧶" },
+        { "en": "On sticky mud", "es": "En lodo pegajoso", "emoji": "🟤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Smooth floors rub less than carpet, and less rubbing means the car keeps its speed longer, so race it on both.", "es": "Los pisos lisos rozan menos que la alfombra, y con menos roce el carrito guarda su velocidad; haz la carrera en los dos." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/friction"
+    },
+    {
+      "id": "physics-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "👟",
+      "q": { "en": "What helps shoes grip the floor?", "es": "¿Qué ayuda a que los zapatos agarren el piso?" },
+      "choices": [
+        { "en": "Bumpy soles", "es": "Suelas con rugosidades", "emoji": "👟" },
+        { "en": "Bright colors", "es": "Colores brillantes", "emoji": "🌈" },
+        { "en": "Long laces", "es": "Agujetas largas", "emoji": "🪢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bumps grab the ground with friction, the same rubbing that lets you stop running without sliding across the room.", "es": "Las rugosidades agarran el piso con fricción, ese mismo roce que te deja frenar al correr sin resbalarte por el cuarto." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/friction"
+    },
+    {
+      "id": "physics-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "What gives your body energy to run?", "es": "¿Qué le da energía a tu cuerpo para correr?" },
+      "choices": [
+        { "en": "Food", "es": "La comida", "emoji": "🍎" },
+        { "en": "Sleepy songs", "es": "Las canciones de cuna", "emoji": "🎵" },
+        { "en": "Your shoes", "es": "Tus zapatos", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your body turns breakfast into energy for moving, and even sitting still burns some of it to keep you warm.", "es": "Tu cuerpo convierte el desayuno en energía para moverte, y hasta sentado gastas un poco para mantenerte calientito." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/energy"
+    },
+    {
+      "id": "physics-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "What makes a pinwheel spin?", "es": "¿Qué hace girar un rehilete?" },
+      "choices": [
+        { "en": "Wind", "es": "El viento", "emoji": "🌬️" },
+        { "en": "Music", "es": "La música", "emoji": "🎵" },
+        { "en": "Moonlight", "es": "La luz de la Luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Moving air carries energy, and that energy pushes the paper blades around; blow on one and you become the wind.", "es": "El aire en movimiento lleva energía, y esa energía empuja las aspas de papel; sopla tú y serás el viento." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/wind"
+    },
+    {
+      "id": "physics-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎯",
+      "q": { "en": "What happens when you stretch a rubber band?", "es": "¿Qué pasa cuando estiras una liga?" },
+      "choices": [
+        { "en": "It stores energy", "es": "Guarda energía", "emoji": "🔋" },
+        { "en": "It turns to water", "es": "Se vuelve agua", "emoji": "💧" },
+        { "en": "It gets colder", "es": "Se pone fría", "emoji": "🧊" }
+      ],
+      "answer": 0,
+      "why": { "en": "A stretched band holds energy that jumps out the moment you let go, which is how a toy plane's propeller spins.", "es": "Una liga estirada guarda energía que sale de golpe al soltarla; así gira la hélice de un avión de juguete." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/potential-energy"
+    },
+    {
+      "id": "physics-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Where does a plant get its energy?", "es": "¿De dónde saca su energía una planta?" },
+      "choices": [
+        { "en": "The Sun", "es": "Del Sol", "emoji": "☀️" },
+        { "en": "The wind", "es": "Del viento", "emoji": "🌬️" },
+        { "en": "The rocks", "es": "De las rocas", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves catch sunlight and turn it into food, which is why a plant in a dark closet grows pale and floppy.", "es": "Las hojas atrapan la luz del Sol y la convierten en alimento; por eso una planta en un clóset oscuro se pone pálida." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/solar-energy"
+    },
+    {
+      "id": "physics-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What does a campfire give you?", "es": "¿Qué te da una fogata?" },
+      "choices": [
+        { "en": "Heat and light", "es": "Calor y luz", "emoji": "🔥" },
+        { "en": "Sound and rain", "es": "Sonido y lluvia", "emoji": "🌧️" },
+        { "en": "Ice and snow", "es": "Hielo y nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Burning wood changes stored energy into heat and light, and the crackle you hear is a tiny bit of sound energy.", "es": "La leña al arder convierte energía guardada en calor y luz, y el chisporroteo que oyes es un poquito de energía sonora." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/energy"
+    },
+    {
+      "id": "physics-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "What makes a bicycle go?", "es": "¿Qué hace avanzar una bicicleta?" },
+      "choices": [
+        { "en": "Your legs pushing pedals", "es": "Tus piernas en los pedales", "emoji": "🦵" },
+        { "en": "The bell ringing", "es": "El timbre sonando", "emoji": "🔔" },
+        { "en": "The basket", "es": "La canasta", "emoji": "🧺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your legs give the pedals energy, the chain passes it to the wheel, and coasting downhill lets gravity do the work.", "es": "Tus piernas dan energía a los pedales, la cadena la lleva a la rueda, y al bajar una loma la gravedad ayuda." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/kinetic-energy"
+    },
+    {
+      "id": "physics-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "What happens when you hit a drum?", "es": "¿Qué pasa cuando le pegas a un tambor?" },
+      "choices": [
+        { "en": "The skin shakes", "es": "El parche vibra", "emoji": "🥁" },
+        { "en": "The skin melts", "es": "El parche se derrite", "emoji": "🫠" },
+        { "en": "The skin turns blue", "es": "El parche se pone azul", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sound is a shaking, or vibration; put a few rice grains on the drum and watch them hop when you hit it.", "es": "El sonido es una vibración; pon unos granitos de arroz sobre el tambor y míralos brincar cuando le pegas." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/sound-physics"
+    },
+    {
+      "id": "physics-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "What do you see in a mirror?", "es": "¿Qué ves en un espejo?" },
+      "choices": [
+        { "en": "Light bouncing back", "es": "Luz que rebota", "emoji": "🪞" },
+        { "en": "Light being eaten", "es": "Luz que se la comen", "emoji": "🍽️" },
+        { "en": "Light turning to water", "es": "Luz que se vuelve agua", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A mirror is so smooth that light bounces off in a neat line, which is why your reflection looks like you.", "es": "El espejo es tan liso que la luz rebota en línea ordenada; por eso tu reflejo se ve igualito a ti." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/reflection-physics"
+    },
+    {
+      "id": "physics-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "👤",
+      "q": { "en": "When is your shadow longest?", "es": "¿Cuándo es más larga tu sombra?" },
+      "choices": [
+        { "en": "Early morning", "es": "Temprano en la mañana", "emoji": "🌅" },
+        { "en": "At noon", "es": "Al mediodía", "emoji": "🕛" },
+        { "en": "At midnight", "es": "A medianoche", "emoji": "🌌" }
+      ],
+      "answer": 0,
+      "why": { "en": "When the Sun sits low, its light comes in sideways and stretches your shadow long; at noon it shrinks to a puddle.", "es": "Cuando el Sol está bajito, su luz llega de lado y estira tu sombra; al mediodía se encoge hasta ser un charquito." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/light"
+    },
+    {
+      "id": "physics-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "How many colors are in a rainbow?", "es": "¿Cuántos colores tiene el arcoíris?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete", "emoji": "🌈" },
+        { "en": "Two", "es": "Dos", "emoji": "🎨" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🖍️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rainbow shows red, orange, yellow, green, blue, indigo and violet, all hidden inside plain sunlight until raindrops split it.", "es": "El arcoíris tiene rojo, naranja, amarillo, verde, azul, índigo y violeta, todos escondidos en la luz del Sol hasta que la lluvia los separa." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/rainbow"
+    },
+    {
+      "id": "physics-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "What comes back when you shout in a cave?", "es": "¿Qué regresa cuando gritas en una cueva?" },
+      "choices": [
+        { "en": "An echo", "es": "Un eco", "emoji": "🗣️" },
+        { "en": "A rainbow", "es": "Un arcoíris", "emoji": "🌈" },
+        { "en": "A shadow", "es": "Una sombra", "emoji": "👤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your voice hits the rock wall and bounces back to your ears, and the wait is the time sound took to travel.", "es": "Tu voz choca con la pared de roca y regresa a tus oídos; la espera es el tiempo que tardó en viajar." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/echo-acoustics"
+    },
+    {
+      "id": "physics-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "Touch your throat and hum. What do you feel?", "es": "Toca tu garganta y tararea. ¿Qué sientes?" },
+      "choices": [
+        { "en": "A tickly shaking", "es": "Una vibración con cosquillas", "emoji": "🎶" },
+        { "en": "Cold water", "es": "Agua fría", "emoji": "💧" },
+        { "en": "A puff of wind", "es": "Un soplo de viento", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Humming makes two little flaps in your throat vibrate very fast, and those vibrations are the sound your friends hear.", "es": "Al tararear, dos pliegues de tu garganta vibran muy rápido, y esas vibraciones son el sonido que oyen tus amigos." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/vibration"
+    },
+    {
+      "id": "physics-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "What sticks a magnet to the fridge?", "es": "¿Qué pega un imán al refrigerador?" },
+      "choices": [
+        { "en": "Steel in the door", "es": "El acero de la puerta", "emoji": "🧲" },
+        { "en": "Glue inside", "es": "Pegamento por dentro", "emoji": "🍯" },
+        { "en": "Paint on top", "es": "La pintura de encima", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fridge doors hide a sheet of steel, so the magnet grabs it; try the same magnet on a wooden door instead.", "es": "La puerta del refrigerador esconde una lámina de acero y el imán se agarra de ella; prueba el mismo imán en una puerta de madera." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/science/magnet"
+    },
+    {
+      "id": "physics-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "What happens when two magnets meet?", "es": "¿Qué pasa cuando se juntan dos imanes?" },
+      "choices": [
+        { "en": "They pull or push", "es": "Se atraen o se rechazan", "emoji": "🧲" },
+        { "en": "They always melt", "es": "Siempre se derriten", "emoji": "🫠" },
+        { "en": "They make music", "es": "Hacen música", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every magnet has two ends; matching ends shove each other away, and opposite ends snap together with a click.", "es": "Cada imán tiene dos extremos; los extremos iguales se rechazan y los contrarios se juntan de golpe con un clic." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/science/magnetism"
+    },
+    {
+      "id": "physics-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "What makes a flashlight shine?", "es": "¿Qué hace brillar una linterna?" },
+      "choices": [
+        { "en": "A battery", "es": "Una pila", "emoji": "🔋" },
+        { "en": "A sticker", "es": "Una calcomanía", "emoji": "⭐" },
+        { "en": "A shadow", "es": "Una sombra", "emoji": "👤" }
+      ],
+      "answer": 0,
+      "why": { "en": "A battery pushes electricity around a loop to the tiny bulb, and opening the case breaks the loop so the light goes out.", "es": "La pila empuja la electricidad por un circuito hasta el foco, y si abres la tapa el circuito se rompe y se apaga." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/technology/electric-circuit"
+    },
+    {
+      "id": "physics-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Rub a balloon on your hair. What happens?", "es": "Frota un globo en tu cabello. ¿Qué pasa?" },
+      "choices": [
+        { "en": "Your hair lifts up", "es": "Tu cabello se levanta", "emoji": "🎈" },
+        { "en": "Your hair gets wet", "es": "Tu cabello se moja", "emoji": "💧" },
+        { "en": "Your hair turns green", "es": "Tu cabello se pone verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rubbing moves tiny bits of electricity onto the balloon, and the charged balloon then tugs your hair toward it.", "es": "Al frotar pasan pedacitos de electricidad al globo, y el globo cargado jala tu cabello hacia él como un imán." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/science/static-electricity"
+    },
+    {
+      "id": "physics-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "What do you flip to light a room?", "es": "¿Qué mueves para encender un cuarto?" },
+      "choices": [
+        { "en": "A switch", "es": "El apagador", "emoji": "🔘" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A switch closes the loop so electricity can flow to the bulb; flip it off and the loop has a gap again.", "es": "El apagador cierra el circuito para que la electricidad llegue al foco; al apagarlo, el circuito queda con un hueco." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/technology/electric-circuit"
+    },
+    {
+      "id": "physics-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What is the Sun?", "es": "¿Qué es el Sol?" },
+      "choices": [
+        { "en": "A star", "es": "Una estrella", "emoji": "⭐" },
+        { "en": "A planet", "es": "Un planeta", "emoji": "🪐" },
+        { "en": "A big lamp", "es": "Una lámpara grande", "emoji": "💡" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun is a star, and it looks huge only because the other stars are much, much farther away.", "es": "El Sol es una estrella, y se ve enorme solo porque las demás estrellas están muchísimo más lejos de nosotros." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/all-about-the-sun/en/"
+    },
+    {
+      "id": "physics-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Where do the stars go in daytime?", "es": "¿Adónde van las estrellas de día?" },
+      "choices": [
+        { "en": "They stay in the sky", "es": "Se quedan en el cielo", "emoji": "⭐" },
+        { "en": "They fall in the sea", "es": "Caen al mar", "emoji": "🌊" },
+        { "en": "They go to sleep", "es": "Se van a dormir", "emoji": "😴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stars shine all day, but sunlight in our air is so bright that it washes them out until evening comes.", "es": "Las estrellas brillan todo el día, pero la luz del Sol en el aire es tan fuerte que las tapa hasta el atardecer." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/science/star-astronomy"
+    },
+    {
+      "id": "physics-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What makes day turn into night?", "es": "¿Qué convierte el día en noche?" },
+      "choices": [
+        { "en": "Earth spinning", "es": "La Tierra girando", "emoji": "🌍" },
+        { "en": "The Sun sleeping", "es": "El Sol durmiendo", "emoji": "😴" },
+        { "en": "Clouds closing", "es": "Las nubes cerrándose", "emoji": "🌥️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth turns like a slow top, once every day, so your side faces the Sun and then faces away into darkness.", "es": "La Tierra gira como un trompo lento, una vez al día, así tu lado mira al Sol y luego queda en la oscuridad." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/days/en/"
+    },
+    {
+      "id": "physics-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Where does the Moon get its light?", "es": "¿De dónde saca su luz la Luna?" },
+      "choices": [
+        { "en": "From the Sun", "es": "Del Sol", "emoji": "☀️" },
+        { "en": "From street lamps", "es": "De las lámparas de la calle", "emoji": "💡" },
+        { "en": "From its own fire", "es": "De su propio fuego", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon has no light of its own; it works like a giant grey mirror catching sunlight and tossing some to us.", "es": "La Luna no tiene luz propia; funciona como un espejo gris gigante que atrapa la luz del Sol y nos manda un poco." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/all-about-the-moon/en/"
+    },
+    {
+      "id": "physics-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which is bigger, the Sun or Earth?", "es": "¿Qué es más grande, el Sol o la Tierra?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "Earth", "es": "La Tierra", "emoji": "🌍" },
+        { "en": "They are the same", "es": "Son del mismo tamaño", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "You could pour more than a million Earths inside the Sun, yet it is only a middle-sized star among many.", "es": "Dentro del Sol cabría más de un millón de Tierras, y aun así es una estrella de tamaño mediano." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/all-about-the-sun/en/"
+    },
+    {
+      "id": "physics-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "💫",
+      "q": { "en": "What is a shooting star really?", "es": "¿Qué es en realidad una estrella fugaz?" },
+      "choices": [
+        { "en": "A speck of space dust", "es": "Un granito de polvo espacial", "emoji": "💫" },
+        { "en": "A star falling down", "es": "Una estrella que se cae", "emoji": "⭐" },
+        { "en": "A tiny airplane", "es": "Un avión chiquito", "emoji": "✈️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Most shooting stars are grains smaller than a pea, glowing white hot as they rush through the air above you.", "es": "Casi todas las estrellas fugaces son granitos más chicos que un chícharo que se ponen al rojo vivo al cruzar el aire." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/meteor-shower/en/"
+    },
+    {
+      "id": "physics-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What happens to ice in the sun?", "es": "¿Qué le pasa al hielo bajo el Sol?" },
+      "choices": [
+        { "en": "It melts into water", "es": "Se derrite y se hace agua", "emoji": "💧" },
+        { "en": "It grows bigger", "es": "Se hace más grande", "emoji": "🧊" },
+        { "en": "It turns into a rock", "es": "Se vuelve una piedra", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat makes the tiny bits inside ice wiggle faster until they slide apart, and water is just ice that got warm.", "es": "El calor hace que los pedacitos del hielo se muevan más rápido hasta separarse; el agua es hielo que se calentó." },
+      "topic": "heat",
+      "source": "https://www.britannica.com/science/melting"
+    },
+    {
+      "id": "physics-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "What is inside a blown-up balloon?", "es": "¿Qué hay dentro de un globo inflado?" },
+      "choices": [
+        { "en": "Air", "es": "Aire", "emoji": "💨" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air is real stuff you can squeeze; a balloon feels springy because millions of air bits bounce inside it.", "es": "El aire es algo real que puedes apretar; el globo se siente elástico porque millones de pedacitos de aire rebotan adentro." },
+      "topic": "matter",
+      "source": "https://www.britannica.com/science/matter"
+    },
+    {
+      "id": "physics-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "Which one floats in the bathtub?", "es": "¿Qué cosa flota en la tina?" },
+      "choices": [
+        { "en": "A rubber duck", "es": "Un patito de hule", "emoji": "🦆" },
+        { "en": "A metal spoon", "es": "Una cuchara de metal", "emoji": "🥄" },
+        { "en": "A rock", "es": "Una piedra", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light things full of air float while heavy dense things sink; push the duck under and feel the water push back.", "es": "Las cosas llenas de aire flotan y las pesadas se hunden; hunde el patito y siente cómo el agua lo empuja de regreso." },
+      "topic": "floating and sinking",
+      "source": "https://www.britannica.com/science/buoyancy"
+    },
+    {
+      "id": "physics-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛝",
+      "q": { "en": "What pulls you down a slide?", "es": "¿Qué te jala hacia abajo en un tobogán?" },
+      "choices": [
+        { "en": "Gravity", "es": "La gravedad", "emoji": "🌎" },
+        { "en": "The wind", "es": "El viento", "emoji": "🌬️" },
+        { "en": "Your hat", "es": "Tu gorra", "emoji": "🧢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gravity pulls everything toward the ground, even you; try dropping a sock and a shoe and watch them land together.", "es": "La gravedad jala todo hacia el suelo, hasta a ti; suelta un calcetín y un zapato y verás que caen juntos." },
+      "topic": "forces and motion",
+      "source": "https://spaceplace.nasa.gov/what-is-gravity/en/"
+    },
+    {
+      "id": "physics-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛒",
+      "q": { "en": "Which wagon is easier to pull?", "es": "¿Cuál carrito es más fácil de jalar?" },
+      "choices": [
+        { "en": "An empty one", "es": "Uno vacío", "emoji": "🛒" },
+        { "en": "One full of bricks", "es": "Uno lleno de ladrillos", "emoji": "🧱" },
+        { "en": "One full of sand", "es": "Uno lleno de arena", "emoji": "⏳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heavy things need a bigger pull to get moving, so an empty wagon starts rolling with just one finger.", "es": "Las cosas pesadas necesitan un jalón más fuerte para moverse, así que un carrito vacío rueda con un solo dedo." },
+      "topic": "forces and motion",
+      "source": "https://kids.britannica.com/kids/article/force/353257"
+    },
+    {
+      "id": "physics-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚾",
+      "q": { "en": "You throw a ball straight up. Then what?", "es": "Lanzas una pelota hacia arriba. ¿Y luego?" },
+      "choices": [
+        { "en": "It comes back down", "es": "Regresa hacia abajo", "emoji": "⬇️" },
+        { "en": "It stays up there", "es": "Se queda allá arriba", "emoji": "☁️" },
+        { "en": "It turns into a bird", "es": "Se convierte en pájaro", "emoji": "🐦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gravity pulls it back the whole time, so the ball slows, stops for a blink, and drops into your hands.", "es": "La gravedad la jala todo el tiempo, así que la pelota frena, se detiene un instante y cae en tus manos." },
+      "topic": "forces and motion",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/physics.html"
+    },
+    {
+      "id": "physics-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "What makes a bicycle stop rolling?", "es": "¿Qué hace que una bicicleta deje de rodar?" },
+      "choices": [
+        { "en": "Brakes rubbing the wheels", "es": "Los frenos rozando las ruedas", "emoji": "🛑" },
+        { "en": "A ringing bell", "es": "Una campanita que suena", "emoji": "🔔" },
+        { "en": "The shiny seat", "es": "El asiento brillante", "emoji": "💺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Brakes squeeze the wheel and rubbing turns the bike's motion into heat; feel a brake pad after a long hill.", "es": "Los frenos aprietan la rueda y el roce convierte el movimiento en calor; toca los frenos después de bajar una loma." },
+      "topic": "forces and motion",
+      "source": "https://www.exploratorium.edu/explore/bicycle"
+    },
+    {
+      "id": "physics-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "Which falls to the ground more slowly?", "es": "¿Cuál cae al suelo más despacio?" },
+      "choices": [
+        { "en": "A feather", "es": "Una pluma", "emoji": "🪶" },
+        { "en": "A rock", "es": "Una piedra", "emoji": "🪨" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air pushes back on the wide feather and slows it; on the Moon, with no air, both would land at once.", "es": "El aire empuja la pluma ancha y la frena; en la Luna, donde no hay aire, las dos caerían al mismo tiempo." },
+      "topic": "forces and motion",
+      "source": "https://spaceplace.nasa.gov/gravity-and-you/en/"
+    },
+    {
+      "id": "physics-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛝",
+      "q": { "en": "What makes a seesaw go down?", "es": "¿Qué hace bajar un sube y baja?" },
+      "choices": [
+        { "en": "The heavier side", "es": "El lado más pesado", "emoji": "⚖️" },
+        { "en": "The louder side", "es": "El lado más ruidoso", "emoji": "📣" },
+        { "en": "The sunny side", "es": "El lado soleado", "emoji": "☀️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The heavier friend pushes down harder, so scoot toward the middle and even a big grown-up can be lifted.", "es": "El lado más pesado empuja con más fuerza; si te acercas al centro, hasta puedes levantar a una persona grande." },
+      "topic": "forces and motion",
+      "source": "https://kids.britannica.com/kids/article/lever/353376"
+    },
+    {
+      "id": "physics-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "What makes a marble roll faster downhill?", "es": "¿Qué hace que una canica ruede más rápido?" },
+      "choices": [
+        { "en": "A steeper ramp", "es": "Una rampa más inclinada", "emoji": "📐" },
+        { "en": "A flatter ramp", "es": "Una rampa más plana", "emoji": "➖" },
+        { "en": "A bumpy ramp", "es": "Una rampa con bultos", "emoji": "🧱" }
+      ],
+      "answer": 0,
+      "why": { "en": "A steeper ramp lets gravity pull more along the slope; stack two books under one end and race the marbles.", "es": "Una rampa más inclinada deja que la gravedad jale más; pon dos libros debajo de un extremo y haz carreras." },
+      "topic": "forces and motion",
+      "source": "https://www.exploratorium.edu/snacks/downhill-race"
+    },
+    {
+      "id": "physics-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪀",
+      "q": { "en": "What makes a wind-up toy move?", "es": "¿Qué hace moverse a un juguete de cuerda?" },
+      "choices": [
+        { "en": "A tight spring", "es": "Un resorte apretado", "emoji": "🌀" },
+        { "en": "A tiny motor", "es": "Un motorcito", "emoji": "⚙️" },
+        { "en": "Warm hands", "es": "Unas manos calientes", "emoji": "🤲" }
+      ],
+      "answer": 0,
+      "why": { "en": "Winding twists a metal spring; the stored energy unwinds slowly and walks the toy across the table by itself.", "es": "Al darle cuerda tuerces un resorte de metal; esa energía guardada se suelta despacio y hace caminar al juguete solo." },
+      "topic": "energy",
+      "source": "https://kids.britannica.com/kids/article/energy/353164"
+    },
+    {
+      "id": "physics-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤲",
+      "q": { "en": "What happens when you rub your hands?", "es": "¿Qué pasa cuando te frotas las manos?" },
+      "choices": [
+        { "en": "They get warm", "es": "Se calientan", "emoji": "🔥" },
+        { "en": "They get wet", "es": "Se mojan", "emoji": "💧" },
+        { "en": "They get sticky", "es": "Se ponen pegajosas", "emoji": "🍯" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rubbing turns motion into heat, which is why people rub their palms on a cold morning to warm them up.", "es": "El roce convierte el movimiento en calor, por eso la gente se frota las palmas en una mañana fría para calentarse." },
+      "topic": "energy",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/energy.html"
+    },
+    {
+      "id": "physics-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔆",
+      "q": { "en": "What do solar panels use for power?", "es": "¿Qué usan los paneles solares para dar energía?" },
+      "choices": [
+        { "en": "Sunlight", "es": "La luz del Sol", "emoji": "☀️" },
+        { "en": "Rainwater", "es": "El agua de lluvia", "emoji": "🌧️" },
+        { "en": "Loud noise", "es": "El ruido fuerte", "emoji": "📢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Solar panels turn sunlight straight into electricity, and some school roofs are covered with them to run the lights.", "es": "Los paneles solares convierten la luz del Sol en electricidad, y algunos techos de escuelas los usan para encender las luces." },
+      "topic": "energy",
+      "source": "https://climatekids.nasa.gov/solar-energy/"
+    },
+    {
+      "id": "physics-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤸",
+      "q": { "en": "What sends you back up on a trampoline?", "es": "¿Qué te lanza hacia arriba en un trampolín?" },
+      "choices": [
+        { "en": "The stretchy mat", "es": "La lona elástica", "emoji": "🤸" },
+        { "en": "Your loud shout", "es": "Tu grito fuerte", "emoji": "📣" },
+        { "en": "The soft grass", "es": "El pasto suave", "emoji": "🌱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your weight stretches the mat, the mat stores that energy, and it springs back and throws you into the air.", "es": "Tu peso estira la lona, la lona guarda esa energía y luego rebota y te lanza de nuevo hacia arriba." },
+      "topic": "energy",
+      "source": "https://www.exploratorium.edu/explore/energy"
+    },
+    {
+      "id": "physics-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "What turns a water wheel at a mill?", "es": "¿Qué hace girar la rueda de un molino?" },
+      "choices": [
+        { "en": "Running water", "es": "El agua que corre", "emoji": "💦" },
+        { "en": "Falling leaves", "es": "Las hojas que caen", "emoji": "🍂" },
+        { "en": "A sleepy cat", "es": "Un gato dormilón", "emoji": "🐱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Moving water pushes the paddles around, and mills have used rivers to grind grain into flour for thousands of years.", "es": "El agua en movimiento empuja las paletas, y los molinos han usado ríos para moler granos desde hace miles de años." },
+      "topic": "energy",
+      "source": "https://kids.britannica.com/kids/article/waterpower/390879"
+    },
+    {
+      "id": "physics-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐞",
+      "q": { "en": "What does a firefly make in its belly?", "es": "¿Qué fabrica una luciérnaga en su panza?" },
+      "choices": [
+        { "en": "Cold light", "es": "Luz fría", "emoji": "✨" },
+        { "en": "Warm soup", "es": "Sopa caliente", "emoji": "🍲" },
+        { "en": "Loud music", "es": "Música fuerte", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "A firefly mixes chemicals to glow, and almost none of that energy becomes heat, so the light feels cool.", "es": "La luciérnaga mezcla sustancias para brillar y casi nada de esa energía se vuelve calor, por eso su luz es fría." },
+      "topic": "energy",
+      "source": "https://kids.britannica.com/kids/article/firefly/399543"
+    },
+    {
+      "id": "physics-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛈️",
+      "q": { "en": "Which is faster, light or sound?", "es": "¿Cuál viaja más rápido, la luz o el sonido?" },
+      "choices": [
+        { "en": "Light", "es": "La luz", "emoji": "⚡" },
+        { "en": "Sound", "es": "El sonido", "emoji": "🔊" },
+        { "en": "They tie", "es": "Van iguales", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light wins easily, which is why you see the lightning flash first and hear the thunder rumble seconds later.", "es": "La luz gana fácil, por eso ves el relámpago primero y escuchas el trueno unos segundos después." },
+      "topic": "light and sound",
+      "source": "https://scijinks.gov/lightning/"
+    },
+    {
+      "id": "physics-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "✏️",
+      "q": { "en": "What happens to a pencil in water?", "es": "¿Qué le pasa a un lápiz dentro del agua?" },
+      "choices": [
+        { "en": "It looks bent", "es": "Se ve quebrado", "emoji": "✏️" },
+        { "en": "It turns green", "es": "Se pone verde", "emoji": "🟢" },
+        { "en": "It makes a sound", "es": "Hace un ruido", "emoji": "🔊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light bends when it leaves the water, so the pencil looks broken; try it with a spoon in a tall glass.", "es": "La luz se dobla al salir del agua, por eso el lápiz se ve quebrado; pruébalo con una cuchara en un vaso alto." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/snacks/bending-light"
+    },
+    {
+      "id": "physics-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "What do bats use to find bugs?", "es": "¿Qué usan los murciélagos para encontrar insectos?" },
+      "choices": [
+        { "en": "Echoes of their squeaks", "es": "El eco de sus chillidos", "emoji": "🦇" },
+        { "en": "The smell of honey", "es": "El olor a miel", "emoji": "🍯" },
+        { "en": "A tiny flashlight", "es": "Una lamparita", "emoji": "🔦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bats squeak, listen for the echo bouncing back, and build a sound picture of the night with their eyes closed.", "es": "El murciélago chilla, escucha el eco que regresa y arma un dibujo de sonido de la noche, aunque cierre los ojos." },
+      "topic": "light and sound",
+      "source": "https://kids.britannica.com/kids/article/bat/352718"
+    },
+    {
+      "id": "physics-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "How do you make a drum sound louder?", "es": "¿Cómo haces que un tambor suene más fuerte?" },
+      "choices": [
+        { "en": "Hit it harder", "es": "Golpearlo más fuerte", "emoji": "💪" },
+        { "en": "Hit it slower", "es": "Golpearlo más lento", "emoji": "🐢" },
+        { "en": "Blow on it", "es": "Soplarle encima", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A harder hit makes the skin shake wider, and wider shakes push more air, which your ears hear as bigger sound.", "es": "Un golpe más fuerte hace que el parche vibre más ancho, y esa vibración empuja más aire, y tus oídos oyen más ruido." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/explore/sound"
+    },
+    {
+      "id": "physics-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "What do you see inside a shiny spoon?", "es": "¿Qué ves dentro de una cuchara brillante?" },
+      "choices": [
+        { "en": "Your face upside down", "es": "Tu cara de cabeza", "emoji": "🙃" },
+        { "en": "A tiny rainbow", "es": "Un arcoíris chiquito", "emoji": "🌈" },
+        { "en": "A gray cloud", "es": "Una nube gris", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The bowl of a spoon curves inward and flips the picture; turn the spoon around and your face stands up again.", "es": "La parte hueca de la cuchara se curva hacia adentro y voltea la imagen; dale vuelta y tu cara se endereza." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/snacks/spherical-reflections"
+    },
+    {
+      "id": "physics-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪟",
+      "q": { "en": "What can you see right through?", "es": "¿A través de qué puedes ver?" },
+      "choices": [
+        { "en": "A window", "es": "Una ventana", "emoji": "🪟" },
+        { "en": "A brick wall", "es": "Una pared de ladrillos", "emoji": "🧱" },
+        { "en": "A wooden door", "es": "Una puerta de madera", "emoji": "🚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light passes straight through clear glass, but a wall blocks it and makes a shadow on the floor behind.", "es": "La luz pasa derechito por el vidrio limpio, pero una pared la detiene y deja una sombra en el piso." },
+      "topic": "light and sound",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/light.html"
+    },
+    {
+      "id": "physics-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "What metal do magnets pull hardest?", "es": "¿Cuál metal jalan más fuerte los imanes?" },
+      "choices": [
+        { "en": "Iron", "es": "El hierro", "emoji": "🔩" },
+        { "en": "Gold", "es": "El oro", "emoji": "🪙" },
+        { "en": "Copper", "es": "El cobre", "emoji": "🟤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Iron is the magnet's favorite, so a gold ring and a copper coin both stay put when a magnet passes by.", "es": "Al imán le encanta el hierro; un anillo de oro y una moneda de cobre se quedan quietos cuando pasa un imán." },
+      "topic": "electricity and magnets",
+      "source": "https://kids.britannica.com/kids/article/magnet/353393"
+    },
+    {
+      "id": "physics-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "📄",
+      "q": { "en": "What can a magnet pull through?", "es": "¿A través de qué puede jalar un imán?" },
+      "choices": [
+        { "en": "A sheet of paper", "es": "Una hoja de papel", "emoji": "📄" },
+        { "en": "A brick wall", "es": "Una pared de ladrillos", "emoji": "🧱" },
+        { "en": "A thick tree trunk", "es": "Un tronco grueso", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "A magnet's pull reaches right through paper, so slide one under a page and a paper clip walks across it.", "es": "La fuerza del imán atraviesa el papel; pon un imán debajo de una hoja y verás caminar un clip encima." },
+      "topic": "electricity and magnets",
+      "source": "https://www.exploratorium.edu/snacks/magnetic-lines-force"
+    },
+    {
+      "id": "physics-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What giant ball acts like a magnet?", "es": "¿Cuál bola gigante funciona como un imán?" },
+      "choices": [
+        { "en": "The Earth", "es": "La Tierra", "emoji": "🌎" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "A soccer ball", "es": "Un balón de fútbol", "emoji": "⚽" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth has a magnetic pull of its own, which is how a compass needle always swings around to point north.", "es": "La Tierra tiene su propia fuerza magnética, y por eso la aguja de una brújula siempre gira para señalar el norte." },
+      "topic": "electricity and magnets",
+      "source": "https://spaceplace.nasa.gov/magnetic-field/en/"
+    },
+    {
+      "id": "physics-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "What makes a tiny zap on a doorknob?", "es": "¿Qué hace un chispazo pequeño en la perilla?" },
+      "choices": [
+        { "en": "Static electricity", "es": "La electricidad estática", "emoji": "⚡" },
+        { "en": "Cold weather", "es": "El clima frío", "emoji": "🥶" },
+        { "en": "A sleepy cat", "es": "Un gato dormilón", "emoji": "🐱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Shuffling on a rug moves tiny charges onto you, and they jump to the metal knob with a snap you feel.", "es": "Al arrastrar los pies en la alfombra recoges cargas pequeñitas, y esas cargas saltan al metal con un chispazo que sientes." },
+      "topic": "electricity and magnets",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/electricity.html"
+    },
+    {
+      "id": "physics-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What is our galaxy called?", "es": "¿Cómo se llama nuestra galaxia?" },
+      "choices": [
+        { "en": "The Milky Way", "es": "La Vía Láctea", "emoji": "🌌" },
+        { "en": "The North Star", "es": "La Estrella del Norte", "emoji": "⭐" },
+        { "en": "The Great Bear", "es": "La Osa Mayor", "emoji": "🐻" }
+      ],
+      "answer": 0,
+      "why": { "en": "Our galaxy holds billions of stars, and on a very dark night its middle looks like spilled milk across the sky.", "es": "Nuestra galaxia tiene miles de millones de estrellas, y en una noche oscura su centro parece leche derramada en el cielo." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/milky-way/en/"
+    },
+    {
+      "id": "physics-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "What keeps the Moon near the Earth?", "es": "¿Qué mantiene a la Luna cerca de la Tierra?" },
+      "choices": [
+        { "en": "Gravity", "es": "La gravedad", "emoji": "🌎" },
+        { "en": "A long rope", "es": "Una cuerda larga", "emoji": "🪢" },
+        { "en": "Strong wind", "es": "Un viento fuerte", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth's gravity tugs the Moon in a circle, and the Moon has been looping around us for billions of years.", "es": "La gravedad de la Tierra jala a la Luna en círculo, y la Luna lleva miles de millones de años dando vueltas." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "physics-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What makes stars look so tiny?", "es": "¿Qué hace que las estrellas se vean chiquitas?" },
+      "choices": [
+        { "en": "They are very far away", "es": "Están lejísimos de aquí", "emoji": "🔭" },
+        { "en": "They are made of dust", "es": "Están hechas de polvo", "emoji": "🌫️" },
+        { "en": "They shrink at night", "es": "Se encogen de noche", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Many stars are bigger than our Sun, but they sit so far away that they shrink to sparkling dots.", "es": "Muchas estrellas son más grandes que nuestro Sol, pero están tan lejos que se ven como puntitos que brillan." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/how-hot-is-the-sun/en/"
+    },
+    {
+      "id": "physics-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "How long does Earth take to circle the Sun?", "es": "¿Cuánto tarda la Tierra en rodear al Sol?" },
+      "choices": [
+        { "en": "One year", "es": "Un año", "emoji": "🎂" },
+        { "en": "One week", "es": "Una semana", "emoji": "📅" },
+        { "en": "One hour", "es": "Una hora", "emoji": "⏰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth takes a whole year to travel once around the Sun, which is why your birthday comes back each time.", "es": "La Tierra tarda un año entero en dar una vuelta al Sol, y por eso tu cumpleaños regresa en la misma fecha." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/years-on-other-planets/en/"
+    },
+    {
+      "id": "physics-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "What would you hear in outer space?", "es": "¿Qué escucharías en el espacio?" },
+      "choices": [
+        { "en": "Nothing at all", "es": "Nada de nada", "emoji": "🤫" },
+        { "en": "Loud thunder", "es": "Truenos fuertes", "emoji": "⛈️" },
+        { "en": "Sweet music", "es": "Música bonita", "emoji": "🎵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sound needs air to travel through, and space is empty, so astronauts talk to each other by radio instead.", "es": "El sonido necesita aire para viajar y el espacio está vacío, por eso los astronautas se hablan por radio." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/sounds-in-space/en/"
+    },
+    {
+      "id": "physics-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Which is hotter, the Sun or a campfire?", "es": "¿Cuál está más caliente, el Sol o una fogata?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The campfire", "es": "La fogata", "emoji": "🔥" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun's surface is thousands of degrees, far hotter than any fire, and you feel its heat from far away.", "es": "La superficie del Sol tiene miles de grados, mucho más que cualquier fogata, y sientes su calor desde muy lejos." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/sun-heat/en/"
+    },
+    {
+      "id": "physics-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "♨️",
+      "q": { "en": "What happens to water in a hot pot?", "es": "¿Qué le pasa al agua en una olla caliente?" },
+      "choices": [
+        { "en": "It bubbles and steams", "es": "Hierve y echa vapor", "emoji": "♨️" },
+        { "en": "It turns to ice", "es": "Se vuelve hielo", "emoji": "🧊" },
+        { "en": "It turns blue", "es": "Se pone azul", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat makes water jump into the air as steam, and a pot lid catches that steam and turns it into drops.", "es": "El calor hace que el agua salte al aire como vapor, y la tapa de la olla lo vuelve gotitas otra vez." },
+      "topic": "heat",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/water.html"
+    },
+    {
+      "id": "physics-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "What makes a hot air balloon rise?", "es": "¿Qué hace subir a un globo aerostático?" },
+      "choices": [
+        { "en": "Warm air inside", "es": "El aire caliente adentro", "emoji": "🎈" },
+        { "en": "Cold water inside", "es": "El agua fría adentro", "emoji": "💧" },
+        { "en": "Heavy sand inside", "es": "La arena pesada adentro", "emoji": "⏳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Warm air is lighter than cool air, so it floats upward and carries the whole basket of people with it.", "es": "El aire caliente pesa menos que el aire frío, así que sube y se lleva la canasta con toda la gente." },
+      "topic": "heat",
+      "source": "https://kids.britannica.com/kids/article/balloon/352723"
+    },
+    {
+      "id": "physics-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which one sinks to the bottom?", "es": "¿Cuál se hunde hasta el fondo?" },
+      "choices": [
+        { "en": "A small stone", "es": "Una piedrita", "emoji": "🪨" },
+        { "en": "A dry leaf", "es": "Una hoja seca", "emoji": "🍃" },
+        { "en": "A plastic cup", "es": "Un vaso de plástico", "emoji": "🥤" }
+      ],
+      "answer": 0,
+      "why": { "en": "A stone packs lots of stuff into a small space, so it sinks, while the leaf spreads out and rides on top.", "es": "La piedra junta mucha materia en poco espacio y se hunde, mientras la hoja se extiende y viaja encima del agua." },
+      "topic": "floating and sinking",
+      "source": "https://www.exploratorium.edu/snacks/float-or-sink"
+    },
+    {
+      "id": "physics-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎠",
+      "q": { "en": "How do you make a swing go higher?", "es": "¿Cómo haces que un columpio suba más alto?" },
+      "choices": [
+        { "en": "Pump your legs", "es": "Bombear con las piernas", "emoji": "🦵" },
+        { "en": "Close your eyes", "es": "Cerrar los ojos", "emoji": "😌" },
+        { "en": "Sing a song", "es": "Cantar una canción", "emoji": "🎶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pumping adds a little push at just the right moment each swing, and the small pushes pile up into a big arc.", "es": "Al bombear con las piernas das un empujoncito en el momento justo, y esos empujones se suman hasta hacer un arco grande." },
+      "topic": "forces and motion",
+      "source": "https://www.exploratorium.edu/explore/motion"
+    },
+    {
+      "id": "physics-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪢",
+      "q": { "en": "Which team wins a tug-of-war?", "es": "¿Cuál equipo gana el juego de la cuerda?" },
+      "choices": [
+        { "en": "The side that pulls harder", "es": "El lado que jala más fuerte", "emoji": "🪢" },
+        { "en": "The side that shouts louder", "es": "El lado que grita más fuerte", "emoji": "📣" },
+        { "en": "The side wearing red shoes", "es": "El lado con zapatos rojos", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "The rope moves toward the stronger pull, and digging your heels in gives your feet more grip on the ground.", "es": "La cuerda se va hacia el jalón más fuerte, y clavar los talones le da más agarre a tus pies en el suelo." },
+      "topic": "forces and motion",
+      "source": "https://kids.britannica.com/kids/article/force/353257"
+    },
+    {
+      "id": "physics-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "📦",
+      "q": { "en": "What helps a heavy box move easily?", "es": "¿Qué ayuda a mover una caja pesada?" },
+      "choices": [
+        { "en": "Wheels under it", "es": "Ruedas debajo de ella", "emoji": "🛞" },
+        { "en": "A pretty ribbon", "es": "Un listón bonito", "emoji": "🎀" },
+        { "en": "A warm blanket", "es": "Una cobija calientita", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wheels roll instead of dragging, so they rub the floor much less; try pushing a chair across a rug.", "es": "Las ruedas ruedan en vez de arrastrarse, así rozan mucho menos el piso; empuja una silla sobre una alfombra y verás." },
+      "topic": "forces and motion",
+      "source": "https://kids.britannica.com/kids/article/wheel-and-axle/353721"
+    },
+    {
+      "id": "physics-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "What happens when you push a door?", "es": "¿Qué pasa cuando empujas una puerta?" },
+      "choices": [
+        { "en": "It swings away from you", "es": "Se abre hacia el otro lado", "emoji": "🚪" },
+        { "en": "It comes toward you", "es": "Se viene hacia ti", "emoji": "🧒" },
+        { "en": "It stays perfectly still", "es": "Se queda quietecita", "emoji": "🧱" }
+      ],
+      "answer": 0,
+      "why": { "en": "A push moves things away and a pull brings them closer; the words on a door tell you which one to use.", "es": "Un empujón aleja las cosas y un jalón las acerca; por eso las puertas tienen letreros que dicen jalar o empujar." },
+      "topic": "forces and motion",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/forces.html"
+    },
+    {
+      "id": "physics-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛷",
+      "q": { "en": "Where does a sled slide best?", "es": "¿Dónde se desliza mejor un trineo?" },
+      "choices": [
+        { "en": "On snow", "es": "En la nieve", "emoji": "❄️" },
+        { "en": "On grass", "es": "En el pasto", "emoji": "🌱" },
+        { "en": "On sand", "es": "En la arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Snow melts a thin slippery layer under the sled, so there is very little rubbing to slow you down.", "es": "La nieve derrite una capa delgada y resbalosa bajo el trineo, así que casi nada lo frena al bajar la loma." },
+      "topic": "forces and motion",
+      "source": "https://www.exploratorium.edu/snacks/friction"
+    },
+    {
+      "id": "physics-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "What happens when you catch a ball?", "es": "¿Qué pasa cuando atrapas una pelota?" },
+      "choices": [
+        { "en": "Your hands stop it", "es": "Tus manos la detienen", "emoji": "🧤" },
+        { "en": "It speeds up", "es": "Va más rápido", "emoji": "⚡" },
+        { "en": "It disappears", "es": "Desaparece", "emoji": "🎩" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your hands push back until the ball stops; moving your hands backward as you catch makes the stop much softer.", "es": "Tus manos empujan hasta detener la pelota; si mueves las manos hacia atrás al atrapar, el golpe se siente más suave." },
+      "topic": "forces and motion",
+      "source": "https://www.exploratorium.edu/explore/sports"
+    },
+    {
+      "id": "physics-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "What happens to you when a car turns?", "es": "¿Qué te pasa cuando un carro da la vuelta?" },
+      "choices": [
+        { "en": "You lean to one side", "es": "Te inclinas hacia un lado", "emoji": "🧍" },
+        { "en": "You get taller", "es": "Te haces más alto", "emoji": "📏" },
+        { "en": "You float upward", "es": "Flotas hacia arriba", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your body wants to keep going straight, so it leans while the car curves; that is why seat belts hold you.", "es": "Tu cuerpo quiere seguir derecho, por eso te inclinas mientras el carro da la vuelta; para eso sirve el cinturón." },
+      "topic": "forces and motion",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/physics.html"
+    },
+    {
+      "id": "physics-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "What happens to a ball that keeps bouncing?", "es": "¿Qué le pasa a una pelota que rebota mucho?" },
+      "choices": [
+        { "en": "It bounces lower each time", "es": "Rebota más bajo cada vez", "emoji": "⬇️" },
+        { "en": "It bounces higher each time", "es": "Rebota más alto cada vez", "emoji": "⬆️" },
+        { "en": "It bounces the same forever", "es": "Rebota igual para siempre", "emoji": "♾️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each bounce gives a little energy away as sound and heat, so the ball finally rolls to a quiet stop.", "es": "En cada rebote la pelota regala un poco de energía como sonido y calor, hasta que se queda quieta en el piso." },
+      "topic": "energy",
+      "source": "https://www.exploratorium.edu/snacks/bouncing-ball"
+    },
+    {
+      "id": "physics-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "What warms the sand at the beach?", "es": "¿Qué calienta la arena de la playa?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The waves", "es": "Las olas", "emoji": "🌊" },
+        { "en": "The seashells", "es": "Las conchas", "emoji": "🐚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight soaks into dark sand and heats it fast, which is why sand burns your feet but water stays cool.", "es": "La luz del Sol entra en la arena oscura y la calienta rápido, por eso quema tus pies y el agua sigue fresca." },
+      "topic": "energy",
+      "source": "https://climatekids.nasa.gov/heat-islands/"
+    },
+    {
+      "id": "physics-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "What do batteries keep inside them?", "es": "¿Qué guardan las pilas por dentro?" },
+      "choices": [
+        { "en": "Stored energy", "es": "Energía guardada", "emoji": "🔋" },
+        { "en": "Tiny water drops", "es": "Gotitas de agua", "emoji": "💧" },
+        { "en": "Cold air", "es": "Aire frío", "emoji": "🥶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A battery holds chemicals that push electricity around a wire, and it goes flat when those chemicals are used up.", "es": "La pila guarda sustancias que empujan la electricidad por un cable, y se acaba cuando esas sustancias se agotan." },
+      "topic": "energy",
+      "source": "https://kids.britannica.com/kids/article/battery/352767"
+    },
+    {
+      "id": "physics-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "What does a toaster make from electricity?", "es": "¿Qué fabrica un tostador con la electricidad?" },
+      "choices": [
+        { "en": "Heat", "es": "Calor", "emoji": "🔥" },
+        { "en": "Rain", "es": "Lluvia", "emoji": "🌧️" },
+        { "en": "Wind", "es": "Viento", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Electricity squeezes through thin wires that glow orange with heat, and that heat toasts both sides of your bread.", "es": "La electricidad pasa por alambres delgados que se ponen anaranjados de tanto calor, y ese calor tuesta tu pan por los dos lados." },
+      "topic": "energy",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/energy.html"
+    },
+    {
+      "id": "physics-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "What spins to turn wind into electricity?", "es": "¿Qué gira para volver el viento en electricidad?" },
+      "choices": [
+        { "en": "Long windmill blades", "es": "Las aspas largas de un molino", "emoji": "🌬️" },
+        { "en": "A garden hose", "es": "Una manguera de jardín", "emoji": "🚿" },
+        { "en": "A metal spoon", "es": "Una cuchara de metal", "emoji": "🥄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Wind pushes the huge blades around, and their spinning makes electricity for homes far away from the windy field.", "es": "El viento empuja las aspas enormes y su giro fabrica electricidad para casas que están muy lejos de ese campo." },
+      "topic": "energy",
+      "source": "https://climatekids.nasa.gov/wind-energy/"
+    },
+    {
+      "id": "physics-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "What kind of energy can your ears catch?", "es": "¿Qué tipo de energía atrapan tus oídos?" },
+      "choices": [
+        { "en": "Sound energy", "es": "Energía de sonido", "emoji": "🔊" },
+        { "en": "Sun energy", "es": "Energía del Sol", "emoji": "☀️" },
+        { "en": "Wind energy", "es": "Energía del viento", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Shaking air carries sound energy into your ear, where a tiny drum passes the wiggle along to your busy brain.", "es": "El aire que vibra lleva energía de sonido a tu oído, donde un tamborcito pasa el temblor hasta tu cerebro." },
+      "topic": "energy",
+      "source": "https://www.exploratorium.edu/explore/sound"
+    },
+    {
+      "id": "physics-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "👤",
+      "q": { "en": "How do you make a shadow bigger?", "es": "¿Cómo haces que una sombra se vea más grande?" },
+      "choices": [
+        { "en": "Move closer to the light", "es": "Acercarte a la luz", "emoji": "🔦" },
+        { "en": "Move far from the light", "es": "Alejarte de la luz", "emoji": "🚶" },
+        { "en": "Cover up the light", "es": "Tapar toda la luz", "emoji": "🌑" }
+      ],
+      "answer": 0,
+      "why": { "en": "The closer your hand is to a flashlight, the more light it blocks, so the shadow on the wall grows huge.", "es": "Mientras más cerca esté tu mano de la linterna, más luz tapa, y la sombra en la pared se hace enorme." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/snacks/shadow-play"
+    },
+    {
+      "id": "physics-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎸",
+      "q": { "en": "What happens when you pluck a guitar string?", "es": "¿Qué pasa cuando tocas la cuerda de una guitarra?" },
+      "choices": [
+        { "en": "It shakes very fast", "es": "Vibra muy rápido", "emoji": "🎸" },
+        { "en": "It turns warm", "es": "Se pone caliente", "emoji": "🔥" },
+        { "en": "It stays still", "es": "Se queda quieta", "emoji": "🛑" }
+      ],
+      "answer": 0,
+      "why": { "en": "The shaking string pushes the air, and a thinner, tighter string shakes faster and sings a higher note.", "es": "La cuerda que vibra empuja el aire, y una cuerda más delgada y tensa vibra más rápido y canta más agudo." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/snacks/vibrating-strings"
+    },
+    {
+      "id": "physics-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "What colors is sunlight made of?", "es": "¿De cuáles colores está hecha la luz del Sol?" },
+      "choices": [
+        { "en": "Every color mixed", "es": "Todos los colores juntos", "emoji": "🌈" },
+        { "en": "Only yellow", "es": "Solo amarillo", "emoji": "💛" },
+        { "en": "Only orange", "es": "Solo anaranjado", "emoji": "🧡" }
+      ],
+      "answer": 0,
+      "why": { "en": "White sunlight hides all the colors at once; a garden hose spray splits them into a rainbow you can visit.", "es": "La luz blanca del Sol esconde todos los colores; el chorro de una manguera los separa y hace un arcoíris." },
+      "topic": "light and sound",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "physics-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦻",
+      "q": { "en": "What happens when you cup your ears?", "es": "¿Qué pasa cuando pones las manos en tus orejas?" },
+      "choices": [
+        { "en": "Sounds get louder", "es": "Los sonidos se oyen más fuerte", "emoji": "👂" },
+        { "en": "Sounds go away", "es": "Los sonidos se van", "emoji": "🤫" },
+        { "en": "Sounds turn into colors", "es": "Los sonidos se vuelven colores", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your cupped hands catch more of the shaking air and funnel it inside, which is why a fox has big ears.", "es": "Tus manos en forma de cuenco atrapan más aire que vibra y lo meten a tu oído; por eso el zorro tiene orejas grandes." },
+      "topic": "light and sound",
+      "source": "https://www.exploratorium.edu/snacks/sound-bite"
+    },
+    {
+      "id": "physics-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "👕",
+      "q": { "en": "What color soaks up the most sunshine?", "es": "¿Cuál color absorbe más luz del Sol?" },
+      "choices": [
+        { "en": "Black", "es": "El negro", "emoji": "🖤" },
+        { "en": "White", "es": "El blanco", "emoji": "🤍" },
+        { "en": "Silver", "es": "El plateado", "emoji": "🥈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Black takes in nearly all the light and turns it into heat, so a dark shirt feels hotter outside.", "es": "El negro absorbe casi toda la luz y la convierte en calor, por eso una playera oscura se siente más caliente bajo el Sol." },
+      "topic": "light and sound",
+      "source": "https://climatekids.nasa.gov/heat-islands/"
+    },
+    {
+      "id": "physics-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "What carries electricity to a lamp?", "es": "¿Qué lleva la electricidad hasta una lámpara?" },
+      "choices": [
+        { "en": "A wire", "es": "Un cable", "emoji": "🔌" },
+        { "en": "A string", "es": "Un hilo", "emoji": "🧵" },
+        { "en": "A ribbon", "es": "Un listón", "emoji": "🎀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Electricity flows through metal inside the cord, and the rubber around it keeps that flow away from your fingers.", "es": "La electricidad viaja por el metal que va dentro del cable, y el plástico de afuera la mantiene lejos de tus dedos." },
+      "topic": "electricity and magnets",
+      "source": "https://kids.britannica.com/kids/article/electricity/353128"
+    },
+    {
+      "id": "physics-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛈️",
+      "q": { "en": "What is lightning in a storm?", "es": "¿Qué es un relámpago en una tormenta?" },
+      "choices": [
+        { "en": "A giant spark of electricity", "es": "Una chispa gigante de electricidad", "emoji": "⚡" },
+        { "en": "A very bright cloud", "es": "Una nube muy brillante", "emoji": "☁️" },
+        { "en": "A falling star", "es": "Una estrella que cae", "emoji": "💫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lightning is electricity jumping between clouds and the ground, and it heats the air so fast that it booms.", "es": "El relámpago es electricidad que salta entre las nubes y el suelo, y calienta el aire tan rápido que truena." },
+      "topic": "electricity and magnets",
+      "source": "https://scijinks.gov/lightning/"
+    },
+    {
+      "id": "physics-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧦",
+      "q": { "en": "What happens to socks in a dryer?", "es": "¿Qué les pasa a los calcetines en la secadora?" },
+      "choices": [
+        { "en": "They stick together", "es": "Se pegan unos con otros", "emoji": "🧦" },
+        { "en": "They turn blue", "es": "Se ponen azules", "emoji": "🔵" },
+        { "en": "They shrink tiny", "es": "Se hacen chiquititos", "emoji": "🤏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tumbling rubs tiny charges onto the cloth, and opposite charges grab each other, so the socks cling like magnets.", "es": "Al dar vueltas la ropa se llena de cargas pequeñitas, y las cargas opuestas se atraen, por eso los calcetines se pegan." },
+      "topic": "electricity and magnets",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/electricity.html"
+    },
+    {
+      "id": "physics-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔌",
+      "q": { "en": "What happens when you unplug a lamp?", "es": "¿Qué pasa cuando desconectas una lámpara?" },
+      "choices": [
+        { "en": "The light goes out", "es": "La luz se apaga", "emoji": "🌑" },
+        { "en": "The light gets brighter", "es": "La luz brilla más", "emoji": "💡" },
+        { "en": "The light turns green", "es": "La luz se pone verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Electricity needs a full loop to flow, and pulling the plug breaks the loop, so the bulb goes dark.", "es": "La electricidad necesita un camino completo; al desconectar cortas ese camino y el foco se apaga en ese mismo instante." },
+      "topic": "electricity and magnets",
+      "source": "https://www.exploratorium.edu/snacks/circuit-workbench"
+    },
+    {
+      "id": "physics-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What are stars made of?", "es": "¿De qué están hechas las estrellas?" },
+      "choices": [
+        { "en": "Hot glowing gas", "es": "Gas caliente que brilla", "emoji": "🔥" },
+        { "en": "Cold white rock", "es": "Roca blanca y fría", "emoji": "🪨" },
+        { "en": "Shiny silver dust", "es": "Polvo plateado brillante", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "A star is a huge ball of burning gas, and our Sun is close enough to warm your face from far away.", "es": "Una estrella es una bola enorme de gas ardiente, y el Sol está tan cerca que calienta tu cara desde lejos." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/what-is-a-star/en/"
+    },
+    {
+      "id": "physics-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "Which is farther away, the Moon or Sun?", "es": "¿Cuál está más lejos, la Luna o el Sol?" },
+      "choices": [
+        { "en": "The Sun", "es": "El Sol", "emoji": "☀️" },
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun sits hundreds of times farther than the Moon, yet both look the same size when you hold up a thumb.", "es": "El Sol está cientos de veces más lejos que la Luna, pero los dos se ven del mismo tamaño desde aquí." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/how-far-away-is-the-moon/en/"
+    },
+    {
+      "id": "physics-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "How long does sunlight take to reach us?", "es": "¿Cuánto tarda la luz del Sol en llegar aquí?" },
+      "choices": [
+        { "en": "About eight minutes", "es": "Unos ocho minutos", "emoji": "⏱️" },
+        { "en": "About one second", "es": "Como un segundo", "emoji": "⚡" },
+        { "en": "About one week", "es": "Como una semana", "emoji": "📅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light races across space so fast that sunshine leaving the Sun lands on your nose about eight minutes later.", "es": "La luz viaja tan rápido que el rayo que sale del Sol llega a tu nariz unos ocho minutos después." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/days-in-a-year/en/"
+    },
+    {
+      "id": "physics-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What shape is the Earth?", "es": "¿Qué forma tiene la Tierra?" },
+      "choices": [
+        { "en": "Round like a ball", "es": "Redonda como un balón", "emoji": "⚽" },
+        { "en": "Flat like a plate", "es": "Plana como un plato", "emoji": "🍽️" },
+        { "en": "Pointy like a hat", "es": "Puntiaguda como un gorro", "emoji": "🎩" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth is a giant ball, which is why a tall ship's mast is the last part you see sailing away.", "es": "La Tierra es una bola gigante, por eso el mástil alto de un barco es lo último que ves cuando se aleja." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/earth-formation/en/"
+    },
+    {
+      "id": "physics-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "What is between the planets in space?", "es": "¿Qué hay entre los planetas en el espacio?" },
+      "choices": [
+        { "en": "Almost nothing at all", "es": "Casi nada de nada", "emoji": "🕳️" },
+        { "en": "Thick warm air", "es": "Aire espeso y tibio", "emoji": "💨" },
+        { "en": "Deep blue water", "es": "Agua azul profunda", "emoji": "🌊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Space is nearly empty, so there is almost nothing to slow a rocket down once its engines stop pushing.", "es": "El espacio está casi vacío, así que casi nada frena a un cohete cuando sus motores dejan de empujar." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/what-is-space/en/"
+    },
+    {
+      "id": "physics-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Where would you jump higher, Earth or Moon?", "es": "¿Dónde saltarías más alto, en la Tierra o la Luna?" },
+      "choices": [
+        { "en": "On the Moon", "es": "En la Luna", "emoji": "🌕" },
+        { "en": "On the Earth", "es": "En la Tierra", "emoji": "🌎" },
+        { "en": "Exactly the same", "es": "Igual en las dos", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon pulls much more gently than Earth, so one small hop there would carry you up like a giant bounce.", "es": "La Luna jala mucho más suave que la Tierra, así que un saltito allá te elevaría como un brinco gigante." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/gravity-and-you/en/"
+    },
+    {
+      "id": "physics-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "What happens to chocolate in your hand?", "es": "¿Qué le pasa al chocolate en tu mano?" },
+      "choices": [
+        { "en": "It melts and gets soft", "es": "Se derrite y se ablanda", "emoji": "🍫" },
+        { "en": "It gets hard as stone", "es": "Se pone duro como piedra", "emoji": "🪨" },
+        { "en": "It turns into water", "es": "Se convierte en agua", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your hand is warm enough to melt chocolate, and that is why it also melts in your mouth so quickly.", "es": "Tu mano tiene el calor justo para derretir el chocolate, y por eso también se derrite tan rápido en tu boca." },
+      "topic": "heat",
+      "source": "https://www.exploratorium.edu/food/chocolate"
+    },
+    {
+      "id": "physics-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which one can you pour into a cup?", "es": "¿Cuál cosa puedes servir en un vaso?" },
+      "choices": [
+        { "en": "Milk", "es": "La leche", "emoji": "🥛" },
+        { "en": "A brick", "es": "Un ladrillo", "emoji": "🧱" },
+        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Liquids flow and take the shape of the cup, while a solid brick always keeps its own stiff shape.", "es": "Los líquidos fluyen y toman la forma del vaso, mientras que un ladrillo sólido siempre conserva su propia forma." },
+      "topic": "matter",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/chemistry.html"
+    },
+    {
+      "id": "physics-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What does water become in the freezer?", "es": "¿En qué se convierte el agua en el congelador?" },
+      "choices": [
+        { "en": "Hard ice", "es": "Hielo duro", "emoji": "🧊" },
+        { "en": "Warm steam", "es": "Vapor caliente", "emoji": "♨️" },
+        { "en": "Soft sand", "es": "Arena suave", "emoji": "⏳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cold locks the water into ice, and the ice takes up more room, so a full bottle can crack open.", "es": "El frío convierte el agua en hielo, y el hielo ocupa más espacio, por eso una botella llena se puede romper." },
+      "topic": "matter",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/water.html"
+    },
+    {
+      "id": "physics-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "What tells you how hot something is?", "es": "¿Qué te dice qué tan caliente está algo?" },
+      "choices": [
+        { "en": "A thermometer", "es": "Un termómetro", "emoji": "🌡️" },
+        { "en": "A ruler", "es": "Una regla", "emoji": "📏" },
+        { "en": "A clock", "es": "Un reloj", "emoji": "🕐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A thermometer measures heat with a thin line that climbs when it warms, and doctors use a tiny one.", "es": "El termómetro mide el calor con una rayita que sube cuando se calienta, y el doctor usa uno pequeño para la fiebre." },
+      "topic": "measurement",
+      "source": "https://kids.britannica.com/kids/article/thermometer/353663"
     }
   ]
 }

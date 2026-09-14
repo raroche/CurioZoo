@@ -34,8 +34,8 @@
       "es": "Animales y naturaleza",
       "file": "animals.json",
       "counts": {
-        "easy": 3,
-        "medium": 3,
+        "easy": 100,
+        "medium": 35,
         "hard": 3
       }
     },
@@ -46,7 +46,7 @@
       "es": "El espacio y el cielo",
       "file": "space.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -58,7 +58,7 @@
       "es": "Física y el universo",
       "file": "physics.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -70,7 +70,7 @@
       "es": "El cuerpo humano y la salud",
       "file": "body.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -82,7 +82,7 @@
       "es": "La Tierra, el clima y los océanos",
       "file": "earth.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -94,7 +94,7 @@
       "es": "Ciencia y cómo funcionan las cosas",
       "file": "science.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -106,7 +106,7 @@
       "es": "Geografía y mapas",
       "file": "geography.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -118,7 +118,7 @@
       "es": "Culturas e idiomas del mundo",
       "file": "cultures.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -130,7 +130,7 @@
       "es": "Historia e inventos",
       "file": "history.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -142,7 +142,7 @@
       "es": "Matemáticas y números",
       "file": "math.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -154,7 +154,7 @@
       "es": "Palabras y lenguaje",
       "file": "words.json",
       "counts": {
-        "easy": 6,
+        "easy": 100,
         "medium": 6,
         "hard": 6
       }
@@ -166,7 +166,7 @@
       "es": "Arte, música y cuentos",
       "file": "art.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -178,7 +178,7 @@
       "es": "La vida diaria: comida, dinero, tiempo y juegos",
       "file": "everyday.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -190,7 +190,7 @@
       "es": "Cultura general",
       "file": "general.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -202,7 +202,7 @@
       "es": "¿Por qué pasa eso?",
       "file": "why.json",
       "counts": {
-        "easy": 3,
+        "easy": 100,
         "medium": 3,
         "hard": 3
       }
@@ -214,7 +214,7 @@
       "es": "Acertijos y lógica",
       "file": "puzzles.json",
       "counts": {
-        "easy": 6,
+        "easy": 80,
         "medium": 6,
         "hard": 6
       }

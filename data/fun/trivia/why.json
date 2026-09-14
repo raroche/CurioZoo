@@ -1,7 +1,7 @@
 {
   "note": "Why Is That? Every stem starts with Why / ¿Por qué. The answer is the reason; the why line goes one step deeper.",
   "category": "why",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "why-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧼",
@@ -12,8 +12,7 @@
         { "en": "To make them grow", "es": "Para que crezcan", "emoji": "🌱" }
       ],
       "answer": 1,
-      "why": { "en": "Soap grabs germs and dirt so water can rinse them off; scrubbing for twenty seconds works best.",
-               "es": "El jabón atrapa los gérmenes y la suciedad para que el agua se los lleve; frotar veinte segundos funciona mejor." },
+      "why": { "en": "Soap grabs germs and dirt so water can rinse them off; scrubbing for twenty seconds works best.", "es": "El jabón atrapa los gérmenes y la suciedad para que el agua se los lleve; frotar veinte segundos funciona mejor." },
       "topic": "staying healthy",
       "source": "https://kidshealth.org/en/kids/wash-hands.html"
     },
@@ -26,8 +25,7 @@
         { "en": "The ice gets sleepy", "es": "El hielo tiene sueño", "emoji": "😴" }
       ],
       "answer": 1,
-      "why": { "en": "Ice is frozen water, and when sunshine warms it above freezing, it turns back into liquid water.",
-               "es": "El hielo es agua congelada; cuando el sol lo calienta por encima de cero grados, vuelve a ser agua líquida." },
+      "why": { "en": "Ice is frozen water, and when sunshine warms it above freezing, it turns back into liquid water.", "es": "El hielo es agua congelada; cuando el sol lo calienta por encima de cero grados, vuelve a ser agua líquida." },
       "topic": "hot and cold",
       "source": "https://www.britannica.com/science/melting"
     },
@@ -40,8 +38,7 @@
         { "en": "To cool down", "es": "Para refrescarse", "emoji": "❄️" }
       ],
       "answer": 2,
-      "why": { "en": "Dogs sweat only a little, through their paws, so they pant to let heat escape from their wet tongue and mouth.",
-               "es": "Los perros sudan muy poco, solo por las patas, así que jadean para soltar calor por la lengua y la boca mojadas." },
+      "why": { "en": "Dogs sweat only a little, through their paws, so they pant to let heat escape from their wet tongue and mouth.", "es": "Los perros sudan muy poco, solo por las patas, así que jadean para soltar calor por la lengua y la boca mojadas." },
       "topic": "animal bodies",
       "source": "https://www.britannica.com/animal/dog"
     },
@@ -55,8 +52,7 @@
         { "en": "Air scatters blue light the most", "es": "El aire dispersa más la luz azul" }
       ],
       "answer": 3,
-      "why": { "en": "Sunlight holds every color, and tiny air molecules bounce blue light around far more than red, so blue fills the sky.",
-               "es": "La luz del Sol trae todos los colores, y las partículas del aire desvían mucho más la luz azul que la roja." },
+      "why": { "en": "Sunlight holds every color, and tiny air molecules bounce blue light around far more than red, so blue fills the sky.", "es": "La luz del Sol trae todos los colores, y las partículas del aire desvían mucho más la luz azul que la roja." },
       "topic": "the sky",
       "source": "https://scijinks.gov/blue-sky/"
     },
@@ -70,8 +66,7 @@
         { "en": "The smell makes us feel sad", "es": "El olor nos pone tristes" }
       ],
       "answer": 1,
-      "why": { "en": "Cutting an onion breaks its cells and lets out a stinging gas; our eyes make tears to wash that gas away.",
-               "es": "Al cortar la cebolla se rompen sus células y sale un gas que pica; los ojos hacen lágrimas para lavarlo." },
+      "why": { "en": "Cutting an onion breaks its cells and lets out a stinging gas; our eyes make tears to wash that gas away.", "es": "Al cortar la cebolla se rompen sus células y sale un gas que pica; los ojos hacen lágrimas para lavarlo." },
       "topic": "kitchen science",
       "source": "https://www.loc.gov/everyday-mysteries/chemistry/item/why-does-chopping-an-onion-make-you-cry/"
     },
@@ -85,8 +80,7 @@
         { "en": "Clouds hold the sound for a while", "es": "Las nubes guardan el sonido un rato" }
       ],
       "answer": 2,
-      "why": { "en": "Light moves almost a million times faster than sound, so the flash reaches you first and the rumble arrives later.",
-               "es": "La luz viaja casi un millón de veces más rápido que el sonido, así que el destello llega primero y el trueno después." },
+      "why": { "en": "Light moves almost a million times faster than sound, so the flash reaches you first and the rumble arrives later.", "es": "La luz viaja casi un millón de veces más rápido que el sonido, así que el destello llega primero y el trueno después." },
       "topic": "light and sound",
       "source": "https://www.weather.gov/safety/lightning-science-thunder"
     },
@@ -100,8 +94,7 @@
         { "en": "The Moon blocks sunlight in winter", "es": "La Luna tapa la luz del Sol en invierno" }
       ],
       "answer": 0,
-      "why": { "en": "Earth leans about 23.5 degrees, so each half takes turns tipping toward the Sun and getting more direct sunlight.",
-               "es": "La Tierra está inclinada unos 23.5 grados, así que cada mitad se turna para mirar hacia el Sol y recibir luz más directa." },
+      "why": { "en": "Earth leans about 23.5 degrees, so each half takes turns tipping toward the Sun and getting more direct sunlight.", "es": "La Tierra está inclinada unos 23.5 grados, así que cada mitad se turna para mirar hacia el Sol y recibir luz más directa." },
       "topic": "seasons",
       "source": "https://spaceplace.nasa.gov/seasons/"
     },
@@ -115,8 +108,7 @@
         { "en": "Venus's thick carbon dioxide air traps heat", "es": "El aire espeso de dióxido de carbono de Venus atrapa el calor" }
       ],
       "answer": 3,
-      "why": { "en": "Venus's thick carbon dioxide atmosphere acts like a heavy blanket, trapping heat until the ground reaches about 465 °C (870 °F).",
-               "es": "La gruesa atmósfera de dióxido de carbono de Venus funciona como una manta y calienta el suelo hasta unos 465 °C (870 °F)." },
+      "why": { "en": "Venus's thick carbon dioxide atmosphere acts like a heavy blanket, trapping heat until the ground reaches about 465 °C (870 °F).", "es": "La gruesa atmósfera de dióxido de carbono de Venus funciona como una manta y calienta el suelo hasta unos 465 °C (870 °F)." },
       "topic": "planets",
       "source": "https://science.nasa.gov/venus/facts/"
     },
@@ -130,10 +122,1270 @@
         { "en": "The air inside shrinks suddenly", "es": "El aire de adentro se encoge de golpe" }
       ],
       "answer": 2,
-      "why": { "en": "Each kernel holds a tiny drop of water; heat turns it to steam, pressure builds, and the hard shell bursts open.",
-               "es": "Cada grano guarda una gotita de agua; el calor la vuelve vapor, la presión crece y la cáscara dura revienta." },
+      "why": { "en": "Each kernel holds a tiny drop of water; heat turns it to steam, pressure builds, and the hard shell bursts open.", "es": "Cada grano guarda una gotita de agua; el calor la vuelve vapor, la presión crece y la cáscara dura revienta." },
       "topic": "kitchen science",
       "source": "https://www.britannica.com/topic/popcorn"
+    },
+    {
+      "id": "why-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "😴",
+      "q": { "en": "Why do we sleep every night?", "es": "¿Por qué dormimos todas las noches?" },
+      "choices": [
+        { "en": "To make the day end", "es": "Para que el día termine", "emoji": "🌙" },
+        { "en": "To rest and grow", "es": "Para descansar y crecer", "emoji": "😴" },
+        { "en": "To get hungry", "es": "Para que nos dé hambre", "emoji": "🍽️" }
+      ],
+      "answer": 1,
+      "why": { "en": "While you sleep your body repairs itself and your brain tidies up the day, which is how new things stick.", "es": "Mientras duermes, tu cuerpo se repara y tu cerebro ordena lo del día; por eso recuerdas mejor lo que aprendiste." },
+      "topic": "sleep and rest",
+      "source": "https://www.britannica.com/science/sleep"
+    },
+    {
+      "id": "why-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "👁️",
+      "q": { "en": "Why do we blink our eyes?", "es": "¿Por qué parpadeamos tantas veces?" },
+      "choices": [
+        { "en": "To keep our eyes wet", "es": "Para mantener los ojos mojados", "emoji": "💧" },
+        { "en": "To count the seconds", "es": "Para contar los segundos", "emoji": "⏱️" },
+        { "en": "To make our eyes bigger", "es": "Para que los ojos crezcan", "emoji": "🔍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each blink spreads a thin layer of tears that washes off dust, and you blink about fifteen times a minute.", "es": "Cada parpadeo extiende una capa fina de lágrimas que limpia el polvo, y parpadeas unas quince veces por minuto." },
+      "topic": "senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "why-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥱",
+      "q": { "en": "Why do we yawn when tired?", "es": "¿Por qué bostezamos cuando tenemos sueño?" },
+      "choices": [
+        { "en": "To scare away flies", "es": "Para espantar a las moscas", "emoji": "🪰" },
+        { "en": "To clean our teeth", "es": "Para limpiarnos los dientes", "emoji": "🪥" },
+        { "en": "To cool our brain", "es": "Para enfriar el cerebro", "emoji": "🧠" }
+      ],
+      "answer": 2,
+      "why": { "en": "Scientists think a big yawn pulls in cool air that lowers the brain's temperature a little, which helps you stay alert.", "es": "Los científicos creen que un bostezo grande mete aire fresco que baja un poco la temperatura del cerebro y te despierta." },
+      "topic": "our body",
+      "source": "https://kidshealth.org/en/kids/yawn.html"
+    },
+    {
+      "id": "why-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "Why do we sweat when running?", "es": "¿Por qué sudamos cuando corremos?" },
+      "choices": [
+        { "en": "To cool our skin", "es": "Para enfriar la piel", "emoji": "💦" },
+        { "en": "To wash our clothes", "es": "Para lavar la ropa", "emoji": "👕" },
+        { "en": "To run even faster", "es": "Para correr todavía más rápido", "emoji": "🏃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Running heats you up, so tiny glands push out salty water; as that water dries on your skin it carries heat away.", "es": "Correr te calienta, así que unas glándulas sacan agua salada; al secarse sobre la piel, esa agua se lleva el calor." },
+      "topic": "keeping cool",
+      "source": "https://kidshealth.org/en/kids/sweat.html"
+    },
+    {
+      "id": "why-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "Why do we shiver in the cold?", "es": "¿Por qué tiritamos cuando hace frío?" },
+      "choices": [
+        { "en": "To shake off the snow", "es": "Para sacudirnos la nieve", "emoji": "❄️" },
+        { "en": "To make our own heat", "es": "Para hacer nuestro propio calor", "emoji": "🔥" },
+        { "en": "To wake up faster", "es": "Para despertarnos más rápido", "emoji": "⏰" }
+      ],
+      "answer": 1,
+      "why": { "en": "Shivering is your muscles wiggling on purpose; all that tiny movement makes heat and warms you from the inside.", "es": "Tiritar es que tus músculos se mueven solos muy rápido; ese movimiento produce calor y te calienta por dentro." },
+      "topic": "keeping warm",
+      "source": "https://www.britannica.com/science/thermoregulation"
+    },
+    {
+      "id": "why-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪥",
+      "q": { "en": "Why do we brush our teeth?", "es": "¿Por qué nos cepillamos los dientes?" },
+      "choices": [
+        { "en": "To make them grow", "es": "Para que crezcan más", "emoji": "🌱" },
+        { "en": "To make our breath cold", "es": "Para enfriarnos el aliento", "emoji": "🥶" },
+        { "en": "To scrub away sticky plaque", "es": "Para quitar la placa pegajosa", "emoji": "🪥" }
+      ],
+      "answer": 2,
+      "why": { "en": "A sticky film of germs called plaque eats leftover sugar and makes holes in teeth; brushing wipes that film away.", "es": "Una capa pegajosa de gérmenes llamada placa come el azúcar que queda y hace huecos; el cepillo se lleva esa capa." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+    },
+    {
+      "id": "why-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "Why do we need to eat food?", "es": "¿Por qué necesitamos comer?" },
+      "choices": [
+        { "en": "To keep our hands busy", "es": "Para tener las manos ocupadas", "emoji": "✋" },
+        { "en": "To get energy to grow", "es": "Para tener energía y crecer", "emoji": "⚡" },
+        { "en": "To make our voice loud", "es": "Para tener la voz fuerte", "emoji": "📢" }
+      ],
+      "answer": 1,
+      "why": { "en": "Food is fuel; your body breaks it into tiny pieces that build new bones and muscle and keep you warm.", "es": "La comida es combustible; tu cuerpo la parte en pedacitos que forman huesos y músculos nuevos y te mantienen caliente." },
+      "topic": "eating",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "why-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Why do we have two eyes?", "es": "¿Por qué tenemos dos ojos?" },
+      "choices": [
+        { "en": "To blink twice as fast", "es": "Para parpadear el doble de rápido", "emoji": "😉" },
+        { "en": "To see two colors at once", "es": "Para ver dos colores a la vez", "emoji": "🎨" },
+        { "en": "To see how far things are", "es": "Para ver qué tan lejos está algo", "emoji": "👀" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each eye sees a slightly different picture, and your brain compares them to judge distance, which is why catching a ball is easier.", "es": "Cada ojo ve una imagen un poco distinta y tu cerebro las compara para medir la distancia; por eso atrapas mejor una pelota." },
+      "topic": "senses",
+      "source": "https://www.britannica.com/science/depth-perception"
+    },
+    {
+      "id": "why-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "👶",
+      "q": { "en": "Why do babies cry so much?", "es": "¿Por qué lloran tanto los bebés?" },
+      "choices": [
+        { "en": "To ask for help", "es": "Para pedir ayuda", "emoji": "👶" },
+        { "en": "To practice singing", "es": "Para practicar el canto", "emoji": "🎤" },
+        { "en": "To make tears for fun", "es": "Para hacer lágrimas por gusto", "emoji": "😂" }
+      ],
+      "answer": 0,
+      "why": { "en": "A baby cannot talk yet, so crying is the only way to say hungry, tired or wet; newborns cry without tears.", "es": "Un bebé todavía no habla, y llorar es su manera de pedir comida o descanso; los recién nacidos lloran sin lágrimas." },
+      "topic": "growing up",
+      "source": "https://www.britannica.com/science/crying"
+    },
+    {
+      "id": "why-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤨",
+      "q": { "en": "Why do we have eyebrows?", "es": "¿Por qué tenemos cejas?" },
+      "choices": [
+        { "en": "To hold up our hat", "es": "Para sostener el sombrero", "emoji": "🎩" },
+        { "en": "To keep sweat out of eyes", "es": "Para que el sudor no entre a los ojos", "emoji": "💧" },
+        { "en": "To help us hear better", "es": "Para oír mejor", "emoji": "👂" }
+      ],
+      "answer": 1,
+      "why": { "en": "Eyebrows steer sweat and rain sideways down your face so it misses your eyes, and they also show your feelings.", "es": "Las cejas desvían el sudor y la lluvia hacia los lados para que no entren a los ojos, y muestran tus emociones." },
+      "topic": "skin and hair",
+      "source": "https://www.britannica.com/science/eyebrow"
+    },
+    {
+      "id": "why-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "😊",
+      "q": { "en": "Why do we have eyelashes?", "es": "¿Por qué tenemos pestañas?" },
+      "choices": [
+        { "en": "To keep dust out of eyes", "es": "Para que no entre polvo a los ojos", "emoji": "🌫️" },
+        { "en": "To help us blink faster", "es": "Para parpadear más rápido", "emoji": "😉" },
+        { "en": "To keep our face warm", "es": "Para calentarnos la cara", "emoji": "🧣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lashes work like a net over each eye, and a touch on one makes you blink shut before the speck arrives.", "es": "Las pestañas funcionan como una red sobre el ojo; si algo las roza, parpadeas y cierras antes de que entre." },
+      "topic": "senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "why-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫄",
+      "q": { "en": "Why does our tummy rumble sometimes?", "es": "¿Por qué nos ruge la panza?" },
+      "choices": [
+        { "en": "Our bones rub together", "es": "Los huesos se rozan", "emoji": "🦴" },
+        { "en": "Our heart beats faster", "es": "El corazón late más rápido", "emoji": "💓" },
+        { "en": "Air and juices slosh inside", "es": "El aire y los jugos se mueven dentro", "emoji": "🫧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your stomach squeezes all day to mash food; when it is empty, air and juices echo in the space and rumble.", "es": "El estómago se aprieta todo el día para moler comida; cuando está vacío, el aire y los jugos suenan como un rugido." },
+      "topic": "eating",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "why-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤧",
+      "q": { "en": "Why do we sneeze?", "es": "¿Por qué estornudamos?" },
+      "choices": [
+        { "en": "To say hello politely", "es": "Para saludar con cortesía", "emoji": "👋" },
+        { "en": "To blow out dust", "es": "Para soplar el polvo hacia afuera", "emoji": "🤧" },
+        { "en": "To make our nose cold", "es": "Para enfriarnos la nariz", "emoji": "🥶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Something tickles the inside of your nose, so your body fires a burst of air to blast the dust back out.", "es": "Algo le hace cosquillas por dentro a tu nariz y tu cuerpo dispara un chorro de aire para sacar el polvo." },
+      "topic": "our body",
+      "source": "https://kidshealth.org/en/kids/sneeze.html"
+    },
+    {
+      "id": "why-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "😷",
+      "q": { "en": "Why do we cough?", "es": "¿Por qué tosemos?" },
+      "choices": [
+        { "en": "To warm our throat", "es": "Para calentar la garganta", "emoji": "🔥" },
+        { "en": "To rest our voice", "es": "Para descansar la voz", "emoji": "🎤" },
+        { "en": "To clear our airway", "es": "Para despejar el tubo del aire", "emoji": "💨" }
+      ],
+      "answer": 2,
+      "why": { "en": "A cough is a fast push of air that shoots crumbs, dust or slime out of the tube carrying air to your lungs.", "es": "Toser es un empujón rápido de aire que saca migas, polvo o flema del tubo que lleva aire a tus pulmones." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "why-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "Why do our fingers wrinkle in water?", "es": "¿Por qué se arrugan los dedos en el agua?" },
+      "choices": [
+        { "en": "The water pushes them flat", "es": "El agua los aplasta", "emoji": "🌊" },
+        { "en": "Nerves make the skin pucker", "es": "Los nervios pliegan la piel", "emoji": "🤏" },
+        { "en": "The soap paints lines on", "es": "El jabón les pinta rayas", "emoji": "🧼" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nerves tell tiny blood vessels to shrink, so the skin folds into ridges, and scientists think the grooves help wet fingers grip.", "es": "Los nervios encogen unos vasos pequeños y la piel se pliega; los científicos creen que esas arrugas ayudan a agarrar mojado." },
+      "topic": "skin and hair",
+      "source": "https://www.britannica.com/science/skin"
+    },
+    {
+      "id": "why-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Why do we have bones inside us?", "es": "¿Por qué tenemos huesos por dentro?" },
+      "choices": [
+        { "en": "To hold our body up", "es": "Para sostener el cuerpo", "emoji": "🦴" },
+        { "en": "To keep us warm", "es": "Para mantenernos calientes", "emoji": "🔥" },
+        { "en": "To help us float", "es": "Para ayudarnos a flotar", "emoji": "🛟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bones are your frame and your armor; a grown-up has two hundred six of them, and the smallest sits inside your ear.", "es": "Los huesos son tu armazón y tu armadura; un adulto tiene doscientos seis, y el más pequeño está dentro del oído." },
+      "topic": "our insides",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "why-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "❤️",
+      "q": { "en": "Why does our heart beat all day?", "es": "¿Por qué late el corazón todo el día?" },
+      "choices": [
+        { "en": "To count our steps", "es": "Para contar nuestros pasos", "emoji": "👣" },
+        { "en": "To keep time for music", "es": "Para marcar el ritmo de la música", "emoji": "🥁" },
+        { "en": "To push blood around us", "es": "Para empujar la sangre por el cuerpo", "emoji": "❤️" }
+      ],
+      "answer": 2,
+      "why": { "en": "The heart is a muscle that squeezes blood with food and air to every corner of you, about one hundred thousand times a day.", "es": "El corazón es un músculo que empuja sangre con alimento y aire a todo tu cuerpo, unas cien mil veces al día." },
+      "topic": "our insides",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "why-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Why do we breathe air in?", "es": "¿Por qué respiramos aire?" },
+      "choices": [
+        { "en": "Our body needs oxygen", "es": "El cuerpo necesita oxígeno", "emoji": "💨" },
+        { "en": "To make our voice work", "es": "Para que funcione la voz", "emoji": "🗣️" },
+        { "en": "To fill up our tummy", "es": "Para llenar la panza", "emoji": "🎈" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air holds oxygen, and every cell burns it to release energy from food; you breathe about twenty thousand times a day.", "es": "El aire trae oxígeno, y cada célula lo usa para sacar energía de la comida; respiras unas veinte mil veces al día." },
+      "topic": "our insides",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "why-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "Why do we lose our baby teeth?", "es": "¿Por qué se nos caen los dientes de leche?" },
+      "choices": [
+        { "en": "Because they get tired", "es": "Porque se cansan", "emoji": "😴" },
+        { "en": "To make room for bigger ones", "es": "Para dejar lugar a los grandes", "emoji": "🦷" },
+        { "en": "Because we talk too much", "es": "Porque hablamos mucho", "emoji": "🗣️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Baby teeth are small because a child's jaw is small; as the jaw grows, bigger adult teeth push the little ones out.", "es": "Los dientes de leche son pequeños porque la mandíbula del niño es pequeña; al crecer, los dientes grandes empujan a los chiquitos." },
+      "topic": "growing up",
+      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+    },
+    {
+      "id": "why-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Why do we grow taller each year?", "es": "¿Por qué crecemos cada año?" },
+      "choices": [
+        { "en": "Our shoes push us up", "es": "Los zapatos nos empujan hacia arriba", "emoji": "👟" },
+        { "en": "We drink lots of juice", "es": "Tomamos mucho jugo", "emoji": "🧃" },
+        { "en": "Our bones get longer", "es": "Los huesos se hacen más largos", "emoji": "📏" }
+      ],
+      "answer": 2,
+      "why": { "en": "Soft growth plates near the ends of your bones keep adding new bone, and they harden and stop when you finish growing.", "es": "En los extremos de tus huesos hay placas blandas que agregan hueso nuevo; se endurecen y paran cuando terminas de crecer." },
+      "topic": "growing up",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "why-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "Why do we get thirsty?", "es": "¿Por qué nos da sed?" },
+      "choices": [
+        { "en": "Our mouth wants a rest", "es": "La boca quiere descansar", "emoji": "😮" },
+        { "en": "Our body needs more water", "es": "El cuerpo necesita más agua", "emoji": "💧" },
+        { "en": "Our teeth feel dry", "es": "Los dientes se sienten secos", "emoji": "🦷" }
+      ],
+      "answer": 1,
+      "why": { "en": "More than half of you is water, and when a little is lost through sweat and breath, your brain sends a thirsty signal.", "es": "Más de la mitad de tu cuerpo es agua; cuando pierdes un poco al sudar y respirar, el cerebro te avisa con sed." },
+      "topic": "drinking water",
+      "source": "https://www.britannica.com/science/thirst"
+    },
+    {
+      "id": "why-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "Why do we wear a coat in winter?", "es": "¿Por qué usamos abrigo en invierno?" },
+      "choices": [
+        { "en": "To catch the snowflakes", "es": "Para atrapar los copos de nieve", "emoji": "❄️" },
+        { "en": "To make us run faster", "es": "Para correr más rápido", "emoji": "🏃" },
+        { "en": "To trap our own body heat", "es": "Para atrapar nuestro propio calor", "emoji": "🧥" }
+      ],
+      "answer": 2,
+      "why": { "en": "A coat does not make heat; it traps a layer of warm air your body made, so the cold takes longer to reach you.", "es": "El abrigo no produce calor: atrapa una capa de aire tibio que hizo tu cuerpo, y así el frío tarda más en llegar." },
+      "topic": "keeping warm",
+      "source": "https://www.britannica.com/science/thermal-insulation"
+    },
+    {
+      "id": "why-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "Why do we put on sunscreen?", "es": "¿Por qué nos ponemos bloqueador solar?" },
+      "choices": [
+        { "en": "To keep our skin dry", "es": "Para mantener la piel seca", "emoji": "🏜️" },
+        { "en": "To block burning sun rays", "es": "Para frenar los rayos que queman", "emoji": "🧴" },
+        { "en": "To make us swim faster", "es": "Para nadar más rápido", "emoji": "🏊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sunlight carries invisible ultraviolet rays that damage skin cells; sunscreen soaks up or bounces those rays before they get in.", "es": "La luz del Sol trae rayos ultravioleta invisibles que dañan la piel; el bloqueador los absorbe o los rebota antes de que entren." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/sun-safety.html"
+    },
+    {
+      "id": "why-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩹",
+      "q": { "en": "Why does a cut make a scab?", "es": "¿Por qué se forma una costra en una cortada?" },
+      "choices": [
+        { "en": "To cover the skin while it mends", "es": "Para tapar la piel mientras sana", "emoji": "🩹" },
+        { "en": "To make the cut itch", "es": "Para que la cortada dé comezón", "emoji": "😖" },
+        { "en": "To keep the blood warm", "es": "Para mantener caliente la sangre", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tiny cell pieces called platelets clump into a plug that dries hard, sealing out germs while new skin builds underneath.", "es": "Unos pedacitos de célula llamados plaquetas forman un tapón que se seca duro y tapa los gérmenes mientras crece piel nueva." },
+      "topic": "skin and hair",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "why-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Why do our ears pop on mountains?", "es": "¿Por qué se nos tapan los oídos en la montaña?" },
+      "choices": [
+        { "en": "The wind blows too loud", "es": "El viento sopla muy fuerte", "emoji": "💨" },
+        { "en": "Our head gets colder", "es": "La cabeza se enfría", "emoji": "🥶" },
+        { "en": "The air pushes less up high", "es": "Allá arriba el aire empuja menos", "emoji": "⛰️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Air presses lighter high up, so trapped air behind your eardrum pushes out through a little tube with a pop.", "es": "Arriba el aire pesa menos, así que el aire atrapado detrás del tímpano sale por un tubito y hace un chasquido." },
+      "topic": "senses",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "why-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Why do we feel dizzy after spinning?", "es": "¿Por qué nos mareamos después de dar vueltas?" },
+      "choices": [
+        { "en": "Liquid in our ears keeps swirling", "es": "El líquido del oído sigue girando", "emoji": "🌀" },
+        { "en": "Our eyes run out of colors", "es": "A los ojos se les acaban los colores", "emoji": "🎨" },
+        { "en": "Our feet get tired", "es": "Los pies se cansan", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Inside each ear there is liquid that senses which way is up; after a spin it keeps swirling, so the room seems to move.", "es": "Dentro de cada oído hay líquido que siente dónde está arriba; al girar sigue moviéndose y parece que el cuarto da vueltas." },
+      "topic": "senses",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "why-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "Why do we cover a sneeze?", "es": "¿Por qué nos tapamos al estornudar?" },
+      "choices": [
+        { "en": "To make the sneeze louder", "es": "Para que el estornudo suene más fuerte", "emoji": "🔊" },
+        { "en": "To warm up our nose", "es": "Para calentarnos la nariz", "emoji": "🔥" },
+        { "en": "To stop germs from flying out", "es": "Para que no salgan volando los gérmenes", "emoji": "🦠" }
+      ],
+      "answer": 2,
+      "why": { "en": "A sneeze shoots droplets many feet across a room; catching them in your elbow keeps germs off your hands and off others.", "es": "Un estornudo lanza gotitas por todo el cuarto; atraparlas con el codo mantiene los gérmenes lejos de tus manos y de los demás." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "why-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍏",
+      "q": { "en": "Why do we wash fruit before eating?", "es": "¿Por qué lavamos la fruta antes de comerla?" },
+      "choices": [
+        { "en": "To make it taste sweeter", "es": "Para que sepa más dulce", "emoji": "🍬" },
+        { "en": "To rinse off dirt and germs", "es": "Para quitarle tierra y gérmenes", "emoji": "🍏" },
+        { "en": "To make it grow bigger", "es": "Para que se haga más grande", "emoji": "🌱" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fruit travels from a field through many hands, so rinsing under running water washes away soil and most germs riding along.", "es": "La fruta viaja del campo y pasa por muchas manos; enjuagarla con agua corriente quita la tierra y casi todos los gérmenes." },
+      "topic": "staying healthy",
+      "source": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "why-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Why does our body get a fever?", "es": "¿Por qué nos da fiebre?" },
+      "choices": [
+        { "en": "Our blanket is too thick", "es": "La cobija está muy gruesa", "emoji": "🛏️" },
+        { "en": "We ate something spicy", "es": "Comimos algo picante", "emoji": "🌶️" },
+        { "en": "Heat helps fight the germs", "es": "El calor ayuda a pelear con los gérmenes", "emoji": "🌡️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your brain turns up your temperature on purpose, because many germs grow poorly when warm and your defenders work faster.", "es": "Tu cerebro sube la temperatura a propósito, porque muchos gérmenes crecen mal con calor y tus defensas trabajan más rápido." },
+      "topic": "staying healthy",
+      "source": "https://www.britannica.com/science/fever"
+    },
+    {
+      "id": "why-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "Why do we get tired after playing?", "es": "¿Por qué nos cansamos después de jugar?" },
+      "choices": [
+        { "en": "Our muscles use up energy", "es": "Los músculos gastan energía", "emoji": "💪" },
+        { "en": "Our shoes get heavy", "es": "Los zapatos se ponen pesados", "emoji": "👟" },
+        { "en": "The air gets thinner", "es": "El aire se hace más delgado", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Muscles burn stored sugar and oxygen to move you; when the store runs low they feel heavy, and rest and food refill it.", "es": "Los músculos queman azúcar guardada y oxígeno para moverte; cuando se acaba se sienten pesados, y el descanso y la comida la reponen." },
+      "topic": "our body",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "why-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧸",
+      "q": { "en": "Why do we have a belly button?", "es": "¿Por qué tenemos ombligo?" },
+      "choices": [
+        { "en": "It holds our tummy closed", "es": "Mantiene cerrada la panza", "emoji": "🤏" },
+        { "en": "It helps us balance", "es": "Nos ayuda a mantener el equilibrio", "emoji": "🤸" },
+        { "en": "It marks where the cord was", "es": "Marca dónde estuvo el cordón", "emoji": "👶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Before you were born a cord carried food and air from your mother; the doctor cut it, and the little mark healed shut.", "es": "Antes de nacer, un cordón te llevaba alimento y aire desde tu mamá; el doctor lo cortó y esa marquita cerró sola." },
+      "topic": "growing up",
+      "source": "https://www.britannica.com/science/umbilical-cord"
+    },
+    {
+      "id": "why-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "😎",
+      "q": { "en": "Why do we squint in bright sunshine?", "es": "¿Por qué entrecerramos los ojos con el sol?" },
+      "choices": [
+        { "en": "To let in less light", "es": "Para dejar entrar menos luz", "emoji": "😎" },
+        { "en": "To see farther away", "es": "Para ver más lejos", "emoji": "🔭" },
+        { "en": "To keep our face dry", "es": "Para mantener seca la cara", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "en": "Narrowing your eyelids works like a curtain, blocking part of the light so the picture stays sharp and the eye comfortable.", "es": "Cerrar un poco los párpados funciona como una cortina: deja pasar menos luz y así la imagen se ve nítida y cómoda." },
+      "topic": "senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "why-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "✋",
+      "q": { "en": "Why do we have fingernails?", "es": "¿Por qué tenemos uñas?" },
+      "choices": [
+        { "en": "To help us smell", "es": "Para ayudarnos a oler", "emoji": "👃" },
+        { "en": "To protect our fingertips", "es": "Para proteger las yemas de los dedos", "emoji": "🛡️" },
+        { "en": "To keep our hands warm", "es": "Para calentarnos las manos", "emoji": "🧤" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nails are hard plates of keratin, the same stuff as hair; they guard sensitive fingertips and help you pick up small things.", "es": "Las uñas son placas duras de queratina, el mismo material del pelo; protegen las yemas y te ayudan a agarrar cosas pequeñas." },
+      "topic": "skin and hair",
+      "source": "https://www.britannica.com/science/nail-anatomy"
+    },
+    {
+      "id": "why-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐱",
+      "q": { "en": "Why do cats have long whiskers?", "es": "¿Por qué los gatos tienen bigotes largos?" },
+      "choices": [
+        { "en": "To taste their food", "es": "Para probar su comida", "emoji": "😋" },
+        { "en": "To feel what is around them", "es": "Para sentir lo que tienen alrededor", "emoji": "🐱" },
+        { "en": "To keep their nose warm", "es": "Para calentarse la nariz", "emoji": "🧣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Whiskers are stiff hairs wired to nerves, so a cat feels walls, wind and gaps, and knows if a hole fits.", "es": "Los bigotes son pelos duros conectados a nervios; así el gato siente paredes, viento y huecos, y sabe si cabe." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/cat"
+    },
+    {
+      "id": "why-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "Why do birds have feathers?", "es": "¿Por qué las aves tienen plumas?" },
+      "choices": [
+        { "en": "To fly and stay warm", "es": "Para volar y mantenerse calientes", "emoji": "🪶" },
+        { "en": "To scare away the rain", "es": "Para espantar la lluvia", "emoji": "☔" },
+        { "en": "To help them swim fast", "es": "Para nadar rápido", "emoji": "🏊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Feathers do two jobs: fluffy ones near the skin trap warm air, and long stiff ones push against air for flight.", "es": "Las plumas hacen dos cosas: las suavecitas de abajo atrapan aire tibio y las largas y duras empujan el aire para volar." },
+      "topic": "birds",
+      "source": "https://www.britannica.com/science/feather"
+    },
+    {
+      "id": "why-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Why do fish have gills?", "es": "¿Por qué los peces tienen branquias?" },
+      "choices": [
+        { "en": "To swim in a straight line", "es": "Para nadar derechito", "emoji": "➡️" },
+        { "en": "To keep their scales shiny", "es": "Para tener escamas brillantes", "emoji": "✨" },
+        { "en": "To breathe under the water", "es": "Para respirar bajo el agua", "emoji": "🐟" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water carries a little oxygen; gills are feathery combs full of blood that grab that oxygen as water flows past.", "es": "El agua lleva un poco de oxígeno; las branquias son peines llenos de sangre que atrapan ese oxígeno cuando pasa el agua." },
+      "topic": "sea animals",
+      "source": "https://www.britannica.com/science/gill"
+    },
+    {
+      "id": "why-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦆",
+      "q": { "en": "Why do ducks stay dry while swimming?", "es": "¿Por qué los patos salen secos del agua?" },
+      "choices": [
+        { "en": "They swim too fast to get wet", "es": "Nadan tan rápido que no se mojan", "emoji": "💨" },
+        { "en": "Oil on their feathers repels water", "es": "El aceite de sus plumas repele el agua", "emoji": "🦆" },
+        { "en": "Their skin drinks the water", "es": "Su piel se toma el agua", "emoji": "🥤" }
+      ],
+      "answer": 1,
+      "why": { "en": "A duck rubs oil from a gland near its tail over its feathers, and the oiled, zipped feathers make water roll off.", "es": "El pato se unta aceite de una glándula cerca de la cola sobre las plumas, y así el agua resbala y cae." },
+      "topic": "birds",
+      "source": "https://www.britannica.com/animal/duck"
+    },
+    {
+      "id": "why-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐈",
+      "q": { "en": "Why do cats lick their fur?", "es": "¿Por qué los gatos se lamen el pelo?" },
+      "choices": [
+        { "en": "Because the fur tastes sweet", "es": "Porque el pelo sabe dulce", "emoji": "🍬" },
+        { "en": "To make the fur grow faster", "es": "Para que el pelo crezca más rápido", "emoji": "🌱" },
+        { "en": "To keep it clean and cool", "es": "Para tenerlo limpio y fresco", "emoji": "🐈" }
+      ],
+      "answer": 2,
+      "why": { "en": "A cat's tongue is covered in tiny hooks that comb out dirt, and the spit it leaves cools the cat as it dries.", "es": "La lengua del gato tiene ganchitos que peinan la suciedad, y la saliva que deja lo refresca mientras se seca." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/cat"
+    },
+    {
+      "id": "why-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "Why do bees visit so many flowers?", "es": "¿Por qué las abejas visitan tantas flores?" },
+      "choices": [
+        { "en": "To collect nectar for honey", "es": "Para juntar néctar y hacer miel", "emoji": "🍯" },
+        { "en": "To count the petals", "es": "Para contar los pétalos", "emoji": "🔢" },
+        { "en": "To hide from the rain", "es": "Para esconderse de la lluvia", "emoji": "🌧️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bees sip sweet nectar and turn it into honey back at the hive; yellow dust called pollen rides along and makes new seeds.", "es": "Las abejas toman néctar dulce y en la colmena lo vuelven miel; el polvo amarillo, el polen, viaja con ellas y forma semillas." },
+      "topic": "bugs",
+      "source": "https://www.britannica.com/animal/bee"
+    },
+    {
+      "id": "why-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "Why do spiders spin sticky webs?", "es": "¿Por qué las arañas tejen telarañas pegajosas?" },
+      "choices": [
+        { "en": "To make a soft bed", "es": "Para hacerse una cama suave", "emoji": "🛏️" },
+        { "en": "To catch their food", "es": "Para atrapar su comida", "emoji": "🕸️" },
+        { "en": "To decorate the garden", "es": "Para decorar el jardín", "emoji": "🌺" }
+      ],
+      "answer": 1,
+      "why": { "en": "A web is a trap made of silk; only some threads are sticky, and the spider walks the dry ones to stay free.", "es": "La telaraña es una trampa de seda; solo algunos hilos pegan, y la araña camina por los secos para no quedarse pegada." },
+      "topic": "bugs",
+      "source": "https://www.britannica.com/animal/spider-arachnid"
+    },
+    {
+      "id": "why-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐰",
+      "q": { "en": "Why do rabbits have such long ears?", "es": "¿Por qué los conejos tienen orejas tan largas?" },
+      "choices": [
+        { "en": "To carry leaves home", "es": "Para cargar hojas a su casa", "emoji": "🍃" },
+        { "en": "To dig their burrows", "es": "Para cavar su madriguera", "emoji": "🕳️" },
+        { "en": "To hear danger far away", "es": "Para oír el peligro desde lejos", "emoji": "🐰" }
+      ],
+      "answer": 2,
+      "why": { "en": "Long ears turn like dishes to catch faint sounds from every side, and warm blood in them also lets heat escape.", "es": "Las orejas largas giran como antenas para atrapar sonidos suaves de todos lados, y la sangre que pasa por ellas suelta calor." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/rabbit"
+    },
+    {
+      "id": "why-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "Why do elephants flap their big ears?", "es": "¿Por qué los elefantes mueven sus orejas grandes?" },
+      "choices": [
+        { "en": "To cool their whole body", "es": "Para refrescar todo su cuerpo", "emoji": "🐘" },
+        { "en": "To fly a little bit", "es": "Para volar un poquito", "emoji": "🕊️" },
+        { "en": "To hear under the ground", "es": "Para oír bajo la tierra", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Elephant ears are thin and full of blood vessels; flapping them fans the blood inside, which returns cooler to the body.", "es": "Las orejas del elefante son delgadas y llenas de venas; al abanicarlas, la sangre de adentro se enfría y regresa al cuerpo." },
+      "topic": "keeping cool",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/african-elephant"
+    },
+    {
+      "id": "why-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "Why does a camel have a hump?", "es": "¿Por qué el camello tiene joroba?" },
+      "choices": [
+        { "en": "It holds water inside", "es": "Guarda agua adentro", "emoji": "💧" },
+        { "en": "It stores fat for food", "es": "Guarda grasa como alimento", "emoji": "🐪" },
+        { "en": "It helps the camel run", "es": "Ayuda al camello a correr", "emoji": "🏃" }
+      ],
+      "answer": 1,
+      "why": { "en": "The hump is a pile of fat the camel lives on when food is scarce; water is stored in its blood, not there.", "es": "La joroba es grasa guardada que el camello usa cuando falta comida; el agua la guarda en la sangre, no en la joroba." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/camel"
+    },
+    {
+      "id": "why-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "Why do owls hunt at night?", "es": "¿Por qué los búhos cazan de noche?" },
+      "choices": [
+        { "en": "They are afraid of clouds", "es": "Les dan miedo las nubes", "emoji": "☁️" },
+        { "en": "Their huge eyes gather faint light", "es": "Sus ojos enormes juntan la poca luz", "emoji": "🦉" },
+        { "en": "They sleep better in the dark", "es": "Duermen mejor en la oscuridad", "emoji": "😴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Owl eyes are huge and collect the little light there is, and soft feather edges make their flight almost silent.", "es": "Los ojos del búho son enormes y juntan la poca luz que hay, y sus plumas suaves hacen que vuele casi sin ruido." },
+      "topic": "birds",
+      "source": "https://www.britannica.com/animal/owl"
+    },
+    {
+      "id": "why-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "Why do snakes flick their tongues?", "es": "¿Por qué las serpientes sacan la lengua?" },
+      "choices": [
+        { "en": "To smell the air", "es": "Para oler el aire", "emoji": "🐍" },
+        { "en": "To scare away birds", "es": "Para espantar a las aves", "emoji": "🐦" },
+        { "en": "To drink the rain", "es": "Para beber la lluvia", "emoji": "🌧️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The forked tongue picks up tiny smell bits and drops them on a spot in the roof of the mouth that reads them.", "es": "La lengua partida recoge partículas de olor y las deja en un punto del paladar que las lee como si oliera." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/animal/snake"
+    },
+    {
+      "id": "why-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Why do giraffes have long necks?", "es": "¿Por qué las jirafas tienen cuello largo?" },
+      "choices": [
+        { "en": "To see over the clouds", "es": "Para ver por encima de las nubes", "emoji": "☁️" },
+        { "en": "To swim across rivers", "es": "Para cruzar los ríos nadando", "emoji": "🏊" },
+        { "en": "To reach leaves up high", "es": "Para alcanzar las hojas de arriba", "emoji": "🦒" }
+      ],
+      "answer": 2,
+      "why": { "en": "A giraffe eats treetop leaves that shorter animals cannot reach, and its neck holds the same seven bones yours does.", "es": "La jirafa come hojas altas que otros animales no alcanzan, y su cuello tiene los mismos siete huesos que el tuyo." },
+      "topic": "animal bodies",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giraffe"
+    },
+    {
+      "id": "why-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Why do penguins huddle close together?", "es": "¿Por qué los pingüinos se juntan tanto?" },
+      "choices": [
+        { "en": "To take a family photo", "es": "Para tomarse una foto familiar", "emoji": "📷" },
+        { "en": "To share their warmth", "es": "Para compartir su calor", "emoji": "🐧" },
+        { "en": "To make the ice melt", "es": "Para derretir el hielo", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "In a huddle each bird blocks the wind for the next, and they take turns shuffling to the middle where it is warmest.", "es": "En el montón cada ave tapa el viento de la siguiente, y se turnan para pasar al centro, que es lo más calientito." },
+      "topic": "keeping warm",
+      "source": "https://www.britannica.com/animal/penguin"
+    },
+    {
+      "id": "why-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "Why do cows chew for so long?", "es": "¿Por qué las vacas mastican tanto rato?" },
+      "choices": [
+        { "en": "To soften tough grass again", "es": "Para ablandar otra vez el pasto duro", "emoji": "🐄" },
+        { "en": "To sharpen their teeth", "es": "Para afilarse los dientes", "emoji": "🦷" },
+        { "en": "To pass the time", "es": "Para pasar el rato", "emoji": "⏳" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cow swallows grass, then brings the half-soft lump back up to chew again; four stomach rooms finish the job.", "es": "La vaca traga el pasto y luego lo regresa a la boca para masticarlo otra vez; cuatro cámaras del estómago terminan el trabajo." },
+      "topic": "animal eating",
+      "source": "https://www.britannica.com/animal/cattle"
+    },
+    {
+      "id": "why-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "Why do frogs have sticky tongues?", "es": "¿Por qué las ranas tienen lengua pegajosa?" },
+      "choices": [
+        { "en": "To clean their eyes", "es": "Para limpiarse los ojos", "emoji": "👁️" },
+        { "en": "To climb up trees", "es": "Para trepar a los árboles", "emoji": "🌳" },
+        { "en": "To catch flying bugs", "es": "Para atrapar insectos que vuelan", "emoji": "🐸" }
+      ],
+      "answer": 2,
+      "why": { "en": "A frog's tongue flips out in a blink and its spit turns runny then thick, gluing the insect for the trip back.", "es": "La lengua de la rana sale en un parpadeo y su saliva se vuelve líquida y luego espesa, y pega al insecto." },
+      "topic": "animal eating",
+      "source": "https://www.britannica.com/animal/frog"
+    },
+    {
+      "id": "why-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Why does a turtle have a shell?", "es": "¿Por qué la tortuga tiene caparazón?" },
+      "choices": [
+        { "en": "To shield it from danger", "es": "Para protegerla del peligro", "emoji": "🐢" },
+        { "en": "To help it float in air", "es": "Para flotar en el aire", "emoji": "🎈" },
+        { "en": "To keep its food inside", "es": "Para guardar su comida adentro", "emoji": "🥬" }
+      ],
+      "answer": 0,
+      "why": { "en": "The shell is armor built from the turtle's own ribs and backbone, so a turtle can never crawl out of it.", "es": "El caparazón es una armadura hecha con las costillas y la columna de la tortuga, por eso jamás puede salirse de él." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/turtle-reptile"
+    },
+    {
+      "id": "why-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Why do birds sing in the morning?", "es": "¿Por qué los pájaros cantan en la mañana?" },
+      "choices": [
+        { "en": "To wake up the flowers", "es": "Para despertar a las flores", "emoji": "🌼" },
+        { "en": "To say this place is mine", "es": "Para decir que ese lugar es suyo", "emoji": "🐦" },
+        { "en": "To make the sun rise", "es": "Para que salga el sol", "emoji": "☀️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cool, calm morning air carries song far, so a bird sings to tell others the branch is taken and to invite a mate.", "es": "El aire fresco y calmado de la mañana lleva el canto lejos; el pájaro avisa que la rama es suya y llama pareja." },
+      "topic": "birds",
+      "source": "https://www.britannica.com/animal/bird-animal"
+    },
+    {
+      "id": "why-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "Why do dogs wag their tails?", "es": "¿Por qué los perros mueven la cola?" },
+      "choices": [
+        { "en": "To keep flies away", "es": "Para espantar a las moscas", "emoji": "🪰" },
+        { "en": "To help them run", "es": "Para ayudarse a correr", "emoji": "🏃" },
+        { "en": "To show how they feel", "es": "Para mostrar cómo se sienten", "emoji": "🐕" }
+      ],
+      "answer": 2,
+      "why": { "en": "A wag is dog talk; a loose, wide swing usually means happy, and a stiff, fast one can mean keep away.", "es": "Mover la cola es el idioma del perro: un movimiento suelto y amplio suele decir contento, y uno tieso y rápido, aléjate." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "why-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐿️",
+      "q": { "en": "Why do squirrels bury nuts?", "es": "¿Por qué las ardillas entierran nueces?" },
+      "choices": [
+        { "en": "To save food for winter", "es": "Para guardar comida para el invierno", "emoji": "🐿️" },
+        { "en": "To hide them from the rain", "es": "Para esconderlas de la lluvia", "emoji": "🌧️" },
+        { "en": "To sharpen their claws", "es": "Para afilarse las garras", "emoji": "🐾" }
+      ],
+      "answer": 0,
+      "why": { "en": "A squirrel hides thousands of nuts and finds most of them by smell; the forgotten ones sprout into new trees.", "es": "La ardilla esconde miles de nueces y encuentra casi todas por el olor; las que olvida se convierten en árboles nuevos." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/squirrel"
+    },
+    {
+      "id": "why-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Why do bats hang upside down?", "es": "¿Por qué los murciélagos cuelgan de cabeza?" },
+      "choices": [
+        { "en": "To keep their wings dry", "es": "Para mantener secas las alas", "emoji": "💧" },
+        { "en": "To see the world better", "es": "Para ver mejor el mundo", "emoji": "👀" },
+        { "en": "So they can drop into flight", "es": "Para dejarse caer y volar", "emoji": "🦇" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bat legs are too thin to run and jump, so a bat simply lets go and falls into the air to fly.", "es": "Las patas del murciélago son muy delgadas para correr y saltar, así que se suelta, cae al aire y empieza a volar." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/bat-mammal"
+    },
+    {
+      "id": "why-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐻‍❄️",
+      "q": { "en": "Why do polar bears have thick fur?", "es": "¿Por qué los osos polares tienen pelaje grueso?" },
+      "choices": [
+        { "en": "To float on the water", "es": "Para flotar en el agua", "emoji": "🛟" },
+        { "en": "To hold in body heat", "es": "Para guardar el calor del cuerpo", "emoji": "🐻‍❄️" },
+        { "en": "To look bigger than others", "es": "Para verse más grandes", "emoji": "📏" }
+      ],
+      "answer": 1,
+      "why": { "en": "Two layers of fur plus a thick pad of fat keep the heat in, and the hairs look white but have no color.", "es": "Dos capas de pelo y una gruesa capa de grasa guardan el calor, y sus pelos se ven blancos aunque son transparentes." },
+      "topic": "keeping warm",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/polar-bear"
+    },
+    {
+      "id": "why-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦓",
+      "q": { "en": "Why do zebras have black stripes?", "es": "¿Por qué las cebras tienen rayas negras?" },
+      "choices": [
+        { "en": "To stay warm at night", "es": "Para no tener frío de noche", "emoji": "🔥" },
+        { "en": "To look like a horse", "es": "Para parecerse a un caballo", "emoji": "🐴" },
+        { "en": "To keep biting flies away", "es": "Para espantar a las moscas que pican", "emoji": "🦓" }
+      ],
+      "answer": 2,
+      "why": { "en": "Scientists think the stripes confuse biting flies, which land far less often on striped coats than on plain brown ones.", "es": "Los científicos creen que las rayas confunden a las moscas que pican, que se posan mucho menos en pelajes rayados." },
+      "topic": "animal colors",
+      "source": "https://www.britannica.com/animal/zebra"
+    },
+    {
+      "id": "why-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "Why do fireflies glow in the dark?", "es": "¿Por qué las luciérnagas brillan en la noche?" },
+      "choices": [
+        { "en": "To send signals to each other", "es": "Para mandarse señales entre ellas", "emoji": "✨" },
+        { "en": "To keep themselves warm", "es": "Para calentarse", "emoji": "🔥" },
+        { "en": "To light up their food", "es": "Para alumbrar su comida", "emoji": "🍽️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A firefly mixes chemicals in its belly to make cold light, and each kind blinks its own pattern to find a partner.", "es": "La luciérnaga mezcla sustancias en su panza para hacer luz fría, y cada especie parpadea con su propio ritmo para encontrar pareja." },
+      "topic": "bugs",
+      "source": "https://www.britannica.com/animal/firefly"
+    },
+    {
+      "id": "why-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐔",
+      "q": { "en": "Why do chickens swallow tiny stones?", "es": "¿Por qué las gallinas tragan piedritas?" },
+      "choices": [
+        { "en": "To make their eggs heavy", "es": "Para que sus huevos pesen más", "emoji": "🥚" },
+        { "en": "To clean their beaks", "es": "Para limpiarse el pico", "emoji": "🪶" },
+        { "en": "To grind food inside them", "es": "Para moler la comida por dentro", "emoji": "🐔" }
+      ],
+      "answer": 2,
+      "why": { "en": "Birds have no teeth, so stones sit in a muscly pouch called the gizzard and mash the grain like a grinder.", "es": "Las aves no tienen dientes; las piedritas se quedan en una bolsa musculosa, la molleja, y muelen el grano como un molino." },
+      "topic": "animal eating",
+      "source": "https://www.britannica.com/animal/chicken"
+    },
+    {
+      "id": "why-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "Why do sharks lose so many teeth?", "es": "¿Por qué los tiburones pierden tantos dientes?" },
+      "choices": [
+        { "en": "New rows keep moving forward", "es": "Nuevas filas van avanzando", "emoji": "🦈" },
+        { "en": "They brush them too hard", "es": "Se los cepillan muy fuerte", "emoji": "🪥" },
+        { "en": "The salty water melts them", "es": "El agua salada los derrite", "emoji": "🌊" }
+      ],
+      "answer": 0,
+      "why": { "en": "Shark teeth sit in rows on a moving belt of skin; when a front tooth falls out, the next row slides up.", "es": "Los dientes del tiburón están en filas sobre una piel que avanza; cuando se cae uno de adelante, sube la fila siguiente." },
+      "topic": "sea animals",
+      "source": "https://www.britannica.com/animal/shark"
+    },
+    {
+      "id": "why-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Why do ants walk in a line?", "es": "¿Por qué las hormigas caminan en fila?" },
+      "choices": [
+        { "en": "They hold each other's legs", "es": "Se agarran de las patas", "emoji": "🦵" },
+        { "en": "They follow a smell trail", "es": "Siguen un rastro de olor", "emoji": "🐜" },
+        { "en": "They copy the leader's dance", "es": "Copian el baile de la primera", "emoji": "💃" }
+      ],
+      "answer": 1,
+      "why": { "en": "An ant that finds food drips a scent on the way home, and every ant behind follows that invisible path.", "es": "La hormiga que encuentra comida deja un olor al regresar al nido, y las demás siguen ese camino invisible detrás de ella." },
+      "topic": "bugs",
+      "source": "https://www.britannica.com/animal/ant"
+    },
+    {
+      "id": "why-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Why do parrots copy what we say?", "es": "¿Por qué los loros repiten lo que decimos?" },
+      "choices": [
+        { "en": "They are reading our books", "es": "Están leyendo nuestros libros", "emoji": "📖" },
+        { "en": "They copy their flock to fit in", "es": "Copian a su bandada para pertenecer", "emoji": "🦜" },
+        { "en": "They want to sing opera", "es": "Quieren cantar ópera", "emoji": "🎶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Wild parrots copy flock calls to belong; a pet parrot treats your family as its flock, so it copies your words instead.", "es": "Los loros silvestres copian los sonidos de su bandada; un loro en casa toma a tu familia como bandada y copia tus palabras." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/parrot"
+    },
+    {
+      "id": "why-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛶",
+      "q": { "en": "Why do ducks have webbed feet?", "es": "¿Por qué los patos tienen patas con membrana?" },
+      "choices": [
+        { "en": "To hold on to branches", "es": "Para agarrarse de las ramas", "emoji": "🌳" },
+        { "en": "To run on the sand", "es": "Para correr en la arena", "emoji": "🏖️" },
+        { "en": "To push water like paddles", "es": "Para empujar el agua como remos", "emoji": "🛶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Spread-out skin between the toes pushes a big wall of water on each kick, then folds thin so the foot slips forward.", "es": "La piel estirada entre los dedos empuja mucha agua en cada patada, y luego se dobla para que la pata regrese fácil." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/duck"
+    },
+    {
+      "id": "why-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "Why can horses sleep standing up?", "es": "¿Por qué los caballos duermen de pie?" },
+      "choices": [
+        { "en": "Their legs lock in place", "es": "Sus patas se traban solas", "emoji": "🐴" },
+        { "en": "They are afraid of grass", "es": "Les da miedo el pasto", "emoji": "🌿" },
+        { "en": "Their hooves are very soft", "es": "Sus cascos son muy suaves", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Special locking tendons hold a horse's legs straight with almost no effort, so it can doze and still run from danger fast.", "es": "Unos tendones especiales traban las patas del caballo casi sin esfuerzo, así puede dormitar y salir corriendo si aparece un peligro." },
+      "topic": "animal habits",
+      "source": "https://www.britannica.com/animal/horse"
+    },
+    {
+      "id": "why-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐳",
+      "q": { "en": "Why do whales swim up to breathe?", "es": "¿Por qué las ballenas suben a respirar?" },
+      "choices": [
+        { "en": "They want to see the sky", "es": "Quieren ver el cielo", "emoji": "🌤️" },
+        { "en": "They are looking for rain", "es": "Están buscando lluvia", "emoji": "🌧️" },
+        { "en": "They breathe air like us", "es": "Respiran aire como nosotros", "emoji": "🐳" }
+      ],
+      "answer": 2,
+      "why": { "en": "A whale is a mammal with lungs, so it must reach the surface and blow out old air through a hole on its head.", "es": "La ballena es un mamífero con pulmones; por eso sube a la superficie y sopla el aire viejo por un agujero en la cabeza." },
+      "topic": "sea animals",
+      "source": "https://www.britannica.com/animal/whale"
+    },
+    {
+      "id": "why-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "Why is a dog's nose always wet?", "es": "¿Por qué la nariz del perro está mojada?" },
+      "choices": [
+        { "en": "It drinks with its nose", "es": "Toma agua con la nariz", "emoji": "🥤" },
+        { "en": "Wetness helps it catch smells", "es": "Lo mojado le ayuda a atrapar olores", "emoji": "👃" },
+        { "en": "The rain falls on its face", "es": "La lluvia le cae en la cara", "emoji": "🌧️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A thin film of watery slime traps smell bits from the air, and a dog finds odors thousands of times better than you.", "es": "Una capa fina de moco húmedo atrapa las partículas de olor, y por eso el perro huele miles de veces mejor que tú." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "why-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Why are most leaves green?", "es": "¿Por qué casi todas las hojas son verdes?" },
+      "choices": [
+        { "en": "A green helper catches sunlight", "es": "Un ayudante verde atrapa la luz", "emoji": "🌞" },
+        { "en": "Someone painted them green", "es": "Alguien las pintó de verde", "emoji": "🎨" },
+        { "en": "Green scares hungry bugs away", "es": "El verde espanta a los bichos", "emoji": "🐛" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves are packed with chlorophyll, a green stuff that catches sunlight and turns it into food, so the plant eats light.", "es": "Las hojas están llenas de clorofila, algo verde que atrapa la luz del sol y la convierte en alimento para la planta." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/kids/article/photosynthesis"
+    },
+    {
+      "id": "why-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Why do leaves fall in autumn?", "es": "¿Por qué se caen las hojas en otoño?" },
+      "choices": [
+        { "en": "The wind blows them off", "es": "El viento se las lleva", "emoji": "🌬️" },
+        { "en": "The tree rests until spring", "es": "El árbol descansa hasta la primavera", "emoji": "🌳" },
+        { "en": "They grow too heavy", "es": "Se ponen demasiado pesadas", "emoji": "⚖️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Days grow shorter, so the tree stops feeding its leaves and drops them to save water and energy all winter.", "es": "Los días se hacen más cortos, el árbol deja de alimentar sus hojas y las suelta para ahorrar agua y energía en invierno." },
+      "topic": "plants",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/plants.html"
+    },
+    {
+      "id": "why-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Why do plants need water?", "es": "¿Por qué las plantas necesitan agua?" },
+      "choices": [
+        { "en": "To wash their leaves", "es": "Para lavarse las hojas", "emoji": "🧽" },
+        { "en": "To keep the soil cold", "es": "Para enfriar la tierra", "emoji": "🧊" },
+        { "en": "To drink and carry food", "es": "Para beber y llevar alimento", "emoji": "💧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water travels up the stem carrying food to every leaf, and it puffs up the plant's cells so the stem stands straight.", "es": "El agua sube por el tallo y lleva alimento a cada hoja; también infla las células para que la planta se mantenga derecha." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/kids/article/plant"
+    },
+    {
+      "id": "why-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Why do trees have deep roots?", "es": "¿Por qué los árboles tienen raíces profundas?" },
+      "choices": [
+        { "en": "To hold on and drink", "es": "Para agarrarse y beber", "emoji": "🌳" },
+        { "en": "To hide from the rain", "es": "Para esconderse de la lluvia", "emoji": "☔" },
+        { "en": "To keep the trunk warm", "es": "Para calentar el tronco", "emoji": "🧣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Roots grip the soil like anchors and sip water from deep down; a big tree's roots can spread wider than its branches.", "es": "Las raíces se agarran a la tierra como anclas y beben agua del fondo; pueden extenderse más lejos que las ramas del árbol." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/kids/article/tree"
+    },
+    {
+      "id": "why-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Why do plants lean toward the window?", "es": "¿Por qué las plantas se inclinan hacia la ventana?" },
+      "choices": [
+        { "en": "They like looking outside", "es": "Les gusta mirar hacia afuera", "emoji": "🪟" },
+        { "en": "The glass pulls them closer", "es": "El vidrio las jala", "emoji": "🧲" },
+        { "en": "They are chasing the sunlight", "es": "Van persiguiendo la luz del sol", "emoji": "☀️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A plant grows faster on its shady side, which bends the stem toward the light it needs to make food.", "es": "La planta crece más rápido del lado en sombra, y eso inclina el tallo hacia la luz que necesita para fabricar su alimento." },
+      "topic": "plants",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/plants.html"
+    },
+    {
+      "id": "why-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Why do bananas turn brown?", "es": "¿Por qué los plátanos se ponen marrones?" },
+      "choices": [
+        { "en": "The sun burns the peel", "es": "El sol quema la cáscara", "emoji": "🔥" },
+        { "en": "Air darkens the fruit", "es": "El aire oscurece la fruta", "emoji": "☕" },
+        { "en": "They get too cold", "es": "Se enfrían demasiado", "emoji": "🧊" }
+      ],
+      "answer": 1,
+      "why": { "en": "Air reaches the fruit and a natural chemical turns it brown, the same browning you see on a cut apple.", "es": "El aire llega a la fruta y una sustancia natural la oscurece, igual que le pasa a una manzana partida." },
+      "topic": "food",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/food.html"
+    },
+    {
+      "id": "why-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Why does rain fall from clouds?", "es": "¿Por qué cae la lluvia de las nubes?" },
+      "choices": [
+        { "en": "The drops grow too heavy", "es": "Las gotas se ponen muy pesadas", "emoji": "💧" },
+        { "en": "The cloud squeezes itself", "es": "La nube se exprime sola", "emoji": "☁️" },
+        { "en": "The wind shakes them out", "es": "El viento las sacude", "emoji": "🌬️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tiny cloud droplets bump and join until they grow heavy enough to fall; a raindrop is shaped like a bun, not a tear.", "es": "Las gotitas de la nube chocan y se juntan hasta pesar demasiado; una gota que cae tiene forma de panecillo, no de lágrima." },
+      "topic": "weather",
+      "source": "https://scijinks.gov/rain/"
+    },
+    {
+      "id": "why-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "Why do puddles dry up in the sun?", "es": "¿Por qué se secan los charcos con el sol?" },
+      "choices": [
+        { "en": "The ground drinks it all", "es": "La tierra se lo bebe todo", "emoji": "🕳️" },
+        { "en": "Birds drink the water", "es": "Los pájaros se toman el agua", "emoji": "🐦" },
+        { "en": "The water floats into the air", "es": "El agua se va flotando al aire", "emoji": "☁️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sunshine turns the water into invisible vapor that rises into the air; later it cools into clouds and falls again as rain.", "es": "El sol convierte el agua en vapor invisible que sube al aire; más tarde se enfría, forma nubes y vuelve a caer como lluvia." },
+      "topic": "water",
+      "source": "https://scijinks.gov/water-cycle/"
+    },
+    {
+      "id": "why-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "Why does the wind blow?", "es": "¿Por qué sopla el viento?" },
+      "choices": [
+        { "en": "Cool air rushes toward warm air", "es": "El aire fresco corre hacia el caliente", "emoji": "🌬️" },
+        { "en": "The trees push the air", "es": "Los árboles empujan el aire", "emoji": "🌳" },
+        { "en": "The clouds blow it out", "es": "Las nubes lo soplan", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun heats some places more than others, warm air rises, and cooler air rushes in to take its place.", "es": "El Sol calienta unos lugares más que otros, el aire caliente sube y el aire fresco corre a ocupar su lugar." },
+      "topic": "weather",
+      "source": "https://scijinks.gov/wind/"
+    },
+    {
+      "id": "why-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "Why do rainbows appear after the rain?", "es": "¿Por qué aparece el arcoíris después de la lluvia?" },
+      "choices": [
+        { "en": "The sky paints itself", "es": "El cielo se pinta solo", "emoji": "🎨" },
+        { "en": "Raindrops split the sunlight", "es": "Las gotas separan la luz del sol", "emoji": "🌈" },
+        { "en": "The clouds glow with color", "es": "Las nubes brillan de colores", "emoji": "☁️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each raindrop bends sunlight and splits it into colors, so the bow only shows when the Sun is behind you.", "es": "Cada gota dobla la luz del sol y la separa en colores; el arcoíris aparece solo cuando el Sol está detrás de ti." },
+      "topic": "weather",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "why-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Why do stars come out at night?", "es": "¿Por qué salen las estrellas de noche?" },
+      "choices": [
+        { "en": "They wake up at night", "es": "Se despiertan de noche", "emoji": "😴" },
+        { "en": "They come closer to us", "es": "Se acercan más a nosotros", "emoji": "🚀" },
+        { "en": "Sunlight hides them all day", "es": "La luz del sol las tapa de día", "emoji": "⭐" }
+      ],
+      "answer": 2,
+      "why": { "en": "Stars shine all day long, but our Sun is so bright that its light washes them out until the sky goes dark.", "es": "Las estrellas brillan también de día, pero la luz de nuestro Sol es tan fuerte que las tapa hasta que el cielo oscurece." },
+      "topic": "sky",
+      "source": "https://kids.britannica.com/kids/article/star"
+    },
+    {
+      "id": "why-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Why does the Moon seem to follow our car?", "es": "¿Por qué parece que la Luna sigue nuestro carro?" },
+      "choices": [
+        { "en": "It is very far away", "es": "Está muy muy lejos", "emoji": "🌙" },
+        { "en": "It likes riding along", "es": "Le gusta pasear con nosotros", "emoji": "🚗" },
+        { "en": "It spins with the wheels", "es": "Gira junto con las llantas", "emoji": "🛞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nearby trees whoosh past because they are close, but the Moon is so far that its view barely changes as you ride.", "es": "Los árboles cercanos pasan volando, pero la Luna está tan lejos que casi no cambia de lugar mientras tú viajas en el carro." },
+      "topic": "sky",
+      "source": "https://kids.britannica.com/kids/article/Moon"
+    },
+    {
+      "id": "why-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚶",
+      "q": { "en": "Why do we have a shadow?", "es": "¿Por qué tenemos una sombra?" },
+      "choices": [
+        { "en": "The sun copies our shape", "es": "El sol copia nuestra forma", "emoji": "☀️" },
+        { "en": "Our body blocks the light", "es": "Nuestro cuerpo detiene la luz", "emoji": "🚶" },
+        { "en": "The ground is darker there", "es": "El suelo es más oscuro ahí", "emoji": "🟫" }
+      ],
+      "answer": 1,
+      "why": { "en": "Light travels in straight lines, so a body in the way leaves a dark patch; your shadow is longest in the evening.", "es": "La luz viaja en línea recta, y tu cuerpo la detiene y deja una mancha oscura; tu sombra es más larga al atardecer." },
+      "topic": "light",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/light.html"
+    },
+    {
+      "id": "why-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Why can we see our breath in winter?", "es": "¿Por qué se ve nuestro aliento en el frío?" },
+      "choices": [
+        { "en": "Warm breath turns into tiny drops", "es": "El aliento tibio se vuelve gotitas", "emoji": "💨" },
+        { "en": "The cold turns air white", "es": "El frío pone blanco el aire", "emoji": "❄️" },
+        { "en": "Our lungs make smoke", "es": "Los pulmones hacen humo", "emoji": "🫁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your breath carries warm water vapor, and cold air cools it into a puff of tiny droplets, the same way clouds form.", "es": "Tu aliento lleva vapor de agua caliente y el aire frío lo convierte en gotitas, igual que se forman las nubes en el cielo." },
+      "topic": "weather",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "why-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "Why does bread have holes inside?", "es": "¿Por qué el pan tiene agujeros por dentro?" },
+      "choices": [
+        { "en": "The baker pokes it with a fork", "es": "El panadero lo pica con un tenedor", "emoji": "🍴" },
+        { "en": "Water digs little tunnels", "es": "El agua hace tunelitos", "emoji": "💧" },
+        { "en": "Tiny bubbles of gas push it", "es": "Burbujas de gas lo empujan", "emoji": "🫧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Yeast is a tiny living thing that eats sugar and burps gas; each bubble leaves a hole when the bread bakes.", "es": "La levadura es un ser vivo diminuto que come azúcar y suelta gas; cada burbuja deja un agujero cuando el pan se hornea." },
+      "topic": "food",
+      "source": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/what-makes-bread-rise/"
+    },
+    {
+      "id": "why-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "Why does milk go in the refrigerator?", "es": "¿Por qué la leche se guarda en el refrigerador?" },
+      "choices": [
+        { "en": "Cold slows the germs down", "es": "El frío frena a los gérmenes", "emoji": "🥶" },
+        { "en": "Cold makes milk sweeter", "es": "El frío la pone más dulce", "emoji": "🍬" },
+        { "en": "Milk likes the dark", "es": "A la leche le gusta la oscuridad", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Germs grow slowly when they are cold, so chilled milk stays fresh for days instead of spoiling in a few hours.", "es": "Los gérmenes crecen despacio cuando hace frío, así que la leche fría dura días en vez de echarse a perder en horas." },
+      "topic": "food",
+      "source": "https://kidshealth.org/en/kids/food-safety.html"
+    },
+    {
+      "id": "why-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Why does corn pop into popcorn?", "es": "¿Por qué el maíz se convierte en palomitas?" },
+      "choices": [
+        { "en": "The heat burns the shell open", "es": "El calor quema la cáscara", "emoji": "🔥" },
+        { "en": "Steam bursts out of the seed", "es": "El vapor revienta el grano", "emoji": "💨" },
+        { "en": "The sugar melts inside", "es": "El azúcar se derrite adentro", "emoji": "🍬" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each kernel holds a drop of water; heat turns it to steam until the hard shell bursts and the inside puffs out.", "es": "Cada grano guarda una gota de agua; el calor la vuelve vapor hasta que la cáscara dura revienta y el interior se infla." },
+      "topic": "food",
+      "source": "https://www.loc.gov/everyday-mysteries/agriculture/item/why-does-popcorn-pop/"
+    },
+    {
+      "id": "why-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "Why does soap make so many bubbles?", "es": "¿Por qué el jabón hace tantas burbujas?" },
+      "choices": [
+        { "en": "Soap is full of air", "es": "El jabón está lleno de aire", "emoji": "💨" },
+        { "en": "Water alone makes bubbles", "es": "El agua sola hace burbujas", "emoji": "💧" },
+        { "en": "Soap stretches water into thin skins", "es": "El jabón estira el agua en capas", "emoji": "🫧" }
+      ],
+      "answer": 2,
+      "why": { "en": "Soap lets water stretch into a skin thin enough to trap air, and every bubble pulls itself into a round ball.", "es": "El jabón deja que el agua se estire en una capa delgada que atrapa aire, y cada burbuja se vuelve una bolita redonda." },
+      "topic": "everyday things",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/chemistry.html"
+    },
+    {
+      "id": "why-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "Why does a candle go out under a glass?", "es": "¿Por qué se apaga una vela bajo un vaso?" },
+      "choices": [
+        { "en": "The flame uses up the air", "es": "La llama gasta todo el aire", "emoji": "🕯️" },
+        { "en": "The glass is too cold", "es": "El vaso está muy frío", "emoji": "🧊" },
+        { "en": "The glass blocks the light", "es": "El vaso tapa la luz", "emoji": "💡" }
+      ],
+      "answer": 0,
+      "why": { "en": "A flame needs oxygen from the air to keep burning; once the trapped air runs out, the fire has nothing left to use.", "es": "La llama necesita el oxígeno del aire para seguir encendida; cuando el aire atrapado se acaba, el fuego se queda sin nada que usar." },
+      "topic": "fire",
+      "source": "https://kids.britannica.com/kids/article/fire"
+    },
+    {
+      "id": "why-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧽",
+      "q": { "en": "Why does a sponge soak up water?", "es": "¿Por qué la esponja absorbe el agua?" },
+      "choices": [
+        { "en": "It is heavy and thirsty", "es": "Es pesada y tiene sed", "emoji": "🪨" },
+        { "en": "It melts a little", "es": "Se derrite un poquito", "emoji": "💧" },
+        { "en": "It is full of tiny holes", "es": "Está llena de agujeritos", "emoji": "🧽" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water creeps into thousands of little holes and clings to the walls inside, so a squeeze pushes all of it back out.", "es": "El agua se mete en miles de agujeritos y se pega a las paredes de adentro; por eso al apretar la esponja sale toda." },
+      "topic": "everyday things",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/water.html"
+    },
+    {
+      "id": "why-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "Why does a ball bounce back up?", "es": "¿Por qué la pelota rebota hacia arriba?" },
+      "choices": [
+        { "en": "It squashes and springs back", "es": "Se aplasta y recupera su forma", "emoji": "⚽" },
+        { "en": "The ground pushes with wind", "es": "El suelo la empuja con viento", "emoji": "🌬️" },
+        { "en": "The air inside is hot", "es": "El aire de adentro está caliente", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hitting the floor squashes the ball flat for a moment, and springing back into shape throws it into the air again.", "es": "Al chocar contra el piso la pelota se aplasta un instante, y al recuperar su forma se empuja de nuevo hacia arriba." },
+      "topic": "toys and play",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/physics.html"
+    },
+    {
+      "id": "why-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Why is ice so slippery?", "es": "¿Por qué el hielo resbala tanto?" },
+      "choices": [
+        { "en": "Ice is smooth like glass", "es": "El hielo es liso como el vidrio", "emoji": "🪟" },
+        { "en": "A thin layer of water covers it", "es": "Lo cubre una capa de agua", "emoji": "💧" },
+        { "en": "Ice pushes our shoes away", "es": "El hielo empuja los zapatos", "emoji": "👟" }
+      ],
+      "answer": 1,
+      "why": { "en": "A very thin layer of water sits on top of ice, and your shoe slides on that film instead of the solid part.", "es": "Sobre el hielo hay una capa de agua muy delgada, y tu zapato se desliza sobre ella en vez de la parte dura." },
+      "topic": "ice",
+      "source": "https://www.loc.gov/everyday-mysteries/physics/item/why-is-ice-slippery/"
+    },
+    {
+      "id": "why-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛑️",
+      "q": { "en": "Why do we wear a helmet when biking?", "es": "¿Por qué usamos casco al andar en bicicleta?" },
+      "choices": [
+        { "en": "To keep our hair tidy", "es": "Para peinar bien el cabello", "emoji": "💇" },
+        { "en": "To hear the street better", "es": "Para oír mejor la calle", "emoji": "👂" },
+        { "en": "To protect our head in a fall", "es": "Para proteger la cabeza en una caída", "emoji": "⛑️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A helmet's foam squashes slowly in a fall and soaks up the bump, so much less of it reaches your head.", "es": "La espuma del casco se aplasta despacio en una caída y absorbe el golpe, así llega mucha menos fuerza a tu cabeza." },
+      "topic": "safety",
+      "source": "https://kidshealth.org/en/kids/bike-safety.html"
+    },
+    {
+      "id": "why-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚤",
+      "q": { "en": "Why do boats have a pointed front?", "es": "¿Por qué los barcos tienen la punta afilada?" },
+      "choices": [
+        { "en": "To slice through the water", "es": "Para cortar el agua", "emoji": "🚤" },
+        { "en": "To look fast and pretty", "es": "Para verse rápidos y bonitos", "emoji": "✨" },
+        { "en": "To hold the anchor", "es": "Para sostener el ancla", "emoji": "⚓" }
+      ],
+      "answer": 0,
+      "why": { "en": "A sharp bow pushes water gently aside instead of shoving a wall of it, so the boat needs far less power.", "es": "La punta afilada aparta el agua poco a poco en vez de empujar una pared entera, y el barco gasta mucha menos fuerza." },
+      "topic": "machines",
+      "source": "https://kids.britannica.com/kids/article/ship"
+    },
+    {
+      "id": "why-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "Why does a spoon look bent in water?", "es": "¿Por qué la cuchara se ve doblada en el agua?" },
+      "choices": [
+        { "en": "The water is heavy on it", "es": "El agua pesa encima de ella", "emoji": "🪨" },
+        { "en": "Light bends when it enters water", "es": "La luz se dobla al entrar al agua", "emoji": "🥄" },
+        { "en": "Our eyes get blurry", "es": "Nuestros ojos se ponen borrosos", "emoji": "👀" }
+      ],
+      "answer": 1,
+      "why": { "en": "Light changes speed as it moves from water into air, which bends it, so the part under water appears to shift sideways.", "es": "La luz cambia de velocidad al pasar del agua al aire y se dobla, por eso la parte hundida parece moverse de lugar." },
+      "topic": "light",
+      "source": "https://kids.britannica.com/kids/article/light"
+    },
+    {
+      "id": "why-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "Why does a magnet stick to the fridge?", "es": "¿Por qué el imán se pega al refrigerador?" },
+      "choices": [
+        { "en": "The fridge is cold and sticky", "es": "El refrigerador está frío y pegajoso", "emoji": "🧊" },
+        { "en": "The magnet is a little wet", "es": "El imán está un poco mojado", "emoji": "💧" },
+        { "en": "The door has iron inside", "es": "La puerta tiene hierro adentro", "emoji": "🧲" }
+      ],
+      "answer": 2,
+      "why": { "en": "Magnets pull on iron and steel, which is why one sticks to a fridge door but slides right off a wooden table.", "es": "Los imanes jalan el hierro y el acero; por eso se pegan a la puerta del refrigerador y resbalan en una mesa de madera." },
+      "topic": "magnets",
+      "source": "https://kids.britannica.com/kids/article/magnet"
+    },
+    {
+      "id": "why-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Why do we hear waves inside a seashell?", "es": "¿Por qué se oye el mar dentro de un caracol?" },
+      "choices": [
+        { "en": "The room's sounds echo inside it", "es": "Los ruidos del cuarto hacen eco adentro", "emoji": "🐚" },
+        { "en": "The sea stays trapped inside", "es": "El mar se queda atrapado adentro", "emoji": "🌊" },
+        { "en": "The shell remembers the beach", "es": "El caracol recuerda la playa", "emoji": "🧠" }
+      ],
+      "answer": 0,
+      "why": { "en": "The curved shell bounces the quiet noises already around you, and any cup held to your ear does the same trick.", "es": "La concha curva rebota los ruidos suaves que ya te rodean; una taza pegada a la oreja hace exactamente lo mismo." },
+      "topic": "sound",
+      "source": "https://www.loc.gov/everyday-mysteries/physics/item/why-do-you-hear-the-ocean-in-a-seashell/"
+    },
+    {
+      "id": "why-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "Why does a swing slow down by itself?", "es": "¿Por qué el columpio se detiene solito?" },
+      "choices": [
+        { "en": "The chains get tired", "es": "Las cadenas se cansan", "emoji": "😴" },
+        { "en": "Gravity takes a rest", "es": "La gravedad se toma un descanso", "emoji": "🌍" },
+        { "en": "Air and rubbing steal its motion", "es": "El aire y el roce le quitan movimiento", "emoji": "🌬️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pushing through air and rubbing at the top turn the swing's motion into a little heat, so each swing shrinks.", "es": "El aire y el roce de arriba convierten el movimiento en un poquito de calor, y por eso cada vaivén es más pequeño." },
+      "topic": "forces",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/physics.html"
+    },
+    {
+      "id": "why-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Why can't we tickle ourselves?", "es": "¿Por qué no puedes hacerte cosquillas?" },
+      "choices": [
+        { "en": "Our hands are too warm", "es": "Tus manos están muy tibias", "emoji": "🤲" },
+        { "en": "The brain knows it is coming", "es": "El cerebro ya sabe que viene", "emoji": "🧠" },
+        { "en": "Our skin gets used to it", "es": "La piel se acostumbra", "emoji": "🖐️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your brain predicts your own touch and turns the surprise down, and a surprise is what makes tickling feel funny.", "es": "Tu cerebro adivina tu propio toque y apaga la sorpresa, y justo la sorpresa es lo que hace graciosas las cosquillas." },
+      "topic": "our body",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "why-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Why do we say ouch when hurt?", "es": "¿Por qué decimos ay cuando algo duele?" },
+      "choices": [
+        { "en": "It calls others for help", "es": "Llama a los demás para pedir ayuda", "emoji": "🗣️" },
+        { "en": "It makes the hurt bigger", "es": "Hace el dolor más grande", "emoji": "📢" },
+        { "en": "It warms the sore spot", "es": "Calienta la parte adolorida", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "Yelping is a reflex that asks for help, and scientists found that saying ouch out loud even makes pain easier to bear.", "es": "Quejarse es un reflejo que pide ayuda, y los científicos vieron que decir ay en voz alta hace el dolor más soportable." },
+      "topic": "our body",
+      "source": "https://kidshealth.org/en/kids/pain.html"
+    },
+    {
+      "id": "why-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐈",
+      "q": { "en": "Why do cats land on their feet?", "es": "¿Por qué los gatos caen de pie?" },
+      "choices": [
+        { "en": "They are very light", "es": "Son muy livianos", "emoji": "🪶" },
+        { "en": "They twist in the air fast", "es": "Se giran rapidísimo en el aire", "emoji": "🐈" },
+        { "en": "Their fur puffs like a parachute", "es": "Su pelo se infla como paracaídas", "emoji": "🪂" }
+      ],
+      "answer": 1,
+      "why": { "en": "A cat feels which way is down and twists its front and back halves in opposite directions to swing its paws under.", "es": "El gato siente dónde está el suelo y gira su mitad delantera y trasera en sentidos opuestos para poner las patas abajo." },
+      "topic": "animal bodies",
+      "source": "https://www.loc.gov/everyday-mysteries/zoology/item/how-do-cats-always-land-on-their-feet/"
+    },
+    {
+      "id": "why-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "Why do dogs sniff everything they find?", "es": "¿Por qué los perros huelen todo lo que encuentran?" },
+      "choices": [
+        { "en": "Their nose reads who passed by", "es": "Su nariz lee quién pasó por ahí", "emoji": "👃" },
+        { "en": "They are looking for their toys", "es": "Están buscando sus juguetes", "emoji": "🧸" },
+        { "en": "Their eyes stay closed", "es": "Sus ojos se quedan cerrados", "emoji": "😑" }
+      ],
+      "answer": 0,
+      "why": { "en": "A dog's nose has millions more smell catchers than ours, so one sniff tells it who walked past and how long ago.", "es": "La nariz del perro tiene millones de detectores más que la nuestra, y un olfateo le dice quién pasó y hace cuánto tiempo." },
+      "topic": "animal senses",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dog"
     }
   ]
 }

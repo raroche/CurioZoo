@@ -1,7 +1,7 @@
 {
   "note": "Words & Language. Two native pools per level: lang en tests English, lang es tests Spanish. Never translations of each other.",
   "category": "words",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "words-easy-001", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐱",
@@ -248,6 +248,1228 @@
       "why": { "es": "Un símil compara dos cosas con la palabra como; la metáfora compara sin ella, como en «tus ojos son luceros»." },
       "topic": "lenguaje figurado",
       "source": "https://dle.rae.es/s%C3%ADmil"
+    },
+    {
+      "id": "words-easy-007", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌳",
+      "q": { "en": "Which word rhymes with tree?" },
+      "choices": [
+        { "en": "Bee", "emoji": "🐝" },
+        { "en": "Cup", "emoji": "🥤" },
+        { "en": "Door", "emoji": "🚪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tree and bee both end with the long e sound, and so do knee, sea and the number three." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/bee"
+    },
+    {
+      "id": "words-easy-008", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌸",
+      "q": { "es": "¿Qué palabra rima con flor?" },
+      "choices": [
+        { "es": "Color", "emoji": "🎨" },
+        { "es": "Mesa", "emoji": "🪑" },
+        { "es": "Perro", "emoji": "🐶" }
+      ],
+      "answer": 0,
+      "why": { "es": "Flor y color terminan en -or, por eso riman; también riman calor y tambor, que suenan igual al final." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/color"
+    },
+    {
+      "id": "words-easy-009", "level": "easy", "type": "mc", "lang": "en", "emoji": "⭐",
+      "q": { "en": "Which word rhymes with star?" },
+      "choices": [
+        { "en": "Sun", "emoji": "☀️" },
+        { "en": "Car", "emoji": "🚗" },
+        { "en": "Boat", "emoji": "⛵" }
+      ],
+      "answer": 1,
+      "why": { "en": "Star and car both end in -ar, and so do jar and far; rhymes make songs easier to remember." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/car"
+    },
+    {
+      "id": "words-easy-010", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐭",
+      "q": { "es": "¿Qué palabra rima con ratón?" },
+      "choices": [
+        { "es": "Casa", "emoji": "🏠" },
+        { "es": "Camión", "emoji": "🚚" },
+        { "es": "Árbol", "emoji": "🌳" }
+      ],
+      "answer": 1,
+      "why": { "es": "Ratón y camión terminan en -ón, así que riman; corazón y botón también entran en esa misma familia de sonidos." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/cami%C3%B3n"
+    },
+    {
+      "id": "words-easy-011", "level": "easy", "type": "mc", "lang": "en", "emoji": "🥄",
+      "q": { "en": "Which pair of words rhymes?" },
+      "choices": [
+        { "en": "Cat and dog", "emoji": "🐕" },
+        { "en": "Red and blue", "emoji": "🔵" },
+        { "en": "Moon and spoon", "emoji": "🥄" }
+      ],
+      "answer": 2,
+      "why": { "en": "Moon and spoon end with the same -oon sound, so they rhyme; cat and dog go together but sound different." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/spoon"
+    },
+    {
+      "id": "words-easy-012", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌙",
+      "q": { "es": "¿Cuál de estas palabras rima con luna?" },
+      "choices": [
+        { "es": "Cuna", "emoji": "👶" },
+        { "es": "Estrella", "emoji": "⭐" },
+        { "es": "Nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "es": "Luna y cuna terminan en -una y riman; una cuna es la camita donde duerme un bebé recién nacido." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/cuna"
+    },
+    {
+      "id": "words-easy-013", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐛",
+      "q": { "en": "Which word rhymes with bug?" },
+      "choices": [
+        { "en": "Hug", "emoji": "🤗" },
+        { "en": "Bird", "emoji": "🐦" },
+        { "en": "Cake", "emoji": "🍰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bug and hug share the -ug sound, and rug, mug and jug rhyme with them too." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/hug"
+    },
+    {
+      "id": "words-easy-014", "level": "easy", "type": "mc", "lang": "es", "emoji": "⚽",
+      "q": { "es": "¿Qué palabra rima con pelota?" },
+      "choices": [
+        { "es": "Silla", "emoji": "🪑" },
+        { "es": "Flor", "emoji": "🌷" },
+        { "es": "Bota", "emoji": "👢" }
+      ],
+      "answer": 2,
+      "why": { "es": "Pelota y bota terminan en -ota, por eso riman; gota y nota también riman con ellas al final." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/bota"
+    },
+    {
+      "id": "words-easy-015", "level": "easy", "type": "mc", "lang": "en", "emoji": "😴",
+      "q": { "en": "Nap rhymes with which of these words?" },
+      "choices": [
+        { "en": "Map", "emoji": "🗺️" },
+        { "en": "Bed", "emoji": "🛏️" },
+        { "en": "Shoe", "emoji": "👟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nap and map both end with -ap, like clap and tap; a short daytime sleep is called a nap." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/nap"
+    },
+    {
+      "id": "words-easy-016", "level": "easy", "type": "mc", "lang": "es", "emoji": "🎶",
+      "q": { "es": "¿Qué par de palabras rima?" },
+      "choices": [
+        { "es": "Perro y casa", "emoji": "🏠" },
+        { "es": "Estrella y botella", "emoji": "⭐" },
+        { "es": "Sol y mar", "emoji": "🌊" }
+      ],
+      "answer": 1,
+      "why": { "es": "Estrella y botella terminan en -ella, así que riman; las rimas ayudan a recordar canciones y poemas de memoria." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/botella"
+    },
+    {
+      "id": "words-easy-017", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔟",
+      "q": { "en": "Which word rhymes with ten?" },
+      "choices": [
+        { "en": "Six", "emoji": "🎲" },
+        { "en": "Hen", "emoji": "🐔" },
+        { "en": "Frog", "emoji": "🐸" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ten and hen both end with -en, and pen, men and den rhyme too; nursery rhymes are full of them." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/hen"
+    },
+    {
+      "id": "words-easy-018", "level": "easy", "type": "mc", "lang": "es", "emoji": "✋",
+      "q": { "es": "¿Qué palabra rima con mano?" },
+      "choices": [
+        { "es": "Hermano", "emoji": "🧒" },
+        { "es": "Pie", "emoji": "🦶" },
+        { "es": "Dedo", "emoji": "☝️" }
+      ],
+      "answer": 0,
+      "why": { "es": "Mano y hermano terminan en -ano y riman; también riman verano y gusano, que acaban con el mismo sonido." },
+      "topic": "rimas",
+      "source": "https://dle.rae.es/hermano"
+    },
+    {
+      "id": "words-easy-019", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐍",
+      "q": { "en": "Which word begins with the s sound?" },
+      "choices": [
+        { "en": "Tiger", "emoji": "🐯" },
+        { "en": "Snake", "emoji": "🐍" },
+        { "en": "Apple", "emoji": "🍎" }
+      ],
+      "answer": 1,
+      "why": { "en": "Snake starts with s, the sound a snake itself makes when it hisses; sun and sock start with it too." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/snake"
+    },
+    {
+      "id": "words-easy-020", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔤",
+      "q": { "es": "¿Qué palabra empieza con el sonido de s?" },
+      "choices": [
+        { "es": "Sapo", "emoji": "🐸" },
+        { "es": "Pato", "emoji": "🦆" },
+        { "es": "Luna", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "es": "Sapo empieza con s, igual que sol y silla; la s suena como el aire que sale despacito entre los dientes." },
+      "topic": "sonidos iniciales",
+      "source": "https://dle.rae.es/sapo"
+    },
+    {
+      "id": "words-easy-021", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Which of these starts with m?" },
+      "choices": [
+        { "en": "Milk", "emoji": "🥛" },
+        { "en": "Car", "emoji": "🚗" },
+        { "en": "Egg", "emoji": "🥚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Milk begins with m, made by humming with your lips closed; moon, mouse and mango all start the same way." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/milk"
+    },
+    {
+      "id": "words-easy-022", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐕",
+      "q": { "es": "¿Cuál de estas palabras empieza con p?" },
+      "choices": [
+        { "es": "Gato", "emoji": "🐱" },
+        { "es": "Perro", "emoji": "🐶" },
+        { "es": "Ratón", "emoji": "🐭" }
+      ],
+      "answer": 1,
+      "why": { "es": "Perro empieza con p, como pelota y papá; para decir la p juntas los labios y luego los abres de golpe." },
+      "topic": "sonidos iniciales",
+      "source": "https://dle.rae.es/perro"
+    },
+    {
+      "id": "words-easy-023", "level": "easy", "type": "mc", "lang": "en", "emoji": "☀️",
+      "q": { "en": "Which word starts with the same sound as sun?" },
+      "choices": [
+        { "en": "Rain", "emoji": "🌧️" },
+        { "en": "Leaf", "emoji": "🍃" },
+        { "en": "Soap", "emoji": "🧼" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sun and soap both begin with the s sound; you can hiss it like a snake for as long as you like." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/soap"
+    },
+    {
+      "id": "words-easy-024", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏠",
+      "q": { "es": "¿Qué palabra empieza igual que casa?" },
+      "choices": [
+        { "es": "Mesa", "emoji": "🍽️" },
+        { "es": "Cama", "emoji": "🛏️" },
+        { "es": "Sopa", "emoji": "🥣" }
+      ],
+      "answer": 1,
+      "why": { "es": "Casa y cama empiezan con el sonido fuerte de la c, como cocina y camión; suena igual que la letra k." },
+      "topic": "sonidos iniciales",
+      "source": "https://dle.rae.es/cama"
+    },
+    {
+      "id": "words-easy-025", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐟",
+      "q": { "en": "Which word begins with the same sound as fish?" },
+      "choices": [
+        { "en": "Frog", "emoji": "🐸" },
+        { "en": "Duck", "emoji": "🦆" },
+        { "en": "Bell", "emoji": "🔔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fish and frog both start with f; you make it by resting your top teeth on your bottom lip." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/frog"
+    },
+    {
+      "id": "words-easy-026", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔡",
+      "q": { "es": "¿Qué palabra empieza con la letra l?" },
+      "choices": [
+        { "es": "León", "emoji": "🦁" },
+        { "es": "Tigre", "emoji": "🐯" },
+        { "es": "Oso", "emoji": "🐻" }
+      ],
+      "answer": 0,
+      "why": { "es": "León empieza con l, igual que luna, libro y leche; la l se dice con la lengua tocando el paladar." },
+      "topic": "sonidos iniciales",
+      "source": "https://dle.rae.es/le%C3%B3n"
+    },
+    {
+      "id": "words-easy-027", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔡",
+      "q": { "en": "Which word starts with the letter d?" },
+      "choices": [
+        { "en": "Cat", "emoji": "🐱" },
+        { "en": "Bird", "emoji": "🐦" },
+        { "en": "Dog", "emoji": "🐶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dog begins with d, like door, drum and dinosaur; the letter d is the fourth one in the alphabet." },
+      "topic": "first sounds",
+      "source": "https://www.merriam-webster.com/dictionary/dog"
+    },
+    {
+      "id": "words-easy-028", "level": "easy", "type": "mc", "lang": "es", "emoji": "🪑",
+      "q": { "es": "¿Con qué sonido empieza la palabra mesa?" },
+      "choices": [
+        { "es": "La m", "emoji": "🐵" },
+        { "es": "La s", "emoji": "🐍" },
+        { "es": "La p", "emoji": "🐧" }
+      ],
+      "answer": 0,
+      "why": { "es": "Mesa empieza con m, el mismo sonido de mamá, mano y mono; se hace tarareando con la boca cerrada." },
+      "topic": "sonidos iniciales",
+      "source": "https://dle.rae.es/mesa"
+    },
+    {
+      "id": "words-easy-029", "level": "easy", "type": "mc", "lang": "en", "emoji": "📦",
+      "q": { "en": "Which word means more than one box?" },
+      "choices": [
+        { "en": "Boxs", "emoji": "🎁" },
+        { "en": "Boxes", "emoji": "📦" },
+        { "en": "Boxen", "emoji": "🧰" }
+      ],
+      "answer": 1,
+      "why": { "en": "Words that end in x add -es, so one box becomes two boxes; buses, dishes and foxes work the same way." },
+      "topic": "plurals",
+      "source": "https://www.merriam-webster.com/dictionary/box"
+    },
+    {
+      "id": "words-easy-030", "level": "easy", "type": "mc", "lang": "es", "emoji": "📝",
+      "q": { "es": "¿Cómo se dice más de un lápiz?" },
+      "choices": [
+        { "es": "Lápizes", "emoji": "🖍️" },
+        { "es": "Lápices", "emoji": "✏️" },
+        { "es": "Lápizs", "emoji": "🖊️" }
+      ],
+      "answer": 1,
+      "why": { "es": "Las palabras que terminan en z cambian la z por c y añaden -es: un lápiz, muchos lápices." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/l%C3%A1piz"
+    },
+    {
+      "id": "words-easy-031", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐭",
+      "q": { "en": "What is more than one mouse called?" },
+      "choices": [
+        { "en": "Mousen", "emoji": "🧀" },
+        { "en": "Mouses", "emoji": "🐁" },
+        { "en": "Mice", "emoji": "🐭" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mouse becomes mice, an old English plural that changes the vowel instead of adding s, like goose becoming geese." },
+      "topic": "plurals",
+      "source": "https://www.merriam-webster.com/dictionary/mouse"
+    },
+    {
+      "id": "words-easy-032", "level": "easy", "type": "mc", "lang": "es", "emoji": "🎣",
+      "q": { "es": "¿Cuál es el plural de la palabra pez?" },
+      "choices": [
+        { "es": "Peces", "emoji": "🐟" },
+        { "es": "Pezes", "emoji": "🐠" },
+        { "es": "Pezs", "emoji": "🦈" }
+      ],
+      "answer": 0,
+      "why": { "es": "El plural de pez es peces, con c; lo mismo pasa con luz y luces, o con nuez y nueces." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/pez"
+    },
+    {
+      "id": "words-easy-033", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦶",
+      "q": { "en": "More than one foot is called what?" },
+      "choices": [
+        { "en": "Feet", "emoji": "🦶" },
+        { "en": "Foots", "emoji": "👣" },
+        { "en": "Footes", "emoji": "🧦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Foot becomes feet, and tooth turns into teeth the very same way, by swapping the vowel sound in the middle." },
+      "topic": "plurals",
+      "source": "https://www.merriam-webster.com/dictionary/foot"
+    },
+    {
+      "id": "words-easy-034", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌲",
+      "q": { "es": "¿Cómo se dice más de un árbol?" },
+      "choices": [
+        { "es": "Árbols", "emoji": "🌲" },
+        { "es": "Árboles", "emoji": "🌳" },
+        { "es": "Árbolos", "emoji": "🌴" }
+      ],
+      "answer": 1,
+      "why": { "es": "Árbol termina en consonante, así que el plural añade -es: árboles; igual que flor y flores, o papel y papeles." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/%C3%A1rbol"
+    },
+    {
+      "id": "words-easy-035", "level": "easy", "type": "mc", "lang": "en", "emoji": "👧",
+      "q": { "en": "Which word means more than one child?" },
+      "choices": [
+        { "en": "Childs", "emoji": "👶" },
+        { "en": "Children", "emoji": "🧒" },
+        { "en": "Childes", "emoji": "🧸" }
+      ],
+      "answer": 1,
+      "why": { "en": "Child becomes children, one of the strangest plurals in English, because it kept an old ending from a thousand years ago." },
+      "topic": "plurals",
+      "source": "https://www.merriam-webster.com/dictionary/child"
+    },
+    {
+      "id": "words-easy-036", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏠",
+      "q": { "es": "¿Cuál es el plural de casa?" },
+      "choices": [
+        { "es": "Casas", "emoji": "🏘️" },
+        { "es": "Casaes", "emoji": "🏠" },
+        { "es": "Casos", "emoji": "🏚️" }
+      ],
+      "answer": 0,
+      "why": { "es": "Casa termina en vocal, así que solo se añade una s: casas; en español casi todos los plurales se forman así." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/casa"
+    },
+    {
+      "id": "words-easy-037", "level": "easy", "type": "mc", "lang": "en", "emoji": "🍁",
+      "q": { "en": "How do you write more than one leaf?" },
+      "choices": [
+        { "en": "Leafs", "emoji": "🍂" },
+        { "en": "Leafes", "emoji": "🌿" },
+        { "en": "Leaves", "emoji": "🍃" }
+      ],
+      "answer": 2,
+      "why": { "en": "Leaf becomes leaves: the f turns into a v, and the same thing happens when one wolf becomes two wolves." },
+      "topic": "plurals",
+      "source": "https://www.merriam-webster.com/dictionary/leaf"
+    },
+    {
+      "id": "words-easy-038", "level": "easy", "type": "mc", "lang": "es", "emoji": "👑",
+      "q": { "es": "¿Qué palabra es el plural de rey?" },
+      "choices": [
+        { "es": "Reys", "emoji": "🤴" },
+        { "es": "Reyos", "emoji": "🏰" },
+        { "es": "Reyes", "emoji": "👑" }
+      ],
+      "answer": 2,
+      "why": { "es": "Rey se convierte en reyes añadiendo -es; lo mismo pasa con buey y bueyes, o con ley y leyes." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/rey"
+    },
+    {
+      "id": "words-easy-039", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌞",
+      "q": { "en": "What is the opposite of day?" },
+      "choices": [
+        { "en": "Night", "emoji": "🌙" },
+        { "en": "Rain", "emoji": "🌧️" },
+        { "en": "Tree", "emoji": "🌳" }
+      ],
+      "answer": 0,
+      "why": { "en": "Day and night are opposites because Earth spins, turning us toward the Sun and then away from it." },
+      "topic": "opposites",
+      "source": "https://www.merriam-webster.com/dictionary/night"
+    },
+    {
+      "id": "words-easy-040", "level": "easy", "type": "mc", "lang": "es", "emoji": "☀️",
+      "q": { "es": "¿Cuál es lo contrario de día?" },
+      "choices": [
+        { "es": "Lluvia", "emoji": "🌧️" },
+        { "es": "Noche", "emoji": "🌙" },
+        { "es": "Árbol", "emoji": "🌳" }
+      ],
+      "answer": 1,
+      "why": { "es": "Noche es lo contrario de día, y la noche llega porque la Tierra gira y nos aleja del Sol." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/noche"
+    },
+    {
+      "id": "words-easy-041", "level": "easy", "type": "mc", "lang": "en", "emoji": "⬆️",
+      "q": { "en": "The opposite of up is which word?" },
+      "choices": [
+        { "en": "Loud", "emoji": "📢" },
+        { "en": "Wet", "emoji": "💧" },
+        { "en": "Down", "emoji": "⬇️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Down is the opposite of up, and the word down once meant a hill, from an old word for hilltop." },
+      "topic": "opposites",
+      "source": "https://www.merriam-webster.com/dictionary/down"
+    },
+    {
+      "id": "words-easy-042", "level": "easy", "type": "mc", "lang": "es", "emoji": "⬆️",
+      "q": { "es": "¿Qué palabra significa lo contrario de arriba?" },
+      "choices": [
+        { "es": "Abajo", "emoji": "⬇️" },
+        { "es": "Rápido", "emoji": "🏃" },
+        { "es": "Mojado", "emoji": "💧" }
+      ],
+      "answer": 0,
+      "why": { "es": "Abajo es lo contrario de arriba, y los marineros dicen bajo cubierta cuando bajan dentro del barco." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/abajo"
+    },
+    {
+      "id": "words-easy-043", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚪",
+      "q": { "en": "Which word is the opposite of open?" },
+      "choices": [
+        { "en": "Happy", "emoji": "😀" },
+        { "en": "Closed", "emoji": "🚪" },
+        { "en": "Round", "emoji": "⚪" }
+      ],
+      "answer": 1,
+      "why": { "en": "Closed means shut, the opposite of open, and the word shut comes from an old word for pushing a bolt." },
+      "topic": "opposites",
+      "source": "https://www.merriam-webster.com/dictionary/shut"
+    },
+    {
+      "id": "words-easy-044", "level": "easy", "type": "mc", "lang": "es", "emoji": "🥛",
+      "q": { "es": "¿Cuál es lo contrario de la palabra lleno?" },
+      "choices": [
+        { "es": "Dulce", "emoji": "🍬" },
+        { "es": "Verde", "emoji": "🟩" },
+        { "es": "Vacío", "emoji": "🕳️" }
+      ],
+      "answer": 2,
+      "why": { "es": "Vacío es lo contrario de lleno, y viene del latín vacuus, que ya significaba sin nada adentro." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/vacio"
+    },
+    {
+      "id": "words-easy-045", "level": "easy", "type": "mc", "lang": "en", "emoji": "💦",
+      "q": { "en": "Which word means the opposite of wet?" },
+      "choices": [
+        { "en": "Dry", "emoji": "🏜️" },
+        { "en": "Soft", "emoji": "🧸" },
+        { "en": "Sweet", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dry is the opposite of wet, and a dry desert can go whole years between one rainfall and the next." },
+      "topic": "opposites",
+      "source": "https://www.merriam-webster.com/dictionary/dry"
+    },
+    {
+      "id": "words-easy-046", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔑",
+      "q": { "es": "¿Qué palabra es lo contrario de abrir?" },
+      "choices": [
+        { "es": "Cantar", "emoji": "🎤" },
+        { "es": "Cerrar", "emoji": "🚪" },
+        { "es": "Saltar", "emoji": "🦘" }
+      ],
+      "answer": 1,
+      "why": { "es": "Cerrar es lo contrario de abrir, y viene del latín serare, que quería decir poner el cerrojo." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/cerrar"
+    },
+    {
+      "id": "words-easy-047", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎨",
+      "q": { "en": "Which of these words is a color?" },
+      "choices": [
+        { "en": "Chair", "emoji": "🪑" },
+        { "en": "Jump", "emoji": "🦘" },
+        { "en": "Purple", "emoji": "🟣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Purple is a color, and purple dye was once so rare that it came from tiny sea snails." },
+      "topic": "color words",
+      "source": "https://www.merriam-webster.com/dictionary/purple"
+    },
+    {
+      "id": "words-easy-048", "level": "easy", "type": "mc", "lang": "es", "emoji": "🎨",
+      "q": { "es": "¿Cuál de estas palabras es un color?" },
+      "choices": [
+        { "es": "Morado", "emoji": "🟣" },
+        { "es": "Silla", "emoji": "🪑" },
+        { "es": "Correr", "emoji": "🏃" }
+      ],
+      "answer": 0,
+      "why": { "es": "Morado es un color, y su nombre viene de la mora, esa frutita oscura que mancha los dedos." },
+      "topic": "palabras de colores",
+      "source": "https://dle.rae.es/morado"
+    },
+    {
+      "id": "words-easy-049", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐶",
+      "q": { "en": "Which word names a baby dog?" },
+      "choices": [
+        { "en": "Kitten", "emoji": "🐱" },
+        { "en": "Puppy", "emoji": "🐕" },
+        { "en": "Calf", "emoji": "🐄" }
+      ],
+      "answer": 1,
+      "why": { "en": "A baby dog is a puppy, a word that comes from the French poupée, meaning a little doll." },
+      "topic": "animal words",
+      "source": "https://www.merriam-webster.com/dictionary/puppy"
+    },
+    {
+      "id": "words-easy-050", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐶",
+      "q": { "es": "¿Cómo se llama la cría del perro?" },
+      "choices": [
+        { "es": "Potro", "emoji": "🐴" },
+        { "es": "Ternero", "emoji": "🐄" },
+        { "es": "Cachorro", "emoji": "🐕" }
+      ],
+      "answer": 2,
+      "why": { "es": "La cría del perro es el cachorro, y los cachorros nacen con los ojitos cerrados casi dos semanas." },
+      "topic": "palabras de animales",
+      "source": "https://dle.rae.es/cachorro"
+    },
+    {
+      "id": "words-easy-051", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦓",
+      "q": { "en": "Which word is the name of an animal?" },
+      "choices": [
+        { "en": "Giraffe", "emoji": "🦒" },
+        { "en": "Spoon", "emoji": "🥄" },
+        { "en": "Green", "emoji": "🟩" }
+      ],
+      "answer": 0,
+      "why": { "en": "Giraffe names an animal, and the word traveled from Arabic zarafah into Italian and then into English." },
+      "topic": "animal words",
+      "source": "https://www.merriam-webster.com/dictionary/giraffe"
+    },
+    {
+      "id": "words-easy-052", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦓",
+      "q": { "es": "¿Qué palabra nombra a un animal?" },
+      "choices": [
+        { "es": "Cuchara", "emoji": "🥄" },
+        { "es": "Jirafa", "emoji": "🦒" },
+        { "es": "Verde", "emoji": "🟩" }
+      ],
+      "answer": 1,
+      "why": { "es": "Jirafa nombra a un animal, y la palabra llegó del árabe zarafah y viajó hasta el español." },
+      "topic": "palabras de animales",
+      "source": "https://dle.rae.es/jirafa"
+    },
+    {
+      "id": "words-easy-053", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔡",
+      "q": { "en": "How many letters are in the English alphabet?" },
+      "choices": [
+        { "en": "Ten", "emoji": "🔟" },
+        { "en": "One hundred", "emoji": "💯" },
+        { "en": "Twenty-six", "emoji": "🔤" }
+      ],
+      "answer": 2,
+      "why": { "en": "The English alphabet has twenty-six letters, and the word alphabet comes from alpha and beta, the first two Greek letters." },
+      "topic": "alphabet",
+      "source": "https://www.merriam-webster.com/dictionary/alphabet"
+    },
+    {
+      "id": "words-easy-054", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌱",
+      "q": { "es": "¿Qué palabra nombra el color del pasto?" },
+      "choices": [
+        { "es": "Verde", "emoji": "🟩" },
+        { "es": "Azul", "emoji": "🟦" },
+        { "es": "Rojo", "emoji": "🟥" }
+      ],
+      "answer": 0,
+      "why": { "es": "El pasto es verde porque tiene clorofila, la sustancia que atrapa la luz del Sol para fabricar alimento." },
+      "topic": "palabras de colores",
+      "source": "https://dle.rae.es/verde"
+    },
+    {
+      "id": "words-easy-055", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔠",
+      "q": { "en": "Which letter comes right after the letter b?" },
+      "choices": [
+        { "en": "F", "emoji": "🍟" },
+        { "en": "C", "emoji": "✂️" },
+        { "en": "Z", "emoji": "💤" }
+      ],
+      "answer": 1,
+      "why": { "en": "The alphabet runs a, b, c, so c follows b, and the ABC song helps children hold all twenty-six in order." },
+      "topic": "alphabet",
+      "source": "https://www.merriam-webster.com/dictionary/c"
+    },
+    {
+      "id": "words-easy-056", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔡",
+      "q": { "es": "¿Cuántas letras tiene el abecedario español?" },
+      "choices": [
+        { "es": "Diez", "emoji": "🔟" },
+        { "es": "Cien", "emoji": "💯" },
+        { "es": "Veintisiete", "emoji": "🔤" }
+      ],
+      "answer": 2,
+      "why": { "es": "El abecedario español tiene veintisiete letras porque incluye la eñe, una letra que nació de dos enes juntas." },
+      "topic": "alfabeto",
+      "source": "https://dle.rae.es/abecedario"
+    },
+    {
+      "id": "words-easy-057", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Which letter is the last in the alphabet?" },
+      "choices": [
+        { "en": "Z", "emoji": "🦓" },
+        { "en": "B", "emoji": "🐝" },
+        { "en": "S", "emoji": "🐍" }
+      ],
+      "answer": 0,
+      "why": { "en": "Z ends the alphabet, and in many countries people call that letter zed instead of zee." },
+      "topic": "alphabet",
+      "source": "https://www.merriam-webster.com/dictionary/z"
+    },
+    {
+      "id": "words-easy-058", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔤",
+      "q": { "es": "¿Cuál es la última letra del abecedario?" },
+      "choices": [
+        { "es": "La eme", "emoji": "🐵" },
+        { "es": "La zeta", "emoji": "🦓" },
+        { "es": "La ese", "emoji": "🐍" }
+      ],
+      "answer": 1,
+      "why": { "es": "La zeta cierra el abecedario, y su nombre viene del griego zeta, la sexta letra del alfabeto griego." },
+      "topic": "alfabeto",
+      "source": "https://dle.rae.es/zeta"
+    },
+    {
+      "id": "words-easy-059", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐘",
+      "q": { "en": "What does the word enormous mean?" },
+      "choices": [
+        { "en": "Very cold", "emoji": "🧊" },
+        { "en": "Very fast", "emoji": "🏃" },
+        { "en": "Very big", "emoji": "🐘" }
+      ],
+      "answer": 2,
+      "why": { "en": "Enormous means very big, and it comes from Latin words meaning out of the normal size, beyond the usual." },
+      "topic": "big words",
+      "source": "https://www.merriam-webster.com/dictionary/enormous"
+    },
+    {
+      "id": "words-easy-060", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔠",
+      "q": { "es": "¿Qué letra va justo después de la efe?" },
+      "choices": [
+        { "es": "La ge", "emoji": "🌀" },
+        { "es": "La pe", "emoji": "🐧" },
+        { "es": "La te", "emoji": "🍵" }
+      ],
+      "answer": 0,
+      "why": { "es": "Después de la efe viene la ge, y la canción del abecedario ayuda a recordar el orden de todas." },
+      "topic": "alfabeto",
+      "source": "https://dle.rae.es/ge"
+    },
+    {
+      "id": "words-easy-061", "level": "easy", "type": "mc", "lang": "en", "emoji": "🏰",
+      "q": { "en": "The word gigantic describes something that is what?" },
+      "choices": [
+        { "en": "Tiny", "emoji": "🐜" },
+        { "en": "Huge", "emoji": "🐋" },
+        { "en": "Noisy", "emoji": "📢" }
+      ],
+      "answer": 1,
+      "why": { "en": "Gigantic means huge, and it grew from giant, because Greek storytellers called their huge beings the Gigantes." },
+      "topic": "big words",
+      "source": "https://www.merriam-webster.com/dictionary/gigantic"
+    },
+    {
+      "id": "words-easy-062", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐘",
+      "q": { "es": "¿Qué significa la palabra enorme?" },
+      "choices": [
+        { "es": "Muy frío", "emoji": "🧊" },
+        { "es": "Muy rápido", "emoji": "🏃" },
+        { "es": "Muy grande", "emoji": "🐘" }
+      ],
+      "answer": 2,
+      "why": { "es": "Enorme significa muy grande, y viene del latín enormis, que quería decir fuera de la norma o medida." },
+      "topic": "palabras largas",
+      "source": "https://dle.rae.es/enorme"
+    },
+    {
+      "id": "words-easy-063", "level": "easy", "type": "mc", "lang": "en", "emoji": "😪",
+      "q": { "en": "How does someone who is exhausted feel?" },
+      "choices": [
+        { "en": "Very tired", "emoji": "😴" },
+        { "en": "Very happy", "emoji": "😀" },
+        { "en": "Very hungry", "emoji": "🍽️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Exhausted means very tired, and the word also means completely used up, like a well with no water left." },
+      "topic": "big words",
+      "source": "https://www.merriam-webster.com/dictionary/exhausted"
+    },
+    {
+      "id": "words-easy-064", "level": "easy", "type": "mc", "lang": "en", "emoji": "🍇",
+      "q": { "en": "Apple, banana and grape are all what?" },
+      "choices": [
+        { "en": "Animals", "emoji": "🐶" },
+        { "en": "Fruits", "emoji": "🍎" },
+        { "en": "Colors", "emoji": "🎨" }
+      ],
+      "answer": 1,
+      "why": { "en": "They are all fruits, and a fruit is the part of a plant that carries and protects its seeds." },
+      "topic": "naming the category",
+      "source": "https://www.merriam-webster.com/dictionary/fruit"
+    },
+    {
+      "id": "words-easy-065", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐜",
+      "q": { "es": "Una hormiga es diminuta, ¿qué quiere decir?" },
+      "choices": [
+        { "es": "Que es muy alta", "emoji": "🦒" },
+        { "es": "Que es muy ruidosa", "emoji": "📢" },
+        { "es": "Que es muy pequeña", "emoji": "🐜" }
+      ],
+      "answer": 2,
+      "why": { "es": "Diminuta quiere decir muy pequeña, y de esa raíz salen diminutivo y palabras cariñosas como perrito o casita." },
+      "topic": "palabras largas",
+      "source": "https://dle.rae.es/diminuto"
+    },
+    {
+      "id": "words-easy-066", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚂",
+      "q": { "en": "Buses, trains and boats are called what?" },
+      "choices": [
+        { "en": "Vehicles", "emoji": "🚌" },
+        { "en": "Foods", "emoji": "🍕" },
+        { "en": "Colors", "emoji": "🌈" }
+      ],
+      "answer": 0,
+      "why": { "en": "They are all vehicles, things that carry people or cargo, and vehicle comes from a Latin word meaning to carry." },
+      "topic": "naming the category",
+      "source": "https://www.merriam-webster.com/dictionary/vehicle"
+    },
+    {
+      "id": "words-easy-067", "level": "easy", "type": "mc", "lang": "es", "emoji": "🍰",
+      "q": { "es": "Si una comida es deliciosa, ¿cómo sabe?" },
+      "choices": [
+        { "es": "Sabe muy salada", "emoji": "🧂" },
+        { "es": "Sabe muy rica", "emoji": "😋" },
+        { "es": "Sabe muy amarga", "emoji": "😖" }
+      ],
+      "answer": 1,
+      "why": { "es": "Deliciosa quiere decir que sabe muy rica, y es pariente de delicia y deleite, palabras de mucho gusto." },
+      "topic": "palabras largas",
+      "source": "https://dle.rae.es/delicioso"
+    },
+    {
+      "id": "words-easy-068", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔷",
+      "q": { "en": "Which word names circles, squares and triangles?" },
+      "choices": [
+        { "en": "Sounds", "emoji": "🔔" },
+        { "en": "Smells", "emoji": "👃" },
+        { "en": "Shapes", "emoji": "🔺" }
+      ],
+      "answer": 2,
+      "why": { "en": "They are all shapes, and a triangle is the only one of the three that cannot be squashed out of shape." },
+      "topic": "naming the category",
+      "source": "https://www.merriam-webster.com/dictionary/shape"
+    },
+    {
+      "id": "words-easy-069", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏔️",
+      "q": { "es": "¿Qué quiere decir la palabra gigantesco?" },
+      "choices": [
+        { "es": "Enorme", "emoji": "🐋" },
+        { "es": "Diminuto", "emoji": "🐜" },
+        { "es": "Ruidoso", "emoji": "📣" }
+      ],
+      "answer": 0,
+      "why": { "es": "Gigantesco significa enorme, y nace de gigante, esos seres altísimos que aparecen en los cuentos de muchos países." },
+      "topic": "palabras largas",
+      "source": "https://dle.rae.es/gigantesco"
+    },
+    {
+      "id": "words-easy-070", "level": "easy", "type": "mc", "lang": "en", "emoji": "🥣",
+      "q": { "en": "If cereal is soggy it is very what?" },
+      "choices": [
+        { "en": "Hot", "emoji": "🔥" },
+        { "en": "Wet", "emoji": "💧" },
+        { "en": "Loud", "emoji": "📣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Soggy means heavy with water, and it comes from an old word for a soft, wet patch of bog." },
+      "topic": "word meanings",
+      "source": "https://www.merriam-webster.com/dictionary/soggy"
+    },
+    {
+      "id": "words-easy-071", "level": "easy", "type": "mc", "lang": "es", "emoji": "🍌",
+      "q": { "es": "Manzana, plátano y uva, ¿qué son?" },
+      "choices": [
+        { "es": "Animales", "emoji": "🐶" },
+        { "es": "Colores", "emoji": "🎨" },
+        { "es": "Frutas", "emoji": "🍎" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las tres son frutas, y una fruta es la parte de la planta que guarda y protege las semillas." },
+      "topic": "nombrar la categoría",
+      "source": "https://dle.rae.es/fruta"
+    },
+    {
+      "id": "words-easy-072", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐻",
+      "q": { "en": "A cub is the baby of which animal?" },
+      "choices": [
+        { "en": "Bear", "emoji": "🐻" },
+        { "en": "Sheep", "emoji": "🐑" },
+        { "en": "Horse", "emoji": "🐴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bear babies are cubs, and a newborn cub is about the size of a guinea pig." },
+      "topic": "animal words",
+      "source": "https://www.merriam-webster.com/dictionary/cub"
+    },
+    {
+      "id": "words-easy-073", "level": "easy", "type": "mc", "lang": "es", "emoji": "🚌",
+      "q": { "es": "¿Cómo se llaman juntos el carro y el tren?" },
+      "choices": [
+        { "es": "Frutas", "emoji": "🍎" },
+        { "es": "Vehículos", "emoji": "🚌" },
+        { "es": "Animales", "emoji": "🐕" }
+      ],
+      "answer": 1,
+      "why": { "es": "Los dos son vehículos, palabra que viene del latín vehiculum, de un verbo que significaba llevar o transportar." },
+      "topic": "nombrar la categoría",
+      "source": "https://dle.rae.es/vehiculo"
+    },
+    {
+      "id": "words-easy-074", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐑",
+      "q": { "en": "What does the word gentle mean?" },
+      "choices": [
+        { "en": "Loud and fast", "emoji": "🏃" },
+        { "en": "Cold and wet", "emoji": "🌧️" },
+        { "en": "Soft and kind", "emoji": "🤗" }
+      ],
+      "answer": 2,
+      "why": { "en": "Gentle means soft and kind, and long ago it meant well born, which is where gentleman comes from." },
+      "topic": "word meanings",
+      "source": "https://www.merriam-webster.com/dictionary/gentle"
+    },
+    {
+      "id": "words-easy-075", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔷",
+      "q": { "es": "¿Qué nombre reciben el círculo y el cuadrado?" },
+      "choices": [
+        { "es": "Figuras", "emoji": "🔺" },
+        { "es": "Sonidos", "emoji": "🔔" },
+        { "es": "Olores", "emoji": "👃" }
+      ],
+      "answer": 0,
+      "why": { "es": "Son figuras geométricas, y el triángulo es la única que jamás se deforma, por eso hay tantos en los puentes." },
+      "topic": "nombrar la categoría",
+      "source": "https://dle.rae.es/figura"
+    },
+    {
+      "id": "words-easy-076", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦆",
+      "q": { "en": "Which word is the sound a duck makes?" },
+      "choices": [
+        { "en": "Moo", "emoji": "🐄" },
+        { "en": "Quack", "emoji": "🦆" },
+        { "en": "Buzz", "emoji": "🐝" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ducks quack, and English copies that sound, while Spanish speakers write the very same duck sound as cuac." },
+      "topic": "animal sounds",
+      "source": "https://www.merriam-webster.com/dictionary/quack"
+    },
+    {
+      "id": "words-easy-077", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏎️",
+      "q": { "es": "Si un carro es veloz, ¿cómo va?" },
+      "choices": [
+        { "es": "Muy dulce", "emoji": "🍬" },
+        { "es": "Muy alto", "emoji": "🏔️" },
+        { "es": "Muy rápido", "emoji": "🏎️" }
+      ],
+      "answer": 2,
+      "why": { "es": "Veloz quiere decir muy rápido, y de ahí vienen velocidad y velocímetro, el reloj que marca cuánto corres." },
+      "topic": "significado de palabras",
+      "source": "https://dle.rae.es/veloz"
+    },
+    {
+      "id": "words-easy-078", "level": "easy", "type": "mc", "lang": "en", "emoji": "🍯",
+      "q": { "en": "Which of these words is a bee's sound?" },
+      "choices": [
+        { "en": "Buzz", "emoji": "🐝" },
+        { "en": "Hiss", "emoji": "🐍" },
+        { "en": "Roar", "emoji": "🦁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Buzz copies the hum bees make, and that hum comes from wings beating about two hundred times every second." },
+      "topic": "animal sounds",
+      "source": "https://www.merriam-webster.com/dictionary/buzz"
+    },
+    {
+      "id": "words-easy-079", "level": "easy", "type": "mc", "lang": "es", "emoji": "💦",
+      "q": { "es": "¿Qué quiere decir que algo esté húmedo?" },
+      "choices": [
+        { "es": "Un poco caliente", "emoji": "🔥" },
+        { "es": "Un poco mojado", "emoji": "💧" },
+        { "es": "Un poco duro", "emoji": "🪨" }
+      ],
+      "answer": 1,
+      "why": { "es": "Húmedo quiere decir un poco mojado, y por eso al aire cargado de agua le decimos humedad." },
+      "topic": "significado de palabras",
+      "source": "https://dle.rae.es/humedo"
+    },
+    {
+      "id": "words-easy-080", "level": "easy", "type": "mc", "lang": "en", "emoji": "👏",
+      "q": { "en": "How many claps are in the word banana?" },
+      "choices": [
+        { "en": "One", "emoji": "☝️" },
+        { "en": "Five", "emoji": "🖐️" },
+        { "en": "Three", "emoji": "👏" }
+      ],
+      "answer": 2,
+      "why": { "en": "Banana claps three times, ba-na-na, and each clap is a syllable, one beat of voice inside a word." },
+      "topic": "syllables",
+      "source": "https://www.merriam-webster.com/dictionary/syllable"
+    },
+    {
+      "id": "words-easy-081", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐱",
+      "q": { "es": "¿Qué palabra es el sonido del gato?" },
+      "choices": [
+        { "es": "Miau", "emoji": "🐱" },
+        { "es": "Muu", "emoji": "🐄" },
+        { "es": "Cuac", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "es": "El gato hace miau, y cada idioma lo escribe distinto: en inglés ponen meow y en japonés nyan." },
+      "topic": "sonidos de animales",
+      "source": "https://dle.rae.es/miau"
+    },
+    {
+      "id": "words-easy-082", "level": "easy", "type": "mc", "lang": "en", "emoji": "👐",
+      "q": { "en": "Which word has only one syllable?" },
+      "choices": [
+        { "en": "Elephant", "emoji": "🐘" },
+        { "en": "Dog", "emoji": "🐶" },
+        { "en": "Butterfly", "emoji": "🦋" }
+      ],
+      "answer": 1,
+      "why": { "en": "Dog is one beat, while elephant and butterfly each take three, so they need three claps to say." },
+      "topic": "syllables",
+      "source": "https://www.merriam-webster.com/dictionary/dog"
+    },
+    {
+      "id": "words-easy-083", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐸",
+      "q": { "es": "¿Cómo escribimos el sonido de la rana?" },
+      "choices": [
+        { "es": "Muu", "emoji": "🐄" },
+        { "es": "Pío", "emoji": "🐤" },
+        { "es": "Croac", "emoji": "🐸" }
+      ],
+      "answer": 2,
+      "why": { "es": "La rana hace croac, y los machos inflan un saco en la garganta para que el sonido llegue lejísimos." },
+      "topic": "sonidos de animales",
+      "source": "https://dle.rae.es/croar"
+    },
+    {
+      "id": "words-easy-084", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦛",
+      "q": { "en": "Which word takes the most claps to say?" },
+      "choices": [
+        { "en": "Hippopotamus", "emoji": "🦛" },
+        { "en": "Cow", "emoji": "🐄" },
+        { "en": "Duck", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hippopotamus claps five times, hip-po-pot-a-mus, and the name means river horse in ancient Greek." },
+      "topic": "syllables",
+      "source": "https://www.merriam-webster.com/dictionary/hippopotamus"
+    },
+    {
+      "id": "words-easy-085", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦋",
+      "q": { "es": "¿Cuántas palmadas tiene la palabra mariposa?" },
+      "choices": [
+        { "es": "Dos", "emoji": "✌️" },
+        { "es": "Cuatro", "emoji": "👏" },
+        { "es": "Ocho", "emoji": "🐙" }
+      ],
+      "answer": 1,
+      "why": { "es": "Mariposa se aplaude cuatro veces, ma-ri-po-sa, y cada palmada es una sílaba, un golpecito de voz." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/silaba"
+    },
+    {
+      "id": "words-easy-086", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐍",
+      "q": { "en": "Which word rhymes with snake?" },
+      "choices": [
+        { "en": "Snail", "emoji": "🐌" },
+        { "en": "Bird", "emoji": "🐦" },
+        { "en": "Cake", "emoji": "🍰" }
+      ],
+      "answer": 2,
+      "why": { "en": "Snake and cake finish with the same -ake sound, and so do lake, rake, bake and shake." },
+      "topic": "rhymes",
+      "source": "https://www.merriam-webster.com/dictionary/rhyme"
+    },
+    {
+      "id": "words-easy-087", "level": "easy", "type": "mc", "lang": "es", "emoji": "☀️",
+      "q": { "es": "¿Qué palabra tiene una sola sílaba?" },
+      "choices": [
+        { "es": "Sol", "emoji": "☀️" },
+        { "es": "Elefante", "emoji": "🐘" },
+        { "es": "Mariposa", "emoji": "🦋" }
+      ],
+      "answer": 0,
+      "why": { "es": "Sol tiene una sola sílaba, un solo golpe de voz, mientras elefante y mariposa tienen cuatro cada una." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/silaba"
+    },
+    {
+      "id": "words-easy-088", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦛",
+      "q": { "es": "¿Qué palabra necesita más palmadas al decirla?" },
+      "choices": [
+        { "es": "Pez", "emoji": "🐟" },
+        { "es": "Hipopótamo", "emoji": "🦛" },
+        { "es": "Pan", "emoji": "🍞" }
+      ],
+      "answer": 1,
+      "why": { "es": "Hipopótamo se aplaude cinco veces, hi-po-pó-ta-mo, y su nombre griego quiere decir caballo de río." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/hipopotamo"
+    },
+    {
+      "id": "words-easy-089", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐝",
+      "q": { "en": "Which word sounds like what it means?" },
+      "choices": [
+        { "en": "Table", "emoji": "🪑" },
+        { "en": "Buzz", "emoji": "🐝" },
+        { "en": "Blue", "emoji": "🔵" }
+      ],
+      "answer": 1,
+      "why": { "en": "Buzz is a word that copies a sound, like pop, splash and hiss, so saying it makes the noise it names." },
+      "topic": "sound words",
+      "source": "https://www.merriam-webster.com/dictionary/buzz"
+    },
+    {
+      "id": "words-easy-090", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌙",
+      "q": { "en": "Which word means the same as big?" },
+      "choices": [
+        { "en": "Tiny", "emoji": "🐜" },
+        { "en": "Soft", "emoji": "🧸" },
+        { "en": "Large", "emoji": "🐘" }
+      ],
+      "answer": 2,
+      "why": { "en": "Big and large mean the same thing, and words that mean the same are called synonyms, from a Greek word for same name." },
+      "topic": "same meaning",
+      "source": "https://www.merriam-webster.com/dictionary/large"
+    },
+    {
+      "id": "words-easy-091", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌈",
+      "q": { "en": "Which word tells how something looks?" },
+      "choices": [
+        { "en": "Jump", "emoji": "🦘" },
+        { "en": "Shiny", "emoji": "✨" },
+        { "en": "Under", "emoji": "⬇️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Shiny describes a thing, so it is a describing word; jump is a doing word, and describing words help a story paint pictures." },
+      "topic": "describing words",
+      "source": "https://www.merriam-webster.com/dictionary/adjective"
+    },
+    {
+      "id": "words-easy-092", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Which letter starts the word apple?" },
+      "choices": [
+        { "en": "The letter a", "emoji": "🍎" },
+        { "en": "The letter p", "emoji": "🥧" },
+        { "en": "The letter e", "emoji": "🥚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Apple starts with a, and a is also the first letter of the whole alphabet, which is why alphabet books so often begin with apple." },
+      "topic": "first letters",
+      "source": "https://www.merriam-webster.com/dictionary/apple"
+    },
+    {
+      "id": "words-easy-093", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐶",
+      "q": { "en": "Which word is a doing word?" },
+      "choices": [
+        { "en": "Run", "emoji": "🏃" },
+        { "en": "Red", "emoji": "🔴" },
+        { "en": "Cup", "emoji": "☕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Run tells what someone does, so it is a doing word, also called a verb; every sentence needs at least one to happen." },
+      "topic": "doing words",
+      "source": "https://www.merriam-webster.com/dictionary/verb"
+    },
+    {
+      "id": "words-easy-094", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎂",
+      "q": { "en": "Which two words make the word cupcake?" },
+      "choices": [
+        { "en": "Cup and cake", "emoji": "🧁" },
+        { "en": "Cat and cake", "emoji": "🐱" },
+        { "en": "Cup and bake", "emoji": "🍞" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cupcake joins cup and cake into one word, because the first cupcakes were baked in small cups instead of big pans." },
+      "topic": "compound words",
+      "source": "https://www.merriam-webster.com/dictionary/cupcake"
+    },
+    {
+      "id": "words-easy-095", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐝",
+      "q": { "es": "¿Qué palabra suena como lo que nombra?" },
+      "choices": [
+        { "es": "Mesa", "emoji": "🪑" },
+        { "es": "Zumbido", "emoji": "🐝" },
+        { "es": "Azul", "emoji": "🔵" }
+      ],
+      "answer": 1,
+      "why": { "es": "Zumbido imita el sonido de la abeja, igual que tictac, pum y chapoteo; al decirla ya escuchas el ruido que nombra." },
+      "topic": "palabras que suenan",
+      "source": "https://dle.rae.es/zumbido"
+    },
+    {
+      "id": "words-easy-096", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐘",
+      "q": { "es": "¿Qué palabra significa lo mismo que grande?" },
+      "choices": [
+        { "es": "Pequeño", "emoji": "🐜" },
+        { "es": "Suave", "emoji": "🧸" },
+        { "es": "Enorme", "emoji": "🐘" }
+      ],
+      "answer": 2,
+      "why": { "es": "Grande y enorme quieren decir casi lo mismo; las palabras que significan lo mismo se llaman sinónimos, del griego mismo nombre." },
+      "topic": "sinónimos",
+      "source": "https://dle.rae.es/sin%C3%B3nimo"
+    },
+    {
+      "id": "words-easy-097", "level": "easy", "type": "mc", "lang": "es", "emoji": "✨",
+      "q": { "es": "¿Qué palabra dice cómo es una cosa?" },
+      "choices": [
+        { "es": "Saltar", "emoji": "🦘" },
+        { "es": "Brillante", "emoji": "✨" },
+        { "es": "Debajo", "emoji": "⬇️" }
+      ],
+      "answer": 1,
+      "why": { "es": "Brillante describe cómo es algo, así que es un adjetivo; saltar es una acción, y los adjetivos ayudan a pintar un cuento." },
+      "topic": "adjetivos",
+      "source": "https://dle.rae.es/adjetivo"
+    },
+    {
+      "id": "words-easy-098", "level": "easy", "type": "mc", "lang": "es", "emoji": "🍎",
+      "q": { "es": "¿Con qué letra empieza la palabra manzana?" },
+      "choices": [
+        { "es": "Con la letra m", "emoji": "🍎" },
+        { "es": "Con la letra n", "emoji": "🌰" },
+        { "es": "Con la letra a", "emoji": "🐝" }
+      ],
+      "answer": 0,
+      "why": { "es": "Manzana empieza con m, la misma letra de mamá, mano y mesa; la m se dice juntando los labios como un beso." },
+      "topic": "primera letra",
+      "source": "https://dle.rae.es/manzana"
+    },
+    {
+      "id": "words-easy-099", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏃",
+      "q": { "es": "¿Qué palabra es una acción?" },
+      "choices": [
+        { "es": "Correr", "emoji": "🏃" },
+        { "es": "Rojo", "emoji": "🔴" },
+        { "es": "Taza", "emoji": "☕" }
+      ],
+      "answer": 0,
+      "why": { "es": "Correr dice lo que alguien hace, así que es un verbo; toda oración necesita al menos uno para que algo pase." },
+      "topic": "verbos",
+      "source": "https://dle.rae.es/verbo"
+    },
+    {
+      "id": "words-easy-100", "level": "easy", "type": "mc", "lang": "es", "emoji": "☀️",
+      "q": { "es": "¿Qué dos palabras forman la palabra girasol?" },
+      "choices": [
+        { "es": "Gira y sol", "emoji": "🌻" },
+        { "es": "Gato y sol", "emoji": "🐱" },
+        { "es": "Gira y sal", "emoji": "🧂" }
+      ],
+      "answer": 0,
+      "why": { "es": "Girasol junta gira y sol en una sola palabra, porque la flor joven gira durante el día para mirar siempre al Sol." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/girasol"
     }
   ]
 }

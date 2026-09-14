@@ -1,7 +1,7 @@
 {
   "note": "Human Body & Health. Three levels in one file so a reviewer sees the ladder.",
   "category": "body",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "body-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "✋",
@@ -12,8 +12,7 @@
         { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" }
       ],
       "answer": 1,
-      "why": { "en": "Each hand has five fingers, and five plus five is ten, so count them on your own hands.",
-               "es": "Cada mano tiene cinco dedos, y cinco más cinco son diez; cuéntalos en tus propias manos." },
+      "why": { "en": "Each hand has five fingers, and five plus five is ten, so count them on your own hands.", "es": "Cada mano tiene cinco dedos, y cinco más cinco son diez; cuéntalos en tus propias manos." },
       "topic": "counting fingers and toes",
       "source": "https://www.britannica.com/science/hand-anatomy"
     },
@@ -26,8 +25,7 @@
         { "en": "Nose", "es": "La nariz", "emoji": "👃" }
       ],
       "answer": 2,
-      "why": { "en": "Your nose smells things, and it also helps you taste, which is why food seems plain with a stuffy nose.",
-               "es": "Tu nariz huele las cosas y también te ayuda a saborear; por eso la comida sabe a poco con la nariz tapada." },
+      "why": { "en": "Your nose smells things, and it also helps you taste, which is why food seems plain with a stuffy nose.", "es": "Tu nariz huele las cosas y también te ayuda a saborear; por eso la comida sabe a poco con la nariz tapada." },
       "topic": "five senses",
       "source": "https://kidshealth.org/en/kids/nose.html"
     },
@@ -40,8 +38,7 @@
         { "en": "Watching TV", "es": "Ver la televisión", "emoji": "📺" }
       ],
       "answer": 0,
-      "why": { "en": "When you sleep, your body makes a growth hormone and repairs itself, so kids need lots of sleep.",
-               "es": "Cuando duermes, tu cuerpo produce una hormona del crecimiento y se repara, por eso los niños necesitan dormir mucho." },
+      "why": { "en": "When you sleep, your body makes a growth hormone and repairs itself, so kids need lots of sleep.", "es": "Cuando duermes, tu cuerpo produce una hormona del crecimiento y se repara, por eso los niños necesitan dormir mucho." },
       "topic": "sleep",
       "source": "https://kidshealth.org/en/kids/sleep.html"
     },
@@ -55,8 +52,7 @@
         { "en": "Brain", "es": "El cerebro" }
       ],
       "answer": 1,
-      "why": { "en": "Your heart is a muscle about the size of your fist, and it beats about 100,000 times a day.",
-               "es": "Tu corazón es un músculo del tamaño de tu puño y late unas 100 000 veces al día." },
+      "why": { "en": "Your heart is a muscle about the size of your fist, and it beats about 100,000 times a day.", "es": "Tu corazón es un músculo del tamaño de tu puño y late unas 100 000 veces al día." },
       "topic": "blood and the heart",
       "source": "https://kidshealth.org/en/kids/heart.html"
     },
@@ -70,8 +66,7 @@
         { "en": "Thigh bone", "es": "El hueso del muslo" }
       ],
       "answer": 3,
-      "why": { "en": "The thigh bone, called the femur, is also the strongest bone, and it makes up about a quarter of your height.",
-               "es": "El hueso del muslo, llamado fémur, también es el más fuerte, y mide cerca de un cuarto de tu estatura." },
+      "why": { "en": "The thigh bone, called the femur, is also the strongest bone, and it makes up about a quarter of your height.", "es": "El hueso del muslo, llamado fémur, también es el más fuerte, y mide cerca de un cuarto de tu estatura." },
       "topic": "skeleton",
       "source": "https://www.britannica.com/science/femur"
     },
@@ -85,15 +80,13 @@
         { "en": "Large intestine", "es": "El intestino grueso" }
       ],
       "answer": 2,
-      "why": { "en": "The esophagus is a muscle tube that squeezes food down to your stomach, so you could even swallow upside down.",
-               "es": "El esófago es un tubo de músculo que aprieta la comida hasta el estómago; por eso podrías tragar hasta de cabeza." },
+      "why": { "en": "The esophagus is a muscle tube that squeezes food down to your stomach, so you could even swallow upside down.", "es": "El esófago es un tubo de músculo que aprieta la comida hasta el estómago; por eso podrías tragar hasta de cabeza." },
       "topic": "digestion",
       "source": "https://kidshealth.org/en/kids/digestive-system.html"
     },
     {
       "id": "body-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
-      "q": { "en": "Which part of the brain mainly controls balance and coordination?",
-             "es": "¿Qué parte del cerebro controla principalmente el equilibrio y la coordinación?" },
+      "q": { "en": "Which part of the brain mainly controls balance and coordination?", "es": "¿Qué parte del cerebro controla principalmente el equilibrio y la coordinación?" },
       "choices": [
         { "en": "Cerebrum", "es": "El cerebro (corteza)" },
         { "en": "Brain stem", "es": "El tronco encefálico" },
@@ -101,8 +94,7 @@
         { "en": "Hippocampus", "es": "El hipocampo" }
       ],
       "answer": 2,
-      "why": { "en": "\"Cerebellum\" means \"little brain\" in Latin; it sits at the back and fine-tunes every movement you make.",
-               "es": "\"Cerebelo\" significa \"cerebro pequeño\" en latín; está en la parte de atrás y ajusta cada movimiento que haces." },
+      "why": { "en": "\"Cerebellum\" means \"little brain\" in Latin; it sits at the back and fine-tunes every movement you make.", "es": "\"Cerebelo\" significa \"cerebro pequeño\" en latín; está en la parte de atrás y ajusta cada movimiento que haces." },
       "topic": "the nervous system",
       "source": "https://kidshealth.org/en/kids/brain.html"
     },
@@ -116,24 +108,1282 @@
         { "en": "White blood cells", "es": "Los glóbulos blancos" }
       ],
       "answer": 3,
-      "why": { "en": "White blood cells find and destroy germs; platelets help close cuts, and red blood cells carry oxygen.",
-               "es": "Los glóbulos blancos buscan y destruyen microbios; las plaquetas ayudan a cerrar heridas y los glóbulos rojos llevan oxígeno." },
+      "why": { "en": "White blood cells find and destroy germs; platelets help close cuts, and red blood cells carry oxygen.", "es": "Los glóbulos blancos buscan y destruyen microbios; las plaquetas ayudan a cerrar heridas y los glóbulos rojos llevan oxígeno." },
       "topic": "red and white blood cells",
       "source": "https://kidshealth.org/en/kids/blood.html"
     },
     {
       "id": "body-hard-003", "level": "hard", "type": "tf", "lang": "both",
-      "q": { "en": "Your small intestine is longer than your large intestine.",
-             "es": "Tu intestino delgado es más largo que tu intestino grueso." },
+      "q": { "en": "Your small intestine is longer than your large intestine.", "es": "Tu intestino delgado es más largo que tu intestino grueso." },
       "choices": [
         { "en": "True", "es": "Cierto" },
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "The small intestine is about 20 feet, 6 meters, long; it is called small because it is narrower.",
-               "es": "El intestino delgado mide unos 6 metros, 20 pies; se llama delgado porque es más angosto, no más corto." },
+      "why": { "en": "The small intestine is about 20 feet, 6 meters, long; it is called small because it is narrower.", "es": "El intestino delgado mide unos 6 metros, 20 pies; se llama delgado porque es más angosto, no más corto." },
       "topic": "body systems",
       "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Which body part do you see with?", "es": "¿Con qué parte del cuerpo ves?" },
+      "choices": [
+        { "en": "Eyes", "es": "Los ojos", "emoji": "👀" },
+        { "en": "Knees", "es": "Las rodillas", "emoji": "🦵" },
+        { "en": "Toes", "es": "Los dedos del pie", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your eyes work like tiny cameras, and you blink about fifteen times a minute to keep them clean and wet.", "es": "Tus ojos funcionan como cámaras pequeñas, y parpadeas unas quince veces por minuto para mantenerlos limpios y húmedos." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "How many senses do people have?", "es": "¿Cuántos sentidos tienen las personas?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "The five senses are sight, hearing, smell, taste and touch, and each one sends messages straight to your brain.", "es": "Los cinco sentidos son vista, oído, olfato, gusto y tacto, y cada uno envía mensajes directo a tu cerebro." },
+      "topic": "five senses",
+      "source": "https://www.britannica.com/science/sense"
+    },
+    {
+      "id": "body-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "Which sense do your ears give you?", "es": "¿Qué sentido te dan tus oídos?" },
+      "choices": [
+        { "en": "Hearing", "es": "El oído", "emoji": "👂" },
+        { "en": "Smelling", "es": "El olfato", "emoji": "👃" },
+        { "en": "Tasting", "es": "El gusto", "emoji": "👅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sound makes your eardrum shake, and three tiny bones inside your ear are the smallest bones in your whole body.", "es": "El sonido hace vibrar tu tímpano, y los tres huesitos de tu oído son los huesos más pequeños de todo tu cuerpo." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "👅",
+      "q": { "en": "Where would you find your taste buds?", "es": "¿Dónde están tus papilas gustativas?" },
+      "choices": [
+        { "en": "On your tongue", "es": "En la lengua", "emoji": "👅" },
+        { "en": "In your ear", "es": "En la oreja", "emoji": "👂" },
+        { "en": "On your knee", "es": "En la rodilla", "emoji": "🦵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your tongue has about ten thousand taste buds, and they wear out and grow back about every two weeks.", "es": "Tu lengua tiene unas diez mil papilas gustativas, y se gastan y vuelven a crecer cada dos semanas más o menos." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/taste-buds.html"
+    },
+    {
+      "id": "body-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤚",
+      "q": { "en": "Which sense tells you a rock is cold?", "es": "¿Qué sentido te dice que una piedra está fría?" },
+      "choices": [
+        { "en": "Touch", "es": "El tacto", "emoji": "🤚" },
+        { "en": "Hearing", "es": "El oído", "emoji": "👂" },
+        { "en": "Smell", "es": "El olfato", "emoji": "👃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Touch works through your skin, which has tiny sensors for cold, heat, pressure and pain all over your body.", "es": "El tacto funciona por la piel, que tiene sensores diminutos de frío, calor, presión y dolor por todo tu cuerpo." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍦",
+      "q": { "en": "Which sense helps you enjoy ice cream?", "es": "¿Qué sentido te ayuda a disfrutar un helado?" },
+      "choices": [
+        { "en": "Taste", "es": "El gusto", "emoji": "👅" },
+        { "en": "Hearing", "es": "El oído", "emoji": "👂" },
+        { "en": "Sight", "es": "La vista", "emoji": "👀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your tongue tastes sweet, salty, sour, bitter and savory, but most of the flavor you notice comes from your nose.", "es": "Tu lengua saborea dulce, salado, ácido, amargo y umami, pero casi todo el sabor que notas viene de tu nariz." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/tongue.html"
+    },
+    {
+      "id": "body-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "👁️",
+      "q": { "en": "How many eyes does a person have?", "es": "¿Cuántos ojos tiene una persona?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two eyes see the same thing from slightly different spots, which is how your brain judges how far away things are.", "es": "Dos ojos ven lo mismo desde lugares un poco distintos, y así tu cerebro calcula qué tan lejos están las cosas." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "😴",
+      "q": { "en": "Which sense keeps working while you sleep?", "es": "¿Qué sentido sigue trabajando mientras duermes?" },
+      "choices": [
+        { "en": "Hearing", "es": "El oído", "emoji": "👂" },
+        { "en": "Sight", "es": "La vista", "emoji": "👀" },
+        { "en": "Taste", "es": "El gusto", "emoji": "👅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your ears never switch off, so a loud noise can wake you even though your eyes stayed shut all night.", "es": "Tus oídos siguen trabajando siempre, por eso un ruido fuerte te despierta aunque tus ojos estén cerrados toda la noche." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "What opens wider when a room gets dark?", "es": "¿Qué se abre más cuando el cuarto se oscurece?" },
+      "choices": [
+        { "en": "Your pupils", "es": "Tus pupilas", "emoji": "👁️" },
+        { "en": "Your ears", "es": "Tus orejas", "emoji": "👂" },
+        { "en": "Your nose", "es": "Tu nariz", "emoji": "👃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pupils are holes that let light in, and they open wide in the dark so you can see more.", "es": "Las pupilas son agujeros que dejan entrar la luz, y se abren grandes en la oscuridad para que veas más." },
+      "topic": "five senses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦶",
+      "q": { "en": "How many toes are on one foot?", "es": "¿Cuántos dedos hay en un pie?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each foot has five toes, and your big toe does most of the work when you push off to walk.", "es": "Cada pie tiene cinco dedos, y el dedo gordo hace casi todo el trabajo cuando te impulsas para caminar." },
+      "topic": "counting fingers and toes",
+      "source": "https://www.britannica.com/science/foot-anatomy"
+    },
+    {
+      "id": "body-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "👍",
+      "q": { "en": "How many thumbs do you have?", "es": "¿Cuántos pulgares tienes?" },
+      "choices": [
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "You have one thumb on each hand, and thumbs bend the other way so you can grab a cup or a crayon.", "es": "Tienes un pulgar en cada mano, y los pulgares se doblan al revés para que puedas agarrar un vaso o un crayón." },
+      "topic": "counting fingers and toes",
+      "source": "https://www.britannica.com/science/hand-anatomy"
+    },
+    {
+      "id": "body-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "How many fingers and toes do you have?", "es": "¿Cuántos dedos tienes entre manos y pies?" },
+      "choices": [
+        { "en": "Twenty", "es": "Veinte", "emoji": "🔢" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Fifteen", "es": "Quince", "emoji": "🖐️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ten fingers plus ten toes make twenty, and babies are born with the same twenty, just much tinier.", "es": "Diez dedos de las manos más diez de los pies son veinte, y los bebés nacen con los mismos veinte." },
+      "topic": "counting fingers and toes",
+      "source": "https://www.britannica.com/science/human-body"
+    },
+    {
+      "id": "body-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫆",
+      "q": { "en": "Who else has fingerprints exactly like yours?", "es": "¿Quién más tiene huellas digitales iguales a las tuyas?" },
+      "choices": [
+        { "en": "Nobody", "es": "Nadie", "emoji": "🚫" },
+        { "en": "Your mother", "es": "Tu mamá", "emoji": "👩" },
+        { "en": "Your best friend", "es": "Tu mejor amigo", "emoji": "🧒" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fingerprints form before you are born and stay the same all your life, so no two people ever match.", "es": "Las huellas se forman antes de nacer y no cambian en toda tu vida, por eso dos personas nunca son iguales." },
+      "topic": "skin",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "What do your teeth help you do?", "es": "¿Para qué te sirven los dientes?" },
+      "choices": [
+        { "en": "Chew food", "es": "Masticar la comida", "emoji": "🍎" },
+        { "en": "Hear music", "es": "Escuchar música", "emoji": "🎵" },
+        { "en": "See far away", "es": "Ver de lejos", "emoji": "🔭" }
+      ],
+      "answer": 0,
+      "why": { "en": "Front teeth cut, and the flat teeth in back grind food, which is why chewing well helps your stomach work less.", "es": "Los dientes de adelante cortan y las muelas de atrás muelen la comida, así tu estómago trabaja menos después." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪥",
+      "q": { "en": "What should you use to clean teeth?", "es": "¿Con qué debes limpiarte los dientes?" },
+      "choices": [
+        { "en": "A toothbrush", "es": "Un cepillo de dientes", "emoji": "🪥" },
+        { "en": "A fork", "es": "Un tenedor", "emoji": "🍴" },
+        { "en": "A towel", "es": "Una toalla", "emoji": "🧻" }
+      ],
+      "answer": 0,
+      "why": { "en": "Brushing twice a day sweeps away a sticky film called plaque that makes holes in teeth over time.", "es": "Cepillarte dos veces al día quita una capa pegajosa llamada placa, que con el tiempo hace agujeros en los dientes." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+    },
+    {
+      "id": "body-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "👶",
+      "q": { "en": "What is the first set of teeth called?", "es": "¿Cómo se llaman los primeros dientes?" },
+      "choices": [
+        { "en": "Baby teeth", "es": "Dientes de leche", "emoji": "🦷" },
+        { "en": "Bird teeth", "es": "Dientes de pájaro", "emoji": "🐦" },
+        { "en": "Big teeth", "es": "Dientes de elefante", "emoji": "🐘" }
+      ],
+      "answer": 0,
+      "why": { "en": "Baby teeth start falling out around age six, and grown-up teeth are already waiting in the gums above them.", "es": "Los dientes de leche se caen cerca de los seis años, y los definitivos ya esperan dentro de las encías." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "How many baby teeth do children grow?", "es": "¿Cuántos dientes de leche tienen los niños?" },
+      "choices": [
+        { "en": "Twenty", "es": "Veinte", "emoji": "🔢" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Children grow twenty baby teeth, and adults end up with thirty-two, because bigger jaws have room for more.", "es": "Los niños tienen veinte dientes de leche y los adultos llegan a treinta y dos, porque la mandíbula crece." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which drink helps make teeth and bones strong?", "es": "¿Qué bebida ayuda a fortalecer dientes y huesos?" },
+      "choices": [
+        { "en": "Milk", "es": "La leche", "emoji": "🥛" },
+        { "en": "Soda", "es": "El refresco", "emoji": "🥤" },
+        { "en": "Hot cocoa", "es": "El chocolate caliente", "emoji": "☕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Milk is full of calcium, the mineral your body uses to build hard bones and the shiny coat on teeth.", "es": "La leche tiene calcio, el mineral que tu cuerpo usa para construir huesos duros y la capa brillante de los dientes." },
+      "topic": "teeth",
+      "source": "https://www.britannica.com/science/calcium"
+    },
+    {
+      "id": "body-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "What is the hardest part of your body?", "es": "¿Cuál es la parte más dura de tu cuerpo?" },
+      "choices": [
+        { "en": "Tooth enamel", "es": "El esmalte del diente", "emoji": "🦷" },
+        { "en": "Your fingernail", "es": "La uña", "emoji": "💅" },
+        { "en": "Your kneecap", "es": "La rótula", "emoji": "🦵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Enamel is the white coat on your teeth, and it is harder than any bone, but it cannot grow back.", "es": "El esmalte es la capa blanca de los dientes; es más duro que cualquier hueso, pero no vuelve a crecer." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "😬",
+      "q": { "en": "What holds your teeth in place?", "es": "¿Qué sostiene tus dientes en su lugar?" },
+      "choices": [
+        { "en": "Your gums", "es": "Las encías", "emoji": "😬" },
+        { "en": "Your tongue", "es": "La lengua", "emoji": "👅" },
+        { "en": "Your lips", "es": "Los labios", "emoji": "👄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gums are soft pink cushions that grip each tooth root, and brushing gently keeps them healthy and pink.", "es": "Las encías son cojines rosados que sujetan la raíz de cada diente, y cepillarte suave las mantiene sanas." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+    },
+    {
+      "id": "body-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍏",
+      "q": { "en": "Which food is best for your teeth?", "es": "¿Qué comida es mejor para tus dientes?" },
+      "choices": [
+        { "en": "A crunchy apple", "es": "Una manzana crujiente", "emoji": "🍎" },
+        { "en": "Sticky candy", "es": "Un dulce pegajoso", "emoji": "🍬" },
+        { "en": "A sweet cookie", "es": "Una galleta dulce", "emoji": "🍪" }
+      ],
+      "answer": 0,
+      "why": { "en": "Crunchy fruit makes extra spit, and spit washes sugar off your teeth, while sticky candy stays and feeds germs.", "es": "La fruta crujiente produce más saliva, y la saliva lava el azúcar de los dientes; el dulce pegajoso alimenta microbios." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+    },
+    {
+      "id": "body-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Why does your mouth make spit?", "es": "¿Por qué tu boca produce saliva?" },
+      "choices": [
+        { "en": "To soften food", "es": "Para ablandar la comida", "emoji": "🍽️" },
+        { "en": "To cool your body", "es": "Para enfriar tu cuerpo", "emoji": "🧊" },
+        { "en": "To help you jump", "es": "Para ayudarte a saltar", "emoji": "🦘" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spit, called saliva, softens food and starts breaking it apart, and you make enough to fill bathtubs over a lifetime.", "es": "La saliva ablanda la comida y empieza a deshacerla, y en toda tu vida produces suficiente para llenar varias tinas." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Which part of a tooth can you see?", "es": "¿Qué parte del diente puedes ver?" },
+      "choices": [
+        { "en": "The crown", "es": "La corona", "emoji": "👑" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The jawbone", "es": "La mandíbula", "emoji": "🦴" }
+      ],
+      "answer": 0,
+      "why": { "en": "The part above your gums is called the crown, and an even longer root is hidden underneath holding it tight.", "es": "La parte que ves sobre las encías se llama corona, y abajo hay una raíz más larga que la sujeta." },
+      "topic": "teeth",
+      "source": "https://www.britannica.com/science/tooth-anatomy"
+    },
+    {
+      "id": "body-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Where can you feel your heart beating?", "es": "¿Dónde puedes sentir los latidos de tu corazón?" },
+      "choices": [
+        { "en": "In your chest", "es": "En el pecho", "emoji": "🫀" },
+        { "en": "In your shoe", "es": "En el zapato", "emoji": "👟" },
+        { "en": "In your hat", "es": "En el sombrero", "emoji": "🎩" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your heart sits in the middle of your chest, tipped a little to the left, and it is a strong muscle.", "es": "Tu corazón está en el centro del pecho, inclinado un poco a la izquierda, y es un músculo muy fuerte." },
+      "topic": "the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "What happens to your heartbeat when you run?", "es": "¿Qué le pasa a tu corazón cuando corres?" },
+      "choices": [
+        { "en": "It speeds up", "es": "Late más rápido", "emoji": "🏃" },
+        { "en": "It slows down", "es": "Late más lento", "emoji": "🐢" },
+        { "en": "It gets quiet", "es": "Se queda callado", "emoji": "🤫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Running muscles need more oxygen, so your heart beats faster to deliver it, and it slows again when you rest.", "es": "Los músculos que corren necesitan más oxígeno, por eso tu corazón late más rápido, y se calma cuando descansas." },
+      "topic": "the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔊",
+      "q": { "en": "What is the sound your heart makes?", "es": "¿Qué sonido hace tu corazón?" },
+      "choices": [
+        { "en": "Lub-dub", "es": "Lub-dub", "emoji": "🫀" },
+        { "en": "Beep-beep", "es": "Bip-bip", "emoji": "🚗" },
+        { "en": "Tick-tock", "es": "Tic-tac", "emoji": "⏰" }
+      ],
+      "answer": 0,
+      "why": { "en": "The two-part sound comes from little doors inside your heart snapping shut to keep blood moving one way.", "es": "El sonido doble viene de unas puertitas dentro del corazón que se cierran para que la sangre avance en un sentido." },
+      "topic": "the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "⌚",
+      "q": { "en": "Where can you feel your pulse?", "es": "¿Dónde puedes sentir tu pulso?" },
+      "choices": [
+        { "en": "On your wrist", "es": "En la muñeca", "emoji": "⌚" },
+        { "en": "On your knee", "es": "En la rodilla", "emoji": "🦵" },
+        { "en": "On your back", "es": "En la espalda", "emoji": "🎒" }
+      ],
+      "answer": 0,
+      "why": { "en": "A pulse is blood pushing through a tube under your skin, and you can count it with two fingers.", "es": "El pulso es la sangre que empuja por un tubo bajo tu piel, y puedes contarlo con dos dedos." },
+      "topic": "the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "What color is blood inside your body?", "es": "¿De qué color es la sangre dentro de tu cuerpo?" },
+      "choices": [
+        { "en": "Red", "es": "Roja", "emoji": "🔴" },
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blood is always red; it looks blue through your skin because of the way light bounces back to your eyes.", "es": "La sangre siempre es roja; se ve azul a través de la piel por la forma en que rebota la luz." },
+      "topic": "blood",
+      "source": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "body-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "What are the tubes that carry blood?", "es": "¿Cómo se llaman los tubos que llevan sangre?" },
+      "choices": [
+        { "en": "Blood vessels", "es": "Los vasos sanguíneos", "emoji": "🩸" },
+        { "en": "Bones", "es": "Los huesos", "emoji": "🦴" },
+        { "en": "Nerves", "es": "Los nervios", "emoji": "⚡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blood vessels reach every corner of you, and end to end they would stretch about 60,000 miles, 100,000 km.", "es": "Los vasos sanguíneos llegan a cada rincón de ti, y juntos medirían unos 100,000 km, 60,000 millas." },
+      "topic": "blood",
+      "source": "https://www.britannica.com/science/blood-vessel"
+    },
+    {
+      "id": "body-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "What does blood carry to every body part?", "es": "¿Qué lleva la sangre a todo el cuerpo?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno", "emoji": "🫁" },
+        { "en": "Sound", "es": "Sonido", "emoji": "🔊" },
+        { "en": "Light", "es": "Luz", "emoji": "💡" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blood picks up oxygen in your lungs and drops it off everywhere, then carries the leftover gas back out.", "es": "La sangre recoge oxígeno en los pulmones y lo reparte por todas partes, y luego devuelve el gas sobrante." },
+      "topic": "the heart",
+      "source": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "body-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩹",
+      "q": { "en": "What forms over a scraped knee to protect it?", "es": "¿Qué se forma sobre una rodilla raspada para protegerla?" },
+      "choices": [
+        { "en": "A scab", "es": "Una costra", "emoji": "🩹" },
+        { "en": "A sneeze", "es": "Un estornudo", "emoji": "🤧" },
+        { "en": "A yawn", "es": "Un bostezo", "emoji": "🥱" }
+      ],
+      "answer": 0,
+      "why": { "en": "A scab is a dry cover made by your blood, and new skin quietly builds itself underneath the whole time.", "es": "La costra es una tapa seca que hace tu sangre, y debajo la piel nueva se va formando sin que veas." },
+      "topic": "scrapes and healing",
+      "source": "https://kidshealth.org/en/kids/scab.html"
+    },
+    {
+      "id": "body-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What is inside you that keeps you standing?", "es": "¿Qué tienes por dentro que te mantiene de pie?" },
+      "choices": [
+        { "en": "Your bones", "es": "Los huesos", "emoji": "🦴" },
+        { "en": "Your hair", "es": "El cabello", "emoji": "🧶" },
+        { "en": "Your clothes", "es": "La ropa", "emoji": "👕" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bones make a frame called a skeleton that holds you up and guards soft parts like your brain and heart.", "es": "Los huesos forman un armazón llamado esqueleto que te sostiene y protege partes blandas como el cerebro y el corazón." },
+      "topic": "bones",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Which bones make a cage around your heart?", "es": "¿Qué huesos forman una jaula alrededor del corazón?" },
+      "choices": [
+        { "en": "Your ribs", "es": "Las costillas", "emoji": "🦴" },
+        { "en": "Your teeth", "es": "Los dientes", "emoji": "🦷" },
+        { "en": "Your knees", "es": "Las rodillas", "emoji": "🦵" }
+      ],
+      "answer": 0,
+      "why": { "en": "You can feel your ribs by hugging yourself; twelve pairs curve around to shield your heart and lungs.", "es": "Puedes sentir tus costillas al abrazarte; doce pares se curvan para proteger el corazón y los pulmones." },
+      "topic": "bones",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which bone protects your brain?", "es": "¿Qué hueso protege tu cerebro?" },
+      "choices": [
+        { "en": "Your skull", "es": "El cráneo", "emoji": "🦴" },
+        { "en": "Your finger bone", "es": "El hueso del dedo", "emoji": "☝️" },
+        { "en": "Your foot bone", "es": "El hueso del pie", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your skull is really twenty-two bones locked together like puzzle pieces, and it keeps your soft brain safe.", "es": "Tu cráneo son en realidad veintidós huesos unidos como piezas de rompecabezas, y protege tu cerebro blandito." },
+      "topic": "bones",
+      "source": "https://www.britannica.com/science/skull"
+    },
+    {
+      "id": "body-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛏️",
+      "q": { "en": "How many hours should a young child sleep?", "es": "¿Cuántas horas debe dormir un niño pequeño?" },
+      "choices": [
+        { "en": "About two hours", "es": "Unas dos horas", "emoji": "⏱️" },
+        { "en": "About ten hours", "es": "Unas diez horas", "emoji": "🛏️" },
+        { "en": "About one hour", "es": "Una hora", "emoji": "⏳" }
+      ],
+      "answer": 1,
+      "why": { "en": "Young children need ten or more hours, far more than grown-ups, because sleep is when bodies grow and brains tidy up.", "es": "Los niños pequeños necesitan diez horas o más, mucho más que los adultos, porque al dormir el cuerpo crece y el cerebro ordena." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "💭",
+      "q": { "en": "What are the pictures you see while sleeping?", "es": "¿Qué son las imágenes que ves mientras duermes?" },
+      "choices": [
+        { "en": "Rainbows", "es": "Arcoíris", "emoji": "🌈" },
+        { "en": "Shadows", "es": "Sombras", "emoji": "🌑" },
+        { "en": "Dreams", "es": "Sueños", "emoji": "💭" }
+      ],
+      "answer": 2,
+      "why": { "en": "Everybody dreams every night, usually four or five times, even people who wake up sure they dreamed nothing.", "es": "Todos soñamos cada noche, casi siempre cuatro o cinco veces, aunque al despertar creas que no soñaste nada." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥱",
+      "q": { "en": "What does your body do when it needs sleep?", "es": "¿Qué hace tu cuerpo cuando necesita dormir?" },
+      "choices": [
+        { "en": "Yawn", "es": "Bostezar", "emoji": "🥱" },
+        { "en": "Sneeze", "es": "Estornudar", "emoji": "🤧" },
+        { "en": "Hiccup", "es": "Tener hipo", "emoji": "😮" }
+      ],
+      "answer": 0,
+      "why": { "en": "A yawn pulls in a big breath, and yawns are catching, so seeing one often makes you yawn too.", "es": "Un bostezo mete un montón de aire, y los bostezos se contagian: ver uno casi siempre te hace bostezar." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/yawn.html"
+    },
+    {
+      "id": "body-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "What keeps working all night while you sleep?", "es": "¿Qué sigue trabajando toda la noche mientras duermes?" },
+      "choices": [
+        { "en": "Your feet", "es": "Tus pies", "emoji": "🦶" },
+        { "en": "Your heart", "es": "Tu corazón", "emoji": "🫀" },
+        { "en": "Your hands", "es": "Tus manos", "emoji": "✋" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your heart, lungs and brain work the whole night, and your brain uses that quiet time to save the day's memories.", "es": "Tu corazón, tus pulmones y tu cerebro trabajan toda la noche, y el cerebro aprovecha para guardar los recuerdos del día." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌛",
+      "q": { "en": "Which of these helps you fall asleep faster?", "es": "¿Qué te ayuda a dormirte más rápido?" },
+      "choices": [
+        { "en": "A bright screen", "es": "Una pantalla brillante", "emoji": "📱" },
+        { "en": "A noisy game", "es": "Un juego ruidoso", "emoji": "🥁" },
+        { "en": "A quiet dark room", "es": "Un cuarto oscuro y callado", "emoji": "🌙" }
+      ],
+      "answer": 2,
+      "why": { "en": "Darkness tells your body to make melatonin, the sleepy chemical, while bright screens trick it into thinking morning came.", "es": "La oscuridad hace que tu cuerpo produzca melatonina, la sustancia del sueño; las pantallas brillantes le hacen creer que amaneció." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "👶",
+      "q": { "en": "Who sleeps the most hours each day?", "es": "¿Quién duerme más horas cada día?" },
+      "choices": [
+        { "en": "Newborn babies", "es": "Los recién nacidos", "emoji": "👶" },
+        { "en": "Big kids", "es": "Los niños grandes", "emoji": "🧒" },
+        { "en": "Grown-ups", "es": "Los adultos", "emoji": "🧑" }
+      ],
+      "answer": 0,
+      "why": { "en": "Newborn babies sleep about sixteen hours a day in short bits, because growing that fast takes an enormous amount of rest.", "es": "Los recién nacidos duermen unas dieciséis horas al día en ratos cortos, porque crecer tan rápido necesita muchísimo descanso." },
+      "topic": "sleep",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "When should you wash your hands?", "es": "¿Cuándo debes lavarte las manos?" },
+      "choices": [
+        { "en": "During a movie", "es": "Durante una película", "emoji": "🎬" },
+        { "en": "Before eating", "es": "Antes de comer", "emoji": "🍽️" },
+        { "en": "While drawing", "es": "Mientras dibujas", "emoji": "🖍️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Washing before meals keeps germs off your food, and doctors say clean hands stop more sickness than almost anything else.", "es": "Lavarte antes de comer mantiene los microbios lejos de tu comida, y los médicos dicen que las manos limpias evitan muchas enfermedades." },
+      "topic": "washing hands",
+      "source": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "body-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "How long should you scrub your hands?", "es": "¿Cuánto tiempo debes tallarte las manos?" },
+      "choices": [
+        { "en": "About one second", "es": "Un segundo", "emoji": "⚡" },
+        { "en": "About ten minutes", "es": "Unos diez minutos", "emoji": "⏳" },
+        { "en": "About twenty seconds", "es": "Unos veinte segundos", "emoji": "⏱️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Twenty seconds is about as long as singing the happy birthday song twice, and soap needs that time to work.", "es": "Veinte segundos es lo que dura cantar dos veces la canción de cumpleaños, y el jabón necesita ese tiempo para funcionar." },
+      "topic": "washing hands",
+      "source": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "body-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚰",
+      "q": { "en": "What do you need with water to wash hands?", "es": "¿Qué necesitas con el agua para lavarte las manos?" },
+      "choices": [
+        { "en": "Soap", "es": "Jabón", "emoji": "🧼" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Paint", "es": "Pintura", "emoji": "🎨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Soap grabs grease and germs and lets the water carry them away, which plain water alone cannot do well.", "es": "El jabón atrapa la grasa y los microbios para que el agua se los lleve, algo que el agua sola casi no logra." },
+      "topic": "washing hands",
+      "source": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "body-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "How big are germs?", "es": "¿De qué tamaño son los microbios?" },
+      "choices": [
+        { "en": "As big as ants", "es": "Como una hormiga", "emoji": "🐜" },
+        { "en": "Too small to see", "es": "Tan pequeños que no se ven", "emoji": "🔬" },
+        { "en": "As big as peas", "es": "Como un chícharo", "emoji": "🫛" }
+      ],
+      "answer": 1,
+      "why": { "en": "Germs are so tiny that thousands fit on the tip of a pencil, and only a microscope shows them.", "es": "Los microbios son tan pequeños que miles caben en la punta de un lápiz, y solo un microscopio los muestra." },
+      "topic": "germs",
+      "source": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "body-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤧",
+      "q": { "en": "Where should you sneeze if you have no tissue?", "es": "¿Dónde debes estornudar si no tienes pañuelo?" },
+      "choices": [
+        { "en": "Into your hands", "es": "En las manos", "emoji": "🤲" },
+        { "en": "Into your elbow", "es": "En el codo", "emoji": "💪" },
+        { "en": "Toward your friend", "es": "Hacia tu amigo", "emoji": "🧒" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sneezing into your elbow keeps germs off your hands, so they do not travel to doorknobs, toys and other people.", "es": "Estornudar en el codo deja los microbios lejos de tus manos, así no viajan a las perillas, los juguetes y la gente." },
+      "topic": "germs",
+      "source": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "body-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "💅",
+      "q": { "en": "Which part of your hands hides the most germs?", "es": "¿Qué parte de tus manos guarda más microbios?" },
+      "choices": [
+        { "en": "Under your nails", "es": "Debajo de las uñas", "emoji": "💅" },
+        { "en": "On your palm", "es": "En la palma", "emoji": "🖐️" },
+        { "en": "On your wrist", "es": "En la muñeca", "emoji": "⌚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Germs love the warm space under fingernails, which is why short clean nails and careful scrubbing matter so much.", "es": "A los microbios les encanta el espacio tibio bajo las uñas, por eso conviene tenerlas cortas y tallarlas con cuidado." },
+      "topic": "germs",
+      "source": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "body-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "What should you do after petting a dog?", "es": "¿Qué debes hacer después de acariciar a un perro?" },
+      "choices": [
+        { "en": "Rub your eyes", "es": "Frotarte los ojos", "emoji": "👁️" },
+        { "en": "Eat a snack", "es": "Comer una galleta", "emoji": "🍪" },
+        { "en": "Wash your hands", "es": "Lavarte las manos", "emoji": "🧼" }
+      ],
+      "answer": 2,
+      "why": { "en": "Animals carry germs on their fur, so washing after petting keeps you healthy and the pet perfectly happy.", "es": "Los animales llevan microbios en el pelo, así que lavarte después de acariciarlos te mantiene sano y a la mascota feliz." },
+      "topic": "washing hands",
+      "source": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "body-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥕",
+      "q": { "en": "Which of these is a vegetable?", "es": "¿Cuál de estos es una verdura?" },
+      "choices": [
+        { "en": "Banana", "es": "El plátano", "emoji": "🍌" },
+        { "en": "Carrot", "es": "La zanahoria", "emoji": "🥕" },
+        { "en": "Bread", "es": "El pan", "emoji": "🍞" }
+      ],
+      "answer": 1,
+      "why": { "en": "A carrot is a root you eat, and the orange color comes from something your body turns into a vitamin.", "es": "La zanahoria es una raíz que se come, y su color naranja viene de algo que tu cuerpo convierte en vitamina." },
+      "topic": "healthy food",
+      "source": "https://kidshealth.org/en/kids/vegetables.html"
+    },
+    {
+      "id": "body-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which drink is best when you are thirsty?", "es": "¿Qué bebida es mejor cuando tienes sed?" },
+      "choices": [
+        { "en": "Water", "es": "El agua", "emoji": "💧" },
+        { "en": "Soda", "es": "El refresco", "emoji": "🥤" },
+        { "en": "An ice cream float", "es": "Un helado con refresco", "emoji": "🍨" }
+      ],
+      "answer": 0,
+      "why": { "en": "More than half of your body is water, and you lose some every time you breathe, sweat or go to the bathroom.", "es": "Más de la mitad de tu cuerpo es agua, y pierdes un poco cada vez que respiras, sudas o vas al baño." },
+      "topic": "drinking water",
+      "source": "https://kidshealth.org/en/kids/water.html"
+    },
+    {
+      "id": "body-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥗",
+      "q": { "en": "Which plate is the healthiest lunch?", "es": "¿Cuál es el almuerzo más saludable?" },
+      "choices": [
+        { "en": "Candy and soda", "es": "Dulces y refresco", "emoji": "🍭" },
+        { "en": "Rice, beans and greens", "es": "Arroz, frijoles y verduras", "emoji": "🥗" },
+        { "en": "Cake and chips", "es": "Pastel y papitas", "emoji": "🍰" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rice and beans together give your body everything in meat, which is why the pair is loved all over Latin America.", "es": "El arroz con frijoles juntos dan lo mismo que la carne, por eso esa pareja se quiere en toda América Latina." },
+      "topic": "healthy food",
+      "source": "https://www.britannica.com/science/nutrition"
+    },
+    {
+      "id": "body-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "Which meal helps you start the day?", "es": "¿Qué comida te ayuda a empezar el día?" },
+      "choices": [
+        { "en": "Dinner", "es": "La cena", "emoji": "🍝" },
+        { "en": "Dessert", "es": "El postre", "emoji": "🍰" },
+        { "en": "Breakfast", "es": "El desayuno", "emoji": "🥣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Breakfast means breaking the long fast of the night, and it refills the fuel your brain uses for thinking and learning.", "es": "Desayuno viene de romper el ayuno de la noche, y llena de combustible al cerebro para pensar y aprender." },
+      "topic": "healthy food",
+      "source": "https://kidshealth.org/en/kids/breakfast.html"
+    },
+    {
+      "id": "body-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which food grows underground?", "es": "¿Cuál de estos alimentos crece bajo la tierra?" },
+      "choices": [
+        { "en": "Apple", "es": "La manzana", "emoji": "🍎" },
+        { "en": "Potato", "es": "La papa", "emoji": "🥔" },
+        { "en": "Corn", "es": "El maíz", "emoji": "🌽" }
+      ],
+      "answer": 1,
+      "why": { "en": "Potatoes grow under the soil and first came from the Andes mountains in South America thousands of years ago.", "es": "Las papas crecen bajo la tierra y llegaron primero de los Andes, en América del Sur, hace miles de años." },
+      "topic": "healthy food",
+      "source": "https://www.britannica.com/plant/potato"
+    },
+    {
+      "id": "body-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍊",
+      "q": { "en": "What are fruits and vegetables full of?", "es": "¿De qué están llenas las frutas y verduras?" },
+      "choices": [
+        { "en": "Vitamins", "es": "Vitaminas", "emoji": "🍊" },
+        { "en": "Metal", "es": "Metal", "emoji": "🔩" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Vitamins are tiny helpers your body cannot make, so you must eat them; oranges are famous for vitamin C.", "es": "Las vitaminas son ayudantes diminutos que tu cuerpo no fabrica, por eso hay que comerlas; la naranja da vitamina C." },
+      "topic": "healthy food",
+      "source": "https://kidshealth.org/en/kids/vitamin.html"
+    },
+    {
+      "id": "body-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "How long does food stay in your stomach?", "es": "¿Cuánto tiempo se queda la comida en tu estómago?" },
+      "choices": [
+        { "en": "A few seconds", "es": "Unos segundos", "emoji": "⏱️" },
+        { "en": "A few hours", "es": "Unas horas", "emoji": "⏳" },
+        { "en": "A whole month", "es": "Todo un mes", "emoji": "📅" }
+      ],
+      "answer": 1,
+      "why": { "en": "Food sloshes in your stomach for a few hours while strong juices break it down into a soupy mush.", "es": "La comida se revuelve unas horas en el estómago mientras unos jugos fuertes la deshacen y la vuelven una sopa espesa." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔊",
+      "q": { "en": "What makes your tummy rumble?", "es": "¿Qué hace que tu panza haga ruidos?" },
+      "choices": [
+        { "en": "Your heart beating", "es": "Los latidos del corazón", "emoji": "🫀" },
+        { "en": "Your bones growing", "es": "Los huesos que crecen", "emoji": "🦴" },
+        { "en": "Air and juices moving", "es": "El aire y los jugos que se mueven", "emoji": "🫧" }
+      ],
+      "answer": 2,
+      "why": { "en": "That growl is air and juices squeezing through your empty stomach and intestines, and it happens even when you feel full.", "es": "Ese ruido es el aire y los jugos que pasan por el estómago vacío, y también pasa cuando estás lleno." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "Which snack helps you grow strong muscles?", "es": "¿Qué merienda te ayuda a tener músculos fuertes?" },
+      "choices": [
+        { "en": "Chips", "es": "Papitas", "emoji": "🍟" },
+        { "en": "A lollipop", "es": "Una paleta", "emoji": "🍭" },
+        { "en": "Beans", "es": "Frijoles", "emoji": "🫘" }
+      ],
+      "answer": 2,
+      "why": { "en": "Beans are packed with protein, the building block your body uses to make muscle, skin, hair and everything else.", "es": "Los frijoles tienen mucha proteína, el material con el que tu cuerpo hace músculo, piel, cabello y todo lo demás." },
+      "topic": "healthy food",
+      "source": "https://www.britannica.com/science/protein"
+    },
+    {
+      "id": "body-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which body part helps you remember things?", "es": "¿Qué parte del cuerpo te ayuda a recordar?" },
+      "choices": [
+        { "en": "Brain", "es": "El cerebro", "emoji": "🧠" },
+        { "en": "Elbow", "es": "El codo", "emoji": "💪" },
+        { "en": "Foot", "es": "El pie", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your brain stores memories and sends orders to every muscle, all while weighing about as much as a small pineapple.", "es": "Tu cerebro guarda recuerdos y manda órdenes a cada músculo, y pesa más o menos lo mismo que una piña pequeña." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "What tells your hand to pick up a cup?", "es": "¿Qué le dice a tu mano que tome un vaso?" },
+      "choices": [
+        { "en": "Your stomach", "es": "Tu estómago", "emoji": "🍽️" },
+        { "en": "Your brain", "es": "Tu cerebro", "emoji": "🧠" },
+        { "en": "Your knee", "es": "Tu rodilla", "emoji": "🦵" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your brain sends the message down nerves faster than a car on the highway, so your hand moves right away.", "es": "Tu cerebro manda el mensaje por los nervios más rápido que un carro en la carretera, y la mano se mueve enseguida." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "What happens in your brain while you learn?", "es": "¿Qué pasa en tu cerebro mientras aprendes?" },
+      "choices": [
+        { "en": "It builds new links", "es": "Crea uniones nuevas", "emoji": "🔗" },
+        { "en": "It changes color", "es": "Cambia de color", "emoji": "🎨" },
+        { "en": "It gets heavier", "es": "Se vuelve más pesado", "emoji": "🏋️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Practicing builds stronger links between brain cells, which is why the tenth try of a song feels easier than the first.", "es": "Practicar crea uniones más fuertes entre las células del cerebro; por eso el décimo intento de una canción sale mejor." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "What makes you dizzy after spinning around?", "es": "¿Qué te marea después de dar vueltas?" },
+      "choices": [
+        { "en": "Air in your tummy", "es": "El aire en la panza", "emoji": "🫧" },
+        { "en": "Sun in your eyes", "es": "El sol en los ojos", "emoji": "☀️" },
+        { "en": "Liquid in your ears", "es": "El líquido de tus oídos", "emoji": "👂" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tiny tubes in your ears hold liquid that keeps swirling after you stop, so your brain thinks you are still turning.", "es": "Unos tubitos de tus oídos tienen líquido que sigue girando cuando te detienes, y tu cerebro cree que aún das vueltas." },
+      "topic": "balance",
+      "source": "https://kidshealth.org/en/kids/dizziness.html"
+    },
+    {
+      "id": "body-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩺",
+      "q": { "en": "What happens when a doctor taps your knee?", "es": "¿Qué pasa cuando el doctor golpea tu rodilla?" },
+      "choices": [
+        { "en": "Your leg kicks", "es": "Tu pierna da una patada", "emoji": "🦵" },
+        { "en": "Your arm waves", "es": "Tu brazo saluda", "emoji": "👋" },
+        { "en": "You fall asleep", "es": "Te duermes", "emoji": "😴" }
+      ],
+      "answer": 0,
+      "why": { "en": "That kick is a reflex; the message stops at your spine and bounces back without waiting for your brain.", "es": "Esa patada es un reflejo: el mensaje llega a tu columna y regresa solo, sin esperar la respuesta del cerebro." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "✍️",
+      "q": { "en": "Which hand do most people write with?", "es": "¿Con qué mano escribe la mayoría de las personas?" },
+      "choices": [
+        { "en": "The left hand", "es": "La mano izquierda", "emoji": "🤚" },
+        { "en": "Both the same", "es": "Las dos igual", "emoji": "🙌" },
+        { "en": "The right hand", "es": "La mano derecha", "emoji": "✍️" }
+      ],
+      "answer": 2,
+      "why": { "en": "About nine of every ten people write with the right hand, and your brain picks a favorite before you turn three.", "es": "Cerca de nueve de cada diez personas escriben con la derecha, y tu cerebro elige su favorita antes de los tres años." },
+      "topic": "the brain",
+      "source": "https://www.britannica.com/science/handedness"
+    },
+    {
+      "id": "body-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "What do your nerves carry around your body?", "es": "¿Qué llevan tus nervios por todo el cuerpo?" },
+      "choices": [
+        { "en": "Messages", "es": "Mensajes", "emoji": "📩" },
+        { "en": "Blood", "es": "Sangre", "emoji": "🩸" },
+        { "en": "Food", "es": "Comida", "emoji": "🍎" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nerves are like wires carrying tiny sparks of electricity, and the longest one runs from your back down to your foot.", "es": "Los nervios son como cables que llevan chispitas de electricidad, y el más largo va de tu espalda hasta el pie." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "👟",
+      "q": { "en": "What happens to your feet as you grow?", "es": "¿Qué les pasa a tus pies mientras creces?" },
+      "choices": [
+        { "en": "They get smaller", "es": "Se hacen más chicos", "emoji": "🐜" },
+        { "en": "They get bigger", "es": "Se hacen más grandes", "emoji": "🦶" },
+        { "en": "They stay the same", "es": "Se quedan igual", "emoji": "➡️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your feet grow with you, so children need new shoes about twice a year until they stop growing as teenagers.", "es": "Tus pies crecen contigo, por eso los niños necesitan zapatos nuevos dos veces al año hasta dejar de crecer." },
+      "topic": "growing",
+      "source": "https://kidshealth.org/en/kids/grow.html"
+    },
+    {
+      "id": "body-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Who has more bones, a baby or you?", "es": "¿Quién tiene más huesos, un bebé o tú?" },
+      "choices": [
+        { "en": "A baby", "es": "Un bebé", "emoji": "👶" },
+        { "en": "You", "es": "Tú", "emoji": "🧒" },
+        { "en": "Both the same", "es": "Los dos igual", "emoji": "⚖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Babies start with about three hundred bones, and many fuse together as they grow, leaving grown-ups with two hundred six.", "es": "Los bebés nacen con unos trescientos huesos, y muchos se unen al crecer, así que los adultos tienen doscientos seis." },
+      "topic": "growing",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍼",
+      "q": { "en": "Which part of a baby is biggest?", "es": "¿Qué parte de un bebé es la más grande?" },
+      "choices": [
+        { "en": "The feet", "es": "Los pies", "emoji": "🦶" },
+        { "en": "The hands", "es": "Las manos", "emoji": "✋" },
+        { "en": "The head", "es": "La cabeza", "emoji": "👶" }
+      ],
+      "answer": 2,
+      "why": { "en": "A newborn's head is about a quarter of its whole length, because the brain grows earliest and fastest of all.", "es": "La cabeza de un recién nacido mide casi la cuarta parte de su cuerpo, porque el cerebro crece primero y más rápido." },
+      "topic": "growing",
+      "source": "https://www.britannica.com/science/human-development"
+    },
+    {
+      "id": "body-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "What pulls your bones so you move?", "es": "¿Qué jala tus huesos para que te muevas?" },
+      "choices": [
+        { "en": "Muscles", "es": "Los músculos", "emoji": "💪" },
+        { "en": "Skin", "es": "La piel", "emoji": "✋" },
+        { "en": "Hair", "es": "El cabello", "emoji": "🦱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Muscles pull on bones like ropes, and you have more than six hundred of them working all over your body.", "es": "Los músculos jalan los huesos como cuerdas, y tienes más de seiscientos trabajando por todo tu cuerpo." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Which muscle works all day and night?", "es": "¿Cuál músculo trabaja de día y de noche?" },
+      "choices": [
+        { "en": "Your leg muscle", "es": "El músculo de la pierna", "emoji": "🦵" },
+        { "en": "Your heart", "es": "El corazón", "emoji": "🫀" },
+        { "en": "Your arm muscle", "es": "El músculo del brazo", "emoji": "💪" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your heart squeezes about one hundred thousand times a day and rests a little between every single beat.", "es": "Tu corazón late unas cien mil veces al día y descansa un poquito entre cada latido, por eso jamás se cansa." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "😊",
+      "q": { "en": "What do you use to smile?", "es": "¿Qué usas para sonreír?" },
+      "choices": [
+        { "en": "Ear muscles", "es": "Los músculos de la oreja", "emoji": "👂" },
+        { "en": "Toe muscles", "es": "Los músculos del dedo del pie", "emoji": "🦶" },
+        { "en": "Face muscles", "es": "Los músculos de la cara", "emoji": "😊" }
+      ],
+      "answer": 2,
+      "why": { "en": "A smile uses about a dozen face muscles, and your face has more muscles than any other part of you.", "es": "Una sonrisa usa como doce músculos de la cara, y tu cara tiene más músculos que cualquier otra parte de ti." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏋️",
+      "q": { "en": "What happens to muscles when you exercise?", "es": "¿Qué les pasa a los músculos con el ejercicio?" },
+      "choices": [
+        { "en": "They get stronger", "es": "Se hacen más fuertes", "emoji": "💪" },
+        { "en": "They disappear", "es": "Desaparecen", "emoji": "💨" },
+        { "en": "They turn blue", "es": "Se ponen azules", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Exercise makes tiny tears in muscle that heal back thicker, so your muscles grow while you rest and sleep.", "es": "El ejercicio hace pequeñas roturas en el músculo que sanan más gruesas, así que tus músculos crecen mientras descansas y duermes." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "😬",
+      "q": { "en": "Which muscle bites down on your food?", "es": "¿Cuál músculo muerde tu comida?" },
+      "choices": [
+        { "en": "Your elbow", "es": "El codo", "emoji": "💪" },
+        { "en": "Your jaw", "es": "La mandíbula", "emoji": "😬" },
+        { "en": "Your ankle", "es": "El tobillo", "emoji": "🦶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jaw muscles are the strongest for their size, and they can press harder than your hand can squeeze.", "es": "Los músculos de la mandíbula son los más fuertes para su tamaño y aprietan mucho más que tu mano." },
+      "topic": "muscles",
+      "source": "https://kids.britannica.com/kids/article/muscle/353378"
+    },
+    {
+      "id": "body-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What is the bendy part between two bones?", "es": "¿Cómo se llama la unión entre dos huesos?" },
+      "choices": [
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" },
+        { "en": "A bubble", "es": "Una burbuja", "emoji": "🫧" },
+        { "en": "A joint", "es": "Una articulación", "emoji": "🦴" }
+      ],
+      "answer": 2,
+      "why": { "en": "A joint is where bones meet, and slippery padding plus a little oil lets them slide without rubbing.", "es": "Una articulación es donde se juntan dos huesos, y un acolchado resbaloso con un poco de aceite evita que se rocen." },
+      "topic": "joints",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "Which joint lets your arm bend?", "es": "¿Cuál articulación deja que tu brazo se doble?" },
+      "choices": [
+        { "en": "Your elbow", "es": "El codo", "emoji": "💪" },
+        { "en": "Your knee", "es": "La rodilla", "emoji": "🦵" },
+        { "en": "Your ankle", "es": "El tobillo", "emoji": "🦶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your elbow works like a door hinge, bending one way only, while your shoulder swings a whole circle.", "es": "Tu codo funciona como la bisagra de una puerta y solo dobla hacia un lado, pero tu hombro gira en círculo completo." },
+      "topic": "joints",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "Which body part has the most bones?", "es": "¿Cuál parte del cuerpo tiene más huesos?" },
+      "choices": [
+        { "en": "Your neck", "es": "El cuello", "emoji": "🦴" },
+        { "en": "Your hands", "es": "Las manos", "emoji": "🖐️" },
+        { "en": "Your nose", "es": "La nariz", "emoji": "👃" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your two hands and wrists hold more than a quarter of all your bones, which is why fingers move so well.", "es": "Tus dos manos y muñecas tienen más de la cuarta parte de todos tus huesos, por eso los dedos se mueven tan bien." },
+      "topic": "bones",
+      "source": "https://kids.britannica.com/kids/article/skeleton/353543"
+    },
+    {
+      "id": "body-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What is hiding inside your big bones?", "es": "¿Qué se esconde dentro de tus huesos grandes?" },
+      "choices": [
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" },
+        { "en": "Marrow", "es": "Médula", "emoji": "🩸" }
+      ],
+      "answer": 2,
+      "why": { "en": "Marrow is a soft jelly in the middle of bones, and it makes millions of new blood cells every second.", "es": "La médula es una gelatina blanda dentro de los huesos y fabrica millones de células de sangre cada segundo." },
+      "topic": "bones",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "✋",
+      "q": { "en": "What is the biggest organ you have?", "es": "¿Cuál es el órgano más grande que tienes?" },
+      "choices": [
+        { "en": "Your skin", "es": "La piel", "emoji": "✋" },
+        { "en": "Your ear", "es": "La oreja", "emoji": "👂" },
+        { "en": "Your tongue", "es": "La lengua", "emoji": "👅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Skin covers you completely, keeps water in and germs out, and it makes a brand new layer about every month.", "es": "La piel te cubre entera, guarda el agua adentro y deja los gérmenes afuera, y se renueva casi cada mes." },
+      "topic": "skin and hair",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "What comes out of your skin when hot?", "es": "¿Qué sale de tu piel cuando tienes calor?" },
+      "choices": [
+        { "en": "Bubbles", "es": "Burbujas", "emoji": "🫧" },
+        { "en": "Sweat", "es": "Sudor", "emoji": "💦" },
+        { "en": "Steam", "es": "Vapor", "emoji": "♨️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sweat spreads over your skin and cools you as it dries, which is why a breeze feels so good.", "es": "El sudor se extiende por tu piel y te enfría al secarse, por eso una brisa se siente tan rica." },
+      "topic": "skin and hair",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "What appears on your arms when cold?", "es": "¿Qué aparece en tus brazos cuando tienes frío?" },
+      "choices": [
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" },
+        { "en": "Freckles", "es": "Pecas", "emoji": "🟤" },
+        { "en": "Goosebumps", "es": "Piel de gallina", "emoji": "🥶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tiny muscles pull each hair upright, and animals with thick fur use the same trick to trap warm air.", "es": "Unos músculos diminutos paran cada vello, y los animales peludos usan el mismo truco para atrapar aire calientito." },
+      "topic": "goosebumps",
+      "source": "https://kidshealth.org/en/kids/goose-bumps.html"
+    },
+    {
+      "id": "body-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦱",
+      "q": { "en": "Where does your hair start growing from?", "es": "¿De dónde empieza a crecer tu cabello?" },
+      "choices": [
+        { "en": "A root under your skin", "es": "Una raíz bajo la piel", "emoji": "🌱" },
+        { "en": "The tip of the hair", "es": "La punta del cabello", "emoji": "✂️" },
+        { "en": "The air around you", "es": "El aire a tu alrededor", "emoji": "💨" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each hair grows from a tiny pocket in your skin, so cutting the end hurts about as much as cutting paper.", "es": "Cada cabello crece desde una bolsita en tu piel, por eso cortar la punta duele tanto como cortar un papel." },
+      "topic": "skin and hair",
+      "source": "https://kidshealth.org/en/kids/hair.html"
+    },
+    {
+      "id": "body-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤧",
+      "q": { "en": "What happens when your nose feels tickly?", "es": "¿Qué pasa cuando te pica la nariz?" },
+      "choices": [
+        { "en": "You hiccup", "es": "Te da hipo", "emoji": "😮" },
+        { "en": "You sneeze", "es": "Estornudas", "emoji": "🤧" },
+        { "en": "You wink", "es": "Guiñas un ojo", "emoji": "😉" }
+      ],
+      "answer": 1,
+      "why": { "en": "A sneeze blasts air out faster than a car on the highway to clear dust and pepper from your nose.", "es": "Un estornudo lanza aire más rápido que un carro en la carretera para sacar polvo y pimienta de tu nariz." },
+      "topic": "sneezes",
+      "source": "https://kidshealth.org/en/kids/sneeze.html"
+    },
+    {
+      "id": "body-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "What closes by itself during a sneeze?", "es": "¿Qué se cierra solo cuando estornudas?" },
+      "choices": [
+        { "en": "Your hands", "es": "Las manos", "emoji": "🤲" },
+        { "en": "Your knees", "es": "Las rodillas", "emoji": "🦵" },
+        { "en": "Your eyes", "es": "Los ojos", "emoji": "👀" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your eyes shut on their own every sneeze, a reflex your brain does without asking you first.", "es": "Tus ojos se cierran solos en cada estornudo; es un reflejo que tu cerebro hace sin pedirte permiso." },
+      "topic": "sneezes",
+      "source": "https://kidshealth.org/en/kids/sneeze.html"
+    },
+    {
+      "id": "body-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "😮",
+      "q": { "en": "Which muscle jumps when you get hiccups?", "es": "¿Cuál músculo brinca cuando te da hipo?" },
+      "choices": [
+        { "en": "The one under your lungs", "es": "El que está bajo los pulmones", "emoji": "🫁" },
+        { "en": "The one in your toe", "es": "El que está en el dedo del pie", "emoji": "🦶" },
+        { "en": "The one in your ear", "es": "El que está en la oreja", "emoji": "👂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hiccups come from your diaphragm, the breathing muscle below your lungs, twitching and snapping your voice box shut.", "es": "El hipo viene del diafragma, el músculo con el que respiras debajo de los pulmones, que brinca y cierra tu voz." },
+      "topic": "hiccups",
+      "source": "https://kidshealth.org/en/kids/hiccup.html"
+    },
+    {
+      "id": "body-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "😉",
+      "q": { "en": "What do your eyelids do all day?", "es": "¿Qué hacen tus párpados todo el día?" },
+      "choices": [
+        { "en": "Whistle", "es": "Chiflan", "emoji": "😗" },
+        { "en": "Blink", "es": "Parpadean", "emoji": "😉" },
+        { "en": "Sleep", "es": "Duermen", "emoji": "😴" }
+      ],
+      "answer": 1,
+      "why": { "en": "Blinking spreads a thin layer of tears that washes and polishes your eyes, and it takes less than a second.", "es": "Parpadear reparte una capa delgada de lágrimas que lava y pule tus ojos, y dura menos de un segundo." },
+      "topic": "blinking",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥱",
+      "q": { "en": "What happens when you see someone yawn?", "es": "¿Qué pasa cuando ves a alguien bostezar?" },
+      "choices": [
+        { "en": "You start to sing", "es": "Empiezas a cantar", "emoji": "🎤" },
+        { "en": "You feel hungry", "es": "Te da hambre", "emoji": "🍽️" },
+        { "en": "You want to yawn too", "es": "Te dan ganas de bostezar", "emoji": "🥱" }
+      ],
+      "answer": 2,
+      "why": { "en": "Yawns are catching, even from a photo, and dogs sometimes yawn right back when their favorite person does.", "es": "Los bostezos se contagian, hasta con una foto, y a veces los perros bostezan cuando su persona favorita lo hace." },
+      "topic": "yawns",
+      "source": "https://kidshealth.org/en/kids/yawn.html"
+    },
+    {
+      "id": "body-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "👶",
+      "q": { "en": "What is the belly button left from?", "es": "¿De dónde viene tu ombligo?" },
+      "choices": [
+        { "en": "The cord that fed you", "es": "El cordón que te alimentaba", "emoji": "🍼" },
+        { "en": "A tiny button", "es": "Un botoncito", "emoji": "🔘" },
+        { "en": "A mosquito bite", "es": "Un piquete de mosquito", "emoji": "🦟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Before you were born a soft cord brought you food and air, and your belly button is where it joined.", "es": "Antes de nacer, un cordón blandito te llevaba comida y aire, y tu ombligo es donde estaba conectado." },
+      "topic": "the belly button",
+      "source": "https://kidshealth.org/en/kids/bellybutton.html"
+    },
+    {
+      "id": "body-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐶",
+      "q": { "en": "Which animals also have a belly button?", "es": "¿Cuáles animales también tienen ombligo?" },
+      "choices": [
+        { "en": "Birds", "es": "Las aves", "emoji": "🐦" },
+        { "en": "Dogs and cats", "es": "Los perros y los gatos", "emoji": "🐶" },
+        { "en": "Fish", "es": "Los peces", "emoji": "🐟" }
+      ],
+      "answer": 1,
+      "why": { "en": "Every animal fed by a cord before birth has one, so puppies and kittens have small flat belly buttons.", "es": "Todo animal que se alimentó por un cordón antes de nacer tiene uno, así que los perritos y gatitos también." },
+      "topic": "the belly button",
+      "source": "https://kids.nationalgeographic.com/animals/mammals"
+    },
+    {
+      "id": "body-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What should you wear on a sunny day?", "es": "¿Qué debes usar en un día soleado?" },
+      "choices": [
+        { "en": "A raincoat", "es": "Un impermeable", "emoji": "🧥" },
+        { "en": "Snow boots", "es": "Botas para la nieve", "emoji": "🥾" },
+        { "en": "A hat and sunscreen", "es": "Un sombrero y bloqueador", "emoji": "🧴" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sunlight can burn skin in minutes, so a hat, shade and sunscreen protect you even when the day feels cool.", "es": "El sol puede quemar la piel en minutos, así que un sombrero, la sombra y el bloqueador te cuidan igual." },
+      "topic": "sun and shade",
+      "source": "https://kidshealth.org/en/kids/summer-safety.html"
+    },
+    {
+      "id": "body-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "What does the sun help your body make?", "es": "¿Qué fabrica tu piel con la luz del Sol?" },
+      "choices": [
+        { "en": "Vitamin D", "es": "Vitamina D", "emoji": "☀️" },
+        { "en": "Sugar", "es": "Azúcar", "emoji": "🍬" },
+        { "en": "Salt", "es": "Sal", "emoji": "🧂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your skin makes vitamin D from sunlight, and that vitamin helps your body use calcium to build strong bones.", "es": "Tu piel fabrica vitamina D con la luz del Sol, y esa vitamina ayuda a tu cuerpo a usar el calcio." },
+      "topic": "sun and shade",
+      "source": "https://kidshealth.org/en/kids/vitamin-d.html"
+    },
+    {
+      "id": "body-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩺",
+      "q": { "en": "Who helps you when you feel sick?", "es": "¿Quién te ayuda cuando te sientes enfermo?" },
+      "choices": [
+        { "en": "A baker", "es": "Un panadero", "emoji": "🧁" },
+        { "en": "A doctor", "es": "Un doctor", "emoji": "🩺" },
+        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" }
+      ],
+      "answer": 1,
+      "why": { "en": "Doctors listen to your heart and lungs with a stethoscope, a tube that carries quiet body sounds to their ears.", "es": "Los doctores escuchan tu corazón y tus pulmones con un estetoscopio, un tubo que lleva los sonidos suaves a sus oídos." },
+      "topic": "doctors and dentists",
+      "source": "https://kidshealth.org/en/kids/going-to-dr.html"
+    },
+    {
+      "id": "body-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "Who checks your teeth for you?", "es": "¿Quién revisa tus dientes?" },
+      "choices": [
+        { "en": "A firefighter", "es": "Un bombero", "emoji": "🚒" },
+        { "en": "A farmer", "es": "Un granjero", "emoji": "🌾" },
+        { "en": "A dentist", "es": "Un dentista", "emoji": "🦷" }
+      ],
+      "answer": 2,
+      "why": { "en": "A dentist counts your teeth, cleans them and uses a little mirror to see the hidden backs you cannot reach.", "es": "El dentista cuenta tus dientes, los limpia y usa un espejito para ver la parte de atrás que tú no alcanzas." },
+      "topic": "doctors and dentists",
+      "source": "https://kidshealth.org/en/kids/go-dentist.html"
+    },
+    {
+      "id": "body-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What does a doctor use to see bones?", "es": "¿Qué usa el doctor para ver los huesos?" },
+      "choices": [
+        { "en": "An X-ray", "es": "Una radiografía", "emoji": "🦴" },
+        { "en": "A telescope", "es": "Un telescopio", "emoji": "🔭" },
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" }
+      ],
+      "answer": 0,
+      "why": { "en": "An X-ray picture passes through soft parts and stops at bone, so the bones show up white in the photo.", "es": "La radiografía atraviesa las partes blandas y se detiene en el hueso, por eso los huesos salen blancos en la foto." },
+      "topic": "doctors and dentists",
+      "source": "https://kidshealth.org/en/kids/x-ray.html"
+    },
+    {
+      "id": "body-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which tool shows how tall you grew?", "es": "¿Cuál herramienta muestra cuánto creciste?" },
+      "choices": [
+        { "en": "A clock", "es": "Un reloj", "emoji": "🕐" },
+        { "en": "A measuring tape", "es": "Una cinta métrica", "emoji": "📏" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Doctors mark your height at every visit, and children grow about as much as the width of two fingers each year.", "es": "El doctor marca tu estatura en cada visita, y los niños crecen como el ancho de dos dedos cada año." },
+      "topic": "doctors and dentists",
+      "source": "https://kidshealth.org/en/kids/checkups.html"
+    },
+    {
+      "id": "body-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Which body parts fill up with air?", "es": "¿Cuáles partes de tu cuerpo se llenan de aire?" },
+      "choices": [
+        { "en": "Your bones", "es": "Los huesos", "emoji": "🦴" },
+        { "en": "Your teeth", "es": "Los dientes", "emoji": "🦷" },
+        { "en": "Your lungs", "es": "Los pulmones", "emoji": "🫁" }
+      ],
+      "answer": 2,
+      "why": { "en": "You have two lungs, and inside they hold millions of tiny air pockets that would cover a tennis court.", "es": "Tienes dos pulmones, y adentro guardan millones de bolsitas de aire que cubrirían una cancha de tenis entera." },
+      "topic": "breathing",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "What do you breathe in from the air?", "es": "¿Qué respiras del aire?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno", "emoji": "💨" },
+        { "en": "Water", "es": "Agua", "emoji": "💧" },
+        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air is mostly nitrogen, and your body keeps only the oxygen, breathing about twenty thousand times every single day.", "es": "El aire es casi todo nitrógeno, y tu cuerpo se queda solo con el oxígeno, unas veinte mil respiraciones al día." },
+      "topic": "breathing",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "Which part of you keeps growing your whole life?", "es": "¿Cuál parte de ti crece toda la vida?" },
+      "choices": [
+        { "en": "Your eyes", "es": "Los ojos", "emoji": "👀" },
+        { "en": "Your ears and nose", "es": "Las orejas y la nariz", "emoji": "👂" },
+        { "en": "Your feet", "es": "Los pies", "emoji": "🦶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ears and noses are made of cartilage, which keeps growing and drooping slowly, so older people have bigger ones.", "es": "Las orejas y la nariz son de cartílago, que sigue creciendo poco a poco, por eso los abuelos las tienen grandes." },
+      "topic": "growing",
+      "source": "https://kids.britannica.com/kids/article/cartilage/626408"
+    },
+    {
+      "id": "body-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "When are you tallest during the day?", "es": "¿Cuándo eres más alto durante el día?" },
+      "choices": [
+        { "en": "At lunchtime", "es": "A la hora del almuerzo", "emoji": "🍽️" },
+        { "en": "At bedtime", "es": "A la hora de dormir", "emoji": "🛏️" },
+        { "en": "In the morning", "es": "En la mañana", "emoji": "🌅" }
+      ],
+      "answer": 2,
+      "why": { "en": "Walking around squashes the soft pads between your back bones, so you shrink a little and stretch back overnight.", "es": "Caminar aplasta los cojincitos blandos entre los huesos de tu espalda, así que encoges un poquito y te estiras de noche." },
+      "topic": "growing",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍉",
+      "q": { "en": "Which fruit is almost all water?", "es": "¿Cuál fruta es casi toda agua?" },
+      "choices": [
+        { "en": "Watermelon", "es": "La sandía", "emoji": "🍉" },
+        { "en": "Banana", "es": "El plátano", "emoji": "🍌" },
+        { "en": "Coconut", "es": "El coco", "emoji": "🥥" }
+      ],
+      "answer": 0,
+      "why": { "en": "A watermelon is about nine parts water out of ten, so eating slices on a hot day helps you drink.", "es": "La sandía tiene como nueve partes de agua de cada diez, así que comerla en un día caluroso también te hidrata." },
+      "topic": "drinking water",
+      "source": "https://kidshealth.org/en/kids/water.html"
     }
   ]
 }

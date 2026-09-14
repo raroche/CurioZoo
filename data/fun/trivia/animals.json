@@ -1,7 +1,7 @@
 {
   "note": "Animals & Nature. Three levels in one file so a reviewer sees the ladder.",
   "category": "animals",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "animals-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐄",
@@ -12,8 +12,7 @@
         { "en": "Duck", "es": "El pato", "emoji": "🦆" }
       ],
       "answer": 0,
-      "why": { "en": "Cows moo to talk to each other, and a mother cow knows her own calf's voice.",
-               "es": "Las vacas mugen para hablar entre ellas, y una mamá vaca reconoce la voz de su ternero." },
+      "why": { "en": "Cows moo to talk to each other, and a mother cow knows her own calf's voice.", "es": "Las vacas mugen para hablar entre ellas, y una mamá vaca reconoce la voz de su ternero." },
       "topic": "animal sounds",
       "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cow"
     },
@@ -26,8 +25,7 @@
         { "en": "Four", "es": "Cuatro", "emoji": "🐕" }
       ],
       "answer": 0,
-      "why": { "en": "A spider has eight legs, so it is not an insect; an ant or a bee has six legs.",
-               "es": "Una araña tiene ocho patas, así que no es un insecto; una hormiga o una abeja tiene seis." },
+      "why": { "en": "A spider has eight legs, so it is not an insect; an ant or a bee has six legs.", "es": "Una araña tiene ocho patas, así que no es un insecto; una hormiga o una abeja tiene seis." },
       "topic": "how many legs",
       "source": "https://www.britannica.com/animal/spider-arachnid"
     },
@@ -40,8 +38,7 @@
         { "en": "A bird", "es": "Un pájaro", "emoji": "🐦" }
       ],
       "answer": 0,
-      "why": { "en": "A tadpole hatches in water with a tail, then grows legs and loses its tail to become a frog.",
-               "es": "Un renacuajo nace en el agua con cola; luego le salen patas, pierde la cola y se vuelve rana." },
+      "why": { "en": "A tadpole hatches in water with a tail, then grows legs and loses its tail to become a frog.", "es": "Un renacuajo nace en el agua con cola; luego le salen patas, pierde la cola y se vuelve rana." },
       "topic": "baby animals",
       "source": "https://kids.nationalgeographic.com/animals/amphibians/facts/frog"
     },
@@ -55,8 +52,7 @@
         { "en": "Ostrich", "es": "El avestruz" }
       ],
       "answer": 0,
-      "why": { "en": "A cheetah can sprint about 70 miles per hour, 110 km per hour, but only for a few seconds.",
-               "es": "Un guepardo puede correr a unos 110 km por hora, 70 millas por hora, pero solo unos segundos." },
+      "why": { "en": "A cheetah can sprint about 70 miles per hour, 110 km per hour, but only for a few seconds.", "es": "Un guepardo puede correr a unos 110 km por hora, 70 millas por hora, pero solo unos segundos." },
       "topic": "animal speed",
       "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cheetah"
     },
@@ -70,8 +66,7 @@
         { "en": "An amphibian", "es": "Un anfibio" }
       ],
       "answer": 0,
-      "why": { "en": "Whales breathe air through a blowhole and feed their babies milk, just like every other mammal does.",
-               "es": "Las ballenas respiran aire por un orificio en la cabeza y alimentan a sus crías con leche, como todo mamífero." },
+      "why": { "en": "Whales breathe air through a blowhole and feed their babies milk, just like every other mammal does.", "es": "Las ballenas respiran aire por un orificio en la cabeza y alimentan a sus crías con leche, como todo mamífero." },
       "topic": "animal groups",
       "source": "https://www.britannica.com/animal/whale"
     },
@@ -85,15 +80,13 @@
         { "en": "Pollination", "es": "Polinización" }
       ],
       "answer": 0,
-      "why": { "en": "During hibernation an animal's heartbeat and breathing slow down, so it can live on its stored body fat.",
-               "es": "Durante la hibernación, el corazón y la respiración del animal van más lento y vive de la grasa guardada." },
+      "why": { "en": "During hibernation an animal's heartbeat and breathing slow down, so it can live on its stored body fat.", "es": "Durante la hibernación, el corazón y la respiración del animal van más lento y vive de la grasa guardada." },
       "topic": "migration and hibernation",
       "source": "https://www.nps.gov/yell/learn/nature/bearhibernation.htm"
     },
     {
       "id": "animals-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦇",
-      "q": { "en": "Bats find insects in the dark by listening to the echoes of their own calls. What is this called?",
-             "es": "Los murciélagos encuentran insectos en la oscuridad escuchando el eco de sus propios chillidos. ¿Cómo se llama esto?" },
+      "q": { "en": "Bats find insects in the dark by listening to the echoes of their own calls. What is this called?", "es": "Los murciélagos encuentran insectos en la oscuridad escuchando el eco de sus propios chillidos. ¿Cómo se llama esto?" },
       "choices": [
         { "en": "Echolocation", "es": "Ecolocalización" },
         { "en": "Photosynthesis", "es": "Fotosíntesis" },
@@ -101,15 +94,13 @@
         { "en": "Symbiosis", "es": "Simbiosis" }
       ],
       "answer": 0,
-      "why": { "en": "Dolphins use echolocation too; the time an echo takes to return tells the animal how far away something is.",
-               "es": "Los delfines también usan la ecolocalización; el tiempo que tarda el eco en volver indica a qué distancia está algo." },
+      "why": { "en": "Dolphins use echolocation too; the time an echo takes to return tells the animal how far away something is.", "es": "Los delfines también usan la ecolocalización; el tiempo que tarda el eco en volver indica a qué distancia está algo." },
       "topic": "echolocation",
       "source": "https://www.britannica.com/science/echolocation-physiology"
     },
     {
       "id": "animals-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐝",
-      "q": { "en": "A bee drinks nectar from a flower and carries its pollen to the next flower. What is this relationship called?",
-             "es": "Una abeja toma néctar de una flor y lleva su polen a la siguiente. ¿Cómo se llama esta relación?" },
+      "q": { "en": "A bee drinks nectar from a flower and carries its pollen to the next flower. What is this relationship called?", "es": "Una abeja toma néctar de una flor y lleva su polen a la siguiente. ¿Cómo se llama esta relación?" },
       "choices": [
         { "en": "Mutualism", "es": "Mutualismo" },
         { "en": "Parasitism", "es": "Parasitismo" },
@@ -117,8 +108,7 @@
         { "en": "Competition", "es": "Competencia" }
       ],
       "answer": 0,
-      "why": { "en": "In mutualism both living things gain: the bee gets food, and the flower gets help making seeds.",
-               "es": "En el mutualismo los dos seres vivos ganan: la abeja consigue comida y la flor recibe ayuda para hacer semillas." },
+      "why": { "en": "In mutualism both living things gain: the bee gets food, and the flower gets help making seeds.", "es": "En el mutualismo los dos seres vivos ganan: la abeja consigue comida y la flor recibe ayuda para hacer semillas." },
       "topic": "symbiosis",
       "source": "https://education.nationalgeographic.org/resource/mutualism/"
     },
@@ -130,10 +120,1714 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 0,
-      "why": { "en": "Two hearts pump blood through the gills and one through the body; copper in the blood makes it blue.",
-               "es": "Dos corazones bombean sangre a las branquias y uno al cuerpo; el cobre de su sangre la vuelve azul." },
+      "why": { "en": "Two hearts pump blood through the gills and one through the body; copper in the blood makes it blue.", "es": "Dos corazones bombean sangre a las branquias y uno al cuerpo; el cobre de su sangre la vuelve azul." },
       "topic": "adaptations",
       "source": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+    },
+    {
+      "id": "animals-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐷",
+      "q": { "en": "Which animal says oink on the farm?", "es": "¿Qué animal de la granja hace oink?" },
+      "choices": [
+        { "en": "Pig", "es": "El cerdo", "emoji": "🐷" },
+        { "en": "Sheep", "es": "La oveja", "emoji": "🐑" },
+        { "en": "Goat", "es": "La cabra", "emoji": "🐐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pigs oink, grunt and squeal, and a piglet learns to know its mother's voice in the first days.", "es": "Los cerdos gruñen y chillan, y un cerdito aprende a reconocer la voz de su mamá en pocos días." },
+      "topic": "animal sounds",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/pig"
+    },
+    {
+      "id": "animals-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "Which animal makes a hooting sound at night?", "es": "¿Qué animal ulula durante la noche?" },
+      "choices": [
+        { "en": "Owl", "es": "El búho", "emoji": "🦉" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐴" },
+        { "en": "Frog", "es": "La rana", "emoji": "🐸" }
+      ],
+      "answer": 0,
+      "why": { "en": "An owl hoots to tell other owls where its home is, and its soft feathers make its flight silent.", "es": "Un búho ulula para avisar a otros búhos dónde vive, y sus plumas suaves hacen que su vuelo sea silencioso." },
+      "topic": "animal sounds",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/great-horned-owl"
+    },
+    {
+      "id": "animals-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐑",
+      "q": { "en": "What sound does a sheep make?", "es": "¿Qué sonido hace una oveja?" },
+      "choices": [
+        { "en": "Baa", "es": "Beee", "emoji": "🐑" },
+        { "en": "Meow", "es": "Miau", "emoji": "🐱" },
+        { "en": "Quack", "es": "Cuac", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sheep baa to find each other in a flock, and a lamb can pick its mother out by voice.", "es": "Las ovejas balan para encontrarse en el rebaño, y un corderito reconoce a su mamá solo por la voz." },
+      "topic": "animal sounds",
+      "source": "https://kids.britannica.com/kids/article/sheep/353894"
+    },
+    {
+      "id": "animals-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "Which animal roars to call its family?", "es": "¿Qué animal ruge para llamar a su familia?" },
+      "choices": [
+        { "en": "Lion", "es": "El león", "emoji": "🦁" },
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐰" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" }
+      ],
+      "answer": 0,
+      "why": { "en": "A lion's roar carries about five miles, eight kilometers, so the whole pride hears where it is.", "es": "El rugido de un león se oye a unos ocho kilómetros, cinco millas, así toda la manada sabe dónde está." },
+      "topic": "animal sounds",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/lion"
+    },
+    {
+      "id": "animals-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which bird copies words that people say?", "es": "¿Qué ave repite las palabras que dicen las personas?" },
+      "choices": [
+        { "en": "Parrot", "es": "El loro", "emoji": "🦜" },
+        { "en": "Penguin", "es": "El pingüino", "emoji": "🐧" },
+        { "en": "Chicken", "es": "La gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "A parrot has no lips; it shapes sounds with its thick tongue and a voice box called a syrinx.", "es": "Un loro carece de labios; forma los sonidos con su lengua gruesa y un órgano de la voz llamado siringe." },
+      "topic": "animal sounds",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/parrot"
+    },
+    {
+      "id": "animals-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐶",
+      "q": { "en": "What is a baby dog called?", "es": "¿Cómo se llama un perro bebé?" },
+      "choices": [
+        { "en": "A puppy", "es": "Un cachorro", "emoji": "🐶" },
+        { "en": "A kitten", "es": "Un gatito", "emoji": "🐱" },
+        { "en": "A chick", "es": "Un pollito", "emoji": "🐤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Puppies are born with closed eyes and ears, and they start to see after about two weeks.", "es": "Los cachorros nacen con los ojos y las orejas cerrados, y empiezan a ver a las dos semanas." },
+      "topic": "baby animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dog"
+    },
+    {
+      "id": "animals-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐮",
+      "q": { "en": "What is a baby cow called?", "es": "¿Cómo se llama una vaca bebé?" },
+      "choices": [
+        { "en": "A calf", "es": "Un ternero", "emoji": "🐮" },
+        { "en": "A foal", "es": "Un potro", "emoji": "🐴" },
+        { "en": "A lamb", "es": "Un cordero", "emoji": "🐑" }
+      ],
+      "answer": 0,
+      "why": { "en": "A calf can stand up and walk within an hour of being born, and it drinks its mother's milk.", "es": "Un ternero se para y camina una hora después de nacer, y toma la leche de su mamá." },
+      "topic": "baby animals",
+      "source": "https://kids.britannica.com/kids/article/cattle/352922"
+    },
+    {
+      "id": "animals-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "What is a baby kangaroo called?", "es": "¿Cómo se llama un canguro bebé?" },
+      "choices": [
+        { "en": "A joey", "es": "Un cangurito", "emoji": "🦘" },
+        { "en": "A cub", "es": "Un osezno", "emoji": "🐻" },
+        { "en": "A piglet", "es": "Un cerdito", "emoji": "🐷" }
+      ],
+      "answer": 0,
+      "why": { "en": "A newborn joey is about the size of a grape and crawls into its mother's pouch to grow.", "es": "Un cangurito recién nacido es del tamaño de una uva y se arrastra hasta la bolsa de su mamá." },
+      "topic": "baby animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/red-kangaroo"
+    },
+    {
+      "id": "animals-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐤",
+      "q": { "en": "What is a baby chicken called?", "es": "¿Cómo se llama una gallina bebé?" },
+      "choices": [
+        { "en": "A chick", "es": "Un pollito", "emoji": "🐤" },
+        { "en": "A duckling", "es": "Un patito", "emoji": "🦆" },
+        { "en": "A cub", "es": "Un cachorro de león", "emoji": "🦁" }
+      ],
+      "answer": 0,
+      "why": { "en": "A chick uses a hard bump on its beak, called an egg tooth, to break out of the shell.", "es": "Un pollito usa un bultito duro en el pico, llamado diente de huevo, para romper el cascarón." },
+      "topic": "baby animals",
+      "source": "https://www.britannica.com/animal/chicken"
+    },
+    {
+      "id": "animals-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐑",
+      "q": { "en": "What do we call a baby sheep?", "es": "¿Cómo le decimos a una oveja bebé?" },
+      "choices": [
+        { "en": "A lamb", "es": "Un cordero", "emoji": "🐑" },
+        { "en": "A piglet", "es": "Un cerdito", "emoji": "🐖" },
+        { "en": "A bunny", "es": "Un conejito", "emoji": "🐰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lambs are born with a woolly coat and can run and jump on the day they are born.", "es": "Los corderos nacen con un abrigo de lana y pueden correr y saltar el mismo día que nacen." },
+      "topic": "baby animals",
+      "source": "https://www.britannica.com/animal/sheep"
+    },
+    {
+      "id": "animals-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐰",
+      "q": { "en": "What do rabbits like to eat?", "es": "¿Qué les gusta comer a los conejos?" },
+      "choices": [
+        { "en": "Carrots and grass", "es": "Zanahorias y pasto", "emoji": "🥕" },
+        { "en": "Fish", "es": "Pescado", "emoji": "🐟" },
+        { "en": "Cheese", "es": "Queso", "emoji": "🧀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rabbits eat plants all day and their front teeth keep growing, so chewing grass wears them down.", "es": "Los conejos comen plantas todo el día y sus dientes de adelante siguen creciendo; masticar pasto los desgasta." },
+      "topic": "what animals eat",
+      "source": "https://kids.sandiegozoo.org/animals/rabbit"
+    },
+    {
+      "id": "animals-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐼",
+      "q": { "en": "What is a giant panda's favorite food?", "es": "¿Cuál es la comida favorita del panda gigante?" },
+      "choices": [
+        { "en": "Bamboo", "es": "Bambú", "emoji": "🎋" },
+        { "en": "Honey", "es": "Miel", "emoji": "🍯" },
+        { "en": "Fish", "es": "Pescado", "emoji": "🐟" }
+      ],
+      "answer": 0,
+      "why": { "en": "A panda eats bamboo for about twelve hours a day because bamboo gives it very little energy.", "es": "Un panda come bambú unas doce horas al día porque el bambú le da muy poquita energía." },
+      "topic": "what animals eat",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giant-panda"
+    },
+    {
+      "id": "animals-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Which animal drinks nectar from flowers?", "es": "¿Qué animal toma néctar de las flores?" },
+      "choices": [
+        { "en": "Hummingbird", "es": "El colibrí", "emoji": "🐦" },
+        { "en": "Owl", "es": "El búho", "emoji": "🦉" },
+        { "en": "Penguin", "es": "El pingüino", "emoji": "🐧" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hummingbird beats its wings so fast they hum, and it must eat nectar many times each hour.", "es": "Un colibrí mueve las alas tan rápido que zumban, y toma néctar muchas veces cada hora." },
+      "topic": "what animals eat",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/hummingbird"
+    },
+    {
+      "id": "animals-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐨",
+      "q": { "en": "What do koalas eat all day long?", "es": "¿Qué comen los koalas todo el día?" },
+      "choices": [
+        { "en": "Eucalyptus leaves", "es": "Hojas de eucalipto", "emoji": "🌿" },
+        { "en": "Bananas", "es": "Plátanos", "emoji": "🍌" },
+        { "en": "Worms", "es": "Lombrices", "emoji": "🪱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Eucalyptus leaves have so little energy that a koala sleeps up to twenty hours every day.", "es": "Las hojas de eucalipto dan tan poca energía que un koala duerme hasta veinte horas cada día." },
+      "topic": "what animals eat",
+      "source": "https://kids.sandiegozoo.org/animals/koala"
+    },
+    {
+      "id": "animals-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Which animal eats ants with a sticky tongue?", "es": "¿Qué animal come hormigas con una lengua pegajosa?" },
+      "choices": [
+        { "en": "Anteater", "es": "El oso hormiguero", "emoji": "🐾" },
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐰" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐴" }
+      ],
+      "answer": 0,
+      "why": { "en": "A giant anteater has no teeth; its tongue is about two feet long, sixty centimeters, and very sticky.", "es": "Un oso hormiguero gigante carece de dientes; su lengua mide unos sesenta centímetros, dos pies, y es pegajosa." },
+      "topic": "what animals eat",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giant-anteater"
+    },
+    {
+      "id": "animals-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "Which of these animals eats only plants?", "es": "¿Cuál de estos animales come solo plantas?" },
+      "choices": [
+        { "en": "Llama", "es": "La llama", "emoji": "🦙" },
+        { "en": "Wolf", "es": "El lobo", "emoji": "🐺" },
+        { "en": "Shark", "es": "El tiburón", "emoji": "🦈" }
+      ],
+      "answer": 0,
+      "why": { "en": "A llama chews grass, then brings it back up to chew again, which helps it get more food energy.", "es": "La llama mastica pasto, lo regresa a la boca y lo vuelve a masticar para aprovechar más comida." },
+      "topic": "what animals eat",
+      "source": "https://kids.sandiegozoo.org/animals/llama"
+    },
+    {
+      "id": "animals-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which animal lives on ice and snow?", "es": "¿Qué animal vive en el hielo y la nieve?" },
+      "choices": [
+        { "en": "Penguin", "es": "El pingüino", "emoji": "🐧" },
+        { "en": "Monkey", "es": "El mono", "emoji": "🐒" },
+        { "en": "Camel", "es": "El camello", "emoji": "🐫" }
+      ],
+      "answer": 0,
+      "why": { "en": "Penguins have a thick layer of fat and feathers packed tight, so cold water stays away from their skin.", "es": "Los pingüinos tienen una capa gruesa de grasa y plumas muy juntas, así el agua fría queda lejos de su piel." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/emperor-penguin"
+    },
+    {
+      "id": "animals-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which animal lives in a hot desert?", "es": "¿Qué animal vive en un desierto caluroso?" },
+      "choices": [
+        { "en": "Camel", "es": "El camello", "emoji": "🐫" },
+        { "en": "Whale", "es": "La ballena", "emoji": "🐋" },
+        { "en": "Frog", "es": "La rana", "emoji": "🐸" }
+      ],
+      "answer": 0,
+      "why": { "en": "A camel's hump stores fat, and it can drink about thirty gallons, one hundred liters, in a few minutes.", "es": "La joroba del camello guarda grasa, y puede beber unos cien litros, treinta galones, en pocos minutos." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dromedary-camel"
+    },
+    {
+      "id": "animals-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦥",
+      "q": { "en": "Where would you find a sloth resting?", "es": "¿Dónde encontrarías a un perezoso descansando?" },
+      "choices": [
+        { "en": "Hanging in a tree", "es": "Colgado de un árbol", "emoji": "🦥" },
+        { "en": "In the open ocean", "es": "En el mar abierto", "emoji": "🌊" },
+        { "en": "Under the sand", "es": "Bajo la arena", "emoji": "🏖️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A sloth hangs upside down by curved claws and moves so slowly that green algae grow in its fur.", "es": "El perezoso cuelga de cabeza con garras curvas y se mueve tan lento que le crecen algas verdes en el pelo." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/three-toed-sloth"
+    },
+    {
+      "id": "animals-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "Which animal lives in a hive?", "es": "¿Qué animal vive en una colmena?" },
+      "choices": [
+        { "en": "Bee", "es": "La abeja", "emoji": "🐝" },
+        { "en": "Fox", "es": "El zorro", "emoji": "🦊" },
+        { "en": "Crab", "es": "El cangrejo", "emoji": "🦀" }
+      ],
+      "answer": 0,
+      "why": { "en": "Thousands of bees share one hive, and they build little rooms shaped like six-sided boxes out of wax.", "es": "Miles de abejas comparten una colmena y construyen celditas de seis lados hechas de cera." },
+      "topic": "where animals live",
+      "source": "https://kids.britannica.com/kids/article/bee/352763"
+    },
+    {
+      "id": "animals-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "Where do most frogs lay their eggs?", "es": "¿Dónde ponen sus huevos casi todas las ranas?" },
+      "choices": [
+        { "en": "In water", "es": "En el agua", "emoji": "💧" },
+        { "en": "In dry sand", "es": "En la arena seca", "emoji": "🏜️" },
+        { "en": "On a rooftop", "es": "En un techo", "emoji": "🏠" }
+      ],
+      "answer": 0,
+      "why": { "en": "Frog eggs have no shell, just soft jelly, so water keeps them from drying out in the sun.", "es": "Los huevos de rana carecen de cascarón, solo tienen gelatina blanda, y el agua evita que se sequen." },
+      "topic": "where animals live",
+      "source": "https://www.britannica.com/animal/frog-amphibian"
+    },
+    {
+      "id": "animals-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Which animal lives in the rainforest canopy?", "es": "¿Qué animal vive en las copas de la selva?" },
+      "choices": [
+        { "en": "Toucan", "es": "El tucán", "emoji": "🦜" },
+        { "en": "Seal", "es": "La foca", "emoji": "🦭" },
+        { "en": "Camel", "es": "El camello", "emoji": "🐫" }
+      ],
+      "answer": 0,
+      "why": { "en": "A toucan's huge beak is light as foam inside and helps it reach fruit on thin branches.", "es": "El pico enorme del tucán es liviano como espuma por dentro y le ayuda a alcanzar frutas en ramas delgadas." },
+      "topic": "where animals live",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/toco-toucan"
+    },
+    {
+      "id": "animals-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "How many legs does a butterfly have?", "es": "¿Cuántas patas tiene una mariposa?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "🦋" },
+        { "en": "Two", "es": "Dos", "emoji": "🐦" },
+        { "en": "Eight", "es": "Ocho", "emoji": "🕷️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A butterfly is an insect, so it has six legs, and it tastes leaves by standing on them.", "es": "La mariposa es un insecto, así que tiene seis patas, y prueba las hojas parándose sobre ellas." },
+      "topic": "how many legs",
+      "source": "https://kids.britannica.com/kids/article/butterfly/353014"
+    },
+    {
+      "id": "animals-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦀",
+      "q": { "en": "How many legs does a crab have?", "es": "¿Cuántas patas tiene un cangrejo?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez", "emoji": "🦀" },
+        { "en": "Six", "es": "Seis", "emoji": "🐜" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🐈" }
+      ],
+      "answer": 0,
+      "why": { "en": "A crab has ten legs; the front two are claws, and it walks sideways because its knees bend outward.", "es": "El cangrejo tiene diez patas; las dos de adelante son tenazas, y camina de lado porque sus rodillas se doblan hacia afuera." },
+      "topic": "how many legs",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/crabs"
+    },
+    {
+      "id": "animals-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "How many legs does a snake have?", "es": "¿Cuántas patas tiene una serpiente?" },
+      "choices": [
+        { "en": "Zero", "es": "Cero", "emoji": "🐍" },
+        { "en": "Two", "es": "Dos", "emoji": "🐤" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🐁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Snakes move by pushing their belly scales against the ground, and some keep tiny leftover hip bones inside.", "es": "Las serpientes avanzan empujando las escamas de la panza contra el suelo, y algunas guardan huesitos de cadera por dentro." },
+      "topic": "how many legs",
+      "source": "https://kids.britannica.com/kids/article/snake/353800"
+    },
+    {
+      "id": "animals-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐙",
+      "q": { "en": "How many arms does an octopus have?", "es": "¿Cuántos brazos tiene un pulpo?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "🐙" },
+        { "en": "Six", "es": "Seis", "emoji": "🦑" },
+        { "en": "Ten", "es": "Diez", "emoji": "🦀" }
+      ],
+      "answer": 0,
+      "why": { "en": "An octopus has eight arms covered in suckers, and each sucker can taste whatever it happens to touch.", "es": "El pulpo tiene ocho brazos llenos de ventosas, y cada ventosa puede saborear lo que toca." },
+      "topic": "how many legs",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/octopus"
+    },
+    {
+      "id": "animals-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "Which animal is the biggest in the world?", "es": "¿Cuál es el animal más grande del mundo?" },
+      "choices": [
+        { "en": "Blue whale", "es": "La ballena azul", "emoji": "🐋" },
+        { "en": "Elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "Shark", "es": "El tiburón", "emoji": "🦈" }
+      ],
+      "answer": 0,
+      "why": { "en": "A blue whale's heart is about the size of a small car, and its tongue weighs as much as an elephant.", "es": "El corazón de una ballena azul es del tamaño de un carro pequeño, y su lengua pesa como un elefante." },
+      "topic": "biggest animals",
+      "source": "https://ocean.si.edu/ocean-life/marine-mammals/blue-whale"
+    },
+    {
+      "id": "animals-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Which animal is the tallest of all?", "es": "¿Cuál es el animal más alto de todos?" },
+      "choices": [
+        { "en": "Giraffe", "es": "La jirafa", "emoji": "🦒" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐴" },
+        { "en": "Bear", "es": "El oso", "emoji": "🐻" }
+      ],
+      "answer": 0,
+      "why": { "en": "A giraffe has the same number of neck bones as you do, just seven, but each one is huge.", "es": "La jirafa tiene la misma cantidad de huesos en el cuello que tú, solo siete, pero cada uno es enorme." },
+      "topic": "biggest animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giraffe"
+    },
+    {
+      "id": "animals-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "Which is the biggest land animal?", "es": "¿Cuál es el animal terrestre más grande?" },
+      "choices": [
+        { "en": "Elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "Rhino", "es": "El rinoceronte", "emoji": "🦏" },
+        { "en": "Lion", "es": "El león", "emoji": "🦁" }
+      ],
+      "answer": 0,
+      "why": { "en": "An African elephant can weigh as much as six cars, and it flaps its big ears to cool down.", "es": "Un elefante africano puede pesar como seis carros, y mueve sus orejas grandes como abanicos para refrescarse." },
+      "topic": "biggest animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/african-elephant"
+    },
+    {
+      "id": "animals-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐹",
+      "q": { "en": "Which is the biggest rodent on Earth?", "es": "¿Cuál es el roedor más grande de la Tierra?" },
+      "choices": [
+        { "en": "Capybara", "es": "El capibara", "emoji": "🐹" },
+        { "en": "Mouse", "es": "El ratón", "emoji": "🐭" },
+        { "en": "Beaver", "es": "El castor", "emoji": "🦫" }
+      ],
+      "answer": 0,
+      "why": { "en": "A capybara can weigh as much as a big dog, and it swims in the rivers of South America.", "es": "Un capibara puede pesar como un perro grande y nada en los ríos de América del Sur." },
+      "topic": "biggest animals",
+      "source": "https://kids.sandiegozoo.org/animals/capybara"
+    },
+    {
+      "id": "animals-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which bird is the biggest of all?", "es": "¿Cuál es el ave más grande de todas?" },
+      "choices": [
+        { "en": "Ostrich", "es": "El avestruz", "emoji": "🪶" },
+        { "en": "Robin", "es": "El petirrojo", "emoji": "🐦" },
+        { "en": "Owl", "es": "El búho", "emoji": "🦉" }
+      ],
+      "answer": 0,
+      "why": { "en": "An ostrich lays the biggest egg of any bird and can run faster than a horse over short distances.", "es": "El avestruz pone el huevo más grande de todas las aves y corre más rápido que un caballo en tramos cortos." },
+      "topic": "biggest animals",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/ostrich"
+    },
+    {
+      "id": "animals-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Which animal can change its color?", "es": "¿Qué animal puede cambiar de color?" },
+      "choices": [
+        { "en": "Chameleon", "es": "El camaleón", "emoji": "🦎" },
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
+        { "en": "Duck", "es": "El pato", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "A chameleon changes color to show how it feels and to warm up, moving tiny crystals inside its skin.", "es": "El camaleón cambia de color para mostrar cómo se siente y para calentarse, moviendo cristales diminutos en su piel." },
+      "topic": "animal colors",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/chameleons"
+    },
+    {
+      "id": "animals-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦩",
+      "q": { "en": "What color are most flamingos?", "es": "¿De qué color son casi todos los flamencos?" },
+      "choices": [
+        { "en": "Pink", "es": "Rosado", "emoji": "🦩" },
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flamingos hatch gray and turn pink from the tiny shrimp and algae they eat all their lives.", "es": "Los flamencos nacen grises y se vuelven rosados por los camaroncitos y las algas que comen toda la vida." },
+      "topic": "animal colors",
+      "source": "https://kids.sandiegozoo.org/animals/flamingo"
+    },
+    {
+      "id": "animals-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "Which animal is covered in feathers?", "es": "¿Qué animal está cubierto de plumas?" },
+      "choices": [
+        { "en": "Eagle", "es": "El águila", "emoji": "🦅" },
+        { "en": "Snake", "es": "La serpiente", "emoji": "🐍" },
+        { "en": "Cat", "es": "El gato", "emoji": "🐱" }
+      ],
+      "answer": 0,
+      "why": { "en": "Feathers keep a bird warm and dry, and a bird cleans and oils them with its beak every day.", "es": "Las plumas mantienen al ave caliente y seca, y el ave las limpia y aceita con el pico cada día." },
+      "topic": "fur feathers scales",
+      "source": "https://kids.britannica.com/kids/article/bird/353027"
+    },
+    {
+      "id": "animals-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Which animal has scales on its body?", "es": "¿Qué animal tiene escamas en el cuerpo?" },
+      "choices": [
+        { "en": "Fish", "es": "El pez", "emoji": "🐟" },
+        { "en": "Dog", "es": "El perro", "emoji": "🐕" },
+        { "en": "Bee", "es": "La abeja", "emoji": "🐝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fish scales overlap like roof tiles and grow rings each year, so scientists can count a fish's age.", "es": "Las escamas de los peces se montan como tejas y forman anillos cada año, así se puede saber su edad." },
+      "topic": "fur feathers scales",
+      "source": "https://www.britannica.com/animal/fish"
+    },
+    {
+      "id": "animals-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐇",
+      "q": { "en": "Which animal is covered in soft fur?", "es": "¿Qué animal está cubierto de pelo suave?" },
+      "choices": [
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐇" },
+        { "en": "Frog", "es": "La rana", "emoji": "🐸" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fur traps a layer of warm air next to the skin, which is why furry animals stay warm outside.", "es": "El pelo atrapa una capa de aire caliente junto a la piel; por eso los animales peludos aguantan el frío." },
+      "topic": "fur feathers scales",
+      "source": "https://www.britannica.com/animal/rabbit"
+    },
+    {
+      "id": "animals-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Which animal wears a hard shell?", "es": "¿Qué animal lleva un caparazón duro?" },
+      "choices": [
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐎" },
+        { "en": "Bat", "es": "El murciélago", "emoji": "🦇" }
+      ],
+      "answer": 0,
+      "why": { "en": "A turtle's shell is part of its skeleton, made of its ribs and backbone joined together.", "es": "El caparazón de la tortuga es parte de su esqueleto, formado por sus costillas y su columna unidas." },
+      "topic": "fur feathers scales",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/sea-turtles"
+    },
+    {
+      "id": "animals-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "Which animal is covered in hard plates?", "es": "¿Qué animal está cubierto de placas duras?" },
+      "choices": [
+        { "en": "Armadillo", "es": "El armadillo", "emoji": "🛡️" },
+        { "en": "Sheep", "es": "La oveja", "emoji": "🐑" },
+        { "en": "Parrot", "es": "El loro", "emoji": "🦜" }
+      ],
+      "answer": 0,
+      "why": { "en": "An armadillo wears bony plates like armor, and the little three-banded one can roll into a tight ball.", "es": "El armadillo lleva placas de hueso como armadura, y el de tres bandas puede enrollarse en una bolita." },
+      "topic": "fur feathers scales",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/nine-banded-armadillo"
+    },
+    {
+      "id": "animals-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Which animal sleeps by day and hunts at night?", "es": "¿Qué animal duerme de día y caza de noche?" },
+      "choices": [
+        { "en": "Bat", "es": "El murciélago", "emoji": "🦇" },
+        { "en": "Butterfly", "es": "La mariposa", "emoji": "🦋" },
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bats sleep hanging upside down because their feet lock shut without using any muscle at all.", "es": "Los murciélagos duermen de cabeza porque sus patas se traban solas, sin usar nada de fuerza." },
+      "topic": "nocturnal animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/bat"
+    },
+    {
+      "id": "animals-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "What do we call animals awake at night?", "es": "¿Cómo se llaman los animales que están despiertos de noche?" },
+      "choices": [
+        { "en": "Nocturnal", "es": "Nocturnos", "emoji": "🌙" },
+        { "en": "Migrating", "es": "Migratorios", "emoji": "🧭" },
+        { "en": "Hibernating", "es": "Hibernantes", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nocturnal animals have big eyes and strong hearing, and many hunt when the air is cooler and safer.", "es": "Los animales nocturnos tienen ojos grandes y buen oído, y muchos cazan cuando el aire está más fresco." },
+      "topic": "nocturnal animals",
+      "source": "https://education.nationalgeographic.org/resource/nocturnal/"
+    },
+    {
+      "id": "animals-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "Which insect glows in the dark?", "es": "¿Qué insecto brilla en la oscuridad?" },
+      "choices": [
+        { "en": "Firefly", "es": "La luciérnaga", "emoji": "✨" },
+        { "en": "Ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "Ladybug", "es": "La mariquita", "emoji": "🐞" }
+      ],
+      "answer": 0,
+      "why": { "en": "A firefly makes cold light in its belly with a chemical mix, and each kind blinks its own pattern.", "es": "La luciérnaga hace luz fría en la panza con una mezcla química, y cada especie parpadea a su modo." },
+      "topic": "nocturnal animals",
+      "source": "https://www.britannica.com/animal/firefly"
+    },
+    {
+      "id": "animals-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌃",
+      "q": { "en": "Which pet can see well in the dark?", "es": "¿Qué mascota ve muy bien en la oscuridad?" },
+      "choices": [
+        { "en": "Cat", "es": "El gato", "emoji": "🐈" },
+        { "en": "Goldfish", "es": "El pez dorado", "emoji": "🐠" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" }
+      ],
+      "answer": 0,
+      "why": { "en": "A cat's eyes have a mirror layer behind them that bounces light back, which makes them shine at night.", "es": "Los ojos del gato tienen una capa de espejo detrás que rebota la luz; por eso brillan de noche." },
+      "topic": "nocturnal animals",
+      "source": "https://kids.britannica.com/kids/article/cat/352913"
+    },
+    {
+      "id": "animals-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦝",
+      "q": { "en": "Which night animal has a mask on its face?", "es": "¿Qué animal nocturno tiene un antifaz en la cara?" },
+      "choices": [
+        { "en": "Raccoon", "es": "El mapache", "emoji": "🦝" },
+        { "en": "Zebra", "es": "La cebra", "emoji": "🦓" },
+        { "en": "Panda", "es": "El panda", "emoji": "🐼" }
+      ],
+      "answer": 0,
+      "why": { "en": "A raccoon feels its food with its front paws, which are about as sensitive as your own fingertips.", "es": "El mapache toca la comida con sus patas delanteras, que sienten casi tan bien como tus dedos." },
+      "topic": "nocturnal animals",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/raccoon"
+    },
+    {
+      "id": "animals-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which part of a plant drinks water?", "es": "¿Qué parte de la planta toma agua?" },
+      "choices": [
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The flower", "es": "La flor", "emoji": "🌸" },
+        { "en": "The leaf", "es": "La hoja", "emoji": "🍃" }
+      ],
+      "answer": 0,
+      "why": { "en": "Roots pull water from the soil and hold the plant down, and some roots grow deeper than a house is tall.", "es": "Las raíces toman agua del suelo y sujetan la planta, y algunas crecen más hondo que lo alto de una casa." },
+      "topic": "plant parts",
+      "source": "https://kids.britannica.com/kids/article/plant/353618"
+    },
+    {
+      "id": "animals-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which part of a plant makes seeds?", "es": "¿Qué parte de la planta hace las semillas?" },
+      "choices": [
+        { "en": "The flower", "es": "La flor", "emoji": "🌸" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The stem", "es": "El tallo", "emoji": "🌿" }
+      ],
+      "answer": 0,
+      "why": { "en": "A flower makes seeds after pollen reaches it, and its bright petals are there to invite insects in.", "es": "La flor hace semillas cuando le llega el polen, y sus pétalos de colores invitan a los insectos." },
+      "topic": "plant parts",
+      "source": "https://kids.britannica.com/kids/article/flower/353173"
+    },
+    {
+      "id": "animals-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "What part of a plant holds it up?", "es": "¿Qué parte de la planta la sostiene?" },
+      "choices": [
+        { "en": "The stem", "es": "El tallo", "emoji": "🌿" },
+        { "en": "The petal", "es": "El pétalo", "emoji": "🌷" },
+        { "en": "The seed", "es": "La semilla", "emoji": "🌰" }
+      ],
+      "answer": 0,
+      "why": { "en": "The stem holds the plant up and carries water to the leaves through tubes thinner than a hair.", "es": "El tallo sostiene la planta y lleva agua a las hojas por tubitos más delgados que un cabello." },
+      "topic": "plant parts",
+      "source": "https://kids.britannica.com/kids/article/stem/399742"
+    },
+    {
+      "id": "animals-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "Which plant part catches sunlight for food?", "es": "¿Qué parte de la planta atrapa la luz del sol?" },
+      "choices": [
+        { "en": "The leaf", "es": "La hoja", "emoji": "🍃" },
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The seed", "es": "La semilla", "emoji": "🌰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves use sunlight, air and water to make sugar, and that is where the green color comes from.", "es": "Las hojas usan sol, aire y agua para hacer azúcar, y de ahí viene su color verde." },
+      "topic": "plant parts",
+      "source": "https://kids.britannica.com/kids/article/leaf/353347"
+    },
+    {
+      "id": "animals-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟢",
+      "q": { "en": "What color are most leaves in summer?", "es": "¿De qué color son casi todas las hojas en verano?" },
+      "choices": [
+        { "en": "Green", "es": "Verdes", "emoji": "🟢" },
+        { "en": "Purple", "es": "Moradas", "emoji": "🟣" },
+        { "en": "Blue", "es": "Azules", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Leaves are green because of chlorophyll, the stuff inside them that turns sunlight into food.", "es": "Las hojas son verdes por la clorofila, la sustancia que convierte la luz del sol en alimento." },
+      "topic": "plant parts",
+      "source": "https://kids.britannica.com/kids/article/chlorophyll/399275"
+    },
+    {
+      "id": "animals-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌼",
+      "q": { "en": "What is the sticky powder inside flowers?", "es": "¿Cómo se llama el polvo pegajoso de las flores?" },
+      "choices": [
+        { "en": "Pollen", "es": "El polen", "emoji": "🌼" },
+        { "en": "Sand", "es": "La arena", "emoji": "🏖️" },
+        { "en": "Sugar", "es": "El azúcar", "emoji": "🍬" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pollen sticks to bees and birds, and it travels to other flowers so new seeds can start growing.", "es": "El polen se pega a las abejas y a las aves, y viaja a otras flores para formar semillas nuevas." },
+      "topic": "plant parts",
+      "source": "https://education.nationalgeographic.org/resource/pollination/"
+    },
+    {
+      "id": "animals-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "What does an acorn grow into?", "es": "¿En qué se convierte una bellota?" },
+      "choices": [
+        { "en": "An oak tree", "es": "Un roble", "emoji": "🌳" },
+        { "en": "A rose", "es": "Una rosa", "emoji": "🌹" },
+        { "en": "A cactus", "es": "Un cactus", "emoji": "🌵" }
+      ],
+      "answer": 0,
+      "why": { "en": "One oak tree can drop thousands of acorns in a year, and squirrels plant many by forgetting them.", "es": "Un roble puede soltar miles de bellotas en un año, y las ardillas siembran muchas al olvidarlas." },
+      "topic": "seeds and growing",
+      "source": "https://www.britannica.com/plant/oak"
+    },
+    {
+      "id": "animals-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "What grows from an apple seed?", "es": "¿Qué crece de una semilla de manzana?" },
+      "choices": [
+        { "en": "An apple tree", "es": "Un manzano", "emoji": "🍎" },
+        { "en": "An apple pie", "es": "Un pay de manzana", "emoji": "🥧" },
+        { "en": "A grape vine", "es": "Una vid de uvas", "emoji": "🍇" }
+      ],
+      "answer": 0,
+      "why": { "en": "An apple tree takes several years to give fruit, and every seed grows a slightly different kind of apple.", "es": "Un manzano tarda varios años en dar fruta, y cada semilla da un tipo de manzana un poco distinto." },
+      "topic": "seeds and growing",
+      "source": "https://kids.britannica.com/kids/article/apple/352748"
+    },
+    {
+      "id": "animals-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "How do dandelion seeds travel far away?", "es": "¿Cómo viajan lejos las semillas del diente de león?" },
+      "choices": [
+        { "en": "On the wind", "es": "Con el viento", "emoji": "🌬️" },
+        { "en": "In a river", "es": "Por el río", "emoji": "🌊" },
+        { "en": "On a bus", "es": "En autobús", "emoji": "🚌" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each dandelion seed carries a tiny parachute of hairs, and the wind can carry it for miles.", "es": "Cada semilla de diente de león lleva un paracaídas de pelitos, y el viento la lleva kilómetros." },
+      "topic": "seeds and growing",
+      "source": "https://www.britannica.com/plant/dandelion"
+    },
+    {
+      "id": "animals-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What does a seed need to sprout?", "es": "¿Qué necesita una semilla para brotar?" },
+      "choices": [
+        { "en": "Water and warmth", "es": "Agua y calor", "emoji": "💧" },
+        { "en": "Ice and snow", "es": "Hielo y nieve", "emoji": "❄️" },
+        { "en": "Wind and rocks", "es": "Viento y piedras", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "A seed holds a tiny plant and its own packed lunch, and water wakes it up to grow.", "es": "La semilla guarda una plantita y su propia comida, y el agua la despierta para empezar a crecer." },
+      "topic": "seeds and growing",
+      "source": "https://kids.britannica.com/kids/article/seed/353859"
+    },
+    {
+      "id": "animals-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "Which food is a seed you can eat?", "es": "¿Cuál de estas comidas es una semilla?" },
+      "choices": [
+        { "en": "A bean", "es": "Un frijol", "emoji": "🫘" },
+        { "en": "Lettuce", "es": "La lechuga", "emoji": "🥬" },
+        { "en": "A potato", "es": "La papa", "emoji": "🥔" }
+      ],
+      "answer": 0,
+      "why": { "en": "Beans, corn and rice are all seeds, and people in the Americas have grown beans for thousands of years.", "es": "Los frijoles, el maíz y el arroz son semillas, y en América se siembran frijoles desde hace miles de años." },
+      "topic": "seeds and growing",
+      "source": "https://kids.britannica.com/kids/article/bean/352844"
+    },
+    {
+      "id": "animals-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦑",
+      "q": { "en": "Which sea animal can squirt dark ink?", "es": "¿Qué animal del mar lanza tinta oscura?" },
+      "choices": [
+        { "en": "Squid", "es": "El calamar", "emoji": "🦑" },
+        { "en": "Dolphin", "es": "El delfín", "emoji": "🐬" },
+        { "en": "Crab", "es": "El cangrejo", "emoji": "🦀" }
+      ],
+      "answer": 0,
+      "why": { "en": "A squid shoots an ink cloud to confuse a hunter, then jets away by pushing water out fast.", "es": "El calamar lanza una nube de tinta para confundir al que lo persigue y sale disparado empujando agua." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/cephalopods/squid"
+    },
+    {
+      "id": "animals-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "Which ocean animal is a fish?", "es": "¿Cuál de estos animales del mar es un pez?" },
+      "choices": [
+        { "en": "Shark", "es": "El tiburón", "emoji": "🦈" },
+        { "en": "Dolphin", "es": "El delfín", "emoji": "🐬" },
+        { "en": "Whale", "es": "La ballena", "emoji": "🐳" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shark is a fish with a skeleton made of bendy cartilage, the same stuff inside your own ears.", "es": "El tiburón es un pez con esqueleto de cartílago flexible, el mismo material que hay en tus orejas." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/sharks-rays/sharks"
+    },
+    {
+      "id": "animals-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Which sea animal has five arms?", "es": "¿Qué animal del mar tiene cinco brazos?" },
+      "choices": [
+        { "en": "Sea star", "es": "La estrella de mar", "emoji": "⭐" },
+        { "en": "Octopus", "es": "El pulpo", "emoji": "🐙" },
+        { "en": "Jellyfish", "es": "La medusa", "emoji": "🪼" }
+      ],
+      "answer": 0,
+      "why": { "en": "A sea star can grow a new arm if it loses one, and it gets along with no brain and no blood.", "es": "Una estrella de mar puede hacer crecer un brazo nuevo, y se las arregla sin cerebro y sin sangre." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/sea-stars"
+    },
+    {
+      "id": "animals-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪼",
+      "q": { "en": "Which sea animal has no bones at all?", "es": "¿Qué animal del mar carece de huesos?" },
+      "choices": [
+        { "en": "Jellyfish", "es": "La medusa", "emoji": "🪼" },
+        { "en": "Tuna", "es": "El atún", "emoji": "🐟" },
+        { "en": "Seal", "es": "La foca", "emoji": "🦭" }
+      ],
+      "answer": 0,
+      "why": { "en": "A jellyfish is almost all water and has neither heart nor brain, yet its family is older than dinosaurs.", "es": "La medusa es casi toda agua y carece de corazón y cerebro, pero su familia es más vieja que los dinosaurios." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies"
+    },
+    {
+      "id": "animals-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Which sea animal talks with clicks and whistles?", "es": "¿Qué animal del mar habla con chasquidos y silbidos?" },
+      "choices": [
+        { "en": "Dolphin", "es": "El delfín", "emoji": "🐬" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" },
+        { "en": "Sea star", "es": "La estrella de mar", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each dolphin invents its own whistle as a name, and other dolphins call it by that whistle.", "es": "Cada delfín inventa su propio silbido como nombre, y los otros delfines lo llaman con ese silbido." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/marine-mammals/dolphins"
+    },
+    {
+      "id": "animals-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Where does a hermit crab find its home?", "es": "¿Dónde consigue su casa el cangrejo ermitaño?" },
+      "choices": [
+        { "en": "In an empty shell", "es": "En un caracol vacío", "emoji": "🐚" },
+        { "en": "In a bird nest", "es": "En un nido de ave", "emoji": "🪹" },
+        { "en": "Inside a flower", "es": "Dentro de una flor", "emoji": "🌺" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hermit crab borrows an empty snail shell, and it must find a bigger one each time it grows.", "es": "El cangrejo ermitaño usa un caracol vacío y debe buscar uno más grande cada vez que crece." },
+      "topic": "ocean animals",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/hermit-crab"
+    },
+    {
+      "id": "animals-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Which bird is the smallest in the world?", "es": "¿Cuál es el ave más pequeña del mundo?" },
+      "choices": [
+        { "en": "Bee hummingbird", "es": "El zunzuncito", "emoji": "🐦" },
+        { "en": "Sparrow", "es": "El gorrión", "emoji": "🪶" },
+        { "en": "Robin", "es": "El petirrojo", "emoji": "🐤" }
+      ],
+      "answer": 0,
+      "why": { "en": "The bee hummingbird of Cuba is about two inches, five centimeters, long and its nest is the size of a coin.", "es": "El zunzuncito de Cuba mide unos cinco centímetros, dos pulgadas, y su nido es del tamaño de una moneda." },
+      "topic": "birds",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/bee-hummingbird"
+    },
+    {
+      "id": "animals-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "Which bird has a bright green tail in Guatemala?", "es": "¿Qué ave tiene una cola verde brillante en Guatemala?" },
+      "choices": [
+        { "en": "Quetzal", "es": "El quetzal", "emoji": "🪶" },
+        { "en": "Pigeon", "es": "La paloma", "emoji": "🕊️" },
+        { "en": "Chicken", "es": "La gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "The quetzal's tail feathers can be three feet long, one meter, and the bird appears on Guatemala's money.", "es": "Las plumas de la cola del quetzal miden hasta un metro, tres pies, y el ave aparece en el dinero de Guatemala." },
+      "topic": "birds",
+      "source": "https://kids.sandiegozoo.org/animals/resplendent-quetzal"
+    },
+    {
+      "id": "animals-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐓",
+      "q": { "en": "Which bird wakes the farm at sunrise?", "es": "¿Qué ave despierta a la granja al amanecer?" },
+      "choices": [
+        { "en": "Rooster", "es": "El gallo", "emoji": "🐓" },
+        { "en": "Owl", "es": "El búho", "emoji": "🦉" },
+        { "en": "Swan", "es": "El cisne", "emoji": "🦢" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rooster has a body clock and starts crowing before sunrise, even inside a completely dark room.", "es": "El gallo tiene un reloj en el cuerpo y empieza a cantar antes del amanecer, hasta en un cuarto oscuro." },
+      "topic": "birds",
+      "source": "https://kids.britannica.com/kids/article/chicken/352973"
+    },
+    {
+      "id": "animals-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "Which bird turns its head almost all around?", "es": "¿Qué ave gira la cabeza casi por completo?" },
+      "choices": [
+        { "en": "Owl", "es": "El búho", "emoji": "🦉" },
+        { "en": "Duck", "es": "El pato", "emoji": "🦆" },
+        { "en": "Hen", "es": "La gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "An owl has fourteen neck bones, twice as many as you, so it can look far behind itself.", "es": "El búho tiene catorce huesos en el cuello, el doble que tú, y puede mirar muy atrás de sí mismo." },
+      "topic": "birds",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/barn-owl"
+    },
+    {
+      "id": "animals-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪹",
+      "q": { "en": "What do birds build to keep their eggs safe?", "es": "¿Qué construyen las aves para cuidar sus huevos?" },
+      "choices": [
+        { "en": "A nest", "es": "Un nido", "emoji": "🪹" },
+        { "en": "A burrow", "es": "Una madriguera", "emoji": "🕳️" },
+        { "en": "A web", "es": "Una telaraña", "emoji": "🕸️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Birds weave nests from twigs, mud and even spider silk, and most are built in just a few days.", "es": "Las aves tejen nidos con ramitas, lodo y hasta seda de araña, y casi todos los hacen en pocos días." },
+      "topic": "birds",
+      "source": "https://kids.britannica.com/kids/article/nest/353475"
+    },
+    {
+      "id": "animals-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "How many wings does a bee have?", "es": "¿Cuántas alas tiene una abeja?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro", "emoji": "🐝" },
+        { "en": "Two", "es": "Dos", "emoji": "🪰" },
+        { "en": "Six", "es": "Seis", "emoji": "🐜" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bee has four wings that hook together in flight, and it beats them about two hundred times a second.", "es": "La abeja tiene cuatro alas que se enganchan al volar, y las mueve unas doscientas veces por segundo." },
+      "topic": "insects",
+      "source": "https://www.britannica.com/animal/bee"
+    },
+    {
+      "id": "animals-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐛",
+      "q": { "en": "What does a caterpillar turn into?", "es": "¿En qué se convierte una oruga?" },
+      "choices": [
+        { "en": "A butterfly", "es": "Una mariposa", "emoji": "🦋" },
+        { "en": "A beetle", "es": "Un escarabajo", "emoji": "🪲" },
+        { "en": "A spider", "es": "Una araña", "emoji": "🕷️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Inside its chrysalis a caterpillar turns to soup and rebuilds itself, keeping some of what it learned before.", "es": "Dentro de la crisálida, la oruga se vuelve casi líquida y se arma de nuevo, guardando algo de lo aprendido." },
+      "topic": "insects",
+      "source": "https://www.britannica.com/animal/butterfly"
+    },
+    {
+      "id": "animals-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍯",
+      "q": { "en": "Which insect makes honey for us?", "es": "¿Qué insecto hace miel para nosotros?" },
+      "choices": [
+        { "en": "The bee", "es": "La abeja", "emoji": "🍯" },
+        { "en": "The ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "The fly", "es": "La mosca", "emoji": "🪰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bees visit about two million flowers to make one pound of honey, and honey stays good for centuries.", "es": "Las abejas visitan unos dos millones de flores para hacer medio kilo de miel, que dura siglos sin echarse a perder." },
+      "topic": "insects",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/honeybee"
+    },
+    {
+      "id": "animals-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Which tiny animal can lift heavy things?", "es": "¿Qué animal diminuto puede levantar cosas pesadas?" },
+      "choices": [
+        { "en": "The ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "The snail", "es": "El caracol", "emoji": "🐌" },
+        { "en": "The worm", "es": "La lombriz", "emoji": "🪱" }
+      ],
+      "answer": 0,
+      "why": { "en": "An ant can carry many times its own weight, and ants live in huge groups with one queen.", "es": "Una hormiga carga muchas veces su propio peso, y las hormigas viven en grupos enormes con una reina." },
+      "topic": "insects",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/ant"
+    },
+    {
+      "id": "animals-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐞",
+      "q": { "en": "Which insect has red wings with black spots?", "es": "¿Qué insecto tiene alas rojas con puntos negros?" },
+      "choices": [
+        { "en": "Ladybug", "es": "La mariquita", "emoji": "🐞" },
+        { "en": "Grasshopper", "es": "El saltamontes", "emoji": "🦗" },
+        { "en": "Mosquito", "es": "El mosquito", "emoji": "🦟" }
+      ],
+      "answer": 0,
+      "why": { "en": "A ladybug eats hundreds of tiny plant bugs, so gardeners are happy to see one on a leaf.", "es": "La mariquita come cientos de insectos diminutos de las plantas, por eso los jardineros se alegran de verla." },
+      "topic": "insects",
+      "source": "https://kids.britannica.com/kids/article/ladybug/353334"
+    },
+    {
+      "id": "animals-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "Which big cat lives in the Amazon rainforest?", "es": "¿Qué felino grande vive en la selva del Amazonas?" },
+      "choices": [
+        { "en": "Jaguar", "es": "El jaguar", "emoji": "🐆" },
+        { "en": "Tiger", "es": "El tigre", "emoji": "🐅" },
+        { "en": "Lion", "es": "El león", "emoji": "🦁" }
+      ],
+      "answer": 0,
+      "why": { "en": "A jaguar has the strongest bite of any cat and swims happily in Amazon rivers, unlike most cats.", "es": "El jaguar tiene la mordida más fuerte de los felinos y nada feliz en los ríos del Amazonas." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/jaguar"
+    },
+    {
+      "id": "animals-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Which animal can grow back its own legs?", "es": "¿Qué animal puede volver a echar sus patas?" },
+      "choices": [
+        { "en": "Axolotl", "es": "El ajolote", "emoji": "🦎" },
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐰" },
+        { "en": "Pigeon", "es": "La paloma", "emoji": "🕊️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The axolotl lives in lakes near Mexico City and keeps its feathery pink gills its whole life.", "es": "El ajolote vive en lagos cerca de la Ciudad de México y conserva sus branquias rosadas toda la vida." },
+      "topic": "animals of latin america",
+      "source": "https://www.britannica.com/animal/axolotl"
+    },
+    {
+      "id": "animals-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which animal helps carry loads in the Andes?", "es": "¿Qué animal ayuda a cargar bultos en los Andes?" },
+      "choices": [
+        { "en": "Llama", "es": "La llama", "emoji": "🦙" },
+        { "en": "Zebra", "es": "La cebra", "emoji": "🦓" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐴" }
+      ],
+      "answer": 0,
+      "why": { "en": "A llama can carry heavy bags up steep mountains, and it simply sits down when the load is too big.", "es": "La llama carga bultos pesados por montañas empinadas, y se sienta cuando la carga es demasiado grande." },
+      "topic": "animals of latin america",
+      "source": "https://kids.sandiegozoo.org/animals/llama"
+    },
+    {
+      "id": "animals-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "Which small frog wears bright warning colors?", "es": "¿Qué ranita usa colores brillantes de aviso?" },
+      "choices": [
+        { "en": "The dart frog", "es": "La rana dardo", "emoji": "🐸" },
+        { "en": "The goldfish", "es": "El pez dorado", "emoji": "🐠" },
+        { "en": "The sparrow", "es": "El gorrión", "emoji": "🐦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bright colors tell hunters to stay away, and these tiny frogs live in Central and South American forests.", "es": "Los colores brillantes avisan a los cazadores que se alejen, y estas ranitas viven en bosques de América." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/amphibians/facts/poison-dart-frogs"
+    },
+    {
+      "id": "animals-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Which animal hangs by its tail in the jungle?", "es": "¿Qué animal se cuelga de la cola en la selva?" },
+      "choices": [
+        { "en": "The spider monkey", "es": "El mono araña", "emoji": "🐒" },
+        { "en": "The elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "The deer", "es": "El venado", "emoji": "🦌" }
+      ],
+      "answer": 0,
+      "why": { "en": "Only monkeys from the Americas can hang by their tails, using them almost like a fifth hand.", "es": "Solo los monos de América pueden colgarse de la cola y la usan casi como una quinta mano." },
+      "topic": "animals of latin america",
+      "source": "https://kids.sandiegozoo.org/animals/spider-monkey"
+    },
+    {
+      "id": "animals-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Which animal makes a home in the Galápagos?", "es": "¿Qué animal vive en las islas Galápagos?" },
+      "choices": [
+        { "en": "Giant tortoise", "es": "La tortuga gigante", "emoji": "🐢" },
+        { "en": "Polar bear", "es": "El oso polar", "emoji": "🐻" },
+        { "en": "Reindeer", "es": "El reno", "emoji": "🦌" }
+      ],
+      "answer": 0,
+      "why": { "en": "Galápagos tortoises can live more than one hundred years and rest for about sixteen hours a day.", "es": "Las tortugas de Galápagos viven más de cien años y descansan unas dieciséis horas cada día." },
+      "topic": "animals of latin america",
+      "source": "https://kids.sandiegozoo.org/animals/galapagos-tortoise"
+    },
+    {
+      "id": "animals-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦅",
+      "q": { "en": "Which huge bird glides over the Andes mountains?", "es": "¿Qué ave enorme planea sobre las montañas de los Andes?" },
+      "choices": [
+        { "en": "Condor", "es": "El cóndor", "emoji": "🦅" },
+        { "en": "Hummingbird", "es": "El colibrí", "emoji": "🐦" },
+        { "en": "Penguin", "es": "El pingüino", "emoji": "🐧" }
+      ],
+      "answer": 0,
+      "why": { "en": "An Andean condor has wings wider than a car is long and can glide for hours hardly flapping.", "es": "El cóndor andino tiene alas más anchas que el largo de un carro y planea horas casi sin aletear." },
+      "topic": "animals of latin america",
+      "source": "https://kids.sandiegozoo.org/animals/andean-condor"
+    },
+    {
+      "id": "animals-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦏",
+      "q": { "en": "What is a rhino's horn made of?", "es": "¿De qué está hecho el cuerno del rinoceronte?" },
+      "choices": [
+        { "en": "Packed hair", "es": "Pelo apretado", "emoji": "🦏" },
+        { "en": "Solid bone", "es": "Hueso duro", "emoji": "🦴" },
+        { "en": "Hard stone", "es": "Piedra dura", "emoji": "🪨" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rhino horn is made of keratin, the same stuff as your fingernails and hair, with no bone inside.", "es": "El cuerno del rinoceronte es de queratina, lo mismo que tus uñas y tu cabello, y por dentro carece de hueso." },
+      "topic": "animal body parts",
+      "source": "https://kids.sandiegozoo.org/animals/rhinoceros"
+    },
+    {
+      "id": "animals-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐈",
+      "q": { "en": "What do cats use their whiskers for?", "es": "¿Para qué usan los gatos sus bigotes?" },
+      "choices": [
+        { "en": "Feeling their way", "es": "Para tantear el camino", "emoji": "🐈" },
+        { "en": "Tasting their food", "es": "Para probar la comida", "emoji": "👅" },
+        { "en": "Hearing sounds", "es": "Para oír sonidos", "emoji": "👂" }
+      ],
+      "answer": 0,
+      "why": { "en": "Whiskers are as wide as a cat's body, so they tell it whether a gap is big enough.", "es": "Los bigotes son tan anchos como el cuerpo del gato y le dicen si cabe por un hueco." },
+      "topic": "animal body parts",
+      "source": "https://www.britannica.com/animal/cat"
+    },
+    {
+      "id": "animals-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "What do we call a bird's mouth?", "es": "¿Cómo se llama la boca de un ave?" },
+      "choices": [
+        { "en": "A beak", "es": "El pico", "emoji": "🦜" },
+        { "en": "A snout", "es": "El hocico", "emoji": "🐷" },
+        { "en": "A trunk", "es": "La trompa", "emoji": "🐘" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every beak is a tool shaped for its food: thin for insects, hooked for meat, flat for water plants.", "es": "Cada pico es una herramienta para su comida: delgado para insectos, curvo para carne, plano para plantas de agua." },
+      "topic": "animal body parts",
+      "source": "https://www.britannica.com/science/beak"
+    },
+    {
+      "id": "animals-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦫",
+      "q": { "en": "What does a beaver use its flat tail for?", "es": "¿Para qué usa el castor su cola plana?" },
+      "choices": [
+        { "en": "To slap a warning", "es": "Para dar un aviso", "emoji": "🦫" },
+        { "en": "To dig holes", "es": "Para cavar hoyos", "emoji": "⛏️" },
+        { "en": "To fly away", "es": "Para volar", "emoji": "🪽" }
+      ],
+      "answer": 0,
+      "why": { "en": "A beaver slaps its tail on the water to warn its family, and the sound carries a long way.", "es": "El castor golpea el agua con la cola para avisar a su familia, y el sonido se oye muy lejos." },
+      "topic": "animal body parts",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/beaver"
+    },
+    {
+      "id": "animals-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐌",
+      "q": { "en": "What covers a snail's soft body?", "es": "¿Qué cubre el cuerpo blando del caracol?" },
+      "choices": [
+        { "en": "A shell", "es": "Una concha", "emoji": "🐌" },
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" },
+        { "en": "Scales", "es": "Escamas", "emoji": "🐍" }
+      ],
+      "answer": 0,
+      "why": { "en": "A snail grows its shell as it grows, and it carries that little safe room everywhere it goes.", "es": "El caracol hace crecer su concha junto con su cuerpo y lleva ese cuartito seguro a todas partes." },
+      "topic": "animal body parts",
+      "source": "https://kids.britannica.com/kids/article/snail/353840"
+    },
+    {
+      "id": "animals-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Which animal hops on two strong legs?", "es": "¿Qué animal salta con dos patas fuertes?" },
+      "choices": [
+        { "en": "Kangaroo", "es": "El canguro", "emoji": "🦘" },
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
+        { "en": "Snake", "es": "La serpiente", "emoji": "🐍" }
+      ],
+      "answer": 0,
+      "why": { "en": "A kangaroo's legs work like springs, so hopping fast actually uses less energy than hopping slowly.", "es": "Las patas del canguro funcionan como resortes, así que saltar rápido gasta menos energía que saltar despacio." },
+      "topic": "how animals move",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/red-kangaroo"
+    },
+    {
+      "id": "animals-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐌",
+      "q": { "en": "Which animal moves the slowest of these?", "es": "¿Cuál de estos animales se mueve más lento?" },
+      "choices": [
+        { "en": "Snail", "es": "El caracol", "emoji": "🐌" },
+        { "en": "Horse", "es": "El caballo", "emoji": "🐎" },
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐇" }
+      ],
+      "answer": 0,
+      "why": { "en": "A snail glides on a trail of slime, and it would need a whole day to cross a garden.", "es": "El caracol se desliza sobre un camino de baba y tardaría todo un día en cruzar un jardín." },
+      "topic": "how animals move",
+      "source": "https://www.britannica.com/animal/snail"
+    },
+    {
+      "id": "animals-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "How does a fish move through water?", "es": "¿Cómo avanza un pez en el agua?" },
+      "choices": [
+        { "en": "With fins and tail", "es": "Con aletas y cola", "emoji": "🐟" },
+        { "en": "With wings", "es": "Con alas", "emoji": "🦅" },
+        { "en": "With paws", "es": "Con patas", "emoji": "🐾" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fish pushes water back with its tail, and small fins help it turn, stop and stay upright.", "es": "El pez empuja el agua con la cola, y las aletas pequeñas le ayudan a girar, frenar y mantenerse derecho." },
+      "topic": "how animals move",
+      "source": "https://kids.britannica.com/kids/article/fish/353161"
+    },
+    {
+      "id": "animals-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦗",
+      "q": { "en": "Which animal can jump many times its length?", "es": "¿Qué animal salta muchas veces su propio largo?" },
+      "choices": [
+        { "en": "Grasshopper", "es": "El saltamontes", "emoji": "🦗" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" },
+        { "en": "Cow", "es": "La vaca", "emoji": "🐄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A grasshopper stores energy in its back legs like a stretched rubber band, then lets go to jump.", "es": "El saltamontes guarda energía en sus patas traseras como una liga estirada y luego la suelta para saltar." },
+      "topic": "how animals move",
+      "source": "https://kids.britannica.com/kids/article/grasshopper/353232"
+    },
+    {
+      "id": "animals-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Which animal walks upside down on ceilings?", "es": "¿Qué animal camina de cabeza por el techo?" },
+      "choices": [
+        { "en": "Gecko", "es": "El gecko", "emoji": "🦎" },
+        { "en": "Elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "Goat", "es": "La cabra", "emoji": "🐐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A gecko's toes have millions of tiny hairs that grip walls, so it gets by without any glue.", "es": "Los dedos del gecko tienen millones de pelitos que se agarran a la pared, sin necesitar nada de pegamento." },
+      "topic": "how animals move",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/geckos"
+    },
+    {
+      "id": "animals-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "Where does a bear sleep in winter?", "es": "¿Dónde duerme un oso en invierno?" },
+      "choices": [
+        { "en": "In a den", "es": "En una cueva", "emoji": "🐻" },
+        { "en": "In a nest", "es": "En un nido", "emoji": "🪹" },
+        { "en": "In a pond", "es": "En una laguna", "emoji": "💦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A mother bear gives birth in her den while she sleeps, and the cubs drink milk until spring.", "es": "Una mamá osa tiene a sus crías en la cueva mientras duerme, y ellas toman leche hasta la primavera." },
+      "topic": "animal homes",
+      "source": "https://www.nps.gov/subjects/bears/dens.htm"
+    },
+    {
+      "id": "animals-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "What animal builds a dam across a stream?", "es": "¿Qué animal construye una presa en un arroyo?" },
+      "choices": [
+        { "en": "Beaver", "es": "El castor", "emoji": "🦫" },
+        { "en": "Otter", "es": "La nutria", "emoji": "🦦" },
+        { "en": "Duck", "es": "El pato", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Beavers cut trees with orange teeth and build ponds, which makes homes for frogs, fish and many birds.", "es": "Los castores cortan árboles con sus dientes naranjas y hacen lagunas, que sirven de hogar a ranas, peces y aves." },
+      "topic": "animal homes",
+      "source": "https://kids.britannica.com/kids/article/beaver/352851"
+    },
+    {
+      "id": "animals-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕸️",
+      "q": { "en": "Which animal spins a web to catch food?", "es": "¿Qué animal teje una telaraña para atrapar comida?" },
+      "choices": [
+        { "en": "Spider", "es": "La araña", "emoji": "🕷️" },
+        { "en": "Bird", "es": "El pájaro", "emoji": "🐦" },
+        { "en": "Mouse", "es": "El ratón", "emoji": "🐭" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spider silk stretches better than rubber, and a spider walks on the dry threads to keep from sticking.", "es": "La seda de araña se estira más que el hule, y la araña camina por los hilos secos para no pegarse." },
+      "topic": "animal homes",
+      "source": "https://kids.britannica.com/kids/article/spider/353937"
+    },
+    {
+      "id": "animals-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "Where do rabbits sleep underground?", "es": "¿Dónde duermen los conejos bajo la tierra?" },
+      "choices": [
+        { "en": "In a burrow", "es": "En una madriguera", "emoji": "🕳️" },
+        { "en": "In a web", "es": "En una telaraña", "emoji": "🕸️" },
+        { "en": "In a hive", "es": "En una colmena", "emoji": "🍯" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rabbits dig long tunnels with many rooms and several doors, so they can always escape a chasing animal.", "es": "Los conejos cavan túneles largos con varios cuartos y varias puertas, para poder escapar de quien los persigue." },
+      "topic": "animal homes",
+      "source": "https://kids.britannica.com/kids/article/rabbit/353717"
+    },
+    {
+      "id": "animals-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪸",
+      "q": { "en": "Which animal lives inside a coral reef?", "es": "¿Qué animal vive dentro de un arrecife de coral?" },
+      "choices": [
+        { "en": "Clownfish", "es": "El pez payaso", "emoji": "🐠" },
+        { "en": "Camel", "es": "El camello", "emoji": "🐫" },
+        { "en": "Squirrel", "es": "La ardilla", "emoji": "🐿️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A clownfish lives among stinging tentacles, safe behind a slime coat, and it cleans the sea anemone in return.", "es": "El pez payaso vive entre tentáculos que pican, protegido por una capa de baba, y a cambio limpia a la anémona." },
+      "topic": "animal homes",
+      "source": "https://ocean.si.edu/ocean-life/fish/clownfish"
+    },
+    {
+      "id": "animals-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "Which farm animal gives us wool?", "es": "¿Qué animal de la granja nos da lana?" },
+      "choices": [
+        { "en": "Sheep", "es": "La oveja", "emoji": "🐑" },
+        { "en": "Pig", "es": "El cerdo", "emoji": "🐷" },
+        { "en": "Hen", "es": "La gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "One sheep grows enough wool each year for several sweaters, and that wool keeps it warm and dry.", "es": "Una oveja da suficiente lana al año para varios suéteres, y esa lana la mantiene caliente y seca." },
+      "topic": "farm animals",
+      "source": "https://kids.britannica.com/kids/article/sheep/353894"
+    },
+    {
+      "id": "animals-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which farm animal lays the eggs we eat?", "es": "¿Qué animal de la granja pone los huevos que comemos?" },
+      "choices": [
+        { "en": "Hen", "es": "La gallina", "emoji": "🐔" },
+        { "en": "Horse", "es": "La yegua", "emoji": "🐴" },
+        { "en": "Goat", "es": "La cabra", "emoji": "🐐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hen lays about one egg a day, and the shell color depends on which kind of hen she is.", "es": "Una gallina pone casi un huevo al día, y el color del cascarón depende de la raza de la gallina." },
+      "topic": "farm animals",
+      "source": "https://www.britannica.com/animal/chicken"
+    },
+    {
+      "id": "animals-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧀",
+      "q": { "en": "Which farm animal gives milk for cheese?", "es": "¿Qué animal de la granja da leche para hacer queso?" },
+      "choices": [
+        { "en": "Goat", "es": "La cabra", "emoji": "🐐" },
+        { "en": "Chicken", "es": "La gallina", "emoji": "🐔" },
+        { "en": "Rabbit", "es": "El conejo", "emoji": "🐇" }
+      ],
+      "answer": 0,
+      "why": { "en": "Goats give milk for cheese, they climb steep rocks easily, and their eyes have wide rectangular pupils.", "es": "Las cabras dan leche para queso, trepan rocas empinadas con facilidad y sus ojos tienen pupilas rectangulares." },
+      "topic": "farm animals",
+      "source": "https://kids.britannica.com/kids/article/goat/353203"
+    },
+    {
+      "id": "animals-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "Which animal helps a farmer pull a cart?", "es": "¿Qué animal ayuda a un granjero a jalar una carreta?" },
+      "choices": [
+        { "en": "Horse", "es": "El caballo", "emoji": "🐴" },
+        { "en": "Goldfish", "es": "El pez dorado", "emoji": "🐠" },
+        { "en": "Parrot", "es": "El loro", "emoji": "🦜" }
+      ],
+      "answer": 0,
+      "why": { "en": "Horses sleep standing up because their legs lock in place, and they can nap without ever falling over.", "es": "Los caballos duermen parados porque sus patas se traban solas, y pueden dormitar sin caerse al suelo." },
+      "topic": "farm animals",
+      "source": "https://kids.britannica.com/kids/article/horse/353267"
+    },
+    {
+      "id": "animals-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "Which pet can learn to sit and stay?", "es": "¿Qué mascota aprende a sentarse y quedarse quieta?" },
+      "choices": [
+        { "en": "Dog", "es": "El perro", "emoji": "🐕" },
+        { "en": "Goldfish", "es": "El pez dorado", "emoji": "🐠" },
+        { "en": "Turtle", "es": "La tortuga", "emoji": "🐢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dogs read our faces and follow a pointing finger, something even their closest wild cousins rarely do.", "es": "Los perros leen nuestras caras y siguen un dedo que señala, algo que sus primos salvajes casi no hacen." },
+      "topic": "pets",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "animals-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "A frog starts with gills and later breathes air. Which group is it?", "es": "Una rana empieza con branquias y luego respira aire. ¿A qué grupo pertenece?" },
+      "choices": [
+        { "en": "Amphibians", "es": "Los anfibios" },
+        { "en": "Reptiles", "es": "Los reptiles" },
+        { "en": "Fish", "es": "Los peces" },
+        { "en": "Mammals", "es": "Los mamíferos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Amphibians live a double life: they hatch in water, then grow legs and lungs, and their thin skin also drinks in oxygen.", "es": "Los anfibios viven doble vida: nacen en el agua, luego les salen patas y pulmones, y su piel delgada también absorbe oxígeno." },
+      "topic": "animal groups",
+      "source": "https://kids.britannica.com/kids/article/amphibian/352816"
+    },
+    {
+      "id": "animals-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "A caterpillar has stopped eating and hung itself upside down. What happens next?", "es": "Una oruga dejó de comer y se colgó boca abajo. ¿Qué pasa después?" },
+      "choices": [
+        { "en": "It lays a batch of eggs", "es": "Pone un montón de huevos" },
+        { "en": "It forms a hard chrysalis", "es": "Forma una crisálida dura" },
+        { "en": "It spins a web to catch flies", "es": "Teje una telaraña para atrapar moscas" },
+        { "en": "It digs down into the soil", "es": "Se entierra en la tierra" }
+      ],
+      "answer": 1,
+      "why": { "en": "Inside the chrysalis the caterpillar's body melts into a soup of cells and rebuilds itself as a butterfly with wings.", "es": "Dentro de la crisálida el cuerpo de la oruga se deshace en una sopa de células y se reconstruye como mariposa." },
+      "topic": "life cycles",
+      "source": "https://www.si.edu/spotlight/buginfo/butterfly"
+    },
+    {
+      "id": "animals-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which biome is cold and treeless, with ground that stays frozen underneath?", "es": "¿Cuál bioma es frío y sin árboles, con suelo congelado por debajo?" },
+      "choices": [
+        { "en": "Savanna", "es": "La sabana" },
+        { "en": "Taiga", "es": "La taiga" },
+        { "en": "Tundra", "es": "La tundra" },
+        { "en": "Chaparral", "es": "El chaparral" }
+      ],
+      "answer": 2,
+      "why": { "en": "The frozen layer is called permafrost, and it stops roots from going deep, so tundra plants hug the ground as tiny cushions.", "es": "Esa capa congelada se llama permafrost e impide que las raíces bajen, así que las plantas de la tundra crecen pegadas al suelo." },
+      "topic": "habitats and biomes",
+      "source": "https://kids.britannica.com/kids/article/tundra/353902"
+    },
+    {
+      "id": "animals-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "What do we call an animal that eats both plants and other animals?", "es": "¿Cómo se llama un animal que come tanto plantas como otros animales?" },
+      "choices": [
+        { "en": "A herbivore", "es": "Un herbívoro" },
+        { "en": "A carnivore", "es": "Un carnívoro" },
+        { "en": "A decomposer", "es": "Un descomponedor" },
+        { "en": "An omnivore", "es": "Un omnívoro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Omnivores like bears, pigs and people have both sharp front teeth for meat and flat back teeth for grinding plants.", "es": "Los omnívoros como los osos, los cerdos y las personas tienen dientes filosos adelante y muelas planas atrás para moler plantas." },
+      "topic": "food chains",
+      "source": "https://kids.britannica.com/kids/article/food-chain/353128"
+    },
+    {
+      "id": "animals-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦅",
+      "q": { "en": "Which animal reaches the highest speed of all, diving through the air?", "es": "¿Cuál animal alcanza la mayor velocidad de todos, lanzándose por el aire?" },
+      "choices": [
+        { "en": "Peregrine falcon", "es": "El halcón peregrino" },
+        { "en": "Cheetah", "es": "El guepardo" },
+        { "en": "Sailfish", "es": "El pez vela" },
+        { "en": "Golden eagle", "es": "El águila real" }
+      ],
+      "answer": 0,
+      "why": { "en": "A diving peregrine falcon passes 240 miles per hour, 390 km per hour, and closes its nostrils with little cones to breathe.", "es": "El halcón peregrino en picada supera los 390 km por hora, 240 millas por hora, y cierra sus fosas nasales con conitos." },
+      "topic": "animal speed",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/peregrine-falcon"
+    },
+    {
+      "id": "animals-medium-009", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦎",
+      "q": { "en": "A chameleon changes color mainly to match whatever background it sits on.", "es": "Un camaleón cambia de color principalmente para igualar el fondo donde se posa." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Chameleons shift color mostly to show mood and temperature, signalling anger or calm to each other, and blending in is a smaller reason.", "es": "Los camaleones cambian de color sobre todo por su estado de ánimo y la temperatura, para avisar enojo o calma a otros camaleones." },
+      "topic": "camouflage",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/chameleon"
+    },
+    {
+      "id": "animals-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Which gas do plants take from the air to build their own food?", "es": "¿Cuál gas toman las plantas del aire para fabricar su propio alimento?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno" },
+        { "en": "Nitrogen", "es": "Nitrógeno" },
+        { "en": "Carbon dioxide", "es": "Dióxido de carbono" },
+        { "en": "Helium", "es": "Helio" }
+      ],
+      "answer": 2,
+      "why": { "en": "Leaves take in carbon dioxide through tiny holes called stomata, mix it with water and sunlight, and give oxygen back to us.", "es": "Las hojas toman dióxido de carbono por unos poros llamados estomas, lo mezclan con agua y luz, y nos devuelven oxígeno." },
+      "topic": "how plants make food",
+      "source": "https://kids.britannica.com/kids/article/photosynthesis/353695"
+    },
+    {
+      "id": "animals-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which flavor comes from an orchid that farmers pollinate by hand in Mexico?", "es": "¿Cuál sabor viene de una orquídea que se poliniza a mano en México?" },
+      "choices": [
+        { "en": "Cinnamon", "es": "Canela" },
+        { "en": "Cacao", "es": "Cacao" },
+        { "en": "Mint", "es": "Menta" },
+        { "en": "Vanilla", "es": "Vainilla" }
+      ],
+      "answer": 3,
+      "why": { "en": "Vanilla orchids open for one morning only, so growers move the pollen with a wooden stick, a trick a young worker invented in 1841.", "es": "La flor de vainilla se abre una sola mañana, así que los cultivadores pasan el polen con un palito, un truco inventado en 1841." },
+      "topic": "pollination",
+      "source": "https://www.si.edu/stories/vanilla"
+    },
+    {
+      "id": "animals-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Which bird disappeared forever from the island of Mauritius long ago?", "es": "¿Cuál ave desapareció para siempre de la isla Mauricio hace mucho tiempo?" },
+      "choices": [
+        { "en": "The dodo", "es": "El dodo" },
+        { "en": "The kiwi", "es": "El kiwi" },
+        { "en": "The puffin", "es": "El frailecillo" },
+        { "en": "The emu", "es": "El emú" }
+      ],
+      "answer": 0,
+      "why": { "en": "The dodo was a heavy flightless pigeon with no fear of people, and sailors and the rats from their ships ended it by 1690.", "es": "El dodo era una paloma pesada que no podía volar ni temía a la gente; los marineros y sus ratas acabaron con él hacia 1690." },
+      "topic": "endangered and extinct",
+      "source": "https://kids.britannica.com/kids/article/dodo/399573"
+    },
+    {
+      "id": "animals-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "A butterfly lands on a leaf and instantly knows if it is sweet. How?", "es": "Una mariposa se posa en una hoja y sabe si es dulce. ¿Cómo?" },
+      "choices": [
+        { "en": "With its antennae", "es": "Con sus antenas" },
+        { "en": "With its feet", "es": "Con sus patas" },
+        { "en": "With its wings", "es": "Con sus alas" },
+        { "en": "With its eyes", "es": "Con sus ojos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Butterflies carry taste sensors on their feet, so a mother can stand on a plant and tell whether her caterpillars could eat it.", "es": "Las mariposas tienen sensores de sabor en las patas, así una mamá se para en una planta y sabe si sus orugas podrán comerla." },
+      "topic": "animal senses",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/butterfly"
+    },
+    {
+      "id": "animals-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which parent emperor penguin balances the egg on its feet all winter?", "es": "¿Cuál pingüino emperador equilibra el huevo sobre sus patas todo el invierno?" },
+      "choices": [
+        { "en": "Both parents take turns", "es": "Los dos padres por turnos" },
+        { "en": "The mother", "es": "La madre" },
+        { "en": "The father", "es": "El padre" },
+        { "en": "An older sister", "es": "Una hermana mayor" }
+      ],
+      "answer": 2,
+      "why": { "en": "The father fasts for about two months in the dark cold while the mother walks to the sea and returns with food.", "es": "El padre pasa unos dos meses sin comer en el frío oscuro mientras la madre camina hasta el mar y vuelve con comida." },
+      "topic": "animal babies and parents",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/emperor-penguin"
+    },
+    {
+      "id": "animals-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "How many grinding teeth does an adult elephant chew with at one time?", "es": "¿Cuántas muelas usa un elefante adulto para masticar a la vez?" },
+      "choices": [
+        { "en": "32", "es": "32" },
+        { "en": "20", "es": "20" },
+        { "en": "12", "es": "12" },
+        { "en": "4", "es": "4" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each grinder is as big as a brick, and an elephant grows six sets, sliding new ones forward as the old wear out.", "es": "Cada muela es del tamaño de un ladrillo, y un elefante tiene seis juegos que van avanzando cuando los viejos se desgastan." },
+      "topic": "teeth and beaks",
+      "source": "https://nationalzoo.si.edu/animals/asian-elephant"
+    },
+    {
+      "id": "animals-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "You cut a log and count 40 rings inside. What have you measured?", "es": "Cortas un tronco y cuentas 40 anillos. ¿Qué acabas de medir?" },
+      "choices": [
+        { "en": "The tree's age in years", "es": "La edad del árbol en años" },
+        { "en": "The tree's height in meters", "es": "La altura del árbol en metros" },
+        { "en": "How many branches it had", "es": "Cuántas ramas tuvo" },
+        { "en": "How many storms it survived", "es": "Cuántas tormentas aguantó" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tree adds one ring each year, and a wide ring means a rainy year, so a stump holds a diary of past weather.", "es": "Un árbol forma un anillo por año, y un anillo ancho indica un año lluvioso, así que el tronco guarda un diario del clima." },
+      "topic": "trees and forests",
+      "source": "https://www.usgs.gov/special-topics/tree-rings"
+    },
+    {
+      "id": "animals-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥥",
+      "q": { "en": "Which seed can float across the ocean and sprout on a far beach?", "es": "¿Cuál semilla flota por el océano y brota en una playa lejana?" },
+      "choices": [
+        { "en": "An acorn", "es": "Una bellota" },
+        { "en": "A coconut", "es": "Un coco" },
+        { "en": "A sunflower seed", "es": "Una semilla de girasol" },
+        { "en": "A maple seed", "es": "Una semilla de arce" }
+      ],
+      "answer": 1,
+      "why": { "en": "A coconut's husk traps air like a life jacket, and the milk inside feeds the sprout until its roots reach fresh water.", "es": "La cáscara del coco atrapa aire como un salvavidas, y el agua de adentro alimenta al brote hasta que sus raíces hallan agua dulce." },
+      "topic": "seeds travelling",
+      "source": "https://kids.britannica.com/kids/article/coconut-palm/399258"
+    },
+    {
+      "id": "animals-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍄",
+      "q": { "en": "Instead of seeds, what does a mushroom release to make new mushrooms?", "es": "En lugar de semillas, ¿qué suelta un hongo para hacer hongos nuevos?" },
+      "choices": [
+        { "en": "Pollen", "es": "Polen" },
+        { "en": "Eggs", "es": "Huevos" },
+        { "en": "Spores", "es": "Esporas" },
+        { "en": "Buds", "es": "Brotes" }
+      ],
+      "answer": 2,
+      "why": { "en": "One mushroom can drop billions of spores, each lighter than dust, and the wind carries them to new damp wood or soil.", "es": "Un solo hongo suelta miles de millones de esporas, más ligeras que el polvo, y el viento las lleva a madera o tierra húmeda." },
+      "topic": "fungi",
+      "source": "https://kids.britannica.com/kids/article/fungus/353236"
+    },
+    {
+      "id": "animals-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪸",
+      "q": { "en": "A coral reef looks like rock, but who built it?", "es": "Un arrecife de coral parece roca, pero ¿quién lo construyó?" },
+      "choices": [
+        { "en": "Underwater plants", "es": "Plantas submarinas" },
+        { "en": "Volcanoes", "es": "Volcanes" },
+        { "en": "Sand pressed by waves", "es": "Arena apretada por las olas" },
+        { "en": "Tiny animals called polyps", "es": "Animalitos llamados pólipos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each polyp is a soft animal the size of a pencil tip that builds a stone cup, and millions of cups make a reef.", "es": "Cada pólipo es un animalito del tamaño de la punta de un lápiz que fabrica una copa de piedra; millones de copas forman el arrecife." },
+      "topic": "coral reefs",
+      "source": "https://oceanservice.noaa.gov/facts/coral.html"
+    },
+    {
+      "id": "animals-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "The axolotl lives wild in the canals near which large Mexican city?", "es": "¿Cerca de cuál gran ciudad mexicana vive el ajolote en sus canales?" },
+      "choices": [
+        { "en": "Mexico City", "es": "Ciudad de México" },
+        { "en": "Monterrey", "es": "Monterrey" },
+        { "en": "Mérida", "es": "Mérida" },
+        { "en": "Guadalajara", "es": "Guadalajara" }
+      ],
+      "answer": 0,
+      "why": { "en": "Axolotls keep their feathery gills for life and can regrow a leg, a tail, even parts of the heart and brain.", "es": "Los ajolotes conservan sus branquias de plumas toda la vida y pueden regenerar una pata, la cola y hasta partes del corazón." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/amphibians/facts/axolotl"
+    },
+    {
+      "id": "animals-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "How many main body parts does every insect have?", "es": "¿Cuántas partes principales tiene el cuerpo de todo insecto?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "3", "es": "3" },
+        { "en": "4", "es": "4" },
+        { "en": "6", "es": "6" }
+      ],
+      "answer": 1,
+      "why": { "en": "Head, thorax and abdomen: the six legs and any wings all attach to the middle part, which is the thorax.", "es": "Cabeza, tórax y abdomen: las seis patas y las alas se unen todas a la parte del medio, el tórax." },
+      "topic": "animal groups",
+      "source": "https://kids.britannica.com/kids/article/insect/353073"
+    },
+    {
+      "id": "animals-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪲",
+      "q": { "en": "Which stage of a beetle's life comes between the larva and the adult?", "es": "¿Cuál etapa de la vida de un escarabajo va entre la larva y el adulto?" },
+      "choices": [
+        { "en": "The egg", "es": "El huevo" },
+        { "en": "The nymph", "es": "La ninfa" },
+        { "en": "The pupa", "es": "La pupa" },
+        { "en": "The hatchling", "es": "El recién nacido" }
+      ],
+      "answer": 2,
+      "why": { "en": "Inside the pupa the larva is taken apart and rebuilt, and beetles, bees, flies and butterflies all pass through this quiet stage.", "es": "Dentro de la pupa la larva se desarma y se vuelve a armar; escarabajos, abejas, moscas y mariposas pasan por esa etapa quieta." },
+      "topic": "life cycles",
+      "source": "https://kids.britannica.com/kids/article/metamorphosis/353452"
+    },
+    {
+      "id": "animals-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "About how much rain falls on a desert in a whole year?", "es": "¿Cuánta lluvia cae en un desierto en todo un año?" },
+      "choices": [
+        { "en": "About 40 inches, 100 cm", "es": "Unas 40 pulgadas, 100 cm" },
+        { "en": "About 30 inches, 75 cm", "es": "Unas 30 pulgadas, 75 cm" },
+        { "en": "About 20 inches, 50 cm", "es": "Unas 20 pulgadas, 50 cm" },
+        { "en": "Under 10 inches, 25 cm", "es": "Menos de 10 pulgadas, 25 cm" }
+      ],
+      "answer": 3,
+      "why": { "en": "Deserts are defined by dryness, so Antarctica counts as one too, and it is the biggest and coldest desert on the planet.", "es": "Un desierto se define por lo seco, así que la Antártida también lo es: el desierto más grande y frío del planeta." },
+      "topic": "habitats and biomes",
+      "source": "https://kids.britannica.com/kids/article/desert/353152"
+    },
+    {
+      "id": "animals-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍂",
+      "q": { "en": "Which living things break down dead leaves and return food to the soil?", "es": "¿Cuáles seres vivos descomponen las hojas muertas y devuelven alimento al suelo?" },
+      "choices": [
+        { "en": "Fungi and bacteria", "es": "Los hongos y las bacterias" },
+        { "en": "Hawks and owls", "es": "Los halcones y los búhos" },
+        { "en": "Grasses and ferns", "es": "Los pastos y los helechos" },
+        { "en": "Frogs and toads", "es": "Las ranas y los sapos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Without decomposers, dead wood and leaves would pile up for centuries, so they are the clean-up crew that closes every food chain.", "es": "Sin los descomponedores, la madera y las hojas muertas se acumularían por siglos; son el equipo de limpieza que cierra la cadena." },
+      "topic": "food chains",
+      "source": "https://kids.britannica.com/kids/article/decomposer/629936"
+    },
+    {
+      "id": "animals-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "Which bird flies from the Arctic to Antarctica and back every year?", "es": "¿Cuál ave vuela del Ártico a la Antártida y de regreso cada año?" },
+      "choices": [
+        { "en": "The snowy owl", "es": "El búho nival" },
+        { "en": "The Arctic tern", "es": "El charrán ártico" },
+        { "en": "The albatross", "es": "El albatros" },
+        { "en": "The Canada goose", "es": "El ganso canadiense" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Arctic tern chases summer around the planet, about 44,000 miles, 70,000 km, a year, and sees more daylight than any animal.", "es": "El charrán ártico persigue el verano por todo el planeta, unos 70,000 km, 44,000 millas, al año, y ve más luz que nadie." },
+      "topic": "migration and hibernation",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/arctic-tern"
+    },
+    {
+      "id": "animals-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "About how long is a grown blue whale from nose to tail?", "es": "¿Qué tan larga es una ballena azul adulta de la nariz a la cola?" },
+      "choices": [
+        { "en": "About 30 feet, 9 m", "es": "Unos 30 pies, 9 m" },
+        { "en": "About 60 feet, 18 m", "es": "Unos 60 pies, 18 m" },
+        { "en": "About 100 feet, 30 m", "es": "Unos 100 pies, 30 m" },
+        { "en": "About 200 feet, 60 m", "es": "Unos 200 pies, 60 m" }
+      ],
+      "answer": 2,
+      "why": { "en": "A blue whale is longer than a basketball court, and its heart alone weighs about as much as a small car.", "es": "Una ballena azul es más larga que una cancha de basquetbol, y solo su corazón pesa casi lo mismo que un carro pequeño." },
+      "topic": "animal sizes",
+      "source": "https://www.fisheries.noaa.gov/species/blue-whale"
+    },
+    {
+      "id": "animals-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐇",
+      "q": { "en": "What happens to an Arctic hare's brown fur when winter arrives?", "es": "¿Qué le pasa al pelaje café de una liebre ártica cuando llega el invierno?" },
+      "choices": [
+        { "en": "It falls out completely", "es": "Se le cae por completo" },
+        { "en": "It grows black tips", "es": "Le salen puntas negras" },
+        { "en": "It turns gray and thin", "es": "Se vuelve gris y delgado" },
+        { "en": "It is replaced by white fur", "es": "Lo cambia por pelaje blanco" }
+      ],
+      "answer": 3,
+      "why": { "en": "Shorter days, rather than cold, trigger the change, so the hare turns white just as the first snow is due.", "es": "Los días más cortos, y no el frío, activan el cambio, así la liebre se vuelve blanca justo cuando llega la primera nieve." },
+      "topic": "camouflage",
+      "source": "https://kids.britannica.com/kids/article/Arctic-hare/631113"
+    },
+    {
+      "id": "animals-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "What is the green coloring inside a leaf that catches sunlight called?", "es": "¿Cómo se llama el color verde de la hoja que atrapa la luz del sol?" },
+      "choices": [
+        { "en": "Chlorophyll", "es": "Clorofila" },
+        { "en": "Carotene", "es": "Caroteno" },
+        { "en": "Nectar", "es": "Néctar" },
+        { "en": "Sap", "es": "Savia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chlorophyll soaks up red and blue light and bounces green light back, which is why leaves look green to our eyes.", "es": "La clorofila absorbe la luz roja y azul y rebota la verde, por eso nuestros ojos ven las hojas de color verde." },
+      "topic": "how plants make food",
+      "source": "https://kids.britannica.com/kids/article/chlorophyll/399162"
+    },
+    {
+      "id": "animals-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "A snake flicks its forked tongue in and out. What is it doing?", "es": "Una serpiente saca y mete su lengua bífida. ¿Qué está haciendo?" },
+      "choices": [
+        { "en": "Cooling itself down", "es": "Se refresca" },
+        { "en": "Smelling the air", "es": "Huele el aire" },
+        { "en": "Tasting the ground for water", "es": "Busca agua en el suelo" },
+        { "en": "Calling to other snakes", "es": "Llama a otras serpientes" }
+      ],
+      "answer": 1,
+      "why": { "en": "The tongue carries scent particles to two pits in the roof of the mouth, and the fork tells the snake which side smells stronger.", "es": "La lengua lleva partículas de olor a dos huecos del paladar, y la horquilla le dice de qué lado huele más fuerte." },
+      "topic": "animal senses",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/snakes"
+    },
+    {
+      "id": "animals-medium-030", "level": "medium", "type": "tf", "lang": "both", "emoji": "🐬",
+      "q": { "en": "The vaquita is a small porpoise that lives only in Mexican waters.", "es": "La vaquita marina es una marsopa pequeña que vive solo en aguas mexicanas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The vaquita swims in one corner of the Gulf of California and is the smallest porpoise, about 5 feet, 1.5 m, long.", "es": "La vaquita nada en un rincón del golfo de California y es la marsopa más pequeña, de unos 1.5 m, 5 pies, de largo." },
+      "topic": "endangered and extinct",
+      "source": "https://www.fisheries.noaa.gov/species/vaquita"
+    },
+    {
+      "id": "animals-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Leafcutter ants carry leaf pieces underground. What do they do with them?", "es": "Las hormigas arrieras llevan trozos de hoja bajo tierra. ¿Qué hacen con ellos?" },
+      "choices": [
+        { "en": "Build walls for the nest", "es": "Construyen paredes del nido" },
+        { "en": "Eat them slowly", "es": "Se los comen poco a poco" },
+        { "en": "Grow a fungus garden to eat", "es": "Cultivan un jardín de hongos para comer" },
+        { "en": "Line the queen's chamber", "es": "Forran la cámara de la reina" }
+      ],
+      "answer": 2,
+      "why": { "en": "The ants chew the leaves into mulch, feed a fungus with it, and eat the fungus, farming underground long before people did.", "es": "Las hormigas mastican las hojas hasta hacer abono, alimentan un hongo y se comen el hongo: cultivan bajo tierra desde mucho antes que nosotros." },
+      "topic": "animals of latin america",
+      "source": "https://www.si.edu/stories/leafcutter-ants"
+    },
+    {
+      "id": "animals-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Which bird can hover in one spot and fly backwards?", "es": "¿Cuál ave puede quedarse suspendida en el aire y volar hacia atrás?" },
+      "choices": [
+        { "en": "The swift", "es": "El vencejo" },
+        { "en": "The kingfisher", "es": "El martín pescador" },
+        { "en": "The sparrow", "es": "El gorrión" },
+        { "en": "The hummingbird", "es": "El colibrí" }
+      ],
+      "answer": 3,
+      "why": { "en": "A hummingbird's wings trace a figure eight about 50 times a second, so it can hover, rise, and back away from a flower.", "es": "Las alas del colibrí dibujan un ocho unas 50 veces por segundo, por eso puede quedarse quieto, subir y retroceder de una flor." },
+      "topic": "birds",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/hummingbird"
+    },
+    {
+      "id": "animals-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What do we call the tiny drifting life that feeds most ocean animals?", "es": "¿Cómo se llama la vida diminuta que flota y alimenta a casi todo el océano?" },
+      "choices": [
+        { "en": "Plankton", "es": "El plancton" },
+        { "en": "Seaweed", "es": "Las algas marinas" },
+        { "en": "Sponges", "es": "Las esponjas" },
+        { "en": "Barnacles", "es": "Los percebes" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plankton drifts wherever currents push it, and the plant kind makes about half of the oxygen in every breath we take.", "es": "El plancton va donde lo llevan las corrientes, y el plancton vegetal produce casi la mitad del oxígeno que respiramos." },
+      "topic": "ocean life",
+      "source": "https://oceanservice.noaa.gov/facts/plankton.html"
+    },
+    {
+      "id": "animals-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦖",
+      "q": { "en": "A horned lizard is cornered by a coyote. What surprising thing might it do?", "es": "Un coyote acorrala a un lagarto cornudo. ¿Qué cosa sorprendente puede hacer?" },
+      "choices": [
+        { "en": "Whistle very loudly", "es": "Silbar muy fuerte" },
+        { "en": "Squirt blood from its eyes", "es": "Lanzar sangre por los ojos" },
+        { "en": "Drop its tail and run", "es": "Soltar la cola y correr" },
+        { "en": "Turn bright blue", "es": "Ponerse azul brillante" }
+      ],
+      "answer": 1,
+      "why": { "en": "The lizard squeezes blood from around its eyes up to 3 feet, 1 m, and the bad taste sends coyotes away.", "es": "El lagarto lanza sangre desde el borde de sus ojos hasta 1 m, 3 pies, y el mal sabor espanta a los coyotes." },
+      "topic": "animal defenses",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/horned-lizard"
+    },
+    {
+      "id": "animals-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Why do maple leaves turn red and gold before they fall?", "es": "¿Por qué las hojas de arce se vuelven rojas y doradas antes de caer?" },
+      "choices": [
+        { "en": "The cold paints them", "es": "El frío las pinta" },
+        { "en": "They soak up rain", "es": "Absorben la lluvia" },
+        { "en": "The green chlorophyll fades away", "es": "La clorofila verde se desvanece" },
+        { "en": "Insects change their color", "es": "Los insectos las cambian de color" }
+      ],
+      "answer": 2,
+      "why": { "en": "Yellow and orange colors hide in the leaf all summer, and when the tree stops making chlorophyll those colors finally show through.", "es": "Los tonos amarillos y naranjas están en la hoja todo el verano; cuando el árbol deja de hacer clorofila, por fin se ven." },
+      "topic": "trees and forests",
+      "source": "https://kids.britannica.com/kids/article/leaf/353346"
     }
   ]
 }

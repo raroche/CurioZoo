@@ -1,7 +1,7 @@
 {
   "note": "Art, Music & Stories. Three levels in one file so a reviewer sees the ladder.",
   "category": "art",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "art-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
@@ -12,8 +12,7 @@
         { "en": "Orange", "es": "Naranja", "emoji": "🟠" }
       ],
       "answer": 1,
-      "why": { "en": "Blue and yellow paint mixed together make green, the color of leaves and grass.",
-               "es": "La pintura azul y la amarilla juntas hacen verde, el color de las hojas y el pasto." },
+      "why": { "en": "Blue and yellow paint mixed together make green, the color of leaves and grass.", "es": "La pintura azul y la amarilla juntas hacen verde, el color de las hojas y el pasto." },
       "topic": "mixing colors",
       "source": "https://www.britannica.com/science/color/The-visible-spectrum"
     },
@@ -26,8 +25,7 @@
         { "en": "Drum", "es": "El tambor", "emoji": "🥁" }
       ],
       "answer": 2,
-      "why": { "en": "You hit a drum with your hands or with sticks, and its skin shakes to make a boom.",
-               "es": "Golpeas el tambor con las manos o con baquetas, y su parche vibra y hace un sonido fuerte." },
+      "why": { "en": "You hit a drum with your hands or with sticks, and its skin shakes to make a boom.", "es": "Golpeas el tambor con las manos o con baquetas, y su parche vibra y hace un sonido fuerte." },
       "topic": "instruments",
       "source": "https://www.britannica.com/art/drum-musical-instrument"
     },
@@ -40,8 +38,7 @@
         { "en": "Five", "es": "Cinco", "emoji": "5️⃣" }
       ],
       "answer": 0,
-      "why": { "en": "Three little pigs build houses of straw, sticks and bricks, and only the brick house stays standing.",
-               "es": "Tres cerditos construyen casas de paja, de palos y de ladrillos, y solo la de ladrillos queda en pie." },
+      "why": { "en": "Three little pigs build houses of straw, sticks and bricks, and only the brick house stays standing.", "es": "Tres cerditos construyen casas de paja, de palos y de ladrillos, y solo la de ladrillos queda en pie." },
       "topic": "fairy tales",
       "source": "https://www.britannica.com/topic/The-Three-Little-Pigs"
     },
@@ -55,8 +52,7 @@
         { "en": "Frida Kahlo", "es": "Frida Kahlo" }
       ],
       "answer": 1,
-      "why": { "en": "Leonardo da Vinci painted the Mona Lisa in Italy about 500 years ago; it hangs in the Louvre in Paris.",
-               "es": "Leonardo da Vinci pintó la Mona Lisa en Italia hace unos 500 años; está en el Museo del Louvre, en París." },
+      "why": { "en": "Leonardo da Vinci painted the Mona Lisa in Italy about 500 years ago; it hangs in the Louvre in Paris.", "es": "Leonardo da Vinci pintó la Mona Lisa en Italia hace unos 500 años; está en el Museo del Louvre, en París." },
       "topic": "famous paintings",
       "source": "https://www.britannica.com/topic/Mona-Lisa-painting"
     },
@@ -70,8 +66,7 @@
         { "en": "Strings", "es": "Cuerdas" }
       ],
       "answer": 3,
-      "why": { "en": "A violin has four strings that you play with a bow, just like its bigger cousins, the viola, cello and double bass.",
-               "es": "El violín tiene cuatro cuerdas que se tocan con un arco, igual que sus primos más grandes: la viola, el violonchelo y el contrabajo." },
+      "why": { "en": "A violin has four strings that you play with a bow, just like its bigger cousins, the viola, cello and double bass.", "es": "El violín tiene cuatro cuerdas que se tocan con un arco, igual que sus primos más grandes: la viola, el violonchelo y el contrabajo." },
       "topic": "instrument families",
       "source": "https://www.britannica.com/art/violin"
     },
@@ -85,15 +80,13 @@
         { "en": "Hans Christian Andersen", "es": "Hans Christian Andersen" }
       ],
       "answer": 2,
-      "why": { "en": "Beatrix Potter wrote and painted The Tale of Peter Rabbit in England, first as a letter to a sick little boy.",
-               "es": "Beatrix Potter escribió y pintó el cuento de Peter Rabbit en Inglaterra; primero fue una carta para un niño enfermo." },
+      "why": { "en": "Beatrix Potter wrote and painted The Tale of Peter Rabbit in England, first as a letter to a sick little boy.", "es": "Beatrix Potter escribió y pintó el cuento de Peter Rabbit en Inglaterra; primero fue una carta para un niño enfermo." },
       "topic": "children's authors",
       "source": "https://www.britannica.com/biography/Beatrix-Potter"
     },
     {
       "id": "art-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌅",
-      "q": { "en": "Claude Monet and Pierre-Auguste Renoir led which art movement that painted light with quick brushstrokes?",
-             "es": "¿Qué movimiento artístico, que pintaba la luz con pinceladas rápidas, encabezaron Claude Monet y Pierre-Auguste Renoir?" },
+      "q": { "en": "Claude Monet and Pierre-Auguste Renoir led which art movement that painted light with quick brushstrokes?", "es": "¿Qué movimiento artístico, que pintaba la luz con pinceladas rápidas, encabezaron Claude Monet y Pierre-Auguste Renoir?" },
       "choices": [
         { "en": "Cubism", "es": "Cubismo" },
         { "en": "Impressionism", "es": "Impresionismo" },
@@ -101,15 +94,13 @@
         { "en": "Baroque", "es": "Barroco" }
       ],
       "answer": 1,
-      "why": { "en": "Impressionism got its name from Monet's painting Impression, Sunrise, shown in Paris in 1874; a critic meant the name as an insult.",
-               "es": "El impresionismo tomó su nombre del cuadro Impresión, sol naciente, de Monet, expuesto en París en 1874; un crítico lo usó como burla." },
+      "why": { "en": "Impressionism got its name from Monet's painting Impression, Sunrise, shown in Paris in 1874; a critic meant the name as an insult.", "es": "El impresionismo tomó su nombre del cuadro Impresión, sol naciente, de Monet, expuesto en París en 1874; un crítico lo usó como burla." },
       "topic": "art movements",
       "source": "https://www.britannica.com/art/Impressionism-art"
     },
     {
       "id": "art-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎼",
-      "q": { "en": "In music, how many beats does a whole note get in 4/4 time?",
-             "es": "En música, ¿cuántos tiempos dura una redonda en un compás de 4/4?" },
+      "q": { "en": "In music, how many beats does a whole note get in 4/4 time?", "es": "En música, ¿cuántos tiempos dura una redonda en un compás de 4/4?" },
       "choices": [
         { "en": "2", "es": "2" },
         { "en": "1", "es": "1" },
@@ -117,8 +108,7 @@
         { "en": "4", "es": "4" }
       ],
       "answer": 3,
-      "why": { "en": "A whole note fills a whole 4/4 bar with four beats; a half note gets two beats and a quarter note gets one.",
-               "es": "Una redonda llena todo un compás de 4/4 con cuatro tiempos; una blanca dura dos tiempos y una negra dura uno." },
+      "why": { "en": "A whole note fills a whole 4/4 bar with four beats; a half note gets two beats and a quarter note gets one.", "es": "Una redonda llena todo un compás de 4/4 con cuatro tiempos; una blanca dura dos tiempos y una negra dura uno." },
       "topic": "musical notation",
       "source": "https://www.britannica.com/art/musical-notation"
     },
@@ -130,10 +120,1270 @@
         { "en": "False", "es": "Falso" }
       ],
       "answer": 1,
-      "why": { "en": "William Shakespeare wrote Romeo and Juliet in England; Miguel de Cervantes wrote Don Quixote in Spain around the same time.",
-               "es": "William Shakespeare escribió Romeo y Julieta en Inglaterra; Miguel de Cervantes escribió Don Quijote en España por la misma época." },
+      "why": { "en": "William Shakespeare wrote Romeo and Juliet in England; Miguel de Cervantes wrote Don Quixote in Spain around the same time.", "es": "William Shakespeare escribió Romeo y Julieta en Inglaterra; Miguel de Cervantes escribió Don Quijote en España por la misma época." },
       "topic": "shakespeare",
       "source": "https://www.britannica.com/topic/Romeo-and-Juliet"
+    },
+    {
+      "id": "art-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "How many primary colors are there?", "es": "¿Cuántos colores primarios hay?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "One", "es": "Uno", "emoji": "1️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" }
+      ],
+      "answer": 2,
+      "why": { "en": "Red, yellow and blue are the primary colors; you cannot mix any other paints together to make them.", "es": "El rojo, el amarillo y el azul son los colores primarios; no se pueden crear mezclando otras pinturas." },
+      "topic": "primary colors",
+      "source": "https://www.britannica.com/science/color"
+    },
+    {
+      "id": "art-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟠",
+      "q": { "en": "Which color do red and yellow make?", "es": "¿Qué color hacen el rojo y el amarillo?" },
+      "choices": [
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Orange", "es": "Naranja", "emoji": "🟠" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 1,
+      "why": { "en": "Red and yellow make orange, the color of a carrot, a pumpkin and the sky at sunset.", "es": "El rojo y el amarillo hacen naranja, el color de la zanahoria, la calabaza y el cielo al atardecer." },
+      "topic": "mixing colors",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/colour"
+    },
+    {
+      "id": "art-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟣",
+      "q": { "en": "Which color do red and blue make?", "es": "¿Qué color hacen el rojo y el azul?" },
+      "choices": [
+        { "en": "Purple", "es": "Morado", "emoji": "🟣" },
+        { "en": "Yellow", "es": "Amarillo", "emoji": "🟡" },
+        { "en": "Brown", "es": "Café", "emoji": "🟤" }
+      ],
+      "answer": 0,
+      "why": { "en": "Red and blue paint make purple, once a dye so costly that only kings and queens were allowed it.", "es": "El rojo y el azul hacen morado; antes era un tinte tan caro que solo lo usaban los reyes." },
+      "topic": "mixing colors",
+      "source": "https://www.britannica.com/science/purple-color"
+    },
+    {
+      "id": "art-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩶",
+      "q": { "en": "What color comes from black and white?", "es": "¿Qué color sale del negro y el blanco?" },
+      "choices": [
+        { "en": "Pink", "es": "Rosa", "emoji": "🩷" },
+        { "en": "Blue", "es": "Azul", "emoji": "💙" },
+        { "en": "Gray", "es": "Gris", "emoji": "🩶" }
+      ],
+      "answer": 2,
+      "why": { "en": "Black and white paint mixed together make gray, and each extra drop of white makes a lighter gray.", "es": "La pintura negra y la blanca juntas hacen gris, y con más blanco el gris sale más claro." },
+      "topic": "mixing colors",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/colour"
+    },
+    {
+      "id": "art-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "❤️",
+      "q": { "en": "Which of these is a warm color?", "es": "¿Cuál de estos es un color cálido?" },
+      "choices": [
+        { "en": "Red", "es": "Rojo", "emoji": "❤️" },
+        { "en": "Blue", "es": "Azul", "emoji": "💙" },
+        { "en": "Gray", "es": "Gris", "emoji": "🩶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Red, orange and yellow are called warm colors because they remind us of fire and of sunshine.", "es": "El rojo, el naranja y el amarillo son colores cálidos porque nos recuerdan al fuego y al sol." },
+      "topic": "primary colors",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/colour"
+    },
+    {
+      "id": "art-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖌️",
+      "q": { "en": "Where does a painter mix the colors?", "es": "¿Dónde mezcla los colores un pintor?" },
+      "choices": [
+        { "en": "On a drum", "es": "En un tambor", "emoji": "🥁" },
+        { "en": "On a palette", "es": "En una paleta", "emoji": "🎨" },
+        { "en": "On a ladder", "es": "En una escalera", "emoji": "🪜" }
+      ],
+      "answer": 1,
+      "why": { "en": "A palette is a flat board a painter holds, with a thumb hole so it balances on one hand.", "es": "La paleta es una tabla plana que el pintor sostiene; tiene un hueco para el pulgar y se equilibra." },
+      "topic": "painting tools",
+      "source": "https://www.britannica.com/art/painting"
+    },
+    {
+      "id": "art-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖍️",
+      "q": { "en": "What are crayons mostly made of?", "es": "¿De qué están hechos los crayones?" },
+      "choices": [
+        { "en": "Wax", "es": "Cera", "emoji": "🕯️" },
+        { "en": "Ice", "es": "Hielo", "emoji": "🧊" },
+        { "en": "Glass", "es": "Vidrio", "emoji": "🫙" }
+      ],
+      "answer": 0,
+      "why": { "en": "Crayons are colored wax; the wax melts a little as you press, leaving the color on the paper.", "es": "Los crayones son cera de color; la cera se derrite un poco al apretar y deja color en el papel." },
+      "topic": "art materials",
+      "source": "https://www.britannica.com/art/crayon"
+    },
+    {
+      "id": "art-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "What does a hot oven do to clay?", "es": "¿Qué le hace al barro un horno caliente?" },
+      "choices": [
+        { "en": "Makes it float", "es": "Lo hace flotar", "emoji": "🎈" },
+        { "en": "Makes it hard", "es": "Lo pone duro", "emoji": "🧱" },
+        { "en": "Makes it wet", "es": "Lo moja", "emoji": "💧" }
+      ],
+      "answer": 1,
+      "why": { "en": "A kiln bakes clay until it turns hard as stone, so a bowl can hold hot soup without melting.", "es": "El horno cuece el barro hasta dejarlo duro como piedra, y así un tazón puede tener sopa sin deshacerse." },
+      "topic": "art materials",
+      "source": "https://www.britannica.com/art/pottery"
+    },
+    {
+      "id": "art-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "📄",
+      "q": { "en": "What is the paper folding art called?", "es": "¿Cómo se llama el arte de doblar papel?" },
+      "choices": [
+        { "en": "Ballet", "es": "Ballet", "emoji": "🩰" },
+        { "en": "Pottery", "es": "Alfarería", "emoji": "🏺" },
+        { "en": "Origami", "es": "Origami", "emoji": "🕊️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Origami folds paper into shapes with no cutting and no glue; the paper crane is its best known figure.", "es": "El origami dobla papel para hacer figuras sin cortar ni pegar; la grulla de papel es la más conocida." },
+      "topic": "paper folding",
+      "source": "https://www.britannica.com/art/origami"
+    },
+    {
+      "id": "art-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "Which instrument has black and white keys?", "es": "¿Qué instrumento tiene teclas blancas y negras?" },
+      "choices": [
+        { "en": "Piano", "es": "El piano", "emoji": "🎹" },
+        { "en": "Flute", "es": "La flauta", "emoji": "🪈" },
+        { "en": "Drum", "es": "El tambor", "emoji": "🥁" }
+      ],
+      "answer": 0,
+      "why": { "en": "A piano has eighty-eight keys, and inside, small hammers hit strings when your fingers press the keys down.", "es": "El piano tiene ochenta y ocho teclas, y por dentro unos martillos golpean cuerdas cuando aprietas las teclas." },
+      "topic": "instruments",
+      "source": "https://www.britannica.com/art/piano"
+    },
+    {
+      "id": "art-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎺",
+      "q": { "en": "Which instrument do you blow into?", "es": "¿En qué instrumento tienes que soplar?" },
+      "choices": [
+        { "en": "Drum", "es": "El tambor", "emoji": "🥁" },
+        { "en": "Trumpet", "es": "La trompeta", "emoji": "🎺" },
+        { "en": "Guitar", "es": "La guitarra", "emoji": "🎸" }
+      ],
+      "answer": 1,
+      "why": { "en": "You buzz your lips into a trumpet, and the air travels through a coiled tube longer than you are tall.", "es": "En la trompeta haces vibrar los labios, y el aire recorre un tubo enrollado más largo que tu propia altura." },
+      "topic": "instruments",
+      "source": "https://www.britannica.com/art/trumpet"
+    },
+    {
+      "id": "art-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎸",
+      "q": { "en": "Which instrument has six strings to strum?", "es": "¿Qué instrumento tiene seis cuerdas para rasguear?" },
+      "choices": [
+        { "en": "Trumpet", "es": "La trompeta", "emoji": "🎺" },
+        { "en": "Maraca", "es": "La maraca", "emoji": "🪇" },
+        { "en": "Guitar", "es": "La guitarra", "emoji": "🎸" }
+      ],
+      "answer": 2,
+      "why": { "en": "A guitar has six strings; the thick ones sing low notes and the thin ones sing high notes.", "es": "La guitarra tiene seis cuerdas; las gruesas suenan graves y las delgadas suenan agudas, como voces distintas." },
+      "topic": "instruments",
+      "source": "https://www.britannica.com/art/guitar"
+    },
+    {
+      "id": "art-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪇",
+      "q": { "en": "What is inside a pair of maracas?", "es": "¿Qué hay adentro de un par de maracas?" },
+      "choices": [
+        { "en": "Little seeds", "es": "Semillitas", "emoji": "🌰" },
+        { "en": "Warm water", "es": "Agua tibia", "emoji": "💧" },
+        { "en": "Soft feathers", "es": "Plumas suaves", "emoji": "🪶" }
+      ],
+      "answer": 0,
+      "why": { "en": "Maracas are hollow gourds filled with seeds or beads; shaking them throws the seeds against the hard shell.", "es": "Las maracas son calabazas huecas con semillas adentro; al agitarlas, las semillas chocan contra las paredes duras." },
+      "topic": "instruments of the americas",
+      "source": "https://www.britannica.com/art/maraca"
+    },
+    {
+      "id": "art-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪵",
+      "q": { "en": "Which wooden instrument do you hit with mallets?", "es": "¿Qué instrumento de madera se golpea con baquetas?" },
+      "choices": [
+        { "en": "Violin", "es": "El violín", "emoji": "🎻" },
+        { "en": "Trumpet", "es": "La trompeta", "emoji": "🎺" },
+        { "en": "Marimba", "es": "La marimba", "emoji": "🪵" }
+      ],
+      "answer": 2,
+      "why": { "en": "The marimba has wooden bars over long tubes that make the sound bloom; it is the national instrument of Guatemala.", "es": "La marimba tiene tablillas de madera sobre tubos largos; es el instrumento nacional de Guatemala y suena muy cálida." },
+      "topic": "instruments of the americas",
+      "source": "https://www.britannica.com/art/marimba"
+    },
+    {
+      "id": "art-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Where does the djembe drum come from?", "es": "¿De dónde viene el tambor djembé?" },
+      "choices": [
+        { "en": "Canada", "es": "Canadá", "emoji": "🍁" },
+        { "en": "Africa", "es": "África", "emoji": "🌍" },
+        { "en": "Australia", "es": "Australia", "emoji": "🦘" }
+      ],
+      "answer": 1,
+      "why": { "en": "The djembe is carved from a single piece of wood in West Africa and played with bare hands.", "es": "El djembé se talla de un solo tronco en África occidental y se toca con las manos desnudas." },
+      "topic": "drums of the world",
+      "source": "https://www.britannica.com/art/African-music"
+    },
+    {
+      "id": "art-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "Which Caribbean drum is made from barrels?", "es": "¿Qué tambor del Caribe se hace con barriles?" },
+      "choices": [
+        { "en": "Glass bell", "es": "La campana de vidrio", "emoji": "🔔" },
+        { "en": "Steel pan", "es": "El steel pan", "emoji": "🛢️" },
+        { "en": "Wooden flute", "es": "La flauta de madera", "emoji": "🪈" }
+      ],
+      "answer": 1,
+      "why": { "en": "The steel pan was invented in Trinidad from old oil barrels; dents hammered into the top play different notes.", "es": "El steel pan nació en Trinidad con barriles de metal; los golpes en la tapa hacen que suenen notas distintas." },
+      "topic": "drums of the world",
+      "source": "https://www.britannica.com/art/steelband"
+    },
+    {
+      "id": "art-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔊",
+      "q": { "en": "Which of these makes the loudest sound?", "es": "¿Cuál de estos hace el sonido más fuerte?" },
+      "choices": [
+        { "en": "A whisper", "es": "Un susurro", "emoji": "🤫" },
+        { "en": "A feather", "es": "Una pluma", "emoji": "🪶" },
+        { "en": "Thunder", "es": "Un trueno", "emoji": "🌩️" }
+      ],
+      "answer": 2,
+      "why": { "en": "Thunder can be heard from miles away, while a whisper fades after one step; music uses both extremes.", "es": "Un trueno se oye a kilómetros, y un susurro se pierde a un paso; la música usa los dos extremos." },
+      "topic": "loud and soft",
+      "source": "https://www.britannica.com/science/sound-physics"
+    },
+    {
+      "id": "art-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎼",
+      "q": { "en": "Who waves a stick in front of musicians?", "es": "¿Quién agita una varita frente a los músicos?" },
+      "choices": [
+        { "en": "The conductor", "es": "El director", "emoji": "🎼" },
+        { "en": "The painter", "es": "El pintor", "emoji": "🎨" },
+        { "en": "The baker", "es": "El panadero", "emoji": "🥐" }
+      ],
+      "answer": 0,
+      "why": { "en": "A conductor uses a thin stick called a baton to show the players when to be loud or soft.", "es": "El director usa una varita llamada batuta para indicar a los músicos cuándo tocar fuerte o suave." },
+      "topic": "orchestra",
+      "source": "https://www.britannica.com/art/conducting"
+    },
+    {
+      "id": "art-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Is a lullaby sung fast or slow?", "es": "¿La canción de cuna se canta rápido o lento?" },
+      "choices": [
+        { "en": "Slow", "es": "Lento", "emoji": "🐢" },
+        { "en": "Fast", "es": "Rápido", "emoji": "🐇" },
+        { "en": "Backwards", "es": "Al revés", "emoji": "🔄" }
+      ],
+      "answer": 0,
+      "why": { "en": "A lullaby is slow and soft because a beat near a resting heartbeat helps a baby fall asleep.", "es": "La canción de cuna es lenta y suave porque un ritmo pausado, como el corazón en reposo, da sueño." },
+      "topic": "fast and slow",
+      "source": "https://www.britannica.com/art/lullaby"
+    },
+    {
+      "id": "art-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "Which instrument plays the lowest notes?", "es": "¿Qué instrumento toca las notas más graves?" },
+      "choices": [
+        { "en": "Flute", "es": "La flauta", "emoji": "🪈" },
+        { "en": "Triangle", "es": "El triángulo", "emoji": "🔺" },
+        { "en": "Tuba", "es": "La tuba", "emoji": "🎺" }
+      ],
+      "answer": 2,
+      "why": { "en": "The tuba is the biggest brass horn, and its long coiled tube makes notes so low you feel them.", "es": "La tuba es el metal más grande, y su tubo largo y enrollado da notas tan graves que se sienten." },
+      "topic": "high and low notes",
+      "source": "https://www.britannica.com/art/tuba"
+    },
+    {
+      "id": "art-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "On a piano, where are the high notes?", "es": "En el piano, ¿dónde están las notas agudas?" },
+      "choices": [
+        { "en": "Underneath", "es": "Abajo", "emoji": "👇" },
+        { "en": "On the right", "es": "A la derecha", "emoji": "👉" },
+        { "en": "On the left", "es": "A la izquierda", "emoji": "👈" }
+      ],
+      "answer": 1,
+      "why": { "en": "Piano keys climb from low to high as you go right, so the shortest, thinnest strings sit there.", "es": "Las teclas del piano suben de grave a agudo hacia la derecha, y ahí están las cuerdas más cortas." },
+      "topic": "high and low notes",
+      "source": "https://www.britannica.com/art/piano"
+    },
+    {
+      "id": "art-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎵",
+      "q": { "en": "What makes a guitar string sing?", "es": "¿Qué hace que una cuerda de guitarra suene?" },
+      "choices": [
+        { "en": "It gets warm", "es": "Se calienta", "emoji": "🔥" },
+        { "en": "It turns blue", "es": "Se pone azul", "emoji": "💙" },
+        { "en": "It shakes quickly", "es": "Vibra muy rápido", "emoji": "〰️" }
+      ],
+      "answer": 2,
+      "why": { "en": "A plucked string shakes back and forth hundreds of times each second, and the shaking air reaches your ears.", "es": "Una cuerda pulsada vibra cientos de veces por segundo, y ese temblor del aire llega hasta tus oídos." },
+      "topic": "how sound is made",
+      "source": "https://www.britannica.com/science/sound-physics"
+    },
+    {
+      "id": "art-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎤",
+      "q": { "en": "Which of these does a singer use?", "es": "¿Cuál de estas cosas usa un cantante?" },
+      "choices": [
+        { "en": "Their voice", "es": "Su voz", "emoji": "🎤" },
+        { "en": "A paintbrush", "es": "Un pincel", "emoji": "🖌️" },
+        { "en": "A rolling pin", "es": "Un rodillo", "emoji": "🥖" }
+      ],
+      "answer": 0,
+      "why": { "en": "A singer's instrument hides inside the throat: two small folds of skin that flutter as air rushes past.", "es": "El instrumento del cantante está en la garganta: dos pliegues pequeños que vibran cuando pasa el aire." },
+      "topic": "artists at work",
+      "source": "https://www.britannica.com/art/singing"
+    },
+    {
+      "id": "art-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "What does a painter make?", "es": "¿Qué hace un pintor?" },
+      "choices": [
+        { "en": "Shoes", "es": "Zapatos", "emoji": "👟" },
+        { "en": "Pictures", "es": "Cuadros", "emoji": "🖼️" },
+        { "en": "Bread", "es": "Pan", "emoji": "🍞" }
+      ],
+      "answer": 1,
+      "why": { "en": "A painter puts color on canvas, wood or a wall, and people were painting on cave walls long ago.", "es": "El pintor pone color sobre lienzo, madera o muro; en las cuevas hay pinturas de hace muchísimo tiempo." },
+      "topic": "artists at work",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/painting"
+    },
+    {
+      "id": "art-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "What does a sculptor make?", "es": "¿Qué hace un escultor?" },
+      "choices": [
+        { "en": "Soup", "es": "Sopa", "emoji": "🍲" },
+        { "en": "Statues", "es": "Estatuas", "emoji": "🗿" },
+        { "en": "Songs", "es": "Canciones", "emoji": "🎵" }
+      ],
+      "answer": 1,
+      "why": { "en": "A sculptor carves stone or shapes clay into figures you can walk around and see from every side.", "es": "El escultor talla piedra o moldea barro para hacer figuras que puedes rodear y ver por todos lados." },
+      "topic": "artists at work",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/sculpture"
+    },
+    {
+      "id": "art-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩰",
+      "q": { "en": "What does a dancer use most?", "es": "¿Qué usa más un bailarín?" },
+      "choices": [
+        { "en": "Their body", "es": "Su cuerpo", "emoji": "🩰" },
+        { "en": "A pencil", "es": "Un lápiz", "emoji": "✏️" },
+        { "en": "A pot", "es": "Una olla", "emoji": "🍲" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dancers tell a story with the whole body, and ballet dancers spin many turns by snapping the head around.", "es": "Los bailarines cuentan una historia con todo el cuerpo, y en el ballet giran muchas veces girando la cabeza." },
+      "topic": "artists at work",
+      "source": "https://www.britannica.com/art/dance"
+    },
+    {
+      "id": "art-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "Who writes the words in a book?", "es": "¿Quién escribe las palabras de un libro?" },
+      "choices": [
+        { "en": "The reader", "es": "El lector", "emoji": "👓" },
+        { "en": "The mail carrier", "es": "El cartero", "emoji": "📬" },
+        { "en": "The author", "es": "El autor", "emoji": "🖊️" }
+      ],
+      "answer": 2,
+      "why": { "en": "The author writes the words and the illustrator draws the pictures; both names go on the book's cover.", "es": "El autor escribe las palabras y el ilustrador hace los dibujos; los dos nombres van en la portada." },
+      "topic": "books and authors",
+      "source": "https://www.britannica.com/art/childrens-literature"
+    },
+    {
+      "id": "art-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖍️",
+      "q": { "en": "Who draws the pictures in a storybook?", "es": "¿Quién hace los dibujos de un cuento?" },
+      "choices": [
+        { "en": "The librarian", "es": "El bibliotecario", "emoji": "📚" },
+        { "en": "The illustrator", "es": "El ilustrador", "emoji": "🖍️" },
+        { "en": "The author", "es": "El autor", "emoji": "🖊️" }
+      ],
+      "answer": 1,
+      "why": { "en": "An illustrator draws the pictures, and in a picture book the drawings often tell part of the story.", "es": "El ilustrador hace los dibujos, y en un libro ilustrado las imágenes cuentan parte de la historia." },
+      "topic": "books and authors",
+      "source": "https://www.britannica.com/art/illustration"
+    },
+    {
+      "id": "art-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "📕",
+      "q": { "en": "What is the front of a book called?", "es": "¿Cómo se llama la parte de enfrente de un libro?" },
+      "choices": [
+        { "en": "The cover", "es": "La portada", "emoji": "📕" },
+        { "en": "The roof", "es": "El techo", "emoji": "🏠" },
+        { "en": "The bottom", "es": "El fondo", "emoji": "🔽" }
+      ],
+      "answer": 0,
+      "why": { "en": "The cover shows the title and guards the pages, and a hard cover can keep a book safe for centuries.", "es": "La portada muestra el título y protege las hojas; una tapa dura mantiene un libro sano por siglos." },
+      "topic": "books and authors",
+      "source": "https://www.britannica.com/topic/book-publication"
+    },
+    {
+      "id": "art-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "Where can you borrow books for free?", "es": "¿Dónde puedes pedir libros prestados sin pagar?" },
+      "choices": [
+        { "en": "A bakery", "es": "La panadería", "emoji": "🥖" },
+        { "en": "A garage", "es": "El garaje", "emoji": "🚗" },
+        { "en": "A library", "es": "La biblioteca", "emoji": "📚" }
+      ],
+      "answer": 2,
+      "why": { "en": "A library lends books to everyone; the oldest libraries kept their books on clay tablets instead of paper.", "es": "La biblioteca presta libros a todos; las más antiguas guardaban sus libros en tablillas de barro, no en papel." },
+      "topic": "books and authors",
+      "source": "https://www.britannica.com/topic/library"
+    },
+    {
+      "id": "art-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "What moves a puppet on strings?", "es": "¿Qué mueve a un títere de hilos?" },
+      "choices": [
+        { "en": "A person's hands", "es": "Las manos de una persona", "emoji": "🖐️" },
+        { "en": "The wind", "es": "El viento", "emoji": "🌬️" },
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" }
+      ],
+      "answer": 0,
+      "why": { "en": "A marionette hangs from strings, and the puppeteer above the stage tilts a wooden cross to make it walk.", "es": "La marioneta cuelga de hilos, y el titiritero, arriba del escenario, mueve una cruz de madera para hacerla caminar." },
+      "topic": "puppets",
+      "source": "https://www.britannica.com/art/marionette"
+    },
+    {
+      "id": "art-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "What do you need for shadow puppets?", "es": "¿Qué necesitas para hacer títeres de sombras?" },
+      "choices": [
+        { "en": "A magnet", "es": "Un imán", "emoji": "🧲" },
+        { "en": "A light", "es": "Una luz", "emoji": "🔦" },
+        { "en": "A bucket", "es": "Una cubeta", "emoji": "🪣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Shadow puppets need a lamp behind them and a cloth screen; the flat figures are cut from leather or paper.", "es": "Los títeres de sombras necesitan una lámpara detrás y una tela; las figuras planas se recortan de cuero o papel." },
+      "topic": "puppets",
+      "source": "https://www.britannica.com/art/shadow-play"
+    },
+    {
+      "id": "art-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "Where do you put a hand puppet?", "es": "¿Dónde te pones un títere de mano?" },
+      "choices": [
+        { "en": "On your foot", "es": "En el pie", "emoji": "🧦" },
+        { "en": "On your head", "es": "En la cabeza", "emoji": "🎩" },
+        { "en": "On your hand", "es": "En la mano", "emoji": "🧤" }
+      ],
+      "answer": 2,
+      "why": { "en": "A hand puppet slips over your fingers, and moving your thumb opens and closes its mouth so it talks.", "es": "El títere de mano se pone sobre los dedos, y al mover el pulgar abre y cierra la boca para hablar." },
+      "topic": "puppets",
+      "source": "https://www.britannica.com/art/puppetry"
+    },
+    {
+      "id": "art-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "How many bears does Goldilocks find?", "es": "¿Cuántos osos encuentra Ricitos de Oro?" },
+      "choices": [
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+      ],
+      "answer": 0,
+      "why": { "en": "Goldilocks finds a papa bear, a mama bear and a baby bear, and tries all three of their chairs.", "es": "Ricitos de Oro encuentra a papá oso, a mamá osa y al osito, y se sienta en las tres sillas." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Goldilocks-and-the-Three-Bears"
+    },
+    {
+      "id": "art-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "What does Goldilocks eat in the bears' house?", "es": "¿Qué come Ricitos de Oro en la casa de los osos?" },
+      "choices": [
+        { "en": "Porridge", "es": "Avena", "emoji": "🥣" },
+        { "en": "Pizza", "es": "Pizza", "emoji": "🍕" },
+        { "en": "Cake", "es": "Pastel", "emoji": "🍰" }
+      ],
+      "answer": 0,
+      "why": { "en": "She tastes three bowls of porridge and picks the one that is neither too hot nor too cold.", "es": "Prueba tres platos de avena y escoge el que está en su punto, ni muy caliente ni muy frío." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Goldilocks-and-the-Three-Bears"
+    },
+    {
+      "id": "art-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "Who does Little Red Riding Hood visit?", "es": "¿A quién visita Caperucita Roja?" },
+      "choices": [
+        { "en": "Her grandmother", "es": "A su abuela", "emoji": "👵" },
+        { "en": "Her teacher", "es": "A su maestra", "emoji": "🏫" },
+        { "en": "Her neighbor", "es": "A su vecina", "emoji": "🏡" }
+      ],
+      "answer": 0,
+      "why": { "en": "She carries a basket of food to her grandmother's cottage in the woods and meets a wolf along the path.", "es": "Lleva una canasta con comida a la casita de su abuela en el bosque y se encuentra un lobo." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Little-Red-Riding-Hood"
+    },
+    {
+      "id": "art-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "Which story cookie runs away from the baker?", "es": "¿Qué galleta del cuento huye del panadero?" },
+      "choices": [
+        { "en": "The gingerbread man", "es": "El hombrecito de jengibre", "emoji": "🍪" },
+        { "en": "The apple pie", "es": "El pay de manzana", "emoji": "🥧" },
+        { "en": "The loaf of bread", "es": "La hogaza de pan", "emoji": "🍞" }
+      ],
+      "answer": 0,
+      "why": { "en": "The gingerbread man outruns a cow, a horse and the baker, until a clever fox tricks him at a river.", "es": "El hombrecito de jengibre le gana a la vaca, al caballo y al panadero, hasta que un zorro astuto lo engaña." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/fairy-tale"
+    },
+    {
+      "id": "art-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Who wins the race in the fable?", "es": "¿Quién gana la carrera en la fábula?" },
+      "choices": [
+        { "en": "The tortoise", "es": "La tortuga", "emoji": "🐢" },
+        { "en": "The hare", "es": "La liebre", "emoji": "🐇" },
+        { "en": "The fox", "es": "El zorro", "emoji": "🦊" }
+      ],
+      "answer": 0,
+      "why": { "en": "The hare naps because he is so far ahead, and the slow, steady tortoise walks past him to win.", "es": "La liebre se duerme porque va muy adelante, y la tortuga, lenta pero constante, la pasa y gana." },
+      "topic": "fables",
+      "source": "https://www.britannica.com/topic/The-Tortoise-and-the-Hare"
+    },
+    {
+      "id": "art-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "What do we call a story with a lesson?", "es": "¿Cómo se llama un cuento que deja una enseñanza?" },
+      "choices": [
+        { "en": "A fable", "es": "Una fábula", "emoji": "🦊" },
+        { "en": "A recipe", "es": "Una receta", "emoji": "🍳" },
+        { "en": "A map", "es": "Un mapa", "emoji": "🗺️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fable is a short story where animals talk, and the ending gives a lesson that is called the moral.", "es": "La fábula es un cuento corto donde los animales hablan, y el final deja una enseñanza llamada moraleja." },
+      "topic": "fables",
+      "source": "https://www.britannica.com/art/fable"
+    },
+    {
+      "id": "art-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Which insect stored food for the winter?", "es": "¿Qué insecto guardó comida para el invierno?" },
+      "choices": [
+        { "en": "The ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "The grasshopper", "es": "El grillo", "emoji": "🦗" },
+        { "en": "The butterfly", "es": "La mariposa", "emoji": "🦋" }
+      ],
+      "answer": 0,
+      "why": { "en": "In the fable the ant works all summer while the grasshopper sings, and only the ant has food later.", "es": "En la fábula la hormiga trabaja todo el verano mientras el grillo canta, y solo ella tiene comida después." },
+      "topic": "fables",
+      "source": "https://www.britannica.com/art/fable"
+    },
+    {
+      "id": "art-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
+      "q": { "en": "Which tiny animal helps a trapped lion?", "es": "¿Qué animalito ayuda a un león atrapado?" },
+      "choices": [
+        { "en": "A mouse", "es": "Un ratón", "emoji": "🐭" },
+        { "en": "An elephant", "es": "Un elefante", "emoji": "🐘" },
+        { "en": "A whale", "es": "Una ballena", "emoji": "🐋" }
+      ],
+      "answer": 0,
+      "why": { "en": "The mouse gnaws through the ropes and frees the lion, showing that even a small friend can help hugely.", "es": "El ratón roe las cuerdas y libera al león; hasta un amigo pequeño puede dar una ayuda enorme." },
+      "topic": "fables",
+      "source": "https://www.britannica.com/art/fable"
+    },
+    {
+      "id": "art-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍇",
+      "q": { "en": "What does the fox say about the grapes?", "es": "¿Qué dice el zorro sobre las uvas?" },
+      "choices": [
+        { "en": "They are sour", "es": "Que están agrias", "emoji": "🍇" },
+        { "en": "They are gone", "es": "Que ya no están", "emoji": "🌬️" },
+        { "en": "They are hot", "es": "Que están calientes", "emoji": "🔥" }
+      ],
+      "answer": 0,
+      "why": { "en": "The fox jumps and jumps, cannot reach the grapes, and walks away saying they were sour anyway.", "es": "El zorro salta y salta, no alcanza las uvas y se va diciendo que de todos modos estaban agrias." },
+      "topic": "fables",
+      "source": "https://www.britannica.com/art/fable"
+    },
+    {
+      "id": "art-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐺",
+      "q": { "en": "Which house in the pigs' story was strongest?", "es": "¿Cuál casa del cuento de los cerditos fue la más fuerte?" },
+      "choices": [
+        { "en": "The brick house", "es": "La casa de ladrillos", "emoji": "🧱" },
+        { "en": "The straw house", "es": "La casa de paja", "emoji": "🌾" },
+        { "en": "The stick house", "es": "La casa de palos", "emoji": "🪵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bricks are heavy and baked hard, so that house held; straw and sticks blew apart in a single puff.", "es": "Los ladrillos son pesados y están cocidos, y por eso esa casa aguantó; la paja y los palos volaron." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/The-Three-Little-Pigs"
+    },
+    {
+      "id": "art-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "👠",
+      "q": { "en": "What does Cinderella leave on the stairs?", "es": "¿Qué deja la Cenicienta en la escalera?" },
+      "choices": [
+        { "en": "A glass slipper", "es": "Una zapatilla de cristal", "emoji": "👠" },
+        { "en": "A gold ring", "es": "Un anillo de oro", "emoji": "💍" },
+        { "en": "A wool hat", "es": "Un gorro de lana", "emoji": "🧢" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cinderella loses one slipper running off at midnight, and the prince searches for the foot that fits it.", "es": "La Cenicienta pierde una zapatilla al salir corriendo a medianoche, y el príncipe busca el pie que le quede." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Cinderella-fairy-tale"
+    },
+    {
+      "id": "art-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What grows from Jack's magic beans?", "es": "¿Qué crece de las habichuelas mágicas de Jack?" },
+      "choices": [
+        { "en": "A giant beanstalk", "es": "Una mata gigante", "emoji": "🌱" },
+        { "en": "A stone bridge", "es": "Un puente de piedra", "emoji": "🌉" },
+        { "en": "A silver river", "es": "Un río de plata", "emoji": "🏞️" }
+      ],
+      "answer": 0,
+      "why": { "en": "The beans grow a stalk tall enough to climb into the clouds, where a giant's castle waits above.", "es": "Las habichuelas crecen hasta las nubes y Jack trepa por el tallo, donde lo espera el castillo de un gigante." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Jack-and-the-Beanstalk"
+    },
+    {
+      "id": "art-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "What do Hansel and Gretel drop on the path?", "es": "¿Qué dejan caer Hansel y Gretel en el camino?" },
+      "choices": [
+        { "en": "Breadcrumbs", "es": "Migas de pan", "emoji": "🍞" },
+        { "en": "Coins", "es": "Monedas", "emoji": "🪙" },
+        { "en": "Flowers", "es": "Flores", "emoji": "🌼" }
+      ],
+      "answer": 0,
+      "why": { "en": "They drop breadcrumbs to find the way home, but hungry birds eat the trail while the children walk on.", "es": "Dejan migas de pan para hallar el camino, pero los pájaros hambrientos se comen el rastro mientras caminan." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Hansel-and-Gretel"
+    },
+    {
+      "id": "art-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "What wakes the princess in Sleeping Beauty?", "es": "¿Qué despierta a la princesa de La bella durmiente?" },
+      "choices": [
+        { "en": "A kiss", "es": "Un beso", "emoji": "💋" },
+        { "en": "A trumpet", "es": "Una trompeta", "emoji": "🎺" },
+        { "en": "A storm", "es": "Una tormenta", "emoji": "⛈️" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hundred years of sleep end with a kiss, and the whole castle, cooks and dogs included, wakes up too.", "es": "Cien años de sueño terminan con un beso, y todo el castillo, con cocineros y perros, despierta también." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Sleeping-Beauty-fairy-tale"
+    },
+    {
+      "id": "art-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "Which animal wears boots in a famous tale?", "es": "¿Qué animal usa botas en un cuento famoso?" },
+      "choices": [
+        { "en": "A cat", "es": "Un gato", "emoji": "🐱" },
+        { "en": "A pig", "es": "Un cerdo", "emoji": "🐷" },
+        { "en": "A duck", "es": "Un pato", "emoji": "🦆" }
+      ],
+      "answer": 0,
+      "why": { "en": "Puss in Boots is a talking cat who tricks a king and an ogre to make his poor master rich.", "es": "El Gato con Botas es un gato que engaña a un rey y a un ogro para volver rico a su amo." },
+      "topic": "fairy tales",
+      "source": "https://www.britannica.com/topic/Puss-in-Boots-folktale"
+    },
+    {
+      "id": "art-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "What did Humpty Dumpty sit on?", "es": "¿Sobre qué estaba sentado Humpty Dumpty?" },
+      "choices": [
+        { "en": "A wall", "es": "Un muro", "emoji": "🧱" },
+        { "en": "A boat", "es": "Un barco", "emoji": "⛵" },
+        { "en": "A cloud", "es": "Una nube", "emoji": "☁️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Humpty Dumpty sits on a wall and falls off; the rhyme itself never says he is an egg.", "es": "Humpty Dumpty se sienta en un muro y se cae; la rima jamás dice que sea un huevo, los dibujos sí." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/topic/Humpty-Dumpty"
+    },
+    {
+      "id": "art-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "What does the rhyme compare to a diamond?", "es": "¿Qué cosa compara la rima con un diamante?" },
+      "choices": [
+        { "en": "A star", "es": "Una estrella", "emoji": "⭐" },
+        { "en": "A fish", "es": "Un pez", "emoji": "🐟" },
+        { "en": "A drum", "es": "Un tambor", "emoji": "🥁" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twinkle, Twinkle, Little Star calls a star a diamond in the sky, and its tune is also the alphabet song.", "es": "Esa rima llama a la estrella un diamante en el cielo, y su melodía es la misma del abecedario." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/topic/Twinkle-Twinkle-Little-Star"
+    },
+    {
+      "id": "art-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "What did the cow jump over in the rhyme?", "es": "¿Sobre qué saltó la vaca en la rima?" },
+      "choices": [
+        { "en": "The Moon", "es": "La Luna", "emoji": "🌕" },
+        { "en": "A fence", "es": "Una cerca", "emoji": "🚧" },
+        { "en": "A river", "es": "Un río", "emoji": "🏞️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hey Diddle Diddle has a cow jumping over the Moon, a laughing dog, and a dish running off with a spoon.", "es": "En esa rima la vaca salta sobre la Luna, el perro se ríe y un plato se escapa con una cuchara." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/art/nursery-rhyme"
+    },
+    {
+      "id": "art-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "Which bridge is falling down in a song?", "es": "¿Qué puente se está cayendo en una canción?" },
+      "choices": [
+        { "en": "London Bridge", "es": "El puente de Londres", "emoji": "🌉" },
+        { "en": "A rainbow", "es": "Un arcoíris", "emoji": "🌈" },
+        { "en": "A tower", "es": "Una torre", "emoji": "🗼" }
+      ],
+      "answer": 0,
+      "why": { "en": "Children sing London Bridge while making an arch with their arms and catching a player underneath it.", "es": "Los niños cantan esa ronda haciendo un arco con los brazos para atrapar a alguien que pasa debajo." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/art/nursery-rhyme"
+    },
+    {
+      "id": "art-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "What washes the itsy bitsy spider out?", "es": "¿Qué arrastra a la arañita de la rima?" },
+      "choices": [
+        { "en": "The rain", "es": "La lluvia", "emoji": "🌧️" },
+        { "en": "The wind", "es": "El viento", "emoji": "🌬️" },
+        { "en": "The snow", "es": "La nieve", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain washes the spider down the water spout, then the sun dries everything and she climbs up again.", "es": "La lluvia arrastra a la araña por el tubo, luego el sol seca todo y la araña vuelve a subir." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/art/nursery-rhyme"
+    },
+    {
+      "id": "art-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐑",
+      "q": { "en": "What does the black sheep have three of?", "es": "¿De qué tiene tres bolsas la oveja negra?" },
+      "choices": [
+        { "en": "Bags of wool", "es": "Bolsas de lana", "emoji": "🐑" },
+        { "en": "Bags of gold", "es": "Bolsas de oro", "emoji": "💰" },
+        { "en": "Bags of corn", "es": "Bolsas de maíz", "emoji": "🌽" }
+      ],
+      "answer": 0,
+      "why": { "en": "The sheep answers with three bags of wool: one for the master, one for the lady, one for a boy.", "es": "La oveja responde con tres bolsas de lana: una para el amo, otra para la dama y otra para el niño." },
+      "topic": "nursery rhymes",
+      "source": "https://www.britannica.com/art/nursery-rhyme"
+    },
+    {
+      "id": "art-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "💃",
+      "q": { "en": "Which dance comes from Argentina?", "es": "¿Qué baile viene de Argentina?" },
+      "choices": [
+        { "en": "The tango", "es": "El tango", "emoji": "💃" },
+        { "en": "The hula", "es": "El hula", "emoji": "🌺" },
+        { "en": "The polka", "es": "La polca", "emoji": "🪗" }
+      ],
+      "answer": 0,
+      "why": { "en": "The tango began in the neighborhoods of Buenos Aires and is danced close together with sharp, sudden steps.", "es": "El tango nació en los barrios de Buenos Aires y se baila muy juntos, con pasos rápidos y marcados." },
+      "topic": "dances of the world",
+      "source": "https://www.britannica.com/art/tango-dance"
+    },
+    {
+      "id": "art-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Which dance uses swaying hands to tell stories?", "es": "¿Qué baile cuenta historias moviendo las manos?" },
+      "choices": [
+        { "en": "The hula", "es": "El hula", "emoji": "🌺" },
+        { "en": "Tap dancing", "es": "El tap", "emoji": "🥿" },
+        { "en": "Ballet", "es": "El ballet", "emoji": "🩰" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hula comes from Hawaii, and every hand movement stands for a word, such as waves, rain or a flower.", "es": "El hula viene de Hawái, y cada movimiento de las manos significa una palabra: las olas, la lluvia, una flor." },
+      "topic": "dances of the world",
+      "source": "https://www.britannica.com/art/hula-dance"
+    },
+    {
+      "id": "art-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥿",
+      "q": { "en": "Which dance uses shoes that make tapping sounds?", "es": "¿Qué baile usa zapatos que hacen taconeo?" },
+      "choices": [
+        { "en": "Tap dancing", "es": "El tap", "emoji": "🥿" },
+        { "en": "Ballet", "es": "El ballet", "emoji": "🩰" },
+        { "en": "The hula", "es": "El hula", "emoji": "🌺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tap shoes carry metal plates on the toe and heel, so the dancer's feet play rhythms like a drum.", "es": "Los zapatos de tap llevan placas de metal en la punta y el talón, y los pies suenan como tambor." },
+      "topic": "dances of the world",
+      "source": "https://www.britannica.com/art/tap-dance"
+    },
+    {
+      "id": "art-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩰",
+      "q": { "en": "What do ballet dancers wear on their feet?", "es": "¿Qué usan en los pies los bailarines de ballet?" },
+      "choices": [
+        { "en": "Pointe shoes", "es": "Zapatillas de punta", "emoji": "🩰" },
+        { "en": "Rubber boots", "es": "Botas de hule", "emoji": "🥾" },
+        { "en": "Sandals", "es": "Sandalias", "emoji": "🩴" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pointe shoes hide a hard box at the toe so a dancer can stand on the very tips of her toes.", "es": "Las zapatillas de punta tienen una caja dura adelante para pararse en la mismísima punta de los dedos." },
+      "topic": "dances of the world",
+      "source": "https://www.britannica.com/art/ballet"
+    },
+    {
+      "id": "art-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "👒",
+      "q": { "en": "Which dance circles around a hat on the floor?", "es": "¿Qué baile se hace alrededor de un sombrero?" },
+      "choices": [
+        { "en": "The hat dance", "es": "El jarabe tapatío", "emoji": "👒" },
+        { "en": "The hula", "es": "El hula", "emoji": "🌺" },
+        { "en": "The tango", "es": "El tango", "emoji": "💃" }
+      ],
+      "answer": 0,
+      "why": { "en": "In the jarabe tapatío the dancers circle a sombrero on the ground; it is the national dance of Mexico.", "es": "En el jarabe tapatío se baila alrededor de un sombrero en el suelo; es el baile nacional de México." },
+      "topic": "dances of the world",
+      "source": "https://www.britannica.com/art/jarabe"
+    },
+    {
+      "id": "art-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌻",
+      "q": { "en": "Which flowers did van Gogh paint many times?", "es": "¿Qué flores pintó van Gogh muchas veces?" },
+      "choices": [
+        { "en": "Sunflowers", "es": "Girasoles", "emoji": "🌻" },
+        { "en": "Roses", "es": "Rosas", "emoji": "🌹" },
+        { "en": "Tulips", "es": "Tulipanes", "emoji": "🌷" }
+      ],
+      "answer": 0,
+      "why": { "en": "Vincent van Gogh painted bright yellow sunflowers to decorate a room for a painter friend coming to stay.", "es": "Vincent van Gogh pintó girasoles amarillos para decorar un cuarto y recibir a un amigo pintor que llegaba." },
+      "topic": "famous paintings",
+      "source": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"
+    },
+    {
+      "id": "art-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What did van Gogh paint swirling in the sky?", "es": "¿Qué pintó van Gogh girando en el cielo?" },
+      "choices": [
+        { "en": "Stars", "es": "Estrellas", "emoji": "⭐" },
+        { "en": "Fish", "es": "Peces", "emoji": "🐟" },
+        { "en": "Trains", "es": "Trenes", "emoji": "🚂" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Starry Night shows swirling stars above a quiet village, and van Gogh painted the scene from memory.", "es": "La noche estrellada muestra estrellas en remolino sobre un pueblo tranquilo, y van Gogh la pintó de memoria." },
+      "topic": "famous paintings",
+      "source": "https://www.moma.org/collection/works/79802"
+    },
+    {
+      "id": "art-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "What is famous about the Mona Lisa?", "es": "¿Qué es lo famoso de la Mona Lisa?" },
+      "choices": [
+        { "en": "Her smile", "es": "Su sonrisa", "emoji": "🙂" },
+        { "en": "Her hat", "es": "Su sombrero", "emoji": "🎩" },
+        { "en": "Her dog", "es": "Su perro", "emoji": "🐕" }
+      ],
+      "answer": 0,
+      "why": { "en": "People argue about her smile because it seems to change, and she also has almost no eyebrows.", "es": "La gente discute sobre su sonrisa porque parece cambiar; además casi no tiene cejas en el cuadro." },
+      "topic": "famous paintings",
+      "source": "https://www.louvre.fr/en/explore/the-palace/the-mona-lisa"
+    },
+    {
+      "id": "art-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Which Mexican painter painted many self-portraits?", "es": "¿Qué pintora mexicana hizo muchos autorretratos?" },
+      "choices": [
+        { "en": "Frida Kahlo", "es": "Frida Kahlo", "emoji": "🌺" },
+        { "en": "Leonardo da Vinci", "es": "Leonardo da Vinci", "emoji": "🖼️" },
+        { "en": "Claude Monet", "es": "Claude Monet", "emoji": "🌅" }
+      ],
+      "answer": 0,
+      "why": { "en": "Frida Kahlo painted her own face again and again, often beside the animals and plants of her garden.", "es": "Frida Kahlo pintó su propio rostro una y otra vez, junto a los animales y las plantas de su jardín." },
+      "topic": "famous paintings",
+      "source": "https://www.britannica.com/biography/Frida-Kahlo"
+    },
+    {
+      "id": "art-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "Which shape would you draw for a roof?", "es": "¿Qué forma dibujarías para un techo?" },
+      "choices": [
+        { "en": "A triangle", "es": "Un triángulo", "emoji": "🔺" },
+        { "en": "A circle", "es": "Un círculo", "emoji": "⭕" },
+        { "en": "A square", "es": "Un cuadrado", "emoji": "🟦" }
+      ],
+      "answer": 0,
+      "why": { "en": "Artists build pictures out of simple shapes, and a triangle roof over a square house is a first drawing.", "es": "Los artistas arman dibujos con formas simples, y un techo triangular sobre una casa cuadrada es de los primeros." },
+      "topic": "shapes in pictures",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/shape"
+    },
+    {
+      "id": "art-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧑",
+      "q": { "en": "What is a picture of a person called?", "es": "¿Cómo se llama un cuadro de una persona?" },
+      "choices": [
+        { "en": "A portrait", "es": "Un retrato", "emoji": "🖼️" },
+        { "en": "A landscape", "es": "Un paisaje", "emoji": "🏞️" },
+        { "en": "A cartoon", "es": "Una caricatura", "emoji": "💭" }
+      ],
+      "answer": 0,
+      "why": { "en": "A portrait shows one person, and before cameras existed a painted portrait was the only way to keep a face.", "es": "El retrato muestra a una persona; antes de las cámaras, era la única forma de guardar una cara." },
+      "topic": "kinds of pictures",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/portrait"
+    },
+    {
+      "id": "art-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which color do red and white make?", "es": "¿Qué color hacen el rojo y el blanco?" },
+      "choices": [
+        { "en": "Pink", "es": "Rosa", "emoji": "🌸" },
+        { "en": "Brown", "es": "Café", "emoji": "🤎" },
+        { "en": "Green", "es": "Verde", "emoji": "💚" }
+      ],
+      "answer": 0,
+      "why": { "en": "Adding white to a color makes a tint, so red plus white gives pink, and more white makes it lighter.", "es": "Al agregar blanco a un color se crea un tono claro: rojo más blanco da rosa, y con más blanco queda aún más claro." },
+      "topic": "mixing colors",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/colour"
+    },
+    {
+      "id": "art-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Which color do red and green paint make?", "es": "¿Qué color hace la pintura roja con la verde?" },
+      "choices": [
+        { "en": "Purple", "es": "Morado", "emoji": "💜" },
+        { "en": "Brown", "es": "Café", "emoji": "🤎" },
+        { "en": "Yellow", "es": "Amarillo", "emoji": "💛" }
+      ],
+      "answer": 1,
+      "why": { "en": "Red and green sit opposite on the color wheel, and opposite paints always mix into a muddy brown.", "es": "El rojo y el verde están opuestos en el círculo de colores, y las pinturas opuestas siempre se mezclan en un café lodoso." },
+      "topic": "mixing colors",
+      "source": "https://kids.britannica.com/kids/article/color/353312"
+    },
+    {
+      "id": "art-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "Which family does the violin belong to?", "es": "¿A qué familia pertenece el violín?" },
+      "choices": [
+        { "en": "The drum family", "es": "La familia de los tambores", "emoji": "🥁" },
+        { "en": "The horn family", "es": "La familia de los metales", "emoji": "🎺" },
+        { "en": "The string family", "es": "La familia de las cuerdas", "emoji": "🎻" }
+      ],
+      "answer": 2,
+      "why": { "en": "A violin is a string instrument, and its four strings sing when horsehair on the bow rubs across them.", "es": "El violín es un instrumento de cuerdas, y sus cuatro cuerdas cantan cuando las crines de caballo del arco las frotan." },
+      "topic": "instrument families",
+      "source": "https://www.dsokids.com/listen/by-instrument.aspx"
+    },
+    {
+      "id": "art-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Which family do drums and maracas belong to?", "es": "¿A qué familia pertenecen los tambores y las maracas?" },
+      "choices": [
+        { "en": "Percussion", "es": "La percusión", "emoji": "🥁" },
+        { "en": "Strings", "es": "Las cuerdas", "emoji": "🎻" },
+        { "en": "Brass", "es": "Los metales", "emoji": "🎺" }
+      ],
+      "answer": 0,
+      "why": { "en": "Percussion means you hit, shake or scrape it, and it is the biggest family in the whole orchestra.", "es": "Percusión quiere decir golpear, sacudir o raspar, y es la familia más grande de toda la orquesta." },
+      "topic": "instrument families",
+      "source": "https://kids.britannica.com/kids/article/percussion-instrument/353613"
+    },
+    {
+      "id": "art-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Who makes bowls and cups from clay?", "es": "¿Quién hace tazones y tazas de barro?" },
+      "choices": [
+        { "en": "A baker", "es": "Un panadero", "emoji": "🍞" },
+        { "en": "A potter", "es": "Un alfarero", "emoji": "🏺" },
+        { "en": "A gardener", "es": "Un jardinero", "emoji": "🌻" }
+      ],
+      "answer": 1,
+      "why": { "en": "A potter shapes wet clay, then fires it in a kiln so hot the clay turns to stone.", "es": "El alfarero moldea barro húmedo y luego lo cuece en un horno tan caliente que el barro se vuelve piedra." },
+      "topic": "artists at work",
+      "source": "https://www.metmuseum.org/art/online-features/metkids/"
+    },
+    {
+      "id": "art-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "What does a photographer use to work?", "es": "¿Qué usa un fotógrafo para trabajar?" },
+      "choices": [
+        { "en": "A hammer", "es": "Un martillo", "emoji": "🔨" },
+        { "en": "A violin", "es": "Un violín", "emoji": "🎻" },
+        { "en": "A camera", "es": "Una cámara", "emoji": "📷" }
+      ],
+      "answer": 2,
+      "why": { "en": "A camera catches light on a tiny screen or on film, so a photograph freezes one moment forever.", "es": "La cámara atrapa la luz en una pantalla diminuta o en película, así que la foto congela un momento para siempre." },
+      "topic": "artists at work",
+      "source": "https://kids.nationalgeographic.com/photography"
+    },
+    {
+      "id": "art-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "Who acts out a story on stage?", "es": "¿Quién actúa una historia en el escenario?" },
+      "choices": [
+        { "en": "An actor", "es": "Un actor", "emoji": "🎭" },
+        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" },
+        { "en": "A farmer", "es": "Un granjero", "emoji": "🚜" }
+      ],
+      "answer": 0,
+      "why": { "en": "Actors learn every line by heart, and in old Greek plays one actor wore masks to play many people.", "es": "Los actores aprenden cada línea de memoria, y en las obras griegas antiguas un actor usaba máscaras para ser varios personajes." },
+      "topic": "artists at work",
+      "source": "https://kids.britannica.com/kids/article/theater/353843"
+    },
+    {
+      "id": "art-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "What does a weaver make from thread?", "es": "¿Qué hace un tejedor con el hilo?" },
+      "choices": [
+        { "en": "Bread", "es": "Pan", "emoji": "🍞" },
+        { "en": "Cloth", "es": "Tela", "emoji": "🧵" },
+        { "en": "Soup", "es": "Sopa", "emoji": "🍲" }
+      ],
+      "answer": 1,
+      "why": { "en": "A weaver crosses threads over and under on a loom, and that simple crossing makes every shirt you wear.", "es": "El tejedor cruza hilos por arriba y por abajo en un telar, y ese cruce sencillo forma cada camisa que usas." },
+      "topic": "artists at work",
+      "source": "https://kids.britannica.com/kids/article/weaving/353960"
+    },
+    {
+      "id": "art-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐐",
+      "q": { "en": "Who waits under the bridge for goats?", "es": "¿Quién espera bajo el puente a las cabras?" },
+      "choices": [
+        { "en": "A farmer", "es": "Un granjero", "emoji": "🚜" },
+        { "en": "A bear", "es": "Un oso", "emoji": "🐻" },
+        { "en": "A troll", "es": "Un trol", "emoji": "👹" }
+      ],
+      "answer": 2,
+      "why": { "en": "In the Norwegian tale three billy goats cross a bridge, and the biggest goat frightens the troll away.", "es": "En el cuento noruego tres cabritos cruzan un puente, y la cabra más grande asusta al trol y lo espanta." },
+      "topic": "stories of the world",
+      "source": "https://kids.britannica.com/kids/article/fairy-tale/353098"
+    },
+    {
+      "id": "art-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "What starts the soup in Stone Soup?", "es": "¿Qué inicia la sopa en el cuento de la piedra?" },
+      "choices": [
+        { "en": "A stone", "es": "Una piedra", "emoji": "🪨" },
+        { "en": "A carrot", "es": "Una zanahoria", "emoji": "🥕" },
+        { "en": "A hen", "es": "Una gallina", "emoji": "🐔" }
+      ],
+      "answer": 0,
+      "why": { "en": "A hungry traveler boils a plain stone, and curious neighbors add carrots and beans until everyone shares a real meal.", "es": "Un viajero hambriento hierve una piedra, y los vecinos curiosos agregan zanahorias y frijoles hasta que todos comparten una comida de verdad." },
+      "topic": "stories of the world",
+      "source": "https://kids.britannica.com/kids/article/folk-literature/353100"
+    },
+    {
+      "id": "art-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "Which animal is Anansi in old stories?", "es": "¿Qué animal es Anansi en los cuentos antiguos?" },
+      "choices": [
+        { "en": "A turtle", "es": "Una tortuga", "emoji": "🐢" },
+        { "en": "A spider", "es": "Una araña", "emoji": "🕷️" },
+        { "en": "A parrot", "es": "Un loro", "emoji": "🦜" }
+      ],
+      "answer": 1,
+      "why": { "en": "Anansi the clever spider comes from Ghana, and sailors carried his stories to Jamaica and the rest of the Caribbean.", "es": "Anansi, la araña astuta, viene de Ghana, y los marineros llevaron sus cuentos a Jamaica y al resto del Caribe." },
+      "topic": "stories of the world",
+      "source": "https://kids.britannica.com/kids/article/folktale/353102"
+    },
+    {
+      "id": "art-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐔",
+      "q": { "en": "Who bakes the bread all by herself?", "es": "¿Quién hornea el pan ella sola?" },
+      "choices": [
+        { "en": "The duck", "es": "El pato", "emoji": "🦆" },
+        { "en": "The cat", "es": "El gato", "emoji": "🐱" },
+        { "en": "The little red hen", "es": "La gallinita roja", "emoji": "🐔" }
+      ],
+      "answer": 2,
+      "why": { "en": "Nobody helps the hen plant, cut or grind the wheat, so she eats the warm bread with her chicks.", "es": "Nadie ayuda a la gallina a sembrar, cortar ni moler el trigo, así que ella se come el pan con sus pollitos." },
+      "topic": "stories of the world",
+      "source": "https://kids.britannica.com/kids/article/fable/353099"
+    },
+    {
+      "id": "art-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐺",
+      "q": { "en": "What did the shepherd boy pretend to see?", "es": "¿Qué fingió ver el niño pastor?" },
+      "choices": [
+        { "en": "A wolf", "es": "Un lobo", "emoji": "🐺" },
+        { "en": "A bear", "es": "Un oso", "emoji": "🐻" },
+        { "en": "A fox", "es": "Un zorro", "emoji": "🦊" }
+      ],
+      "answer": 0,
+      "why": { "en": "He tricked the village twice for fun, so when a real wolf came, nobody believed his shouting anymore.", "es": "Engañó dos veces al pueblo por diversión, así que cuando llegó un lobo de verdad ya nadie le creyó sus gritos." },
+      "topic": "fables",
+      "source": "https://kids.britannica.com/kids/article/Aesop/352770"
+    },
+    {
+      "id": "art-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "What did the thirsty crow drop into the jug?", "es": "¿Qué echó el cuervo sediento dentro de la jarra?" },
+      "choices": [
+        { "en": "Leaves", "es": "Hojas", "emoji": "🍃" },
+        { "en": "Pebbles", "es": "Piedritas", "emoji": "🪨" },
+        { "en": "Feathers", "es": "Plumas", "emoji": "🪶" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each pebble pushed the water higher until the crow could drink, which is why the fable praises thinking over strength.", "es": "Cada piedrita subía el agua hasta que el cuervo pudo beber; por eso la fábula alaba pensar más que la fuerza." },
+      "topic": "fables",
+      "source": "https://kids.britannica.com/kids/article/fable/353099"
+    },
+    {
+      "id": "art-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "What grows when Pinocchio tells a lie?", "es": "¿Qué le crece a Pinocho cuando dice una mentira?" },
+      "choices": [
+        { "en": "His ears", "es": "Las orejas", "emoji": "👂" },
+        { "en": "His feet", "es": "Los pies", "emoji": "🦶" },
+        { "en": "His nose", "es": "La nariz", "emoji": "👃" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pinocchio was carved from wood in an Italian story, and his growing nose shows a lie to everyone around him.", "es": "Pinocho fue tallado en madera en un cuento italiano, y su nariz que crece le muestra la mentira a todo el mundo." },
+      "topic": "fairy tales",
+      "source": "https://kids.britannica.com/kids/article/childrens-literature/353101"
+    },
+    {
+      "id": "art-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Where does the baby rock in the lullaby?", "es": "¿Dónde se mece el bebé en la canción de cuna?" },
+      "choices": [
+        { "en": "In a treetop", "es": "En la copa de un árbol", "emoji": "🌳" },
+        { "en": "In a boat", "es": "En un barco", "emoji": "⛵" },
+        { "en": "In a cave", "es": "En una cueva", "emoji": "🕳️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Lullabies use slow, rocking beats that copy a heartbeat, which is why babies fall asleep while someone sings.", "es": "Las canciones de cuna tienen un ritmo lento que imita los latidos del corazón; por eso los bebés se duermen escuchando." },
+      "topic": "nursery rhymes",
+      "source": "https://kids.britannica.com/kids/article/lullaby/399481"
+    },
+    {
+      "id": "art-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐤",
+      "q": { "en": "Which baby animals sing in a Spanish lullaby?", "es": "¿Qué animalitos cantan en una canción de cuna en español?" },
+      "choices": [
+        { "en": "Puppies", "es": "Los perritos", "emoji": "🐶" },
+        { "en": "Chicks", "es": "Los pollitos", "emoji": "🐤" },
+        { "en": "Kittens", "es": "Los gatitos", "emoji": "🐱" }
+      ],
+      "answer": 1,
+      "why": { "en": "The rhyme Los pollitos dicen has chicks peeping when they feel cold and hungry until their mother brings them corn.", "es": "En la canción Los pollitos dicen, los pollitos piían de frío y de hambre hasta que su mamá les trae maíz." },
+      "topic": "nursery rhymes",
+      "source": "https://kids.britannica.com/kids/article/nursery-rhyme/353626"
+    },
+    {
+      "id": "art-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "What does the word piano mean in music?", "es": "¿Qué significa la palabra piano en la música?" },
+      "choices": [
+        { "en": "Loud", "es": "Fuerte", "emoji": "📣" },
+        { "en": "Fast", "es": "Rápido", "emoji": "🏃" },
+        { "en": "Soft", "es": "Suave", "emoji": "🤫" }
+      ],
+      "answer": 2,
+      "why": { "en": "Piano means soft in Italian, and the instrument's full name, pianoforte, means soft-loud because it can play both.", "es": "Piano quiere decir suave en italiano, y el nombre completo del instrumento, pianoforte, significa suave-fuerte porque puede tocar los dos." },
+      "topic": "loud and soft",
+      "source": "https://www.dsokids.com/listen/instrument-list/piano.aspx"
+    },
+    {
+      "id": "art-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎡",
+      "q": { "en": "What spins while a potter shapes clay?", "es": "¿Qué gira mientras el alfarero moldea el barro?" },
+      "choices": [
+        { "en": "A wheel", "es": "Una rueda", "emoji": "🎡" },
+        { "en": "A drum", "es": "Un tambor", "emoji": "🥁" },
+        { "en": "A fan", "es": "Un abanico", "emoji": "🌀" }
+      ],
+      "answer": 0,
+      "why": { "en": "The spinning wheel lets a potter pull a lump of clay into a round pot in under a minute.", "es": "El torno que gira permite al alfarero levantar un trozo de barro y formar una olla redonda en menos de un minuto." },
+      "topic": "clay",
+      "source": "https://www.metmuseum.org/art/online-features/metkids/explore/"
+    },
+    {
+      "id": "art-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "What is a weaving frame called?", "es": "¿Cómo se llama el marco para tejer?" },
+      "choices": [
+        { "en": "A kiln", "es": "Un horno", "emoji": "🔥" },
+        { "en": "A loom", "es": "Un telar", "emoji": "🧵" },
+        { "en": "A palette", "es": "Una paleta", "emoji": "🎨" }
+      ],
+      "answer": 1,
+      "why": { "en": "On a loom, the still threads are the warp and the thread you weave through them is the weft.", "es": "En el telar los hilos fijos son la urdimbre y el hilo que pasa entre ellos se llama trama." },
+      "topic": "weaving",
+      "source": "https://kids.britannica.com/kids/article/loom/399252"
+    },
+    {
+      "id": "art-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "✂️",
+      "q": { "en": "What is papel picado made from?", "es": "¿De qué está hecho el papel picado?" },
+      "choices": [
+        { "en": "Clay", "es": "De barro", "emoji": "🏺" },
+        { "en": "Glass", "es": "De vidrio", "emoji": "🥛" },
+        { "en": "Paper", "es": "De papel", "emoji": "📄" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mexican papel picado banners are cut with tiny chisels through dozens of stacked sheets at the same time.", "es": "Las banderitas de papel picado se cortan con cinceles diminutos a través de decenas de hojas apiladas a la vez." },
+      "topic": "paper crafts",
+      "source": "https://kids.nationalgeographic.com/culture/article/day-of-the-dead"
+    },
+    {
+      "id": "art-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "What color do shadow puppets look on screen?", "es": "¿De qué color se ven los títeres de sombra?" },
+      "choices": [
+        { "en": "Black", "es": "Negros", "emoji": "⬛" },
+        { "en": "Rainbow", "es": "De arcoíris", "emoji": "🌈" },
+        { "en": "Silver", "es": "Plateados", "emoji": "✨" }
+      ],
+      "answer": 0,
+      "why": { "en": "The puppet blocks the lamp, so only its dark outline shows; in Indonesia these leather puppets are called wayang.", "es": "El títere tapa la lámpara, así que solo se ve su silueta oscura; en Indonesia estos títeres de cuero se llaman wayang." },
+      "topic": "puppets",
+      "source": "https://kids.britannica.com/kids/article/puppet/353694"
+    },
+    {
+      "id": "art-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "💃",
+      "q": { "en": "Which dance claps hands and stamps feet?", "es": "¿Cuál baile aplaude con las manos y zapatea?" },
+      "choices": [
+        { "en": "Ballet", "es": "El ballet", "emoji": "🩰" },
+        { "en": "Flamenco", "es": "El flamenco", "emoji": "💃" },
+        { "en": "The waltz", "es": "El vals", "emoji": "🎩" }
+      ],
+      "answer": 1,
+      "why": { "en": "Flamenco comes from southern Spain, where singers, a guitar and clapping called palmas keep the dancer's rhythm.", "es": "El flamenco viene del sur de España, donde el cante, la guitarra y las palmas marcan el ritmo del bailaor." },
+      "topic": "dances of the world",
+      "source": "https://kids.britannica.com/kids/article/flamenco/399163"
+    },
+    {
+      "id": "art-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕺",
+      "q": { "en": "Which dance shares its name with a sauce?", "es": "¿Cuál baile lleva el nombre de algo que comes?" },
+      "choices": [
+        { "en": "The tango", "es": "El tango", "emoji": "🌹" },
+        { "en": "The waltz", "es": "El vals", "emoji": "🎩" },
+        { "en": "Salsa", "es": "La salsa", "emoji": "🕺" }
+      ],
+      "answer": 2,
+      "why": { "en": "Salsa grew from Cuban and Puerto Rican music in New York, and the name means sauce, a mix of flavors.", "es": "La salsa nació de la música cubana y puertorriqueña en Nueva York, y su nombre habla de una mezcla de sabores." },
+      "topic": "dances of the world",
+      "source": "https://kids.britannica.com/kids/article/Latin-American-dance/399741"
+    },
+    {
+      "id": "art-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩰",
+      "q": { "en": "What is a ballet dancer's spin called?", "es": "¿Cómo se llama el giro de una bailarina de ballet?" },
+      "choices": [
+        { "en": "A pirouette", "es": "Una pirueta", "emoji": "🌀" },
+        { "en": "A leap", "es": "Un salto", "emoji": "🦘" },
+        { "en": "A bow", "es": "Una reverencia", "emoji": "🙇" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pirouette is French for a little spin, and dancers snap their head to one spot so they do not get dizzy.", "es": "Pirueta viene del francés y quiere decir giro pequeño; las bailarinas fijan la mirada en un punto para no marearse." },
+      "topic": "dances of the world",
+      "source": "https://kids.britannica.com/kids/article/ballet/353011"
+    },
+    {
+      "id": "art-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Which small drums are played with the hands?", "es": "¿Cuáles tambores pequeños se tocan con las manos?" },
+      "choices": [
+        { "en": "A guitar", "es": "Una guitarra", "emoji": "🎸" },
+        { "en": "Bongos", "es": "Los bongós", "emoji": "🥁" },
+        { "en": "A trumpet", "es": "Una trompeta", "emoji": "🎺" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bongos come from Cuba and are held between the knees; the small drum is macho, the big one hembra.", "es": "Los bongós vienen de Cuba y se sostienen entre las rodillas; el tambor pequeño es el macho y el grande la hembra." },
+      "topic": "instruments of the americas",
+      "source": "https://www.dsokids.com/listen/instrument-list/bongos.aspx"
+    },
+    {
+      "id": "art-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "How do you play a güiro?", "es": "¿Cómo se toca un güiro?" },
+      "choices": [
+        { "en": "You blow into it", "es": "Le soplas", "emoji": "💨" },
+        { "en": "You fill it with water", "es": "Lo llenas de agua", "emoji": "💧" },
+        { "en": "You scrape it with a stick", "es": "Lo raspas con un palito", "emoji": "🥢" }
+      ],
+      "answer": 2,
+      "why": { "en": "A güiro is a hollow gourd with ridges, and scraping it makes the raspy beat you hear in cumbia.", "es": "El güiro es un guaje hueco con ranuras, y al rasparlo suena el ritmo áspero que oyes en la cumbia." },
+      "topic": "instruments of the americas",
+      "source": "https://kids.britannica.com/kids/article/Latin-American-music/399742"
+    },
+    {
+      "id": "art-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "What did Leonardo paint the Mona Lisa on?", "es": "¿Sobre qué pintó Leonardo la Mona Lisa?" },
+      "choices": [
+        { "en": "Wood", "es": "Sobre madera", "emoji": "🪵" },
+        { "en": "Paper", "es": "Sobre papel", "emoji": "📄" },
+        { "en": "Glass", "es": "Sobre vidrio", "emoji": "🪟" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Mona Lisa is painted on a poplar panel about seventy-seven centimeters tall, far smaller than most people expect.", "es": "La Mona Lisa está pintada sobre una tabla de álamo de unos setenta y siete centímetros de alto, más pequeña de lo que imaginas." },
+      "topic": "famous paintings",
+      "source": "https://www.louvre.fr/en/explore/the-palace/the-mona-lisa"
+    },
+    {
+      "id": "art-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What do we call a painting on a wall?", "es": "¿Cómo se llama una pintura hecha en un muro?" },
+      "choices": [
+        { "en": "A statue", "es": "Una estatua", "emoji": "🗿" },
+        { "en": "A mural", "es": "Un mural", "emoji": "🧱" },
+        { "en": "A puppet", "es": "Un títere", "emoji": "🎭" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mural comes from the Latin word for wall, and Diego Rivera painted Mexico's whole history across buildings in Mexico City.", "es": "Mural viene de la palabra latina para muro, y Diego Rivera pintó toda la historia de México en edificios de la capital." },
+      "topic": "famous paintings",
+      "source": "https://www.tate.org.uk/kids/explore/what-is/mural"
+    },
+    {
+      "id": "art-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐉",
+      "q": { "en": "What do Mexican alebrijes look like?", "es": "¿Cómo se ven los alebrijes mexicanos?" },
+      "choices": [
+        { "en": "Plain gray boxes", "es": "Cajas grises sencillas", "emoji": "📦" },
+        { "en": "Tiny silver coins", "es": "Monedas de plata diminutas", "emoji": "🪙" },
+        { "en": "Bright mixed-up animals", "es": "Animales de colores mezclados", "emoji": "🐉" }
+      ],
+      "answer": 2,
+      "why": { "en": "Alebrijes are carved from copal wood in Oaxaca and painted in dots and stripes, mixing wings, horns and tails.", "es": "Los alebrijes se tallan en madera de copal en Oaxaca y se pintan con puntos y rayas, mezclando alas, cuernos y colas." },
+      "topic": "folk art",
+      "source": "https://www.si.edu/spotlight/alebrijes"
+    },
+    {
+      "id": "art-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Where do people go to see famous paintings?", "es": "¿Adónde va la gente a ver pinturas famosas?" },
+      "choices": [
+        { "en": "A museum", "es": "A un museo", "emoji": "🏛️" },
+        { "en": "A bakery", "es": "A una panadería", "emoji": "🥐" },
+        { "en": "A gas station", "es": "A una gasolinera", "emoji": "⛽" }
+      ],
+      "answer": 0,
+      "why": { "en": "Museums keep art safe in cool, dim rooms, and many cities let children in free so families can visit often.", "es": "Los museos guardan el arte en salas frescas y con poca luz, y en muchas ciudades los niños entran gratis." },
+      "topic": "museums",
+      "source": "https://www.metmuseum.org/art/online-features/metkids/"
+    },
+    {
+      "id": "art-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎬",
+      "q": { "en": "What opens when a play begins?", "es": "¿Qué se abre cuando empieza una obra de teatro?" },
+      "choices": [
+        { "en": "The window", "es": "La ventana", "emoji": "🪟" },
+        { "en": "The curtain", "es": "El telón", "emoji": "🎭" },
+        { "en": "The oven", "es": "El horno", "emoji": "🔥" }
+      ],
+      "answer": 1,
+      "why": { "en": "The heavy curtain hides the stage while actors get ready, and a stagehand pulls a rope to open it.", "es": "El telón pesado esconde el escenario mientras los actores se preparan, y un tramoyista jala una cuerda para abrirlo." },
+      "topic": "the stage",
+      "source": "https://kids.britannica.com/kids/article/stage/399832"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "note": "Brain Teasers & Logic. Three levels in one file so a reviewer sees the ladder. One-language items: en and es pools written separately.",
   "category": "puzzles",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "puzzles-easy-001", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎨",
@@ -248,6 +248,968 @@
       "why": { "es": "Lucía está en el grupo de los que juegan ajedrez, y todo ese grupo juega damas; lo contrario no se puede asegurar." },
       "topic": "logic",
       "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔷",
+      "q": { "en": "Circle, square, circle, square, what comes next?", "es": "Círculo, cuadrado, círculo, cuadrado, ¿qué sigue?" },
+      "choices": [
+        { "en": "Circle", "es": "Círculo", "emoji": "🔵" },
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" },
+        { "en": "Star", "es": "Estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "The two shapes take turns. After a square the pattern starts over, so a circle comes next every time.", "es": "Las dos figuras se turnan. Después de un cuadrado el patrón vuelve a empezar, así que sigue un círculo." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-008", "level": "easy", "type": "mc", "lang": "en", "emoji": "🧊",
+      "q": { "en": "White, cold, and I melt away. What am I?" },
+      "choices": [
+        { "en": "Sand", "emoji": "🏖️" },
+        { "en": "Snow", "emoji": "❄️" },
+        { "en": "Paper", "emoji": "📄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Snow is frozen water, so warmth turns it back into liquid water and it disappears into a small puddle." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/snow"
+    },
+    {
+      "id": "puzzles-easy-009", "level": "easy", "type": "mc", "lang": "es", "emoji": "🍯",
+      "q": { "es": "Tengo alas y hago miel. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una mariposa", "emoji": "🦋" },
+        { "es": "Un pájaro", "emoji": "🐦" },
+        { "es": "Una abeja", "emoji": "🐝" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las abejas juntan néctar de las flores y lo convierten en miel dentro del panal para comer en invierno." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/honeybee"
+    },
+    {
+      "id": "puzzles-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "How many legs do two dogs have?", "es": "¿Cuántas patas tienen dos perros juntos?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each dog has four legs, and four plus four makes eight, the same way two hands have ten fingers.", "es": "Cada perro tiene cuatro patas, y cuatro más cuatro son ocho, igual que dos manos tienen diez dedos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-011", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌞",
+      "q": { "en": "Yellow, hot, and lights our day. What is it?" },
+      "choices": [
+        { "en": "A lamp", "emoji": "💡" },
+        { "en": "The Sun", "emoji": "☀️" },
+        { "en": "A candle", "emoji": "🕯️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Sun is a star so big and hot that its light reaches us in about eight minutes across space." },
+      "topic": "riddles",
+      "source": "https://science.nasa.gov/sun/"
+    },
+    {
+      "id": "puzzles-easy-012", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌊",
+      "q": { "es": "Vivo en el agua y tengo aletas. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un gato", "emoji": "🐱" },
+        { "es": "Un pájaro", "emoji": "🐦" },
+        { "es": "Un pez", "emoji": "🐟" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los peces respiran bajo el agua con branquias y usan las aletas como remos para girar y avanzar." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/fish"
+    },
+    {
+      "id": "puzzles-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟨",
+      "q": { "en": "How many corners do two squares have?", "es": "¿Cuántas esquinas tienen dos cuadrados juntos?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "A square has four corners, so two squares have four plus four, which is eight corners and eight sides too.", "es": "Un cuadrado tiene cuatro esquinas, así que dos cuadrados tienen cuatro más cuatro: ocho esquinas y ocho lados." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/square.html"
+    },
+    {
+      "id": "puzzles-easy-014", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌧️",
+      "q": { "en": "I keep you dry in rain. What am I?" },
+      "choices": [
+        { "en": "Sunglasses", "emoji": "🕶️" },
+        { "en": "An umbrella", "emoji": "☂️" },
+        { "en": "A scarf", "emoji": "🧣" }
+      ],
+      "answer": 1,
+      "why": { "en": "An umbrella spreads cloth over your head so raindrops slide down the sides instead of landing on you." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/umbrella"
+    },
+    {
+      "id": "puzzles-easy-015", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌳",
+      "q": { "es": "Soy redondo, rojo y crezco en árboles. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una uva", "emoji": "🍇" },
+        { "es": "Una zanahoria", "emoji": "🥕" },
+        { "es": "Una manzana", "emoji": "🍎" }
+      ],
+      "answer": 2,
+      "why": { "es": "La manzana crece en un árbol y es roja o verde; la uva crece en racimos y es mucho más pequeña." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/plant/apple-fruit-and-tree"
+    },
+    {
+      "id": "puzzles-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "Which is more, five apples or three apples?", "es": "¿Qué hay más, cinco manzanas o tres manzanas?" },
+      "choices": [
+        { "en": "Five apples", "es": "Cinco manzanas", "emoji": "🍎" },
+        { "en": "Three apples", "es": "Tres manzanas", "emoji": "🍏" },
+        { "en": "They are the same", "es": "Son iguales", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five comes after three when you count, so five apples is the bigger pile by exactly two apples.", "es": "Cinco viene después de tres al contar, así que cinco manzanas son más, exactamente dos manzanas más." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-017", "level": "easy", "type": "mc", "lang": "en", "emoji": "⏱️",
+      "q": { "en": "I have a face and hands. What am I?" },
+      "choices": [
+        { "en": "A book", "emoji": "📕" },
+        { "en": "A clock", "emoji": "🕐" },
+        { "en": "A door", "emoji": "🚪" }
+      ],
+      "answer": 1,
+      "why": { "en": "A clock has a round face and two hands that point, and the short hand shows the hour." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/clock"
+    },
+    {
+      "id": "puzzles-easy-018", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌛",
+      "q": { "es": "Doy luz de noche en tu cuarto. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una silla", "emoji": "🪑" },
+        { "es": "Una ventana", "emoji": "🪟" },
+        { "es": "Una lámpara", "emoji": "💡" }
+      ],
+      "answer": 2,
+      "why": { "es": "Una lámpara transforma la electricidad en luz, y por eso puedes leer un cuento aunque afuera esté oscuro." },
+      "topic": "riddles",
+      "source": "https://dle.rae.es/lampara"
+    },
+    {
+      "id": "puzzles-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which is heavier, an elephant or a mouse?", "es": "¿Qué pesa más, un elefante o un ratón?" },
+      "choices": [
+        { "en": "The elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "The mouse", "es": "El ratón", "emoji": "🐭" },
+        { "en": "They weigh the same", "es": "Pesan igual", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "An elephant can weigh as much as a small truck, while a mouse weighs less than a slice of bread.", "es": "Un elefante puede pesar como un camión pequeño, y un ratón pesa menos que una rebanada de pan." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-easy-020", "level": "easy", "type": "mc", "lang": "en", "emoji": "💧",
+      "q": { "en": "Full of holes but holding water. What am I?" },
+      "choices": [
+        { "en": "A rock", "emoji": "🪨" },
+        { "en": "A sponge", "emoji": "🧽" },
+        { "en": "A cup", "emoji": "☕" }
+      ],
+      "answer": 1,
+      "why": { "en": "A sponge is a mesh of tiny holes, and water clings inside them until you squeeze the sponge out." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/sponge"
+    },
+    {
+      "id": "puzzles-easy-021", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦴",
+      "q": { "es": "Tengo cuatro patas y ladro fuerte. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un pato", "emoji": "🦆" },
+        { "es": "Un caballo", "emoji": "🐴" },
+        { "es": "Un perro", "emoji": "🐶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Solo el perro ladra, y lo hace para avisar o saludar; su oído capta sonidos que tú ni escuchas." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "puzzles-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏡",
+      "q": { "en": "Who is older, a grandmother or her grandchild?", "es": "¿Quién es mayor, una abuela o su nieto?" },
+      "choices": [
+        { "en": "The grandmother", "es": "La abuela", "emoji": "👵" },
+        { "en": "The grandchild", "es": "El nieto", "emoji": "👶" },
+        { "en": "They are the same age", "es": "Tienen la misma edad", "emoji": "🎂" }
+      ],
+      "answer": 0,
+      "why": { "en": "A grandmother is the parent of a parent, so she was born two whole generations before her grandchild.", "es": "Una abuela es la mamá de un papá o una mamá, así que nació dos generaciones antes que su nieto." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/grandmother"
+    },
+    {
+      "id": "puzzles-easy-023", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚶",
+      "q": { "en": "I follow you in sunshine. What am I?" },
+      "choices": [
+        { "en": "Your echo", "emoji": "🔊" },
+        { "en": "Your shadow", "emoji": "👤" },
+        { "en": "Your coat", "emoji": "🧥" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your body blocks sunlight, and the dark shape on the ground behind you is that missing light, your shadow." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/shadow"
+    },
+    {
+      "id": "puzzles-easy-024", "level": "easy", "type": "mc", "lang": "es", "emoji": "⛄",
+      "q": { "es": "Soy blanca, fría y caigo en invierno. ¿Qué soy?" },
+      "choices": [
+        { "es": "La arena", "emoji": "🏖️" },
+        { "es": "La hoja", "emoji": "🍂" },
+        { "es": "La nieve", "emoji": "❄️" }
+      ],
+      "answer": 2,
+      "why": { "es": "La nieve es agua congelada que cae en copos, y cada copo tiene seis puntas por la forma del hielo." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/snow"
+    },
+    {
+      "id": "puzzles-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "One, two, three, four, what comes next?", "es": "Uno, dos, tres, cuatro, ¿qué número sigue?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Counting numbers go up by one each time, so after four you add one more and land on five.", "es": "Los números para contar suben de uno en uno, así que después de cuatro sumas uno y llegas a cinco." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-026", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌿",
+      "q": { "en": "Small, red, with black spots. What am I?" },
+      "choices": [
+        { "en": "A bee", "emoji": "🐝" },
+        { "en": "A ladybug", "emoji": "🐞" },
+        { "en": "A snail", "emoji": "🐌" }
+      ],
+      "answer": 1,
+      "why": { "en": "A ladybug's bright red back with black dots warns birds that it tastes bad, so they leave it alone." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/ladybug"
+    },
+    {
+      "id": "puzzles-easy-027", "level": "easy", "type": "mc", "lang": "es", "emoji": "👣",
+      "q": { "es": "Me pones en los pies para caminar. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un sombrero", "emoji": "👒" },
+        { "es": "Un guante", "emoji": "🧤" },
+        { "es": "Un zapato", "emoji": "👟" }
+      ],
+      "answer": 2,
+      "why": { "es": "El zapato protege la planta del pie de piedras y del frío, y por eso tiene una suela dura." },
+      "topic": "riddles",
+      "source": "https://dle.rae.es/zapato"
+    },
+    {
+      "id": "puzzles-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Big, small, big, small, what comes next?", "es": "Grande, pequeño, grande, pequeño, ¿qué sigue?" },
+      "choices": [
+        { "en": "Big", "es": "Grande", "emoji": "🟦" },
+        { "en": "Small", "es": "Pequeño", "emoji": "🔹" },
+        { "en": "Medium", "es": "Mediano", "emoji": "🟩" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pattern swaps between big and small, and the last one was small, so a big one comes next.", "es": "El patrón cambia entre grande y pequeño, y el último fue pequeño, así que ahora toca uno grande." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-029", "level": "easy", "type": "mc", "lang": "en", "emoji": "🏠",
+      "q": { "en": "I carry my house everywhere. What am I?" },
+      "choices": [
+        { "en": "A bird", "emoji": "🐦" },
+        { "en": "A snail", "emoji": "🐌" },
+        { "en": "A fish", "emoji": "🐟" }
+      ],
+      "answer": 1,
+      "why": { "en": "A snail's shell grows with its body and it can pull its whole soft self inside when danger comes." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/snail"
+    },
+    {
+      "id": "puzzles-easy-030", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔁",
+      "q": { "es": "Sol, luna, sol, luna, ¿qué sigue?" },
+      "choices": [
+        { "es": "Una estrella", "emoji": "⭐" },
+        { "es": "La luna", "emoji": "🌙" },
+        { "es": "El sol", "emoji": "☀️" }
+      ],
+      "answer": 2,
+      "why": { "es": "El patrón alterna sol y luna, y como el último fue la luna, ahora le toca otra vez al sol." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "All these balls are red. What color is one?", "es": "Todas estas pelotas son rojas. ¿De qué color es una?" },
+      "choices": [
+        { "en": "Red", "es": "Roja", "emoji": "🔴" },
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "If every single ball is red, then any ball you pick from the group has to be red too.", "es": "Si todas las pelotas son rojas, entonces cualquier pelota que saques del grupo también tiene que ser roja." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-easy-032", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔁",
+      "q": { "en": "Circle, circle, square, circle, circle, what next?" },
+      "choices": [
+        { "en": "Circle", "emoji": "🔵" },
+        { "en": "Square", "emoji": "🟥" },
+        { "en": "Triangle", "emoji": "🔺" }
+      ],
+      "answer": 1,
+      "why": { "en": "The group repeats as circle, circle, square, so after two circles the square always takes the third spot." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-033", "level": "easy", "type": "mc", "lang": "es", "emoji": "🧮",
+      "q": { "es": "Cinco, diez, quince, ¿qué número sigue?" },
+      "choices": [
+        { "es": "Dieciocho", "emoji": "🔢" },
+        { "es": "Dieciséis", "emoji": "➕" },
+        { "es": "Veinte", "emoji": "🧮" }
+      ],
+      "answer": 2,
+      "why": { "es": "La serie sube de cinco en cinco: cinco, diez, quince y luego veinte, igual que cuentas monedas de cinco." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐈",
+      "q": { "en": "How many ears do three cats have?", "es": "¿Cuántas orejas tienen tres gatos en total?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every cat has two ears, and two plus two plus two makes six, which is counting by twos.", "es": "Cada gato tiene dos orejas, y dos más dos más dos son seis: eso es contar de dos en dos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-035", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐾",
+      "q": { "en": "Cat, dog, cat, dog, cat, what comes next?" },
+      "choices": [
+        { "en": "Cat", "emoji": "🐱" },
+        { "en": "Dog", "emoji": "🐶" },
+        { "en": "Bird", "emoji": "🐦" }
+      ],
+      "answer": 1,
+      "why": { "en": "The animals alternate one by one, so a cat is always followed by a dog in this row." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-036", "level": "easy", "type": "mc", "lang": "es", "emoji": "🎨",
+      "q": { "es": "Rojo, rojo, azul, rojo, rojo, ¿qué sigue?" },
+      "choices": [
+        { "es": "Rojo", "emoji": "🔴" },
+        { "es": "Verde", "emoji": "🟢" },
+        { "es": "Azul", "emoji": "🔵" }
+      ],
+      "answer": 2,
+      "why": { "es": "El grupo se repite como rojo, rojo, azul, así que después de dos rojos siempre viene un azul." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔍",
+      "q": { "en": "Apple, banana, car: which one is different?", "es": "Manzana, plátano, carro: ¿cuál es diferente?" },
+      "choices": [
+        { "en": "The car", "es": "El carro", "emoji": "🚗" },
+        { "en": "The apple", "es": "La manzana", "emoji": "🍎" },
+        { "en": "The banana", "es": "El plátano", "emoji": "🍌" }
+      ],
+      "answer": 0,
+      "why": { "en": "The apple and the banana are fruits that grow on plants, while a car is a machine people build.", "es": "La manzana y el plátano son frutas que crecen en plantas; el carro es una máquina que la gente construye." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/fruit"
+    },
+    {
+      "id": "puzzles-easy-038", "level": "easy", "type": "mc", "lang": "en", "emoji": "➕",
+      "q": { "en": "Two, four, six, eight, what comes next?" },
+      "choices": [
+        { "en": "Nine", "emoji": "9️⃣" },
+        { "en": "Ten", "emoji": "🔟" },
+        { "en": "Seven", "emoji": "7️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "These are the counting-by-twos numbers, and adding two more to eight lands you neatly on ten." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-039", "level": "easy", "type": "mc", "lang": "es", "emoji": "🗓️",
+      "q": { "es": "Viernes, sábado, ¿qué día sigue después?" },
+      "choices": [
+        { "es": "El lunes", "emoji": "1️⃣" },
+        { "es": "El martes", "emoji": "2️⃣" },
+        { "es": "El domingo", "emoji": "7️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "La semana se repite siempre igual, y el domingo llega justo después del sábado para cerrar la semana." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Which shape has three sides?", "es": "¿Cuál figura tiene tres lados?" },
+      "choices": [
+        { "en": "A triangle", "es": "El triángulo", "emoji": "🔺" },
+        { "en": "A square", "es": "El cuadrado", "emoji": "🟥" },
+        { "en": "A circle", "es": "El círculo", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tri means three, so a triangle has three sides and three corners, and it is the strongest shape for bridges.", "es": "Tri significa tres, por eso un triángulo tiene tres lados y tres esquinas, y es la figura más fuerte para puentes." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/triangles.html"
+    },
+    {
+      "id": "puzzles-easy-041", "level": "easy", "type": "mc", "lang": "en", "emoji": "📅",
+      "q": { "en": "Monday, Tuesday, Wednesday, what day comes next?" },
+      "choices": [
+        { "en": "Sunday", "emoji": "7️⃣" },
+        { "en": "Thursday", "emoji": "4️⃣" },
+        { "en": "Friday", "emoji": "5️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "The week always runs in the same order, and Thursday sits right after Wednesday, halfway through the school week." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-042", "level": "easy", "type": "mc", "lang": "es", "emoji": "🤔",
+      "q": { "es": "Si ayer fue lunes, ¿qué día es hoy?" },
+      "choices": [
+        { "es": "El domingo", "emoji": "7️⃣" },
+        { "es": "El miércoles", "emoji": "3️⃣" },
+        { "es": "El martes", "emoji": "2️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los días van en orden fijo, y si el lunes ya pasó ayer, entonces hoy tiene que ser martes." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which is the biggest: ant, dog, whale?", "es": "¿Cuál es el más grande: hormiga, perro o ballena?" },
+      "choices": [
+        { "en": "The whale", "es": "La ballena", "emoji": "🐋" },
+        { "en": "The ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "The dog", "es": "El perro", "emoji": "🐶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A blue whale can grow longer than a school bus, while a dog fits on a couch and an ant on your finger.", "es": "Una ballena azul puede ser más larga que un autobús escolar; un perro cabe en un sillón y una hormiga en tu dedo." },
+      "topic": "comparing",
+      "source": "https://www.britannica.com/animal/blue-whale"
+    },
+    {
+      "id": "puzzles-easy-044", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎢",
+      "q": { "en": "Up, down, up, down, what comes next?" },
+      "choices": [
+        { "en": "Down", "emoji": "⬇️" },
+        { "en": "Up", "emoji": "⬆️" },
+        { "en": "Sideways", "emoji": "➡️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The two moves swap every turn, so after a down move the next one has to be up again." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-045", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦜",
+      "q": { "es": "Todos los pájaros tienen plumas. ¿Qué tiene un loro?" },
+      "choices": [
+        { "es": "Escamas", "emoji": "🐟" },
+        { "es": "Pelo", "emoji": "🐱" },
+        { "es": "Plumas", "emoji": "🪶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Un loro es un pájaro, y si todos los pájaros tienen plumas, entonces el loro también está en ese grupo." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/animal/bird"
+    },
+    {
+      "id": "puzzles-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎵",
+      "q": { "en": "Clap, stomp, clap, stomp, what comes next?", "es": "Aplauso, pisotón, aplauso, pisotón, ¿qué sigue?" },
+      "choices": [
+        { "en": "A clap", "es": "Un aplauso", "emoji": "👏" },
+        { "en": "A stomp", "es": "Un pisotón", "emoji": "🦶" },
+        { "en": "A jump", "es": "Un salto", "emoji": "🤸" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pattern has two parts that trade places, and since a stomp just happened, a clap must come next.", "es": "El patrón tiene dos partes que se alternan, y como acaba de haber un pisotón, ahora sigue un aplauso." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-047", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌅",
+      "q": { "en": "If tomorrow is Sunday, what day is it?" },
+      "choices": [
+        { "en": "Monday", "emoji": "2️⃣" },
+        { "en": "Saturday", "emoji": "6️⃣" },
+        { "en": "Friday", "emoji": "5️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sunday comes right after Saturday, so if tomorrow is Sunday then you must be standing in Saturday." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-048", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏃",
+      "q": { "es": "Sofía corre más rápido que Mateo. ¿Quién llega primero?" },
+      "choices": [
+        { "es": "Mateo", "emoji": "🧒" },
+        { "es": "Llegan juntos", "emoji": "🤝" },
+        { "es": "Sofía", "emoji": "👧" }
+      ],
+      "answer": 2,
+      "why": { "es": "Correr más rápido significa recorrer la misma distancia en menos tiempo, así que Sofía cruza la meta antes." },
+      "topic": "logic",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "puzzles-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "One, two, four, five: which number is missing?", "es": "Uno, dos, cuatro, cinco: ¿qué número falta?" },
+      "choices": [
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Counting goes one, two, three, four, five, so three is the one that slipped out of the line.", "es": "Al contar decimos uno, dos, tres, cuatro, cinco, así que el número que se escapó de la fila es tres." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-050", "level": "easy", "type": "mc", "lang": "en", "emoji": "🍬",
+      "q": { "en": "Ana has more candy than Beto. Who has less?" },
+      "choices": [
+        { "en": "Ana", "emoji": "👧" },
+        { "en": "Beto", "emoji": "🧒" },
+        { "en": "Both the same", "emoji": "🍬" }
+      ],
+      "answer": 1,
+      "why": { "en": "If Ana has more, then Beto must have fewer pieces; more and less are two sides of one comparison." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/fewer"
+    },
+    {
+      "id": "puzzles-easy-051", "level": "easy", "type": "mc", "lang": "es", "emoji": "🪜",
+      "q": { "es": "El gato está arriba del perro. ¿Quién está abajo?" },
+      "choices": [
+        { "es": "El gato", "emoji": "🐱" },
+        { "es": "Los dos", "emoji": "🪜" },
+        { "es": "El perro", "emoji": "🐶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Arriba y abajo son opuestos: si el gato ocupa el lugar de arriba, al perro le queda el de abajo." },
+      "topic": "logic",
+      "source": "https://dle.rae.es/arriba"
+    },
+    {
+      "id": "puzzles-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "Which is more, two cookies or six cookies?", "es": "¿Qué es más, dos galletas o seis galletas?" },
+      "choices": [
+        { "en": "Six cookies", "es": "Seis galletas", "emoji": "🥠" },
+        { "en": "Two cookies", "es": "Dos galletas", "emoji": "🍪" },
+        { "en": "They are the same", "es": "Son iguales", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Six is farther along the number line than two, so six cookies is four more cookies than two.", "es": "Seis está más adelante que dos al contar, así que seis galletas son cuatro galletas más que dos." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-053", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚸",
+      "q": { "en": "Sam stands ahead of Lia. Who is first?" },
+      "choices": [
+        { "en": "Lia", "emoji": "👧" },
+        { "en": "Sam", "emoji": "🧒" },
+        { "en": "They tie", "emoji": "🤝" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ahead means closer to the front of the line, so Sam reaches the counter before Lia does." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/ahead"
+    },
+    {
+      "id": "puzzles-easy-054", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔵",
+      "q": { "es": "Pedro tiene menos canicas que Luisa. ¿Quién tiene más?" },
+      "choices": [
+        { "es": "Pedro", "emoji": "🧒" },
+        { "es": "Tienen igual", "emoji": "🤝" },
+        { "es": "Luisa", "emoji": "👧" }
+      ],
+      "answer": 2,
+      "why": { "es": "Menos y más son opuestos al comparar cantidades, así que si Pedro tiene menos, Luisa tiene la pila mayor." },
+      "topic": "logic",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧦",
+      "q": { "en": "Shoe, sock, spoon: which is the odd one out?", "es": "Zapato, calcetín, cuchara: ¿cuál es el intruso?" },
+      "choices": [
+        { "en": "The spoon", "es": "La cuchara", "emoji": "🥄" },
+        { "en": "The shoe", "es": "El zapato", "emoji": "👟" },
+        { "en": "The sock", "es": "El calcetín", "emoji": "🧦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shoe and a sock both go on your feet, but a spoon goes in your hand at the table.", "es": "El zapato y el calcetín van en los pies, pero la cuchara va en la mano cuando comes en la mesa." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/spoon"
+    },
+    {
+      "id": "puzzles-easy-056", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎈",
+      "q": { "en": "Which is lighter, a balloon or a book?" },
+      "choices": [
+        { "en": "A book", "emoji": "📘" },
+        { "en": "A balloon", "emoji": "🎈" },
+        { "en": "They match", "emoji": "⚖️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A balloon holds mostly air, and air weighs almost nothing, while a book is many stacked sheets of paper." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-easy-057", "level": "easy", "type": "mc", "lang": "es", "emoji": "🥭",
+      "q": { "es": "Si toda fruta es dulce, ¿cómo es el mango?" },
+      "choices": [
+        { "es": "Salado", "emoji": "🧂" },
+        { "es": "Picante", "emoji": "🌶️" },
+        { "es": "Dulce", "emoji": "🥭" }
+      ],
+      "answer": 2,
+      "why": { "es": "El mango es una fruta, y si la regla dice que toda fruta es dulce, el mango entra en esa regla." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/plant/mango-plant-and-fruit"
+    },
+    {
+      "id": "puzzles-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔶",
+      "q": { "en": "Triangle, circle, triangle, circle, what is next?", "es": "Triángulo, círculo, triángulo, círculo, ¿qué sigue?" },
+      "choices": [
+        { "en": "A triangle", "es": "Un triángulo", "emoji": "🔺" },
+        { "en": "A circle", "es": "Un círculo", "emoji": "⚪" },
+        { "en": "A square", "es": "Un cuadrado", "emoji": "🟩" }
+      ],
+      "answer": 0,
+      "why": { "en": "The row swaps between a triangle and a circle, so after the circle the triangle takes its turn again.", "es": "La fila alterna un triángulo y un círculo, así que después del círculo le toca otra vez al triángulo." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/shapes.html"
+    },
+    {
+      "id": "puzzles-easy-059", "level": "easy", "type": "mc", "lang": "en", "emoji": "⏰",
+      "q": { "en": "Nico wakes up before Mia. Who wakes later?" },
+      "choices": [
+        { "en": "Nico", "emoji": "🧒" },
+        { "en": "Mia", "emoji": "👧" },
+        { "en": "Both at once", "emoji": "⏰" }
+      ],
+      "answer": 1,
+      "why": { "en": "Before means earlier in time, so if Nico is already awake, Mia is still the one getting up later." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/before"
+    },
+    {
+      "id": "puzzles-easy-060", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔍",
+      "q": { "es": "Rojo, azul, silla: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "El rojo", "emoji": "🔴" },
+        { "es": "El azul", "emoji": "🔵" },
+        { "es": "La silla", "emoji": "🪑" }
+      ],
+      "answer": 2,
+      "why": { "es": "Rojo y azul son colores que ves; la silla es un mueble de verdad donde te puedes sentar." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/color"
+    },
+    {
+      "id": "puzzles-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Who is taller, a baby or her mother?", "es": "¿Quién es más alta, una bebé o su mamá?" },
+      "choices": [
+        { "en": "The mother", "es": "La mamá", "emoji": "👩" },
+        { "en": "The baby", "es": "La bebé", "emoji": "👶" },
+        { "en": "They measure the same", "es": "Miden igual", "emoji": "📏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Babies start out about as long as a loaf of bread and grow taller for years, so a mother is taller.", "es": "Los bebés miden al nacer como un pan grande y crecen durante años, así que la mamá es más alta." },
+      "topic": "comparing",
+      "source": "https://www.merriam-webster.com/dictionary/taller"
+    },
+    {
+      "id": "puzzles-easy-062", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎂",
+      "q": { "en": "Milo is older than Zoe. Who was born first?" },
+      "choices": [
+        { "en": "Zoe", "emoji": "👧" },
+        { "en": "Milo", "emoji": "🧒" },
+        { "en": "The same day", "emoji": "🎂" }
+      ],
+      "answer": 1,
+      "why": { "en": "Being older means having lived more time, and that only happens if your birthday came first on the calendar." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/older"
+    },
+    {
+      "id": "puzzles-easy-063", "level": "easy", "type": "mc", "lang": "es", "emoji": "🧰",
+      "q": { "es": "Manzana, uva, martillo: ¿cuál es el intruso?" },
+      "choices": [
+        { "es": "La manzana", "emoji": "🍎" },
+        { "es": "La uva", "emoji": "🍇" },
+        { "es": "El martillo", "emoji": "🔨" }
+      ],
+      "answer": 2,
+      "why": { "es": "La manzana y la uva son frutas que se comen; el martillo es una herramienta de metal para clavar." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/fruta"
+    },
+    {
+      "id": "puzzles-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "Morning, afternoon, night: which comes first?", "es": "Mañana, tarde, noche: ¿cuál va primero?" },
+      "choices": [
+        { "en": "Morning", "es": "La mañana", "emoji": "🌅" },
+        { "en": "Afternoon", "es": "La tarde", "emoji": "🌇" },
+        { "en": "Night", "es": "La noche", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "A day runs from morning to afternoon to night, and morning starts when the Sun climbs over the horizon.", "es": "El día va de la mañana a la tarde y luego a la noche; la mañana empieza cuando sale el Sol." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/day"
+    },
+    {
+      "id": "puzzles-easy-065", "level": "easy", "type": "mc", "lang": "en", "emoji": "📐",
+      "q": { "en": "Which is longer, a pencil or a bus?" },
+      "choices": [
+        { "en": "A pencil", "emoji": "✏️" },
+        { "en": "A bus", "emoji": "🚌" },
+        { "en": "Both the same", "emoji": "📏" }
+      ],
+      "answer": 1,
+      "why": { "en": "A school bus is longer than ten pencils lined up, which is why it needs a whole parking space." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/length.html"
+    },
+    {
+      "id": "puzzles-easy-066", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌲",
+      "q": { "es": "Carro, avión, árbol: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "El carro", "emoji": "🚗" },
+        { "es": "El avión", "emoji": "✈️" },
+        { "es": "El árbol", "emoji": "🌳" }
+      ],
+      "answer": 2,
+      "why": { "es": "El carro y el avión son máquinas que transportan gente; el árbol es un ser vivo que crece solo." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/arbol"
+    },
+    {
+      "id": "puzzles-easy-067", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌌",
+      "q": { "en": "Sun, moon, shoe: which one is different?" },
+      "choices": [
+        { "en": "The shoe", "emoji": "👟" },
+        { "en": "The Sun", "emoji": "☀️" },
+        { "en": "The Moon", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun and the Moon are huge objects out in the sky, while a shoe is something people make and wear." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/place/Moon"
+    },
+    {
+      "id": "puzzles-easy-068", "level": "easy", "type": "mc", "lang": "es", "emoji": "🥛",
+      "q": { "es": "Leche, jugo, piedra: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "La leche", "emoji": "🥛" },
+        { "es": "La piedra", "emoji": "🪨" },
+        { "es": "El jugo", "emoji": "🧃" }
+      ],
+      "answer": 1,
+      "why": { "es": "La leche y el jugo son líquidos que puedes tomar; la piedra es dura y jamás se bebe." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/liquido"
+    },
+    {
+      "id": "puzzles-easy-069", "level": "easy", "type": "mc", "lang": "en", "emoji": "🖍️",
+      "q": { "en": "Red, blue, banana: which is different?" },
+      "choices": [
+        { "en": "Red", "emoji": "🔴" },
+        { "en": "Blue", "emoji": "🔵" },
+        { "en": "Banana", "emoji": "🍌" }
+      ],
+      "answer": 2,
+      "why": { "en": "Red and blue are colors you can see anywhere, but a banana is a fruit you can actually eat." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/color"
+    },
+    {
+      "id": "puzzles-easy-070", "level": "easy", "type": "mc", "lang": "es", "emoji": "📐",
+      "q": { "es": "Triángulo, cuadrado, plátano: ¿cuál es el intruso?" },
+      "choices": [
+        { "es": "El plátano", "emoji": "🍌" },
+        { "es": "El triángulo", "emoji": "🔺" },
+        { "es": "El cuadrado", "emoji": "🟥" }
+      ],
+      "answer": 0,
+      "why": { "es": "El triángulo y el cuadrado son figuras con lados rectos; el plátano es una fruta curva que se pela." },
+      "topic": "odd one out",
+      "source": "https://www.mathsisfun.com/geometry/shapes.html"
+    },
+    {
+      "id": "puzzles-easy-071", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌊",
+      "q": { "en": "Fish, shark, eagle: which one is different?" },
+      "choices": [
+        { "en": "The shark", "emoji": "🦈" },
+        { "en": "The eagle", "emoji": "🦅" },
+        { "en": "The fish", "emoji": "🐠" }
+      ],
+      "answer": 1,
+      "why": { "en": "The shark and the fish live in water and breathe with gills, while an eagle breathes air and flies." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/animal/fish"
+    },
+    {
+      "id": "puzzles-easy-072", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐦",
+      "q": { "es": "¿Cuántas alas tienen tres pájaros?" },
+      "choices": [
+        { "es": "Tres", "emoji": "3️⃣" },
+        { "es": "Nueve", "emoji": "9️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Un pájaro vuela con dos alas, así que tres pájaros suman dos más dos más dos: seis alas en total." },
+      "topic": "counting",
+      "source": "https://www.britannica.com/animal/bird"
+    },
+    {
+      "id": "puzzles-easy-073", "level": "easy", "type": "mc", "lang": "en", "emoji": "☔",
+      "q": { "en": "Rain, snow, pencil: which one is different?" },
+      "choices": [
+        { "en": "The pencil", "emoji": "✏️" },
+        { "en": "The rain", "emoji": "🌧️" },
+        { "en": "The snow", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain and snow both fall from clouds as water, but a pencil is made in a factory from wood." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/science/precipitation"
+    },
+    {
+      "id": "puzzles-easy-074", "level": "easy", "type": "mc", "lang": "es", "emoji": "🙌",
+      "q": { "es": "¿Cuántos dedos tienes en las dos manos?" },
+      "choices": [
+        { "es": "Cinco", "emoji": "5️⃣" },
+        { "es": "Diez", "emoji": "🔟" },
+        { "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 1,
+      "why": { "es": "Cada mano tiene cinco dedos, y cinco más cinco son diez; por eso contamos de diez en diez." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-075", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦶",
+      "q": { "en": "How many toes are on two feet?" },
+      "choices": [
+        { "en": "Five", "emoji": "5️⃣" },
+        { "en": "Eight", "emoji": "8️⃣" },
+        { "en": "Ten", "emoji": "🔟" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each foot carries five toes, and five plus five makes ten, the same count as your fingers." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-076", "level": "easy", "type": "mc", "lang": "es", "emoji": "🚲",
+      "q": { "es": "¿Cuántas ruedas tiene una bicicleta y un triciclo?" },
+      "choices": [
+        { "es": "Cinco", "emoji": "5️⃣" },
+        { "es": "Cuatro", "emoji": "4️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "es": "La bicicleta rueda sobre dos llantas y el triciclo sobre tres; dos más tres dan cinco en total." },
+      "topic": "counting",
+      "source": "https://dle.rae.es/triciclo"
+    },
+    {
+      "id": "puzzles-easy-077", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚗",
+      "q": { "en": "How many wheels do two cars have?" },
+      "choices": [
+        { "en": "Four", "emoji": "4️⃣" },
+        { "en": "Eight", "emoji": "8️⃣" },
+        { "en": "Six", "emoji": "6️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Most cars roll on four wheels, so two cars together have four plus four, which makes eight wheels." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-078", "level": "easy", "type": "mc", "lang": "es", "emoji": "👣",
+      "q": { "es": "¿Cuántos pies tienen dos niños juntos?" },
+      "choices": [
+        { "es": "Dos", "emoji": "2️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" },
+        { "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cada niño camina con dos pies, y dos más dos son cuatro; por eso dejan cuatro huellas en la arena." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "puzzles-easy-079", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔺",
+      "q": { "en": "How many sides do two triangles have?" },
+      "choices": [
+        { "en": "Six", "emoji": "6️⃣" },
+        { "en": "Three", "emoji": "3️⃣" },
+        { "en": "Four", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "One triangle has three sides, so two of them have three plus three, which adds up to six sides." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/geometry/triangles.html"
+    },
+    {
+      "id": "puzzles-easy-080", "level": "easy", "type": "mc", "lang": "es", "emoji": "⚖️",
+      "q": { "es": "¿Qué pesa más, una pluma o un libro?" },
+      "choices": [
+        { "es": "La pluma", "emoji": "🪶" },
+        { "es": "El libro", "emoji": "📘" },
+        { "es": "Pesan igual", "emoji": "⚖️" }
+      ],
+      "answer": 1,
+      "why": { "es": "Un libro junta cientos de hojas apretadas, y una pluma es tan ligera que el viento la levanta." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
     }
   ]
 }
