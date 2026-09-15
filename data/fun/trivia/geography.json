@@ -3164,6 +3164,904 @@
       "why": { "en": "From Liechtenstein or Uzbekistan you must cross at least two borders to reach any sea, a rare double wall of land.", "es": "Desde Liechtenstein o Uzbekistán hay que cruzar al menos dos fronteras para llegar al mar, una rara doble muralla de tierra." },
       "topic": "landlocked countries",
       "source": "https://www.cia.gov/the-world-factbook/countries/uzbekistan/"
+    },
+    {
+      "id": "geography-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Greek sailors coined the word archipelago. Which sea did it first name?", "es": "Los marineros griegos crearon la palabra archipiélago. ¿Qué mar nombraba primero?" },
+      "choices": [
+        { "en": "The Aegean Sea", "es": "El mar Egeo" },
+        { "en": "The Black Sea", "es": "El mar Negro" },
+        { "en": "The Adriatic Sea", "es": "El mar Adriático" },
+        { "en": "The Red Sea", "es": "El mar Rojo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Archipelago meant chief sea, the Greek name for the island-filled Aegean, and later came to mean any cluster of islands.", "es": "Archipiélago significaba mar principal, el nombre griego del Egeo lleno de islas, y luego pasó a nombrar cualquier grupo de islas." },
+      "topic": "archipelagos",
+      "source": "https://www.britannica.com/place/Aegean-Sea"
+    },
+    {
+      "id": "geography-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "The Svalbard archipelago, far north in the Arctic Ocean, belongs to which country?", "es": "El archipiélago de Svalbard, en el lejano Ártico, ¿a qué país pertenece?" },
+      "choices": [
+        { "en": "Finland", "es": "Finlandia" },
+        { "en": "Norway", "es": "Noruega" },
+        { "en": "Iceland", "es": "Islandia" },
+        { "en": "Denmark", "es": "Dinamarca" }
+      ],
+      "answer": 1,
+      "why": { "en": "Norway governs Svalbard, where a vault cut into frozen rock stores seeds from farms around the world for safekeeping.", "es": "Noruega gobierna Svalbard, donde una bóveda excavada en roca congelada guarda semillas de cultivos de todo el mundo para protegerlas." },
+      "topic": "archipelagos",
+      "source": "https://www.britannica.com/place/Svalbard"
+    },
+    {
+      "id": "geography-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "The Tierra del Fuego archipelago is divided between Argentina and which other country?", "es": "El archipiélago de Tierra del Fuego se reparte entre Argentina y ¿qué otro país?" },
+      "choices": [
+        { "en": "Uruguay", "es": "Uruguay" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Chile", "es": "Chile" },
+        { "en": "Brazil", "es": "Brasil" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chile holds the western islands. Magellan named the land Fire Land after the many campfires he saw burning along the shore.", "es": "Chile tiene las islas del oeste. Magallanes llamó así a la tierra por las muchas fogatas que vio arder en la costa." },
+      "topic": "archipelagos",
+      "source": "https://www.britannica.com/place/Tierra-del-Fuego-archipelago-South-America"
+    },
+    {
+      "id": "geography-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which volcanic archipelago off the west coast of Africa forms a country of its own?", "es": "¿Qué archipiélago volcánico frente a la costa oeste de África forma un país propio?" },
+      "choices": [
+        { "en": "The Canary Islands", "es": "Las islas Canarias" },
+        { "en": "Madeira", "es": "Madeira" },
+        { "en": "The Azores", "es": "Las Azores" },
+        { "en": "Cabo Verde", "es": "Cabo Verde" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cabo Verde is ten volcanic islands about 570 kilometers (350 miles) offshore; the others belong to Spain or Portugal.", "es": "Cabo Verde son diez islas volcánicas a unos 570 kilómetros (350 millas) de la costa; las otras pertenecen a España o Portugal." },
+      "topic": "archipelagos",
+      "source": "https://www.britannica.com/place/Cabo-Verde"
+    },
+    {
+      "id": "geography-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "The Köppen system sorts climates into five letter groups. What does group B describe?", "es": "El sistema de Köppen agrupa los climas en cinco letras. ¿Qué describe el grupo B?" },
+      "choices": [
+        { "en": "Dry climates", "es": "Climas secos" },
+        { "en": "Tropical climates", "es": "Climas tropicales" },
+        { "en": "Polar climates", "es": "Climas polares" },
+        { "en": "Cold snowy climates", "es": "Climas fríos y nevados" }
+      ],
+      "answer": 0,
+      "why": { "en": "Group B covers dry lands where more water evaporates than falls as rain, which is how geographers define a desert.", "es": "El grupo B abarca tierras secas donde se evapora más agua de la que cae como lluvia; así se define un desierto." },
+      "topic": "climate zones",
+      "source": "https://www.britannica.com/science/Koppen-climate-classification"
+    },
+    {
+      "id": "geography-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which climate zone has hot dry summers and mild rainy winters?", "es": "¿Qué zona climática tiene veranos calurosos y secos e inviernos suaves y lluviosos?" },
+      "choices": [
+        { "en": "Tundra climate", "es": "Clima de tundra" },
+        { "en": "Mediterranean climate", "es": "Clima mediterráneo" },
+        { "en": "Monsoon climate", "es": "Clima monzónico" },
+        { "en": "Continental climate", "es": "Clima continental" }
+      ],
+      "answer": 1,
+      "why": { "en": "Geographers call it Mediterranean, and it also shows up in central Chile, coastal California, South Africa and southern Australia.", "es": "Se llama clima mediterráneo, y también aparece en el centro de Chile, la costa de California, Sudáfrica y el sur de Australia." },
+      "topic": "climate zones",
+      "source": "https://www.britannica.com/science/Mediterranean-climate"
+    },
+    {
+      "id": "geography-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "A tundra climate is defined by which measurement?", "es": "¿Qué medida define un clima de tundra?" },
+      "choices": [
+        { "en": "Snow on the ground for six months", "es": "Nieve en el suelo durante seis meses" },
+        { "en": "Under 100 millimeters (4 inches) of rain", "es": "Menos de 100 milímetros (4 pulgadas) de lluvia" },
+        { "en": "A warmest month below 10 °C (50 °F)", "es": "Un mes más cálido bajo 10 °C (50 °F)" },
+        { "en": "Winter nights longer than eighteen hours", "es": "Noches de invierno de más de dieciocho horas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tundra is named for the warmest month staying under 10 °C (50 °F), too cold for trees to grow tall.", "es": "La tundra se define porque su mes más cálido queda bajo 10 °C (50 °F), demasiado frío para que crezcan árboles altos." },
+      "topic": "climate zones",
+      "source": "https://www.britannica.com/science/tundra-climate"
+    },
+    {
+      "id": "geography-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which Colombian city sits high enough for spring-like weather all year, earning the nickname city of eternal spring?", "es": "¿Qué ciudad colombiana está tan alta que tiene primavera todo el año y la llaman ciudad de la eterna primavera?" },
+      "choices": [
+        { "en": "Cartagena", "es": "Cartagena" },
+        { "en": "Barranquilla", "es": "Barranquilla" },
+        { "en": "Cali", "es": "Cali" },
+        { "en": "Medellín", "es": "Medellín" }
+      ],
+      "answer": 3,
+      "why": { "en": "Medellín sits about 1500 meters (4900 feet) up, so its valley stays near 22 °C (72 °F) every month.", "es": "Medellín está a unos 1500 metros (4900 pies) de altura, así que su valle ronda los 22 °C (72 °F) todos los meses." },
+      "topic": "climate zones",
+      "source": "https://www.britannica.com/place/Medellin-Colombia"
+    },
+    {
+      "id": "geography-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Which map projection keeps every compass bearing true, which is why sailors loved it?", "es": "¿Qué proyección de mapa mantiene exacto cualquier rumbo de brújula, por eso la amaban los marineros?" },
+      "choices": [
+        { "en": "Mercator", "es": "Mercator" },
+        { "en": "Mollweide", "es": "Mollweide" },
+        { "en": "Robinson", "es": "Robinson" },
+        { "en": "Sinusoidal", "es": "Sinusoidal" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mercator draws a constant course as a straight line, but it stretches Greenland and Antarctica far beyond their real size.", "es": "Mercator dibuja un rumbo constante como línea recta, pero estira Groenlandia y la Antártida mucho más allá de su tamaño real." },
+      "topic": "map projections",
+      "source": "https://www.britannica.com/science/Mercator-projection"
+    },
+    {
+      "id": "geography-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "An equal-area projection such as Gall-Peters gets which property right?", "es": "Una proyección equivalente como la de Gall-Peters, ¿qué propiedad conserva exacta?" },
+      "choices": [
+        { "en": "The shape of each coastline", "es": "La forma de cada costa" },
+        { "en": "The size of each country", "es": "El tamaño de cada país" },
+        { "en": "The distance between any two cities", "es": "La distancia entre dos ciudades cualesquiera" },
+        { "en": "The direction from any port", "es": "La dirección desde cualquier puerto" }
+      ],
+      "answer": 1,
+      "why": { "en": "Equal-area maps show every country at its true size, paying for it by squashing shapes near the equator and poles.", "es": "Los mapas equivalentes muestran cada país con su tamaño real, y lo pagan deformando las formas cerca del ecuador y los polos." },
+      "topic": "map projections",
+      "source": "https://www.britannica.com/science/map-projection"
+    },
+    {
+      "id": "geography-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Why can no flat map show Earth with true shapes and true sizes at the same time?", "es": "¿Por qué ningún mapa plano puede mostrar la Tierra con formas y tamaños exactos a la vez?" },
+      "choices": [
+        { "en": "Printers cannot mix enough colours", "es": "Las imprentas no logran mezclar suficientes colores" },
+        { "en": "Earth's surface moves as plates drift", "es": "La superficie se mueve al desplazarse las placas" },
+        { "en": "A curved surface cannot be flattened without stretching", "es": "Una superficie curva se estira al aplanarse" },
+        { "en": "Nobody has measured every coastline", "es": "Nadie ha medido todas las costas" }
+      ],
+      "answer": 2,
+      "why": { "en": "A sphere has curvature that no flat sheet shares, so every projection must tear, stretch or squash the surface somewhere.", "es": "Una esfera tiene una curvatura que ninguna hoja plana comparte, así que toda proyección rompe, estira o aplasta la superficie en algún lugar." },
+      "topic": "map projections",
+      "source": "https://www.usgs.gov/faqs/what-map-projection"
+    },
+    {
+      "id": "geography-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "In its strictest sense, Scandinavia names which three countries?", "es": "En su sentido más estricto, ¿qué tres países nombra Escandinavia?" },
+      "choices": [
+        { "en": "Norway, Sweden and Finland", "es": "Noruega, Suecia y Finlandia" },
+        { "en": "Sweden, Finland and Iceland", "es": "Suecia, Finlandia e Islandia" },
+        { "en": "Denmark, Finland and Iceland", "es": "Dinamarca, Finlandia e Islandia" },
+        { "en": "Norway, Sweden and Denmark", "es": "Noruega, Suecia y Dinamarca" }
+      ],
+      "answer": 3,
+      "why": { "en": "The three share closely related languages and once shared a single crown, and their name comes from Scania, a tip of southern Sweden.", "es": "Los tres comparten lenguas muy parecidas y alguna vez una sola corona; su nombre viene de Escania, una punta del sur de Suecia." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Scandinavia"
+    },
+    {
+      "id": "geography-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "The Balkan Peninsula takes its name from a mountain range in which country?", "es": "La península de los Balcanes toma su nombre de una cordillera, ¿en qué país?" },
+      "choices": [
+        { "en": "Bulgaria", "es": "Bulgaria" },
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "Croatia", "es": "Croacia" },
+        { "en": "Romania", "es": "Rumania" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Balkan Mountains cross Bulgaria, and balkan is a Turkish word for a wooded ridge, which the whole peninsula borrowed.", "es": "Los montes Balcanes cruzan Bulgaria, y balkan es una palabra turca que significa cordillera boscosa; toda la península tomó ese nombre." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Balkans"
+    },
+    {
+      "id": "geography-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "How many countries make up the region of Central America?", "es": "¿Cuántos países forman la región de Centroamérica?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Seven", "es": "Siete" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Nine", "es": "Nueve" }
+      ],
+      "answer": 1,
+      "why": { "en": "Belize, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica and Panama sit on the isthmus between Mexico and Colombia.", "es": "Belice, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica y Panamá están en el istmo que une a México con Colombia." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Central-America"
+    },
+    {
+      "id": "geography-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Patagonia, the windy southern end of South America, is shared by which two countries?", "es": "La Patagonia, el extremo sur y ventoso de Sudamérica, ¿entre qué dos países se reparte?" },
+      "choices": [
+        { "en": "Chile and Peru", "es": "Chile y Perú" },
+        { "en": "Argentina and Uruguay", "es": "Argentina y Uruguay" },
+        { "en": "Argentina and Chile", "es": "Argentina y Chile" },
+        { "en": "Chile and Bolivia", "es": "Chile y Bolivia" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Andes split it: Chile keeps the wet fjord side, Argentina the dry steppe, and Magellan named the people Patagones.", "es": "Los Andes la dividen: Chile se queda el lado húmedo de fiordos, Argentina la estepa seca, y Magallanes llamó patagones a su gente." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Patagonia"
+    },
+    {
+      "id": "geography-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "The Sahel is a long belt of dry grassland running along which edge of the Sahara?", "es": "El Sahel es una franja larga de pastizal seco, ¿por qué borde del Sahara corre?" },
+      "choices": [
+        { "en": "The northern edge", "es": "El borde norte" },
+        { "en": "The western edge", "es": "El borde oeste" },
+        { "en": "The eastern edge", "es": "El borde este" },
+        { "en": "The southern edge", "es": "El borde sur" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sahel is Arabic for shore, because the grassland looks like a coast where the sand sea of the Sahara ends.", "es": "Sahel significa orilla en árabe, porque el pastizal parece una costa donde termina el mar de arena del Sahara." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Sahel"
+    },
+    {
+      "id": "geography-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "The Levant names the lands along the eastern shore of which sea?", "es": "El Levante nombra las tierras de la orilla oriental, ¿de qué mar?" },
+      "choices": [
+        { "en": "The Mediterranean Sea", "es": "El mar Mediterráneo" },
+        { "en": "The Black Sea", "es": "El mar Negro" },
+        { "en": "The Red Sea", "es": "El mar Rojo" },
+        { "en": "The Caspian Sea", "es": "El mar Caspio" }
+      ],
+      "answer": 0,
+      "why": { "en": "Levant comes from a French word for rising, because from Europe those lands lie where the Sun climbs each morning.", "es": "Levante viene de una palabra francesa que significa salir, porque desde Europa esas tierras quedan donde el Sol sube cada mañana." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Levant"
+    },
+    {
+      "id": "geography-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛴️",
+      "q": { "en": "Which strait, about 14 kilometers (9 miles) across at its narrowest, separates Spain from Morocco?", "es": "¿Qué estrecho, de unos 14 kilómetros (9 millas) en su parte más angosta, separa España de Marruecos?" },
+      "choices": [
+        { "en": "The Bosporus", "es": "El Bósforo" },
+        { "en": "The Strait of Gibraltar", "es": "El estrecho de Gibraltar" },
+        { "en": "The Strait of Hormuz", "es": "El estrecho de Ormuz" },
+        { "en": "The Strait of Malacca", "es": "El estrecho de Malaca" }
+      ],
+      "answer": 1,
+      "why": { "en": "Gibraltar is the only natural door between the Atlantic and the Mediterranean, and Atlantic water pours in to replace what evaporates.", "es": "Gibraltar es la única puerta natural entre el Atlántico y el Mediterráneo, y el agua atlántica entra para reemplazar la que se evapora." },
+      "topic": "straits and canals",
+      "source": "https://www.britannica.com/place/Strait-of-Gibraltar"
+    },
+    {
+      "id": "geography-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "Which canal lets a ship sail from Europe to Asia without rounding Africa?", "es": "¿Qué canal permite a un barco ir de Europa a Asia sin rodear África?" },
+      "choices": [
+        { "en": "The Panama Canal", "es": "El canal de Panamá" },
+        { "en": "The Kiel Canal", "es": "El canal de Kiel" },
+        { "en": "The Suez Canal", "es": "El canal de Suez" },
+        { "en": "The Corinth Canal", "es": "El canal de Corinto" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Suez Canal links the Mediterranean to the Red Sea and has no locks, because both seas sit at nearly the same level.", "es": "El canal de Suez une el Mediterráneo con el mar Rojo y no tiene esclusas, porque ambos mares están casi al mismo nivel." },
+      "topic": "straits and canals",
+      "source": "https://www.britannica.com/topic/Suez-Canal"
+    },
+    {
+      "id": "geography-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛳️",
+      "q": { "en": "How high do the locks lift a ship crossing the Panama Canal?", "es": "¿Cuánto suben las esclusas a un barco que cruza el canal de Panamá?" },
+      "choices": [
+        { "en": "About 8 meters (26 feet)", "es": "Unos 8 metros (26 pies)" },
+        { "en": "About 14 meters (46 feet)", "es": "Unos 14 metros (46 pies)" },
+        { "en": "About 20 meters (66 feet)", "es": "Unos 20 metros (66 pies)" },
+        { "en": "About 26 meters (85 feet)", "es": "Unos 26 metros (85 pies)" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ships climb 26 meters (85 feet) to Gatun Lake, and each crossing spills millions of liters of fresh water into the sea.", "es": "Los barcos suben 26 metros (85 pies) hasta el lago Gatún, y cada cruce vierte millones de litros de agua dulce al mar." },
+      "topic": "straits and canals",
+      "source": "https://www.britannica.com/topic/Panama-Canal"
+    },
+    {
+      "id": "geography-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which strait separates Alaska from Russia by about 82 kilometers (51 miles) of cold water?", "es": "¿Qué estrecho separa Alaska de Rusia con unos 82 kilómetros (51 millas) de agua fría?" },
+      "choices": [
+        { "en": "The Bering Strait", "es": "El estrecho de Bering" },
+        { "en": "The Davis Strait", "es": "El estrecho de Davis" },
+        { "en": "The Denmark Strait", "es": "El estrecho de Dinamarca" },
+        { "en": "The Cook Strait", "es": "El estrecho de Cook" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two islands sit midway, one American and one Russian, and the date line runs between them, so neighbours live a day apart.", "es": "Dos islas quedan a medio camino, una estadounidense y otra rusa, y entre ellas pasa la línea de fecha: un día de diferencia." },
+      "topic": "straits and canals",
+      "source": "https://www.britannica.com/place/Bering-Strait"
+    },
+    {
+      "id": "geography-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "The Great Rift Valley is opening in East Africa. What is happening underneath it?", "es": "El Gran Valle del Rift se abre en África oriental. ¿Qué ocurre debajo de él?" },
+      "choices": [
+        { "en": "Two plates are sliding past each other", "es": "Dos placas se deslizan una junto a otra" },
+        { "en": "A plate is splitting into two pieces", "es": "Una placa se está partiendo en dos" },
+        { "en": "An ocean plate is diving under Africa", "es": "Una placa oceánica se hunde bajo África" },
+        { "en": "Two plates are crashing together", "es": "Dos placas chocan de frente" }
+      ],
+      "answer": 1,
+      "why": { "en": "Africa is tearing along a seam, and in millions of years the crack may flood and turn the eastern strip into an island.", "es": "África se rasga por una costura, y en millones de años la grieta podría inundarse y convertir la franja oriental en una isla." },
+      "topic": "the great rift valley",
+      "source": "https://www.britannica.com/place/East-African-Rift-System"
+    },
+    {
+      "id": "geography-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Which Rift Valley lake is the second deepest in the world, after Lake Baikal?", "es": "¿Qué lago del Valle del Rift es el segundo más profundo del mundo, tras el Baikal?" },
+      "choices": [
+        { "en": "Lake Victoria", "es": "El lago Victoria" },
+        { "en": "Lake Malawi", "es": "El lago Malaui" },
+        { "en": "Lake Tanganyika", "es": "El lago Tanganica" },
+        { "en": "Lake Turkana", "es": "El lago Turkana" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tanganyika drops about 1470 meters (4820 feet), and its deep water holds almost no oxygen, so fish crowd the upper layer.", "es": "El Tanganica baja unos 1470 metros (4820 pies), y su agua profunda casi no tiene oxígeno, así que los peces se apiñan arriba." },
+      "topic": "the great rift valley",
+      "source": "https://www.britannica.com/place/Lake-Tanganyika"
+    },
+    {
+      "id": "geography-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚣",
+      "q": { "en": "Lake Titicaca, the highest lake that big ships can sail, lies between which two countries?", "es": "El lago Titicaca, el más alto donde navegan barcos grandes, ¿entre qué dos países está?" },
+      "choices": [
+        { "en": "Chile and Argentina", "es": "Chile y Argentina" },
+        { "en": "Ecuador and Peru", "es": "Ecuador y Perú" },
+        { "en": "Bolivia and Chile", "es": "Bolivia y Chile" },
+        { "en": "Peru and Bolivia", "es": "Perú y Bolivia" }
+      ],
+      "answer": 3,
+      "why": { "en": "The border runs across the water, and families on floating reed islands there build their homes and boats from the same reed.", "es": "La frontera cruza el agua, y las familias de las islas flotantes de totora hacen sus casas y sus barcas con la misma planta." },
+      "topic": "the altiplano",
+      "source": "https://www.britannica.com/place/Lake-Titicaca"
+    },
+    {
+      "id": "geography-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "About how high above sea level does Lake Titicaca sit on the Altiplano?", "es": "¿A qué altura sobre el nivel del mar está el lago Titicaca, en el Altiplano?" },
+      "choices": [
+        { "en": "3812 meters (12,507 feet)", "es": "3812 metros (12,507 pies)" },
+        { "en": "2240 meters (7350 feet)", "es": "2240 metros (7350 pies)" },
+        { "en": "4600 meters (15,090 feet)", "es": "4600 metros (15,090 pies)" },
+        { "en": "1580 meters (5180 feet)", "es": "1580 metros (5180 pies)" }
+      ],
+      "answer": 0,
+      "why": { "en": "At 3812 meters (12,507 feet) the air holds about a third less oxygen, so visitors climb stairs slowly for the first days.", "es": "A 3812 metros (12,507 pies) el aire tiene casi un tercio menos de oxígeno, así que los visitantes suben escaleras despacio al principio." },
+      "topic": "the altiplano",
+      "source": "https://www.britannica.com/place/Lake-Titicaca"
+    },
+    {
+      "id": "geography-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "Why do space agencies point their satellites at the Salar de Uyuni in Bolivia?", "es": "¿Por qué las agencias espaciales apuntan sus satélites al Salar de Uyuni, en Bolivia?" },
+      "choices": [
+        { "en": "To watch a volcano wake up", "es": "Para vigilar un volcán que despierta" },
+        { "en": "To check and sharpen their instruments", "es": "Para revisar y afinar sus instrumentos" },
+        { "en": "To track flamingo journeys", "es": "Para seguir los viajes de los flamencos" },
+        { "en": "To measure how fast salt grows", "es": "Para medir qué tan rápido crece la sal" }
+      ],
+      "answer": 1,
+      "why": { "en": "The salt flat is huge, bright and almost perfectly level, so it makes an ideal target for calibrating cameras in orbit.", "es": "El salar es enorme, brillante y casi perfectamente plano, así que sirve de blanco ideal para calibrar las cámaras en órbita." },
+      "topic": "the altiplano",
+      "source": "https://earthobservatory.nasa.gov/images/77800/salar-de-uyuni-bolivia"
+    },
+    {
+      "id": "geography-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "The Pantanal, the largest tropical wetland on Earth, spreads across Brazil, Bolivia and which third country?", "es": "El Pantanal, el mayor humedal tropical del planeta, se extiende por Brasil, Bolivia y ¿qué tercer país?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Uruguay", "es": "Uruguay" },
+        { "en": "Paraguay", "es": "Paraguay" },
+        { "en": "Argentina", "es": "Argentina" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rains flood the Pantanal each summer and drain slowly north to south, turning it into a shallow sea that jaguars hunt around.", "es": "Las lluvias inundan el Pantanal cada verano y escurren despacio de norte a sur, formando un mar poco profundo donde cazan los jaguares." },
+      "topic": "wetlands",
+      "source": "https://whc.unesco.org/en/list/999"
+    },
+    {
+      "id": "geography-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Penguins live on the Galápagos Islands although they sit on the equator. What makes that possible?", "es": "En las islas Galápagos viven pingüinos aunque están en el ecuador. ¿Qué lo hace posible?" },
+      "choices": [
+        { "en": "The islands rise above the clouds", "es": "Las islas se elevan por encima de las nubes" },
+        { "en": "Antarctic icebergs drift past them", "es": "Icebergs antárticos pasan a la deriva" },
+        { "en": "Cold winds blow from the Andes", "es": "Vientos fríos bajan desde los Andes" },
+        { "en": "A cold ocean current washes the islands", "es": "Una corriente marina fría baña las islas" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Humboldt Current carries cold water north from Chile, cooling the sea to about 20 °C (68 °F) and feeding it with fish.", "es": "La corriente de Humboldt trae agua fría desde Chile y enfría el mar a unos 20 °C (68 °F), llenándolo de peces." },
+      "topic": "the galapagos",
+      "source": "https://whc.unesco.org/en/list/1"
+    },
+    {
+      "id": "geography-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Spanish sailors named the Galápagos after an old word for which object?", "es": "Los marineros españoles nombraron las Galápagos por una palabra antigua, ¿de qué objeto?" },
+      "choices": [
+        { "en": "A riding saddle", "es": "Una silla de montar" },
+        { "en": "A stone bowl", "es": "Un cuenco de piedra" },
+        { "en": "A woven basket", "es": "Una canasta tejida" },
+        { "en": "A clay jar", "es": "Una jarra de barro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Galápago was an old Spanish word for saddle, and the giant tortoises there wear shells curved up like a rider's saddle.", "es": "Galápago era una palabra antigua para silla de montar, y las tortugas gigantes de allí tienen caparazones curvados como una silla." },
+      "topic": "the galapagos",
+      "source": "https://www.britannica.com/place/Galapagos-Islands"
+    },
+    {
+      "id": "geography-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "The Pan-American Highway runs from Alaska to Argentina with one break. Where does the road stop?", "es": "La carretera Panamericana va de Alaska a Argentina con una interrupción. ¿Dónde se corta el camino?" },
+      "choices": [
+        { "en": "The Atacama Desert", "es": "El desierto de Atacama" },
+        { "en": "The Darién Gap", "es": "El Tapón del Darién" },
+        { "en": "The Strait of Magellan", "es": "El estrecho de Magallanes" },
+        { "en": "The Amazon Basin", "es": "La cuenca del Amazonas" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 100 kilometers (60 miles) of swamp and rainforest between Panama and Colombia have no road, so vehicles travel by ship.", "es": "Unos 100 kilómetros (60 millas) de pantano y selva entre Panamá y Colombia siguen sin carretera, así que los carros cruzan en barco." },
+      "topic": "the darien gap",
+      "source": "https://www.britannica.com/place/Darien-Gap"
+    },
+    {
+      "id": "geography-hard-066", "level": "hard", "type": "tf", "lang": "both", "emoji": "📏",
+      "q": { "en": "Many of Africa's straight borders were drawn on maps in Europe by officials far from the land.", "es": "Muchas fronteras rectas de África se trazaron en mapas en Europa, por funcionarios lejos de esa tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: at meetings in the 1880s European powers ruled lines by latitude and longitude, cutting through peoples, rivers and grazing grounds.", "es": "Cierto: en reuniones de la década de 1880 las potencias europeas trazaron líneas por latitud y longitud, partiendo pueblos, ríos y pastizales." },
+      "topic": "borders",
+      "source": "https://www.britannica.com/event/Berlin-West-Africa-Conference"
+    },
+    {
+      "id": "geography-hard-067", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌍",
+      "q": { "en": "The equator crosses the mainland of Ecuador, Colombia, Brazil and Peru in South America.", "es": "El ecuador cruza el territorio continental de Ecuador, Colombia, Brasil y Perú en Sudamérica." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: the line clips Ecuador, Colombia and Brazil, but it passes north of Peru, whose northern tip stops just short.", "es": "Falso: la línea toca Ecuador, Colombia y Brasil, pero pasa al norte de Perú, cuyo extremo norte se queda un poco abajo." },
+      "topic": "the equator",
+      "source": "https://www.britannica.com/science/Equator"
+    },
+    {
+      "id": "geography-hard-068", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌲",
+      "q": { "en": "Scandinavia and the Nordic countries name exactly the same group of nations.", "es": "Escandinavia y los países nórdicos nombran exactamente el mismo grupo de naciones." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: the Nordic group adds Finland, Iceland, Greenland and the Faroe Islands to the three Scandinavian countries.", "es": "Falso: el grupo nórdico suma Finlandia, Islandia, Groenlandia y las islas Feroe a los tres países escandinavos." },
+      "topic": "regions",
+      "source": "https://www.britannica.com/place/Scandinavia"
+    },
+    {
+      "id": "geography-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "The long straight border between western Canada and the United States follows which line of latitude?", "es": "La larga frontera recta entre el oeste de Canadá y Estados Unidos, ¿qué paralelo sigue?" },
+      "choices": [
+        { "en": "The 42nd parallel", "es": "El paralelo 42" },
+        { "en": "The 45th parallel", "es": "El paralelo 45" },
+        { "en": "The 49th parallel", "es": "El paralelo 49" },
+        { "en": "The 52nd parallel", "es": "El paralelo 52" }
+      ],
+      "answer": 2,
+      "why": { "en": "Surveyors cut a 6-meter (20-foot) clearing through forest along the 49th parallel so the line stays visible from the air.", "es": "Los topógrafos abrieron un claro de 6 metros (20 pies) en el bosque sobre el paralelo 49, para ver la línea desde el aire." },
+      "topic": "borders",
+      "source": "https://www.britannica.com/place/49th-parallel"
+    },
+    {
+      "id": "geography-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "The dead straight border between Egypt and Sudan was drawn along which line of latitude?", "es": "La frontera totalmente recta entre Egipto y Sudán se trazó sobre ¿qué paralelo?" },
+      "choices": [
+        { "en": "The 16th parallel", "es": "El paralelo 16" },
+        { "en": "The 18th parallel", "es": "El paralelo 18" },
+        { "en": "The 20th parallel", "es": "El paralelo 20" },
+        { "en": "The 22nd parallel", "es": "El paralelo 22" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bir Tawil, a patch of desert left over where the straight line and an older boundary disagree, is claimed by neither country.", "es": "Bir Tawil, un pedazo de desierto que sobra donde la línea recta y un límite más viejo no coinciden, no lo reclama ningún país." },
+      "topic": "borders",
+      "source": "https://www.britannica.com/place/Bir-Tawil"
+    },
+    {
+      "id": "geography-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Chile keeps its government in Santiago but holds its congress in which coastal city?", "es": "Chile tiene su gobierno en Santiago pero su congreso, ¿en qué ciudad costera?" },
+      "choices": [
+        { "en": "Antofagasta", "es": "Antofagasta" },
+        { "en": "Concepción", "es": "Concepción" },
+        { "en": "Valparaíso", "es": "Valparaíso" },
+        { "en": "La Serena", "es": "La Serena" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chile moved the national congress to the port of Valparaíso in 1990, about 120 kilometers (75 miles) from the capital.", "es": "Chile llevó el congreso nacional al puerto de Valparaíso en 1990, a unos 120 kilómetros (75 millas) de la capital." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Valparaiso-Chile"
+    },
+    {
+      "id": "geography-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which is the northernmost capital city of any country in the world?", "es": "¿Cuál es la capital de país más al norte del mundo?" },
+      "choices": [
+        { "en": "Oslo", "es": "Oslo" },
+        { "en": "Helsinki", "es": "Helsinki" },
+        { "en": "Stockholm", "es": "Estocolmo" },
+        { "en": "Reykjavík", "es": "Reikiavik" }
+      ],
+      "answer": 3,
+      "why": { "en": "Reykjavík sits near 64 degrees north, and hot water piped from volcanic ground heats almost every home and pool in town.", "es": "Reikiavik está cerca de los 64 grados norte, y el agua caliente del suelo volcánico calienta casi todas las casas y piscinas." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Reykjavik"
+    },
+    {
+      "id": "geography-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Tanzania moved its capital inland from Dar es Salaam. Which city took over?", "es": "Tanzania mudó su capital tierra adentro desde Dar es Salaam. ¿Qué ciudad la reemplazó?" },
+      "choices": [
+        { "en": "Arusha", "es": "Arusha" },
+        { "en": "Mwanza", "es": "Mwanza" },
+        { "en": "Dodoma", "es": "Dodoma" },
+        { "en": "Mbeya", "es": "Mbeya" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dodoma sits near the middle of the country, chosen in 1973 so no region would feel far from the government.", "es": "Dodoma queda cerca del centro del país, elegida en 1973 para que ninguna región se sintiera lejos del gobierno." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Dodoma"
+    },
+    {
+      "id": "geography-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Which is the largest desert on Earth, counting every place that gets very little rain?", "es": "¿Cuál es el desierto más grande de la Tierra, contando todo lugar con muy poca lluvia?" },
+      "choices": [
+        { "en": "The Sahara", "es": "El Sahara" },
+        { "en": "The Arabian Desert", "es": "El desierto de Arabia" },
+        { "en": "The Gobi", "es": "El Gobi" },
+        { "en": "Antarctica", "es": "La Antártida" }
+      ],
+      "answer": 3,
+      "why": { "en": "A desert is defined by dryness, so Antarctica counts: the interior gets under 50 millimeters (2 inches) of snow a year.", "es": "Un desierto se define por la sequedad, así que la Antártida cuenta: su interior recibe menos de 50 milímetros (2 pulgadas) al año." },
+      "topic": "deserts",
+      "source": "https://www.usgs.gov/special-topics/deserts"
+    },
+    {
+      "id": "geography-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "The Gobi Desert stretches across the border of which two countries?", "es": "El desierto de Gobi se extiende por la frontera de ¿qué dos países?" },
+      "choices": [
+        { "en": "Kazakhstan and Russia", "es": "Kazajistán y Rusia" },
+        { "en": "India and Pakistan", "es": "India y Pakistán" },
+        { "en": "Mongolia and China", "es": "Mongolia y China" },
+        { "en": "Iran and Afghanistan", "es": "Irán y Afganistán" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mountains block wet air from the Indian Ocean, so the Gobi is a rain shadow desert where winter drops below freezing.", "es": "Las montañas bloquean el aire húmedo del océano Índico, así que el Gobi es un desierto de sombra de lluvia con inviernos bajo cero." },
+      "topic": "deserts",
+      "source": "https://www.britannica.com/place/Gobi"
+    },
+    {
+      "id": "geography-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "How little rain must a place receive in a year to count as a desert?", "es": "¿Qué tan poca lluvia debe recibir un lugar al año para contar como desierto?" },
+      "choices": [
+        { "en": "Under 500 millimeters (20 inches)", "es": "Menos de 500 milímetros (20 pulgadas)" },
+        { "en": "Under 400 millimeters (16 inches)", "es": "Menos de 400 milímetros (16 pulgadas)" },
+        { "en": "Under 750 millimeters (30 inches)", "es": "Menos de 750 milímetros (30 pulgadas)" },
+        { "en": "Under 250 millimeters (10 inches)", "es": "Menos de 250 milímetros (10 pulgadas)" }
+      ],
+      "answer": 3,
+      "why": { "en": "The usual line is 250 millimeters (10 inches) a year, which is why cold, dry Patagonia and Antarctica both qualify as deserts.", "es": "El límite habitual son 250 milímetros (10 pulgadas) al año, por eso la fría y seca Patagonia y la Antártida también son desiertos." },
+      "topic": "deserts",
+      "source": "https://www.britannica.com/science/desert"
+    },
+    {
+      "id": "geography-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧗",
+      "q": { "en": "Climbers who chase the Seven Summits are trying to stand on top of what?", "es": "Los escaladores que persiguen las Siete Cumbres, ¿sobre qué intentan pararse?" },
+      "choices": [
+        { "en": "The seven peaks above 8000 meters (26,000 feet)", "es": "Las siete cimas sobre 8000 metros (26,000 pies)" },
+        { "en": "The seven hardest rock walls", "es": "Las siete paredes de roca más difíciles" },
+        { "en": "The highest mountain on each continent", "es": "La montaña más alta de cada continente" },
+        { "en": "The seven youngest volcanoes", "es": "Los siete volcanes más jóvenes" }
+      ],
+      "answer": 2,
+      "why": { "en": "One peak per continent, and lists differ because some climbers count Puncak Jaya for Oceania while others pick Mount Kosciuszko.", "es": "Una cumbre por continente, y las listas difieren porque unos escaladores cuentan el Puncak Jaya para Oceanía y otros el monte Kosciuszko." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/topic/Seven-Summits"
+    },
+    {
+      "id": "geography-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which volcano, on the border of Chile and Argentina, is the highest volcano on Earth?", "es": "¿Qué volcán, en la frontera de Chile y Argentina, es el volcán más alto de la Tierra?" },
+      "choices": [
+        { "en": "Cotopaxi", "es": "Cotopaxi" },
+        { "en": "Popocatépetl", "es": "Popocatépetl" },
+        { "en": "Chimborazo", "es": "Chimborazo" },
+        { "en": "Ojos del Salado", "es": "Ojos del Salado" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ojos del Salado reaches 6893 meters (22,615 feet) and holds a small lake near its top, the highest lake on the planet.", "es": "El Ojos del Salado llega a 6893 metros (22,615 pies) y guarda cerca de la cima la laguna más alta del planeta." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Ojos-del-Salado"
+    },
+    {
+      "id": "geography-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "About how long is the Andes range from Venezuela to the tip of Chile?", "es": "¿Qué tan larga es la cordillera de los Andes desde Venezuela hasta la punta de Chile?" },
+      "choices": [
+        { "en": "About 3000 kilometers (1900 miles)", "es": "Unos 3000 kilómetros (1900 millas)" },
+        { "en": "About 5000 kilometers (3100 miles)", "es": "Unos 5000 kilómetros (3100 millas)" },
+        { "en": "About 7000 kilometers (4300 miles)", "es": "Unos 7000 kilómetros (4300 millas)" },
+        { "en": "About 9000 kilometers (5600 miles)", "es": "Unos 9000 kilómetros (5600 millas)" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Andes run about 7000 kilometers (4300 miles) through seven countries, raised where the Nazca plate dives beneath South America.", "es": "Los Andes recorren unos 7000 kilómetros (4300 millas) por siete países, levantados donde la placa de Nazca se hunde bajo Sudamérica." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Andes-Mountains"
+    },
+    {
+      "id": "geography-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Which mountain range is used as the dividing line between Europe and Asia?", "es": "¿Qué cordillera se usa como línea divisoria entre Europa y Asia?" },
+      "choices": [
+        { "en": "The Caucasus", "es": "El Cáucaso" },
+        { "en": "The Carpathians", "es": "Los Cárpatos" },
+        { "en": "The Alps", "es": "Los Alpes" },
+        { "en": "The Urals", "es": "Los Urales" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Ural Mountains run north to south for about 2500 kilometers (1550 miles), and geographers chose them as a handy boundary.", "es": "Los montes Urales corren de norte a sur unos 2500 kilómetros (1550 millas), y los geógrafos los eligieron como límite práctico." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Ural-Mountains"
+    },
+    {
+      "id": "geography-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚤",
+      "q": { "en": "Which is the longest river in Europe?", "es": "¿Cuál es el río más largo de Europa?" },
+      "choices": [
+        { "en": "The Volga", "es": "El Volga" },
+        { "en": "The Danube", "es": "El Danubio" },
+        { "en": "The Rhine", "es": "El Rin" },
+        { "en": "The Loire", "es": "El Loira" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Volga runs about 3530 kilometers (2190 miles) and ends in the Caspian Sea, so its water reaches no ocean.", "es": "El Volga corre unos 3530 kilómetros (2190 millas) y termina en el mar Caspio, así que su agua no llega a ningún océano." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Volga-River"
+    },
+    {
+      "id": "geography-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Which is the longest river in Australia?", "es": "¿Cuál es el río más largo de Australia?" },
+      "choices": [
+        { "en": "The Darling", "es": "El Darling" },
+        { "en": "The Murray", "es": "El Murray" },
+        { "en": "The Fitzroy", "es": "El Fitzroy" },
+        { "en": "The Cooper", "es": "El Cooper" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Murray flows about 2500 kilometers (1550 miles), and in dry years so much water is drawn off that its mouth can silt up.", "es": "El Murray recorre unos 2500 kilómetros (1550 millas), y en años secos se saca tanta agua que su desembocadura se llena de arena." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Murray-River"
+    },
+    {
+      "id": "geography-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "The Orinoco River flows mostly through which South American country?", "es": "El río Orinoco corre sobre todo por ¿qué país sudamericano?" },
+      "choices": [
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Venezuela", "es": "Venezuela" },
+        { "en": "Guyana", "es": "Guyana" }
+      ],
+      "answer": 2,
+      "why": { "en": "A natural channel called the Casiquiare links the Orinoco to the Amazon, so two great river systems trade water.", "es": "Un canal natural llamado Casiquiare une el Orinoco con el Amazonas, así que dos grandes sistemas de ríos intercambian agua." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Orinoco-River"
+    },
+    {
+      "id": "geography-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "About how long is the Amazon River from its source in Peru to the Atlantic?", "es": "¿Qué tan largo es el río Amazonas desde su origen en Perú hasta el Atlántico?" },
+      "choices": [
+        { "en": "About 3200 kilometers (2000 miles)", "es": "Unos 3200 kilómetros (2000 millas)" },
+        { "en": "About 4500 kilometers (2800 miles)", "es": "Unos 4500 kilómetros (2800 millas)" },
+        { "en": "About 5300 kilometers (3300 miles)", "es": "Unos 5300 kilómetros (3300 millas)" },
+        { "en": "About 6400 kilometers (4000 miles)", "es": "Unos 6400 kilómetros (4000 millas)" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Amazon runs about 6400 kilometers (4000 miles), and at its mouth fresh water pushes far out into the salty Atlantic.", "es": "El Amazonas recorre unos 6400 kilómetros (4000 millas), y en su desembocadura el agua dulce se adentra mucho en el Atlántico salado." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Amazon-River"
+    },
+    {
+      "id": "geography-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which country has the longest coastline of any nation on Earth?", "es": "¿Qué país tiene la costa más larga de todas las naciones de la Tierra?" },
+      "choices": [
+        { "en": "Canada", "es": "Canadá" },
+        { "en": "Russia", "es": "Rusia" },
+        { "en": "Indonesia", "es": "Indonesia" },
+        { "en": "Australia", "es": "Australia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Canada's Arctic islands add tens of thousands of kilometers of shore, giving it far more coast than any other country.", "es": "Las islas árticas de Canadá suman decenas de miles de kilómetros de orilla, y le dan mucha más costa que a cualquier otro país." },
+      "topic": "coastlines",
+      "source": "https://www.britannica.com/place/Canada"
+    },
+    {
+      "id": "geography-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Two atlases give different lengths for the same coastline. What explains the disagreement?", "es": "Dos atlas dan largos distintos para la misma costa. ¿Qué explica la diferencia?" },
+      "choices": [
+        { "en": "Tides move the shore each day", "es": "Las mareas mueven la orilla cada día" },
+        { "en": "A shorter measuring stick gives a longer answer", "es": "Una regla más corta da un resultado más largo" },
+        { "en": "Maps use different projections", "es": "Los mapas usan proyecciones distintas" },
+        { "en": "Some islands are left out", "es": "Algunas islas se quedan fuera" }
+      ],
+      "answer": 1,
+      "why": { "en": "A coast wiggles at every scale, so measuring with a smaller ruler catches more bends and the total keeps growing.", "es": "Una costa se ondula a cualquier escala, así que medir con una regla más chica atrapa más curvas y el total sigue creciendo." },
+      "topic": "coastlines",
+      "source": "https://www.britannica.com/science/fractal"
+    },
+    {
+      "id": "geography-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "About how far would you travel going once all the way around the equator?", "es": "¿Qué distancia recorrerías al dar una vuelta completa por el ecuador?" },
+      "choices": [
+        { "en": "About 25,000 kilometers (15,500 miles)", "es": "Unos 25,000 kilómetros (15,500 millas)" },
+        { "en": "About 32,000 kilometers (19,900 miles)", "es": "Unos 32,000 kilómetros (19,900 millas)" },
+        { "en": "About 40,000 kilometers (24,900 miles)", "es": "Unos 40,000 kilómetros (24,900 millas)" },
+        { "en": "About 48,000 kilometers (29,800 miles)", "es": "Unos 48,000 kilómetros (29,800 millas)" }
+      ],
+      "answer": 2,
+      "why": { "en": "The equator measures about 40,075 kilometers (24,901 miles), slightly longer than a circle through both poles because Earth bulges at its waist.", "es": "El ecuador mide unos 40,075 kilómetros (24,901 millas), más que un círculo por los polos, porque la Tierra se ensancha en su cintura." },
+      "topic": "the equator",
+      "source": "https://www.britannica.com/science/Equator"
+    },
+    {
+      "id": "geography-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "On a topographic map, what does it mean when contour lines crowd close together?", "es": "En un mapa topográfico, ¿qué significa que las curvas de nivel estén muy juntas?" },
+      "choices": [
+        { "en": "The ground is steep", "es": "El terreno es empinado" },
+        { "en": "The ground is swampy", "es": "El terreno es pantanoso" },
+        { "en": "The map scale changes", "es": "La escala del mapa cambia" },
+        { "en": "A forest covers the area", "es": "Un bosque cubre la zona" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each line marks one height, so squeezing many heights into a short distance means the slope climbs fast, maybe a cliff.", "es": "Cada línea marca una altura, así que apretar muchas alturas en poca distancia significa que la pendiente sube rápido, quizá un acantilado." },
+      "topic": "topographic maps",
+      "source": "https://www.usgs.gov/faqs/what-topographic-map"
+    },
+    {
+      "id": "geography-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What does the contour interval printed on a topographic map tell a hiker?", "es": "¿Qué le dice a un excursionista el intervalo entre curvas de nivel de un mapa topográfico?" },
+      "choices": [
+        { "en": "How far apart the grid squares are", "es": "Qué tan separados están los cuadros de la cuadrícula" },
+        { "en": "How much height lies between two lines", "es": "Cuánta altura hay entre dos líneas" },
+        { "en": "How old the survey is", "es": "Qué tan antiguo es el levantamiento" },
+        { "en": "How wide the marked trails are", "es": "Qué tan anchos son los senderos marcados" }
+      ],
+      "answer": 1,
+      "why": { "en": "If the interval is 20 meters (66 feet), crossing five lines means climbing 100 meters (330 feet), whatever the horizontal distance.", "es": "Si el intervalo es de 20 metros (66 pies), cruzar cinco líneas significa subir 100 metros (330 pies), sin importar la distancia horizontal." },
+      "topic": "topographic maps",
+      "source": "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps"
+    },
+    {
+      "id": "geography-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛳",
+      "q": { "en": "On a topographic map, a closed loop with small tick marks pointing inward shows what?", "es": "En un mapa topográfico, ¿qué muestra un círculo cerrado con pequeñas marcas hacia adentro?" },
+      "choices": [
+        { "en": "A lake", "es": "Un lago" },
+        { "en": "A hilltop", "es": "La cima de una colina" },
+        { "en": "A hollow in the ground", "es": "Una hondonada en el terreno" },
+        { "en": "A mine entrance", "es": "La entrada de una mina" }
+      ],
+      "answer": 2,
+      "why": { "en": "Those ticks, called hachures, say the land dips instead of rising, marking a crater, a sinkhole or a dry pond.", "es": "Esas marcas, llamadas hachuras, indican que el terreno baja en vez de subir: un cráter, un sumidero o una laguna seca." },
+      "topic": "topographic maps",
+      "source": "https://www.usgs.gov/faqs/what-topographic-map"
+    },
+    {
+      "id": "geography-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "The Pacific Ocean got its name from a sailor's impression. What did the word mean?", "es": "El océano Pacífico recibió su nombre por la impresión de un marinero. ¿Qué significaba la palabra?" },
+      "choices": [
+        { "en": "Enormous", "es": "Enorme" },
+        { "en": "Southern", "es": "Del sur" },
+        { "en": "Unknown", "es": "Desconocido" },
+        { "en": "Peaceful", "es": "Tranquilo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Magellan came through a stormy strait into calm water and called it the peaceful sea, though its storms can be fierce.", "es": "Magallanes salió de un estrecho tormentoso a aguas calmadas y lo llamó el mar pacífico, aunque sus tormentas pueden ser feroces." },
+      "topic": "place names",
+      "source": "https://www.britannica.com/place/Pacific-Ocean"
+    },
+    {
+      "id": "geography-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "The Atlantic Ocean takes its name from which figure of Greek myth?", "es": "El océano Atlántico toma su nombre de ¿qué figura de la mitología griega?" },
+      "choices": [
+        { "en": "Atlas", "es": "Atlas" },
+        { "en": "Poseidon", "es": "Poseidón" },
+        { "en": "Triton", "es": "Tritón" },
+        { "en": "Oceanus", "es": "Océano" }
+      ],
+      "answer": 0,
+      "why": { "en": "Greeks spoke of the sea beyond Atlas, the giant holding up the sky, and the Atlas Mountains in Morocco share his name.", "es": "Los griegos hablaban del mar más allá de Atlas, el gigante que sostiene el cielo, y los montes Atlas de Marruecos llevan su nombre." },
+      "topic": "place names",
+      "source": "https://www.britannica.com/place/Atlantic-Ocean"
+    },
+    {
+      "id": "geography-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "A mapmaker printed the name America in 1507. Whom was he honoring?", "es": "Un cartógrafo imprimió el nombre América en 1507. ¿A quién honraba?" },
+      "choices": [
+        { "en": "Amerigo Vespucci", "es": "Américo Vespucio" },
+        { "en": "Christopher Columbus", "es": "Cristóbal Colón" },
+        { "en": "Ferdinand Magellan", "es": "Fernando de Magallanes" },
+        { "en": "Pedro Álvares Cabral", "es": "Pedro Álvares Cabral" }
+      ],
+      "answer": 0,
+      "why": { "en": "Martin Waldseemüller credited Vespucci, who argued the land was a new continent rather than the eastern edge of Asia.", "es": "Martin Waldseemüller honró a Vespucio, quien sostuvo que esas tierras eran un continente nuevo y no el borde oriental de Asia." },
+      "topic": "place names",
+      "source": "https://www.britannica.com/biography/Amerigo-Vespucci"
+    },
+    {
+      "id": "geography-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "Nepal keeps a clock offset that no other country uses. How far ahead of London is it?", "es": "Nepal usa un desfase horario único en el mundo. ¿Cuánto va adelante de Londres?" },
+      "choices": [
+        { "en": "4 hours 30 minutes", "es": "4 horas 30 minutos" },
+        { "en": "5 hours 15 minutes", "es": "5 horas 15 minutos" },
+        { "en": "5 hours 45 minutes", "es": "5 horas 45 minutos" },
+        { "en": "6 hours 30 minutes", "es": "6 horas 30 minutos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Nepal set its clocks by a mountain near Kathmandu, landing 5 hours 45 minutes ahead and 15 minutes off from India.", "es": "Nepal ajustó sus relojes por una montaña cerca de Katmandú, quedando 5 horas 45 minutos adelante y 15 minutos aparte de India." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/place/Nepal"
+    },
+    {
+      "id": "geography-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Which African country lost its coastline when Eritrea became independent in 1993?", "es": "¿Qué país africano perdió su costa cuando Eritrea se independizó en 1993?" },
+      "choices": [
+        { "en": "Chad", "es": "Chad" },
+        { "en": "Uganda", "es": "Uganda" },
+        { "en": "Zambia", "es": "Zambia" },
+        { "en": "Ethiopia", "es": "Etiopía" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ethiopia turned landlocked overnight, and it now sends its coffee to the world through ports in neighboring Djibouti.", "es": "Etiopía quedó sin mar de un día para otro, y ahora envía su café al mundo por los puertos de la vecina Yibuti." },
+      "topic": "landlocked countries",
+      "source": "https://www.britannica.com/place/Ethiopia"
+    },
+    {
+      "id": "geography-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "📍",
+      "q": { "en": "Besides England, which of these countries does the Prime Meridian cross on its way south?", "es": "Además de Inglaterra, ¿cuál de estos países cruza el meridiano de Greenwich hacia el sur?" },
+      "choices": [
+        { "en": "Ghana", "es": "Ghana" },
+        { "en": "Nigeria", "es": "Nigeria" },
+        { "en": "Senegal", "es": "Senegal" },
+        { "en": "Morocco", "es": "Marruecos" }
+      ],
+      "answer": 0,
+      "why": { "en": "The line runs through France, Spain, Algeria, Mali, Burkina Faso, Togo and Ghana, then out into the Gulf of Guinea.", "es": "La línea pasa por Francia, España, Argelia, Malí, Burkina Faso, Togo y Ghana, y luego sale al golfo de Guinea." },
+      "topic": "prime meridian",
+      "source": "https://www.britannica.com/science/prime-meridian"
+    },
+    {
+      "id": "geography-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏘️",
+      "q": { "en": "Which town, on a Chilean island in the Beagle Channel, is the southernmost town on Earth?", "es": "¿Qué pueblo, en una isla chilena del canal Beagle, es el más austral de la Tierra?" },
+      "choices": [
+        { "en": "Ushuaia", "es": "Ushuaia" },
+        { "en": "Puerto Williams", "es": "Puerto Williams" },
+        { "en": "Punta Arenas", "es": "Punta Arenas" },
+        { "en": "Río Gallegos", "es": "Río Gallegos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Puerto Williams sits near 55 degrees south on Navarino Island, further south than Argentina's Ushuaia across the channel.", "es": "Puerto Williams está cerca de los 55 grados sur, en la isla Navarino, más al sur que Ushuaia, al otro lado del canal." },
+      "topic": "cities",
+      "source": "https://www.britannica.com/place/Puerto-Williams"
+    },
+    {
+      "id": "geography-hard-098", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌉",
+      "q": { "en": "A strait called the Bosporus puts part of Istanbul in Europe and part in Asia.", "es": "Un estrecho llamado Bósforo deja una parte de Estambul en Europa y otra en Asia." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: the Bosporus is about 700 meters (2300 feet) wide at its narrowest, and bridges carry commuters between two continents daily.", "es": "Cierto: el Bósforo mide unos 700 metros (2300 pies) en su parte más angosta, y los puentes llevan gente entre dos continentes." },
+      "topic": "cities",
+      "source": "https://www.britannica.com/place/Bosporus"
+    },
+    {
+      "id": "geography-hard-099", "level": "hard", "type": "tf", "lang": "both", "emoji": "💧",
+      "q": { "en": "Lake Titicaca drains straight into the Pacific Ocean through a gorge in the Andes.", "es": "El lago Titicaca desagua directamente en el océano Pacífico por un cañón de los Andes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: Titicaca spills into a small river that ends in another lake and salt flats, where the water simply evaporates.", "es": "Falso: el Titicaca desagua en un río pequeño que termina en otro lago y en salares, donde el agua simplemente se evapora." },
+      "topic": "the altiplano",
+      "source": "https://www.britannica.com/place/Lake-Titicaca"
+    },
+    {
+      "id": "geography-hard-100", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌎",
+      "q": { "en": "A ship leaving the Pacific end of the Panama Canal sails east to reach the Atlantic.", "es": "Un barco que sale del extremo pacífico del canal de Panamá navega al este para llegar al Atlántico." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: the isthmus curves, so the canal runs northwest, and the Atlantic entrance lies west of the Pacific one.", "es": "Falso: el istmo se curva, así que el canal corre hacia el noroeste y la entrada atlántica queda al oeste de la pacífica." },
+      "topic": "straits and canals",
+      "source": "https://www.britannica.com/topic/Panama-Canal"
     }
   ]
 }

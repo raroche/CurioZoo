@@ -3614,6 +3614,446 @@
       "why": { "en": "Wavelength times frequency gives the wave's speed, so for a fixed speed a shorter wavelength always means a higher frequency.", "es": "La longitud de onda por la frecuencia da la velocidad de la onda, así que a velocidad fija, menor longitud significa mayor frecuencia." },
       "topic": "waves",
       "source": "https://www.britannica.com/science/wavelength"
+    },
+    {
+      "id": "physics-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "A 1500 kg car drives at 20 m/s. What is its momentum?", "es": "Un carro de 1500 kg viaja a 20 m/s. ¿Cuál es su momento lineal?" },
+      "choices": [
+        { "en": "30,000 kg·m/s", "es": "30,000 kg·m/s" },
+        { "en": "1520 kg·m/s", "es": "1520 kg·m/s" },
+        { "en": "75 kg·m/s", "es": "75 kg·m/s" },
+        { "en": "300,000 kg·m/s", "es": "300,000 kg·m/s" }
+      ],
+      "answer": 0,
+      "why": { "en": "Momentum is mass times velocity, so 1500 times 20 gives 30,000 kg·m/s; a loaded truck at the same speed carries far more.", "es": "El momento lineal es masa por velocidad: 1500 por 20 da 30,000 kg·m/s; un camión cargado a esa velocidad lleva mucho más." },
+      "topic": "forces and motion",
+      "source": "https://www.physicsclassroom.com/class/momentum/Lesson-1/Momentum"
+    },
+    {
+      "id": "physics-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪂",
+      "q": { "en": "Why does a skydiver falling spread out drop more slowly than one diving head first?", "es": "¿Por qué un paracaidista extendido cae más despacio que uno que baja de cabeza?" },
+      "choices": [
+        { "en": "Her weight falls as she spreads her arms", "es": "Su peso baja al extender los brazos" },
+        { "en": "A wider body pushes more air aside, so drag grows", "es": "Un cuerpo más ancho empuja más aire, así que el arrastre crece" },
+        { "en": "Air pressure is lower above a flat body", "es": "La presión del aire es menor sobre un cuerpo plano" },
+        { "en": "Her center of gravity shifts upward", "es": "Su centro de gravedad sube" }
+      ],
+      "answer": 1,
+      "why": { "en": "Drag depends on the area you show the air: spread out a diver settles near 200 km/h, head down near 300 km/h.", "es": "El arrastre depende del área que muestras al aire: extendido cae cerca de 200 km/h y de cabeza cerca de 300 km/h." },
+      "topic": "forces and motion",
+      "source": "https://www.grc.nasa.gov/www/k-12/airplane/termv.html"
+    },
+    {
+      "id": "physics-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "A steady force of 24 newtons gives a cart an acceleration of 3 m/s². What is the cart's mass?", "es": "Una fuerza constante de 24 newtons le da a un carrito una aceleración de 3 m/s². ¿Cuál es su masa?" },
+      "choices": [
+        { "en": "72 kg", "es": "72 kg" },
+        { "en": "21 kg", "es": "21 kg" },
+        { "en": "8 kg", "es": "8 kg" },
+        { "en": "27 kg", "es": "27 kg" }
+      ],
+      "answer": 2,
+      "why": { "en": "Newton's second law says force equals mass times acceleration, so mass is 24 divided by 3, which is 8 kilograms.", "es": "La segunda ley de Newton dice que fuerza es masa por aceleración, así que la masa es 24 entre 3: 8 kilogramos." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/Newtons-laws-of-motion"
+    },
+    {
+      "id": "physics-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Two skaters push apart on ice, one 40 kg and one 80 kg. Which one glides away faster?", "es": "Dos patinadores se empujan sobre hielo, uno de 40 kg y otro de 80 kg. ¿Cuál se aleja más rápido?" },
+      "choices": [
+        { "en": "The 80 kg skater, carrying more push", "es": "El de 80 kg, porque lleva más empuje" },
+        { "en": "Both at exactly the same speed", "es": "Los dos a la misma rapidez" },
+        { "en": "Whichever one pushed harder", "es": "El que haya empujado más fuerte" },
+        { "en": "The 40 kg skater, at twice the speed", "es": "El de 40 kg, al doble de rapidez" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each skater feels the same size push, so the lighter one gains twice the speed and their momentum, mass times velocity, balances.", "es": "Cada patinador recibe un empuje del mismo tamaño, así que el más ligero gana el doble de rapidez y el momento lineal se equilibra." },
+      "topic": "forces and motion",
+      "source": "https://www.physicsclassroom.com/class/momentum/Lesson-2/The-Law-of-Momentum-Conservation"
+    },
+    {
+      "id": "physics-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎱",
+      "q": { "en": "Galileo timed a ball rolling down a ramp. How did the distance grow with the time?", "es": "Galileo midió el tiempo de una bola que bajaba por una rampa. ¿Cómo crecía la distancia con el tiempo?" },
+      "choices": [
+        { "en": "With the square of the time", "es": "Con el cuadrado del tiempo" },
+        { "en": "In equal steps each second", "es": "En pasos iguales cada segundo" },
+        { "en": "With the cube of the time", "es": "Con el cubo del tiempo" },
+        { "en": "More slowly as time passed", "es": "Cada vez más despacio" }
+      ],
+      "answer": 0,
+      "why": { "en": "In one, two and three seconds the ball covered one, four and nine units; distance grows as time squared under steady acceleration.", "es": "En uno, dos y tres segundos la bola recorrió una, cuatro y nueve unidades: con aceleración pareja la distancia crece como el tiempo al cuadrado." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/biography/Galileo-Galilei"
+    },
+    {
+      "id": "physics-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Ignoring air resistance, about how fast is a dropped stone falling after 3 seconds near Earth?", "es": "Sin tomar en cuenta el aire, ¿qué tan rápido cae una piedra soltada después de 3 segundos cerca de la Tierra?" },
+      "choices": [
+        { "en": "About 10 m/s, 36 km/h", "es": "Unos 10 m/s, 36 km/h" },
+        { "en": "About 29 m/s, 106 km/h", "es": "Unos 29 m/s, 106 km/h" },
+        { "en": "About 44 m/s, 158 km/h", "es": "Unos 44 m/s, 158 km/h" },
+        { "en": "About 98 m/s, 353 km/h", "es": "Unos 98 m/s, 353 km/h" }
+      ],
+      "answer": 1,
+      "why": { "en": "Gravity adds about 9.8 m/s of speed every second, so after three seconds the stone falls near 29 m/s, roughly highway speed.", "es": "La gravedad suma unos 9.8 m/s de rapidez cada segundo, así que tras tres segundos la piedra baja cerca de 29 m/s." },
+      "topic": "forces and motion",
+      "source": "https://www.britannica.com/science/free-fall-physics"
+    },
+    {
+      "id": "physics-hard-075", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎡",
+      "q": { "en": "An object moving at a steady speed around a circle has zero acceleration.", "es": "Un objeto que se mueve con rapidez constante en un círculo tiene aceleración cero." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Acceleration means any change in velocity, and velocity includes direction, so a circling object accelerates toward the center the whole way around.", "es": "Aceleración es cualquier cambio de velocidad, y la velocidad incluye la dirección, así que un objeto que gira acelera hacia el centro siempre." },
+      "topic": "forces and motion",
+      "source": "https://www.physicsclassroom.com/class/circles/Lesson-1/Speed-and-Velocity"
+    },
+    {
+      "id": "physics-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔧",
+      "q": { "en": "A small motor does 9,000 joules of work in 30 seconds. What is its power output?", "es": "Un motor pequeño realiza 9,000 joules de trabajo en 30 segundos. ¿Cuál es su potencia?" },
+      "choices": [
+        { "en": "270,000 watts", "es": "270,000 watts" },
+        { "en": "30 watts", "es": "30 watts" },
+        { "en": "300 watts", "es": "300 watts" },
+        { "en": "8,970 watts", "es": "8,970 watts" }
+      ],
+      "answer": 2,
+      "why": { "en": "Power is work divided by time, so 9,000 joules in 30 seconds is 300 watts, about what four bright kitchen lamps use.", "es": "La potencia es trabajo entre tiempo: 9,000 joules en 30 segundos dan 300 watts, más o menos cuatro focos brillantes de cocina." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/power-physics"
+    },
+    {
+      "id": "physics-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "A filament lamp draws 40 watts and gives out 2 watts of visible light. What share becomes light?", "es": "Un foco de filamento consume 40 watts y entrega 2 watts de luz visible. ¿Qué parte se vuelve luz?" },
+      "choices": [
+        { "en": "5 percent", "es": "5 por ciento" },
+        { "en": "20 percent", "es": "20 por ciento" },
+        { "en": "2 percent", "es": "2 por ciento" },
+        { "en": "40 percent", "es": "40 por ciento" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two divided by forty is one twentieth, so 95 percent leaves as heat; that waste is why cooler lamps replaced filaments.", "es": "Dos entre cuarenta es un veinteavo, así que el 95 por ciento se va como calor; por eso llegaron focos más fríos." },
+      "topic": "energy",
+      "source": "https://www.energy.gov/energysaver/lighting-choices-save-you-money"
+    },
+    {
+      "id": "physics-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "A 2 kg ball rolls at 3 m/s. How much kinetic energy does it carry?", "es": "Una pelota de 2 kg rueda a 3 m/s. ¿Cuánta energía cinética lleva?" },
+      "choices": [
+        { "en": "18 joules", "es": "18 joules" },
+        { "en": "6 joules", "es": "6 joules" },
+        { "en": "3 joules", "es": "3 joules" },
+        { "en": "9 joules", "es": "9 joules" }
+      ],
+      "answer": 3,
+      "why": { "en": "Kinetic energy equals half the mass times speed squared, so half of 2 times 9 is 9 joules; doubling the speed gives 36.", "es": "La energía cinética es la mitad de la masa por la rapidez al cuadrado: la mitad de 2 por 9 da 9 joules." },
+      "topic": "energy",
+      "source": "https://www.physicsclassroom.com/class/energy/Lesson-1/Kinetic-Energy"
+    },
+    {
+      "id": "physics-hard-079", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Under the same sunshine, dry sand heats up faster than the seawater beside it.", "es": "Con el mismo sol, la arena seca se calienta más rápido que el agua de mar junto a ella." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water has a huge specific heat, the energy one kilogram needs per degree, so it soaks up sunshine while sand scorches your feet.", "es": "El agua tiene un calor específico enorme, la energía que necesita un kilogramo por grado, por eso la arena te quema los pies." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/specific-heat"
+    },
+    {
+      "id": "physics-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "One food Calorie, the kind printed on a nutrition label, holds about how many joules?", "es": "Una Caloría de los alimentos, la que viene en la etiqueta, ¿cuántos joules tiene más o menos?" },
+      "choices": [
+        { "en": "About 42 joules", "es": "Unos 42 joules" },
+        { "en": "About 4,200 joules", "es": "Unos 4,200 joules" },
+        { "en": "About 420 joules", "es": "Unos 420 joules" },
+        { "en": "About 42,000 joules", "es": "Unos 42,000 joules" }
+      ],
+      "answer": 1,
+      "why": { "en": "A food Calorie is really a kilocalorie, 4,184 joules, so a 300 Calorie snack carries more than a million joules of energy.", "es": "Una Caloría de alimento en realidad es una kilocaloría, 4,184 joules, así que un bocadillo de 300 Calorías lleva más de un millón." },
+      "topic": "energy",
+      "source": "https://www.britannica.com/science/calorie"
+    },
+    {
+      "id": "physics-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "Light from a galaxy rushing away from us shifts toward which end of the visible spectrum?", "es": "¿Hacia qué extremo del espectro visible se corre la luz de una galaxia que se aleja de nosotros?" },
+      "choices": [
+        { "en": "The violet end", "es": "El extremo violeta" },
+        { "en": "The green middle", "es": "El medio verde" },
+        { "en": "The red end", "es": "El extremo rojo" },
+        { "en": "It stays exactly the same", "es": "Queda exactamente igual" }
+      ],
+      "answer": 2,
+      "why": { "en": "Motion away stretches each wave and lowers its frequency; this redshift is the Doppler effect applied to light instead of sound.", "es": "Alejarse estira cada onda y baja su frecuencia; ese corrimiento al rojo es el efecto Doppler aplicado a la luz." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/redshift"
+    },
+    {
+      "id": "physics-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔎",
+      "q": { "en": "Parallel rays of sunlight pass through a bulging convex lens. What do the rays do?", "es": "Rayos paralelos de sol pasan por una lente convexa abultada. ¿Qué hacen los rayos?" },
+      "choices": [
+        { "en": "They meet at a focal point beyond the lens", "es": "Se juntan en un punto focal después de la lente" },
+        { "en": "They spread apart evenly", "es": "Se separan de manera pareja" },
+        { "en": "They stay parallel but slower", "es": "Siguen paralelos pero más lentos" },
+        { "en": "They bounce back toward the Sun", "es": "Rebotan de regreso hacia el Sol" }
+      ],
+      "answer": 0,
+      "why": { "en": "A convex lens is thicker in the middle, so it bends rays inward to one focal point; that is how magnifying glasses burn paper.", "es": "Una lente convexa es más gruesa en el centro, así que dobla los rayos hacia un punto focal; por eso una lupa quema papel." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/technology/lens-optics"
+    },
+    {
+      "id": "physics-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "How does a light signal stay inside a glass fiber that curves around corners?", "es": "¿Cómo se queda una señal de luz dentro de una fibra de vidrio que da vuelta en las esquinas?" },
+      "choices": [
+        { "en": "Magnets guide the beam along the glass", "es": "Unos imanes guían el rayo por el vidrio" },
+        { "en": "A mirror coating is painted on the outside", "es": "Una capa de espejo va pintada por fuera" },
+        { "en": "The glass bends the beam a little each time", "es": "El vidrio dobla el rayo un poco cada vez" },
+        { "en": "It reflects completely off the inside surface", "es": "Se refleja por completo en la pared interior" }
+      ],
+      "answer": 3,
+      "why": { "en": "Beyond a certain angle glass reflects all the light back inside, called total internal reflection, so signals cross oceans losing almost nothing.", "es": "Pasado cierto ángulo el vidrio refleja toda la luz hacia adentro: es la reflexión total interna, y por eso las señales cruzan océanos." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/total-internal-reflection"
+    },
+    {
+      "id": "physics-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "White light enters a glass prism. Which color leaves bent the most from its path?", "es": "La luz blanca entra a un prisma de vidrio. ¿Qué color sale más desviado de su camino?" },
+      "choices": [
+        { "en": "Red", "es": "Rojo" },
+        { "en": "Violet", "es": "Violeta" },
+        { "en": "Yellow", "es": "Amarillo" },
+        { "en": "Green", "es": "Verde" }
+      ],
+      "answer": 1,
+      "why": { "en": "Shorter waves slow down more in glass, so violet bends hardest and red least; that spreading of colors is called dispersion.", "es": "Las ondas más cortas se frenan más en el vidrio, así que el violeta se dobla más y el rojo menos: eso es dispersión." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/dispersion-physics"
+    },
+    {
+      "id": "physics-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚆",
+      "q": { "en": "About how fast does sound travel along a steel rail?", "es": "¿Qué tan rápido viaja el sonido por un riel de acero?" },
+      "choices": [
+        { "en": "About 340 m/s, 1,200 km/h", "es": "Unos 340 m/s, 1,200 km/h" },
+        { "en": "About 1,500 m/s, 5,400 km/h", "es": "Unos 1,500 m/s, 5,400 km/h" },
+        { "en": "About 5,000 m/s, 18,000 km/h", "es": "Unos 5,000 m/s, 18,000 km/h" },
+        { "en": "About 900 m/s, 3,200 km/h", "es": "Unos 900 m/s, 3,200 km/h" }
+      ],
+      "answer": 2,
+      "why": { "en": "Steel's tightly bound atoms pass a push along quickly, so sound moves about fifteen times faster in rail than in air.", "es": "Los átomos del acero están muy unidos y pasan el empujón rápido: el sonido va quince veces más veloz que en el aire." },
+      "topic": "light and sound",
+      "source": "https://www.britannica.com/science/speed-of-sound"
+    },
+    {
+      "id": "physics-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔊",
+      "q": { "en": "A sound wave has a frequency of 170 hertz and a wavelength of 2 meters. How fast does it travel?", "es": "Una onda de sonido tiene 170 hertz de frecuencia y 2 metros de longitud de onda. ¿Qué tan rápido viaja?" },
+      "choices": [
+        { "en": "85 m/s", "es": "85 m/s" },
+        { "en": "172 m/s", "es": "172 m/s" },
+        { "en": "168 m/s", "es": "168 m/s" },
+        { "en": "340 m/s", "es": "340 m/s" }
+      ],
+      "answer": 3,
+      "why": { "en": "Wave speed is frequency times wavelength, so 170 times 2 gives 340 m/s, exactly the speed of sound in room air.", "es": "La rapidez de una onda es frecuencia por longitud de onda: 170 por 2 da 340 m/s, la rapidez del sonido en el aire." },
+      "topic": "light and sound",
+      "source": "https://www.physicsclassroom.com/class/waves/Lesson-2/The-Wave-Equation"
+    },
+    {
+      "id": "physics-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "A 12 volt battery pushes current through a 4 ohm resistor. How much current flows?", "es": "Una pila de 12 volts empuja corriente por una resistencia de 4 ohms. ¿Cuánta corriente pasa?" },
+      "choices": [
+        { "en": "3 amperes", "es": "3 amperes" },
+        { "en": "48 amperes", "es": "48 amperes" },
+        { "en": "8 amperes", "es": "8 amperes" },
+        { "en": "0.33 amperes", "es": "0.33 amperes" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ohm's law says current equals voltage divided by resistance, so 12 divided by 4 is 3 amperes, about what a bright headlamp draws.", "es": "La ley de Ohm dice que la corriente es voltaje entre resistencia: 12 entre 4 da 3 amperes, como un faro brillante." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/science/Ohms-law"
+    },
+    {
+      "id": "physics-hard-088", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔌",
+      "q": { "en": "In a series circuit the same current flows through every bulb in the loop.", "es": "En un circuito en serie pasa la misma corriente por cada foco del bucle." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Charge has one path, so it piles up nowhere; adding bulbs raises the resistance and dims them all together.", "es": "La carga tiene un solo camino y en ningún lado se amontona; al agregar focos sube la resistencia y todos alumbran menos." },
+      "topic": "electricity and magnets",
+      "source": "https://www.physicsclassroom.com/class/circuits/Lesson-4/Series-Circuits"
+    },
+    {
+      "id": "physics-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "What makes the coil inside an electric motor spin around?", "es": "¿Qué hace girar la bobina dentro de un motor eléctrico?" },
+      "choices": [
+        { "en": "Heat from the current expands the coil", "es": "El calor de la corriente expande la bobina" },
+        { "en": "A magnetic field pushes sideways on the current-carrying wire", "es": "Un campo magnético empuja de lado al cable con corriente" },
+        { "en": "The battery's chemicals shove the coil", "es": "Los químicos de la pila empujan la bobina" },
+        { "en": "Static charge attracts the coil to the magnets", "es": "La carga estática atrae la bobina hacia los imanes" }
+      ],
+      "answer": 1,
+      "why": { "en": "A wire carrying current in a magnetic field feels a sideways force; flipping the current twice a turn keeps the coil rotating.", "es": "Un cable con corriente dentro de un campo magnético siente una fuerza lateral; invertir la corriente dos veces por vuelta mantiene el giro." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/technology/electric-motor"
+    },
+    {
+      "id": "physics-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Why do long power lines carry electricity at hundreds of thousands of volts?", "es": "¿Por qué las líneas de alta tensión llevan la electricidad a cientos de miles de volts?" },
+      "choices": [
+        { "en": "High voltage makes the electrons travel faster", "es": "El voltaje alto hace viajar más rápido a los electrones" },
+        { "en": "Thin wires can only hold high voltage", "es": "Los cables delgados solo aguantan voltaje alto" },
+        { "en": "Higher voltage means less current, so less heat is wasted", "es": "Más voltaje significa menos corriente, así que se pierde menos calor" },
+        { "en": "Voltage has to rise with the distance traveled", "es": "El voltaje debe subir con la distancia recorrida" }
+      ],
+      "answer": 2,
+      "why": { "en": "Heat lost in a wire grows with the current squared, so raising voltage and lowering current saves most of the energy.", "es": "El calor perdido en un cable crece con la corriente al cuadrado, así que subir el voltaje y bajar la corriente ahorra energía." },
+      "topic": "electricity and magnets",
+      "source": "https://www.britannica.com/technology/electric-power-transmission"
+    },
+    {
+      "id": "physics-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "How does a black hole of a few solar masses come to exist?", "es": "¿Cómo se forma un agujero negro de unas cuantas masas solares?" },
+      "choices": [
+        { "en": "Two planets crash and squeeze together", "es": "Dos planetas chocan y se comprimen" },
+        { "en": "A cloud of cold gas freezes solid", "es": "Una nube de gas frío se congela" },
+        { "en": "A star burns away all of its light", "es": "Una estrella gasta toda su luz" },
+        { "en": "A massive star's core collapses when its fuel runs out", "es": "El núcleo de una estrella masiva colapsa al acabarse su combustible" }
+      ],
+      "answer": 3,
+      "why": { "en": "While fusion pushes outward a star holds its shape; once the fuel ends, gravity wins and the core crushes past every limit.", "es": "Mientras la fusión empuja hacia afuera la estrella aguanta; al acabarse el combustible gana la gravedad y el núcleo se aplasta sin límite." },
+      "topic": "the universe",
+      "source": "https://science.nasa.gov/universe/black-holes/"
+    },
+    {
+      "id": "physics-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "In the Big Bang picture, what stretches to carry distant galaxies apart?", "es": "En la idea del Big Bang, ¿qué se estira para separar a las galaxias lejanas?" },
+      "choices": [
+        { "en": "The gas clouds between the galaxies", "es": "Las nubes de gas entre las galaxias" },
+        { "en": "Space itself, everywhere at once", "es": "El espacio mismo, en todas partes a la vez" },
+        { "en": "The gravity holding each galaxy", "es": "La gravedad que sostiene cada galaxia" },
+        { "en": "The orbits the galaxies follow", "es": "Las órbitas que siguen las galaxias" }
+      ],
+      "answer": 1,
+      "why": { "en": "Galaxies ride along as space swells between them, like dots on an inflating balloon; each one sees the others receding.", "es": "Las galaxias viajan mientras el espacio crece entre ellas, como puntos en un globo que se infla: cada una ve alejarse a las demás." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/science/expanding-universe"
+    },
+    {
+      "id": "physics-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "A faint microwave glow reaches us from every direction in the sky. What is it?", "es": "Un brillo débil de microondas nos llega desde todas las direcciones del cielo. ¿Qué es?" },
+      "choices": [
+        { "en": "Radio signals bouncing off the Moon", "es": "Señales de radio que rebotan en la Luna" },
+        { "en": "Warm dust inside our own galaxy", "es": "Polvo tibio dentro de nuestra galaxia" },
+        { "en": "Leftover heat from the young universe", "es": "Calor sobrante del universo joven" },
+        { "en": "The combined light of every distant star", "es": "La luz junta de todas las estrellas lejanas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Two engineers found this hum in 1964 and could trace no source; it is light from when the universe first turned clear.", "es": "Dos ingenieros hallaron ese zumbido en 1964 sin encontrarle fuente: es luz de cuando el universo se volvió transparente por primera vez." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/science/cosmic-microwave-background"
+    },
+    {
+      "id": "physics-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "About how fast must a satellite move to stay in a low orbit around Earth?", "es": "¿Qué tan rápido debe moverse un satélite para quedarse en una órbita baja alrededor de la Tierra?" },
+      "choices": [
+        { "en": "About 7.8 km/s, 28,000 km/h", "es": "Unos 7.8 km/s, 28,000 km/h" },
+        { "en": "About 1 km/s, 3,600 km/h", "es": "Cerca de 1 km/s, 3,600 km/h" },
+        { "en": "About 340 m/s, 1,200 km/h", "es": "Unos 340 m/s, 1,200 km/h" },
+        { "en": "About 100 km/s, 360,000 km/h", "es": "Unos 100 km/s, 360,000 km/h" }
+      ],
+      "answer": 0,
+      "why": { "en": "At that speed the ground curves away as fast as the craft falls, so one loop around Earth takes about 90 minutes.", "es": "A esa rapidez el suelo se curva tan rápido como cae la nave, así que una vuelta a la Tierra toma unos 90 minutos." },
+      "topic": "the universe",
+      "source": "https://spaceplace.nasa.gov/orbits/en/"
+    },
+    {
+      "id": "physics-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Why does the Moon always turn the same face toward Earth?", "es": "¿Por qué la Luna siempre muestra la misma cara hacia la Tierra?" },
+      "choices": [
+        { "en": "The Moon has stopped spinning altogether", "es": "La Luna dejó de girar por completo" },
+        { "en": "Earth's magnetic field holds one side in place", "es": "El campo magnético de la Tierra sujeta un lado" },
+        { "en": "It spins once for each trip around Earth", "es": "Gira una vez por cada viaje alrededor de la Tierra" },
+        { "en": "Its far side is much heavier, so it hangs behind", "es": "Su cara lejana pesa mucho más y se queda atrás" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth's pull slowed the Moon's spin until one turn matched one orbit, both about 27 days; astronomers call this tidal locking.", "es": "El jalón de la Tierra frenó el giro de la Luna hasta igualar vuelta y órbita, unos 27 días: se llama acoplamiento de marea." },
+      "topic": "the universe",
+      "source": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "id": "physics-hard-096", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌙",
+      "q": { "en": "The Moon creeps a little closer to Earth every year.", "es": "La Luna se acerca un poquito más a la Tierra cada año." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tides drag on Earth's spin and hand energy to the Moon, pushing it about 3.8 centimeters, 1.5 inches, farther out yearly.", "es": "Las mareas frenan el giro de la Tierra y pasan energía a la Luna, que se aleja unos 3.8 centímetros, 1.5 pulgadas, al año." },
+      "topic": "the universe",
+      "source": "https://www.britannica.com/place/Moon"
+    },
+    {
+      "id": "physics-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "Why do wide snowshoes keep a hiker from sinking into deep powder?", "es": "¿Por qué unas raquetas de nieve anchas evitan que un excursionista se hunda en la nieve suelta?" },
+      "choices": [
+        { "en": "They make the hiker weigh less", "es": "Hacen que el excursionista pese menos" },
+        { "en": "They trap warm air that holds the hiker up", "es": "Atrapan aire tibio que lo sostiene" },
+        { "en": "Their curved shape makes the snow harder", "es": "Su forma curva endurece la nieve" },
+        { "en": "They spread the same weight over more area, lowering pressure", "es": "Reparten el mismo peso en más área y bajan la presión" }
+      ],
+      "answer": 3,
+      "why": { "en": "Pressure is force divided by area, so tripling the area under your boot cuts the pressure on the snow to a third.", "es": "La presión es fuerza entre área, así que triplicar el área bajo tu bota reduce a un tercio la presión sobre la nieve." },
+      "topic": "pressure",
+      "source": "https://www.britannica.com/science/pressure"
+    },
+    {
+      "id": "physics-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍳",
+      "q": { "en": "On a high mountain, water boils near 90 °C, 194 °F, rather than 100 °C. Why?", "es": "En una montaña alta el agua hierve cerca de 90 °C, 194 °F, en lugar de 100 °C. ¿Por qué?" },
+      "choices": [
+        { "en": "Mountain air is colder, so the pot cools down", "es": "El aire de montaña es más frío y enfría la olla" },
+        { "en": "There is less oxygen to feed the flame", "es": "Hay menos oxígeno para alimentar la flama" },
+        { "en": "Thinner air presses down less on the water", "es": "El aire delgado presiona menos sobre el agua" },
+        { "en": "Water is less dense at high altitude", "es": "El agua es menos densa en la altura" }
+      ],
+      "answer": 2,
+      "why": { "en": "Boiling starts when bubbles can push the air above aside; with weaker air pressure that happens sooner, so eggs take longer to cook.", "es": "El hervor empieza cuando las burbujas logran apartar el aire de arriba; con menos presión pasa antes, por eso los huevos tardan más." },
+      "topic": "pressure",
+      "source": "https://www.britannica.com/science/boiling-point"
+    },
+    {
+      "id": "physics-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Space between the Sun and Earth is nearly empty. How does the Sun's heat cross it?", "es": "El espacio entre el Sol y la Tierra está casi vacío. ¿Cómo cruza el calor del Sol?" },
+      "choices": [
+        { "en": "As radiation, waves that need no material", "es": "Como radiación, ondas que no necesitan materia" },
+        { "en": "By conduction through thin dust", "es": "Por conducción a través de polvo delgado" },
+        { "en": "By convection currents in the solar wind", "es": "Por corrientes de convección en el viento solar" },
+        { "en": "Through the magnetic field lines", "es": "Por las líneas del campo magnético" }
+      ],
+      "answer": 0,
+      "why": { "en": "Conduction and convection both need matter to carry heat; radiation is electromagnetic waves, so sunlight crosses 150 million kilometers, 93 million miles, of vacuum.", "es": "La conducción y la convección necesitan materia; la radiación son ondas electromagnéticas y cruza 150 millones de kilómetros, 93 millones de millas, de vacío." },
+      "topic": "heat",
+      "source": "https://www.britannica.com/science/thermal-radiation"
+    },
+    {
+      "id": "physics-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "A pot of water heats on a stove. What does convection do inside it?", "es": "Una olla con agua se calienta en la estufa. ¿Qué hace la convección adentro?" },
+      "choices": [
+        { "en": "It passes heat atom to atom while the water stays put", "es": "Pasa el calor de átomo a átomo sin mover el agua" },
+        { "en": "It sends heat out as infrared waves", "es": "Manda el calor en ondas infrarrojas" },
+        { "en": "It keeps the hottest water pinned to the bottom", "es": "Mantiene el agua más caliente pegada al fondo" },
+        { "en": "Warm water rises and cooler water sinks to replace it", "es": "El agua tibia sube y la fría baja a ocupar su lugar" }
+      ],
+      "answer": 3,
+      "why": { "en": "Heated water expands, grows less dense and floats upward; that loop carries energy, and the same currents drive weather and lava.", "es": "El agua caliente se expande, se vuelve menos densa y sube; ese bucle carga energía y las mismas corrientes mueven el clima." },
+      "topic": "heat",
+      "source": "https://www.britannica.com/science/convection"
     }
   ]
 }

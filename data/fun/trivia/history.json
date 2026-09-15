@@ -2718,6 +2718,448 @@
       "why": { "en": "About twenty years passed, and a boot maker's catchy name, before clothes makers trusted those little metal teeth on jackets.", "es": "Pasaron unos veinte años y el nombre pegajoso de una fábrica de botas antes de que la ropa usara esos dientes." },
       "topic": "everyday things",
       "source": "https://www.si.edu/spotlight/zipper"
+    },
+    {
+      "id": "history-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "How were most officials of the Athenian democracy chosen for their year of service?", "es": "¿Cómo se escogía a la mayoría de los funcionarios de la democracia ateniense?" },
+      "choices": [
+        { "en": "By drawing lots", "es": "Por sorteo" },
+        { "en": "By public election", "es": "Por elección pública" },
+        { "en": "By birth into noble families", "es": "Por nacer en familias nobles" },
+        { "en": "By a vote of the army", "es": "Por voto del ejército" }
+      ],
+      "answer": 0,
+      "why": { "en": "Athenians trusted random selection because it stopped rich families from buying influence; only generals and treasurers were picked by vote.", "es": "Los atenienses elegían por sorteo porque así las familias ricas no podían comprar influencia; solo los generales se escogían mediante votación." },
+      "topic": "athenian democracy",
+      "source": "https://www.britannica.com/topic/democracy"
+    },
+    {
+      "id": "history-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗳️",
+      "q": { "en": "Which group of people could vote in the assembly of ancient Athens?", "es": "¿Qué grupo de personas podía votar en la asamblea de la antigua Atenas?" },
+      "choices": [
+        { "en": "All adults who lived in the city", "es": "Todos los adultos que vivían en la ciudad" },
+        { "en": "Free adult men born in the city", "es": "Los hombres libres adultos nacidos en la ciudad" },
+        { "en": "Free men and women who owned land", "es": "Los hombres y mujeres libres con tierras" },
+        { "en": "Anyone who paid the city's taxes", "es": "Cualquiera que pagara impuestos a la ciudad" }
+      ],
+      "answer": 1,
+      "why": { "en": "Perhaps one resident in five could vote; women, enslaved people and foreign-born neighbours were left out of Athenian political life entirely.", "es": "Quizá uno de cada cinco habitantes podía votar; las mujeres, las personas esclavizadas y los nacidos fuera quedaban fuera de la política." },
+      "topic": "athenian democracy",
+      "source": "https://www.britannica.com/place/ancient-Greece"
+    },
+    {
+      "id": "history-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Which vote in ancient Athens sent an unpopular leader away from the city for ten years?", "es": "¿Qué votación de la antigua Atenas mandaba fuera de la ciudad a un dirigente impopular durante diez años?" },
+      "choices": [
+        { "en": "A trial before the whole assembly", "es": "Un juicio ante toda la asamblea" },
+        { "en": "Exile decided by the city's judges", "es": "El destierro decidido por los jueces de la ciudad" },
+        { "en": "Ostracism, a name scratched on pottery", "es": "El ostracismo, un nombre rayado en cerámica" },
+        { "en": "A yearly draw among the noble families", "es": "Un sorteo anual entre las familias nobles" }
+      ],
+      "answer": 2,
+      "why": { "en": "Citizens scratched a name on a broken pot shard called an ostrakon; with six thousand votes cast, the loser left Athens.", "es": "Los ciudadanos rayaban un nombre en un trozo de vasija llamado ostrakon; con seis mil votos, el señalado salía de Atenas diez años." },
+      "topic": "athenian democracy",
+      "source": "https://www.britannica.com/topic/ostracism"
+    },
+    {
+      "id": "history-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which Athenian leader reorganised the city in 508 BC and is called the father of democracy?", "es": "¿Qué dirigente ateniense reorganizó la ciudad en 508 a.C. y es llamado el padre de la democracia?" },
+      "choices": [
+        { "en": "Solon", "es": "Solón" },
+        { "en": "Pericles", "es": "Pericles" },
+        { "en": "Draco", "es": "Dracón" },
+        { "en": "Cleisthenes", "es": "Clístenes" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cleisthenes broke the old family voting blocks into ten new tribes drawn from across Attica, so neighbours of different classes voted together.", "es": "Clístenes dividió a Atenas en diez tribus nuevas tomadas de toda el Ática, para que vecinos de distintas clases votaran juntos." },
+      "topic": "athenian democracy",
+      "source": "https://www.britannica.com/biography/Cleisthenes-of-Athens"
+    },
+    {
+      "id": "history-hard-008", "level": "hard", "type": "tf", "lang": "both", "emoji": "📜",
+      "q": { "en": "Ancient Athens chose its leaders in elections held every four years.", "es": "Atenas elegía a sus gobernantes en elecciones celebradas cada cuatro años." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Athens had no fixed election cycle; the assembly met about forty times a year and most posts were filled by lot.", "es": "Atenas no tenía ciclo electoral fijo: la asamblea se reunía unas cuarenta veces al año y casi todos los cargos se sorteaban cada año." },
+      "topic": "ancient greece",
+      "source": "https://www.britannica.com/topic/ecclesia-ancient-Greek-assembly"
+    },
+    {
+      "id": "history-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏟️",
+      "q": { "en": "In which year did the last emperor of the western Roman Empire give up his throne?", "es": "¿En qué año dejó el trono el último emperador del imperio romano de occidente?" },
+      "choices": [
+        { "en": "330", "es": "330" },
+        { "en": "410", "es": "410" },
+        { "en": "476", "es": "476" },
+        { "en": "527", "es": "527" }
+      ],
+      "answer": 2,
+      "why": { "en": "Romulus Augustulus stepped down in 476, though the eastern half ruled from Constantinople carried on for almost another thousand years.", "es": "Rómulo Augústulo dejó el trono en 476, pero la mitad oriental, gobernada desde Constantinopla, siguió existiendo casi mil años más." },
+      "topic": "roman empire",
+      "source": "https://www.britannica.com/place/Roman-Empire"
+    },
+    {
+      "id": "history-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛣️",
+      "q": { "en": "What did Roman engineers put under a main road so that it drained and lasted for centuries?", "es": "¿Qué ponían los ingenieros romanos bajo un camino principal para que drenara y durara siglos?" },
+      "choices": [
+        { "en": "A bed of packed clay", "es": "Una base de arcilla apisonada" },
+        { "en": "A frame of oak beams", "es": "Un armazón de vigas de roble" },
+        { "en": "A single sheet of poured concrete", "es": "Una sola capa de concreto vertido" },
+        { "en": "Several layers of stone and gravel", "es": "Varias capas de piedra y grava" }
+      ],
+      "answer": 3,
+      "why": { "en": "A Roman road had four layers and curved slightly upward in the middle so rain ran off, and some still carry traffic.", "es": "Un camino romano tenía cuatro capas y una ligera curva en el centro para que la lluvia escurriera; algunos todavía soportan tráfico." },
+      "topic": "roman empire",
+      "source": "https://www.britannica.com/technology/road"
+    },
+    {
+      "id": "history-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Which emperor moved the capital of the Roman Empire to a new city on the Bosphorus in 330?", "es": "¿Qué emperador trasladó la capital del imperio romano a una ciudad nueva junto al Bósforo en 330?" },
+      "choices": [
+        { "en": "Constantine", "es": "Constantino" },
+        { "en": "Diocletian", "es": "Diocleciano" },
+        { "en": "Justinian", "es": "Justiniano" },
+        { "en": "Trajan", "es": "Trajano" }
+      ],
+      "answer": 0,
+      "why": { "en": "Constantine rebuilt Greek Byzantium as his capital; the city later took his name and guarded the empire's richest trade routes for centuries.", "es": "Constantino reconstruyó la griega Bizancio como capital; la ciudad tomó luego su nombre y custodió las rutas comerciales más ricas del imperio." },
+      "topic": "roman empire",
+      "source": "https://www.britannica.com/biography/Constantine-I-Roman-emperor"
+    },
+    {
+      "id": "history-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "About how many kilometres of paved road did the Roman Empire build at its greatest extent?", "es": "¿Cuántos kilómetros de camino pavimentado construyó el imperio romano en su mayor extensión?" },
+      "choices": [
+        { "en": "About 8000 km, 5000 miles", "es": "Unos 8000 km, 5000 millas" },
+        { "en": "About 80,000 km, 50,000 miles", "es": "Unos 80,000 km, 50,000 millas" },
+        { "en": "About 300,000 km, 190,000 miles", "es": "Unos 300,000 km, 190,000 millas" },
+        { "en": "About 25,000 km, 15,000 miles", "es": "Unos 25,000 km, 15,000 millas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Milestones marked every Roman mile, and a messenger changing horses at posting stations could cover eighty kilometres, fifty miles, in a day.", "es": "Había miliarios en cada milla romana, y un mensajero que cambiaba de caballo en las postas recorría ochenta kilómetros, cincuenta millas, al día." },
+      "topic": "roman empire",
+      "source": "https://www.britannica.com/technology/road"
+    },
+    {
+      "id": "history-hard-013", "level": "hard", "type": "tf", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "The Latin language died out when the western Roman Empire ended.", "es": "El idioma latín desapareció cuando terminó el imperio romano de occidente." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spoken Latin kept changing and became Spanish, Portuguese, French, Italian and Romanian, so the language survives in the mouths of millions.", "es": "El latín hablado siguió cambiando y se convirtió en español, portugués, francés, italiano y rumano, así que sobrevive en millones de bocas." },
+      "topic": "latin language",
+      "source": "https://www.britannica.com/topic/Latin-language"
+    },
+    {
+      "id": "history-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐀",
+      "q": { "en": "How did the Black Death first reach the ports of Italy in 1347?", "es": "¿Cómo llegó por primera vez la peste negra a los puertos de Italia en 1347?" },
+      "choices": [
+        { "en": "On carts crossing the Alps from Germany", "es": "En carretas que cruzaban los Alpes desde Alemania" },
+        { "en": "With pilgrims returning from North Africa", "es": "Con peregrinos que volvían del norte de África" },
+        { "en": "On merchant ships sailing from the Black Sea", "es": "En barcos mercantes que zarpaban del mar Negro" },
+        { "en": "With traders walking home from Spain", "es": "Con comerciantes que regresaban a pie desde España" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fleas on rats travelled in grain cargoes; the sickness followed the Silk Road westward, then sailed from Crimea to Sicily in 1347.", "es": "Las pulgas de las ratas viajaban en los cargamentos de grano; la peste siguió la Ruta de la Seda y llegó de Crimea a Sicilia." },
+      "topic": "the black death",
+      "source": "https://www.britannica.com/event/Black-Death"
+    },
+    {
+      "id": "history-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "In the feudal system of medieval Europe, what did a lord usually give a knight for his service?", "es": "En el sistema feudal de la Europa medieval, ¿qué le daba un señor a un caballero por su servicio?" },
+      "choices": [
+        { "en": "A yearly payment in silver coins", "es": "Un pago anual en monedas de plata" },
+        { "en": "A share of the king's taxes", "es": "Una parte de los impuestos del rey" },
+        { "en": "A room inside the castle walls", "es": "Un cuarto dentro de los muros del castillo" },
+        { "en": "Land with peasants to farm it", "es": "Tierra con campesinos que la trabajaran" }
+      ],
+      "answer": 3,
+      "why": { "en": "The granted land was called a fief; the peasants farming it fed the knight, so land and loyalty took the place of wages.", "es": "La tierra concedida se llamaba feudo; los campesinos que la trabajaban alimentaban al caballero, así que la tierra sustituía al salario." },
+      "topic": "feudalism",
+      "source": "https://www.britannica.com/topic/feudalism"
+    },
+    {
+      "id": "history-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛪",
+      "q": { "en": "Which invention let Gothic cathedral builders raise very tall walls filled with windows?", "es": "¿Qué invento permitió a los constructores de catedrales góticas levantar muros altísimos llenos de ventanas?" },
+      "choices": [
+        { "en": "The flying buttress", "es": "El arbotante" },
+        { "en": "The barrel vault", "es": "La bóveda de cañón" },
+        { "en": "The iron tie beam", "es": "El tirante de hierro" },
+        { "en": "The stone dome", "es": "La cúpula de piedra" }
+      ],
+      "answer": 0,
+      "why": { "en": "A flying buttress is an arm of stone outside the wall that catches the roof's outward push, letting glass replace heavy stone.", "es": "El arbotante es un brazo de piedra por fuera del muro que recibe el empuje del techo y permite cambiar piedra por vidrio." },
+      "topic": "cathedrals",
+      "source": "https://www.britannica.com/technology/flying-buttress"
+    },
+    {
+      "id": "history-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "About what share of the people of Europe died during the Black Death between 1347 and 1351?", "es": "¿Qué parte de la población de Europa murió durante la peste negra entre 1347 y 1351?" },
+      "choices": [
+        { "en": "About one tenth", "es": "Cerca de una décima parte" },
+        { "en": "About one third", "es": "Cerca de un tercio" },
+        { "en": "About one fifth", "es": "Cerca de una quinta parte" },
+        { "en": "About three quarters", "es": "Cerca de tres cuartas partes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Perhaps twenty-five million people were lost in four years; whole villages emptied, and surviving workers could suddenly demand better pay from landowners.", "es": "Quizá murieron veinticinco millones de personas en cuatro años; aldeas enteras quedaron vacías y los trabajadores sobrevivientes pudieron exigir mejor paga." },
+      "topic": "the black death",
+      "source": "https://www.britannica.com/event/Black-Death"
+    },
+    {
+      "id": "history-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "Which machine, arriving in Europe around 1180, let millers grind grain where rivers ran too slowly?", "es": "¿Qué máquina, llegada a Europa hacia 1180, permitió moler grano donde los ríos corrían muy lento?" },
+      "choices": [
+        { "en": "The water wheel", "es": "La rueda hidráulica" },
+        { "en": "The horse-driven mill", "es": "El molino de sangre" },
+        { "en": "The windmill", "es": "El molino de viento" },
+        { "en": "The treadwheel crane", "es": "La grúa de rueda de andar" }
+      ],
+      "answer": 2,
+      "why": { "en": "European windmills turned their whole body on a post to face the wind, and they freed millers from rivers that froze or dried up.", "es": "Los molinos de viento europeos giraban sobre un poste para buscar el viento y liberaban a los molineros de ríos que se helaban o secaban." },
+      "topic": "medieval technology",
+      "source": "https://www.britannica.com/technology/windmill"
+    },
+    {
+      "id": "history-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "About how many printed books existed in Europe by 1500, fifty years after the press appeared?", "es": "¿Cuántos libros impresos había en Europa hacia 1500, cincuenta años después de aparecer la imprenta?" },
+      "choices": [
+        { "en": "About 100,000", "es": "Unos 100,000" },
+        { "en": "About 2 million", "es": "Unos 2 millones" },
+        { "en": "About 200 million", "es": "Unos 200 millones" },
+        { "en": "About 20 million", "es": "Unos 20 millones" }
+      ],
+      "answer": 3,
+      "why": { "en": "Before 1450 a scribe needed months for one book; presses turned out twenty million copies in fifty years, faster than rulers could control.", "es": "Antes de 1450 un copista tardaba meses en un libro; las imprentas sacaron veinte millones de ejemplares en apenas cincuenta años." },
+      "topic": "the printing press",
+      "source": "https://www.britannica.com/topic/printing-publishing"
+    },
+    {
+      "id": "history-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "In which year was the book by Copernicus placing the Sun at the centre finally printed?", "es": "¿En qué año se imprimió por fin el libro de Copérnico que ponía al Sol en el centro?" },
+      "choices": [
+        { "en": "1543", "es": "1543" },
+        { "en": "1492", "es": "1492" },
+        { "en": "1610", "es": "1610" },
+        { "en": "1687", "es": "1687" }
+      ],
+      "answer": 0,
+      "why": { "en": "Copernicus delayed printing for decades and saw his book only as he lay dying; Galileo's telescope later showed evidence supporting it.", "es": "Copérnico retrasó la impresión durante décadas y vio su libro apenas al morir; el telescopio de Galileo dio después pruebas a favor." },
+      "topic": "copernicus",
+      "source": "https://www.britannica.com/biography/Nicolaus-Copernicus"
+    },
+    {
+      "id": "history-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What did Galileo see through his telescope in 1610 that showed things circle bodies other than Earth?", "es": "¿Qué vio Galileo con su telescopio en 1610 que mostró que hay cosas girando alrededor de otro cuerpo?" },
+      "choices": [
+        { "en": "The rings of Saturn", "es": "Los anillos de Saturno" },
+        { "en": "Four moons of Jupiter", "es": "Cuatro lunas de Júpiter" },
+        { "en": "Dark spots crossing the Sun", "es": "Manchas oscuras cruzando el Sol" },
+        { "en": "The phases of Venus", "es": "Las fases de Venus" }
+      ],
+      "answer": 1,
+      "why": { "en": "Galileo named them the Medicean stars; watching four points shift nightly around Jupiter proved Earth was hardly the only centre of motion.", "es": "Galileo los llamó estrellas mediceas; ver cuatro puntos moverse cada noche alrededor de Júpiter mostró que la Tierra no era el único centro." },
+      "topic": "galileo",
+      "source": "https://www.britannica.com/biography/Galileo-Galilei"
+    },
+    {
+      "id": "history-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "Which habit of Leonardo da Vinci made his notebooks hard for other people to read?", "es": "¿Qué costumbre de Leonardo da Vinci hacía difícil que otros leyeran sus cuadernos?" },
+      "choices": [
+        { "en": "He wrote only in Greek letters", "es": "Escribía solo con letras griegas" },
+        { "en": "He used a code of numbers", "es": "Usaba un código de números" },
+        { "en": "He wrote in mirror writing", "es": "Escribía en espejo" },
+        { "en": "He wrote from the bottom upward", "es": "Escribía de abajo hacia arriba" }
+      ],
+      "answer": 2,
+      "why": { "en": "Leonardo was left-handed and wrote right to left so ink would smudge less; his surviving pages include flying machines and careful anatomy.", "es": "Leonardo era zurdo y escribía de derecha a izquierda para manchar menos la tinta; sus páginas incluyen máquinas voladoras y anatomía detallada." },
+      "topic": "leonardo",
+      "source": "https://www.britannica.com/biography/Leonardo-da-Vinci"
+    },
+    {
+      "id": "history-hard-023", "level": "hard", "type": "tf", "lang": "both", "emoji": "🀄",
+      "q": { "en": "Movable type for printing was used in East Asia before Gutenberg built his press.", "es": "En Asia oriental se usaron tipos móviles de imprenta antes de que Gutenberg construyera la suya." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bi Sheng shaped movable type from clay around 1040, and Korea printed with metal type in 1377, decades before Gutenberg's workshop opened.", "es": "Bi Sheng hizo tipos móviles de arcilla hacia 1040 y en Corea se imprimió con tipos de metal en 1377, antes que Gutenberg." },
+      "topic": "printing history",
+      "source": "https://www.britannica.com/technology/printing-publishing/History-of-printing"
+    },
+    {
+      "id": "history-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "Who brought the last ship of Magellan's voyage home to Spain in 1522?", "es": "¿Quién llevó de regreso a España la última nave del viaje de Magallanes en 1522?" },
+      "choices": [
+        { "en": "Antonio Pigafetta", "es": "Antonio Pigafetta" },
+        { "en": "Duarte Barbosa", "es": "Duarte Barbosa" },
+        { "en": "Gonzalo Gómez de Espinosa", "es": "Gonzalo Gómez de Espinosa" },
+        { "en": "Juan Sebastián Elcano", "es": "Juan Sebastián Elcano" }
+      ],
+      "answer": 3,
+      "why": { "en": "Five ships and about 270 men left in 1519; one ship, the Victoria, returned three years later with eighteen survivors aboard.", "es": "Cinco naves y unos 270 hombres partieron en 1519; solo la Victoria volvió tres años después con dieciocho sobrevivientes al mando de Elcano." },
+      "topic": "age of exploration",
+      "source": "https://www.britannica.com/biography/Juan-Sebastian-del-Cano"
+    },
+    {
+      "id": "history-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "How did the treasure ships of Zheng He compare with the ships Columbus sailed seventy years later?", "es": "¿Cómo eran los barcos del tesoro de Zheng He frente a las naves que Colón usó setenta años después?" },
+      "choices": [
+        { "en": "They were several times longer", "es": "Eran varias veces más largos" },
+        { "en": "They were about the same length", "es": "Medían más o menos lo mismo" },
+        { "en": "They were a little shorter", "es": "Eran un poco más cortos" },
+        { "en": "They carried fewer sailors each", "es": "Llevaban menos marineros cada uno" }
+      ],
+      "answer": 0,
+      "why": { "en": "Zheng He commanded perhaps 300 ships and 27,000 sailors between 1405 and 1433; his largest vessels dwarfed the little Santa María.", "es": "Zheng He mandó unos 300 barcos y 27,000 marineros entre 1405 y 1433; sus naves mayores empequeñecían a la Santa María." },
+      "topic": "zheng he",
+      "source": "https://www.britannica.com/biography/Zheng-He"
+    },
+    {
+      "id": "history-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which sign did Polynesian navigators read to find an island still below the horizon?", "es": "¿Qué señal leían los navegantes polinesios para hallar una isla que aún estaba bajo el horizonte?" },
+      "choices": [
+        { "en": "The colour of the seawater at dawn", "es": "El color del agua al amanecer" },
+        { "en": "The way swells bend around land", "es": "Cómo se doblan las olas alrededor de la tierra" },
+        { "en": "The taste of rain caught in a sail", "es": "El sabor de la lluvia recogida en la vela" },
+        { "en": "The height of the midday Sun", "es": "La altura del Sol al mediodía" }
+      ],
+      "answer": 1,
+      "why": { "en": "Wave trains bend and reflect around islands, so a navigator lying in the hull could feel land eighty kilometres, fifty miles, away.", "es": "Las olas se doblan y rebotan alrededor de las islas; el navegante acostado en el casco sentía tierra a ochenta kilómetros, cincuenta millas." },
+      "topic": "polynesian navigation",
+      "source": "https://www.britannica.com/topic/Polynesian-culture"
+    },
+    {
+      "id": "history-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What did Columbus get badly wrong when he planned his westward voyage of 1492?", "es": "¿En qué se equivocó mucho Colón al planear su viaje hacia el oeste de 1492?" },
+      "choices": [
+        { "en": "He thought the ocean had no currents", "es": "Creía que el océano carecía de corrientes" },
+        { "en": "He thought Asia lay south of Europe", "es": "Creía que Asia quedaba al sur de Europa" },
+        { "en": "He thought Earth was far smaller than it is", "es": "Creía que la Tierra era mucho más pequeña de lo que es" },
+        { "en": "He thought the sea grew hotter westward", "es": "Creía que el mar se calentaba hacia el oeste" }
+      ],
+      "answer": 2,
+      "why": { "en": "Educated Europeans had known Earth was round since ancient Greece; Columbus simply underestimated its size by about a quarter and met unexpected land.", "es": "Los europeos cultos sabían desde la antigua Grecia que la Tierra era redonda; Colón solo calculó su tamaño casi un cuarto menor." },
+      "topic": "age of exploration",
+      "source": "https://www.britannica.com/biography/Christopher-Columbus"
+    },
+    {
+      "id": "history-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛴️",
+      "q": { "en": "Which sailing advance let Portuguese caravels work back north against the winds along Africa's coast?", "es": "¿Qué avance náutico permitió a las carabelas portuguesas volver al norte contra el viento junto a África?" },
+      "choices": [
+        { "en": "The square mainsail", "es": "La vela mayor cuadrada" },
+        { "en": "The iron anchor chain", "es": "La cadena de ancla de hierro" },
+        { "en": "The deep iron keel", "es": "La quilla profunda de hierro" },
+        { "en": "The triangular lateen sail", "es": "La vela latina triangular" }
+      ],
+      "answer": 3,
+      "why": { "en": "A triangular lateen sail lets a caravel sail closer to the wind, so crews could zigzag home instead of drifting ever southward.", "es": "La vela latina triangular permitía a la carabela ceñir el viento, así la tripulación podía zigzaguear de regreso en vez de seguir al sur." },
+      "topic": "age of exploration",
+      "source": "https://www.britannica.com/technology/caravel"
+    },
+    {
+      "id": "history-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "Which cause did most to bring down the Aztec and Inca empires within a few decades?", "es": "¿Qué causa derrumbó más que ninguna otra a los imperios azteca e inca en pocas décadas?" },
+      "choices": [
+        { "en": "Diseases carried from Europe", "es": "Las enfermedades traídas de Europa" },
+        { "en": "The horses the newcomers rode", "es": "Los caballos que montaban los recién llegados" },
+        { "en": "Alliances with unhappy neighbours", "es": "Las alianzas con vecinos descontentos" },
+        { "en": "Better metal tools and armour", "es": "Las mejores herramientas y armaduras de metal" }
+      ],
+      "answer": 0,
+      "why": { "en": "Smallpox reached the Andes before the Spanish did, emptying whole cities and leaving two royal brothers fighting each other for the throne.", "es": "La viruela llegó a los Andes antes que los españoles, vació ciudades y dejó a dos hermanos reales peleando por el trono." },
+      "topic": "conquest of the americas",
+      "source": "https://www.britannica.com/topic/Inca"
+    },
+    {
+      "id": "history-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤝",
+      "q": { "en": "Which people joined Cortés in huge numbers because they resented paying tribute to the Aztecs?", "es": "¿Qué pueblo se unió en gran número a Cortés porque odiaba pagar tributo a los aztecas?" },
+      "choices": [
+        { "en": "The Mixtecs", "es": "Los mixtecos" },
+        { "en": "The Tlaxcalans", "es": "Los tlaxcaltecas" },
+        { "en": "The Purépecha", "es": "Los purépechas" },
+        { "en": "The Zapotecs", "es": "Los zapotecos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tlaxcala had stayed independent and hated paying tribute; tens of thousands of its fighters marched with the Spanish into Tenochtitlán in 1521.", "es": "Tlaxcala seguía independiente y odiaba pagar tributo; decenas de miles de sus guerreros marcharon con los españoles hacia Tenochtitlán en 1521." },
+      "topic": "conquest of the americas",
+      "source": "https://www.britannica.com/biography/Hernan-Cortes"
+    },
+    {
+      "id": "history-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "Why did ridden horses startle the armies that first met Europeans in the Americas?", "es": "¿Por qué asombraban los caballos montados a los ejércitos que enfrentaron por primera vez a los europeos en América?" },
+      "choices": [
+        { "en": "Horses could outrun any animal in the Andes", "es": "Los caballos corrían más que cualquier animal andino" },
+        { "en": "Horses carried messages faster than runners", "es": "Los caballos llevaban mensajes más rápido que los chasquis" },
+        { "en": "Nobody there had seen a person riding an animal", "es": "Allí nadie había visto a una persona montando un animal" },
+        { "en": "Horses crossed rivers that canoes avoided", "es": "Los caballos cruzaban ríos que las canoas evitaban" }
+      ],
+      "answer": 2,
+      "why": { "en": "American horses had died out long before, so a rider was a startling sight; within a century wild herds spread across the plains.", "es": "Los caballos americanos se habían extinguido mucho antes, así que un jinete asombraba; en un siglo manadas salvajes recorrían las praderas." },
+      "topic": "conquest of the americas",
+      "source": "https://www.britannica.com/animal/horse"
+    },
+    {
+      "id": "history-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "In which year did the Inca capital of Cusco fall to a Spanish force and its allies?", "es": "¿En qué año cayó Cusco, la capital inca, ante una fuerza española y sus aliados?" },
+      "choices": [
+        { "en": "1492", "es": "1492" },
+        { "en": "1521", "es": "1521" },
+        { "en": "1572", "es": "1572" },
+        { "en": "1533", "es": "1533" }
+      ],
+      "answer": 3,
+      "why": { "en": "Atahualpa was seized at Cajamarca in 1532, Cusco fell the next year, and a mountain state at Vilcabamba held out until 1572.", "es": "Atahualpa fue capturado en Cajamarca en 1532, Cusco cayó al año siguiente y un estado andino en Vilcabamba resistió hasta 1572." },
+      "topic": "inca empire",
+      "source": "https://www.britannica.com/biography/Atahuallpa"
+    },
+    {
+      "id": "history-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥇",
+      "q": { "en": "In which year were the first modern Olympic Games held in Athens?", "es": "¿En qué año se celebraron en Atenas los primeros juegos olímpicos modernos?" },
+      "choices": [
+        { "en": "1896", "es": "1896" },
+        { "en": "1889", "es": "1889" },
+        { "en": "1900", "es": "1900" },
+        { "en": "1912", "es": "1912" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pierre de Coubertin revived the games in 1896; fourteen nations sent about 240 athletes, all of them men, to a marble stadium.", "es": "Pierre de Coubertin revivió los juegos en 1896; catorce países mandaron unos 240 atletas, todos hombres, a un estadio de mármol." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "history-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "For about how many centuries were the ancient Olympic Games held before they stopped?", "es": "¿Durante cuántos siglos se celebraron los juegos olímpicos antiguos antes de terminar?" },
+      "choices": [
+        { "en": "About three centuries", "es": "Unos tres siglos" },
+        { "en": "About six centuries", "es": "Unos seis siglos" },
+        { "en": "About twelve centuries", "es": "Unos doce siglos" },
+        { "en": "About twenty centuries", "es": "Unos veinte siglos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Held every four years from 776 BC until about AD 393, the games ran nearly twelve centuries before a Roman emperor stopped them.", "es": "Se celebraron cada cuatro años desde 776 a.C. hasta cerca del 393 d.C., casi doce siglos, hasta que un emperador romano los prohibió." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "history-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "Which event of the modern Olympic Games was invented in 1896 rather than copied from ancient Greece?", "es": "¿Qué prueba de los juegos olímpicos modernos se inventó en 1896 en vez de copiarse de la antigua Grecia?" },
+      "choices": [
+        { "en": "The discus throw", "es": "El lanzamiento de disco" },
+        { "en": "Wrestling", "es": "La lucha" },
+        { "en": "The long jump", "es": "El salto de longitud" },
+        { "en": "The marathon", "es": "El maratón" }
+      ],
+      "answer": 3,
+      "why": { "en": "The marathon honours a legend about a runner carrying news to Athens; its distance was fixed at 42.195 kilometres, 26.2 miles, in 1921.", "es": "El maratón recuerda la leyenda de un corredor que llevó noticias a Atenas; su distancia se fijó en 42.195 kilómetros, 26.2 millas, en 1921." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/marathon-race"
     }
   ]
 }

@@ -3176,6 +3176,894 @@
       "why": { "en": "False: very strong acids can measure below 0 and concentrated lye above 14; that range simply covers ordinary solutions in water.", "es": "Falso: los ácidos muy fuertes pueden marcar menos de 0 y la sosa concentrada más de 14; ese rango solo cubre soluciones acuosas comunes." },
       "topic": "acids and bases",
       "source": "https://www.britannica.com/science/pH"
+    },
+    {
+      "id": "science-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪟",
+      "q": { "en": "Why does light pass straight through window glass instead of being absorbed the way a brick absorbs it?", "es": "¿Por qué la luz atraviesa el vidrio de una ventana en lugar de ser absorbida como en un ladrillo?" },
+      "choices": [
+        { "en": "Its electrons cannot absorb the energy that visible light carries", "es": "Sus electrones no pueden absorber la energía que trae la luz visible" },
+        { "en": "Its atoms sit too far apart to touch the light", "es": "Sus átomos están demasiado separados para tocar la luz" },
+        { "en": "It is really a liquid that slowly flows downward", "es": "En realidad es un líquido que fluye despacio hacia abajo" },
+        { "en": "Its smooth surface reflects every colour equally", "es": "Su superficie lisa refleja todos los colores por igual" }
+      ],
+      "answer": 0,
+      "why": { "en": "Glass electrons need more energy than visible light carries, so light passes untouched; ultraviolet light is absorbed, which is why glass blocks sunburn.", "es": "Los electrones del vidrio necesitan más energía de la que trae la luz visible, así que pasa intacta; el vidrio sí absorbe la ultravioleta." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/technology/glass"
+    },
+    {
+      "id": "science-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "Why does a polished sheet of metal shine while a sheet of wood stays dull?", "es": "¿Por qué brilla una lámina de metal pulido mientras una tabla de madera se queda opaca?" },
+      "choices": [
+        { "en": "Metal is far harder than wood", "es": "El metal es mucho más duro que la madera" },
+        { "en": "Loose electrons on the surface throw the light straight back", "es": "Los electrones sueltos de la superficie devuelven la luz de inmediato" },
+        { "en": "Metal is denser, so light cannot enter it", "es": "El metal es más denso, así que la luz no entra" },
+        { "en": "Metal is cooler and reflects heat instead of light", "es": "El metal es más frío y refleja calor en vez de luz" }
+      ],
+      "answer": 1,
+      "why": { "en": "Metals share a sea of loose electrons that soaks up light and instantly re-emits it, sending nearly every colour back as a mirror image.", "es": "Los metales comparten un mar de electrones sueltos que absorben la luz y la devuelven al instante, regresando todos los colores como un espejo." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/science/metallic-bond"
+    },
+    {
+      "id": "science-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎗️",
+      "q": { "en": "Why does a rubber band snap back to its old length after you stretch it?", "es": "¿Por qué una liga vuelve a su tamaño original después de que la estiras?" },
+      "choices": [
+        { "en": "Metal fibres inside it act like tiny springs", "es": "Unas fibras de metal adentro actúan como resortes diminutos" },
+        { "en": "Stretching cools it, and cooling shrinks the band", "es": "Estirarla la enfría, y el frío encoge la liga" },
+        { "en": "Its tangled long molecules straighten out, then coil up again", "es": "Sus moléculas largas y enredadas se estiran y luego se enrollan otra vez" },
+        { "en": "Air trapped inside the rubber pushes the ends together", "es": "El aire atrapado en el hule junta las puntas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rubber is a tangle of long molecules linked at points by sulfur; stretching uncoils them, and heat jiggling coils them back up.", "es": "El hule es una maraña de moléculas largas unidas por azufre; estirarlas las desenrolla, y el movimiento del calor vuelve a enrollarlas." },
+      "topic": "polymers",
+      "source": "https://www.britannica.com/science/rubber-chemical-compound"
+    },
+    {
+      "id": "science-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "What do nylon, starch and a plastic bottle have in common as molecules?", "es": "¿Qué tienen en común el nailon, el almidón y una botella de plástico como moléculas?" },
+      "choices": [
+        { "en": "They all carry metal atoms in a ring", "es": "Todos llevan átomos de metal en un anillo" },
+        { "en": "They are all single small molecules", "es": "Todos son moléculas pequeñas y sueltas" },
+        { "en": "They all dissolve easily in water", "es": "Todos se disuelven fácilmente en agua" },
+        { "en": "They are long chains of repeating units", "es": "Son cadenas largas de unidades que se repiten" }
+      ],
+      "answer": 3,
+      "why": { "en": "A polymer strings small units called monomers into a long chain; starch is a chain of sugars, and nylon is fully human-made.", "es": "Un polímero une unidades pequeñas llamadas monómeros en una cadena larga; el almidón es una cadena de azúcares y el nailon es totalmente artificial." },
+      "topic": "polymers",
+      "source": "https://www.britannica.com/science/polymer"
+    },
+    {
+      "id": "science-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "Steel is mostly iron. Which element, added in small amounts, makes it hard?", "es": "El acero es casi todo hierro. ¿Qué elemento, en pequeñas cantidades, lo vuelve duro?" },
+      "choices": [
+        { "en": "Carbon", "es": "Carbono" },
+        { "en": "Aluminium", "es": "Aluminio" },
+        { "en": "Zinc", "es": "Zinc" },
+        { "en": "Silicon", "es": "Silicio" }
+      ],
+      "answer": 0,
+      "why": { "en": "Adding a little carbon, under two percent, blocks iron layers from sliding past each other, turning soft iron into steel strong enough for bridges.", "es": "Agregar un poco de carbono, menos del dos por ciento, impide que las capas de hierro se deslicen y así nace el acero." },
+      "topic": "alloys",
+      "source": "https://www.britannica.com/technology/steel"
+    },
+    {
+      "id": "science-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥉",
+      "q": { "en": "Why is bronze harder than the pure copper it is mostly made of?", "es": "¿Por qué el bronce es más duro que el cobre del que está hecho casi por completo?" },
+      "choices": [
+        { "en": "Bronze atoms are heavier and press down harder", "es": "Los átomos del bronce pesan más y aprietan más fuerte" },
+        { "en": "Tin atoms of a different size block copper layers from sliding", "es": "Los átomos de estaño, de otro tamaño, traban las capas de cobre" },
+        { "en": "Bronze holds tiny air pockets that absorb blows", "es": "El bronce guarda burbujas de aire que absorben los golpes" },
+        { "en": "Melting copper twice rearranges it into a crystal", "es": "Fundir el cobre dos veces lo reacomoda en un cristal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pure metals bend because flat layers of same-sized atoms slide; mixing in odd-sized atoms jams those layers, which is why alloys beat pure metals.", "es": "Los metales puros se doblan porque capas de átomos iguales se deslizan; al mezclar átomos de otro tamaño esas capas se traban." },
+      "topic": "alloys",
+      "source": "https://www.britannica.com/technology/bronze-alloy"
+    },
+    {
+      "id": "science-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛞",
+      "q": { "en": "Charles Goodyear heated natural rubber with sulfur. What problem did that treatment fix?", "es": "Charles Goodyear calentó hule natural con azufre. ¿Qué problema resolvió ese tratamiento?" },
+      "choices": [
+        { "en": "It made the rubber carry electricity", "es": "Hizo que el hule condujera electricidad" },
+        { "en": "It turned the rubber clear instead of brown", "es": "Volvió el hule transparente en vez de café" },
+        { "en": "It stopped rubber going sticky in heat and brittle in cold", "es": "Evitó que el hule se pusiera pegajoso con calor y quebradizo con frío" },
+        { "en": "It let rubber float on water for the first time", "es": "Permitió que el hule flotara en el agua por primera vez" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sulfur bridges lock the rubber chains together, a process called vulcanization; raw rubber melts on a hot day and cracks on a freezing one.", "es": "Los puentes de azufre amarran las cadenas del hule, algo llamado vulcanización; el hule crudo se derrite con calor y se quiebra con frío." },
+      "topic": "polymers",
+      "source": "https://www.britannica.com/technology/vulcanization"
+    },
+    {
+      "id": "science-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍴",
+      "q": { "en": "Why does stainless steel resist rust while ordinary steel flakes away?", "es": "¿Por qué el acero inoxidable resiste la herrumbre mientras el acero común se descascara?" },
+      "choices": [
+        { "en": "A thin coat of gold is added at the factory", "es": "En la fábrica le ponen una capa delgada de oro" },
+        { "en": "Its surface is polished so smooth that water rolls off", "es": "Su superficie está tan pulida que el agua resbala" },
+        { "en": "Oil from the factory soaks deep into the metal", "es": "El aceite de la fábrica se mete hondo en el metal" },
+        { "en": "Chromium forms an invisible oxide skin that seals the surface", "es": "El cromo forma una piel invisible de óxido que sella la superficie" }
+      ],
+      "answer": 3,
+      "why": { "en": "About a tenth of stainless steel is chromium, which grabs oxygen first and builds an invisible skin that heals itself whenever it gets scratched.", "es": "Una décima parte del acero inoxidable es cromo, que atrapa el oxígeno primero y forma una piel invisible que se repara sola al rayarse." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/technology/stainless-steel"
+    },
+    {
+      "id": "science-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Which side of the fire triangle does a wet blanket remove when it is thrown over a burning pan?", "es": "¿Cuál lado del triángulo del fuego quita una manta mojada echada sobre un sartén en llamas?" },
+      "choices": [
+        { "en": "Oxygen", "es": "El oxígeno" },
+        { "en": "Fuel", "es": "El combustible" },
+        { "en": "Heat", "es": "El calor" },
+        { "en": "Smoke", "es": "El humo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fire needs fuel, heat and oxygen; a blanket cuts off the air, which is why a pan lid smothers a flame in seconds.", "es": "El fuego necesita combustible, calor y oxígeno; la manta corta el aire, por eso la tapa de una olla apaga la llama en segundos." },
+      "topic": "fire",
+      "source": "https://www.britannica.com/science/fire-combustion"
+    },
+    {
+      "id": "science-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚗️",
+      "q": { "en": "How does a catalyst make a chemical reaction run faster?", "es": "¿Cómo logra un catalizador que una reacción química ocurra más rápido?" },
+      "choices": [
+        { "en": "It adds extra heat to the mixture", "es": "Le agrega calor extra a la mezcla" },
+        { "en": "It offers an easier path that needs less energy to start", "es": "Ofrece un camino más fácil que necesita menos energía para arrancar" },
+        { "en": "It is used up and becomes part of the product", "es": "Se gasta y se vuelve parte del producto" },
+        { "en": "It squeezes the molecules closer together", "es": "Aprieta las moléculas para juntarlas más" }
+      ],
+      "answer": 1,
+      "why": { "en": "A catalyst lowers the activation energy, the push a reaction needs to begin, and comes out unchanged, so a pinch can work all day.", "es": "El catalizador baja la energía de activación, el empujón que una reacción necesita para comenzar, y sale intacto, así que una pizca dura mucho." },
+      "topic": "catalysts",
+      "source": "https://www.britannica.com/science/catalyst"
+    },
+    {
+      "id": "science-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "Which metals work inside a car's catalytic converter, cleaning the exhaust?", "es": "¿Qué metales trabajan dentro del convertidor catalítico de un carro limpiando el escape?" },
+      "choices": [
+        { "en": "Iron and zinc", "es": "Hierro y zinc" },
+        { "en": "Copper and tin", "es": "Cobre y estaño" },
+        { "en": "Platinum and palladium", "es": "Platino y paladio" },
+        { "en": "Aluminium and lead", "es": "Aluminio y plomo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Platinum and palladium turn poisonous carbon monoxide into carbon dioxide as the exhaust rushes past, and the metals leave the reaction untouched.", "es": "El platino y el paladio convierten el venenoso monóxido de carbono en dióxido de carbono mientras pasa el escape, y los metales salen intactos." },
+      "topic": "catalysts",
+      "source": "https://www.britannica.com/technology/catalytic-converter"
+    },
+    {
+      "id": "science-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "Chew a piece of plain bread for a minute and it starts to taste sweet. Why?", "es": "Masticas pan simple por un minuto y empieza a saber dulce. ¿Por qué?" },
+      "choices": [
+        { "en": "Your tongue warms the bread and melts its sugar", "es": "Tu lengua calienta el pan y derrite su azúcar" },
+        { "en": "Air turns the crust into caramel while you chew", "es": "El aire vuelve caramelo la corteza mientras masticas" },
+        { "en": "Saliva washes away the salt that hid the sweetness", "es": "La saliva se lleva la sal que escondía el dulzor" },
+        { "en": "An enzyme in saliva cuts starch into sugar molecules", "es": "Una enzima de la saliva corta el almidón en moléculas de azúcar" }
+      ],
+      "answer": 3,
+      "why": { "en": "Amylase, an enzyme in your spit, is a catalyst that snips long starch chains into maltose sugar, beginning digestion before you even swallow.", "es": "La amilasa, una enzima de tu saliva, es un catalizador que corta el almidón en azúcar y empieza la digestión antes de tragar." },
+      "topic": "body chemistry",
+      "source": "https://medlineplus.gov/ency/article/002353.htm"
+    },
+    {
+      "id": "science-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Carbon dating rests on carbon-14. About how long is its half-life?", "es": "El fechado por carbono se basa en el carbono-14. ¿Cuál es su vida media aproximada?" },
+      "choices": [
+        { "en": "About 5730 years", "es": "Unos 5730 años" },
+        { "en": "About 700 years", "es": "Unos 700 años" },
+        { "en": "About 1 million years", "es": "Cerca de 1 millón de años" },
+        { "en": "About 50,000 years", "es": "Unos 50,000 años" }
+      ],
+      "answer": 0,
+      "why": { "en": "Half the carbon-14 in a sample decays every 5730 years, so bones and charcoal up to about 50,000 years old can be dated.", "es": "La mitad del carbono-14 de una muestra se desintegra cada 5730 años, así que se pueden fechar huesos y carbón de hasta 50,000 años." },
+      "topic": "half-life",
+      "source": "https://www.britannica.com/science/carbon-14"
+    },
+    {
+      "id": "science-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "A sample sits for exactly two half-lives. How much of the original material is left?", "es": "Una muestra pasa exactamente dos vidas medias. ¿Cuánto material original queda?" },
+      "choices": [
+        { "en": "Nothing at all", "es": "Nada" },
+        { "en": "One quarter", "es": "Una cuarta parte" },
+        { "en": "One half", "es": "La mitad" },
+        { "en": "One eighth", "es": "Una octava parte" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each half-life halves what is left, so two halvings leave a quarter; after ten half-lives under a thousandth of the sample survives.", "es": "Cada vida media reduce a la mitad lo que queda, así que dos dejan una cuarta parte; tras diez queda menos de una milésima." },
+      "topic": "half-life",
+      "source": "https://www.britannica.com/science/half-life-radioactivity"
+    },
+    {
+      "id": "science-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥪",
+      "q": { "en": "Toast turns brown and smells wonderful. Which reaction between sugars and proteins does that?", "es": "El pan tostado se dora y huele delicioso. ¿Qué reacción entre azúcares y proteínas hace eso?" },
+      "choices": [
+        { "en": "Oxidation", "es": "La oxidación" },
+        { "en": "Caramelisation", "es": "La caramelización" },
+        { "en": "The Maillard reaction", "es": "La reacción de Maillard" },
+        { "en": "Fermentation", "es": "La fermentación" }
+      ],
+      "answer": 2,
+      "why": { "en": "Named for French chemist Louis-Camille Maillard, this reaction joins sugars and amino acids above roughly 140 °C, 285 °F, creating hundreds of flavour molecules.", "es": "Lleva el nombre del químico francés Louis-Camille Maillard; une azúcares y aminoácidos arriba de unos 140 °C, 285 °F, y crea cientos de sabores." },
+      "topic": "kitchen chemistry",
+      "source": "https://www.britannica.com/science/Maillard-reaction"
+    },
+    {
+      "id": "science-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍮",
+      "q": { "en": "Melting plain sugar in a dry pan turns it amber. What is that browning called?", "es": "Derretir azúcar sola en un sartén seco la vuelve ámbar. ¿Cómo se llama ese dorado?" },
+      "choices": [
+        { "en": "The Maillard reaction", "es": "La reacción de Maillard" },
+        { "en": "Oxidation", "es": "La oxidación" },
+        { "en": "Denaturing", "es": "La desnaturalización" },
+        { "en": "Caramelisation", "es": "La caramelización" }
+      ],
+      "answer": 3,
+      "why": { "en": "Caramelisation breaks sugar alone into bitter and fruity fragments near 160 °C, 320 °F, while the Maillard reaction also needs protein to join in.", "es": "La caramelización rompe el azúcar sola en trozos amargos y frutales cerca de 160 °C, 320 °F; la reacción de Maillard además necesita proteína." },
+      "topic": "kitchen chemistry",
+      "source": "https://www.britannica.com/topic/caramel"
+    },
+    {
+      "id": "science-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥖",
+      "q": { "en": "Yeast makes bread dough rise. Besides carbon dioxide, what else does the yeast produce?", "es": "La levadura hace crecer la masa del pan. Además de dióxido de carbono, ¿qué más produce?" },
+      "choices": [
+        { "en": "Alcohol, which bakes away in the oven", "es": "Alcohol, que se evapora en el horno" },
+        { "en": "Pure oxygen, which the dough traps", "es": "Oxígeno puro, que la masa atrapa" },
+        { "en": "Salt crystals that season the loaf", "es": "Cristales de sal que sazonan el pan" },
+        { "en": "Water that keeps the crumb soft", "es": "Agua que mantiene suave la miga" }
+      ],
+      "answer": 0,
+      "why": { "en": "Yeast fermentation splits sugar into carbon dioxide and ethanol; the gas inflates the gluten net and the alcohol boils off while the loaf bakes.", "es": "La levadura fermenta el azúcar en dióxido de carbono y etanol; el gas infla la red de gluten y el alcohol se evapora." },
+      "topic": "fermentation",
+      "source": "https://www.britannica.com/topic/bread"
+    },
+    {
+      "id": "science-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧀",
+      "q": { "en": "Cheesemakers add rennet to warm milk. What does it do to the milk protein?", "es": "Los queseros agregan cuajo a la leche tibia. ¿Qué le hace a la proteína de la leche?" },
+      "choices": [
+        { "en": "It dissolves the protein into the liquid", "es": "Disuelve la proteína en el líquido" },
+        { "en": "It clips the protein so the pieces clump into curds", "es": "Corta la proteína y los pedazos se juntan en cuajada" },
+        { "en": "It turns the protein into sugar", "es": "Convierte la proteína en azúcar" },
+        { "en": "It coats the protein so it will keep longer", "es": "Cubre la proteína para que dure más" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rennet holds an enzyme that snips casein molecules, letting them lock into a gel; the solid curds are pressed and the whey drains away.", "es": "El cuajo trae una enzima que corta la caseína y la deja unirse en un gel; la cuajada se prensa y el suero escurre." },
+      "topic": "fermentation",
+      "source": "https://www.britannica.com/topic/cheese"
+    },
+    {
+      "id": "science-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Why does yogurt taste sour when the milk it came from tasted sweet?", "es": "¿Por qué el yogur sabe agrio si la leche de la que viene sabía dulce?" },
+      "choices": [
+        { "en": "Sugar was taken out of the milk before it set", "es": "Le quitaron el azúcar a la leche antes de cuajar" },
+        { "en": "Heating milk turns its fat bitter over time", "es": "Calentar la leche vuelve amarga su grasa con el tiempo" },
+        { "en": "Bacteria turn milk sugar into lactic acid", "es": "Unas bacterias convierten el azúcar de la leche en ácido láctico" },
+        { "en": "Cooling the milk frees acid trapped in the fat", "es": "Enfriar la leche libera ácido atrapado en la grasa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lactobacillus bacteria eat lactose and give off lactic acid, which sours the milk and tangles its protein into a thick gel that keeps longer.", "es": "Las bacterias lactobacilos comen lactosa y sueltan ácido láctico, que acidifica la leche y enreda su proteína en un gel espeso que dura más." },
+      "topic": "fermentation",
+      "source": "https://www.britannica.com/topic/yogurt"
+    },
+    {
+      "id": "science-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍏",
+      "q": { "en": "A squeeze of lemon keeps sliced apple pale for hours. How does that work?", "es": "Unas gotas de limón mantienen pálida la manzana rebanada por horas. ¿Cómo funciona eso?" },
+      "choices": [
+        { "en": "The juice seals the cut with a waxy film", "es": "El jugo sella el corte con una película de cera" },
+        { "en": "The cold juice slows every reaction to a stop", "es": "El jugo frío frena todas las reacciones hasta detenerlas" },
+        { "en": "Sugar in the juice feeds the apple's cells", "es": "El azúcar del jugo alimenta las células de la manzana" },
+        { "en": "Its acid and vitamin C shut down the browning enzyme", "es": "Su ácido y su vitamina C apagan la enzima que oscurece" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cut fruit browns when an enzyme joins oxygen to plant chemicals; lemon acid stalls that enzyme, and vitamin C reverses the first brown products.", "es": "La fruta cortada se oscurece cuando una enzima une oxígeno con sustancias de la planta; el ácido del limón frena esa enzima." },
+      "topic": "kitchen chemistry",
+      "source": "https://www.britannica.com/science/enzyme"
+    },
+    {
+      "id": "science-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "Whose X-ray photograph of DNA gave Watson and Crick the clue to its helix shape?", "es": "¿De quién era la fotografía de rayos X del ADN que dio a Watson y Crick la pista de la hélice?" },
+      "choices": [
+        { "en": "Rosalind Franklin", "es": "Rosalind Franklin" },
+        { "en": "Barbara McClintock", "es": "Barbara McClintock" },
+        { "en": "Lise Meitner", "es": "Lise Meitner" },
+        { "en": "Dorothy Hodgkin", "es": "Dorothy Hodgkin" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rosalind Franklin's sharp X-ray image, known as Photo 51, showed the cross pattern a spiral makes, pinning down the double helix in 1953.", "es": "La imagen de rayos X de Rosalind Franklin, la Foto 51, mostró la cruz típica de una espiral y reveló la doble hélice." },
+      "topic": "dna",
+      "source": "https://www.nobelprize.org/prizes/medicine/1962/summary/"
+    },
+    {
+      "id": "science-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪜",
+      "q": { "en": "In the DNA ladder, which base always pairs with adenine?", "es": "En la escalera del ADN, ¿qué base se une siempre con la adenina?" },
+      "choices": [
+        { "en": "Guanine", "es": "Guanina" },
+        { "en": "Thymine", "es": "Timina" },
+        { "en": "Cytosine", "es": "Citosina" },
+        { "en": "Uracil", "es": "Uracilo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Adenine pairs with thymine and guanine with cytosine, so each strand carries a copy of the message and the ladder can unzip and rebuild.", "es": "La adenina se une con la timina y la guanina con la citosina, así cada hebra guarda el mensaje y la escalera puede copiarse." },
+      "topic": "dna",
+      "source": "https://www.britannica.com/science/DNA"
+    },
+    {
+      "id": "science-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "Which molecule gets split to release the oxygen a leaf gives off?", "es": "¿Qué molécula se parte para liberar el oxígeno que sale de una hoja?" },
+      "choices": [
+        { "en": "Carbon dioxide", "es": "El dióxido de carbono" },
+        { "en": "Sugar", "es": "El azúcar" },
+        { "en": "Water", "es": "El agua" },
+        { "en": "Chlorophyll", "es": "La clorofila" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sunlight splits water inside the leaf, freeing the oxygen we breathe; the carbon dioxide is saved to build the sugar the plant stores.", "es": "La luz del sol parte el agua de la hoja y libera el oxígeno que respiramos; el dióxido de carbono sirve para armar el azúcar." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/photosynthesis"
+    },
+    {
+      "id": "science-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "♻️",
+      "q": { "en": "Photosynthesis and cellular respiration are often called opposite reactions. Why?", "es": "La fotosíntesis y la respiración celular se llaman reacciones opuestas. ¿Por qué?" },
+      "choices": [
+        { "en": "One happens in daylight, the other only in darkness", "es": "Una ocurre de día y la otra solo en la oscuridad" },
+        { "en": "One occurs in plants, the other only in animals", "es": "Una ocurre en plantas y la otra solo en animales" },
+        { "en": "One builds proteins, the other breaks them down", "es": "Una arma proteínas y la otra las deshace" },
+        { "en": "One stores energy in sugar, the other releases it again", "es": "Una guarda energía en azúcar y la otra la libera de nuevo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Photosynthesis packs sunlight into sugar using carbon dioxide and water; respiration burns that sugar with oxygen and hands back carbon dioxide and water.", "es": "La fotosíntesis guarda la luz solar en azúcar usando dióxido de carbono y agua; la respiración quema ese azúcar con oxígeno y devuelve ambos." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/cellular-respiration"
+    },
+    {
+      "id": "science-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏅",
+      "q": { "en": "With which two scientists did Alexander Fleming share his 1945 Nobel Prize for penicillin?", "es": "¿Con cuáles dos científicos compartió Alexander Fleming su premio Nobel de 1945 por la penicilina?" },
+      "choices": [
+        { "en": "Howard Florey and Ernst Chain", "es": "Howard Florey y Ernst Chain" },
+        { "en": "Louis Pasteur and Robert Koch", "es": "Louis Pasteur y Robert Koch" },
+        { "en": "Paul Ehrlich and Élie Metchnikoff", "es": "Paul Ehrlich y Élie Metchnikoff" },
+        { "en": "Gerhard Domagk and Selman Waksman", "es": "Gerhard Domagk y Selman Waksman" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fleming spotted the mould in 1928, but Florey and Chain found how to purify penicillin in quantity, turning a curiosity into a medicine.", "es": "Fleming vio el moho en 1928, pero Florey y Chain hallaron cómo purificar la penicilina en grandes cantidades y volverla una medicina real." },
+      "topic": "famous scientists",
+      "source": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+    },
+    {
+      "id": "science-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤧",
+      "q": { "en": "Why does a doctor skip antibiotics when a patient has a common cold?", "es": "¿Por qué un doctor evita los antibióticos cuando un paciente tiene un resfriado común?" },
+      "choices": [
+        { "en": "Colds clear up before any medicine could act", "es": "El resfriado se quita antes de que la medicina actúe" },
+        { "en": "Antibiotics attack bacteria, and a cold is caused by a virus", "es": "Los antibióticos atacan bacterias, y el resfriado lo causa un virus" },
+        { "en": "Antibiotics work only in children", "es": "Los antibióticos solo funcionan en niños" },
+        { "en": "Cold germs live in the nose, where medicines cannot reach", "es": "Los gérmenes del resfriado viven en la nariz, adonde la medicina llega mal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Antibiotics wreck bacterial cell walls and machinery, but viruses hijack your own cells instead, so the medicine has nothing of its own to attack.", "es": "Los antibióticos dañan la pared de las bacterias, pero los virus usan tus propias células, así que la medicina se queda sin blanco." },
+      "topic": "antibiotics",
+      "source": "https://medlineplus.gov/antibiotics.html"
+    },
+    {
+      "id": "science-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "How do bacteria become resistant to an antibiotic that once killed them?", "es": "¿Cómo se vuelven las bacterias resistentes a un antibiótico que antes las mataba?" },
+      "choices": [
+        { "en": "Each bacterium learns to dodge the drug during its life", "es": "Cada bacteria aprende a esquivar el fármaco durante su vida" },
+        { "en": "The drug slowly weakens while it sits in the bottle", "es": "El fármaco se debilita despacio mientras espera en el frasco" },
+        { "en": "A few survivors with helpful mutations multiply and pass them on", "es": "Unas pocas sobrevivientes con mutaciones útiles se multiplican y las heredan" },
+        { "en": "Bacteria absorb the drug and store it as food", "es": "Las bacterias absorben el fármaco y lo guardan como alimento" }
+      ],
+      "answer": 2,
+      "why": { "en": "Resistance is evolution in fast motion: chance mutations let a few cells survive, and those survivors refill the whole population within hours.", "es": "La resistencia es evolución acelerada: mutaciones al azar dejan vivas a unas pocas células, y esas sobrevivientes repueblan toda la colonia en horas." },
+      "topic": "antibiotics",
+      "source": "https://www.niaid.nih.gov/research/antimicrobial-resistance"
+    },
+    {
+      "id": "science-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "Edward Jenner noticed that milkmaids who caught cowpox were spared which disease?", "es": "Edward Jenner notó que las ordeñadoras con viruela de vaca se libraban de, ¿cuál enfermedad?" },
+      "choices": [
+        { "en": "Cholera", "es": "El cólera" },
+        { "en": "Rabies", "es": "La rabia" },
+        { "en": "Polio", "es": "La polio" },
+        { "en": "Smallpox", "es": "La viruela" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cowpox is mild but close enough that the body learns to fight smallpox too; the word vaccine comes from vacca, Latin for cow.", "es": "La viruela de las vacas es leve pero parecida, así que el cuerpo aprende a combatir la viruela; vacuna viene de vacca, vaca en latín." },
+      "topic": "famous scientists",
+      "source": "https://www.britannica.com/biography/Edward-Jenner"
+    },
+    {
+      "id": "science-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "Pasteur boiled broth in flasks with long curved necks. What did that experiment settle?", "es": "Pasteur hirvió caldo en matraces de cuello largo y curvo. ¿Qué resolvió ese experimento?" },
+      "choices": [
+        { "en": "That microbes drift in from the air rather than appearing by themselves", "es": "Que los microbios llegan del aire en vez de aparecer solos" },
+        { "en": "That boiling makes broth more nourishing", "es": "Que hervir vuelve más nutritivo el caldo" },
+        { "en": "That the shape of glass changes how fast liquids cool", "es": "Que la forma del vidrio cambia qué tan rápido se enfría un líquido" },
+        { "en": "That microbes need sunlight in order to grow", "es": "Que los microbios necesitan luz solar para crecer" }
+      ],
+      "answer": 0,
+      "why": { "en": "Air reached the broth, but dust stuck in the bend, and the broth stayed clear for months, ending the old idea of spontaneous generation.", "es": "El aire llegaba al caldo, pero el polvo quedaba atrapado en la curva y el caldo siguió limpio meses, acabando con la generación espontánea." },
+      "topic": "famous experiments",
+      "source": "https://www.britannica.com/biography/Louis-Pasteur"
+    },
+    {
+      "id": "science-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "☢️",
+      "q": { "en": "Marie Curie won Nobel Prizes in two different sciences. Which two?", "es": "Marie Curie ganó premios Nobel en dos ciencias distintas. ¿Cuáles dos?" },
+      "choices": [
+        { "en": "Chemistry and medicine", "es": "Química y medicina" },
+        { "en": "Physics and chemistry", "es": "Física y química" },
+        { "en": "Physics and medicine", "es": "Física y medicina" },
+        { "en": "Chemistry and peace", "es": "Química y paz" }
+      ],
+      "answer": 1,
+      "why": { "en": "She shared the 1903 physics prize for radioactivity and won the 1911 chemistry prize alone for discovering polonium and radium, two new elements.", "es": "Compartió el premio de física de 1903 por radiactividad y ganó sola el de química de 1911 por descubrir el polonio y el radio." },
+      "topic": "famous scientists",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/"
+    },
+    {
+      "id": "science-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What did Eratosthenes compare in two Egyptian cities to measure the size of Earth?", "es": "¿Qué comparó Eratóstenes en dos ciudades egipcias para medir el tamaño de la Tierra?" },
+      "choices": [
+        { "en": "The depth of two wells", "es": "La profundidad de dos pozos" },
+        { "en": "The weight of two identical stones", "es": "El peso de dos piedras idénticas" },
+        { "en": "The length of shadows at noon on the same day", "es": "El largo de las sombras a mediodía el mismo día" },
+        { "en": "The time a ship took to sail between them", "es": "El tiempo que un barco tardaba en navegar entre ellas" }
+      ],
+      "answer": 2,
+      "why": { "en": "A stick in Alexandria cast a shadow while a well in Syene held none; that angle and the distance gave a nearly correct circumference.", "es": "Un palo en Alejandría daba sombra mientras un pozo en Siena no; ese ángulo y la distancia dieron una circunferencia casi exacta." },
+      "topic": "famous experiments",
+      "source": "https://www.britannica.com/biography/Eratosthenes"
+    },
+    {
+      "id": "science-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛳",
+      "q": { "en": "Galileo rolled balls down gentle ramps instead of dropping them. What was his reason?", "es": "Galileo rodó bolas por rampas suaves en vez de dejarlas caer. ¿Cuál fue su razón?" },
+      "choices": [
+        { "en": "Ramps made the balls move faster", "es": "Las rampas hacían que las bolas fueran más rápido" },
+        { "en": "He wanted to test how quickly ramps wear down", "es": "Quería probar qué tan rápido se desgastan las rampas" },
+        { "en": "Dropping the balls would have broken them", "es": "Dejarlas caer las habría roto" },
+        { "en": "Ramps slowed the motion enough for him to time it", "es": "La rampa frenaba el movimiento lo suficiente para medir el tiempo" }
+      ],
+      "answer": 3,
+      "why": { "en": "With only a water clock, free fall was far too quick to measure, so a ramp stretched the same pattern out into countable moments.", "es": "Con solo un reloj de agua, la caída era demasiado rápida para medirla, así que la rampa estiraba el mismo patrón en momentos contables." },
+      "topic": "famous experiments",
+      "source": "https://www.britannica.com/biography/Galileo-Galilei"
+    },
+    {
+      "id": "science-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "What actually pushes electrons out of a battery and around a circuit?", "es": "¿Qué empuja de verdad los electrones fuera de una pila y por el circuito?" },
+      "choices": [
+        { "en": "A chemical reaction pulling electrons from one metal to the other", "es": "Una reacción química que jala electrones de un metal al otro" },
+        { "en": "Electrons stored in the case at the factory", "es": "Electrones guardados en la carcasa desde la fábrica" },
+        { "en": "Magnets spinning inside the sealed can", "es": "Imanes que giran dentro de la lata sellada" },
+        { "en": "Heat from the device warming the battery", "es": "El calor del aparato que calienta la pila" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two different materials trade electrons through a paste, and the gap in their appetite for electrons drives the current until the chemicals run out.", "es": "Dos materiales distintos intercambian electrones a través de una pasta, y la diferencia de apetito por los electrones mueve la corriente hasta gastarse." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/battery-electronics"
+    },
+    {
+      "id": "science-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔌",
+      "q": { "en": "What makes a rechargeable battery different from a single-use one?", "es": "¿Qué hace diferente a una pila recargable de una de un solo uso?" },
+      "choices": [
+        { "en": "It holds far more chemicals in the same case", "es": "Guarda muchas más sustancias en la misma carcasa" },
+        { "en": "Its chemical reaction can be pushed backwards by electricity", "es": "Su reacción química puede empujarse al revés con electricidad" },
+        { "en": "It makes its own electricity from heat in the room", "es": "Genera su propia electricidad con el calor del cuarto" },
+        { "en": "It stores electrons in a spinning metal wheel", "es": "Guarda electrones en una rueda de metal que gira" }
+      ],
+      "answer": 1,
+      "why": { "en": "Charging shoves the reaction in reverse, rebuilding the chemicals; in a lithium battery the lithium ions simply slide back to the other electrode.", "es": "Cargar empuja la reacción al revés y rearma las sustancias; en una pila de litio los iones de litio simplemente regresan al otro electrodo." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/lithium-ion-battery"
+    },
+    {
+      "id": "science-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Inside a fridge, what does the refrigerant do as it passes through the cold coils?", "es": "Dentro del refrigerador, ¿qué hace el refrigerante al pasar por los serpentines fríos?" },
+      "choices": [
+        { "en": "It freezes solid and traps the warmth", "es": "Se congela y atrapa el calor" },
+        { "en": "It splits into two gases that cancel heat", "es": "Se divide en dos gases que anulan el calor" },
+        { "en": "It boils into gas, soaking up heat from the food", "es": "Hierve y se vuelve gas, absorbiendo el calor de la comida" },
+        { "en": "It spins fast enough to fling the heat outward", "es": "Gira tan rápido que lanza el calor hacia afuera" }
+      ],
+      "answer": 2,
+      "why": { "en": "Evaporating takes heat, the same reason wet skin feels cool; the compressor then squeezes that gas outside, where it condenses and dumps the heat.", "es": "Evaporarse quita calor, por eso la piel mojada se siente fría; el compresor aprieta ese gas afuera, donde se condensa y suelta el calor." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/refrigeration"
+    },
+    {
+      "id": "science-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "A phone finds your spot by comparing signals from at least how many satellites?", "es": "Un celular encuentra tu lugar comparando señales de al menos, ¿cuántos satélites?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Three satellites fix your spot and the fourth fixes the phone's clock, because a millionth of a second means 300 metres, 984 feet.", "es": "Tres satélites fijan tu lugar y el cuarto corrige el reloj del celular, porque una millonésima de segundo equivale a 300 metros, 984 pies." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/GPS"
+    },
+    {
+      "id": "science-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "Why does a phone screen ignore your finger through a thick wool glove?", "es": "¿Por qué la pantalla de un celular ignora tu dedo a través de un guante grueso de lana?" },
+      "choices": [
+        { "en": "The screen senses your body's charge, and wool blocks it", "es": "La pantalla siente la carga de tu cuerpo, y la lana la bloquea" },
+        { "en": "The screen measures the weight of the press", "es": "La pantalla mide el peso con que aprietas" },
+        { "en": "The glove is too warm for the sensor", "es": "El guante está demasiado caliente para el sensor" },
+        { "en": "The screen reads your fingerprint pattern first", "es": "La pantalla lee primero el dibujo de tu huella" }
+      ],
+      "answer": 0,
+      "why": { "en": "A capacitive screen holds a faint electric field; your salty, conducting body drags charge away at the touch point, and dry wool passes none.", "es": "La pantalla capacitiva mantiene un campo eléctrico leve; tu cuerpo salado conduce y se lleva carga, pero la lana seca no conduce." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/touch-screen"
+    },
+    {
+      "id": "science-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "An LED bulb stays cool while an old filament bulb burns your fingers. Why?", "es": "Un foco LED se queda frío mientras un foco de filamento te quema los dedos. ¿Por qué?" },
+      "choices": [
+        { "en": "The LED runs on a much higher voltage", "es": "El LED funciona con un voltaje mucho más alto" },
+        { "en": "The LED makes light directly, rather than by heating a wire white-hot", "es": "El LED hace luz directamente, sin calentar un alambre al rojo blanco" },
+        { "en": "The LED is filled with a cooling gas", "es": "El LED está lleno de un gas que enfría" },
+        { "en": "The LED shines in one colour, which takes less power", "es": "El LED brilla en un solo color, lo que gasta menos" }
+      ],
+      "answer": 1,
+      "why": { "en": "In a diode, electrons drop across an energy gap and release that step as a photon, so most power becomes light instead of heat.", "es": "En un diodo los electrones bajan un escalón de energía y sueltan ese salto como un fotón, así toda la energía se vuelve luz." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/LED"
+    },
+    {
+      "id": "science-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏎️",
+      "q": { "en": "In a four-stroke engine, which stroke actually shoves the piston and turns the wheels?", "es": "En un motor de cuatro tiempos, ¿cuál tiempo empuja de verdad el pistón y mueve las ruedas?" },
+      "choices": [
+        { "en": "Intake", "es": "La admisión" },
+        { "en": "Compression", "es": "La compresión" },
+        { "en": "Power", "es": "La potencia" },
+        { "en": "Exhaust", "es": "El escape" }
+      ],
+      "answer": 2,
+      "why": { "en": "Intake, compression, power and exhaust repeat, but only the burning fuel on the power stroke shoves the piston; a flywheel carries the other three.", "es": "Admisión, compresión, potencia y escape se repiten, pero solo el combustible ardiendo en la potencia empuja el pistón; un volante carga los otros tres." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/gasoline-engine"
+    },
+    {
+      "id": "science-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚚",
+      "q": { "en": "A diesel engine lights its fuel without a spark plug. What sets the fuel burning?", "es": "Un motor diésel enciende su combustible sin bujía. ¿Qué lo hace arder?" },
+      "choices": [
+        { "en": "A hot wire glowing in the cylinder all the time", "es": "Un alambre caliente que brilla siempre en el cilindro" },
+        { "en": "A chemical added to the fuel at the pump", "es": "Una sustancia que le agregan al combustible en la gasolinera" },
+        { "en": "Sunlight guided in through a small window", "es": "Luz del sol guiada por una ventanita" },
+        { "en": "Air squeezed so hard that it becomes scorching hot", "es": "Aire comprimido con tanta fuerza que se pone ardiente" }
+      ],
+      "answer": 3,
+      "why": { "en": "Squeezing air to a fraction of its volume can drive it past 500 °C, 930 °F, so injected diesel ignites the instant it arrives.", "es": "Comprimir aire a una fracción de su volumen lo lleva arriba de 500 °C, 930 °F, así que el diésel se enciende apenas entra." },
+      "topic": "how things work",
+      "source": "https://www.britannica.com/technology/diesel-engine"
+    },
+    {
+      "id": "science-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Chemists say like dissolves like. What does that rule compare?", "es": "Los químicos dicen que lo semejante disuelve a lo semejante. ¿Qué compara esa regla?" },
+      "choices": [
+        { "en": "Whether the molecules have a charged, lopsided shape", "es": "Si las moléculas tienen una forma despareja y con carga" },
+        { "en": "Whether the two substances weigh the same", "es": "Si las dos sustancias pesan lo mismo" },
+        { "en": "Whether both of them came from living things", "es": "Si las dos vienen de seres vivos" },
+        { "en": "Whether the two have matching colours", "es": "Si las dos tienen colores que combinan" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water molecules are lopsided, with slight plus and minus ends, so they surround other lopsided molecules like sugar and ignore even oils.", "es": "Las moléculas de agua son desiguales, con un lado positivo y otro negativo, así que rodean moléculas parecidas como el azúcar e ignoran aceites." },
+      "topic": "solubility",
+      "source": "https://www.britannica.com/science/solution-chemistry"
+    },
+    {
+      "id": "science-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "♨️",
+      "q": { "en": "Click the metal disc in a reusable hand warmer and it heats up. What happens inside?", "es": "Presionas el disco de metal de un calentador de manos reusable y se calienta. ¿Qué pasa adentro?" },
+      "choices": [
+        { "en": "A sealed acid and base finally mix together", "es": "Un ácido y una base selladas por fin se mezclan" },
+        { "en": "A crowded solution suddenly crystallises and releases stored heat", "es": "Una solución saturada cristaliza de golpe y suelta el calor guardado" },
+        { "en": "Tiny magnets rub against the pouch", "es": "Unos imanes diminutos rozan la bolsa" },
+        { "en": "Air leaks in and reacts with iron dust", "es": "Entra aire y reacciona con polvo de hierro" }
+      ],
+      "answer": 1,
+      "why": { "en": "The pouch holds sodium acetate dissolved beyond its limit; the click starts crystals growing, and forming crystals gives back the heat that dissolving took.", "es": "La bolsa lleva acetato de sodio disuelto más allá de su límite; el clic inicia cristales, y formarlos devuelve el calor que costó disolverlos." },
+      "topic": "solubility",
+      "source": "https://www.britannica.com/science/supersaturation"
+    },
+    {
+      "id": "science-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "Why does plain soap and water break apart many virus particles on your hands?", "es": "¿Por qué el jabón con agua desarma muchas partículas de virus en tus manos?" },
+      "choices": [
+        { "en": "Soap dries the virus out with its salt", "es": "El jabón reseca el virus con su sal" },
+        { "en": "Soap raises the water temperature sharply", "es": "El jabón sube mucho la temperatura del agua" },
+        { "en": "Soap tails pry apart the virus's fatty outer coat", "es": "Las colas del jabón abren la capa grasosa del virus" },
+        { "en": "Soap glues the particles into harmless lumps", "es": "El jabón pega las partículas en grumos inofensivos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Many viruses wear a greasy envelope; a soap molecule has a water-loving head and a grease-loving tail, and those tails wedge the coat apart.", "es": "Muchos virus llevan una envoltura grasosa; el jabón tiene una cabeza amante del agua y una cola amante de la grasa que la desarma." },
+      "topic": "soap and surfaces",
+      "source": "https://www.britannica.com/science/soap"
+    },
+    {
+      "id": "science-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚿",
+      "q": { "en": "In hard water, soap makes little lather and leaves a grey ring. Which minerals cause that?", "es": "En agua dura el jabón hace poca espuma y deja un anillo gris. ¿Qué minerales lo causan?" },
+      "choices": [
+        { "en": "Sodium and potassium", "es": "Sodio y potasio" },
+        { "en": "Iron and carbon", "es": "Hierro y carbono" },
+        { "en": "Chlorine and fluorine", "es": "Cloro y flúor" },
+        { "en": "Calcium and magnesium", "es": "Calcio y magnesio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Calcium and magnesium grab the soap molecules and drop out as a sticky solid, so detergents were designed with heads those minerals leave alone.", "es": "El calcio y el magnesio atrapan el jabón y caen como un sólido pegajoso; por eso los detergentes usan cabezas que esos minerales ignoran." },
+      "topic": "soap and surfaces",
+      "source": "https://www.britannica.com/science/hard-water"
+    },
+    {
+      "id": "science-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Mario Molina showed that one chlorine atom from a spray gas can wreck how many ozone molecules?", "es": "Mario Molina mostró que un átomo de cloro de un gas de aerosol puede destruir, ¿cuántas moléculas de ozono?" },
+      "choices": [
+        { "en": "Exactly one", "es": "Exactamente una" },
+        { "en": "Tens of thousands", "es": "Decenas de miles" },
+        { "en": "About ten", "es": "Unas diez" },
+        { "en": "About one hundred", "es": "Unas cien" }
+      ],
+      "answer": 1,
+      "why": { "en": "Chlorine acts as a catalyst: it splits ozone, then comes back unchanged to strike again, so a single atom destroys ozone for years.", "es": "El cloro actúa como catalizador: parte el ozono y regresa intacto para atacar otra vez, así que un solo átomo destruye ozono durante años." },
+      "topic": "latin american science",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1995/molina/facts/"
+    },
+    {
+      "id": "science-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧑‍🔬",
+      "q": { "en": "Mexican chemist Luis Miramontes was how old when he made the synthesis he is remembered for?", "es": "El químico mexicano Luis Miramontes tenía, ¿qué edad cuando hizo la síntesis por la que se le recuerda?" },
+      "choices": [
+        { "en": "19 years old", "es": "19 años" },
+        { "en": "26 years old", "es": "26 años" },
+        { "en": "40 years old", "es": "40 años" },
+        { "en": "52 years old", "es": "52 años" }
+      ],
+      "answer": 1,
+      "why": { "en": "In 1951, aged 26, Miramontes synthesised norethisterone in a Mexico City laboratory, a hormone medicine still on the world list of essential drugs.", "es": "En 1951, a los 26 años, Miramontes sintetizó la noretisterona en un laboratorio mexicano; sigue en la lista de medicamentos esenciales." },
+      "topic": "latin american science",
+      "source": "https://www.invent.org/inductees/luis-e-miramontes"
+    },
+    {
+      "id": "science-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "What must a scientific claim allow, according to Karl Popper?", "es": "Según Karl Popper, ¿qué debe permitir una afirmación científica?" },
+      "choices": [
+        { "en": "A vote among experts to approve it", "es": "Una votación de expertos que la apruebe" },
+        { "en": "A famous name standing behind it", "es": "Un nombre famoso que la respalde" },
+        { "en": "A possible result that would prove it wrong", "es": "Un resultado posible que la dejaría por falsa" },
+        { "en": "A mathematical formula in every case", "es": "Una fórmula matemática en todos los casos" }
+      ],
+      "answer": 2,
+      "why": { "en": "A claim that fits every imaginable outcome teaches nothing; usable science sticks its neck out and names the observation that would sink it.", "es": "Una afirmación que encaja con cualquier resultado no enseña nada; la ciencia útil se arriesga y dice qué observación la dejaría por falsa." },
+      "topic": "scientific method",
+      "source": "https://www.britannica.com/topic/falsifiability"
+    },
+    {
+      "id": "science-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "💊",
+      "q": { "en": "In a double-blind medicine trial, who is kept in the dark about who got the real pill?", "es": "En un ensayo doble ciego de medicinas, ¿quién queda sin saber a quién le tocó la pastilla real?" },
+      "choices": [
+        { "en": "Only the patients", "es": "Solo los pacientes" },
+        { "en": "Only the doctors", "es": "Solo los doctores" },
+        { "en": "Only the people who paid for the study", "es": "Solo quienes pagaron el estudio" },
+        { "en": "Both the patients and the staff treating them", "es": "Los pacientes y también el personal que los atiende" }
+      ],
+      "answer": 3,
+      "why": { "en": "Expectation shifts how people feel and how staff judge them, so hiding the assignment from both sides keeps hope from masquerading as a cure.", "es": "La expectativa cambia cómo se sienten los pacientes y cómo los juzga el personal; ocultarlo a ambos evita que la ilusión parezca cura." },
+      "topic": "scientific method",
+      "source": "https://www.nih.gov/health-information/nih-clinical-research-trials-you/glossary-clinical-trials-terms"
+    },
+    {
+      "id": "science-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍦",
+      "q": { "en": "Ice cream sales and sunburns rise together every summer. What does that pairing show?", "es": "Las ventas de helado y las quemaduras de sol suben juntas cada verano. ¿Qué muestra ese par?" },
+      "choices": [
+        { "en": "Something else, the hot sunshine, drives both", "es": "Otra cosa, el sol caliente, mueve a las dos" },
+        { "en": "Eating ice cream damages the skin", "es": "Comer helado daña la piel" },
+        { "en": "Sunburn makes people crave sugar", "es": "La quemadura de sol da antojo de azúcar" },
+        { "en": "The two numbers were measured wrongly", "es": "Los dos números se midieron mal" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two things rising together may share a hidden cause; scientists call it a confounding variable, and only an experiment can separate cause from company.", "es": "Dos cosas que suben juntas pueden compartir una causa oculta, llamada variable de confusión; solo un experimento controlado separa la causa de la coincidencia." },
+      "topic": "scientific method",
+      "source": "https://www.britannica.com/science/statistics"
+    },
+    {
+      "id": "science-hard-086", "level": "hard", "type": "tf", "lang": "both", "emoji": "📰",
+      "q": { "en": "Journals print a study exactly as written, leaving other scientists to check it afterwards.", "es": "Las revistas publican un estudio tal como se escribió y dejan que otros científicos lo revisen después." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Peer review comes first: specialists read the draft, demand more data or reject it, and many famous papers were turned down before publication.", "es": "La revisión por pares va antes: especialistas leen el borrador, piden más datos o lo rechazan, y varios artículos famosos fueron rechazados al principio." },
+      "topic": "scientific method",
+      "source": "https://www.britannica.com/topic/peer-review"
+    },
+    {
+      "id": "science-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Chocolate makers heat, cool and reheat chocolate carefully. What does that tempering control?", "es": "Los chocolateros calientan, enfrían y recalientan el chocolate con cuidado. ¿Qué controla ese templado?" },
+      "choices": [
+        { "en": "How much sugar dissolves in the mix", "es": "Cuánta azúcar se disuelve en la mezcla" },
+        { "en": "How much water stays in the bar", "es": "Cuánta agua se queda en la barra" },
+        { "en": "Which crystal form the cocoa butter takes", "es": "Qué forma de cristal toma la manteca de cacao" },
+        { "en": "How dark the colour of the bar turns out", "es": "Qué tan oscuro queda el color de la barra" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cocoa butter can set in six crystal forms, but only form five snaps cleanly and shines, so tempering seeds exactly that one.", "es": "La manteca de cacao puede cristalizar de seis formas, pero solo la quinta truena al partirse y brilla, y el templado siembra justo esa." },
+      "topic": "kitchen chemistry",
+      "source": "https://www.britannica.com/topic/chocolate"
+    },
+    {
+      "id": "science-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥐",
+      "q": { "en": "Bread left out goes hard within a day. What happens to its starch?", "es": "El pan que se deja afuera se endurece en un día. ¿Qué le pasa a su almidón?" },
+      "choices": [
+        { "en": "The starch burns slowly in the air", "es": "El almidón se quema despacio en el aire" },
+        { "en": "Bacteria eat the starch and leave holes", "es": "Unas bacterias se comen el almidón y dejan huecos" },
+        { "en": "The starch soaks up water from the room", "es": "El almidón absorbe agua del cuarto" },
+        { "en": "The starch molecules recrystallise and squeeze water out", "es": "Las moléculas de almidón se recristalizan y expulsan el agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Staling is retrogradation, starch chains lining back up; that is why warming a stale roll softens it again, while the fridge speeds staling up.", "es": "El endurecimiento se llama retrogradación: las cadenas de almidón se reordenan; por eso calentar el pan lo suaviza y el refrigerador lo endurece." },
+      "topic": "kitchen chemistry",
+      "source": "https://www.britannica.com/science/starch"
+    },
+    {
+      "id": "science-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which metal atom sits at the centre of the molecule that carries oxygen in your blood?", "es": "¿Qué átomo de metal está en el centro de la molécula que lleva oxígeno en tu sangre?" },
+      "choices": [
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Copper", "es": "Cobre" },
+        { "en": "Magnesium", "es": "Magnesio" },
+        { "en": "Zinc", "es": "Zinc" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each haemoglobin molecule holds four iron atoms that grip oxygen; a horseshoe crab uses copper instead, which is why its blood runs blue.", "es": "Cada molécula de hemoglobina lleva cuatro átomos de hierro que atrapan oxígeno; el cangrejo herradura usa cobre, por eso su sangre se ve azul." },
+      "topic": "body chemistry",
+      "source": "https://www.britannica.com/science/hemoglobin"
+    },
+    {
+      "id": "science-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Chlorophyll looks a lot like haemoglobin, but which metal atom sits in its centre?", "es": "La clorofila se parece mucho a la hemoglobina, pero ¿qué átomo de metal está en su centro?" },
+      "choices": [
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Magnesium", "es": "Magnesio" },
+        { "en": "Calcium", "es": "Calcio" },
+        { "en": "Copper", "es": "Cobre" }
+      ],
+      "answer": 1,
+      "why": { "en": "Swap the iron at the middle of haemoglobin for magnesium and you nearly have chlorophyll; the ring shape is one of biology's oldest designs.", "es": "Cambia el hierro del centro de la hemoglobina por magnesio y casi tienes clorofila; ese anillo compartido es uno de los diseños más antiguos." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/chlorophyll"
+    },
+    {
+      "id": "science-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "During an all-out sprint your muscles run short of oxygen. Which substance builds up?", "es": "En un sprint a fondo tus músculos se quedan cortos de oxígeno. ¿Qué sustancia se acumula?" },
+      "choices": [
+        { "en": "Carbon dioxide alone", "es": "Solo dióxido de carbono" },
+        { "en": "Ethanol", "es": "Etanol" },
+        { "en": "Lactate", "es": "Lactato" },
+        { "en": "Pure glucose", "es": "Glucosa pura" }
+      ],
+      "answer": 2,
+      "why": { "en": "Without enough oxygen, cells switch to fermentation and make lactate, which the liver and heart later burn as fuel rather than simply wasting it.", "es": "Sin oxígeno suficiente, las células cambian a fermentación y producen lactato, que el hígado y el corazón queman después como combustible." },
+      "topic": "body chemistry",
+      "source": "https://www.britannica.com/science/lactic-acid"
+    },
+    {
+      "id": "science-hard-092", "level": "hard", "type": "tf", "lang": "both", "emoji": "🥣",
+      "q": { "en": "Yogurt cultures ferment milk sugar into acid rather than alcohol.", "es": "Los cultivos del yogur fermentan el azúcar de la leche en ácido y no en alcohol." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Yeast fermentation makes alcohol, but yogurt bacteria make lactic acid and vinegar bacteria make acetic acid, so the product depends on the microbe.", "es": "La levadura da alcohol, pero las bacterias del yogur dan ácido láctico y las del vinagre dan ácido acético; el producto depende del microbio." },
+      "topic": "fermentation",
+      "source": "https://www.britannica.com/science/fermentation"
+    },
+    {
+      "id": "science-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪁",
+      "q": { "en": "Benjamin Franklin's kite experiment, as the story goes, was meant to show what about lightning?", "es": "El experimento del papalote de Benjamin Franklin, según la historia, buscaba mostrar ¿qué cosa sobre los rayos?" },
+      "choices": [
+        { "en": "That it always strikes the highest point", "es": "Que siempre caen en el punto más alto" },
+        { "en": "That it travels faster than sound", "es": "Que viajan más rápido que el sonido" },
+        { "en": "That it heats the air until the air glows", "es": "Que calientan el aire hasta hacerlo brillar" },
+        { "en": "That it is the same stuff as laboratory electricity", "es": "Que son lo mismo que la electricidad de laboratorio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Franklin argued that clouds carry electric charge, then built the lightning rod so a building's charge could slip safely down into the ground.", "es": "Franklin sostuvo que las nubes llevan carga y luego creó el pararrayos, para que la carga de un edificio baje segura hasta la tierra." },
+      "topic": "famous experiments",
+      "source": "https://www.britannica.com/biography/Benjamin-Franklin"
+    },
+    {
+      "id": "science-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍋",
+      "q": { "en": "James Lind gave sailors different treatments aboard ship. Which one cured their scurvy?", "es": "James Lind dio a unos marineros tratamientos distintos a bordo. ¿Cuál curó su escorbuto?" },
+      "choices": [
+        { "en": "Seawater", "es": "Agua de mar" },
+        { "en": "Vinegar", "es": "Vinagre" },
+        { "en": "Citrus fruit", "es": "Frutas cítricas" },
+        { "en": "Cider", "es": "Sidra" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lind ran one of the first controlled trials in 1747; oranges and lemons worked because scurvy is simply the body starving for vitamin C.", "es": "Lind hizo uno de los primeros ensayos controlados en 1747; las naranjas y los limones sirvieron porque el escorbuto es falta de vitamina C." },
+      "topic": "famous experiments",
+      "source": "https://www.britannica.com/biography/James-Lind"
+    },
+    {
+      "id": "science-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "A candle flame burns wax vapour. What job does the wick actually do?", "es": "La llama de una vela quema vapor de cera. ¿Qué trabajo hace en realidad el pabilo?" },
+      "choices": [
+        { "en": "It supplies the oxygen the flame needs", "es": "Provee el oxígeno que la llama necesita" },
+        { "en": "It is the fuel, and the wax only holds it upright", "es": "Es el combustible, y la cera solo lo sostiene parado" },
+        { "en": "It keeps the flame from spreading to the wax", "es": "Evita que la llama se pase a la cera" },
+        { "en": "It draws liquid wax up to where heat turns it to vapour", "es": "Sube la cera líquida hasta donde el calor la vuelve vapor" }
+      ],
+      "answer": 3,
+      "why": { "en": "Capillary action pulls melted wax up the fibres, heat boils it into gas, and that gas is what actually burns above the wick.", "es": "La capilaridad sube la cera por las fibras, el calor la convierte en gas, y ese gas es lo que arde sobre el pabilo." },
+      "topic": "fire",
+      "source": "https://www.britannica.com/technology/candle"
+    },
+    {
+      "id": "science-hard-096", "level": "hard", "type": "tf", "lang": "both", "emoji": "💎",
+      "q": { "en": "A diamond heated hot enough in oxygen will burn away into carbon dioxide gas.", "es": "Un diamante calentado lo suficiente en oxígeno se quema y se convierte en dióxido de carbono." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Diamond is pure carbon, so around 800 °C, 1470 °F, in oxygen it burns like charcoal and vanishes, leaving no ash behind at all.", "es": "El diamante es carbono puro, así que cerca de 800 °C, 1470 °F, en oxígeno arde como carbón y se va sin dejar ceniza." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/science/diamond-mineral"
+    },
+    {
+      "id": "science-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Stretched end to end, the DNA inside one human cell would measure about how long?", "es": "Estirado de punta a punta, el ADN de una célula humana mediría, ¿más o menos cuánto?" },
+      "choices": [
+        { "en": "About 2 millimetres", "es": "Unos 2 milímetros" },
+        { "en": "About 2 centimetres", "es": "Unos 2 centímetros" },
+        { "en": "About 2 metres, 6.5 feet", "es": "Unos 2 metros, 6.5 pies" },
+        { "en": "About 2 kilometres", "es": "Unos 2 kilómetros" }
+      ],
+      "answer": 2,
+      "why": { "en": "Three billion base pairs coil around proteins and fold again and again to fit a nucleus a hundredth of a millimetre wide.", "es": "Tres mil millones de pares de bases se enrollan en proteínas y se pliegan una y otra vez para caber en un núcleo diminuto." },
+      "topic": "dna",
+      "source": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid"
+    },
+    {
+      "id": "science-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "Why do sodium and potassium react so violently with water?", "es": "¿Por qué el sodio y el potasio reaccionan tan violentamente con el agua?" },
+      "choices": [
+        { "en": "They are the heaviest metals in the table", "es": "Son los metales más pesados de la tabla" },
+        { "en": "They hold water trapped inside their crystals", "es": "Guardan agua atrapada dentro de sus cristales" },
+        { "en": "They are magnetic and pull the water apart", "es": "Son magnéticos y separan el agua" },
+        { "en": "Each has a single outer electron it gives away easily", "es": "Cada uno tiene un solo electrón externo que regala con facilidad" }
+      ],
+      "answer": 3,
+      "why": { "en": "Group one metals shed that lone electron in an instant, freeing hydrogen gas and enough heat to light it; reactivity grows down the column.", "es": "Los metales del grupo uno sueltan ese único electrón al instante, liberan hidrógeno y calor suficiente para encenderlo; la reactividad crece hacia abajo." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/science/alkali-metal"
+    },
+    {
+      "id": "science-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "Which family of elements sits just before the noble gases and gives us table salt?", "es": "¿Qué familia de elementos está justo antes de los gases nobles y nos da la sal de mesa?" },
+      "choices": [
+        { "en": "The halogens", "es": "Los halógenos" },
+        { "en": "The alkali metals", "es": "Los metales alcalinos" },
+        { "en": "The transition metals", "es": "Los metales de transición" },
+        { "en": "The lanthanides", "es": "Los lantánidos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Halogen means salt-former in Greek; fluorine, chlorine, bromine and iodine each need one electron, so they grab it and bond hard with metals.", "es": "Halógeno significa formador de sal en griego; flúor, cloro, bromo y yodo necesitan un electrón y por eso se unen fuerte a los metales." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/science/halogen"
+    },
+    {
+      "id": "science-hard-100", "level": "hard", "type": "tf", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Adding a catalyst increases the amount of product a reaction finally produces.", "es": "Agregar un catalizador aumenta la cantidad de producto que una reacción llega a producir." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A catalyst changes the speed, and the finish line stays where it was; it gets you there sooner, and never gives you more product.", "es": "El catalizador cambia la rapidez, pero la meta queda en el mismo lugar: llegas antes, y jamás obtienes más producto del que había." },
+      "topic": "catalysts",
+      "source": "https://www.britannica.com/science/catalysis"
     }
   ]
 }

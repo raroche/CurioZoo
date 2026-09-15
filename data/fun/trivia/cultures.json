@@ -2714,6 +2714,886 @@
       "why": { "en": "Each town weaves its own huipil pattern, so the colors and designs on a blouse can tell you which village its wearer comes from.", "es": "Cada pueblo teje su propio diseño de huipil, así que los colores de una blusa dicen de qué aldea viene quien la lleva puesta." },
       "topic": "clothing around the world",
       "source": "https://folklife.si.edu/talkstory/maya-huipil-weaving"
+    },
+    {
+      "id": "cultures-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🀄",
+      "q": { "en": "Mandarin, Cantonese and Tibetan are grouped together in which language family?", "es": "¿En qué familia lingüística se agrupan el mandarín, el cantonés y el tibetano?" },
+      "choices": [
+        { "en": "Sino-Tibetan", "es": "Sinotibetana" },
+        { "en": "Austronesian", "es": "Austronesia" },
+        { "en": "Dravidian", "es": "Dravídica" },
+        { "en": "Uralic", "es": "Urálica" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sino-Tibetan covers Chinese and Tibetan tongues; a language family means languages that all descend from one older parent language.", "es": "El sinotibetano reúne las lenguas chinas y tibetanas; una familia lingüística agrupa idiomas que descienden de una misma lengua madre." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Sino-Tibetan-languages"
+    },
+    {
+      "id": "cultures-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Swahili, Zulu and Kikongo belong to which large African language group?", "es": "¿A qué gran grupo de lenguas africanas pertenecen el suajili, el zulú y el kikongo?" },
+      "choices": [
+        { "en": "Semitic", "es": "Semítico" },
+        { "en": "Bantu", "es": "Bantú" },
+        { "en": "Berber", "es": "Bereber" },
+        { "en": "Nilotic", "es": "Nilótico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bantu languages spread across central and southern Africa from one homeland near Cameroon, carried by farmers over roughly three thousand years.", "es": "Las lenguas bantúes se extendieron por África central y del sur desde un origen cerca de Camerún, llevadas por agricultores durante tres mil años." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Bantu-languages"
+    },
+    {
+      "id": "cultures-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔",
+      "q": { "en": "Quechua holds official status alongside Spanish in Peru, Bolivia and which other Andean country?", "es": "¿En qué otro país andino el quechua es oficial junto con el español, además de Perú y Bolivia?" },
+      "choices": [
+        { "en": "Chile", "es": "Chile" },
+        { "en": "Paraguay", "es": "Paraguay" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Colombia", "es": "Colombia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ecuador's constitution names Kichwa, its form of Quechua, an official language of intercultural relations, protecting a tongue the Inca spread across the Andes.", "es": "La constitución de Ecuador reconoce el kichwa, su variante del quechua, como idioma oficial de relación intercultural, protegiendo la lengua que difundieron los incas." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Quechuan-languages"
+    },
+    {
+      "id": "cultures-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Paraguay's 1992 constitution gave Guaraní which status?", "es": "¿Qué estatus le dio al guaraní la constitución de Paraguay de 1992?" },
+      "choices": [
+        { "en": "A school subject only", "es": "Solo una materia escolar" },
+        { "en": "A regional language of the east", "es": "Una lengua regional del oriente" },
+        { "en": "A language for official ceremonies", "es": "Una lengua para ceremonias oficiales" },
+        { "en": "An official language equal to Spanish", "es": "Idioma oficial igual que el español" }
+      ],
+      "answer": 3,
+      "why": { "en": "Guaraní is the only Indigenous American language that a whole country speaks across social classes, and Paraguay prints laws and school books in it.", "es": "El guaraní es la única lengua indígena americana que habla todo un país, y Paraguay publica leyes y libros escolares en ese idioma." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Guarani-language"
+    },
+    {
+      "id": "cultures-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "English, Dutch, German and Swedish all belong to which branch of Indo-European?", "es": "¿A qué rama del indoeuropeo pertenecen el inglés, el neerlandés, el alemán y el sueco?" },
+      "choices": [
+        { "en": "Germanic", "es": "Germánica" },
+        { "en": "Italic", "es": "Itálica" },
+        { "en": "Celtic", "es": "Celta" },
+        { "en": "Baltic", "es": "Báltica" }
+      ],
+      "answer": 0,
+      "why": { "en": "Germanic languages share a sound shift, studied by Jacob Grimm, that turned Indo-European p into f, so 'pater' became 'father'.", "es": "Las lenguas germánicas comparten un cambio de sonidos, descrito por Jacob Grimm, que convirtió la p indoeuropea en f: 'pater' se volvió 'father'." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Germanic-languages"
+    },
+    {
+      "id": "cultures-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺",
+      "q": { "en": "Polish, Czech, Russian and Serbian are all part of which language branch?", "es": "¿A qué rama lingüística pertenecen el polaco, el checo, el ruso y el serbio?" },
+      "choices": [
+        { "en": "Baltic", "es": "Báltica" },
+        { "en": "Slavic", "es": "Eslava" },
+        { "en": "Uralic", "es": "Urálica" },
+        { "en": "Turkic", "es": "Túrcica" }
+      ],
+      "answer": 1,
+      "why": { "en": "Slavic languages split into eastern, western and southern groups after speakers spread from a homeland near the Carpathian Mountains around fifteen hundred years ago.", "es": "Las lenguas eslavas se dividieron en grupos oriental, occidental y meridional cuando sus hablantes salieron de los montes Cárpatos hace unos mil quinientos años." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Slavic-languages"
+    },
+    {
+      "id": "cultures-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Which language of Europe has no known relatives in any language family?", "es": "¿Qué lengua de Europa carece de parientes conocidos en cualquier familia lingüística?" },
+      "choices": [
+        { "en": "Finnish", "es": "Finés" },
+        { "en": "Hungarian", "es": "Húngaro" },
+        { "en": "Basque", "es": "Euskera" },
+        { "en": "Albanian", "es": "Albanés" }
+      ],
+      "answer": 2,
+      "why": { "en": "Basque, spoken in Spain and France, is a language isolate, meaning scholars have found no parent or sister language anywhere else.", "es": "El euskera, hablado en España y Francia, es una lengua aislada: los estudiosos no han hallado ninguna lengua madre ni hermana en ninguna parte." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Basque-language"
+    },
+    {
+      "id": "cultures-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌶",
+      "q": { "en": "Náhuatl, the Aztec language, is still spoken by communities in which country?", "es": "¿En qué país siguen hablando náhuatl, la lengua de los aztecas, muchas comunidades?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Guatemala", "es": "Guatemala" },
+        { "en": "Bolivia", "es": "Bolivia" },
+        { "en": "Mexico", "es": "México" }
+      ],
+      "answer": 3,
+      "why": { "en": "More than a million people speak Náhuatl in Mexican states like Puebla and Veracruz, and Mexico recognises it as a national language.", "es": "Más de un millón de personas hablan náhuatl en estados mexicanos como Puebla y Veracruz, y México lo reconoce como lengua nacional." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/Nahuatl-language"
+    },
+    {
+      "id": "cultures-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛",
+      "q": { "en": "Spanish grew out of the everyday Latin spoken by which group across Iberia?", "es": "¿Qué grupo llevó por Iberia el latín cotidiano del que nació el español?" },
+      "choices": [
+        { "en": "Roman soldiers and settlers", "es": "Soldados y colonos romanos" },
+        { "en": "Greek traders", "es": "Comerciantes griegos" },
+        { "en": "Phoenician sailors", "es": "Marineros fenicios" },
+        { "en": "Visigothic nobles", "es": "Nobles visigodos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Soldiers and colonists spoke Vulgar Latin, the street form, and its local versions drifted apart into Spanish, Portuguese, French and Italian.", "es": "Los soldados y colonos hablaban latín vulgar, la forma popular, y sus variantes locales se separaron hasta formar el español, portugués, francés e italiano." },
+      "topic": "spanish and english history",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕌",
+      "q": { "en": "Roughly how many Spanish words came from Arabic during the centuries of al-Andalus?", "es": "¿Cuántas palabras del español vinieron del árabe durante los siglos de al-Ándalus?" },
+      "choices": [
+        { "en": "About 400", "es": "Unas 400" },
+        { "en": "About 4,000", "es": "Unas 4,000" },
+        { "en": "About 40", "es": "Unas 40" },
+        { "en": "About 40,000", "es": "Unas 40,000" }
+      ],
+      "answer": 1,
+      "why": { "en": "Arabic gave Spanish words like azúcar, aceite and almohada; the Arabic article al- is still glued onto the front of many.", "es": "El árabe dio al español palabras como azúcar, aceite y almohada; el artículo árabe al- sigue pegado al comienzo de muchas de ellas." },
+      "topic": "spanish and english history",
+      "source": "https://www.britannica.com/place/Al-Andalus"
+    },
+    {
+      "id": "cultures-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "After 1066, French words poured into English because Normans took control of what?", "es": "Después de 1066, ¿de qué se apoderaron los normandos para que el francés inundara el inglés?" },
+      "choices": [
+        { "en": "English farming villages", "es": "Las aldeas agrícolas inglesas" },
+        { "en": "The monasteries of Ireland", "es": "Los monasterios de Irlanda" },
+        { "en": "England's court, law and government", "es": "La corte, la ley y el gobierno de Inglaterra" },
+        { "en": "The trade routes to Norway", "es": "Las rutas comerciales hacia Noruega" }
+      ],
+      "answer": 2,
+      "why": { "en": "Norman French ruled England for centuries, so English kept Germanic words for animals and borrowed French ones for the cooked meat: cow, beef.", "es": "El francés normando gobernó Inglaterra durante siglos: el inglés guardó palabras germánicas para los animales y tomó las francesas para la carne cocinada." },
+      "topic": "spanish and english history",
+      "source": "https://www.britannica.com/topic/English-language"
+    },
+    {
+      "id": "cultures-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "Which of these everyday English words came from Old English rather than Latin or French?", "es": "¿Cuál de estas palabras inglesas viene del inglés antiguo y no del latín o del francés?" },
+      "choices": [
+        { "en": "Mountain", "es": "Mountain" },
+        { "en": "Village", "es": "Village" },
+        { "en": "Justice", "es": "Justice" },
+        { "en": "Bread", "es": "Bread" }
+      ],
+      "answer": 3,
+      "why": { "en": "Old English gave English its plainest words: bread, house, water, child. Latin and French supplied the longer words of law and learning.", "es": "El inglés antiguo aportó las palabras más sencillas: bread, house, water, child. El latín y el francés dieron los términos largos del derecho." },
+      "topic": "spanish and english history",
+      "source": "https://www.britannica.com/topic/Old-English-language"
+    },
+    {
+      "id": "cultures-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "✒",
+      "q": { "en": "The Spanish letter ñ began as a shortcut scribes used for which repeated letter?", "es": "¿Qué letra repetida abreviaban los copistas cuando nació la eñe del español?" },
+      "choices": [
+        { "en": "A double n", "es": "Una doble n" },
+        { "en": "A double s", "es": "Una doble s" },
+        { "en": "A double l", "es": "Una doble l" },
+        { "en": "A double r", "es": "Una doble r" }
+      ],
+      "answer": 0,
+      "why": { "en": "Medieval copyists saved parchment by writing one n with a small n above it; that mark shrank into the tilde we still use.", "es": "Los copistas medievales ahorraban pergamino escribiendo una n con otra pequeña encima; esa marca se encogió hasta volverse la tilde de la eñe." },
+      "topic": "spanish and english history",
+      "source": "https://www.rae.es/dpd/n"
+    },
+    {
+      "id": "cultures-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤞",
+      "q": { "en": "Which language gave Spanish the word ojalá, meaning hopefully?", "es": "¿De qué lengua tomó el español la palabra ojalá?" },
+      "choices": [
+        { "en": "Latin", "es": "Latín" },
+        { "en": "Arabic", "es": "Árabe" },
+        { "en": "Basque", "es": "Euskera" },
+        { "en": "Greek", "es": "Griego" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ojalá comes from the Arabic phrase law šā' allāh, 'if God wills', one of thousands of Arabic borrowings left in Spanish.", "es": "Ojalá viene de la frase árabe law šā' allāh, 'si Dios quiere', uno de los miles de préstamos árabes que guarda el español." },
+      "topic": "spanish and english history",
+      "source": "https://dle.rae.es/ojal%C3%A1"
+    },
+    {
+      "id": "cultures-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛶",
+      "q": { "en": "The English word canoe reached Europe from which Caribbean Indigenous language?", "es": "¿De qué lengua indígena del Caribe llegó a Europa la palabra canoa?" },
+      "choices": [
+        { "en": "Quechua", "es": "Quechua" },
+        { "en": "Mayan", "es": "Maya" },
+        { "en": "Taíno", "es": "Taíno" },
+        { "en": "Náhuatl", "es": "Náhuatl" }
+      ],
+      "answer": 2,
+      "why": { "en": "Taíno speakers met Columbus first, so their words canoa, hamaca, barbacoa and maíz entered Spanish and then spread to many European languages.", "es": "Los taínos fueron los primeros en encontrarse con Colón, así que canoa, hamaca, barbacoa y maíz pasaron al español y luego a otras lenguas." },
+      "topic": "loanwords",
+      "source": "https://www.britannica.com/topic/Taino"
+    },
+    {
+      "id": "cultures-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪴",
+      "q": { "en": "English took the word patio straight from Spanish. What does patio mean in Spanish houses?", "es": "El inglés tomó del español la palabra patio. ¿Qué es un patio en una casa española?" },
+      "choices": [
+        { "en": "A rooftop terrace", "es": "Una terraza en la azotea" },
+        { "en": "A front porch", "es": "Un porche delantero" },
+        { "en": "A garden wall", "es": "Un muro de jardín" },
+        { "en": "An inner courtyard", "es": "Un espacio interior abierto" }
+      ],
+      "answer": 3,
+      "why": { "en": "A Spanish patio sits inside the house walls, open to the sky, a plan borrowed from Roman and Arab builders for shade and cool air.", "es": "El patio español queda dentro de los muros, abierto al cielo; es un diseño heredado de constructores romanos y árabes para dar sombra y frescura." },
+      "topic": "loanwords",
+      "source": "https://www.britannica.com/technology/patio"
+    },
+    {
+      "id": "cultures-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤠",
+      "q": { "en": "The English word rodeo comes from a Spanish verb meaning what?", "es": "¿Qué significa el verbo español del que sale la palabra rodeo?" },
+      "choices": [
+        { "en": "To surround or round up", "es": "Rodear o juntar el ganado" },
+        { "en": "To ride fast", "es": "Cabalgar deprisa" },
+        { "en": "To rope tightly", "es": "Amarrar con fuerza" },
+        { "en": "To leap over", "es": "Saltar por encima" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rodear means to go around, and a rodeo was the yearly gathering of cattle; Mexican vaqueros taught the skills to American cowboys.", "es": "Rodear significa dar vueltas alrededor, y el rodeo era la reunión anual del ganado; los vaqueros mexicanos enseñaron esas destrezas a los cowboys." },
+      "topic": "loanwords",
+      "source": "https://dle.rae.es/rodeo"
+    },
+    {
+      "id": "cultures-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔁",
+      "q": { "en": "Spanish borrowed béisbol, fútbol and clóset from English. What is such a borrowed word called?", "es": "El español tomó béisbol, fútbol y clóset del inglés. ¿Cómo se llama una palabra así?" },
+      "choices": [
+        { "en": "A cognate", "es": "Un cognado" },
+        { "en": "A loanword", "es": "Un préstamo" },
+        { "en": "A homophone", "es": "Un homófono" },
+        { "en": "A diminutive", "es": "Un diminutivo" }
+      ],
+      "answer": 1,
+      "why": { "en": "A loanword keeps the foreign meaning but takes local spelling and stress; a cognate instead shares an ancestor, like night and noche from Indo-European.", "es": "Un préstamo conserva el significado extranjero pero adopta la escritura y el acento locales; un cognado, en cambio, comparte un antepasado, como night y noche." },
+      "topic": "loanwords",
+      "source": "https://www.britannica.com/topic/loanword"
+    },
+    {
+      "id": "cultures-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "The word jerky, for dried meat, came from Quechua ch'arki through which Spanish word?", "es": "La palabra inglesa jerky viene del quechua ch'arki. ¿Por cuál palabra española pasó?" },
+      "choices": [
+        { "en": "Chorizo", "es": "Chorizo" },
+        { "en": "Cecina", "es": "Cecina" },
+        { "en": "Charqui", "es": "Charqui" },
+        { "en": "Carnaza", "es": "Carnaza" }
+      ],
+      "answer": 2,
+      "why": { "en": "Andean people dried llama and alpaca meat in thin strips at high altitude; Spanish wrote it charqui and English heard it as jerky.", "es": "Los pueblos andinos secaban carne de llama y alpaca en tiras a gran altura; el español lo escribió charqui y el inglés lo volvió jerky." },
+      "topic": "loanwords",
+      "source": "https://www.merriam-webster.com/dictionary/jerky"
+    },
+    {
+      "id": "cultures-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "Spanish speakers in the Andes gave the world the word pampa. What does it describe?", "es": "Los hablantes de los Andes dieron al mundo la palabra pampa. ¿Qué describe?" },
+      "choices": [
+        { "en": "A mountain pass", "es": "Un paso de montaña" },
+        { "en": "A salt flat", "es": "Un salar" },
+        { "en": "A deep valley", "es": "Un valle profundo" },
+        { "en": "A wide grassy plain", "es": "Una llanura ancha con pasto" }
+      ],
+      "answer": 3,
+      "why": { "en": "Pampa is Quechua for a flat, treeless space, and it names the grasslands of Argentina where gauchos herded cattle on horseback.", "es": "Pampa significa en quechua un lugar llano y sin árboles, y nombra las llanuras argentinas donde los gauchos arreaban ganado a caballo." },
+      "topic": "loanwords",
+      "source": "https://www.britannica.com/place/the-Pampas"
+    },
+    {
+      "id": "cultures-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "An abjad writes which sounds and leaves the reader to supply the rest?", "es": "¿Qué sonidos escribe un abyad y deja que el lector complete los demás?" },
+      "choices": [
+        { "en": "Consonants", "es": "Consonantes" },
+        { "en": "Vowels", "es": "Vocales" },
+        { "en": "Tones", "es": "Tonos" },
+        { "en": "Syllables", "es": "Sílabas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Arabic and Hebrew are abjads: they mark consonants, and readers add vowels from context, which is why beginners' books print extra vowel dots.", "es": "El árabe y el hebreo son abyades: escriben las consonantes y el lector añade las vocales, por eso los libros para principiantes llevan puntos vocálicos." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/abjad"
+    },
+    {
+      "id": "cultures-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗾",
+      "q": { "en": "In a syllabary, each written sign stands for what?", "es": "En un silabario, ¿qué representa cada signo escrito?" },
+      "choices": [
+        { "en": "One consonant", "es": "Una consonante" },
+        { "en": "One whole syllable", "es": "Una sílaba completa" },
+        { "en": "One idea", "es": "Una idea" },
+        { "en": "One word", "es": "Una palabra" }
+      ],
+      "answer": 1,
+      "why": { "en": "Japanese hiragana is a syllabary: the sign か is read 'ka', so one symbol carries a consonant and a vowel together.", "es": "El hiragana japonés es un silabario: el signo か se lee 'ka', así que un solo símbolo lleva una consonante y una vocal juntas." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/syllabary"
+    },
+    {
+      "id": "cultures-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "Maya writing mixed logograms with signs for syllables. What does a logogram stand for?", "es": "La escritura maya mezclaba logogramas y signos silábicos. ¿Qué representa un logograma?" },
+      "choices": [
+        { "en": "A single sound", "es": "Un solo sonido" },
+        { "en": "A punctuation pause", "es": "Una pausa de puntuación" },
+        { "en": "A whole word", "es": "Una palabra entera" },
+        { "en": "A number only", "es": "Solamente un número" }
+      ],
+      "answer": 2,
+      "why": { "en": "A logogram is one sign for a whole word, like the numeral 7; Maya scribes could spell the same word with signs or syllables.", "es": "Un logograma es un signo para una palabra entera, como el número 7; los escribas mayas podían escribir la misma palabra con signos o sílabas." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Mayan-hieroglyphic-writing"
+    },
+    {
+      "id": "cultures-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔍",
+      "q": { "en": "Maya glyphs stayed unread for centuries until scholars realised the signs did what?", "es": "¿Qué descubrieron los estudiosos sobre los glifos mayas tras siglos sin poder leerlos?" },
+      "choices": [
+        { "en": "Told only calendar dates", "es": "Contaban solo fechas del calendario" },
+        { "en": "Showed pictures of gods", "es": "Mostraban dibujos de dioses" },
+        { "en": "Copied Egyptian hieroglyphs", "es": "Copiaban los jeroglíficos egipcios" },
+        { "en": "Spelled out spoken syllables", "es": "Deletreaban sílabas del habla" }
+      ],
+      "answer": 3,
+      "why": { "en": "Yuri Knorozov showed in the 1950s that many glyphs write syllables of Mayan speech, and that key unlocked the carved histories of real rulers.", "es": "Yuri Knórozov demostró en los años cincuenta que muchos glifos escriben sílabas mayas, y esa clave abrió las historias talladas de gobernantes reales." },
+      "topic": "writing systems",
+      "source": "https://www.si.edu/spotlight/maya"
+    },
+    {
+      "id": "cultures-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "An Inca quipu stored information using knots. What did the knot's position mainly show?", "es": "Un quipu inca guardaba información con nudos. ¿Qué mostraba sobre todo la posición del nudo?" },
+      "choices": [
+        { "en": "Its place value in tens", "es": "Su valor posicional en decenas" },
+        { "en": "The colour of the cloth", "es": "El color de la tela" },
+        { "en": "The name of a town", "es": "El nombre de un pueblo" },
+        { "en": "The day of the week", "es": "El día de la semana" }
+      ],
+      "answer": 0,
+      "why": { "en": "Quipu cords used a base-ten system: knots nearer the top counted hundreds and thousands, so officials could tally harvests across the whole empire.", "es": "Los quipus usaban un sistema de base diez: los nudos más altos contaban centenas y millares, los funcionarios registraban cosechas en todo el imperio." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/quipu"
+    },
+    {
+      "id": "cultures-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Cuneiform got its wedge shapes because scribes pressed a reed stylus into what?", "es": "¿Sobre qué apretaban los escribas su caña para dar a la escritura cuneiforme sus cuñas?" },
+      "choices": [
+        { "en": "Waxed wooden boards", "es": "Tablas de madera enceradas" },
+        { "en": "Soft clay tablets", "es": "Tablillas de arcilla blanda" },
+        { "en": "Stretched animal skin", "es": "Piel de animal estirada" },
+        { "en": "Thin sheets of copper", "es": "Láminas delgadas de cobre" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sumerians wrote on damp clay that hardened in the sun, which is why so many tablets survived four thousand years underground in Iraq.", "es": "Los sumerios escribían sobre arcilla húmeda que endurecía al sol; por eso miles de tablillas sobrevivieron cuatro mil años bajo tierra en Irak." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/cuneiform"
+    },
+    {
+      "id": "cultures-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔠",
+      "q": { "en": "Greek scribes changed the Phoenician alphabet by adding signs for which missing sounds?", "es": "¿Qué sonidos que faltaban añadieron los escribas griegos al alfabeto fenicio?" },
+      "choices": [
+        { "en": "Clicks", "es": "Chasquidos" },
+        { "en": "Tones", "es": "Tonos" },
+        { "en": "Vowels", "es": "Vocales" },
+        { "en": "Nasals", "es": "Nasales" }
+      ],
+      "answer": 2,
+      "why": { "en": "Phoenician wrote consonants only; the Greeks reused spare letters for a, e, i, o, u, creating the first full alphabet with vowels.", "es": "El fenicio escribía solo consonantes; los griegos aprovecharon letras sobrantes para a, e, i, o, u y crearon el primer alfabeto completo con vocales." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Phoenician-alphabet"
+    },
+    {
+      "id": "cultures-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "The digits we call Arabic numerals were first developed by mathematicians in which land?", "es": "¿En qué tierra crearon los matemáticos las cifras que llamamos números arábigos?" },
+      "choices": [
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Persia", "es": "Persia" },
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "India", "es": "India" }
+      ],
+      "answer": 3,
+      "why": { "en": "Indian mathematicians invented the ten signs and a symbol for zero; Arab scholars carried the system to Europe, where it kept their name.", "es": "Matemáticos de la India inventaron los diez signos y el cero; los sabios árabes llevaron el sistema a Europa, donde conservó el nombre árabe." },
+      "topic": "numbers and numerals",
+      "source": "https://www.britannica.com/topic/numeral"
+    },
+    {
+      "id": "cultures-hard-032", "level": "hard", "type": "tf", "lang": "both", "emoji": "📘",
+      "q": { "en": "The Cyrillic alphabet was built from Greek letters plus extra signs for Slavic sounds.", "es": "El alfabeto cirílico se construyó con letras griegas más signos añadidos para sonidos eslavos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Missionaries Cyril and Methodius designed a script for Slavic speech in the 800s, and Cyrillic now writes Russian, Bulgarian, Serbian and Mongolian.", "es": "Cirilo y Metodio crearon una escritura para el habla eslava en el siglo IX; el cirílico sirve para el ruso, el serbio y el mongol." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Cyrillic-alphabet"
+    },
+    {
+      "id": "cultures-hard-033", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌲",
+      "q": { "en": "English belongs to the Romance family because so many of its words come from Latin.", "es": "El inglés pertenece a la familia romance porque muchas de sus palabras vienen del latín." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "English is Germanic in its grammar and core words; the Latin vocabulary arrived later through French and through scholars, which hides the family tree.", "es": "El inglés es germánico en su gramática y sus palabras básicas; el vocabulario latino llegó después por el francés y por los eruditos." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/English-language"
+    },
+    {
+      "id": "cultures-hard-034", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏝",
+      "q": { "en": "A creole language begins as a simple contact speech and becomes the first language of children.", "es": "Una lengua criolla empieza como un habla de contacto sencilla y se vuelve la lengua materna de los niños." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Papiamento in Curaçao and Haitian Creole grew this way, mixing European, African and Indigenous words into full languages with their own grammar.", "es": "El papiamento de Curazao y el criollo haitiano nacieron así, mezclando palabras europeas, africanas e indígenas en lenguas completas con gramática propia." },
+      "topic": "language families",
+      "source": "https://www.britannica.com/topic/creole-languages"
+    },
+    {
+      "id": "cultures-hard-035", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏰",
+      "q": { "en": "The Norman conquest of England replaced English entirely, so Old English words vanished from speech.", "es": "La conquista normanda de Inglaterra reemplazó al inglés por completo y las palabras del inglés antiguo desaparecieron del habla." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ordinary people kept speaking English while the court used French, so the language survived and ended up with two words for many ideas.", "es": "La gente común siguió hablando inglés mientras la corte usaba francés, así que la lengua sobrevivió y terminó con dos palabras para muchas ideas." },
+      "topic": "spanish and english history",
+      "source": "https://www.britannica.com/topic/Middle-English-language"
+    },
+    {
+      "id": "cultures-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏟",
+      "q": { "en": "The ancient Olympic Games were held every four years at which sanctuary in Greece?", "es": "¿En qué santuario de Grecia se celebraban cada cuatro años los juegos olímpicos antiguos?" },
+      "choices": [
+        { "en": "Olympia", "es": "Olimpia" },
+        { "en": "Delphi", "es": "Delfos" },
+        { "en": "Athens", "es": "Atenas" },
+        { "en": "Corinth", "es": "Corinto" }
+      ],
+      "answer": 0,
+      "why": { "en": "Olympia was a religious sanctuary in the western Peloponnese; the four-year gap between games gave Greeks a unit of time called an Olympiad.", "es": "Olimpia era un santuario en el oeste del Peloponeso; el intervalo de cuatro años dio a los griegos una unidad de tiempo llamada olimpiada." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/ancient-Olympic-Games"
+    },
+    {
+      "id": "cultures-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏅",
+      "q": { "en": "The modern Olympic Games began in 1896 in which city?", "es": "¿En qué ciudad comenzaron los juegos olímpicos modernos en 1896?" },
+      "choices": [
+        { "en": "Paris", "es": "París" },
+        { "en": "Athens", "es": "Atenas" },
+        { "en": "London", "es": "Londres" },
+        { "en": "Rome", "es": "Roma" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pierre de Coubertin revived the games in Athens, choosing Greece to link the new event with the ancient contests at Olympia.", "es": "Pierre de Coubertin revivió los juegos en Atenas y eligió Grecia para unir el evento nuevo con las competencias antiguas de Olimpia." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "cultures-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭕",
+      "q": { "en": "The five Olympic rings interlock to stand for what?", "es": "¿Qué representan los cinco aros olímpicos entrelazados?" },
+      "choices": [
+        { "en": "Five ancient sports", "es": "Cinco deportes antiguos" },
+        { "en": "Five founding cities", "es": "Cinco ciudades fundadoras" },
+        { "en": "Five inhabited continents", "es": "Cinco continentes habitados" },
+        { "en": "Five years of training", "es": "Cinco años de entrenamiento" }
+      ],
+      "answer": 2,
+      "why": { "en": "Coubertin drew the rings in 1913 and chose six colours, including the white background, so every nation's flag shared at least one.", "es": "Coubertin dibujó los aros en 1913 y eligió seis colores, contando el fondo blanco, para que toda bandera nacional compartiera al menos uno." },
+      "topic": "olympic games",
+      "source": "https://olympics.com/ioc/olympic-rings"
+    },
+    {
+      "id": "cultures-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "Which Latin American city was the first to host the Summer Olympic Games?", "es": "¿Cuál fue la primera ciudad latinoamericana en organizar los juegos olímpicos de verano?" },
+      "choices": [
+        { "en": "Buenos Aires", "es": "Buenos Aires" },
+        { "en": "São Paulo", "es": "São Paulo" },
+        { "en": "Rio de Janeiro", "es": "Río de Janeiro" },
+        { "en": "Mexico City", "es": "Ciudad de México" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mexico City hosted in 1968, and its altitude of 2240 metres, 7350 feet, produced thin air that helped sprinters but tired distance runners.", "es": "Ciudad de México fue sede en 1968; su altitud de 2240 metros, 7350 pies, dio un aire delgado que ayudó a los velocistas." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/event/Mexico-City-1968-Olympic-Games"
+    },
+    {
+      "id": "cultures-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏆",
+      "q": { "en": "UNESCO adds a place to the World Heritage List when it shows what?", "es": "¿Qué debe demostrar un lugar para entrar en la Lista del Patrimonio Mundial de la UNESCO?" },
+      "choices": [
+        { "en": "Outstanding universal value", "es": "Valor universal excepcional" },
+        { "en": "Ownership by a government", "es": "Ser propiedad de un gobierno" },
+        { "en": "A minimum number of visitors", "es": "Un mínimo de visitantes" },
+        { "en": "An age of a thousand years", "es": "Mil años de antigüedad" }
+      ],
+      "answer": 0,
+      "why": { "en": "Outstanding universal value means the site matters to all humanity, judged against ten criteria covering culture and nature, and states must protect it.", "es": "El valor universal excepcional significa que el sitio importa a toda la humanidad; se juzga con diez criterios de cultura y naturaleza, y debe protegerse." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/criteria/"
+    },
+    {
+      "id": "cultures-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰",
+      "q": { "en": "Machu Picchu is listed by UNESCO as a mixed site. What does mixed mean?", "es": "La UNESCO califica a Machu Picchu como sitio mixto. ¿Qué significa mixto?" },
+      "choices": [
+        { "en": "It sits on two borders", "es": "Está sobre dos fronteras" },
+        { "en": "It is valued for culture and nature", "es": "Vale por su cultura y su naturaleza" },
+        { "en": "It mixes two building styles", "es": "Mezcla dos estilos de construcción" },
+        { "en": "It has two ways in", "es": "Tiene dos accesos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Machu Picchu protects Inca stonework and the cloud forest around it, where spectacled bears and orchids live, so both criteria apply together.", "es": "Machu Picchu protege la cantería inca y el bosque nuboso que la rodea, donde viven osos de anteojos y orquídeas, así que cumple ambos criterios." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/274"
+    },
+    {
+      "id": "cultures-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "Teotihuacán's builders remain unidentified, so the Aztecs gave it a name meaning what?", "es": "Los constructores de Teotihuacán siguen sin identificarse. ¿Qué significa el nombre que le dieron los aztecas?" },
+      "choices": [
+        { "en": "City of canals", "es": "Ciudad de canales" },
+        { "en": "City of the sun", "es": "Ciudad del sol" },
+        { "en": "Place where the gods were born", "es": "Lugar donde nacieron los dioses" },
+        { "en": "Place of the eagle", "es": "Lugar del águila" }
+      ],
+      "answer": 2,
+      "why": { "en": "Aztecs found the pyramids already ruined and centuries old, and named the site in Náhuatl; its original builders' own name is still unknown.", "es": "Los aztecas encontraron las pirámides ya en ruinas y con siglos encima, y nombraron el sitio en náhuatl; el nombre original sigue siendo desconocido." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/414"
+    },
+    {
+      "id": "cultures-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "At Chichén Itzá, the equinox sun creates what shape on El Castillo's staircase?", "es": "En Chichén Itzá, ¿qué figura dibuja el sol del equinoccio en la escalinata de El Castillo?" },
+      "choices": [
+        { "en": "A circle of light", "es": "Un círculo de luz" },
+        { "en": "A ring of shadow", "es": "Un anillo de sombra" },
+        { "en": "A cross of gold", "es": "Una cruz dorada" },
+        { "en": "A serpent of light and shadow", "es": "Una serpiente de luz y sombra" }
+      ],
+      "answer": 3,
+      "why": { "en": "Corner terraces cast triangles that join into a snake's body, meeting a carved stone head at the base, showing Maya skill in astronomy.", "es": "Las terrazas de la esquina proyectan triángulos que forman el cuerpo de una serpiente y llegan a una cabeza tallada, uniendo astronomía y arquitectura mayas." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/483"
+    },
+    {
+      "id": "cultures-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Cartagena de Indias is listed by UNESCO chiefly for which feature?", "es": "¿Por qué rasgo está principalmente en la lista de la UNESCO Cartagena de Indias?" },
+      "choices": [
+        { "en": "Its colonial fortifications", "es": "Sus fortificaciones coloniales" },
+        { "en": "Its coral reefs", "es": "Sus arrecifes de coral" },
+        { "en": "Its gold mines", "es": "Sus minas de oro" },
+        { "en": "Its old railway station", "es": "Su antigua estación de tren" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spain ringed the Caribbean port with thick walls and the San Felipe fortress, the largest such defences built in the Americas by Spanish engineers.", "es": "España rodeó el puerto caribeño con murallas gruesas y el castillo de San Felipe, las mayores defensas de ese tipo construidas en América." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/285"
+    },
+    {
+      "id": "cultures-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛪",
+      "q": { "en": "Spanish builders in Cusco often raised churches directly on top of what?", "es": "¿Sobre qué levantaron muchas veces sus iglesias los constructores españoles en Cusco?" },
+      "choices": [
+        { "en": "Wooden platforms", "es": "Plataformas de madera" },
+        { "en": "Inca stone walls", "es": "Muros de piedra incas" },
+        { "en": "Domes of volcanic rock", "es": "Cúpulas de roca volcánica" },
+        { "en": "Aztec pyramids", "es": "Pirámides aztecas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Inca masonry fitted stones without mortar and rode out earthquakes, so colonial builders kept the walls and set their own buildings above them.", "es": "La cantería inca encajaba piedras sin mezcla y resistía los temblores, así que los constructores coloniales conservaron los muros y levantaron encima sus edificios." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/273"
+    },
+    {
+      "id": "cultures-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏚",
+      "q": { "en": "Antigua Guatemala keeps its ruined churches because the capital moved away after what?", "es": "¿Qué hizo que la capital se mudara y dejara en Antigua Guatemala sus iglesias en ruinas?" },
+      "choices": [
+        { "en": "A long drought", "es": "Una sequía larga" },
+        { "en": "A river flood", "es": "Una crecida del río" },
+        { "en": "A severe earthquake", "es": "Un terremoto muy fuerte" },
+        { "en": "A harbour filling with sand", "es": "Un puerto lleno de arena" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earthquakes in 1773 wrecked the city, so officials shifted the capital and left Antigua's baroque ruins standing, frozen in the eighteenth century.", "es": "Los terremotos de 1773 destrozaron la ciudad, así que las autoridades trasladaron la capital y dejaron en pie las ruinas barrocas de Antigua." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/65"
+    },
+    {
+      "id": "cultures-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "Petra's builders, the Nabataeans, grew rich by controlling what across the desert?", "es": "¿Qué controlaban los nabateos en el desierto para hacerse ricos en Petra?" },
+      "choices": [
+        { "en": "Iron mines", "es": "Minas de hierro" },
+        { "en": "Fishing grounds", "es": "Zonas de pesca" },
+        { "en": "Olive groves", "es": "Olivares" },
+        { "en": "Caravan trade routes", "es": "Rutas comerciales de caravanas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Nabataean engineers cut temples into rose-red cliffs and built dams and channels that stored flash floods, letting a city live in dry Jordan.", "es": "Los ingenieros nabateos tallaron templos en acantilados rosados y construyeron presas y canales que guardaban las crecidas, permitiendo una ciudad en el árido Jordán." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/326"
+    },
+    {
+      "id": "cultures-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Angkor in Cambodia was supported by a huge system built for what purpose?", "es": "¿Para qué servía el enorme sistema que sostenía a Angkor, en Camboya?" },
+      "choices": [
+        { "en": "Storing and spreading water", "es": "Guardar y repartir agua" },
+        { "en": "Mining precious stones", "es": "Extraer piedras preciosas" },
+        { "en": "Signalling with mirrors", "es": "Enviar señales con espejos" },
+        { "en": "Grinding grain by wind", "es": "Moler grano con viento" }
+      ],
+      "answer": 0,
+      "why": { "en": "Vast reservoirs called barays and canals fed rice fields, so the Khmer capital could hold hundreds of thousands of people around its temples.", "es": "Enormes embalses llamados barays y una red de canales regaban los arrozales, y así la capital jemer sostuvo a cientos de miles de personas." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/668"
+    },
+    {
+      "id": "cultures-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Maya mathematicians used a shell shape to write which number?", "es": "¿Qué número escribían los matemáticos mayas con la figura de una concha?" },
+      "choices": [
+        { "en": "One hundred", "es": "Cien" },
+        { "en": "Zero", "es": "Cero" },
+        { "en": "Twenty", "es": "Veinte" },
+        { "en": "One thousand", "es": "Mil" }
+      ],
+      "answer": 1,
+      "why": { "en": "Maya scribes used dots, bars and a shell for zero, letting them stack place values by twenties and count millions of days in their calendar.", "es": "Los escribas mayas usaban puntos, barras y una concha para el cero, lo que permitía apilar valores por veintenas y contar millones de días." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/topic/Mayan-calendar"
+    },
+    {
+      "id": "cultures-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "The Maya Long Count tracked time by counting what since a fixed starting day?", "es": "¿Qué contaba la Cuenta Larga maya desde un día inicial fijo?" },
+      "choices": [
+        { "en": "Full moons", "es": "Lunas llenas" },
+        { "en": "Harvests", "es": "Cosechas" },
+        { "en": "Days", "es": "Días" },
+        { "en": "Solar eclipses", "es": "Eclipses de sol" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Long Count adds days in cycles of 20, 18 and 20, so a date fixes any moment across thousands of years without repeating.", "es": "La Cuenta Larga suma días en ciclos de 20, 18 y 20, de modo que cada fecha señala un momento único entre miles de años." },
+      "topic": "ancient contributions",
+      "source": "https://www.si.edu/spotlight/maya"
+    },
+    {
+      "id": "cultures-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛤",
+      "q": { "en": "The Inca road network crossed the Andes without which of these?", "es": "¿Qué le faltaba a la red de caminos incas que cruzaba los Andes?" },
+      "choices": [
+        { "en": "Bridges", "es": "Puentes" },
+        { "en": "Tunnels", "es": "Túneles" },
+        { "en": "Stone paving", "es": "Empedrado" },
+        { "en": "Wheeled carts", "es": "Carretas con ruedas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Qhapaq Ñan ran about 40,000 kilometres, 25,000 miles, but the Inca had no draught animals or wheels, so runners and llamas carried everything.", "es": "El Qhapaq Ñan medía unos 40,000 kilómetros, 25,000 millas, pero los incas carecían de animales de tiro y ruedas: corrían chasquis y cargaban llamas." },
+      "topic": "ancient contributions",
+      "source": "https://whc.unesco.org/en/list/1459"
+    },
+    {
+      "id": "cultures-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "Inca andenes, or terraces, helped crops mainly by doing what on steep slopes?", "es": "¿Qué lograban sobre todo los andenes incas en las laderas empinadas?" },
+      "choices": [
+        { "en": "Holding soil and water in place", "es": "Retener la tierra y el agua" },
+        { "en": "Blocking sunlight from the leaves", "es": "Tapar el sol a las hojas" },
+        { "en": "Keeping animals away from plants", "es": "Alejar animales de las plantas" },
+        { "en": "Making the fields easier to see", "es": "Hacer los campos más visibles" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stone walls stopped erosion, stored daytime heat and released it at night, letting maize and potatoes grow far higher up the mountains.", "es": "Los muros de piedra frenaban la erosión y guardaban el calor del día para soltarlo de noche, así el maíz crecía mucho más arriba." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/topic/Inca"
+    },
+    {
+      "id": "cultures-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Aztec chinampas were farm plots built where?", "es": "¿Dónde se construían las chinampas aztecas?" },
+      "choices": [
+        { "en": "On terraced hillsides", "es": "En laderas con terrazas" },
+        { "en": "On the shallow lake bed", "es": "Sobre el fondo poco profundo del lago" },
+        { "en": "Inside walled courtyards", "es": "Dentro de patios amurallados" },
+        { "en": "Along dry riverbeds", "es": "En cauces secos de ríos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Farmers piled mud and plants onto reed frames in Lake Texcoco, making rich plots watered from below that yielded several harvests a year.", "es": "Los agricultores apilaban lodo y plantas sobre armazones de caña en el lago de Texcoco, creando parcelas fértiles regadas por abajo con varias cosechas." },
+      "topic": "ancient contributions",
+      "source": "https://whc.unesco.org/en/list/412"
+    },
+    {
+      "id": "cultures-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Which Chinese invention reached Europe centuries later and changed how ships found their way?", "es": "¿Qué invento chino llegó a Europa siglos después y cambió la forma de orientarse en el mar?" },
+      "choices": [
+        { "en": "The waterwheel", "es": "La rueda hidráulica" },
+        { "en": "The abacus", "es": "El ábaco" },
+        { "en": "The magnetic compass", "es": "La brújula magnética" },
+        { "en": "The sundial", "es": "El reloj de sol" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chinese navigators floated magnetised needles by the eleventh century; the compass let sailors hold a course when clouds hid the sun and stars.", "es": "Los navegantes chinos flotaban agujas imantadas ya en el siglo XI; la brújula permitió mantener el rumbo cuando las nubes tapaban el sol." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/technology/compass"
+    },
+    {
+      "id": "cultures-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "📄",
+      "q": { "en": "Cai Lun is credited with improving paper in about 105 CE by mixing what?", "es": "¿Qué mezcló Cai Lun hacia el año 105 para mejorar el papel?" },
+      "choices": [
+        { "en": "Clay and chalk", "es": "Arcilla y tiza" },
+        { "en": "Silk and honey", "es": "Seda y miel" },
+        { "en": "Sand and lime", "es": "Arena y cal" },
+        { "en": "Bark, rags and old fishing nets", "es": "Corteza, trapos y redes viejas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cheap pulp made from waste fibres replaced silk and bamboo strips, so books grew light, and the method took a thousand years to reach Europe.", "es": "La pulpa barata de fibras usadas sustituyó a la seda y al bambú; los libros se volvieron ligeros y baratos de copiar." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/biography/Cai-Lun"
+    },
+    {
+      "id": "cultures-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "Greek theatres were shaped as a bowl of stone seats mainly to do what?", "es": "¿Para qué servía sobre todo la forma de tazón de los teatros griegos con gradas de piedra?" },
+      "choices": [
+        { "en": "Carry the actors' voices clearly", "es": "Llevar clara la voz de los actores" },
+        { "en": "Keep rain off the stage", "es": "Proteger el escenario de la lluvia" },
+        { "en": "Hide the audience from the sun", "es": "Resguardar al público del sol" },
+        { "en": "Store props under the seats", "es": "Guardar utilería bajo las gradas" }
+      ],
+      "answer": 0,
+      "why": { "en": "The curved rows and hard limestone bounced sound upward and filtered low crowd noise, so a whisper at Epidaurus reached fourteen thousand listeners.", "es": "Las filas curvas y la piedra caliza rebotaban el sonido hacia arriba, y en Epidauro un susurro llegaba a catorce mil personas." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/art/Western-theatre"
+    },
+    {
+      "id": "cultures-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Roman concrete survived two thousand years in seawater largely because it contained what?", "es": "¿Qué contenía el concreto romano que le permitió durar dos mil años en el mar?" },
+      "choices": [
+        { "en": "Crushed marble", "es": "Mármol molido" },
+        { "en": "Volcanic ash", "es": "Ceniza volcánica" },
+        { "en": "Iron filings", "es": "Limaduras de hierro" },
+        { "en": "Powdered glass", "es": "Vidrio en polvo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ash from Pozzuoli reacted with seawater to grow new crystals inside cracks, so Roman harbour walls mend themselves while modern concrete crumbles.", "es": "La ceniza de Pozzuoli reaccionaba con el agua de mar y hacía crecer cristales dentro de las grietas, así los muelles romanos se reparan solos." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/technology/concrete-building-material"
+    },
+    {
+      "id": "cultures-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "The House of Wisdom in Baghdad is best known for doing what with Greek learning?", "es": "¿Qué hizo sobre todo la Casa de la Sabiduría de Bagdad con el saber griego?" },
+      "choices": [
+        { "en": "Hid it in caves", "es": "Lo escondió en cuevas" },
+        { "en": "Carved it in stone", "es": "Lo talló en piedra" },
+        { "en": "Translated and extended it", "es": "Lo tradujo y lo amplió" },
+        { "en": "Sold it to Europe", "es": "Lo vendió a Europa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Scholars there translated Greek, Persian and Indian works into Arabic, then advanced algebra, optics and medicine; Europe later learned much through those books.", "es": "Allí se tradujeron obras griegas, persas e indias al árabe y luego se avanzó en álgebra, óptica y medicina; Europa aprendió mucho por esos libros." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/topic/House-of-Wisdom"
+    },
+    {
+      "id": "cultures-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "➗",
+      "q": { "en": "The word algebra comes from an Arabic term describing what step in solving equations?", "es": "¿Qué paso al resolver ecuaciones describe el término árabe que dio la palabra álgebra?" },
+      "choices": [
+        { "en": "Dividing both sides", "es": "Dividir ambos lados" },
+        { "en": "Squaring a number", "es": "Elevar un número al cuadrado" },
+        { "en": "Guessing a value", "es": "Adivinar un valor" },
+        { "en": "Restoring a broken part", "es": "Restaurar una parte rota" }
+      ],
+      "answer": 3,
+      "why": { "en": "Al-Khwarizmi's title used al-jabr, meaning restoring, for moving a subtracted term to the other side; his own name became the word algorithm.", "es": "El título de al-Juarismi usaba al-yabr, que significa restaurar, para pasar un término al otro lado; su nombre dio la palabra algoritmo." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/biography/al-Khwarizmi"
+    },
+    {
+      "id": "cultures-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥔",
+      "q": { "en": "Potatoes were first farmed by people living around which South American lake?", "es": "¿Alrededor de qué lago sudamericano se cultivó la papa por primera vez?" },
+      "choices": [
+        { "en": "Lake Titicaca", "es": "El lago Titicaca" },
+        { "en": "Lake Maracaibo", "es": "El lago de Maracaibo" },
+        { "en": "Lake Poopó", "es": "El lago Poopó" },
+        { "en": "Lake Argentino", "es": "El lago Argentino" }
+      ],
+      "answer": 0,
+      "why": { "en": "Andean farmers domesticated the potato roughly eight thousand years ago and bred thousands of varieties, freeze-drying some into a storable food called chuño.", "es": "Los agricultores andinos domesticaron la papa hace unos ocho mil años y criaron miles de variedades, y secaban algunas al hielo para hacer chuño." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/plant/potato"
+    },
+    {
+      "id": "cultures-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "Maize was bred over thousands of years from which wild Mexican grass?", "es": "¿De qué pasto silvestre mexicano se crió el maíz durante miles de años?" },
+      "choices": [
+        { "en": "Sorghum", "es": "Sorgo" },
+        { "en": "Teosinte", "es": "Teocintle" },
+        { "en": "Millet", "es": "Mijo" },
+        { "en": "Bamboo", "es": "Bambú" }
+      ],
+      "answer": 1,
+      "why": { "en": "Teosinte carries a dozen hard kernels on a tiny spike; Mexican farmers selected larger, softer ears until maize could no longer seed itself.", "es": "El teocintle lleva una docena de granos duros en una espiga diminuta; los agricultores mexicanos escogieron mazorcas mayores hasta que el maíz dependió de ellos." },
+      "topic": "columbian exchange",
+      "source": "https://www.si.edu/stories/corn"
+    },
+    {
+      "id": "cultures-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Coffee plants were first used as a drink in which part of the world?", "es": "¿En qué parte del mundo se empezó a beber el café?" },
+      "choices": [
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Ethiopia and Yemen", "es": "Etiopía y Yemen" },
+        { "en": "The island of Java", "es": "La isla de Java" }
+      ],
+      "answer": 2,
+      "why": { "en": "Coffee grew wild in Ethiopian highlands and was brewed in Yemen, then carried to the Americas, where Brazil and Colombia became huge growers.", "es": "El café crecía silvestre en las tierras altas de Etiopía y se preparaba en Yemen; luego llegó a América, donde Brasil y Colombia lo cultivaron." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/topic/coffee"
+    },
+    {
+      "id": "cultures-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "Which of these crops reached the Americas from the other side of the Atlantic?", "es": "¿Cuál de estos cultivos llegó a América desde el otro lado del Atlántico?" },
+      "choices": [
+        { "en": "Cacao", "es": "El cacao" },
+        { "en": "Tomato", "es": "El tomate" },
+        { "en": "Vanilla", "es": "La vainilla" },
+        { "en": "Sugar cane", "es": "La caña de azúcar" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sugar cane came from New Guinea through Asia and the Mediterranean; cacao, tomato and vanilla travelled the other way, out of the Americas.", "es": "La caña de azúcar vino de Nueva Guinea por Asia y el Mediterráneo; el cacao, el tomate y la vainilla viajaron al revés, desde América." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/topic/Columbian-exchange"
+    },
+    {
+      "id": "cultures-hard-064", "level": "hard", "type": "tf", "lang": "both", "emoji": "🍅",
+      "q": { "en": "The tomato reached Italy only after Europeans sailed to the Americas.", "es": "El tomate llegó a Italia solo después de que los europeos navegaran a América." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Italians treated the plant as an ornament for decades before eating it, so classic tomato sauces are younger than the voyages of Columbus.", "es": "Los italianos cultivaron la planta como adorno durante décadas antes de comerla, así que las salsas clásicas son más jóvenes que los viajes de Colón." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/plant/tomato"
+    },
+    {
+      "id": "cultures-hard-065", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏞",
+      "q": { "en": "The Aztecs built Tenochtitlan on a hilltop far from any water.", "es": "Los aztecas construyeron Tenochtitlan en una colina lejos del agua." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tenochtitlan stood on an island in Lake Texcoco, reached by causeways, and fresh water arrived through an aqueduct from the springs of Chapultepec.", "es": "Tenochtitlan se alzaba en una isla del lago de Texcoco, unida por calzadas, y el agua dulce llegaba por un acueducto desde Chapultepec." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/place/Tenochtitlan"
+    },
+    {
+      "id": "cultures-hard-066", "level": "hard", "type": "tf", "lang": "both", "emoji": "🫒",
+      "q": { "en": "Winners at the ancient Olympic Games received a crown of wild olive leaves rather than metal medals.", "es": "Los ganadores de los juegos olímpicos antiguos recibían una corona de olivo silvestre en vez de medallas de metal." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cities rewarded their victors with money, statues and free meals for life, so the olive crown was honour and the real prizes came later.", "es": "Las ciudades premiaban a sus vencedores con dinero, estatuas y comidas gratis de por vida, así que la corona de olivo era sobre todo honor." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/ancient-Olympic-Games"
+    },
+    {
+      "id": "cultures-hard-067", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧳",
+      "q": { "en": "A place is removed from the World Heritage List as soon as it becomes popular with tourists.", "es": "Un lugar sale de la Lista del Patrimonio Mundial en cuanto se vuelve popular entre los turistas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sites are delisted only when the value that earned the listing is lost, as happened to a German valley after a bridge cut through it.", "es": "Un sitio se retira solo cuando pierde el valor que le dio el reconocimiento, como un valle alemán partido por un puente nuevo." },
+      "topic": "world heritage",
+      "source": "https://whc.unesco.org/en/list/"
     }
   ]
 }

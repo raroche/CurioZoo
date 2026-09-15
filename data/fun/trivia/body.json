@@ -3640,6 +3640,418 @@
       "why": { "en": "Bile splits fat into tiny droplets so enzymes can reach them; the gallbladder stores it until a fatty meal shows up.", "es": "La bilis parte la grasa en gotitas para que las enzimas lleguen; la vesícula la guarda hasta que llega una comida grasosa." },
       "topic": "the liver",
       "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Spread out flat, about how much area do the air sacs of both lungs cover?", "es": "Si los extendieras planos, ¿cuánta superficie cubrirían los sacos de aire de tus pulmones?" },
+      "choices": [
+        { "en": "About 70 square meters (750 square feet)", "es": "Unos 70 metros cuadrados (750 pies cuadrados)" },
+        { "en": "About 2 square meters (20 square feet)", "es": "Unos 2 metros cuadrados (20 pies cuadrados)" },
+        { "en": "About 7 square meters (75 square feet)", "es": "Unos 7 metros cuadrados (75 pies cuadrados)" },
+        { "en": "About 400 square meters (4,300 square feet)", "es": "Unos 400 metros cuadrados (4,300 pies cuadrados)" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your lungs hold roughly 300 million alveoli, tiny air sacs whose shared surface lets oxygen cross into your blood fast.", "es": "Tus pulmones tienen unos 300 millones de alvéolos, sacos de aire diminutos cuya superficie deja pasar el oxígeno a la sangre rápido." },
+      "topic": "gas exchange",
+      "source": "https://www.nhlbi.nih.gov/health/lungs"
+    },
+    {
+      "id": "body-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "What mainly tells your brain that it is time to take the next breath?", "es": "¿Qué le avisa a tu cerebro, sobre todo, que ya es hora de tomar el siguiente respiro?" },
+      "choices": [
+        { "en": "Oxygen running low in the blood", "es": "Que el oxígeno baje en la sangre" },
+        { "en": "Carbon dioxide building up in the blood", "es": "Que el dióxido de carbono suba en la sangre" },
+        { "en": "The ribs pressing on empty lungs", "es": "Que las costillas opriman los pulmones vacíos" },
+        { "en": "A signal sent by the beating heart", "es": "Una señal que manda el corazón al latir" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sensors watch carbon dioxide, the waste gas your cells make, because it turns blood acidic long before oxygen runs short.", "es": "Unos sensores vigilan el dióxido de carbono, el gas de desecho de tus células, porque acidifica la sangre mucho antes de que falte oxígeno." },
+      "topic": "gas exchange",
+      "source": "https://www.britannica.com/science/human-respiratory-system"
+    },
+    {
+      "id": "body-hard-073", "level": "hard", "type": "tf", "lang": "both", "emoji": "💨",
+      "q": { "en": "The air you breathe out is mostly carbon dioxide.", "es": "El aire que exhalas es casi todo dióxido de carbono." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Exhaled air is about 78 percent nitrogen and 16 percent oxygen; only around 4 percent of it is carbon dioxide.", "es": "El aire exhalado tiene cerca de 78 por ciento de nitrógeno y 16 de oxígeno; solo un 4 por ciento es dióxido de carbono." },
+      "topic": "gas exchange",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Why does the left lung have two lobes while the right lung has three?", "es": "¿Por qué el pulmón izquierdo tiene dos lóbulos y el derecho tiene tres?" },
+      "choices": [
+        { "en": "It sits higher above the stomach", "es": "Está más arriba, encima del estómago" },
+        { "en": "It takes in less air from the windpipe", "es": "Recibe menos aire desde la tráquea" },
+        { "en": "It gives up space to the heart", "es": "Le cede espacio al corazón" },
+        { "en": "It grew later while the body formed", "es": "Se formó más tarde durante el desarrollo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The heart leans left, so the left lung carries a notch called the cardiac impression and one lobe fewer.", "es": "El corazón se inclina a la izquierda, así que ese pulmón tiene una muesca llamada impresión cardíaca y un lóbulo menos." },
+      "topic": "gas exchange",
+      "source": "https://www.britannica.com/science/lung"
+    },
+    {
+      "id": "body-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Which loop of your circulation carries blood from the heart to the lungs and back?", "es": "¿Cuál circuito de tu circulación lleva la sangre del corazón a los pulmones y de regreso?" },
+      "choices": [
+        { "en": "Systemic circulation", "es": "La circulación sistémica" },
+        { "en": "Coronary circulation", "es": "La circulación coronaria" },
+        { "en": "Portal circulation", "es": "La circulación portal" },
+        { "en": "Pulmonary circulation", "es": "La circulación pulmonar" }
+      ],
+      "answer": 3,
+      "why": { "en": "Your heart runs two loops: the short pulmonary loop reaches the lungs, the systemic loop supplies every other body part.", "es": "Tu corazón maneja dos circuitos: el pulmonar, corto, llega a los pulmones; el sistémico alimenta todas las demás partes del cuerpo." },
+      "topic": "the heart's two loops",
+      "source": "https://kidshealth.org/en/teens/heart.html"
+    },
+    {
+      "id": "body-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which vessel leaves the heart carrying blood that is low in oxygen?", "es": "¿Cuál vaso sale del corazón llevando sangre con poco oxígeno?" },
+      "choices": [
+        { "en": "The pulmonary artery", "es": "La arteria pulmonar" },
+        { "en": "The aorta", "es": "La aorta" },
+        { "en": "The carotid artery", "es": "La arteria carótida" },
+        { "en": "The pulmonary vein", "es": "La vena pulmonar" }
+      ],
+      "answer": 0,
+      "why": { "en": "Arteries carry blood away from the heart; the pulmonary artery is the one that hauls oxygen-poor blood toward the lungs.", "es": "Las arterias sacan sangre del corazón; la arteria pulmonar es la que lleva sangre pobre en oxígeno hacia los pulmones." },
+      "topic": "the heart's two loops",
+      "source": "https://www.nhlbi.nih.gov/health/heart"
+    },
+    {
+      "id": "body-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Why is the muscle wall of the left ventricle thicker than the right one?", "es": "¿Por qué la pared muscular del ventrículo izquierdo es más gruesa que la del derecho?" },
+      "choices": [
+        { "en": "It holds much more blood at once", "es": "Guarda mucha más sangre a la vez" },
+        { "en": "It pushes blood through the whole body", "es": "Empuja la sangre por todo el cuerpo" },
+        { "en": "It beats twice for every right-side beat", "es": "Late dos veces por cada latido del lado derecho" },
+        { "en": "It sits lower and fights gravity alone", "es": "Está más abajo y pelea sola con la gravedad" }
+      ],
+      "answer": 1,
+      "why": { "en": "The right ventricle only pushes blood to the lungs next door, while the left must reach your toes and brain.", "es": "El ventrículo derecho solo empuja sangre a los pulmones, que están al lado; el izquierdo debe llegar a tus pies y tu cerebro." },
+      "topic": "the heart's two loops",
+      "source": "https://www.britannica.com/science/human-cardiovascular-system"
+    },
+    {
+      "id": "body-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Where does the heart muscle itself get the oxygen it needs to keep beating?", "es": "¿De dónde saca el propio músculo del corazón el oxígeno que necesita para seguir latiendo?" },
+      "choices": [
+        { "en": "From the blood passing through its chambers", "es": "De la sangre que pasa por sus cavidades" },
+        { "en": "From the air sacs of the nearby lungs", "es": "De los sacos de aire de los pulmones vecinos" },
+        { "en": "From the coronary arteries on its surface", "es": "De las arterias coronarias de su superficie" },
+        { "en": "From the lymph fluid around the chest", "es": "Del líquido linfático que rodea el pecho" }
+      ],
+      "answer": 2,
+      "why": { "en": "Blood rushing through the chambers never soaks in, so coronary arteries branch off the aorta and wrap the heart like a crown.", "es": "La sangre de las cavidades no se absorbe, así que las arterias coronarias salen de la aorta y rodean el corazón como una corona." },
+      "topic": "the heart's two loops",
+      "source": "https://kidshealth.org/en/teens/heart.html"
+    },
+    {
+      "id": "body-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "In an adult, which bones still hold the red marrow that makes blood cells?", "es": "En un adulto, ¿cuáles huesos todavía guardan la médula roja que fabrica células sanguíneas?" },
+      "choices": [
+        { "en": "The bones of the fingers and toes", "es": "Los huesos de los dedos de manos y pies" },
+        { "en": "The long shafts of the arms and legs", "es": "Las cañas largas de brazos y piernas" },
+        { "en": "The small bones inside each ear", "es": "Los huesecillos dentro de cada oído" },
+        { "en": "The hips, ribs, breastbone and spine", "es": "La cadera, las costillas, el esternón y la columna" }
+      ],
+      "answer": 3,
+      "why": { "en": "Children make blood in almost every bone, but by adulthood red marrow retreats to flat bones near the body's center.", "es": "Los niños fabrican sangre en casi todos los huesos, pero en la adultez la médula roja se queda en los huesos planos del centro." },
+      "topic": "bone marrow",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-hard-080", "level": "hard", "type": "tf", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Every bone in an adult body makes blood cells inside its marrow.", "es": "Todos los huesos de un adulto fabrican células sanguíneas en su médula." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Only some bones keep red marrow; the hollow shafts of adult arm and leg bones hold yellow marrow, which stores fat.", "es": "Solo algunos huesos guardan médula roja; las cañas huecas de brazos y piernas adultos tienen médula amarilla, que almacena grasa." },
+      "topic": "bone marrow",
+      "source": "https://www.britannica.com/science/bone-marrow"
+    },
+    {
+      "id": "body-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "Your biceps bends the elbow. Which muscle pulls the arm straight again?", "es": "El bíceps dobla el codo. ¿Cuál músculo estira el brazo de nuevo?" },
+      "choices": [
+        { "en": "The triceps", "es": "El tríceps" },
+        { "en": "The deltoid", "es": "El deltoides" },
+        { "en": "The trapezius", "es": "El trapecio" },
+        { "en": "The forearm flexor", "es": "El flexor del antebrazo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Muscles pull, so they come in opposing pairs: while the triceps contracts the biceps relaxes, and the elbow opens.", "es": "Los músculos jalan, por eso vienen en pares opuestos: cuando el tríceps se contrae, el bíceps se relaja y el codo se abre." },
+      "topic": "muscle pairs",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-hard-082", "level": "hard", "type": "tf", "lang": "both", "emoji": "🖐️",
+      "q": { "en": "Most of the muscle that moves your fingers sits up in your forearm.", "es": "La mayor parte del músculo que mueve tus dedos está en el antebrazo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Long tendons run from forearm muscles through the wrist to each finger, which keeps fingers slim enough to grip well.", "es": "Tendones largos van desde los músculos del antebrazo por la muñeca hasta cada dedo, y así los dedos quedan delgados y ágiles." },
+      "topic": "muscle pairs",
+      "source": "https://www.britannica.com/science/muscle"
+    },
+    {
+      "id": "body-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "Which kind of muscle squeezes food along your gut without any decision from you?", "es": "¿Qué tipo de músculo empuja la comida por tu intestino sin que tú lo decidas?" },
+      "choices": [
+        { "en": "Skeletal muscle", "es": "El músculo esquelético" },
+        { "en": "Smooth muscle", "es": "El músculo liso" },
+        { "en": "Cardiac muscle", "es": "El músculo cardíaco" },
+        { "en": "Tendon fiber", "es": "La fibra del tendón" }
+      ],
+      "answer": 1,
+      "why": { "en": "You have three muscle types: skeletal muscle you command, cardiac muscle in the heart, and smooth muscle lining hollow organs.", "es": "Tienes tres tipos de músculo: el esquelético que mandas tú, el cardíaco del corazón y el liso que forra los órganos huecos." },
+      "topic": "muscles and fibers",
+      "source": "https://kidshealth.org/en/teens/muscles.html"
+    },
+    {
+      "id": "body-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "Which muscle fibers do long-distance runners lean on most during a marathon?", "es": "¿En cuáles fibras musculares se apoyan más los corredores de maratón?" },
+      "choices": [
+        { "en": "Fast-twitch fibers", "es": "Las fibras de contracción rápida" },
+        { "en": "Smooth muscle fibers", "es": "Las fibras de músculo liso" },
+        { "en": "Slow-twitch fibers", "es": "Las fibras de contracción lenta" },
+        { "en": "Cardiac fibers", "es": "Las fibras cardíacas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Slow-twitch fibers burn oxygen steadily and resist tiring; fast-twitch fibers fire harder for a sprint but fade within seconds.", "es": "Las fibras lentas queman oxígeno de forma pareja y aguantan; las rápidas dan más fuerza en una carrera corta, pero se agotan en segundos." },
+      "topic": "muscles and fibers",
+      "source": "https://www.britannica.com/science/muscle"
+    },
+    {
+      "id": "body-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "Which layer of your skin holds the sweat glands, hair roots and blood vessels?", "es": "¿Cuál capa de tu piel guarda las glándulas de sudor, las raíces del pelo y los vasos sanguíneos?" },
+      "choices": [
+        { "en": "The epidermis", "es": "La epidermis" },
+        { "en": "The hypodermis", "es": "La hipodermis" },
+        { "en": "The keratin layer", "es": "La capa de queratina" },
+        { "en": "The dermis", "es": "La dermis" }
+      ],
+      "answer": 3,
+      "why": { "en": "The thin epidermis is the shield you see; the dermis beneath it carries the living machinery, and fat sits below that.", "es": "La epidermis delgada es el escudo que ves; debajo la dermis lleva la maquinaria viva, y más abajo hay una capa de grasa." },
+      "topic": "skin layers",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which cells in the epidermis build the melanin that colors skin and hair?", "es": "¿Cuáles células de la epidermis fabrican la melanina que da color a la piel y al pelo?" },
+      "choices": [
+        { "en": "Melanocytes", "es": "Los melanocitos" },
+        { "en": "Keratinocytes", "es": "Los queratinocitos" },
+        { "en": "Fibroblasts", "es": "Los fibroblastos" },
+        { "en": "Sebaceous cells", "es": "Las células sebáceas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Everyone carries about the same number of melanocytes; skin tone depends on how much melanin each one makes and packages.", "es": "Todos tenemos casi la misma cantidad de melanocitos; el tono de piel depende de cuánta melanina fabrica y empaca cada uno." },
+      "topic": "skin and melanin",
+      "source": "https://www.britannica.com/science/melanocyte"
+    },
+    {
+      "id": "body-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "What does melanin mainly do with the ultraviolet light that reaches your skin?", "es": "¿Qué hace la melanina, sobre todo, con la luz ultravioleta que llega a tu piel?" },
+      "choices": [
+        { "en": "Reflects it back like a mirror", "es": "La refleja como un espejo" },
+        { "en": "Absorbs it before it damages DNA", "es": "La absorbe antes de que dañe el ADN" },
+        { "en": "Turns it into vitamin D", "es": "La convierte en vitamina D" },
+        { "en": "Stores it for use at night", "es": "La guarda para usarla de noche" }
+      ],
+      "answer": 1,
+      "why": { "en": "Melanin soaks up ultraviolet energy and releases it as harmless heat, shielding the DNA inside the dividing cells below.", "es": "La melanina absorbe la energía ultravioleta y la libera como calor inofensivo, protegiendo el ADN de las células que se dividen abajo." },
+      "topic": "skin and melanin",
+      "source": "https://www.britannica.com/science/melanin"
+    },
+    {
+      "id": "body-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "What has happened to an epidermis cell by the time it reaches the skin surface?", "es": "¿Qué le ha pasado a una célula de la epidermis cuando llega a la superficie de la piel?" },
+      "choices": [
+        { "en": "It has grown a tough outer shell", "es": "Le creció un caparazón duro por fuera" },
+        { "en": "It has split into two smaller cells", "es": "Se dividió en dos células más pequeñas" },
+        { "en": "It has died and filled with keratin", "es": "Murió y se llenó de queratina" },
+        { "en": "It has moved into the bloodstream", "es": "Pasó al torrente sanguíneo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The outer skin you touch is layers of dead, keratin-packed cells; you shed roughly 40,000 of them every minute.", "es": "La piel que tocas son capas de células muertas llenas de queratina; sueltas unas 40,000 de ellas cada minuto." },
+      "topic": "skin layers",
+      "source": "https://kidshealth.org/en/teens/skin-hair-nails.html"
+    },
+    {
+      "id": "body-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "What does an enzyme do inside your body?", "es": "¿Qué hace una enzima dentro de tu cuerpo?" },
+      "choices": [
+        { "en": "It stores energy for later use", "es": "Guarda energía para después" },
+        { "en": "It carries oxygen to the cells", "es": "Lleva oxígeno a las células" },
+        { "en": "It traps invading bacteria", "es": "Atrapa bacterias invasoras" },
+        { "en": "It speeds up a chemical reaction", "es": "Acelera una reacción química" }
+      ],
+      "answer": 3,
+      "why": { "en": "Enzymes are proteins that speed reactions without being used up, so one enzyme can work on molecule after molecule.", "es": "Las enzimas son proteínas que aceleran reacciones sin gastarse, así que una sola enzima trabaja molécula tras molécula." },
+      "topic": "enzymes",
+      "source": "https://www.britannica.com/science/enzyme"
+    },
+    {
+      "id": "body-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "Which food does the amylase in your saliva start breaking down while you chew?", "es": "¿Cuál alimento empieza a descomponer la amilasa de tu saliva mientras masticas?" },
+      "choices": [
+        { "en": "Starch in bread and rice", "es": "El almidón del pan y del arroz" },
+        { "en": "Protein in chicken", "es": "La proteína del pollo" },
+        { "en": "Fat in cheese", "es": "La grasa del queso" },
+        { "en": "Fiber in lettuce", "es": "La fibra de la lechuga" }
+      ],
+      "answer": 0,
+      "why": { "en": "Amylase splits starch into sugars, which is why a plain cracker slowly tastes sweet if you hold it in your mouth.", "es": "La amilasa parte el almidón en azúcares; por eso una galleta simple sabe dulce si la dejas un rato en la boca." },
+      "topic": "enzymes",
+      "source": "https://www.britannica.com/science/amylase"
+    },
+    {
+      "id": "body-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "About how many bacteria live in the gut of a healthy adult?", "es": "¿Cuántas bacterias viven, más o menos, en el intestino de un adulto sano?" },
+      "choices": [
+        { "en": "About 100 thousand", "es": "Unas 100 mil" },
+        { "en": "Tens of trillions", "es": "Decenas de billones" },
+        { "en": "About 2 million", "es": "Unos 2 millones" },
+        { "en": "A few hundred", "es": "Unos pocos cientos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Scientists estimate roughly 38 trillion microbes live in one person, about as many as the body's own cells.", "es": "Los científicos calculan unos 38 billones de microbios en una persona, casi tantos como las células del propio cuerpo." },
+      "topic": "the microbiome",
+      "source": "https://www.britannica.com/science/human-microbiome"
+    },
+    {
+      "id": "body-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "Which vitamin do the friendly bacteria in your large intestine make for you?", "es": "¿Cuál vitamina fabrican para ti las bacterias amistosas de tu intestino grueso?" },
+      "choices": [
+        { "en": "Vitamin C", "es": "La vitamina C" },
+        { "en": "Vitamin D", "es": "La vitamina D" },
+        { "en": "Vitamin K", "es": "La vitamina K" },
+        { "en": "Vitamin A", "es": "La vitamina A" }
+      ],
+      "answer": 2,
+      "why": { "en": "Gut bacteria also make some B vitamins; vitamin K matters because your blood needs it to form a clot.", "es": "Las bacterias del intestino también hacen algunas vitaminas B; la vitamina K importa porque tu sangre la necesita para coagular." },
+      "topic": "the microbiome",
+      "source": "https://www.britannica.com/science/vitamin-K"
+    },
+    {
+      "id": "body-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "Which job does the evidence suggest your appendix quietly does?", "es": "¿Cuál tarea sugiere la evidencia que cumple en silencio tu apéndice?" },
+      "choices": [
+        { "en": "It grinds up tough plant fiber", "es": "Muele la fibra vegetal dura" },
+        { "en": "It stores extra bile from the liver", "es": "Guarda la bilis extra del hígado" },
+        { "en": "It filters salt out of the blood", "es": "Filtra la sal de la sangre" },
+        { "en": "It shelters helpful gut bacteria", "es": "Refugia bacterias buenas del intestino" }
+      ],
+      "answer": 3,
+      "why": { "en": "Packed with lymph tissue, the appendix seems to act as a safe house that restocks the gut with good bacteria.", "es": "Lleno de tejido linfático, el apéndice parece servir de refugio que vuelve a poblar el intestino con bacterias buenas." },
+      "topic": "the appendix",
+      "source": "https://www.britannica.com/science/appendix-anatomy"
+    },
+    {
+      "id": "body-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "💊",
+      "q": { "en": "What is the placebo effect?", "es": "¿Qué es el efecto placebo?" },
+      "choices": [
+        { "en": "Feeling better after a treatment with no active medicine", "es": "Sentirse mejor tras un tratamiento sin medicina activa" },
+        { "en": "A medicine losing strength as it ages", "es": "Una medicina que pierde fuerza con el tiempo" },
+        { "en": "A side effect that appears years later", "es": "Un efecto secundario que aparece años después" },
+        { "en": "Two medicines that cancel each other out", "es": "Dos medicinas que se anulan entre sí" }
+      ],
+      "answer": 0,
+      "why": { "en": "Expecting relief can shift real brain chemistry, so trials compare a new medicine against a dummy pill to measure it.", "es": "Esperar alivio puede cambiar la química del cerebro, por eso los estudios comparan una medicina nueva con una pastilla falsa." },
+      "topic": "the placebo effect",
+      "source": "https://www.britannica.com/science/placebo-effect"
+    },
+    {
+      "id": "body-hard-095", "level": "hard", "type": "tf", "lang": "both", "emoji": "🩺",
+      "q": { "en": "In a well-run medicine trial, the doctors handing out the pills also stay unaware of who got the placebo.", "es": "En un estudio médico bien hecho, los médicos que reparten las pastillas tampoco saben quién recibió el placebo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "That is called a double-blind trial: hiding the information from both sides keeps hopes and hunches out of the findings.", "es": "Eso se llama estudio doble ciego: ocultar el dato a ambos lados mantiene las ilusiones y las corazonadas fuera de los resultados." },
+      "topic": "the placebo effect",
+      "source": "https://www.britannica.com/science/clinical-trial"
+    },
+    {
+      "id": "body-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Which part of the brain raises the body's set temperature during a fever?", "es": "¿Qué parte del cerebro sube la temperatura fijada del cuerpo durante una fiebre?" },
+      "choices": [
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The hypothalamus", "es": "El hipotálamo" },
+        { "en": "The hippocampus", "es": "El hipocampo" },
+        { "en": "The pituitary gland", "es": "La glándula pituitaria" }
+      ],
+      "answer": 1,
+      "why": { "en": "The hypothalamus works like a thermostat; when it sets a higher target you shiver until your body reaches that number.", "es": "El hipotálamo funciona como un termostato; cuando fija un objetivo más alto, tiemblas hasta que tu cuerpo alcanza ese número." },
+      "topic": "fevers",
+      "source": "https://kidshealth.org/en/parents/fever.html"
+    },
+    {
+      "id": "body-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Which bone in your body touches no other bone, held in place by muscles alone?", "es": "¿Cuál hueso de tu cuerpo no toca ningún otro y solo lo sostienen los músculos?" },
+      "choices": [
+        { "en": "The kneecap", "es": "La rótula" },
+        { "en": "The collarbone", "es": "La clavícula" },
+        { "en": "The hyoid bone", "es": "El hueso hioides" },
+        { "en": "The tailbone", "es": "El cóccix" }
+      ],
+      "answer": 2,
+      "why": { "en": "The U-shaped hyoid floats in your throat above the voice box, anchoring the tongue and helping you swallow and speak.", "es": "El hioides, con forma de U, flota en la garganta sobre la laringe, sujeta la lengua y te ayuda a tragar y hablar." },
+      "topic": "stable body facts",
+      "source": "https://www.britannica.com/science/hyoid-bone"
+    },
+    {
+      "id": "body-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "👅",
+      "q": { "en": "About how many taste buds does an adult tongue carry?", "es": "¿Cuántas papilas gustativas tiene, más o menos, la lengua de un adulto?" },
+      "choices": [
+        { "en": "About 100", "es": "Unas 100" },
+        { "en": "About 500", "es": "Unas 500" },
+        { "en": "About 500 thousand", "es": "Unas 500 mil" },
+        { "en": "Several thousand", "es": "Varios miles" }
+      ],
+      "answer": 3,
+      "why": { "en": "An adult tongue carries a few thousand taste buds, and each one holds 50 to 100 cells that are replaced weekly.", "es": "Una lengua adulta tiene varios miles de papilas gustativas, y cada una guarda de 50 a 100 células que se renuevan cada semana." },
+      "topic": "stable body facts",
+      "source": "https://www.britannica.com/science/taste-bud"
+    },
+    {
+      "id": "body-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦵",
+      "q": { "en": "About what share of an adult's height is taken up by the femur, the thigh bone?", "es": "¿Qué parte de la estatura de un adulto ocupa el fémur, el hueso del muslo?" },
+      "choices": [
+        { "en": "About one tenth", "es": "Como una décima parte" },
+        { "en": "About one half", "es": "Como la mitad" },
+        { "en": "About one quarter", "es": "Como una cuarta parte" },
+        { "en": "About one eighth", "es": "Como una octava parte" }
+      ],
+      "answer": 2,
+      "why": { "en": "The femur runs about a quarter of your height and, packed with dense bone, it supports many times your body weight.", "es": "El fémur mide cerca de una cuarta parte de tu estatura y, por su hueso denso, aguanta muchas veces tu propio peso." },
+      "topic": "stable body facts",
+      "source": "https://www.britannica.com/science/femur"
+    },
+    {
+      "id": "body-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which organ tells the bone marrow to make more red blood cells when oxygen runs low?", "es": "¿Cuál órgano le avisa a la médula ósea que fabrique más glóbulos rojos cuando falta oxígeno?" },
+      "choices": [
+        { "en": "The liver", "es": "El hígado" },
+        { "en": "The spleen", "es": "El bazo" },
+        { "en": "The thyroid gland", "es": "La glándula tiroides" },
+        { "en": "The kidney", "es": "El riñón" }
+      ],
+      "answer": 3,
+      "why": { "en": "Kidneys do more than make urine: they release erythropoietin, a hormone that orders marrow to build extra oxygen carriers.", "es": "Los riñones hacen más que orina: liberan eritropoyetina, una hormona que ordena a la médula fabricar más transportadores de oxígeno." },
+      "topic": "the kidneys",
+      "source": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
     }
   ]
 }
