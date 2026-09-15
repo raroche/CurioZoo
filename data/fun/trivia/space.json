@@ -3620,6 +3620,450 @@
       "why": { "en": "Proxima Centauri lies about 4.2 light-years away, so we always see it as it looked a little over four years ago.", "es": "Próxima Centauri está a unos 4.2 años luz, así que la vemos siempre como era hace poco más de cuatro años." },
       "topic": "light-years",
       "source": "https://science.nasa.gov/universe/exoplanets/proxima-centauri-b/"
+    },
+    {
+      "id": "space-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "About what share of the mass of a rocket at liftoff is propellant?", "es": "¿Qué parte de la masa de un cohete al despegar es combustible?" },
+      "choices": [
+        { "en": "About 30 percent", "es": "Cerca del 30 por ciento" },
+        { "en": "About 50 percent", "es": "Cerca del 50 por ciento" },
+        { "en": "About 65 percent", "es": "Cerca del 65 por ciento" },
+        { "en": "About 85 to 90 percent", "es": "Entre el 85 y el 90 por ciento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Payload is often under 5 percent of the stack, because every extra kilogram carried upward needs still more fuel to lift it.", "es": "La carga útil suele ser menos del 5 por ciento del conjunto, porque cada kilo extra exige todavía más combustible para subirlo." },
+      "topic": "rockets",
+      "source": "https://www.planetary.org/articles/how-rockets-work"
+    },
+    {
+      "id": "space-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛫",
+      "q": { "en": "What is the main job of a second stage after the first one falls away?", "es": "¿Cuál es la tarea principal de una segunda etapa después de que se suelta la primera?" },
+      "choices": [
+        { "en": "To build the sideways speed that keeps the payload in orbit", "es": "Ganar la velocidad lateral que mantiene la carga en órbita" },
+        { "en": "To lift the rocket off the launch pad", "es": "Levantar el cohete de la plataforma de lanzamiento" },
+        { "en": "To slow the rocket before it leaves the air", "es": "Frenar el cohete antes de que salga del aire" },
+        { "en": "To pull the crew capsule free of the booster", "es": "Separar la cápsula de la tripulación del propulsor" }
+      ],
+      "answer": 0,
+      "why": { "en": "Reaching space takes height, but staying there takes speed: about 28,000 km per hour, 17,500 miles per hour, sideways.", "es": "Llegar al espacio pide altura, pero quedarse pide velocidad: unos 28,000 km por hora, 17,500 millas por hora, de lado." },
+      "topic": "rocket stages",
+      "source": "https://www.esa.int/Enabling_Support/Space_Transportation"
+    },
+    {
+      "id": "space-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "How fast must a spacecraft travel to break free of the gravity of Earth completely?", "es": "¿Qué tan rápido debe ir una nave para escapar por completo de la gravedad de la Tierra?" },
+      "choices": [
+        { "en": "About 2 km per second, 1.2 miles per second", "es": "Unos 2 km por segundo, 1.2 millas por segundo" },
+        { "en": "About 11.2 km per second, 7 miles per second", "es": "Unos 11.2 km por segundo, 7 millas por segundo" },
+        { "en": "About 40 km per second, 25 miles per second", "es": "Unos 40 km por segundo, 25 millas por segundo" },
+        { "en": "About 300 km per second, 186 miles per second", "es": "Unos 300 km por segundo, 186 millas por segundo" }
+      ],
+      "answer": 1,
+      "why": { "en": "That figure is called escape velocity, and it depends on a world's mass and size, which is why the Moon needs only 2.4.", "es": "Ese número se llama velocidad de escape y depende de la masa y el tamaño del mundo; a la Luna le bastan 2.4." },
+      "topic": "orbits",
+      "source": "https://www.britannica.com/science/escape-velocity"
+    },
+    {
+      "id": "space-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "At what height must a satellite orbit to hover above one spot on the equator?", "es": "¿A qué altura debe orbitar un satélite para quedarse sobre un mismo punto del ecuador?" },
+      "choices": [
+        { "en": "About 400 km, 250 miles", "es": "Unos 400 km, 250 millas" },
+        { "en": "About 2000 km, 1200 miles", "es": "Unos 2000 km, 1200 millas" },
+        { "en": "About 35,800 km, 22,200 miles", "es": "Unos 35,800 km, 22,200 millas" },
+        { "en": "About 380,000 km, 236,000 miles", "es": "Unos 380,000 km, 236,000 millas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Only at that height does one lap take exactly one day, so a dish on the ground can aim at the satellite and stay still.", "es": "Solo a esa altura una vuelta dura justo un día, así que una antena en el suelo apunta al satélite y se queda quieta." },
+      "topic": "geostationary orbit",
+      "source": "https://www.nesdis.noaa.gov/about/our-satellites"
+    },
+    {
+      "id": "space-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Why does a satellite in low orbit slowly sink and finally burn up?", "es": "¿Por qué un satélite en órbita baja va bajando poco a poco hasta consumirse?" },
+      "choices": [
+        { "en": "Thin traces of air still drag on it", "es": "Restos finísimos de aire todavía lo frenan" },
+        { "en": "Its batteries lose their charge", "es": "Sus baterías pierden la carga" },
+        { "en": "The Moon pulls it downward", "es": "La Luna lo jala hacia abajo" },
+        { "en": "Sunlight pushes it toward the ground", "es": "La luz del Sol lo empuja hacia el suelo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Even 400 km, 250 miles up, a whisper of atmosphere rubs the craft, so the station fires thrusters to climb back regularly.", "es": "Incluso a 400 km, 250 millas de altura queda un poco de aire que roza la nave, y la estación enciende motores para subir." },
+      "topic": "orbits",
+      "source": "https://www.esa.int/Space_Safety/Space_Debris"
+    },
+    {
+      "id": "space-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "👩‍🚀",
+      "q": { "en": "Which woman carried out the first spacewalk by a woman, back in 1984?", "es": "¿Cuál mujer realizó la primera caminata espacial hecha por una mujer, en 1984?" },
+      "choices": [
+        { "en": "Sally Ride", "es": "Sally Ride" },
+        { "en": "Svetlana Savitskaya", "es": "Svetlana Savitskaya" },
+        { "en": "Kathryn Sullivan", "es": "Kathryn Sullivan" },
+        { "en": "Valentina Tereshkova", "es": "Valentina Tereshkova" }
+      ],
+      "answer": 1,
+      "why": { "en": "She spent over three hours outside the Salyut 7 station, welding metal in a vacuum, and Kathryn Sullivan followed months later.", "es": "Pasó más de tres horas fuera de la estación Salyut 7 soldando metal en el vacío, y Kathryn Sullivan lo hizo meses después." },
+      "topic": "space history",
+      "source": "https://www.britannica.com/biography/Svetlana-Savitskaya"
+    },
+    {
+      "id": "space-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗓️",
+      "q": { "en": "How often does a good launch window to Mars open up?", "es": "¿Cada cuánto se abre una buena ventana de lanzamiento hacia Marte?" },
+      "choices": [
+        { "en": "About every 6 months", "es": "Cada 6 meses más o menos" },
+        { "en": "About every 12 months", "es": "Cada 12 meses más o menos" },
+        { "en": "About every 26 months", "es": "Cada 26 meses más o menos" },
+        { "en": "About every 5 years", "es": "Cada 5 años más o menos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth laps Mars every 26 months, and only then can a probe coast along a fuel saving curve called a Hohmann transfer.", "es": "La Tierra rebasa a Marte cada 26 meses, y solo entonces una sonda puede seguir la curva de ahorro llamada transferencia de Hohmann." },
+      "topic": "orbits",
+      "source": "https://science.nasa.gov/mars/"
+    },
+    {
+      "id": "space-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎯",
+      "q": { "en": "How does a flyby of a planet make a spacecraft travel faster without burning fuel?", "es": "¿Cómo hace un sobrevuelo de un planeta que una nave viaje más rápido sin gastar combustible?" },
+      "choices": [
+        { "en": "It slides down the magnetic field of the planet", "es": "Se desliza por el campo magnético del planeta" },
+        { "en": "It catches the solar wind behind the planet", "es": "Atrapa el viento solar detrás del planeta" },
+        { "en": "It uses heat from the atmosphere of the planet", "es": "Usa el calor de la atmósfera del planeta" },
+        { "en": "It steals a sliver of the planet's own orbital motion", "es": "Le roba una pizca del movimiento orbital del planeta" }
+      ],
+      "answer": 3,
+      "why": { "en": "The planet loses an unmeasurably tiny amount of speed while the probe gains a great deal, a trick that carried Voyager outward.", "es": "El planeta pierde una pizca de velocidad imposible de medir y la sonda gana muchísima; ese truco llevó a las Voyager hacia afuera." },
+      "topic": "space probes",
+      "source": "https://science.nasa.gov/learn/basics-of-space-flight/"
+    },
+    {
+      "id": "space-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "Which boundary did Voyager 1 cross in 2012, the first craft ever to do so?", "es": "¿Cuál frontera cruzó la Voyager 1 en 2012, la primera nave en lograrlo?" },
+      "choices": [
+        { "en": "The heliopause, edge of the bubble around the Sun", "es": "La heliopausa, borde de la burbuja que rodea al Sol" },
+        { "en": "The outer rim of the Kuiper belt", "es": "El borde exterior del cinturón de Kuiper" },
+        { "en": "The orbit of Pluto", "es": "La órbita de Plutón" },
+        { "en": "The inner edge of the Oort cloud", "es": "El borde interior de la nube de Oort" }
+      ],
+      "answer": 0,
+      "why": { "en": "The heliopause is where the solar wind finally gives way to gas between the stars, about 18 billion km, 11 billion miles out.", "es": "La heliopausa es donde el viento solar cede ante el gas entre las estrellas, a unos 18 mil millones de kilómetros del Sol." },
+      "topic": "voyager probes",
+      "source": "https://science.nasa.gov/mission/voyager/"
+    },
+    {
+      "id": "space-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "💿",
+      "q": { "en": "Which of these rides on the golden disc bolted to each Voyager probe?", "es": "¿Cuál de estas cosas viaja en el disco dorado atornillado a cada sonda Voyager?" },
+      "choices": [
+        { "en": "A map of every city on Earth", "es": "Un mapa de todas las ciudades de la Tierra" },
+        { "en": "Greetings spoken in 55 languages", "es": "Saludos hablados en 55 idiomas" },
+        { "en": "A sealed sample of our air", "es": "Una muestra sellada de nuestro aire" },
+        { "en": "A living seed from a redwood tree", "es": "Una semilla viva de una secuoya" }
+      ],
+      "answer": 1,
+      "why": { "en": "The disc also carries whale song, thunder, and music from many cultures, etched to last a billion years in the cold of space.", "es": "El disco también lleva canto de ballenas, truenos y música de muchas culturas, grabados para durar mil millones de años en el frío." },
+      "topic": "voyager probes",
+      "source": "https://science.nasa.gov/mission/voyager/golden-record/"
+    },
+    {
+      "id": "space-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Which single spacecraft has flown past both Uranus and Neptune?", "es": "¿Cuál nave por sí sola ha pasado cerca de Urano y de Neptuno?" },
+      "choices": [
+        { "en": "Voyager 1", "es": "Voyager 1" },
+        { "en": "Pioneer 11", "es": "Pioneer 11" },
+        { "en": "Voyager 2", "es": "Voyager 2" },
+        { "en": "New Horizons", "es": "New Horizons" }
+      ],
+      "answer": 2,
+      "why": { "en": "Voyager 2 launched slightly before its twin and used a rare planet alignment to tour all four giant worlds in one journey.", "es": "La Voyager 2 despegó poco antes que su gemela y aprovechó una alineación rara para visitar los cuatro mundos gigantes en un viaje." },
+      "topic": "voyager probes",
+      "source": "https://science.nasa.gov/mission/voyager/voyager-2/"
+    },
+    {
+      "id": "space-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "What keeps the Voyager probes running so far from any sunlight?", "es": "¿Qué mantiene funcionando a las sondas Voyager tan lejos de la luz del Sol?" },
+      "choices": [
+        { "en": "Huge folding solar panels", "es": "Enormes paneles solares plegables" },
+        { "en": "Batteries charged before launch", "es": "Baterías cargadas antes del despegue" },
+        { "en": "A small turbine turned by the solar wind", "es": "Una turbina pequeña movida por el viento solar" },
+        { "en": "Heat from decaying plutonium turned into electricity", "es": "Calor de plutonio en decaimiento convertido en electricidad" }
+      ],
+      "answer": 3,
+      "why": { "en": "A radioisotope generator makes power from warmth instead of sunlight, losing a little each year, which is why instruments are switched off gradually.", "es": "Un generador de radioisótopos saca energía del calor y no del Sol; pierde un poco cada año, por eso apagan instrumentos poco a poco." },
+      "topic": "voyager probes",
+      "source": "https://science.nasa.gov/mission/voyager/spacecraft/"
+    },
+    {
+      "id": "space-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What went wrong with the mirror of Hubble, forcing astronauts to fix it in 1993?", "es": "¿Qué salió mal con el espejo del Hubble y obligó a los astronautas a repararlo en 1993?" },
+      "choices": [
+        { "en": "It cracked during the launch", "es": "Se agrietó durante el lanzamiento" },
+        { "en": "It was ground to slightly the wrong curve", "es": "Fue pulido con una curva un poco equivocada" },
+        { "en": "It was coated with the wrong metal", "es": "Fue recubierto con el metal equivocado" },
+        { "en": "It was mounted the wrong way round", "es": "Fue montado al revés" }
+      ],
+      "answer": 1,
+      "why": { "en": "The edge was too flat by about a fiftieth the width of a hair, so a spacewalk crew fitted corrective optics like eyeglasses.", "es": "El borde quedó plano por una cincuentava parte del grosor de un cabello, y una tripulación le puso ópticas correctoras como lentes." },
+      "topic": "hubble telescope",
+      "source": "https://science.nasa.gov/mission/hubble/"
+    },
+    {
+      "id": "space-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What did astronomers see when Hubble stared for days at a seemingly empty patch of sky?", "es": "¿Qué vieron los astrónomos cuando el Hubble miró por días un pedazo de cielo aparentemente vacío?" },
+      "choices": [
+        { "en": "A single faint star", "es": "Una sola estrella tenue" },
+        { "en": "A cloud of comet dust", "es": "Una nube de polvo de cometa" },
+        { "en": "Thousands of distant galaxies", "es": "Miles de galaxias lejanas" },
+        { "en": "The outer edge of the Milky Way", "es": "El borde exterior de la Vía Láctea" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Deep Field showed that almost every blank scrap of sky is crowded with galaxies, each holding billions of stars of its own.", "es": "El Campo Profundo mostró que casi cualquier pedazo vacío del cielo está lleno de galaxias, cada una con miles de millones de estrellas." },
+      "topic": "hubble telescope",
+      "source": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/"
+    },
+    {
+      "id": "space-hard-083", "level": "hard", "type": "tf", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "The Hubble Space Telescope circles Earth about once every hour and a half.", "es": "El telescopio espacial Hubble le da la vuelta a la Tierra cada hora y media, más o menos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "From roughly 540 km, 335 miles up, it circles about sixteen times a day, so its targets slip behind Earth again and again.", "es": "Desde unos 540 km, 335 millas de altura da unas dieciséis vueltas al día, así que sus blancos se esconden tras la Tierra seguido." },
+      "topic": "hubble telescope",
+      "source": "https://science.nasa.gov/mission/hubble/observatory/"
+    },
+    {
+      "id": "space-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "What does a planet hunter look for when using the transit method?", "es": "¿Qué busca un cazador de planetas cuando usa el método del tránsito?" },
+      "choices": [
+        { "en": "A shift in the colour of the star toward red", "es": "Un cambio del color de la estrella hacia el rojo" },
+        { "en": "A tiny regular dip in the brightness of the star", "es": "Una bajadita regular en el brillo de la estrella" },
+        { "en": "A flare that repeats every few hours", "es": "Una llamarada que se repite cada pocas horas" },
+        { "en": "A ring of dust circling the star", "es": "Un anillo de polvo girando alrededor de la estrella" }
+      ],
+      "answer": 1,
+      "why": { "en": "A world the size of Jupiter blocks about one percent of the light, while an Earth sized planet hides only about one ten thousandth.", "es": "Un mundo del tamaño de Júpiter tapa cerca del uno por ciento de la luz; uno como la Tierra apenas una diezmilésima parte." },
+      "topic": "exoplanets",
+      "source": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/"
+    },
+    {
+      "id": "space-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "〰️",
+      "q": { "en": "How does the wobble method reveal a planet far too faint to see?", "es": "¿Cómo revela el método del bamboleo un planeta demasiado tenue para verse?" },
+      "choices": [
+        { "en": "The shadow of the planet cools the star", "es": "La sombra del planeta enfría la estrella" },
+        { "en": "The planet bends starlight into a bright ring", "es": "El planeta dobla la luz estelar en un anillo brillante" },
+        { "en": "The planet tugs its star, shifting the colour of its light", "es": "El planeta jala su estrella y cambia el color de su luz" },
+        { "en": "The planet blocks radio waves from the star", "es": "El planeta bloquea las ondas de radio de la estrella" }
+      ],
+      "answer": 2,
+      "why": { "en": "As the star inches toward us its light turns slightly bluer, and away it turns redder, a rhythm that betrays an unseen companion.", "es": "Cuando la estrella se acerca su luz se vuelve más azul, y al alejarse más roja; ese ritmo delata a un compañero invisible." },
+      "topic": "exoplanets",
+      "source": "https://science.nasa.gov/exoplanets/radial-velocity/"
+    },
+    {
+      "id": "space-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥵",
+      "q": { "en": "Why were giant planets hugging their stars the first exoplanets found?", "es": "¿Por qué los planetas gigantes pegados a sus estrellas fueron los primeros exoplanetas hallados?" },
+      "choices": [
+        { "en": "They shine with a light of their own", "es": "Brillan con luz propia" },
+        { "en": "They pass in front of their star every hour", "es": "Pasan frente a su estrella cada hora" },
+        { "en": "They are the most common kind of planet", "es": "Son el tipo de planeta más común" },
+        { "en": "They are big and orbit quickly, so the signal repeats often", "es": "Son grandes y orbitan rápido, así que la señal se repite seguido" }
+      ],
+      "answer": 3,
+      "why": { "en": "A hot Jupiter can round its star in days, giving a strong repeating signal, while an Earth twin needs a year for each dip.", "es": "Un júpiter caliente rodea su estrella en días y da una señal fuerte y repetida, mientras un gemelo de la Tierra tarda un año." },
+      "topic": "exoplanets",
+      "source": "https://science.nasa.gov/exoplanets/hot-jupiter/"
+    },
+    {
+      "id": "space-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "What does it mean when astronomers place a planet in the habitable zone?", "es": "¿Qué significa que los astrónomos coloquen un planeta en la zona habitable?" },
+      "choices": [
+        { "en": "Liquid water could sit on its surface", "es": "Podría haber agua líquida en su superficie" },
+        { "en": "It already has plants growing there", "es": "Ya tiene plantas creciendo ahí" },
+        { "en": "It breathes the same air as Earth", "es": "Tiene el mismo aire que la Tierra" },
+        { "en": "It is close enough for us to visit", "es": "Está lo bastante cerca para visitarlo" }
+      ],
+      "answer": 0,
+      "why": { "en": "The zone is the ring around a star where water stays liquid, which is why it is nicknamed the Goldilocks zone.", "es": "Es el anillo alrededor de una estrella donde el agua se mantiene líquida, y por eso lo apodan la zona de Ricitos de Oro." },
+      "topic": "exoplanets",
+      "source": "https://science.nasa.gov/exoplanets/habitable-zone/"
+    },
+    {
+      "id": "space-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "7️⃣",
+      "q": { "en": "Which nearby dwarf star was found to host seven roughly Earth sized planets?", "es": "¿Cuál estrella enana cercana resultó tener siete planetas de tamaño parecido al de la Tierra?" },
+      "choices": [
+        { "en": "Proxima Centauri", "es": "Próxima Centauri" },
+        { "en": "TRAPPIST-1", "es": "TRAPPIST-1" },
+        { "en": "Barnard's Star", "es": "La estrella de Barnard" },
+        { "en": "Tau Ceti", "es": "Tau Ceti" }
+      ],
+      "answer": 1,
+      "why": { "en": "The star is so small and cool that all seven worlds huddle closer to it than Mercury sits to our own Sun.", "es": "La estrella es tan pequeña y fría que los siete mundos caben más cerca de ella que Mercurio de nuestro propio Sol." },
+      "topic": "exoplanets",
+      "source": "https://science.nasa.gov/exoplanets/trappist-1/"
+    },
+    {
+      "id": "space-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "Which small rover became the first wheeled machine to roll across Mars in 1997?", "es": "¿Cuál pequeño vehículo fue la primera máquina con ruedas en rodar sobre Marte en 1997?" },
+      "choices": [
+        { "en": "Spirit", "es": "Spirit" },
+        { "en": "Opportunity", "es": "Opportunity" },
+        { "en": "Sojourner", "es": "Sojourner" },
+        { "en": "Curiosity", "es": "Curiosity" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sojourner weighed about 11 kg, 25 pounds, roughly the size of a microwave oven, and travelled barely 100 metres in total.", "es": "Sojourner pesaba unos 11 kg, 25 libras, más o menos como un horno de microondas, y recorrió apenas 100 metros en total." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/mars-pathfinder/"
+    },
+    {
+      "id": "space-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "How long were the twin rovers Spirit and Opportunity designed to last on Mars?", "es": "¿Cuánto tiempo debían durar en Marte los rovers gemelos Spirit y Opportunity según su diseño?" },
+      "choices": [
+        { "en": "About one year", "es": "Cerca de un año" },
+        { "en": "About five years", "es": "Unos cinco años" },
+        { "en": "About ten years", "es": "Unos diez años" },
+        { "en": "About 90 days", "es": "Unos 90 días" }
+      ],
+      "answer": 3,
+      "why": { "en": "Both far outlived that plan because Martian winds kept blowing dust off their solar panels, letting them keep charging for years.", "es": "Los dos duraron mucho más porque los vientos marcianos seguían limpiando el polvo de sus paneles solares y podían recargarse durante años." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+    },
+    {
+      "id": "space-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫐",
+      "q": { "en": "Which discovery by Opportunity showed that its landing site once held standing water?", "es": "¿Cuál hallazgo de Opportunity mostró que su zona de aterrizaje tuvo agua estancada alguna vez?" },
+      "choices": [
+        { "en": "Fossil shells lying in the dust", "es": "Conchas fósiles tiradas en el polvo" },
+        { "en": "Layers of pure salt on the surface", "es": "Capas de sal pura en la superficie" },
+        { "en": "Frozen puddles inside a crater", "es": "Charcos congelados dentro de un cráter" },
+        { "en": "Tiny grey spheres of hematite inside the rock", "es": "Esferitas grises de hematita dentro de la roca" }
+      ],
+      "answer": 3,
+      "why": { "en": "Nicknamed blueberries, these iron rich pellets form in water, and the rover also found ripple patterns left by a shallow briny sea.", "es": "Apodadas moras, esas bolitas ricas en hierro se forman en agua, y el rover halló además marcas de olas de un mar poco profundo." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+    },
+    {
+      "id": "space-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏗️",
+      "q": { "en": "How was Curiosity lowered onto Mars in 2012, being far too heavy for airbags?", "es": "¿Cómo bajaron a Curiosity hasta Marte en 2012, si pesaba demasiado para las bolsas de aire?" },
+      "choices": [
+        { "en": "It rolled down a ramp from a lander", "es": "Bajó por una rampa desde un módulo de descenso" },
+        { "en": "A hovering sky crane lowered it on cables", "es": "Una grúa aérea suspendida lo bajó con cables" },
+        { "en": "It parachuted all the way to the ground", "es": "Cayó en paracaídas hasta el suelo" },
+        { "en": "It bounced inside a ball of cushions", "es": "Rebotó dentro de una bola de cojines" }
+      ],
+      "answer": 1,
+      "why": { "en": "The rocket powered stage hovered, paid out three cables, set the one tonne rover down, then flew off to crash at a safe distance.", "es": "La etapa con motores se quedó suspendida, soltó tres cables, dejó el rover de una tonelada en el suelo y se alejó a estrellarse." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/msl-curiosity/"
+    },
+    {
+      "id": "space-hard-093", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎮",
+      "q": { "en": "Engineers steered the landing of Curiosity live from Earth as it was happening.", "es": "Los ingenieros dirigieron en vivo desde la Tierra el aterrizaje de Curiosity mientras ocurría." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Radio took about 14 minutes each way that day, so the whole descent had to run on software written months beforehand.", "es": "La radio tardaba unos 14 minutos en cada sentido, así que todo el descenso corrió con programas escritos meses antes." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/msl-curiosity/"
+    },
+    {
+      "id": "space-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🆘",
+      "q": { "en": "Which Apollo flight had to swing around the Moon and come home without landing?", "es": "¿Cuál vuelo Apolo tuvo que rodear la Luna y volver a casa sin alunizar?" },
+      "choices": [
+        { "en": "Apollo 8", "es": "Apolo 8" },
+        { "en": "Apollo 10", "es": "Apolo 10" },
+        { "en": "Apollo 13", "es": "Apolo 13" },
+        { "en": "Apollo 12", "es": "Apolo 12" }
+      ],
+      "answer": 2,
+      "why": { "en": "An oxygen tank split open on the way out, so the crew used the lunar module as a lifeboat and looped around the Moon.", "es": "Un tanque de oxígeno se rompió en el camino, así que la tripulación usó el módulo lunar como bote salvavidas y rodeó la Luna." },
+      "topic": "apollo missions",
+      "source": "https://www.nasa.gov/mission/apollo-13/"
+    },
+    {
+      "id": "space-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which crewed mission first carried people around the Moon and back in 1968?", "es": "¿Cuál misión tripulada llevó por primera vez personas alrededor de la Luna y de regreso en 1968?" },
+      "choices": [
+        { "en": "Apollo 8", "es": "Apolo 8" },
+        { "en": "Apollo 7", "es": "Apolo 7" },
+        { "en": "Apollo 9", "es": "Apolo 9" },
+        { "en": "Apollo 11", "es": "Apolo 11" }
+      ],
+      "answer": 0,
+      "why": { "en": "Its crew were the first humans to see Earth rise over the lunar horizon, and the photograph changed how people pictured our world.", "es": "Su tripulación fue la primera en ver salir la Tierra sobre el horizonte lunar, y esa foto cambió cómo la gente imaginaba el mundo." },
+      "topic": "apollo missions",
+      "source": "https://www.nasa.gov/mission/apollo-8/"
+    },
+    {
+      "id": "space-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛏️",
+      "q": { "en": "What made Apollo 17 different from every earlier landing on the Moon?", "es": "¿Qué hizo diferente al Apolo 17 de todos los alunizajes anteriores?" },
+      "choices": [
+        { "en": "It carried the first wheeled buggy", "es": "Llevó el primer vehículo con ruedas" },
+        { "en": "It touched down on the far side", "es": "Aterrizó en el lado lejano" },
+        { "en": "It stayed for a whole month", "es": "Se quedó un mes entero" },
+        { "en": "A trained geologist walked on the surface", "es": "Un geólogo entrenado caminó por la superficie" }
+      ],
+      "answer": 3,
+      "why": { "en": "Harrison Schmitt was the only scientist to reach the Moon, and his crew brought back the biggest haul of rock and soil.", "es": "Harrison Schmitt fue el único científico que pisó la Luna, y su tripulación trajo la mayor carga de roca y suelo lunar." },
+      "topic": "apollo missions",
+      "source": "https://www.nasa.gov/mission/apollo-17/"
+    },
+    {
+      "id": "space-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "What did Apollo crews leave behind that scientists still bounce lasers off?", "es": "¿Qué dejaron las tripulaciones Apolo en la Luna donde los científicos todavía rebotan láseres?" },
+      "choices": [
+        { "en": "Mirror panels called retroreflectors", "es": "Paneles de espejos llamados retrorreflectores" },
+        { "en": "A radio beacon", "es": "Una baliza de radio" },
+        { "en": "A magnetic compass", "es": "Una brújula magnética" },
+        { "en": "A small weather station", "es": "Una pequeña estación del clima" }
+      ],
+      "answer": 0,
+      "why": { "en": "Timing the return flash measures the distance to within centimetres, which is how we know the Moon drifts slowly away each year.", "es": "Cronometrar el destello de regreso mide la distancia con precisión de centímetros, y así sabemos que la Luna se aleja poco a poco." },
+      "topic": "apollo missions",
+      "source": "https://science.nasa.gov/moon/lunar-laser-ranging/"
+    },
+    {
+      "id": "space-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "📻",
+      "q": { "en": "On which island did the giant Arecibo radio dish sit inside a natural sinkhole?", "es": "¿En cuál isla estaba el enorme plato de radio de Arecibo, dentro de un sumidero natural?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Jamaica", "es": "Jamaica" },
+        { "en": "Hispaniola", "es": "La Española" },
+        { "en": "Puerto Rico", "es": "Puerto Rico" }
+      ],
+      "answer": 3,
+      "why": { "en": "Its 305 metre, 1000 foot bowl listened for decades, mapped asteroids by radar, and beamed a famous message toward a star cluster.", "es": "Su plato de 305 metros, 1000 pies escuchó durante décadas, mapeó asteroides con radar y envió un mensaje famoso a un cúmulo." },
+      "topic": "observatories",
+      "source": "https://www.britannica.com/place/Arecibo-Observatory"
+    },
+    {
+      "id": "space-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which Chilean observatory runs four 8 metre telescopes that can work together as one?", "es": "¿Cuál observatorio chileno opera cuatro telescopios de 8 metros que pueden trabajar juntos como uno solo?" },
+      "choices": [
+        { "en": "Mauna Kea Observatory", "es": "Observatorio de Mauna Kea" },
+        { "en": "Arecibo Observatory", "es": "Observatorio de Arecibo" },
+        { "en": "Palomar Observatory", "es": "Observatorio de Palomar" },
+        { "en": "The Very Large Telescope at Paranal", "es": "El Very Large Telescope en Paranal" }
+      ],
+      "answer": 3,
+      "why": { "en": "Combining their light, a trick called interferometry, gives the sharpness of a single mirror many times wider than any one dish.", "es": "Al combinar su luz, un truco llamado interferometría, logran la nitidez de un espejo único mucho más ancho que cualquiera de ellos." },
+      "topic": "observatories",
+      "source": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/"
+    },
+    {
+      "id": "space-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "Which simple change to a streetlight does most to give a town back its stars?", "es": "¿Cuál cambio sencillo en una lámpara de calle le devuelve más estrellas a un pueblo?" },
+      "choices": [
+        { "en": "Shielding it so the light points only downward", "es": "Taparla para que la luz apunte solo hacia abajo" },
+        { "en": "Making the bulb much brighter", "es": "Hacer el foco mucho más brillante" },
+        { "en": "Painting the pole white", "es": "Pintar el poste de blanco" },
+        { "en": "Raising it twice as high", "es": "Subirla al doble de altura" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light thrown sideways scatters off dust and air into a glowing dome called skyglow, which can hide all but the brightest stars.", "es": "La luz lanzada de lado se dispersa en el polvo y el aire y forma una cúpula brillante que esconde casi todas las estrellas." },
+      "topic": "light pollution",
+      "source": "https://darksky.org/resources/what-is-light-pollution/"
     }
   ]
 }

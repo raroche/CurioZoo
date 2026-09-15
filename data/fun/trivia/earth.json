@@ -2726,6 +2726,464 @@
       "why": { "en": "Landfills are packed tight with little air, so even a newspaper can stay readable after decades buried underground.", "es": "Los basureros están apretados y con poco aire, así que hasta un periódico puede seguir legible tras décadas enterrado." },
       "topic": "pollution",
       "source": "https://www.epa.gov/landfills/basic-information-about-landfills"
+    },
+    {
+      "id": "earth-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What forms where two ocean plates pull apart on the sea floor?", "es": "¿Qué se forma donde dos placas oceánicas se separan en el fondo del mar?" },
+      "choices": [
+        { "en": "A mid-ocean ridge", "es": "Una dorsal oceánica" },
+        { "en": "A deep trench", "es": "Una fosa profunda" },
+        { "en": "A fold mountain range", "es": "Una cordillera plegada" },
+        { "en": "A volcanic island arc", "es": "Un arco de islas volcánicas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Magma rises into the gap and hardens, so a ridge of new sea floor grows and slowly widens the ocean.", "es": "El magma sube por la grieta y se endurece, así nace suelo marino nuevo y el océano se ensancha poco a poco." },
+      "topic": "plate boundaries",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/science/plate-tectonics"
+    },
+    {
+      "id": "earth-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰",
+      "q": { "en": "Which plate dives beneath South America to lift the Andes and feed its volcanoes?", "es": "¿Qué placa se hunde bajo Sudamérica y levanta los Andes y sus volcanes?" },
+      "choices": [
+        { "en": "The Cocos plate", "es": "La placa de Cocos" },
+        { "en": "The Nazca plate", "es": "La placa de Nazca" },
+        { "en": "The Caribbean plate", "es": "La placa del Caribe" },
+        { "en": "The Scotia plate", "es": "La placa Scotia" }
+      ],
+      "answer": 1,
+      "why": { "en": "The dense Nazca plate sinks into the mantle, melting rock that rises as magma, which is why Peru and Chile have volcanoes.", "es": "La densa placa de Nazca se hunde en el manto y derrite roca que sube como magma; por eso Perú y Chile tienen volcanes." },
+      "topic": "subduction",
+      "source": "https://www.britannica.com/place/Andes-Mountains"
+    },
+    {
+      "id": "earth-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "At the San Andreas Fault the two plates mostly do what to each other?", "es": "En la falla de San Andrés, ¿qué hacen las dos placas sobre todo?" },
+      "choices": [
+        { "en": "Pull apart", "es": "Se separan" },
+        { "en": "Collide head on", "es": "Chocan de frente" },
+        { "en": "Slide past sideways", "es": "Se deslizan de lado" },
+        { "en": "One sinks under the other", "es": "Una se hunde bajo la otra" }
+      ],
+      "answer": 2,
+      "why": { "en": "A transform boundary grinds sideways, building no volcanoes but storing strain that snaps loose as earthquakes along California's coast.", "es": "Un borde transformante se desliza de lado: no crea volcanes, pero acumula tensión que se libera de golpe como terremotos en California." },
+      "topic": "transform faults",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/faults"
+    },
+    {
+      "id": "earth-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Why does the Ring of Fire hold most of the world's active volcanoes?", "es": "¿Por qué el Cinturón de Fuego tiene la mayoría de los volcanes activos del mundo?" },
+      "choices": [
+        { "en": "The Pacific is the deepest ocean", "es": "El Pacífico es el océano más profundo" },
+        { "en": "Sea water cools the crust there", "es": "El agua de mar enfría la corteza ahí" },
+        { "en": "The Pacific plate is the oldest one", "es": "La placa del Pacífico es la más antigua" },
+        { "en": "Subduction zones ring the Pacific", "es": "Hay zonas de subducción alrededor del Pacífico" }
+      ],
+      "answer": 3,
+      "why": { "en": "Around the Pacific, ocean plates dive under other plates; the sinking rock releases water that melts the mantle above it.", "es": "Alrededor del Pacífico las placas oceánicas se hunden bajo otras; la roca que baja suelta agua que derrite el manto de arriba." },
+      "topic": "ring of fire",
+      "source": "https://education.nationalgeographic.org/resource/ring-fire/"
+    },
+    {
+      "id": "earth-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "What mainly drags the tectonic plates along year after year?", "es": "¿Qué arrastra sobre todo a las placas tectónicas año tras año?" },
+      "choices": [
+        { "en": "Mantle convection and sinking slabs", "es": "La convección del manto y las placas que se hunden" },
+        { "en": "The Moon's pull on the crust", "es": "La atracción de la Luna sobre la corteza" },
+        { "en": "Earth's spin flinging the crust", "es": "El giro de la Tierra lanzando la corteza" },
+        { "en": "Ocean tides shoving the coasts", "es": "Las mareas empujando las costas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Heat from the core stirs the mantle, and a cold plate sinking into it pulls the rest of the plate behind.", "es": "El calor del núcleo agita el manto, y una placa fría que se hunde jala tras de sí al resto de la placa." },
+      "topic": "plate motion",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/science/plate-tectonics"
+    },
+    {
+      "id": "earth-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Where on the ocean floor is the rock youngest?", "es": "¿Dónde es más joven la roca del fondo oceánico?" },
+      "choices": [
+        { "en": "In the middle of a deep trench", "es": "En medio de una fosa profunda" },
+        { "en": "At a mid-ocean ridge", "es": "En una dorsal oceánica" },
+        { "en": "Under the thickest deep-sea mud", "es": "Bajo el lodo más grueso del mar profundo" },
+        { "en": "Along the edge of a continent", "es": "Junto al borde de un continente" }
+      ],
+      "answer": 1,
+      "why": { "en": "New crust forms at the ridge and moves outward, so sea floor older than about 200 million years is rare.", "es": "La corteza nueva nace en la dorsal y se aleja, así que casi no hay suelo marino de más de 200 millones de años." },
+      "topic": "sea floor spreading",
+      "source": "https://oceanexplorer.noaa.gov/facts/mid-ocean-ridge.html"
+    },
+    {
+      "id": "earth-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Which clue first suggested that Africa and South America were once joined?", "es": "¿Qué pista sugirió primero que África y Sudamérica estuvieron unidas?" },
+      "choices": [
+        { "en": "The two coasts share the same climate", "es": "Las dos costas tienen el mismo clima" },
+        { "en": "Both continents have hot deserts inland", "es": "Ambos continentes tienen desiertos calurosos por dentro" },
+        { "en": "Matching fossils and rock belts on both coasts", "es": "Fósiles y cinturones de roca iguales en ambas costas" },
+        { "en": "Both coasts are washed by the same current", "es": "La misma corriente baña las dos costas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Alfred Wegener noticed the same reptile fossils and mountain belts split across the Atlantic, evidence the continents drifted apart.", "es": "Alfred Wegener vio los mismos fósiles de reptiles y cinturones de montañas partidos por el Atlántico: prueba de que los continentes se separaron." },
+      "topic": "continental drift",
+      "source": "https://www.britannica.com/science/continental-drift-geology"
+    },
+    {
+      "id": "earth-hard-011", "level": "hard", "type": "tf", "lang": "both", "emoji": "📏",
+      "q": { "en": "The Atlantic Ocean grows a few centimetres wider every year.", "es": "El océano Atlántico se ensancha unos centímetros cada año." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: the Mid-Atlantic Ridge adds new crust at about 2.5 centimetres (1 inch) a year, roughly how fast fingernails grow.", "es": "Cierto: la dorsal mesoatlántica añade corteza nueva a unos 2.5 centímetros (1 pulgada) por año, casi lo que crecen tus uñas." },
+      "topic": "atlantic ocean",
+      "source": "https://oceanexplorer.noaa.gov/facts/mid-ocean-ridge.html"
+    },
+    {
+      "id": "earth-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Why does granite have big crystals while obsidian has none at all?", "es": "¿Por qué el granito tiene cristales grandes y la obsidiana ninguno?" },
+      "choices": [
+        { "en": "Granite is much older than obsidian", "es": "El granito es mucho más antiguo que la obsidiana" },
+        { "en": "Granite cooled slowly deep underground", "es": "El granito se enfrió despacio bajo tierra" },
+        { "en": "Obsidian formed under heavy pressure", "es": "La obsidiana se formó bajo gran presión" },
+        { "en": "Obsidian holds far more iron", "es": "La obsidiana tiene mucho más hierro" }
+      ],
+      "answer": 1,
+      "why": { "en": "Slow cooling gives atoms time to line up into large crystals; lava chilled in seconds becomes obsidian, a natural glass.", "es": "Enfriarse despacio da tiempo a que los átomos formen cristales grandes; la lava que se enfría en segundos se vuelve obsidiana, un vidrio natural." },
+      "topic": "igneous rocks",
+      "source": "https://www.nps.gov/subjects/geology/igneous-rocks.htm"
+    },
+    {
+      "id": "earth-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Why do many metamorphic rocks like slate split into flat sheets?", "es": "¿Por qué muchas rocas metamórficas como la pizarra se parten en láminas?" },
+      "choices": [
+        { "en": "They cooled in thin sheets of lava", "es": "Se enfriaron en capas finas de lava" },
+        { "en": "They were laid down as thin mud beds", "es": "Se depositaron como camas finas de lodo" },
+        { "en": "Pressure lined their mineral grains up in layers", "es": "La presión alineó sus minerales en capas" },
+        { "en": "Water froze along cracks and split them", "es": "El agua se congeló en las grietas y las partió" }
+      ],
+      "answer": 2,
+      "why": { "en": "Squeezed from one direction, flat minerals turn sideways to the push, so slate splits into roofing tiles along those planes.", "es": "Al ser apretados desde un lado, los minerales planos se acomodan y la pizarra se parte en láminas usadas como tejas." },
+      "topic": "metamorphic rocks",
+      "source": "https://www.britannica.com/science/metamorphic-rock"
+    },
+    {
+      "id": "earth-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "In which kind of rock would you look for a fossil shell?", "es": "¿En qué tipo de roca buscarías el fósil de una concha?" },
+      "choices": [
+        { "en": "Igneous rock", "es": "Roca ígnea" },
+        { "en": "Metamorphic rock", "es": "Roca metamórfica" },
+        { "en": "Volcanic glass", "es": "Vidrio volcánico" },
+        { "en": "Sedimentary rock", "es": "Roca sedimentaria" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sediment settles gently and buries remains, while melting or squeezing destroys them, so limestone and shale hold almost every fossil found.", "es": "El sedimento se deposita con suavidad y entierra restos; derretir o aplastar los destruye, por eso la caliza guarda casi todos los fósiles." },
+      "topic": "rock types",
+      "source": "https://www.usgs.gov/faqs/what-are-sedimentary-rocks"
+    },
+    {
+      "id": "earth-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "Which rock makes up most of the ocean floor beneath the mud?", "es": "¿Qué roca forma casi todo el fondo oceánico bajo el lodo?" },
+      "choices": [
+        { "en": "Basalt", "es": "Basalto" },
+        { "en": "Granite", "es": "Granito" },
+        { "en": "Sandstone", "es": "Arenisca" },
+        { "en": "Marble", "es": "Mármol" }
+      ],
+      "answer": 0,
+      "why": { "en": "Basalt is dark, heavy lava rock from mid-ocean ridges; granite is lighter and builds the continents that float higher.", "es": "El basalto es roca de lava oscura y pesada de las dorsales; el granito es más ligero y forma los continentes, que flotan más alto." },
+      "topic": "ocean crust",
+      "source": "https://www.britannica.com/science/basalt"
+    },
+    {
+      "id": "earth-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "What turns loose sand at the bottom of a sea into solid rock?", "es": "¿Qué convierte la arena suelta del fondo marino en roca sólida?" },
+      "choices": [
+        { "en": "Slow melting and cooling", "es": "Derretirse y enfriarse despacio" },
+        { "en": "Compaction and natural cement between the grains", "es": "La compactación y un cemento natural entre los granos" },
+        { "en": "Freezing and thawing over winters", "es": "Congelarse y descongelarse durante inviernos" },
+        { "en": "Grinding by wind above the water", "es": "El desgaste del viento sobre el agua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Piled sediment squeezes out water, and minerals crystallise in the gaps, gluing grains together into sandstone over thousands of years.", "es": "El sedimento amontonado expulsa el agua y los minerales cristalizan en los huecos, pegando los granos hasta formar arenisca en miles de años." },
+      "topic": "rock cycle",
+      "source": "https://www.britannica.com/science/sedimentary-rock"
+    },
+    {
+      "id": "earth-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "♻",
+      "q": { "en": "Which step of the rock cycle sends old rock back to magma?", "es": "¿Qué paso del ciclo de las rocas devuelve la roca vieja al magma?" },
+      "choices": [
+        { "en": "Weathering at the surface", "es": "La meteorización en la superficie" },
+        { "en": "Burial and cementing", "es": "El enterramiento y la cementación" },
+        { "en": "Subduction and melting deep in the mantle", "es": "La subducción y el derretimiento en el manto" },
+        { "en": "Cooling inside a lava flow", "es": "El enfriamiento dentro de una colada de lava" }
+      ],
+      "answer": 2,
+      "why": { "en": "Any rock carried down a subduction zone can melt, rise and erupt, so the same atoms may build rock many times.", "es": "Cualquier roca que baja por una zona de subducción puede derretirse, subir y salir; los mismos átomos forman roca una y otra vez." },
+      "topic": "rock cycle",
+      "source": "https://www.nps.gov/subjects/geology/rock-cycle.htm"
+    },
+    {
+      "id": "earth-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "Which mineral scratches quartz but is scratched by corundum?", "es": "¿Qué mineral raya al cuarzo pero es rayado por el corindón?" },
+      "choices": [
+        { "en": "Feldspar", "es": "Feldespato" },
+        { "en": "Apatite", "es": "Apatito" },
+        { "en": "Fluorite", "es": "Fluorita" },
+        { "en": "Topaz", "es": "Topacio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mohs ranked ten minerals from talc to diamond; topaz sits at eight, between quartz at seven and corundum at nine.", "es": "Mohs ordenó diez minerales del talco al diamante; el topacio ocupa el ocho, entre el cuarzo en siete y el corindón en nueve." },
+      "topic": "mohs hardness",
+      "source": "https://www.britannica.com/science/Mohs-hardness"
+    },
+    {
+      "id": "earth-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "What makes a mineral different from a rock?", "es": "¿Qué diferencia a un mineral de una roca?" },
+      "choices": [
+        { "en": "A mineral has one recipe and a crystal shape", "es": "Un mineral tiene una receta fija y forma de cristal" },
+        { "en": "A mineral is always harder than a rock", "es": "Un mineral siempre es más duro que una roca" },
+        { "en": "A mineral always contains some metal", "es": "Un mineral siempre contiene algún metal" },
+        { "en": "A mineral forms only inside volcanoes", "es": "Un mineral solo se forma dentro de volcanes" }
+      ],
+      "answer": 0,
+      "why": { "en": "A mineral is one natural solid with a fixed chemical formula; a rock is a mixture, like granite holding quartz and feldspar.", "es": "Un mineral es un sólido natural con una fórmula química fija; una roca es una mezcla, como el granito con cuarzo y feldespato." },
+      "topic": "minerals",
+      "source": "https://www.usgs.gov/faqs/what-difference-between-rock-and-mineral"
+    },
+    {
+      "id": "earth-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔪",
+      "q": { "en": "A steel blade has hardness about five. Which mineral will it fail to scratch?", "es": "Un filo de acero tiene dureza cinco. ¿Qué mineral no logra rayar?" },
+      "choices": [
+        { "en": "Gypsum", "es": "Yeso" },
+        { "en": "Quartz", "es": "Cuarzo" },
+        { "en": "Calcite", "es": "Calcita" },
+        { "en": "Talc", "es": "Talco" }
+      ],
+      "answer": 1,
+      "why": { "en": "Quartz rates seven on the Mohs scale, harder than steel, which is why sand grinds and dulls tools and glass.", "es": "El cuarzo llega a siete en la escala de Mohs, más duro que el acero; por eso la arena desgasta herramientas y vidrio." },
+      "topic": "mohs hardness",
+      "source": "https://geology.com/minerals/mohs-hardness-scale.shtml"
+    },
+    {
+      "id": "earth-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "Which mineral group makes up most of Earth's crust?", "es": "¿Qué grupo de minerales forma la mayor parte de la corteza terrestre?" },
+      "choices": [
+        { "en": "Carbonates", "es": "Carbonatos" },
+        { "en": "Sulfides", "es": "Sulfuros" },
+        { "en": "Silicates", "es": "Silicatos" },
+        { "en": "Halides", "es": "Haluros" }
+      ],
+      "answer": 2,
+      "why": { "en": "Silicon and oxygen are the two commonest elements in the crust, and feldspar alone fills about half of it.", "es": "El silicio y el oxígeno son los elementos más abundantes de la corteza, y solo el feldespato ocupa casi la mitad." },
+      "topic": "minerals",
+      "source": "https://www.britannica.com/science/silicate-mineral"
+    },
+    {
+      "id": "earth-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Which condition gives a dead animal the best chance of becoming a fossil?", "es": "¿Qué condición da a un animal muerto la mejor opción de volverse fósil?" },
+      "choices": [
+        { "en": "Drying slowly on an open plain", "es": "Secarse despacio en una llanura abierta" },
+        { "en": "Resting on a windy mountain top", "es": "Quedar en la cima ventosa de un monte" },
+        { "en": "Floating for months in warm water", "es": "Flotar meses en agua tibia" },
+        { "en": "Quick burial in mud with little oxygen", "es": "Un entierro rápido en lodo con poco oxígeno" }
+      ],
+      "answer": 3,
+      "why": { "en": "Scavengers and decay destroy remains in the open, so fast burial in an airless mud layer preserves bone long enough to mineralise.", "es": "Los carroñeros y la descomposición borran los restos al aire libre; un entierro rápido en lodo sin oxígeno conserva el hueso hasta mineralizarse." },
+      "topic": "fossils",
+      "source": "https://www.nps.gov/subjects/fossils/how-fossils-form.htm"
+    },
+    {
+      "id": "earth-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦑",
+      "q": { "en": "Why is a trilobite useful for dating the rock layer it sits in?", "es": "¿Por qué un trilobite sirve para fechar la capa de roca donde aparece?" },
+      "choices": [
+        { "en": "It lived worldwide for only a limited span of time", "es": "Vivió en todo el mundo solo durante un tiempo corto" },
+        { "en": "It is the hardest fossil to break", "es": "Es el fósil más difícil de romper" },
+        { "en": "It is found only in volcanic rock", "es": "Solo aparece en roca volcánica" },
+        { "en": "It always lies in the very bottom layer", "es": "Siempre está en la capa más baja" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fossils of a short-lived, widespread species act as time stamps, letting geologists match layers on different continents to the same age.", "es": "Los fósiles de una especie extendida y de vida corta sirven como sellos de tiempo y permiten igualar capas de continentes distintos." },
+      "topic": "fossils",
+      "source": "https://www.britannica.com/science/index-fossil"
+    },
+    {
+      "id": "earth-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎐",
+      "q": { "en": "Why are jellyfish fossils far rarer than shark teeth?", "es": "¿Por qué hay muchos menos fósiles de medusa que dientes de tiburón?" },
+      "choices": [
+        { "en": "Jellyfish live where sediment settles slowly", "es": "Las medusas viven donde el sedimento cae despacio" },
+        { "en": "Soft bodies rot before minerals can copy them", "es": "Los cuerpos blandos se pudren antes de mineralizarse" },
+        { "en": "Jellyfish float too high above the sea floor", "es": "Las medusas flotan muy alto sobre el fondo" },
+        { "en": "Sharks have always outnumbered jellyfish", "es": "Siempre ha habido más tiburones que medusas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Hard parts such as teeth, shells and bone survive burial; a jellyfish is mostly water and leaves only a faint print.", "es": "Las partes duras como dientes, conchas y huesos aguantan el entierro; una medusa es casi pura agua y deja apenas una huella." },
+      "topic": "fossils",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies"
+    },
+    {
+      "id": "earth-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "In undisturbed layers of rock, where do you find the oldest layer?", "es": "En capas de roca sin alterar, ¿dónde está la capa más antigua?" },
+      "choices": [
+        { "en": "At the top of the stack", "es": "En lo alto del montón" },
+        { "en": "In the thickest middle layer", "es": "En la capa central más gruesa" },
+        { "en": "At the bottom of the stack", "es": "En el fondo del montón" },
+        { "en": "Wherever the colour is palest", "es": "Donde el color sea más pálido" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each new layer settles on top, so a canyon wall reads like a book with its first page at the base.", "es": "Cada capa nueva se deposita encima, así que la pared de un cañón se lee como un libro con la primera página abajo." },
+      "topic": "rock layers",
+      "source": "https://www.usgs.gov/educational-resources/geologic-time"
+    },
+    {
+      "id": "earth-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What drives the deep ocean conveyor belt that stirs all the oceans?", "es": "¿Qué mueve la cinta transportadora oceánica que mezcla todos los océanos?" },
+      "choices": [
+        { "en": "The pull of the Moon on deep water", "es": "La atracción de la Luna sobre el agua profunda" },
+        { "en": "Undersea volcanoes heating the sea floor", "es": "Volcanes submarinos calentando el fondo marino" },
+        { "en": "Rivers pouring fresh water off the land", "es": "Ríos vertiendo agua dulce desde la tierra" },
+        { "en": "Differences in water temperature and saltiness", "es": "Diferencias de temperatura y salinidad del agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cold, salty water near Greenland sinks and creeps along the sea floor; one loop of the belt takes about a thousand years.", "es": "El agua fría y salada cerca de Groenlandia se hunde y avanza por el fondo; una vuelta completa tarda unos mil años." },
+      "topic": "ocean currents",
+      "source": "https://oceanservice.noaa.gov/facts/thermohaline-circulation.html"
+    },
+    {
+      "id": "earth-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡",
+      "q": { "en": "Why are winters in Britain milder than in Labrador at the same latitude?", "es": "¿Por qué los inviernos de Gran Bretaña son más suaves que los de Labrador?" },
+      "choices": [
+        { "en": "The Gulf Stream carries tropical heat north-east", "es": "La corriente del Golfo lleva calor tropical al noreste" },
+        { "en": "Britain sits closer to the equator", "es": "Gran Bretaña está más cerca del ecuador" },
+        { "en": "Labrador lies higher above sea level", "es": "Labrador está más alto sobre el nivel del mar" },
+        { "en": "Britain gets far more winter sunshine", "es": "Gran Bretaña recibe mucho más sol en invierno" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Gulf Stream moves warm water past Florida toward Europe, carrying more energy than every power plant humans have built.", "es": "La corriente del Golfo lleva agua tibia desde Florida hacia Europa y transporta más energía que todas las centrales eléctricas del mundo." },
+      "topic": "gulf stream",
+      "source": "https://oceanservice.noaa.gov/facts/gulfstream.html"
+    },
+    {
+      "id": "earth-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Which cold current runs north along the coast of Peru and Chile?", "es": "¿Qué corriente fría sube por la costa de Perú y Chile?" },
+      "choices": [
+        { "en": "The Brazil Current", "es": "La corriente de Brasil" },
+        { "en": "The Humboldt Current", "es": "La corriente de Humboldt" },
+        { "en": "The Equatorial Counter Current", "es": "La contracorriente ecuatorial" },
+        { "en": "The Canary Current", "es": "La corriente de Canarias" }
+      ],
+      "answer": 1,
+      "why": { "en": "Also called the Peru Current, it drags cold deep water upward and feeds one of the world's richest fishing grounds.", "es": "También llamada corriente de Perú, arrastra agua fría desde el fondo y alimenta una de las zonas de pesca más ricas del planeta." },
+      "topic": "ocean currents",
+      "source": "https://www.britannica.com/place/Peru-Current"
+    },
+    {
+      "id": "earth-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "Why does floating plastic pile up in the middle of the North Pacific?", "es": "¿Por qué el plástico flotante se acumula en medio del Pacífico norte?" },
+      "choices": [
+        { "en": "Deep trenches there suck water downward", "es": "Las fosas profundas succionan el agua hacia abajo" },
+        { "en": "Cold water there is too dense to carry it", "es": "El agua fría es demasiado densa para llevarlo" },
+        { "en": "A ring of currents called a gyre spirals it inward", "es": "Un anillo de corrientes llamado giro lo lleva al centro" },
+        { "en": "Storms there push everything toward the centre", "es": "Las tormentas empujan todo hacia el centro" }
+      ],
+      "answer": 2,
+      "why": { "en": "Four great currents circle each ocean basin, and the calm centre collects drifting debris the way a slow eddy collects leaves.", "es": "Cuatro grandes corrientes giran en cada cuenca oceánica y el centro tranquilo junta los restos flotantes como un remolino lento junta hojas." },
+      "topic": "ocean gyres",
+      "source": "https://oceanservice.noaa.gov/facts/gyre.html"
+    },
+    {
+      "id": "earth-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦐",
+      "q": { "en": "Which process lifts cold, nutrient-rich water to the surface off Peru?", "es": "¿Qué proceso sube agua fría y rica en nutrientes frente a Perú?" },
+      "choices": [
+        { "en": "Upwelling driven by winds along the coast", "es": "El afloramiento que causan los vientos de la costa" },
+        { "en": "Rain washing soil off the Andes", "es": "La lluvia que arrastra suelo de los Andes" },
+        { "en": "Warm surface water sinking at the equator", "es": "El agua tibia que se hunde en el ecuador" },
+        { "en": "Floods pouring out of the rainforest", "es": "Las crecidas que salen de la selva" }
+      ],
+      "answer": 0,
+      "why": { "en": "Offshore winds push surface water away and deep water rises to replace it, feeding plankton and the anchovy shoals above them.", "es": "El viento aleja el agua de la superficie y el agua profunda sube a ocupar su lugar, alimentando plancton y cardúmenes de anchoveta." },
+      "topic": "upwelling",
+      "source": "https://oceanservice.noaa.gov/facts/upwelling.html"
+    },
+    {
+      "id": "earth-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Why does most of a coast get two high tides each day?", "es": "¿Por qué casi toda costa tiene dos mareas altas cada día?" },
+      "choices": [
+        { "en": "The Moon passes overhead twice a day", "es": "La Luna pasa por encima dos veces al día" },
+        { "en": "A bulge forms on the near and the far side of Earth", "es": "Se forma un abultamiento en el lado cercano y en el lejano" },
+        { "en": "The Sun and the Moon each raise one", "es": "El Sol y la Luna levantan una cada uno" },
+        { "en": "Water sloshes back after the first tide", "es": "El agua regresa de golpe tras la primera marea" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Moon pulls the near ocean toward it and pulls Earth away from the far ocean, leaving two bulges we rotate through.", "es": "La Luna jala el océano cercano hacia ella y jala a la Tierra lejos del océano opuesto, dejando dos abultamientos que atravesamos." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html"
+    },
+    {
+      "id": "earth-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌗",
+      "q": { "en": "When the Moon sits at a right angle to the Sun, which tide appears?", "es": "Cuando la Luna forma ángulo recto con el Sol, ¿qué marea aparece?" },
+      "choices": [
+        { "en": "A spring tide, with the largest range", "es": "Una marea viva, la de mayor rango" },
+        { "en": "A tidal bore rushing up a river", "es": "Un macareo que sube por un río" },
+        { "en": "A neap tide, with the smallest range", "es": "Una marea muerta, la de menor rango" },
+        { "en": "A king tide twice as high as usual", "es": "Una marea real del doble de altura" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pulled in different directions, the Sun and Moon partly cancel, so high tide is low and low tide is high.", "es": "Al jalar en direcciones distintas, el Sol y la Luna se estorban, así la marea alta sube poco y la baja baja poco." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/springtide.html"
+    },
+    {
+      "id": "earth-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀",
+      "q": { "en": "The Sun is far more massive, so why does the Moon rule the tides?", "es": "El Sol tiene mucha más masa. ¿Por qué la Luna manda en las mareas?" },
+      "choices": [
+        { "en": "The Moon is much denser than the Sun", "es": "La Luna es mucho más densa que el Sol" },
+        { "en": "Only the night side of Earth can bulge", "es": "Solo el lado nocturno de la Tierra se abulta" },
+        { "en": "Sunlight pushes the water back down", "es": "La luz del Sol empuja el agua hacia abajo" },
+        { "en": "Tidal pull falls off with the cube of distance", "es": "La fuerza de marea cae con el cubo de la distancia" }
+      ],
+      "answer": 3,
+      "why": { "en": "What matters is how much the pull differs across Earth, and the nearby Moon wins, raising about twice the Sun's tide.", "es": "Lo que cuenta es cuánto cambia la atracción a lo largo de la Tierra, y la Luna cercana gana: levanta el doble que el Sol." },
+      "topic": "tides",
+      "source": "https://www.britannica.com/science/tide"
+    },
+    {
+      "id": "earth-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕐",
+      "q": { "en": "About how much later does high tide arrive each day?", "es": "¿Cuánto más tarde llega la marea alta cada día?" },
+      "choices": [
+        { "en": "About fifty minutes", "es": "Unos cincuenta minutos" },
+        { "en": "About ten minutes", "es": "Unos diez minutos" },
+        { "en": "About two hours", "es": "Unas dos horas" },
+        { "en": "About four hours", "es": "Unas cuatro horas" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon moves along its orbit while Earth spins, so a spot needs about 24 hours 50 minutes to face it again.", "es": "La Luna avanza en su órbita mientras la Tierra gira, así que un punto tarda unas 24 horas y 50 minutos en volver a mirarla." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/lunarday.html"
+    },
+    {
+      "id": "earth-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "During El Niño, what happens to the trade winds over the Pacific?", "es": "Durante El Niño, ¿qué pasa con los vientos alisios sobre el Pacífico?" },
+      "choices": [
+        { "en": "They strengthen, piling warm water near Asia", "es": "Se fortalecen y amontonan agua tibia cerca de Asia" },
+        { "en": "They weaken, letting warm water slide back east", "es": "Se debilitan y el agua tibia se corre al este" },
+        { "en": "They reverse and blow from the poles", "es": "Se invierten y soplan desde los polos" },
+        { "en": "They stop completely for a whole year", "es": "Se detienen del todo por un año entero" }
+      ],
+      "answer": 1,
+      "why": { "en": "Warm water normally heaped near Indonesia spreads toward South America, shifting rain to the eastern Pacific and drying Australia.", "es": "El agua tibia que suele amontonarse cerca de Indonesia se corre hacia Sudamérica, lleva la lluvia al Pacífico oriental y seca Australia." },
+      "topic": "el niño",
+      "source": "https://oceanservice.noaa.gov/facts/ninonina.html"
+    },
+    {
+      "id": "earth-hard-036", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎣",
+      "q": { "en": "Fishermen in Peru named El Niño because it usually appears around Christmas.", "es": "Los pescadores de Perú llamaron El Niño a este fenómeno porque suele llegar cerca de la Navidad." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: the warm water arrives near December, and the fishing falls because upwelling stops bringing cold, nutrient-rich water up.", "es": "Cierto: el agua tibia llega cerca de diciembre y la pesca cae porque el afloramiento deja de subir agua fría y rica." },
+      "topic": "el niño",
+      "source": "https://www.climate.gov/news-features/blogs/enso/what-el-nino-southern-oscillation-enso-nutshell"
     }
   ]
 }

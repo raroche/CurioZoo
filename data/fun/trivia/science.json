@@ -2722,6 +2722,460 @@
       "why": { "en": "The tiny empty boxes reminded him of the small rooms monks slept in, called cells, so the name stuck from 1665 onward.", "es": "Las cajitas vacías le recordaron los cuartos pequeños donde dormían los monjes, llamados celdas, y desde 1665 el nombre se quedó." },
       "topic": "cells",
       "source": "https://www.britannica.com/biography/Robert-Hooke"
+    },
+    {
+      "id": "science-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Why do noble gases such as helium and neon hardly ever react with other elements?", "es": "¿Por qué los gases nobles como el helio y el neón casi no reaccionan con otros elementos?" },
+      "choices": [
+        { "en": "Their outer electron shell is already full", "es": "Su capa exterior de electrones ya está llena" },
+        { "en": "Their atoms are far too heavy to move", "es": "Sus átomos pesan demasiado para moverse" },
+        { "en": "They carry a strong negative charge", "es": "Llevan una carga negativa fuerte" },
+        { "en": "Their centres fall apart very quickly", "es": "Su centro se desarma muy rápido" }
+      ],
+      "answer": 0,
+      "why": { "en": "A full outer shell leaves nothing to gain or share, so helium and neon stay inert, meaning they almost refuse to bond.", "es": "Una capa exterior llena no deja nada que ganar ni compartir; por eso el helio y el neón quedan inertes y casi no reaccionan." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/science/noble-gas"
+    },
+    {
+      "id": "science-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "When sodium and chlorine form table salt, what happens to one electron from the sodium atom?", "es": "¿Qué le pasa a un electrón del sodio cuando el sodio y el cloro forman sal de mesa?" },
+      "choices": [
+        { "en": "It is shared equally with chlorine", "es": "Se comparte por igual con el cloro" },
+        { "en": "Chlorine takes it completely", "es": "El cloro se lo queda por completo" },
+        { "en": "It escapes into the air", "es": "Se escapa hacia el aire" },
+        { "en": "It joins the centre of the atom", "es": "Se une al centro del átomo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sodium hands over an electron and chlorine grabs it, so both become charged ions that stack into a cube-shaped crystal.", "es": "El sodio entrega un electrón y el cloro lo atrapa, así ambos quedan como iones con carga que se apilan en un cristal cúbico." },
+      "topic": "chemical bonds",
+      "source": "https://www.britannica.com/science/ionic-bond"
+    },
+    {
+      "id": "science-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which element makes up the biggest share of Earth's crust by mass?", "es": "¿Qué elemento forma la mayor parte de la corteza terrestre en masa?" },
+      "choices": [
+        { "en": "Silicon", "es": "Silicio" },
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Oxygen", "es": "Oxígeno" },
+        { "en": "Aluminium", "es": "Aluminio" }
+      ],
+      "answer": 2,
+      "why": { "en": "Oxygen is about 46% of the crust by mass because it sits locked inside rock minerals such as quartz and feldspar.", "es": "El oxígeno es cerca del 46% de la corteza en masa porque está atrapado dentro de minerales de las rocas, como el cuarzo." },
+      "topic": "periodic table",
+      "source": "https://www.rsc.org/periodic-table/element/8/oxygen"
+    },
+    {
+      "id": "science-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔤",
+      "q": { "en": "Which chemical symbol belongs to potassium?", "es": "¿Cuál es el símbolo químico del potasio?" },
+      "choices": [
+        { "en": "P", "es": "P" },
+        { "en": "Po", "es": "Po" },
+        { "en": "Pt", "es": "Pt" },
+        { "en": "K", "es": "K" }
+      ],
+      "answer": 3,
+      "why": { "en": "K comes from \"kalium\", the Latin name for potash; P is phosphorus, Po is polonium and Pt is platinum.", "es": "La K viene de \"kalium\", su nombre en latín; P es el fósforo, Po es el polonio y Pt es el platino." },
+      "topic": "periodic table",
+      "source": "https://www.rsc.org/periodic-table/element/19/potassium"
+    },
+    {
+      "id": "science-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "📋",
+      "q": { "en": "What do elements sitting in the same column of the periodic table share?", "es": "¿Qué comparten los elementos que están en la misma columna de la tabla periódica?" },
+      "choices": [
+        { "en": "The same number of outer electrons", "es": "La misma cantidad de electrones exteriores" },
+        { "en": "The same mass", "es": "La misma masa" },
+        { "en": "The same melting point", "es": "El mismo punto de fusión" },
+        { "en": "The same number of neutrons", "es": "La misma cantidad de neutrones" }
+      ],
+      "answer": 0,
+      "why": { "en": "Elements in a column behave alike because the outer electrons do the reacting, which is why lithium, sodium and potassium all fizz in water.", "es": "Los elementos de una columna se parecen porque los electrones exteriores hacen las reacciones; por eso litio, sodio y potasio burbujean en agua." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/science/periodic-table"
+    },
+    {
+      "id": "science-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Mendeleev left gaps in his table and predicted the missing elements. Which one filled the gap he called eka-silicon?", "es": "Mendeléyev dejó huecos en su tabla y predijo los elementos faltantes. ¿Cuál llenó el hueco del eka-silicio?" },
+      "choices": [
+        { "en": "Gallium", "es": "Galio" },
+        { "en": "Germanium", "es": "Germanio" },
+        { "en": "Scandium", "es": "Escandio" },
+        { "en": "Titanium", "es": "Titanio" }
+      ],
+      "answer": 1,
+      "why": { "en": "Germanium turned up fifteen years later and matched the mass and density Mendeleev had predicted, which convinced chemists his table was right.", "es": "El germanio apareció quince años después y coincidió con la masa y la densidad que Mendeléyev predijo, lo que convenció a los químicos." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/biography/Dmitri-Mendeleev"
+    },
+    {
+      "id": "science-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Which element is the only metal that stays liquid at ordinary room temperature?", "es": "¿Cuál es el único metal que sigue líquido a temperatura ambiente normal?" },
+      "choices": [
+        { "en": "Gallium", "es": "Galio" },
+        { "en": "Bromine", "es": "Bromo" },
+        { "en": "Mercury", "es": "Mercurio" },
+        { "en": "Lead", "es": "Plomo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mercury stays liquid down to −39 °C, −38 °F, while gallium melts from the warmth of your hand and bromine is a nonmetal.", "es": "El mercurio sigue líquido hasta −39 °C, −38 °F; el galio se funde en tu mano y el bromo es un no metal." },
+      "topic": "periodic table",
+      "source": "https://www.rsc.org/periodic-table/element/80/mercury"
+    },
+    {
+      "id": "science-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍋",
+      "q": { "en": "About what pH does lemon juice have?", "es": "¿Qué pH tiene aproximadamente el jugo de limón?" },
+      "choices": [
+        { "en": "6", "es": "6" },
+        { "en": "4", "es": "4" },
+        { "en": "3", "es": "3" },
+        { "en": "2", "es": "2" }
+      ],
+      "answer": 3,
+      "why": { "en": "Lemon juice sits near pH 2 because of its citric acid, even more acidic than vinegar, which lands around pH 3.", "es": "El jugo de limón ronda el pH 2 por su ácido cítrico, aún más ácido que el vinagre, que llega al pH 3." },
+      "topic": "acids and bases",
+      "source": "https://www.britannica.com/science/pH"
+    },
+    {
+      "id": "science-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "How much stronger is an acid after dropping one whole step on the pH scale?", "es": "¿Cuánto más fuerte es un ácido al bajar un paso completo en la escala de pH?" },
+      "choices": [
+        { "en": "Ten times stronger", "es": "Diez veces más fuerte" },
+        { "en": "Twice as strong", "es": "El doble de fuerte" },
+        { "en": "A hundred times stronger", "es": "Cien veces más fuerte" },
+        { "en": "Only a little stronger", "es": "Solo un poco más fuerte" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pH scale is logarithmic, meaning each step multiplies by ten, so pH 3 holds a hundred times more acid particles than pH 5.", "es": "La escala de pH es logarítmica: cada paso multiplica por diez, así que pH 3 tiene cien veces más partículas ácidas que pH 5." },
+      "topic": "acids and bases",
+      "source": "https://www.britannica.com/science/pH"
+    },
+    {
+      "id": "science-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "Which acid does your stomach produce to help break food apart?", "es": "¿Qué ácido produce tu estómago para ayudar a deshacer la comida?" },
+      "choices": [
+        { "en": "Citric acid", "es": "Ácido cítrico" },
+        { "en": "Hydrochloric acid", "es": "Ácido clorhídrico" },
+        { "en": "Acetic acid", "es": "Ácido acético" },
+        { "en": "Lactic acid", "es": "Ácido láctico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Stomach juice is hydrochloric acid near pH 2, and a mucus layer that is rebuilt every few days keeps it from harming the stomach.", "es": "El jugo del estómago es ácido clorhídrico, cerca de pH 2, y una capa de moco que se renueva cada pocos días protege la pared." },
+      "topic": "acids and bases",
+      "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+    },
+    {
+      "id": "science-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "Red cabbage juice works as a pH indicator. What colour does it turn in a strong base?", "es": "El jugo de col morada sirve como indicador de pH. ¿De qué color se vuelve en una base fuerte?" },
+      "choices": [
+        { "en": "Bright red", "es": "Rojo brillante" },
+        { "en": "Deep pink", "es": "Rosa intenso" },
+        { "en": "Greenish yellow", "es": "Amarillo verdoso" },
+        { "en": "Clear as water", "es": "Transparente como el agua" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pigments called anthocyanins change shape with pH, going red in acid, purple when neutral and green or yellow in a base.", "es": "Unos pigmentos llamados antocianinas cambian de forma según el pH: rojos en ácido, morados en neutro y verdes o amarillos en base." },
+      "topic": "acids and bases",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/cabbage-chemistry.html"
+    },
+    {
+      "id": "science-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚗️",
+      "q": { "en": "An acid and a base are mixed in exactly matching amounts. What two things form?", "es": "Se mezclan un ácido y una base en cantidades exactamente iguales. ¿Qué dos cosas se forman?" },
+      "choices": [
+        { "en": "Two new acids", "es": "Dos ácidos nuevos" },
+        { "en": "A gas and a metal", "es": "Un gas y un metal" },
+        { "en": "Only heat and light", "es": "Solo calor y luz" },
+        { "en": "A salt and water", "es": "Una sal y agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Neutralisation joins the acid's hydrogen with the base's hydroxide to make water, leaving the other parts as a salt and releasing heat.", "es": "La neutralización une el hidrógeno del ácido con el hidróxido de la base para formar agua, y el resto queda como sal, liberando calor." },
+      "topic": "acids and bases",
+      "source": "https://www.britannica.com/science/neutralization-reaction"
+    },
+    {
+      "id": "science-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧁",
+      "q": { "en": "Why does baking powder still bubble in a recipe that carries no sour ingredient?", "es": "¿Por qué el polvo para hornear burbujea aunque la receta carezca de ingredientes ácidos?" },
+      "choices": [
+        { "en": "It already contains its own dry acid", "es": "Ya trae su propio ácido en polvo" },
+        { "en": "It traps air while you stir", "es": "Atrapa aire mientras revuelves" },
+        { "en": "It melts into gas when heated", "es": "Se derrite y se vuelve gas al calentarse" },
+        { "en": "It reacts with the flour's gluten", "es": "Reacciona con el gluten de la harina" }
+      ],
+      "answer": 0,
+      "why": { "en": "Baking powder is baking soda blended with a powdered acid such as cream of tartar, so water alone starts the carbon dioxide fizz.", "es": "El polvo para hornear es bicarbonato mezclado con un ácido en polvo, como el cremor tártaro; basta el agua para soltar dióxido de carbono." },
+      "topic": "acids and bases",
+      "source": "https://www.acs.org/molecule-of-the-week/archive/s/sodium-bicarbonate.html"
+    },
+    {
+      "id": "science-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which everyday change rearranges atoms into brand new substances?", "es": "¿Cuál de estos cambios cotidianos reacomoda los átomos en sustancias totalmente nuevas?" },
+      "choices": [
+        { "en": "Sugar dissolving in tea", "es": "Azúcar que se disuelve en el té" },
+        { "en": "Milk turning sour", "es": "Leche que se agria" },
+        { "en": "Ice cubes melting", "es": "Cubitos de hielo que se derriten" },
+        { "en": "Water boiling away", "es": "Agua que hierve hasta evaporarse" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bacteria turn milk sugar into lactic acid, a new substance you cannot undo, while melting, boiling and dissolving only move molecules around.", "es": "Las bacterias convierten el azúcar de la leche en ácido láctico, algo nuevo e irreversible; derretir, hervir o disolver solo mueven las moléculas." },
+      "topic": "chemical change",
+      "source": "https://www.britannica.com/science/chemical-reaction"
+    },
+    {
+      "id": "science-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "You mix two liquids and watch closely. Which clue points most strongly to a chemical reaction?", "es": "Mezclas dos líquidos y observas con cuidado. ¿Qué pista señala con más fuerza una reacción química?" },
+      "choices": [
+        { "en": "The liquid swirls when stirred", "es": "El líquido gira al revolverlo" },
+        { "en": "The total volume goes up", "es": "El volumen total aumenta" },
+        { "en": "A gas bubbles out that was absent before", "es": "Sale un gas que antes no estaba" },
+        { "en": "The mixture still feels wet", "es": "La mezcla sigue sintiéndose mojada" }
+      ],
+      "answer": 2,
+      "why": { "en": "A new gas, a colour change, a solid appearing or heat given off all signal new substances; stirring and volume changes are merely physical.", "es": "Un gas nuevo, un cambio de color, un sólido que aparece o calor liberado señalan sustancias nuevas; revolver o cambiar de volumen es físico." },
+      "topic": "chemical change",
+      "source": "https://www.britannica.com/science/chemical-reaction"
+    },
+    {
+      "id": "science-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Lavoisier burned things inside sealed jars and weighed them. What did his careful weighing prove?", "es": "Lavoisier quemó cosas dentro de frascos sellados y las pesó. ¿Qué demostró al pesarlas con cuidado?" },
+      "choices": [
+        { "en": "Burning destroys matter", "es": "Arder destruye la materia" },
+        { "en": "Mass stays the same through a reaction", "es": "La masa se conserva en una reacción" },
+        { "en": "Fire is an element of its own", "es": "El fuego es un elemento en sí mismo" },
+        { "en": "Air has no weight at all", "es": "El aire carece de peso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Total mass before equals total mass after, because burning only joins the fuel with oxygen from the trapped air instead of destroying anything.", "es": "La masa total antes es igual a la masa después, porque arder solo une el combustible con el oxígeno del aire atrapado, sin destruir nada." },
+      "topic": "chemical change",
+      "source": "https://www.britannica.com/biography/Antoine-Lavoisier"
+    },
+    {
+      "id": "science-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Lightning and the glowing gas inside a neon sign are examples of which state of matter?", "es": "¿De qué estado de la materia son ejemplos un rayo y el gas brillante de un letrero de neón?" },
+      "choices": [
+        { "en": "Plasma", "es": "Plasma" },
+        { "en": "Colloid", "es": "Coloide" },
+        { "en": "Vapour", "es": "Vapor" },
+        { "en": "Liquid crystal", "es": "Cristal líquido" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plasma is a gas heated until electrons tear free from their atoms, leaving an electrically charged soup that glows on its own.", "es": "El plasma es un gas tan caliente que los electrones se sueltan de los átomos, dejando una sopa con carga eléctrica que brilla sola." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/plasma-state-of-matter"
+    },
+    {
+      "id": "science-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "What has happened to the atoms inside a plasma?", "es": "¿Qué les ha pasado a los átomos dentro de un plasma?" },
+      "choices": [
+        { "en": "They have fused together", "es": "Se han fusionado entre sí" },
+        { "en": "They have lost some electrons", "es": "Han perdido algunos electrones" },
+        { "en": "They have frozen in place", "es": "Se han congelado en su sitio" },
+        { "en": "They have turned into liquid drops", "es": "Se han vuelto gotas líquidas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Stripping electrons off atoms leaves positive ions and loose electrons, so plasma carries electricity and answers to magnets, unlike an ordinary gas.", "es": "Al quitar electrones a los átomos quedan iones positivos y electrones sueltos, así que el plasma conduce electricidad y obedece a los imanes." },
+      "topic": "states of matter",
+      "source": "https://www.britannica.com/science/plasma-state-of-matter"
+    },
+    {
+      "id": "science-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Dry ice is frozen carbon dioxide. About how cold is it?", "es": "El hielo seco es dióxido de carbono congelado. ¿Qué tan frío está más o menos?" },
+      "choices": [
+        { "en": "−10 °C, 14 °F", "es": "−10 °C, 14 °F" },
+        { "en": "−40 °C, −40 °F", "es": "−40 °C, −40 °F" },
+        { "en": "−78 °C, −109 °F", "es": "−78 °C, −109 °F" },
+        { "en": "−196 °C, −321 °F", "es": "−196 °C, −321 °F" }
+      ],
+      "answer": 2,
+      "why": { "en": "At −78 °C dry ice skips the liquid stage and turns straight into gas, which is why it leaves no puddle behind.", "es": "A −78 °C el hielo seco salta la fase líquida y pasa directo a gas, por eso no deja ningún charco." },
+      "topic": "states of matter",
+      "source": "https://www.acs.org/molecule-of-the-week/archive/c/carbon-dioxide.html"
+    },
+    {
+      "id": "science-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Chilling a cloud of atoms to a whisper above absolute zero creates which state of matter?", "es": "¿Qué estado de la materia se forma al enfriar una nube de átomos casi hasta el cero absoluto?" },
+      "choices": [
+        { "en": "A superfluid", "es": "Un superfluido" },
+        { "en": "A plasma", "es": "Un plasma" },
+        { "en": "A colloid", "es": "Un coloide" },
+        { "en": "A Bose-Einstein condensate", "es": "Un condensado de Bose-Einstein" }
+      ],
+      "answer": 3,
+      "why": { "en": "Near absolute zero the atoms slow until they merge into one blurred blob that behaves like a single particle, predicted decades before anyone made it.", "es": "Cerca del cero absoluto los átomos se frenan tanto que se funden en una mancha borrosa que actúa como una sola partícula." },
+      "topic": "states of matter",
+      "source": "https://www.nobelprize.org/prizes/physics/2001/summary/"
+    },
+    {
+      "id": "science-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "Why does a warm fizzy drink lose its bubbles faster than a cold one?", "es": "¿Por qué un refresco tibio pierde el gas más rápido que uno frío?" },
+      "choices": [
+        { "en": "Gas dissolves less well in warm liquid", "es": "El gas se disuelve peor en líquido tibio" },
+        { "en": "Warm sugar traps the gas", "es": "El azúcar tibio atrapa el gas" },
+        { "en": "Heat breaks carbon dioxide apart", "es": "El calor rompe el dióxido de carbono" },
+        { "en": "Cold liquid is much thicker", "es": "El líquido frío es mucho más espeso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gases become less soluble as temperature rises, so a warm drink lets its carbon dioxide escape much faster than a chilled one.", "es": "Los gases se disuelven menos al subir la temperatura, así que una bebida tibia suelta el dióxido de carbono mucho más rápido." },
+      "topic": "solutions",
+      "source": "https://www.britannica.com/science/solubility-chemistry"
+    },
+    {
+      "id": "science-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍾",
+      "q": { "en": "What makes a fizzy drink bubble the moment you open the bottle?", "es": "¿Qué hace que una bebida gaseosa burbujee en cuanto abres la botella?" },
+      "choices": [
+        { "en": "The liquid warms instantly", "es": "El líquido se calienta al instante" },
+        { "en": "The pressure drops and gas leaves the liquid", "es": "La presión baja y el gas sale del líquido" },
+        { "en": "Air rushes in and reacts", "es": "Entra aire de golpe y reacciona" },
+        { "en": "Sugar breaks down into gas", "es": "El azúcar se descompone en gas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Carbon dioxide is pushed in under pressure; lifting the cap lowers that pressure, so the liquid can no longer hold so much gas dissolved.", "es": "El dióxido de carbono entra a presión; al abrir la tapa la presión baja y el líquido ya no puede retener tanto gas disuelto." },
+      "topic": "solutions",
+      "source": "https://www.britannica.com/science/solubility-chemistry"
+    },
+    {
+      "id": "science-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "Why do oil and water still refuse to mix even after hard shaking?", "es": "¿Por qué el aceite y el agua siguen sin mezclarse aunque los agites con fuerza?" },
+      "choices": [
+        { "en": "Oil is much lighter", "es": "El aceite es mucho más ligero" },
+        { "en": "Water is secretly a solid", "es": "El agua en el fondo es un sólido" },
+        { "en": "Water molecules are polar and oil molecules are not", "es": "Las moléculas de agua son polares y las del aceite no" },
+        { "en": "Oil molecules are far bigger", "es": "Las moléculas del aceite son mucho más grandes" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water molecules have charged ends that cling to each other and squeeze out oil, whose molecules carry no charged ends at all.", "es": "Las moléculas de agua tienen extremos con carga que se pegan entre sí y expulsan al aceite, cuyas moléculas carecen de esos extremos." },
+      "topic": "water chemistry",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-density"
+    },
+    {
+      "id": "science-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "Soap surrounds a drop of grease in water. What is that tiny ball of soap molecules called?", "es": "El jabón rodea una gota de grasa en el agua. ¿Cómo se llama esa bolita de moléculas de jabón?" },
+      "choices": [
+        { "en": "An emulsion", "es": "Una emulsión" },
+        { "en": "A polymer", "es": "Un polímero" },
+        { "en": "A colloid", "es": "Un coloide" },
+        { "en": "A micelle", "es": "Una micela" }
+      ],
+      "answer": 3,
+      "why": { "en": "The soap's head loves water and its tail loves grease, so the micelle traps the dirt and rides away down the drain.", "es": "La cabeza del jabón ama el agua y la cola ama la grasa; la micela atrapa la mugre y se va por el drenaje." },
+      "topic": "soap and surfaces",
+      "source": "https://www.britannica.com/science/soap"
+    },
+    {
+      "id": "science-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Ice floats because its crystal is unusual. What do the water molecules do as they freeze?", "es": "El hielo flota porque su cristal es raro. ¿Qué hacen las moléculas de agua al congelarse?" },
+      "choices": [
+        { "en": "They lock into an open six-sided pattern", "es": "Se traban en un patrón abierto de seis lados" },
+        { "en": "They pack tighter than in the liquid", "es": "Se aprietan más que en el líquido" },
+        { "en": "They give up their hydrogen atoms", "es": "Sueltan sus átomos de hidrógeno" },
+        { "en": "They line up in straight chains", "es": "Se alinean en cadenas rectas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hydrogen bonds hold the molecules in a six-sided cage full of gaps, making ice about 9% less dense than the water below.", "es": "Los puentes de hidrógeno sostienen las moléculas en una jaula hexagonal con huecos, y el hielo queda cerca de 9% menos denso que el agua." },
+      "topic": "water chemistry",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-density"
+    },
+    {
+      "id": "science-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "📎",
+      "q": { "en": "A steel needle can rest on still water without sinking. Which property of water holds it up?", "es": "Una aguja de acero se queda sobre el agua quieta sin hundirse. ¿Qué propiedad del agua la sostiene?" },
+      "choices": [
+        { "en": "Density", "es": "La densidad" },
+        { "en": "Surface tension", "es": "La tensión superficial" },
+        { "en": "Viscosity", "es": "La viscosidad" },
+        { "en": "Hardness", "es": "La dureza" }
+      ],
+      "answer": 1,
+      "why": { "en": "Water molecules pull on each other so much that the surface acts like a skin, strong enough to carry insects that walk on it.", "es": "Las moléculas de agua se jalan tanto entre sí que la superficie actúa como una piel que sostiene insectos que caminan sobre ella." },
+      "topic": "water chemistry",
+      "source": "https://www.exploratorium.edu/snacks/surface-tension"
+    },
+    {
+      "id": "science-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "Why does a pot of water take far longer to heat than the same mass of iron?", "es": "¿Por qué una olla de agua tarda mucho más en calentarse que la misma masa de hierro?" },
+      "choices": [
+        { "en": "Iron is denser", "es": "El hierro es más denso" },
+        { "en": "Water reflects the heat away", "es": "El agua refleja el calor" },
+        { "en": "Water soaks up much more heat per degree", "es": "El agua absorbe mucho más calor por grado" },
+        { "en": "Water is transparent", "es": "El agua es transparente" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water stores about ten times more heat per degree than iron, which is why oceans warm slowly and keep coastal air mild.", "es": "El agua absorbe unas diez veces más calor por grado que el hierro; por eso los océanos se calientan despacio y suavizan el clima costero." },
+      "topic": "water chemistry",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/heat-capacity-and-water"
+    },
+    {
+      "id": "science-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Water is often called the universal solvent. What does that nickname mean?", "es": "Al agua se le dice el disolvente universal. ¿Qué significa ese apodo?" },
+      "choices": [
+        { "en": "It dissolves absolutely everything", "es": "Disuelve absolutamente todo" },
+        { "en": "It is found on every planet", "es": "Se encuentra en todos los planetas" },
+        { "en": "It can be split into any element", "es": "Se puede partir en cualquier elemento" },
+        { "en": "It dissolves more substances than any other liquid", "es": "Disuelve más sustancias que cualquier otro líquido" }
+      ],
+      "answer": 3,
+      "why": { "en": "Its charged ends pull salts and sugars apart, so rivers carry minerals, blood carries nutrients, and truly pure natural water does not exist.", "es": "Sus extremos con carga separan sales y azúcares, por eso los ríos llevan minerales, la sangre lleva nutrientes y ninguna agua natural es pura." },
+      "topic": "water chemistry",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-universal-solvent"
+    },
+    {
+      "id": "science-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Sugar crystals grow on a string dipped in syrup. What lets those crystals form?", "es": "Los cristales de azúcar crecen en un hilo metido en jarabe. ¿Qué permite que se formen?" },
+      "choices": [
+        { "en": "Water leaves and the syrup cannot hold all the sugar", "es": "El agua se va y el jarabe ya no retiene tanta azúcar" },
+        { "en": "The string reacts with the sugar", "es": "El hilo reacciona con el azúcar" },
+        { "en": "Air bubbles harden into sugar", "es": "Las burbujas de aire se endurecen en azúcar" },
+        { "en": "The syrup slowly freezes", "es": "El jarabe se congela poco a poco" }
+      ],
+      "answer": 0,
+      "why": { "en": "A saturated syrup holds all the sugar it can; as water evaporates, the extra sugar molecules stack onto the string in neat crystals.", "es": "Un jarabe saturado lleva todo el azúcar que puede; al irse el agua, el azúcar sobrante se apila sobre el hilo en cristales ordenados." },
+      "topic": "solutions",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/crystal-creations.html"
+    },
+    {
+      "id": "science-hard-033", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧪",
+      "q": { "en": "Adding plenty of water to a strong acid moves its pH closer to 7.", "es": "Agregar mucha agua a un ácido fuerte acerca su pH al 7." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: diluting spreads the acid particles through more water, so the pH climbs toward neutral, even though the acid itself is unchanged.", "es": "Cierto: al diluir, las partículas ácidas se reparten en más agua y el pH sube hacia el neutro, aunque el ácido sigue siendo el mismo." },
+      "topic": "acids and bases",
+      "source": "https://www.britannica.com/science/pH"
+    },
+    {
+      "id": "science-hard-034", "level": "hard", "type": "tf", "lang": "both", "emoji": "⛏️",
+      "q": { "en": "Every element on the periodic table can be dug out of the ground somewhere on Earth.", "es": "Todos los elementos de la tabla periódica se pueden sacar del suelo en algún lugar de la Tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: elements heavier than uranium, such as americium and oganesson, are built atom by atom in laboratories and vanish within moments.", "es": "Falso: los elementos más pesados que el uranio, como el americio y el oganesón, se fabrican átomo por átomo y duran instantes." },
+      "topic": "periodic table",
+      "source": "https://www.britannica.com/science/transuranium-element"
+    },
+    {
+      "id": "science-hard-035", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔆",
+      "q": { "en": "Helium was spotted in the Sun's light before anyone found it on Earth.", "es": "El helio se detectó en la luz del Sol antes de que alguien lo encontrara en la Tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: a yellow line in sunlight revealed helium in 1868, and it took nearly thirty more years to find any of it on Earth.", "es": "Cierto: una línea amarilla en la luz del Sol reveló el helio en 1868, y en la Tierra apareció casi treinta años después." },
+      "topic": "periodic table",
+      "source": "https://www.rsc.org/periodic-table/element/2/helium"
+    },
+    {
+      "id": "science-hard-036", "level": "hard", "type": "tf", "lang": "both", "emoji": "📏",
+      "q": { "en": "The pH scale stops at 0 at one end and 14 at the other.", "es": "La escala de pH se detiene en 0 en un extremo y en 14 en el otro." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: very strong acids can measure below 0 and concentrated lye above 14; that range simply covers ordinary solutions in water.", "es": "Falso: los ácidos muy fuertes pueden marcar menos de 0 y la sosa concentrada más de 14; ese rango solo cubre soluciones acuosas comunes." },
+      "topic": "acids and bases",
+      "source": "https://www.britannica.com/science/pH"
     }
   ]
 }

@@ -2722,6 +2722,448 @@
       "why": { "en": "A needle follows the magnetic north pole, which sits hundreds of miles from the true pole and drifts a little each year.", "es": "La aguja sigue al polo norte magnético, que está a cientos de millas del polo verdadero y se mueve un poco cada año." },
       "topic": "compass rose",
       "source": "https://www.ngdc.noaa.gov/geomag/faqgeom.shtml"
+    },
+    {
+      "id": "geography-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Bolivia has two capitals. Which city holds the government offices while Sucre keeps the courts?", "es": "Bolivia tiene dos capitales. ¿Qué ciudad alberga las oficinas del gobierno mientras Sucre conserva los tribunales?" },
+      "choices": [
+        { "en": "La Paz", "es": "La Paz" },
+        { "en": "Santa Cruz", "es": "Santa Cruz" },
+        { "en": "Cochabamba", "es": "Cochabamba" },
+        { "en": "Potosí", "es": "Potosí" }
+      ],
+      "answer": 0,
+      "why": { "en": "La Paz sits about 3640 meters (11,940 feet) up, which makes it the highest seat of national government in the world.", "es": "La Paz está a unos 3640 metros (11,940 pies) de altura, la sede de gobierno nacional más alta del mundo." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/La-Paz-Bolivia"
+    },
+    {
+      "id": "geography-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which city became the capital of Nigeria, chosen for its central position in the country?", "es": "¿Qué ciudad se convirtió en la capital de Nigeria por su posición central en el país?" },
+      "choices": [
+        { "en": "Lagos", "es": "Lagos" },
+        { "en": "Abuja", "es": "Abuya" },
+        { "en": "Kano", "es": "Kano" },
+        { "en": "Ibadan", "es": "Ibadán" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nigeria moved its capital from Lagos to Abuja in 1991 to pick a spot belonging to no single region.", "es": "Nigeria trasladó su capital de Lagos a Abuya en 1991 para elegir un sitio que no perteneciera a una sola región." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Abuja"
+    },
+    {
+      "id": "geography-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕌",
+      "q": { "en": "Turkey moved its capital inland in 1923. Which city took over from Istanbul?", "es": "Turquía trasladó su capital tierra adentro en 1923. ¿Qué ciudad reemplazó a Estambul?" },
+      "choices": [
+        { "en": "Izmir", "es": "Esmirna" },
+        { "en": "Bursa", "es": "Bursa" },
+        { "en": "Antalya", "es": "Antalya" },
+        { "en": "Ankara", "es": "Ankara" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ankara sits in the middle of Anatolia, far from the coast, which made it easier to defend than seaside Istanbul.", "es": "Ankara está en el centro de Anatolia, lejos de la costa, y por eso era más fácil de defender que Estambul." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Ankara"
+    },
+    {
+      "id": "geography-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Swiss law calls one city the federal city rather than the capital. Which city is it?", "es": "La ley suiza llama a una ciudad la ciudad federal en vez de capital. ¿Cuál es?" },
+      "choices": [
+        { "en": "Zurich", "es": "Zúrich" },
+        { "en": "Geneva", "es": "Ginebra" },
+        { "en": "Bern", "es": "Berna" },
+        { "en": "Basel", "es": "Basilea" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bern is Switzerland's federal city and home to parliament, while Zurich and Geneva are bigger and better known abroad.", "es": "Berna es la ciudad federal de Suiza y alberga el parlamento, aunque Zúrich y Ginebra son más grandes y conocidas." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Bern-Switzerland"
+    },
+    {
+      "id": "geography-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕋",
+      "q": { "en": "Which city is the capital of Morocco, even though Casablanca is the country's busiest port?", "es": "¿Qué ciudad es la capital de Marruecos, aunque Casablanca sea el puerto más activo del país?" },
+      "choices": [
+        { "en": "Fez", "es": "Fez" },
+        { "en": "Marrakesh", "es": "Marrakech" },
+        { "en": "Tangier", "es": "Tánger" },
+        { "en": "Rabat", "es": "Rabat" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rabat has been Morocco's political capital since 1912, while Casablanca grew into the country's largest port and business center.", "es": "Rabat es la capital política de Marruecos desde 1912, mientras que Casablanca creció como el mayor puerto y centro de negocios." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Rabat-national-capital-Morocco"
+    },
+    {
+      "id": "geography-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which capital city sits almost on the equator, about 2850 meters (9350 feet) above sea level?", "es": "¿Qué capital está casi sobre el ecuador, a unos 2850 metros (9350 pies) sobre el nivel del mar?" },
+      "choices": [
+        { "en": "Bogotá", "es": "Bogotá" },
+        { "en": "Quito", "es": "Quito" },
+        { "en": "Lima", "es": "Lima" },
+        { "en": "Caracas", "es": "Caracas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Quito lies just 25 kilometers (15 miles) south of the equator, yet its height keeps the city cool all year.", "es": "Quito está a solo 25 kilómetros (15 millas) al sur del ecuador, pero su altura mantiene la ciudad fresca todo el año." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/Quito"
+    },
+    {
+      "id": "geography-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "South Africa has three capital cities. Which one is home to the parliament?", "es": "Sudáfrica tiene tres capitales. ¿Cuál de ellas alberga el parlamento?" },
+      "choices": [
+        { "en": "Pretoria", "es": "Pretoria" },
+        { "en": "Durban", "es": "Durban" },
+        { "en": "Bloemfontein", "es": "Bloemfontein" },
+        { "en": "Cape Town", "es": "Ciudad del Cabo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cape Town holds parliament, Pretoria the government offices and Bloemfontein the highest court, a split agreed when the country united in 1910.", "es": "Ciudad del Cabo tiene el parlamento, Pretoria las oficinas del gobierno y Bloemfontein el tribunal supremo, un reparto acordado en 1910." },
+      "topic": "capitals",
+      "source": "https://www.britannica.com/place/South-Africa"
+    },
+    {
+      "id": "geography-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "How many time zones does Russia stretch across?", "es": "¿Cuántos husos horarios abarca Rusia?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Eight", "es": "Ocho" },
+        { "en": "Nine", "es": "Nueve" },
+        { "en": "Eleven", "es": "Once" }
+      ],
+      "answer": 3,
+      "why": { "en": "Russia spans 11 time zones, so when workers in Moscow eat breakfast, people in Kamchatka are already going to bed.", "es": "Rusia abarca 11 husos horarios, así que cuando en Moscú desayunan, en Kamchatka ya se están yendo a dormir." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/place/Russia"
+    },
+    {
+      "id": "geography-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏰",
+      "q": { "en": "China stretches about 5000 kilometers (3100 miles) from east to west. How many official time zones does it use?", "es": "China se extiende unos 5000 kilómetros (3100 millas) de este a oeste. ¿Cuántos husos horarios oficiales usa?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Eight", "es": "Ocho" }
+      ],
+      "answer": 0,
+      "why": { "en": "All of China runs on Beijing time, so in the far west the sun can rise close to ten in the morning.", "es": "Toda China usa la hora de Pekín, así que en el extremo oeste el sol puede salir cerca de las diez de la mañana." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/place/China"
+    },
+    {
+      "id": "geography-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "You sail west across the International Date Line on a Monday. What day is it when you land?", "es": "Navegas hacia el oeste y cruzas la línea internacional de cambio de fecha un lunes. ¿Qué día llegas?" },
+      "choices": [
+        { "en": "Sunday", "es": "domingo" },
+        { "en": "Monday", "es": "lunes" },
+        { "en": "Tuesday", "es": "martes" },
+        { "en": "Wednesday", "es": "miércoles" }
+      ],
+      "answer": 2,
+      "why": { "en": "Going west across the line you jump a day forward; going east you live through the same day twice.", "es": "Al cruzar la línea hacia el oeste saltas un día adelante; hacia el este vives el mismo día dos veces." },
+      "topic": "time zones",
+      "source": "https://education.nationalgeographic.org/resource/international-date-line/"
+    },
+    {
+      "id": "geography-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "About how many degrees of longitude does one standard time zone cover?", "es": "¿Cuántos grados de longitud abarca aproximadamente un huso horario estándar?" },
+      "choices": [
+        { "en": "5 degrees", "es": "5 grados" },
+        { "en": "10 degrees", "es": "10 grados" },
+        { "en": "15 degrees", "es": "15 grados" },
+        { "en": "30 degrees", "es": "30 grados" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth turns 360 degrees in 24 hours, so each hour of clock time matches 15 degrees of longitude.", "es": "La Tierra gira 360 grados en 24 horas, así que cada hora de reloj equivale a 15 grados de longitud." },
+      "topic": "time zones",
+      "source": "https://education.nationalgeographic.org/resource/time-zone/"
+    },
+    {
+      "id": "geography-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Counting its overseas territories, which country covers more time zones than any other?", "es": "¿Qué país abarca más husos horarios que cualquier otro, contando sus territorios de ultramar?" },
+      "choices": [
+        { "en": "Russia", "es": "Rusia" },
+        { "en": "France", "es": "Francia" },
+        { "en": "United States", "es": "Estados Unidos" },
+        { "en": "Australia", "es": "Australia" }
+      ],
+      "answer": 1,
+      "why": { "en": "France reaches 12 time zones through islands from Tahiti to the Caribbean, one more than Russia's whole mainland span.", "es": "Francia llega a 12 husos horarios gracias a islas desde Tahití hasta el Caribe, uno más que toda Rusia continental." },
+      "topic": "time zones",
+      "source": "https://www.cia.gov/the-world-factbook/countries/france/"
+    },
+    {
+      "id": "geography-hard-016", "level": "hard", "type": "tf", "lang": "both", "emoji": "📏",
+      "q": { "en": "The International Date Line runs as a perfectly straight line down 180 degrees longitude.", "es": "La línea internacional de cambio de fecha es perfectamente recta a lo largo de los 180 grados de longitud." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: the line zigzags around Kiribati, Russia and the Aleutians so nearby islands and towns can share one calendar date.", "es": "Falso: la línea zigzaguea alrededor de Kiribati, Rusia y las Aleutianas para que islas y pueblos vecinos compartan la misma fecha." },
+      "topic": "time zones",
+      "source": "https://education.nationalgeographic.org/resource/international-date-line/"
+    },
+    {
+      "id": "geography-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "What can you see at the Arctic Circle on the June solstice?", "es": "¿Qué puedes ver en el círculo polar ártico durante el solsticio de junio?" },
+      "choices": [
+        { "en": "The Sun stays above the horizon all day", "es": "El Sol se queda sobre el horizonte todo el día" },
+        { "en": "The Sun shines straight overhead at noon", "es": "El Sol cae vertical al mediodía" },
+        { "en": "Day and night each last exactly twelve hours", "es": "El día y la noche duran doce horas cada uno" },
+        { "en": "The Sun stays below the horizon all day", "es": "El Sol se queda bajo el horizonte todo el día" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Arctic Circle at 66.5 degrees north marks where midsummer brings a full day of sunlight, the famous midnight sun.", "es": "El círculo polar ártico, a 66.5 grados norte, marca donde el pleno verano trae un día entero de luz: el sol de medianoche." },
+      "topic": "tropics and circles",
+      "source": "https://education.nationalgeographic.org/resource/arctic-circle/"
+    },
+    {
+      "id": "geography-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which large South American city sits almost exactly on the Tropic of Capricorn?", "es": "¿Qué gran ciudad de Sudamérica está casi exactamente sobre el trópico de Capricornio?" },
+      "choices": [
+        { "en": "Rio de Janeiro", "es": "Río de Janeiro" },
+        { "en": "Buenos Aires", "es": "Buenos Aires" },
+        { "en": "Lima", "es": "Lima" },
+        { "en": "São Paulo", "es": "São Paulo" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Tropic of Capricorn at 23.5 degrees south crosses São Paulo, marking the farthest south the Sun can shine straight overhead.", "es": "El trópico de Capricornio, a 23.5 grados sur, cruza São Paulo y marca el punto más al sur donde el sol cae vertical." },
+      "topic": "tropics and circles",
+      "source": "https://education.nationalgeographic.org/resource/tropic-of-capricorn/"
+    },
+    {
+      "id": "geography-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Why do the tropics lie 23.5 degrees from the equator rather than somewhere else?", "es": "¿Por qué los trópicos están a 23.5 grados del ecuador y no en otro lugar?" },
+      "choices": [
+        { "en": "Earth's axis is tilted by 23.5 degrees", "es": "El eje de la Tierra está inclinado 23.5 grados" },
+        { "en": "The Sun's path wobbles that much each month", "es": "El camino del Sol se mueve eso cada mes" },
+        { "en": "Earth's orbit is 23.5 degrees off round", "es": "La órbita terrestre se desvía 23.5 grados de un círculo" },
+        { "en": "The Moon pulls Earth 23.5 degrees sideways", "es": "La Luna jala la Tierra 23.5 grados hacia un lado" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth's tilt of 23.5 degrees sets how far the overhead Sun can wander, so the tilt and the tropics always match.", "es": "La inclinación de 23.5 grados de la Tierra fija hasta dónde llega el sol vertical, por eso coinciden inclinación y trópicos." },
+      "topic": "tropics and circles",
+      "source": "https://education.nationalgeographic.org/resource/tropics/"
+    },
+    {
+      "id": "geography-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "How far from the equator does the Antarctic Circle lie?", "es": "¿A qué distancia del ecuador está el círculo polar antártico?" },
+      "choices": [
+        { "en": "45 degrees south", "es": "45 grados sur" },
+        { "en": "55.5 degrees south", "es": "55.5 grados sur" },
+        { "en": "66.5 degrees south", "es": "66.5 grados sur" },
+        { "en": "80 degrees south", "es": "80 grados sur" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Antarctic Circle sits 66.5 degrees south, the mirror of the Arctic Circle, and inside it winter brings a sunless day.", "es": "El círculo polar antártico está a 66.5 grados sur, espejo del ártico, y dentro de él el invierno trae un día sin sol." },
+      "topic": "tropics and circles",
+      "source": "https://education.nationalgeographic.org/resource/antarctic-circle/"
+    },
+    {
+      "id": "geography-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Which continent has land in the northern, southern, eastern and western hemispheres?", "es": "¿Qué continente tiene tierra en los hemisferios norte, sur, oriental y occidental?" },
+      "choices": [
+        { "en": "Asia", "es": "Asia" },
+        { "en": "Africa", "es": "África" },
+        { "en": "South America", "es": "América del Sur" },
+        { "en": "Europe", "es": "Europa" }
+      ],
+      "answer": 1,
+      "why": { "en": "Both the equator and the Prime Meridian cross Africa, so the continent has a corner in every one of the four hemispheres.", "es": "El ecuador y el meridiano de Greenwich cruzan África, así que el continente tiene un pedazo en cada uno de los cuatro hemisferios." },
+      "topic": "hemispheres",
+      "source": "https://www.britannica.com/place/Africa"
+    },
+    {
+      "id": "geography-hard-022", "level": "hard", "type": "tf", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Most of Earth's dry land lies north of the equator.", "es": "La mayor parte de la tierra firme del planeta está al norte del ecuador." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: about two thirds of all land sits in the Northern Hemisphere, which is why most people live there too.", "es": "Cierto: cerca de dos tercios de la tierra firme está en el hemisferio norte, y por eso allí vive casi toda la gente." },
+      "topic": "hemispheres",
+      "source": "https://education.nationalgeographic.org/resource/northern-hemisphere/"
+    },
+    {
+      "id": "geography-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "Why did countries pick Greenwich for zero degrees longitude at the 1884 meeting in Washington?", "es": "¿Por qué los países eligieron Greenwich como longitud cero en la reunión de 1884 en Washington?" },
+      "choices": [
+        { "en": "Most ships already sailed with charts based on it", "es": "Casi todos los barcos ya usaban cartas basadas en él" },
+        { "en": "It sits exactly opposite the Date Line by luck", "es": "Queda justo opuesto a la línea de fecha por suerte" },
+        { "en": "It is the oldest observatory in the world", "es": "Es el observatorio más antiguo del mundo" },
+        { "en": "It lies at the center of the largest continent", "es": "Está en el centro del continente más grande" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nearly three quarters of the world's shipping already used Greenwich charts, so the delegates chose the line sailors were using.", "es": "Casi tres cuartas partes de los barcos del mundo ya usaban cartas de Greenwich, así que los delegados eligieron esa línea." },
+      "topic": "prime meridian",
+      "source": "https://education.nationalgeographic.org/resource/prime-meridian/"
+    },
+    {
+      "id": "geography-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "A GPS screen reads 19 degrees north, 99 degrees west. Which city are you standing in?", "es": "Una pantalla de GPS marca 19 grados norte y 99 grados oeste. ¿En qué ciudad estás?" },
+      "choices": [
+        { "en": "Havana", "es": "La Habana" },
+        { "en": "Bogotá", "es": "Bogotá" },
+        { "en": "Caracas", "es": "Caracas" },
+        { "en": "Mexico City", "es": "Ciudad de México" }
+      ],
+      "answer": 3,
+      "why": { "en": "Latitude comes first and longitude second, and that pair lands on Mexico City, high on a plateau in central Mexico.", "es": "Primero va la latitud y después la longitud, y ese par cae en la Ciudad de México, sobre una meseta alta." },
+      "topic": "latitude and longitude",
+      "source": "https://education.nationalgeographic.org/resource/latitude/"
+    },
+    {
+      "id": "geography-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "About how far apart are two places one degree of latitude apart?", "es": "¿Qué distancia hay aproximadamente entre dos lugares separados por un grado de latitud?" },
+      "choices": [
+        { "en": "11 kilometers (7 miles)", "es": "11 kilómetros (7 millas)" },
+        { "en": "111 kilometers (69 miles)", "es": "111 kilómetros (69 millas)" },
+        { "en": "360 kilometers (224 miles)", "es": "360 kilómetros (224 millas)" },
+        { "en": "1000 kilometers (620 miles)", "es": "1000 kilómetros (620 millas)" }
+      ],
+      "answer": 1,
+      "why": { "en": "One degree of latitude is about 111 kilometers (69 miles) everywhere, and one minute of it was the original nautical mile.", "es": "Un grado de latitud mide unos 111 kilómetros (69 millas) en todas partes, y un minuto de él dio origen a la milla náutica." },
+      "topic": "latitude and longitude",
+      "source": "https://oceanservice.noaa.gov/facts/nautical-mile.html"
+    },
+    {
+      "id": "geography-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What would you find at zero degrees latitude and zero degrees longitude?", "es": "¿Qué encontrarías en el punto de latitud cero y longitud cero?" },
+      "choices": [
+        { "en": "A rocky island off Brazil", "es": "Una isla rocosa frente a Brasil" },
+        { "en": "Open ocean off West Africa", "es": "Mar abierto frente a África occidental" },
+        { "en": "A desert in northern Mali", "es": "Un desierto en el norte de Malí" },
+        { "en": "A mountain in Ecuador", "es": "Una montaña en Ecuador" }
+      ],
+      "answer": 1,
+      "why": { "en": "The two zero lines meet in the Gulf of Guinea, open Atlantic water about 610 kilometers (380 miles) south of Ghana.", "es": "Las dos líneas cero se cruzan en el golfo de Guinea, mar abierto a unos 610 kilómetros (380 millas) al sur de Ghana." },
+      "topic": "latitude and longitude",
+      "source": "https://oceanservice.noaa.gov/facts/nullisland.html"
+    },
+    {
+      "id": "geography-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which river pours more fresh water into the sea than any other?", "es": "¿Qué río vierte más agua dulce al mar que cualquier otro?" },
+      "choices": [
+        { "en": "Congo", "es": "Congo" },
+        { "en": "Nile", "es": "Nilo" },
+        { "en": "Yangtze", "es": "Yangtsé" },
+        { "en": "Amazon", "es": "Amazonas" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Amazon delivers about a fifth of all river water reaching the ocean, more than the next seven rivers together.", "es": "El Amazonas aporta cerca de la quinta parte de toda el agua de río que llega al mar, más que los siete siguientes juntos." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Amazon-River"
+    },
+    {
+      "id": "geography-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐊",
+      "q": { "en": "About how long is the Nile from its source to the Mediterranean?", "es": "¿Qué longitud tiene aproximadamente el Nilo desde su nacimiento hasta el Mediterráneo?" },
+      "choices": [
+        { "en": "2650 kilometers (1650 miles)", "es": "2650 kilómetros (1650 millas)" },
+        { "en": "4200 kilometers (2600 miles)", "es": "4200 kilómetros (2600 millas)" },
+        { "en": "6650 kilometers (4130 miles)", "es": "6650 kilómetros (4130 millas)" },
+        { "en": "9500 kilometers (5900 miles)", "es": "9500 kilómetros (5900 millas)" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Nile runs about 6650 kilometers (4130 miles) north through eleven countries, gathering water from Lake Victoria and the Ethiopian highlands.", "es": "El Nilo recorre unos 6650 kilómetros (4130 millas) hacia el norte por once países, con agua del lago Victoria y las montañas de Etiopía." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Nile-River"
+    },
+    {
+      "id": "geography-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚣",
+      "q": { "en": "Which river forms much of the border between Paraguay, Brazil and Argentina?", "es": "¿Qué río forma buena parte de la frontera entre Paraguay, Brasil y Argentina?" },
+      "choices": [
+        { "en": "Orinoco", "es": "Orinoco" },
+        { "en": "Madeira", "es": "Madeira" },
+        { "en": "Paraná", "es": "Paraná" },
+        { "en": "Magdalena", "es": "Magdalena" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Paraná carries the Iguazú's water onward and ranks second only to the Amazon among South American rivers by length.", "es": "El Paraná lleva el agua del Iguazú y es el segundo río más largo de Sudamérica, después del Amazonas." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Parana-River"
+    },
+    {
+      "id": "geography-hard-030", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌴",
+      "q": { "en": "The Congo River crosses the equator twice on its way to the Atlantic.", "es": "El río Congo cruza el ecuador dos veces en su camino al Atlántico." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: the Congo swings north of the equator and back south again, so rain feeds it in every season.", "es": "Cierto: el Congo sube al norte del ecuador y vuelve al sur, así que recibe lluvia en todas las estaciones." },
+      "topic": "rivers",
+      "source": "https://www.britannica.com/place/Congo-River"
+    },
+    {
+      "id": "geography-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗻",
+      "q": { "en": "Which summit is the farthest point from the center of Earth?", "es": "¿Qué cumbre es el punto más lejano del centro de la Tierra?" },
+      "choices": [
+        { "en": "Everest", "es": "Everest" },
+        { "en": "Denali", "es": "Denali" },
+        { "en": "Chimborazo", "es": "Chimborazo" },
+        { "en": "Kilimanjaro", "es": "Kilimanjaro" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth bulges at the equator, so Chimborazo beats Everest by about 2 kilometers (1.2 miles) measured from the planet's center.", "es": "La Tierra se ensancha en el ecuador, así que el Chimborazo supera al Everest por unos 2 kilómetros (1.2 millas) desde el centro." },
+      "topic": "mountains",
+      "source": "https://www.nasa.gov/image-article/chimborazo-volcano-ecuador/"
+    },
+    {
+      "id": "geography-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧗",
+      "q": { "en": "How high is Aconcagua, the highest peak outside Asia?", "es": "¿Qué altura tiene el Aconcagua, la cumbre más alta fuera de Asia?" },
+      "choices": [
+        { "en": "4892 meters (16,050 feet)", "es": "4892 metros (16,050 pies)" },
+        { "en": "5895 meters (19,341 feet)", "es": "5895 metros (19,341 pies)" },
+        { "en": "6961 meters (22,838 feet)", "es": "6961 metros (22,838 pies)" },
+        { "en": "8611 meters (28,251 feet)", "es": "8611 metros (28,251 pies)" }
+      ],
+      "answer": 2,
+      "why": { "en": "Aconcagua reaches 6961 meters (22,838 feet) in Argentina, and climbers walk up its northwest side without needing ropes.", "es": "El Aconcagua llega a 6961 metros (22,838 pies) en Argentina, y por su lado noroeste se sube caminando, sin cuerdas." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Mount-Aconcagua"
+    },
+    {
+      "id": "geography-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which mountain is the highest point on the continent of Antarctica?", "es": "¿Cuál es la montaña más alta del continente antártico?" },
+      "choices": [
+        { "en": "Mount Erebus", "es": "Monte Erebus" },
+        { "en": "Vinson Massif", "es": "Macizo Vinson" },
+        { "en": "Mount Sidley", "es": "Monte Sidley" },
+        { "en": "Mount Kirkpatrick", "es": "Monte Kirkpatrick" }
+      ],
+      "answer": 1,
+      "why": { "en": "Vinson Massif rises 4892 meters (16,050 feet) and was spotted only in 1958, because nobody had flown over that ice before.", "es": "El macizo Vinson se alza 4892 metros (16,050 pies) y se vio apenas en 1958, porque nadie había volado sobre ese hielo." },
+      "topic": "mountains",
+      "source": "https://www.usgs.gov/centers/pcmsc/science/antarctica"
+    },
+    {
+      "id": "geography-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Which is the longest mountain range on dry land?", "es": "¿Cuál es la cordillera más larga sobre tierra firme?" },
+      "choices": [
+        { "en": "Rocky Mountains", "es": "Montañas Rocosas" },
+        { "en": "Himalaya", "es": "Himalaya" },
+        { "en": "Great Dividing Range", "es": "Gran Cordillera Divisoria" },
+        { "en": "Andes", "es": "Andes" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Andes run about 7000 kilometers (4300 miles) through seven countries, from Venezuela's Caribbean coast to the cold tip of Chile.", "es": "Los Andes recorren unos 7000 kilómetros (4300 millas) por siete países, desde la costa caribeña de Venezuela hasta el frío extremo de Chile." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Andes-Mountains"
+    },
+    {
+      "id": "geography-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚧",
+      "q": { "en": "A doubly landlocked country is ringed by landlocked neighbors. Which pair are the only two?", "es": "Un país doblemente sin salida al mar está rodeado de vecinos sin costa. ¿Cuáles dos son?" },
+      "choices": [
+        { "en": "Liechtenstein and Uzbekistan", "es": "Liechtenstein y Uzbekistán" },
+        { "en": "Nepal and Bolivia", "es": "Nepal y Bolivia" },
+        { "en": "Austria and Paraguay", "es": "Austria y Paraguay" },
+        { "en": "Mongolia and Hungary", "es": "Mongolia y Hungría" }
+      ],
+      "answer": 0,
+      "why": { "en": "From Liechtenstein or Uzbekistan you must cross at least two borders to reach any sea, a rare double wall of land.", "es": "Desde Liechtenstein o Uzbekistán hay que cruzar al menos dos fronteras para llegar al mar, una rara doble muralla de tierra." },
+      "topic": "landlocked countries",
+      "source": "https://www.cia.gov/the-world-factbook/countries/uzbekistan/"
     }
   ]
 }

@@ -2718,6 +2718,928 @@
       "why": { "en": "The cerebellum predicts the touch your own hand will make and turns the surprise down, and tickling needs surprise.", "es": "El cerebelo predice el toque de tu propia mano y baja la sorpresa, y las cosquillas necesitan sorpresa." },
       "topic": "hiccups laughter and tears",
       "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Which organelle turns food and oxygen into usable energy inside a cell?", "es": "¿Qué organelo convierte la comida y el oxígeno en energía utilizable dentro de una célula?" },
+      "choices": [
+        { "en": "Mitochondria", "es": "Las mitocondrias" },
+        { "en": "Ribosomes", "es": "Los ribosomas" },
+        { "en": "The Golgi apparatus", "es": "El aparato de Golgi" },
+        { "en": "The nucleus", "es": "El núcleo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mitochondria build ATP, the molecule a cell spends as energy, and one busy heart muscle cell can hold thousands of them.", "es": "Las mitocondrias fabrican ATP, la molécula que la célula gasta como energía, y una célula del corazón puede tener miles." },
+      "topic": "cells and organelles",
+      "source": "https://www.genome.gov/genetics-glossary/Mitochondria"
+    },
+    {
+      "id": "body-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "Where in one of your cells would you find the chromosomes?", "es": "¿Dónde, dentro de una de tus células, se encuentran los cromosomas?" },
+      "choices": [
+        { "en": "In the cytoplasm", "es": "En el citoplasma" },
+        { "en": "In the nucleus", "es": "En el núcleo" },
+        { "en": "In the cell membrane", "es": "En la membrana celular" },
+        { "en": "In the ribosomes", "es": "En los ribosomas" }
+      ],
+      "answer": 1,
+      "why": { "en": "The nucleus holds all 46 chromosomes wound around proteins; mitochondria keep a separate tiny loop of their own DNA.", "es": "El núcleo guarda los 46 cromosomas enrollados en proteínas; las mitocondrias tienen aparte su propio anillo diminuto de ADN." },
+      "topic": "cells and organelles",
+      "source": "https://www.genome.gov/genetics-glossary/Chromosome"
+    },
+    {
+      "id": "body-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "What is the main job of the ribosomes scattered through a cell?", "es": "¿Cuál es la tarea principal de los ribosomas repartidos por una célula?" },
+      "choices": [
+        { "en": "Storing water", "es": "Guardar agua" },
+        { "en": "Digesting waste", "es": "Digerir los desechos" },
+        { "en": "Building proteins", "es": "Fabricar proteínas" },
+        { "en": "Sending messages", "es": "Enviar mensajes" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ribosomes read the recipe copied from DNA and link amino acids into proteins; a single cell may run millions at once.", "es": "Los ribosomas leen la receta copiada del ADN y unen aminoácidos para formar proteínas; una sola célula puede tener millones." },
+      "topic": "cells and organelles",
+      "source": "https://www.genome.gov/genetics-glossary/Ribosome"
+    },
+    {
+      "id": "body-hard-007", "level": "hard", "type": "tf", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Mature red blood cells carry no nucleus at all.", "es": "Los glóbulos rojos maduros carecen por completo de núcleo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Losing the nucleus makes room for more hemoglobin, but the cell cannot repair itself, so it lasts only about 120 days.", "es": "Al perder el núcleo cabe más hemoglobina, pero la célula ya no puede repararse y dura apenas unos 120 días." },
+      "topic": "cells and organelles",
+      "source": "https://www.nhlbi.nih.gov/health/blood"
+    },
+    {
+      "id": "body-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "About how many cells make up the body of one adult?", "es": "¿Cuántas células forman aproximadamente el cuerpo de una persona adulta?" },
+      "choices": [
+        { "en": "About 30 thousand", "es": "Unas 30 mil" },
+        { "en": "About 30 million", "es": "Unos 30 millones" },
+        { "en": "About 30 billion", "es": "Unos 30 mil millones" },
+        { "en": "About 30 trillion", "es": "Unos 30 billones" }
+      ],
+      "answer": 3,
+      "why": { "en": "Roughly 30 trillion cells, and about 80 percent of them are red blood cells, which are small and simple.", "es": "Unos 30 billones de células, y cerca del 80 por ciento son glóbulos rojos, que son pequeños y sencillos." },
+      "topic": "cells and organelles",
+      "source": "https://www.nigms.nih.gov/education/fact-sheets/Pages/inside-the-cell.aspx"
+    },
+    {
+      "id": "body-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Which human cell is large enough to see without a microscope?", "es": "¿Cuál célula humana es lo bastante grande para verse sin microscopio?" },
+      "choices": [
+        { "en": "The egg cell", "es": "El óvulo" },
+        { "en": "A red blood cell", "es": "Un glóbulo rojo" },
+        { "en": "A skin cell", "es": "Una célula de la piel" },
+        { "en": "A nerve cell body", "es": "El cuerpo de una neurona" }
+      ],
+      "answer": 0,
+      "why": { "en": "The egg cell is about 0.1 millimeters wide, a barely visible dot; the longest cell is a nerve running to your toe.", "es": "El óvulo mide unos 0.1 milímetros, un punto apenas visible; la célula más larga es un nervio que llega al pie." },
+      "topic": "cells and organelles",
+      "source": "https://www.britannica.com/science/cell-biology"
+    },
+    {
+      "id": "body-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "How many chromosomes sit inside a typical human body cell?", "es": "¿Cuántos cromosomas hay dentro de una célula típica del cuerpo humano?" },
+      "choices": [
+        { "en": "23", "es": "23" },
+        { "en": "46", "es": "46" },
+        { "en": "64", "es": "64" },
+        { "en": "92", "es": "92" }
+      ],
+      "answer": 1,
+      "why": { "en": "They come as 23 pairs, one of each pair from each parent; egg and sperm cells carry just 23 in total.", "es": "Vienen en 23 pares, uno de cada par de cada progenitor; los óvulos y los espermatozoides llevan solo 23 en total." },
+      "topic": "dna and genes",
+      "source": "https://www.genome.gov/genetics-glossary/Chromosome"
+    },
+    {
+      "id": "body-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "The letters of your DNA spell instructions for building which molecules?", "es": "¿Las letras de tu ADN dan instrucciones para construir cuáles moléculas?" },
+      "choices": [
+        { "en": "Sugars", "es": "Azúcares" },
+        { "en": "Fats", "es": "Grasas" },
+        { "en": "Proteins", "es": "Proteínas" },
+        { "en": "Salts", "es": "Sales" }
+      ],
+      "answer": 2,
+      "why": { "en": "A gene is a stretch of DNA that spells one protein; humans carry roughly 20,000 genes among three billion letters.", "es": "Un gen es un tramo de ADN que escribe una proteína; los humanos tenemos unos 20,000 genes entre tres mil millones de letras." },
+      "topic": "dna and genes",
+      "source": "https://www.genome.gov/genetics-glossary/Gene"
+    },
+    {
+      "id": "body-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "What shape does a molecule of DNA twist itself into?", "es": "¿Qué forma adopta al torcerse una molécula de ADN?" },
+      "choices": [
+        { "en": "A flat ribbon", "es": "Una cinta plana" },
+        { "en": "A single spiral", "es": "Una espiral sencilla" },
+        { "en": "A closed ring", "es": "Un anillo cerrado" },
+        { "en": "A double helix", "es": "Una doble hélice" }
+      ],
+      "answer": 3,
+      "why": { "en": "Two strands wind around each other like a twisted ladder; unwound, the DNA in one cell would stretch about 2 meters, 6 feet.", "es": "Dos hebras se enrollan como una escalera torcida; estirado, el ADN de una sola célula mediría unos 2 metros, 6 pies." },
+      "topic": "dna and genes",
+      "source": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA"
+    },
+    {
+      "id": "body-hard-013", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔍",
+      "q": { "en": "Identical twins share the same DNA but still have different fingerprints.", "es": "Los gemelos idénticos comparten el mismo ADN pero tienen huellas dactilares distintas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fingerprint ridges form from how the growing skin folds and presses in the womb, so chance shapes them, not genes alone.", "es": "Las crestas de las huellas se forman por cómo se dobla y se apoya la piel antes de nacer, no solo por los genes." },
+      "topic": "dna and genes",
+      "source": "https://www.britannica.com/science/fingerprint"
+    },
+    {
+      "id": "body-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "About what percentage of your DNA do you share with a chimpanzee?", "es": "¿Qué porcentaje de tu ADN compartes aproximadamente con un chimpancé?" },
+      "choices": [
+        { "en": "About 98 percent", "es": "Cerca del 98 por ciento" },
+        { "en": "About 85 percent", "es": "Cerca del 85 por ciento" },
+        { "en": "About 70 percent", "es": "Cerca del 70 por ciento" },
+        { "en": "About 50 percent", "es": "Cerca del 50 por ciento" }
+      ],
+      "answer": 0,
+      "why": { "en": "Close to 98.8 percent of the shared stretches match; the small difference mostly changes when and how strongly genes switch on.", "es": "Casi el 98.8 por ciento de los tramos comparados coincide; la pequeña diferencia cambia sobre todo cuándo se encienden los genes." },
+      "topic": "dna and genes",
+      "source": "https://www.genome.gov/human-genome-project"
+    },
+    {
+      "id": "body-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Where does a cell keep a second, much smaller set of DNA?", "es": "¿Dónde guarda una célula un segundo juego de ADN mucho más pequeño?" },
+      "choices": [
+        { "en": "In the ribosomes", "es": "En los ribosomas" },
+        { "en": "In the mitochondria", "es": "En las mitocondrias" },
+        { "en": "In the cell membrane", "es": "En la membrana celular" },
+        { "en": "In the cytoplasm", "es": "En el citoplasma" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mitochondrial DNA passes down from the mother only, so scientists use it to trace family lines back through many generations.", "es": "El ADN mitocondrial se hereda solo de la madre, así que los científicos lo usan para rastrear familias por muchas generaciones." },
+      "topic": "dna and genes",
+      "source": "https://www.genome.gov/genetics-glossary/Mitochondrial-DNA"
+    },
+    {
+      "id": "body-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which protein inside red blood cells grabs and carries the oxygen?", "es": "¿Qué proteína dentro de los glóbulos rojos atrapa y transporta el oxígeno?" },
+      "choices": [
+        { "en": "Keratin", "es": "La queratina" },
+        { "en": "Insulin", "es": "La insulina" },
+        { "en": "Hemoglobin", "es": "La hemoglobina" },
+        { "en": "Collagen", "es": "El colágeno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each hemoglobin molecule holds four iron atoms, and iron turns bright red when it grips oxygen, which is why lungs redden blood.", "es": "Cada molécula de hemoglobina lleva cuatro átomos de hierro, y el hierro se vuelve rojo brillante al sujetar el oxígeno." },
+      "topic": "red and white blood cells",
+      "source": "https://www.nhlbi.nih.gov/health/blood"
+    },
+    {
+      "id": "body-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "About how long does one red blood cell live before being replaced?", "es": "¿Cuánto vive aproximadamente un glóbulo rojo antes de ser reemplazado?" },
+      "choices": [
+        { "en": "About 12 hours", "es": "Unas 12 horas" },
+        { "en": "About 12 days", "es": "Unos 12 días" },
+        { "en": "About 12 months", "es": "Unos 12 meses" },
+        { "en": "About 120 days", "es": "Unos 120 días" }
+      ],
+      "answer": 3,
+      "why": { "en": "Your marrow makes about two million red cells every second to keep up, and the spleen and liver recycle the worn ones.", "es": "Tu médula fabrica unos dos millones de glóbulos rojos por segundo, y el bazo y el hígado reciclan los gastados." },
+      "topic": "red and white blood cells",
+      "source": "https://kidshealth.org/en/teens/blood.html"
+    },
+    {
+      "id": "body-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩹",
+      "q": { "en": "What do platelets build over a cut to stop the bleeding?", "es": "¿Qué construyen las plaquetas sobre una herida para detener el sangrado?" },
+      "choices": [
+        { "en": "A mesh of fibrin threads", "es": "Una malla de hilos de fibrina" },
+        { "en": "A layer of fat", "es": "Una capa de grasa" },
+        { "en": "A wall of calcium", "es": "Un muro de calcio" },
+        { "en": "A film of mucus", "es": "Una película de moco" }
+      ],
+      "answer": 0,
+      "why": { "en": "Platelets stick to the torn edge and call in fibrin, a stringy protein that nets blood cells into a clot, later a scab.", "es": "Las plaquetas se pegan al borde roto y llaman a la fibrina, una proteína fibrosa que atrapa células y forma el coágulo." },
+      "topic": "red and white blood cells",
+      "source": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "body-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which part of blood is mostly water and carries everything else?", "es": "¿Qué parte de la sangre es casi toda agua y transporta lo demás?" },
+      "choices": [
+        { "en": "Lymph", "es": "La linfa" },
+        { "en": "Plasma", "es": "El plasma" },
+        { "en": "Marrow", "es": "La médula" },
+        { "en": "Bile", "es": "La bilis" }
+      ],
+      "answer": 1,
+      "why": { "en": "Plasma makes up about 55 percent of blood and is roughly 90 percent water; it ferries nutrients, hormones, heat and waste.", "es": "El plasma es cerca del 55 por ciento de la sangre y casi 90 por ciento agua; lleva nutrientes, hormonas, calor y desechos." },
+      "topic": "red and white blood cells",
+      "source": "https://www.nhlbi.nih.gov/health/blood"
+    },
+    {
+      "id": "body-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "How many main blood types does the ABO system describe?", "es": "¿Cuántos tipos principales de sangre describe el sistema ABO?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Eight", "es": "Ocho" }
+      ],
+      "answer": 2,
+      "why": { "en": "A, B, AB and O are named for sugar markers on red cells; adding Rh positive or negative makes eight common labels.", "es": "A, B, AB y O se llaman así por marcadores de azúcar en los glóbulos rojos; con el factor Rh son ocho etiquetas." },
+      "topic": "blood types",
+      "source": "https://www.redcrossblood.org/donate-blood/blood-types.html"
+    },
+    {
+      "id": "body-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "💉",
+      "q": { "en": "Which blood type can be given to almost anyone in an emergency?", "es": "¿Qué tipo de sangre se puede dar a casi cualquier persona en una emergencia?" },
+      "choices": [
+        { "en": "AB positive", "es": "AB positivo" },
+        { "en": "A positive", "es": "A positivo" },
+        { "en": "B negative", "es": "B negativo" },
+        { "en": "O negative", "es": "O negativo" }
+      ],
+      "answer": 3,
+      "why": { "en": "O negative red cells carry no A, B or Rh markers, so the receiver's immune system finds nothing to attack them for.", "es": "Los glóbulos O negativo carecen de marcadores A, B y Rh, así que el sistema inmunitario de quien la recibe los deja pasar." },
+      "topic": "blood types",
+      "source": "https://www.redcrossblood.org/donate-blood/blood-types.html"
+    },
+    {
+      "id": "body-hard-022", "level": "hard", "type": "tf", "lang": "both", "emoji": "🩸",
+      "q": { "en": "A person's ABO blood type changes as they grow into an adult.", "es": "El tipo de sangre ABO de una persona cambia al volverse adulta." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your ABO type is set by genes before birth and stays for life; a bone marrow transplant is the rare exception.", "es": "Tu tipo ABO lo fijan los genes antes de nacer y dura toda la vida; un trasplante de médula es la rara excepción." },
+      "topic": "blood types",
+      "source": "https://medlineplus.gov/bloodtypingandcrossmatching.html"
+    },
+    {
+      "id": "body-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "💉",
+      "q": { "en": "What does a vaccine actually show your immune system?", "es": "¿Qué le muestra realmente una vacuna a tu sistema inmunitario?" },
+      "choices": [
+        { "en": "A harmless piece or copy of a germ", "es": "Un trozo o copia inofensiva de un microbio" },
+        { "en": "A dose of antibiotic medicine", "es": "Una dosis de antibiótico" },
+        { "en": "A ready-made supply of antibodies", "es": "Un suministro ya hecho de anticuerpos" },
+        { "en": "A vitamin that thickens the blood", "es": "Una vitamina que espesa la sangre" }
+      ],
+      "answer": 0,
+      "why": { "en": "Shown the shape, your body builds memory cells; when the real germ arrives years later the answer comes in hours, not days.", "es": "Al ver la forma, tu cuerpo crea células de memoria; si el microbio real llega años después, responde en horas, no en días." },
+      "topic": "the immune system",
+      "source": "https://www.cdc.gov/vaccines/basics/explaining-how-vaccines-work.html"
+    },
+    {
+      "id": "body-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "Which Y-shaped proteins lock onto a germ and mark it for destruction?", "es": "¿Qué proteínas en forma de Y se pegan a un microbio y lo marcan?" },
+      "choices": [
+        { "en": "Enzymes", "es": "Las enzimas" },
+        { "en": "Antibodies", "es": "Los anticuerpos" },
+        { "en": "Hormones", "es": "Las hormonas" },
+        { "en": "Platelets", "es": "Las plaquetas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each antibody fits one germ shape like a key fits a lock, and your B cells can build billions of different shapes.", "es": "Cada anticuerpo encaja en una forma como una llave en su cerradura, y tus linfocitos B crean miles de millones de formas." },
+      "topic": "the immune system",
+      "source": "https://www.britannica.com/science/antibody"
+    },
+    {
+      "id": "body-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "Which cells remember a germ for years after the first meeting?", "es": "¿Qué células recuerdan un microbio durante años después del primer encuentro?" },
+      "choices": [
+        { "en": "Red blood cells", "es": "Los glóbulos rojos" },
+        { "en": "Platelets", "es": "Las plaquetas" },
+        { "en": "Memory B and T cells", "es": "Los linfocitos B y T de memoria" },
+        { "en": "Nerve cells", "es": "Las neuronas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Memory cells rest quietly in lymph nodes; if the same germ returns they multiply within hours, so you may feel nothing.", "es": "Las células de memoria esperan en los ganglios linfáticos; si el microbio vuelve se multiplican en horas y quizá ni lo sientas." },
+      "topic": "the immune system",
+      "source": "https://www.cdc.gov/vaccines/basics/explaining-how-vaccines-work.html"
+    },
+    {
+      "id": "body-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Why does your body raise its own temperature when germs get in?", "es": "¿Por qué tu cuerpo sube su temperatura cuando entran microbios?" },
+      "choices": [
+        { "en": "To burn off extra food", "es": "Para quemar comida de más" },
+        { "en": "To dry out the skin", "es": "Para secar la piel" },
+        { "en": "To speed up blood clotting", "es": "Para acelerar la coagulación" },
+        { "en": "To slow germs and speed immune cells", "es": "Para frenar microbios y acelerar las defensas" }
+      ],
+      "answer": 3,
+      "why": { "en": "A fever near 38.5 °C, 101 °F, slows many germs while white blood cells work faster; the brain sets it deliberately.", "es": "Una fiebre cercana a 38.5 °C, 101 °F, frena a muchos microbios mientras las defensas trabajan más rápido; el cerebro la ordena." },
+      "topic": "the immune system",
+      "source": "https://kidshealth.org/en/parents/fever.html"
+    },
+    {
+      "id": "body-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Where in your body are new white blood cells born?", "es": "¿Dónde nacen los glóbulos blancos nuevos de tu cuerpo?" },
+      "choices": [
+        { "en": "In the bone marrow", "es": "En la médula ósea" },
+        { "en": "In the liver", "es": "En el hígado" },
+        { "en": "In the spleen", "es": "En el bazo" },
+        { "en": "In the appendix", "es": "En el apéndice" }
+      ],
+      "answer": 0,
+      "why": { "en": "Red marrow inside flat bones like the hip makes every blood cell; T cells then finish training in the thymus behind the breastbone.", "es": "La médula roja de huesos planos como la cadera crea todas las células sanguíneas; los linfocitos T se entrenan luego en el timo." },
+      "topic": "the immune system",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "Why do the lymph nodes in your neck swell during a sore throat?", "es": "¿Por qué se hinchan los ganglios del cuello cuando te duele la garganta?" },
+      "choices": [
+        { "en": "They store extra saliva", "es": "Guardan saliva de más" },
+        { "en": "They fill with fighting white blood cells", "es": "Se llenan de glóbulos blancos que pelean" },
+        { "en": "They keep spare red blood cells", "es": "Guardan glóbulos rojos de repuesto" },
+        { "en": "They cool the blood going upward", "es": "Enfrían la sangre que sube" }
+      ],
+      "answer": 1,
+      "why": { "en": "Lymph nodes are filters where white cells meet germs, so swelling means the fight is happening there; that is why doctors feel your neck.", "es": "Los ganglios son filtros donde las defensas encuentran microbios; que se hinchen significa que la pelea ocurre ahí, por eso el doctor los palpa." },
+      "topic": "the lymphatic system",
+      "source": "https://kidshealth.org/en/parents/swollen-glands.html"
+    },
+    {
+      "id": "body-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which fluid does the lymph system collect and return to your blood?", "es": "¿Qué líquido recoge el sistema linfático y devuelve a tu sangre?" },
+      "choices": [
+        { "en": "Digested fat alone", "es": "Solo la grasa digerida" },
+        { "en": "Sweat drawn back through the skin", "es": "El sudor que vuelve por la piel" },
+        { "en": "Fluid that leaks from tiny blood vessels", "es": "El líquido que escapa de los vasos diminutos" },
+        { "en": "Water taken from the kidneys", "es": "El agua tomada de los riñones" }
+      ],
+      "answer": 2,
+      "why": { "en": "About 3 liters, 3 quarts, leak into your tissues daily; lymph vessels carry it back, squeezed along only by your moving muscles.", "es": "Unos 3 litros, 3 cuartos de galón, se escapan a los tejidos cada día; los vasos linfáticos lo devuelven gracias a tus músculos." },
+      "topic": "the lymphatic system",
+      "source": "https://www.britannica.com/science/lymphatic-system"
+    },
+    {
+      "id": "body-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Which organ filters worn blood cells and holds a reserve of white cells?", "es": "¿Qué órgano filtra células sanguíneas gastadas y guarda una reserva de defensas?" },
+      "choices": [
+        { "en": "The pancreas", "es": "El páncreas" },
+        { "en": "The gallbladder", "es": "La vesícula biliar" },
+        { "en": "The thyroid", "es": "La tiroides" },
+        { "en": "The spleen", "es": "El bazo" }
+      ],
+      "answer": 3,
+      "why": { "en": "The spleen sits behind the stomach on the left; a person can live without one but catches certain infections more easily.", "es": "El bazo está detrás del estómago, del lado izquierdo; se puede vivir sin él, aunque algunas infecciones llegan con más facilidad." },
+      "topic": "the lymphatic system",
+      "source": "https://www.britannica.com/science/spleen"
+    },
+    {
+      "id": "body-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Why can you pull your hand off a hot pan before feeling pain?", "es": "¿Por qué quitas la mano de una sartén caliente antes de sentir dolor?" },
+      "choices": [
+        { "en": "The spinal cord decides the reflex by itself", "es": "La médula espinal decide el reflejo sola" },
+        { "en": "The skin muscles act alone", "es": "Los músculos de la piel actúan solos" },
+        { "en": "The message skips the nerves", "es": "El mensaje se salta los nervios" },
+        { "en": "The brain answers faster than it feels", "es": "El cerebro responde más rápido de lo que siente" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sensory nerves meet motor nerves in the spinal cord, so the order to pull back leaves at once; the brain learns a moment later.", "es": "Los nervios sensitivos y motores se conectan en la médula espinal, así que la orden sale de inmediato y el cerebro se entera después." },
+      "topic": "the nervous system",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+    },
+    {
+      "id": "body-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "What is the fatty sleeve around a nerve fiber that speeds messages up?", "es": "¿Cómo se llama la capa grasosa que rodea una fibra nerviosa y acelera los mensajes?" },
+      "choices": [
+        { "en": "Cartilage", "es": "El cartílago" },
+        { "en": "Myelin", "es": "La mielina" },
+        { "en": "Keratin", "es": "La queratina" },
+        { "en": "Collagen", "es": "El colágeno" }
+      ],
+      "answer": 1,
+      "why": { "en": "Myelin insulates like plastic on a wire, letting signals jump between gaps at up to 120 meters, 390 feet, per second.", "es": "La mielina aísla como el plástico de un cable y deja que la señal salte huecos a 120 metros, 390 pies, por segundo." },
+      "topic": "the nervous system",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+    },
+    {
+      "id": "body-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "What is the tiny gap where one nerve cell passes a message onward?", "es": "¿Cómo se llama el hueco diminuto por donde una neurona pasa el mensaje?" },
+      "choices": [
+        { "en": "An axon", "es": "El axón" },
+        { "en": "A dendrite", "es": "La dendrita" },
+        { "en": "A synapse", "es": "La sinapsis" },
+        { "en": "A neuron", "es": "La neurona" }
+      ],
+      "answer": 2,
+      "why": { "en": "The message crosses the synapse as a chemical squirt, not a spark, over a gap about 20 nanometers wide.", "es": "El mensaje cruza la sinapsis como un chorrito de sustancias químicas, no como una chispa, sobre un hueco de unos 20 nanómetros." },
+      "topic": "the nervous system",
+      "source": "https://www.britannica.com/science/synapse"
+    },
+    {
+      "id": "body-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Which nerves speed your heart and widen your pupils when you are startled?", "es": "¿Qué nervios aceleran tu corazón y abren tus pupilas cuando te asustas?" },
+      "choices": [
+        { "en": "The parasympathetic nerves", "es": "Los nervios parasimpáticos" },
+        { "en": "The sensory nerves", "es": "Los nervios sensitivos" },
+        { "en": "The spinal reflex arc", "es": "El arco reflejo espinal" },
+        { "en": "The sympathetic nerves", "es": "Los nervios simpáticos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sympathetic nerves run the fight-or-flight setting and tell the adrenal glands to pour adrenaline; parasympathetic nerves calm everything down afterward.", "es": "Los nervios simpáticos activan la reacción de pelear o huir y piden adrenalina; los parasimpáticos calman todo cuando el susto pasa." },
+      "topic": "the nervous system",
+      "source": "https://www.britannica.com/science/sympathetic-nervous-system"
+    },
+    {
+      "id": "body-hard-035", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧠",
+      "q": { "en": "The brain itself has no pain sensors inside its own tissue.", "es": "El cerebro mismo carece de sensores de dolor en su propio tejido." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Because the brain feels nothing, some surgery happens while the patient is awake; a headache comes from vessels and coverings around it.", "es": "Como el cerebro nada siente, algunas cirugías se hacen con la persona despierta; el dolor de cabeza viene de vasos y membranas cercanas." },
+      "topic": "the nervous system",
+      "source": "https://www.britannica.com/science/human-nervous-system"
+    },
+    {
+      "id": "body-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "About how many nerve cells does an adult brain hold?", "es": "¿Cuántas neuronas tiene aproximadamente el cerebro de una persona adulta?" },
+      "choices": [
+        { "en": "About 86 billion", "es": "Unos 86 mil millones" },
+        { "en": "About 86 million", "es": "Unos 86 millones" },
+        { "en": "About 860 thousand", "es": "Unos 860 mil" },
+        { "en": "About 8 trillion", "es": "Unos 8 billones" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each neuron may connect to a thousand others, making trillions of links; what you learn lives in those links, not the count.", "es": "Cada neurona puede conectarse con mil más, formando billones de enlaces; lo que aprendes vive en esos enlaces, no en el número." },
+      "topic": "the nervous system",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+    },
+    {
+      "id": "body-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥑",
+      "q": { "en": "Which nutrient gives your body the most energy in each gram?", "es": "¿Qué nutriente le da a tu cuerpo más energía por cada gramo?" },
+      "choices": [
+        { "en": "Protein", "es": "La proteína" },
+        { "en": "Fat", "es": "La grasa" },
+        { "en": "Carbohydrate", "es": "El carbohidrato" },
+        { "en": "Fiber", "es": "La fibra" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fat carries about 9 calories per gram, more than double protein or carbohydrate, which is why the body stores spare energy as fat.", "es": "La grasa aporta unas 9 calorías por gramo, más del doble que la proteína o el carbohidrato, por eso el cuerpo la guarda." },
+      "topic": "nutrients",
+      "source": "https://medlineplus.gov/dietaryfats.html"
+    },
+    {
+      "id": "body-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "What quick fuel does your body make when carbohydrates break down?", "es": "¿Qué combustible rápido produce tu cuerpo cuando se rompen los carbohidratos?" },
+      "choices": [
+        { "en": "Keratin", "es": "La queratina" },
+        { "en": "Calcium", "es": "El calcio" },
+        { "en": "Glucose", "es": "La glucosa" },
+        { "en": "Collagen", "es": "El colágeno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Glucose is a simple sugar, and your brain alone burns about 120 grams, 4 ounces, of it every single day.", "es": "La glucosa es un azúcar sencillo, y solo tu cerebro quema unos 120 gramos, 4 onzas, de ella cada día." },
+      "topic": "nutrients",
+      "source": "https://medlineplus.gov/carbohydrates.html"
+    },
+    {
+      "id": "body-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Which vitamin does your skin make for itself when sunlight lands on it?", "es": "¿Qué vitamina fabrica tu piel por sí sola cuando le da la luz del Sol?" },
+      "choices": [
+        { "en": "Vitamin A", "es": "La vitamina A" },
+        { "en": "Vitamin C", "es": "La vitamina C" },
+        { "en": "Vitamin K", "es": "La vitamina K" },
+        { "en": "Vitamin D", "es": "La vitamina D" }
+      ],
+      "answer": 3,
+      "why": { "en": "Vitamin D helps your gut absorb calcium, so a shortage weakens bones; a few minutes of daylight on bare arms often suffices.", "es": "La vitamina D ayuda a tu intestino a absorber calcio, así que faltarle debilita los huesos; unos minutos de luz suelen bastar." },
+      "topic": "nutrients",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/"
+    },
+    {
+      "id": "body-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "Which mineral does hemoglobin need so blood can carry oxygen?", "es": "¿Qué mineral necesita la hemoglobina para que la sangre lleve oxígeno?" },
+      "choices": [
+        { "en": "Iron", "es": "El hierro" },
+        { "en": "Calcium", "es": "El calcio" },
+        { "en": "Potassium", "es": "El potasio" },
+        { "en": "Zinc", "es": "El zinc" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every hemoglobin molecule holds four iron atoms; beans, lentils, spinach and meat refill the supply your marrow spends each day.", "es": "Cada molécula de hemoglobina lleva cuatro átomos de hierro; los frijoles, las lentejas, la espinaca y la carne reponen lo que gastas." },
+      "topic": "nutrients",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+    },
+    {
+      "id": "body-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which nutrient class builds your muscles, your skin and your enzymes?", "es": "¿Qué clase de nutriente construye tus músculos, tu piel y tus enzimas?" },
+      "choices": [
+        { "en": "Carbohydrate", "es": "El carbohidrato" },
+        { "en": "Protein", "es": "La proteína" },
+        { "en": "Fat", "es": "La grasa" },
+        { "en": "Water", "es": "El agua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Proteins are chains of 20 amino acids; nine of them your body cannot build, so food has to supply those nine.", "es": "Las proteínas son cadenas de 20 aminoácidos; nueve de ellos tu cuerpo no los fabrica, así que la comida debe darlos." },
+      "topic": "nutrients",
+      "source": "https://medlineplus.gov/ency/article/002467.htm"
+    },
+    {
+      "id": "body-hard-042", "level": "hard", "type": "tf", "lang": "both", "emoji": "🍊",
+      "q": { "en": "Vitamins give your body energy in the same way sugar does.", "es": "Las vitaminas le dan energía a tu cuerpo igual que el azúcar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Vitamins carry zero calories; they act as helpers that let enzymes release the energy locked inside food that does carry calories.", "es": "Las vitaminas tienen cero calorías; son ayudantes que permiten a las enzimas liberar la energía guardada en los alimentos que sí la traen." },
+      "topic": "nutrients",
+      "source": "https://medlineplus.gov/vitamins.html"
+    },
+    {
+      "id": "body-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍋",
+      "q": { "en": "Which vitamin were sailors missing when long voyages gave them scurvy?", "es": "¿Qué vitamina les faltaba a los marineros cuando los viajes largos les daban escorbuto?" },
+      "choices": [
+        { "en": "Vitamin A", "es": "La vitamina A" },
+        { "en": "Vitamin B12", "es": "La vitamina B12" },
+        { "en": "Vitamin C", "es": "La vitamina C" },
+        { "en": "Vitamin D", "es": "La vitamina D" }
+      ],
+      "answer": 2,
+      "why": { "en": "Vitamin C builds collagen, the glue holding skin and gums together; limes, chiles and guavas are packed with it.", "es": "La vitamina C fabrica colágeno, el pegamento que une la piel y las encías; los limones, los chiles y las guayabas la traen." },
+      "topic": "nutrients",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/"
+    },
+    {
+      "id": "body-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "What does fiber mainly do as it travels through your gut?", "es": "¿Qué hace principalmente la fibra mientras viaja por tu intestino?" },
+      "choices": [
+        { "en": "It breaks down into sugar quickly", "es": "Se convierte en azúcar rápidamente" },
+        { "en": "It builds new muscle tissue", "es": "Construye tejido muscular nuevo" },
+        { "en": "It dissolves straight into the blood", "es": "Se disuelve directo en la sangre" },
+        { "en": "It feeds gut bacteria and keeps things moving", "es": "Alimenta a las bacterias y mantiene el movimiento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Humans lack the enzyme for fiber, so it reaches the colon whole, where bacteria ferment it into useful fatty acids.", "es": "A los humanos les falta la enzima para la fibra, así que llega entera al colon, donde las bacterias la vuelven ácidos útiles." },
+      "topic": "nutrients",
+      "source": "https://medlineplus.gov/dietaryfiber.html"
+    },
+    {
+      "id": "body-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which part of the brain keeps your heart beating and your lungs breathing?", "es": "¿Qué parte del cerebro mantiene tu corazón latiendo y tus pulmones respirando?" },
+      "choices": [
+        { "en": "The brain stem", "es": "El tronco encefálico" },
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The cerebrum", "es": "El cerebro (corteza)" },
+        { "en": "The hypothalamus", "es": "El hipotálamo" }
+      ],
+      "answer": 0,
+      "why": { "en": "The brain stem runs automatic jobs day and night, which is why breathing carries on while you are deeply asleep.", "es": "El tronco encefálico maneja las tareas automáticas de día y de noche, por eso sigues respirando mientras duermes profundamente." },
+      "topic": "the brain",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Which lobe of the cerebrum reads the pictures coming from your eyes?", "es": "¿Qué lóbulo del cerebro interpreta las imágenes que llegan de tus ojos?" },
+      "choices": [
+        { "en": "The frontal lobe", "es": "El lóbulo frontal" },
+        { "en": "The occipital lobe", "es": "El lóbulo occipital" },
+        { "en": "The temporal lobe", "es": "El lóbulo temporal" },
+        { "en": "The parietal lobe", "es": "El lóbulo parietal" }
+      ],
+      "answer": 1,
+      "why": { "en": "The occipital lobe sits at the very back of the head, far from the eyes, so a knock there can blur healthy vision.", "es": "El lóbulo occipital está atrás de la cabeza, lejos de los ojos, así que un golpe ahí puede nublar una vista sana." },
+      "topic": "the brain",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+    },
+    {
+      "id": "body-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which bridge lets the left and right halves of your brain talk?", "es": "¿Qué puente permite que las mitades izquierda y derecha del cerebro se hablen?" },
+      "choices": [
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The spinal cord", "es": "La médula espinal" },
+        { "en": "The corpus callosum", "es": "El cuerpo calloso" },
+        { "en": "The brain stem", "es": "El tronco encefálico" }
+      ],
+      "answer": 2,
+      "why": { "en": "About 200 million nerve fibers cross the corpus callosum, swapping messages between the two halves many times every second.", "es": "Unos 200 millones de fibras nerviosas cruzan el cuerpo calloso, intercambiando mensajes entre las dos mitades muchas veces por segundo." },
+      "topic": "the brain",
+      "source": "https://www.britannica.com/science/corpus-callosum"
+    },
+    {
+      "id": "body-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which small brain structure files new memories before they are stored long term?", "es": "¿Qué estructura pequeña del cerebro archiva los recuerdos nuevos antes de guardarlos?" },
+      "choices": [
+        { "en": "The thalamus", "es": "El tálamo" },
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The pituitary gland", "es": "La glándula pituitaria" },
+        { "en": "The hippocampus", "es": "El hipocampo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Hippocampus means seahorse in Greek, for its curled shape; damage there leaves old memories intact but blocks brand new ones.", "es": "Hipocampo significa caballito de mar en griego, por su forma curva; un daño ahí deja los recuerdos viejos pero bloquea los nuevos." },
+      "topic": "the brain",
+      "source": "https://www.britannica.com/science/hippocampus"
+    },
+    {
+      "id": "body-hard-049", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧠",
+      "q": { "en": "The wrinkles of the cerebrum let far more surface fit inside the skull.", "es": "Las arrugas del cerebro permiten que quepa mucha más superficie dentro del cráneo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flattened out, the folded cortex would cover about 2000 square centimeters, roughly a pillowcase, yet it folds into your head.", "es": "Extendida, la corteza plegada cubriría unos 2000 centímetros cuadrados, como una funda de almohada, y aun así cabe en tu cabeza." },
+      "topic": "the brain",
+      "source": "https://www.britannica.com/science/cerebral-cortex"
+    },
+    {
+      "id": "body-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "Which snail-shaped part of the ear turns sound waves into nerve signals?", "es": "¿Qué parte del oído, con forma de caracol, convierte el sonido en señales nerviosas?" },
+      "choices": [
+        { "en": "The cochlea", "es": "La cóclea" },
+        { "en": "The eardrum", "es": "El tímpano" },
+        { "en": "The eustachian tube", "es": "La trompa de Eustaquio" },
+        { "en": "The semicircular canals", "es": "Los canales semicirculares" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cochlea means snail in Greek; inside it about 15,000 hair cells bend and fire, each one tuned to its own pitch.", "es": "Cóclea significa caracol en griego; dentro, unas 15,000 células ciliadas se doblan y disparan, cada una afinada a un tono." },
+      "topic": "hearing and vision",
+      "source": "https://www.nidcd.nih.gov/health/how-do-we-hear"
+    },
+    {
+      "id": "body-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Which cells in your retina work best in dim light but see gray?", "es": "¿Qué células de tu retina funcionan mejor con poca luz pero ven en gris?" },
+      "choices": [
+        { "en": "Cones", "es": "Los conos" },
+        { "en": "Rods", "es": "Los bastones" },
+        { "en": "Hair cells", "es": "Las células ciliadas" },
+        { "en": "Lens fibers", "es": "Las fibras del cristalino" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 120 million rods line the retina against only 6 million cones, which is why a moonlit room looks colorless.", "es": "Unos 120 millones de bastones cubren la retina frente a solo 6 millones de conos, por eso un cuarto con luna se ve gris." },
+      "topic": "hearing and vision",
+      "source": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+    },
+    {
+      "id": "body-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "How many kinds of cone cell let most people see every color?", "es": "¿Cuántos tipos de conos permiten que casi todos vean todos los colores?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Six", "es": "Seis" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cones answer to red, green and blue light, and mixing their three signals builds every shade; mantis shrimp carry twelve kinds.", "es": "Los conos responden a la luz roja, verde y azul, y mezclar sus tres señales crea cada tono; el camarón mantis tiene doce tipos." },
+      "topic": "hearing and vision",
+      "source": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+    },
+    {
+      "id": "body-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Why does the picture landing on your retina arrive upside down?", "es": "¿Por qué la imagen que llega a tu retina aparece de cabeza?" },
+      "choices": [
+        { "en": "The retina curves backwards", "es": "La retina se curva al revés" },
+        { "en": "The optic nerve reverses the signal", "es": "El nervio óptico invierte la señal" },
+        { "en": "The pupil narrows at the top", "es": "La pupila se angosta arriba" },
+        { "en": "The lens crosses the light as it bends it", "es": "El cristalino cruza la luz al doblarla" }
+      ],
+      "answer": 3,
+      "why": { "en": "Any convex lens crosses the rays passing through it, so the image flips; your brain simply learned to turn it right way up.", "es": "Cualquier lente convexa cruza los rayos que la atraviesan y la imagen se voltea; tu cerebro aprendió a ponerla al derecho." },
+      "topic": "hearing and vision",
+      "source": "https://www.britannica.com/science/human-eye"
+    },
+    {
+      "id": "body-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Where is the blind spot found in each of your eyes?", "es": "¿Dónde está el punto ciego en cada uno de tus ojos?" },
+      "choices": [
+        { "en": "Where the optic nerve leaves the retina", "es": "Donde el nervio óptico sale de la retina" },
+        { "en": "At the center of the lens", "es": "En el centro del cristalino" },
+        { "en": "Around the outer edge of the pupil", "es": "En el borde exterior de la pupila" },
+        { "en": "Behind the colored iris", "es": "Detrás del iris de color" }
+      ],
+      "answer": 0,
+      "why": { "en": "Light sensors are missing at that doorway, so each eye misses a patch; your brain quietly fills it with a guess.", "es": "En esa puerta faltan los sensores de luz, así que cada ojo pierde un pedazo; tu cerebro lo rellena con una suposición." },
+      "topic": "hearing and vision",
+      "source": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+    },
+    {
+      "id": "body-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "Which three tiny bones pass the eardrum's shake into your inner ear?", "es": "¿Qué tres huesitos pasan la vibración del tímpano hacia tu oído interno?" },
+      "choices": [
+        { "en": "Radius, ulna and humerus", "es": "Radio, cúbito y húmero" },
+        { "en": "Hammer, anvil and stirrup", "es": "Martillo, yunque y estribo" },
+        { "en": "Atlas, axis and sacrum", "es": "Atlas, axis y sacro" },
+        { "en": "Femur, tibia and fibula", "es": "Fémur, tibia y peroné" }
+      ],
+      "answer": 1,
+      "why": { "en": "The stirrup, also called the stapes, is the smallest bone you own at about 3 millimeters, 0.1 inches, long.", "es": "El estribo, llamado también estapedio, es el hueso más pequeño que tienes: mide unos 3 milímetros, 0.1 pulgadas, de largo." },
+      "topic": "hearing and vision",
+      "source": "https://www.nidcd.nih.gov/health/how-do-we-hear"
+    },
+    {
+      "id": "body-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "👓",
+      "q": { "en": "What must your eye's lens do to bring a close book into focus?", "es": "¿Qué debe hacer el cristalino de tu ojo para enfocar un libro cercano?" },
+      "choices": [
+        { "en": "Slide forward toward the pupil", "es": "Deslizarse hacia la pupila" },
+        { "en": "Darken to cut the light", "es": "Oscurecerse para cortar la luz" },
+        { "en": "Let muscles squeeze it into a fatter shape", "es": "Dejar que los músculos lo hagan más grueso" },
+        { "en": "Spin to a new angle", "es": "Girar hacia otro ángulo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ciliary muscles change the lens curve, a trick called accommodation; the lens stiffens with age, which is why reading glasses appear.", "es": "Los músculos ciliares cambian la curva del cristalino, algo llamado acomodación; con los años se endurece y hacen falta lentes de lectura." },
+      "topic": "hearing and vision",
+      "source": "https://www.britannica.com/science/human-eye"
+    },
+    {
+      "id": "body-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "😴",
+      "q": { "en": "During which stage of sleep do the most vivid dreams happen?", "es": "¿Durante qué etapa del sueño ocurren los sueños más vívidos?" },
+      "choices": [
+        { "en": "Stage one light sleep", "es": "La etapa uno de sueño ligero" },
+        { "en": "Stage two light sleep", "es": "La etapa dos de sueño ligero" },
+        { "en": "Deep slow-wave sleep", "es": "El sueño profundo de ondas lentas" },
+        { "en": "REM sleep", "es": "El sueño REM" }
+      ],
+      "answer": 3,
+      "why": { "en": "REM stands for rapid eye movement, and the body's muscles switch off then, so a sleeper stays still through the story.", "es": "REM significa movimiento ocular rápido, y en esa etapa los músculos se apagan, así que quien duerme se queda quieto." },
+      "topic": "sleep cycles",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+    },
+    {
+      "id": "body-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "About how many complete sleep cycles does a person pass through nightly?", "es": "¿Cuántos ciclos completos de sueño atraviesa una persona cada noche?" },
+      "choices": [
+        { "en": "Four to six", "es": "De cuatro a seis" },
+        { "en": "Exactly one", "es": "Exactamente uno" },
+        { "en": "Ten to twelve", "es": "De diez a doce" },
+        { "en": "About twenty", "es": "Unos veinte" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each cycle runs about 90 minutes, and the REM part grows longer toward morning, so the final dream is usually the longest.", "es": "Cada ciclo dura unos 90 minutos, y la parte REM se alarga hacia la mañana, por eso el último sueño es el más largo." },
+      "topic": "sleep cycles",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+    },
+    {
+      "id": "body-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Which part of the brain uses daylight through your eyes to set your clock?", "es": "¿Qué parte del cerebro usa la luz del día para ajustar tu reloj interno?" },
+      "choices": [
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The hypothalamus", "es": "El hipotálamo" },
+        { "en": "The hippocampus", "es": "El hipocampo" },
+        { "en": "The corpus callosum", "es": "El cuerpo calloso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A cluster inside the hypothalamus reads dawn light and tells the pineal gland to stop making melatonin, which wakes you up.", "es": "Un grupo de neuronas del hipotálamo lee la luz del amanecer y le pide a la glándula pineal dejar de producir melatonina." },
+      "topic": "sleep cycles",
+      "source": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx"
+    },
+    {
+      "id": "body-hard-060", "level": "hard", "type": "tf", "lang": "both", "emoji": "😴",
+      "q": { "en": "Deep slow-wave sleep is when the body repairs tissue and builds bone.", "es": "En el sueño profundo de ondas lentas el cuerpo repara tejidos y forma hueso." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Growth hormone pours out during deep sleep, which is one reason children who sleep too little can grow more slowly.", "es": "La hormona del crecimiento se libera durante el sueño profundo, por eso los niños que duermen poco pueden crecer más despacio." },
+      "topic": "sleep cycles",
+      "source": "https://kidshealth.org/en/parents/sleep.html"
+    },
+    {
+      "id": "body-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Which glands pour adrenaline into the blood when you are frightened?", "es": "¿Qué glándulas lanzan adrenalina a la sangre cuando te asustas?" },
+      "choices": [
+        { "en": "The thyroid", "es": "La tiroides" },
+        { "en": "The pituitary gland", "es": "La glándula pituitaria" },
+        { "en": "The adrenal glands", "es": "Las glándulas suprarrenales" },
+        { "en": "The pancreas", "es": "El páncreas" }
+      ],
+      "answer": 2,
+      "why": { "en": "They sit like caps on top of the kidneys; adrenaline widens pupils, speeds the heart and frees stored sugar within seconds.", "es": "Están como gorros encima de los riñones; la adrenalina abre las pupilas, acelera el corazón y libera azúcar en segundos." },
+      "topic": "hormones",
+      "source": "https://kidshealth.org/en/teens/adrenal.html"
+    },
+    {
+      "id": "body-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "What does insulin tell your cells to do after you eat a meal?", "es": "¿Qué les ordena la insulina a tus células después de una comida?" },
+      "choices": [
+        { "en": "Burn fat for extra heat", "es": "Quemar grasa para dar calor" },
+        { "en": "Release their stored sugar", "es": "Soltar el azúcar que guardan" },
+        { "en": "Hold on to more water", "es": "Retener más agua" },
+        { "en": "Take sugar out of the blood", "es": "Sacar el azúcar de la sangre" }
+      ],
+      "answer": 3,
+      "why": { "en": "Insulin is the key that opens cells to glucose; without enough of it blood sugar climbs, and that is what diabetes means.", "es": "La insulina es la llave que abre las células a la glucosa; si falta, el azúcar en sangre sube, y eso significa diabetes." },
+      "topic": "hormones",
+      "source": "https://kidshealth.org/en/kids/insulin.html"
+    },
+    {
+      "id": "body-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "Which gland in your neck sets how fast your body burns energy?", "es": "¿Qué glándula de tu cuello marca qué tan rápido quema energía tu cuerpo?" },
+      "choices": [
+        { "en": "The thyroid", "es": "La tiroides" },
+        { "en": "The thymus", "es": "El timo" },
+        { "en": "The parotid gland", "es": "La glándula parótida" },
+        { "en": "The pituitary gland", "es": "La glándula pituitaria" }
+      ],
+      "answer": 0,
+      "why": { "en": "The thyroid is butterfly-shaped and needs iodine to work, which is why many countries add iodine to ordinary table salt.", "es": "La tiroides tiene forma de mariposa y necesita yodo, por eso muchos países le agregan yodo a la sal de mesa común." },
+      "topic": "hormones",
+      "source": "https://kidshealth.org/en/teens/thyroid.html"
+    },
+    {
+      "id": "body-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "How does a hormone travel from the gland that makes it to its target?", "es": "¿Cómo viaja una hormona desde la glándula que la fabrica hasta su destino?" },
+      "choices": [
+        { "en": "Along nerve fibers", "es": "Por las fibras nerviosas" },
+        { "en": "Through the bloodstream", "es": "Por el torrente sanguíneo" },
+        { "en": "Through the lymph nodes only", "es": "Solo por los ganglios linfáticos" },
+        { "en": "Down the spinal cord", "es": "Por la médula espinal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Hormones drift everywhere, but only cells carrying the matching receptor answer, which is how one chemical can order one organ around.", "es": "Las hormonas llegan a todas partes, pero solo responden las células con el receptor correcto, así una sustancia manda sobre un órgano." },
+      "topic": "hormones",
+      "source": "https://www.britannica.com/science/hormone"
+    },
+    {
+      "id": "body-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "About how much blood do your two kidneys filter in one day?", "es": "¿Cuánta sangre filtran tus dos riñones aproximadamente en un día?" },
+      "choices": [
+        { "en": "About 2 liters, 0.5 gallons", "es": "Unos 2 litros, 0.5 galones" },
+        { "en": "About 18 liters, 5 gallons", "es": "Unos 18 litros, 5 galones" },
+        { "en": "About 180 liters, 48 gallons", "es": "Unos 180 litros, 48 galones" },
+        { "en": "About 1800 liters, 480 gallons", "es": "Unos 1800 litros, 480 galones" }
+      ],
+      "answer": 2,
+      "why": { "en": "They filter the same blood over and over, then hand back nearly all the water and send out about 1.5 liters, 1.6 quarts.", "es": "Filtran la misma sangre una y otra vez, devuelven casi toda el agua y sacan apenas 1.5 litros, 1.6 cuartos de galón." },
+      "topic": "the kidneys",
+      "source": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+    },
+    {
+      "id": "body-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What are the roughly one million tiny filters inside each kidney called?", "es": "¿Cómo se llaman el millón de filtros diminutos que hay en cada riñón?" },
+      "choices": [
+        { "en": "Alveoli", "es": "Los alvéolos" },
+        { "en": "Villi", "es": "Las vellosidades" },
+        { "en": "Neurons", "es": "Las neuronas" },
+        { "en": "Nephrons", "es": "Las nefronas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each nephron is a filter plus a long tube that takes back the sugar, salt and water your body still wants.", "es": "Cada nefrona es un filtro más un tubo largo que recupera el azúcar, la sal y el agua que tu cuerpo todavía quiere." },
+      "topic": "the kidneys",
+      "source": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+    },
+    {
+      "id": "body-hard-067", "level": "hard", "type": "tf", "lang": "both", "emoji": "💧",
+      "q": { "en": "A healthy person can live a full life with only one kidney.", "es": "Una persona sana puede vivir una vida plena con un solo riñón." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The remaining kidney grows larger and does the work of both, which is how a living person can donate one safely.", "es": "El riñón que queda crece y hace el trabajo de los dos, y por eso una persona viva puede donar uno sin peligro." },
+      "topic": "the kidneys",
+      "source": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+    },
+    {
+      "id": "body-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "About how many different jobs does the liver do for your body?", "es": "¿Cuántas tareas distintas hace el hígado para tu cuerpo aproximadamente?" },
+      "choices": [
+        { "en": "More than 500", "es": "Más de 500" },
+        { "en": "About 5", "es": "Unas 5" },
+        { "en": "About 20", "es": "Unas 20" },
+        { "en": "About 100", "es": "Unas 100" }
+      ],
+      "answer": 0,
+      "why": { "en": "It stores sugar and vitamins, makes bile, builds blood proteins and takes apart medicines and waste, all at the same time.", "es": "Guarda azúcar y vitaminas, fabrica bilis, arma proteínas de la sangre y desarma medicinas y desechos, todo al mismo tiempo." },
+      "topic": "the liver",
+      "source": "https://kidshealth.org/en/kids/liver.html"
+    },
+    {
+      "id": "body-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "♻️",
+      "q": { "en": "Which organ of yours can regrow after a large part is removed?", "es": "¿Qué órgano tuyo vuelve a crecer después de quitarle una parte grande?" },
+      "choices": [
+        { "en": "The heart", "es": "El corazón" },
+        { "en": "The liver", "es": "El hígado" },
+        { "en": "The brain", "es": "El cerebro" },
+        { "en": "The kidney", "es": "El riñón" }
+      ],
+      "answer": 1,
+      "why": { "en": "A liver can rebuild most of its mass within weeks, which is why a living donor is able to give away part of one.", "es": "El hígado puede recuperar casi toda su masa en semanas, por eso una persona viva puede donar una parte del suyo." },
+      "topic": "the liver",
+      "source": "https://www.britannica.com/science/liver"
+    },
+    {
+      "id": "body-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧈",
+      "q": { "en": "What does the bile from your liver break apart inside your gut?", "es": "¿Qué desarma dentro de tu intestino la bilis que hace tu hígado?" },
+      "choices": [
+        { "en": "Proteins", "es": "Las proteínas" },
+        { "en": "Starches", "es": "Los almidones" },
+        { "en": "Fats", "es": "Las grasas" },
+        { "en": "Fibers", "es": "Las fibras" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bile splits fat into tiny droplets so enzymes can reach them; the gallbladder stores it until a fatty meal shows up.", "es": "La bilis parte la grasa en gotitas para que las enzimas lleguen; la vesícula la guarda hasta que llega una comida grasosa." },
+      "topic": "the liver",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
     }
   ]
 }
