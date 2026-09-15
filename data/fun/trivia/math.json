@@ -2726,6 +2726,1346 @@
       "why": { "en": "A full turn is 360 degrees, and a trick called a 540 is one and a half spins in the air.", "es": "Una vuelta completa son 360 grados, y el truco llamado 540 es una vuelta y media en el aire." },
       "topic": "angles",
       "source": "https://www.mathsisfun.com/geometry/degrees.html"
+    },
+    {
+      "id": "math-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "👕",
+      "q": { "en": "A shirt costs 40 dollars and the sign says 25 percent off. What do you pay?", "es": "Una camisa cuesta 40 dólares y el letrero dice 25 por ciento de descuento. ¿Cuánto pagas?" },
+      "choices": [
+        { "en": "$30", "es": "$30" },
+        { "en": "$25", "es": "$25" },
+        { "en": "$35", "es": "$35" },
+        { "en": "$15", "es": "$15" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twenty-five percent means one quarter, so you save 10 dollars and pay 30; shops like quarter-offs because shoppers can check them mentally.", "es": "Veinticinco por ciento es una cuarta parte, así que ahorras 10 dólares y pagas 30; una cuarta parte se comprueba de memoria." },
+      "topic": "percentages",
+      "source": "https://www.mathsisfun.com/percentage.html"
+    },
+    {
+      "id": "math-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "What is 15 percent of 60?", "es": "¿Cuánto es el 15 por ciento de 60?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "9", "es": "9" },
+        { "en": "6", "es": "6" },
+        { "en": "4.5", "es": "4.5" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ten percent of 60 is 6 and half of that is 3, so 15 percent is 9; splitting percentages this way beats long multiplication.", "es": "El 10 por ciento de 60 es 6 y su mitad es 3, así que el 15 por ciento es 9; partirlo así es rapidísimo." },
+      "topic": "percentages",
+      "source": "https://www.mathsisfun.com/percentage.html"
+    },
+    {
+      "id": "math-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "📈",
+      "q": { "en": "A bus fare rises from 50 pesos to 65 pesos. By what percent did it grow?", "es": "El boleto del autobús sube de 50 pesos a 65 pesos. ¿Qué porcentaje aumentó?" },
+      "choices": [
+        { "en": "15 percent", "es": "15 por ciento" },
+        { "en": "23 percent", "es": "23 por ciento" },
+        { "en": "30 percent", "es": "30 por ciento" },
+        { "en": "65 percent", "es": "65 por ciento" }
+      ],
+      "answer": 2,
+      "why": { "en": "Percent change compares the rise of 15 to the starting 50, and 15 divided by 50 is 0.3, which means 30 percent.", "es": "El cambio porcentual compara el aumento de 15 con el inicio de 50, y 15 entre 50 da 0.3, es decir 30 por ciento." },
+      "topic": "percent change",
+      "source": "https://www.mathsisfun.com/numbers/percentage-change.html"
+    },
+    {
+      "id": "math-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "A jacket costs 80 dollars, goes up 10 percent, then down 10 percent. What is the final price?", "es": "Una chamarra cuesta 80 dólares, sube 10 por ciento y luego baja 10 por ciento. ¿Cuál es el precio final?" },
+      "choices": [
+        { "en": "$80.00", "es": "$80.00" },
+        { "en": "$88.00", "es": "$88.00" },
+        { "en": "$80.80", "es": "$80.80" },
+        { "en": "$79.20", "es": "$79.20" }
+      ],
+      "answer": 3,
+      "why": { "en": "The rise is taken on 80 but the cut is taken on the bigger 88, so you land at 79.20, below where you began.", "es": "El aumento se toma sobre 80, pero el descuento se toma sobre 88, que es mayor, así que terminas en 79.20, debajo del inicio." },
+      "topic": "percent change",
+      "source": "https://www.mathsisfun.com/numbers/percentage-change.html"
+    },
+    {
+      "id": "math-hard-008", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Adding 20 percent to a price and then taking 20 percent off leaves the price lower than it started.", "es": "Subir un precio 20 por ciento y luego bajarlo 20 por ciento deja el precio más bajo que al inicio." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Percent always refers to the number it follows, so the discount acts on a larger amount and you end with 96 percent of the start.", "es": "El porcentaje siempre se refiere al número anterior, así que el descuento actúa sobre una cifra mayor y terminas con el 96 por ciento." },
+      "topic": "percent change",
+      "source": "https://www.mathsisfun.com/numbers/percentage-change.html"
+    },
+    {
+      "id": "math-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "The temperature falls from 3 °C to -8 °C overnight. How many degrees did it drop?", "es": "La temperatura baja de 3 °C a -8 °C durante la noche. ¿Cuántos grados bajó?" },
+      "choices": [
+        { "en": "5 degrees", "es": "5 grados" },
+        { "en": "11 degrees", "es": "11 grados" },
+        { "en": "8 degrees", "es": "8 grados" },
+        { "en": "14 degrees", "es": "14 grados" }
+      ],
+      "answer": 1,
+      "why": { "en": "Count 3 steps down to zero and 8 more below it, giving 11; on a number line the drop is the distance between the marks.", "es": "Cuenta 3 pasos hasta el cero y 8 más debajo, o sea 11; en la recta numérica la caída es la distancia entre las marcas." },
+      "topic": "negative numbers",
+      "source": "https://www.mathsisfun.com/positive-negative-integers.html"
+    },
+    {
+      "id": "math-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "➗",
+      "q": { "en": "When you multiply two negative numbers together, what kind of answer appears?", "es": "Cuando multiplicas dos números negativos, ¿qué tipo de resultado aparece?" },
+      "choices": [
+        { "en": "A negative number", "es": "Un número negativo" },
+        { "en": "Zero", "es": "Cero" },
+        { "en": "A positive number", "es": "Un número positivo" },
+        { "en": "A number smaller than both", "es": "Un número menor que ambos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Two negatives cancel, so -6 times -4 is positive 24; imagine a debt of 6 dollars being taken away from you four times.", "es": "Dos negativos se cancelan, así que -6 por -4 da 24 positivo; imagina que te quitan una deuda de 6 dólares cuatro veces." },
+      "topic": "negative numbers",
+      "source": "https://www.mathsisfun.com/multiplying-negatives.html"
+    },
+    {
+      "id": "math-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What is 5 minus -3?", "es": "¿Cuánto es 5 menos -3?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "5", "es": "5" },
+        { "en": "3", "es": "3" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 3,
+      "why": { "en": "Subtracting a negative is the same as adding, so 5 minus -3 becomes 5 plus 3, which is 8, a jump rightwards.", "es": "Restar un negativo es igual que sumar, así que 5 menos -3 se vuelve 5 más 3, que es 8, un salto a la derecha." },
+      "topic": "negative numbers",
+      "source": "https://www.mathsisfun.com/positive-negative-integers.html"
+    },
+    {
+      "id": "math-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "Which of these temperatures is the warmest?", "es": "¿Cuál de estas temperaturas es la más cálida?" },
+      "choices": [
+        { "en": "-2 °C", "es": "-2 °C" },
+        { "en": "-9 °C", "es": "-9 °C" },
+        { "en": "-15 °C", "es": "-15 °C" },
+        { "en": "-40 °C", "es": "-40 °C" }
+      ],
+      "answer": 0,
+      "why": { "en": "With negatives the bigger the digit the colder it is, so -2 sits closest to zero and feels warmest of the four.", "es": "Con los negativos, mientras mayor sea la cifra más frío hace, así que -2 está más cerca del cero y es el más cálido." },
+      "topic": "negative numbers",
+      "source": "https://www.mathsisfun.com/positive-negative-integers.html"
+    },
+    {
+      "id": "math-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "What is 2 raised to the power of 10?", "es": "¿Cuánto es 2 elevado a la potencia 10?" },
+      "choices": [
+        { "en": "100", "es": "100" },
+        { "en": "1024", "es": "1024" },
+        { "en": "20", "es": "20" },
+        { "en": "512", "es": "512" }
+      ],
+      "answer": 1,
+      "why": { "en": "Doubling ten times reaches 1024, which is why a kilobyte of computer memory holds 1024 bytes instead of a round thousand.", "es": "Duplicar diez veces llega a 1024, y por eso un kilobyte de memoria guarda 1024 bytes en vez de mil exactos." },
+      "topic": "exponents",
+      "source": "https://www.mathsisfun.com/exponent.html"
+    },
+    {
+      "id": "math-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🟦",
+      "q": { "en": "What is the square root of 144?", "es": "¿Cuál es la raíz cuadrada de 144?" },
+      "choices": [
+        { "en": "14", "es": "14" },
+        { "en": "72", "es": "72" },
+        { "en": "12", "es": "12" },
+        { "en": "24", "es": "24" }
+      ],
+      "answer": 2,
+      "why": { "en": "Twelve times twelve is 144, so a square floor of 144 tiles measures 12 tiles along every side.", "es": "Doce por doce es 144, así que un piso cuadrado de 144 mosaicos mide 12 mosaicos por cada lado." },
+      "topic": "square roots",
+      "source": "https://www.mathsisfun.com/square-root.html"
+    },
+    {
+      "id": "math-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "1️⃣",
+      "q": { "en": "Any number raised to the power of zero gives which result?", "es": "Cualquier número elevado a la potencia cero da ¿qué resultado?" },
+      "choices": [
+        { "en": "0", "es": "0" },
+        { "en": "The number itself", "es": "El mismo número" },
+        { "en": "10", "es": "10" },
+        { "en": "1", "es": "1" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each step down in the exponent divides by the base, and one step below the first power always lands you on 1.", "es": "Cada paso hacia abajo en el exponente divide entre la base, y un paso debajo de la primera potencia siempre cae en 1." },
+      "topic": "exponents",
+      "source": "https://www.mathsisfun.com/algebra/exponent-laws.html"
+    },
+    {
+      "id": "math-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Which of these square roots gives decimals that run on forever with no repeating pattern?", "es": "¿Cuál de estas raíces cuadradas da decimales que siguen para siempre sin un patrón que se repita?" },
+      "choices": [
+        { "en": "The square root of 2", "es": "La raíz cuadrada de 2" },
+        { "en": "The square root of 16", "es": "La raíz cuadrada de 16" },
+        { "en": "The square root of 25", "es": "La raíz cuadrada de 25" },
+        { "en": "The square root of 81", "es": "La raíz cuadrada de 81" }
+      ],
+      "answer": 0,
+      "why": { "en": "The square root of 2 is irrational, meaning no fraction equals it; the discovery shocked the Greek followers of Pythagoras.", "es": "La raíz cuadrada de 2 es irracional, o sea que ninguna fracción la iguala; el hallazgo asombró a los seguidores griegos de Pitágoras." },
+      "topic": "square roots",
+      "source": "https://www.mathsisfun.com/irrational-numbers.html"
+    },
+    {
+      "id": "math-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔷",
+      "q": { "en": "What do the five inside angles of a pentagon add up to?", "es": "¿Cuánto suman los cinco ángulos internos de un pentágono?" },
+      "choices": [
+        { "en": "360°", "es": "360°" },
+        { "en": "540°", "es": "540°" },
+        { "en": "450°", "es": "450°" },
+        { "en": "720°", "es": "720°" }
+      ],
+      "answer": 1,
+      "why": { "en": "A pentagon splits into three triangles, and three times 180 gives 540; every extra side adds another 180 degrees.", "es": "Un pentágono se parte en tres triángulos, y tres por 180 da 540; cada lado extra agrega otros 180 grados." },
+      "topic": "polygon angles",
+      "source": "https://www.mathsisfun.com/geometry/interior-angles-polygons.html"
+    },
+    {
+      "id": "math-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍯",
+      "q": { "en": "How big is each inside angle of a regular hexagon, like a honeycomb cell?", "es": "¿Cuánto mide cada ángulo interno de un hexágono regular, como una celda de panal?" },
+      "choices": [
+        { "en": "60°", "es": "60°" },
+        { "en": "90°", "es": "90°" },
+        { "en": "120°", "es": "120°" },
+        { "en": "135°", "es": "135°" }
+      ],
+      "answer": 2,
+      "why": { "en": "A hexagon's angles total 720, so each of six equal corners is 120 degrees, and three of them meet neatly around a point.", "es": "Los ángulos de un hexágono suman 720, así que cada esquina mide 120 grados, y tres de ellas se juntan en un punto." },
+      "topic": "polygon angles",
+      "source": "https://www.mathsisfun.com/geometry/hexagon.html"
+    },
+    {
+      "id": "math-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Walk once around any polygon, turning at each corner. How much have you turned altogether?", "es": "Camina una vez alrededor de cualquier polígono, girando en cada esquina. ¿Cuánto giraste en total?" },
+      "choices": [
+        { "en": "180°", "es": "180°" },
+        { "en": "540°", "es": "540°" },
+        { "en": "It depends on the number of sides", "es": "Depende del número de lados" },
+        { "en": "360°", "es": "360°" }
+      ],
+      "answer": 3,
+      "why": { "en": "The outside angles of any polygon always total 360 degrees, because finishing the walk means you face your starting direction again.", "es": "Los ángulos externos de cualquier polígono suman siempre 360 grados, porque al terminar la vuelta miras otra vez hacia el inicio." },
+      "topic": "polygon angles",
+      "source": "https://www.mathsisfun.com/geometry/exterior-angles-polygons.html"
+    },
+    {
+      "id": "math-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛑",
+      "q": { "en": "What do the eight inside angles of an octagon add up to?", "es": "¿Cuánto suman los ocho ángulos internos de un octágono?" },
+      "choices": [
+        { "en": "1080°", "es": "1080°" },
+        { "en": "900°", "es": "900°" },
+        { "en": "1260°", "es": "1260°" },
+        { "en": "960°", "es": "960°" }
+      ],
+      "answer": 0,
+      "why": { "en": "Take the sides, subtract two, multiply by 180: six times 180 is 1080, so each corner of a regular octagon is 135 degrees.", "es": "Toma los lados, resta dos y multiplica por 180: seis por 180 es 1080, así que cada esquina de un octágono regular mide 135 grados." },
+      "topic": "polygon angles",
+      "source": "https://www.mathsisfun.com/geometry/interior-angles-polygons.html"
+    },
+    {
+      "id": "math-hard-021", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Pi is exactly equal to the fraction 22 over 7.", "es": "Pi es exactamente igual a la fracción 22 sobre 7." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "22/7 is a handy estimate that goes wrong at the third decimal; pi is irrational, so no fraction can ever match it.", "es": "22/7 es una estimación útil que falla en el tercer decimal; pi es irracional, así que ninguna fracción puede igualarlo jamás." },
+      "topic": "pi",
+      "source": "https://mathworld.wolfram.com/Pi.html"
+    },
+    {
+      "id": "math-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭕",
+      "q": { "en": "Divide any circle's distance around by its width through the middle. Which number do you always get?", "es": "Divide el contorno de cualquier círculo entre su ancho por el centro. ¿Qué número obtienes siempre?" },
+      "choices": [
+        { "en": "About 2", "es": "Cerca de 2" },
+        { "en": "About 1.62", "es": "Cerca de 1.62" },
+        { "en": "About 3.14", "es": "Cerca de 3.14" },
+        { "en": "About 6.28", "es": "Cerca de 6.28" }
+      ],
+      "answer": 2,
+      "why": { "en": "That ratio is pi, roughly 3.14, and it holds for a coin, a stadium or the equator of a planet alike.", "es": "Esa razón es pi, aproximadamente 3.14, y vale igual para una moneda, un estadio o el ecuador de un planeta." },
+      "topic": "pi",
+      "source": "https://www.mathsisfun.com/numbers/pi.html"
+    },
+    {
+      "id": "math-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍕",
+      "q": { "en": "A round pizza has a radius of 10 cm. About how many square centimeters is its area?", "es": "Una pizza redonda tiene un radio de 10 cm. ¿Cuántos centímetros cuadrados mide su área, más o menos?" },
+      "choices": [
+        { "en": "31 cm²", "es": "31 cm²" },
+        { "en": "63 cm²", "es": "63 cm²" },
+        { "en": "100 cm²", "es": "100 cm²" },
+        { "en": "314 cm²", "es": "314 cm²" }
+      ],
+      "answer": 3,
+      "why": { "en": "Area is pi times the radius squared, so 3.14 times 100 gives about 314; doubling a pizza's radius quadruples the food.", "es": "El área es pi por el radio al cuadrado, así que 3.14 por 100 da unos 314; duplicar el radio cuadruplica la comida." },
+      "topic": "circles",
+      "source": "https://www.mathsisfun.com/geometry/circle-area.html"
+    },
+    {
+      "id": "math-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "How many prime numbers are there below 20?", "es": "¿Cuántos números primos hay por debajo de 20?" },
+      "choices": [
+        { "en": "8", "es": "8" },
+        { "en": "9", "es": "9" },
+        { "en": "7", "es": "7" },
+        { "en": "10", "es": "10" }
+      ],
+      "answer": 0,
+      "why": { "en": "They are 2, 3, 5, 7, 11, 13, 17 and 19; primes thin out as numbers grow, yet the list runs on forever.", "es": "Son 2, 3, 5, 7, 11, 13, 17 y 19; los primos se vuelven escasos al crecer, pero la lista sigue para siempre." },
+      "topic": "prime numbers",
+      "source": "https://www.mathsisfun.com/prime_numbers.html"
+    },
+    {
+      "id": "math-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Which number is the only even prime in the whole of mathematics?", "es": "¿Cuál número es el único primo par en toda la matemática?" },
+      "choices": [
+        { "en": "0", "es": "0" },
+        { "en": "2", "es": "2" },
+        { "en": "4", "es": "4" },
+        { "en": "6", "es": "6" }
+      ],
+      "answer": 1,
+      "why": { "en": "Every other even number has 2 as a third factor, so 2 stands alone and mathematicians jokingly call it the oddest prime.", "es": "Todo otro número par tiene al 2 como tercer divisor, así que el 2 está solo y lo llaman en broma el primo más raro." },
+      "topic": "prime numbers",
+      "source": "https://www.britannica.com/science/prime-number"
+    },
+    {
+      "id": "math-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Which set of prime numbers multiplies together to make 60?", "es": "¿Qué conjunto de números primos se multiplica para dar 60?" },
+      "choices": [
+        { "en": "2 × 30", "es": "2 × 30" },
+        { "en": "3 × 4 × 5", "es": "3 × 4 × 5" },
+        { "en": "2 × 2 × 3 × 5", "es": "2 × 2 × 3 × 5" },
+        { "en": "6 × 10", "es": "6 × 10" }
+      ],
+      "answer": 2,
+      "why": { "en": "Every whole number breaks into one unique set of primes, its fingerprint; 60 gives two twos, a three and a five.", "es": "Todo número entero se descompone en un único conjunto de primos, su huella; 60 da dos doses, un tres y un cinco." },
+      "topic": "factors",
+      "source": "https://www.mathsisfun.com/prime-factorization.html"
+    },
+    {
+      "id": "math-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔍",
+      "q": { "en": "How many factors does the number 1 have, which is what keeps it off the prime list?", "es": "¿Cuántos divisores tiene el número 1, que es lo que lo deja fuera de la lista de primos?" },
+      "choices": [
+        { "en": "Three", "es": "Tres" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Zero", "es": "Cero" },
+        { "en": "One", "es": "Uno" }
+      ],
+      "answer": 3,
+      "why": { "en": "A prime needs exactly two factors, and 1 has only itself; counting 1 as prime would break the unique factor fingerprint.", "es": "Un primo necesita exactamente dos divisores, y el 1 solo se tiene a sí mismo; contarlo rompería la huella única de factores." },
+      "topic": "factors",
+      "source": "https://mathworld.wolfram.com/PrimeNumber.html"
+    },
+    {
+      "id": "math-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "📊",
+      "q": { "en": "What is the mean of 4, 8, 15, 16, 23 and 42?", "es": "¿Cuál es la media de 4, 8, 15, 16, 23 y 42?" },
+      "choices": [
+        { "en": "18", "es": "18" },
+        { "en": "15.5", "es": "15.5" },
+        { "en": "16", "es": "16" },
+        { "en": "21", "es": "21" }
+      ],
+      "answer": 0,
+      "why": { "en": "The six numbers total 108, and 108 shared among six gives 18; a mean is just fair sharing of the whole pile.", "es": "Los seis números suman 108, y 108 repartido entre seis da 18; la media es solo un reparto justo de todo el montón." },
+      "topic": "averages",
+      "source": "https://www.mathsisfun.com/mean.html"
+    },
+    {
+      "id": "math-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Five houses sell for 2, 3, 4, 5 and 100 thousand pesos. What is the median price?", "es": "Cinco casas se venden en 2, 3, 4, 5 y 100 mil pesos. ¿Cuál es el precio mediano?" },
+      "choices": [
+        { "en": "22.8 thousand", "es": "22.8 mil" },
+        { "en": "4 thousand", "es": "4 mil" },
+        { "en": "5 thousand", "es": "5 mil" },
+        { "en": "100 thousand", "es": "100 mil" }
+      ],
+      "answer": 1,
+      "why": { "en": "The median is the middle value once sorted, so one giant price barely moves it while the mean jumps to almost 23.", "es": "La mediana es el valor central una vez ordenados, así que un precio enorme casi ni la mueve, pero la media salta a casi 23." },
+      "topic": "averages",
+      "source": "https://www.mathsisfun.com/median.html"
+    },
+    {
+      "id": "math-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "What is the range of this set: 12, 7, 23, 4 and 19?", "es": "¿Cuál es el rango de este conjunto: 12, 7, 23, 4 y 19?" },
+      "choices": [
+        { "en": "13", "es": "13" },
+        { "en": "12", "es": "12" },
+        { "en": "19", "es": "19" },
+        { "en": "23", "es": "23" }
+      ],
+      "answer": 2,
+      "why": { "en": "Range means largest minus smallest, so 23 take away 4 gives 19; it measures spread rather than a typical middle value.", "es": "El rango es el mayor menos el menor, así que 23 menos 4 da 19; mide la dispersión, no el valor típico del centro." },
+      "topic": "averages",
+      "source": "https://www.mathsisfun.com/definitions/range-statistics-.html"
+    },
+    {
+      "id": "math-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎯",
+      "q": { "en": "Which value is the mode of this list: 5, 3, 5, 7, 9 and 5?", "es": "¿Cuál valor es la moda de esta lista: 5, 3, 5, 7, 9 y 5?" },
+      "choices": [
+        { "en": "3", "es": "3" },
+        { "en": "7", "es": "7" },
+        { "en": "9", "es": "9" },
+        { "en": "5", "es": "5" }
+      ],
+      "answer": 3,
+      "why": { "en": "The mode is the value that appears most often, here 5 three times; shoe shops use it to decide which size to stock.", "es": "La moda es el valor que más se repite, aquí el 5 tres veces; las zapaterías la usan para decidir qué talla surtir." },
+      "topic": "averages",
+      "source": "https://www.mathsisfun.com/mode.html"
+    },
+    {
+      "id": "math-hard-032", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A list of numbers can have two different modes at the same time.", "es": "Una lista de números puede tener dos modas distintas al mismo tiempo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "If two values tie for most frequent the set is called bimodal, and a set where nothing repeats simply has no mode.", "es": "Si dos valores empatan como los más frecuentes, el conjunto se llama bimodal, y si nada se repite, sencillamente no hay moda." },
+      "topic": "averages",
+      "source": "https://www.mathsisfun.com/mode.html"
+    },
+    {
+      "id": "math-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "Using the order of operations, what does 2 + 3 × 4 equal?", "es": "Usando el orden de las operaciones, ¿cuánto vale 2 + 3 × 4?" },
+      "choices": [
+        { "en": "20", "es": "20" },
+        { "en": "14", "es": "14" },
+        { "en": "24", "es": "24" },
+        { "en": "9", "es": "9" }
+      ],
+      "answer": 1,
+      "why": { "en": "Multiplication runs before addition, giving 12 plus 2, which is 14; the rule exists so everyone reading a formula agrees.", "es": "La multiplicación va antes que la suma, dando 12 más 2, o sea 14; la regla existe para que todos lean igual una fórmula." },
+      "topic": "order of operations",
+      "source": "https://www.mathsisfun.com/operation-order-pemdas.html"
+    },
+    {
+      "id": "math-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "➗",
+      "q": { "en": "What does 8 ÷ 2 × (2 + 2) equal?", "es": "¿Cuánto vale 8 ÷ 2 × (2 + 2)?" },
+      "choices": [
+        { "en": "1", "es": "1" },
+        { "en": "4", "es": "4" },
+        { "en": "16", "es": "16" },
+        { "en": "64", "es": "64" }
+      ],
+      "answer": 2,
+      "why": { "en": "Brackets first give 4, then division and multiplication rank equally and run left to right: 8 divided by 2 is 4, times 4 is 16.", "es": "Los paréntesis dan 4; luego división y multiplicación valen igual y van de izquierda a derecha: 8 entre 2 es 4, por 4 es 16." },
+      "topic": "order of operations",
+      "source": "https://www.mathsisfun.com/operation-order-pemdas.html"
+    },
+    {
+      "id": "math-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "✖️",
+      "q": { "en": "What does 20 - 4² ÷ 8 equal?", "es": "¿Cuánto vale 20 - 4² ÷ 8?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "32", "es": "32" },
+        { "en": "12", "es": "12" },
+        { "en": "18", "es": "18" }
+      ],
+      "answer": 3,
+      "why": { "en": "Powers come first, so 4² is 16, then 16 divided by 8 is 2, and 20 minus 2 leaves 18.", "es": "Las potencias van primero, así que 4² es 16, luego 16 entre 8 es 2, y 20 menos 2 deja 18." },
+      "topic": "order of operations",
+      "source": "https://www.mathsisfun.com/operation-order-pemdas.html"
+    },
+    {
+      "id": "math-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌻",
+      "q": { "en": "The Fibonacci sequence runs 1, 1, 2, 3, 5, 8, 13, 21, 34. Which number comes next?", "es": "La sucesión de Fibonacci va 1, 1, 2, 3, 5, 8, 13, 21, 34. ¿Qué número sigue?" },
+      "choices": [
+        { "en": "55", "es": "55" },
+        { "en": "47", "es": "47" },
+        { "en": "68", "es": "68" },
+        { "en": "51", "es": "51" }
+      ],
+      "answer": 0,
+      "why": { "en": "Add 21 and 34 to get 55; a sunflower head usually holds 34 spirals one way and 55 the other.", "es": "Suma 21 y 34 para obtener 55; la cabeza de un girasol suele tener 34 espirales en un sentido y 55 en el otro." },
+      "topic": "fibonacci",
+      "source": "https://www.mathsisfun.com/numbers/fibonacci-sequence.html"
+    },
+    {
+      "id": "math-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Divide any large Fibonacci number by the one before it. Which value does the answer settle near?", "es": "Divide cualquier número grande de Fibonacci entre el anterior. ¿A qué valor se acerca el resultado?" },
+      "choices": [
+        { "en": "About 1.414", "es": "Cerca de 1.414" },
+        { "en": "About 1.618", "es": "Cerca de 1.618" },
+        { "en": "About 2.718", "es": "Cerca de 2.718" },
+        { "en": "About 3.142", "es": "Cerca de 3.142" }
+      ],
+      "answer": 1,
+      "why": { "en": "The ratio closes in on 1.618, the golden ratio, which artists and architects have used for centuries to shape pleasing rectangles.", "es": "La razón se acerca a 1.618, la proporción áurea, que artistas y arquitectos han usado por siglos para formar rectángulos agradables." },
+      "topic": "golden ratio",
+      "source": "https://www.mathsisfun.com/numbers/golden-ratio.html"
+    },
+    {
+      "id": "math-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Which Greek letter is used as the symbol for the golden ratio?", "es": "¿Qué letra griega se usa como símbolo de la proporción áurea?" },
+      "choices": [
+        { "en": "Pi", "es": "Pi" },
+        { "en": "Sigma", "es": "Sigma" },
+        { "en": "Phi", "es": "Fi" },
+        { "en": "Delta", "es": "Delta" }
+      ],
+      "answer": 2,
+      "why": { "en": "Phi honours Phidias, a Greek sculptor whose work on the Parthenon is often measured against the golden ratio by later writers.", "es": "Fi honra a Fidias, escultor griego cuyo trabajo en el Partenón muchos escritores posteriores midieron según la proporción áurea." },
+      "topic": "golden ratio",
+      "source": "https://mathworld.wolfram.com/GoldenRatio.html"
+    },
+    {
+      "id": "math-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "You roll two dice and add them. Which total turns up most often?", "es": "Lanzas dos dados y los sumas. ¿Qué total aparece con más frecuencia?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "12", "es": "12" },
+        { "en": "10", "es": "10" },
+        { "en": "7", "es": "7" }
+      ],
+      "answer": 3,
+      "why": { "en": "Six of the 36 pairings add to 7, more than any other total, while 2 and 12 each have just one pairing.", "es": "Seis de las 36 combinaciones suman 7, más que cualquier otro total, mientras que 2 y 12 tienen solo una combinación cada uno." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability-events-types.html"
+    },
+    {
+      "id": "math-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "What is the chance of rolling a six on one die and then a six again?", "es": "¿Cuál es la probabilidad de sacar un seis en un dado y luego otro seis?" },
+      "choices": [
+        { "en": "1 in 36", "es": "1 en 36" },
+        { "en": "1 in 12", "es": "1 en 12" },
+        { "en": "1 in 6", "es": "1 en 6" },
+        { "en": "1 in 18", "es": "1 en 18" }
+      ],
+      "answer": 0,
+      "why": { "en": "Independent chances multiply, so one sixth times one sixth is one thirty-sixth; the die has no memory of the first roll.", "es": "Las probabilidades independientes se multiplican, así que un sexto por un sexto es un treintaiseisavo; el dado no recuerda el primer lanzamiento." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability-events-independent.html"
+    },
+    {
+      "id": "math-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🃏",
+      "q": { "en": "From a full deck of 52 cards, what is the chance of drawing a heart?", "es": "De una baraja completa de 52 cartas, ¿cuál es la probabilidad de sacar un corazón?" },
+      "choices": [
+        { "en": "1 in 13", "es": "1 en 13" },
+        { "en": "1 in 4", "es": "1 en 4" },
+        { "en": "1 in 2", "es": "1 en 2" },
+        { "en": "1 in 52", "es": "1 en 52" }
+      ],
+      "answer": 1,
+      "why": { "en": "There are 13 hearts among 52 cards, and 13 divided by 52 is one quarter, since the deck holds four equal suits.", "es": "Hay 13 corazones entre 52 cartas, y 13 entre 52 es un cuarto, porque la baraja tiene cuatro palos iguales." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "math-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "In the Monty Hall puzzle a host opens an empty door. How often does switching win the prize?", "es": "En el juego de Monty Hall el anfitrión abre una puerta vacía. ¿Qué tan seguido gana el premio cambiar de puerta?" },
+      "choices": [
+        { "en": "Half the time", "es": "La mitad de las veces" },
+        { "en": "One third of the time", "es": "Un tercio de las veces" },
+        { "en": "Two thirds of the time", "es": "Dos tercios de las veces" },
+        { "en": "Always", "es": "Siempre" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your first pick wins one time in three, so the other two thirds pile onto the remaining door once the host reveals a goat.", "es": "Tu primera puerta gana una de cada tres veces, así que los otros dos tercios se acumulan en la puerta que queda." },
+      "topic": "probability",
+      "source": "https://mathworld.wolfram.com/MontyHallProblem.html"
+    },
+    {
+      "id": "math-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "How many people must gather before two of them probably share a birthday?", "es": "¿Cuántas personas deben juntarse para que probablemente dos compartan cumpleaños?" },
+      "choices": [
+        { "en": "183 people", "es": "183 personas" },
+        { "en": "70 people", "es": "70 personas" },
+        { "en": "50 people", "es": "50 personas" },
+        { "en": "23 people", "es": "23 personas" }
+      ],
+      "answer": 3,
+      "why": { "en": "With 23 people there are 253 possible pairs, so the odds pass half; this surprise is called the birthday paradox.", "es": "Con 23 personas hay 253 parejas posibles, así que la probabilidad pasa la mitad; a esta sorpresa la llaman la paradoja del cumpleaños." },
+      "topic": "probability",
+      "source": "https://mathworld.wolfram.com/BirthdayProblem.html"
+    },
+    {
+      "id": "math-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🃏",
+      "q": { "en": "What is the chance that one card drawn from 52 is an ace?", "es": "¿Cuál es la probabilidad de que una carta sacada de 52 sea un as?" },
+      "choices": [
+        { "en": "1 in 13", "es": "1 en 13" },
+        { "en": "1 in 4", "es": "1 en 4" },
+        { "en": "1 in 52", "es": "1 en 52" },
+        { "en": "1 in 26", "es": "1 en 26" }
+      ],
+      "answer": 0,
+      "why": { "en": "Four aces among 52 cards give 4 divided by 52, which simplifies to one in 13, the same odds as any chosen rank.", "es": "Cuatro ases entre 52 cartas dan 4 entre 52, que se simplifica a uno en 13, la misma probabilidad que cualquier otro valor." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "math-hard-045", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A fair coin that has landed heads five times in a row is more likely to land tails next.", "es": "Una moneda justa que cayó cara cinco veces seguidas tiene más probabilidad de caer cruz la próxima vez." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each toss stays an even 50-50 because the coin remembers nothing; believing otherwise is known as the gambler's fallacy.", "es": "Cada lanzamiento sigue siendo 50-50 porque la moneda nada recuerda; creer lo contrario se llama la falacia del jugador." },
+      "topic": "probability",
+      "source": "https://www.britannica.com/topic/gamblers-fallacy"
+    },
+    {
+      "id": "math-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "Light travels about 3 × 10⁸ metres each second. Written out, how many metres is that?", "es": "La luz viaja unos 3 × 10⁸ metros por segundo. Escrito completo, ¿cuántos metros son?" },
+      "choices": [
+        { "en": "3 thousand", "es": "3 mil" },
+        { "en": "3 million", "es": "3 millones" },
+        { "en": "300 million", "es": "300 millones" },
+        { "en": "3 billion", "es": "3 mil millones" }
+      ],
+      "answer": 2,
+      "why": { "en": "The exponent 8 shifts the decimal point eight places right, giving 300 million metres, enough to circle Earth seven times a second.", "es": "El exponente 8 corre el punto decimal ocho lugares a la derecha: 300 millones de metros, suficiente para rodear la Tierra siete veces." },
+      "topic": "scientific notation",
+      "source": "https://www.mathsisfun.com/numbers/scientific-notation.html"
+    },
+    {
+      "id": "math-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Written in scientific notation, 0.00042 is 4.2 times ten to which power?", "es": "Escrito en notación científica, 0.00042 es 4.2 por diez elevado a ¿qué potencia?" },
+      "choices": [
+        { "en": "Negative three", "es": "Menos tres" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Negative four", "es": "Menos cuatro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Moving the point four places right makes the exponent negative four; negative powers of ten shrink a number instead of stretching it.", "es": "Mover el punto cuatro lugares a la derecha hace el exponente menos cuatro; las potencias negativas encogen el número en vez de agrandarlo." },
+      "topic": "scientific notation",
+      "source": "https://www.mathsisfun.com/numbers/scientific-notation.html"
+    },
+    {
+      "id": "math-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What ordinary number does 5.6 × 10³ stand for?", "es": "¿Qué número común representa 5.6 × 10³?" },
+      "choices": [
+        { "en": "5600", "es": "5600" },
+        { "en": "560", "es": "560" },
+        { "en": "56000", "es": "56000" },
+        { "en": "5.6", "es": "5.6" }
+      ],
+      "answer": 0,
+      "why": { "en": "Multiplying by 10³ shifts the digits three places, giving 5600; scientists use this shorthand so huge figures fit on one line.", "es": "Multiplicar por 10³ corre los dígitos tres lugares y da 5600; los científicos usan esta forma corta para que quepan cifras enormes." },
+      "topic": "scientific notation",
+      "source": "https://www.mathsisfun.com/numbers/scientific-notation.html"
+    },
+    {
+      "id": "math-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥞",
+      "q": { "en": "A recipe mixes 2 cups of flour with 3 cups of milk. How much milk for 6 cups of flour?", "es": "Una receta mezcla 2 tazas de harina con 3 tazas de leche. ¿Cuánta leche para 6 tazas de harina?" },
+      "choices": [
+        { "en": "7 cups", "es": "7 tazas" },
+        { "en": "9 cups", "es": "9 tazas" },
+        { "en": "6 cups", "es": "6 tazas" },
+        { "en": "12 cups", "es": "12 tazas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tripling the flour triples the milk, so 3 becomes 9; a ratio holds only when both parts grow by the same factor.", "es": "Triplicar la harina triplica la leche, así que 3 se vuelve 9; una razón se mantiene solo si ambas partes crecen igual." },
+      "topic": "ratios",
+      "source": "https://www.mathsisfun.com/numbers/ratio.html"
+    },
+    {
+      "id": "math-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Forty sweets are shared in the ratio 3 to 5. How many are in the smaller share?", "es": "Cuarenta dulces se reparten en razón de 3 a 5. ¿Cuántos hay en la parte menor?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "20", "es": "20" },
+        { "en": "15", "es": "15" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 2,
+      "why": { "en": "The ratio makes 8 equal parts, so each part is 5 sweets and three parts give 15, leaving 25 for the other share.", "es": "La razón forma 8 partes iguales, así que cada parte son 5 dulces y tres partes dan 15, dejando 25 para la otra parte." },
+      "topic": "ratios",
+      "source": "https://www.mathsisfun.com/numbers/ratio.html"
+    },
+    {
+      "id": "math-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "A map scale says 1 cm stands for 1 km. Two towns sit 4 cm apart. How far is that?", "es": "Un mapa dice que 1 cm representa 1 km. Dos pueblos están a 4 cm. ¿Qué distancia real hay?" },
+      "choices": [
+        { "en": "400 metres", "es": "400 metros" },
+        { "en": "40 km", "es": "40 km" },
+        { "en": "1 km", "es": "1 km" },
+        { "en": "4 km", "es": "4 km" }
+      ],
+      "answer": 3,
+      "why": { "en": "Scale is a ratio, so 4 cm means 4 km; that same map would print a 100 km journey as one metre of paper.", "es": "La escala es una razón, así que 4 cm son 4 km; ese mapa imprimiría un viaje de 100 km como un metro de papel." },
+      "topic": "proportions",
+      "source": "https://www.mathsisfun.com/definitions/scale.html"
+    },
+    {
+      "id": "math-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "A car covers 150 km in 2 hours. What is its average speed?", "es": "Un carro recorre 150 km en 2 horas. ¿Cuál es su velocidad promedio?" },
+      "choices": [
+        { "en": "75 km/h", "es": "75 km/h" },
+        { "en": "50 km/h", "es": "50 km/h" },
+        { "en": "300 km/h", "es": "300 km/h" },
+        { "en": "152 km/h", "es": "152 km/h" }
+      ],
+      "answer": 0,
+      "why": { "en": "Speed is distance divided by time, so 150 divided by 2 is 75; average speed hides every stop and burst along the way.", "es": "La velocidad es distancia entre tiempo, así que 150 entre 2 es 75; el promedio esconde cada parada y cada acelerón del camino." },
+      "topic": "speed and time",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "math-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚌",
+      "q": { "en": "A bus drives 240 km at a steady 80 km/h. How long does the trip take?", "es": "Un autobús recorre 240 km a 80 km/h constantes. ¿Cuánto dura el viaje?" },
+      "choices": [
+        { "en": "2 hours", "es": "2 horas" },
+        { "en": "3 hours", "es": "3 horas" },
+        { "en": "4 hours", "es": "4 horas" },
+        { "en": "3.5 hours", "es": "3.5 horas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Time equals distance divided by speed, so 240 over 80 gives 3 hours; the same triangle of letters solves all three unknowns.", "es": "El tiempo es la distancia entre la velocidad, así que 240 entre 80 da 3 horas; ese triángulo de letras resuelve las tres incógnitas." },
+      "topic": "speed and time",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "math-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "A cyclist holds 60 km/h for 45 minutes. How far does she travel?", "es": "Una ciclista mantiene 60 km/h durante 45 minutos. ¿Qué distancia recorre?" },
+      "choices": [
+        { "en": "60 km", "es": "60 km" },
+        { "en": "30 km", "es": "30 km" },
+        { "en": "45 km", "es": "45 km" },
+        { "en": "15 km", "es": "15 km" }
+      ],
+      "answer": 2,
+      "why": { "en": "Forty-five minutes is three quarters of an hour, and three quarters of 60 is 45; units must match before you multiply.", "es": "Cuarenta y cinco minutos son tres cuartos de hora, y tres cuartos de 60 son 45; las unidades deben coincidir antes de multiplicar." },
+      "topic": "speed and time",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "math-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "A sprinter runs 100 metres in 10 seconds. What is her average speed?", "es": "Una velocista corre 100 metros en 10 segundos. ¿Cuál es su velocidad promedio?" },
+      "choices": [
+        { "en": "1 m/s", "es": "1 m/s" },
+        { "en": "36 m/s", "es": "36 m/s" },
+        { "en": "100 m/s", "es": "100 m/s" },
+        { "en": "10 m/s", "es": "10 m/s" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ten metres per second equals 36 km/h, about the speed of city traffic, which is why sprinters keep pace with slow cars.", "es": "Diez metros por segundo equivalen a 36 km/h, casi la velocidad del tránsito urbano, por eso los velocistas siguen a los carros lentos." },
+      "topic": "speed and time",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "math-hard-056", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Doubling the side of a square makes its area four times as big.", "es": "Duplicar el lado de un cuadrado hace que su área sea cuatro veces mayor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both length and width double, so area grows by two times two; the same rule makes a doubled pizza feed four people.", "es": "El largo y el ancho se duplican, así que el área crece dos por dos; una pizza del doble de ancho alcanza para cuatro." },
+      "topic": "area and volume",
+      "source": "https://www.mathsisfun.com/geometry/area.html"
+    },
+    {
+      "id": "math-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "A cube measures 3 cm along every edge. What is its volume?", "es": "Un cubo mide 3 cm en cada arista. ¿Cuál es su volumen?" },
+      "choices": [
+        { "en": "9 cm³", "es": "9 cm³" },
+        { "en": "27 cm³", "es": "27 cm³" },
+        { "en": "12 cm³", "es": "12 cm³" },
+        { "en": "54 cm³", "es": "54 cm³" }
+      ],
+      "answer": 1,
+      "why": { "en": "Volume multiplies three edges, so 3 × 3 × 3 is 27; the 54 answer is the surface area of its six faces.", "es": "El volumen multiplica tres aristas, así que 3 × 3 × 3 es 27; la respuesta 54 es el área de sus seis caras." },
+      "topic": "area and volume",
+      "source": "https://www.mathsisfun.com/cube.html"
+    },
+    {
+      "id": "math-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "A triangle has a base of 10 cm and a height of 6 cm. What is its area?", "es": "Un triángulo tiene una base de 10 cm y una altura de 6 cm. ¿Cuál es su área?" },
+      "choices": [
+        { "en": "60 cm²", "es": "60 cm²" },
+        { "en": "16 cm²", "es": "16 cm²" },
+        { "en": "30 cm²", "es": "30 cm²" },
+        { "en": "15 cm²", "es": "15 cm²" }
+      ],
+      "answer": 2,
+      "why": { "en": "A triangle fills half its surrounding rectangle, so base times height divided by two gives 30 square centimetres every time.", "es": "Un triángulo llena la mitad del rectángulo que lo rodea, así que base por altura entre dos da 30 centímetros cuadrados siempre." },
+      "topic": "area and volume",
+      "source": "https://www.mathsisfun.com/triangle.html"
+    },
+    {
+      "id": "math-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "A cylinder has a radius of 2 cm and a height of 10 cm. About what is its volume?", "es": "Un cilindro tiene 2 cm de radio y 10 cm de altura. ¿Cuál es su volumen aproximado?" },
+      "choices": [
+        { "en": "40 cm³", "es": "40 cm³" },
+        { "en": "63 cm³", "es": "63 cm³" },
+        { "en": "251 cm³", "es": "251 cm³" },
+        { "en": "126 cm³", "es": "126 cm³" }
+      ],
+      "answer": 3,
+      "why": { "en": "Take the circular area, 3.14 times 4, and stack it 10 cm high to reach about 126 cubic centimetres of drink.", "es": "Toma el área del círculo, 3.14 por 4, y apílala 10 cm de alto para llegar a unos 126 centímetros cúbicos de bebida." },
+      "topic": "area and volume",
+      "source": "https://www.mathsisfun.com/geometry/cylinder.html"
+    },
+    {
+      "id": "math-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "A triangle has sides of 3, 4 and 5 units. What makes this triangle special?", "es": "Un triángulo tiene lados de 3, 4 y 5 unidades. ¿Qué hace especial a este triángulo?" },
+      "choices": [
+        { "en": "It contains a right angle", "es": "Tiene un ángulo recto" },
+        { "en": "All three sides are equal", "es": "Sus tres lados son iguales" },
+        { "en": "Its angles add to 200°", "es": "Sus ángulos suman 200°" },
+        { "en": "It has no area at all", "es": "Carece de área" }
+      ],
+      "answer": 0,
+      "why": { "en": "Since 9 plus 16 equals 25, the sides obey Pythagoras; builders still knot ropes at 3, 4 and 5 to square corners.", "es": "Como 9 más 16 es 25, los lados cumplen con Pitágoras; los albañiles aún hacen nudos en 3, 4 y 5 para cuadrar esquinas." },
+      "topic": "pythagoras",
+      "source": "https://www.mathsisfun.com/pythagoras.html"
+    },
+    {
+      "id": "math-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪜",
+      "q": { "en": "A right triangle has short sides of 6 and 8. How long is the longest side?", "es": "Un triángulo rectángulo tiene catetos de 6 y 8. ¿Cuánto mide el lado más largo?" },
+      "choices": [
+        { "en": "14", "es": "14" },
+        { "en": "10", "es": "10" },
+        { "en": "12", "es": "12" },
+        { "en": "48", "es": "48" }
+      ],
+      "answer": 1,
+      "why": { "en": "Squares of 6 and 8 add to 100, whose square root is 10; this triangle is just a 3-4-5 doubled in size.", "es": "Los cuadrados de 6 y 8 suman 100, cuya raíz cuadrada es 10; este triángulo es solo un 3-4-5 del doble de tamaño." },
+      "topic": "pythagoras",
+      "source": "https://www.mathsisfun.com/pythagoras.html"
+    },
+    {
+      "id": "math-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which third side turns short sides of 5 and 12 into a right triangle?", "es": "¿Qué tercer lado convierte catetos de 5 y 12 en un triángulo rectángulo?" },
+      "choices": [
+        { "en": "17", "es": "17" },
+        { "en": "15", "es": "15" },
+        { "en": "13", "es": "13" },
+        { "en": "11", "es": "11" }
+      ],
+      "answer": 2,
+      "why": { "en": "Twenty-five plus 144 is 169, and 13 squared is 169, so 5-12-13 joins 3-4-5 among the whole-number Pythagorean triples.", "es": "Veinticinco más 144 es 169, y 13 al cuadrado es 169, así que 5-12-13 acompaña al 3-4-5 entre los tríos pitagóricos enteros." },
+      "topic": "pythagoras",
+      "source": "https://www.mathsisfun.com/pythagorean_triples.html"
+    },
+    {
+      "id": "math-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "On a coordinate grid, in which quadrant does the point (3, -2) sit?", "es": "En un plano de coordenadas, ¿en qué cuadrante queda el punto (3, -2)?" },
+      "choices": [
+        { "en": "The first", "es": "El primero" },
+        { "en": "The second", "es": "El segundo" },
+        { "en": "The third", "es": "El tercero" },
+        { "en": "The fourth", "es": "El cuarto" }
+      ],
+      "answer": 3,
+      "why": { "en": "Right and down means positive x with negative y, the fourth quadrant; quadrants are numbered anticlockwise starting from the top right.", "es": "Derecha y abajo significa x positiva con y negativa, el cuarto cuadrante; los cuadrantes se numeran en sentido antihorario desde arriba a la derecha." },
+      "topic": "coordinates",
+      "source": "https://www.mathsisfun.com/data/cartesian-coordinates.html"
+    },
+    {
+      "id": "math-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "📈",
+      "q": { "en": "A ramp rises 3 metres for every 6 metres travelled along the ground. What is its slope?", "es": "Una rampa sube 3 metros por cada 6 metros de avance horizontal. ¿Cuál es su pendiente?" },
+      "choices": [
+        { "en": "0.5", "es": "0.5" },
+        { "en": "2", "es": "2" },
+        { "en": "3", "es": "3" },
+        { "en": "18", "es": "18" }
+      ],
+      "answer": 0,
+      "why": { "en": "Slope is rise divided by run, so 3 over 6 is 0.5; wheelchair ramps are usually built far gentler than that.", "es": "La pendiente es la subida entre el avance: 3 entre 6 es 0.5; las rampas para sillas de ruedas se hacen mucho más suaves." },
+      "topic": "slope",
+      "source": "https://www.mathsisfun.com/gradient.html"
+    },
+    {
+      "id": "math-hard-065", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A perfectly vertical line on a graph has a slope of zero.", "es": "Una línea perfectamente vertical en una gráfica tiene pendiente cero." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A flat horizontal line has slope zero; a vertical line divides by a run of zero, so its slope is undefined.", "es": "Una línea horizontal plana tiene pendiente cero; una vertical divide entre un avance de cero, así que su pendiente queda indefinida." },
+      "topic": "slope",
+      "source": "https://www.mathsisfun.com/gradient.html"
+    },
+    {
+      "id": "math-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "Solve for x: 3x + 7 = 22.", "es": "Resuelve para x: 3x + 7 = 22." },
+      "choices": [
+        { "en": "x = 3", "es": "x = 3" },
+        { "en": "x = 9", "es": "x = 9" },
+        { "en": "x = 5", "es": "x = 5" },
+        { "en": "x = 7", "es": "x = 7" }
+      ],
+      "answer": 2,
+      "why": { "en": "Take 7 from both sides to leave 3x equal to 15, then share by 3; an equation stays balanced when both sides change alike.", "es": "Quita 7 de ambos lados, deja 3x igual a 15 y divide entre 3; la ecuación sigue en equilibrio si ambos lados cambian igual." },
+      "topic": "algebra",
+      "source": "https://www.mathsisfun.com/algebra/introduction.html"
+    },
+    {
+      "id": "math-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔤",
+      "q": { "en": "Solve for x: 2(x - 4) = 10.", "es": "Resuelve para x: 2(x - 4) = 10." },
+      "choices": [
+        { "en": "x = 1", "es": "x = 1" },
+        { "en": "x = 7", "es": "x = 7" },
+        { "en": "x = 3", "es": "x = 3" },
+        { "en": "x = 9", "es": "x = 9" }
+      ],
+      "answer": 3,
+      "why": { "en": "Divide both sides by 2 to get x minus 4 equals 5, so x is 9; check by putting 9 back into the bracket.", "es": "Divide ambos lados entre 2 para obtener x menos 4 igual a 5, así que x es 9; comprueba metiendo el 9 en el paréntesis." },
+      "topic": "algebra",
+      "source": "https://www.mathsisfun.com/algebra/introduction.html"
+    },
+    {
+      "id": "math-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "Which number comes next in this pattern: 2, 6, 12, 20, 30?", "es": "¿Qué número sigue en este patrón: 2, 6, 12, 20, 30?" },
+      "choices": [
+        { "en": "42", "es": "42" },
+        { "en": "40", "es": "40" },
+        { "en": "36", "es": "36" },
+        { "en": "45", "es": "45" }
+      ],
+      "answer": 0,
+      "why": { "en": "The gaps grow 4, 6, 8, 10, then 12, giving 42; these are rectangle numbers, each one being a number times the next.", "es": "Las diferencias crecen 4, 6, 8, 10 y luego 12, dando 42; son números rectangulares, cada uno es un número por el siguiente." },
+      "topic": "sequences",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "math-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "Which is larger, a googol or the number of atoms in the observable universe?", "es": "¿Qué es mayor, un googol o la cantidad de átomos del universo observable?" },
+      "choices": [
+        { "en": "A googol", "es": "Un googol" },
+        { "en": "The number of atoms", "es": "La cantidad de átomos" },
+        { "en": "They are equal", "es": "Son iguales" },
+        { "en": "A googol is half as big", "es": "Un googol es la mitad" }
+      ],
+      "answer": 0,
+      "why": { "en": "Astronomers estimate about 10⁸⁰ atoms, so a googol beats the whole universe; a nine-year-old boy invented the name in 1920.", "es": "Los astrónomos estiman unos 10⁸⁰ átomos, así que un googol supera al universo entero; un niño de nueve años inventó ese nombre." },
+      "topic": "large numbers",
+      "source": "https://www.britannica.com/science/googol"
+    },
+    {
+      "id": "math-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "♾️",
+      "q": { "en": "A googolplex is a 1 followed by how many zeros?", "es": "Un googolplex es un 1 seguido de ¿cuántos ceros?" },
+      "choices": [
+        { "en": "A thousand zeros", "es": "Mil ceros" },
+        { "en": "A googol zeros", "es": "Un googol de ceros" },
+        { "en": "A million zeros", "es": "Un millón de ceros" },
+        { "en": "Two hundred zeros", "es": "Doscientos ceros" }
+      ],
+      "answer": 1,
+      "why": { "en": "Writing a googolplex out would need more paper than the universe can hold, even with one zero per atom of space.", "es": "Escribir un googolplex completo necesitaría más papel del que cabe en el universo, aun poniendo un cero por cada átomo." },
+      "topic": "large numbers",
+      "source": "https://mathworld.wolfram.com/Googolplex.html"
+    },
+    {
+      "id": "math-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "A billion seconds is about how long?", "es": "Mil millones de segundos son aproximadamente ¿cuánto tiempo?" },
+      "choices": [
+        { "en": "About 12 days", "es": "Unos 12 días" },
+        { "en": "About 3 years", "es": "Unos 3 años" },
+        { "en": "About 32 years", "es": "Unos 32 años" },
+        { "en": "About 300 years", "es": "Unos 300 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "A million seconds passes in under 12 days, but a billion takes almost 32 years, which shows how far apart those words sit.", "es": "Un millón de segundos pasa en menos de 12 días, pero mil millones tardan casi 32 años, lo que muestra la enorme diferencia." },
+      "topic": "large numbers",
+      "source": "https://www.mathsisfun.com/numbers/million-billion-trillion.html"
+    },
+    {
+      "id": "math-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "💻",
+      "q": { "en": "What is the binary number 1011 worth in our everyday digits?", "es": "¿Cuánto vale el número binario 1011 en nuestros dígitos de todos los días?" },
+      "choices": [
+        { "en": "3", "es": "3" },
+        { "en": "1011", "es": "1011" },
+        { "en": "7", "es": "7" },
+        { "en": "11", "es": "11" }
+      ],
+      "answer": 3,
+      "why": { "en": "The places are worth 8, 4, 2 and 1, so 8 plus 2 plus 1 gives 11; binary uses only the digits 0 and 1.", "es": "Las posiciones valen 8, 4, 2 y 1, así que 8 más 2 más 1 da 11; el binario usa solo 0 y 1." },
+      "topic": "binary",
+      "source": "https://www.mathsisfun.com/binary-number-system.html"
+    },
+    {
+      "id": "math-hard-073", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Computers count in binary because an electrical switch has two easy states, on and off.", "es": "Las computadoras cuentan en binario porque un interruptor eléctrico tiene dos estados fáciles, encendido y apagado." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two states are easy to tell apart even with noisy electricity, so binary keeps mistakes rare inside a fast machine.", "es": "Dos estados son fáciles de distinguir aun con electricidad ruidosa, así que el binario mantiene raros los errores dentro de una máquina veloz." },
+      "topic": "binary",
+      "source": "https://www.britannica.com/technology/binary-code"
+    },
+    {
+      "id": "math-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔌",
+      "q": { "en": "How is the number 8 written in binary?", "es": "¿Cómo se escribe el número 8 en binario?" },
+      "choices": [
+        { "en": "111", "es": "111" },
+        { "en": "1000", "es": "1000" },
+        { "en": "10", "es": "10" },
+        { "en": "100", "es": "100" }
+      ],
+      "answer": 1,
+      "why": { "en": "Eight is the fourth doubling, so it needs a 1 in the eights place and zeros elsewhere, just as 1000 means a thousand.", "es": "El ocho es la cuarta duplicación, así que lleva un 1 en la posición de los ochos y ceros en el resto." },
+      "topic": "binary",
+      "source": "https://www.mathsisfun.com/binary-number-system.html"
+    },
+    {
+      "id": "math-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧮",
+      "q": { "en": "In binary, each place to the left is worth how many times the place beside it?", "es": "En binario, cada posición a la izquierda vale ¿cuántas veces la posición de al lado?" },
+      "choices": [
+        { "en": "Ten times", "es": "Diez veces" },
+        { "en": "Five times", "es": "Cinco veces" },
+        { "en": "Twice", "es": "Dos veces" },
+        { "en": "Sixteen times", "es": "Dieciséis veces" }
+      ],
+      "answer": 2,
+      "why": { "en": "Our decimal places multiply by ten, binary places by two, which is why eight binary digits hold values up to 255.", "es": "Nuestras posiciones decimales se multiplican por diez y las binarias por dos, por eso ocho dígitos binarios llegan hasta 255." },
+      "topic": "binary",
+      "source": "https://www.mathsisfun.com/binary-number-system.html"
+    },
+    {
+      "id": "math-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which year does the Roman numeral MCMXC stand for?", "es": "¿Qué año representa el número romano MCMXC?" },
+      "choices": [
+        { "en": "1890", "es": "1890" },
+        { "en": "2090", "es": "2090" },
+        { "en": "1090", "es": "1090" },
+        { "en": "1990", "es": "1990" }
+      ],
+      "answer": 3,
+      "why": { "en": "M is 1000, CM is 900 and XC is 90, adding to 1990; each subtraction pair saves writing four repeated letters.", "es": "M es 1000, CM es 900 y XC es 90, que suman 1990; cada resta evita escribir cuatro letras repetidas." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    },
+    {
+      "id": "math-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Romans sometimes drew a bar above a numeral. What did that bar mean?", "es": "Los romanos a veces dibujaban una raya encima de un número. ¿Qué significaba esa raya?" },
+      "choices": [
+        { "en": "Multiply it by 1000", "es": "Multiplicarlo por 1000" },
+        { "en": "Multiply it by 10", "es": "Multiplicarlo por 10" },
+        { "en": "Divide it by 100", "es": "Dividirlo entre 100" },
+        { "en": "Add 500 to it", "es": "Sumarle 500" }
+      ],
+      "answer": 0,
+      "why": { "en": "The bar, called a vinculum, turned V into 5000, which let Romans write huge sums without inventing any new letters.", "es": "La raya, llamada vínculo, convertía la V en 5000, lo que permitía escribir sumas enormes sin inventar letras nuevas." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    },
+    {
+      "id": "math-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Why does the Roman numeral IV mean four?", "es": "¿Por qué el número romano IV significa cuatro?" },
+      "choices": [
+        { "en": "I and V are added together", "es": "La I y la V se suman" },
+        { "en": "A smaller sign before a larger one is subtracted", "es": "Un signo menor antes de uno mayor se resta" },
+        { "en": "V means four on its own", "es": "La V significa cuatro por sí sola" },
+        { "en": "Four strokes were forbidden", "es": "Cuatro trazos estaban prohibidos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Subtractive pairs like IV, IX and XL shorten the writing, though many clock faces still print IIII for the fourth hour.", "es": "Las parejas restadas como IV, IX y XL acortan la escritura, aunque muchos relojes aún imprimen IIII para la cuarta hora." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    },
+    {
+      "id": "math-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏟️",
+      "q": { "en": "Which of these Roman numerals stands for the largest number?", "es": "¿Cuál de estos números romanos representa la cantidad más grande?" },
+      "choices": [
+        { "en": "CD", "es": "CD" },
+        { "en": "CM", "es": "CM" },
+        { "en": "MC", "es": "MC" },
+        { "en": "DC", "es": "DC" }
+      ],
+      "answer": 2,
+      "why": { "en": "MC adds 1000 and 100 for 1100, while CD is 400, DC is 600 and CM is 900; letter order decides everything.", "es": "MC suma 1000 y 100 para dar 1100, mientras CD es 400, DC es 600 y CM es 900; el orden decide todo." },
+      "topic": "roman numerals",
+      "source": "https://www.britannica.com/topic/Roman-numeral"
+    },
+    {
+      "id": "math-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "The Maya counting system grouped numbers in which base?", "es": "El sistema de conteo maya agrupaba los números en ¿qué base?" },
+      "choices": [
+        { "en": "Base 10", "es": "Base 10" },
+        { "en": "Base 12", "es": "Base 12" },
+        { "en": "Base 60", "es": "Base 60" },
+        { "en": "Base 20", "es": "Base 20" }
+      ],
+      "answer": 3,
+      "why": { "en": "Twenty matches fingers plus toes, and this vigesimal system let Maya astronomers track the year with striking accuracy.", "es": "El veinte corresponde a dedos de manos y pies, y ese sistema vigesimal permitió a los astrónomos mayas medir el año con gran exactitud." },
+      "topic": "maya numbers",
+      "source": "https://www.britannica.com/topic/Maya-calendar"
+    },
+    {
+      "id": "math-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "The Maya wrote every number with only three signs. Which three were they?", "es": "Los mayas escribían todo número con solo tres signos. ¿Cuáles eran?" },
+      "choices": [
+        { "en": "A dot, a bar and a shell", "es": "Un punto, una barra y una concha" },
+        { "en": "A dot, a cross and a circle", "es": "Un punto, una cruz y un círculo" },
+        { "en": "A line, a square and a spiral", "es": "Una línea, un cuadrado y una espiral" },
+        { "en": "A hand, a foot and a star", "es": "Una mano, un pie y una estrella" }
+      ],
+      "answer": 0,
+      "why": { "en": "A dot was one, a bar was five, and the shell marked zero, a symbol Maya scribes used centuries before Europe accepted it.", "es": "Un punto valía uno, una barra cinco y la concha marcaba el cero, un símbolo usado siglos antes de que Europa lo aceptara." },
+      "topic": "maya numbers",
+      "source": "https://www.britannica.com/topic/Maya-calendar"
+    },
+    {
+      "id": "math-hard-082", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A Möbius strip has two separate sides and two separate edges.", "es": "Una cinta de Möbius tiene dos lados separados y dos bordes separados." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Give a paper strip a half twist and join it: one side and one edge remain, so a pencil line returns to its start.", "es": "Dale media vuelta a una tira de papel y únela: queda un solo lado y un solo borde, y el lápiz regresa al inicio." },
+      "topic": "topology",
+      "source": "https://mathworld.wolfram.com/MoebiusStrip.html"
+    },
+    {
+      "id": "math-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "Who wrote the Elements, a geometry book used in classrooms for over 2000 years?", "es": "¿Quién escribió los Elementos, un libro de geometría usado en las aulas por más de 2000 años?" },
+      "choices": [
+        { "en": "Archimedes", "es": "Arquímedes" },
+        { "en": "Hypatia", "es": "Hipatia" },
+        { "en": "Euclid", "es": "Euclides" },
+        { "en": "Al-Khwarizmi", "es": "Al-Juarismi" }
+      ],
+      "answer": 2,
+      "why": { "en": "Euclid built all of geometry from five simple rules, and his proof that primes go on forever still convinces readers.", "es": "Euclides construyó toda la geometría a partir de cinco reglas simples, y su prueba de que los primos son infinitos aún convence." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/Euclid-Greek-mathematician"
+    },
+    {
+      "id": "math-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚱️",
+      "q": { "en": "Archimedes was so proud of one discovery that he asked for which shapes on his tomb?", "es": "Arquímedes estaba tan orgulloso de un hallazgo que pidió ¿qué figuras para su tumba?" },
+      "choices": [
+        { "en": "A triangle inside a circle", "es": "Un triángulo dentro de un círculo" },
+        { "en": "A spiral inside a square", "es": "Una espiral dentro de un cuadrado" },
+        { "en": "A cube inside a pyramid", "es": "Un cubo dentro de una pirámide" },
+        { "en": "A sphere inside a cylinder", "es": "Una esfera dentro de un cilindro" }
+      ],
+      "answer": 3,
+      "why": { "en": "He proved the sphere fills exactly two thirds of the cylinder around it, a result he valued above all his machines.", "es": "Demostró que la esfera ocupa exactamente dos tercios del cilindro que la rodea, un resultado que valoró más que sus máquinas." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/Archimedes"
+    },
+    {
+      "id": "math-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "The word algebra comes from an Arabic word in a famous book. What did that word mean?", "es": "La palabra álgebra viene de una palabra árabe de un libro famoso. ¿Qué significaba esa palabra?" },
+      "choices": [
+        { "en": "Restoring or putting back together", "es": "Restaurar o volver a juntar" },
+        { "en": "Counting stones", "es": "Contar piedras" },
+        { "en": "Drawing lines", "es": "Trazar líneas" },
+        { "en": "The unknown one", "es": "El desconocido" }
+      ],
+      "answer": 0,
+      "why": { "en": "Al-Khwarizmi titled his book al-jabr, meaning restoring, because he moved terms across an equation to rebuild it neatly.", "es": "Al-Juarismi tituló su libro al-yabr, que significa restaurar, porque movía términos de un lado a otro para rearmar la ecuación." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/al-Khwarizmi"
+    },
+    {
+      "id": "math-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "The word algorithm grew out of which mathematician's name?", "es": "La palabra algoritmo surgió del nombre de ¿cuál matemático?" },
+      "choices": [
+        { "en": "Archimedes", "es": "Arquímedes" },
+        { "en": "Al-Khwarizmi", "es": "Al-Juarismi" },
+        { "en": "Fibonacci", "es": "Fibonacci" },
+        { "en": "Euclid", "es": "Euclides" }
+      ],
+      "answer": 1,
+      "why": { "en": "Latin scholars turned his name into algorismi while copying his step-by-step methods, and every computer program still follows that idea.", "es": "Los eruditos latinos volvieron su nombre algorismi al copiar sus métodos paso a paso, y todo programa de computadora sigue esa idea." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/al-Khwarizmi"
+    },
+    {
+      "id": "math-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔟",
+      "q": { "en": "Fibonacci helped Europe replace Roman numerals with which counting symbols?", "es": "Fibonacci ayudó a que Europa cambiara los números romanos por ¿cuáles símbolos de conteo?" },
+      "choices": [
+        { "en": "Greek letters", "es": "Letras griegas" },
+        { "en": "Maya bars and dots", "es": "Barras y puntos mayas" },
+        { "en": "Hindu-Arabic digits", "es": "Dígitos indoarábigos" },
+        { "en": "Egyptian picture signs", "es": "Signos egipcios de figuras" }
+      ],
+      "answer": 2,
+      "why": { "en": "His book showed merchants that the ten digits, zero included, made bookkeeping far faster than letters ever could.", "es": "Su libro mostró a los comerciantes que los diez dígitos, incluido el cero, hacían la contabilidad mucho más rápida que las letras." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/Leonardo-Pisano"
+    },
+    {
+      "id": "math-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "Ada Lovelace is remembered for writing what, long before machines could run it?", "es": "A Ada Lovelace se le recuerda por escribir ¿qué cosa, mucho antes de que una máquina pudiera ejecutarla?" },
+      "choices": [
+        { "en": "The first geometry textbook", "es": "El primer libro de geometría" },
+        { "en": "The first table of primes", "es": "La primera tabla de primos" },
+        { "en": "The first map of the stars", "es": "El primer mapa de las estrellas" },
+        { "en": "The first computer program", "es": "El primer programa de computadora" }
+      ],
+      "answer": 3,
+      "why": { "en": "She wrote steps for Babbage's mechanical engine in the 1840s and predicted that such machines could compose music too.", "es": "Escribió instrucciones para la máquina mecánica de Babbage en la década de 1840 y predijo que esas máquinas podrían componer música." },
+      "topic": "mathematicians",
+      "source": "https://www.britannica.com/biography/Ada-Lovelace"
+    },
+    {
+      "id": "math-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "Euler studied a walk crossing each of the seven bridges of Königsberg once. What did he show?", "es": "Euler estudió un paseo que cruzara una sola vez cada uno de los siete puentes de Königsberg. ¿Qué demostró?" },
+      "choices": [
+        { "en": "Such a walk is impossible", "es": "Ese paseo es imposible" },
+        { "en": "Only children could do it", "es": "Solo los niños podrían lograrlo" },
+        { "en": "It takes exactly seven hours", "es": "Toma exactamente siete horas" },
+        { "en": "Two walkers are needed", "es": "Se necesitan dos caminantes" }
+      ],
+      "answer": 0,
+      "why": { "en": "Too many riverbanks had an odd number of bridges, and his answer in 1736 opened a whole field called graph theory.", "es": "Demasiadas orillas tenían un número impar de puentes, y su respuesta de 1736 abrió un campo llamado teoría de grafos." },
+      "topic": "famous problems",
+      "source": "https://www.britannica.com/science/Konigsberg-bridge-problem"
+    },
+    {
+      "id": "math-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖍️",
+      "q": { "en": "How many colours are enough to fill any flat map so neighbours differ?", "es": "¿Cuántos colores bastan para pintar cualquier mapa plano sin que dos vecinos coincidan?" },
+      "choices": [
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Twelve", "es": "Doce" }
+      ],
+      "answer": 1,
+      "why": { "en": "The four colour theorem took over a century to prove, and in 1976 it became the first proof checked by computer.", "es": "El teorema de los cuatro colores tardó más de un siglo en probarse, y en 1976 fue la primera prueba revisada por computadora." },
+      "topic": "famous problems",
+      "source": "https://www.britannica.com/science/four-color-map-problem"
+    },
+    {
+      "id": "math-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔷",
+      "q": { "en": "Which regular shape leaves gaps when you try to tile a flat floor with copies of it?", "es": "¿Qué figura regular deja huecos al intentar cubrir un piso plano con copias de ella?" },
+      "choices": [
+        { "en": "The equilateral triangle", "es": "El triángulo equilátero" },
+        { "en": "The square", "es": "El cuadrado" },
+        { "en": "The regular pentagon", "es": "El pentágono regular" },
+        { "en": "The regular hexagon", "es": "El hexágono regular" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tiles fit only when their corner angles divide 360, and a pentagon's 108 degrees leaves 36 degrees spare every time.", "es": "Las losetas encajan solo si sus ángulos dividen 360, y los 108 grados del pentágono dejan 36 grados sobrantes cada vez." },
+      "topic": "tessellations",
+      "source": "https://www.mathsisfun.com/geometry/tessellation.html"
+    },
+    {
+      "id": "math-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔄",
+      "q": { "en": "Spin a square slowly around its centre. How many times does it look unchanged in one full turn?", "es": "Gira despacio un cuadrado alrededor de su centro. ¿Cuántas veces se ve igual en una vuelta completa?" },
+      "choices": [
+        { "en": "Once", "es": "Una vez" },
+        { "en": "Twice", "es": "Dos veces" },
+        { "en": "Eight times", "es": "Ocho veces" },
+        { "en": "Four times", "es": "Cuatro veces" }
+      ],
+      "answer": 3,
+      "why": { "en": "That count is called rotational symmetry of order four; a square also holds four mirror lines, giving eight symmetries altogether.", "es": "Ese conteo se llama simetría rotacional de orden cuatro; el cuadrado también tiene cuatro ejes de espejo, o sea ocho simetrías en total." },
+      "topic": "symmetry",
+      "source": "https://www.mathsisfun.com/geometry/symmetry-rotational.html"
+    },
+    {
+      "id": "math-hard-093", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "The decimal 0.999..., with nines running on forever, is exactly equal to 1.", "es": "El decimal 0.999..., con nueves que siguen para siempre, es exactamente igual a 1." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "One third written as a decimal is 0.333..., and three of those make 0.999..., yet three thirds are plainly one whole.", "es": "Un tercio en decimal es 0.333..., y tres de esos dan 0.999..., pero tres tercios son claramente una unidad entera." },
+      "topic": "infinity",
+      "source": "https://mathworld.wolfram.com/RepeatingDecimal.html"
+    },
+    {
+      "id": "math-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "♾️",
+      "q": { "en": "Compare all the even numbers with all the whole numbers. Which group has more members?", "es": "Compara todos los números pares con todos los números enteros. ¿Qué grupo tiene más miembros?" },
+      "choices": [
+        { "en": "The whole numbers", "es": "Los números enteros" },
+        { "en": "They match exactly", "es": "Coinciden exactamente" },
+        { "en": "The even numbers", "es": "Los números pares" },
+        { "en": "Both groups are finite", "es": "Ambos grupos son finitos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pair 1 with 2, 2 with 4, 3 with 6 and so on forever: nothing is left over, so both infinities are the same size.", "es": "Empareja 1 con 2, 2 con 4, 3 con 6 y así para siempre: nada sobra, así que ambos infinitos tienen el mismo tamaño." },
+      "topic": "infinity",
+      "source": "https://www.mathsisfun.com/numbers/infinity.html"
+    },
+    {
+      "id": "math-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "About how many folds would a sheet of paper need before its thickness reached the Moon?", "es": "¿Cuántos dobleces necesitaría una hoja de papel para que su grosor llegara a la Luna?" },
+      "choices": [
+        { "en": "About a million", "es": "Cerca de un millón" },
+        { "en": "About 5000", "es": "Cerca de 5000" },
+        { "en": "About 42", "es": "Cerca de 42" },
+        { "en": "About 300", "es": "Cerca de 300" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each fold doubles the thickness, so 42 doublings of 0.1 mm passes 384,000 km; folding that often is physically impossible.", "es": "Cada doblez duplica el grosor, así que 42 duplicaciones de 0.1 mm superan los 384,000 km; doblar tantas veces es físicamente imposible." },
+      "topic": "compound growth",
+      "source": "https://www.mathsisfun.com/numbers/exponential-growth.html"
+    },
+    {
+      "id": "math-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍚",
+      "q": { "en": "One grain of rice on the first chessboard square, doubling each square. About how many grains in total?", "es": "Un grano de arroz en la primera casilla del tablero, duplicando en cada casilla. ¿Cuántos granos hay en total?" },
+      "choices": [
+        { "en": "About 4096", "es": "Cerca de 4096" },
+        { "en": "About one million", "es": "Cerca de un millón" },
+        { "en": "About 64 million", "es": "Cerca de 64 millones" },
+        { "en": "About 18 quintillion", "es": "Cerca de 18 trillones" }
+      ],
+      "answer": 3,
+      "why": { "en": "The total is 2 to the power 64 minus one, far more rice than the whole world harvests in many centuries.", "es": "El total es 2 elevado a 64 menos uno, mucho más arroz del que el mundo entero cosecha en muchos siglos." },
+      "topic": "compound growth",
+      "source": "https://www.mathsisfun.com/numbers/exponential-growth.html"
+    },
+    {
+      "id": "math-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪷",
+      "q": { "en": "A lily patch doubles daily and covers the pond on day 30. How much is covered on day 27?", "es": "Un manchón de lirios se duplica a diario y cubre el estanque el día 30. ¿Cuánto cubre el día 27?" },
+      "choices": [
+        { "en": "One eighth", "es": "Un octavo" },
+        { "en": "One tenth", "es": "Un décimo" },
+        { "en": "One quarter", "es": "Un cuarto" },
+        { "en": "One third", "es": "Un tercio" }
+      ],
+      "answer": 0,
+      "why": { "en": "Step back three days and halve three times: a half, a quarter, an eighth, which is why doubling sneaks up so suddenly.", "es": "Retrocede tres días y divide a la mitad tres veces: un medio, un cuarto, un octavo; por eso duplicar sorprende tan de golpe." },
+      "topic": "compound growth",
+      "source": "https://www.mathsisfun.com/numbers/exponential-growth.html"
+    },
+    {
+      "id": "math-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which constant, close to 2.718, appears whenever growth compounds without pause?", "es": "¿Qué constante, cercana a 2.718, aparece cuando el crecimiento se compone sin pausa?" },
+      "choices": [
+        { "en": "Pi", "es": "Pi" },
+        { "en": "The number e", "es": "El número e" },
+        { "en": "The golden ratio", "es": "La proporción áurea" },
+        { "en": "The square root of two", "es": "La raíz cuadrada de dos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Split a year into ever smaller interest steps and the growth settles at e, which also rules cooling coffee and shrinking medicine doses.", "es": "Divide un año en pasos de interés cada vez menores y el crecimiento se asienta en e, que también rige el café que se enfría." },
+      "topic": "constants",
+      "source": "https://www.mathsisfun.com/numbers/e-eulers-number.html"
+    },
+    {
+      "id": "math-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "How many cubic centimetres of water fit inside one litre?", "es": "¿Cuántos centímetros cúbicos de agua caben en un litro?" },
+      "choices": [
+        { "en": "10", "es": "10" },
+        { "en": "100", "es": "100" },
+        { "en": "1000", "es": "1000" },
+        { "en": "100000", "es": "100000" }
+      ],
+      "answer": 2,
+      "why": { "en": "A litre is a cube 10 cm on each side, and 10 × 10 × 10 is 1000, so that water weighs about one kilogram.", "es": "Un litro es un cubo de 10 cm por lado, y 10 × 10 × 10 es 1000, así que esa agua pesa cerca de un kilogramo." },
+      "topic": "unit conversion",
+      "source": "https://www.mathsisfun.com/measure/metric-volume.html"
+    },
+    {
+      "id": "math-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗓️",
+      "q": { "en": "Earth orbits in about 365.25 days. Dropping every leap day would shift the seasons how far each century?", "es": "La Tierra orbita en unos 365.25 días. Quitar cada día bisiesto correría las estaciones ¿cuánto por siglo?" },
+      "choices": [
+        { "en": "About 1 day", "es": "Cerca de 1 día" },
+        { "en": "About 6 days", "es": "Cerca de 6 días" },
+        { "en": "About 10 days", "es": "Cerca de 10 días" },
+        { "en": "About 25 days", "es": "Cerca de 25 días" }
+      ],
+      "answer": 3,
+      "why": { "en": "A quarter day lost yearly adds to 25 days a century, so summer would slide into winter within about 700 years.", "es": "Un cuarto de día perdido cada año suma 25 días por siglo, así que el verano caería en invierno en unos 700 años." },
+      "topic": "calendar math",
+      "source": "https://www.britannica.com/science/leap-year"
     }
   ]
 }

@@ -2722,6 +2722,902 @@
       "why": { "en": "Ori means fold and kami means paper, and true origami uses no scissors and no glue, only careful folds.", "es": "Ori significa doblar y kami significa papel; el verdadero origami no usa tijeras ni pegamento, solo dobleces cuidadosos." },
       "topic": "origami",
       "source": "https://www.britannica.com/art/origami"
+    },
+    {
+      "id": "art-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "Which two painters developed Cubism together in Paris, breaking objects into flat geometric planes seen from several angles at once?", "es": "¿Qué dos pintores desarrollaron juntos el cubismo en París, rompiendo los objetos en planos geométricos vistos desde varios ángulos a la vez?" },
+      "choices": [
+        { "en": "Pablo Picasso and Georges Braque", "es": "Pablo Picasso y Georges Braque" },
+        { "en": "Henri Matisse and André Derain", "es": "Henri Matisse y André Derain" },
+        { "en": "Salvador Dalí and Joan Miró", "es": "Salvador Dalí y Joan Miró" },
+        { "en": "Paul Cézanne and Paul Gauguin", "es": "Paul Cézanne y Paul Gauguin" }
+      ],
+      "answer": 0,
+      "why": { "en": "Braque and Picasso worked so closely between 1908 and 1914 that even they struggled to tell their early Cubist canvases apart.", "es": "Braque y Picasso trabajaron tan de cerca entre 1908 y 1914 que ni ellos distinguían con facilidad sus primeros lienzos cubistas." },
+      "topic": "art movements",
+      "source": "https://www.britannica.com/art/Cubism"
+    },
+    {
+      "id": "art-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Which movement, led by the poet André Breton, built its strange painted scenes from dreams and the unconscious mind?", "es": "¿Qué movimiento, encabezado por el poeta André Breton, construía sus escenas pintadas extrañas a partir de los sueños y el inconsciente?" },
+      "choices": [
+        { "en": "Fauvism", "es": "Fauvismo" },
+        { "en": "Surrealism", "es": "Surrealismo" },
+        { "en": "Expressionism", "es": "Expresionismo" },
+        { "en": "Futurism", "es": "Futurismo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Breton published the Surrealist manifesto in 1924, urging artists to paint the images that arrive in sleep without judging them.", "es": "Breton publicó el manifiesto surrealista en 1924 y pidió a los artistas pintar las imágenes que llegan en el sueño sin juzgarlas." },
+      "topic": "art movements",
+      "source": "https://www.tate.org.uk/art/art-terms/s/surrealism"
+    },
+    {
+      "id": "art-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Why did Mexican muralists of the 1920s paint on public walls instead of canvas?", "es": "¿Por qué los muralistas mexicanos de los años veinte pintaban en muros públicos y no en lienzos?" },
+      "choices": [
+        { "en": "Plaster held colour longer than cloth", "es": "El yeso guardaba el color más que la tela" },
+        { "en": "The government forbade painting on canvas", "es": "El gobierno prohibía pintar sobre lienzo" },
+        { "en": "Public walls reached a whole city at once", "es": "Los muros públicos llegaban a toda una ciudad" },
+        { "en": "Fresco cost less than oil paint", "es": "El fresco costaba menos que el óleo" }
+      ],
+      "answer": 2,
+      "why": { "en": "After the revolution the new education ministry hired artists to teach history on walls, so schools and offices became free public galleries.", "es": "Tras la revolución, el nuevo ministerio de educación contrató artistas para enseñar historia en los muros, y escuelas y oficinas fueron galerías gratuitas." },
+      "topic": "muralism",
+      "source": "https://www.britannica.com/art/Mexican-mural-project"
+    },
+    {
+      "id": "art-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥫",
+      "q": { "en": "Pop Art of the 1950s and 1960s took its images from where?", "es": "¿De dónde tomaba sus imágenes el arte pop de los años cincuenta y sesenta?" },
+      "choices": [
+        { "en": "Ancient Greek temples", "es": "De los templos griegos antiguos" },
+        { "en": "Dreams and the unconscious", "es": "De los sueños y el inconsciente" },
+        { "en": "Medieval church windows", "es": "De los vitrales medievales" },
+        { "en": "Advertising, comics and supermarket shelves", "es": "De la publicidad, los cómics y el supermercado" }
+      ],
+      "answer": 3,
+      "why": { "en": "Pop artists borrowed the flat colours and printing dots of mass media, arguing that everyday packaging shaped modern eyes more than museums did.", "es": "Los artistas pop tomaron los colores planos y los puntos de imprenta de los medios, porque los empaques diarios formaban la mirada moderna." },
+      "topic": "art movements",
+      "source": "https://www.tate.org.uk/art/art-terms/p/pop-art"
+    },
+    {
+      "id": "art-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐯",
+      "q": { "en": "What earned Henri Matisse and his friends the nickname fauves, wild beasts, in their paintings?", "es": "¿Qué les valió a Henri Matisse y sus amigos el apodo de fauves, fieras salvajes, en sus pinturas?" },
+      "choices": [
+        { "en": "Loud, unnatural colours straight from the tube", "es": "Colores estridentes y poco naturales salidos del tubo" },
+        { "en": "Canvases the size of a wall", "es": "Lienzos del tamaño de una pared" },
+        { "en": "Portraits broken into small cubes", "es": "Retratos partidos en cubos pequeños" },
+        { "en": "Paint poured from a bucket", "es": "Pintura vertida desde una cubeta" }
+      ],
+      "answer": 0,
+      "why": { "en": "A critic used the insult in 1905 after seeing their green faces and orange trees; the painters kept the name with pride.", "es": "Un crítico usó el insulto en 1905 al ver sus rostros verdes y árboles naranjas; los pintores conservaron el nombre con orgullo." },
+      "topic": "art movements",
+      "source": "https://www.moma.org/collection/terms/fauvism"
+    },
+    {
+      "id": "art-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Which invention let the Impressionists carry their colours outdoors and finish a painting in one afternoon?", "es": "¿Qué invento permitió a los impresionistas llevar sus colores al aire libre y terminar un cuadro en una tarde?" },
+      "choices": [
+        { "en": "The wooden palette", "es": "La paleta de madera" },
+        { "en": "Paint sold in metal tubes", "es": "La pintura vendida en tubos de metal" },
+        { "en": "The camera obscura", "es": "La cámara oscura" },
+        { "en": "Powdered pigment in glass jars", "es": "El pigmento en polvo en frascos de vidrio" }
+      ],
+      "answer": 1,
+      "why": { "en": "Before the 1840s painters ground pigment in the studio; sealed tin tubes made the light of a riverbank reachable in minutes.", "es": "Antes de 1840 los pintores molían el pigmento en el taller; los tubos de estaño sellados pusieron la luz del río al alcance." },
+      "topic": "art movements",
+      "source": "https://www.metmuseum.org/toah/hd/imml/hd_imml.htm"
+    },
+    {
+      "id": "art-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Georges Seurat built his paintings from tiny separate dots of colour. What did he expect the viewer's eye to do?", "es": "Georges Seurat construía sus cuadros con diminutos puntos separados de color. ¿Qué esperaba que hiciera el ojo del espectador?" },
+      "choices": [
+        { "en": "Count the dots one by one", "es": "Contar los puntos uno por uno" },
+        { "en": "See the canvas as unfinished", "es": "Ver el lienzo como algo inacabado" },
+        { "en": "Blend the dots into single colours", "es": "Mezclar los puntos en colores únicos" },
+        { "en": "Follow the dots like a path", "es": "Seguir los puntos como un camino" }
+      ],
+      "answer": 2,
+      "why": { "en": "This is optical mixing: blue and yellow dots read as green from a distance, and Seurat's method became known as pointillism.", "es": "Es la mezcla óptica: los puntos azules y amarillos se leen como verde a distancia, y el método de Seurat se llamó puntillismo." },
+      "topic": "art movements",
+      "source": "https://www.britannica.com/art/Pointillism"
+    },
+    {
+      "id": "art-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🟣",
+      "q": { "en": "Which painter is often credited with the first fully abstract pictures, shapes and colours standing for music rather than objects?", "es": "¿Qué pintor suele recibir el crédito de los primeros cuadros abstractos, con formas y colores que representan música y no objetos?" },
+      "choices": [
+        { "en": "Edgar Degas", "es": "Edgar Degas" },
+        { "en": "Gustav Klimt", "es": "Gustav Klimt" },
+        { "en": "Edvard Munch", "es": "Edvard Munch" },
+        { "en": "Wassily Kandinsky", "es": "Wassily Kandinsky" }
+      ],
+      "answer": 3,
+      "why": { "en": "Kandinsky said he heard colours as sounds, a mixing of senses called synaesthesia, and titled canvases Composition and Improvisation like pieces of music.", "es": "Kandinsky decía oír los colores como sonidos, una mezcla de sentidos llamada sinestesia, y tituló sus lienzos Composición e Improvisación como piezas musicales." },
+      "topic": "abstract art",
+      "source": "https://www.britannica.com/biography/Wassily-Kandinsky"
+    },
+    {
+      "id": "art-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Who demonstrated linear perspective in Florence around 1415, showing how parallel lines meet at a single vanishing point?", "es": "¿Quién demostró la perspectiva lineal en Florencia hacia 1415, mostrando cómo las líneas paralelas se juntan en un punto de fuga?" },
+      "choices": [
+        { "en": "Filippo Brunelleschi", "es": "Filippo Brunelleschi" },
+        { "en": "Sandro Botticelli", "es": "Sandro Botticelli" },
+        { "en": "Donatello", "es": "Donatello" },
+        { "en": "Giotto di Bondone", "es": "Giotto di Bondone" }
+      ],
+      "answer": 0,
+      "why": { "en": "Brunelleschi painted a Florence baptistery and drilled a peephole so viewers could compare his panel with the real building in a mirror.", "es": "Brunelleschi pintó el baptisterio de Florencia y abrió una mirilla para que el público comparara su tabla con el edificio real en un espejo." },
+      "topic": "renaissance",
+      "source": "https://www.britannica.com/art/perspective-art"
+    },
+    {
+      "id": "art-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "In Renaissance painting, what does the technique called sfumato do to the edges of a face?", "es": "En la pintura del Renacimiento, ¿qué le hace la técnica llamada sfumato a los bordes de un rostro?" },
+      "choices": [
+        { "en": "Outlines them in dark ink", "es": "Los delinea con tinta oscura" },
+        { "en": "Melts them into soft, smoky shadow", "es": "Los funde en una sombra suave y ahumada" },
+        { "en": "Covers them with gold leaf", "es": "Los cubre con hoja de oro" },
+        { "en": "Breaks them into small squares", "es": "Los rompe en cuadros pequeños" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sfumato comes from the Italian for smoke; Leonardo built it from dozens of glazes so thin that no brushstroke shows.", "es": "Sfumato viene del italiano humo; Leonardo lo lograba con decenas de veladuras tan delgadas que ninguna pincelada llega a verse." },
+      "topic": "renaissance",
+      "source": "https://www.britannica.com/art/sfumato"
+    },
+    {
+      "id": "art-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖌️",
+      "q": { "en": "Onto which surface does an artist paint in a true fresco, which lasts for centuries?", "es": "¿Sobre qué superficie pinta el artista en un fresco verdadero, que dura siglos?" },
+      "choices": [
+        { "en": "Stretched linen canvas", "es": "Lienzo de lino tensado" },
+        { "en": "A dry wooden panel", "es": "Una tabla de madera seca" },
+        { "en": "Fresh, still-wet lime plaster", "es": "Yeso de cal fresco y húmedo" },
+        { "en": "Polished marble slabs", "es": "Losas de mármol pulido" }
+      ],
+      "answer": 2,
+      "why": { "en": "As the lime plaster dries, a crystal skin forms over the pigment and locks the colour into the wall itself.", "es": "Al secarse el yeso de cal se forma una piel de cristal sobre el pigmento que encierra el color dentro del muro mismo." },
+      "topic": "painting techniques",
+      "source": "https://www.britannica.com/art/fresco-painting"
+    },
+    {
+      "id": "art-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Raphael's fresco The School of Athens gathers famous thinkers under a vast arch. Which two philosophers stand at its centre?", "es": "El fresco La escuela de Atenas, de Rafael, reúne pensadores famosos bajo un gran arco. ¿Qué dos filósofos están en el centro?" },
+      "choices": [
+        { "en": "Pythagoras and Euclid", "es": "Pitágoras y Euclides" },
+        { "en": "Socrates and Diogenes", "es": "Sócrates y Diógenes" },
+        { "en": "Homer and Virgil", "es": "Homero y Virgilio" },
+        { "en": "Plato and Aristotle", "es": "Platón y Aristóteles" }
+      ],
+      "answer": 3,
+      "why": { "en": "Plato points upward to ideas while Aristotle holds his palm to the earth, a single gesture summing up two ways of thinking.", "es": "Platón señala hacia arriba, hacia las ideas, y Aristóteles extiende la palma hacia la tierra: un gesto resume dos maneras de pensar." },
+      "topic": "renaissance",
+      "source": "https://www.britannica.com/topic/School-of-Athens"
+    },
+    {
+      "id": "art-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "Caravaggio lit his figures with a single harsh beam against deep darkness. What is that strong light-and-shadow contrast called?", "es": "Caravaggio iluminaba sus figuras con un solo haz duro sobre una oscuridad profunda. ¿Cómo se llama ese contraste de luz y sombra?" },
+      "choices": [
+        { "en": "Chiaroscuro", "es": "Claroscuro" },
+        { "en": "Impasto", "es": "Empaste" },
+        { "en": "Grisaille", "es": "Grisalla" },
+        { "en": "Trompe l'oeil", "es": "Trampantojo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chiaroscuro joins the Italian words for light and dark; Caravaggio's extreme version, almost all shadow, is sometimes called tenebrism.", "es": "Claroscuro une las palabras italianas para claro y oscuro; la versión extrema de Caravaggio, casi toda sombra, se llama tenebrismo." },
+      "topic": "painting techniques",
+      "source": "https://www.britannica.com/art/chiaroscuro"
+    },
+    {
+      "id": "art-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "Which northern European painter perfected oil paint, building glowing jewels and fur from many transparent layers around 1430?", "es": "¿Qué pintor del norte de Europa perfeccionó la pintura al óleo, creando joyas y pieles brillantes con capas transparentes hacia 1430?" },
+      "choices": [
+        { "en": "Albrecht Dürer", "es": "Albrecht Dürer" },
+        { "en": "Jan van Eyck", "es": "Jan van Eyck" },
+        { "en": "Hieronymus Bosch", "es": "Hieronymus Bosch" },
+        { "en": "Pieter Bruegel the Elder", "es": "Pieter Bruegel el Viejo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Oil dries slowly, so van Eyck could blend for days and stack thin glazes that let light bounce back through the colour.", "es": "El óleo seca despacio, así van Eyck podía difuminar durante días y apilar veladuras finas que dejan rebotar la luz dentro del color." },
+      "topic": "renaissance",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait"
+    },
+    {
+      "id": "art-hard-018", "level": "hard", "type": "tf", "lang": "both", "emoji": "📝",
+      "q": { "en": "Leonardo da Vinci wrote most of his notebooks in mirror writing, running right to left.", "es": "Leonardo da Vinci escribió la mayoría de sus cuadernos con escritura en espejo, de derecha a izquierda." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "He was left-handed, and writing backwards kept his hand from smudging fresh ink; the pages read normally in a mirror.", "es": "Era zurdo, y escribir al revés evitaba que su mano corriera la tinta fresca; las páginas se leen bien frente a un espejo." },
+      "topic": "renaissance",
+      "source": "https://www.britannica.com/biography/Leonardo-da-Vinci"
+    },
+    {
+      "id": "art-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Frida Kahlo said she painted herself so often for which reason?", "es": "¿Por qué decía Frida Kahlo que se pintaba a sí misma con tanta frecuencia?" },
+      "choices": [
+        { "en": "Museums paid more for portraits", "es": "Los museos pagaban más por retratos" },
+        { "en": "Mirrors were her only paint surface", "es": "Los espejos eran su única superficie" },
+        { "en": "She was alone most, and knew herself best", "es": "Estaba sola casi siempre y se conocía mejor" },
+        { "en": "Her teacher assigned a portrait each week", "es": "Su maestro le pedía un retrato semanal" }
+      ],
+      "answer": 2,
+      "why": { "en": "A bus crash left her in bed for long stretches, with a mirror fixed above her, so her own face was always available.", "es": "Un choque de autobús la dejó en cama largas temporadas, con un espejo sobre ella, así que su propio rostro siempre estaba disponible." },
+      "topic": "latin american artists",
+      "source": "https://www.museofridakahlo.org.mx/"
+    },
+    {
+      "id": "art-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "Which three painters are known as los tres grandes, the big three of Mexican muralism?", "es": "¿Qué tres pintores se conocen como los tres grandes del muralismo mexicano?" },
+      "choices": [
+        { "en": "Tamayo, Izquierdo and Charlot", "es": "Tamayo, Izquierdo y Charlot" },
+        { "en": "Kahlo, Varo and Carrington", "es": "Kahlo, Varo y Carrington" },
+        { "en": "Posada, Velasco and Herrán", "es": "Posada, Velasco y Herrán" },
+        { "en": "Rivera, Orozco and Siqueiros", "es": "Rivera, Orozco y Siqueiros" }
+      ],
+      "answer": 3,
+      "why": { "en": "The three shared walls but argued constantly: Rivera loved folk history, Orozco painted human suffering, and Siqueiros experimented with industrial materials.", "es": "Los tres compartían muros pero discutían mucho: Rivera amaba la historia popular, Orozco pintaba el dolor humano y Siqueiros probaba materiales industriales." },
+      "topic": "muralism",
+      "source": "https://www.britannica.com/biography/Jose-Clemente-Orozco"
+    },
+    {
+      "id": "art-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "David Alfaro Siqueiros pushed mural painting forward by borrowing which tools from industry?", "es": "¿Qué herramientas de la industria usó David Alfaro Siqueiros para empujar la pintura mural hacia adelante?" },
+      "choices": [
+        { "en": "Airbrushes and fast-drying synthetic paint", "es": "Aerógrafos y pintura sintética de secado rápido" },
+        { "en": "Gold leaf and silverpoint styluses", "es": "Hoja de oro y punzones de plata" },
+        { "en": "Egg yolk tempera and rabbit glue", "es": "Temple de yema de huevo y cola de conejo" },
+        { "en": "Copper plates and acid baths", "es": "Placas de cobre y baños de ácido" }
+      ],
+      "answer": 0,
+      "why": { "en": "He sprayed pyroxylin, a car paint, and projected photographs onto curved walls so the mural seemed to move as viewers walked past.", "es": "Roció piroxilina, una pintura de carros, y proyectó fotografías sobre muros curvos para que el mural pareciera moverse al caminar frente a él." },
+      "topic": "muralism",
+      "source": "https://www.britannica.com/biography/David-Alfaro-Siqueiros"
+    },
+    {
+      "id": "art-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Which Mexican muralist painted the blazing Man of Fire on the dome of the Hospicio Cabañas in Guadalajara?", "es": "¿Qué muralista mexicano pintó El hombre en llamas en la cúpula del Hospicio Cabañas, en Guadalajara?" },
+      "choices": [
+        { "en": "Diego Rivera", "es": "Diego Rivera" },
+        { "en": "José Clemente Orozco", "es": "José Clemente Orozco" },
+        { "en": "Rufino Tamayo", "es": "Rufino Tamayo" },
+        { "en": "Juan O'Gorman", "es": "Juan O'Gorman" }
+      ],
+      "answer": 1,
+      "why": { "en": "Orozco covered the old orphanage with more than fifty panels; the building is a World Heritage Site protected by UNESCO.", "es": "Orozco cubrió el antiguo hospicio con más de cincuenta tableros; el edificio es patrimonio mundial protegido por la Unesco." },
+      "topic": "muralism",
+      "source": "https://whc.unesco.org/en/list/815"
+    },
+    {
+      "id": "art-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦶",
+      "q": { "en": "Which Brazilian movement, which swallowed foreign styles and remade them, took its name from Tarsila do Amaral's painting Abaporu?", "es": "¿Qué movimiento brasileño, que devoraba estilos extranjeros para rehacerlos, tomó su nombre del cuadro Abaporu de Tarsila do Amaral?" },
+      "choices": [
+        { "en": "Concretism", "es": "Concretismo" },
+        { "en": "Neo-Realism", "es": "Neorrealismo" },
+        { "en": "Antropofagia", "es": "Antropofagia" },
+        { "en": "Tropicália", "es": "Tropicalismo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Abaporu means the man who eats people in the Tupi language; the movement argued Brazil should digest Europe rather than copy it.", "es": "Abaporu significa el hombre que come gente en lengua tupí; el movimiento proponía que Brasil digiriera a Europa en vez de copiarla." },
+      "topic": "latin american artists",
+      "source": "https://www.moma.org/calendar/exhibitions/1809"
+    },
+    {
+      "id": "art-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "What idea was Joaquín Torres García defending when he drew South America upside down in 1943?", "es": "¿Qué idea defendía Joaquín Torres García al dibujar en 1943 un mapa de América del Sur al revés?" },
+      "choices": [
+        { "en": "Sailors navigated better that way", "es": "Los marinos navegaban mejor así" },
+        { "en": "Printing presses flipped every image", "es": "Las imprentas volteaban toda imagen" },
+        { "en": "The continent looked prettier reversed", "es": "El continente se veía más bonito al revés" },
+        { "en": "The south should be its own north", "es": "El sur debía ser su propio norte" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Uruguayan painter wrote our north is the south, insisting artists of the region should look to their own roots first.", "es": "El pintor uruguayo escribió nuestro norte es el sur, e insistía en que los artistas de la región miraran primero sus propias raíces." },
+      "topic": "latin american artists",
+      "source": "https://www.moma.org/artists/5953"
+    },
+    {
+      "id": "art-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🙌",
+      "q": { "en": "Which Ecuadorian painter filled the series La edad de la ira with enormous hands and grieving faces?", "es": "¿Qué pintor ecuatoriano llenó la serie La edad de la ira con manos enormes y rostros de dolor?" },
+      "choices": [
+        { "en": "Oswaldo Guayasamín", "es": "Oswaldo Guayasamín" },
+        { "en": "Armando Reverón", "es": "Armando Reverón" },
+        { "en": "Roberto Matta", "es": "Roberto Matta" },
+        { "en": "Alejandro Obregón", "es": "Alejandro Obregón" }
+      ],
+      "answer": 0,
+      "why": { "en": "Guayasamín grew up in Quito and built the Capilla del Hombre, a chapel-museum devoted to the people of the whole continent.", "es": "Guayasamín creció en Quito y levantó la Capilla del Hombre, un museo dedicado a los pueblos de todo el continente americano." },
+      "topic": "latin american artists",
+      "source": "https://www.britannica.com/biography/Oswaldo-Guayasamin"
+    },
+    {
+      "id": "art-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "Remedios Varo painted dreamlike towers and strange machines after leaving Spain. Which country became her home and studio?", "es": "Remedios Varo pintó torres de sueño y máquinas extrañas tras salir de España. ¿Qué país fue su casa y su taller?" },
+      "choices": [
+        { "en": "Argentina", "es": "Argentina" },
+        { "en": "Mexico", "es": "México" },
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Peru", "es": "Perú" }
+      ],
+      "answer": 1,
+      "why": { "en": "Varo reached Mexico City in 1941 and worked beside Leonora Carrington; both mixed alchemy, science and cats into their surrealist scenes.", "es": "Varo llegó a la Ciudad de México en 1941 y trabajó junto a Leonora Carrington; ambas mezclaban alquimia, ciencia y gatos en sus escenas." },
+      "topic": "latin american artists",
+      "source": "https://www.britannica.com/biography/Remedios-Varo"
+    },
+    {
+      "id": "art-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "In which Colombian city did Fernando Botero fill a public plaza with his rounded bronze sculptures?", "es": "¿En qué ciudad colombiana llenó Fernando Botero una plaza pública con sus esculturas redondas de bronce?" },
+      "choices": [
+        { "en": "Cartagena", "es": "Cartagena" },
+        { "en": "Bogotá", "es": "Bogotá" },
+        { "en": "Medellín", "es": "Medellín" },
+        { "en": "Cali", "es": "Cali" }
+      ],
+      "answer": 2,
+      "why": { "en": "Botero was born in Medellín and donated twenty-three bronzes there; he insisted his swollen shapes are about volume, never about size alone.", "es": "Botero nació en Medellín y donó allí veintitrés bronces; decía que sus formas hinchadas tratan del volumen y no del tamaño." },
+      "topic": "latin american artists",
+      "source": "https://www.britannica.com/biography/Fernando-Botero"
+    },
+    {
+      "id": "art-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Which Cuban painter mixed Afro-Caribbean spirits with Cubist shapes in his painting La Jungla?", "es": "¿Qué pintor cubano mezcló espíritus afrocaribeños con formas cubistas en su cuadro La jungla?" },
+      "choices": [
+        { "en": "Diego Rivera", "es": "Diego Rivera" },
+        { "en": "Rufino Tamayo", "es": "Rufino Tamayo" },
+        { "en": "Roberto Matta", "es": "Roberto Matta" },
+        { "en": "Wifredo Lam", "es": "Wifredo Lam" }
+      ],
+      "answer": 3,
+      "why": { "en": "Lam studied in Paris with Picasso, then returned home in 1941 and painted sugarcane figures wearing masks for faces.", "es": "Lam estudió en París con Picasso, volvió a la isla en 1941 y pintó figuras de caña de azúcar con máscaras por rostro." },
+      "topic": "latin american artists",
+      "source": "https://www.moma.org/collection/works/34666"
+    },
+    {
+      "id": "art-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "💀",
+      "q": { "en": "José Guadalupe Posada printed skeletons in fancy hats to make fun of whom?", "es": "¿De quiénes se burlaba José Guadalupe Posada al imprimir esqueletos con sombreros elegantes?" },
+      "choices": [
+        { "en": "Rich people pretending to be European", "es": "De los ricos que se creían europeos" },
+        { "en": "Farmers who moved to the city", "es": "De los campesinos llegados a la ciudad" },
+        { "en": "Children who skipped school", "es": "De los niños que faltaban a la escuela" },
+        { "en": "Painters who worked in oil", "es": "De los pintores que usaban óleo" }
+      ],
+      "answer": 0,
+      "why": { "en": "His engraving La Calavera Garbancera, later renamed La Catrina by Rivera, became the elegant skeleton seen every Day of the Dead.", "es": "Su grabado La Calavera Garbancera, rebautizado La Catrina por Rivera, es el esqueleto elegante que aparece cada Día de Muertos." },
+      "topic": "printmaking",
+      "source": "https://www.britannica.com/biography/Jose-Guadalupe-Posada"
+    },
+    {
+      "id": "art-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖨️",
+      "q": { "en": "When an artist prints a woodcut, which parts of the carved block leave ink on the paper?", "es": "Al imprimir un grabado en madera, ¿qué partes del bloque tallado dejan tinta en el papel?" },
+      "choices": [
+        { "en": "The grooves cut away", "es": "Los surcos que se tallaron" },
+        { "en": "The raised surfaces left standing", "es": "Las superficies altas que quedaron" },
+        { "en": "The four edges of the block", "es": "Los cuatro bordes del bloque" },
+        { "en": "The back of the block", "es": "La parte trasera del bloque" }
+      ],
+      "answer": 1,
+      "why": { "en": "Relief printing inks only the high parts, so the artist carves away everything meant to stay white; etching does the opposite.", "es": "En la estampa en relieve solo se entinta lo alto, así que se talla todo lo que quedará blanco; el aguafuerte hace lo contrario." },
+      "topic": "printmaking",
+      "source": "https://www.metmuseum.org/toah/hd/wdct/hd_wdct.htm"
+    },
+    {
+      "id": "art-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🟠",
+      "q": { "en": "Complementary colours look brightest side by side. What happens when you mix those same two paints together?", "es": "Los colores complementarios brillan más uno junto al otro. ¿Qué pasa si mezclas esas dos pinturas?" },
+      "choices": [
+        { "en": "They turn pure white", "es": "Se vuelven blanco puro" },
+        { "en": "They glow even brighter", "es": "Brillan todavía más" },
+        { "en": "They dull into grey or brown", "es": "Se apagan en gris o café" },
+        { "en": "They separate into stripes", "es": "Se separan en franjas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each pigment absorbs the light the other reflects, so together they swallow almost everything and leave a muddy neutral tone.", "es": "Cada pigmento absorbe la luz que el otro refleja, así que juntos se tragan casi todo y dejan un tono neutro y lodoso." },
+      "topic": "colour theory",
+      "source": "https://www.britannica.com/science/colour/The-colour-wheel"
+    },
+    {
+      "id": "art-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚫",
+      "q": { "en": "In colour theory, what do artists call how light or dark a colour is?", "es": "En la teoría del color, ¿cómo llaman los artistas a lo claro u oscuro que es un color?" },
+      "choices": [
+        { "en": "Hue", "es": "Matiz" },
+        { "en": "Saturation", "es": "Saturación" },
+        { "en": "Temperature", "es": "Temperatura" },
+        { "en": "Value", "es": "Valor" }
+      ],
+      "answer": 3,
+      "why": { "en": "Hue names the colour, saturation says how pure it is, and value alone decides whether a painting still reads in black and white.", "es": "El matiz nombra el color, la saturación dice qué tan puro es, y el valor decide si el cuadro se entiende en blanco y negro." },
+      "topic": "colour theory",
+      "source": "https://www.tate.org.uk/art/art-terms/t/tone"
+    },
+    {
+      "id": "art-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "Why does mixing many paints give a darker colour while mixing many coloured lights gives a paler one?", "es": "¿Por qué mezclar muchas pinturas da un color más oscuro y mezclar muchas luces de color da uno más pálido?" },
+      "choices": [
+        { "en": "Paint takes light away; lights add it together", "es": "La pintura quita luz; las luces se suman" },
+        { "en": "Paint is heavier than light", "es": "La pintura pesa más que la luz" },
+        { "en": "Lights travel faster than pigment", "es": "Las luces viajan más rápido que el pigmento" },
+        { "en": "Paint dries and changes its colour", "es": "La pintura se seca y cambia de color" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pigments work by subtracting wavelengths from white light, while lamps add wavelengths, which is why red, green and blue beams make white.", "es": "Los pigmentos restan longitudes de onda a la luz blanca y las lámparas las suman; por eso los haces rojo, verde y azul dan blanco." },
+      "topic": "colour theory",
+      "source": "https://www.britannica.com/science/colour/Colour-mixing"
+    },
+    {
+      "id": "art-hard-034", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔷",
+      "q": { "en": "Ultramarine blue once cost more than gold because it was ground from lapis lazuli stone.", "es": "El azul ultramar llegó a costar más que el oro porque se molía a partir de piedra lapislázuli." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The stone travelled from mines in Afghanistan, so patrons wrote into contracts exactly how much ultramarine a painter could use.", "es": "La piedra venía de minas de Afganistán, y los clientes escribían en el contrato cuánto ultramar podía usar el pintor." },
+      "topic": "pigments",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/ultramarine"
+    },
+    {
+      "id": "art-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "Which movement began in a Zurich cafe during the First World War and made art from nonsense and chance?", "es": "¿Qué movimiento nació en un café de Zúrich durante la Primera Guerra Mundial e hizo arte con el absurdo y el azar?" },
+      "choices": [
+        { "en": "Bauhaus", "es": "Bauhaus" },
+        { "en": "Dada", "es": "Dadaísmo" },
+        { "en": "Art Nouveau", "es": "Art nouveau" },
+        { "en": "Constructivism", "es": "Constructivismo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Dada artists pulled words from a hat to write poems; their questioning of what counts as art opened the door to Surrealism.", "es": "Los dadaístas sacaban palabras de un sombrero para armar poemas; su pregunta sobre qué es arte abrió la puerta al surrealismo." },
+      "topic": "art movements",
+      "source": "https://www.moma.org/collection/terms/dada"
+    },
+    {
+      "id": "art-hard-036", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌻",
+      "q": { "en": "Frida Kahlo agreed with the critics who called her paintings surrealist dreams.", "es": "Frida Kahlo estaba de acuerdo con los críticos que llamaban sueños surrealistas a sus cuadros." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "She replied that she painted her own reality, and that her strange images came from her life rather than from dreams.", "es": "Ella respondía que pintaba su propia realidad, y que sus imágenes extrañas venían de su vida y no de los sueños." },
+      "topic": "latin american artists",
+      "source": "https://www.museofridakahlo.org.mx/"
+    },
+    {
+      "id": "art-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "Historians usually end the Baroque period in 1750, the year which composer died?", "es": "¿Qué compositor murió en 1750, el año con que los historiadores suelen cerrar el barroco?" },
+      "choices": [
+        { "en": "George Frideric Handel", "es": "George Frideric Handel" },
+        { "en": "Antonio Vivaldi", "es": "Antonio Vivaldi" },
+        { "en": "Johann Sebastian Bach", "es": "Johann Sebastian Bach" },
+        { "en": "Claudio Monteverdi", "es": "Claudio Monteverdi" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bach died in Leipzig in 1750, and the lighter Classical style of Haydn and Mozart soon replaced Baroque counterpoint in fashion.", "es": "Bach murió en Leipzig en 1750, y el estilo clásico, más ligero, de Haydn y Mozart pronto desplazó al contrapunto barroco de moda." },
+      "topic": "musical periods",
+      "source": "https://www.britannica.com/art/Baroque-music"
+    },
+    {
+      "id": "art-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "Which Classical composer wrote over a hundred symphonies and is called the father of the string quartet?", "es": "¿Qué compositor clásico escribió más de cien sinfonías y es llamado el padre del cuarteto de cuerdas?" },
+      "choices": [
+        { "en": "Franz Schubert", "es": "Franz Schubert" },
+        { "en": "Joseph Haydn", "es": "Joseph Haydn" },
+        { "en": "Johannes Brahms", "es": "Johannes Brahms" },
+        { "en": "Christoph Gluck", "es": "Christoph Gluck" }
+      ],
+      "answer": 1,
+      "why": { "en": "Haydn served a princely family for thirty years, teaching Beethoven and joking in music, as in the Surprise Symphony's sudden loud chord.", "es": "Haydn sirvió treinta años a una familia noble, enseñó a Beethoven y bromeaba con la música, como el acorde fuerte de la Sinfonía sorpresa." },
+      "topic": "composers",
+      "source": "https://www.britannica.com/biography/Joseph-Haydn"
+    },
+    {
+      "id": "art-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎺",
+      "q": { "en": "Which musical period grew the orchestra huge and aimed above all to tell stories and stir strong feeling?", "es": "¿Qué periodo musical agrandó mucho la orquesta y buscaba sobre todo contar historias y despertar emociones fuertes?" },
+      "choices": [
+        { "en": "Renaissance", "es": "Renacimiento" },
+        { "en": "Baroque", "es": "Barroco" },
+        { "en": "Romantic", "es": "Romanticismo" },
+        { "en": "Classical", "es": "Clasicismo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Romantic composers of the 1800s added trombones, tubas and harps, and wrote tone poems that follow a story from first note to last.", "es": "Los compositores románticos del siglo XIX sumaron trombones, tubas y arpas, y escribieron poemas sinfónicos que siguen una historia de principio a fin." },
+      "topic": "musical periods",
+      "source": "https://www.britannica.com/art/Romanticism"
+    },
+    {
+      "id": "art-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎼",
+      "q": { "en": "In a fugue, what do the other voices do after the first voice states the main tune?", "es": "En una fuga, ¿qué hacen las demás voces después de que la primera presenta el tema principal?" },
+      "choices": [
+        { "en": "They hum quietly underneath", "es": "Tararean bajito por debajo" },
+        { "en": "They play it backwards together", "es": "La tocan al revés todas juntas" },
+        { "en": "They stay silent to the end", "es": "Guardan silencio hasta el final" },
+        { "en": "They enter one by one with the same tune", "es": "Entran una a una con el mismo tema" }
+      ],
+      "answer": 3,
+      "why": { "en": "Fugue comes from the Latin for flight, because each voice seems to chase the one before it through different keys.", "es": "Fuga viene del latín huida, porque cada voz parece perseguir a la anterior mientras pasan por distintas tonalidades." },
+      "topic": "musical forms",
+      "source": "https://www.britannica.com/art/fugue"
+    },
+    {
+      "id": "art-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "Which work did Mozart leave unfinished when he died in 1791, so that a pupil completed it?", "es": "¿Qué obra dejó Mozart sin terminar al morir en 1791, de modo que un alumno la completó?" },
+      "choices": [
+        { "en": "The Requiem", "es": "El Réquiem" },
+        { "en": "The Magic Flute", "es": "La flauta mágica" },
+        { "en": "Eine kleine Nachtmusik", "es": "Pequeña serenata nocturna" },
+        { "en": "The Marriage of Figaro", "es": "Las bodas de Fígaro" }
+      ],
+      "answer": 0,
+      "why": { "en": "His pupil Franz Xaver Süssmayr completed the Requiem from sketches, which is why scholars still argue over which bars are Mozart's.", "es": "Su alumno Franz Xaver Süssmayr completó el Réquiem con los bocetos, por eso los estudiosos discuten aún qué compases son de Mozart." },
+      "topic": "composers",
+      "source": "https://www.britannica.com/topic/Requiem-by-Mozart"
+    },
+    {
+      "id": "art-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "What did Beethoven add to a symphony for the first time in his Ninth, finished in 1824?", "es": "¿Qué añadió Beethoven a una sinfonía por primera vez en su Novena, terminada en 1824?" },
+      "choices": [
+        { "en": "A solo piano", "es": "Un piano solista" },
+        { "en": "A singing choir and soloists", "es": "Un coro que canta y solistas" },
+        { "en": "Two extra conductors", "es": "Dos directores adicionales" },
+        { "en": "Three minutes of total silence", "es": "Tres minutos de silencio total" }
+      ],
+      "answer": 1,
+      "why": { "en": "The finale sets Schiller's poem Ode to Joy; Beethoven was profoundly deaf by then and had to be turned to see the applause.", "es": "El final musicaliza el poema Oda a la alegría de Schiller; Beethoven ya era sordo y lo voltearon para que viera los aplausos." },
+      "topic": "composers",
+      "source": "https://www.britannica.com/topic/Symphony-No-9-in-D-Minor-Op-125"
+    },
+    {
+      "id": "art-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎸",
+      "q": { "en": "Heitor Villa-Lobos named which series of pieces after the composer whose style he blended with Brazilian folk song?", "es": "¿Qué serie de piezas nombró Heitor Villa-Lobos en honor al compositor cuyo estilo mezcló con la música popular brasileña?" },
+      "choices": [
+        { "en": "Choros", "es": "Chôros" },
+        { "en": "Cirandas", "es": "Cirandas" },
+        { "en": "Bachianas Brasileiras", "es": "Bachianas Brasileiras" },
+        { "en": "Modinhas", "es": "Modinhas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The fifth Bachiana pairs a soprano with eight cellos, imitating both Bach's counterpoint and the guitars of Brazilian street serenades.", "es": "La quinta Bachiana une una soprano con ocho violonchelos e imita tanto el contrapunto de Bach como las guitarras de las serenatas brasileñas." },
+      "topic": "latin american composers",
+      "source": "https://www.britannica.com/biography/Heitor-Villa-Lobos"
+    },
+    {
+      "id": "art-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪗",
+      "q": { "en": "Astor Piazzolla built his nuevo tango around which bellows-driven instrument that he played himself?", "es": "¿Qué instrumento de fuelle, que él mismo tocaba, puso Astor Piazzolla en el centro de su nuevo tango?" },
+      "choices": [
+        { "en": "The bandoneón", "es": "El bandoneón" },
+        { "en": "The charango", "es": "El charango" },
+        { "en": "The concertina", "es": "La concertina" },
+        { "en": "The harmonium", "es": "El armonio" }
+      ],
+      "answer": 0,
+      "why": { "en": "The bandoneón came from Germany to the Río de la Plata; Piazzolla shocked dancers by adding jazz harmony and fugues to tango.", "es": "El bandoneón llegó de Alemania al Río de la Plata; Piazzolla escandalizó a los bailarines al sumar armonías de jazz y fugas al tango." },
+      "topic": "latin american composers",
+      "source": "https://www.britannica.com/biography/Astor-Piazzolla"
+    },
+    {
+      "id": "art-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "Which Argentine composer put the gaucho dance malambo at the end of his ballet Estancia?", "es": "¿Qué compositor argentino puso el malambo, danza gaucha, al final de su ballet Estancia?" },
+      "choices": [
+        { "en": "Carlos Guastavino", "es": "Carlos Guastavino" },
+        { "en": "Alberto Ginastera", "es": "Alberto Ginastera" },
+        { "en": "Osvaldo Golijov", "es": "Osvaldo Golijov" },
+        { "en": "Juan José Castro", "es": "Juan José Castro" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ginastera wrote Estancia in 1941 about a day on the pampas, and its stamping malambo finale imitates the heels of dancing gauchos.", "es": "Ginastera escribió Estancia en 1941 sobre un día en la pampa, y su malambo final imita los talones de los gauchos que bailan." },
+      "topic": "latin american composers",
+      "source": "https://www.britannica.com/biography/Alberto-Ginastera"
+    },
+    {
+      "id": "art-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Which Mexican composer built his Sinfonía india from melodies of Indigenous peoples and founded a national orchestra?", "es": "¿Qué compositor mexicano construyó su Sinfonía india con melodías de pueblos indígenas y fundó una orquesta nacional?" },
+      "choices": [
+        { "en": "Silvestre Revueltas", "es": "Silvestre Revueltas" },
+        { "en": "Manuel Ponce", "es": "Manuel Ponce" },
+        { "en": "Carlos Chávez", "es": "Carlos Chávez" },
+        { "en": "Agustín Lara", "es": "Agustín Lara" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chávez scored the piece for Yaqui drums, clay rattles and a water gourd alongside the usual orchestra, in 1935.", "es": "Chávez escribió la obra para tambores yaquis, sonajas de barro y un guaje de agua junto a la orquesta habitual, en 1935." },
+      "topic": "latin american composers",
+      "source": "https://www.britannica.com/biography/Carlos-Chavez"
+    },
+    {
+      "id": "art-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "Silvestre Revueltas based his hammering piece Sensemayá on a poem about what?", "es": "¿Sobre qué trata el poema en que Silvestre Revueltas basó su pieza martillante Sensemayá?" },
+      "choices": [
+        { "en": "A sailor crossing the Atlantic", "es": "Un marinero que cruza el Atlántico" },
+        { "en": "A child lost in a market", "es": "Un niño perdido en un mercado" },
+        { "en": "A river drying in summer", "es": "Un río que se seca en verano" },
+        { "en": "A chant sung while hunting a snake", "es": "Un canto para cazar una serpiente" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cuban poet Nicolás Guillén wrote the chant, and Revueltas set its Afro-Caribbean rhythm in shifting metres that keep listeners off balance.", "es": "El poeta cubano Nicolás Guillén escribió el canto, y Revueltas puso su ritmo afrocaribeño en compases cambiantes que descolocan al oyente." },
+      "topic": "latin american composers",
+      "source": "https://www.britannica.com/biography/Silvestre-Revueltas"
+    },
+    {
+      "id": "art-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎼",
+      "q": { "en": "Which note does the treble clef mark as it curls around one line of the staff?", "es": "¿Qué nota marca la clave de sol al enroscarse en una línea del pentagrama?" },
+      "choices": [
+        { "en": "Middle C", "es": "El do central" },
+        { "en": "F below middle C", "es": "El fa bajo el do central" },
+        { "en": "The A used for tuning", "es": "El la que sirve para afinar" },
+        { "en": "G above middle C", "es": "El sol sobre el do central" }
+      ],
+      "answer": 3,
+      "why": { "en": "That is why it is also called the G clef; the bass clef's two dots surround the F line in the same way.", "es": "Por eso también se llama clave de sol; los dos puntos de la clave de fa rodean la línea del fa de la misma forma." },
+      "topic": "musical notation",
+      "source": "https://www.britannica.com/art/clef"
+    },
+    {
+      "id": "art-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "A major scale follows which pattern of whole steps and half steps from its first note?", "es": "¿Qué patrón de tonos y semitonos sigue una escala mayor desde su primera nota?" },
+      "choices": [
+        { "en": "half whole whole half whole whole whole", "es": "semitono tono tono semitono tono tono tono" },
+        { "en": "whole whole whole half whole half whole", "es": "tono tono tono semitono tono semitono tono" },
+        { "en": "whole whole half whole whole whole half", "es": "tono tono semitono tono tono tono semitono" },
+        { "en": "whole half whole whole half whole whole", "es": "tono semitono tono tono semitono tono tono" }
+      ],
+      "answer": 2,
+      "why": { "en": "Starting that pattern on C uses only white keys; starting it on any other note forces the black keys that make key signatures.", "es": "Ese patrón desde do usa solo teclas blancas; empezarlo en otra nota obliga a usar las teclas negras que forman las armaduras." },
+      "topic": "scales and keys",
+      "source": "https://www.britannica.com/art/scale-music"
+    },
+    {
+      "id": "art-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎵",
+      "q": { "en": "How many half steps lie between the two notes of a perfect fifth, such as C up to G?", "es": "¿Cuántos semitonos hay entre las dos notas de una quinta justa, por ejemplo de do a sol?" },
+      "choices": [
+        { "en": "5", "es": "5" },
+        { "en": "6", "es": "6" },
+        { "en": "8", "es": "8" },
+        { "en": "7", "es": "7" }
+      ],
+      "answer": 3,
+      "why": { "en": "Seven half steps give the fifth its open, stable sound, which is why bagpipes and rock guitars lean on it so heavily.", "es": "Siete semitonos dan a la quinta su sonido abierto y estable; por eso las gaitas y las guitarras de rock se apoyan tanto en ella." },
+      "topic": "intervals",
+      "source": "https://www.britannica.com/art/interval-music"
+    },
+    {
+      "id": "art-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "How many sharps appear in the key signature of G major?", "es": "¿Cuántos sostenidos tiene la armadura de sol mayor?" },
+      "choices": [
+        { "en": "None", "es": "Ninguno" },
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 1,
+      "why": { "en": "Only F sharp is raised, which keeps the whole-and-half pattern intact; each new sharp key adds one more, following the circle of fifths.", "es": "Solo se eleva el fa sostenido, y así se mantiene el patrón de tonos; cada tonalidad nueva suma uno más por el círculo de quintas." },
+      "topic": "scales and keys",
+      "source": "https://www.britannica.com/art/key-signature"
+    },
+    {
+      "id": "art-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕺",
+      "q": { "en": "In 6/8 time, the six quick notes of a bar usually group into how many main beats?", "es": "En un compás de 6/8, ¿en cuántos pulsos principales se agrupan las seis notas rápidas?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Six", "es": "Seis" }
+      ],
+      "answer": 1,
+      "why": { "en": "Six eighths split into two groups of three, giving the swinging lilt of a jig or of many Mexican sones.", "es": "Las seis corcheas se parten en dos grupos de tres, lo que da el balanceo de una giga o de muchos sones mexicanos." },
+      "topic": "rhythm and metre",
+      "source": "https://www.britannica.com/art/metre-music"
+    },
+    {
+      "id": "art-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔉",
+      "q": { "en": "Which Italian marking tells musicians to grow gradually quieter as they play?", "es": "¿Qué indicación italiana pide a los músicos ir bajando poco a poco el volumen?" },
+      "choices": [
+        { "en": "Diminuendo", "es": "Diminuendo" },
+        { "en": "Accelerando", "es": "Accelerando" },
+        { "en": "Staccato", "es": "Staccato" },
+        { "en": "Sforzando", "es": "Sforzando" }
+      ],
+      "answer": 0,
+      "why": { "en": "Accelerando speeds the tempo, staccato shortens each note, and sforzando punches one note hard; only diminuendo controls fading volume.", "es": "Accelerando acelera el tempo, staccato acorta cada nota y sforzando golpea una sola nota; solo el diminuendo maneja el volumen que baja." },
+      "topic": "musical terms",
+      "source": "https://www.britannica.com/art/dynamics-music"
+    },
+    {
+      "id": "art-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Among these tempo words, which one asks for the slowest music of all?", "es": "Entre estas palabras de tempo, ¿cuál pide la música más lenta de todas?" },
+      "choices": [
+        { "en": "Allegro", "es": "Allegro" },
+        { "en": "Andante", "es": "Andante" },
+        { "en": "Presto", "es": "Presto" },
+        { "en": "Largo", "es": "Largo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Largo means broad, andante means walking, allegro means cheerful and quick, and presto means very fast indeed.", "es": "Largo significa amplio, andante significa caminando, allegro significa alegre y rápido, y presto significa francamente muy veloz." },
+      "topic": "musical terms",
+      "source": "https://www.britannica.com/art/tempo-music"
+    },
+    {
+      "id": "art-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎷",
+      "q": { "en": "Before a concert the whole orchestra tunes to an A. Which instrument usually sounds that note?", "es": "Antes de un concierto toda la orquesta afina con un la. ¿Qué instrumento suele dar esa nota?" },
+      "choices": [
+        { "en": "The oboe", "es": "El oboe" },
+        { "en": "The flute", "es": "La flauta" },
+        { "en": "The trumpet", "es": "La trompeta" },
+        { "en": "The cello", "es": "El violonchelo" }
+      ],
+      "answer": 0,
+      "why": { "en": "The oboe's reedy tone cuts through everything and holds its pitch well, since temperature changes affect it less than strings.", "es": "El timbre del oboe atraviesa todo y mantiene bien la afinación, porque los cambios de temperatura lo afectan menos que a las cuerdas." },
+      "topic": "orchestra",
+      "source": "https://www.britannica.com/art/orchestra"
+    },
+    {
+      "id": "art-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎩",
+      "q": { "en": "In an orchestra, what job does the musician called the concertmaster hold?", "es": "En una orquesta, ¿qué trabajo tiene el músico llamado concertino?" },
+      "choices": [
+        { "en": "Chief of the percussion section", "es": "Jefe de la sección de percusión" },
+        { "en": "Keeper of the conductor's schedule", "es": "Encargado de la agenda del director" },
+        { "en": "Leader of the first violins", "es": "Líder de los primeros violines" },
+        { "en": "Writer of the programme notes", "es": "Autor de las notas del programa" }
+      ],
+      "answer": 2,
+      "why": { "en": "The concertmaster sits nearest the conductor, signals bowing for all the strings, and plays any violin solo the score requires.", "es": "El concertino se sienta junto al director, marca los arcos de toda la cuerda y toca los solos de violín que pide la partitura." },
+      "topic": "orchestra",
+      "source": "https://www.britannica.com/art/concertmaster"
+    },
+    {
+      "id": "art-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎸",
+      "q": { "en": "Which change to a guitar string raises the pitch of the note it sounds?", "es": "¿Qué cambio en una cuerda de guitarra hace más aguda la nota que suena?" },
+      "choices": [
+        { "en": "Making it longer", "es": "Alargarla" },
+        { "en": "Loosening it", "es": "Aflojarla" },
+        { "en": "Adding weight to it", "es": "Agregarle peso" },
+        { "en": "Tightening it", "es": "Tensarla" }
+      ],
+      "answer": 3,
+      "why": { "en": "Pitch rises when a string is shorter, thinner or tighter, because it vibrates more times each second; pressing a fret shortens it.", "es": "El tono sube si la cuerda es más corta, delgada o tensa, porque vibra más veces por segundo; pisar un traste la acorta." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/science/sound-physics"
+    },
+    {
+      "id": "art-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎵",
+      "q": { "en": "Opening a hole along a flute raises the pitch. What has changed inside the instrument?", "es": "Abrir un agujero en la flauta hace el sonido más agudo. ¿Qué cambió dentro del instrumento?" },
+      "choices": [
+        { "en": "The air column got shorter", "es": "La columna de aire se acortó" },
+        { "en": "The metal became thinner", "es": "El metal se hizo más delgado" },
+        { "en": "The air inside got colder", "es": "El aire de adentro se enfrió" },
+        { "en": "The player's breath slowed down", "es": "El aire del músico se hizo lento" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wind instrument sounds the length of its vibrating air column, so every open hole tells the air to turn around sooner.", "es": "Un instrumento de viento suena según el largo de su columna de aire, así que cada agujero abierto hace que el aire regrese antes." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/art/wind-instrument"
+    },
+    {
+      "id": "art-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎺",
+      "q": { "en": "How does a trombone change its notes, while a trumpet uses valves?", "es": "¿Cómo cambia de notas un trombón, mientras que la trompeta usa pistones?" },
+      "choices": [
+        { "en": "By covering finger holes", "es": "Tapando agujeros con los dedos" },
+        { "en": "By sliding the tube longer or shorter", "es": "Deslizando el tubo para alargarlo o acortarlo" },
+        { "en": "By tightening a drum skin", "es": "Tensando un parche de tambor" },
+        { "en": "By turning a crank inside", "es": "Girando una manivela interna" }
+      ],
+      "answer": 1,
+      "why": { "en": "Both work by changing tube length; the trombone's slide moves smoothly, so it can glide between notes in a way valves cannot.", "es": "Ambos cambian el largo del tubo; la vara del trombón se mueve sin saltos, así puede deslizarse entre notas como los pistones jamás logran." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/art/trombone"
+    },
+    {
+      "id": "art-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "A timpani player presses a pedal during a concert. What does the pedal do to the drum?", "es": "Un timbalista pisa un pedal durante el concierto. ¿Qué le hace ese pedal al tambor?" },
+      "choices": [
+        { "en": "Muffles the sound completely", "es": "Apaga el sonido por completo" },
+        { "en": "Spins the drum around", "es": "Gira el tambor en redondo" },
+        { "en": "Tightens the skin to change pitch", "es": "Tensa el parche para cambiar la nota" },
+        { "en": "Raises the drum off the floor", "es": "Levanta el tambor del piso" }
+      ],
+      "answer": 2,
+      "why": { "en": "Timpani are the only common drums that play definite pitches, so the pedal lets one player retune between phrases without stopping.", "es": "Los timbales son los únicos tambores comunes que dan notas definidas, así el pedal permite reafinar entre frases sin detener la música." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/art/timpani"
+    },
+    {
+      "id": "art-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "Which orchestral instrument makes its sound with two thin reeds vibrating against each other?", "es": "¿Qué instrumento de la orquesta produce su sonido con dos cañas delgadas que vibran una contra otra?" },
+      "choices": [
+        { "en": "The clarinet", "es": "El clarinete" },
+        { "en": "The flute", "es": "La flauta" },
+        { "en": "The saxophone", "es": "El saxofón" },
+        { "en": "The oboe", "es": "El oboe" }
+      ],
+      "answer": 3,
+      "why": { "en": "Clarinets and saxophones use one reed beating against a mouthpiece; oboes and bassoons use two, which gives them a sharper voice.", "es": "Clarinetes y saxofones usan una caña que golpea la boquilla; oboes y fagotes usan dos, y eso les da una voz más penetrante." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/art/oboe"
+    },
+    {
+      "id": "art-hard-062", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎹",
+      "q": { "en": "A piano counts as a percussion instrument because small hammers strike its strings.", "es": "El piano cuenta como instrumento de percusión porque unos martillos pequeños golpean sus cuerdas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Museums classify it as a struck string instrument, or chordophone; a harpsichord instead plucks its strings with tiny quills.", "es": "Los museos lo clasifican como cuerda percutida, o cordófono; el clavecín, en cambio, pellizca sus cuerdas con plumillas diminutas." },
+      "topic": "how instruments work",
+      "source": "https://www.britannica.com/art/piano"
+    },
+    {
+      "id": "art-hard-063", "level": "hard", "type": "tf", "lang": "both", "emoji": "📖",
+      "q": { "en": "The conductor's score shows only the melody line that the orchestra plays.", "es": "La partitura del director muestra solo la línea de melodía que toca la orquesta." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A full score stacks every instrument's part on one page, so a conductor may read twenty staves at a single glance.", "es": "Una partitura completa apila la parte de cada instrumento en una página, así el director puede leer veinte pentagramas de un vistazo." },
+      "topic": "orchestra",
+      "source": "https://www.britannica.com/art/musical-notation"
+    },
+    {
+      "id": "art-hard-064", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎼",
+      "q": { "en": "On a standard piano keyboard, the semitone is the smallest distance between two notes.", "es": "En un teclado de piano común, el semitono es la distancia más pequeña entre dos notas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twelve equal semitones fill an octave, though singers and violinists can slide through smaller steps that a keyboard simply skips.", "es": "Doce semitonos iguales llenan una octava, aunque cantantes y violinistas pueden deslizarse por pasos menores que el teclado simplemente salta." },
+      "topic": "intervals",
+      "source": "https://www.britannica.com/art/semitone"
+    },
+    {
+      "id": "art-hard-065", "level": "hard", "type": "tf", "lang": "both", "emoji": "💃",
+      "q": { "en": "Flamenco singing, dancing and guitar playing all began in Mexico.", "es": "El cante, el baile y la guitarra del flamenco nacieron todos en México." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Flamenco grew in Andalusia in southern Spain, shaped by Roma, Andalusian, Jewish and North African traditions over several centuries.", "es": "El flamenco creció en Andalucía, al sur de España, moldeado por tradiciones gitanas, andaluzas, judías y norteafricanas durante varios siglos." },
+      "topic": "dance",
+      "source": "https://ich.unesco.org/en/RL/flamenco-00363"
+    },
+    {
+      "id": "art-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩰",
+      "q": { "en": "In ballet, what shape does a dancer make in an arabesque?", "es": "En ballet, ¿qué figura hace un bailarín en un arabesque?" },
+      "choices": [
+        { "en": "Both knees bent low to the floor", "es": "Las dos rodillas dobladas cerca del piso" },
+        { "en": "A jump with the feet beaten together", "es": "Un salto con los pies batidos" },
+        { "en": "One leg stretched straight out behind", "es": "Una pierna estirada recta hacia atrás" },
+        { "en": "A full spin on one foot", "es": "Un giro completo sobre un pie" }
+      ],
+      "answer": 2,
+      "why": { "en": "The word comes from arabesque ornament, whose long curving lines the pose imitates from fingertip to pointed toe.", "es": "La palabra viene del ornamento arabesco, cuyas líneas largas y curvas imita la postura desde la punta del dedo hasta el pie estirado." },
+      "topic": "dance",
+      "source": "https://www.britannica.com/art/arabesque-ballet"
+    },
+    {
+      "id": "art-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪘",
+      "q": { "en": "Which large drum carries the steady heartbeat of a samba school parading in Rio de Janeiro?", "es": "¿Qué tambor grande lleva el latido constante de una escuela de samba que desfila en Río de Janeiro?" },
+      "choices": [
+        { "en": "The cuíca", "es": "La cuíca" },
+        { "en": "The pandeiro", "es": "El pandeiro" },
+        { "en": "The tamborim", "es": "El tamborim" },
+        { "en": "The surdo", "es": "El surdo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Surdo means deaf in Portuguese, a nod to its deep booming tone; the squeaking cuíca is rubbed with a stick inside.", "es": "Surdo significa sordo en portugués, por su tono grave y retumbante; la cuíca chirriante se frota con una varita por dentro." },
+      "topic": "dance",
+      "source": "https://www.britannica.com/art/samba-Brazilian-dance"
+    },
+    {
+      "id": "art-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "An orchestra is usually divided into how many main sections of instruments?", "es": "¿En cuántas secciones principales de instrumentos se divide normalmente una orquesta?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Strings, woodwind, brass and percussion make four families; harp, piano and celesta join whichever family the composer's score needs.", "es": "Cuerdas, madera, metal y percusión forman cuatro familias; el arpa, el piano y la celesta se suman a la que pida la partitura." },
+      "topic": "orchestra",
+      "source": "https://www.britannica.com/art/orchestra-music"
     }
   ]
 }

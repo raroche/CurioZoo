@@ -2762,6 +2762,446 @@
       "why": { "es": "Sacapuntas une solo dos: el verbo sacar y el sustantivo puntas, igual que cumpleaños junta cumple y años." },
       "topic": "palabras compuestas",
       "source": "https://dle.rae.es/sacapuntas"
+    },
+    {
+      "id": "words-hard-007", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔭",
+      "q": { "en": "The Greek root tele, found in telephone and telescope, carries which idea?" },
+      "choices": [
+        { "en": "Far away" },
+        { "en": "Sound" },
+        { "en": "Round" },
+        { "en": "Quick" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tele means far off, so a telescope sees far things and a telephone carries a voice far; phone is Greek for sound." },
+      "topic": "greek roots",
+      "source": "https://www.etymonline.com/word/tele-"
+    },
+    {
+      "id": "words-hard-008", "level": "hard", "type": "mc", "lang": "en", "emoji": "🚢",
+      "q": { "en": "Which idea do portable, import and transport all share through their Latin root?" },
+      "choices": [
+        { "en": "To open" },
+        { "en": "To carry" },
+        { "en": "To sell" },
+        { "en": "To hurry" }
+      ],
+      "answer": 1,
+      "why": { "en": "Portare means to carry in Latin, so a porter carries bags, imports are carried in, and a portfolio once carried loose sheets." },
+      "topic": "latin roots",
+      "source": "https://www.etymonline.com/word/port-"
+    },
+    {
+      "id": "words-hard-009", "level": "hard", "type": "mc", "lang": "en", "emoji": "🧬",
+      "q": { "en": "In biology, biography and antibiotic, what does the Greek root bio mean?" },
+      "choices": [
+        { "en": "Body" },
+        { "en": "Study" },
+        { "en": "Life" },
+        { "en": "Tiny" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bio means life, so a biography is a life written down and an antibiotic works against tiny living things that make you sick." },
+      "topic": "greek roots",
+      "source": "https://www.merriam-webster.com/dictionary/bio-"
+    },
+    {
+      "id": "words-hard-010", "level": "hard", "type": "mc", "lang": "en", "emoji": "💪",
+      "q": { "en": "The English word muscle came from a Latin word naming which small animal?" },
+      "choices": [
+        { "en": "A frog" },
+        { "en": "A mole" },
+        { "en": "A sparrow" },
+        { "en": "A mouse" }
+      ],
+      "answer": 3,
+      "why": { "en": "Musculus meant little mouse; Romans thought a muscle rippling under the skin looked like a small mouse moving there." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/muscle"
+    },
+    {
+      "id": "words-hard-011", "level": "hard", "type": "mc", "lang": "en", "emoji": "⛵",
+      "q": { "en": "The word quarantine grew from an Italian word for which number?" },
+      "choices": [
+        { "en": "Seven" },
+        { "en": "Ten" },
+        { "en": "Forty" },
+        { "en": "Hundred" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ships waited forty days offshore before landing at Venice, and quaranta giorni, meaning forty days, gave the word its name." },
+      "topic": "etymology",
+      "source": "https://www.merriam-webster.com/dictionary/quarantine"
+    },
+    {
+      "id": "words-hard-012", "level": "hard", "type": "mc", "lang": "en", "emoji": "🤖",
+      "q": { "en": "The word robot entered English from a 1920s play written in which language?" },
+      "choices": [
+        { "en": "Czech" },
+        { "en": "Russian" },
+        { "en": "German" },
+        { "en": "Swedish" }
+      ],
+      "answer": 0,
+      "why": { "en": "Karel Capek's play used robota, a Czech word for forced labour, so every robot is named after hard work." },
+      "topic": "etymology",
+      "source": "https://www.britannica.com/topic/RUR"
+    },
+    {
+      "id": "words-hard-013", "level": "hard", "type": "mc", "lang": "en", "emoji": "🍅",
+      "q": { "en": "Before tomatoes joined it, the word ketchup named a sauce made mainly from what?" },
+      "choices": [
+        { "en": "Berries" },
+        { "en": "Fish" },
+        { "en": "Corn" },
+        { "en": "Butter" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ketchup traces to a Hokkien word for fish brine sauce; it travelled through Malay, and tomatoes joined only much later." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/ketchup"
+    },
+    {
+      "id": "words-hard-014", "level": "hard", "type": "mc", "lang": "en", "emoji": "⭐",
+      "q": { "en": "The word disaster was built from old pieces meaning which two things?" },
+      "choices": [
+        { "en": "Big fall" },
+        { "en": "Dark night" },
+        { "en": "Bad star" },
+        { "en": "Lost road" }
+      ],
+      "answer": 2,
+      "why": { "en": "Astron means star, so a disaster once meant a bad star: people blamed misfortune on the stars being badly placed." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/disaster"
+    },
+    {
+      "id": "words-hard-015", "level": "hard", "type": "mc", "lang": "en", "emoji": "🐺",
+      "q": { "en": "Which of these English words was borrowed from Nahuatl, the Aztec language?" },
+      "choices": [
+        { "en": "Cobra" },
+        { "en": "Coyote" },
+        { "en": "Camel" },
+        { "en": "Cactus" }
+      ],
+      "answer": 1,
+      "why": { "en": "Coyote comes from coyotl, and Nahuatl also gave English chocolate, tomato, avocado and chili, all carried in through Spanish." },
+      "topic": "borrowed words",
+      "source": "https://www.merriam-webster.com/dictionary/coyote"
+    },
+    {
+      "id": "words-hard-016", "level": "hard", "type": "mc", "lang": "en", "emoji": "🦙",
+      "q": { "en": "Dried strips of beef are called jerky after charqui, a word from which language?" },
+      "choices": [
+        { "en": "Taino" },
+        { "en": "Guarani" },
+        { "en": "Mapuche" },
+        { "en": "Quechua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Charqui is Quechua for dried meat; the same Andean language gave English llama, condor, puma, pampa and quinoa." },
+      "topic": "borrowed words",
+      "source": "https://www.etymonline.com/word/jerky"
+    },
+    {
+      "id": "words-hard-017", "level": "hard", "type": "mc", "lang": "en", "emoji": "➗",
+      "q": { "en": "The word algebra came from Arabic al-jabr, which described doing what to broken parts?" },
+      "choices": [
+        { "en": "Reuniting them" },
+        { "en": "Counting them" },
+        { "en": "Hiding them" },
+        { "en": "Weighing them" }
+      ],
+      "answer": 0,
+      "why": { "en": "Al-jabr meant restoring or reuniting; Arabic also handed English algorithm, cotton, sugar and coffee during centuries of shared science." },
+      "topic": "borrowed words",
+      "source": "https://www.britannica.com/science/algebra"
+    },
+    {
+      "id": "words-hard-018", "level": "hard", "type": "mc", "lang": "en", "emoji": "🧴",
+      "q": { "en": "English took the word shampoo from Hindi, where it first described which action?" },
+      "choices": [
+        { "en": "Washing clothes" },
+        { "en": "Combing hair" },
+        { "en": "Pouring water" },
+        { "en": "Pressing and massaging" }
+      ],
+      "answer": 3,
+      "why": { "en": "Champo meant to press or knead; British travellers met head massages in India and the word slid across to hair washing." },
+      "topic": "borrowed words",
+      "source": "https://www.etymonline.com/word/shampoo"
+    },
+    {
+      "id": "words-hard-019", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Rearranging every letter of the word listen makes which other English word?" },
+      "choices": [
+        { "en": "Sullen" },
+        { "en": "Silent" },
+        { "en": "Listed" },
+        { "en": "Lantern" }
+      ],
+      "answer": 1,
+      "why": { "en": "An anagram uses every letter once; listen and silent share the same six letters, and so does the word enlist." },
+      "topic": "anagrams",
+      "source": "https://www.merriam-webster.com/dictionary/anagram"
+    },
+    {
+      "id": "words-hard-020", "level": "hard", "type": "mc", "lang": "en", "emoji": "🦊",
+      "q": { "en": "What is the name for a sentence that uses every letter of the alphabet?" },
+      "choices": [
+        { "en": "Palindrome" },
+        { "en": "Acronym" },
+        { "en": "Pangram" },
+        { "en": "Lipogram" }
+      ],
+      "answer": 2,
+      "why": { "en": "The quick brown fox jumps over the lazy dog is the famous pangram, and typists used it to test every key." },
+      "topic": "wordplay",
+      "source": "https://www.merriam-webster.com/dictionary/pangram"
+    },
+    {
+      "id": "words-hard-021", "level": "hard", "type": "tf", "lang": "en", "emoji": "📚",
+      "q": { "en": "The word thesaurus comes from a Greek word meaning treasure." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "A thesaurus is a treasure house of words; Roget called his book that because it stores riches of meaning." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/thesaurus"
+    },
+    {
+      "id": "words-hard-022", "level": "hard", "type": "tf", "lang": "en", "emoji": "🌪️",
+      "q": { "en": "English borrowed the word tornado from the Italian language." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tornado came from Spanish, twisted out of tronada, a thunderstorm; huracan reached English the same way, as hurricane." },
+      "topic": "borrowed words",
+      "source": "https://www.etymonline.com/word/tornado"
+    },
+    {
+      "id": "words-hard-023", "level": "hard", "type": "mc", "lang": "es", "emoji": "⏱️",
+      "q": { "es": "¿Qué significa la raíz griega crono en palabras como cronómetro y cronología?" },
+      "choices": [
+        { "es": "Tiempo" },
+        { "es": "Número" },
+        { "es": "Vuelta" },
+        { "es": "Medida" }
+      ],
+      "answer": 0,
+      "why": { "es": "Crono significa tiempo: un cronómetro mide el tiempo y Cronos era el dios griego que le dio su nombre." },
+      "topic": "raíces griegas",
+      "source": "https://dle.rae.es/cron%C3%B3metro"
+    },
+    {
+      "id": "words-hard-024", "level": "hard", "type": "mc", "lang": "es", "emoji": "💡",
+      "q": { "es": "¿Qué significa la raíz foto en palabras como fotografía y fotosíntesis?" },
+      "choices": [
+        { "es": "Imagen" },
+        { "es": "Luz" },
+        { "es": "Papel" },
+        { "es": "Color" }
+      ],
+      "answer": 1,
+      "why": { "es": "Foto significa luz en griego, así que fotografía quiere decir escribir con luz y fotosíntesis es armar algo con luz." },
+      "topic": "raíces griegas",
+      "source": "https://dle.rae.es/fotograf%C3%ADa"
+    },
+    {
+      "id": "words-hard-025", "level": "hard", "type": "mc", "lang": "es", "emoji": "✍️",
+      "q": { "es": "¿Qué quiere decir literalmente la palabra manuscrito, formada por dos raíces latinas?" },
+      "choices": [
+        { "es": "Libro antiguo" },
+        { "es": "Escrito en piedra" },
+        { "es": "Escrito a mano" },
+        { "es": "Copia fiel" }
+      ],
+      "answer": 2,
+      "why": { "es": "Manus es mano y scriptus es escrito, así que un manuscrito es un texto hecho a mano, antes de la imprenta." },
+      "topic": "raíces latinas",
+      "source": "https://dle.rae.es/manuscrito"
+    },
+    {
+      "id": "words-hard-026", "level": "hard", "type": "mc", "lang": "es", "emoji": "🙏",
+      "q": { "es": "¿De qué lengua llegó al español la palabra ojalá?" },
+      "choices": [
+        { "es": "Del griego" },
+        { "es": "Del hebreo" },
+        { "es": "Del quechua" },
+        { "es": "Del árabe" }
+      ],
+      "answer": 3,
+      "why": { "es": "Ojalá viene del árabe law sha Allah, «si Dios quiere», y se usa en toda América para expresar un deseo." },
+      "topic": "etimología",
+      "source": "https://dle.rae.es/ojal%C3%A1"
+    },
+    {
+      "id": "words-hard-027", "level": "hard", "type": "mc", "lang": "es", "emoji": "🥑",
+      "q": { "es": "¿Cuál de estas palabras del español llegó desde el náhuatl?" },
+      "choices": [
+        { "es": "Aguacate" },
+        { "es": "Azúcar" },
+        { "es": "Cóndor" },
+        { "es": "Guitarra" }
+      ],
+      "answer": 0,
+      "why": { "es": "Aguacate viene de ahuacatl; del náhuatl también llegaron tomate, chocolate, cacahuate y elote, palabras que el mundo entero usa." },
+      "topic": "palabras del náhuatl",
+      "source": "https://dle.rae.es/aguacate"
+    },
+    {
+      "id": "words-hard-028", "level": "hard", "type": "mc", "lang": "es", "emoji": "🥔",
+      "q": { "es": "¿De qué lengua originaria tomó el español la palabra papa, el alimento?" },
+      "choices": [
+        { "es": "Del náhuatl" },
+        { "es": "Del quechua" },
+        { "es": "Del guaraní" },
+        { "es": "Del maya" }
+      ],
+      "answer": 1,
+      "why": { "es": "Papa es quechua y viajó desde los Andes; esa lengua también dio cóndor, llama, puma, quinua y pampa al español." },
+      "topic": "palabras del quechua",
+      "source": "https://dle.rae.es/papa"
+    },
+    {
+      "id": "words-hard-029", "level": "hard", "type": "mc", "lang": "es", "emoji": "🍞",
+      "q": { "es": "¿Qué idea esconde la palabra compañero en sus dos raíces latinas?" },
+      "choices": [
+        { "es": "El que camina al lado" },
+        { "es": "El que ayuda a trabajar" },
+        { "es": "El que comparte el pan" },
+        { "es": "El que vive en la misma casa" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cum es con y panis es pan, así que un compañero era quien compartía el pan contigo en el camino." },
+      "topic": "etimología",
+      "source": "https://dle.rae.es/compa%C3%B1ero"
+    },
+    {
+      "id": "words-hard-030", "level": "hard", "type": "mc", "lang": "es", "emoji": "⬅️",
+      "q": { "es": "¿De qué lengua antigua de la península tomó el español la palabra izquierda?" },
+      "choices": [
+        { "es": "Del celta" },
+        { "es": "Del godo" },
+        { "es": "Del fenicio" },
+        { "es": "Del vasco" }
+      ],
+      "answer": 3,
+      "why": { "es": "Izquierda viene del vasco ezkerra, y llama la atención porque casi todo el vocabulario básico del español procede del latín." },
+      "topic": "etimología",
+      "source": "https://dle.rae.es/izquierdo"
+    },
+    {
+      "id": "words-hard-031", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔁",
+      "q": { "es": "¿Cuál de estas frases se lee igual al derecho y al revés?" },
+      "choices": [
+        { "es": "Anita lava la tina" },
+        { "es": "Ana toma la sopa" },
+        { "es": "Mi mamá me mima" },
+        { "es": "Sopa de sapos" }
+      ],
+      "answer": 0,
+      "why": { "es": "Un palíndromo se lee igual en los dos sentidos; funciona si ignoras los espacios y las tildes, como en reconocer." },
+      "topic": "palíndromos",
+      "source": "https://dle.rae.es/pal%C3%ADndromo"
+    },
+    {
+      "id": "words-hard-032", "level": "hard", "type": "mc", "lang": "es", "emoji": "💐",
+      "q": { "es": "¿Cuál de estas palabras es un anagrama de la palabra amor?" },
+      "choices": [
+        { "es": "Amar" },
+        { "es": "Ramo" },
+        { "es": "Marco" },
+        { "es": "Rama" }
+      ],
+      "answer": 1,
+      "why": { "es": "Un anagrama usa todas las letras una sola vez; amor, ramo, mora y Roma comparten las mismas cuatro letras." },
+      "topic": "anagramas",
+      "source": "https://dle.rae.es/anagrama"
+    },
+    {
+      "id": "words-hard-033", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔊",
+      "q": { "es": "¿Qué figura literaria usa la frase «te lo he dicho mil veces»?" },
+      "choices": [
+        { "es": "Metáfora" },
+        { "es": "Personificación" },
+        { "es": "Hipérbole" },
+        { "es": "Onomatopeya" }
+      ],
+      "answer": 2,
+      "why": { "es": "La hipérbole exagera a propósito para dar fuerza; nadie cuenta esas mil veces, pero la frase suena mucho más intensa." },
+      "topic": "lenguaje figurado",
+      "source": "https://dle.rae.es/hip%C3%A9rbole"
+    },
+    {
+      "id": "words-hard-034", "level": "hard", "type": "mc", "lang": "es", "emoji": "🌬️",
+      "q": { "es": "En «el viento susurra entre los árboles», ¿qué figura literaria aparece?" },
+      "choices": [
+        { "es": "Símil" },
+        { "es": "Hipérbole" },
+        { "es": "Antítesis" },
+        { "es": "Personificación" }
+      ],
+      "answer": 3,
+      "why": { "es": "La personificación da acciones humanas a cosas o animales: el viento susurra, la luna vigila, el reloj camina sin piernas." },
+      "topic": "lenguaje figurado",
+      "source": "https://dle.rae.es/personificaci%C3%B3n"
+    },
+    {
+      "id": "words-hard-035", "level": "hard", "type": "mc", "lang": "es", "emoji": "🏃",
+      "q": { "es": "En la oración «Ana corrió rápidamente hacia la puerta», ¿cuál palabra es el adverbio?" },
+      "choices": [
+        { "es": "Rápidamente" },
+        { "es": "Corrió" },
+        { "es": "Hacia" },
+        { "es": "Puerta" }
+      ],
+      "answer": 0,
+      "why": { "es": "El adverbio dice cómo, cuándo o dónde ocurre la acción; muchos terminan en -mente y se mantienen siempre iguales." },
+      "topic": "clases de palabras",
+      "source": "https://dle.rae.es/adverbio"
+    },
+    {
+      "id": "words-hard-036", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔗",
+      "q": { "es": "¿Cuál de estas palabras es una conjunción que une dos ideas opuestas?" },
+      "choices": [
+        { "es": "Muy" },
+        { "es": "Pero" },
+        { "es": "Sobre" },
+        { "es": "Nuestro" }
+      ],
+      "answer": 1,
+      "why": { "es": "Las conjunciones unen palabras u oraciones: y suma, pero contrasta, porque explica, y o presenta una elección entre dos." },
+      "topic": "clases de palabras",
+      "source": "https://dle.rae.es/conjunci%C3%B3n"
+    },
+    {
+      "id": "words-hard-037", "level": "hard", "type": "tf", "lang": "es", "emoji": "🗣️",
+      "q": { "es": "En español, las letras b y v se pronuncian exactamente igual." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "Ambas suenan igual desde hace siglos; por eso hay que aprender de memoria si una palabra lleva b o v." },
+      "topic": "ortografía",
+      "source": "https://www.rae.es/dpd/v"
+    },
+    {
+      "id": "words-hard-038", "level": "hard", "type": "tf", "lang": "es", "emoji": "📝",
+      "q": { "es": "El español tiene cinco conjugaciones verbales diferentes." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "Son tres: los verbos terminan en -ar, -er o -ir, y amar, comer y vivir son los ejemplos clásicos." },
+      "topic": "verbos",
+      "source": "https://dle.rae.es/conjugaci%C3%B3n"
     }
   ]
 }

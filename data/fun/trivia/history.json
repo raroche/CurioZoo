@@ -3160,6 +3160,906 @@
       "why": { "en": "The marathon honours a legend about a runner carrying news to Athens; its distance was fixed at 42.195 kilometres, 26.2 miles, in 1921.", "es": "El maratón recuerda la leyenda de un corredor que llevó noticias a Atenas; su distancia se fijó en 42.195 kilómetros, 26.2 millas, en 1921." },
       "topic": "olympic games",
       "source": "https://www.britannica.com/sports/marathon-race"
+    },
+    {
+      "id": "history-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔔",
+      "q": { "en": "On what date in 1810 did Miguel Hidalgo call the people of Dolores to rise?", "es": "¿En qué fecha de 1810 llamó Miguel Hidalgo al pueblo de Dolores a levantarse?" },
+      "choices": [
+        { "en": "16 September", "es": "16 de septiembre" },
+        { "en": "5 May", "es": "5 de mayo" },
+        { "en": "12 October", "es": "12 de octubre" },
+        { "en": "20 November", "es": "20 de noviembre" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mexico marks that night, the Grito de Dolores, as its independence day, though fighting continued until Spain accepted independence in 1821.", "es": "México celebra esa noche, el Grito de Dolores, como su día de independencia, aunque la lucha siguió hasta que España la aceptó en 1821." },
+      "topic": "latin american independence",
+      "source": "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla"
+    },
+    {
+      "id": "history-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Which crossing in 1819 let Bolívar surprise the Spanish and free New Granada?", "es": "¿Qué travesía de 1819 permitió a Bolívar sorprender a los españoles y liberar la Nueva Granada?" },
+      "choices": [
+        { "en": "The Darién jungle", "es": "La selva del Darién" },
+        { "en": "The high Andes at the Pisba moor", "es": "Los Andes altos por el páramo de Pisba" },
+        { "en": "The Atacama desert", "es": "El desierto de Atacama" },
+        { "en": "The delta of the Orinoco", "es": "El delta del Orinoco" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bolívar led about 2400 troops over a freezing 4000-metre, 13,000-foot pass; the victory at Boyacá opened the road to Bogotá.", "es": "Bolívar cruzó con unos 2400 soldados un paso helado de 4000 metros, 13,000 pies; la victoria de Boyacá abrió el camino a Bogotá." },
+      "topic": "latin american independence",
+      "source": "https://www.britannica.com/biography/Simon-Bolivar"
+    },
+    {
+      "id": "history-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "Why did San Martín cross the Andes into Chile in 1817 rather than march straight for Lima?", "es": "¿Por qué San Martín cruzó los Andes hacia Chile en 1817 en vez de marchar directo a Lima?" },
+      "choices": [
+        { "en": "The northern road was blocked by floods", "es": "El camino del norte estaba bloqueado por inundaciones" },
+        { "en": "Chile had already promised him a fleet", "es": "Chile ya le había prometido una flota" },
+        { "en": "He planned to reach Peru by sea instead", "es": "Planeaba llegar al Perú por mar" },
+        { "en": "His soldiers refused to cross the desert", "es": "Sus soldados se negaron a cruzar el desierto" }
+      ],
+      "answer": 2,
+      "why": { "en": "Crossing 4000-metre, 13,000-foot passes with 5000 troops, he freed Chile, built a fleet there, and sailed north to Lima in 1820.", "es": "Cruzó pasos de 4000 metros, 13,000 pies, con 5000 soldados, liberó Chile, armó una flota y navegó al norte hacia Lima en 1820." },
+      "topic": "latin american independence",
+      "source": "https://www.britannica.com/biography/Jose-de-San-Martin"
+    },
+    {
+      "id": "history-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Which of these did Benito Juárez achieve while leading Mexico in the 1860s?", "es": "¿Cuál de estas cosas logró Benito Juárez mientras encabezaba a México en la década de 1860?" },
+      "choices": [
+        { "en": "Winning independence from Spain", "es": "Ganar la independencia de España" },
+        { "en": "Founding the city of Oaxaca", "es": "Fundar la ciudad de Oaxaca" },
+        { "en": "Signing the Plan of Iguala", "es": "Firmar el Plan de Iguala" },
+        { "en": "Ending the French-backed empire in Mexico", "es": "Terminar con el imperio apoyado por Francia" }
+      ],
+      "answer": 3,
+      "why": { "en": "Juárez governed from a carriage while French troops held the capital; his famous line links respect for the rights of others with peace.", "es": "Juárez gobernó desde un carruaje mientras tropas francesas ocupaban la capital; su frase famosa une el respeto al derecho ajeno con la paz." },
+      "topic": "latin american independence",
+      "source": "https://www.britannica.com/biography/Benito-Juarez"
+    },
+    {
+      "id": "history-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "In which year did Cuba become an independent republic, long after José Martí began the struggle?", "es": "¿En qué año se volvió Cuba una república independiente, mucho después de que José Martí iniciara la lucha?" },
+      "choices": [
+        { "en": "1902", "es": "1902" },
+        { "en": "1868", "es": "1868" },
+        { "en": "1895", "es": "1895" },
+        { "en": "1898", "es": "1898" }
+      ],
+      "answer": 0,
+      "why": { "en": "Martí died in 1895 at the start of the final war; Spain withdrew in 1898 and the republic was declared four years later.", "es": "Martí murió en 1895 al comienzo de la última guerra; España se retiró en 1898 y la república se proclamó cuatro años después." },
+      "topic": "latin american independence",
+      "source": "https://www.britannica.com/biography/Jose-Marti"
+    },
+    {
+      "id": "history-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "What did the American Declaration of Independence of 1776 claim about where a government gets its power?", "es": "¿Qué decía la Declaración de Independencia de 1776 sobre de dónde saca su poder un gobierno?" },
+      "choices": [
+        { "en": "From the agreement of the people governed", "es": "Del acuerdo de las personas gobernadas" },
+        { "en": "From the wealth of its landowners", "es": "De la riqueza de sus terratenientes" },
+        { "en": "From treaties signed with other kingdoms", "es": "De los tratados firmados con otros reinos" },
+        { "en": "From the age of its ruling family", "es": "De la antigüedad de su familia gobernante" }
+      ],
+      "answer": 0,
+      "why": { "en": "Jefferson borrowed from the philosopher John Locke; the idea that rulers serve by consent inspired revolutions across Europe and Latin America.", "es": "Jefferson tomó ideas del filósofo John Locke; la idea de que el poder viene del pueblo inspiró revoluciones en Europa y América Latina." },
+      "topic": "american revolution",
+      "source": "https://www.loc.gov/item/today-in-history/july-04"
+    },
+    {
+      "id": "history-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "✍️",
+      "q": { "en": "In which year did Britain and the thirteen colonies sign the treaty that ended their war?", "es": "¿En qué año firmaron Gran Bretaña y las trece colonias el tratado que terminó su guerra?" },
+      "choices": [
+        { "en": "1776", "es": "1776" },
+        { "en": "1783", "es": "1783" },
+        { "en": "1781", "es": "1781" },
+        { "en": "1789", "es": "1789" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fighting largely stopped at Yorktown in 1781, but the Treaty of Paris settled the borders two years later and recognised independence.", "es": "La lucha casi terminó en Yorktown en 1781, pero el Tratado de París fijó las fronteras dos años después y reconoció la independencia." },
+      "topic": "american revolution",
+      "source": "https://www.britannica.com/event/Treaty-of-Paris-1783"
+    },
+    {
+      "id": "history-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥖",
+      "q": { "en": "What was the main complaint of the Third Estate in France in 1789?", "es": "¿Cuál era la principal queja del tercer estado en Francia en 1789?" },
+      "choices": [
+        { "en": "It wanted France to leave its colonies", "es": "Quería que Francia dejara sus colonias" },
+        { "en": "It wanted the king moved out of Paris", "es": "Quería que el rey saliera de París" },
+        { "en": "It wanted the harvest shared equally", "es": "Quería repartir la cosecha por partes iguales" },
+        { "en": "It paid most of the taxes but had little say", "es": "Pagaba casi todos los impuestos y casi no decidía" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Third Estate was everyone outside the clergy and nobility, about 97 of every 100 French people, and it declared itself the National Assembly.", "es": "El tercer estado era todo el que no fuera clero ni nobleza, casi 97 de cada 100 franceses, y se declaró Asamblea Nacional." },
+      "topic": "french revolution",
+      "source": "https://www.britannica.com/event/French-Revolution"
+    },
+    {
+      "id": "history-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Which lasting change did the French Revolution give the world beyond the borders of France?", "es": "¿Qué cambio duradero dio la Revolución francesa al mundo más allá de las fronteras de Francia?" },
+      "choices": [
+        { "en": "The seven-day week", "es": "La semana de siete días" },
+        { "en": "The system of street numbers", "es": "El sistema de números en las calles" },
+        { "en": "The metric system of measurement", "es": "El sistema métrico de medidas" },
+        { "en": "The use of paper money", "es": "El uso del papel moneda" }
+      ],
+      "answer": 2,
+      "why": { "en": "Revolutionaries wanted measures drawn from nature, so the metre was defined from Earth itself, and most countries now measure in metric units.", "es": "Los revolucionarios querían medidas tomadas de la naturaleza, así que el metro se definió a partir de la Tierra; casi todos los países lo usan." },
+      "topic": "french revolution",
+      "source": "https://www.britannica.com/science/metric-system-measurement"
+    },
+    {
+      "id": "history-hard-045", "level": "hard", "type": "tf", "lang": "both", "emoji": "📆",
+      "q": { "en": "The French Revolution replaced the calendar as well as the government.", "es": "La Revolución francesa cambió el calendario además del gobierno." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "France used a ten-day week and renamed the months after weather and harvests from 1793 until Napoleon dropped the calendar in 1806.", "es": "Francia usó semanas de diez días y renombró los meses según el clima y las cosechas desde 1793 hasta que Napoleón lo anuló en 1806." },
+      "topic": "french revolution",
+      "source": "https://www.britannica.com/topic/French-republican-calendar"
+    },
+    {
+      "id": "history-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "Which improvement by James Watt made the steam engine cheap enough to run factories?", "es": "¿Qué mejora de James Watt hizo que la máquina de vapor fuera barata para mover fábricas?" },
+      "choices": [
+        { "en": "A high-pressure boiler", "es": "Una caldera de alta presión" },
+        { "en": "A separate condenser chamber", "es": "Una cámara de condensación aparte" },
+        { "en": "A heavy rotating flywheel", "es": "Un volante pesado giratorio" },
+        { "en": "A coal-fired brick furnace", "es": "Un horno de ladrillo alimentado con carbón" }
+      ],
+      "answer": 1,
+      "why": { "en": "Newcomen engines wasted fuel by cooling the cylinder each stroke; the separate chamber Watt added saved about three quarters of the coal.", "es": "Las máquinas de Newcomen enfriaban el cilindro en cada golpe y gastaban carbón; la cámara aparte de Watt ahorró casi tres cuartas partes." },
+      "topic": "industrial revolution",
+      "source": "https://www.britannica.com/biography/James-Watt"
+    },
+    {
+      "id": "history-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏭",
+      "q": { "en": "Why did the earliest factories in Britain grow up beside fast-running rivers?", "es": "¿Por qué las primeras fábricas de Gran Bretaña surgieron junto a ríos de corriente rápida?" },
+      "choices": [
+        { "en": "River water cooled the steam engines", "es": "El agua del río enfriaba las máquinas de vapor" },
+        { "en": "Boats were the only way to move cloth", "es": "Los barcos eran la única forma de mover la tela" },
+        { "en": "Water wheels drove all the machines", "es": "Las ruedas hidráulicas movían todas las máquinas" },
+        { "en": "Rivers marked the edges of the towns", "es": "Los ríos marcaban los límites de los pueblos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Before steam, one water wheel turned the shafts and belts of a whole mill, so the first cotton factories stood in valleys.", "es": "Antes del vapor, una rueda hidráulica movía los ejes y correas de todo el molino; por eso las primeras fábricas de algodón estaban en valles." },
+      "topic": "industrial revolution",
+      "source": "https://www.britannica.com/event/Industrial-Revolution"
+    },
+    {
+      "id": "history-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚂",
+      "q": { "en": "In which year did the first steam railway open between Stockton and Darlington in England?", "es": "¿En qué año se abrió el primer ferrocarril de vapor entre Stockton y Darlington, en Inglaterra?" },
+      "choices": [
+        { "en": "1804", "es": "1804" },
+        { "en": "1830", "es": "1830" },
+        { "en": "1863", "es": "1863" },
+        { "en": "1825", "es": "1825" }
+      ],
+      "answer": 3,
+      "why": { "en": "The line built by George Stephenson carried coal from 1825; the Liverpool and Manchester railway followed in 1830 and began a worldwide boom.", "es": "La línea de George Stephenson llevó carbón desde 1825; el ferrocarril de Liverpool y Manchester siguió en 1830 e inició un auge mundial." },
+      "topic": "industrial revolution",
+      "source": "https://www.britannica.com/technology/railroad"
+    },
+    {
+      "id": "history-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏰",
+      "q": { "en": "How did factory work change the way ordinary people measured their working day?", "es": "¿Cómo cambió el trabajo en las fábricas la forma en que la gente medía su jornada?" },
+      "choices": [
+        { "en": "By the clock instead of by daylight", "es": "Por el reloj en vez de por la luz del día" },
+        { "en": "By the church bell instead of the clock", "es": "Por la campana de la iglesia en vez del reloj" },
+        { "en": "By the tide instead of by the Sun", "es": "Por la marea en vez de por el Sol" },
+        { "en": "By the season instead of by the week", "es": "Por la estación en vez de por la semana" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mills ran on fixed shifts, so workers needed clocks and bells; before factories most people worked by sunlight and by the task.", "es": "Las fábricas tenían turnos fijos, así que hacían falta relojes y campanas; antes la gente trabajaba con la luz del sol y por tareas." },
+      "topic": "industrial revolution",
+      "source": "https://www.britannica.com/event/Industrial-Revolution"
+    },
+    {
+      "id": "history-hard-050", "level": "hard", "type": "tf", "lang": "both", "emoji": "🪨",
+      "q": { "en": "The Industrial Revolution began in Britain partly because coal, iron and rivers lay close together there.", "es": "La Revolución Industrial empezó en Gran Bretaña en parte porque el carbón, el hierro y los ríos estaban cerca." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Britain also had banks willing to lend and colonies buying cloth, so geography and money together let factories spread faster than anywhere else.", "es": "Gran Bretaña también tenía bancos dispuestos a prestar y colonias que compraban tela; geografía y dinero juntos hicieron crecer las fábricas rapidísimo." },
+      "topic": "industrial revolution",
+      "source": "https://www.britannica.com/event/Industrial-Revolution"
+    },
+    {
+      "id": "history-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛓️",
+      "q": { "en": "Which country in the Americas ended slavery first, in the year 1804?", "es": "¿Qué país de América terminó primero con la esclavitud, en el año 1804?" },
+      "choices": [
+        { "en": "Mexico", "es": "México" },
+        { "en": "Haiti", "es": "Haití" },
+        { "en": "Chile", "es": "Chile" },
+        { "en": "The United States", "es": "Estados Unidos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Enslaved people in the French colony of Saint-Domingue freed themselves and founded Haiti in 1804, the second independent state in the Americas.", "es": "Las personas esclavizadas de la colonia francesa de Saint-Domingue se liberaron y fundaron Haití en 1804, el segundo estado independiente de América." },
+      "topic": "abolition of slavery",
+      "source": "https://www.britannica.com/event/Haitian-Revolution"
+    },
+    {
+      "id": "history-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖋️",
+      "q": { "en": "Which Mexican leader ordered the ending of slavery in 1829, decades before many other countries?", "es": "¿Qué dirigente mexicano ordenó terminar con la esclavitud en 1829, décadas antes que muchos otros países?" },
+      "choices": [
+        { "en": "Agustín de Iturbide", "es": "Agustín de Iturbide" },
+        { "en": "Guadalupe Victoria", "es": "Guadalupe Victoria" },
+        { "en": "Vicente Guerrero", "es": "Vicente Guerrero" },
+        { "en": "Antonio López de Santa Anna", "es": "Antonio López de Santa Anna" }
+      ],
+      "answer": 2,
+      "why": { "en": "Guerrero, himself of African and Indigenous descent, signed the decree in 1829; Hidalgo had already ordered abolition during the war in 1810.", "es": "Guerrero, de ascendencia africana e indígena, firmó el decreto en 1829; Hidalgo ya había ordenado la abolición durante la guerra en 1810." },
+      "topic": "abolition of slavery",
+      "source": "https://www.britannica.com/biography/Vicente-Guerrero"
+    },
+    {
+      "id": "history-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "Which country in the Americas was the last to abolish slavery, in the year 1888?", "es": "¿Qué país de América fue el último en abolir la esclavitud, en el año 1888?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "The United States", "es": "Estados Unidos" },
+        { "en": "Brazil", "es": "Brasil" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Golden Law of Brazil freed the last enslaved people in 1888; Cuba had ended slavery in 1886 and the United States in 1865.", "es": "La Ley Áurea de Brasil liberó a las últimas personas esclavizadas en 1888; Cuba lo hizo en 1886 y Estados Unidos en 1865." },
+      "topic": "abolition of slavery",
+      "source": "https://www.britannica.com/topic/Golden-Law"
+    },
+    {
+      "id": "history-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "In which year did Britain end slavery across most of its empire?", "es": "¿En qué año terminó Gran Bretaña con la esclavitud en casi todo su imperio?" },
+      "choices": [
+        { "en": "1833", "es": "1833" },
+        { "en": "1807", "es": "1807" },
+        { "en": "1848", "es": "1848" },
+        { "en": "1865", "es": "1865" }
+      ],
+      "answer": 0,
+      "why": { "en": "Britain had banned the trade in 1807 but kept slavery itself until the act of 1833, which freed about 800,000 people across the Caribbean.", "es": "Gran Bretaña prohibió el tráfico en 1807 pero mantuvo la esclavitud hasta la ley de 1833, que liberó a unas 800,000 personas en el Caribe." },
+      "topic": "abolition of slavery",
+      "source": "https://www.britannica.com/topic/Slavery-Abolition-Act"
+    },
+    {
+      "id": "history-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "Which event in Sarajevo in 1914 set off the chain of alliances that began the First World War?", "es": "¿Qué suceso de Sarajevo en 1914 activó la cadena de alianzas que inició la Primera Guerra Mundial?" },
+      "choices": [
+        { "en": "A dispute over shipping in the North Sea", "es": "Una disputa por el transporte en el mar del Norte" },
+        { "en": "The death of an Austrian archduke", "es": "La muerte de un archiduque austriaco" },
+        { "en": "The collapse of a treaty between France and Russia", "es": "La caída de un tratado entre Francia y Rusia" },
+        { "en": "A rebellion inside the Austrian parliament", "es": "Una rebelión dentro del parlamento austriaco" }
+      ],
+      "answer": 1,
+      "why": { "en": "Alliances pulled country after country in within six weeks; Europe had built two blocs that promised to defend each other automatically.", "es": "Las alianzas arrastraron a un país tras otro en seis semanas; Europa había formado dos bloques que prometían defenderse entre sí automáticamente." },
+      "topic": "first world war",
+      "source": "https://www.britannica.com/event/World-War-I"
+    },
+    {
+      "id": "history-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which treaty of 1919 ended the First World War and left Germany deeply resentful?", "es": "¿Qué tratado de 1919 terminó la Primera Guerra Mundial y dejó a Alemania muy resentida?" },
+      "choices": [
+        { "en": "The Treaty of Trianon", "es": "El Tratado de Trianón" },
+        { "en": "The Treaty of Brest-Litovsk", "es": "El Tratado de Brest-Litovsk" },
+        { "en": "The Treaty of Versailles", "es": "El Tratado de Versalles" },
+        { "en": "The Treaty of Locarno", "es": "El Tratado de Locarno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Versailles demanded heavy payments and lost territory; historians link that resentment, plus the economic collapse of the 1930s, to the next war.", "es": "Versalles exigió pagos enormes y pérdida de territorio; los historiadores unen ese resentimiento y la crisis de los años treinta con la guerra siguiente." },
+      "topic": "first world war",
+      "source": "https://www.britannica.com/event/Treaty-of-Versailles-1919"
+    },
+    {
+      "id": "history-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "In which year did the Second World War begin in Europe?", "es": "¿En qué año comenzó la Segunda Guerra Mundial en Europa?" },
+      "choices": [
+        { "en": "1914", "es": "1914" },
+        { "en": "1933", "es": "1933" },
+        { "en": "1941", "es": "1941" },
+        { "en": "1939", "es": "1939" }
+      ],
+      "answer": 3,
+      "why": { "en": "Germany invaded Poland in September 1939 and Britain and France declared war days later; fighting in Asia had already begun in 1937.", "es": "Alemania invadió Polonia en septiembre de 1939 y Gran Bretaña y Francia declararon la guerra días después; en Asia ya había guerra desde 1937." },
+      "topic": "second world war",
+      "source": "https://www.britannica.com/event/World-War-II"
+    },
+    {
+      "id": "history-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Which organisation was founded in 1945 so that countries would talk before they fought?", "es": "¿Qué organización se fundó en 1945 para que los países hablaran antes de pelear?" },
+      "choices": [
+        { "en": "The United Nations", "es": "Las Naciones Unidas" },
+        { "en": "The League of Nations", "es": "La Sociedad de Naciones" },
+        { "en": "The Red Cross", "es": "La Cruz Roja" },
+        { "en": "The Court at The Hague", "es": "La Corte de La Haya" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fifty-one countries signed the charter in San Francisco; the earlier League of Nations had failed partly because major powers stayed outside it.", "es": "Cincuenta y un países firmaron la carta en San Francisco; la antigua Sociedad de Naciones falló en parte porque las grandes potencias quedaron fuera." },
+      "topic": "second world war",
+      "source": "https://www.britannica.com/topic/United-Nations"
+    },
+    {
+      "id": "history-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔧",
+      "q": { "en": "Which work did women take up in huge numbers during both world wars, changing employment afterwards?", "es": "¿Qué trabajo tomaron las mujeres en gran número durante las dos guerras mundiales, cambiando el empleo después?" },
+      "choices": [
+        { "en": "Steering ships across the ocean", "es": "Gobernar barcos por el océano" },
+        { "en": "Factory and machine work", "es": "El trabajo en fábricas y con máquinas" },
+        { "en": "Cutting timber in northern forests", "es": "Cortar madera en los bosques del norte" },
+        { "en": "Driving mail coaches between cities", "es": "Conducir coches de correo entre ciudades" }
+      ],
+      "answer": 1,
+      "why": { "en": "Millions of women ran lathes and assembly lines while men were away, and the experience strengthened arguments for voting rights in several countries.", "es": "Millones de mujeres manejaron tornos y líneas de montaje mientras los hombres estaban fuera; eso reforzó los argumentos por el voto femenino." },
+      "topic": "second world war",
+      "source": "https://www.loc.gov/collections/women-of-protest/"
+    },
+    {
+      "id": "history-hard-060", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌍",
+      "q": { "en": "The First World War was fought only on the continent of Europe.", "es": "La Primera Guerra Mundial se peleó únicamente en el continente europeo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fighting reached Africa, the Middle East and the Pacific, and troops came from India, Canada, Australia and many African colonies.", "es": "La lucha llegó a África, el Medio Oriente y el Pacífico, y llegaron soldados de India, Canadá, Australia y muchas colonias africanas." },
+      "topic": "first world war",
+      "source": "https://www.britannica.com/event/World-War-I"
+    },
+    {
+      "id": "history-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "What did the launch of Sputnik in 1957 do to schooling in the United States?", "es": "¿Qué le hizo a la educación en Estados Unidos el lanzamiento del Sputnik en 1957?" },
+      "choices": [
+        { "en": "It ended the teaching of foreign languages", "es": "Terminó la enseñanza de idiomas extranjeros" },
+        { "en": "It moved most lessons onto television", "es": "Pasó casi todas las clases a la televisión" },
+        { "en": "It pushed money into science and mathematics teaching", "es": "Llevó dinero a la enseñanza de ciencias y matemáticas" },
+        { "en": "It made the school year two months longer", "es": "Alargó el año escolar dos meses" }
+      ],
+      "answer": 2,
+      "why": { "en": "A beeping metal ball the size of a beach ball alarmed Washington, and a 1958 law funded laboratories, libraries and teacher training.", "es": "Una bola metálica del tamaño de un balón asustó a Washington, y una ley de 1958 dio dinero a laboratorios, bibliotecas y formación docente." },
+      "topic": "space race",
+      "source": "https://www.nasa.gov/history/sputnik/"
+    },
+    {
+      "id": "history-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Who became the first human being to orbit the Earth, in April 1961?", "es": "¿Quién fue el primer ser humano en orbitar la Tierra, en abril de 1961?" },
+      "choices": [
+        { "en": "Alan Shepard", "es": "Alan Shepard" },
+        { "en": "Valentina Tereshkova", "es": "Valentina Tereshkova" },
+        { "en": "John Glenn", "es": "John Glenn" },
+        { "en": "Yuri Gagarin", "es": "Yuri Gagarin" }
+      ],
+      "answer": 3,
+      "why": { "en": "Gagarin circled the Earth once in 108 minutes; Shepard flew three weeks later, Glenn orbited in 1962 and Tereshkova in 1963.", "es": "Gagarin dio una vuelta a la Tierra en 108 minutos; Shepard voló tres semanas después, Glenn orbitó en 1962 y Tereshkova en 1963." },
+      "topic": "space race",
+      "source": "https://www.britannica.com/biography/Yury-Gagarin"
+    },
+    {
+      "id": "history-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What was the Berlin Wall of 1961 mainly built to stop?", "es": "¿Qué quería impedir sobre todo el muro de Berlín construido en 1961?" },
+      "choices": [
+        { "en": "Goods being carried secretly into the city", "es": "Que entraran mercancías a escondidas en la ciudad" },
+        { "en": "Armies crossing the German border", "es": "Que los ejércitos cruzaran la frontera alemana" },
+        { "en": "Radio signals reaching the eastern side", "es": "Que las señales de radio llegaran al lado oriental" },
+        { "en": "People leaving East Berlin for the west", "es": "Que la gente saliera de Berlín oriental hacia el oeste" }
+      ],
+      "answer": 3,
+      "why": { "en": "About 2.5 million people had already left; the concrete barrier stood twenty-eight years and came down in 1989 when travel rules loosened.", "es": "Ya habían salido unos 2.5 millones de personas; el muro de concreto duró veintiocho años y cayó en 1989 al suavizarse las reglas de viaje." },
+      "topic": "cold war",
+      "source": "https://www.britannica.com/topic/Berlin-Wall"
+    },
+    {
+      "id": "history-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏁",
+      "q": { "en": "Why was the space race treated as a contest between two countries rather than a shared science project?", "es": "¿Por qué la carrera espacial se vivió como una competencia entre dos países y no como ciencia compartida?" },
+      "choices": [
+        { "en": "Only two countries had trained pilots", "es": "Solo dos países tenían pilotos entrenados" },
+        { "en": "Rockets showed off a country's technical power", "es": "Los cohetes mostraban el poder técnico de un país" },
+        { "en": "Space law allowed just two nations to launch", "es": "La ley espacial permitía lanzar solo a dos naciones" },
+        { "en": "Television could carry only two live feeds", "es": "La televisión solo podía llevar dos señales en vivo" }
+      ],
+      "answer": 1,
+      "why": { "en": "The same engineering that lifts a satellite can carry anything a long way, so each launch was read as proof of strength.", "es": "La misma ingeniería que pone un satélite en órbita puede llevar cualquier carga lejos, así que cada lanzamiento se leía como prueba de fuerza." },
+      "topic": "space race",
+      "source": "https://www.britannica.com/science/space-exploration"
+    },
+    {
+      "id": "history-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "How long did the Cold War last, from the end of the Second World War to the Soviet Union's end?", "es": "¿Cuánto duró la Guerra Fría, desde el fin de la Segunda Guerra Mundial hasta el fin de la Unión Soviética?" },
+      "choices": [
+        { "en": "About 20 years", "es": "Unos 20 años" },
+        { "en": "About 30 years", "es": "Unos 30 años" },
+        { "en": "About 45 years", "es": "Unos 45 años" },
+        { "en": "About 60 years", "es": "Unos 60 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "From 1945 to 1991 the two blocs competed through spies, sport, aid and space, yet their armies avoided fighting each other directly.", "es": "De 1945 a 1991 los dos bloques compitieron con espías, deporte, ayuda y espacio, pero sus ejércitos evitaron pelear directamente entre sí." },
+      "topic": "cold war",
+      "source": "https://www.britannica.com/event/Cold-War"
+    },
+    {
+      "id": "history-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚌",
+      "q": { "en": "What happened in Montgomery, Alabama, after Rosa Parks kept her seat on a bus in 1955?", "es": "¿Qué pasó en Montgomery, Alabama, después de que Rosa Parks conservara su asiento en un autobús en 1955?" },
+      "choices": [
+        { "en": "A new law passed within a month", "es": "Se aprobó una ley nueva en un mes" },
+        { "en": "A strike by the city's bus drivers", "es": "Una huelga de los choferes de autobús de la ciudad" },
+        { "en": "A march from Montgomery to Atlanta", "es": "Una marcha de Montgomery a Atlanta" },
+        { "en": "A boycott of the buses lasting over a year", "es": "Un boicot a los autobuses de más de un año" }
+      ],
+      "answer": 3,
+      "why": { "en": "About 40,000 Black residents walked or shared rides for 381 days until the courts ruled that segregated seating on buses was unlawful.", "es": "Unos 40,000 residentes negros caminaron o compartieron carro durante 381 días hasta que los tribunales declararon ilegal separar asientos en los autobuses." },
+      "topic": "civil rights",
+      "source": "https://www.loc.gov/item/today-in-history/december-01/"
+    },
+    {
+      "id": "history-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "✊",
+      "q": { "en": "Which law of 1964 made it unlawful in the United States to separate people by race in public places?", "es": "¿Qué ley de 1964 volvió ilegal en Estados Unidos separar a la gente por raza en lugares públicos?" },
+      "choices": [
+        { "en": "The Voting Rights Act", "es": "La Ley del Derecho al Voto" },
+        { "en": "The Fair Housing Act", "es": "La Ley de Vivienda Justa" },
+        { "en": "The Civil Rights Act", "es": "La Ley de Derechos Civiles" },
+        { "en": "The Equal Pay Act", "es": "La Ley de Igualdad Salarial" }
+      ],
+      "answer": 2,
+      "why": { "en": "The act also banned unfair hiring; a companion law the following year protected voting, and a 1968 law covered the renting of homes.", "es": "La ley también prohibió la contratación injusta; otra ley al año siguiente protegió el voto y una de 1968 cubrió la renta de viviendas." },
+      "topic": "civil rights",
+      "source": "https://www.loc.gov/exhibitions/civil-rights-act/"
+    },
+    {
+      "id": "history-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "For about how many years was Nelson Mandela held in prison before he walked free in 1990?", "es": "¿Cuántos años estuvo Nelson Mandela en prisión antes de salir libre en 1990?" },
+      "choices": [
+        { "en": "27 years", "es": "27 años" },
+        { "en": "11 years", "es": "11 años" },
+        { "en": "18 years", "es": "18 años" },
+        { "en": "35 years", "es": "35 años" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mandela spent eighteen of those years on Robben Island breaking stone; four years after his release South Africa held an all-race election.", "es": "Mandela pasó dieciocho de esos años en la isla Robben partiendo piedra; cuatro años después de salir, Sudáfrica votó sin distinción de raza." },
+      "topic": "civil rights",
+      "source": "https://www.britannica.com/biography/Nelson-Mandela"
+    },
+    {
+      "id": "history-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗳️",
+      "q": { "en": "In which year did South Africa hold its first election open to voters of every race?", "es": "¿En qué año celebró Sudáfrica su primera elección abierta a votantes de todas las razas?" },
+      "choices": [
+        { "en": "1948", "es": "1948" },
+        { "en": "1994", "es": "1994" },
+        { "en": "1976", "es": "1976" },
+        { "en": "1990", "es": "1990" }
+      ],
+      "answer": 1,
+      "why": { "en": "Apartheid laws had ruled since 1948; when the queues formed in 1994 some voters waited many hours, and Mandela became head of state.", "es": "Las leyes del apartheid regían desde 1948; en 1994 algunas filas de votantes duraron horas y Mandela se volvió jefe de estado." },
+      "topic": "civil rights",
+      "source": "https://www.britannica.com/topic/apartheid"
+    },
+    {
+      "id": "history-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "What did Ada Lovelace realise about Babbage's Analytical Engine that Babbage himself had missed?", "es": "¿Qué entendió Ada Lovelace sobre la máquina analítica de Babbage que él mismo había pasado por alto?" },
+      "choices": [
+        { "en": "That it could run on steam power", "es": "Que podía funcionar con vapor" },
+        { "en": "That it could store results on cards", "es": "Que podía guardar resultados en tarjetas" },
+        { "en": "That it could work on symbols, and not only numbers", "es": "Que podía trabajar con símbolos, y no solo con números" },
+        { "en": "That it could be built from iron instead of brass", "es": "Que podía construirse de hierro en vez de latón" }
+      ],
+      "answer": 2,
+      "why": { "en": "In 1843 Lovelace wrote that such a machine might compose music or handle any symbols, a century before electronic computers existed.", "es": "En 1843 Lovelace escribió que esa máquina podría componer música o manejar cualquier símbolo, un siglo antes de las computadoras electrónicas." },
+      "topic": "computing history",
+      "source": "https://www.britannica.com/biography/Ada-Lovelace"
+    },
+    {
+      "id": "history-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "What question did the test proposed by Alan Turing in 1950 try to settle?", "es": "¿Qué pregunta quería resolver la prueba que Alan Turing propuso en 1950?" },
+      "choices": [
+        { "en": "Whether a machine could beat a person at chess", "es": "Si una máquina podía ganarle al ajedrez a una persona" },
+        { "en": "Whether a machine could translate any language", "es": "Si una máquina podía traducir cualquier idioma" },
+        { "en": "Whether a machine could work without electricity", "es": "Si una máquina podía funcionar sin electricidad" },
+        { "en": "Whether a machine could converse like a person", "es": "Si una máquina podía conversar como una persona" }
+      ],
+      "answer": 3,
+      "why": { "en": "Turing suggested judging a machine by whether a hidden conversation fooled a human judge; he also helped break coded messages during the war.", "es": "Turing propuso juzgar a una máquina según si su conversación oculta engañaba a un juez humano; además descifró mensajes en clave durante la guerra." },
+      "topic": "computing history",
+      "source": "https://www.britannica.com/technology/Turing-test"
+    },
+    {
+      "id": "history-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔌",
+      "q": { "en": "How were the first programs put into the ENIAC computer in the 1940s?", "es": "¿Cómo se metían los primeros programas en la computadora ENIAC en la década de 1940?" },
+      "choices": [
+        { "en": "By rewiring it with cables and switches", "es": "Recableándola con cables e interruptores" },
+        { "en": "By punching holes in paper tape", "es": "Perforando agujeros en cinta de papel" },
+        { "en": "By typing on a keyboard", "es": "Escribiendo en un teclado" },
+        { "en": "By setting rings of magnetic metal", "es": "Colocando anillos de metal magnético" }
+      ],
+      "answer": 0,
+      "why": { "en": "Six women programmed ENIAC by hand, and a single job could take days of replugging; stored programs arrived only a few years later.", "es": "Seis mujeres programaban la ENIAC a mano y un solo trabajo podía tardar días de recableado; los programas guardados llegaron pocos años después." },
+      "topic": "computing history",
+      "source": "https://www.britannica.com/technology/ENIAC"
+    },
+    {
+      "id": "history-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "📧",
+      "q": { "en": "Why did the engineer who sent the first network email in 1971 pick the at sign?", "es": "¿Por qué el ingeniero que envió el primer correo por red en 1971 eligió el signo arroba?" },
+      "choices": [
+        { "en": "It appeared on very few keyboards", "es": "Aparecía en muy pocos teclados" },
+        { "en": "It was unlikely to appear inside a name", "es": "Era difícil que apareciera dentro de un nombre" },
+        { "en": "It was the fastest key to reach", "es": "Era la tecla más rápida de alcanzar" },
+        { "en": "It already meant address in printing", "es": "Ya significaba dirección en la imprenta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ray Tomlinson needed a symbol that would never sit inside a user's name; he later said the first message was probably meaningless test text.", "es": "Ray Tomlinson buscaba un símbolo que jamás apareciera dentro de un nombre de usuario; contó después que el primer mensaje fue texto de prueba." },
+      "topic": "internet history",
+      "source": "https://www.britannica.com/technology/electronic-mail"
+    },
+    {
+      "id": "history-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖥️",
+      "q": { "en": "What were the first two computers linked on the ARPANET network in 1969 trying to do when it failed?", "es": "¿Qué intentaban hacer las dos primeras computadoras unidas por la red ARPANET en 1969 cuando falló?" },
+      "choices": [
+        { "en": "Send a photograph", "es": "Enviar una fotografía" },
+        { "en": "Share one printer", "es": "Compartir una impresora" },
+        { "en": "Send the word login", "es": "Enviar la palabra login" },
+        { "en": "Set their two clocks together", "es": "Poner sus dos relojes a la misma hora" }
+      ],
+      "answer": 2,
+      "why": { "en": "Only two letters arrived before the link failed, so the first message across the network was the accidental word lo, sent from California.", "es": "Solo llegaron dos letras antes de que fallara el enlace, así que el primer mensaje de la red fue la palabra accidental lo, desde California." },
+      "topic": "internet history",
+      "source": "https://www.britannica.com/topic/ARPANET"
+    },
+    {
+      "id": "history-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "What did Edward Jenner notice about milkmaids that led him to the first vaccine in 1796?", "es": "¿Qué notó Edward Jenner en las ordeñadoras que lo llevó a la primera vacuna en 1796?" },
+      "choices": [
+        { "en": "They healed from burns faster", "es": "Sanaban más rápido de las quemaduras" },
+        { "en": "They had much stronger hands", "es": "Tenían las manos mucho más fuertes" },
+        { "en": "They lived in cleaner homes", "es": "Vivían en casas más limpias" },
+        { "en": "They rarely caught smallpox", "es": "Rara vez contraían viruela" }
+      ],
+      "answer": 3,
+      "why": { "en": "Milkmaids caught mild cowpox from cattle, which trained their bodies against smallpox; the word vaccine comes from vacca, the Latin for cow.", "es": "Las ordeñadoras contraían viruela bovina leve, que entrenaba su cuerpo contra la viruela; vacuna viene de vacca, la palabra latina para vaca." },
+      "topic": "medicine history",
+      "source": "https://www.britannica.com/biography/Edward-Jenner"
+    },
+    {
+      "id": "history-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "What did Ignaz Semmelweis ask doctors to do in 1847 that made his hospital far safer?", "es": "¿Qué les pidió Ignaz Semmelweis a los médicos en 1847 que hizo su hospital mucho más seguro?" },
+      "choices": [
+        { "en": "Wash their hands in a chlorine solution", "es": "Lavarse las manos con una solución de cloro" },
+        { "en": "Boil their instruments before using them", "es": "Hervir sus instrumentos antes de usarlos" },
+        { "en": "Open the windows for fresh air", "es": "Abrir las ventanas para tener aire fresco" },
+        { "en": "Change the bedding every morning", "es": "Cambiar las sábanas cada mañana" }
+      ],
+      "answer": 0,
+      "why": { "en": "Germs had yet to be discovered, so colleagues rejected his evidence; hand washing became normal practice only decades after his careful counting.", "es": "Todavía no se conocían los microbios, así que sus colegas rechazaron las pruebas; lavarse las manos se volvió costumbre décadas después." },
+      "topic": "medicine history",
+      "source": "https://www.britannica.com/biography/Ignaz-Semmelweis"
+    },
+    {
+      "id": "history-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "💊",
+      "q": { "en": "About how many years passed between Fleming's discovery of penicillin in 1928 and its wide use?", "es": "¿Cuántos años pasaron entre el hallazgo de la penicilina por Fleming en 1928 y su uso amplio?" },
+      "choices": [
+        { "en": "About 2 years", "es": "Unos 2 años" },
+        { "en": "About 15 years", "es": "Unos 15 años" },
+        { "en": "About 30 years", "es": "Unos 30 años" },
+        { "en": "About 50 years", "es": "Unos 50 años" }
+      ],
+      "answer": 1,
+      "why": { "en": "Florey and Chain worked out how to purify and grow enough of the mould, so the medicine reached large numbers of patients around 1943.", "es": "Florey y Chain hallaron cómo purificar y cultivar bastante del hongo, así que la medicina llegó a muchos pacientes hacia 1943." },
+      "topic": "medicine history",
+      "source": "https://www.britannica.com/science/penicillin"
+    },
+    {
+      "id": "history-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Which discovery let doctors finally explain why washing hands and boiling instruments works?", "es": "¿Qué descubrimiento permitió a los médicos explicar por fin por qué sirve lavarse las manos?" },
+      "choices": [
+        { "en": "The circulation of the blood", "es": "La circulación de la sangre" },
+        { "en": "The structure of the cell", "es": "La estructura de la célula" },
+        { "en": "The germ theory of disease", "es": "La teoría microbiana de la enfermedad" },
+        { "en": "The rules of heredity", "es": "Las reglas de la herencia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pasteur and Koch showed in the 1860s and 1870s that tiny living things cause illness, turning cleanliness from a hunch into science.", "es": "Pasteur y Koch mostraron en las décadas de 1860 y 1870 que seres diminutos causan enfermedades, y la limpieza pasó de corazonada a ciencia." },
+      "topic": "medicine history",
+      "source": "https://www.britannica.com/science/germ-theory"
+    },
+    {
+      "id": "history-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "Why did the calendar jump from 4 October straight to 15 October in the year 1582?", "es": "¿Por qué el calendario saltó del 4 de octubre al 15 de octubre en el año 1582?" },
+      "choices": [
+        { "en": "To match the calendar used in China", "es": "Para igualar el calendario usado en China" },
+        { "en": "To celebrate a new ruler's first year", "es": "Para celebrar el primer año de un nuevo gobernante" },
+        { "en": "To make every month the same length", "es": "Para que todos los meses duraran lo mismo" },
+        { "en": "To correct a drift in the date of the seasons", "es": "Para corregir el desfase en la fecha de las estaciones" }
+      ],
+      "answer": 3,
+      "why": { "en": "The old Roman year ran about eleven minutes long, so ten days had slipped since ancient times; some countries waited centuries to switch.", "es": "El año romano antiguo duraba unos once minutos de más, así que se habían perdido diez días; algunos países tardaron siglos en cambiar." },
+      "topic": "everyday inventions",
+      "source": "https://www.britannica.com/topic/Gregorian-calendar"
+    },
+    {
+      "id": "history-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕓",
+      "q": { "en": "Why did countries begin dividing themselves into time zones during the 1880s?", "es": "¿Por qué los países empezaron a dividirse en husos horarios durante la década de 1880?" },
+      "choices": [
+        { "en": "Railway timetables needed one shared time", "es": "Los horarios del tren necesitaban una hora común" },
+        { "en": "Ships needed a way to measure longitude", "es": "Los barcos necesitaban medir la longitud" },
+        { "en": "Telephone lines needed a shared signal", "es": "Las líneas de teléfono necesitaban una señal común" },
+        { "en": "Factories needed identical working shifts", "es": "Las fábricas necesitaban turnos idénticos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every town once set noon by its own Sun, so a train could pass through dozens of local times; railways forced a common standard.", "es": "Cada pueblo fijaba el mediodía por su propio Sol, así que un tren cruzaba decenas de horas locales; los ferrocarriles impusieron una hora común." },
+      "topic": "everyday inventions",
+      "source": "https://www.britannica.com/science/standard-time"
+    },
+    {
+      "id": "history-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "👓",
+      "q": { "en": "In which part of the world were the first eyeglasses with two lenses made, around 1290?", "es": "¿En qué parte del mundo se hicieron los primeros lentes con dos cristales, hacia 1290?" },
+      "choices": [
+        { "en": "Southern China", "es": "El sur de China" },
+        { "en": "Northern Italy", "es": "El norte de Italia" },
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Flanders", "es": "Flandes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Early glasses helped ageing scholars and copyists read again; lenses for short sight came later, and arms hooking over the ears later still.", "es": "Los primeros lentes ayudaban a leer a copistas y sabios mayores; los lentes para miopía llegaron después, y las patillas mucho más tarde." },
+      "topic": "everyday inventions",
+      "source": "https://www.britannica.com/technology/eyeglasses"
+    },
+    {
+      "id": "history-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎯",
+      "q": { "en": "What shape was the first barcode design, patented in 1952, before the striped version won?", "es": "¿Qué forma tenía el primer diseño de código de barras, patentado en 1952, antes de ganar las rayas?" },
+      "choices": [
+        { "en": "A grid of small squares", "es": "Una cuadrícula de cuadros pequeños" },
+        { "en": "A row of coloured dots", "es": "Una fila de puntos de colores" },
+        { "en": "A set of circles like a target", "es": "Un conjunto de círculos como un blanco" },
+        { "en": "A spiral of short lines", "es": "Una espiral de líneas cortas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The bullseye pattern could be read from any angle but smeared when printed, so stripes took over when a supermarket scanned gum in 1974.", "es": "El diseño de diana se leía desde cualquier ángulo pero se corría al imprimirse; las rayas ganaron cuando un supermercado escaneó goma en 1974." },
+      "topic": "everyday inventions",
+      "source": "https://www.smithsonianmag.com/innovation/history-of-the-bar-code-180956704/"
+    },
+    {
+      "id": "history-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "📮",
+      "q": { "en": "Why were postal codes such as zip codes brought in during the 1960s?", "es": "¿Por qué se crearon los códigos postales durante la década de 1960?" },
+      "choices": [
+        { "en": "To let people choose a street name", "es": "Para que la gente eligiera el nombre de su calle" },
+        { "en": "To make stamps cheaper to print", "es": "Para abaratar la impresión de las estampillas" },
+        { "en": "To let letters cross borders without inspection", "es": "Para que las cartas cruzaran fronteras sin revisión" },
+        { "en": "To let machines sort growing piles of mail", "es": "Para que las máquinas clasificaran montañas de correo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mail volume had outgrown human sorters, so numbers let machines route letters; the American system added four extra digits in 1983.", "es": "El correo creció más que los clasificadores humanos, así que los números dejaron que las máquinas guiaran las cartas; en 1983 se añadieron cuatro dígitos." },
+      "topic": "everyday inventions",
+      "source": "https://www.smithsonianmag.com/smithsonian-institution/brief-history-zip-code-180959222/"
+    },
+    {
+      "id": "history-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Caral in Peru was being built at about the same time as which other ancient wonder?", "es": "¿Caral, en el Perú, se construía casi al mismo tiempo que cuál otra maravilla antigua?" },
+      "choices": [
+        { "en": "The pyramids of Egypt", "es": "Las pirámides de Egipto" },
+        { "en": "The Parthenon in Athens", "es": "El Partenón de Atenas" },
+        { "en": "The Great Wall of China", "es": "La Gran Muralla china" },
+        { "en": "The Colosseum in Rome", "es": "El Coliseo de Roma" }
+      ],
+      "answer": 0,
+      "why": { "en": "Caral rose around 2600 BC in a desert valley, with sunken plazas and stepped platforms but no sign of walls for defence.", "es": "Caral se levantó hacia 2600 a.C. en un valle desértico, con plazas hundidas y plataformas escalonadas, sin señales de murallas de defensa." },
+      "topic": "andean civilisations",
+      "source": "https://whc.unesco.org/en/list/1269/"
+    },
+    {
+      "id": "history-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What did the Maya Long Count calendar measure that other calendars of its time left out?", "es": "¿Qué medía la Cuenta Larga maya que otros calendarios de su época dejaban fuera?" },
+      "choices": [
+        { "en": "The length of each ruler's life", "es": "La duración de la vida de cada gobernante" },
+        { "en": "Days counted from one fixed starting point", "es": "Los días contados desde un punto de inicio fijo" },
+        { "en": "The movement of the Milky Way", "es": "El movimiento de la Vía Láctea" },
+        { "en": "The height of the rainy season", "es": "El punto más alto de la temporada de lluvias" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Long Count begins in 3114 BC and simply counts days, so a Maya date can be matched to our calendar exactly.", "es": "La Cuenta Larga empieza en 3114 a.C. y solo cuenta días, así que una fecha maya se puede pasar a nuestro calendario con exactitud." },
+      "topic": "mesoamerican achievements",
+      "source": "https://www.britannica.com/topic/Maya-calendar"
+    },
+    {
+      "id": "history-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐒",
+      "q": { "en": "How were the Nazca lines of Peru made in the desert about two thousand years ago?", "es": "¿Cómo se hicieron las líneas de Nazca en el desierto del Perú hace unos dos mil años?" },
+      "choices": [
+        { "en": "By digging deep trenches into sand", "es": "Cavando zanjas profundas en la arena" },
+        { "en": "By painting the ground with white lime", "es": "Pintando el suelo con cal blanca" },
+        { "en": "By clearing dark stones to show pale ground", "es": "Quitando piedras oscuras para mostrar el suelo claro" },
+        { "en": "By planting long rows of pale grasses", "es": "Sembrando hileras largas de pastos claros" }
+      ],
+      "answer": 2,
+      "why": { "en": "The desert almost never rains, so the cleared paths survive; the largest figures stretch 370 metres, 1200 feet, across the plain.", "es": "En ese desierto casi nunca llueve, por eso los caminos despejados duran; las figuras mayores miden 370 metros, 1200 pies, de largo." },
+      "topic": "andean civilisations",
+      "source": "https://whc.unesco.org/en/list/700/"
+    },
+    {
+      "id": "history-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What did the builders of Tiwanaku in Bolivia use to lock their huge stone blocks together?", "es": "¿Qué usaban los constructores de Tiwanaku, en Bolivia, para trabar sus enormes bloques de piedra?" },
+      "choices": [
+        { "en": "Wooden pegs soaked in water", "es": "Clavijas de madera remojadas en agua" },
+        { "en": "Mortar made of ash and lime", "es": "Mortero hecho de ceniza y cal" },
+        { "en": "Ropes of woven llama wool", "es": "Sogas tejidas de lana de llama" },
+        { "en": "Metal clamps poured into carved slots", "es": "Grapas de metal vertidas en ranuras talladas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Workers poured molten copper alloy into I-shaped grooves so the joints held; the city stood 3850 metres, 12,600 feet, above the sea.", "es": "Los trabajadores vertían aleación de cobre fundido en ranuras en forma de I; la ciudad estaba a 3850 metros, 12,600 pies, sobre el mar." },
+      "topic": "andean civilisations",
+      "source": "https://whc.unesco.org/en/list/567/"
+    },
+    {
+      "id": "history-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "About how many kilometres of road did the Inca build through mountains and desert?", "es": "¿Cuántos kilómetros de camino construyeron los incas por montañas y desiertos?" },
+      "choices": [
+        { "en": "About 40,000 km, 25,000 miles", "es": "Unos 40,000 km, 25,000 millas" },
+        { "en": "About 4000 km, 2500 miles", "es": "Unos 4000 km, 2500 millas" },
+        { "en": "About 12,000 km, 7500 miles", "es": "Unos 12,000 km, 7500 millas" },
+        { "en": "About 100,000 km, 62,000 miles", "es": "Unos 100,000 km, 62,000 millas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Relay runners called chasquis carried a message from Quito to Cusco, about 2000 kilometres, 1250 miles, in roughly a week.", "es": "Los chasquis, corredores de relevo, llevaban un mensaje de Quito a Cusco, unos 2000 kilómetros, 1250 millas, en cerca de una semana." },
+      "topic": "andean civilisations",
+      "source": "https://whc.unesco.org/en/list/1459/"
+    },
+    {
+      "id": "history-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥔",
+      "q": { "en": "Which crop travelled from the Americas to Europe and later rescued many northern harvests?", "es": "¿Qué cultivo viajó de América a Europa y después salvó muchas cosechas del norte?" },
+      "choices": [
+        { "en": "Wheat", "es": "El trigo" },
+        { "en": "The potato", "es": "La papa" },
+        { "en": "Rice", "es": "El arroz" },
+        { "en": "The olive", "es": "La aceituna" }
+      ],
+      "answer": 1,
+      "why": { "en": "Andean farmers had bred thousands of potato varieties; the plant grows in poor soil and fed the growing cities of northern Europe.", "es": "Los agricultores andinos criaron miles de variedades de papa; la planta crece en suelo pobre y alimentó ciudades crecientes del norte de Europa." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/topic/Columbian-exchange"
+    },
+    {
+      "id": "history-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "Which pair of foods travelled from Europe to the Americas as part of the Columbian exchange?", "es": "¿Qué par de alimentos viajó de Europa a América como parte del intercambio colombino?" },
+      "choices": [
+        { "en": "Maize and turkeys", "es": "El maíz y los pavos" },
+        { "en": "Tomatoes and cacao", "es": "El jitomate y el cacao" },
+        { "en": "Wheat and cattle", "es": "El trigo y el ganado" },
+        { "en": "Peanuts and pineapples", "es": "Los cacahuates y las piñas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Maize, tomatoes, cacao, potatoes and vanilla went east, while wheat, cattle, horses and sugar cane came west, remaking meals everywhere.", "es": "Maíz, jitomate, cacao, papa y vainilla viajaron al este, y trigo, ganado, caballos y caña de azúcar al oeste, cambiando las comidas." },
+      "topic": "columbian exchange",
+      "source": "https://www.britannica.com/topic/Columbian-exchange"
+    },
+    {
+      "id": "history-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐫",
+      "q": { "en": "Why did very few traders travel the whole length of the Silk Road themselves?", "es": "¿Por qué muy pocos comerciantes recorrían por sí mismos toda la Ruta de la Seda?" },
+      "choices": [
+        { "en": "Mountain passes were shut most of the year", "es": "Los pasos de montaña cerraban casi todo el año" },
+        { "en": "Only officials were allowed to cross borders", "es": "Solo los funcionarios podían cruzar las fronteras" },
+        { "en": "The journey cost more than the goods were worth", "es": "El viaje costaba más que las mercancías" },
+        { "en": "Goods passed from one merchant to the next", "es": "Las mercancías pasaban de un comerciante a otro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Silk might change hands twenty times between China and Rome, which is why Romans knew the cloth but hardly knew where it came from.", "es": "La seda podía cambiar de manos veinte veces entre China y Roma; por eso los romanos conocían la tela pero apenas sabían su origen." },
+      "topic": "silk road",
+      "source": "https://en.unesco.org/silkroad/about-silk-roads"
+    },
+    {
+      "id": "history-hard-092", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧭",
+      "q": { "en": "The Silk Road carried ideas and illnesses as well as goods.", "es": "La Ruta de la Seda transportaba ideas y enfermedades además de mercancías." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Buddhism, paper and new fruits travelled the routes, and so did the fleas that later carried the Black Death into Europe.", "es": "El budismo, el papel y frutas nuevas viajaron por esas rutas, y también las pulgas que después llevaron la peste negra a Europa." },
+      "topic": "silk road",
+      "source": "https://en.unesco.org/silkroad/about-silk-roads"
+    },
+    {
+      "id": "history-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "What does radiocarbon dating measure to work out the age of something once alive?", "es": "¿Qué mide la datación por radiocarbono para calcular la edad de algo que estuvo vivo?" },
+      "choices": [
+        { "en": "How much oxygen the object absorbed", "es": "Cuánto oxígeno absorbió el objeto" },
+        { "en": "How much carbon-14 has broken down", "es": "Cuánto carbono 14 se ha desintegrado" },
+        { "en": "How deep the object lay in the soil", "es": "A qué profundidad estaba el objeto en el suelo" },
+        { "en": "How hard the surface has become", "es": "Qué tan dura se ha vuelto la superficie" }
+      ],
+      "answer": 1,
+      "why": { "en": "Living things take in carbon-14, which decays at a steady rate afterwards, so the method reaches back about fifty thousand years.", "es": "Los seres vivos absorben carbono 14, que después se desintegra a ritmo constante, así que el método alcanza unos cincuenta mil años." },
+      "topic": "archaeology methods",
+      "source": "https://www.britannica.com/science/carbon-14-dating"
+    },
+    {
+      "id": "history-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪏",
+      "q": { "en": "In an undisturbed dig, what does the rule of stratigraphy say about the deeper layers?", "es": "En una excavación intacta, ¿qué dice la regla de la estratigrafía sobre las capas más profundas?" },
+      "choices": [
+        { "en": "They are usually richer in metal", "es": "Suelen tener más metal" },
+        { "en": "They are usually thinner", "es": "Suelen ser más delgadas" },
+        { "en": "They are usually older", "es": "Suelen ser más antiguas" },
+        { "en": "They are usually warmer", "es": "Suelen estar más tibias" }
+      ],
+      "answer": 2,
+      "why": { "en": "Layers pile up over time like pages in a book, so a floor beneath another floor was almost always walked on earlier.", "es": "Las capas se acumulan con el tiempo como páginas de un libro, así que un piso debajo de otro casi siempre se pisó antes." },
+      "topic": "archaeology methods",
+      "source": "https://www.britannica.com/science/stratigraphy-geology"
+    },
+    {
+      "id": "history-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "Why was the Rosetta Stone so useful to the scholars who studied it?", "es": "¿Por qué fue tan útil la piedra de Rosetta para los estudiosos que la examinaron?" },
+      "choices": [
+        { "en": "It listed the name of every pharaoh", "es": "Enumeraba el nombre de cada faraón" },
+        { "en": "It carried a map of the Nile delta", "es": "Llevaba un mapa del delta del Nilo" },
+        { "en": "It was signed by the scribe who cut it", "es": "Estaba firmada por el escriba que la talló" },
+        { "en": "The same text appeared in three scripts", "es": "El mismo texto aparecía en tres escrituras" }
+      ],
+      "answer": 3,
+      "why": { "en": "Greek could already be read, so matching it against Egyptian signs let Champollion crack hieroglyphs in 1822 after twenty years of work.", "es": "El griego ya se leía, así que compararlo con los signos egipcios permitió a Champollion descifrar los jeroglíficos en 1822 tras veinte años." },
+      "topic": "archaeology methods",
+      "source": "https://www.britishmuseum.org/collection/object/Y_EA24"
+    },
+    {
+      "id": "history-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "Which everyday find tells an archaeologist most about how ordinary people really lived?", "es": "¿Qué hallazgo cotidiano le dice más a un arqueólogo sobre cómo vivía la gente común?" },
+      "choices": [
+        { "en": "Broken pottery and kitchen rubbish", "es": "Cerámica rota y basura de cocina" },
+        { "en": "Gold jewellery from a tomb", "es": "Joyas de oro de una tumba" },
+        { "en": "Carved stones from a temple", "es": "Piedras talladas de un templo" },
+        { "en": "Coins struck for a ruler", "es": "Monedas acuñadas para un gobernante" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rubbish pits hold bones, seeds and cracked pots that nobody bothered to save, so they show daily meals rather than royal display.", "es": "Los basureros guardan huesos, semillas y ollas rotas que nadie quiso conservar, así que muestran la comida diaria y no el lujo real." },
+      "topic": "archaeology methods",
+      "source": "https://www.britannica.com/science/archaeology"
+    },
+    {
+      "id": "history-hard-097", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Educated Europeans in the time of Columbus believed the Earth was flat.", "es": "Los europeos cultos de la época de Colón creían que la Tierra era plana." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Greek scholars had measured the globe long before, and the flat-Earth story was spread by writers in the 1800s to mock the past.", "es": "Los sabios griegos ya habían medido el globo, y el cuento de la Tierra plana lo difundieron escritores del siglo diecinueve para burlarse." },
+      "topic": "corrected ideas",
+      "source": "https://www.britannica.com/story/did-people-in-the-middle-ages-think-the-earth-was-flat"
+    },
+    {
+      "id": "history-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Which Greek scholar measured the size of the Earth around 240 BC using shadows?", "es": "¿Qué sabio griego midió el tamaño de la Tierra hacia 240 a.C. usando sombras?" },
+      "choices": [
+        { "en": "Pythagoras", "es": "Pitágoras" },
+        { "en": "Ptolemy", "es": "Ptolomeo" },
+        { "en": "Eratosthenes", "es": "Eratóstenes" },
+        { "en": "Hipparchus", "es": "Hiparco" }
+      ],
+      "answer": 2,
+      "why": { "en": "He compared shadows in two Egyptian cities on the same day and came within a few per cent of the true circumference.", "es": "Comparó las sombras de dos ciudades egipcias el mismo día y se acercó a la circunferencia verdadera con un error de pocos puntos." },
+      "topic": "corrected ideas",
+      "source": "https://www.britannica.com/biography/Eratosthenes"
+    },
+    {
+      "id": "history-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "Which idea about illness did doctors hold for centuries before germs were discovered?", "es": "¿Qué idea sobre las enfermedades sostuvieron los médicos durante siglos antes de conocer los microbios?" },
+      "choices": [
+        { "en": "That cold water caused disease", "es": "Que el agua fría causaba enfermedades" },
+        { "en": "That loud noise caused disease", "es": "Que el ruido fuerte causaba enfermedades" },
+        { "en": "That bright light caused disease", "es": "Que la luz brillante causaba enfermedades" },
+        { "en": "That bad air caused disease", "es": "Que el aire malo causaba enfermedades" }
+      ],
+      "answer": 3,
+      "why": { "en": "The miasma theory blamed foul smells, which is why malaria means bad air in Italian; it did push cities to clean their drains.", "es": "La teoría del miasma culpaba a los malos olores; por eso malaria significa mal aire en italiano, y aun así empujó a limpiar los drenajes." },
+      "topic": "corrected ideas",
+      "source": "https://www.britannica.com/science/miasma-theory"
+    },
+    {
+      "id": "history-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "❤️",
+      "q": { "en": "Which belief about the human body did William Harvey overturn in 1628?", "es": "¿Qué creencia sobre el cuerpo humano derribó William Harvey en 1628?" },
+      "choices": [
+        { "en": "That blood is made fresh and used up", "es": "Que la sangre se fabrica nueva y se gasta" },
+        { "en": "That the heart makes the body's heat", "es": "Que el corazón produce el calor del cuerpo" },
+        { "en": "That the brain cools the blood", "es": "Que el cerebro enfría la sangre" },
+        { "en": "That the lungs store air for the night", "es": "Que los pulmones guardan aire para la noche" }
+      ],
+      "answer": 0,
+      "why": { "en": "Harvey showed blood circles the body in a loop, pumped by the heart; the volume alone proved it could hardly be made continuously.", "es": "Harvey mostró que la sangre recorre el cuerpo en un circuito impulsada por el corazón; el volumen probaba que no podía fabricarse sin parar." },
+      "topic": "corrected ideas",
+      "source": "https://www.britannica.com/biography/William-Harvey"
     }
   ]
 }

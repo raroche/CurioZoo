@@ -2744,6 +2744,468 @@
       "why": { "en": "Earth takes about 365 and a quarter days to orbit the Sun. Saving the quarters and spending them as one day keeps seasons steady.", "es": "La Tierra tarda unos 365 días y cuarto en dar la vuelta al Sol; guardar esos cuartos y gastarlos juntos acomoda las estaciones." },
       "topic": "time",
       "source": "https://spaceplace.nasa.gov/leap-year/en/"
+    },
+    {
+      "id": "why-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Why does the Moon raise two ocean bulges instead of only one?", "es": "¿Por qué la Luna levanta dos abultamientos de agua y no uno solo?" },
+      "choices": [
+        { "en": "The far side is pulled least, so its water is left behind", "es": "El lado lejano es jalado menos y su agua se queda atrás" },
+        { "en": "The Sun raises the second bulge by itself", "es": "El Sol levanta el segundo abultamiento por su cuenta" },
+        { "en": "Water bounces back from the far shore", "es": "El agua rebota en la costa del otro lado" },
+        { "en": "Earth's spin throws water outward on the far side", "es": "El giro de la Tierra lanza el agua hacia afuera del lado lejano" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Moon pulls the near water hardest and the planet itself harder than the far ocean, so water lags behind on both sides.", "es": "La Luna jala más el agua cercana y más a la Tierra que al océano lejano; el agua lejana se queda atrás." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html"
+    },
+    {
+      "id": "why-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "Why does soap lift greasy dirt that plain water leaves behind?", "es": "¿Por qué el jabón levanta la grasa que el agua sola deja pegada?" },
+      "choices": [
+        { "en": "Soap dissolves grease into acid", "es": "El jabón convierte la grasa en ácido" },
+        { "en": "Each soap molecule has a water-loving end and a grease-loving end", "es": "Cada molécula de jabón tiene un extremo que ama el agua y otro la grasa" },
+        { "en": "Soap makes the water much hotter", "es": "El jabón calienta mucho más el agua" },
+        { "en": "Soap bubbles scrub the grease away", "es": "Las burbujas de jabón tallan la grasa" }
+      ],
+      "answer": 1,
+      "why": { "en": "A soap molecule grabs grease at one end and water at the other, so rinsing carries the whole droplet down the drain.", "es": "Una molécula de jabón agarra la grasa por un extremo y el agua por el otro, así el enjuague se lleva la gota entera." },
+      "topic": "chemistry",
+      "source": "https://www.britannica.com/science/soap"
+    },
+    {
+      "id": "why-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Why do stars twinkle while planets shine with a steadier light?", "es": "¿Por qué las estrellas titilan y los planetas brillan con luz más pareja?" },
+      "choices": [
+        { "en": "Stars pulse brighter and dimmer as they burn", "es": "Las estrellas laten más y menos brillantes mientras arden" },
+        { "en": "Starlight is weaker, so it flickers out", "es": "La luz de las estrellas es débil y se apaga a ratos" },
+        { "en": "Moving air bends the thin beam from a distant point of light", "es": "El aire en movimiento desvía el rayo delgado de un punto de luz lejano" },
+        { "en": "Stars are so far that their light arrives in bursts", "es": "Las estrellas están tan lejos que su luz llega a ráfagas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pockets of warm and cool air bend starlight as it passes; a planet shows a small disc, so its wobbles average out.", "es": "Las capas de aire cálido y frío desvían la luz; un planeta se ve como un disco pequeño y sus temblores se promedian." },
+      "topic": "stars",
+      "source": "https://spaceplace.nasa.gov/twinkling-stars/en/"
+    },
+    {
+      "id": "why-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "Why is human blood red rather than green or blue?", "es": "¿Por qué la sangre humana es roja y no verde o azul?" },
+      "choices": [
+        { "en": "Oxygen itself is red", "es": "El oxígeno mismo es rojo" },
+        { "en": "The red colour comes from the food we eat", "es": "El color rojo viene de la comida que comemos" },
+        { "en": "The blood vessels tint it red", "es": "Los vasos sanguíneos le dan el tono rojo" },
+        { "en": "Iron in hemoglobin sends red light back when it holds oxygen", "es": "El hierro de la hemoglobina devuelve luz roja cuando lleva oxígeno" }
+      ],
+      "answer": 3,
+      "why": { "en": "Hemoglobin, the protein that carries oxygen, holds iron; that iron-oxygen pairing absorbs blue-green light and sends red light back to your eye.", "es": "La hemoglobina, la proteína que lleva el oxígeno, contiene hierro; esa unión absorbe la luz azul y verde y devuelve la roja." },
+      "topic": "blood",
+      "source": "https://www.nhlbi.nih.gov/health/blood"
+    },
+    {
+      "id": "why-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "😮",
+      "q": { "en": "Why does a hiccup make that sharp sound in your throat?", "es": "¿Por qué el hipo produce ese sonido seco en la garganta?" },
+      "choices": [
+        { "en": "The diaphragm jerks and the voice box snaps shut", "es": "El diafragma salta y la laringe se cierra de golpe" },
+        { "en": "The stomach squeezes a bubble of air upward", "es": "El estómago empuja una burbuja de aire hacia arriba" },
+        { "en": "The lungs empty far too quickly", "es": "Los pulmones se vacían demasiado rápido" },
+        { "en": "The heart bumps against the windpipe", "es": "El corazón golpea la tráquea" }
+      ],
+      "answer": 0,
+      "why": { "en": "A nerve makes the diaphragm, the breathing muscle under your lungs, twitch; air rushes in and the vocal cords slam shut.", "es": "Un nervio hace que el diafragma, el músculo que usas para respirar, salte; entra aire de golpe y las cuerdas vocales se cierran." },
+      "topic": "human body",
+      "source": "https://medlineplus.gov/hiccups.html"
+    },
+    {
+      "id": "why-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌇",
+      "q": { "en": "Why does sunlight turn orange and red only when the Sun sits low?", "es": "¿Por qué la luz del Sol se vuelve naranja y roja solo cuando está bajo?" },
+      "choices": [
+        { "en": "Dust from the ground dyes the light", "es": "El polvo del suelo tiñe la luz" },
+        { "en": "Low sunlight crosses much more air, so the blue scatters away first", "es": "La luz baja cruza mucho más aire y el azul se dispersa primero" },
+        { "en": "The Sun cools down near the horizon", "es": "El Sol se enfría cerca del horizonte" },
+        { "en": "The ocean reflects red light upward", "es": "El océano refleja luz roja hacia arriba" }
+      ],
+      "answer": 1,
+      "why": { "en": "Near the horizon sunlight crosses many times more air; the short blue waves scatter sideways, leaving the long red ones heading toward you.", "es": "Cerca del horizonte la luz cruza mucho más aire; las ondas azules, cortas, se dispersan y solo llegan a ti las rojas, largas." },
+      "topic": "light",
+      "source": "https://scijinks.gov/blue-sky/"
+    },
+    {
+      "id": "why-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛫",
+      "q": { "en": "Why does a wing lift a heavy airplane into the air?", "es": "¿Por qué un ala levanta un avión pesado en el aire?" },
+      "choices": [
+        { "en": "The engines point downward and push it up", "es": "Los motores apuntan hacia abajo y lo empujan" },
+        { "en": "The air inside the wing is lighter than the air outside", "es": "El aire dentro del ala es más ligero que el de afuera" },
+        { "en": "The wing throws air downward and the pressure above it drops", "es": "El ala lanza aire hacia abajo y la presión de arriba baja" },
+        { "en": "Air over the longer top must arrive at the same moment", "es": "El aire de arriba debe llegar al mismo tiempo que el de abajo" }
+      ],
+      "answer": 2,
+      "why": { "en": "A tilted wing throws air downward, and the faster flow above it drops in pressure; these are two views of the same push.", "es": "El ala inclinada empuja aire hacia abajo y arriba la presión baja; son dos maneras de describir el mismo empujón hacia arriba." },
+      "topic": "flight",
+      "source": "https://www.grc.nasa.gov/www/k-12/airplane/lift1.html"
+    },
+    {
+      "id": "why-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "Why does desert air lose its heat so fast after sunset?", "es": "¿Por qué el aire del desierto pierde su calor tan rápido al anochecer?" },
+      "choices": [
+        { "en": "Desert sand pulls the heat deep into the ground", "es": "La arena del desierto jala el calor hacia el fondo del suelo" },
+        { "en": "Night winds always blow in from the sea", "es": "De noche siempre entra viento desde el mar" },
+        { "en": "Every desert sits high above sea level", "es": "Todo desierto está muy por encima del nivel del mar" },
+        { "en": "Dry air holds almost no water vapour to trap escaping heat", "es": "El aire seco casi no tiene vapor de agua para atrapar el calor" }
+      ],
+      "answer": 3,
+      "why": { "en": "Water vapour absorbs heat rising from the ground. Desert air is dry, and bare sand stores little warmth, so the heat escapes to space.", "es": "El vapor de agua atrapa el calor que sube del suelo. En el desierto el aire es seco y el calor escapa al espacio." },
+      "topic": "deserts",
+      "source": "https://www.britannica.com/science/desert"
+    },
+    {
+      "id": "why-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Why would an astronaut suffocate in the open air of Mars?", "es": "¿Por qué un astronauta se asfixiaría en el aire libre de Marte?" },
+      "choices": [
+        { "en": "The thin air is almost all carbon dioxide, with little oxygen", "es": "El aire delgado es casi todo dióxido de carbono y tiene poco oxígeno" },
+        { "en": "Mars has no air at all above its surface", "es": "Marte no tiene nada de aire sobre su superficie" },
+        { "en": "The cold freezes the lungs before oxygen matters", "es": "El frío congela los pulmones antes que falte el oxígeno" },
+        { "en": "Martian dust blocks oxygen from entering the blood", "es": "El polvo marciano impide que el oxígeno entre a la sangre" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mars keeps a wisp of atmosphere about one percent as thick as ours, and it is roughly 95 percent carbon dioxide.", "es": "Marte tiene una atmósfera de apenas el uno por ciento del grosor de la nuestra, y casi todo es dióxido de carbono." },
+      "topic": "mars",
+      "source": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "id": "why-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Why does helium make your voice sound high and squeaky?", "es": "¿Por qué el helio hace que tu voz suene aguda y chillona?" },
+      "choices": [
+        { "en": "Helium tightens the vocal cords", "es": "El helio tensa las cuerdas vocales" },
+        { "en": "Sound moves faster in helium, so higher tones ring out", "es": "El sonido viaja más rápido en helio y resaltan los tonos altos" },
+        { "en": "Helium makes the vocal cords vibrate faster", "es": "El helio hace vibrar más rápido las cuerdas vocales" },
+        { "en": "Helium shrinks the throat a little", "es": "El helio encoge un poco la garganta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your cords buzz at the same rate, but sound races through light helium, so your mouth favours higher overtones and the voice thins.", "es": "Tus cuerdas vibran igual, pero el sonido viaja más rápido en el helio ligero y tu boca resalta los tonos más agudos." },
+      "topic": "sound",
+      "source": "https://www.britannica.com/science/helium-chemical-element"
+    },
+    {
+      "id": "why-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Why does a boot slide on ice but grip cold stone?", "es": "¿Por qué una bota resbala en el hielo pero agarra en la piedra fría?" },
+      "choices": [
+        { "en": "Ice is perfectly smooth under a microscope", "es": "El hielo es perfectamente liso bajo el microscopio" },
+        { "en": "Your weight melts a path through the ice", "es": "Tu peso derrite un camino en el hielo" },
+        { "en": "A thin film of loose water molecules coats every ice surface", "es": "Una capa delgada de moléculas sueltas cubre toda superficie de hielo" },
+        { "en": "Ice pushes back with a static charge", "es": "El hielo empuja con carga estática" }
+      ],
+      "answer": 2,
+      "why": { "en": "The outermost molecules of ice are held only loosely and behave like liquid, so you slide on a water film even far below freezing.", "es": "Las moléculas de la superficie del hielo están sueltas y actúan como líquido, así que resbalas sobre una capa de agua delgada." },
+      "topic": "ice",
+      "source": "https://www.britannica.com/science/ice"
+    },
+    {
+      "id": "why-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "Why does a metal doorknob feel colder than the wooden door beside it?", "es": "¿Por qué una perilla de metal se siente más fría que la puerta de madera?" },
+      "choices": [
+        { "en": "The metal really does sit at a lower temperature", "es": "El metal de verdad está a menor temperatura" },
+        { "en": "Metal holds on to the cold of the night before", "es": "El metal guarda el frío de la noche anterior" },
+        { "en": "Wood gives off a little heat of its own", "es": "La madera despide un poco de calor propio" },
+        { "en": "Metal pulls heat out of your hand far faster than wood", "es": "El metal saca el calor de tu mano mucho más rápido que la madera" }
+      ],
+      "answer": 3,
+      "why": { "en": "Both sit at room temperature. Your nerves report heat leaving your skin, and metal conducts that heat away hundreds of times faster.", "es": "Los dos están a la misma temperatura. Tus nervios sienten el calor que sale de tu piel, y el metal lo roba más rápido." },
+      "topic": "heat",
+      "source": "https://www.britannica.com/science/thermal-conduction"
+    },
+    {
+      "id": "why-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Why does deep clear ocean water look blue from a boat?", "es": "¿Por qué el agua profunda y limpia del océano se ve azul desde un barco?" },
+      "choices": [
+        { "en": "Water itself absorbs red light and leaves blue behind", "es": "El agua absorbe la luz roja y deja pasar la azul" },
+        { "en": "The ocean mirrors the blue of the sky", "es": "El océano refleja el azul del cielo" },
+        { "en": "Salt in seawater carries a blue tint", "es": "La sal del mar tiene un tono azul" },
+        { "en": "Blue algae colour the open sea", "es": "Algas azules pintan el mar abierto" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water molecules soak up red and yellow light within a few metres, so only blue survives deep enough to scatter back to your eyes.", "es": "Las moléculas de agua absorben la luz roja y amarilla en pocos metros, así que solo el azul regresa hasta tus ojos." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/why-is-the-ocean-blue.html"
+    },
+    {
+      "id": "why-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Why does a lightning bolt travel in a jagged zigzag path?", "es": "¿Por qué un rayo baja en un camino quebrado de zigzag?" },
+      "choices": [
+        { "en": "Wind blows the bolt sideways as it falls", "es": "El viento empuja el rayo de lado mientras cae" },
+        { "en": "It follows the pockets of air that conduct most easily", "es": "Sigue las zonas de aire que conducen con más facilidad" },
+        { "en": "Electricity always prefers to travel in angles", "es": "La electricidad siempre prefiere viajar en ángulos" },
+        { "en": "The bolt bounces off cloud droplets on the way down", "es": "El rayo rebota en las gotas de la nube al bajar" }
+      ],
+      "answer": 1,
+      "why": { "en": "Air resists electricity unevenly, so a faint stepped leader gropes downward in short jumps, and the bright flash follows that crooked trail.", "es": "El aire conduce de forma despareja, así que una chispa guía avanza a saltitos y el rayo brillante sigue ese camino torcido." },
+      "topic": "storms",
+      "source": "https://scijinks.gov/lightning/"
+    },
+    {
+      "id": "why-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛬",
+      "q": { "en": "Why does flying across many time zones leave you exhausted for days?", "es": "¿Por qué volar cruzando muchos husos horarios te deja agotado por días?" },
+      "choices": [
+        { "en": "The cabin air thins your blood during the flight", "es": "El aire de la cabina adelgaza tu sangre durante el vuelo" },
+        { "en": "Sitting still for hours tires out the muscles", "es": "Estar sentado tantas horas cansa los músculos" },
+        { "en": "Your body clock still runs on the hours you left behind", "es": "Tu reloj interno sigue marcando la hora del lugar que dejaste" },
+        { "en": "The speed of the plane confuses the inner ear", "es": "La velocidad del avión confunde el oído interno" }
+      ],
+      "answer": 2,
+      "why": { "en": "A clock in your brain, set by daylight, shifts only about an hour a day, so it lags behind the new sunrise.", "es": "Un reloj en tu cerebro, ajustado por la luz del día, solo se mueve una hora diaria y queda atrasado frente al nuevo amanecer." },
+      "topic": "sleep",
+      "source": "https://www.britannica.com/science/jet-lag"
+    },
+    {
+      "id": "why-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "Why does bread turn hard and dry even inside a sealed bag?", "es": "¿Por qué el pan se pone duro y seco aunque esté en una bolsa cerrada?" },
+      "choices": [
+        { "en": "The sugar inside it crystallises", "es": "El azúcar de adentro se cristaliza" },
+        { "en": "Warm air slowly bakes the crumb a second time", "es": "El aire tibio hornea la miga una segunda vez" },
+        { "en": "The yeast keeps working and eats the moisture", "es": "La levadura sigue trabajando y se come la humedad" },
+        { "en": "Starch molecules slowly rearrange into stiff crystals", "es": "Las moléculas de almidón se reordenan en cristales rígidos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Staling is starch retrogradation: the soft starch from baking creeps back into an ordered crystal shape and squeezes water out of the crumb.", "es": "El almidón ablandado al hornear vuelve poco a poco a una forma ordenada de cristal y expulsa el agua de la miga." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/topic/bread"
+    },
+    {
+      "id": "why-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Why does a spinning top stay upright while a still one topples?", "es": "¿Por qué un trompo que gira se mantiene parado y uno quieto se cae?" },
+      "choices": [
+        { "en": "Spinning turns a sideways pull into a slow circling wobble", "es": "El giro convierte el jalón de lado en un bamboleo circular lento" },
+        { "en": "Spinning makes the top lighter than the air around it", "es": "Girar vuelve al trompo más ligero que el aire" },
+        { "en": "The spin pushes air down and holds the top up", "es": "El giro empuja aire hacia abajo y sostiene al trompo" },
+        { "en": "Turning fast cancels the pull of gravity", "es": "Girar rápido cancela la fuerza de gravedad" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gravity tries to tip it, but the spin turns that tug sideways, so the axis drifts in a slow circle called precession.", "es": "La gravedad intenta voltearlo, pero el giro convierte ese jalón en movimiento lateral: el eje describe un círculo lento llamado precesión." },
+      "topic": "forces",
+      "source": "https://www.britannica.com/science/precession"
+    },
+    {
+      "id": "why-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐱",
+      "q": { "en": "Why can a cat purr steadily while breathing in and out?", "es": "¿Por qué un gato ronronea parejo mientras toma y suelta aire?" },
+      "choices": [
+        { "en": "Blood rushing through the chest makes the hum", "es": "La sangre que corre por el pecho hace el zumbido" },
+        { "en": "Muscles in the voice box flutter on a rapid nerve signal", "es": "Los músculos de la laringe vibran con una señal nerviosa rápida" },
+        { "en": "The cat vibrates its ribs against the lungs", "es": "El gato hace vibrar sus costillas contra los pulmones" },
+        { "en": "Air whistles through a gap between the teeth", "es": "El aire silba por un hueco entre los dientes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Scientists think a signal from the brain twitches the voice-box muscles roughly 25 times a second, so airflow both ways keeps buzzing.", "es": "Los científicos creen que una señal del cerebro mueve los músculos de la laringe unas 25 veces por segundo, y el aire zumba siempre." },
+      "topic": "animal bodies",
+      "source": "https://www.britannica.com/animal/cat-mammal"
+    },
+    {
+      "id": "why-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍝",
+      "q": { "en": "Why does pasta cook slowly in boiling water high in the mountains?", "es": "¿Por qué la pasta se cuece lento en agua hirviendo en la montaña?" },
+      "choices": [
+        { "en": "Mountain water starts out colder before heating", "es": "El agua de montaña empieza más fría antes de calentarse" },
+        { "en": "Thin air cools the pot from the outside", "es": "El aire delgado enfría la olla por fuera" },
+        { "en": "Water boils below 100 °C there, so the food gets less heat", "es": "Allí el agua hierve por debajo de 100 °C y la comida recibe menos calor" },
+        { "en": "Weaker gravity slows the cooking down", "es": "La gravedad más débil hace lenta la cocción" }
+      ],
+      "answer": 2,
+      "why": { "en": "Boiling happens when vapour pushes back the air above. Thin mountain air gives in sooner, so water bubbles near 90 °C (194 °F).", "es": "El agua hierve cuando su vapor vence al aire; en la montaña ese aire pesa menos y hierve cerca de 90 °C (194 °F)." },
+      "topic": "cooking",
+      "source": "https://www.britannica.com/science/boiling-point"
+    },
+    {
+      "id": "why-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Why does a rising Moon look huge above rooftops and small overhead?", "es": "¿Por qué la Luna que sale se ve enorme sobre los techos y pequeña arriba?" },
+      "choices": [
+        { "en": "Air near the ground magnifies it like a lens", "es": "El aire cerca del suelo la agranda como una lupa" },
+        { "en": "The Moon is closer to us when it rises", "es": "La Luna está más cerca de nosotros cuando sale" },
+        { "en": "Dust reddens and swells its outline", "es": "El polvo la enrojece e hincha su contorno" },
+        { "en": "It is an illusion: the disc is the same size either way", "es": "Es una ilusión: el disco mide igual en los dos casos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Photograph both and the disc is the same size; scientists think trees and buildings near the horizon fool your brain's sense of distance.", "es": "Si tomas fotos, el disco mide igual; los científicos creen que los árboles y edificios del horizonte engañan tu sentido de la distancia." },
+      "topic": "the moon",
+      "source": "https://science.nasa.gov/moon/the-moon-illusion/"
+    },
+    {
+      "id": "why-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Why do autumn leaves show orange and yellow before they fall?", "es": "¿Por qué las hojas de otoño muestran naranja y amarillo antes de caer?" },
+      "choices": [
+        { "en": "Those colours were always there, hidden under green chlorophyll", "es": "Esos colores ya estaban ahí, escondidos bajo la clorofila verde" },
+        { "en": "Cold air paints new pigment into the leaf", "es": "El aire frío pinta un pigmento nuevo en la hoja" },
+        { "en": "The leaf rusts as its sap dries out", "es": "La hoja se oxida cuando su savia se seca" },
+        { "en": "Sunlight bleaches the green into yellow", "es": "El sol destiñe el verde y lo vuelve amarillo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Shorter days stop chlorophyll production, and as the green fades the carotenoids underneath show through; red anthocyanins are built fresh in autumn.", "es": "Con los días más cortos la clorofila deja de fabricarse y aparecen los carotenoides que ya estaban; los rojos se fabrican en otoño." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/chlorophyll"
+    },
+    {
+      "id": "why-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "💫",
+      "q": { "en": "Why does the room seem to spin after you stop turning around?", "es": "¿Por qué el cuarto parece girar después de que dejas de dar vueltas?" },
+      "choices": [
+        { "en": "Blood keeps sloshing around inside the brain", "es": "La sangre sigue moviéndose dentro del cerebro" },
+        { "en": "Fluid in the inner ear keeps moving and fools your balance sense", "es": "El líquido del oído interno sigue moviéndose y engaña tu equilibrio" },
+        { "en": "Your eyes hold on to a picture of the last turn", "es": "Tus ojos guardan la imagen del último giro" },
+        { "en": "The neck muscles stay tense from the spinning", "es": "Los músculos del cuello quedan tensos por las vueltas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Three fluid-filled loops in each ear sense turning; the fluid keeps circling after you stop and bends tiny hairs that report a spin.", "es": "Cada oído tiene tres tubos con líquido que detectan los giros; el líquido sigue girando y mueve pelitos que avisan un giro falso." },
+      "topic": "senses",
+      "source": "https://www.nidcd.nih.gov/health/balance-disorders"
+    },
+    {
+      "id": "why-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "📰",
+      "q": { "en": "Why do old photographs and newspapers turn yellow at the edges?", "es": "¿Por qué las fotos y los periódicos viejos se ponen amarillos en las orillas?" },
+      "choices": [
+        { "en": "Dust settles deep into the paper fibres", "es": "El polvo se mete entre las fibras del papel" },
+        { "en": "The ink slowly rises to the surface", "es": "La tinta sube poco a poco a la superficie" },
+        { "en": "Light and air break the paper and dyes into yellow compounds", "es": "La luz y el aire rompen el papel y los colorantes en compuestos amarillos" },
+        { "en": "Paper soaks up smoke from the room", "es": "El papel absorbe el humo del cuarto" }
+      ],
+      "answer": 2,
+      "why": { "en": "Oxygen and light attack lignin in cheap paper and the dyes in a print, building molecules that absorb blue light and look yellow-brown.", "es": "El oxígeno y la luz atacan la lignina del papel y los colorantes, formando moléculas que absorben la luz azul y se ven amarillas." },
+      "topic": "paper",
+      "source": "https://www.loc.gov/preservation/care/photo.html"
+    },
+    {
+      "id": "why-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "Why do engineers leave finger-like gaps where two bridge sections meet?", "es": "¿Por qué los ingenieros dejan huecos con dientes donde se unen dos tramos de puente?" },
+      "choices": [
+        { "en": "So rain can drain off the roadway", "es": "Para que la lluvia escurra de la calzada" },
+        { "en": "So the deck can be lifted for repairs", "es": "Para poder levantar la calzada en las reparaciones" },
+        { "en": "So the bridge can sway safely in the wind", "es": "Para que el puente se meza con seguridad en el viento" },
+        { "en": "So steel can lengthen in heat without buckling the deck", "es": "Para que el acero se alargue con el calor sin pandear la calzada" }
+      ],
+      "answer": 3,
+      "why": { "en": "Steel stretches about one millimetre per ten metres for each 10 °C (18 °F), so a long deck would buckle without that gap.", "es": "El acero se alarga un milímetro por cada diez metros y cada 10 °C (18 °F); sin ese hueco el puente se pandearía." },
+      "topic": "engineering",
+      "source": "https://www.britannica.com/technology/bridge-engineering"
+    },
+    {
+      "id": "why-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "💥",
+      "q": { "en": "Why does a dropped glass shatter while a dropped plastic cup bounces?", "es": "¿Por qué un vaso de vidrio se hace añicos y uno de plástico rebota?" },
+      "choices": [
+        { "en": "Glass cannot bend, so a crack races through it instead", "es": "El vidrio no puede doblarse y una grieta lo recorre entero" },
+        { "en": "Glass is much heavier for its size", "es": "El vidrio pesa mucho más para su tamaño" },
+        { "en": "Glass is a frozen liquid and snaps when cold", "es": "El vidrio es un líquido congelado y se quiebra con el frío" },
+        { "en": "Glass holds air bubbles that burst on impact", "es": "El vidrio guarda burbujas de aire que revientan con el golpe" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plastic chains slide past each other and absorb the blow. Glass atoms cannot slide, so a tiny surface flaw opens and splits it.", "es": "Las cadenas del plástico se deslizan y absorben el golpe. Los átomos del vidrio no pueden deslizarse y una grieta diminuta lo parte." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/technology/glass"
+    },
+    {
+      "id": "why-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥱",
+      "q": { "en": "Why does watching another person yawn set off a yawn in you?", "es": "¿Por qué ver bostezar a otra persona te hace bostezar a ti?" },
+      "choices": [
+        { "en": "Both people run short of oxygen in the same room", "es": "A las dos personas les falta oxígeno en el mismo cuarto" },
+        { "en": "Scientists think brain circuits that mirror others trigger the copy", "es": "Los científicos creen que circuitos que imitan a otros disparan la copia" },
+        { "en": "Yawning spreads through a harmless germ in the air", "es": "El bostezo se contagia por un microbio inofensivo del aire" },
+        { "en": "The sound of a yawn vibrates your own throat", "es": "El sonido del bostezo hace vibrar tu propia garganta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Contagious yawning is strongest between close friends and family, which makes scientists think it rides on the brain systems for reading others.", "es": "El bostezo contagioso es más fuerte entre amigos y familiares, y por eso los científicos creen que usa los circuitos para entender a otros." },
+      "topic": "the brain",
+      "source": "https://www.britannica.com/science/yawn"
+    },
+    {
+      "id": "why-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Why is the centre of Earth still glowing hot after billions of years?", "es": "¿Por qué el centro de la Tierra sigue ardiendo después de miles de millones de años?" },
+      "choices": [
+        { "en": "Sunlight soaks down through the crust over time", "es": "La luz del Sol se filtra por la corteza con el tiempo" },
+        { "en": "Pressure from above keeps making new heat", "es": "La presión de arriba sigue creando calor nuevo" },
+        { "en": "Leftover heat from its birth plus radioactive decay keep it hot", "es": "El calor de su formación y la desintegración radiactiva lo mantienen caliente" },
+        { "en": "Constant earthquakes rub the rock and warm it", "es": "Los temblores constantes frotan la roca y la calientan" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rock is a poor conductor, so warmth from Earth's violent formation escapes slowly, while decaying uranium, thorium and potassium keep adding fresh heat.", "es": "La roca conduce mal el calor, así que el de su formación sale despacio, y el uranio, el torio y el potasio siguen calentando." },
+      "topic": "earth's interior",
+      "source": "https://www.britannica.com/place/Earth"
+    },
+    {
+      "id": "why-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏰",
+      "q": { "en": "Why is the world divided into zones about fifteen degrees of longitude wide?", "es": "¿Por qué el mundo está dividido en husos de unos quince grados de longitud?" },
+      "choices": [
+        { "en": "Fifteen degrees is the width of a typical country", "es": "Quince grados es el ancho de un país común" },
+        { "en": "Sunlight takes one hour to cross that distance", "es": "La luz del Sol tarda una hora en cruzar esa distancia" },
+        { "en": "The number matches the twelve months doubled", "es": "El número sale de los doce meses multiplicados por dos" },
+        { "en": "Earth turns fifteen degrees every hour, so noon moves with it", "es": "La Tierra gira quince grados cada hora y el mediodía se mueve con ella" }
+      ],
+      "answer": 3,
+      "why": { "en": "A full turn is 360 degrees in 24 hours, which is 15 degrees per hour; railways pushed countries to agree on standard zones.", "es": "Una vuelta completa son 360 grados en 24 horas, o sea 15 grados por hora; los ferrocarriles empujaron a acordar husos estándar." },
+      "topic": "time",
+      "source": "https://www.britannica.com/science/standard-time"
+    },
+    {
+      "id": "why-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "✋",
+      "q": { "en": "Why are some people left-handed while most of the world is right-handed?", "es": "¿Por qué algunas personas son zurdas mientras casi todo el mundo es diestro?" },
+      "choices": [
+        { "en": "Many genes and early brain development nudge the preference", "es": "Muchos genes y el desarrollo temprano del cerebro inclinan la preferencia" },
+        { "en": "Children copy the hand their parents use", "es": "Los niños copian la mano que usan sus papás" },
+        { "en": "It depends on which hand a baby first grabs with", "es": "Depende de con cuál mano agarra primero un bebé" },
+        { "en": "Left-handers are born with a stronger left arm", "es": "Los zurdos nacen con el brazo izquierdo más fuerte" }
+      ],
+      "answer": 0,
+      "why": { "en": "No gene decides it alone; dozens of genes plus how the brain divides its jobs before birth tilt about one person in ten leftward.", "es": "Ningún gen lo decide: decenas de genes y el reparto de tareas del cerebro antes de nacer inclinan a una de cada diez personas." },
+      "topic": "genetics",
+      "source": "https://medlineplus.gov/genetics/understanding/traits/handedness/"
+    },
+    {
+      "id": "why-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Why does a cracking whip make such a loud bang?", "es": "¿Por qué el chasquido de un látigo suena tan fuerte?" },
+      "choices": [
+        { "en": "The leather slaps hard against itself", "es": "El cuero se golpea fuerte contra sí mismo" },
+        { "en": "The tip breaks the sound barrier and makes a tiny sonic boom", "es": "La punta rompe la barrera del sonido y crea un pequeño estampido" },
+        { "en": "Air trapped in the braid escapes all at once", "es": "El aire atrapado en el trenzado sale de golpe" },
+        { "en": "The handle vibrates like a drum skin", "es": "El mango vibra como el parche de un tambor" }
+      ],
+      "answer": 1,
+      "why": { "en": "The wave of motion speeds up as the whip narrows, so the tip passes 340 metres per second and leaves a shock wave.", "es": "La onda del movimiento se acelera al adelgazarse la punta, que supera los 340 metros por segundo y deja una onda de choque." },
+      "topic": "sound",
+      "source": "https://www.britannica.com/science/sonic-boom"
+    },
+    {
+      "id": "why-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍯",
+      "q": { "en": "Why can honey sit in a jar for centuries without spoiling?", "es": "¿Por qué la miel puede estar siglos en un frasco sin echarse a perder?" },
+      "choices": [
+        { "en": "Bees add a natural preservative from flowers", "es": "Las abejas le agregan un conservador natural de las flores" },
+        { "en": "The wax seal keeps out every germ", "es": "El sello de cera deja fuera a todos los microbios" },
+        { "en": "It is so dry and acidic that microbes cannot grow", "es": "Es tan seca y ácida que los microbios no pueden crecer" },
+        { "en": "Sugar is simply too sweet for bacteria to eat", "es": "El azúcar es demasiado dulce para que la coman las bacterias" }
+      ],
+      "answer": 2,
+      "why": { "en": "Honey holds under 18 percent water and is mildly acidic, so it pulls water out of any microbe that lands in it.", "es": "La miel tiene menos del 18 por ciento de agua y es un poco ácida, así que le saca el agua a cualquier microbio." },
+      "topic": "food science",
+      "source": "https://www.britannica.com/topic/honey"
+    },
+    {
+      "id": "why-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧅",
+      "q": { "en": "Why does chopping an onion sting your eyes within seconds?", "es": "¿Por qué picar una cebolla te arde en los ojos en segundos?" },
+      "choices": [
+        { "en": "Onion juice splashes straight into the eye", "es": "El jugo de cebolla salpica directo al ojo" },
+        { "en": "The strong smell alone irritates nose and eyes", "es": "El olor fuerte por sí solo irrita la nariz y los ojos" },
+        { "en": "Tiny onion particles scratch the surface of the eye", "es": "Partículas diminutas de cebolla rayan la superficie del ojo" },
+        { "en": "Cut cells release an enzyme that builds an eye-stinging gas", "es": "Las células cortadas sueltan una enzima que forma un gas irritante" }
+      ],
+      "answer": 3,
+      "why": { "en": "Slicing mixes an enzyme with sulfur compounds, making a gas that meets the water on your eye and turns into a weak acid.", "es": "Al cortarla, una enzima se mezcla con compuestos de azufre y forma un gas que, al tocar el agua del ojo, se vuelve ácido." },
+      "topic": "kitchen science",
+      "source": "https://www.britannica.com/plant/onion"
+    },
+    {
+      "id": "why-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "Why does fear or cold raise tiny bumps along your arms?", "es": "¿Por qué el miedo o el frío levantan bolitas en tus brazos?" },
+      "choices": [
+        { "en": "A leftover reflex fluffs fur that humans no longer have", "es": "Un reflejo heredado esponja un pelaje que ya no tenemos" },
+        { "en": "Blood vessels swell and push the skin upward", "es": "Los vasos sanguíneos se hinchan y empujan la piel" },
+        { "en": "Sweat glands close up and form small lumps", "es": "Las glándulas de sudor se cierran y forman bultitos" },
+        { "en": "The skin thickens to keep the heat inside", "es": "La piel se engrosa para guardar el calor adentro" }
+      ],
+      "answer": 0,
+      "why": { "en": "A tiny muscle at each hair root pulls it upright; in furry mammals that traps warm air and makes the animal look bigger.", "es": "Un músculo diminuto en la raíz de cada pelo lo levanta; en los mamíferos peludos eso atrapa aire y los hace verse más grandes." },
+      "topic": "skin",
+      "source": "https://www.britannica.com/science/skin"
     }
   ]
 }

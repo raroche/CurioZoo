@@ -2724,6 +2724,886 @@
       "why": { "en": "Riding with traffic makes you predictable to drivers, and a helmet lowers the chance of a serious head injury.", "es": "Rodar en el sentido del tránsito te hace predecible para los conductores, y el casco reduce el riesgo de lesiones graves." },
       "topic": "road safety",
       "source": "https://kidshealth.org/en/kids/bike-safety.html"
+    },
+    {
+      "id": "everyday-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏷️",
+      "q": { "en": "On a nutrition label, which nutrient gives about 9 calories in every gram?", "es": "En una etiqueta nutricional, ¿qué nutriente aporta unas 9 calorías por gramo?" },
+      "choices": [
+        { "en": "Fat", "es": "La grasa" },
+        { "en": "Protein", "es": "La proteína" },
+        { "en": "Carbohydrate", "es": "Los carbohidratos" },
+        { "en": "Fiber", "es": "La fibra" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fat packs about 9 calories per gram, while protein and carbohydrate give about 4, so fatty foods hold more energy.", "es": "La grasa aporta unas 9 calorías por gramo y la proteína y los carbohidratos solo 4, así que un alimento graso guarda más energía." },
+      "topic": "nutrition labels",
+      "source": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    },
+    {
+      "id": "everyday-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥣",
+      "q": { "en": "A label says 140 calories per serving and 2.5 servings per container. How many calories in the whole container?", "es": "Una etiqueta dice 140 calorías por porción y 2.5 porciones por envase. ¿Cuántas calorías tiene el envase entero?" },
+      "choices": [
+        { "en": "280 calories", "es": "280 calorías" },
+        { "en": "350 calories", "es": "350 calorías" },
+        { "en": "140 calories", "es": "140 calorías" },
+        { "en": "56 calories", "es": "56 calorías" }
+      ],
+      "answer": 1,
+      "why": { "en": "Multiply 140 by 2.5 to get 350; labels list one serving, so eating the whole package multiplies every number on it.", "es": "Multiplica 140 por 2.5 y obtienes 350; la etiqueta habla de una porción, así que comer todo el paquete multiplica cada número." },
+      "topic": "nutrition labels",
+      "source": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label"
+    },
+    {
+      "id": "everyday-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "A bottle of juice lists 36 grams of sugar. About how many teaspoons of sugar is that?", "es": "Una botella de jugo indica 36 gramos de azúcar. ¿A cuántas cucharaditas de azúcar equivale?" },
+      "choices": [
+        { "en": "4 teaspoons", "es": "4 cucharaditas" },
+        { "en": "3 teaspoons", "es": "3 cucharaditas" },
+        { "en": "9 teaspoons", "es": "9 cucharaditas" },
+        { "en": "18 teaspoons", "es": "18 cucharaditas" }
+      ],
+      "answer": 2,
+      "why": { "en": "One teaspoon of sugar weighs about 4 grams, so 36 grams is about 9 teaspoons, more than many people expect.", "es": "Una cucharadita de azúcar pesa unos 4 gramos, así que 36 gramos son unas 9 cucharaditas, mucho más de lo que parece." },
+      "topic": "nutrition labels",
+      "source": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+    },
+    {
+      "id": "everyday-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "📊",
+      "q": { "en": "On a nutrition label, a Daily Value of 5 percent or less means a serving has how much of that nutrient?", "es": "En una etiqueta nutricional, ¿qué cantidad de un nutriente indica un valor diario de 5 por ciento o menos?" },
+      "choices": [
+        { "en": "A high amount", "es": "Una cantidad alta" },
+        { "en": "Half of a day's amount", "es": "La mitad de un día" },
+        { "en": "A whole day's amount", "es": "La cantidad de todo un día" },
+        { "en": "A low amount", "es": "Una cantidad baja" }
+      ],
+      "answer": 3,
+      "why": { "en": "Labels use 5 percent as low and 20 percent as high, which helps you compare two foods without doing any arithmetic.", "es": "La etiqueta marca 5 por ciento como poco y 20 por ciento como mucho, y así comparas dos alimentos sin hacer cuentas." },
+      "topic": "nutrition labels",
+      "source": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    },
+    {
+      "id": "everyday-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Which line on a nutrition label shows sugar that was poured in rather than sugar the food already had?", "es": "¿Qué línea de la etiqueta muestra el azúcar que alguien agregó al alimento?" },
+      "choices": [
+        { "en": "Added sugars", "es": "Azúcares añadidos" },
+        { "en": "Total sugars", "es": "Azúcares totales" },
+        { "en": "Dietary fiber", "es": "Fibra dietética" },
+        { "en": "Total carbohydrate", "es": "Carbohidratos totales" }
+      ],
+      "answer": 0,
+      "why": { "en": "Labels show total sugars and, under them, added sugars, so you can tell fruit's own sugar from sugar poured in.", "es": "La etiqueta muestra los azúcares totales y debajo los azúcares añadidos, así distingues el azúcar propio de la fruta del agregado." },
+      "topic": "nutrition labels",
+      "source": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+    },
+    {
+      "id": "everyday-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "Which of these crops did Europeans bring to the Americas after 1492?", "es": "¿Cuál de estos cultivos llevaron los europeos a América después de 1492?" },
+      "choices": [
+        { "en": "Maize", "es": "El maíz" },
+        { "en": "Wheat", "es": "El trigo" },
+        { "en": "Cacao", "es": "El cacao" },
+        { "en": "Tomatoes", "es": "Los tomates" }
+      ],
+      "answer": 1,
+      "why": { "en": "Wheat, rice and sugar cane crossed west while maize, potatoes, tomatoes and cacao crossed east, a swap called the Columbian exchange.", "es": "El trigo y la caña viajaron al oeste, y el maíz, la papa y el cacao al este, en el llamado intercambio colombino." },
+      "topic": "the columbian exchange",
+      "source": "https://www.britannica.com/topic/Columbian-exchange"
+    },
+    {
+      "id": "everyday-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥔",
+      "q": { "en": "Which South American country is the original home of the potato, where thousands of local kinds still grow?", "es": "¿Qué país sudamericano es la cuna de la papa, donde aún se cultivan miles de variedades?" },
+      "choices": [
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Argentina", "es": "Argentina" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Venezuela", "es": "Venezuela" }
+      ],
+      "answer": 2,
+      "why": { "en": "Farmers near Lake Titicaca domesticated potatoes about 8000 years ago, and Andean markets still sell purple, yellow and spotted kinds.", "es": "Cerca del lago Titicaca se domesticó la papa hace unos 8000 años, y en los mercados andinos aún se venden moradas y amarillas." },
+      "topic": "where crops began",
+      "source": "https://www.britannica.com/plant/potato"
+    },
+    {
+      "id": "everyday-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Which everyday item did the Aztecs count out as small change in their markets?", "es": "¿Qué objeto cotidiano usaban los aztecas como moneda pequeña en sus mercados?" },
+      "choices": [
+        { "en": "Salt blocks", "es": "Bloques de sal" },
+        { "en": "Silver rings", "es": "Anillos de plata" },
+        { "en": "Corn kernels", "es": "Granos de maíz" },
+        { "en": "Cacao beans", "es": "Granos de cacao" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cacao beans were counted out like coins, and a few beans could buy a tamale, so that money was literally edible.", "es": "Los granos de cacao se contaban como monedas, y con unos pocos se compraba un tamal, así que ese dinero se podía comer." },
+      "topic": "where crops began",
+      "source": "https://www.britannica.com/topic/chocolate"
+    },
+    {
+      "id": "everyday-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Which country is the original home of the vanilla orchid, whose flowers are pollinated by hand on most farms?", "es": "¿Qué país es la cuna de la orquídea de vainilla, cuyas flores se polinizan a mano en casi todas las fincas?" },
+      "choices": [
+        { "en": "Mexico", "es": "México" },
+        { "en": "Madagascar", "es": "Madagascar" },
+        { "en": "India", "es": "India" },
+        { "en": "Indonesia", "es": "Indonesia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Vanilla comes from an orchid pollinated by one Mexican bee; elsewhere workers open each flower by hand with a thin stick.", "es": "La vainilla sale de una orquídea que poliniza una abeja mexicana; en otros países la abren a mano con un palito." },
+      "topic": "where crops began",
+      "source": "https://www.britannica.com/plant/vanilla"
+    },
+    {
+      "id": "everyday-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "Which animal did Europeans bring to the Americas, changing how people farmed and travelled across the grasslands?", "es": "¿Qué animal llevaron los europeos a América y cambió la forma de cultivar y viajar por las llanuras?" },
+      "choices": [
+        { "en": "The llama", "es": "La llama" },
+        { "en": "The horse", "es": "El caballo" },
+        { "en": "The turkey", "es": "El pavo" },
+        { "en": "The bison", "es": "El bisonte" }
+      ],
+      "answer": 1,
+      "why": { "en": "Horses arrived with Spanish ships in the 1500s, and within two centuries whole plains cultures were built around riding them.", "es": "Los caballos llegaron en barcos españoles en el siglo XVI, y en dos siglos pueblos enteros de las llanuras vivían montados." },
+      "topic": "the columbian exchange",
+      "source": "https://www.britannica.com/topic/Columbian-exchange"
+    },
+    {
+      "id": "everyday-hard-014", "level": "hard", "type": "tf", "lang": "both", "emoji": "🍅",
+      "q": { "en": "Italians cooked pasta with tomato sauce for centuries before Columbus sailed to the Americas.", "es": "Los italianos comían pasta con salsa de tomate durante siglos antes de que Colón navegara a América." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tomatoes grow wild in the Andes and reached Italy only after 1492, so tomato sauce is younger than many people think.", "es": "El tomate crece silvestre en los Andes y llegó a Italia después de 1492, así que la salsa de tomate es joven." },
+      "topic": "the columbian exchange",
+      "source": "https://www.britannica.com/plant/tomato"
+    },
+    {
+      "id": "everyday-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "A ship sails west across the International Date Line. What happens to the date on board?", "es": "Un barco cruza hacia el oeste la línea internacional de cambio de fecha. ¿Qué pasa con la fecha a bordo?" },
+      "choices": [
+        { "en": "It stays the same", "es": "Se queda igual" },
+        { "en": "It goes back one day", "es": "Retrocede un día" },
+        { "en": "It jumps forward one day", "es": "Salta un día hacia adelante" },
+        { "en": "It changes by half a day", "es": "Cambia medio día" }
+      ],
+      "answer": 2,
+      "why": { "en": "Crossing west you skip a day, so a ship can leave on a Monday and wake up on a Wednesday.", "es": "Al cruzar hacia el oeste se salta un día, así que un barco sale un lunes y despierta un miércoles." },
+      "topic": "time zones",
+      "source": "https://www.timeanddate.com/time/dateline.html"
+    },
+    {
+      "id": "everyday-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "Why do timekeepers sometimes add one extra second, called a leap second, to the world's clocks?", "es": "¿Por qué a veces se agrega un segundo extra, llamado segundo intercalar, a los relojes del mundo?" },
+      "choices": [
+        { "en": "Because atomic clocks run slow", "es": "Porque los relojes atómicos se atrasan" },
+        { "en": "Because satellites drift in orbit", "es": "Porque los satélites se desvían" },
+        { "en": "Because the Moon is moving away", "es": "Porque la Luna se aleja" },
+        { "en": "Because Earth's spin is slightly uneven", "es": "Porque el giro de la Tierra es algo irregular" }
+      ],
+      "answer": 3,
+      "why": { "en": "Atomic clocks keep perfect time, but Earth's spin speeds up and slows a little, so a second is added to match.", "es": "Los relojes atómicos son perfectos, pero el giro de la Tierra se acelera y frena un poco, y se agrega un segundo." },
+      "topic": "time zones",
+      "source": "https://www.nist.gov/pml/time-and-frequency-division/leap-seconds-faqs"
+    },
+    {
+      "id": "everyday-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "Which of these years had 366 days?", "es": "¿Cuál de estos años tuvo 366 días?" },
+      "choices": [
+        { "en": "2000", "es": "2000" },
+        { "en": "1900", "es": "1900" },
+        { "en": "1800", "es": "1800" },
+        { "en": "1700", "es": "1700" }
+      ],
+      "answer": 0,
+      "why": { "en": "A century year is a leap year only when 400 divides it, so 2000 counted but 1900 and 1800 did not.", "es": "Un año de siglo es bisiesto solo si 400 lo divide, por eso 2000 sí lo fue y 1900 y 1800 no." },
+      "topic": "leap years",
+      "source": "https://www.britannica.com/science/leap-year"
+    },
+    {
+      "id": "everyday-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "The world's clocks are counted from a line through which English town, chosen at a meeting in 1884?", "es": "¿Por qué pueblo inglés pasa la línea desde la que se cuentan los husos horarios, elegida en 1884?" },
+      "choices": [
+        { "en": "Oxford", "es": "Oxford" },
+        { "en": "Greenwich", "es": "Greenwich" },
+        { "en": "Cambridge", "es": "Cambridge" },
+        { "en": "Bristol", "es": "Bristol" }
+      ],
+      "answer": 1,
+      "why": { "en": "Greenwich won because most sea charts already used it; every time zone is now described as hours ahead of or behind it.", "es": "Greenwich ganó porque la mayoría de las cartas marinas ya lo usaban, y cada huso horario se mide en horas antes o después." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/science/prime-meridian"
+    },
+    {
+      "id": "everyday-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "Which large country sets its clocks half an hour away from the nearest whole-hour time zone?", "es": "¿Qué país grande ajusta sus relojes media hora respecto al huso horario de hora entera más cercano?" },
+      "choices": [
+        { "en": "China", "es": "China" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "India", "es": "India" },
+        { "en": "Egypt", "es": "Egipto" }
+      ],
+      "answer": 2,
+      "why": { "en": "India runs on one zone five and a half hours ahead of Greenwich, and Nepal is even odder at forty-five minutes.", "es": "India usa un solo huso cinco horas y media adelante de Greenwich, y Nepal es aún más raro con cuarenta y cinco minutos." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/science/standard-time"
+    },
+    {
+      "id": "everyday-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "✈️",
+      "q": { "en": "Your flight leaves at 9:00 and takes 6 hours to a city 2 hours ahead. What is the local arrival time?", "es": "Tu vuelo sale a las 9:00 y dura 6 horas hacia una ciudad 2 horas adelante. ¿Qué hora local es al llegar?" },
+      "choices": [
+        { "en": "15:00", "es": "15:00" },
+        { "en": "13:00", "es": "13:00" },
+        { "en": "11:00", "es": "11:00" },
+        { "en": "17:00", "es": "17:00" }
+      ],
+      "answer": 3,
+      "why": { "en": "Six hours after 9:00 is 15:00 at home, and the city runs two hours ahead, so local clocks read 17:00.", "es": "Seis horas después de las 9:00 son las 15:00 en tu ciudad, y allá van dos horas adelante, así que llegas a las 17:00." },
+      "topic": "time zones",
+      "source": "https://www.britannica.com/science/standard-time"
+    },
+    {
+      "id": "everyday-hard-021", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Every time zone on Earth is exactly one hour away from the zone beside it.", "es": "Cada huso horario de la Tierra está exactamente a una hora del huso vecino." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Several places use offsets of thirty or forty-five minutes, so at any moment the world shows more than twenty-four different clock times.", "es": "Varios lugares usan diferencias de treinta o cuarenta y cinco minutos, así que en el mundo hay más de veinticuatro horas distintas." },
+      "topic": "time zones",
+      "source": "https://www.timeanddate.com/time/time-zones-interesting.html"
+    },
+    {
+      "id": "everyday-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏦",
+      "q": { "en": "You save 200 dollars at 5 percent simple interest. How much interest have you earned after 3 years?", "es": "Ahorras 200 dólares al 5 por ciento de interés simple. ¿Cuánto interés ganas después de 3 años?" },
+      "choices": [
+        { "en": "30 dollars", "es": "30 dólares" },
+        { "en": "10 dollars", "es": "10 dólares" },
+        { "en": "31.53 dollars", "es": "31.53 dólares" },
+        { "en": "300 dollars", "es": "300 dólares" }
+      ],
+      "answer": 0,
+      "why": { "en": "Simple interest pays 10 dollars each year on the original 200, so three years add 30 while the 200 stays untouched.", "es": "El interés simple paga 10 dólares por año sobre los 200 iniciales, así que en tres años suma 30 y los 200 siguen igual." },
+      "topic": "banks and interest",
+      "source": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    },
+    {
+      "id": "everyday-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "📈",
+      "q": { "en": "You put 1000 pesos in an account paying 10 percent compounded yearly. How much interest after two years?", "es": "Pones 1000 pesos en una cuenta que paga 10 por ciento compuesto cada año. ¿Cuánto interés hay tras dos años?" },
+      "choices": [
+        { "en": "200 pesos", "es": "200 pesos" },
+        { "en": "210 pesos", "es": "210 pesos" },
+        { "en": "100 pesos", "es": "100 pesos" },
+        { "en": "1210 pesos", "es": "1210 pesos" }
+      ],
+      "answer": 1,
+      "why": { "en": "The first year earns 100, and the second earns 10 percent of 1100, which is 110, so interest reaches 210.", "es": "El primer año gana 100 y el segundo gana 10 por ciento de 1100, es decir 110, así que el interés llega a 210." },
+      "topic": "banks and interest",
+      "source": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    },
+    {
+      "id": "everyday-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "Money grows at 6 percent a year, and the interest is added on. About how many years until it doubles?", "es": "Un dinero crece 6 por ciento al año y el interés se suma. ¿En cuántos años se duplica aproximadamente?" },
+      "choices": [
+        { "en": "6 years", "es": "6 años" },
+        { "en": "16 years", "es": "16 años" },
+        { "en": "12 years", "es": "12 años" },
+        { "en": "50 years", "es": "50 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dividing 72 by the rate gives a quick estimate, so 6 percent doubles money in about twelve years, and 9 percent in eight.", "es": "Dividir 72 entre la tasa da una estimación rápida: al 6 por ciento el dinero se duplica en unos doce años." },
+      "topic": "banks and interest",
+      "source": "https://www.britannica.com/money/compound-interest"
+    },
+    {
+      "id": "everyday-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "💹",
+      "q": { "en": "What makes compound interest grow faster than simple interest over many years?", "es": "¿Qué hace que el interés compuesto crezca más rápido que el interés simple con los años?" },
+      "choices": [
+        { "en": "The bank adds a bonus", "es": "El banco da un bono" },
+        { "en": "The rate rises each year", "es": "La tasa sube cada año" },
+        { "en": "Taxes are lower on it", "es": "Paga menos impuestos" },
+        { "en": "Past interest earns interest too", "es": "El interés ya ganado también gana interés" }
+      ],
+      "answer": 3,
+      "why": { "en": "With compounding, each payment joins the balance and earns its own interest, so the pile grows a little faster every year.", "es": "Con el interés compuesto, cada pago se suma al saldo y gana su propio interés, así que el monto crece más rápido cada año." },
+      "topic": "banks and interest",
+      "source": "https://www.britannica.com/money/compound-interest"
+    },
+    {
+      "id": "everyday-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧾",
+      "q": { "en": "In a loan, what is the borrowed amount itself called, before any interest is added?", "es": "En un préstamo, ¿cómo se llama la cantidad prestada antes de sumarle intereses?" },
+      "choices": [
+        { "en": "The principal", "es": "El capital" },
+        { "en": "The premium", "es": "La prima" },
+        { "en": "The deposit", "es": "El depósito" },
+        { "en": "The balance", "es": "El saldo" }
+      ],
+      "answer": 0,
+      "why": { "en": "The principal is the sum borrowed; each monthly payment covers some interest first, and whatever is left shrinks the principal.", "es": "El capital es la suma prestada; cada pago mensual cubre primero el interés, y lo que sobra reduce el capital." },
+      "topic": "banks and interest",
+      "source": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-loan-principal-en-1951/"
+    },
+    {
+      "id": "everyday-hard-027", "level": "hard", "type": "tf", "lang": "both", "emoji": "🪙",
+      "q": { "en": "Interest added every month grows money faster than the same yearly rate added once a year.", "es": "El interés que se suma cada mes hace crecer el dinero más rápido que la misma tasa anual sumada una sola vez." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Monthly compounding lets each small payment start earning sooner, so 12 percent a year becomes about 12.7 percent in practice.", "es": "El interés mensual permite que cada pago empiece a ganar antes, así 12 por ciento anual equivale a casi 12.7 por ciento." },
+      "topic": "banks and interest",
+      "source": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    },
+    {
+      "id": "everyday-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "A shop adds 8 percent tax to a 40 dollar jacket. What is the total you pay?", "es": "Una tienda agrega 8 por ciento de impuesto a una chamarra de 40 dólares. ¿Cuánto pagas en total?" },
+      "choices": [
+        { "en": "48.00 dollars", "es": "48.00 dólares" },
+        { "en": "43.20 dollars", "es": "43.20 dólares" },
+        { "en": "40.80 dollars", "es": "40.80 dólares" },
+        { "en": "44.00 dollars", "es": "44.00 dólares" }
+      ],
+      "answer": 1,
+      "why": { "en": "Eight percent of 40 is 3.20, so the total is 43.20; tax is figured on the price before it is added.", "es": "El 8 por ciento de 40 es 3.20, así que el total es 43.20; el impuesto se calcula sobre el precio sin impuesto." },
+      "topic": "percentages and budgets",
+      "source": "https://www.mymoney.gov/"
+    },
+    {
+      "id": "everyday-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍽️",
+      "q": { "en": "A family's meal comes to 60 dollars and they leave an 18 percent tip. How much is the tip?", "es": "La comida de una familia cuesta 60 dólares y dejan 18 por ciento de propina. ¿De cuánto es la propina?" },
+      "choices": [
+        { "en": "6.00 dollars", "es": "6.00 dólares" },
+        { "en": "18.00 dollars", "es": "18.00 dólares" },
+        { "en": "10.80 dollars", "es": "10.80 dólares" },
+        { "en": "12.00 dollars", "es": "12.00 dólares" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ten percent of 60 is 6, half of that is 3, and 3 percent is 1.80, so the tip is 10.80.", "es": "El 10 por ciento de 60 es 6, la mitad es 3 y el 3 por ciento es 1.80, así que suman 10.80." },
+      "topic": "percentages and budgets",
+      "source": "https://www.mymoney.gov/"
+    },
+    {
+      "id": "everyday-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎒",
+      "q": { "en": "A backpack costs 80 pesos and a sign says 25 percent off. What do you pay at the till?", "es": "Una mochila cuesta 80 pesos y un cartel anuncia 25 por ciento de descuento. ¿Cuánto pagas en la caja?" },
+      "choices": [
+        { "en": "55 pesos", "es": "55 pesos" },
+        { "en": "75 pesos", "es": "75 pesos" },
+        { "en": "20 pesos", "es": "20 pesos" },
+        { "en": "60 pesos", "es": "60 pesos" }
+      ],
+      "answer": 3,
+      "why": { "en": "A quarter of 80 is 20, and taking that away leaves 60, so a quarter off always means paying three quarters.", "es": "La cuarta parte de 80 es 20, y al quitarla quedan 60, porque un 25 por ciento de descuento deja tres cuartas partes." },
+      "topic": "percentages and budgets",
+      "source": "https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/"
+    },
+    {
+      "id": "everyday-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "👕",
+      "q": { "en": "A 100 peso shirt is marked half off, then 20 percent off that sale price. What do you pay?", "es": "Una camisa de 100 pesos tiene mitad de descuento y luego 20 por ciento más sobre ese precio. ¿Cuánto pagas?" },
+      "choices": [
+        { "en": "40 pesos", "es": "40 pesos" },
+        { "en": "30 pesos", "es": "30 pesos" },
+        { "en": "50 pesos", "es": "50 pesos" },
+        { "en": "35 pesos", "es": "35 pesos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Half of 100 is 50, and 20 percent off 50 takes away 10, leaving 40; stacked discounts never simply add together.", "es": "La mitad de 100 es 50, y un 20 por ciento de 50 quita 10, quedan 40: los descuentos seguidos no se suman." },
+      "topic": "percentages and budgets",
+      "source": "https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/"
+    },
+    {
+      "id": "everyday-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏠",
+      "q": { "en": "A family earns 4000 a month and pays 1200 for rent. What percent of the income is rent?", "es": "Una familia gana 4000 al mes y paga 1200 de renta. ¿Qué porcentaje del ingreso es la renta?" },
+      "choices": [
+        { "en": "12 percent", "es": "12 por ciento" },
+        { "en": "30 percent", "es": "30 por ciento" },
+        { "en": "33 percent", "es": "33 por ciento" },
+        { "en": "25 percent", "es": "25 por ciento" }
+      ],
+      "answer": 1,
+      "why": { "en": "1200 divided by 4000 is 0.3, or 30 percent; many budget guides suggest keeping housing near a third of income.", "es": "1200 entre 4000 da 0.3, es decir 30 por ciento; muchas guías de presupuesto aconsejan gastar cerca de un tercio en vivienda." },
+      "topic": "percentages and budgets",
+      "source": "https://www.stlouisfed.org/education"
+    },
+    {
+      "id": "everyday-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫙",
+      "q": { "en": "What does steady inflation do to money sitting in a jar at home?", "es": "¿Qué le hace una inflación constante al dinero guardado en un frasco en casa?" },
+      "choices": [
+        { "en": "It slowly buys more", "es": "Poco a poco compra más" },
+        { "en": "It stays exactly the same", "es": "Sigue exactamente igual" },
+        { "en": "It slowly buys less", "es": "Poco a poco compra menos" },
+        { "en": "It vanishes from the jar", "es": "Desaparece del frasco" }
+      ],
+      "answer": 2,
+      "why": { "en": "Inflation means average prices climb, so the same bill buys a smaller basket each year even though its number stays fixed.", "es": "La inflación significa que los precios promedio suben, así que el mismo billete compra menos cada año aunque su número siga igual." },
+      "topic": "inflation",
+      "source": "https://www.federalreserve.gov/faqs/economy_14419.htm"
+    },
+    {
+      "id": "everyday-hard-034", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "A country's central bank usually aims for low, steady inflation rather than for zero inflation.", "es": "El banco central de un país suele buscar una inflación baja y estable, y no una inflación de cero." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mild inflation keeps people spending and gives banks room to cut rates in a slump; falling prices can freeze an economy instead.", "es": "Una inflación suave anima a gastar y deja margen para bajar tasas en una crisis; con precios que caen la economía se paraliza." },
+      "topic": "inflation",
+      "source": "https://www.federalreserve.gov/faqs/economy_14419.htm"
+    },
+    {
+      "id": "everyday-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛒",
+      "q": { "en": "Which everyday sign tells a family that inflation is happening around them?", "es": "¿Qué señal cotidiana le indica a una familia que hay inflación a su alrededor?" },
+      "choices": [
+        { "en": "Their bank balance falls", "es": "Su saldo en el banco baja" },
+        { "en": "Coins get smaller", "es": "Las monedas se hacen más pequeñas" },
+        { "en": "Shops open later", "es": "Las tiendas abren más tarde" },
+        { "en": "The same groceries cost more each year", "es": "La misma compra cuesta más cada año" }
+      ],
+      "answer": 3,
+      "why": { "en": "Economists track inflation with a basket of common goods, measuring how much more the same list costs from one year to the next.", "es": "Los economistas miden la inflación con una canasta de productos comunes y comparan cuánto cuesta esa misma lista de un año a otro." },
+      "topic": "inflation",
+      "source": "https://www.britannica.com/money/inflation"
+    },
+    {
+      "id": "everyday-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "How long is an Olympic marathon, a distance fixed so a race could finish in front of a royal box?", "es": "¿Cuánto mide un maratón olímpico, una distancia fijada para que la carrera terminara frente al palco real?" },
+      "choices": [
+        { "en": "42.195 km, 26.2 miles", "es": "42.195 km, 26.2 millas" },
+        { "en": "40 km, 24.9 miles", "es": "40 km, 24.9 millas" },
+        { "en": "45 km, 28 miles", "es": "45 km, 28 millas" },
+        { "en": "21.1 km, 13.1 miles", "es": "21.1 km, 13.1 millas" }
+      ],
+      "answer": 0,
+      "why": { "en": "The 1908 London route ran 42.195 km, 26.2 miles, from Windsor Castle to the stadium, and that odd number stuck forever.", "es": "El recorrido de Londres en 1908 midió 42.195 km, 26.2 millas, del castillo de Windsor al estadio, y esa cifra rara quedó." },
+      "topic": "the olympics",
+      "source": "https://www.britannica.com/sports/marathon-race"
+    },
+    {
+      "id": "everyday-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏅",
+      "q": { "en": "Why were the six colours of the Olympic rings and flag chosen in 1913?", "es": "¿Por qué se eligieron en 1913 los seis colores de los aros y la bandera olímpica?" },
+      "choices": [
+        { "en": "They were the colours of ancient Greece", "es": "Eran los colores de la antigua Grecia" },
+        { "en": "Every national flag then had one of them", "es": "Toda bandera nacional de entonces tenía uno" },
+        { "en": "They match the soils of five continents", "es": "Coinciden con los suelos de cinco continentes" },
+        { "en": "They were the cheapest dyes to buy", "es": "Eran los tintes más baratos de comprar" }
+      ],
+      "answer": 1,
+      "why": { "en": "Coubertin picked blue, yellow, black, green and red on white so that every nation's flag of that time shared at least one colour.", "es": "Coubertin eligió azul, amarillo, negro, verde y rojo sobre blanco para que toda bandera de esa época tuviera al menos un color." },
+      "topic": "the olympics",
+      "source": "https://olympics.com/ioc/olympic-rings"
+    },
+    {
+      "id": "everyday-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "In the calendar of ancient Greece, what was an Olympiad?", "es": "En el calendario de la antigua Grecia, ¿qué era una olimpiada?" },
+      "choices": [
+        { "en": "The opening ceremony", "es": "La ceremonia de apertura" },
+        { "en": "The olive wreath prize", "es": "La corona de olivo" },
+        { "en": "The four years between Games", "es": "Los cuatro años entre unos Juegos y otros" },
+        { "en": "The stadium at Olympia", "es": "El estadio de Olimpia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Greeks counted years in Olympiads, four-year blocks between festivals at Olympia, so the Games doubled as a calendar for the whole region.", "es": "Los griegos contaban los años en olimpiadas, bloques de cuatro años entre las fiestas de Olimpia, así los Juegos servían de calendario." },
+      "topic": "the olympics",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "everyday-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "In which city were the first modern Olympic Games held, in 1896?", "es": "¿En qué ciudad se celebraron los primeros Juegos Olímpicos modernos, en 1896?" },
+      "choices": [
+        { "en": "Paris", "es": "París" },
+        { "en": "London", "es": "Londres" },
+        { "en": "Rome", "es": "Roma" },
+        { "en": "Athens", "es": "Atenas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Athens hosted 241 athletes from 14 nations in 1896, and the marathon was won by a Greek water carrier named Spyridon Louis.", "es": "Atenas recibió a 241 atletas de 14 países en 1896, y el maratón lo ganó un aguador griego llamado Spyridon Louis." },
+      "topic": "the olympics",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "everyday-hard-040", "level": "hard", "type": "tf", "lang": "both", "emoji": "🏟️",
+      "q": { "en": "Events for women were part of the first modern Olympic Games in 1896.", "es": "Las pruebas femeninas formaron parte de los primeros Juegos Olímpicos modernos en 1896." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "No women competed in 1896; the 1900 Games in Paris were the first to include them, in tennis and golf.", "es": "En 1896 no compitió ninguna mujer; los Juegos de París en 1900 fueron los primeros en incluirlas, en tenis y golf." },
+      "topic": "the olympics",
+      "source": "https://www.britannica.com/sports/Olympic-Games"
+    },
+    {
+      "id": "everyday-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "In chess, what is it called when one piece attacks two enemy pieces at the same time?", "es": "En ajedrez, ¿cómo se llama cuando una pieza ataca a dos piezas enemigas al mismo tiempo?" },
+      "choices": [
+        { "en": "A fork", "es": "Una horquilla" },
+        { "en": "A pin", "es": "Una clavada" },
+        { "en": "A skewer", "es": "Una enfilada" },
+        { "en": "A gambit", "es": "Un gambito" }
+      ],
+      "answer": 0,
+      "why": { "en": "A knight fork is the classic one, hitting king and queen at once, because a knight jumps and cannot be blocked.", "es": "La horquilla más famosa es la del caballo, que ataca al rey y a la reina a la vez porque salta sobre las piezas." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "A bishop attacks a knight that shields its own king. What is that situation called?", "es": "Un alfil ataca a un caballo que protege a su propio rey. ¿Cómo se llama esa situación?" },
+      "choices": [
+        { "en": "A fork", "es": "Una horquilla" },
+        { "en": "A pin", "es": "Una clavada" },
+        { "en": "A stalemate", "es": "Un ahogado" },
+        { "en": "A gambit", "es": "Un gambito" }
+      ],
+      "answer": 1,
+      "why": { "en": "The knight is pinned and may not move, because moving it would leave its own king in check, so pinned pieces are easy targets.", "es": "El caballo queda clavado y no se puede mover, porque al moverlo dejaría a su propio rey en jaque, y queda como blanco fácil." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "Which of these conditions allows a player to castle in chess?", "es": "¿Cuál de estas condiciones permite hacer el enroque en ajedrez?" },
+      "choices": [
+        { "en": "The queen has already been captured", "es": "La reina ya fue capturada" },
+        { "en": "The king has moved once before", "es": "El rey se movió una vez antes" },
+        { "en": "The king and rook have both stayed still", "es": "El rey y la torre siguen sin moverse" },
+        { "en": "The rook stands on its own colour", "es": "La torre está en su propio color" }
+      ],
+      "answer": 2,
+      "why": { "en": "Castling needs an unmoved king and rook, empty squares between them, and a king that is safe before, during and after the move.", "es": "El enroque exige que el rey y la torre no se hayan movido, casillas vacías entre ellos y un rey seguro antes y después." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "A pawn slides two squares past an enemy pawn and is captured anyway. Which rule allows that?", "es": "Un peón avanza dos casillas junto a un peón enemigo y aun así lo capturan. ¿Qué regla lo permite?" },
+      "choices": [
+        { "en": "Promotion", "es": "La coronación" },
+        { "en": "Castling", "es": "El enroque" },
+        { "en": "The fifty-move rule", "es": "La regla de cincuenta jugadas" },
+        { "en": "En passant", "es": "La captura al paso" }
+      ],
+      "answer": 3,
+      "why": { "en": "En passant, French for in passing, stops a pawn dodging capture by using its two-square first move, and must be played immediately.", "es": "La captura al paso, en francés en passant, evita que un peón esquive la captura con su salto doble, y debe hacerse de inmediato." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "In the usual chess counting system, how many pawns is a rook worth?", "es": "En el sistema habitual de valores del ajedrez, ¿cuántos peones vale una torre?" },
+      "choices": [
+        { "en": "5 pawns", "es": "5 peones" },
+        { "en": "3 pawns", "es": "3 peones" },
+        { "en": "9 pawns", "es": "9 peones" },
+        { "en": "4 pawns", "es": "4 peones" }
+      ],
+      "answer": 0,
+      "why": { "en": "Players count a bishop or knight as three, a rook as five and a queen as nine, which helps judge a trade quickly.", "es": "Se cuenta el alfil o el caballo como tres, la torre como cinco y la reina como nueve, y así se juzga un cambio." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-046", "level": "hard", "type": "tf", "lang": "both", "emoji": "♟️",
+      "q": { "en": "A stalemate ends the game in a draw even when one player has far more pieces.", "es": "Un ahogado termina la partida en tablas aunque un jugador tenga muchas más piezas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stalemate happens when the player to move has no legal move and no check, so a huge material lead can still end even.", "es": "El ahogado ocurre cuando quien mueve no tiene jugada legal ni está en jaque, así una gran ventaja termina en empate." },
+      "topic": "chess strategy",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎾",
+      "q": { "en": "In tennis, both players reach 40. How many points in a row must someone win to take the game?", "es": "En tenis, los dos jugadores llegan a 40. ¿Cuántos puntos seguidos hay que ganar para llevarse el juego?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 1,
+      "why": { "en": "At deuce a player must win by two: the first point gives advantage, and the next wins, otherwise the score returns to deuce.", "es": "En cuarenta iguales hay que ganar por dos: el primer punto da la ventaja y el siguiente gana el juego." },
+      "topic": "tennis scoring",
+      "source": "https://www.britannica.com/sports/tennis"
+    },
+    {
+      "id": "everyday-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎾",
+      "q": { "en": "Where does the tennis scoring of 15, 30 and 40 most likely come from?", "es": "¿De dónde viene probablemente el conteo de 15, 30 y 40 en el tenis?" },
+      "choices": [
+        { "en": "The height of the net in inches", "es": "De la altura de la red en pulgadas" },
+        { "en": "The number of stitches on a ball", "es": "Del número de costuras de la pelota" },
+        { "en": "A clock face split into quarters", "es": "De un reloj dividido en cuartos" },
+        { "en": "The length of a court in paces", "es": "Del largo de la cancha en pasos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Old French players probably moved a clock hand a quarter turn per point, and forty-five was shortened to forty when called aloud.", "es": "Es probable que jugadores franceses movieran la manecilla un cuarto por punto, y cuarenta y cinco se acortó a cuarenta al cantarlo." },
+      "topic": "tennis scoring",
+      "source": "https://www.britannica.com/sports/tennis"
+    },
+    {
+      "id": "everyday-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎾",
+      "q": { "en": "A tennis set reaches six games each. What usually decides the set from there?", "es": "Un set de tenis llega a seis juegos por lado. ¿Qué suele decidir el set desde ahí?" },
+      "choices": [
+        { "en": "A single sudden-death point", "es": "Un solo punto decisivo" },
+        { "en": "A coin toss", "es": "Un volado" },
+        { "en": "A tenth game", "es": "Un décimo juego" },
+        { "en": "A tiebreak to seven points", "es": "Un desempate a siete puntos" }
+      ],
+      "answer": 3,
+      "why": { "en": "In a tiebreak the first to seven points, two clear, wins the set, and players change ends every six points.", "es": "En el desempate gana el primero que llega a siete puntos con dos de ventaja, y cambian de lado cada seis puntos." },
+      "topic": "tennis scoring",
+      "source": "https://www.britannica.com/sports/tennis"
+    },
+    {
+      "id": "everyday-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚾",
+      "q": { "en": "How many balls must a pitcher throw before the batter walks to first base?", "es": "¿Cuántas bolas debe lanzar el pícher antes de que el bateador camine a primera base?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Six", "es": "Seis" }
+      ],
+      "answer": 0,
+      "why": { "en": "Four pitches outside the strike zone send the batter to first base free, a rule that keeps pitchers throwing hittable balls.", "es": "Cuatro lanzamientos fuera de la zona de strike mandan al bateador a primera base gratis, y eso obliga al pícher a lanzar bien." },
+      "topic": "baseball rules",
+      "source": "https://www.britannica.com/sports/baseball"
+    },
+    {
+      "id": "everyday-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚾",
+      "q": { "en": "How many innings make a full baseball game when the score is uneven?", "es": "¿Cuántas entradas tiene un juego completo de béisbol cuando el marcador está desigual?" },
+      "choices": [
+        { "en": "Seven", "es": "Siete" },
+        { "en": "Nine", "es": "Nueve" },
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Six", "es": "Seis" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nine innings became standard in 1857; if the home team already leads after eight and a half, the last half is skipped.", "es": "Nueve entradas se fijaron en 1857; si el equipo local ya gana tras ocho y media, la última mitad no se juega." },
+      "topic": "baseball rules",
+      "source": "https://www.britannica.com/sports/baseball"
+    },
+    {
+      "id": "everyday-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚾",
+      "q": { "en": "How often does a batter with an average of .300 get a hit?", "es": "¿Con qué frecuencia conecta un hit un bateador con promedio de .300?" },
+      "choices": [
+        { "en": "Three times in a hundred at-bats", "es": "Tres veces de cada cien turnos" },
+        { "en": "Thirty times in a hundred games", "es": "Treinta veces en cien juegos" },
+        { "en": "Three times in ten at-bats", "es": "Tres veces de cada diez turnos" },
+        { "en": "Three times in every game", "es": "Tres veces en cada juego" }
+      ],
+      "answer": 2,
+      "why": { "en": "An average is hits divided by at-bats, so .300 means three hits in ten tries, which counts as excellent in baseball.", "es": "El promedio son hits entre turnos al bate, así que .300 significa tres hits en diez intentos, algo excelente en el béisbol." },
+      "topic": "baseball rules",
+      "source": "https://www.britannica.com/sports/baseball"
+    },
+    {
+      "id": "everyday-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "What did the first basketball players shoot at, in a gym in 1891?", "es": "¿A qué le tiraban los primeros jugadores de baloncesto, en un gimnasio en 1891?" },
+      "choices": [
+        { "en": "Iron hoops", "es": "Aros de hierro" },
+        { "en": "Wooden boxes", "es": "Cajas de madera" },
+        { "en": "Rope rings", "es": "Anillos de cuerda" },
+        { "en": "Peach baskets", "es": "Canastas de duraznos" }
+      ],
+      "answer": 3,
+      "why": { "en": "James Naismith nailed two peach baskets to a balcony, and someone had to fetch the ball out after every single score.", "es": "James Naismith clavó dos canastas de duraznos en un balcón, y alguien tenía que sacar la pelota después de cada anotación." },
+      "topic": "basketball rules",
+      "source": "https://www.britannica.com/sports/basketball"
+    },
+    {
+      "id": "everyday-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "A player is fouled while making a three-point shot and the basket counts. How many free throws follow?", "es": "A un jugador le hacen falta mientras encesta un triple y la canasta vale. ¿Cuántos tiros libres siguen?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Zero", "es": "Ninguno" }
+      ],
+      "answer": 0,
+      "why": { "en": "The basket stands and the shooter gets a single free throw, a chance at four points from one trip down the floor.", "es": "La canasta vale y el tirador recibe un solo tiro libre, así que puede sumar cuatro puntos en una sola jugada." },
+      "topic": "basketball rules",
+      "source": "https://www.britannica.com/sports/basketball"
+    },
+    {
+      "id": "everyday-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "In international basketball, how long does a team have to attempt a shot?", "es": "En el baloncesto internacional, ¿cuánto tiempo tiene un equipo para intentar un tiro?" },
+      "choices": [
+        { "en": "30 seconds", "es": "30 segundos" },
+        { "en": "24 seconds", "es": "24 segundos" },
+        { "en": "45 seconds", "es": "45 segundos" },
+        { "en": "12 seconds", "es": "12 segundos" }
+      ],
+      "answer": 1,
+      "why": { "en": "The shot clock arrived in 1954 to stop teams holding the ball, and scores jumped by about fourteen points a game.", "es": "El reloj de tiro nació en 1954 para evitar que los equipos congelaran el balón, y las anotaciones subieron unos catorce puntos." },
+      "topic": "basketball rules",
+      "source": "https://www.britannica.com/sports/basketball"
+    },
+    {
+      "id": "everyday-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "A striker is nearer the goal line than the ball and the second-last defender when a teammate passes. What is that?", "es": "Un delantero está más cerca de la línea de gol que el balón y el penúltimo defensa cuando llega el pase. ¿Qué es eso?" },
+      "choices": [
+        { "en": "A foul", "es": "Una falta" },
+        { "en": "A corner", "es": "Un tiro de esquina" },
+        { "en": "Offside", "es": "Fuera de juego" },
+        { "en": "Handball", "es": "Mano" }
+      ],
+      "answer": 2,
+      "why": { "en": "Offside is judged the moment the ball is played, so a striker can run past defenders afterwards and stay legal.", "es": "El fuera de juego se juzga en el momento del pase, así que el delantero puede rebasar a los defensas después y seguir legal." },
+      "topic": "soccer rules",
+      "source": "https://www.theifab.com/laws/latest/offside/"
+    },
+    {
+      "id": "everyday-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "How many Laws of the Game does soccer have?", "es": "¿Cuántas Reglas de Juego tiene el fútbol?" },
+      "choices": [
+        { "en": "Eleven", "es": "Once" },
+        { "en": "Twenty-two", "es": "Veintidós" },
+        { "en": "Nine", "es": "Nueve" },
+        { "en": "Seventeen", "es": "Diecisiete" }
+      ],
+      "answer": 3,
+      "why": { "en": "The seventeen laws were first written in 1863, and the offside law has been rewritten more often than any other.", "es": "Las diecisiete reglas se escribieron en 1863, y la del fuera de juego se ha reescrito más veces que ninguna otra." },
+      "topic": "soccer rules",
+      "source": "https://www.theifab.com/laws/"
+    },
+    {
+      "id": "everyday-hard-058", "level": "hard", "type": "tf", "lang": "both", "emoji": "⚽",
+      "q": { "en": "A player level with the second-last defender when the ball is played is offside.", "es": "Un jugador que está a la misma altura que el penúltimo defensa cuando se juega el balón está en fuera de juego." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Being level counts as onside, which is why assistant referees crouch to line up their eyes exactly with the last defender.", "es": "Estar a la misma altura es posición legal, por eso los jueces de línea alinean la vista con el último defensa." },
+      "topic": "soccer rules",
+      "source": "https://www.theifab.com/laws/latest/offside/"
+    },
+    {
+      "id": "everyday-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏐",
+      "q": { "en": "How many points wins a volleyball set, as long as the lead is two?", "es": "¿Con cuántos puntos se gana un set de voleibol, siempre que haya dos de ventaja?" },
+      "choices": [
+        { "en": "25", "es": "25" },
+        { "en": "15", "es": "15" },
+        { "en": "21", "es": "21" },
+        { "en": "30", "es": "30" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sets go to 25 with rally scoring, so every rally gives a point, but a deciding fifth set stops at 15.", "es": "Los sets llegan a 25 con punto por jugada, así que cada rally da un punto, pero el quinto set decisivo termina en 15." },
+      "topic": "volleyball rules",
+      "source": "https://www.britannica.com/sports/volleyball"
+    },
+    {
+      "id": "everyday-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏐",
+      "q": { "en": "Which way do volleyball players rotate after winning the serve back?", "es": "¿Hacia qué lado rotan los jugadores de voleibol al recuperar el saque?" },
+      "choices": [
+        { "en": "Counter-clockwise", "es": "En contra de las manecillas" },
+        { "en": "Clockwise", "es": "En el sentido de las manecillas" },
+        { "en": "They swap ends", "es": "Cambian de cancha" },
+        { "en": "They stay put", "es": "Se quedan en su lugar" }
+      ],
+      "answer": 1,
+      "why": { "en": "Players shift one position clockwise, so everyone takes a turn serving and nobody stays in the front row all game.", "es": "Cada jugador avanza un puesto en el sentido de las manecillas, así todos sacan y nadie se queda siempre en la red." },
+      "topic": "volleyball rules",
+      "source": "https://www.britannica.com/sports/volleyball"
+    },
+    {
+      "id": "everyday-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "Which stroke does a swimmer use first in an individual medley race?", "es": "¿Qué estilo nada primero un nadador en una prueba de combinado individual?" },
+      "choices": [
+        { "en": "Backstroke", "es": "Dorso" },
+        { "en": "Breaststroke", "es": "Pecho" },
+        { "en": "Butterfly", "es": "Mariposa" },
+        { "en": "Freestyle", "es": "Libre" }
+      ],
+      "answer": 2,
+      "why": { "en": "An individual medley runs butterfly, backstroke, breaststroke, then freestyle, so the hardest stroke comes while the swimmer is still fresh.", "es": "El combinado individual va mariposa, dorso, pecho y libre, así que el estilo más duro se nada cuando aún hay fuerzas." },
+      "topic": "swimming events",
+      "source": "https://www.britannica.com/sports/swimming-sport"
+    },
+    {
+      "id": "everyday-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "Which stroke opens a medley relay, where each of four swimmers takes one style?", "es": "¿Qué estilo abre un relevo combinado, donde cada uno de los cuatro nadadores lleva un estilo?" },
+      "choices": [
+        { "en": "Butterfly", "es": "Mariposa" },
+        { "en": "Breaststroke", "es": "Pecho" },
+        { "en": "Freestyle", "es": "Libre" },
+        { "en": "Backstroke", "es": "Dorso" }
+      ],
+      "answer": 3,
+      "why": { "en": "A relay starts with backstroke because that swimmer begins in the water, which avoids a dangerous dive onto a teammate.", "es": "El relevo empieza con dorso porque ese nadador arranca dentro del agua, y así se evita un clavado peligroso sobre un compañero." },
+      "topic": "swimming events",
+      "source": "https://www.britannica.com/sports/swimming-sport"
+    },
+    {
+      "id": "everyday-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "How long is the pool used for Olympic swimming races?", "es": "¿Cuánto mide la alberca que se usa en las carreras olímpicas de natación?" },
+      "choices": [
+        { "en": "50 metres, 164 feet", "es": "50 metros, 164 pies" },
+        { "en": "25 metres, 82 feet", "es": "25 metros, 82 pies" },
+        { "en": "100 metres, 328 feet", "es": "100 metros, 328 pies" },
+        { "en": "33 metres, 108 feet", "es": "33 metros, 108 pies" }
+      ],
+      "answer": 0,
+      "why": { "en": "An Olympic pool is 50 metres, 164 feet, long, so a 100 metre race is two lengths with a single turn.", "es": "Una alberca olímpica mide 50 metros, 164 pies, así que una prueba de 100 metros son dos largos con un solo giro." },
+      "topic": "swimming events",
+      "source": "https://www.britannica.com/sports/swimming-sport"
+    },
+    {
+      "id": "everyday-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🃏",
+      "q": { "en": "You draw one card from a full deck of 52. What is the chance it is an ace?", "es": "Sacas una carta de una baraja completa de 52. ¿Cuál es la probabilidad de que sea un as?" },
+      "choices": [
+        { "en": "1 in 4", "es": "1 entre 4" },
+        { "en": "1 in 13", "es": "1 entre 13" },
+        { "en": "1 in 52", "es": "1 entre 52" },
+        { "en": "1 in 26", "es": "1 entre 26" }
+      ],
+      "answer": 1,
+      "why": { "en": "Four aces among 52 cards is 4 divided by 52, which simplifies to 1 in 13, or about 7.7 percent.", "es": "Cuatro ases entre 52 cartas dan 4 entre 52, que se simplifica a 1 entre 13, es decir cerca del 7.7 por ciento." },
+      "topic": "cards and chance",
+      "source": "https://www.britannica.com/topic/playing-card"
+    },
+    {
+      "id": "everyday-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🃏",
+      "q": { "en": "A standard deck holds four suits. How many cards of each rank does it contain?", "es": "Una baraja estándar tiene cuatro palos. ¿Cuántas cartas hay de cada valor?" },
+      "choices": [
+        { "en": "Thirteen", "es": "Trece" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Twelve", "es": "Doce" }
+      ],
+      "answer": 2,
+      "why": { "en": "Thirteen ranks times four suits makes 52, so each rank appears four times, once in hearts, diamonds, clubs and spades.", "es": "Trece valores por cuatro palos dan 52, así que cada valor aparece cuatro veces: corazones, diamantes, tréboles y picas." },
+      "topic": "cards and chance",
+      "source": "https://www.britannica.com/topic/playing-card"
+    },
+    {
+      "id": "everyday-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🃏",
+      "q": { "en": "What is the chance that one card drawn from a deck is a jack, queen or king?", "es": "¿Cuál es la probabilidad de que una carta sacada de la baraja sea jota, reina o rey?" },
+      "choices": [
+        { "en": "1 in 13", "es": "1 entre 13" },
+        { "en": "1 in 4", "es": "1 entre 4" },
+        { "en": "1 in 3", "es": "1 entre 3" },
+        { "en": "3 in 13", "es": "3 entre 13" }
+      ],
+      "answer": 3,
+      "why": { "en": "Twelve face cards in 52 is 12 divided by 52, or 3 in 13, close to 23 percent of the deck.", "es": "Doce figuras entre 52 son 12 entre 52, o sea 3 entre 13, cerca del 23 por ciento de la baraja." },
+      "topic": "cards and chance",
+      "source": "https://www.britannica.com/topic/playing-card"
+    },
+    {
+      "id": "everyday-hard-067", "level": "hard", "type": "tf", "lang": "both", "emoji": "🃏",
+      "q": { "en": "Drawing an ace from a full deck is more likely than drawing a jack, queen or king.", "es": "Sacar un as de una baraja completa es más probable que sacar una jota, una reina o un rey." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "There are only four aces but twelve face cards, so a face card is three times as likely on any single draw.", "es": "Hay solo cuatro ases y doce figuras, así que una figura es tres veces más probable en cualquier carta que saques." },
+      "topic": "cards and chance",
+      "source": "https://www.britannica.com/topic/playing-card"
     }
   ]
 }

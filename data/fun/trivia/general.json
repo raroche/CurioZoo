@@ -2722,6 +2722,902 @@
       "why": { "en": "The clear cornea takes oxygen straight from the air, because even the thinnest blood vessel would blur the light passing through.", "es": "La córnea transparente toma el oxígeno del aire, porque hasta el vaso sanguíneo más fino nublaría la luz que pasa por ella." },
       "topic": "the body",
       "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "general-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "How many bones does a typical adult human skeleton contain?", "es": "¿Cuántos huesos tiene el esqueleto de una persona adulta?" },
+      "choices": [
+        { "en": "206", "es": "206" },
+        { "en": "187", "es": "187" },
+        { "en": "232", "es": "232" },
+        { "en": "300", "es": "300" }
+      ],
+      "answer": 0,
+      "why": { "en": "A baby starts with about 300 bones, and many fuse together as you grow, leaving an adult skeleton of 206.", "es": "Un bebé nace con unos 300 huesos, y muchos se fusionan al crecer, así que el esqueleto adulto tiene 206." },
+      "topic": "numbers to know",
+      "source": "https://www.britannica.com/science/human-skeleton"
+    },
+    {
+      "id": "general-hard-005", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧠",
+      "q": { "en": "People use only ten percent of their brain.", "es": "Las personas usan solo el diez por ciento de su cerebro." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Scans show every region of the brain works at some point, even during sleep; the ten percent claim is a myth.", "es": "Los escáneres muestran que todas las regiones del cerebro trabajan en algún momento, incluso al dormir; lo del diez por ciento es un mito." },
+      "topic": "brain myths",
+      "source": "https://www.ninds.nih.gov/health-information/public-education/brain-basics"
+    },
+    {
+      "id": "general-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "About how much blood does the body of an adult hold?", "es": "¿Cuánta sangre lleva más o menos el cuerpo de un adulto?" },
+      "choices": [
+        { "en": "About 2 liters (0.5 gallons)", "es": "Unos 2 litros (0.5 galones)" },
+        { "en": "About 5 liters (1.3 gallons)", "es": "Unos 5 litros (1.3 galones)" },
+        { "en": "About 8 liters (2.1 gallons)", "es": "Unos 8 litros (2.1 galones)" },
+        { "en": "About 12 liters (3.2 gallons)", "es": "Unos 12 litros (3.2 galones)" }
+      ],
+      "answer": 1,
+      "why": { "en": "Blood is about a thirteenth of your body weight, and roughly half of it is water carrying cells and salts.", "es": "La sangre es cerca de un treceavo de tu peso corporal, y casi la mitad es agua que lleva células y sales." },
+      "topic": "the body",
+      "source": "https://www.nhlbi.nih.gov/health/blood"
+    },
+    {
+      "id": "general-hard-007", "level": "hard", "type": "tf", "lang": "both", "emoji": "🐠",
+      "q": { "en": "A goldfish can remember things it learned months earlier.", "es": "Un pez dorado puede recordar cosas que aprendió meses antes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Laboratory goldfish learn mazes and feeding signals and still remember them months later, so the three-second memory story is wrong.", "es": "Los peces dorados aprenden laberintos y señales de comida y los recuerdan meses después, así que el cuento de tres segundos es falso." },
+      "topic": "animal myths",
+      "source": "https://www.britannica.com/animal/goldfish"
+    },
+    {
+      "id": "general-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "How does a hunting bat find a flying moth in complete darkness?", "es": "¿Cómo encuentra un murciélago a una polilla en plena oscuridad?" },
+      "choices": [
+        { "en": "By sensing the moth's body heat", "es": "Percibe el calor del cuerpo de la polilla" },
+        { "en": "By following the moth's scent trail", "es": "Sigue el rastro de olor de la polilla" },
+        { "en": "By calling out and listening for echoes", "es": "Grita y escucha los ecos que regresan" },
+        { "en": "By feeling air currents with its wings", "es": "Siente las corrientes de aire con las alas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The bat's ears time the returning echoes, a trick called echolocation; its eyes work fine, so calling bats blind is wrong.", "es": "Los oídos del murciélago miden los ecos que regresan; eso se llama ecolocalización, y sus ojos sí ven bien." },
+      "topic": "animal senses",
+      "source": "https://www.nationalgeographic.com/animals/article/bats-echolocation"
+    },
+    {
+      "id": "general-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "What is an ostrich really doing when it lowers its head to the ground?", "es": "¿Qué hace en realidad un avestruz cuando baja la cabeza al suelo?" },
+      "choices": [
+        { "en": "Hiding its head from a predator", "es": "Esconde la cabeza de un depredador" },
+        { "en": "Drinking water stored under the sand", "es": "Bebe agua guardada bajo la arena" },
+        { "en": "Listening for footsteps through the soil", "es": "Escucha pasos a través de la tierra" },
+        { "en": "Turning the eggs in its sand nest", "es": "Voltea los huevos de su nido de arena" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ostriches dig shallow nests and rotate the eggs with their beaks, which from far away looks like a head buried in sand.", "es": "Los avestruces cavan nidos poco profundos y voltean los huevos con el pico, lo que de lejos parece una cabeza enterrada." },
+      "topic": "birds",
+      "source": "https://www.britannica.com/animal/ostrich-bird"
+    },
+    {
+      "id": "general-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "How many people have walked on the surface of the Moon?", "es": "¿Cuántas personas han caminado sobre la superficie de la Luna?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Eighteen", "es": "Dieciocho" },
+        { "en": "Twenty-four", "es": "Veinticuatro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twelve astronauts walked there on six Apollo landings between 1969 and 1972, and each pair stayed only a few days.", "es": "Doce astronautas caminaron allí en seis alunizajes del programa Apollo entre 1969 y 1972, y cada pareja se quedó pocos días." },
+      "topic": "space firsts",
+      "source": "https://www.nasa.gov/mission/apollo-11/"
+    },
+    {
+      "id": "general-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "The word laser is an acronym. What do its letters stand for?", "es": "La palabra láser es una sigla. ¿Qué significan sus letras?" },
+      "choices": [
+        { "en": "Linear amplified sound energy ray", "es": "Rayo lineal amplificado de sonido y energía" },
+        { "en": "Light amplification by stimulated emission of radiation", "es": "Amplificación de luz por emisión estimulada de radiación" },
+        { "en": "Long arc of stored electric radiation", "es": "Arco largo de radiación eléctrica almacenada" },
+        { "en": "Light activated source of energy rays", "es": "Fuente de rayos de energía activada por luz" }
+      ],
+      "answer": 1,
+      "why": { "en": "The device makes many atoms release light together and in step, so the beam stays narrow and bright over long distances.", "es": "El aparato hace que muchos átomos suelten luz a la vez y acompasada, por eso el rayo se mantiene angosto y brillante." },
+      "topic": "acronyms",
+      "source": "https://www.britannica.com/technology/laser"
+    },
+    {
+      "id": "general-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "What does the Beaufort scale describe for sailors and forecasters?", "es": "¿Qué describe la escala de Beaufort para marinos y meteorólogos?" },
+      "choices": [
+        { "en": "Rainfall in one hour", "es": "La lluvia caída en una hora" },
+        { "en": "Air pressure at sea level", "es": "La presión del aire al nivel del mar" },
+        { "en": "The strength of the wind", "es": "La fuerza del viento" },
+        { "en": "Wave height far out at sea", "es": "La altura de las olas en altamar" }
+      ],
+      "answer": 2,
+      "why": { "en": "Admiral Beaufort ranked wind from zero, calm, to twelve, hurricane force, by what sailors could see happening to sails and waves.", "es": "El almirante Beaufort ordenó el viento de cero, en calma, a doce, fuerza de huracán, según lo que veían en velas y olas." },
+      "topic": "weather",
+      "source": "https://www.weather.gov/mfl/beaufort"
+    },
+    {
+      "id": "general-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which country covers less ground than many city parks, at under half a square kilometer?", "es": "¿Qué país ocupa menos de medio kilómetro cuadrado de terreno?" },
+      "choices": [
+        { "en": "Monaco", "es": "Mónaco" },
+        { "en": "San Marino", "es": "San Marino" },
+        { "en": "Liechtenstein", "es": "Liechtenstein" },
+        { "en": "Vatican City", "es": "La Ciudad del Vaticano" }
+      ],
+      "answer": 3,
+      "why": { "en": "Vatican City covers about 0.44 square kilometers, 0.17 square miles, and sits entirely inside the Italian city of Rome.", "es": "La Ciudad del Vaticano mide unos 0.44 kilómetros cuadrados, 0.17 millas cuadradas, y está completamente dentro de la ciudad de Roma." },
+      "topic": "countries",
+      "source": "https://www.britannica.com/place/Vatican-City"
+    },
+    {
+      "id": "general-hard-014", "level": "hard", "type": "tf", "lang": "both", "emoji": "📚",
+      "q": { "en": "Oxford University was already teaching students before the Aztec capital Tenochtitlan was founded.", "es": "La Universidad de Oxford ya daba clases antes de que se fundara Tenochtitlan." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Teaching at Oxford is recorded from about 1096, more than two centuries before the Mexica built Tenochtitlan on its lake island in 1325.", "es": "Hay clases registradas en Oxford desde cerca de 1096, más de dos siglos antes de que los mexicas fundaran Tenochtitlan en 1325." },
+      "topic": "history firsts",
+      "source": "https://www.britannica.com/topic/University-of-Oxford"
+    },
+    {
+      "id": "general-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍌",
+      "q": { "en": "To a botanist, which of these fruits counts as a true berry?", "es": "Para la botánica, ¿cuál de estas frutas es una baya verdadera?" },
+      "choices": [
+        { "en": "The banana", "es": "El plátano" },
+        { "en": "The strawberry", "es": "La fresa" },
+        { "en": "The raspberry", "es": "La frambuesa" },
+        { "en": "The blackberry", "es": "La zarzamora" }
+      ],
+      "answer": 0,
+      "why": { "en": "A berry grows from one flower with a single ovary and keeps its seeds inside the flesh; a strawberry wears its seeds outside.", "es": "Una baya nace de una flor con un solo ovario y guarda las semillas adentro; las de la fresa quedan por fuera." },
+      "topic": "food science",
+      "source": "https://www.britannica.com/science/berry-plant-reproductive-body"
+    },
+    {
+      "id": "general-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎹",
+      "q": { "en": "Counting black and white keys, how many notes does one octave hold?", "es": "Contando teclas blancas y negras, ¿cuántas notas tiene una octava?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez" },
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Eight", "es": "Ocho" },
+        { "en": "Fourteen", "es": "Catorce" }
+      ],
+      "answer": 1,
+      "why": { "en": "Seven white keys and five black keys make twelve steps, and the note closing an octave vibrates exactly twice as fast.", "es": "Siete teclas blancas y cinco negras dan doce pasos, y la nota que cierra la octava vibra exactamente al doble de velocidad." },
+      "topic": "music",
+      "source": "https://www.britannica.com/art/octave-music"
+    },
+    {
+      "id": "general-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "How high above the floor is the rim of a basketball hoop fixed?", "es": "¿A qué altura del piso se fija el aro de baloncesto?" },
+      "choices": [
+        { "en": "2.4 meters (8 feet)", "es": "2.4 metros (8 pies)" },
+        { "en": "2.75 meters (9 feet)", "es": "2.75 metros (9 pies)" },
+        { "en": "3.05 meters (10 feet)", "es": "3.05 metros (10 pies)" },
+        { "en": "3.5 meters (11.5 feet)", "es": "3.5 metros (11.5 pies)" }
+      ],
+      "answer": 2,
+      "why": { "en": "James Naismith hung peach baskets on a gymnasium balcony that happened to sit ten feet up, and the height stayed.", "es": "James Naismith colgó canastas de duraznos en el balcón de un gimnasio que quedaba a diez pies, y esa altura se quedó." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/basketball"
+    },
+    {
+      "id": "general-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚓",
+      "q": { "en": "The word quarantine grew from an Italian word for which number?", "es": "La palabra cuarentena nació de una palabra italiana para ¿qué número?" },
+      "choices": [
+        { "en": "Ten", "es": "Diez" },
+        { "en": "Twenty", "es": "Veinte" },
+        { "en": "Thirty", "es": "Treinta" },
+        { "en": "Forty", "es": "Cuarenta" }
+      ],
+      "answer": 3,
+      "why": { "en": "Venice made arriving ships wait forty days, quaranta giorni, before anyone could land, hoping any illness aboard would show itself.", "es": "Venecia obligaba a los barcos a esperar cuarenta días, quaranta giorni, antes de desembarcar, para ver si traían alguna enfermedad." },
+      "topic": "word origins",
+      "source": "https://www.britannica.com/science/quarantine-public-health"
+    },
+    {
+      "id": "general-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "💰",
+      "q": { "en": "The dollar sign is thought to come from a handwritten short form for which coin?", "es": "Se cree que el signo de dólar viene de la abreviatura de ¿cuál moneda?" },
+      "choices": [
+        { "en": "The Spanish peso", "es": "El peso español" },
+        { "en": "The British pound", "es": "La libra británica" },
+        { "en": "The French franc", "es": "El franco francés" },
+        { "en": "The Dutch guilder", "es": "El florín holandés" }
+      ],
+      "answer": 0,
+      "why": { "en": "Clerks wrote ps for pesos, and the letters slowly merged into one stroked symbol used around the Americas before dollars existed.", "es": "Los escribanos escribían ps por pesos, y las letras se fueron uniendo en un solo símbolo usado en América antes del dólar." },
+      "topic": "money",
+      "source": "https://www.britannica.com/topic/dollar-sign"
+    },
+    {
+      "id": "general-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "Why does an hour hold sixty minutes instead of a round hundred?", "es": "¿Por qué una hora tiene sesenta minutos y no cien?" },
+      "choices": [
+        { "en": "Roman soldiers marched in groups of sixty", "es": "Los soldados romanos marchaban en grupos de sesenta" },
+        { "en": "Babylonian scribes counted in sixties", "es": "Los escribas babilonios contaban de sesenta en sesenta" },
+        { "en": "Egyptian priests watched sixty bright stars", "es": "Los sacerdotes egipcios veían sesenta estrellas brillantes" },
+        { "en": "Greek sailors split the night into sixty watches", "es": "Los marinos griegos partían la noche en sesenta guardias" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sixty divides evenly by two, three, four, five and six, which made fractions and sharing easy for Babylonian scribes.", "es": "Sesenta se divide exacto entre dos, tres, cuatro, cinco y seis, lo que facilitaba las fracciones a los escribas babilonios." },
+      "topic": "measuring time",
+      "source": "https://www.britannica.com/science/mathematics/Mathematics-in-ancient-Mesopotamia"
+    },
+    {
+      "id": "general-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "⌨️",
+      "q": { "en": "Why were the letters on the first typewriters arranged in the QWERTY order?", "es": "¿Por qué las primeras máquinas de escribir usaron el orden QWERTY?" },
+      "choices": [
+        { "en": "To match the alphabet used abroad", "es": "Para copiar el alfabeto usado en otros países" },
+        { "en": "To make typing as fast as possible", "es": "Para escribir lo más rápido posible" },
+        { "en": "To keep common letter pairs from jamming", "es": "Para que las parejas de letras comunes no se trabaran" },
+        { "en": "To copy the layout of a piano keyboard", "es": "Para copiar el acomodo del teclado del piano" }
+      ],
+      "answer": 2,
+      "why": { "en": "Early typebars swung on levers and stuck together, so Christopher Sholes spread frequent pairs apart; computers copied the layout from habit.", "es": "Las barras de tipos se trababan al chocar, así que Christopher Sholes separó las parejas frecuentes, y las computadoras copiaron ese acomodo." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/typewriter"
+    },
+    {
+      "id": "general-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Bamboo is used for floors and scaffolding, but which plant family does it belong to?", "es": "El bambú sirve para pisos y andamios, pero ¿a qué familia de plantas pertenece?" },
+      "choices": [
+        { "en": "Trees", "es": "Los árboles" },
+        { "en": "Ferns", "es": "Los helechos" },
+        { "en": "Palms", "es": "Las palmas" },
+        { "en": "Grasses", "es": "Los pastos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bamboo is a giant grass with hollow jointed stems, and some kinds grow almost a meter, three feet, in one day.", "es": "El bambú es un pasto gigante de tallos huecos, y algunas clases crecen casi un metro, tres pies, en un solo día." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/plant/bamboo"
+    },
+    {
+      "id": "general-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "What does a luthier spend the working day building and repairing?", "es": "¿Qué construye y repara un lutier durante su jornada?" },
+      "choices": [
+        { "en": "Stringed instruments", "es": "Instrumentos de cuerda" },
+        { "en": "Stained glass windows", "es": "Vitrales de colores" },
+        { "en": "Leather shoes", "es": "Zapatos de cuero" },
+        { "en": "Clock movements", "es": "Mecanismos de reloj" }
+      ],
+      "answer": 0,
+      "why": { "en": "The word comes from lute; a luthier shapes thin spruce and maple so the wood itself amplifies the strings' vibration.", "es": "La palabra viene de laúd; el lutier talla abeto y arce delgados para que la madera amplifique la vibración de las cuerdas." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/art/stringed-instrument"
+    },
+    {
+      "id": "general-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "In a trial held with a jury, what is the jury's job?", "es": "En un juicio con jurado, ¿cuál es la tarea del jurado?" },
+      "choices": [
+        { "en": "To choose the punishment", "es": "Elegir el castigo" },
+        { "en": "To decide which facts are proven", "es": "Decidir qué hechos quedaron probados" },
+        { "en": "To write the law being used", "es": "Escribir la ley que se aplica" },
+        { "en": "To question the witnesses first", "es": "Interrogar primero a los testigos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jurors are ordinary citizens who weigh the evidence and agree on what happened; the judge then applies the law to that finding.", "es": "Los jurados son ciudadanos comunes que evalúan las pruebas y deciden qué ocurrió; luego el juez aplica la ley a esa conclusión." },
+      "topic": "civics",
+      "source": "https://www.britannica.com/topic/jury"
+    },
+    {
+      "id": "general-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗳️",
+      "q": { "en": "Which country was first to give women the vote in national elections?", "es": "¿Cuál país fue el primero en dar el voto nacional a las mujeres?" },
+      "choices": [
+        { "en": "Norway", "es": "Noruega" },
+        { "en": "The United States", "es": "Estados Unidos" },
+        { "en": "New Zealand", "es": "Nueva Zelanda" },
+        { "en": "Australia", "es": "Australia" }
+      ],
+      "answer": 2,
+      "why": { "en": "New Zealand granted women the national vote in 1893, after Kate Sheppard gathered petitions signed by almost a quarter of adult women.", "es": "Nueva Zelanda dio el voto nacional a las mujeres en 1893, tras las firmas que juntó Kate Sheppard, casi un cuarto de las adultas." },
+      "topic": "famous firsts",
+      "source": "https://www.britannica.com/topic/woman-suffrage"
+    },
+    {
+      "id": "general-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "The continents of America take their name from which traveler?", "es": "¿De cuál viajero tomaron su nombre los continentes de América?" },
+      "choices": [
+        { "en": "Christopher Columbus", "es": "Cristóbal Colón" },
+        { "en": "Marco Polo", "es": "Marco Polo" },
+        { "en": "Ferdinand Magellan", "es": "Fernando de Magallanes" },
+        { "en": "Amerigo Vespucci", "es": "Américo Vespucio" }
+      ],
+      "answer": 3,
+      "why": { "en": "A German mapmaker printed Amerigo's Latin name on his 1507 map because Vespucci argued the land was a new continent, not Asia.", "es": "Un cartógrafo alemán puso el nombre latino de Amerigo en su mapa de 1507 porque Vespucio sostuvo que era un continente nuevo." },
+      "topic": "name origins",
+      "source": "https://www.loc.gov/item/2003626426/"
+    },
+    {
+      "id": "general-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚗️",
+      "q": { "en": "How many elements does the periodic table hold, from hydrogen up to oganesson?", "es": "¿Cuántos elementos tiene la tabla periódica, del hidrógeno al oganesón?" },
+      "choices": [
+        { "en": "118", "es": "118" },
+        { "en": "92", "es": "92" },
+        { "en": "103", "es": "103" },
+        { "en": "150", "es": "150" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hydrogen is number one and oganesson is 118; elements heavier than uranium are built in laboratories and most vanish within seconds.", "es": "El hidrógeno es el número uno y el oganesón el 118; los elementos más pesados que el uranio se fabrican en laboratorios." },
+      "topic": "chemistry",
+      "source": "https://www.britannica.com/science/periodic-table"
+    },
+    {
+      "id": "general-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Measured from its base on the sea floor, which mountain rises tallest on Earth?", "es": "Medida desde su base en el fondo del mar, ¿cuál montaña es la más alta?" },
+      "choices": [
+        { "en": "Mount Everest", "es": "El monte Everest" },
+        { "en": "Mauna Kea", "es": "El Mauna Kea" },
+        { "en": "Denali", "es": "El Denali" },
+        { "en": "Aconcagua", "es": "El Aconcagua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mauna Kea rises about 10,200 meters, 33,500 feet, from the Pacific floor, though only 4200 meters stand above the water.", "es": "El Mauna Kea se eleva unos 10,200 metros, 33,500 pies, desde el fondo del Pacífico, pero solo 4200 metros quedan sobre el agua." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Mauna-Kea"
+    },
+    {
+      "id": "general-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "In which century did people first send messages along a telegraph wire?", "es": "¿En qué siglo se enviaron los primeros mensajes por un cable telegráfico?" },
+      "choices": [
+        { "en": "The seventeenth century", "es": "El siglo diecisiete" },
+        { "en": "The eighteenth century", "es": "El siglo dieciocho" },
+        { "en": "The nineteenth century", "es": "El siglo diecinueve" },
+        { "en": "The twentieth century", "es": "El siglo veinte" }
+      ],
+      "answer": 2,
+      "why": { "en": "Samuel Morse's line between Washington and Baltimore carried its first coded message in 1844, cutting news travel from days to minutes.", "es": "La línea de Samuel Morse entre Washington y Baltimore llevó su primer mensaje en clave en 1844, y las noticias pasaron de días a minutos." },
+      "topic": "communication",
+      "source": "https://www.loc.gov/collections/samuel-morse-papers/about-this-collection/"
+    },
+    {
+      "id": "general-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏥",
+      "q": { "en": "Which blood type can be given to almost any patient in an emergency?", "es": "¿Cuál tipo de sangre sirve para casi cualquier paciente en una emergencia?" },
+      "choices": [
+        { "en": "A positive", "es": "A positivo" },
+        { "en": "B negative", "es": "B negativo" },
+        { "en": "AB positive", "es": "AB positivo" },
+        { "en": "O negative", "es": "O negativo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Type O negative red cells carry none of the A, B or Rh markers, so a patient's immune system rarely attacks them.", "es": "Los glóbulos rojos O negativo no llevan los marcadores A, B ni Rh, así que el sistema inmune casi nunca los ataca." },
+      "topic": "medicine",
+      "source": "https://www.nhlbi.nih.gov/health/blood-types"
+    },
+    {
+      "id": "general-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦐",
+      "q": { "en": "Which of these small sea animals keeps its heart inside its head?", "es": "¿Cuál de estos animales marinos lleva el corazón dentro de la cabeza?" },
+      "choices": [
+        { "en": "The shrimp", "es": "El camarón" },
+        { "en": "The jellyfish", "es": "La medusa" },
+        { "en": "The sea star", "es": "La estrella de mar" },
+        { "en": "The sea snail", "es": "El caracol de mar" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shrimp fuses head and chest into one cephalothorax, and the heart beats inside it, just behind the eyes.", "es": "El camarón une cabeza y tórax en un cefalotórax, y el corazón late allí adentro, justo detrás de los ojos." },
+      "topic": "sea animals",
+      "source": "https://www.britannica.com/animal/shrimp-crustacean"
+    },
+    {
+      "id": "general-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Which imaginary line about 100 kilometers up is used as the edge of space?", "es": "¿Qué línea imaginaria, a unos 100 kilómetros de altura, marca el borde del espacio?" },
+      "choices": [
+        { "en": "The Roche limit", "es": "El límite de Roche" },
+        { "en": "The Kármán line", "es": "La línea de Kármán" },
+        { "en": "The Van Allen belt", "es": "El cinturón de Van Allen" },
+        { "en": "The terminator line", "es": "La línea del terminador" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Kármán line sits about 100 kilometers, 62 miles, above sea level, where air grows too thin for wings to lift anything.", "es": "La línea de Kármán está a unos 100 kilómetros, 62 millas, de altura, donde el aire ya es muy delgado para sostener alas." },
+      "topic": "space",
+      "source": "https://www.britannica.com/science/Karman-line"
+    },
+    {
+      "id": "general-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which part of the crocus flower is dried to make saffron?", "es": "¿Qué parte de la flor del azafrán se seca para hacer la especia?" },
+      "choices": [
+        { "en": "The petals", "es": "Los pétalos" },
+        { "en": "The seeds", "es": "Las semillas" },
+        { "en": "The stigmas, the thin red threads", "es": "Los estigmas, los hilos rojos delgados" },
+        { "en": "The roots", "es": "Las raíces" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each crocus flower gives only three red stigmas, picked by hand, so one kilogram of saffron needs about 150,000 blossoms.", "es": "Cada flor de azafrán da solo tres estigmas rojos, cortados a mano, y un kilogramo necesita cerca de 150,000 flores." },
+      "topic": "food",
+      "source": "https://www.britannica.com/topic/saffron"
+    },
+    {
+      "id": "general-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤽",
+      "q": { "en": "How many players from one team are in the water during a game of water polo?", "es": "¿Cuántos jugadores de un equipo están en el agua en un partido de polo acuático?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Seven", "es": "Siete" }
+      ],
+      "answer": 3,
+      "why": { "en": "Six field players and one goalkeeper swim for each side, and the field players may hold the ball with one hand.", "es": "Seis jugadores de campo y un portero nadan por equipo, y los de campo solo pueden tomar el balón con una mano." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/water-polo"
+    },
+    {
+      "id": "general-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "✍️",
+      "q": { "en": "Which alphabet, used for Russian, is named after a ninth-century missionary?", "es": "¿Cuál alfabeto, usado para el ruso, lleva el nombre de un misionero del siglo nueve?" },
+      "choices": [
+        { "en": "Cyrillic", "es": "El cirílico" },
+        { "en": "Latin", "es": "El latino" },
+        { "en": "Greek", "es": "El griego" },
+        { "en": "Arabic", "es": "El árabe" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cyrillic honors Saint Cyril, who with his brother Methodius created a Slavic script; Russian writes with thirty-three of its letters.", "es": "El cirílico honra a san Cirilo, que con su hermano Metodio creó una escritura eslava; el ruso usa treinta y tres letras." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Cyrillic-alphabet"
+    },
+    {
+      "id": "general-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "How many official languages does the United Nations use in its meetings?", "es": "¿Cuántos idiomas oficiales usa la Organización de las Naciones Unidas en sus reuniones?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Eight", "es": "Ocho" },
+        { "en": "Ten", "es": "Diez" }
+      ],
+      "answer": 1,
+      "why": { "en": "Arabic, Chinese, English, French, Russian and Spanish are interpreted at once, and every official document appears in all six.", "es": "El árabe, el chino, el inglés, el francés, el ruso y el español se interpretan a la vez en cada documento oficial." },
+      "topic": "civics",
+      "source": "https://www.britannica.com/topic/United-Nations"
+    },
+    {
+      "id": "general-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎩",
+      "q": { "en": "Napoleon Bonaparte is remembered as a short man. How tall was he actually?", "es": "A Napoleón Bonaparte se le recuerda como bajito. ¿Cuánto medía en realidad?" },
+      "choices": [
+        { "en": "About 1.52 meters (5 feet)", "es": "Cerca de 1.52 metros (5 pies)" },
+        { "en": "About 1.60 meters (5 feet 3)", "es": "Cerca de 1.60 metros (5 pies 3)" },
+        { "en": "About 1.69 meters (5 feet 7)", "es": "Cerca de 1.69 metros (5 pies 7)" },
+        { "en": "About 1.85 meters (6 feet 1)", "es": "Cerca de 1.85 metros (6 pies 1)" }
+      ],
+      "answer": 2,
+      "why": { "en": "French inches were longer than English ones, so his height was misread; 1.69 meters was about average for a man then.", "es": "La pulgada francesa era más larga que la inglesa, así que su estatura se leyó mal; 1.69 metros era lo normal entonces." },
+      "topic": "history myths",
+      "source": "https://www.britannica.com/biography/Napoleon-I"
+    },
+    {
+      "id": "general-hard-038", "level": "hard", "type": "tf", "lang": "both", "emoji": "⚡",
+      "q": { "en": "Lightning can strike the very same spot many times over the years.", "es": "Un rayo puede caer muchas veces en el mismo lugar con los años." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tall pointed structures are hit again and again; the Empire State Building takes roughly twenty-five strikes in an average year.", "es": "Las estructuras altas y puntiagudas reciben rayos una y otra vez; el edificio Empire State recibe unos veinticinco al año." },
+      "topic": "weather myths",
+      "source": "https://www.weather.gov/safety/lightning-myths"
+    },
+    {
+      "id": "general-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "👅",
+      "q": { "en": "Where on your tongue can you pick up a sweet flavor?", "es": "¿En qué parte de la lengua puedes percibir el sabor dulce?" },
+      "choices": [
+        { "en": "Only at the very tip", "es": "Solo en la punta" },
+        { "en": "Only along the sides", "es": "Solo en los lados" },
+        { "en": "Only at the back", "es": "Solo en la parte de atrás" },
+        { "en": "All over its surface", "es": "En toda su superficie" }
+      ],
+      "answer": 3,
+      "why": { "en": "Every taste bud detects all five basic tastes, so the old drawing that splits the tongue into flavor zones is wrong.", "es": "Cada papila gustativa capta los cinco sabores básicos, así que el viejo dibujo que divide la lengua en zonas está equivocado." },
+      "topic": "taste",
+      "source": "https://www.nidcd.nih.gov/health/taste-disorders"
+    },
+    {
+      "id": "general-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Which two countries share the longest land border on Earth?", "es": "¿Cuáles dos países comparten la frontera terrestre más larga de la Tierra?" },
+      "choices": [
+        { "en": "Canada and the United States", "es": "Canadá y Estados Unidos" },
+        { "en": "Russia and China", "es": "Rusia y China" },
+        { "en": "Argentina and Chile", "es": "Argentina y Chile" },
+        { "en": "India and Bangladesh", "es": "India y Bangladés" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Canada and United States boundary runs about 8900 kilometers, 5500 miles, including the stretch beside Alaska, and crosses lakes and forests.", "es": "La frontera entre Canadá y Estados Unidos mide unos 8900 kilómetros, 5500 millas, incluido el tramo junto a Alaska." },
+      "topic": "borders",
+      "source": "https://www.britannica.com/place/Canada"
+    },
+    {
+      "id": "general-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which sea is bounded by ocean currents rather than by any coastline?", "es": "¿Cuál mar está rodeado por corrientes oceánicas y no por costas?" },
+      "choices": [
+        { "en": "The Caspian Sea", "es": "El mar Caspio" },
+        { "en": "The Sargasso Sea", "es": "El mar de los Sargazos" },
+        { "en": "The Coral Sea", "es": "El mar del Coral" },
+        { "en": "The Bering Sea", "es": "El mar de Bering" }
+      ],
+      "answer": 1,
+      "why": { "en": "Four Atlantic currents circle the Sargasso Sea, whose calm water grows floating sargassum weed where young eels and turtles shelter.", "es": "Cuatro corrientes del Atlántico rodean el mar de los Sargazos, cuya agua calmada cría el sargazo donde se refugian anguilas y tortugas." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/sargassosea.html"
+    },
+    {
+      "id": "general-hard-042", "level": "hard", "type": "tf", "lang": "both", "emoji": "🦣",
+      "q": { "en": "Woolly mammoths were still alive when the Great Pyramid of Giza was built.", "es": "Todavía había mamuts lanudos cuando se construyó la Gran Pirámide de Guiza." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "A small herd survived on Wrangel Island in the Arctic until about 1650 BC, centuries after Egyptian workers finished the pyramid.", "es": "Una manada pequeña sobrevivió en la isla de Wrangel, en el Ártico, hasta cerca del 1650 a. C., siglos después de la pirámide." },
+      "topic": "prehistory",
+      "source": "https://www.britannica.com/animal/woolly-mammoth"
+    },
+    {
+      "id": "general-hard-043", "level": "hard", "type": "tf", "lang": "both", "emoji": "✋",
+      "q": { "en": "Cracking your knuckles wears the joints out and causes arthritis.", "es": "Tronarse los nudillos desgasta las articulaciones y causa artritis." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "The pop is a gas bubble collapsing in joint fluid; long studies found no more arthritis among lifelong knuckle crackers.", "es": "El chasquido es una burbuja de gas que colapsa en el líquido de la articulación; los estudios largos no hallaron más artritis." },
+      "topic": "body myths",
+      "source": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "general-hard-044", "level": "hard", "type": "tf", "lang": "both", "emoji": "✈️",
+      "q": { "en": "The flight recorder that people call an aircraft's black box is painted black.", "es": "La grabadora de vuelo que llaman caja negra está pintada de negro." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "The recorders are painted bright orange with reflective stripes so searchers can find them quickly in water, snow or dark debris.", "es": "Las grabadoras se pintan de naranja brillante con franjas reflejantes para que los rescatistas las encuentren rápido en agua, nieve o escombros." },
+      "topic": "aviation",
+      "source": "https://airandspace.si.edu/stories/editorial/black-box"
+    },
+    {
+      "id": "general-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "In ancient Greek theaters, what did the word orchestra name?", "es": "En los teatros de la antigua Grecia, ¿qué nombraba la palabra orquesta?" },
+      "choices": [
+        { "en": "The row of front seats", "es": "La fila de asientos delanteros" },
+        { "en": "The painted backdrop", "es": "El telón pintado del fondo" },
+        { "en": "The dancing floor before the stage", "es": "El piso de baile frente al escenario" },
+        { "en": "The group of singers", "es": "El grupo de cantantes" }
+      ],
+      "answer": 2,
+      "why": { "en": "Orchestra meant the round floor where the chorus danced and sang; centuries later the word moved to the players seated there.", "es": "Orquesta era el piso redondo donde el coro bailaba y cantaba; siglos después la palabra pasó a los músicos sentados allí." },
+      "topic": "name origins",
+      "source": "https://www.britannica.com/art/orchestra"
+    },
+    {
+      "id": "general-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧩",
+      "q": { "en": "How many pieces does each player line up at the start of a chess game?", "es": "¿Cuántas piezas acomoda cada jugador al comenzar una partida de ajedrez?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Fourteen", "es": "Catorce" },
+        { "en": "Fifteen", "es": "Quince" },
+        { "en": "Sixteen", "es": "Dieciséis" }
+      ],
+      "answer": 3,
+      "why": { "en": "Eight pawns plus a king, a queen, two rooks, two knights and two bishops give sixteen pieces, thirty-two on the board.", "es": "Ocho peones más rey, dama, dos torres, dos caballos y dos alfiles suman dieciséis piezas, y treinta y dos sobre el tablero." },
+      "topic": "games",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "general-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "👖",
+      "q": { "en": "The cloth called denim is named after a city in which country?", "es": "La tela llamada mezclilla toma su nombre de una ciudad de ¿cuál país?" },
+      "choices": [
+        { "en": "France", "es": "Francia" },
+        { "en": "Italy", "es": "Italia" },
+        { "en": "England", "es": "Inglaterra" },
+        { "en": "Spain", "es": "España" }
+      ],
+      "answer": 0,
+      "why": { "en": "Denim is short for serge de Nîmes, the sturdy cloth from Nîmes, while the word jeans points to sailors from Genoa.", "es": "Mezclilla viene de serge de Nîmes, la tela recia de esa ciudad, y la palabra jeans recuerda a los marinos de Génova." },
+      "topic": "word origins",
+      "source": "https://www.britannica.com/topic/denim"
+    },
+    {
+      "id": "general-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "The English word money comes from the name of which Roman goddess?", "es": "La palabra moneda viene del nombre de ¿cuál diosa romana?" },
+      "choices": [
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Juno Moneta", "es": "Juno Moneta" },
+        { "en": "Minerva", "es": "Minerva" },
+        { "en": "Ceres", "es": "Ceres" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rome struck its coins beside the temple of Juno Moneta, and moneta gave Spanish moneda and English money and mint.", "es": "Roma acuñaba sus monedas junto al templo de Juno Moneta, y de moneta salieron las palabras moneda en español y money en inglés." },
+      "topic": "money",
+      "source": "https://www.britannica.com/topic/coin"
+    },
+    {
+      "id": "general-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "When the Gregorian calendar replaced the Julian one in 1582, what happened to the date?", "es": "Cuando el calendario gregoriano reemplazó al juliano en 1582, ¿qué pasó con la fecha?" },
+      "choices": [
+        { "en": "A whole week was counted twice", "es": "Una semana entera se contó dos veces" },
+        { "en": "The year began in March", "es": "El año empezó en marzo" },
+        { "en": "Ten days were skipped at once", "es": "Se saltaron diez días de golpe" },
+        { "en": "Every month gained one day", "es": "Cada mes ganó un día" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Julian year ran slightly long, so the seasons had drifted; jumping from October 4 to October 15 put the equinox back in place.", "es": "El año juliano era un poco largo y las estaciones se corrieron; saltar del 4 al 15 de octubre reacomodó el equinoccio." },
+      "topic": "calendars",
+      "source": "https://www.britannica.com/topic/Gregorian-calendar"
+    },
+    {
+      "id": "general-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Which metal stays liquid at ordinary room temperature?", "es": "¿Cuál metal se mantiene líquido a temperatura ambiente?" },
+      "choices": [
+        { "en": "Lead", "es": "El plomo" },
+        { "en": "Tin", "es": "El estaño" },
+        { "en": "Zinc", "es": "El zinc" },
+        { "en": "Mercury", "es": "El mercurio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mercury freezes only at minus 39 degrees Celsius, minus 38 Fahrenheit, which is why old thermometers used it to follow temperature.", "es": "El mercurio se congela apenas a 39 grados Celsius bajo cero, 38 Fahrenheit bajo cero, por eso los termómetros antiguos lo usaban." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/science/mercury-chemical-element"
+    },
+    {
+      "id": "general-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "An ornithologist spends the working day studying which group of animals?", "es": "¿Cuál grupo de animales estudia una persona ornitóloga?" },
+      "choices": [
+        { "en": "Birds", "es": "Las aves" },
+        { "en": "Snakes", "es": "Las serpientes" },
+        { "en": "Fish", "es": "Los peces" },
+        { "en": "Spiders", "es": "Las arañas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ornis is Greek for bird; these scientists ring wings, capture songs and map the long routes of migrating flocks.", "es": "Ornis significa ave en griego; estas personas anillan alas, graban cantos y trazan las rutas largas de las parvadas migratorias." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/science/ornithology"
+    },
+    {
+      "id": "general-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Many governments split their power into three branches. Which three?", "es": "Muchos gobiernos dividen su poder en tres ramas. ¿Cuáles son?" },
+      "choices": [
+        { "en": "Royal, noble and common", "es": "Real, noble y común" },
+        { "en": "Legislative, executive and judicial", "es": "Legislativa, ejecutiva y judicial" },
+        { "en": "Local, regional and national", "es": "Local, regional y nacional" },
+        { "en": "Written, spoken and voted", "es": "Escrita, hablada y votada" }
+      ],
+      "answer": 1,
+      "why": { "en": "One branch writes laws, one carries them out, and one judges them, so no single group holds every kind of power.", "es": "Una rama escribe las leyes, otra las aplica y otra las juzga, para que ningún grupo tenga todo el poder junto." },
+      "topic": "civics",
+      "source": "https://www.britannica.com/topic/separation-of-powers"
+    },
+    {
+      "id": "general-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "📮",
+      "q": { "en": "Which country printed the first sticky postage stamps for letters?", "es": "¿Cuál país imprimió las primeras estampillas engomadas para cartas?" },
+      "choices": [
+        { "en": "France", "es": "Francia" },
+        { "en": "The United States", "es": "Estados Unidos" },
+        { "en": "The United Kingdom", "es": "El Reino Unido" },
+        { "en": "Brazil", "es": "Brasil" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Penny Black appeared in 1840 and let the sender pay, and British stamps still leave the country name off their design.", "es": "El Penny Black salió en 1840 y permitió que pagara quien enviaba; las estampillas británicas aún omiten el nombre del país." },
+      "topic": "famous firsts",
+      "source": "https://www.britannica.com/topic/postage-stamp"
+    },
+    {
+      "id": "general-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "A bound book of maps takes its name from which figure of Greek myth?", "es": "¿De cuál figura del mito griego toma su nombre un libro de mapas?" },
+      "choices": [
+        { "en": "Hermes", "es": "Hermes" },
+        { "en": "Poseidon", "es": "Poseidón" },
+        { "en": "Hercules", "es": "Hércules" },
+        { "en": "Atlas the Titan", "es": "Atlas, el titán" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mercator put the Titan holding up the sky on the cover of his map collection, and the name stuck to every such book.", "es": "Mercator puso al titán que sostiene el cielo en la portada de su colección de mapas, y el nombre quedó para siempre." },
+      "topic": "name origins",
+      "source": "https://www.britannica.com/biography/Gerardus-Mercator"
+    },
+    {
+      "id": "general-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Which human bone floats in the throat, held in place only by muscles?", "es": "¿Cuál hueso humano flota en la garganta, sostenido solo por músculos?" },
+      "choices": [
+        { "en": "The hyoid", "es": "El hioides" },
+        { "en": "The sternum", "es": "El esternón" },
+        { "en": "The patella", "es": "La rótula" },
+        { "en": "The scapula", "es": "La escápula" }
+      ],
+      "answer": 0,
+      "why": { "en": "The horseshoe-shaped hyoid anchors the tongue and the muscles used for swallowing and speech, and it touches no other bone.", "es": "El hioides, con forma de herradura, sujeta la lengua y los músculos para tragar y hablar, y no toca ningún otro hueso." },
+      "topic": "the body",
+      "source": "https://www.britannica.com/science/hyoid-bone"
+    },
+    {
+      "id": "general-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "How many planets of our solar system are circled by rings?", "es": "¿Cuántos planetas del sistema solar tienen anillos a su alrededor?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Eight", "es": "Ocho" }
+      ],
+      "answer": 1,
+      "why": { "en": "Saturn's rings are bright, but Jupiter, Uranus and Neptune each wear faint rings of dust and ice found by passing spacecraft.", "es": "Los anillos de Saturno brillan, pero Júpiter, Urano y Neptuno tienen anillos tenues de polvo y hielo hallados por sondas espaciales." },
+      "topic": "planets",
+      "source": "https://science.nasa.gov/solar-system/planets/"
+    },
+    {
+      "id": "general-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛈️",
+      "q": { "en": "About how many thunderstorms are rumbling somewhere on Earth at any moment?", "es": "¿Cuántas tormentas eléctricas hay en la Tierra en un momento cualquiera?" },
+      "choices": [
+        { "en": "About 20", "es": "Unas 20" },
+        { "en": "About 200", "es": "Unas 200" },
+        { "en": "About 2000", "es": "Unas 2000" },
+        { "en": "About 20,000", "es": "Unas 20,000" }
+      ],
+      "answer": 2,
+      "why": { "en": "Roughly 2000 storms rumble at once, mostly over warm land near the equator, firing about a hundred lightning flashes every second.", "es": "Unas 2000 tormentas truenan a la vez, casi todas sobre tierra cálida cerca del ecuador, con unos cien relámpagos por segundo." },
+      "topic": "storms",
+      "source": "https://www.noaa.gov/jetstream/thunderstorms"
+    },
+    {
+      "id": "general-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗓️",
+      "q": { "en": "How long does Earth take to travel once around the Sun?", "es": "¿Cuánto tarda la Tierra en dar una vuelta alrededor del Sol?" },
+      "choices": [
+        { "en": "Exactly 365 days", "es": "Exactamente 365 días" },
+        { "en": "About 364.5 days", "es": "Unos 364.5 días" },
+        { "en": "About 366 days", "es": "Unos 366 días" },
+        { "en": "About 365.25 days", "es": "Unos 365.25 días" }
+      ],
+      "answer": 3,
+      "why": { "en": "The extra quarter day is saved up and spent as February 29 every four years, which keeps the seasons from sliding around the calendar.", "es": "El cuarto de día extra se guarda y se gasta como 29 de febrero cada cuatro años, y así las estaciones no se corren." },
+      "topic": "measuring time",
+      "source": "https://www.britannica.com/science/leap-year"
+    },
+    {
+      "id": "general-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌰",
+      "q": { "en": "Nutmeg and mace are two spices that come from which single source?", "es": "La nuez moscada y el macis son dos especias que salen de ¿cuál misma fuente?" },
+      "choices": [
+        { "en": "One fruit of one tree", "es": "Un mismo fruto de un árbol" },
+        { "en": "Two trees of one family", "es": "Dos árboles de una misma familia" },
+        { "en": "The bark and the root", "es": "La corteza y la raíz" },
+        { "en": "Two kinds of dried flower", "es": "Dos clases de flor seca" }
+      ],
+      "answer": 0,
+      "why": { "en": "The seed inside the fruit is nutmeg, and the lacy red coat wrapped around that seed is dried to become mace.", "es": "La semilla dentro del fruto es la nuez moscada, y la telilla roja que la envuelve se seca y se vuelve macis." },
+      "topic": "food",
+      "source": "https://www.britannica.com/topic/nutmeg"
+    },
+    {
+      "id": "general-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Which stretch of stormy water separates South America from Antarctica?", "es": "¿Cuál tramo de mar tormentoso separa Sudamérica de la Antártida?" },
+      "choices": [
+        { "en": "The Strait of Magellan", "es": "El estrecho de Magallanes" },
+        { "en": "The Drake Passage", "es": "El paso de Drake" },
+        { "en": "The Beagle Channel", "es": "El canal de Beagle" },
+        { "en": "The Mozambique Channel", "es": "El canal de Mozambique" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 800 kilometers, 500 miles, wide, it is the only place where a current can circle the globe without meeting land.", "es": "Mide unos 800 kilómetros, 500 millas, de ancho y es el único lugar donde una corriente rodea el planeta sin tocar tierra." },
+      "topic": "oceans",
+      "source": "https://www.britannica.com/place/Drake-Passage"
+    },
+    {
+      "id": "general-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌶️",
+      "q": { "en": "A chipotle chili starts out as which fresh pepper before smoking and drying?", "es": "El chile chipotle empieza como ¿cuál chile fresco antes de ahumarse y secarse?" },
+      "choices": [
+        { "en": "The poblano", "es": "El poblano" },
+        { "en": "The habanero", "es": "El habanero" },
+        { "en": "The jalapeño", "es": "El jalapeño" },
+        { "en": "The serrano", "es": "El serrano" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ripe red jalapeños are smoked for days over wood until leathery; the same drying turns a poblano into an ancho chili.", "es": "Los jalapeños rojos maduros se ahúman días sobre leña hasta quedar correosos; secar un poblano, en cambio, da el chile ancho." },
+      "topic": "food",
+      "source": "https://www.britannica.com/topic/chili-pepper"
+    },
+    {
+      "id": "general-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "Cement, the glue inside concrete, is made by roasting clay together with what?", "es": "El cemento, el pegamento del concreto, se hace tostando arcilla junto con ¿qué material?" },
+      "choices": [
+        { "en": "Sand", "es": "Arena" },
+        { "en": "Salt", "es": "Sal" },
+        { "en": "Charcoal", "es": "Carbón vegetal" },
+        { "en": "Limestone", "es": "Piedra caliza" }
+      ],
+      "answer": 3,
+      "why": { "en": "A kiln heats limestone and clay to about 1450 degrees Celsius, 2640 Fahrenheit, making clinker that is ground into gray powder.", "es": "Un horno calienta caliza y arcilla a unos 1450 grados Celsius, 2640 Fahrenheit, y forma clínker que se muele hasta ser polvo gris." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/technology/cement-building-material"
+    },
+    {
+      "id": "general-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "The word museum comes from a Greek building dedicated to whom?", "es": "La palabra museo viene de un edificio griego dedicado a ¿quiénes?" },
+      "choices": [
+        { "en": "The Muses", "es": "Las musas" },
+        { "en": "The Fates", "es": "Las moiras" },
+        { "en": "The Titans", "es": "Los titanes" },
+        { "en": "The Oracles", "es": "Los oráculos" }
+      ],
+      "answer": 0,
+      "why": { "en": "A mouseion was a temple of the nine Muses, goddesses of arts and learning; Alexandria's mouseion held its famous library.", "es": "Un mouseion era un templo de las nueve musas, diosas de las artes y el saber; el de Alejandría guardaba su famosa biblioteca." },
+      "topic": "name origins",
+      "source": "https://www.britannica.com/topic/museum-cultural-institution"
+    },
+    {
+      "id": "general-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "📝",
+      "q": { "en": "How many lines does a sonnet have?", "es": "¿Cuántos versos tiene un soneto?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Fourteen", "es": "Catorce" },
+        { "en": "Sixteen", "es": "Dieciséis" },
+        { "en": "Eighteen", "es": "Dieciocho" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sonnet means little song in Italian; Petrarch and later Shakespeare fixed the fourteen-line shape with its rhyme built in.", "es": "Soneto significa cancioncita en italiano; Petrarca y después Shakespeare fijaron esa forma de catorce versos con su rima marcada." },
+      "topic": "poetry",
+      "source": "https://www.britannica.com/art/sonnet"
+    },
+    {
+      "id": "general-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔤",
+      "q": { "en": "In writing, the short form e.g. stands for a Latin phrase meaning what?", "es": "Al escribir, la abreviatura e.g. viene de una frase latina que significa ¿qué?" },
+      "choices": [
+        { "en": "And so on", "es": "Y así sucesivamente" },
+        { "en": "That is to say", "es": "Es decir" },
+        { "en": "For example", "es": "Por ejemplo" },
+        { "en": "In the same place", "es": "En el mismo lugar" }
+      ],
+      "answer": 2,
+      "why": { "en": "Exempli gratia means for the sake of an example, while i.e. is id est, that is, used to restate something more clearly.", "es": "Exempli gratia significa por causa de ejemplo, y i.e. es id est, o sea, que sirve para explicar algo con otras palabras." },
+      "topic": "language",
+      "source": "https://www.britannica.com/dictionary/eb/qa/abbreviations-i-e-and-e-g"
+    },
+    {
+      "id": "general-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛳",
+      "q": { "en": "How many holes make up a full round of golf?", "es": "¿Cuántos hoyos tiene una ronda completa de golf?" },
+      "choices": [
+        { "en": "Nine", "es": "Nueve" },
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Fifteen", "es": "Quince" },
+        { "en": "Eighteen", "es": "Dieciocho" }
+      ],
+      "answer": 3,
+      "why": { "en": "St Andrews in Scotland shortened its course to eighteen holes in 1764, and other clubs copied the number until it became standard.", "es": "St Andrews, en Escocia, redujo su campo a dieciocho hoyos en 1764, y los demás clubes copiaron ese número hasta volverlo norma." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/golf"
+    },
+    {
+      "id": "general-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "Which invention finally let sailors work out their longitude far from land?", "es": "¿Cuál invento permitió por fin a los marinos calcular su longitud lejos de tierra?" },
+      "choices": [
+        { "en": "A clock accurate at sea", "es": "Un reloj exacto en altamar" },
+        { "en": "A stronger telescope", "es": "Un telescopio más potente" },
+        { "en": "A magnetic compass", "es": "Una brújula magnética" },
+        { "en": "A printed star chart", "es": "Una carta estelar impresa" }
+      ],
+      "answer": 0,
+      "why": { "en": "John Harrison's sea clock kept home time; comparing it with local noon gave the distance east or west, fifteen degrees per hour.", "es": "El reloj marino de John Harrison guardaba la hora de casa; compararla con el mediodía local daba la longitud, quince grados por hora." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/chronometer"
+    },
+    {
+      "id": "general-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍄",
+      "q": { "en": "A mycologist studies which living things?", "es": "¿Qué seres vivos estudia una persona micóloga?" },
+      "choices": [
+        { "en": "Mosses", "es": "Los musgos" },
+        { "en": "Fungi", "es": "Los hongos" },
+        { "en": "Corals", "es": "Los corales" },
+        { "en": "Ferns", "es": "Los helechos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fungi are neither plants nor animals; they digest food outside their bodies, and one underground network can span many hectares.", "es": "Los hongos no son plantas ni animales; digieren la comida fuera del cuerpo, y una sola red subterránea puede cubrir muchas hectáreas." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/science/mycology"
     }
   ]
 }

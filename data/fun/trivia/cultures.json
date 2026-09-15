@@ -3594,6 +3594,460 @@
       "why": { "en": "Sites are delisted only when the value that earned the listing is lost, as happened to a German valley after a bridge cut through it.", "es": "Un sitio se retira solo cuando pierde el valor que le dio el reconocimiento, como un valle alemán partido por un puente nuevo." },
       "topic": "world heritage",
       "source": "https://whc.unesco.org/en/list/"
+    },
+    {
+      "id": "cultures-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫓",
+      "q": { "en": "Soaking maize in lime water before grinding it releases which nutrient for the body?", "es": "¿Qué nutriente libera el maíz cuando se remoja en agua de cal antes de molerlo?" },
+      "choices": [
+        { "en": "Niacin, a B vitamin", "es": "Niacina, una vitamina B" },
+        { "en": "Vitamin C", "es": "Vitamina C" },
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Vitamin D", "es": "Vitamina D" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nixtamalisation frees niacin locked in the grain and softens the hulls, which is why maize eaten without it left people short of that vitamin.", "es": "La nixtamalización libera la niacina atrapada en el grano y ablanda la cáscara; sin ese paso, el maíz deja a la gente sin esa vitamina." },
+      "topic": "cuisine techniques",
+      "source": "https://www.si.edu/stories/corn"
+    },
+    {
+      "id": "cultures-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍜",
+      "q": { "en": "Umami, the fifth basic taste, is triggered mainly by which substance in food?", "es": "¿Qué sustancia de los alimentos provoca sobre todo el umami, el quinto sabor básico?" },
+      "choices": [
+        { "en": "Sugar molecules", "es": "Moléculas de azúcar" },
+        { "en": "Glutamate", "es": "Glutamato" },
+        { "en": "Citric acid", "es": "Ácido cítrico" },
+        { "en": "Capsaicin", "es": "Capsaicina" }
+      ],
+      "answer": 1,
+      "why": { "en": "Kikunae Ikeda identified glutamate in kelp broth in 1908; the same savoury molecule makes tomatoes, aged cheese and soy sauce taste deep.", "es": "Kikunae Ikeda identificó el glutamato en un caldo de alga en 1908; esa misma molécula da sabor profundo al tomate y al queso añejo." },
+      "topic": "cuisine techniques",
+      "source": "https://www.britannica.com/topic/umami"
+    },
+    {
+      "id": "cultures-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "In fermented foods like kimchi and yoghurt, microbes preserve the food by making what?", "es": "En alimentos fermentados como el kimchi y el yogur, ¿qué producen los microbios para conservarlos?" },
+      "choices": [
+        { "en": "Extra sugar", "es": "Más azúcar" },
+        { "en": "Pure alcohol", "es": "Alcohol puro" },
+        { "en": "Acid", "es": "Ácido" },
+        { "en": "Salt crystals", "es": "Cristales de sal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lactic acid bacteria turn sugars into acid, dropping the pH so spoilage microbes cannot grow, and the same process sours sauerkraut and sourdough.", "es": "Las bacterias lácticas convierten azúcares en ácido y bajan el pH, así los microbios dañinos no crecen y el chucrut o el cacao se conservan." },
+      "topic": "cuisine techniques",
+      "source": "https://www.britannica.com/science/fermentation"
+    },
+    {
+      "id": "cultures-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Before cacao beans taste like chocolate, they must first go through which step?", "es": "¿Por qué paso deben pasar los granos de cacao antes de saber a chocolate?" },
+      "choices": [
+        { "en": "Freezing", "es": "Congelarse" },
+        { "en": "Boiling in milk", "es": "Hervirse en leche" },
+        { "en": "Pressing into oil", "es": "Prensarse para sacar aceite" },
+        { "en": "Fermenting in their own pulp", "es": "Fermentar en su propia pulpa" }
+      ],
+      "answer": 3,
+      "why": { "en": "Beans sit in banana leaves for days while yeasts and bacteria work; only then does roasting bring out the flavours Maya and Aztec cooks prized.", "es": "Los granos reposan días entre hojas de plátano mientras trabajan levaduras y bacterias; solo entonces el tostado saca los sabores que apreciaban mayas y aztecas." },
+      "topic": "cuisine techniques",
+      "source": "https://www.britannica.com/topic/cacao"
+    },
+    {
+      "id": "cultures-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎷",
+      "q": { "en": "Jazz grew out of blues, ragtime and brass bands in which city?", "es": "¿En qué ciudad nació el jazz a partir del blues, el ragtime y las bandas de metales?" },
+      "choices": [
+        { "en": "New Orleans", "es": "Nueva Orleans" },
+        { "en": "Chicago", "es": "Chicago" },
+        { "en": "New York", "es": "Nueva York" },
+        { "en": "Memphis", "es": "Memphis" }
+      ],
+      "answer": 0,
+      "why": { "en": "New Orleans mixed African rhythms, Caribbean habanera beats, church singing and European marching bands, and that blend produced improvised jazz around 1900.", "es": "Nueva Orleans mezcló ritmos africanos, la habanera caribeña, el canto de iglesia y las bandas europeas, y de esa mezcla salió el jazz improvisado." },
+      "topic": "music genres",
+      "source": "https://www.britannica.com/art/jazz"
+    },
+    {
+      "id": "cultures-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪇",
+      "q": { "en": "The music called salsa took its modern shape among Caribbean musicians living in which city?", "es": "¿En qué ciudad tomó forma moderna la salsa entre músicos caribeños?" },
+      "choices": [
+        { "en": "Havana", "es": "La Habana" },
+        { "en": "New York", "es": "Nueva York" },
+        { "en": "San Juan", "es": "San Juan" },
+        { "en": "Miami", "es": "Miami" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cuban son and mambo met Puerto Rican players in New York barrios during the 1960s and 1970s, and music companies marketed the mix as salsa.", "es": "El son y el mambo cubanos se encontraron con músicos puertorriqueños en los barrios de Nueva York, y las disqueras vendieron esa mezcla como salsa." },
+      "topic": "music genres",
+      "source": "https://www.britannica.com/art/salsa-music"
+    },
+    {
+      "id": "cultures-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "Reggae developed in Jamaica out of which two earlier local styles?", "es": "¿De qué dos estilos jamaiquinos anteriores salió el reggae?" },
+      "choices": [
+        { "en": "Calypso and soca", "es": "Calipso y soca" },
+        { "en": "Merengue and bachata", "es": "Merengue y bachata" },
+        { "en": "Ska and rocksteady", "es": "Ska y rocksteady" },
+        { "en": "Cumbia and porro", "es": "Cumbia y porro" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ska sped along in the early 1960s, rocksteady slowed it, then reggae dropped the emphasis onto the offbeat, giving the music its loping pulse.", "es": "El ska corría rápido en los años sesenta, el rocksteady lo frenó y el reggae puso el acento en el contratiempo, creando su andar cadencioso." },
+      "topic": "music genres",
+      "source": "https://www.britannica.com/art/reggae"
+    },
+    {
+      "id": "cultures-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "👠",
+      "q": { "en": "In flamenco, the word compás refers to what?", "es": "En el flamenco, ¿a qué se refiere la palabra compás?" },
+      "choices": [
+        { "en": "The singer's costume", "es": "El traje del cantante" },
+        { "en": "The guitar's tuning", "es": "La afinación de la guitarra" },
+        { "en": "The dancer's shoes", "es": "Los zapatos del bailarín" },
+        { "en": "The rhythmic cycle of beats", "es": "El ciclo rítmico de tiempos" }
+      ],
+      "answer": 3,
+      "why": { "en": "A compás of twelve beats with shifting accents guides singer, guitarist and dancer; UNESCO listed flamenco as intangible heritage of Andalusia in 2010.", "es": "Un compás de doce tiempos con acentos cambiantes guía a cantaor, guitarrista y bailaor; la UNESCO declaró el flamenco patrimonio inmaterial en 2010." },
+      "topic": "music genres",
+      "source": "https://ich.unesco.org/en/RL/flamenco-00363"
+    },
+    {
+      "id": "cultures-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎺",
+      "q": { "en": "UNESCO lists mariachi as intangible heritage, meaning it protects what?", "es": "La UNESCO inscribió al mariachi como patrimonio inmaterial. ¿Qué protege eso?" },
+      "choices": [
+        { "en": "A living practice passed between people", "es": "Una práctica viva que pasa de persona a persona" },
+        { "en": "A building and its grounds", "es": "Un edificio y sus terrenos" },
+        { "en": "A landscape of old farms", "es": "Un paisaje de granjas antiguas" },
+        { "en": "A collection of old instruments", "es": "Una colección de instrumentos viejos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Intangible heritage covers music, dance, crafts and cooking that communities keep alive; mariachi joined the list in 2011 for its songs and teaching.", "es": "El patrimonio inmaterial abarca música, danza, artesanía y cocina que las comunidades mantienen vivas; el mariachi entró en la lista en 2011." },
+      "topic": "music genres",
+      "source": "https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575"
+    },
+    {
+      "id": "cultures-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪗",
+      "q": { "en": "The bandoneón reached the Río de la Plata after being built in Germany for what use?", "es": "¿Para qué se fabricó en Alemania el bandoneón antes de llegar al Río de la Plata?" },
+      "choices": [
+        { "en": "Circus music", "es": "Música de circo" },
+        { "en": "Chapel music where organs were costly", "es": "Música de capilla donde el órgano era caro" },
+        { "en": "Military marches", "es": "Marchas militares" },
+        { "en": "Folk dancing in the Alps", "es": "Bailes folclóricos de los Alpes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Heinrich Band's squeezebox was meant to replace organs in small chapels; sailors carried it to Buenos Aires, where it became the voice of tango.", "es": "El bandoneón alemán debía sustituir al órgano en capillas pequeñas; los marineros lo llevaron a Buenos Aires, donde se volvió la voz del tango." },
+      "topic": "music genres",
+      "source": "https://www.britannica.com/art/bandoneon"
+    },
+    {
+      "id": "cultures-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Inti Raymi is held in Cusco in June because that month brings what?", "es": "¿Qué trae el mes de junio a Cusco, razón por la que allí se celebra el Inti Raymi?" },
+      "choices": [
+        { "en": "The maize harvest", "es": "La cosecha del maíz" },
+        { "en": "The rainy season", "es": "La temporada de lluvias" },
+        { "en": "The southern winter solstice", "es": "El solsticio de invierno del sur" },
+        { "en": "The first new moon", "es": "La primera luna nueva" }
+      ],
+      "answer": 2,
+      "why": { "en": "South of the equator the sun sits lowest in June, and the Inca held a festival asking it to return, revived in Cusco since 1944.", "es": "Al sur del ecuador el sol queda más bajo en junio, y los incas pedían su regreso con una fiesta que Cusco recuperó desde 1944." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Inti-Raymi"
+    },
+    {
+      "id": "cultures-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "💀",
+      "q": { "en": "Day of the Dead blends a Catholic feast with older Mesoamerican customs of doing what?", "es": "¿Qué costumbre mesoamericana antigua se mezcló con una fiesta católica para dar el Día de Muertos?" },
+      "choices": [
+        { "en": "Fasting for nine days", "es": "Ayunar durante nueve días" },
+        { "en": "Burning the year's old tools", "es": "Quemar las herramientas viejas del año" },
+        { "en": "Racing through the streets", "es": "Correr carreras por las calles" },
+        { "en": "Keeping and honouring ancestors' remains", "es": "Guardar y honrar los restos de los antepasados" }
+      ],
+      "answer": 3,
+      "why": { "en": "Families once kept relatives' bones at home and fed them; the custom merged with the Catholic days of All Saints and All Souls in November.", "es": "Las familias guardaban en casa los huesos de sus parientes y los alimentaban; esa costumbre se unió a los días católicos de noviembre." },
+      "topic": "festivals",
+      "source": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054"
+    },
+    {
+      "id": "cultures-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎉",
+      "q": { "en": "Carnival falls in the days just before which long season of fasting?", "es": "¿Antes de qué larga temporada de ayuno cae el carnaval?" },
+      "choices": [
+        { "en": "Lent", "es": "La Cuaresma" },
+        { "en": "Advent", "es": "El Adviento" },
+        { "en": "Holy Week", "es": "La Semana Santa" },
+        { "en": "Ramadan", "es": "El Ramadán" }
+      ],
+      "answer": 0,
+      "why": { "en": "Carnival empties the larder of meat, eggs and fat before forty days of fasting, which is why Rio and Barranquilla party until Tuesday midnight.", "es": "El carnaval vacía la despensa de carne, huevos y grasa antes de cuarenta días de ayuno; por eso Río y Barranquilla festejan hasta el martes." },
+      "topic": "festivals",
+      "source": "https://ich.unesco.org/en/RL/carnival-of-barranquilla-00051"
+    },
+    {
+      "id": "cultures-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "Holi's coloured powders are thrown to mark which change in the year?", "es": "¿Qué cambio del año se celebra lanzando los polvos de colores del Holi?" },
+      "choices": [
+        { "en": "The first monsoon rain", "es": "La primera lluvia del monzón" },
+        { "en": "The arrival of spring", "es": "La llegada de la primavera" },
+        { "en": "The longest night", "es": "La noche más larga" },
+        { "en": "The rice harvest", "es": "La cosecha del arroz" }
+      ],
+      "answer": 1,
+      "why": { "en": "Holi falls on the full moon of Phalguna, in February or March, and the bonfire the night before marks the end of winter.", "es": "Holi cae en la luna llena de Phalguna, entre febrero y marzo, y la fogata de la víspera marca el final del invierno." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Holi"
+    },
+    {
+      "id": "cultures-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌷",
+      "q": { "en": "Nowruz, the Persian new year, always begins at which exact moment?", "es": "¿En qué momento exacto empieza siempre Nowruz, el año nuevo persa?" },
+      "choices": [
+        { "en": "The first new moon of April", "es": "La primera luna nueva de abril" },
+        { "en": "Sunset on the shortest day", "es": "El atardecer del día más corto" },
+        { "en": "The spring equinox", "es": "El equinoccio de primavera" },
+        { "en": "Midnight on the first of March", "es": "La medianoche del primero de marzo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Astronomers fix the instant the sun crosses the equator, so Nowruz can start at any hour; it is celebrated from Iran to Central Asia.", "es": "Los astrónomos fijan el instante en que el sol cruza el ecuador, así que Nowruz puede empezar a cualquier hora, desde Irán hasta Asia Central." },
+      "topic": "festivals",
+      "source": "https://ich.unesco.org/en/RL/novruz-nowrouz-nooruz-navruz-nauroz-nevruz-00282"
+    },
+    {
+      "id": "cultures-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐲",
+      "q": { "en": "The Chinese zodiac repeats every twelve years, but a full traditional cycle lasts how long?", "es": "El zodiaco chino se repite cada doce años, pero ¿cuánto dura el ciclo tradicional completo?" },
+      "choices": [
+        { "en": "24 years", "es": "24 años" },
+        { "en": "36 years", "es": "36 años" },
+        { "en": "48 years", "es": "48 años" },
+        { "en": "60 years", "es": "60 años" }
+      ],
+      "answer": 3,
+      "why": { "en": "Twelve animals pair with five elements, so a wood dragon returns only after 60 years, the length of one complete sexagenary cycle.", "es": "Doce animales se combinan con cinco elementos, así que un dragón de madera vuelve solo tras 60 años, la duración del ciclo sexagenario completo." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Chinese-calendar"
+    },
+    {
+      "id": "cultures-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏉",
+      "q": { "en": "Rugby split from association football mainly over a disagreement about what?", "es": "¿Sobre qué desacuerdo se separó el rugby del fútbol asociación?" },
+      "choices": [
+        { "en": "Handling and carrying the ball", "es": "Tomar y llevar el balón con las manos" },
+        { "en": "The size of the field", "es": "El tamaño del campo" },
+        { "en": "The number of players", "es": "El número de jugadores" },
+        { "en": "The shape of the goal", "es": "La forma de la portería" }
+      ],
+      "answer": 0,
+      "why": { "en": "English clubs met in 1863 to write one set of laws; those who wanted running with the ball left and later formed rugby football.", "es": "Los clubes ingleses se reunieron en 1863 para escribir un reglamento único; quienes querían correr con el balón se fueron y fundaron el rugby." },
+      "topic": "sports born in places",
+      "source": "https://www.britannica.com/sports/rugby"
+    },
+    {
+      "id": "cultures-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚾",
+      "q": { "en": "Baseball took root in Cuba in the 1860s after which group brought it home?", "es": "¿Qué grupo llevó el béisbol a Cuba en los años sesenta del siglo XIX?" },
+      "choices": [
+        { "en": "Sailors from Spain", "es": "Marineros llegados de España" },
+        { "en": "Students returning from the United States", "es": "Estudiantes que volvían de Estados Unidos" },
+        { "en": "Railway workers from Mexico", "es": "Ferroviarios venidos de México" },
+        { "en": "Traders from Jamaica", "es": "Comerciantes de Jamaica" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cuban students carried bats back from North American colleges, and the game spread to the Dominican Republic, Puerto Rico, Venezuela, Nicaragua and Mexico.", "es": "Los estudiantes cubanos trajeron bates de universidades norteamericanas, y el juego se extendió a República Dominicana, Puerto Rico, Venezuela, Nicaragua y México." },
+      "topic": "sports born in places",
+      "source": "https://www.britannica.com/sports/baseball"
+    },
+    {
+      "id": "cultures-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤸",
+      "q": { "en": "Capoeira is played inside a circle of people. What is that circle called?", "es": "La capoeira se juega dentro de un círculo de personas. ¿Cómo se llama ese círculo?" },
+      "choices": [
+        { "en": "A samba", "es": "Samba" },
+        { "en": "A batuque", "es": "Batuque" },
+        { "en": "A roda", "es": "Roda" },
+        { "en": "A maracatu", "es": "Maracatú" }
+      ],
+      "answer": 2,
+      "why": { "en": "In the roda, musicians with a berimbau set the speed while two players trade kicks and dodges, a practice enslaved Africans developed in Brazil.", "es": "En la roda, los músicos con berimbau marcan la velocidad mientras dos jugadores intercambian patadas y esquivas, práctica creada por africanos esclavizados en Brasil." },
+      "topic": "sports born in places",
+      "source": "https://ich.unesco.org/en/RL/capoeira-circle-00892"
+    },
+    {
+      "id": "cultures-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "In lucha libre, a wrestler who loses a mask match must do what?", "es": "En la lucha libre, ¿qué debe hacer el luchador que pierde una lucha de máscaras?" },
+      "choices": [
+        { "en": "Retire from the ring", "es": "Retirarse del ring" },
+        { "en": "Pay the winner's fee", "es": "Pagar la bolsa del ganador" },
+        { "en": "Wear a new colour", "es": "Vestir un color nuevo" },
+        { "en": "Show his face and give his name", "es": "Mostrar su rostro y decir su nombre" }
+      ],
+      "answer": 3,
+      "why": { "en": "A lucha de apuestas stakes mask against mask or hair; losing one is treated as a serious event, and the wrestler rarely masks again.", "es": "En la lucha de apuestas se juega máscara contra máscara; perderla se vive como algo grave y el luchador rara vez vuelve a enmascararse." },
+      "topic": "sports born in places",
+      "source": "https://www.britannica.com/sports/lucha-libre"
+    },
+    {
+      "id": "cultures-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧤",
+      "q": { "en": "In Basque pelota, players send the ball against a front wall called what?", "es": "En la pelota vasca, ¿cómo se llama el muro frontal contra el que se lanza la pelota?" },
+      "choices": [
+        { "en": "The frontis", "es": "El frontis" },
+        { "en": "The cancha", "es": "La cancha" },
+        { "en": "The trinquete", "es": "El trinquete" },
+        { "en": "The chistera", "es": "La chistera" }
+      ],
+      "answer": 0,
+      "why": { "en": "The chistera, a curved basket strapped to the arm, hurls the ball so fast that jai alai courts need walls of granite and thick glass.", "es": "La chistera, una cesta curva atada al brazo, lanza la pelota tan rápido que las canchas de jai alai llevan muros de granito y vidrio." },
+      "topic": "sports born in places",
+      "source": "https://www.britannica.com/sports/jai-alai"
+    },
+    {
+      "id": "cultures-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭕",
+      "q": { "en": "The stone rings at Chichén Itzá's ball court were mounted in which position?", "es": "¿En qué posición estaban los aros de piedra del juego de pelota de Chichén Itzá?" },
+      "choices": [
+        { "en": "Flat on the ground", "es": "Planos sobre el suelo" },
+        { "en": "High on the side walls", "es": "Altos en los muros laterales" },
+        { "en": "At the ends of the court", "es": "En los extremos de la cancha" },
+        { "en": "On top of the temple", "es": "Encima del templo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rings stood several metres up the vertical walls, so passing the heavy rubber ball through one with hip or thigh was very rare.", "es": "Los aros quedaban a varios metros de altura en los muros verticales, así que pasar la pesada pelota de hule con la cadera era rarísimo." },
+      "topic": "sports born in places",
+      "source": "https://www.britannica.com/sports/tlachtli"
+    },
+    {
+      "id": "cultures-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏷",
+      "q": { "en": "In Spanish naming custom, where does a person's first surname traditionally come from?", "es": "En la costumbre hispana de los nombres, ¿de dónde viene el primer apellido de una persona?" },
+      "choices": [
+        { "en": "The mother's mother", "es": "La madre de la madre" },
+        { "en": "The godparent", "es": "El padrino o la madrina" },
+        { "en": "The father's family", "es": "La familia del padre" },
+        { "en": "The place of birth", "es": "El lugar de nacimiento" }
+      ],
+      "answer": 2,
+      "why": { "en": "A child of Ana Gómez Ruiz and Luis Díaz Soto is Díaz Gómez, so both family lines stay visible for generations in the paperwork.", "es": "Un hijo de Ana Gómez Ruiz y Luis Díaz Soto se llama Díaz Gómez, así que las dos familias siguen visibles durante generaciones." },
+      "topic": "naming customs",
+      "source": "https://www.britannica.com/topic/name-personal"
+    },
+    {
+      "id": "cultures-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "👍",
+      "q": { "en": "The thumbs-up sign can cause offence because gestures carry meaning in what way?", "es": "¿De qué manera cargan significado los gestos, por lo que un pulgar arriba puede ofender?" },
+      "choices": [
+        { "en": "Naturally, the same everywhere", "es": "De forma natural, igual en todas partes" },
+        { "en": "Only among children", "es": "Solo entre los niños" },
+        { "en": "Through written rules", "es": "Por medio de reglas escritas" },
+        { "en": "By agreement inside each culture", "es": "Por acuerdo dentro de cada cultura" }
+      ],
+      "answer": 3,
+      "why": { "en": "Gestures are learned symbols, so a thumb up means fine in many places and something rude in parts of West Asia and West Africa.", "es": "Los gestos son símbolos aprendidos: el pulgar arriba significa bien en muchos lugares y resulta grosero en partes de Asia occidental y África occidental." },
+      "topic": "gestures",
+      "source": "https://www.britannica.com/topic/gesture"
+    },
+    {
+      "id": "cultures-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "The metre was first defined in revolutionary France as a fraction of what?", "es": "¿De qué se definió el metro como una fracción en la Francia revolucionaria?" },
+      "choices": [
+        { "en": "The distance from pole to equator", "es": "La distancia del polo al ecuador" },
+        { "en": "The length of a royal arm", "es": "El largo de un brazo real" },
+        { "en": "A pendulum's swing in Paris", "es": "El balanceo de un péndulo en París" },
+        { "en": "The height of a church tower", "es": "La altura de una torre de iglesia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Scientists measured an arc from Dunkirk to Barcelona and set the metre at one ten-millionth of the quarter meridian, a length belonging to everyone.", "es": "Los científicos midieron un arco entre Dunkerque y Barcelona y fijaron el metro en la diezmillonésima parte del cuarto de meridiano, una medida de todos." },
+      "topic": "metric system",
+      "source": "https://www.britannica.com/science/metric-system-measurement"
+    },
+    {
+      "id": "cultures-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "The word diaspora describes a people who do what?", "es": "¿Qué hace un pueblo al que se describe con la palabra diáspora?" },
+      "choices": [
+        { "en": "Share one written language", "es": "Comparte una sola lengua escrita" },
+        { "en": "Live scattered far from an ancestral homeland", "es": "Vive disperso lejos de su tierra ancestral" },
+        { "en": "Trade along a single river", "es": "Comercia a lo largo de un solo río" },
+        { "en": "Follow herds between seasons", "es": "Sigue rebaños según la estación" }
+      ],
+      "answer": 1,
+      "why": { "en": "Greek for scattering, diaspora now describes communities such as Africans in the Americas or Lebanese families in Argentina, Mexico and Colombia.", "es": "Del griego 'dispersión', diáspora nombra comunidades como la africana en América o las familias libanesas en Argentina, México y Colombia." },
+      "topic": "migration and diaspora",
+      "source": "https://www.britannica.com/topic/diaspora-social-science"
+    },
+    {
+      "id": "cultures-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗓",
+      "q": { "en": "The Gregorian calendar corrected the Julian one by changing which rule?", "es": "¿Qué regla cambió el calendario gregoriano para corregir al juliano?" },
+      "choices": [
+        { "en": "The length of a week", "es": "La duración de la semana" },
+        { "en": "The start of the month", "es": "El inicio del mes" },
+        { "en": "Which century years are leap years", "es": "Cuáles años de siglo son bisiestos" },
+        { "en": "The number of months", "es": "La cantidad de meses" }
+      ],
+      "answer": 2,
+      "why": { "en": "Julian years ran slightly long, so the seasons drifted; the fix drops three leap days every 400 years, skipping 1700, 1800 and 1900.", "es": "El año juliano era un poco largo y las estaciones se corrían; la corrección quita tres días bisiestos cada 400 años, saltando 1700 y 1900." },
+      "topic": "calendars",
+      "source": "https://www.britannica.com/topic/Gregorian-calendar"
+    },
+    {
+      "id": "cultures-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🖨",
+      "q": { "en": "Which ancient people invented movable type printing centuries before Gutenberg?", "es": "¿Qué pueblo antiguo inventó la imprenta de tipos móviles siglos antes que Gutenberg?" },
+      "choices": [
+        { "en": "The Romans", "es": "Los romanos" },
+        { "en": "The Greeks", "es": "Los griegos" },
+        { "en": "The Egyptians", "es": "Los egipcios" },
+        { "en": "The Chinese", "es": "Los chinos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bi Sheng cut characters into clay around 1040, and Korean printers cast metal type by 1234, two centuries before Gutenberg's press in Europe.", "es": "Bi Sheng talló caracteres en arcilla hacia 1040 y los impresores coreanos fundieron tipos de metal en 1234, siglos antes de la prensa de Gutenberg." },
+      "topic": "ancient contributions",
+      "source": "https://www.britannica.com/technology/printing-publishing"
+    },
+    {
+      "id": "cultures-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪅",
+      "q": { "en": "The tradition of piñatas reached Mexico from Europe, but similar figures already existed there for what?", "es": "La piñata llegó a México desde Europa, pero ya existían figuras parecidas. ¿Para qué?" },
+      "choices": [
+        { "en": "Honouring a god's birthday", "es": "Honrar el cumpleaños de un dios" },
+        { "en": "Marking a wedding", "es": "Celebrar una boda" },
+        { "en": "Naming a baby", "es": "Poner nombre a un bebé" },
+        { "en": "Opening a market", "es": "Inaugurar un mercado" }
+      ],
+      "answer": 0,
+      "why": { "en": "Aztec celebrants smashed decorated clay pots over an image, spilling treasures; friars reshaped the custom with seven points for teaching, and both merged.", "es": "Los aztecas rompían ollas de barro adornadas sobre una imagen y soltaban tesoros; los frailes le dieron siete picos para enseñar." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/pinata"
+    },
+    {
+      "id": "cultures-hard-097", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌮",
+      "q": { "en": "Mexican traditional cuisine is on UNESCO's list of intangible cultural heritage.", "es": "La cocina tradicional mexicana está en la lista de patrimonio cultural inmaterial de la UNESCO." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The listing covers the whole chain, from planting maize and beans to nixtamalising, grinding on a metate and sharing the meal in community.", "es": "La inscripción abarca toda la cadena: sembrar maíz y frijoles, nixtamalizar, moler en el metate y compartir la comida en comunidad." },
+      "topic": "cuisine techniques",
+      "source": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400"
+    },
+    {
+      "id": "cultures-hard-098", "level": "hard", "type": "tf", "lang": "both", "emoji": "👑",
+      "q": { "en": "Tango and flamenco both began as court dances performed for kings and queens.", "es": "El tango y el flamenco empezaron como bailes de corte para reyes y reinas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Both grew among poor and marginal communities, tango in riverside Buenos Aires and Montevideo, flamenco among Roma families of Andalusia, before reaching theatres.", "es": "Ambos nacieron en comunidades pobres: el tango en las orillas de Buenos Aires y Montevideo, y el flamenco entre familias gitanas de Andalucía." },
+      "topic": "music genres",
+      "source": "https://ich.unesco.org/en/RL/tango-00258"
+    },
+    {
+      "id": "cultures-hard-099", "level": "hard", "type": "tf", "lang": "both", "emoji": "💍",
+      "q": { "en": "In many Spanish-speaking countries a married woman keeps the surnames she was born with.", "es": "En muchos países hispanohablantes una mujer casada conserva los apellidos con los que nació." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Legal identity stays with the birth name, so official papers, school lists and passports keep both family surnames through a whole lifetime.", "es": "La identidad legal va con el nombre de nacimiento, así que documentos, listas escolares y pasaportes guardan los dos apellidos durante toda la vida." },
+      "topic": "naming customs",
+      "source": "https://www.rae.es/dpd/apellido"
+    },
+    {
+      "id": "cultures-hard-100", "level": "hard", "type": "tf", "lang": "both", "emoji": "👟",
+      "q": { "en": "The Olympic marathon has always been run over the same distance since the ancient games.", "es": "El maratón olímpico siempre se ha corrido con la misma distancia desde los juegos antiguos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ancient Greeks held no marathon at all; the modern race was invented in 1896, and its 42.195 kilometre, 26.2 mile length was fixed in 1921.", "es": "Los griegos antiguos no tenían maratón; la carrera moderna se inventó en 1896 y su distancia de 42.195 kilómetros, 26.2 millas, se fijó en 1921." },
+      "topic": "olympic games",
+      "source": "https://www.britannica.com/sports/marathon-race"
     }
   ]
 }
