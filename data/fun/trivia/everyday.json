@@ -3604,6 +3604,460 @@
       "why": { "en": "There are only four aces but twelve face cards, so a face card is three times as likely on any single draw.", "es": "Hay solo cuatro ases y doce figuras, así que una figura es tres veces más probable en cualquier carta que saques." },
       "topic": "cards and chance",
       "source": "https://www.britannica.com/topic/playing-card"
+    },
+    {
+      "id": "everyday-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "Chess grew out of a much older game called chaturanga. In which country was chaturanga played?", "es": "El ajedrez nació de un juego mucho más antiguo llamado chaturanga. ¿En qué país se jugaba el chaturanga?" },
+      "choices": [
+        { "en": "India", "es": "India" },
+        { "en": "Persia", "es": "Persia" },
+        { "en": "China", "es": "China" },
+        { "en": "Egypt", "es": "Egipto" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chaturanga appeared in India around 1500 years ago with four army parts, and Persian traders carried the game west to Europe.", "es": "El chaturanga surgió en la India hace unos 1500 años con cuatro partes del ejército, y los persas llevaron el juego a Europa." },
+      "topic": "board game origins",
+      "source": "https://www.britannica.com/topic/chess"
+    },
+    {
+      "id": "everyday-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚫",
+      "q": { "en": "The board game Go, played with black and white stones, began in which country?", "es": "El juego de mesa go, que se juega con piedras blancas y negras, ¿en qué país comenzó?" },
+      "choices": [
+        { "en": "Japan", "es": "Japón" },
+        { "en": "China", "es": "China" },
+        { "en": "Korea", "es": "Corea" },
+        { "en": "India", "es": "India" }
+      ],
+      "answer": 1,
+      "why": { "en": "Go began in China about 2500 years ago, and its 19 by 19 board holds more possible positions than the universe has atoms.", "es": "El go nació en China hace 2500 años y su tablero de 19 por 19 permite más posiciones que átomos en el universo." },
+      "topic": "board game origins",
+      "source": "https://www.britannica.com/topic/go-game"
+    },
+    {
+      "id": "everyday-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎴",
+      "q": { "en": "Mexican lotería, played with picture cards and beans, grew from a game brought from which country?", "es": "¿De qué país viene el juego que dio origen a la lotería mexicana, la de cartas ilustradas y frijoles?" },
+      "choices": [
+        { "en": "Spain", "es": "España" },
+        { "en": "France", "es": "Francia" },
+        { "en": "Italy", "es": "Italia" },
+        { "en": "Portugal", "es": "Portugal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lotería began as an Italian game of chance, reached Spain, then Mexico in the 1700s, where it became a fair and family favourite.", "es": "La lotería nació como un juego italiano de azar, pasó a España y llegó a México en el siglo XVIII, donde se volvió tradición." },
+      "topic": "board game origins",
+      "source": "https://www.britannica.com/topic/lottery"
+    },
+    {
+      "id": "everyday-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "Boards for a racing game like backgammon were found in ancient tombs of which region?", "es": "¿En qué región aparecieron, dentro de tumbas antiguas, los tableros de un juego de carreras parecido al backgammon?" },
+      "choices": [
+        { "en": "Scandinavia", "es": "Escandinavia" },
+        { "en": "West Africa", "es": "África occidental" },
+        { "en": "The Andes", "es": "Los Andes" },
+        { "en": "Mesopotamia", "es": "Mesopotamia" }
+      ],
+      "answer": 3,
+      "why": { "en": "A 4500-year-old board from the city of Ur shows people racing pieces with dice long before chess existed.", "es": "Un tablero de hace 4500 años hallado en la ciudad de Ur muestra piezas que corrían con dados mucho antes del ajedrez." },
+      "topic": "board game origins",
+      "source": "https://www.britannica.com/topic/backgammon"
+    },
+    {
+      "id": "everyday-hard-072", "level": "hard", "type": "tf", "lang": "both", "emoji": "🀄",
+      "q": { "en": "Dominoes and playing cards both came to Europe from China.", "es": "Los dominós y las cartas de juego llegaron a Europa desde China." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chinese domino tiles and paper cards travelled west along trade routes, and dominoes only reached Italy in the eighteenth century.", "es": "Las fichas de dominó y las cartas de papel viajaron por las rutas comerciales, y el dominó llegó a Italia en el siglo XVIII." },
+      "topic": "board game origins",
+      "source": "https://www.britannica.com/topic/dominoes"
+    },
+    {
+      "id": "everyday-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Why do nearly all coffee farms sit in a belt near the equator?", "es": "¿Por qué casi todas las fincas de café están en una franja cerca del ecuador?" },
+      "choices": [
+        { "en": "Coffee cannot survive frost", "es": "El café no soporta las heladas" },
+        { "en": "Coffee needs salty sea air", "es": "El café necesita aire salado del mar" },
+        { "en": "Coffee needs long summer days", "es": "El café necesita días largos de verano" },
+        { "en": "Coffee needs a cold winter to flower", "es": "El café necesita un invierno frío para florecer" }
+      ],
+      "answer": 0,
+      "why": { "en": "Coffee trees die in frost, so growers stay between the tropics, often high on mountain slopes where cool air ripens the cherries slowly.", "es": "El cafeto muere con las heladas, por eso se cultiva entre los trópicos, muchas veces en laderas altas donde el fresco madura despacio." },
+      "topic": "global foods and trade",
+      "source": "https://www.britannica.com/plant/coffee"
+    },
+    {
+      "id": "everyday-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Which step gives cacao beans their chocolate flavour before they are ever roasted?", "es": "¿Qué paso les da a los granos de cacao su sabor a chocolate antes de tostarlos?" },
+      "choices": [
+        { "en": "Freezing them overnight", "es": "Congelarlos toda la noche" },
+        { "en": "Fermenting in their own pulp", "es": "Fermentarlos en su pulpa" },
+        { "en": "Soaking them in milk", "es": "Remojarlos en leche" },
+        { "en": "Grinding them with sugar", "es": "Molerlos con azúcar" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fresh cacao beans taste bitter; a week of fermenting in their own sweet pulp, then drying in the sun, creates chocolate flavour.", "es": "El grano fresco de cacao es amargo; una semana de fermentación en su pulpa dulce y luego el secado al sol crean el sabor." },
+      "topic": "global foods and trade",
+      "source": "https://www.britannica.com/topic/chocolate"
+    },
+    {
+      "id": "everyday-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍵",
+      "q": { "en": "Which holds more caffeine: a spoon of dry tea leaves or a spoon of ground coffee?", "es": "¿Qué tiene más cafeína: una cucharada de hojas secas de té o una de café molido?" },
+      "choices": [
+        { "en": "The ground coffee", "es": "El café molido" },
+        { "en": "They match exactly", "es": "Tienen exactamente lo mismo" },
+        { "en": "The dry tea leaves", "es": "Las hojas secas de té" },
+        { "en": "Neither holds any", "es": "Ninguno tiene cafeína" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dry tea has more caffeine by weight, yet a brewed cup of coffee has far more, because a cup uses much more coffee.", "es": "El té seco tiene más cafeína por peso, pero una taza de café tiene mucha más, porque se usa mucho más café por taza." },
+      "topic": "global foods and trade",
+      "source": "https://www.britannica.com/topic/tea-beverage"
+    },
+    {
+      "id": "everyday-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍚",
+      "q": { "en": "Why do rice farmers flood their fields with a shallow layer of water?", "es": "¿Por qué los agricultores de arroz inundan sus campos con una capa baja de agua?" },
+      "choices": [
+        { "en": "It makes the grains sweeter", "es": "Hace los granos más dulces" },
+        { "en": "It keeps birds away", "es": "Espanta a los pájaros" },
+        { "en": "It washes salt from the soil", "es": "Lava la sal del suelo" },
+        { "en": "It keeps weeds from growing", "es": "Impide que crezca la maleza" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rice survives with its roots underwater, while most weeds drown, so flooding is a clever way to keep the field clean.", "es": "El arroz aguanta con las raíces bajo el agua y casi toda la maleza se ahoga, así que inundar limpia el campo sin químicos." },
+      "topic": "global foods and trade",
+      "source": "https://www.britannica.com/plant/rice"
+    },
+    {
+      "id": "everyday-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚌",
+      "q": { "en": "Buses leave every 25 minutes starting at 6:10. When does the fourth bus of the day leave?", "es": "Los autobuses salen cada 25 minutos a partir de las 6:10. ¿A qué hora sale el cuarto autobús del día?" },
+      "choices": [
+        { "en": "7:25", "es": "7:25" },
+        { "en": "7:00", "es": "7:00" },
+        { "en": "7:50", "es": "7:50" },
+        { "en": "6:35", "es": "6:35" }
+      ],
+      "answer": 0,
+      "why": { "en": "The first bus is 6:10, then 6:35, 7:00 and 7:25, so the fourth departure is three gaps of 25 minutes later.", "es": "El primer autobús sale 6:10, luego 6:35, 7:00 y 7:25, así que el cuarto va tres intervalos de 25 minutos después." },
+      "topic": "timetables and maps",
+      "source": "https://www.britannica.com/technology/bus-vehicle"
+    },
+    {
+      "id": "everyday-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "On a map with a scale of 1:50000, how far apart on the ground are two points 4 cm apart?", "es": "En un mapa a escala 1:50000, ¿qué distancia real separa dos puntos que están a 4 cm?" },
+      "choices": [
+        { "en": "200 m", "es": "200 m" },
+        { "en": "2 km", "es": "2 km" },
+        { "en": "20 km", "es": "20 km" },
+        { "en": "50 km", "es": "50 km" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each centimetre stands for 50000 centimetres, which is 500 metres, so four centimetres cover 2 km, about 1.2 miles.", "es": "Cada centímetro representa 50000 centímetros, o sea 500 metros, así que cuatro centímetros son 2 km, cerca de 1.2 millas." },
+      "topic": "timetables and maps",
+      "source": "https://www.usgs.gov/faqs/what-does-map-scale-mean"
+    },
+    {
+      "id": "everyday-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "On a hiking map, what do contour lines drawn close together tell you?", "es": "En un mapa para caminatas, ¿qué indican las curvas de nivel muy juntas?" },
+      "choices": [
+        { "en": "The ground is wet there", "es": "El suelo está húmedo ahí" },
+        { "en": "The path is paved there", "es": "El camino está pavimentado ahí" },
+        { "en": "The slope is steep there", "es": "La pendiente es empinada ahí" },
+        { "en": "The forest is thick there", "es": "El bosque es espeso ahí" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each contour joins points of equal height, so tightly packed lines mean the land climbs quickly, and wide spacing means gentle ground.", "es": "Cada curva de nivel une puntos de la misma altura, así que líneas muy juntas indican subida rápida y líneas separadas, terreno suave." },
+      "topic": "timetables and maps",
+      "source": "https://www.usgs.gov/faqs/what-does-map-scale-mean"
+    },
+    {
+      "id": "everyday-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚑",
+      "q": { "en": "Someone is unconscious but breathing normally. Which position keeps their airway clear until help arrives?", "es": "Alguien está inconsciente pero respira con normalidad. ¿Qué posición mantiene libre su vía respiratoria mientras llega la ayuda?" },
+      "choices": [
+        { "en": "Flat on their back", "es": "Acostado boca arriba" },
+        { "en": "Sitting upright against a wall", "es": "Sentado contra una pared" },
+        { "en": "Face down with arms folded", "es": "Boca abajo con los brazos cruzados" },
+        { "en": "On their side, the recovery position", "es": "De lado, en posición de recuperación" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rolling a breathing person onto their side lets the tongue fall forward and any fluid drain, so the airway stays open.", "es": "Girar de lado a una persona que respira deja que la lengua caiga hacia adelante y que salga líquido, así la vía queda libre." },
+      "topic": "first aid",
+      "source": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps"
+    },
+    {
+      "id": "everyday-hard-081", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔥",
+      "q": { "en": "A small burn should be cooled under running water for about twenty minutes.", "es": "Una quemadura pequeña se debe enfriar bajo agua corriente durante unos veinte minutos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cool running water carries heat out of the skin, while ice, butter and toothpaste all make the damage worse instead.", "es": "El agua corriente fresca saca el calor de la piel; el hielo, la mantequilla y la pasta de dientes empeoran la quemadura." },
+      "topic": "first aid",
+      "source": "https://kidshealth.org/en/kids/burns.html"
+    },
+    {
+      "id": "everyday-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🆘",
+      "q": { "en": "Which sign tells you that a person's airway is completely blocked and they need help right away?", "es": "¿Qué señal indica que la vía respiratoria de una persona está bloqueada por completo y necesita ayuda inmediata?" },
+      "choices": [
+        { "en": "Silence, with hands at the throat", "es": "Silencio, con las manos en el cuello" },
+        { "en": "A loud, forceful cough", "es": "Una tos fuerte y ruidosa" },
+        { "en": "Fast, noisy breathing", "es": "Respiración rápida y ruidosa" },
+        { "en": "Sneezing several times", "es": "Varios estornudos seguidos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Someone who can cough loudly is still moving air, so let them cough; silence and clutched hands mean the airway is blocked.", "es": "Quien puede toser fuerte todavía mueve aire, así que déjalo toser; el silencio y las manos en el cuello indican bloqueo total." },
+      "topic": "first aid",
+      "source": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps"
+    },
+    {
+      "id": "everyday-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🩹",
+      "q": { "en": "A friend twists an ankle playing soccer. Which four steps does the word RICE stand for?", "es": "Un amigo se tuerce el tobillo jugando fútbol. ¿Qué cuatro pasos nombra la palabra RICE en inglés?" },
+      "choices": [
+        { "en": "Rest, ice, care, exercise", "es": "Reposo, hielo, cuidado, ejercicio" },
+        { "en": "Rest, ice, compression, elevation", "es": "Reposo, hielo, compresión, elevación" },
+        { "en": "Rub, ice, cover, elevation", "es": "Frotar, hielo, cubrir, elevación" },
+        { "en": "Rest, iodine, compression, exercise", "es": "Reposo, yodo, compresión, ejercicio" }
+      ],
+      "answer": 1,
+      "why": { "en": "Resting, icing, wrapping and raising the ankle all slow swelling in the first days, which lets the joint heal faster.", "es": "Reposar, poner hielo, vendar y elevar el tobillo frenan la hinchazón los primeros días, y así la articulación sana más rápido." },
+      "topic": "first aid",
+      "source": "https://kidshealth.org/en/teens/sprains.html"
+    },
+    {
+      "id": "everyday-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "At what temperature should a refrigerator be kept so food stays safe?", "es": "¿A qué temperatura debe estar un refrigerador para que la comida siga siendo segura?" },
+      "choices": [
+        { "en": "10 °C, 50 °F or below", "es": "10 °C, 50 °F o menos" },
+        { "en": "0 °C, 32 °F exactly", "es": "0 °C, 32 °F exactos" },
+        { "en": "4 °C, 40 °F or below", "es": "4 °C, 40 °F o menos" },
+        { "en": "7 °C, 45 °F or below", "es": "7 °C, 45 °F o menos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Below 4 °C, 40 °F, bacteria multiply very slowly, which is why a fridge thermometer matters more than the dial setting.", "es": "Por debajo de 4 °C, 40 °F, las bacterias se multiplican muy despacio, por eso importa más un termómetro que la perilla." },
+      "topic": "kitchen safety",
+      "source": "https://www.foodsafety.gov/keep-food-safe/safe-food-handling"
+    },
+    {
+      "id": "everyday-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "How long may cooked food sit out at room temperature before it should be thrown away?", "es": "¿Cuánto tiempo puede quedarse la comida cocida a temperatura ambiente antes de tirarla?" },
+      "choices": [
+        { "en": "Six hours", "es": "Seis horas" },
+        { "en": "All night", "es": "Toda la noche" },
+        { "en": "Four hours", "es": "Cuatro horas" },
+        { "en": "Two hours", "es": "Dos horas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Between 4 and 60 °C, 40 and 140 °F, bacteria double every twenty minutes, so two hours on the counter is the limit.", "es": "Entre 4 y 60 °C, 40 y 140 °F, las bacterias se duplican cada veinte minutos, así que dos horas fuera es el límite." },
+      "topic": "kitchen safety",
+      "source": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f"
+    },
+    {
+      "id": "everyday-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍗",
+      "q": { "en": "To what inside temperature should chicken be cooked to be safe to eat?", "es": "¿A qué temperatura interna debe cocinarse el pollo para comerlo con seguridad?" },
+      "choices": [
+        { "en": "74 °C, 165 °F", "es": "74 °C, 165 °F" },
+        { "en": "60 °C, 140 °F", "es": "60 °C, 140 °F" },
+        { "en": "100 °C, 212 °F", "es": "100 °C, 212 °F" },
+        { "en": "52 °C, 125 °F", "es": "52 °C, 125 °F" }
+      ],
+      "answer": 0,
+      "why": { "en": "A thermometer in the thickest part should read 74 °C, 165 °F; colour is a poor guide because cooked chicken can stay pink.", "es": "El termómetro en la parte más gruesa debe marcar 74 °C, 165 °F; el color engaña, porque el pollo cocido puede verse rosado." },
+      "topic": "kitchen safety",
+      "source": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    },
+    {
+      "id": "everyday-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥘",
+      "q": { "en": "A recipe for 4 people uses 300 g of rice. How much rice do you need for 10 people?", "es": "Una receta para 4 personas usa 300 g de arroz. ¿Cuánto arroz necesitas para 10 personas?" },
+      "choices": [
+        { "en": "600 g", "es": "600 g" },
+        { "en": "750 g", "es": "750 g" },
+        { "en": "900 g", "es": "900 g" },
+        { "en": "1200 g", "es": "1200 g" }
+      ],
+      "answer": 1,
+      "why": { "en": "Divide 300 by 4 to get 75 g each, then multiply by 10 for 750 g, about 1.7 pounds of rice.", "es": "Divide 300 entre 4 para obtener 75 g por persona y multiplica por 10: son 750 g, cerca de 1.7 libras de arroz." },
+      "topic": "cooking measures",
+      "source": "https://www.britannica.com/topic/cooking"
+    },
+    {
+      "id": "everyday-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "About how many millilitres of milk does one standard cup hold?", "es": "¿Cuántos mililitros de leche caben aproximadamente en una taza estándar?" },
+      "choices": [
+        { "en": "100 ml", "es": "100 ml" },
+        { "en": "500 ml", "es": "500 ml" },
+        { "en": "240 ml", "es": "240 ml" },
+        { "en": "350 ml", "es": "350 ml" }
+      ],
+      "answer": 2,
+      "why": { "en": "A cup is 8 fluid ounces, near 240 ml, which is why recipes written in cups confuse cooks who measure by weight.", "es": "Una taza son 8 onzas líquidas, casi 240 ml, por eso las recetas en tazas confunden a quien mide los ingredientes por peso." },
+      "topic": "cooking measures",
+      "source": "https://www.nist.gov/pml/owm/metric-cooking-resources"
+    },
+    {
+      "id": "everyday-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "You double every ingredient in a cake recipe. What should happen to the baking time?", "es": "Duplicas todos los ingredientes de una receta de pastel. ¿Qué pasa con el tiempo de horneado?" },
+      "choices": [
+        { "en": "It doubles exactly", "es": "Se duplica exactamente" },
+        { "en": "It stays the same", "es": "Sigue igual" },
+        { "en": "It is cut in half", "es": "Se reduce a la mitad" },
+        { "en": "It grows a little", "es": "Crece un poco" }
+      ],
+      "answer": 3,
+      "why": { "en": "A thicker cake needs more time for heat to reach the middle, but two thin pans bake in nearly the original time.", "es": "Un pastel más grueso tarda más porque el calor debe llegar al centro, pero dos moldes delgados se hornean casi en el mismo tiempo." },
+      "topic": "cooking measures",
+      "source": "https://www.britannica.com/topic/baking"
+    },
+    {
+      "id": "everyday-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "On a clothing tag, what does a plain triangle symbol tell you about?", "es": "En la etiqueta de una prenda, ¿de qué habla el símbolo del triángulo?" },
+      "choices": [
+        { "en": "Whether bleach may be used", "es": "Si se puede usar blanqueador" },
+        { "en": "Whether the item may be ironed", "es": "Si la prenda se puede planchar" },
+        { "en": "How hot the wash may be", "es": "Qué tan caliente puede ser el lavado" },
+        { "en": "Whether it may be tumble dried", "es": "Si se puede meter a la secadora" }
+      ],
+      "answer": 0,
+      "why": { "en": "A triangle covers bleaching, an iron shape covers ironing, a tub covers washing and a circle means dry cleaning only.", "es": "El triángulo habla del blanqueador, la plancha del planchado, la tina del lavado y el círculo significa limpieza en seco." },
+      "topic": "laundry symbols",
+      "source": "https://www.ftc.gov/business-guidance/resources/threading-your-way-through-labeling-requirements-under-textile-wool-acts"
+    },
+    {
+      "id": "everyday-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔔",
+      "q": { "en": "A smoke alarm chirps once a minute with no smoke in the house. What does that mean?", "es": "Una alarma de humo pita una vez por minuto y no hay humo en la casa. ¿Qué significa?" },
+      "choices": [
+        { "en": "It has found carbon dioxide", "es": "Detectó dióxido de carbono" },
+        { "en": "Its battery is running low", "es": "Su batería se está acabando" },
+        { "en": "It needs its yearly test", "es": "Necesita su prueba anual" },
+        { "en": "The room is too warm", "es": "El cuarto está muy caliente" }
+      ],
+      "answer": 1,
+      "why": { "en": "A single chirp about every minute is the low-battery warning, which is why alarms seem to start chirping in the night.", "es": "Un pitido cada minuto es el aviso de batería baja, y por eso las alarmas suelen empezar a chillar de madrugada, cuando enfría." },
+      "topic": "how home devices work",
+      "source": "https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms"
+    },
+    {
+      "id": "everyday-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "How does a home thermostat keep a room near the temperature you chose?", "es": "¿Cómo mantiene un termostato la habitación cerca de la temperatura que elegiste?" },
+      "choices": [
+        { "en": "It changes how hot the heater burns", "es": "Cambia qué tan fuerte quema el calentador" },
+        { "en": "It blows cool air over a sensor", "es": "Sopla aire fresco sobre un sensor" },
+        { "en": "It switches the heater on and off", "es": "Enciende y apaga el calentador" },
+        { "en": "It opens a vent to the outside", "es": "Abre una rejilla hacia afuera" }
+      ],
+      "answer": 2,
+      "why": { "en": "A thermostat measures air temperature and clicks the heater on below your setting and off above it, so the room swings slightly.", "es": "El termostato mide la temperatura del aire y enciende el calentador cuando baja y lo apaga cuando sube, así el cuarto oscila un poco." },
+      "topic": "how home devices work",
+      "source": "https://www.energy.gov/energysaver/thermostats"
+    },
+    {
+      "id": "everyday-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "📮",
+      "q": { "en": "What does the first digit of a five-digit postal code in the United States show?", "es": "¿Qué indica el primer dígito de un código postal de cinco cifras en Estados Unidos?" },
+      "choices": [
+        { "en": "The size of the town", "es": "El tamaño del pueblo" },
+        { "en": "The kind of delivery", "es": "El tipo de entrega" },
+        { "en": "The day mail arrives", "es": "El día que llega el correo" },
+        { "en": "A large group of states", "es": "Un grupo grande de estados" }
+      ],
+      "answer": 3,
+      "why": { "en": "The first digit marks a broad region from east to west, the next two a sorting centre, and the last two a local office.", "es": "El primer dígito marca una región amplia de este a oeste, los dos siguientes un centro de clasificación y los últimos dos la oficina." },
+      "topic": "mail and postcodes",
+      "source": "https://about.usps.com/who/profile/history/zip-code.htm"
+    },
+    {
+      "id": "everyday-hard-094", "level": "hard", "type": "tf", "lang": "both", "emoji": "🛒",
+      "q": { "en": "The barcode printed on a supermarket package contains the price of the item.", "es": "El código de barras impreso en un producto de supermercado contiene el precio del artículo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A barcode holds only an identifying number; the till looks that number up in the shop's own computer to find the price.", "es": "El código de barras solo guarda un número identificador; la caja busca ese número en la computadora de la tienda para saber cuánto cobrar." },
+      "topic": "how barcodes work",
+      "source": "https://www.gs1.org/standards/barcodes"
+    },
+    {
+      "id": "everyday-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What is the job of the last digit printed under a supermarket barcode?", "es": "¿Cuál es la función del último dígito impreso debajo de un código de barras?" },
+      "choices": [
+        { "en": "It checks that the scan was read correctly", "es": "Comprueba que la lectura fue correcta" },
+        { "en": "It gives the country of sale", "es": "Indica el país donde se vende" },
+        { "en": "It shows the weight of the item", "es": "Muestra el peso del artículo" },
+        { "en": "It marks the shelf number", "es": "Marca el número del estante" }
+      ],
+      "answer": 0,
+      "why": { "en": "The final digit is calculated from the others, so a misread turns the sum wrong and the scanner simply beeps again.", "es": "El último dígito se calcula con los demás, así que una lectura equivocada no cuadra y el escáner simplemente vuelve a pitar." },
+      "topic": "how barcodes work",
+      "source": "https://www.gs1.org/standards/barcodes"
+    },
+    {
+      "id": "everyday-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍽️",
+      "q": { "en": "In which country would leaving extra coins on a restaurant table often puzzle the staff?", "es": "¿En qué país suele desconcertar al personal que dejes monedas extra en la mesa de un restaurante?" },
+      "choices": [
+        { "en": "Mexico", "es": "México" },
+        { "en": "Japan", "es": "Japón" },
+        { "en": "Canada", "es": "Canadá" },
+        { "en": "Brazil", "es": "Brasil" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tipping is uncommon in Japan, where good service is expected as part of the price, and money left behind may be returned.", "es": "En Japón casi no se deja propina, porque el buen servicio va incluido, y el dinero olvidado en la mesa te lo pueden devolver." },
+      "topic": "manners around the world",
+      "source": "https://www.britannica.com/topic/etiquette"
+    },
+    {
+      "id": "everyday-hard-097", "level": "hard", "type": "tf", "lang": "both", "emoji": "📚",
+      "q": { "en": "In a Dewey library, books sit on the shelf by subject number rather than by the author's name.", "es": "En una biblioteca con el sistema Dewey, los libros se ordenan por número de tema y no por el apellido del autor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dewey split knowledge into ten hundreds, so every book about animals lands in the 500s and sits beside its neighbours on the topic.", "es": "Dewey dividió el saber en diez centenas, así que los libros de animales caen en los 500 y quedan juntos en el estante." },
+      "topic": "how a library is organised",
+      "source": "https://www.oclc.org/en/dewey.html"
+    },
+    {
+      "id": "everyday-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗳️",
+      "q": { "en": "Why do voters mark their ballot alone inside a booth?", "es": "¿Por qué los votantes marcan su boleta a solas dentro de una casilla?" },
+      "choices": [
+        { "en": "So the count goes faster", "es": "Para que el conteo sea más rápido" },
+        { "en": "So the ink stays dry", "es": "Para que la tinta no se corra" },
+        { "en": "So nobody can pressure or buy their vote", "es": "Para que nadie presione ni compre su voto" },
+        { "en": "So the ballot stays clean", "es": "Para que la boleta quede limpia" }
+      ],
+      "answer": 2,
+      "why": { "en": "The secret ballot spread from Australia in the 1850s, and hiding each choice makes buying or threatening a vote much harder.", "es": "El voto secreto se extendió desde Australia en la década de 1850, y ocultar cada decisión dificulta comprar o presionar un voto." },
+      "topic": "how elections work",
+      "source": "https://www.britannica.com/topic/secret-ballot"
+    },
+    {
+      "id": "everyday-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "📋",
+      "q": { "en": "An election needs a majority. What share of the votes must the winning side reach?", "es": "Una elección exige mayoría. ¿Qué parte de los votos debe alcanzar el lado ganador?" },
+      "choices": [
+        { "en": "The largest share", "es": "La porción más grande" },
+        { "en": "At least a third", "es": "Al menos un tercio" },
+        { "en": "Exactly half", "es": "Exactamente la mitad" },
+        { "en": "More than half", "es": "Más de la mitad" }
+      ],
+      "answer": 3,
+      "why": { "en": "A majority means more than half, while a plurality is only the biggest pile, which is why many countries hold a second round.", "es": "Mayoría significa más de la mitad; la mayoría relativa es solo el montón más grande, por eso muchos países hacen segunda vuelta." },
+      "topic": "how elections work",
+      "source": "https://www.britannica.com/topic/election-political-science"
+    },
+    {
+      "id": "everyday-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧾",
+      "q": { "en": "What does a warranty on a new blender promise the buyer?", "es": "¿Qué le promete al comprador la garantía de una licuadora nueva?" },
+      "choices": [
+        { "en": "A lower price after a year", "es": "Un precio más bajo tras un año" },
+        { "en": "Free spare parts forever", "es": "Repuestos gratis para siempre" },
+        { "en": "Repair or replacement for a set time", "es": "Reparación o reemplazo por un plazo fijo" },
+        { "en": "A refund whenever you change your mind", "es": "Devolución del dinero cuando cambies de opinión" }
+      ],
+      "answer": 2,
+      "why": { "en": "A warranty is the maker's written promise to fix or replace faults for a stated period, and the receipt proves when you bought it.", "es": "La garantía es la promesa escrita del fabricante de reparar o reemplazar fallas por un plazo, y el recibo prueba cuándo lo compraste." },
+      "topic": "receipts and warranties",
+      "source": "https://consumer.ftc.gov/articles/warranties"
     }
   ]
 }

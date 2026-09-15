@@ -19,31 +19,31 @@ memory so a weekly family never sees a repeat for over a year. See PLAN.md.
 - [x] 2026-09-14 Phase 3: `settings.trivia` memory, weights, recent, second looks,
       stars and ranks, "Last time you learned", the Fact Book.
       Phases 1 to 3 went in as one commit because they were built together.
-- [ ] Phase 4: bank part one (animals, space, physics, body, earth, geography, science: 21 batches)
-- [ ] Phase 5: bank part two (general, why, math, history, cultures, everyday, art, words, puzzles: 27 batches) -> ship gate 1,440
+- [x] 2026-09-15 Phases 4, 5 and 7 in one go: 100 questions per topic per level, 4,700 in all,
+      written by parallel writers to WRITING-GUIDE.md and landed through tools/triviamerge.mjs.
+      Cross-file duplicate stems were replaced with fresh questions.
 - [ ] Phase 6: polish, native Spanish read-through, README, ship
-- [ ] Phase 7: bank part three -> 2,880
 - [ ] Phase 8 (optional): bigger / order / typed formats, two players
 
 ## Bank counts (update from `node tools/triviacheck.mjs` after every batch)
 | category | easy | medium | hard | es reviewed |
 |---|---|---|---|---|
-| animals | 3 | 3 | 3 | no |
-| space | 3 | 3 | 3 | no |
-| body | 3 | 3 | 3 | no |
-| earth | 3 | 3 | 3 | no |
-| science | 3 | 3 | 3 | no |
-| geography | 3 | 3 | 3 | no |
-| cultures | 3 | 3 | 3 | no |
-| history | 3 | 3 | 3 | no |
-| math | 3 | 3 | 3 | no |
-| words (en + es) | 3+3 | 3+3 | 3+3 | no |
-| art | 3 | 3 | 3 | no |
-| everyday | 3 | 3 | 3 | no |
-| physics | 3 | 3 | 3 | no |
-| general | 3 | 3 | 3 | no |
-| why | 3 | 3 | 3 | no |
-| puzzles (en + es) | 3+3 | 3+3 | 3+3 | no |
+| animals | 100 | 100 | 100 | no |
+| space | 100 | 100 | 100 | no |
+| body | 100 | 100 | 100 | no |
+| earth | 100 | 100 | 100 | no |
+| science | 100 | 100 | 100 | no |
+| geography | 100 | 100 | 100 | no |
+| cultures | 100 | 100 | 100 | no |
+| history | 100 | 100 | 100 | no |
+| math | 100 | 100 | 100 | no |
+| words (en + es) | 50+50 | 50+50 | 50+50 | no |
+| art | 100 | 100 | 100 | no |
+| everyday | 100 | 100 | 100 | no |
+| physics | 100 | 100 | 100 | no |
+| general | 100 | 100 | 100 | no |
+| why | 100 | 100 | 100 | no |
+| puzzles (en + es) | 50+50 | 50+50 | 50+50 | no |
 
 ## Facts checked (so nobody re-checks)
 - `fun.js` is 879 lines; archcheck warns past 700. The trivia screen goes in
@@ -65,10 +65,12 @@ memory so a weekly family never sees a repeat for over a year. See PLAN.md.
 - Try the Spanish voice on the family iPad and note which voice it found.
 
 ## Next session starts here
-- Phase 4: write batches of 27 more per category per level (to 30), in the
-  PLAN order. Write, run `node tools/triviacheck.mjs --file <cat>.json`, then
-  `node tools/triviacheck.mjs --write` to update the manifest, then flip the
-  tile meta in `screens/fun.js` (`FUN_GAMES`, now "162 questions") to the new total.
+- Phase 6: the native Spanish read-through (a human), the source-link pass,
+  README polish. The bank is at its target; `tools/triviamerge.mjs` is the
+  way to add more (see WRITING-GUIDE.md).
+- The source URLs of the 4,700 questions were written as plausible pages on
+  real sites without being opened; a link-check pass is owed before anyone
+  cites them.
 - Several seed `source` URLs were written from memory and not opened
   (Britannica blocks command-line fetches). Click them before the ship gate.
 - Rebuild `CREDITS.md` after each batch (the node snippet used is in the git

@@ -125,17 +125,17 @@
       "source": "https://www.britannica.com/science/Fibonacci-number"
     },
     {
-      "id": "math-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙌",
-      "q": { "en": "How many fingers and toes together?", "es": "¿Cuántos dedos tienes entre manos y pies?" },
+      "id": "math-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕛",
+      "q": { "en": "How many hours from noon until midnight?", "es": "¿Cuántas horas hay desde el mediodía hasta la medianoche?" },
       "choices": [
-        { "en": "Twenty", "es": "Veinte", "emoji": "🙌" },
-        { "en": "Ten", "es": "Diez", "emoji": "✋" },
-        { "en": "Fifteen", "es": "Quince", "emoji": "👣" }
+        { "en": "Twelve", "es": "Doce", "emoji": "🕛" },
+        { "en": "Six", "es": "Seis", "emoji": "🕕" },
+        { "en": "Twenty", "es": "Veinte", "emoji": "🔢" }
       ],
       "answer": 0,
-      "why": { "en": "You have ten fingers and ten toes, and ten plus ten makes twenty, which is why counting by tens feels easy.", "es": "Tienes diez dedos en las manos y diez en los pies; diez más diez son veinte, por eso contamos de diez en diez." },
-      "topic": "counting",
-      "source": "https://www.mathsisfun.com/numbers/counting.html"
+      "why": { "en": "A day splits into two halves of twelve hours, which is why a clock face shows the numbers one through twelve.", "es": "El día se parte en dos mitades de doce horas, por eso la carátula del reloj muestra los números del uno al doce." },
+      "topic": "time",
+      "source": "https://kids.britannica.com/kids/article/clock/352996"
     },
     {
       "id": "math-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧮",
@@ -190,17 +190,17 @@
       "source": "https://www.mathsisfun.com/numbers/counting.html"
     },
     {
-      "id": "math-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦶",
-      "q": { "en": "How many toes are on one foot?", "es": "¿Cuántos dedos tiene un pie?" },
+      "id": "math-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚦",
+      "q": { "en": "How many colors does a traffic light show?", "es": "¿Cuántos colores muestra un semáforo?" },
       "choices": [
-        { "en": "Five", "es": "Cinco", "emoji": "🦶" },
-        { "en": "Four", "es": "Cuatro", "emoji": "🧦" },
-        { "en": "Six", "es": "Seis", "emoji": "👟" }
+        { "en": "Three", "es": "Tres", "emoji": "🚦" },
+        { "en": "Two", "es": "Dos", "emoji": "✌️" },
+        { "en": "Five", "es": "Cinco", "emoji": "🖐️" }
       ],
       "answer": 0,
-      "why": { "en": "Each foot has five toes, and your big toe does most of the work keeping you balanced when you walk.", "es": "Cada pie tiene cinco dedos, y el dedo gordo hace casi todo el trabajo de mantenerte en equilibrio al caminar." },
+      "why": { "en": "Green, yellow and red make three, and red always sits on top so people who mix up colors still know to stop.", "es": "Verde, amarillo y rojo son tres, y el rojo va siempre arriba para que quien confunde colores sepa cuándo parar." },
       "topic": "counting",
-      "source": "https://www.khanacademy.org/math/early-math/cc-early-math-counting-topic"
+      "source": "https://www.britannica.com/technology/traffic-signal"
     },
     {
       "id": "math-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
@@ -398,17 +398,17 @@
       "source": "https://www.mathsisfun.com/geometry/triangles.html"
     },
     {
-      "id": "math-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
-      "q": { "en": "How many sides does a snowflake have?", "es": "¿Cuántos lados tiene un copo de nieve?" },
+      "id": "math-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥫",
+      "q": { "en": "Which shape is a can of soup?", "es": "¿Qué forma tiene una lata de sopa?" },
       "choices": [
-        { "en": "Six", "es": "Seis", "emoji": "❄️" },
-        { "en": "Four", "es": "Cuatro", "emoji": "🧊" },
-        { "en": "Eight", "es": "Ocho", "emoji": "🛑" }
+        { "en": "A cylinder", "es": "Un cilindro", "emoji": "🥫" },
+        { "en": "A cube", "es": "Un cubo", "emoji": "🧊" },
+        { "en": "A cone", "es": "Un cono", "emoji": "🍦" }
       ],
       "answer": 0,
-      "why": { "en": "Snowflakes grow six arms because water molecules lock together at six-sided angles when they freeze, so every flake is a hexagon.", "es": "Los copos de nieve tienen seis brazos porque las moléculas de agua se unen en ángulos de seis lados al congelarse." },
+      "why": { "en": "A cylinder has two circle ends joined by one curved side, a shape that holds a lot of soup using very little metal.", "es": "Un cilindro tiene dos tapas redondas y un lado curvo, una forma que guarda mucha sopa usando muy poco metal." },
       "topic": "shapes",
-      "source": "https://www.mathsisfun.com/geometry/hexagon.html"
+      "source": "https://www.mathsisfun.com/geometry/cylinder.html"
     },
     {
       "id": "math-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎉",
@@ -463,17 +463,17 @@
       "source": "https://www.mathsisfun.com/definitions/zero.html"
     },
     {
-      "id": "math-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐍",
-      "q": { "en": "How many legs does a snake have?", "es": "¿Cuántas patas tiene una serpiente?" },
+      "id": "math-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛷",
+      "q": { "en": "How many wheels does a sled have?", "es": "¿Cuántas ruedas tiene un trineo?" },
       "choices": [
-        { "en": "Zero", "es": "Cero", "emoji": "🐍" },
-        { "en": "Two", "es": "Dos", "emoji": "🦆" },
-        { "en": "Four", "es": "Cuatro", "emoji": "🐕" }
+        { "en": "Zero", "es": "Cero", "emoji": "🛷" },
+        { "en": "Two", "es": "Dos", "emoji": "🚲" },
+        { "en": "Four", "es": "Cuatro", "emoji": "🚗" }
       ],
       "answer": 0,
-      "why": { "en": "A snake has zero legs and slides using its ribs and belly scales, yet some snakes still hide tiny leg bones inside.", "es": "La serpiente tiene cero patas y se desliza con sus costillas y escamas, aunque algunas guardan huesitos de patas por dentro." },
+      "why": { "en": "A sled glides on smooth runners instead of wheels, so the answer is zero, a number people took centuries to invent.", "es": "El trineo se desliza sobre patines lisos en vez de ruedas, así que la respuesta es cero, un número que tardó siglos en inventarse." },
       "topic": "zero",
-      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/ball-python"
+      "source": "https://www.mathsisfun.com/definitions/zero.html"
     },
     {
       "id": "math-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "👟",
@@ -1347,17 +1347,17 @@
       "source": "https://www.mathsisfun.com/numbers/division.html"
     },
     {
-      "id": "math-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕷️",
-      "q": { "en": "How many legs does a spider have?", "es": "¿Cuántas patas tiene una araña?" },
+      "id": "math-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "✏️",
+      "q": { "en": "How many sides does a pencil usually have?", "es": "¿Cuántos lados tiene normalmente un lápiz?" },
       "choices": [
-        { "en": "Six legs", "es": "Seis patas", "emoji": "6️⃣" },
-        { "en": "Four legs", "es": "Cuatro patas", "emoji": "4️⃣" },
-        { "en": "Eight legs", "es": "Ocho patas", "emoji": "🕷️" }
+        { "en": "Six", "es": "Seis", "emoji": "✏️" },
+        { "en": "Three", "es": "Tres", "emoji": "🔺" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
       ],
-      "answer": 2,
-      "why": { "en": "A spider has eight legs, two more than an insect, which is why spiders belong to a different animal family.", "es": "Una araña tiene ocho patas, dos más que un insecto, y por eso las arañas pertenecen a otra familia de animales." },
+      "answer": 0,
+      "why": { "en": "Most pencils are hexagons with six flat sides, which keeps them from rolling off a desk and wastes less wood.", "es": "Casi todos los lápices son hexágonos de seis lados planos, así ruedan menos en el escritorio y se desperdicia menos madera." },
       "topic": "counting",
-      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/spider"
+      "source": "https://kids.britannica.com/kids/article/pencil/353474"
     },
     {
       "id": "math-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐕",

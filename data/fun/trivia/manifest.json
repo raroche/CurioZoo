@@ -156,7 +156,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 38
+        "hard": 100
       }
     },
     {
@@ -168,7 +168,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 68
+        "hard": 100
       }
     },
     {
@@ -180,7 +180,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 67
+        "hard": 100
       }
     },
     {
@@ -192,7 +192,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 68
+        "hard": 100
       }
     },
     {
@@ -204,7 +204,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 36
+        "hard": 100
       }
     },
     {
@@ -216,7 +216,7 @@
       "counts": {
         "easy": 80,
         "medium": 86,
-        "hard": 6
+        "hard": 73
       }
     }
   ]

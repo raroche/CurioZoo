@@ -2242,18 +2242,18 @@
       "source": "https://spaceplace.nasa.gov/blue-sky/en/"
     },
     {
-      "id": "physics-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
-      "q": { "en": "About how far is the Moon from Earth?", "es": "¿A qué distancia está la Luna de la Tierra?" },
+      "id": "physics-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What happens to light from a galaxy racing away from us?", "es": "¿Qué le pasa a la luz de una galaxia que se aleja de nosotros?" },
       "choices": [
-        { "en": "About 3800 kilometers", "es": "Unos 3800 kilómetros" },
-        { "en": "About 38,000 kilometers", "es": "Unos 38,000 kilómetros" },
-        { "en": "About 384,000 kilometers", "es": "Unos 384,000 kilómetros" },
-        { "en": "About 3.8 million kilometers", "es": "Unos 3.8 millones de kilómetros" }
+        { "en": "It stretches and looks redder", "es": "Se estira y se ve más roja" },
+        { "en": "It squeezes and looks bluer", "es": "Se comprime y se ve más azul" },
+        { "en": "It speeds up", "es": "Viaja más rápido" },
+        { "en": "It stops halfway", "es": "Se detiene a mitad del camino" }
       ],
-      "answer": 2,
-      "why": { "en": "That is about 239,000 miles, so a radio message takes just over a second each way to reach the Moon.", "es": "Son unas 239,000 millas, así que un mensaje de radio tarda poco más de un segundo en llegar a la Luna." },
+      "answer": 0,
+      "why": { "en": "Stretched waves shift toward red, and this redshift is how astronomers discovered that the whole universe is spreading apart.", "es": "Las ondas estiradas se corren hacia el rojo, y ese corrimiento reveló a los astrónomos que el universo entero se expande." },
       "topic": "the universe",
-      "source": "https://spaceplace.nasa.gov/moon-distance/en/"
+      "source": "https://www.britannica.com/science/redshift"
     },
     {
       "id": "physics-medium-067", "level": "medium", "type": "tf", "lang": "both",

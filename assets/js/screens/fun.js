@@ -107,7 +107,7 @@ const FUN_GAMES = [
     meta: '6 kinds of question \u00b7 no protractor needed' },
   { id: 'trivia', art: 'quiz', hue: 'orchid', name: 'Curio Trivia',
     sub: 'Animals, space, your body, the world. Three levels, every answer teaches you something.',
-    meta: '162 questions \u00b7 English or Spanish' }
+    meta: '4,700 questions \u00b7 English or Spanish' }
 ];
 
 function renderFunHub() {

@@ -3202,6 +3202,858 @@
       "why": { "es": "Son tres: los verbos terminan en -ar, -er o -ir, y amar, comer y vivir son los ejemplos clásicos." },
       "topic": "verbos",
       "source": "https://dle.rae.es/conjugaci%C3%B3n"
+    },
+    {
+      "id": "words-hard-039", "level": "hard", "type": "mc", "lang": "en", "emoji": "🤫",
+      "q": { "en": "Which figure of speech pairs two opposite words, as in deafening silence?" },
+      "choices": [
+        { "en": "Oxymoron" },
+        { "en": "Hyperbole" },
+        { "en": "Metaphor" },
+        { "en": "Alliteration" }
+      ],
+      "answer": 0,
+      "why": { "en": "An oxymoron joins clashing words like bittersweet or jumbo shrimp, and its own Greek parts mean sharp and dull." },
+      "topic": "figurative language",
+      "source": "https://www.merriam-webster.com/dictionary/oxymoron"
+    },
+    {
+      "id": "words-hard-040", "level": "hard", "type": "mc", "lang": "en", "emoji": "🍃",
+      "q": { "en": "Which sentence is an example of personification?" },
+      "choices": [
+        { "en": "The wind was as cold as ice" },
+        { "en": "The wind sang through the wires" },
+        { "en": "The wind rattled the loose shutters" },
+        { "en": "The wind blew all afternoon" }
+      ],
+      "answer": 1,
+      "why": { "en": "Personification hands human habits to things: the wind sings, the sun smiles, the old house groans while it settles at night." },
+      "topic": "figurative language",
+      "source": "https://www.merriam-webster.com/dictionary/personification"
+    },
+    {
+      "id": "words-hard-041", "level": "hard", "type": "mc", "lang": "en", "emoji": "🎭",
+      "q": { "en": "In the line Her voice is velvet, which figure of speech is at work?" },
+      "choices": [
+        { "en": "Simile" },
+        { "en": "Idiom" },
+        { "en": "Metaphor" },
+        { "en": "Pun" }
+      ],
+      "answer": 2,
+      "why": { "en": "A metaphor says one thing is another with no like or as; the comparison is claimed outright, which makes it stronger." },
+      "topic": "figurative language",
+      "source": "https://www.merriam-webster.com/dictionary/metaphor"
+    },
+    {
+      "id": "words-hard-042", "level": "hard", "type": "mc", "lang": "en", "emoji": "🚪",
+      "q": { "en": "In the sentence She quietly closed the heavy wooden door, which word is the adverb?" },
+      "choices": [
+        { "en": "Heavy" },
+        { "en": "Wooden" },
+        { "en": "Closed" },
+        { "en": "Quietly" }
+      ],
+      "answer": 3,
+      "why": { "en": "An adverb tells how, when or where; quietly describes the closing, while heavy and wooden are adjectives describing the door." },
+      "topic": "parts of speech",
+      "source": "https://www.merriam-webster.com/dictionary/adverb"
+    },
+    {
+      "id": "words-hard-043", "level": "hard", "type": "mc", "lang": "en", "emoji": "➕",
+      "q": { "en": "Which word in the sentence I ran but she walked is a conjunction?" },
+      "choices": [
+        { "en": "Ran" },
+        { "en": "But" },
+        { "en": "She" },
+        { "en": "Walked" }
+      ],
+      "answer": 1,
+      "why": { "en": "Conjunctions join words or clauses; the seven coordinating ones spell FANBOYS: for, and, nor, but, or, yet, so." },
+      "topic": "parts of speech",
+      "source": "https://www.merriam-webster.com/dictionary/conjunction"
+    },
+    {
+      "id": "words-hard-044", "level": "hard", "type": "mc", "lang": "en", "emoji": "👥",
+      "q": { "en": "Which of these four words is a possessive pronoun?" },
+      "choices": [
+        { "en": "Theirs" },
+        { "en": "Them" },
+        { "en": "They" },
+        { "en": "There" }
+      ],
+      "answer": 0,
+      "why": { "en": "Possessive pronouns stand alone with no apostrophe: mine, yours, hers, ours, theirs; that is why its needs none either." },
+      "topic": "parts of speech",
+      "source": "https://www.merriam-webster.com/dictionary/pronoun"
+    },
+    {
+      "id": "words-hard-045", "level": "hard", "type": "mc", "lang": "en", "emoji": "🐙",
+      "q": { "en": "Why do many dictionaries prefer octopuses over octopi as the plural?" },
+      "choices": [
+        { "en": "Octopi sounds too formal" },
+        { "en": "Octopus came from Greek" },
+        { "en": "Octopus has three syllables" },
+        { "en": "Octopi is a newer spelling" }
+      ],
+      "answer": 1,
+      "why": { "en": "The -i plural belongs to Latin words, but octopus is Greek, so octopuses fits English and octopodes fits the Greek." },
+      "topic": "grammar exceptions",
+      "source": "https://www.merriam-webster.com/dictionary/octopus"
+    },
+    {
+      "id": "words-hard-046", "level": "hard", "type": "mc", "lang": "en", "emoji": "🚀",
+      "q": { "en": "The phrase to boldly go breaks which old rule of English grammar?" },
+      "choices": [
+        { "en": "Ending with a preposition" },
+        { "en": "Starting with a conjunction" },
+        { "en": "Splitting an infinitive" },
+        { "en": "Mixing up verb tenses" }
+      ],
+      "answer": 2,
+      "why": { "en": "Victorian teachers copied Latin, where an infinitive is one word and cannot be split; English writers split theirs happily for emphasis." },
+      "topic": "grammar exceptions",
+      "source": "https://www.merriam-webster.com/grammar/split-infinitives"
+    },
+    {
+      "id": "words-hard-047", "level": "hard", "type": "mc", "lang": "en", "emoji": "✒️",
+      "q": { "en": "The Oxford comma sits where in a list of three or more items?" },
+      "choices": [
+        { "en": "After the first item only" },
+        { "en": "Between every pair of words" },
+        { "en": "At the very end of the list" },
+        { "en": "Before the final and" }
+      ],
+      "answer": 3,
+      "why": { "en": "It clears up lists: I thanked my parents, Ana and Luis reads differently once a comma lands before and." },
+      "topic": "punctuation",
+      "source": "https://www.merriam-webster.com/grammar/what-is-the-oxford-comma"
+    },
+    {
+      "id": "words-hard-048", "level": "hard", "type": "mc", "lang": "en", "emoji": "📝",
+      "q": { "en": "What job does a semicolon do best in a piece of writing?" },
+      "choices": [
+        { "en": "Joins two full sentences" },
+        { "en": "Shows a missing letter" },
+        { "en": "Marks a direct quotation" },
+        { "en": "Introduces a long list" }
+      ],
+      "answer": 0,
+      "why": { "en": "A semicolon links two sentences that could stand alone; a colon instead promises that an explanation or a list follows." },
+      "topic": "punctuation",
+      "source": "https://www.merriam-webster.com/grammar/semicolon-how-to-use-a-semicolon-correctly"
+    },
+    {
+      "id": "words-hard-049", "level": "hard", "type": "mc", "lang": "en", "emoji": "🐕",
+      "q": { "en": "In the sentence The dog wagged ___ tail, which spelling belongs in the blank?" },
+      "choices": [
+        { "en": "It's" },
+        { "en": "Its" },
+        { "en": "Of it" },
+        { "en": "It is" }
+      ],
+      "answer": 1,
+      "why": { "en": "Its shows possession while it's is short for it is; an apostrophe always marks a missing letter, so the dog keeps its tail." },
+      "topic": "punctuation",
+      "source": "https://www.merriam-webster.com/grammar/its-vs-its"
+    },
+    {
+      "id": "words-hard-050", "level": "hard", "type": "mc", "lang": "en", "emoji": "🕊️",
+      "q": { "en": "Who delivered the speech that repeats the words I have a dream?" },
+      "choices": [
+        { "en": "Nelson Mandela" },
+        { "en": "Abraham Lincoln" },
+        { "en": "Martin Luther King Jr." },
+        { "en": "Frederick Douglass" }
+      ],
+      "answer": 2,
+      "why": { "en": "He spoke in Washington in 1963, and the dream lines were partly improvised after a singer urged him to tell them about it." },
+      "topic": "famous quotations",
+      "source": "https://www.britannica.com/event/I-Have-a-Dream"
+    },
+    {
+      "id": "words-hard-051", "level": "hard", "type": "mc", "lang": "en", "emoji": "📖",
+      "q": { "en": "Which writer gave English the line All the world's a stage?" },
+      "choices": [
+        { "en": "William Shakespeare" },
+        { "en": "Charles Dickens" },
+        { "en": "Jane Austen" },
+        { "en": "Geoffrey Chaucer" }
+      ],
+      "answer": 0,
+      "why": { "en": "It opens a speech in As You Like It, and Shakespeare also coined everyday words like lonely, eyeball and bedroom." },
+      "topic": "famous quotations",
+      "source": "https://www.britannica.com/biography/William-Shakespeare"
+    },
+    {
+      "id": "words-hard-052", "level": "hard", "type": "mc", "lang": "en", "emoji": "⚖️",
+      "q": { "en": "In law, the word alibi comes from a Latin word meaning what?" },
+      "choices": [
+        { "en": "Innocent" },
+        { "en": "A witness" },
+        { "en": "A promise" },
+        { "en": "Elsewhere" }
+      ],
+      "answer": 3,
+      "why": { "en": "Alibi is Latin for elsewhere, so the defence is simply proof that the person stood somewhere else at the time." },
+      "topic": "words from law",
+      "source": "https://www.merriam-webster.com/dictionary/alibi"
+    },
+    {
+      "id": "words-hard-053", "level": "hard", "type": "tf", "lang": "en", "emoji": "🦉",
+      "q": { "en": "A group of owls is called a parliament." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Collective nouns turn poetic for birds: a parliament of owls, an unkindness of ravens and a charm of finches all appear in lists." },
+      "topic": "collective nouns",
+      "source": "https://www.merriam-webster.com/wordplay/collective-nouns-for-animals"
+    },
+    {
+      "id": "words-hard-054", "level": "hard", "type": "tf", "lang": "en", "emoji": "🚫",
+      "q": { "en": "The word boycott is named after an Irish town." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "It honours Charles Boycott, a land agent in Ireland whose neighbours refused to work for him or sell him anything." },
+      "topic": "eponyms",
+      "source": "https://www.britannica.com/topic/boycott"
+    },
+    {
+      "id": "words-hard-055", "level": "hard", "type": "mc", "lang": "es", "emoji": "🌳",
+      "q": { "es": "¿Cuándo llevan tilde las palabras graves, como árbol y lápiz?" },
+      "choices": [
+        { "es": "Cuando terminan en consonante distinta de n o s" },
+        { "es": "Cuando terminan en vocal" },
+        { "es": "Cuando terminan en n o s" },
+        { "es": "Cuando tienen más de tres sílabas" }
+      ],
+      "answer": 0,
+      "why": { "es": "Casa y examen son graves sin tilde; árbol, lápiz y azúcar la llevan porque terminan en otra consonante." },
+      "topic": "acentuación",
+      "source": "https://www.rae.es/dpd/tilde"
+    },
+    {
+      "id": "words-hard-056", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔠",
+      "q": { "es": "¿Cómo se llaman palabras como dímelo y cuéntamelo, con la fuerza antes de la antepenúltima sílaba?" },
+      "choices": [
+        { "es": "Esdrújulas" },
+        { "es": "Sobresdrújulas" },
+        { "es": "Graves" },
+        { "es": "Agudas" }
+      ],
+      "answer": 1,
+      "why": { "es": "Las sobresdrújulas nacen al pegar pronombres a un verbo y todas llevan tilde escrita, igual que las esdrújulas." },
+      "topic": "acentuación",
+      "source": "https://dle.rae.es/sobresdr%C3%BAjulo"
+    },
+    {
+      "id": "words-hard-057", "level": "hard", "type": "mc", "lang": "es", "emoji": "📜",
+      "q": { "es": "En «quiso salir, mas llegó tarde», ¿qué significa la palabra mas sin tilde?" },
+      "choices": [
+        { "es": "Mucho" },
+        { "es": "Además" },
+        { "es": "Pero" },
+        { "es": "Casi" }
+      ],
+      "answer": 2,
+      "why": { "es": "Mas sin tilde equivale a pero y suena a libro antiguo; con tilde, más indica cantidad, suma o comparación." },
+      "topic": "tilde diacrítica",
+      "source": "https://www.rae.es/dpd/mas"
+    },
+    {
+      "id": "words-hard-058", "level": "hard", "type": "mc", "lang": "es", "emoji": "💬",
+      "q": { "es": "¿Cuántas palabras distintas se forman con las letras animo cambiando solo la tilde?" },
+      "choices": [
+        { "es": "Una" },
+        { "es": "Dos" },
+        { "es": "Cuatro" },
+        { "es": "Tres" }
+      ],
+      "answer": 3,
+      "why": { "es": "Ánimo es un sustantivo, animo es presente y animó es pasado: la tilde sola cambia el sentido y la sílaba fuerte." },
+      "topic": "acentuación",
+      "source": "https://dle.rae.es/%C3%A1nimo"
+    },
+    {
+      "id": "words-hard-059", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔡",
+      "q": { "es": "En la palabra país, ¿cómo se llama el encuentro de las vocales a e i?" },
+      "choices": [
+        { "es": "Hiato" },
+        { "es": "Diptongo" },
+        { "es": "Triptongo" },
+        { "es": "Sinalefa" }
+      ],
+      "answer": 0,
+      "why": { "es": "Un hiato separa dos vocales en sílabas distintas, pa-ís; la tilde sobre la i rompe el diptongo y marca esa separación." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/hiato"
+    },
+    {
+      "id": "words-hard-060", "level": "hard", "type": "mc", "lang": "es", "emoji": "🐧",
+      "q": { "es": "¿Para qué sirve la diéresis en palabras como pingüino y vergüenza?" },
+      "choices": [
+        { "es": "Para alargar la vocal" },
+        { "es": "Para que la u se pronuncie" },
+        { "es": "Para marcar la sílaba fuerte" },
+        { "es": "Para indicar el plural" }
+      ],
+      "answer": 1,
+      "why": { "es": "Sin los dos puntos, la u de gue y gui queda muda; la diéresis avisa que esa u sí debe sonar." },
+      "topic": "ortografía",
+      "source": "https://dle.rae.es/di%C3%A9resis"
+    },
+    {
+      "id": "words-hard-061", "level": "hard", "type": "mc", "lang": "es", "emoji": "❓",
+      "q": { "es": "¿Cuál de estas formas se escribe así para hacer una pregunta directa?" },
+      "choices": [
+        { "es": "Porque" },
+        { "es": "El porqué" },
+        { "es": "Por qué" },
+        { "es": "Puesto que" }
+      ],
+      "answer": 2,
+      "why": { "es": "Por qué pregunta, porque responde, el porqué es un sustantivo que significa la razón, y por que aparece en frases raras." },
+      "topic": "ortografía",
+      "source": "https://www.rae.es/dpd/porque"
+    },
+    {
+      "id": "words-hard-062", "level": "hard", "type": "mc", "lang": "es", "emoji": "📖",
+      "q": { "es": "¿Qué le pasó a la f inicial del latín en palabras como hijo y hacer?" },
+      "choices": [
+        { "es": "Se perdió por completo" },
+        { "es": "Se convirtió en j" },
+        { "es": "Se duplicó en ff" },
+        { "es": "Se convirtió en h muda" }
+      ],
+      "answer": 3,
+      "why": { "es": "Del latín filium y facere salieron hijo y hacer: la f pasó a h, que se escribe pero ya perdió su sonido." },
+      "topic": "la h muda",
+      "source": "https://dle.rae.es/hijo"
+    },
+    {
+      "id": "words-hard-063", "level": "hard", "type": "mc", "lang": "es", "emoji": "🖋️",
+      "q": { "es": "¿Cómo se llama el rasgo ondulado que la letra ñ lleva encima?" },
+      "choices": [
+        { "es": "Virgulilla" },
+        { "es": "Tilde diacrítica" },
+        { "es": "Cedilla" },
+        { "es": "Diéresis" }
+      ],
+      "answer": 0,
+      "why": { "es": "La virgulilla es una n pequeña que los copistas medievales dibujaban encima para ahorrar espacio al escribir nn en el pergamino." },
+      "topic": "la letra ñ",
+      "source": "https://dle.rae.es/virgulilla"
+    },
+    {
+      "id": "words-hard-064", "level": "hard", "type": "mc", "lang": "es", "emoji": "🌧️",
+      "q": { "es": "En la oración «espero que llueva mañana», ¿en qué modo está el verbo llueva?" },
+      "choices": [
+        { "es": "Indicativo" },
+        { "es": "Subjuntivo" },
+        { "es": "Imperativo" },
+        { "es": "Infinitivo" }
+      ],
+      "answer": 1,
+      "why": { "es": "El subjuntivo expresa deseos, dudas y cosas posibles; el indicativo, en cambio, cuenta hechos reales como «mañana llueve»." },
+      "topic": "verbos",
+      "source": "https://dle.rae.es/subjuntivo"
+    },
+    {
+      "id": "words-hard-065", "level": "hard", "type": "mc", "lang": "es", "emoji": "🏚️",
+      "q": { "es": "¿Qué añade el sufijo -ucho a una palabra, como en casucha?" },
+      "choices": [
+        { "es": "Un matiz cariñoso" },
+        { "es": "Un tamaño enorme" },
+        { "es": "Un matiz despectivo" },
+        { "es": "Una idea de repetición" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los sufijos cambian el tono: -ito acaricia, -ote agranda y -ucho desprecia, así que una casucha es una casa pobre." },
+      "topic": "sufijos",
+      "source": "https://dle.rae.es/-ucho"
+    },
+    {
+      "id": "words-hard-066", "level": "hard", "type": "mc", "lang": "es", "emoji": "🤐",
+      "q": { "es": "¿Qué aconseja el refrán «en boca cerrada no entran moscas»?" },
+      "choices": [
+        { "es": "Comer despacio ayuda" },
+        { "es": "Hay que hablar claro" },
+        { "es": "Conviene cerrar las ventanas" },
+        { "es": "Callar a tiempo evita problemas" }
+      ],
+      "answer": 3,
+      "why": { "es": "El refrán recomienda la prudencia: quien guarda silencio en el momento justo se ahorra líos, aunque la imagen suene graciosa." },
+      "topic": "refranes",
+      "source": "https://dle.rae.es/boca"
+    },
+    {
+      "id": "words-hard-067", "level": "hard", "type": "mc", "lang": "es", "emoji": "⚓",
+      "q": { "es": "¿Qué gentilicio reciben las personas nacidas en la ciudad de Buenos Aires?" },
+      "choices": [
+        { "es": "Porteño" },
+        { "es": "Bonaerense" },
+        { "es": "Limeño" },
+        { "es": "Tapatío" }
+      ],
+      "answer": 0,
+      "why": { "es": "Porteño viene de puerto, porque la ciudad creció junto al río; bonaerense nombra a quien vive en la provincia." },
+      "topic": "gentilicios",
+      "source": "https://dle.rae.es/porte%C3%B1o"
+    },
+    {
+      "id": "words-hard-068", "level": "hard", "type": "tf", "lang": "es", "emoji": "❔",
+      "q": { "es": "El signo ¿ al principio de una pregunta es propio del español." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "La Academia lo propuso en el siglo XVIII para avisar desde el comienzo que la frase se lee como pregunta." },
+      "topic": "puntuación",
+      "source": "https://www.rae.es/dpd/interrogaci%C3%B3n"
+    },
+    {
+      "id": "words-hard-069", "level": "hard", "type": "tf", "lang": "es", "emoji": "👪",
+      "q": { "es": "En el sistema tradicional de dos apellidos, el primero es el de la madre." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "Tradicionalmente va primero el apellido del padre y después el de la madre, aunque varias leyes ya permiten elegir el orden." },
+      "topic": "dos apellidos",
+      "source": "https://www.britannica.com/topic/name"
+    },
+    {
+      "id": "words-hard-070", "level": "hard", "type": "mc", "lang": "en", "emoji": "🌀",
+      "q": { "en": "Which English word came from Taino, a language of the Caribbean?" },
+      "choices": [
+        { "en": "Monsoon" },
+        { "en": "Typhoon" },
+        { "en": "Hurricane" },
+        { "en": "Tsunami" }
+      ],
+      "answer": 2,
+      "why": { "en": "Huracan passed from Taino through Spanish into English, and the same island language gave canoe, hammock, barbecue and maize." },
+      "topic": "borrowed words",
+      "source": "https://www.etymonline.com/word/hurricane"
+    },
+    {
+      "id": "words-hard-071", "level": "hard", "type": "mc", "lang": "en", "emoji": "🎷",
+      "q": { "en": "The saxophone is named after which person?" },
+      "choices": [
+        { "en": "A French composer" },
+        { "en": "A German conductor" },
+        { "en": "A Swiss teacher" },
+        { "en": "A Belgian instrument maker" }
+      ],
+      "answer": 3,
+      "why": { "en": "Adolphe Sax built it in the 1840s, hoping to bridge brass and woodwind, and his family name rode along on it." },
+      "topic": "eponyms",
+      "source": "https://www.britannica.com/art/saxophone"
+    },
+    {
+      "id": "words-hard-072", "level": "hard", "type": "mc", "lang": "en", "emoji": "🌫️",
+      "q": { "en": "The word smog was made by blending which two words?" },
+      "choices": [
+        { "en": "Smoke and fog" },
+        { "en": "Small and fog" },
+        { "en": "Smoke and grey" },
+        { "en": "Smell and smoke" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blends like this are called portmanteaus; brunch, motel and podcast were built the same way, by squeezing two words together." },
+      "topic": "portmanteaus",
+      "source": "https://www.merriam-webster.com/dictionary/smog"
+    },
+    {
+      "id": "words-hard-073", "level": "hard", "type": "mc", "lang": "en", "emoji": "😬",
+      "q": { "en": "English borrowed schadenfreude from German to name which feeling?" },
+      "choices": [
+        { "en": "Longing for home" },
+        { "en": "Pleasure at another's trouble" },
+        { "en": "Fear of open spaces" },
+        { "en": "Joy in hard work" }
+      ],
+      "answer": 1,
+      "why": { "en": "German glues words together, so Schaden, meaning harm, plus Freude, meaning joy, names a feeling English had no word for." },
+      "topic": "words with no english equal",
+      "source": "https://www.merriam-webster.com/dictionary/schadenfreude"
+    },
+    {
+      "id": "words-hard-074", "level": "hard", "type": "mc", "lang": "en", "emoji": "🏝️",
+      "q": { "en": "Why does the English word island carry a silent s?" },
+      "choices": [
+        { "en": "An old French spelling" },
+        { "en": "A printer ran out of letters" },
+        { "en": "Scholars linked it to Latin insula" },
+        { "en": "It once rhymed with aisle" }
+      ],
+      "answer": 2,
+      "why": { "en": "The word came from Old English igland; learned writers added an s because they thought it belonged with Latin insula." },
+      "topic": "english spelling",
+      "source": "https://www.etymonline.com/word/island"
+    },
+    {
+      "id": "words-hard-075", "level": "hard", "type": "mc", "lang": "en", "emoji": "📣",
+      "q": { "en": "The Great Vowel Shift changed which part of English between 1400 and 1700?" },
+      "choices": [
+        { "en": "The order of words" },
+        { "en": "The endings of verbs" },
+        { "en": "The letters of the alphabet" },
+        { "en": "The way long vowels sounded" }
+      ],
+      "answer": 3,
+      "why": { "en": "Spelling froze with the printing press while pronunciation kept moving, which is why name, meet and time look so unlike they sound." },
+      "topic": "english spelling",
+      "source": "https://www.britannica.com/topic/Great-Vowel-Shift"
+    },
+    {
+      "id": "words-hard-076", "level": "hard", "type": "mc", "lang": "en", "emoji": "🙂",
+      "q": { "en": "When the word nice entered English, which meaning did it carry?" },
+      "choices": [
+        { "en": "Brave" },
+        { "en": "Wealthy" },
+        { "en": "Foolish" },
+        { "en": "Quiet" }
+      ],
+      "answer": 2,
+      "why": { "en": "Nice came from Latin nescius, meaning ignorant, and drifted through fussy and precise before settling on pleasant centuries later." },
+      "topic": "changed meanings",
+      "source": "https://www.etymonline.com/word/nice"
+    },
+    {
+      "id": "words-hard-077", "level": "hard", "type": "mc", "lang": "en", "emoji": "📔",
+      "q": { "en": "Which common word holds all five vowels once, in alphabetical order?" },
+      "choices": [
+        { "en": "Education" },
+        { "en": "Sequoia" },
+        { "en": "Dialogue" },
+        { "en": "Facetious" }
+      ],
+      "answer": 3,
+      "why": { "en": "Facetious runs a, e, i, o, u in order, and abstemious does the same; sequoia holds all five but scrambles them." },
+      "topic": "wordplay",
+      "source": "https://www.merriam-webster.com/dictionary/facetious"
+    },
+    {
+      "id": "words-hard-078", "level": "hard", "type": "mc", "lang": "en", "emoji": "✂️",
+      "q": { "en": "The verb cleave is odd because it carries which pair of meanings?" },
+      "choices": [
+        { "en": "To split and to cling" },
+        { "en": "To hide and to find" },
+        { "en": "To lift and to drop" },
+        { "en": "To speak and to listen" }
+      ],
+      "answer": 0,
+      "why": { "en": "Two different old verbs collapsed into one spelling, so a cleaver splits wood while a person cleaves to a friend." },
+      "topic": "word meanings",
+      "source": "https://www.merriam-webster.com/dictionary/cleave"
+    },
+    {
+      "id": "words-hard-079", "level": "hard", "type": "mc", "lang": "en", "emoji": "🧶",
+      "q": { "en": "The word clue began as clew, which named which everyday object?" },
+      "choices": [
+        { "en": "A wooden key" },
+        { "en": "A ball of thread" },
+        { "en": "A wax seal" },
+        { "en": "A folded map" }
+      ],
+      "answer": 1,
+      "why": { "en": "Theseus followed a thread out of the labyrinth, so a clew of yarn became the clue that leads you through a mystery." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/clue"
+    },
+    {
+      "id": "words-hard-080", "level": "hard", "type": "mc", "lang": "en", "emoji": "👋",
+      "q": { "en": "The word goodbye is a worn-down version of which old phrase?" },
+      "choices": [
+        { "en": "Go with good speed" },
+        { "en": "Good day to you" },
+        { "en": "God be with you" },
+        { "en": "Good luck to you" }
+      ],
+      "answer": 2,
+      "why": { "en": "Centuries of quick speech squashed God be with ye into goodbye, and good day probably pulled the first word toward good." },
+      "topic": "etymology",
+      "source": "https://www.etymonline.com/word/goodbye"
+    },
+    {
+      "id": "words-hard-081", "level": "hard", "type": "mc", "lang": "en", "emoji": "🦓",
+      "q": { "en": "A group of zebras standing together is called which of these?" },
+      "choices": [
+        { "en": "A pride" },
+        { "en": "A shoal" },
+        { "en": "A troop" },
+        { "en": "A dazzle" }
+      ],
+      "answer": 3,
+      "why": { "en": "The name fits: their stripes blur together when the herd moves, which confuses the eye of anything chasing them." },
+      "topic": "collective nouns",
+      "source": "https://www.britannica.com/animal/zebra"
+    },
+    {
+      "id": "words-hard-082", "level": "hard", "type": "mc", "lang": "en", "emoji": "📜",
+      "q": { "en": "In a courtroom, the word verdict comes from Latin pieces meaning what?" },
+      "choices": [
+        { "en": "Final word" },
+        { "en": "Truly said" },
+        { "en": "Judged twice" },
+        { "en": "Written down" }
+      ],
+      "answer": 1,
+      "why": { "en": "Verum is true and dictum is said, so a verdict is literally a true saying; that dict also sits in dictionary and predict." },
+      "topic": "words from law",
+      "source": "https://www.merriam-webster.com/dictionary/verdict"
+    },
+    {
+      "id": "words-hard-083", "level": "hard", "type": "tf", "lang": "en", "emoji": "😮",
+      "q": { "en": "The word awful once meant full of awe and worthy of respect." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Meanings drift: awful and terrific both started near wonder, and terrible once meant causing awe rather than simply bad." },
+      "topic": "changed meanings",
+      "source": "https://www.etymonline.com/word/awful"
+    },
+    {
+      "id": "words-hard-084", "level": "hard", "type": "tf", "lang": "en", "emoji": "🏰",
+      "q": { "en": "The letters gh in the word knight were always silent." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "English once sounded the k and a throaty gh in knight; the spelling stayed still while the pronunciation walked away." },
+      "topic": "english spelling",
+      "source": "https://www.etymonline.com/word/knight"
+    },
+    {
+      "id": "words-hard-085", "level": "hard", "type": "mc", "lang": "es", "emoji": "🗨️",
+      "q": { "es": "¿Qué pronombre se usa en Argentina y Uruguay en lugar de tú?" },
+      "choices": [
+        { "es": "Ustedes" },
+        { "es": "Vosotros" },
+        { "es": "Vos" },
+        { "es": "Tuyo" }
+      ],
+      "answer": 2,
+      "why": { "es": "El voseo viene del español antiguo y sigue vivo en el Río de la Plata y en varios países centroamericanos." },
+      "topic": "voseo",
+      "source": "https://dle.rae.es/voseo"
+    },
+    {
+      "id": "words-hard-086", "level": "hard", "type": "mc", "lang": "es", "emoji": "👫",
+      "q": { "es": "¿Qué pronombre usa toda América Latina para hablarle a un grupo de personas?" },
+      "choices": [
+        { "es": "Vosotros" },
+        { "es": "Nosotros" },
+        { "es": "Ellos" },
+        { "es": "Ustedes" }
+      ],
+      "answer": 3,
+      "why": { "es": "En América sirve para cualquier grupo, con confianza o sin ella, mientras que España guarda otra forma para el trato cercano." },
+      "topic": "pronombres",
+      "source": "https://dle.rae.es/ustedes"
+    },
+    {
+      "id": "words-hard-087", "level": "hard", "type": "mc", "lang": "es", "emoji": "🚌",
+      "q": { "es": "La palabra guagua nombra un autobús en el Caribe; ¿qué nombra en los Andes?" },
+      "choices": [
+        { "es": "Un bebé" },
+        { "es": "Una fiesta" },
+        { "es": "Un mercado" },
+        { "es": "Un camino" }
+      ],
+      "answer": 0,
+      "why": { "es": "Guagua en quechua es niño pequeño, y en el Caribe la misma palabra llegó por otro camino para nombrar el autobús." },
+      "topic": "variación entre países",
+      "source": "https://dle.rae.es/guagua"
+    },
+    {
+      "id": "words-hard-088", "level": "hard", "type": "mc", "lang": "es", "emoji": "📚",
+      "q": { "es": "¿Qué significa en español la palabra inglesa library?" },
+      "choices": [
+        { "es": "Librería" },
+        { "es": "Biblioteca" },
+        { "es": "Libreta" },
+        { "es": "Editorial" }
+      ],
+      "answer": 1,
+      "why": { "es": "Library es biblioteca, mientras que librería se dice bookstore; se llaman falsos amigos porque se parecen y engañan." },
+      "topic": "falsos amigos",
+      "source": "https://dle.rae.es/librer%C3%ADa"
+    },
+    {
+      "id": "words-hard-089", "level": "hard", "type": "mc", "lang": "es", "emoji": "🏠",
+      "q": { "es": "Si un amigo de Canadá habla de su carpet, ¿de qué te está hablando?" },
+      "choices": [
+        { "es": "De una carpeta" },
+        { "es": "De un mapa" },
+        { "es": "De una alfombra" },
+        { "es": "De un cuaderno" }
+      ],
+      "answer": 2,
+      "why": { "es": "Carpet es alfombra, y carpeta se dice folder; los falsos amigos hacen tropezar a quien traduce guiándose solo por el sonido." },
+      "topic": "falsos amigos",
+      "source": "https://dle.rae.es/alfombra"
+    },
+    {
+      "id": "words-hard-090", "level": "hard", "type": "mc", "lang": "es", "emoji": "🎨",
+      "q": { "es": "La palabra mecenas viene del nombre de una persona, ¿de quién?" },
+      "choices": [
+        { "es": "Un pintor italiano" },
+        { "es": "Un rey medieval" },
+        { "es": "Un sabio árabe" },
+        { "es": "Un romano que apoyaba poetas" }
+      ],
+      "answer": 3,
+      "why": { "es": "Cayo Mecenas ayudaba con dinero a Virgilio y a Horacio, y su nombre pasó a significar quien financia el arte." },
+      "topic": "epónimos",
+      "source": "https://dle.rae.es/mecenas"
+    },
+    {
+      "id": "words-hard-091", "level": "hard", "type": "mc", "lang": "es", "emoji": "🐴",
+      "q": { "es": "¿Qué describe la palabra quijotesco, nacida de un personaje de novela?" },
+      "choices": [
+        { "es": "Algo muy cómico" },
+        { "es": "Algo muy antiguo" },
+        { "es": "Algo idealista y poco práctico" },
+        { "es": "Algo escrito a mano" }
+      ],
+      "answer": 2,
+      "why": { "es": "Don Quijote peleaba contra molinos creyéndolos gigantes, así que quijotesco nombra a quien persigue ideales imposibles con todo el corazón." },
+      "topic": "epónimos",
+      "source": "https://dle.rae.es/quijotesco"
+    },
+    {
+      "id": "words-hard-092", "level": "hard", "type": "mc", "lang": "es", "emoji": "📢",
+      "q": { "es": "¿Cuántos verbos se esconden dentro de la palabra correveidile?" },
+      "choices": [
+        { "es": "Uno" },
+        { "es": "Dos" },
+        { "es": "Cuatro" },
+        { "es": "Tres" }
+      ],
+      "answer": 3,
+      "why": { "es": "Corre, ve y dile: tres verbos juntos forman una sola palabra que nombra a quien lleva chismes de un lado a otro." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/correveidile"
+    },
+    {
+      "id": "words-hard-093", "level": "hard", "type": "mc", "lang": "es", "emoji": "🏛️",
+      "q": { "es": "¿De qué variedad del latín nació el español que hablamos?" },
+      "choices": [
+        { "es": "Del latín de los libros" },
+        { "es": "Del latín hablado por la gente común" },
+        { "es": "Del latín de los templos" },
+        { "es": "Del latín de las leyes" }
+      ],
+      "answer": 1,
+      "why": { "es": "El español viene del latín cotidiano de soldados y comerciantes, y por eso caballo salió de caballus y no de equus." },
+      "topic": "historia del español",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "words-hard-094", "level": "hard", "type": "mc", "lang": "es", "emoji": "🦇",
+      "q": { "es": "¿Qué palabra común del español contiene las cinco vocales una sola vez?" },
+      "choices": [
+        { "es": "Murciélago" },
+        { "es": "Mariposa" },
+        { "es": "Escuela" },
+        { "es": "Bicicleta" }
+      ],
+      "answer": 0,
+      "why": { "es": "Murciélago guarda las cinco vocales y viene de mur, ratón, y ciego: literalmente significa ratón ciego que vuela." },
+      "topic": "vocabulario",
+      "source": "https://dle.rae.es/murci%C3%A9lago"
+    },
+    {
+      "id": "words-hard-095", "level": "hard", "type": "mc", "lang": "es", "emoji": "🤠",
+      "q": { "es": "¿De qué palabra del español nació la palabra inglesa ranch?" },
+      "choices": [
+        { "es": "Rancio" },
+        { "es": "Rincón" },
+        { "es": "Rancho" },
+        { "es": "Reunión" }
+      ],
+      "answer": 2,
+      "why": { "es": "El inglés tomó rancho de los vaqueros del norte de México, junto con rodeo, corral, lazo y mustang." },
+      "topic": "el español en el inglés",
+      "source": "https://dle.rae.es/rancho"
+    },
+    {
+      "id": "words-hard-096", "level": "hard", "type": "mc", "lang": "es", "emoji": "🐦",
+      "q": { "es": "¿Qué enseña el refrán «más vale pájaro en mano que cien volando»?" },
+      "choices": [
+        { "es": "Que hay que soñar en grande" },
+        { "es": "Que conviene contar bien" },
+        { "es": "Que los pájaros vuelan alto" },
+        { "es": "Que vale más lo seguro que lo posible" }
+      ],
+      "answer": 3,
+      "why": { "es": "El refrán aconseja cuidar lo que ya tienes en vez de arriesgarlo por algo mayor que todavía es incierto." },
+      "topic": "refranes",
+      "source": "https://dle.rae.es/p%C3%A1jaro"
+    },
+    {
+      "id": "words-hard-097", "level": "hard", "type": "mc", "lang": "es", "emoji": "✨",
+      "q": { "es": "¿Qué figura literaria aparece en «sus cabellos son de oro»?" },
+      "choices": [
+        { "es": "Símil" },
+        { "es": "Metáfora" },
+        { "es": "Hipérbole" },
+        { "es": "Onomatopeya" }
+      ],
+      "answer": 1,
+      "why": { "es": "La metáfora afirma que una cosa es otra sin usar como; aquí el pelo rubio se convierte directamente en oro." },
+      "topic": "lenguaje figurado",
+      "source": "https://dle.rae.es/met%C3%A1fora"
+    },
+    {
+      "id": "words-hard-098", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔤",
+      "q": { "es": "¿Qué dos signos dejaron de contarse como letras propias del abecedario español?" },
+      "choices": [
+        { "es": "La ch y la ll" },
+        { "es": "La ñ y la ll" },
+        { "es": "La ch y la rr" },
+        { "es": "La w y la k" }
+      ],
+      "answer": 0,
+      "why": { "es": "La Academia las quitó de la lista en 1994 porque cada una se escribe con dos letras que ya estaban ahí." },
+      "topic": "abecedario",
+      "source": "https://www.rae.es/dpd/abecedario"
+    },
+    {
+      "id": "words-hard-099", "level": "hard", "type": "tf", "lang": "es", "emoji": "📗",
+      "q": { "es": "La letra ñ también se usa en lenguas como el guaraní y el gallego." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "La eñe viaja: el guaraní, el gallego, el euskera y el filipino la adoptaron, casi siempre por influencia del español." },
+      "topic": "la letra ñ",
+      "source": "https://dle.rae.es/e%C3%B1e"
+    },
+    {
+      "id": "words-hard-100", "level": "hard", "type": "tf", "lang": "es", "emoji": "📕",
+      "q": { "es": "La RAE inventa las palabras nuevas que entran al español." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "La Academia observa cómo habla la gente y luego registra las palabras en el diccionario: el uso manda y ella anota." },
+      "topic": "la rae",
+      "source": "https://www.rae.es/la-institucion"
     }
   ]
 }

@@ -3618,6 +3618,446 @@
       "why": { "en": "Strings, woodwind, brass and percussion make four families; harp, piano and celesta join whichever family the composer's score needs.", "es": "Cuerdas, madera, metal y percusión forman cuatro familias; el arpa, el piano y la celesta se suman a la que pida la partitura." },
       "topic": "orchestra",
       "source": "https://www.britannica.com/art/orchestra-music"
+    },
+    {
+      "id": "art-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎺",
+      "q": { "en": "Her voice was a trumpet. Which figure of speech is that, since it drops the words like and as?", "es": "Su voz era una trompeta. ¿Qué figura literaria es, si deja fuera las palabras como y cual?" },
+      "choices": [
+        { "en": "A simile", "es": "Un símil" },
+        { "en": "A metaphor", "es": "Una metáfora" },
+        { "en": "Alliteration", "es": "Una aliteración" },
+        { "en": "Onomatopoeia", "es": "Una onomatopeya" }
+      ],
+      "answer": 1,
+      "why": { "en": "A simile compares with like or as; a metaphor says one thing simply is another, which makes the picture hit harder.", "es": "El símil compara con como o cual; la metáfora dice que una cosa simplemente es otra, y por eso la imagen golpea más fuerte." },
+      "topic": "literary devices",
+      "source": "https://www.britannica.com/art/metaphor"
+    },
+    {
+      "id": "art-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "In a play, the audience knows a secret the hero misses. What is that device called?", "es": "En una obra, el público sabe un secreto que el héroe ignora. ¿Cómo se llama ese recurso?" },
+      "choices": [
+        { "en": "A soliloquy", "es": "Un soliloquio" },
+        { "en": "A metaphor", "es": "Una metáfora" },
+        { "en": "Dramatic irony", "es": "La ironía dramática" },
+        { "en": "A flashback scene", "es": "Una escena retrospectiva" }
+      ],
+      "answer": 2,
+      "why": { "en": "Greek playwrights used it constantly, and Shakespeare leans on it when Juliet sleeps while Romeo believes that she has died.", "es": "Los dramaturgos griegos la usaban siempre, y Shakespeare se apoya en ella cuando Julieta duerme mientras Romeo la cree muerta." },
+      "topic": "literary devices",
+      "source": "https://www.britannica.com/art/dramatic-irony"
+    },
+    {
+      "id": "art-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Peter Piper picked a peck of pickled peppers. Which sound device does that tongue twister use?", "es": "Tres tristes tigres tragaban trigo. ¿Qué recurso sonoro usa ese trabalenguas?" },
+      "choices": [
+        { "en": "Assonance", "es": "La asonancia" },
+        { "en": "Rhyme", "es": "La rima" },
+        { "en": "Alliteration", "es": "La aliteración" },
+        { "en": "Hyperbole", "es": "La hipérbole" }
+      ],
+      "answer": 2,
+      "why": { "en": "Alliteration repeats the opening consonant, assonance repeats vowel sounds inside words, and both make a line easier to remember.", "es": "La aliteración repite la consonante inicial, la asonancia repite los sonidos de las vocales, y ambas hacen un verso más fácil de recordar." },
+      "topic": "literary devices",
+      "source": "https://www.britannica.com/art/alliteration"
+    },
+    {
+      "id": "art-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "A traditional Japanese haiku counts its syllables in which pattern?", "es": "¿Qué patrón de sílabas sigue un haiku japonés tradicional?" },
+      "choices": [
+        { "en": "7-5-7", "es": "7-5-7" },
+        { "en": "5-5-5", "es": "5-5-5" },
+        { "en": "6-8-6", "es": "6-8-6" },
+        { "en": "5-7-5", "es": "5-7-5" }
+      ],
+      "answer": 3,
+      "why": { "en": "Seventeen syllables in three lines leave room for one image and one season word, called kigo, and nothing else.", "es": "Diecisiete sílabas en tres versos dejan espacio para una imagen y una palabra de estación, llamada kigo, y nada más." },
+      "topic": "poetry",
+      "source": "https://www.britannica.com/art/haiku"
+    },
+    {
+      "id": "art-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Shakespeare wrote most of his verse in which rhythm, five pairs of beats per line?", "es": "¿Qué ritmo, de cinco pares de golpes por verso, usó Shakespeare en casi todos sus versos?" },
+      "choices": [
+        { "en": "Free verse", "es": "El verso libre" },
+        { "en": "Trochaic tetrameter", "es": "El tetrámetro trocaico" },
+        { "en": "Dactylic hexameter", "es": "El hexámetro dactílico" },
+        { "en": "Iambic pentameter", "es": "El pentámetro yámbico" }
+      ],
+      "answer": 3,
+      "why": { "en": "An iamb is a soft beat followed by a strong one, close to a heartbeat, which is why the lines sound like natural speech.", "es": "Un yambo es un golpe suave seguido de uno fuerte, parecido a un latido, y por eso los versos suenan como habla natural." },
+      "topic": "shakespeare",
+      "source": "https://www.britannica.com/art/iambic-pentameter"
+    },
+    {
+      "id": "art-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Which of these Shakespeare plays is counted among the comedies?", "es": "¿Cuál de estas obras de Shakespeare se cuenta entre las comedias?" },
+      "choices": [
+        { "en": "King Lear", "es": "El rey Lear" },
+        { "en": "Macbeth", "es": "Macbeth" },
+        { "en": "Othello", "es": "Otelo" },
+        { "en": "A Midsummer Night's Dream", "es": "Sueño de una noche de verano" }
+      ],
+      "answer": 3,
+      "why": { "en": "Comedies end in weddings and mistaken identities, while tragedies end in ruin; the First Folio of 1623 sorted the plays this way.", "es": "Las comedias terminan en bodas y confusiones de identidad, y las tragedias en ruina; el Primer Folio de 1623 ordenó así las obras." },
+      "topic": "shakespeare",
+      "source": "https://www.britannica.com/topic/A-Midsummer-Nights-Dream"
+    },
+    {
+      "id": "art-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "📕",
+      "q": { "en": "In Don Quixote, what does the knight believe the windmills on the plain really are?", "es": "En Don Quijote, ¿qué cree el caballero que son en realidad los molinos de viento de la llanura?" },
+      "choices": [
+        { "en": "Giants with swinging arms", "es": "Gigantes de brazos girando" },
+        { "en": "Towers of an enemy castle", "es": "Torres de un castillo enemigo" },
+        { "en": "Ships anchored in a harbour", "es": "Barcos anclados en un puerto" },
+        { "en": "Sleeping dragons", "es": "Dragones dormidos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cervantes published the first part in 1605, and the scene gave Spanish the phrase fighting windmills for battling imaginary enemies.", "es": "Cervantes publicó la primera parte en 1605, y de esa escena viene la frase pelear con molinos, es decir luchar contra enemigos imaginarios." },
+      "topic": "world literature",
+      "source": "https://www.britannica.com/topic/Don-Quixote-novel-by-Cervantes"
+    },
+    {
+      "id": "art-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "What does magical realism do, in the novels of Gabriel García Márquez?", "es": "¿Qué hace el realismo mágico en las novelas de Gabriel García Márquez?" },
+      "choices": [
+        { "en": "Sets every scene inside a dream", "es": "Sitúa cada escena dentro de un sueño" },
+        { "en": "Treats impossible events as ordinary daily life", "es": "Trata lo imposible como vida diaria normal" },
+        { "en": "Explains each wonder by science", "es": "Explica cada prodigio con la ciencia" },
+        { "en": "Retells old myths word for word", "es": "Repite mitos antiguos palabra por palabra" }
+      ],
+      "answer": 1,
+      "why": { "en": "In One Hundred Years of Solitude the villagers of Macondo watch a woman rise into the sky and barely pause their conversation.", "es": "En Cien años de soledad, la gente de Macondo ve subir al cielo a una mujer y apenas interrumpe su conversación." },
+      "topic": "world literature",
+      "source": "https://www.britannica.com/art/magic-realism"
+    },
+    {
+      "id": "art-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "Sor Juana Inés de la Cruz wrote poetry and defended learning for women from where in the 1600s?", "es": "¿Desde dónde escribió poesía y defendió el estudio de las mujeres sor Juana Inés de la Cruz en el siglo XVII?" },
+      "choices": [
+        { "en": "A royal palace in Madrid", "es": "Un palacio real en Madrid" },
+        { "en": "A university in Lima", "es": "Una universidad en Lima" },
+        { "en": "A print shop in Havana", "es": "Una imprenta en La Habana" },
+        { "en": "A convent in New Spain", "es": "Un convento en Nueva España" }
+      ],
+      "answer": 3,
+      "why": { "en": "Her cell held some four thousand books and scientific instruments, and her letter defending a woman's right to study still circulates.", "es": "Su celda guardaba unos cuatro mil libros e instrumentos científicos, y su carta en defensa del derecho de la mujer a estudiar aún circula." },
+      "topic": "world literature",
+      "source": "https://www.britannica.com/biography/Sor-Juana-Ines-de-la-Cruz"
+    },
+    {
+      "id": "art-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧅",
+      "q": { "en": "What kind of subject did Pablo Neruda praise through a whole book of odes?", "es": "¿Qué tipo de tema alabó Pablo Neruda en todo un libro de odas?" },
+      "choices": [
+        { "en": "Kings and generals", "es": "Reyes y generales" },
+        { "en": "Ordinary things like onions and socks", "es": "Cosas comunes como la cebolla y los calcetines" },
+        { "en": "Cities of ancient Greece", "es": "Ciudades de la antigua Grecia" },
+        { "en": "Stars and constellations", "es": "Estrellas y constelaciones" }
+      ],
+      "answer": 1,
+      "why": { "en": "His Odas elementales of 1954 praise a tomato, a pair of socks and an artichoke in short lines as narrow as a column.", "es": "Sus Odas elementales de 1954 alaban un tomate, unos calcetines y una alcachofa en versos cortos, angostos como una columna." },
+      "topic": "poetry",
+      "source": "https://www.britannica.com/biography/Pablo-Neruda"
+    },
+    {
+      "id": "art-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦊",
+      "q": { "en": "What separates a fable from a myth in the way each story works?", "es": "¿Qué distingue a una fábula de un mito en la manera en que funciona cada relato?" },
+      "choices": [
+        { "en": "A fable rhymes and a myth stays in prose", "es": "La fábula rima y el mito queda en prosa" },
+        { "en": "A fable is longer than a myth", "es": "La fábula es más larga que el mito" },
+        { "en": "A fable teaches a moral; a myth explains the world", "es": "La fábula enseña una moraleja; el mito explica el mundo" },
+        { "en": "A fable is written and a myth is sung", "es": "La fábula se escribe y el mito se canta" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fables usually star talking animals and end with a stated lesson, while myths explain origins, seasons, gods and the shape of the land.", "es": "Las fábulas suelen tener animales que hablan y una lección final, mientras los mitos explican orígenes, estaciones, dioses y la forma de la tierra." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/art/fable"
+    },
+    {
+      "id": "art-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "In Norse myth, what did Odin give up to drink from the well of wisdom?", "es": "En el mito nórdico, ¿qué entregó Odín para beber del pozo de la sabiduría?" },
+      "choices": [
+        { "en": "His golden ring", "es": "Su anillo de oro" },
+        { "en": "His eight-legged horse", "es": "Su caballo de ocho patas" },
+        { "en": "One of his eyes", "es": "Uno de sus ojos" },
+        { "en": "His seat in the great hall", "es": "Su asiento en el gran salón" }
+      ],
+      "answer": 2,
+      "why": { "en": "The well belonged to the giant Mímir and sat among the roots of Yggdrasil, the ash tree holding the nine worlds.", "es": "El pozo era del gigante Mímir y estaba entre las raíces de Yggdrasil, el fresno que sostiene los nueve mundos." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/topic/Odin-Norse-deity"
+    },
+    {
+      "id": "art-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "With which material do the gods finally succeed in making people, in the Popol Vuh?", "es": "¿Con qué material logran por fin los dioses hacer a la gente en el Popol Vuh?" },
+      "choices": [
+        { "en": "Clay from the riverbank", "es": "Barro de la orilla del río" },
+        { "en": "Wood from the forest", "es": "Madera del bosque" },
+        { "en": "Maize dough", "es": "Masa de maíz" },
+        { "en": "Jade from the mountain", "es": "Jade de la montaña" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earlier attempts in mud and wood failed, so the K'iche' Maya book explains why maize sits at the centre of life.", "es": "Los intentos previos con lodo y madera fracasaron, así el libro maya k'iche' explica por qué el maíz está en el centro de la vida." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/topic/Popol-Vuh"
+    },
+    {
+      "id": "art-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "Anansi the spider trickster comes from the storytelling of which people?", "es": "¿De los relatos de qué pueblo viene Anansi, la araña astuta?" },
+      "choices": [
+        { "en": "The Akan of Ghana", "es": "Los akan de Ghana" },
+        { "en": "The Zulu of South Africa", "es": "Los zulúes de Sudáfrica" },
+        { "en": "The Maasai of Kenya", "es": "Los masái de Kenia" },
+        { "en": "The Amazigh of Morocco", "es": "Los amazigh de Marruecos" }
+      ],
+      "answer": 0,
+      "why": { "en": "The name means spider in Twi; Anansi tales crossed the Atlantic and became Anancy in Jamaica and Kompa Nanzi in Curaçao.", "es": "El nombre significa araña en twi; los cuentos de Anansi cruzaron el Atlántico y se volvieron Anancy en Jamaica y Kompa Nanzi en Curazao." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/topic/Anansi"
+    },
+    {
+      "id": "art-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍑",
+      "q": { "en": "In the Japanese tale of Momotarō, where do the old couple find the boy?", "es": "En el cuento japonés de Momotarō, ¿dónde encuentra la pareja de ancianos al niño?" },
+      "choices": [
+        { "en": "Inside a giant peach", "es": "Dentro de un durazno gigante" },
+        { "en": "Under a cherry tree", "es": "Bajo un cerezo" },
+        { "en": "In a bamboo stalk", "es": "En un tallo de bambú" },
+        { "en": "Beside a mountain spring", "es": "Junto a un manantial de montaña" }
+      ],
+      "answer": 0,
+      "why": { "en": "A different tale, The Tale of the Bamboo Cutter, hides a princess in a bamboo stalk, so the two stories are often mixed up.", "es": "Otro cuento, El cortador de bambú, esconde a una princesa en un tallo de bambú, por eso las dos historias suelen confundirse." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/topic/Momotaro"
+    },
+    {
+      "id": "art-hard-084", "level": "hard", "type": "tf", "lang": "both", "emoji": "🐜",
+      "q": { "en": "In an Aztec story, Quetzalcóatl turned into an ant to bring maize to people.", "es": "En un relato azteca, Quetzalcóatl se volvió hormiga para llevar el maíz a la gente." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "He followed a red ant into the mountain of sustenance, Tonacatépetl, and carried out a single grain for the first human field.", "es": "Siguió a una hormiga roja hasta el cerro del sustento, Tonacatépetl, y sacó un solo grano para la primera milpa de la gente." },
+      "topic": "myths and legends",
+      "source": "https://www.britannica.com/topic/Quetzalcoatl"
+    },
+    {
+      "id": "art-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛪",
+      "q": { "en": "How did Brunelleschi build the dome of Florence cathedral, with no wooden scaffolding below it?", "es": "¿De qué manera construyó Brunelleschi la cúpula de Florencia, sin andamios de madera?" },
+      "choices": [
+        { "en": "As a single thin shell of glass", "es": "Como una sola cáscara delgada de vidrio" },
+        { "en": "As a flat roof curved later", "es": "Como un techo plano curvado después" },
+        { "en": "As two shells, one inside the other", "es": "Como dos cáscaras, una dentro de otra" },
+        { "en": "As a wooden frame covered in lead", "es": "Como un armazón de madera cubierto de plomo" }
+      ],
+      "answer": 2,
+      "why": { "en": "He laid the bricks in a herringbone spiral so each ring held itself up, and the double shell kept the weight down.", "es": "Puso los ladrillos en espiral de espina de pescado para que cada anillo se sostuviera solo, y la doble cáscara bajó el peso." },
+      "topic": "architecture",
+      "source": "https://www.britannica.com/topic/Florence-Cathedral"
+    },
+    {
+      "id": "art-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "What does a flying buttress let a Gothic cathedral do that thick walls alone would prevent?", "es": "¿Qué permite un arbotante a una catedral gótica que los muros gruesos por sí solos impedirían?" },
+      "choices": [
+        { "en": "Hold up a wooden ceiling", "es": "Sostener un techo de madera" },
+        { "en": "Stand on soft riverbank mud", "es": "Pararse sobre lodo blando de río" },
+        { "en": "Open huge stained-glass windows", "es": "Abrir enormes vitrales de colores" },
+        { "en": "Ring bells from the roof", "es": "Tocar campanas desde el techo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The arch carries the roof's outward push to a pier outside, so the wall between can become mostly glass and light.", "es": "El arco lleva el empuje del techo hacia un pilar exterior, así el muro entre ambos puede volverse casi todo vidrio y luz." },
+      "topic": "architecture",
+      "source": "https://www.britannica.com/technology/flying-buttress"
+    },
+    {
+      "id": "art-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "The Parthenon's columns swell slightly in the middle. Why did its builders shape them that way?", "es": "Las columnas del Partenón se ensanchan un poco en el centro. ¿Por qué las hicieron así sus constructores?" },
+      "choices": [
+        { "en": "To store rainwater inside", "es": "Para guardar agua de lluvia adentro" },
+        { "en": "To make them look perfectly straight", "es": "Para que se vean perfectamente rectas" },
+        { "en": "To save marble at the base", "es": "Para ahorrar mármol en la base" },
+        { "en": "To leave room for carvings", "es": "Para dejar lugar a los relieves" }
+      ],
+      "answer": 1,
+      "why": { "en": "A truly straight column looks pinched to the human eye, so Greek builders used this curve, called entasis, to correct the illusion.", "es": "Una columna del todo recta se ve estrangulada al ojo humano, así los constructores griegos usaron esa curva, llamada éntasis, para corregir la ilusión." },
+      "topic": "architecture",
+      "source": "https://www.britannica.com/topic/Parthenon"
+    },
+    {
+      "id": "art-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "The Alhambra in Granada covers its ceilings with muqarnas. What do those clustered shapes look like?", "es": "La Alhambra de Granada cubre sus techos con mocárabes. ¿A qué se parecen esas formas agrupadas?" },
+      "choices": [
+        { "en": "Stacked books on a shelf", "es": "Libros apilados en un estante" },
+        { "en": "Waves breaking on a shore", "es": "Olas que rompen en la orilla" },
+        { "en": "Feathers on a bird's wing", "es": "Plumas del ala de un pájaro" },
+        { "en": "Stalactites hanging in a cave", "es": "Estalactitas colgando en una cueva" }
+      ],
+      "answer": 3,
+      "why": { "en": "Builders in al-Andalus carved plaster into thousands of small niches so light breaks up and the heavy ceiling seems to float.", "es": "Los constructores de al-Ándalus tallaron el yeso en miles de nichos pequeños para que la luz se rompa y el techo pesado parezca flotar." },
+      "topic": "architecture",
+      "source": "https://whc.unesco.org/en/list/314"
+    },
+    {
+      "id": "art-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛓️",
+      "q": { "en": "Antoni Gaudí found the strongest shapes for the Sagrada Família by hanging what upside down?", "es": "¿Qué colgaba Antoni Gaudí de cabeza para hallar las formas más resistentes de la Sagrada Família?" },
+      "choices": [
+        { "en": "Sheets of coloured glass", "es": "Hojas de vidrio de colores" },
+        { "en": "Strings weighted with small bags", "es": "Cordeles con bolsitas de peso" },
+        { "en": "Iron rods joined by hinges", "es": "Varillas de hierro con bisagras" },
+        { "en": "Paper models soaked in glue", "es": "Modelos de papel con pegamento" }
+      ],
+      "answer": 1,
+      "why": { "en": "A hanging chain takes the shape that carries its own weight perfectly; flipped over, that curve becomes an arch that barely pushes sideways.", "es": "Una cadena colgada toma la forma que aguanta su propio peso; al voltearla, esa curva se vuelve un arco que casi no empuja." },
+      "topic": "architecture",
+      "source": "https://www.britannica.com/topic/Expiatory-Temple-of-the-Holy-Family"
+    },
+    {
+      "id": "art-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Oscar Niemeyer filled the planned city of Brasília with curving buildings made mostly from which material?", "es": "¿De qué material están hechos sobre todo los edificios curvos con que Oscar Niemeyer llenó la ciudad planeada de Brasilia?" },
+      "choices": [
+        { "en": "Reinforced concrete", "es": "Concreto reforzado" },
+        { "en": "Carved limestone", "es": "Piedra caliza tallada" },
+        { "en": "Cast iron", "es": "Hierro fundido" },
+        { "en": "Glazed brick", "es": "Ladrillo vidriado" }
+      ],
+      "answer": 0,
+      "why": { "en": "Niemeyer said he preferred the free curve of mountains and rivers to the right angle, and concrete let him pour those curves.", "es": "Niemeyer decía preferir la curva libre de montañas y ríos al ángulo recto, y el concreto le permitió vaciar esas curvas." },
+      "topic": "architecture",
+      "source": "https://whc.unesco.org/en/list/445"
+    },
+    {
+      "id": "art-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "On a camera, what happens to the opening when the photographer changes the f-number from f/16 to f/2?", "es": "En una cámara, ¿qué le pasa a la abertura cuando el fotógrafo cambia el número f de f/16 a f/2?" },
+      "choices": [
+        { "en": "It closes to a pinhole", "es": "Se cierra hasta un alfiler" },
+        { "en": "It stays exactly the same", "es": "Queda exactamente igual" },
+        { "en": "It opens much wider", "es": "Se abre mucho más" },
+        { "en": "It splits into two holes", "es": "Se parte en dos agujeros" }
+      ],
+      "answer": 2,
+      "why": { "en": "The f-number is a fraction, so a small number means a big hole: more light arrives, and the background blurs away.", "es": "El número f es una fracción, así que un número pequeño significa un agujero grande: entra más luz y el fondo se vuelve borroso." },
+      "topic": "photography",
+      "source": "https://www.britannica.com/technology/f-number"
+    },
+    {
+      "id": "art-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "Light through a tiny hole paints a picture on the far wall of a camera obscura. How does it appear?", "es": "La luz que entra por un agujero pequeño pinta una imagen en la pared opuesta de una cámara oscura. ¿Cómo se ve?" },
+      "choices": [
+        { "en": "Upside down and reversed", "es": "De cabeza y al revés" },
+        { "en": "In black and white only", "es": "Solo en blanco y negro" },
+        { "en": "Twice as large as life", "es": "Del doble del tamaño real" },
+        { "en": "Frozen and still for hours", "es": "Congelada y quieta por horas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rays from the top of a scene cross through the hole and land at the bottom; your own eye flips images the same way.", "es": "Los rayos de la parte alta de la escena se cruzan en el agujero y caen abajo; tu propio ojo voltea las imágenes igual." },
+      "topic": "photography",
+      "source": "https://www.britannica.com/technology/camera-obscura-photography"
+    },
+    {
+      "id": "art-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎞️",
+      "q": { "en": "Why does a row of still drawings look like smooth movement when it spins inside a zoetrope?", "es": "¿Por qué una fila de dibujos quietos parece movimiento suave cuando gira dentro de un zoótropo?" },
+      "choices": [
+        { "en": "The drawings stretch as they turn", "es": "Los dibujos se estiran al girar" },
+        { "en": "The brain holds each image briefly", "es": "El cerebro retiene un instante cada imagen" },
+        { "en": "The paper reflects extra light", "es": "El papel refleja luz adicional" },
+        { "en": "The slits magnify each picture", "es": "Las ranuras agrandan cada dibujo" }
+      ],
+      "answer": 1,
+      "why": { "en": "The slits hide the blur between pictures, and the eye and brain fill the gaps, an effect often called persistence of vision.", "es": "Las ranuras esconden el borrón entre dibujos, y el ojo y el cerebro llenan los huecos, efecto llamado persistencia de la visión." },
+      "topic": "film",
+      "source": "https://www.britannica.com/technology/zoetrope"
+    },
+    {
+      "id": "art-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎪",
+      "q": { "en": "Actors in ancient Greek theatre wore large masks that did which extra job besides showing a character?", "es": "En el teatro griego antiguo los actores usaban máscaras grandes que cumplían ¿qué otra función además de mostrar un personaje?" },
+      "choices": [
+        { "en": "Carried the voice out to the seats", "es": "Llevar la voz hasta las gradas" },
+        { "en": "Held water for the actor to drink", "es": "Guardar agua para que el actor bebiera" },
+        { "en": "Kept the stage lamps burning", "es": "Mantener encendidas las lámparas" },
+        { "en": "Stored the actor's written lines", "es": "Guardar los textos del actor" }
+      ],
+      "answer": 0,
+      "why": { "en": "Open theatres held thousands, so the mask's wide mouth helped project sound, and one actor could change roles by changing masks.", "es": "Los teatros al aire libre recibían a miles, así la boca ancha de la máscara ayudaba a proyectar el sonido y a cambiar de papel." },
+      "topic": "theatre",
+      "source": "https://www.britannica.com/art/Western-theatre"
+    },
+    {
+      "id": "art-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Velázquez's huge painting Las Meninas hangs in which museum?", "es": "¿En qué museo cuelga Las meninas, el enorme cuadro de Velázquez?" },
+      "choices": [
+        { "en": "The Uffizi in Florence", "es": "En los Uffizi de Florencia" },
+        { "en": "The Louvre in Paris", "es": "En el Louvre de París" },
+        { "en": "The Met in New York", "es": "En el Met de Nueva York" },
+        { "en": "The Prado in Madrid", "es": "En el Prado de Madrid" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Prado grew out of the Spanish royal collection, so it holds more works by Velázquez and Goya than anywhere else.", "es": "El Prado nació de la colección real española, por eso guarda más obras de Velázquez y de Goya que cualquier otro museo." },
+      "topic": "museums",
+      "source": "https://www.museodelprado.es/en"
+    },
+    {
+      "id": "art-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Which metal in the glaze gives Talavera pottery from Puebla its milky white background?", "es": "¿Qué metal lleva el esmalte que da a la loza talavera de Puebla su fondo blanco lechoso?" },
+      "choices": [
+        { "en": "Copper", "es": "Cobre" },
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Silver", "es": "Plata" },
+        { "en": "Tin", "es": "Estaño" }
+      ],
+      "answer": 3,
+      "why": { "en": "Tin oxide turns the glaze opaque white, giving painters a clean page; the cobalt blue on top arrived from Spanish and Arab workshops.", "es": "El óxido de estaño vuelve el esmalte blanco opaco y da al pintor una página limpia; el azul cobalto llegó de talleres españoles y árabes." },
+      "topic": "ceramics",
+      "source": "https://ich.unesco.org/en/RL/artisanal-processes-and-traditional-techniques-of-talavera-01480"
+    },
+    {
+      "id": "art-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "Andean and Mexican weavers get a deep red dye called cochineal from which source?", "es": "¿De dónde sacan los tejedores andinos y mexicanos el tinte rojo intenso llamado cochinilla?" },
+      "choices": [
+        { "en": "Insects that live on cactus pads", "es": "De insectos que viven en las pencas del nopal" },
+        { "en": "Roots of a mountain shrub", "es": "De raíces de un arbusto de montaña" },
+        { "en": "Crushed red sandstone", "es": "De arenisca roja molida" },
+        { "en": "Berries of a cloud-forest tree", "es": "De bayas de un árbol de niebla" }
+      ],
+      "answer": 0,
+      "why": { "en": "It takes about seventy thousand dried insects to make one kilogram of dye, which made cochineal one of colonial Mexico's great exports.", "es": "Hacen falta unos setenta mil insectos secos para un kilogramo de tinte, y por eso la cochinilla fue una gran exportación del México colonial." },
+      "topic": "textiles",
+      "source": "https://www.britannica.com/technology/cochineal"
+    },
+    {
+      "id": "art-hard-098", "level": "hard", "type": "tf", "lang": "both", "emoji": "🖼️",
+      "q": { "en": "The Louvre in Paris was a royal palace long before it became a museum.", "es": "El Louvre de París fue un palacio real mucho antes de volverse museo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fortress stood there in the 1100s; the building opened as a public museum in 1793, after the French Revolution.", "es": "Allí hubo una fortaleza en el siglo XII; el edificio abrió como museo público en 1793, tras la Revolución francesa." },
+      "topic": "museums",
+      "source": "https://www.louvre.fr/en"
+    },
+    {
+      "id": "art-hard-099", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧵",
+      "q": { "en": "A mola panel from the Guna people is cut from one single sheet of cloth.", "es": "Un panel de mola del pueblo guna se corta de una sola tela." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Molas stack several layers of coloured cloth; the maker cuts down through them and stitches the edges so lower colours show.", "es": "Las molas apilan varias capas de tela de colores; quien la hace corta hacia abajo y cose los bordes para que asomen los colores." },
+      "topic": "textiles",
+      "source": "https://www.britannica.com/art/mola-textile"
+    },
+    {
+      "id": "art-hard-100", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎤",
+      "q": { "en": "Opera was invented in Vienna during the 1800s.", "es": "La ópera se inventó en Viena durante el siglo XIX." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A circle of scholars in Florence built the first operas around 1600, hoping to revive the sung drama of ancient Greece.", "es": "Un grupo de estudiosos de Florencia creó las primeras óperas hacia 1600, con la idea de revivir el drama cantado de la antigua Grecia." },
+      "topic": "theatre",
+      "source": "https://www.britannica.com/art/opera-music"
     }
   ]
 }

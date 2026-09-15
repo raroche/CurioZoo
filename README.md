@@ -248,8 +248,9 @@ answer and a "why" that teaches something. Easy reads itself aloud. There is no
 timer and nothing is taken away: a star for every right answer, and the game
 remembers what a child has seen so a miss comes back two weeks later and a
 fact already known is retired. The Fact Book lists every "why" in the game.
-The bank is a seed of 162 questions today; `tools/triviacheck.mjs` holds every
-question to the writing rules in `docs/research/trivia/PLAN.md`.
+The bank holds 100 questions per topic per level, 4,700 in all, so a family
+playing every week does not see a repeat for years; `tools/triviacheck.mjs`
+holds every question to the writing rules in `docs/research/trivia/PLAN.md`.
 
 ## Math Lab
 

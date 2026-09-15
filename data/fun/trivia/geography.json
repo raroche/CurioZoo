@@ -398,17 +398,17 @@
       "source": "https://education.nationalgeographic.org/resource/compass/"
     },
     {
-      "id": "geography-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛰️",
-      "q": { "en": "What is the top of a mountain called?", "es": "¿Cómo se llama la punta de una montaña?" },
+      "id": "geography-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What do we call a river of ice?", "es": "¿Cómo se llama un río de hielo?" },
       "choices": [
-        { "en": "The peak", "es": "La cima", "emoji": "⛰️" },
-        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
-        { "en": "The door", "es": "La puerta", "emoji": "🚪" }
+        { "en": "A glacier", "es": "Un glaciar", "emoji": "🧊" },
+        { "en": "A canyon", "es": "Un cañón", "emoji": "🏜️" },
+        { "en": "A harbor", "es": "Un puerto", "emoji": "⚓" }
       ],
       "answer": 0,
-      "why": { "en": "The pointed top of a mountain is its peak or summit, and the air up there is thin and cold.", "es": "La punta de una montaña es su cima o su pico, y allá arriba el aire es delgado y muy frío." },
+      "why": { "en": "A glacier is ice so thick that it flows downhill on its own, grinding rock into powder as it creeps along.", "es": "Un glaciar es hielo tan grueso que fluye cuesta abajo solo, y muele la roca hasta volverla polvo mientras avanza." },
       "topic": "mountains",
-      "source": "https://education.nationalgeographic.org/resource/mountain/"
+      "source": "https://www.usgs.gov/faqs/what-glacier"
     },
     {
       "id": "geography-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏔️",
@@ -606,17 +606,17 @@
       "source": "https://www.usgs.gov/observatories/hvo"
     },
     {
-      "id": "geography-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
-      "q": { "en": "Which place gets the least rain?", "es": "¿Qué lugar recibe la menor cantidad de lluvia?" },
+      "id": "geography-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Where can a desert traveler find water and palms?", "es": "¿Dónde encuentra agua y palmeras un viajero del desierto?" },
       "choices": [
-        { "en": "A swamp", "es": "Un pantano", "emoji": "🐸" },
-        { "en": "A desert", "es": "Un desierto", "emoji": "🏜️" },
-        { "en": "A rainforest", "es": "Una selva", "emoji": "🌴" }
+        { "en": "An oasis", "es": "Un oasis", "emoji": "🌴" },
+        { "en": "A canyon", "es": "Un cañón", "emoji": "🏜️" },
+        { "en": "A swamp", "es": "Un pantano", "emoji": "🐸" }
       ],
-      "answer": 1,
-      "why": { "en": "A desert gets very little rain, and some parts of Chile's Atacama Desert can wait years for a single shower.", "es": "Un desierto recibe muy poca lluvia, y partes del desierto de Atacama en Chile esperan años por un aguacero." },
+      "answer": 0,
+      "why": { "en": "An oasis forms where underground water reaches the surface, so palms grow and travelers have stopped to rest there for centuries.", "es": "Un oasis aparece donde el agua subterránea llega a la superficie, crecen palmeras y los viajeros descansan ahí desde hace siglos." },
       "topic": "deserts",
-      "source": "https://kids.britannica.com/kids/article/desert/353128"
+      "source": "https://kids.britannica.com/kids/article/desert/353077"
     },
     {
       "id": "geography-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
@@ -645,17 +645,17 @@
       "source": "https://kids.britannica.com/kids/article/cactus/352898"
     },
     {
-      "id": "geography-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
-      "q": { "en": "What does a camel store in its hump?", "es": "¿Qué guarda un camello en su joroba?" },
+      "id": "geography-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "What do we call a hill of sand?", "es": "¿Cómo se llama una colina de arena?" },
       "choices": [
-        { "en": "Water", "es": "Agua", "emoji": "💧" },
-        { "en": "Fat", "es": "Grasa", "emoji": "🐪" },
-        { "en": "Sand", "es": "Arena", "emoji": "🏜️" }
+        { "en": "A dune", "es": "Una duna", "emoji": "🏜️" },
+        { "en": "A cave", "es": "Una cueva", "emoji": "🕳️" },
+        { "en": "A reef", "es": "Un arrecife", "emoji": "🪸" }
       ],
-      "answer": 1,
-      "why": { "en": "A camel's hump is a mound of fat, a snack pack it lives on when the desert offers no food.", "es": "La joroba del camello es un montón de grasa, una reserva que lo alimenta cuando el desierto está vacío." },
+      "answer": 0,
+      "why": { "en": "Wind piles sand into dunes that creep forward each year, and some big dunes hum a low note as sand slides down.", "es": "El viento amontona la arena en dunas que avanzan cada año, y algunas dunas grandes zumban cuando la arena resbala." },
       "topic": "deserts",
-      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dromedary-camel"
+      "source": "https://kids.britannica.com/kids/article/sand-dune/390477"
     },
     {
       "id": "geography-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌵",
@@ -1554,16 +1554,16 @@
       "source": "https://www.nsf.gov/geo/opp/antarct/science/antarcticdesert.jsp"
     },
     {
-      "id": "geography-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍂",
-      "q": { "en": "When it is summer in Argentina, what season is it in Canada?", "es": "Cuando es verano en Argentina, ¿qué estación es en Canadá?" },
+      "id": "geography-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "At noon in Chile, which way do you look for the Sun?", "es": "Al mediodía en Chile, ¿hacia dónde miras para ver el Sol?" },
       "choices": [
-        { "en": "Winter", "es": "Invierno" },
-        { "en": "Spring", "es": "Primavera" },
-        { "en": "Summer", "es": "Verano" },
-        { "en": "Autumn", "es": "Otoño" }
+        { "en": "North", "es": "Al norte" },
+        { "en": "South", "es": "Al sur" },
+        { "en": "Straight up", "es": "Justo arriba" },
+        { "en": "East", "es": "Al este" }
       ],
       "answer": 0,
-      "why": { "en": "Earth is tilted, so the two hemispheres lean toward the Sun at opposite times and their seasons are always flipped.", "es": "La Tierra está inclinada, así que cada hemisferio se acerca al Sol en momentos opuestos y sus estaciones siempre están al revés." },
+      "why": { "en": "South of the equator the midday Sun sits in the northern sky, so shadows at noon point south instead of north.", "es": "Al sur del ecuador el Sol del mediodía queda en el cielo del norte, y las sombras apuntan hacia el sur." },
       "topic": "hemispheres",
       "source": "https://spaceplace.nasa.gov/seasons/en/"
     },

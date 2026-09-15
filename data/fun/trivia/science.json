@@ -450,17 +450,17 @@
       "source": "https://www.britannica.com/plant/onion"
     },
     {
-      "id": "science-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
-      "q": { "en": "Which part of a plant drinks water?", "es": "¿Qué parte de la planta bebe agua?" },
+      "id": "science-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which part of a plant becomes the fruit?", "es": "¿Qué parte de la planta se convierte en fruta?" },
       "choices": [
-        { "en": "The roots", "es": "Las raíces", "emoji": "🌱" },
         { "en": "The flower", "es": "La flor", "emoji": "🌸" },
-        { "en": "The leaves", "es": "Las hojas", "emoji": "🍃" }
+        { "en": "The root", "es": "La raíz", "emoji": "🌱" },
+        { "en": "The bark", "es": "La corteza", "emoji": "🪵" }
       ],
       "answer": 0,
-      "why": { "en": "Roots spread underground like tiny straws and also grip the soil, which is what keeps a tall tree from tipping over.", "es": "Las raíces se extienden bajo tierra como tubitos diminutos y agarran el suelo, y eso evita que un árbol alto se caiga." },
+      "why": { "en": "After a flower is pollinated its base swells into fruit, which is why an apple still wears a dried flower underneath.", "es": "Cuando la flor es polinizada, su base se hincha y forma la fruta; por eso la manzana lleva una flor seca abajo." },
       "topic": "plants",
-      "source": "https://www.britannica.com/science/root-plant-anatomy"
+      "source": "https://www.britannica.com/science/fruit-plant-reproductive-body"
     },
     {
       "id": "science-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌰",
@@ -892,17 +892,17 @@
       "source": "https://www.britannica.com/science/atmospheric-pressure"
     },
     {
-      "id": "science-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌡️",
-      "q": { "en": "What does a thermometer measure?", "es": "¿Qué mide un termómetro?" },
+      "id": "science-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🖊️",
+      "q": { "en": "What rolls at the tip of a ballpoint pen?", "es": "¿Qué rueda en la punta de un bolígrafo?" },
       "choices": [
-        { "en": "How hot or cold", "es": "Qué tan caliente o frío", "emoji": "🌡️" },
-        { "en": "How heavy", "es": "Cuánto pesa", "emoji": "⚖️" },
-        { "en": "How loud", "es": "Qué tan fuerte suena", "emoji": "🔔" }
+        { "en": "A tiny metal ball", "es": "Una bolita de metal", "emoji": "🖊️" },
+        { "en": "A small brush", "es": "Un pincel pequeño", "emoji": "🖌️" },
+        { "en": "A soft sponge", "es": "Una esponja suave", "emoji": "🧽" }
       ],
       "answer": 0,
-      "why": { "en": "Liquid inside swells when warmed and creeps up the thin tube, and the same number can read 20 °C or 68 °F.", "es": "El líquido de adentro se expande con el calor y sube por el tubito, y el mismo punto puede marcar 20 °C o 68 °F." },
+      "why": { "en": "The ball spins as you write, picking up thick ink from the tube above and laying a thin line on the paper.", "es": "La bolita gira mientras escribes, recoge la tinta espesa del tubo de arriba y deja una línea delgada en el papel." },
       "topic": "how things work",
-      "source": "https://www.britannica.com/technology/thermometer"
+      "source": "https://kids.britannica.com/kids/article/pen/353690"
     },
     {
       "id": "science-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",

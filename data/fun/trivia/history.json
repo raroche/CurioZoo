@@ -229,17 +229,17 @@
       "source": "https://www.britannica.com/technology/bicycle"
     },
     {
-      "id": "history-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "📄",
-      "q": { "en": "What is paper mostly made from?", "es": "¿De qué está hecho casi todo el papel?" },
+      "id": "history-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "What were the first mirrors made from?", "es": "¿De qué estaban hechos los primeros espejos?" },
       "choices": [
-        { "en": "Trees", "es": "De árboles", "emoji": "🌳" },
-        { "en": "Glass", "es": "De vidrio", "emoji": "🥛" },
-        { "en": "Rocks", "es": "De piedras", "emoji": "🪨" }
+        { "en": "Polished stone", "es": "De piedra pulida", "emoji": "🪨" },
+        { "en": "Clear plastic", "es": "De plástico transparente", "emoji": "🧴" },
+        { "en": "Paper", "es": "De papel", "emoji": "📄" }
       ],
       "answer": 0,
-      "why": { "en": "Paper was invented in China about two thousand years ago from mashed plants, and now most of it comes from wood.", "es": "El papel se inventó en China hace unos dos mil años con plantas machacadas, y ahora casi todo viene de la madera." },
+      "why": { "en": "The oldest mirrors were stones polished until they shone, and Aztec artists made dark glassy mirrors from volcanic obsidian.", "es": "Los espejos más antiguos eran piedras pulidas hasta brillar, y los aztecas hacían espejos oscuros con obsidiana volcánica." },
       "topic": "old inventions",
-      "source": "https://www.britannica.com/technology/papermaking"
+      "source": "https://www.britannica.com/technology/mirror-optics"
     },
     {
       "id": "history-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎈",
@@ -333,15 +333,15 @@
       "source": "https://www.britannica.com/place/Altamira"
     },
     {
-      "id": "history-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔺",
-      "q": { "en": "What shape are the pyramids of Egypt?", "es": "¿Qué forma tienen las pirámides de Egipto?" },
+      "id": "history-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛷",
+      "q": { "en": "How did workers move the heavy pyramid stones?", "es": "¿Cómo movían los trabajadores las piedras pesadas de las pirámides?" },
       "choices": [
-        { "en": "Pointed like a triangle", "es": "Puntiaguda como un triángulo", "emoji": "🔺" },
-        { "en": "Round like a ball", "es": "Redonda como una pelota", "emoji": "⚽" },
-        { "en": "Flat like a plate", "es": "Plana como un plato", "emoji": "🍽️" }
+        { "en": "On sleds over wet sand", "es": "En trineos sobre arena mojada", "emoji": "🛷" },
+        { "en": "In wheeled carts", "es": "En carretas con ruedas", "emoji": "🛒" },
+        { "en": "On flying carpets", "es": "En alfombras voladoras", "emoji": "🧞" }
       ],
       "answer": 0,
-      "why": { "en": "Each pyramid has a square base and four sloping sides that meet at one point high above the desert sand.", "es": "Cada pirámide tiene una base cuadrada y cuatro lados inclinados que se juntan en un punto muy alto sobre la arena." },
+      "why": { "en": "A wall painting shows a worker pouring water in front of a sled, and wet sand cuts the pulling effort roughly in half.", "es": "Una pintura antigua muestra a un obrero echando agua frente al trineo: la arena mojada baja casi a la mitad el esfuerzo." },
       "topic": "pyramids",
       "source": "https://www.britannica.com/topic/Pyramids-of-Giza"
     },

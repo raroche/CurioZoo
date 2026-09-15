@@ -44,17 +44,17 @@
     },
     {
       "id": "general-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕐",
-      "q": { "en": "How many hours are in one day?", "es": "¿Cuántas horas tiene un día?" },
+      "q": { "en": "In twelve hours, how many times do the clock hands meet?", "es": "En doce horas, ¿cuántas veces se encuentran las manecillas del reloj?" },
       "choices": [
-        { "en": "12", "es": "12" },
-        { "en": "24", "es": "24" },
-        { "en": "60", "es": "60" },
-        { "en": "100", "es": "100" }
+        { "en": "Eleven times", "es": "Once veces" },
+        { "en": "Twelve times", "es": "Doce veces" },
+        { "en": "Thirteen times", "es": "Trece veces" },
+        { "en": "Twenty-four times", "es": "Veinticuatro veces" }
       ],
-      "answer": 1,
-      "why": { "en": "One day has 24 hours, the time Earth takes to spin around once, giving us day and night.", "es": "Un día tiene 24 horas, el tiempo que tarda la Tierra en dar una vuelta sobre sí misma, y así hay día y noche." },
+      "answer": 0,
+      "why": { "en": "The minute hand catches the hour hand every 65 minutes or so, so it passes it eleven times instead of twelve.", "es": "El minutero alcanza al horario cada 65 minutos, así que lo pasa once veces en doce horas y no doce." },
       "topic": "time",
-      "source": "https://www.britannica.com/science/day"
+      "source": "https://kids.britannica.com/kids/article/clock/352994"
     },
     {
       "id": "general-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌈",
@@ -71,18 +71,18 @@
       "source": "https://scijinks.gov/rainbow/"
     },
     {
-      "id": "general-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛑",
-      "q": { "en": "How many sides does a stop sign have?", "es": "¿Cuántos lados tiene una señal de alto?" },
+      "id": "general-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "Which shape stops a manhole cover from falling into its hole?", "es": "¿Qué forma evita que la tapa de una alcantarilla caiga por su hoyo?" },
       "choices": [
-        { "en": "4", "es": "4" },
-        { "en": "5", "es": "5" },
-        { "en": "6", "es": "6" },
-        { "en": "8", "es": "8" }
+        { "en": "A circle", "es": "Un círculo" },
+        { "en": "A square", "es": "Un cuadrado" },
+        { "en": "A rectangle", "es": "Un rectángulo" },
+        { "en": "A triangle", "es": "Un triángulo" }
       ],
-      "answer": 3,
-      "why": { "en": "A stop sign is an octagon, a shape with eight sides, so drivers can spot it even from behind.", "es": "La señal de alto es un octágono, una figura de ocho lados, para que se reconozca incluso por detrás." },
+      "answer": 0,
+      "why": { "en": "A circle is the same width in every direction, so a round lid can never turn sideways and slip through the opening.", "es": "Un círculo mide lo mismo en toda dirección, así que una tapa redonda jamás se ladea lo suficiente para caer." },
       "topic": "shapes around us",
-      "source": "https://mutcd.fhwa.dot.gov/htm/2009/part2/part2b.htm"
+      "source": "https://www.mathsisfun.com/geometry/circle.html"
     },
     {
       "id": "general-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎹",
@@ -138,17 +138,17 @@
       "source": "https://kids.nationalgeographic.com/animals/mammals/facts/polar-bear"
     },
     {
-      "id": "general-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦘",
-      "q": { "en": "What is a baby kangaroo called?", "es": "¿Cómo se llama la cría del canguro?" },
+      "id": "general-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐐",
+      "q": { "en": "What is a baby goat called?", "es": "¿Cómo se llama la cría de la cabra?" },
       "choices": [
-        { "en": "Joey", "es": "Joey", "emoji": "🦘" },
-        { "en": "Bear cub", "es": "Osezno", "emoji": "🐻" },
-        { "en": "Puppy", "es": "Cachorrito", "emoji": "🐶" }
+        { "en": "A kid", "es": "Un cabrito", "emoji": "🐐" },
+        { "en": "A lamb", "es": "Un cordero", "emoji": "🐑" },
+        { "en": "A calf", "es": "Un ternero", "emoji": "🐄" }
       ],
       "answer": 0,
-      "why": { "en": "A joey is born smaller than your thumb and finishes growing inside its mother's pouch for about six months.", "es": "Un joey nace más pequeño que tu pulgar y termina de crecer dentro de la bolsa de su mamá, unos seis meses." },
+      "why": { "en": "A baby goat is a kid, and it can stand and hop around within hours of being born.", "es": "La cría de la cabra es un cabrito, y puede pararse y brincar a las pocas horas de nacer." },
       "topic": "baby animals",
-      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/red-kangaroo"
+      "source": "https://kids.britannica.com/kids/article/goat/353203"
     },
     {
       "id": "general-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦁",
@@ -164,17 +164,17 @@
       "source": "https://kids.nationalgeographic.com/animals/mammals/facts/lion"
     },
     {
-      "id": "general-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐛",
-      "q": { "en": "What does a caterpillar turn into?", "es": "¿En qué se convierte una oruga?" },
+      "id": "general-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪲",
+      "q": { "en": "Which insect hides its wings under a shell?", "es": "¿Qué insecto esconde sus alas bajo un caparazón?" },
       "choices": [
-        { "en": "A butterfly", "es": "En mariposa", "emoji": "🦋" },
-        { "en": "A bird", "es": "En pájaro", "emoji": "🐦" },
-        { "en": "A frog", "es": "En rana", "emoji": "🐸" }
+        { "en": "The beetle", "es": "El escarabajo", "emoji": "🪲" },
+        { "en": "The mosquito", "es": "El mosquito", "emoji": "🦟" },
+        { "en": "The moth", "es": "La polilla", "emoji": "🦋" }
       ],
       "answer": 0,
-      "why": { "en": "Inside its chrysalis a caterpillar turns almost to soup and rebuilds itself into a butterfly with brand new wings.", "es": "Dentro de su crisálida, la oruga casi se vuelve líquida y se arma de nuevo como mariposa con alas nuevas." },
+      "why": { "en": "A beetle's front wings harden into a case that snaps shut like armor over the soft flying wings underneath.", "es": "Las alas delanteras del escarabajo se endurecen en un estuche que se cierra como una coraza sobre las alas de vuelo." },
       "topic": "insects",
-      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/monarch-butterfly"
+      "source": "https://www.britannica.com/animal/beetle"
     },
     {
       "id": "general-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐝",
@@ -281,17 +281,17 @@
       "source": "https://www.britannica.com/science/handedness"
     },
     {
-      "id": "general-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌈",
-      "q": { "en": "How many colors are in a rainbow?", "es": "¿Cuántos colores tiene un arcoíris?" },
+      "id": "general-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦛",
+      "q": { "en": "What color is a hippo's sweat?", "es": "¿De qué color es el sudor del hipopótamo?" },
       "choices": [
-        { "en": "Seven", "es": "Siete", "emoji": "🌈" },
-        { "en": "Three", "es": "Tres", "emoji": "🔺" },
-        { "en": "Ten", "es": "Diez", "emoji": "🎳" }
+        { "en": "Red", "es": "Rojo", "emoji": "🟥" },
+        { "en": "Blue", "es": "Azul", "emoji": "🟦" },
+        { "en": "Green", "es": "Verde", "emoji": "🟩" }
       ],
       "answer": 0,
-      "why": { "en": "People count seven: red, orange, yellow, green, blue, indigo and violet, though the colors really blend with no lines between them.", "es": "Contamos siete: rojo, naranja, amarillo, verde, azul, índigo y violeta, aunque en realidad los colores se mezclan sin líneas." },
+      "why": { "en": "A hippo oozes a reddish oil that works as sunscreen and keeps its skin from drying out in the sun.", "es": "El hipopótamo suda un aceite rojizo que funciona como bloqueador solar y evita que su piel se reseque al sol." },
       "topic": "color",
-      "source": "https://scijinks.gov/rainbow/"
+      "source": "https://www.britannica.com/animal/hippopotamus"
     },
     {
       "id": "general-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦩",
@@ -359,17 +359,17 @@
       "source": "https://www.britannica.com/topic/raisin"
     },
     {
-      "id": "general-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍫",
-      "q": { "en": "Which plant gives us chocolate?", "es": "¿Qué planta nos da el chocolate?" },
+      "id": "general-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥦",
+      "q": { "en": "Which vegetable is a bunch of flower buds?", "es": "¿Qué verdura es un montón de botones de flor?" },
       "choices": [
-        { "en": "The cacao tree", "es": "El árbol de cacao", "emoji": "🍫" },
-        { "en": "The corn plant", "es": "La planta de maíz", "emoji": "🌽" },
-        { "en": "The rose bush", "es": "El rosal", "emoji": "🌹" }
+        { "en": "Broccoli", "es": "El brócoli", "emoji": "🥦" },
+        { "en": "Carrot", "es": "La zanahoria", "emoji": "🥕" },
+        { "en": "Potato", "es": "La papa", "emoji": "🥔" }
       ],
       "answer": 0,
-      "why": { "en": "Chocolate comes from cacao seeds that grow in colorful pods on the trunk, and people in Mexico were drinking it long ago.", "es": "El chocolate viene de semillas de cacao que crecen en vainas sobre el tronco, y en México ya lo bebían hace siglos." },
+      "why": { "en": "Every green bump on broccoli is a flower bud, and left in the garden the whole head opens into yellow flowers.", "es": "Cada bolita verde del brócoli es un botón de flor, y si lo dejas en la huerta se abre en flores amarillas." },
       "topic": "food",
-      "source": "https://www.britannica.com/topic/cacao"
+      "source": "https://www.britannica.com/plant/broccoli"
     },
     {
       "id": "general-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍞",
@@ -476,17 +476,17 @@
       "source": "https://www.britannica.com/technology/magnifying-glass"
     },
     {
-      "id": "general-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎹",
-      "q": { "en": "Which instrument has black and white keys?", "es": "¿Qué instrumento tiene teclas blancas y negras?" },
+      "id": "general-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎤",
+      "q": { "en": "What do we call many people singing together?", "es": "¿Cómo se llama un grupo de personas que canta junto?" },
       "choices": [
-        { "en": "The piano", "es": "El piano", "emoji": "🎹" },
-        { "en": "The drum", "es": "El tambor", "emoji": "🥁" },
-        { "en": "The trumpet", "es": "La trompeta", "emoji": "🎺" }
+        { "en": "A choir", "es": "Un coro", "emoji": "🎤" },
+        { "en": "A band", "es": "Una banda", "emoji": "🥁" },
+        { "en": "A crowd", "es": "Una multitud", "emoji": "👥" }
       ],
       "answer": 0,
-      "why": { "en": "A piano makes sound by swinging little hammers onto strings hidden inside, so it counts as a string instrument too.", "es": "El piano suena porque unos martillos pequeños golpean cuerdas escondidas adentro, así que también cuenta como instrumento de cuerda." },
+      "why": { "en": "A choir splits into high and low voices that blend into chords, so many singers can sound like one big instrument.", "es": "Un coro se divide en voces agudas y graves que forman acordes, así muchas personas suenan como un solo instrumento grande." },
       "topic": "music",
-      "source": "https://www.britannica.com/art/piano"
+      "source": "https://www.britannica.com/art/chorus-music"
     },
     {
       "id": "general-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
@@ -502,17 +502,17 @@
       "source": "https://www.britannica.com/sports/football-soccer"
     },
     {
-      "id": "general-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
-      "q": { "en": "What should you wear when riding a bicycle?", "es": "¿Qué debes usar cuando andas en bicicleta?" },
+      "id": "general-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What should you do if clothes catch fire?", "es": "¿Qué debes hacer si tu ropa se incendia?" },
       "choices": [
-        { "en": "A helmet", "es": "Un casco", "emoji": "⛑️" },
-        { "en": "A crown", "es": "Una corona", "emoji": "👑" },
-        { "en": "A scarf", "es": "Una bufanda", "emoji": "🧣" }
+        { "en": "Stop, drop and roll", "es": "Detenerte, tirarte y rodar", "emoji": "🔥" },
+        { "en": "Run fast", "es": "Correr rápido", "emoji": "🏃" },
+        { "en": "Wave your arms", "es": "Agitar los brazos", "emoji": "🙌" }
       ],
       "answer": 0,
-      "why": { "en": "A helmet has a foam layer that squashes slowly in a fall, so your head slows down instead of stopping suddenly.", "es": "El casco tiene una capa de espuma que se aplasta despacio en una caída, y así tu cabeza frena poco a poco." },
+      "why": { "en": "Rolling smothers flames by cutting off their air, while running feeds them more air and makes the fire grow.", "es": "Rodar apaga las llamas porque les quita el aire, mientras que correr les da más aire y el fuego crece." },
       "topic": "safety",
-      "source": "https://kidshealth.org/en/kids/bike-safety.html"
+      "source": "https://kidshealth.org/en/kids/fire-safety.html"
     },
     {
       "id": "general-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌱",
@@ -593,17 +593,17 @@
       "source": "https://ocean.si.edu/ocean-life/invertebrates/sea-stars"
     },
     {
-      "id": "general-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐪",
-      "q": { "en": "What does a camel keep in its hump?", "es": "¿Qué guarda el camello en su joroba?" },
+      "id": "general-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐫",
+      "q": { "en": "What keeps sand out of a camel's eyes?", "es": "¿Qué evita que la arena entre a los ojos del camello?" },
       "choices": [
-        { "en": "Fat", "es": "Grasa", "emoji": "🐪" },
-        { "en": "Water", "es": "Agua", "emoji": "💧" },
-        { "en": "Sand", "es": "Arena", "emoji": "🏜️" }
+        { "en": "Long eyelashes", "es": "Pestañas largas", "emoji": "🐫" },
+        { "en": "Thick fur", "es": "Pelaje grueso", "emoji": "🧥" },
+        { "en": "Big teeth", "es": "Dientes grandes", "emoji": "🦷" }
       ],
       "answer": 0,
-      "why": { "en": "Camels store fat, not water, and that fat feeds them for days when food is hard to find in the desert.", "es": "Los camellos guardan grasa, no agua, y esa grasa los alimenta durante días cuando hay poca comida en el desierto." },
+      "why": { "en": "Two rows of long lashes guard each eye, and a clear third eyelid sweeps across like a windshield wiper.", "es": "Dos filas de pestañas largas cuidan cada ojo, y un tercer párpado transparente lo limpia como un limpiaparabrisas." },
       "topic": "desert animals",
-      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/dromedary-camel"
+      "source": "https://www.britannica.com/animal/camel"
     },
     {
       "id": "general-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦒",
@@ -659,16 +659,16 @@
     },
     {
       "id": "general-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔤",
-      "q": { "en": "How many letters are in the English alphabet?", "es": "¿Cuántas letras tiene el alfabeto inglés?" },
+      "q": { "en": "How many vowels does the English alphabet have?", "es": "¿Cuántas vocales tiene el alfabeto inglés?" },
       "choices": [
-        { "en": "Twenty-six", "es": "Veintiséis", "emoji": "🔤" },
-        { "en": "Ten", "es": "Diez", "emoji": "🎳" },
-        { "en": "Fifty", "es": "Cincuenta", "emoji": "🧮" }
+        { "en": "Five", "es": "Cinco", "emoji": "🖐️" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
       ],
       "answer": 0,
-      "why": { "en": "English uses twenty-six letters while Spanish adds the letter ñ, so the Spanish alphabet has one more than English.", "es": "El alfabeto inglés usa veintiséis letras y el español suma la ñ, así que el español tiene una letra más." },
+      "why": { "en": "The vowels are a, e, i, o and u, and almost every English word needs at least one of them.", "es": "Las vocales son a, e, i, o, u, y casi toda palabra en inglés necesita por lo menos una de ellas." },
       "topic": "letters",
-      "source": "https://www.britannica.com/topic/alphabet-writing"
+      "source": "https://kids.britannica.com/kids/article/alphabet/352744"
     },
     {
       "id": "general-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦇",
@@ -684,17 +684,17 @@
       "source": "https://kids.nationalgeographic.com/animals/mammals/facts/bat"
     },
     {
-      "id": "general-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦎",
-      "q": { "en": "Which animal can change its color?", "es": "¿Qué animal puede cambiar de color?" },
+      "id": "general-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "Which animal can grow a new arm?", "es": "¿Qué animal puede hacer crecer un brazo nuevo?" },
       "choices": [
-        { "en": "The chameleon", "es": "El camaleón", "emoji": "🦎" },
-        { "en": "The zebra", "es": "La cebra", "emoji": "🦓" },
-        { "en": "The cow", "es": "La vaca", "emoji": "🐄" }
+        { "en": "The sea star", "es": "La estrella de mar", "emoji": "⭐" },
+        { "en": "The horse", "es": "El caballo", "emoji": "🐴" },
+        { "en": "The parrot", "es": "El loro", "emoji": "🦜" }
       ],
       "answer": 0,
-      "why": { "en": "A chameleon shifts color mostly to show its mood and warm up, and each eye can look a different way at once.", "es": "El camaleón cambia de color sobre todo para mostrar su ánimo y calentarse, y cada ojo mira hacia un lado distinto." },
+      "why": { "en": "A sea star can regrow a lost arm over several months, and a few kinds rebuild a whole body from one arm.", "es": "La estrella de mar recupera un brazo perdido en varios meses, y algunas especies rehacen todo el cuerpo desde un brazo." },
       "topic": "surprising animals",
-      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/chameleons"
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/sea-stars"
     },
     {
       "id": "general-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦥",
@@ -931,17 +931,17 @@
       "source": "https://kidshealth.org/en/kids/breakfast.html"
     },
     {
-      "id": "general-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "👟",
-      "q": { "en": "How many shoes are in one pair?", "es": "¿Cuántos zapatos hay en un par?" },
+      "id": "general-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "How many dots does one dice have?", "es": "¿Cuántos puntos tiene un dado en total?" },
       "choices": [
-        { "en": "Two", "es": "Dos", "emoji": "👟" },
-        { "en": "Three", "es": "Tres", "emoji": "🔺" },
-        { "en": "Five", "es": "Cinco", "emoji": "🖐️" }
+        { "en": "Twenty-one", "es": "Veintiuno", "emoji": "🎲" },
+        { "en": "Twelve", "es": "Doce", "emoji": "🔢" },
+        { "en": "Thirty", "es": "Treinta", "emoji": "💯" }
       ],
       "answer": 0,
-      "why": { "en": "A pair always means two, which is why we say a pair of socks, a pair of eyes and a pair of scissors.", "es": "Un par siempre significa dos, por eso decimos un par de calcetines, un par de ojos y un par de tijeras." },
+      "why": { "en": "Add the faces one through six and you get twenty-one, and two opposite faces of a dice always add to seven.", "es": "Suma las caras del uno al seis y salen veintiuno, y dos caras opuestas de un dado siempre suman siete." },
       "topic": "counting things",
-      "source": "https://www.merriam-webster.com/dictionary/pair"
+      "source": "https://www.britannica.com/topic/dice"
     },
     {
       "id": "general-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔊",
@@ -1269,17 +1269,17 @@
       "source": "https://kids.britannica.com/kids/article/basketball/352789"
     },
     {
-      "id": "general-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
-      "q": { "en": "Which tool tells you how heavy something is?", "es": "¿Qué instrumento te dice cuánto pesa algo?" },
+      "id": "general-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪚",
+      "q": { "en": "What tool do we use to cut wood?", "es": "¿Qué herramienta usamos para cortar madera?" },
       "choices": [
-        { "en": "A ruler", "es": "Una regla", "emoji": "📏" },
-        { "en": "A clock", "es": "Un reloj", "emoji": "⏰" },
-        { "en": "A scale", "es": "Una balanza", "emoji": "⚖️" }
+        { "en": "A saw", "es": "Una sierra", "emoji": "🪚" },
+        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
+        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" }
       ],
-      "answer": 2,
-      "why": { "en": "A balance scale compares two sides until they match, and traders in Egypt weighed gold this way five thousand years ago.", "es": "Una balanza compara los dos lados hasta que quedan iguales, y en Egipto ya pesaban oro así hace cinco mil años." },
-      "topic": "measuring",
-      "source": "https://kids.britannica.com/kids/article/balance/352745"
+      "answer": 0,
+      "why": { "en": "A saw's edge is a row of tiny teeth, and each tooth scrapes away a sliver of wood as the blade slides back and forth.", "es": "El borde de una sierra es una fila de dientes pequeños, y cada diente arranca una astilla de madera al deslizar la hoja." },
+      "topic": "tools",
+      "source": "https://kids.britannica.com/kids/article/tool/353835"
     },
     {
       "id": "general-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪶",
@@ -1334,17 +1334,17 @@
       "source": "https://kids.britannica.com/kids/article/food/353212"
     },
     {
-      "id": "general-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪥",
-      "q": { "en": "How many times a day should you brush?", "es": "¿Cuántas veces al día debes cepillarte los dientes?" },
+      "id": "general-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕶️",
+      "q": { "en": "What protects your eyes from bright sun?", "es": "¿Qué protege tus ojos del sol fuerte?" },
       "choices": [
-        { "en": "Once", "es": "Una vez", "emoji": "☝️" },
-        { "en": "Twice", "es": "Dos veces", "emoji": "🪥" },
-        { "en": "Every hour", "es": "Cada hora", "emoji": "⏰" }
+        { "en": "Sunglasses", "es": "Lentes de sol", "emoji": "🕶️" },
+        { "en": "Mittens", "es": "Manoplas", "emoji": "🧤" },
+        { "en": "Boots", "es": "Botas", "emoji": "🥾" }
       ],
-      "answer": 1,
-      "why": { "en": "Dentists say brush for two minutes, morning and night, because germs build a sticky film on teeth while you sleep.", "es": "Los dentistas piden cepillarte dos minutos, en la mañana y en la noche, porque los gérmenes forman una capa pegajosa mientras duermes." },
+      "answer": 0,
+      "why": { "en": "Sunglasses block the strong rays that can hurt your eyes, and a wide hat helps too, which is why lifeguards wear both.", "es": "Los lentes de sol bloquean los rayos fuertes que pueden dañar tus ojos, y un sombrero ancho también ayuda; por eso los salvavidas usan ambos." },
       "topic": "staying healthy",
-      "source": "https://kidshealth.org/en/kids/teeth-care.html"
+      "source": "https://kidshealth.org/en/kids/sun-safety.html"
     },
     {
       "id": "general-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚗",
@@ -1952,18 +1952,18 @@
       "source": "https://kids.britannica.com/kids/article/trumpet/353870"
     },
     {
-      "id": "general-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏅",
-      "q": { "en": "What do the five Olympic rings stand for?", "es": "¿Qué representan los cinco aros olímpicos?" },
+      "id": "general-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏐",
+      "q": { "en": "In which sport do teams hit a ball over a net with their hands?", "es": "¿En qué deporte los equipos golpean un balón por encima de una red con las manos?" },
       "choices": [
-        { "en": "Five sports", "es": "Cinco deportes" },
-        { "en": "Five medals", "es": "Cinco medallas" },
-        { "en": "Five inhabited parts of the world", "es": "Cinco partes habitadas del mundo" },
-        { "en": "Five ancient cities", "es": "Cinco ciudades antiguas" }
+        { "en": "Volleyball", "es": "Voleibol" },
+        { "en": "Tennis", "es": "Tenis" },
+        { "en": "Soccer", "es": "Fútbol" },
+        { "en": "Hockey", "es": "Hockey" }
       ],
-      "answer": 2,
-      "why": { "en": "The rings link together to show the world meeting, and their six colours, counting the white cloth, cover the flags of every nation.", "es": "Los aros se enlazan para mostrar al mundo reunido, y sus seis colores, contando el fondo blanco, aparecen en las banderas del mundo." },
+      "answer": 0,
+      "why": { "en": "Volleyball was invented in 1895 in Massachusetts as a gentler game than basketball, and beach volleyball became an Olympic sport in 1996.", "es": "El voleibol se inventó en 1895 en Massachusetts como un juego más suave que el baloncesto, y el voleibol de playa fue olímpico desde 1996." },
       "topic": "sport",
-      "source": "https://kids.britannica.com/kids/article/Olympic-Games/353645"
+      "source": "https://olympics.com/en/sports/volleyball/"
     },
     {
       "id": "general-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗣️",
@@ -2804,18 +2804,18 @@
       "source": "https://www.britannica.com/animal/ostrich-bird"
     },
     {
-      "id": "general-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
-      "q": { "en": "How many people have walked on the surface of the Moon?", "es": "¿Cuántas personas han caminado sobre la superficie de la Luna?" },
+      "id": "general-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which unit of length began as one ten-millionth of the distance from the North Pole to the equator?", "es": "¿Cuál unidad de longitud nació como la diezmillonésima parte de la distancia del polo norte al ecuador?" },
       "choices": [
-        { "en": "Twelve", "es": "Doce" },
-        { "en": "Six", "es": "Seis" },
-        { "en": "Eighteen", "es": "Dieciocho" },
-        { "en": "Twenty-four", "es": "Veinticuatro" }
+        { "en": "The meter", "es": "El metro" },
+        { "en": "The yard", "es": "La yarda" },
+        { "en": "The mile", "es": "La milla" },
+        { "en": "The league", "es": "La legua" }
       ],
       "answer": 0,
-      "why": { "en": "Twelve astronauts walked there on six Apollo landings between 1969 and 1972, and each pair stayed only a few days.", "es": "Doce astronautas caminaron allí en seis alunizajes del programa Apollo entre 1969 y 1972, y cada pareja se quedó pocos días." },
-      "topic": "space firsts",
-      "source": "https://www.nasa.gov/mission/apollo-11/"
+      "why": { "en": "French surveyors measured an arc through Paris in the 1790s; the meter is now fixed by the distance light travels in a set time.", "es": "Unos topógrafos franceses midieron un arco por París en los años 1790; ahora el metro se fija por la distancia que recorre la luz." },
+      "topic": "measuring",
+      "source": "https://www.britannica.com/science/metre-measurement"
     },
     {
       "id": "general-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔦",
@@ -2914,18 +2914,18 @@
       "source": "https://www.britannica.com/sports/basketball"
     },
     {
-      "id": "general-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚓",
-      "q": { "en": "The word quarantine grew from an Italian word for which number?", "es": "La palabra cuarentena nació de una palabra italiana para ¿qué número?" },
+      "id": "general-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "💫",
+      "q": { "en": "Going back to its Greek roots, what does the word disaster mean?", "es": "Volviendo a sus raíces griegas, ¿qué significa la palabra desastre?" },
       "choices": [
-        { "en": "Ten", "es": "Diez" },
-        { "en": "Twenty", "es": "Veinte" },
-        { "en": "Thirty", "es": "Treinta" },
-        { "en": "Forty", "es": "Cuarenta" }
+        { "en": "Broken road", "es": "Camino roto" },
+        { "en": "Falling wall", "es": "Muro que cae" },
+        { "en": "Dark water", "es": "Agua oscura" },
+        { "en": "Bad star", "es": "Mala estrella" }
       ],
       "answer": 3,
-      "why": { "en": "Venice made arriving ships wait forty days, quaranta giorni, before anyone could land, hoping any illness aboard would show itself.", "es": "Venecia obligaba a los barcos a esperar cuarenta días, quaranta giorni, antes de desembarcar, para ver si traían alguna enfermedad." },
+      "why": { "en": "Astro means star; sailors and farmers once blamed a ruined voyage or harvest on an unlucky star standing in the wrong place.", "es": "Astro significa estrella; antes se culpaba a una estrella de mal agüero por un viaje arruinado o una cosecha perdida." },
       "topic": "word origins",
-      "source": "https://www.britannica.com/science/quarantine-public-health"
+      "source": "https://www.britannica.com/dictionary/disaster"
     },
     {
       "id": "general-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "💰",
@@ -3618,6 +3618,446 @@
       "why": { "en": "Fungi are neither plants nor animals; they digest food outside their bodies, and one underground network can span many hectares.", "es": "Los hongos no son plantas ni animales; digieren la comida fuera del cuerpo, y una sola red subterránea puede cubrir muchas hectáreas." },
       "topic": "jobs",
       "source": "https://www.britannica.com/science/mycology"
+    },
+    {
+      "id": "general-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which mountain's summit stands farthest from the center of the Earth?", "es": "¿Cuál montaña tiene la cima más lejana del centro de la Tierra?" },
+      "choices": [
+        { "en": "Mount Everest", "es": "El monte Everest" },
+        { "en": "Kilimanjaro", "es": "El Kilimanjaro" },
+        { "en": "Chimborazo", "es": "El Chimborazo" },
+        { "en": "Denali", "es": "El Denali" }
+      ],
+      "answer": 2,
+      "why": { "en": "Earth bulges at the equator, so Ecuador's Chimborazo, though lower above sea level, pokes about two kilometers farther into space.", "es": "La Tierra se abulta en el ecuador, así que el Chimborazo, en Ecuador, sobresale unos dos kilómetros más hacia el espacio." },
+      "topic": "mountains",
+      "source": "https://www.britannica.com/place/Mount-Chimborazo"
+    },
+    {
+      "id": "general-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "What really decides which way water spins as it leaves a bathtub?", "es": "¿Qué decide en realidad hacia qué lado gira el agua al salir de la tina?" },
+      "choices": [
+        { "en": "The hemisphere you live in", "es": "El hemisferio donde vives" },
+        { "en": "The time of day", "es": "La hora del día" },
+        { "en": "The pull of the Moon", "es": "El jalón de la Luna" },
+        { "en": "The tub's shape and the water's own movement", "es": "La forma de la tina y el movimiento del agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Earth's spin is far too gentle at that size; the basin's shape and any leftover swirl in the water decide the direction.", "es": "El giro de la Tierra es demasiado suave a esa escala; la forma del recipiente y el movimiento previo del agua deciden el sentido." },
+      "topic": "science myths",
+      "source": "https://www.britannica.com/science/Coriolis-force"
+    },
+    {
+      "id": "general-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "How many pairs of ribs does a typical adult have?", "es": "¿Cuántos pares de costillas tiene una persona adulta típica?" },
+      "choices": [
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Ten", "es": "Diez" },
+        { "en": "Fourteen", "es": "Catorce" },
+        { "en": "Eleven", "es": "Once" }
+      ],
+      "answer": 0,
+      "why": { "en": "Twelve pairs make twenty-four ribs; the lowest two pairs float, attached to the spine but reaching no bone at the front.", "es": "Doce pares dan veinticuatro costillas; los dos pares de abajo flotan, unidos a la columna pero sin llegar a hueso adelante." },
+      "topic": "the body",
+      "source": "https://www.britannica.com/science/rib-anatomy"
+    },
+    {
+      "id": "general-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "How many chambers does a cow's stomach use to break down grass?", "es": "¿Cuántas cámaras usa el estómago de una vaca para deshacer el pasto?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Three", "es": "Tres" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rumen, reticulum, omasum and abomasum work in turn, and the cow brings food back up to chew it again as cud.", "es": "Rumen, retículo, omaso y abomaso trabajan por turnos, y la vaca regresa la comida a la boca para masticarla otra vez." },
+      "topic": "animals",
+      "source": "https://www.britannica.com/animal/ruminant"
+    },
+    {
+      "id": "general-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "Which two planets of our solar system have no moons at all?", "es": "¿Cuáles dos planetas del sistema solar carecen por completo de lunas?" },
+      "choices": [
+        { "en": "Mars and Venus", "es": "Marte y Venus" },
+        { "en": "Mercury and Mars", "es": "Mercurio y Marte" },
+        { "en": "Mercury and Venus", "es": "Mercurio y Venus" },
+        { "en": "Venus and Neptune", "es": "Venus y Neptuno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Both orbit close to the Sun, whose gravity would steal a captured rock, and neither was struck hard enough to splash out a moon.", "es": "Los dos giran cerca del Sol, cuya gravedad robaría cualquier roca capturada, y ninguno recibió un golpe capaz de arrancarles una luna." },
+      "topic": "planets",
+      "source": "https://science.nasa.gov/solar-system/moons/"
+    },
+    {
+      "id": "general-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏏",
+      "q": { "en": "How many players does one cricket team put on the field?", "es": "¿Cuántos jugadores pone en el campo un equipo de críquet?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho" },
+        { "en": "Nine", "es": "Nueve" },
+        { "en": "Ten", "es": "Diez" },
+        { "en": "Eleven", "es": "Once" }
+      ],
+      "answer": 3,
+      "why": { "en": "Eleven take the field, and a test match can last five days, longer than any other regular team game.", "es": "Once salen al campo, y un partido de prueba puede durar cinco días, más que cualquier otro juego de equipo común." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/cricket-sport"
+    },
+    {
+      "id": "general-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛶",
+      "q": { "en": "Which South American country's name means little Venice?", "es": "¿Cuál país sudamericano tiene un nombre que significa pequeña Venecia?" },
+      "choices": [
+        { "en": "Venezuela", "es": "Venezuela" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Bolivia", "es": "Bolivia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sailors in 1499 saw houses raised on stilts over Lake Maracaibo and were reminded of the canal city of Venice.", "es": "En 1499 unos marinos vieron casas sobre pilotes en el lago de Maracaibo y recordaron la ciudad de canales de Venecia." },
+      "topic": "name origins",
+      "source": "https://www.britannica.com/place/Venezuela"
+    },
+    {
+      "id": "general-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Which ancient ruler had a long set of laws carved onto a tall stone pillar?", "es": "¿Cuál gobernante antiguo mandó grabar sus leyes en un alto pilar de piedra?" },
+      "choices": [
+        { "en": "Ramses of Egypt", "es": "Ramsés de Egipto" },
+        { "en": "Hammurabi of Babylon", "es": "Hammurabi de Babilonia" },
+        { "en": "Solon of Athens", "es": "Solón de Atenas" },
+        { "en": "Cyrus of Persia", "es": "Ciro de Persia" }
+      ],
+      "answer": 1,
+      "why": { "en": "Hammurabi's pillar, carved about 1750 BC, listed 282 rules about trade, farming and family so any citizen could read them.", "es": "El pilar de Hammurabi, tallado cerca del 1750 a. C., enumeraba 282 reglas de comercio, campo y familia para que todos las leyeran." },
+      "topic": "ancient law",
+      "source": "https://www.britannica.com/topic/Code-of-Hammurabi"
+    },
+    {
+      "id": "general-hard-077", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥦",
+      "q": { "en": "Which vegetable on your plate is really a bunch of flower buds?", "es": "¿Cuál verdura de tu plato es en realidad un manojo de botones de flor?" },
+      "choices": [
+        { "en": "Celery", "es": "El apio" },
+        { "en": "Carrot", "es": "La zanahoria" },
+        { "en": "Broccoli", "es": "El brócoli" },
+        { "en": "Spinach", "es": "La espinaca" }
+      ],
+      "answer": 2,
+      "why": { "en": "Broccoli heads are buds picked before they open; leave them a week and they burst into small yellow flowers.", "es": "Los ramos de brócoli son botones cortados antes de abrirse; déjalos una semana y se convierten en florecitas amarillas." },
+      "topic": "food",
+      "source": "https://www.britannica.com/plant/broccoli"
+    },
+    {
+      "id": "general-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎼",
+      "q": { "en": "How many strings does a standard violin carry?", "es": "¿Cuántas cuerdas tiene un violín común?" },
+      "choices": [
+        { "en": "Three", "es": "Tres" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Its four strings are tuned five notes apart, and a bow of horsehair rubbed with rosin drags them into vibration.", "es": "Sus cuatro cuerdas se afinan con cinco notas de distancia, y un arco de crin con brea las arrastra hasta hacerlas vibrar." },
+      "topic": "music",
+      "source": "https://www.britannica.com/art/violin"
+    },
+    {
+      "id": "general-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏒",
+      "q": { "en": "How many players from one team skate on the ice during play?", "es": "¿Cuántos jugadores de un equipo patinan en el hielo durante el juego?" },
+      "choices": [
+        { "en": "Six", "es": "Seis" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Seven", "es": "Siete" },
+        { "en": "Eight", "es": "Ocho" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five skaters plus a goaltender take the ice, and whole lines swap on the move without stopping the clock.", "es": "Cinco patinadores y un portero salen al hielo, y las líneas completas se cambian en movimiento sin detener el reloj." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/ice-hockey"
+    },
+    {
+      "id": "general-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "How many letters does the written Hawaiian language use?", "es": "¿Cuántas letras usa la lengua hawaiana escrita?" },
+      "choices": [
+        { "en": "Twenty-six", "es": "Veintiséis" },
+        { "en": "Thirteen", "es": "Trece" },
+        { "en": "Twenty", "es": "Veinte" },
+        { "en": "Eighteen", "es": "Dieciocho" }
+      ],
+      "answer": 1,
+      "why": { "en": "Missionaries wrote Hawaiian with five vowels and seven consonants plus a glottal stop, so every syllable ends in a vowel sound.", "es": "Los misioneros escribieron el hawaiano con cinco vocales y siete consonantes más un golpe de glotis, y cada sílaba termina en vocal." },
+      "topic": "languages",
+      "source": "https://www.britannica.com/topic/Hawaiian-language"
+    },
+    {
+      "id": "general-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏦",
+      "q": { "en": "What does a numismatist study and collect?", "es": "¿Qué estudia y colecciona una persona numismática?" },
+      "choices": [
+        { "en": "Old maps", "es": "Mapas antiguos" },
+        { "en": "Postage stamps", "es": "Estampillas de correo" },
+        { "en": "Coins and paper money", "es": "Monedas y billetes" },
+        { "en": "Seashells", "es": "Conchas de mar" }
+      ],
+      "answer": 2,
+      "why": { "en": "Coins carry dates, rulers and metals, so a numismatist can read trade routes and shortages from a handful of small discs.", "es": "Las monedas guardan fechas, gobernantes y metales, así que la numismática lee rutas comerciales y escaseces en unos discos pequeños." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/topic/numismatics"
+    },
+    {
+      "id": "general-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "📆",
+      "q": { "en": "Why does February end up with fewer days than the other months?", "es": "¿Por qué febrero termina con menos días que los demás meses?" },
+      "choices": [
+        { "en": "A ruler took a day away from it", "es": "Un gobernante le quitó un día" },
+        { "en": "The seasons were shorter back then", "es": "Las estaciones eran más cortas entonces" },
+        { "en": "The Moon skips a night in winter", "es": "La Luna se salta una noche en invierno" },
+        { "en": "The old Roman year began in March", "es": "El antiguo año romano empezaba en marzo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rome once counted ten months and left winter unnamed; when January and February were added, February kept the leftover days.", "es": "Roma contaba diez meses y dejaba el invierno sin nombre; al agregar enero y febrero, este último se quedó con los días sobrantes." },
+      "topic": "calendars",
+      "source": "https://www.britannica.com/topic/February"
+    },
+    {
+      "id": "general-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🤿",
+      "q": { "en": "The word scuba is built from the first letters of which phrase?", "es": "La palabra scuba se forma con las primeras letras de ¿cuál frase?" },
+      "choices": [
+        { "en": "Self-contained underwater breathing apparatus", "es": "Aparato autónomo de respiración bajo el agua" },
+        { "en": "Sea current underwater breathing aid", "es": "Ayuda de respiración en corrientes marinas" },
+        { "en": "Submerged cylinder used by adventurers", "es": "Cilindro sumergido usado por aventureros" },
+        { "en": "Safe compressed underwater bottled air", "es": "Aire seguro comprimido en botella submarina" }
+      ],
+      "answer": 0,
+      "why": { "en": "Divers carry their own air, so the gear works apart from the surface; Jacques Cousteau helped design an early version.", "es": "Los buzos llevan su propio aire, así que el equipo funciona lejos de la superficie; Jacques Cousteau ayudó a diseñar una versión temprana." },
+      "topic": "acronyms",
+      "source": "https://www.britannica.com/technology/scuba"
+    },
+    {
+      "id": "general-hard-084", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥫",
+      "q": { "en": "Aluminum for cans and foil is refined from which reddish ore?", "es": "El aluminio de las latas y el papel aluminio se refina de ¿cuál mineral rojizo?" },
+      "choices": [
+        { "en": "Hematite", "es": "La hematita" },
+        { "en": "Bauxite", "es": "La bauxita" },
+        { "en": "Galena", "es": "La galena" },
+        { "en": "Malachite", "es": "La malaquita" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bauxite is baked and then split by a strong electric current, which is why recycling a can saves most of that energy.", "es": "La bauxita se hornea y luego se separa con una corriente eléctrica fuerte, por eso reciclar una lata ahorra casi toda esa energía." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/science/bauxite"
+    },
+    {
+      "id": "general-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "A vexillologist studies the history and design of what?", "es": "¿La historia y el diseño de qué estudia una persona vexilóloga?" },
+      "choices": [
+        { "en": "Bridges", "es": "Los puentes" },
+        { "en": "Coins", "es": "Las monedas" },
+        { "en": "Flags", "es": "Las banderas" },
+        { "en": "Bells", "es": "Las campanas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Vexillum was the cloth banner a Roman cavalry unit carried, and the study covers colors, shapes and the rules for flying them.", "es": "Vexillum era el estandarte de tela que llevaba la caballería romana, y el estudio abarca colores, formas y reglas para izarlos." },
+      "topic": "jobs",
+      "source": "https://www.britannica.com/topic/flag-heraldry"
+    },
+    {
+      "id": "general-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛑",
+      "q": { "en": "In government, the Latin word veto means what?", "es": "En un gobierno, ¿qué significa la palabra latina veto?" },
+      "choices": [
+        { "en": "I agree", "es": "Estoy de acuerdo" },
+        { "en": "I ask", "es": "Yo pregunto" },
+        { "en": "I speak", "es": "Yo hablo" },
+        { "en": "I forbid", "es": "Yo prohíbo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Roman tribunes shouted veto to block a measure, and a modern leader who vetoes a bill sends it back to the lawmakers.", "es": "Los tribunos romanos gritaban veto para frenar una medida, y un gobernante moderno que veta una ley la devuelve a los legisladores." },
+      "topic": "civics",
+      "source": "https://www.britannica.com/topic/veto"
+    },
+    {
+      "id": "general-hard-087", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛩️",
+      "q": { "en": "What did the pilot Chuck Yeager achieve in a rocket plane in 1947?", "es": "¿Qué logró el piloto Chuck Yeager en un avión cohete en 1947?" },
+      "choices": [
+        { "en": "He flew faster than sound", "es": "Voló más rápido que el sonido" },
+        { "en": "He crossed the Pacific alone", "es": "Cruzó el Pacífico en solitario" },
+        { "en": "He flew around the world", "es": "Le dio la vuelta al mundo volando" },
+        { "en": "He reached the edge of space", "es": "Llegó al borde del espacio" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Bell X-1 passed Mach one over the desert, and the bang people heard was air piling up into a shock wave.", "es": "El Bell X-1 pasó Mach uno sobre el desierto, y el estruendo que se oyó fue el aire apilado en una onda de choque." },
+      "topic": "famous firsts",
+      "source": "https://airandspace.si.edu/collection-objects/bell-x-1"
+    },
+    {
+      "id": "general-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍊",
+      "q": { "en": "Which came first in English, the fruit called orange or the color?", "es": "¿Qué llegó primero al inglés, la fruta llamada naranja o el color?" },
+      "choices": [
+        { "en": "The color came first", "es": "Primero llegó el color" },
+        { "en": "The fruit came first", "es": "Primero llegó la fruta" },
+        { "en": "They arrived in the same year", "es": "Llegaron en el mismo año" },
+        { "en": "The word came from a painter", "es": "La palabra vino de un pintor" }
+      ],
+      "answer": 1,
+      "why": { "en": "Before the fruit arrived from Asia, English called the color yellow-red; the fruit's name, from Sanskrit naranga, slowly became the color word.", "es": "Antes de que llegara la fruta de Asia, en inglés el color se decía amarillo rojizo; el nombre viene del sánscrito naranga." },
+      "topic": "word origins",
+      "source": "https://www.britannica.com/plant/orange-fruit"
+    },
+    {
+      "id": "general-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "📊",
+      "q": { "en": "What is the main job of a national census?", "es": "¿Cuál es la tarea principal de un censo nacional?" },
+      "choices": [
+        { "en": "To collect taxes from families", "es": "Cobrar impuestos a las familias" },
+        { "en": "To register every vehicle", "es": "Registrar todos los vehículos" },
+        { "en": "To count the people and how they live", "es": "Contar a la gente y cómo vive" },
+        { "en": "To draw new maps", "es": "Dibujar mapas nuevos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Counting heads decides how many seats a region gets and where schools, clinics and buses are needed; Rome held censuses too.", "es": "Contar a la gente define cuántos escaños tiene una región y dónde hacen falta escuelas, clínicas y autobuses; Roma ya hacía censos." },
+      "topic": "civics",
+      "source": "https://www.britannica.com/topic/census"
+    },
+    {
+      "id": "general-hard-090", "level": "hard", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "A ship sailing at one knot covers how much distance in an hour?", "es": "Un barco que navega a un nudo recorre ¿cuánta distancia en una hora?" },
+      "choices": [
+        { "en": "One kilometer", "es": "Un kilómetro" },
+        { "en": "One league", "es": "Una legua" },
+        { "en": "One mile measured on land", "es": "Una milla medida en tierra" },
+        { "en": "One nautical mile", "es": "Una milla náutica" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sailors once counted knots on a rope let out behind the ship; a nautical mile is 1852 meters, one minute of latitude.", "es": "Los marinos contaban nudos en una cuerda soltada tras el barco; una milla náutica mide 1852 metros, un minuto de latitud." },
+      "topic": "measuring",
+      "source": "https://oceanservice.noaa.gov/facts/nauticalmile-knot.html"
+    },
+    {
+      "id": "general-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍿",
+      "q": { "en": "Which kitchen machine was invented after a chocolate bar melted in an engineer's pocket?", "es": "¿Cuál aparato de cocina se inventó después de que una barra de chocolate se derritiera en un bolsillo?" },
+      "choices": [
+        { "en": "The microwave oven", "es": "El horno de microondas" },
+        { "en": "The electric kettle", "es": "La tetera eléctrica" },
+        { "en": "The blender", "es": "La licuadora" },
+        { "en": "The toaster", "es": "El tostador" }
+      ],
+      "answer": 0,
+      "why": { "en": "Percy Spencer was testing radar tubes in 1945, noticed the melting, and tried popcorn next; the first ovens were taller than a person.", "es": "Percy Spencer probaba tubos de radar en 1945, notó el derretimiento y luego probó con palomitas; los primeros hornos eran enormes." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/microwave-oven"
+    },
+    {
+      "id": "general-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "A score marked allegro tells the musicians to play in what way?", "es": "Una partitura marcada allegro indica a los músicos tocar ¿de qué manera?" },
+      "choices": [
+        { "en": "Very softly", "es": "Muy suave" },
+        { "en": "Quickly and brightly", "es": "Rápido y con brillo" },
+        { "en": "With a mute on", "es": "Con sordina puesta" },
+        { "en": "Slowly and sadly", "es": "Lento y triste" }
+      ],
+      "answer": 1,
+      "why": { "en": "Allegro is Italian for cheerful, about 120 beats a minute; adagio means at ease, roughly half that speed.", "es": "Allegro significa alegre en italiano, unos 120 pulsos por minuto; adagio quiere decir con calma, más o menos la mitad de rápido." },
+      "topic": "music",
+      "source": "https://www.britannica.com/art/tempo-music"
+    },
+    {
+      "id": "general-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏐",
+      "q": { "en": "How many players from one team stand on a volleyball court?", "es": "¿Cuántos jugadores de un equipo están en la cancha de voleibol?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Seven", "es": "Siete" }
+      ],
+      "answer": 2,
+      "why": { "en": "Six play, three near the net and three behind, and everyone rotates one position clockwise each time their side wins the serve.", "es": "Juegan seis, tres cerca de la red y tres atrás, y todos rotan una posición cuando su equipo gana el saque." },
+      "topic": "sports",
+      "source": "https://www.britannica.com/sports/volleyball"
+    },
+    {
+      "id": "general-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "Couscous, eaten across North Africa, is made from which grain?", "es": "El cuscús, que se come en el norte de África, se hace de ¿cuál grano?" },
+      "choices": [
+        { "en": "Rice", "es": "Arroz" },
+        { "en": "Corn", "es": "Maíz" },
+        { "en": "Barley", "es": "Cebada" },
+        { "en": "Wheat", "es": "Trigo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cooks roll moistened semolina, the coarse part of wheat, into tiny beads and steam them over the stew they will soak up.", "es": "Se amasa sémola húmeda, la parte gruesa del trigo, en bolitas diminutas que se cuecen al vapor sobre el guiso que absorberán." },
+      "topic": "food",
+      "source": "https://www.britannica.com/topic/couscous"
+    },
+    {
+      "id": "general-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐙",
+      "q": { "en": "What is a large group of jellyfish drifting together called?", "es": "¿Cómo se llama un grupo grande de medusas que van juntas?" },
+      "choices": [
+        { "en": "A smack", "es": "Un smack" },
+        { "en": "A pod", "es": "Una manada" },
+        { "en": "A flock", "es": "Una bandada" },
+        { "en": "A colony", "es": "Una colonia" }
+      ],
+      "answer": 0,
+      "why": { "en": "A smack can hold thousands; jellyfish are about ninety-five percent water and have drifted the seas for over five hundred million years.", "es": "Un smack puede juntar miles; las medusas son casi noventa y cinco por ciento agua y flotan en el mar desde hace millones de años." },
+      "topic": "sea animals",
+      "source": "https://www.britannica.com/animal/jellyfish"
+    },
+    {
+      "id": "general-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚗",
+      "q": { "en": "Mary Anderson patented which device in 1903 after watching drivers struggle in sleet?", "es": "¿Cuál invento patentó Mary Anderson en 1903 al ver a conductores batallando con el aguanieve?" },
+      "choices": [
+        { "en": "The seat belt", "es": "El cinturón de seguridad" },
+        { "en": "The windshield wiper", "es": "El limpiaparabrisas" },
+        { "en": "The rear mirror", "es": "El espejo retrovisor" },
+        { "en": "The turn signal", "es": "La direccional" }
+      ],
+      "answer": 1,
+      "why": { "en": "Her hand-cranked blade cleared the glass from inside the cab; makers called it useless at first, then fitted it as standard.", "es": "Su hoja movida a manivela limpiaba el vidrio desde adentro; al principio la llamaron inútil y después la pusieron en todos los carros." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/biography/Mary-Anderson-American-inventor"
+    },
+    {
+      "id": "general-hard-097", "level": "hard", "type": "tf", "lang": "both", "emoji": "🦆",
+      "q": { "en": "A duck's quack is the one sound in nature that makes no echo.", "es": "El graznido del pato es el único sonido de la naturaleza que no hace eco." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Acousticians tested a duck in an echo chamber and found a quiet echo; the quack simply fades into its own sound.", "es": "Unos acústicos probaron un pato en una cámara de eco y sí lo hallaron; el graznido se confunde con su propio sonido." },
+      "topic": "sound myths",
+      "source": "https://www.britannica.com/science/echo-acoustics"
+    },
+    {
+      "id": "general-hard-098", "level": "hard", "type": "tf", "lang": "both", "emoji": "🧮",
+      "q": { "en": "Albert Einstein failed mathematics at school.", "es": "Albert Einstein reprobó matemáticas en la escuela." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "He had mastered calculus by fifteen and later joked that he never failed mathematics; he did clash with teachers about obedience.", "es": "Ya dominaba el cálculo a los quince y después bromeaba diciendo que nunca reprobó matemáticas; sí discutía con sus maestros sobre la obediencia." },
+      "topic": "science myths",
+      "source": "https://www.britannica.com/biography/Albert-Einstein"
+    },
+    {
+      "id": "general-hard-099", "level": "hard", "type": "tf", "lang": "both", "emoji": "🗼",
+      "q": { "en": "The Eiffel Tower is taller on a hot summer day than in winter.", "es": "La torre Eiffel es más alta en un día caluroso de verano que en invierno." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Iron expands when it warms, so the tower stretches about fifteen centimeters, six inches, and also leans slightly away from the Sun.", "es": "El hierro se dilata con el calor, así que la torre crece unos quince centímetros, seis pulgadas, y se inclina un poco lejos del Sol." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/topic/Eiffel-Tower-Paris-France"
+    },
+    {
+      "id": "general-hard-100", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Earth has more trees than the Milky Way has stars.", "es": "La Tierra tiene más árboles que estrellas tiene la Vía Láctea." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Satellite surveys and ground counts suggest about three trillion trees, while our galaxy holds a few hundred billion stars.", "es": "Los conteos por satélite calculan unos tres billones de árboles, y nuestra galaxia tiene unos cientos de miles de millones de estrellas." },
+      "topic": "nature numbers",
+      "source": "https://www.britannica.com/science/tree"
     }
   ]
 }
