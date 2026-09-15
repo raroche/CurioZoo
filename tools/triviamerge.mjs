@@ -8,9 +8,15 @@
  * questions WITHOUT ids. Ids are assigned here, continuing each level's
  * numbering, so two writers never collide and nothing is ever renumbered.
  *
- * After writing, the checker runs on that one file. If it reports errors the
- * file is put back exactly as it was and the errors are printed, so a writer
- * fixes the batch and runs again; a half-checked batch never lands.
+ * The merged file is written to a temporary file beside the real one and the
+ * checker runs on that candidate, with every other topic's stems loaded so a
+ * question another file already asks is refused. Only a candidate that passes
+ * replaces the real file, by an atomic rename, so an interrupted run or a
+ * failed check leaves the category exactly as it was.
+ *
+ * One merge per category at a time: a lock file stops two writers from
+ * numbering from the same snapshot, and the file is compared with what was
+ * read before it is replaced, so a change made meanwhile is never overwritten.
  *
  * The file is written in the same compact shape the seed files use (one
  * choice per line, the two languages side by side) so a 300-question file
@@ -31,6 +37,24 @@ const DIR = 'data/fun/trivia';
 const file = path.join(DIR, `${category}.json`);
 if (!fs.existsSync(file)) { console.error(`${file} does not exist`); process.exit(2); }
 
+/* The lock. `wx` fails if it already exists, which is the whole point. */
+const LOCK = path.join(DIR, `.${category}.lock`);
+const TMP = path.join(DIR, `.${category}.json.${process.pid}.tmp`);
+let lockFd = null;
+try {
+  lockFd = fs.openSync(LOCK, 'wx');
+} catch (e) {
+  if (e.code !== 'EEXIST') throw e;
+  console.error(`Another merge into ${category} is running (${LOCK}). If none is, delete that file.`);
+  process.exit(2);
+}
+process.on('exit', () => {
+  try { fs.closeSync(lockFd); } catch { /* already closed */ }
+  try { fs.unlinkSync(LOCK); } catch { /* already gone */ }
+  try { fs.unlinkSync(TMP); } catch { /* renamed into place, or never written */ }
+});
+for (const sig of ['SIGINT', 'SIGTERM']) process.on(sig, () => process.exit(130));
+
 const before = fs.readFileSync(file, 'utf8');
 const data = JSON.parse(before);
 const raw = JSON.parse(fs.readFileSync(batchPath, 'utf8'));
@@ -40,7 +64,7 @@ if (!Array.isArray(batch) || !batch.length) { console.error('the batch has no qu
 /* Next free number per level, from the ids already in the file. */
 const next = { easy: 0, medium: 0, hard: 0 };
 for (const q of data.questions) {
-  const m = /-(easy|medium|hard)-(\d{3})$/.exec(q.id || '');
+  const m = /-(easy|medium|hard)-(\d+)$/.exec(q.id || '');
   if (m) next[m[1]] = Math.max(next[m[1]], Number(m[2]));
 }
 
@@ -103,14 +127,23 @@ if (JSON.stringify(canon(roundTrip)) !== JSON.stringify(canon(data))) {
   process.exit(1);
 }
 
-fs.writeFileSync(file, out);
-const check = spawnSync('node', ['tools/triviacheck.mjs', '--file', `${category}.json`], { encoding: 'utf8' });
+/* Write the candidate, flushed to disk, and check it where it lies. */
+const fd = fs.openSync(TMP, 'w');
+fs.writeSync(fd, out);
+fs.fsyncSync(fd);
+fs.closeSync(fd);
+const check = spawnSync('node', ['tools/triviacheck.mjs', '--file', `${category}.json`,
+  '--candidate', TMP, '--strict-stems'], { encoding: 'utf8' });
 process.stdout.write(check.stdout);
 process.stderr.write(check.stderr);
 if (check.status !== 0) {
-  fs.writeFileSync(file, before);
-  console.error(`\nThe batch did not pass. ${file} was put back as it was. Fix ${batchPath} and run again.`);
+  console.error(`\nThe batch did not pass. ${file} was not touched. Fix ${batchPath} and run again.`);
   process.exit(1);
 }
+if (fs.readFileSync(file, 'utf8') !== before) {
+  console.error(`\n${file} changed while this merge ran. Nothing was written; run again.`);
+  process.exit(1);
+}
+fs.renameSync(TMP, file);
 console.log(`\nAdded ${added.length} questions to ${file}: ${added[0].id} to ${added[added.length - 1].id}.`);
 console.log('Now run `node tools/triviacheck.mjs --write` to update the manifest.');

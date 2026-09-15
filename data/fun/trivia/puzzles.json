@@ -1725,7 +1725,7 @@
         { "en": "Dog" }
       ],
       "answer": 2,
-      "why": { "en": "Whales, bats and dogs are mammals that feed their babies milk, while the shark is a fish that lays eggs." },
+      "why": { "en": "Whales, bats and dogs are mammals that feed their babies milk, while the shark is a fish that breathes with gills." },
       "topic": "odd one out",
       "source": "https://kids.britannica.com/kids/article/mammal/353328"
     },

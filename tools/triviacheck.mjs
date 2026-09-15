@@ -29,6 +29,16 @@ const warn = (m) => warnings.push(m);
 const args = process.argv.slice(2);
 const WRITE = args.includes('--write');
 const ONLY = args.flatMap((a, i) => (a === '--file' ? [args[i + 1]] : []));
+/* --candidate <path>: read the one --file from this path instead (the merge
+   tool checks its temporary file before it replaces the real one).
+   --strict-stems: with --file, load every other topic's stems too, and make a
+   stem that another file already asks an error rather than a warning. */
+const CANDIDATE = args.includes('--candidate') ? args[args.indexOf('--candidate') + 1] : null;
+const STRICT_STEMS = args.includes('--strict-stems');
+if (CANDIDATE && ONLY.length !== 1) {
+  console.error('--candidate needs exactly one --file');
+  process.exit(2);
+}
 
 const { buildRound, makeChoices, eligible, fold, LEVEL_IDS } =
   await import('../assets/js/modules/trivia.js');
@@ -104,12 +114,25 @@ const stemsByLevel = new Map();   // folded stem -> [where, level, category]
 const table = [];
 let shortStems = 0;
 
+if (ONLY.length && STRICT_STEMS) {
+  for (const cat of manifest.categories.filter((c) => !ONLY.includes(c.file))) {
+    const other = JSON.parse(fs.readFileSync(path.join(DIR, cat.file), 'utf8'));
+    for (const q of other.questions || []) {
+      const langs = !q.lang || q.lang === 'both' ? ['en', 'es'] : [q.lang];
+      for (const l of langs) {
+        const k = `${l}:${fold(q.q && q.q[l])}`;
+        if (!stemsByLevel.has(k)) stemsByLevel.set(k, { id: q.id, level: q.level, cat: cat.id });
+      }
+    }
+  }
+}
+
 for (const cat of manifest.categories) {
   if (ONLY.length && !ONLY.includes(cat.file)) continue;
   for (const k of ['id', 'emoji', 'name', 'es', 'file']) {
     if (!cat[k]) err(`manifest: category ${cat.id || '?'} has no ${k}`);
   }
-  const file = path.join(DIR, cat.file);
+  const file = CANDIDATE || path.join(DIR, cat.file);
   if (!fs.existsSync(file)) { err(`${cat.file}: named in the manifest but missing`); continue; }
   let data;
   try { data = JSON.parse(fs.readFileSync(file, 'utf8')); }
@@ -127,7 +150,7 @@ for (const cat of manifest.categories) {
 
     /* shape */
     if (!LEVEL_IDS.includes(q.level)) { e(`level "${q.level}" is not easy, medium or hard`); continue; }
-    const idRe = new RegExp(`^${cat.id}-${q.level}-\\d{3}$`);
+    const idRe = new RegExp(`^${cat.id}-${q.level}-\\d{3,}$`);
     if (!idRe.test(q.id || '')) e(`id must look like ${cat.id}-${q.level}-001`);
     if (allIds.has(q.id)) e(`id also used in ${allIds.get(q.id)}`);
     allIds.set(q.id, cat.file);
@@ -236,7 +259,9 @@ for (const cat of manifest.categories) {
       if (fileStems.has(k)) e(`same stem as ${fileStems.get(k)}`);
       fileStems.set(k, q.id);
       const seenAt = stemsByLevel.get(k);
-      if (seenAt && seenAt.cat !== cat.id) {
+      if (seenAt && seenAt.cat !== cat.id && STRICT_STEMS) {
+        e(`same stem as ${seenAt.id} in ${seenAt.cat}.json`);
+      } else if (seenAt && seenAt.cat !== cat.id) {
         warn(`${where}: same stem as ${seenAt.id} in another file${cat.id === 'general' || seenAt.cat === 'general' ? ' (General Knowledge should not repeat)' : ''}`);
       } else if (seenAt && seenAt.level !== q.level) {
         warn(`${where}: same stem as ${seenAt.id} at another level; ask it differently`);

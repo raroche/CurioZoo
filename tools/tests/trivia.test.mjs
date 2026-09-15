@@ -232,8 +232,9 @@ describe('memory', () => {
     assert.equal(m.recent[0], 'q15');
   });
   test('seen is capped, and the least recently answered go first', () => {
-    const m = {};
-    for (let i = 0; i < T.SEEN_CAP + 10; i += 1) T.record(m, `q${i}`, true, 1);
+    /* Filled directly: recording thousands one by one is slow and proves nothing more. */
+    const m = { seen: {}, recent: [] };
+    for (let i = 0; i < T.SEEN_CAP + 10; i += 1) m.seen[`q${i}`] = [1, 0, 1];
     T.record(m, 'q0', true, 2);   // answered again, so it is now the newest
     const keys = Object.keys(m.seen);
     assert.equal(keys.length, T.SEEN_CAP);

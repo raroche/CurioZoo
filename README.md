@@ -248,8 +248,9 @@ answer and a "why" that teaches something. Easy reads itself aloud. There is no
 timer and nothing is taken away: a star for every right answer, and the game
 remembers what a child has seen so a miss comes back two weeks later and a
 fact already known is retired. The Fact Book lists every "why" in the game.
-The bank holds 100 questions per topic per level, 4,700 in all, so a family
-playing every week does not see a repeat for years; `tools/triviacheck.mjs`
+The bank holds 4,739 questions: 100 per topic per level, except Brain Teasers
+& Logic, which has 80 Easy, 86 Medium and 73 Hard so far. A family playing
+every week does not see a repeat for years; `tools/triviacheck.mjs`
 holds every question to the writing rules in `docs/research/trivia/PLAN.md`.
 
 ## Math Lab

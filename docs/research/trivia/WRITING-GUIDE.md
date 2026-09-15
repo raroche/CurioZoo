@@ -53,26 +53,29 @@ What that means in practice:
 ## The shape of one question
 
 Write a JSON array of questions with **no `id` field**. The merge tool
-assigns ids.
+assigns ids. A batch holding one question looks like this; put more objects
+in the same array:
 
 ```json
-{
-  "level": "easy",
-  "type": "mc",
-  "lang": "both",
-  "emoji": "🐄",
-  "q":   { "en": "Which animal says moo?", "es": "¿Qué animal hace \"muuu\"?" },
-  "choices": [
-    { "en": "Cow",  "es": "La vaca",  "emoji": "🐄" },
-    { "en": "Dog",  "es": "El perro", "emoji": "🐶" },
-    { "en": "Duck", "es": "El pato",  "emoji": "🦆" }
-  ],
-  "answer": 0,
-  "why": { "en": "Cows moo to talk to each other, and a mother cow knows her own calf's voice in a whole herd.",
-           "es": "Las vacas mugen para hablar entre ellas, y una mamá vaca reconoce la voz de su ternero en todo el rebaño." },
-  "topic": "animal sounds",
-  "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cow"
-}
+[
+  {
+    "level": "easy",
+    "type": "mc",
+    "lang": "both",
+    "emoji": "🐄",
+    "q":   { "en": "Which animal says moo?", "es": "¿Qué animal hace \"muuu\"?" },
+    "choices": [
+      { "en": "Cow",  "es": "La vaca",  "emoji": "🐄" },
+      { "en": "Dog",  "es": "El perro", "emoji": "🐶" },
+      { "en": "Duck", "es": "El pato",  "emoji": "🦆" }
+    ],
+    "answer": 0,
+    "why": { "en": "Cows moo to talk to each other, and a mother cow knows her own calf's voice in a whole herd.",
+             "es": "Las vacas mugen para hablar entre ellas, y una mamá vaca reconoce la voz de su ternero en todo el rebaño." },
+    "topic": "animal sounds",
+    "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cow"
+  }
+]
 ```
 
 ## The rules the checker enforces (a batch with one error does not land)
@@ -93,8 +96,11 @@ Everything, every level:
 - `lang` is `both`, except in `words` and `puzzles`, where a question may be
   `en` or `es` and then carries only that language in `q`, `choices` and
   `why` (no empty other-language strings).
-- No negatives in the stem: not, except, never / no es, excepto, nunca. No
-  "all of the above" or "none of the above" as a choice.
+- No negatives in the stem. The checker catches not, except, never / no es,
+  excepto, nunca; write every other stem positively too. The one exception is
+  a classic riddle in `puzzles` that names what a thing lacks ("What has
+  hands but cannot clap?"), where the missing thing is the clue. No "all of
+  the above" or "none of the above" as a choice.
 - No dated words anywhere in stem or why: currently, today, this year,
   newest, latest, most recent, record(s), tallest building, largest
   population, president(s), champion(s) / actualmente, hoy en día, este año,

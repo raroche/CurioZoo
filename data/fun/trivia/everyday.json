@@ -3897,7 +3897,7 @@
     },
     {
       "id": "everyday-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎂",
-      "q": { "en": "You double every ingredient in a cake recipe. What should happen to the baking time?", "es": "Duplicas todos los ingredientes de una receta de pastel. ¿Qué pasa con el tiempo de horneado?" },
+      "q": { "en": "You double a cake recipe and bake all of it in one deeper pan. What happens to the baking time?", "es": "Duplicas una receta de pastel y la horneas toda en un solo molde más hondo. ¿Qué pasa con el tiempo de horneado?" },
       "choices": [
         { "en": "It doubles exactly", "es": "Se duplica exactamente" },
         { "en": "It stays the same", "es": "Sigue igual" },
@@ -3905,7 +3905,7 @@
         { "en": "It grows a little", "es": "Crece un poco" }
       ],
       "answer": 3,
-      "why": { "en": "A thicker cake needs more time for heat to reach the middle, but two thin pans bake in nearly the original time.", "es": "Un pastel más grueso tarda más porque el calor debe llegar al centro, pero dos moldes delgados se hornean casi en el mismo tiempo." },
+      "why": { "en": "A deeper cake needs more time for heat to reach the middle, but far less than double, so bakers check it early.", "es": "Un pastel más hondo tarda más porque el calor debe llegar al centro, pero mucho menos que el doble; por eso se revisa antes." },
       "topic": "cooking measures",
       "source": "https://www.britannica.com/topic/baking"
     },

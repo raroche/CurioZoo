@@ -19,7 +19,8 @@ memory so a weekly family never sees a repeat for over a year. See PLAN.md.
 - [x] 2026-09-14 Phase 3: `settings.trivia` memory, weights, recent, second looks,
       stars and ranks, "Last time you learned", the Fact Book.
       Phases 1 to 3 went in as one commit because they were built together.
-- [x] 2026-09-15 Phases 4, 5 and 7 in one go: 100 questions per topic per level, 4,700 in all,
+- [x] 2026-09-15 Phases 4, 5 and 7 in one go: 4,739 questions. 100 per topic per level,
+      except puzzles at 80 Easy, 86 Medium, 73 Hard (61 short of the target),
       written by parallel writers to WRITING-GUIDE.md and landed through tools/triviamerge.mjs.
       Cross-file duplicate stems were replaced with fresh questions.
 - [ ] Phase 6: polish, native Spanish read-through, README, ship
@@ -43,7 +44,7 @@ memory so a weekly family never sees a repeat for over a year. See PLAN.md.
 | physics | 100 | 100 | 100 | no |
 | general | 100 | 100 | 100 | no |
 | why | 100 | 100 | 100 | no |
-| puzzles (en + es) | 50+50 | 50+50 | 50+50 | no |
+| puzzles (en + es) | 80 | 86 | 73 | no |
 
 ## Facts checked (so nobody re-checks)
 - `fun.js` is 879 lines; archcheck warns past 700. The trivia screen goes in
@@ -66,9 +67,11 @@ memory so a weekly family never sees a repeat for over a year. See PLAN.md.
 
 ## Next session starts here
 - Phase 6: the native Spanish read-through (a human), the source-link pass,
-  README polish. The bank is at its target; `tools/triviamerge.mjs` is the
-  way to add more (see WRITING-GUIDE.md).
-- The source URLs of the 4,700 questions were written as plausible pages on
+  README polish. `tools/triviamerge.mjs` is the way to add questions (see
+  WRITING-GUIDE.md).
+- Brain Teasers & Logic is still short of 100 per level: 20 Easy, 14 Medium
+  and 27 Hard to go, split evenly between the English and Spanish pools.
+- The source URLs of the 4,739 questions were written as plausible pages on
   real sites without being opened; a link-check pass is owed before anyone
   cites them.
 - Several seed `source` URLs were written from memory and not opened
