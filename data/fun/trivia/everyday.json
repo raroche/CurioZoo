@@ -1,1389 +1,3723 @@
 {
   "note": "Everyday Life: Food, Money, Time & Games. Three levels in one file so a reviewer sees the ladder.",
   "category": "everyday",
-  "attribution": {"facts":"Written for this project from the sources listed per question."},
+  "attribution": {
+    "facts": "Written for this project from the sources listed per question."
+  },
   "questions": [
     {
-      "id": "everyday-easy-001", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥚",
-      "q": { "en": "Which farm animal lays the eggs we eat?", "es": "¿Qué animal de la granja pone los huevos que comemos?" },
+      "id": "everyday-easy-001",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🛁",
+      "q": {
+        "en": "What do you dry off with after a bath?",
+        "es": "¿Con qué te secas después del baño?"
+      },
       "choices": [
-        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
-        { "en": "Pig", "es": "El cerdo", "emoji": "🐖" },
-        { "en": "Hen", "es": "La gallina", "emoji": "🐔" }
-      ],
-      "answer": 2,
-      "why": { "en": "Hens lay eggs, and a healthy hen can lay about one egg almost every day.", "es": "Las gallinas ponen huevos, y una gallina sana puede poner casi un huevo cada día." },
-      "topic": "where food comes from",
-      "source": "https://www.britannica.com/animal/chicken"
-    },
-    {
-      "id": "everyday-easy-002", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚦",
-      "q": { "en": "Which traffic light color means stop?", "es": "¿Qué color del semáforo significa alto?" },
-      "choices": [
-        { "en": "Red", "es": "Rojo", "emoji": "🔴" },
-        { "en": "Green", "es": "Verde", "emoji": "🟢" },
-        { "en": "Yellow", "es": "Amarillo", "emoji": "🟡" }
+        {
+          "en": "A towel",
+          "es": "Una toalla",
+          "emoji": "🧺"
+        },
+        {
+          "en": "A pillow",
+          "es": "Una almohada",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "A plate",
+          "es": "Un plato",
+          "emoji": "🍽️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Red means stop, green means go, and yellow tells drivers the light is about to turn red.", "es": "El rojo significa alto, el verde significa siga, y el amarillo avisa que la luz pronto cambiará a rojo." },
+      "why": {
+        "en": "A towel is made of tiny loops of thread that soak up water, and hanging it flat lets it dry fast for next time.",
+        "es": "Una toalla está hecha de pequeños bucles de hilo que absorben el agua, y colgarla extendida la seca rápido para la próxima vez."
+      },
+      "topic": "at home",
+      "source": "https://kids.britannica.com/kids/article/cotton/352991"
+    },
+    {
+      "id": "everyday-easy-002",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🚦",
+      "q": {
+        "en": "Which traffic light color means stop?",
+        "es": "¿Qué color del semáforo significa alto?"
+      },
+      "choices": [
+        {
+          "en": "Red",
+          "es": "Rojo",
+          "emoji": "🔴"
+        },
+        {
+          "en": "Green",
+          "es": "Verde",
+          "emoji": "🟢"
+        },
+        {
+          "en": "Yellow",
+          "es": "Amarillo",
+          "emoji": "🟡"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Red means stop, green means go, and yellow tells drivers the light is about to turn red.",
+        "es": "El rojo significa alto, el verde significa siga, y el amarillo avisa que la luz pronto cambiará a rojo."
+      },
       "topic": "traffic lights",
       "source": "https://www.britannica.com/technology/traffic-signal"
     },
     {
-      "id": "everyday-easy-003", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏰",
-      "q": { "en": "Which tool tells us what time it is?", "es": "¿Qué objeto nos dice qué hora es?" },
+      "id": "everyday-easy-003",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⏰",
+      "q": {
+        "en": "Which tool tells us what time it is?",
+        "es": "¿Qué objeto nos dice qué hora es?"
+      },
       "choices": [
-        { "en": "Thermometer", "es": "El termómetro", "emoji": "🌡️" },
-        { "en": "Clock", "es": "El reloj", "emoji": "🕒" },
-        { "en": "Ruler", "es": "La regla", "emoji": "📏" }
+        {
+          "en": "Thermometer",
+          "es": "El termómetro",
+          "emoji": "🌡️"
+        },
+        {
+          "en": "Clock",
+          "es": "El reloj",
+          "emoji": "🕒"
+        },
+        {
+          "en": "Ruler",
+          "es": "La regla",
+          "emoji": "📏"
+        }
       ],
       "answer": 1,
-      "why": { "en": "A clock shows the time with hands or numbers; the short hand points to the hour.", "es": "Un reloj muestra la hora con manecillas o números; la manecilla corta señala la hora." },
+      "why": {
+        "en": "A clock shows the time with hands or numbers; the short hand points to the hour.",
+        "es": "Un reloj muestra la hora con manecillas o números; la manecilla corta señala la hora."
+      },
       "topic": "clocks",
       "source": "https://www.britannica.com/technology/clock"
     },
     {
-      "id": "everyday-medium-001", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐴",
-      "q": { "en": "Which chess piece moves in an L shape?", "es": "¿Qué pieza de ajedrez se mueve en forma de L?" },
+      "id": "everyday-medium-001",
+      "level": "medium",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🐴",
+      "q": {
+        "en": "Which chess piece moves in an L shape?",
+        "es": "¿Qué pieza de ajedrez se mueve en forma de L?"
+      },
       "choices": [
-        { "en": "Bishop", "es": "El alfil" },
-        { "en": "Rook", "es": "La torre" },
-        { "en": "Knight", "es": "El caballo" },
-        { "en": "Queen", "es": "La reina" }
+        {
+          "en": "Bishop",
+          "es": "El alfil"
+        },
+        {
+          "en": "Rook",
+          "es": "La torre"
+        },
+        {
+          "en": "Knight",
+          "es": "El caballo"
+        },
+        {
+          "en": "Queen",
+          "es": "La reina"
+        }
       ],
       "answer": 2,
-      "why": { "en": "The knight moves two squares one way and one square to the side, and it can jump over other pieces.", "es": "El caballo avanza dos casillas en una dirección y una hacia el lado, y puede saltar por encima de otras piezas." },
+      "why": {
+        "en": "The knight moves two squares one way and one square to the side, and it can jump over other pieces.",
+        "es": "El caballo avanza dos casillas en una dirección y una hacia el lado, y puede saltar por encima de otras piezas."
+      },
       "topic": "chess",
       "source": "https://www.britannica.com/topic/chess"
     },
     {
-      "id": "everyday-medium-002", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧀",
-      "q": { "en": "Cheese is made mostly from which food?", "es": "¿De qué alimento se hace principalmente el queso?" },
+      "id": "everyday-medium-002",
+      "level": "medium",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧀",
+      "q": {
+        "en": "Cheese is made mostly from which food?",
+        "es": "¿De qué alimento se hace principalmente el queso?"
+      },
       "choices": [
-        { "en": "Flour", "es": "Harina" },
-        { "en": "Milk", "es": "Leche" },
-        { "en": "Eggs", "es": "Huevos" },
-        { "en": "Corn", "es": "Maíz" }
+        {
+          "en": "Flour",
+          "es": "Harina"
+        },
+        {
+          "en": "Milk",
+          "es": "Leche"
+        },
+        {
+          "en": "Eggs",
+          "es": "Huevos"
+        },
+        {
+          "en": "Corn",
+          "es": "Maíz"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Cheese makers add special bacteria and an enzyme to milk so it thickens into curds, which are pressed and aged.", "es": "Para hacer queso se agregan bacterias y una enzima a la leche; se forma la cuajada, que luego se prensa y se deja madurar." },
+      "why": {
+        "en": "Cheese makers add special bacteria and an enzyme to milk so it thickens into curds, which are pressed and aged.",
+        "es": "Para hacer queso se agregan bacterias y una enzima a la leche; se forma la cuajada, que luego se prensa y se deja madurar."
+      },
       "topic": "how food is made",
       "source": "https://www.britannica.com/topic/cheese"
     },
     {
-      "id": "everyday-medium-003", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
-      "q": { "en": "Which month has the fewest days?", "es": "¿Qué mes tiene menos días?" },
+      "id": "everyday-medium-003",
+      "level": "medium",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📅",
+      "q": {
+        "en": "Which month has the fewest days?",
+        "es": "¿Qué mes tiene menos días?"
+      },
       "choices": [
-        { "en": "April", "es": "Abril" },
-        { "en": "June", "es": "Junio" },
-        { "en": "September", "es": "Septiembre" },
-        { "en": "February", "es": "Febrero" }
+        {
+          "en": "April",
+          "es": "Abril"
+        },
+        {
+          "en": "June",
+          "es": "Junio"
+        },
+        {
+          "en": "September",
+          "es": "Septiembre"
+        },
+        {
+          "en": "February",
+          "es": "Febrero"
+        }
       ],
       "answer": 3,
-      "why": { "en": "February has 28 days, or 29 in a leap year; every other month has 30 or 31 days.", "es": "Febrero tiene 28 días, o 29 en un año bisiesto; todos los demás meses tienen 30 o 31 días." },
+      "why": {
+        "en": "February has 28 days, or 29 in a leap year; every other month has 30 or 31 days.",
+        "es": "Febrero tiene 28 días, o 29 en un año bisiesto; todos los demás meses tienen 30 o 31 días."
+      },
       "topic": "months and seasons",
       "source": "https://www.britannica.com/science/leap-year-calendar"
     },
     {
-      "id": "everyday-hard-001", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏅",
-      "q": { "en": "In which country did the ancient Olympic Games begin?", "es": "¿En qué país comenzaron los antiguos Juegos Olímpicos?" },
+      "id": "everyday-hard-001",
+      "level": "hard",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🏅",
+      "q": {
+        "en": "In which country did the ancient Olympic Games begin?",
+        "es": "¿En qué país comenzaron los antiguos Juegos Olímpicos?"
+      },
       "choices": [
-        { "en": "Greece", "es": "Grecia" },
-        { "en": "Italy", "es": "Italia" },
-        { "en": "Egypt", "es": "Egipto" },
-        { "en": "Turkey", "es": "Turquía" }
+        {
+          "en": "Greece",
+          "es": "Grecia"
+        },
+        {
+          "en": "Italy",
+          "es": "Italia"
+        },
+        {
+          "en": "Egypt",
+          "es": "Egipto"
+        },
+        {
+          "en": "Turkey",
+          "es": "Turquía"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The first Olympic Games were held at Olympia, in Greece, about 2,800 years ago, and the first event was a footrace.", "es": "Los primeros Juegos Olímpicos se hicieron en Olimpia, Grecia, hace unos 2800 años, y la primera prueba fue una carrera a pie." },
+      "why": {
+        "en": "The first Olympic Games were held at Olympia, in Greece, about 2,800 years ago, and the first event was a footrace.",
+        "es": "Los primeros Juegos Olímpicos se hicieron en Olimpia, Grecia, hace unos 2800 años, y la primera prueba fue una carrera a pie."
+      },
       "topic": "olympic history",
       "source": "https://www.britannica.com/sports/Olympic-Games"
     },
     {
-      "id": "everyday-hard-002", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
-      "q": { "en": "In chess, what is it called when a pawn reaches the far end of the board and becomes another piece?", "es": "En ajedrez, ¿cómo se llama cuando un peón llega al otro extremo del tablero y se convierte en otra pieza?" },
+      "id": "everyday-hard-002",
+      "level": "hard",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "♟️",
+      "q": {
+        "en": "In chess, what is it called when a pawn reaches the far end of the board and becomes another piece?",
+        "es": "En ajedrez, ¿cómo se llama cuando un peón llega al otro extremo del tablero y se convierte en otra pieza?"
+      },
       "choices": [
-        { "en": "Castling", "es": "El enroque" },
-        { "en": "Promotion", "es": "La coronación" },
-        { "en": "En passant", "es": "La captura al paso" },
-        { "en": "Checkmate", "es": "El jaque mate" }
+        {
+          "en": "Castling",
+          "es": "El enroque"
+        },
+        {
+          "en": "Promotion",
+          "es": "La coronación"
+        },
+        {
+          "en": "En passant",
+          "es": "La captura al paso"
+        },
+        {
+          "en": "Checkmate",
+          "es": "El jaque mate"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Promotion lets a pawn become a queen, rook, bishop or knight; most players pick a queen, the strongest piece.", "es": "La coronación permite que un peón se convierta en reina, torre, alfil o caballo; casi siempre se elige la reina, la pieza más fuerte." },
+      "why": {
+        "en": "Promotion lets a pawn become a queen, rook, bishop or knight; most players pick a queen, the strongest piece.",
+        "es": "La coronación permite que un peón se convierta en reina, torre, alfil o caballo; casi siempre se elige la reina, la pieza más fuerte."
+      },
       "topic": "chess terms",
       "source": "https://www.britannica.com/topic/chess"
     },
     {
-      "id": "everyday-hard-003", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏦",
-      "q": { "en": "When you keep money in a savings account, what is the extra money the bank pays you called?", "es": "Si guardas dinero en una cuenta de ahorros, ¿cómo se llama el dinero extra que te paga el banco?" },
+      "id": "everyday-hard-003",
+      "level": "hard",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🏦",
+      "q": {
+        "en": "When you keep money in a savings account, what is the extra money the bank pays you called?",
+        "es": "Si guardas dinero en una cuenta de ahorros, ¿cómo se llama el dinero extra que te paga el banco?"
+      },
       "choices": [
-        { "en": "Tax", "es": "Impuesto" },
-        { "en": "Loan", "es": "Préstamo" },
-        { "en": "Change", "es": "Cambio" },
-        { "en": "Interest", "es": "Interés" }
+        {
+          "en": "Tax",
+          "es": "Impuesto"
+        },
+        {
+          "en": "Loan",
+          "es": "Préstamo"
+        },
+        {
+          "en": "Change",
+          "es": "Cambio"
+        },
+        {
+          "en": "Interest",
+          "es": "Interés"
+        }
       ],
       "answer": 3,
-      "why": { "en": "Interest is a small percentage the bank adds to your savings, because it can lend your money to other people.", "es": "El interés es un pequeño porcentaje que el banco suma a tus ahorros, porque puede prestar tu dinero a otras personas." },
+      "why": {
+        "en": "Interest is a small percentage the bank adds to your savings, because it can lend your money to other people.",
+        "es": "El interés es un pequeño porcentaje que el banco suma a tus ahorros, porque puede prestar tu dinero a otras personas."
+      },
       "topic": "banks and interest",
       "source": "https://www.britannica.com/topic/interest-economics"
     },
     {
-      "id": "everyday-easy-004", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
-      "q": { "en": "Which animal gives us the milk we drink?", "es": "¿Qué animal nos da la leche que tomamos?" },
+      "id": "everyday-easy-004",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥛",
+      "q": {
+        "en": "Which animal gives us the milk we drink?",
+        "es": "¿Qué animal nos da la leche que tomamos?"
+      },
       "choices": [
-        { "en": "Cow", "es": "La vaca", "emoji": "🐄" },
-        { "en": "Chicken", "es": "La gallina", "emoji": "🐔" },
-        { "en": "Cat", "es": "El gato", "emoji": "🐱" }
+        {
+          "en": "Cow",
+          "es": "La vaca",
+          "emoji": "🐄"
+        },
+        {
+          "en": "Chicken",
+          "es": "La gallina",
+          "emoji": "🐔"
+        },
+        {
+          "en": "Cat",
+          "es": "El gato",
+          "emoji": "🐱"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Cows make milk for their calves, and a dairy cow can fill about a bathtub with milk each week.", "es": "Las vacas producen leche para sus terneros, y una vaca lechera puede llenar casi una tina de leche cada semana." },
+      "why": {
+        "en": "Cows make milk for their calves, and a dairy cow can fill about a bathtub with milk each week.",
+        "es": "Las vacas producen leche para sus terneros, y una vaca lechera puede llenar casi una tina de leche cada semana."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/topic/dairy-product"
     },
     {
-      "id": "everyday-easy-005", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍯",
-      "q": { "en": "Where do we get honey from?", "es": "¿De dónde sacamos la miel?" },
+      "id": "everyday-easy-005",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍯",
+      "q": {
+        "en": "Where do we get honey from?",
+        "es": "¿De dónde sacamos la miel?"
+      },
       "choices": [
-        { "en": "Bees", "es": "Las abejas", "emoji": "🐝" },
-        { "en": "Ants", "es": "Las hormigas", "emoji": "🐜" },
-        { "en": "Fish", "es": "Los peces", "emoji": "🐟" }
+        {
+          "en": "Bees",
+          "es": "Las abejas",
+          "emoji": "🐝"
+        },
+        {
+          "en": "Ants",
+          "es": "Las hormigas",
+          "emoji": "🐜"
+        },
+        {
+          "en": "Fish",
+          "es": "Los peces",
+          "emoji": "🐟"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Bees make honey from flower nectar, and honey found in ancient jars was still good to eat.", "es": "Las abejas hacen miel con el néctar de las flores, y la miel guardada en jarras antiguas todavía se podía comer." },
+      "why": {
+        "en": "Bees make honey from flower nectar, and honey found in ancient jars was still good to eat.",
+        "es": "Las abejas hacen miel con el néctar de las flores, y la miel guardada en jarras antiguas todavía se podía comer."
+      },
       "topic": "where food comes from",
       "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/honey-bee"
     },
     {
-      "id": "everyday-easy-006", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍞",
-      "q": { "en": "What food is bread made from?", "es": "¿Con qué se hace el pan?" },
+      "id": "everyday-easy-006",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍞",
+      "q": {
+        "en": "What food is bread made from?",
+        "es": "¿Con qué se hace el pan?"
+      },
       "choices": [
-        { "en": "Wheat flour", "es": "Harina de trigo", "emoji": "🌾" },
-        { "en": "Corn cobs", "es": "Mazorcas de maíz", "emoji": "🌽" },
-        { "en": "Sand", "es": "Arena", "emoji": "🏖️" }
+        {
+          "en": "Wheat flour",
+          "es": "Harina de trigo",
+          "emoji": "🌾"
+        },
+        {
+          "en": "Corn cobs",
+          "es": "Mazorcas de maíz",
+          "emoji": "🌽"
+        },
+        {
+          "en": "Sand",
+          "es": "Arena",
+          "emoji": "🏖️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Bread is made from wheat ground into flour, and tiny yeast bubbles make the dough puff up.", "es": "El pan se hace con trigo molido en harina, y las burbujas de la levadura hacen que la masa crezca." },
+      "why": {
+        "en": "Bread is made from wheat ground into flour, and tiny yeast bubbles make the dough puff up.",
+        "es": "El pan se hace con trigo molido en harina, y las burbujas de la levadura hacen que la masa crezca."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/topic/bread"
     },
     {
-      "id": "everyday-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍫",
-      "q": { "en": "Chocolate is made from which plant part?", "es": "¿De qué parte de la planta sale el chocolate?" },
+      "id": "everyday-easy-007",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍫",
+      "q": {
+        "en": "Chocolate is made from which plant part?",
+        "es": "¿De qué parte de la planta sale el chocolate?"
+      },
       "choices": [
-        { "en": "Beans inside a pod", "es": "Semillas dentro de una vaina", "emoji": "🫘" },
-        { "en": "Leaves", "es": "Las hojas", "emoji": "🍃" },
-        { "en": "Roots", "es": "Las raíces", "emoji": "🥕" }
+        {
+          "en": "Beans inside a pod",
+          "es": "Semillas dentro de una vaina",
+          "emoji": "🫘"
+        },
+        {
+          "en": "Leaves",
+          "es": "Las hojas",
+          "emoji": "🍃"
+        },
+        {
+          "en": "Roots",
+          "es": "Las raíces",
+          "emoji": "🥕"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Chocolate starts as cacao beans that grow inside a big pod on a tree trunk, then get roasted.", "es": "El chocolate empieza como semillas de cacao que crecen dentro de una vaina pegada al tronco del árbol." },
+      "why": {
+        "en": "Chocolate starts as cacao beans that grow inside a big pod on a tree trunk, then get roasted.",
+        "es": "El chocolate empieza como semillas de cacao que crecen dentro de una vaina pegada al tronco del árbol."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/topic/chocolate"
     },
     {
-      "id": "everyday-easy-008", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫓",
-      "q": { "en": "Which plant gives us tortillas and tamales?", "es": "¿Qué planta nos da las tortillas y los tamales?" },
+      "id": "everyday-easy-008",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🫓",
+      "q": {
+        "en": "Which plant gives us tortillas and tamales?",
+        "es": "¿Qué planta nos da las tortillas y los tamales?"
+      },
       "choices": [
-        { "en": "Corn", "es": "El maíz", "emoji": "🌽" },
-        { "en": "Potato", "es": "La papa", "emoji": "🥔" },
-        { "en": "Banana", "es": "El plátano", "emoji": "🍌" }
+        {
+          "en": "Corn",
+          "es": "El maíz",
+          "emoji": "🌽"
+        },
+        {
+          "en": "Potato",
+          "es": "La papa",
+          "emoji": "🥔"
+        },
+        {
+          "en": "Banana",
+          "es": "El plátano",
+          "emoji": "🍌"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Tortillas and tamales come from corn soaked in lime water, a trick invented in Mexico long ago.", "es": "Las tortillas y los tamales vienen del maíz cocido en agua con cal, una idea inventada en México hace siglos." },
+      "why": {
+        "en": "Tortillas and tamales come from corn soaked in lime water, a trick invented in Mexico long ago.",
+        "es": "Las tortillas y los tamales vienen del maíz cocido en agua con cal, una idea inventada en México hace siglos."
+      },
       "topic": "latin american food",
       "source": "https://www.britannica.com/topic/tortilla"
     },
     {
-      "id": "everyday-easy-009", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍚",
-      "q": { "en": "Where does rice grow before we eat it?", "es": "¿Dónde crece el arroz antes de comerlo?" },
+      "id": "everyday-easy-009",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍚",
+      "q": {
+        "en": "Where does rice grow before we eat it?",
+        "es": "¿Dónde crece el arroz antes de comerlo?"
+      },
       "choices": [
-        { "en": "In flooded fields", "es": "En campos inundados", "emoji": "🌾" },
-        { "en": "On tall trees", "es": "En árboles altos", "emoji": "🌳" },
-        { "en": "Under rocks", "es": "Debajo de las piedras", "emoji": "🪨" }
+        {
+          "en": "In flooded fields",
+          "es": "En campos inundados",
+          "emoji": "🌾"
+        },
+        {
+          "en": "On tall trees",
+          "es": "En árboles altos",
+          "emoji": "🌳"
+        },
+        {
+          "en": "Under rocks",
+          "es": "Debajo de las piedras",
+          "emoji": "🪨"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Rice grows in fields flooded with water called paddies, and more people eat rice than any other grain.", "es": "El arroz crece en campos inundados llamados arrozales, y más gente come arroz que cualquier otro grano." },
+      "why": {
+        "en": "Rice grows in fields flooded with water called paddies, and more people eat rice than any other grain.",
+        "es": "El arroz crece en campos inundados llamados arrozales, y más gente come arroz que cualquier otro grano."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/plant/rice"
     },
     {
-      "id": "everyday-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍎",
-      "q": { "en": "Where do apples grow before we pick them?", "es": "¿Dónde crecen las manzanas antes de cortarlas?" },
+      "id": "everyday-easy-010",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍎",
+      "q": {
+        "en": "Where do apples grow before we pick them?",
+        "es": "¿Dónde crecen las manzanas antes de cortarlas?"
+      },
       "choices": [
-        { "en": "On a tree", "es": "En un árbol", "emoji": "🌳" },
-        { "en": "Under the ground", "es": "Bajo la tierra", "emoji": "🕳️" },
-        { "en": "On a vine", "es": "En una enredadera", "emoji": "🍇" }
+        {
+          "en": "On a tree",
+          "es": "En un árbol",
+          "emoji": "🌳"
+        },
+        {
+          "en": "Under the ground",
+          "es": "Bajo la tierra",
+          "emoji": "🕳️"
+        },
+        {
+          "en": "On a vine",
+          "es": "En una enredadera",
+          "emoji": "🍇"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Apples grow on trees, and each apple started as a flower that a bee visited in spring.", "es": "Las manzanas crecen en árboles, y cada manzana empezó como una flor que una abeja visitó en primavera." },
+      "why": {
+        "en": "Apples grow on trees, and each apple started as a flower that a bee visited in spring.",
+        "es": "Las manzanas crecen en árboles, y cada manzana empezó como una flor que una abeja visitó en primavera."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/plant/apple"
     },
     {
-      "id": "everyday-easy-011", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥜",
-      "q": { "en": "Where do peanuts grow on the plant?", "es": "¿Dónde crecen los cacahuates en la planta?" },
+      "id": "everyday-easy-011",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥜",
+      "q": {
+        "en": "Where do peanuts grow on the plant?",
+        "es": "¿Dónde crecen los cacahuates en la planta?"
+      },
       "choices": [
-        { "en": "Under the ground", "es": "Bajo la tierra", "emoji": "🥜" },
-        { "en": "On the top leaves", "es": "En las hojas de arriba", "emoji": "🍃" },
-        { "en": "On a high branch", "es": "En una rama alta", "emoji": "🌳" }
+        {
+          "en": "Under the ground",
+          "es": "Bajo la tierra",
+          "emoji": "🥜"
+        },
+        {
+          "en": "On the top leaves",
+          "es": "En las hojas de arriba",
+          "emoji": "🍃"
+        },
+        {
+          "en": "On a high branch",
+          "es": "En una rama alta",
+          "emoji": "🌳"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Peanuts grow underground, so a farmer pulls up the whole plant to find the pods hanging on roots.", "es": "Los cacahuates crecen bajo la tierra, así que el granjero arranca la planta entera para hallar las vainas." },
+      "why": {
+        "en": "Peanuts grow underground, so a farmer pulls up the whole plant to find the pods hanging on roots.",
+        "es": "Los cacahuates crecen bajo la tierra, así que el granjero arranca la planta entera para hallar las vainas."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/plant/peanut"
     },
     {
-      "id": "everyday-easy-012", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥔",
-      "q": { "en": "Which part of a potato plant do we eat?", "es": "¿Qué parte de la planta de papa comemos?" },
+      "id": "everyday-easy-012",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥔",
+      "q": {
+        "en": "Which part of a potato plant do we eat?",
+        "es": "¿Qué parte de la planta de papa comemos?"
+      },
       "choices": [
-        { "en": "The part under the soil", "es": "La parte bajo la tierra", "emoji": "🥔" },
-        { "en": "The flowers", "es": "Las flores", "emoji": "🌸" },
-        { "en": "The leaves", "es": "Las hojas", "emoji": "🍃" }
+        {
+          "en": "The part under the soil",
+          "es": "La parte bajo la tierra",
+          "emoji": "🥔"
+        },
+        {
+          "en": "The flowers",
+          "es": "Las flores",
+          "emoji": "🌸"
+        },
+        {
+          "en": "The leaves",
+          "es": "Las hojas",
+          "emoji": "🍃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "We eat the potato's swollen underground stem, and potatoes were first farmed high in the mountains of Peru.", "es": "Comemos el tallo hinchado que crece bajo la tierra, y las papas se cultivaron primero en las montañas de Perú." },
+      "why": {
+        "en": "We eat the potato's swollen underground stem, and potatoes were first farmed high in the mountains of Peru.",
+        "es": "Comemos el tallo hinchado que crece bajo la tierra, y las papas se cultivaron primero en las montañas de Perú."
+      },
       "topic": "where food comes from",
       "source": "https://www.britannica.com/plant/potato"
     },
     {
-      "id": "everyday-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍌",
-      "q": { "en": "Which of these is a fruit?", "es": "¿Cuál de estos es una fruta?" },
+      "id": "everyday-easy-013",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍌",
+      "q": {
+        "en": "Which of these is a fruit?",
+        "es": "¿Cuál de estos es una fruta?"
+      },
       "choices": [
-        { "en": "Banana", "es": "El plátano", "emoji": "🍌" },
-        { "en": "Carrot", "es": "La zanahoria", "emoji": "🥕" },
-        { "en": "Broccoli", "es": "El brócoli", "emoji": "🥦" }
+        {
+          "en": "Banana",
+          "es": "El plátano",
+          "emoji": "🍌"
+        },
+        {
+          "en": "Carrot",
+          "es": "La zanahoria",
+          "emoji": "🥕"
+        },
+        {
+          "en": "Broccoli",
+          "es": "El brócoli",
+          "emoji": "🥦"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A fruit holds the seeds of a plant, and a banana plant is really a giant herb, not a tree.", "es": "Una fruta guarda las semillas de la planta, y la mata de plátano es una hierba gigante, no un árbol." },
+      "why": {
+        "en": "A fruit holds the seeds of a plant, and a banana plant is really a giant herb, not a tree.",
+        "es": "Una fruta guarda las semillas de la planta, y la mata de plátano es una hierba gigante, no un árbol."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.myplate.gov/eat-healthy/fruits"
     },
     {
-      "id": "everyday-easy-014", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍅",
-      "q": { "en": "Which food grows with seeds inside it?", "es": "¿Cuál alimento crece con semillas adentro?" },
+      "id": "everyday-easy-014",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍅",
+      "q": {
+        "en": "Which food grows with seeds inside it?",
+        "es": "¿Cuál alimento crece con semillas adentro?"
+      },
       "choices": [
-        { "en": "Tomato", "es": "El tomate", "emoji": "🍅" },
-        { "en": "Lettuce", "es": "La lechuga", "emoji": "🥬" },
-        { "en": "Carrot", "es": "La zanahoria", "emoji": "🥕" }
+        {
+          "en": "Tomato",
+          "es": "El tomate",
+          "emoji": "🍅"
+        },
+        {
+          "en": "Lettuce",
+          "es": "La lechuga",
+          "emoji": "🥬"
+        },
+        {
+          "en": "Carrot",
+          "es": "La zanahoria",
+          "emoji": "🥕"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Seeds inside make the tomato a fruit, even though cooks treat it like a vegetable in soups and salsas.", "es": "Las semillas de adentro hacen del tomate una fruta, aunque en la cocina se usa como verdura en sopas y salsas." },
+      "why": {
+        "en": "Seeds inside make the tomato a fruit, even though cooks treat it like a vegetable in soups and salsas.",
+        "es": "Las semillas de adentro hacen del tomate una fruta, aunque en la cocina se usa como verdura en sopas y salsas."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.britannica.com/plant/tomato"
     },
     {
-      "id": "everyday-easy-015", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥕",
-      "q": { "en": "Which of these grows under the ground?", "es": "¿Cuál de estos crece bajo la tierra?" },
+      "id": "everyday-easy-015",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥕",
+      "q": {
+        "en": "Which of these grows under the ground?",
+        "es": "¿Cuál de estos crece bajo la tierra?"
+      },
       "choices": [
-        { "en": "Carrot", "es": "La zanahoria", "emoji": "🥕" },
-        { "en": "Mango", "es": "El mango", "emoji": "🥭" },
-        { "en": "Lettuce", "es": "La lechuga", "emoji": "🥬" }
+        {
+          "en": "Carrot",
+          "es": "La zanahoria",
+          "emoji": "🥕"
+        },
+        {
+          "en": "Mango",
+          "es": "El mango",
+          "emoji": "🥭"
+        },
+        {
+          "en": "Lettuce",
+          "es": "La lechuga",
+          "emoji": "🥬"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A carrot is a fat root that stores food for the plant, and wild carrots were purple and white.", "es": "La zanahoria es una raíz gorda que guarda comida para la planta, y las silvestres eran moradas y blancas." },
+      "why": {
+        "en": "A carrot is a fat root that stores food for the plant, and wild carrots were purple and white.",
+        "es": "La zanahoria es una raíz gorda que guarda comida para la planta, y las silvestres eran moradas y blancas."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.britannica.com/plant/carrot"
     },
     {
-      "id": "everyday-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥭",
-      "q": { "en": "Which fruit has one big flat seed?", "es": "¿Qué fruta tiene una sola semilla grande y plana?" },
+      "id": "everyday-easy-016",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥭",
+      "q": {
+        "en": "Which fruit has one big flat seed?",
+        "es": "¿Qué fruta tiene una sola semilla grande y plana?"
+      },
       "choices": [
-        { "en": "Mango", "es": "El mango", "emoji": "🥭" },
-        { "en": "Grape", "es": "La uva", "emoji": "🍇" },
-        { "en": "Strawberry", "es": "La fresa", "emoji": "🍓" }
+        {
+          "en": "Mango",
+          "es": "El mango",
+          "emoji": "🥭"
+        },
+        {
+          "en": "Grape",
+          "es": "La uva",
+          "emoji": "🍇"
+        },
+        {
+          "en": "Strawberry",
+          "es": "La fresa",
+          "emoji": "🍓"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A mango hides one wide flat seed in the middle, and mangoes belong to the same family as cashews.", "es": "El mango esconde una semilla ancha y plana, y pertenece a la misma familia de plantas que la nuez de la India." },
+      "why": {
+        "en": "A mango hides one wide flat seed in the middle, and mangoes belong to the same family as cashews.",
+        "es": "El mango esconde una semilla ancha y plana, y pertenece a la misma familia de plantas que la nuez de la India."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.britannica.com/plant/mango-plant-and-fruit"
     },
     {
-      "id": "everyday-easy-017", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧅",
-      "q": { "en": "Which vegetable makes your eyes water?", "es": "¿Qué verdura te hace llorar los ojos?" },
+      "id": "everyday-easy-017",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧅",
+      "q": {
+        "en": "Which vegetable makes your eyes water?",
+        "es": "¿Qué verdura te hace llorar los ojos?"
+      },
       "choices": [
-        { "en": "Onion", "es": "La cebolla", "emoji": "🧅" },
-        { "en": "Cucumber", "es": "El pepino", "emoji": "🥒" },
-        { "en": "Corn", "es": "El maíz", "emoji": "🌽" }
+        {
+          "en": "Onion",
+          "es": "La cebolla",
+          "emoji": "🧅"
+        },
+        {
+          "en": "Cucumber",
+          "es": "El pepino",
+          "emoji": "🥒"
+        },
+        {
+          "en": "Corn",
+          "es": "El maíz",
+          "emoji": "🌽"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A cut onion puffs out a gas that stings your eyes, so tears come to wash it away.", "es": "La cebolla cortada suelta un gas que pica en los ojos, y las lágrimas salen para limpiarlo." },
+      "why": {
+        "en": "A cut onion puffs out a gas that stings your eyes, so tears come to wash it away.",
+        "es": "La cebolla cortada suelta un gas que pica en los ojos, y las lágrimas salen para limpiarlo."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.britannica.com/plant/onion"
     },
     {
-      "id": "everyday-easy-018", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫘",
-      "q": { "en": "Which food grows in a long pod?", "es": "¿Qué alimento crece dentro de una vaina larga?" },
+      "id": "everyday-easy-018",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🫘",
+      "q": {
+        "en": "Which food grows in a long pod?",
+        "es": "¿Qué alimento crece dentro de una vaina larga?"
+      },
       "choices": [
-        { "en": "Beans", "es": "Los frijoles", "emoji": "🫘" },
-        { "en": "Rice", "es": "El arroz", "emoji": "🍚" },
-        { "en": "Cheese", "es": "El queso", "emoji": "🧀" }
+        {
+          "en": "Beans",
+          "es": "Los frijoles",
+          "emoji": "🫘"
+        },
+        {
+          "en": "Rice",
+          "es": "El arroz",
+          "emoji": "🍚"
+        },
+        {
+          "en": "Cheese",
+          "es": "El queso",
+          "emoji": "🧀"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Beans grow in pods on a vine, and beans with rice give your body all the protein it needs.", "es": "Los frijoles crecen en vainas, y el arroz con frijoles le da a tu cuerpo toda la proteína que necesita." },
+      "why": {
+        "en": "Beans grow in pods on a vine, and beans with rice give your body all the protein it needs.",
+        "es": "Los frijoles crecen en vainas, y el arroz con frijoles le da a tu cuerpo toda la proteína que necesita."
+      },
       "topic": "fruits and vegetables",
       "source": "https://www.myplate.gov/eat-healthy/protein-foods"
     },
     {
-      "id": "everyday-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "📆",
-      "q": { "en": "How many days make one whole week?", "es": "¿Cuántos días tiene una semana completa?" },
+      "id": "everyday-easy-019",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📆",
+      "q": {
+        "en": "How many days make one whole week?",
+        "es": "¿Cuántos días tiene una semana completa?"
+      },
       "choices": [
-        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
-        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
-        { "en": "Ten", "es": "Diez", "emoji": "🔟" }
+        {
+          "en": "Seven",
+          "es": "Siete",
+          "emoji": "7️⃣"
+        },
+        {
+          "en": "Three",
+          "es": "Tres",
+          "emoji": "3️⃣"
+        },
+        {
+          "en": "Ten",
+          "es": "Diez",
+          "emoji": "🔟"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A week has seven days, one for each of the seven sky objects that ancient people could watch move.", "es": "La semana tiene siete días, uno por cada uno de los siete astros que la gente antigua veía moverse." },
+      "why": {
+        "en": "A week has seven days, one for each of the seven sky objects that ancient people could watch move.",
+        "es": "La semana tiene siete días, uno por cada uno de los siete astros que la gente antigua veía moverse."
+      },
       "topic": "days of the week",
       "source": "https://www.britannica.com/science/week"
     },
     {
-      "id": "everyday-easy-020", "level": "easy", "type": "mc", "lang": "both", "emoji": "📅",
-      "q": { "en": "Which day comes right after Tuesday?", "es": "¿Qué día sigue justo después del martes?" },
+      "id": "everyday-easy-020",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📅",
+      "q": {
+        "en": "Which day comes right after Tuesday?",
+        "es": "¿Qué día sigue justo después del martes?"
+      },
       "choices": [
-        { "en": "Wednesday", "es": "El miércoles", "emoji": "📅" },
-        { "en": "Sunday", "es": "El domingo", "emoji": "🗓️" },
-        { "en": "Friday", "es": "El viernes", "emoji": "📆" }
+        {
+          "en": "Wednesday",
+          "es": "El miércoles",
+          "emoji": "📅"
+        },
+        {
+          "en": "Sunday",
+          "es": "El domingo",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "Friday",
+          "es": "El viernes",
+          "emoji": "📆"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Wednesday follows Tuesday, and its English name comes from Woden, a god in old northern stories.", "es": "El miércoles sigue al martes, y su nombre viene de Mercurio, un dios antiguo que también es un planeta." },
+      "why": {
+        "en": "Wednesday follows Tuesday, and its English name comes from Woden, a god in old northern stories.",
+        "es": "El miércoles sigue al martes, y su nombre viene de Mercurio, un dios antiguo que también es un planeta."
+      },
       "topic": "days of the week",
       "source": "https://www.britannica.com/science/week"
     },
     {
-      "id": "everyday-easy-021", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛌",
-      "q": { "en": "Which two days make up the weekend?", "es": "¿Qué dos días forman el fin de semana?" },
+      "id": "everyday-easy-021",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🛌",
+      "q": {
+        "en": "Which two days make up the weekend?",
+        "es": "¿Qué dos días forman el fin de semana?"
+      },
       "choices": [
-        { "en": "Saturday and Sunday", "es": "El sábado y el domingo", "emoji": "🛌" },
-        { "en": "Monday and Tuesday", "es": "El lunes y el martes", "emoji": "🏫" },
-        { "en": "Thursday and Friday", "es": "El jueves y el viernes", "emoji": "📚" }
+        {
+          "en": "Saturday and Sunday",
+          "es": "El sábado y el domingo",
+          "emoji": "🛌"
+        },
+        {
+          "en": "Monday and Tuesday",
+          "es": "El lunes y el martes",
+          "emoji": "🏫"
+        },
+        {
+          "en": "Thursday and Friday",
+          "es": "El jueves y el viernes",
+          "emoji": "📚"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Saturday and Sunday are the weekend, and Saturday is named for Saturn, the planet with bright rings.", "es": "El sábado y el domingo forman el fin de semana, y sábado viene de Saturno, el planeta de los anillos." },
+      "why": {
+        "en": "Saturday and Sunday are the weekend, and Saturday is named for Saturn, the planet with bright rings.",
+        "es": "El sábado y el domingo forman el fin de semana, y sábado viene de Saturno, el planeta de los anillos."
+      },
       "topic": "days of the week",
       "source": "https://www.britannica.com/science/week"
     },
     {
-      "id": "everyday-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "☀️",
-      "q": { "en": "Which day comes just before Monday?", "es": "¿Qué día llega justo antes del lunes?" },
+      "id": "everyday-easy-022",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "☀️",
+      "q": {
+        "en": "Which day comes just before Monday?",
+        "es": "¿Qué día llega justo antes del lunes?"
+      },
       "choices": [
-        { "en": "Sunday", "es": "El domingo", "emoji": "☀️" },
-        { "en": "Wednesday", "es": "El miércoles", "emoji": "📅" },
-        { "en": "Saturday", "es": "El sábado", "emoji": "🎪" }
+        {
+          "en": "Sunday",
+          "es": "El domingo",
+          "emoji": "☀️"
+        },
+        {
+          "en": "Wednesday",
+          "es": "El miércoles",
+          "emoji": "📅"
+        },
+        {
+          "en": "Saturday",
+          "es": "El sábado",
+          "emoji": "🎪"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Sunday comes before Monday, and Sunday is named for the Sun while Monday is named for the Moon.", "es": "El domingo llega antes del lunes, y en español lunes viene de la Luna y domingo del día del Señor." },
+      "why": {
+        "en": "Sunday comes before Monday, and Sunday is named for the Sun while Monday is named for the Moon.",
+        "es": "El domingo llega antes del lunes, y en español lunes viene de la Luna y domingo del día del Señor."
+      },
       "topic": "days of the week",
       "source": "https://www.britannica.com/science/week"
     },
     {
-      "id": "everyday-easy-023", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔜",
-      "q": { "en": "Which word names the day that follows this one?", "es": "¿Qué palabra nombra el día que sigue?" },
+      "id": "everyday-easy-023",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🔜",
+      "q": {
+        "en": "Which word names the day that follows this one?",
+        "es": "¿Qué palabra nombra el día que sigue?"
+      },
       "choices": [
-        { "en": "Tomorrow", "es": "Mañana", "emoji": "🔜" },
-        { "en": "Yesterday", "es": "Ayer", "emoji": "🔙" },
-        { "en": "Noon", "es": "El mediodía", "emoji": "🕛" }
+        {
+          "en": "Tomorrow",
+          "es": "Mañana",
+          "emoji": "🔜"
+        },
+        {
+          "en": "Yesterday",
+          "es": "Ayer",
+          "emoji": "🔙"
+        },
+        {
+          "en": "Noon",
+          "es": "El mediodía",
+          "emoji": "🕛"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Tomorrow is the day that follows, yesterday is the day that passed, and both words come from very old English.", "es": "Mañana es el día que sigue y ayer es el que pasó; en español la misma palabra mañana nombra el amanecer." },
+      "why": {
+        "en": "Tomorrow is the day that follows, yesterday is the day that passed, and both words come from very old English.",
+        "es": "Mañana es el día que sigue y ayer es el que pasó; en español la misma palabra mañana nombra el amanecer."
+      },
       "topic": "days of the week",
       "source": "https://www.britannica.com/science/day"
     },
     {
-      "id": "everyday-easy-024", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥣",
-      "q": { "en": "When do we usually eat breakfast?", "es": "¿Cuándo desayunamos normalmente?" },
+      "id": "everyday-easy-024",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥣",
+      "q": {
+        "en": "When do we usually eat breakfast?",
+        "es": "¿Cuándo desayunamos normalmente?"
+      },
       "choices": [
-        { "en": "In the morning", "es": "En la mañana", "emoji": "🌅" },
-        { "en": "At midnight", "es": "A la medianoche", "emoji": "🌙" },
-        { "en": "In the evening", "es": "En la tarde", "emoji": "🌆" }
+        {
+          "en": "In the morning",
+          "es": "En la mañana",
+          "emoji": "🌅"
+        },
+        {
+          "en": "At midnight",
+          "es": "A la medianoche",
+          "emoji": "🌙"
+        },
+        {
+          "en": "In the evening",
+          "es": "En la tarde",
+          "emoji": "🌆"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Breakfast comes in the morning and the word means breaking the fast after a whole night without food.", "es": "El desayuno es en la mañana, y la palabra significa dejar el ayuno de toda la noche sin comer." },
+      "why": {
+        "en": "Breakfast comes in the morning and the word means breaking the fast after a whole night without food.",
+        "es": "El desayuno es en la mañana, y la palabra significa dejar el ayuno de toda la noche sin comer."
+      },
       "topic": "parts of the day",
       "source": "https://kidshealth.org/en/kids/breakfast.html"
     },
     {
-      "id": "everyday-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕛",
-      "q": { "en": "What is the middle of the day called?", "es": "¿Cómo se llama la mitad del día?" },
+      "id": "everyday-easy-025",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🕛",
+      "q": {
+        "en": "What is the middle of the day called?",
+        "es": "¿Cómo se llama la mitad del día?"
+      },
       "choices": [
-        { "en": "Noon", "es": "El mediodía", "emoji": "🕛" },
-        { "en": "Dawn", "es": "El amanecer", "emoji": "🌄" },
-        { "en": "Midnight", "es": "La medianoche", "emoji": "🌃" }
+        {
+          "en": "Noon",
+          "es": "El mediodía",
+          "emoji": "🕛"
+        },
+        {
+          "en": "Dawn",
+          "es": "El amanecer",
+          "emoji": "🌄"
+        },
+        {
+          "en": "Midnight",
+          "es": "La medianoche",
+          "emoji": "🌃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Noon is the middle of the day, when the Sun sits highest and your shadow shrinks to its shortest.", "es": "El mediodía es la mitad del día, cuando el Sol está más alto y tu sombra se hace la más corta." },
+      "why": {
+        "en": "Noon is the middle of the day, when the Sun sits highest and your shadow shrinks to its shortest.",
+        "es": "El mediodía es la mitad del día, cuando el Sol está más alto y tu sombra se hace la más corta."
+      },
       "topic": "parts of the day",
       "source": "https://www.britannica.com/science/day"
     },
     {
-      "id": "everyday-easy-026", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌟",
-      "q": { "en": "When do the stars come out?", "es": "¿Cuándo salen las estrellas?" },
+      "id": "everyday-easy-026",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌟",
+      "q": {
+        "en": "When do the stars come out?",
+        "es": "¿Cuándo salen las estrellas?"
+      },
       "choices": [
-        { "en": "At night", "es": "De noche", "emoji": "🌟" },
-        { "en": "At noon", "es": "Al mediodía", "emoji": "🕛" },
-        { "en": "In the morning", "es": "En la mañana", "emoji": "🌅" }
+        {
+          "en": "At night",
+          "es": "De noche",
+          "emoji": "🌟"
+        },
+        {
+          "en": "At noon",
+          "es": "Al mediodía",
+          "emoji": "🕛"
+        },
+        {
+          "en": "In the morning",
+          "es": "En la mañana",
+          "emoji": "🌅"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Stars shine all the time, but sunlight is so bright that we only see them at night.", "es": "Las estrellas brillan siempre, pero la luz del Sol es tan fuerte que solo las vemos de noche." },
+      "why": {
+        "en": "Stars shine all the time, but sunlight is so bright that we only see them at night.",
+        "es": "Las estrellas brillan siempre, pero la luz del Sol es tan fuerte que solo las vemos de noche."
+      },
       "topic": "parts of the day",
       "source": "https://kids.nationalgeographic.com/space/article/stars"
     },
     {
-      "id": "everyday-easy-027", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍽️",
-      "q": { "en": "Which meal do we eat in the evening?", "es": "¿Qué comida hacemos en la noche?" },
+      "id": "everyday-easy-027",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍽️",
+      "q": {
+        "en": "Which meal do we eat in the evening?",
+        "es": "¿Qué comida hacemos en la noche?"
+      },
       "choices": [
-        { "en": "Dinner", "es": "La cena", "emoji": "🍽️" },
-        { "en": "Breakfast", "es": "El desayuno", "emoji": "🥣" },
-        { "en": "Snack", "es": "La merienda", "emoji": "🍪" }
+        {
+          "en": "Dinner",
+          "es": "La cena",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "Breakfast",
+          "es": "El desayuno",
+          "emoji": "🥣"
+        },
+        {
+          "en": "Snack",
+          "es": "La merienda",
+          "emoji": "🍪"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Dinner is the evening meal, and in many Latin American homes the biggest meal is eaten at midday instead.", "es": "La cena es la comida de la noche, y en muchos hogares latinoamericanos la comida más grande se hace al mediodía." },
+      "why": {
+        "en": "Dinner is the evening meal, and in many Latin American homes the biggest meal is eaten at midday instead.",
+        "es": "La cena es la comida de la noche, y en muchos hogares latinoamericanos la comida más grande se hace al mediodía."
+      },
       "topic": "parts of the day",
       "source": "https://www.myplate.gov/life-stages/kids"
     },
     {
-      "id": "everyday-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌄",
-      "q": { "en": "Which word means the moment the Sun rises?", "es": "¿Qué palabra nombra la salida del Sol?" },
+      "id": "everyday-easy-028",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌄",
+      "q": {
+        "en": "Which word means the moment the Sun rises?",
+        "es": "¿Qué palabra nombra la salida del Sol?"
+      },
       "choices": [
-        { "en": "Dawn", "es": "El amanecer", "emoji": "🌄" },
-        { "en": "Dusk", "es": "El atardecer", "emoji": "🌇" },
-        { "en": "Midnight", "es": "La medianoche", "emoji": "🌃" }
+        {
+          "en": "Dawn",
+          "es": "El amanecer",
+          "emoji": "🌄"
+        },
+        {
+          "en": "Dusk",
+          "es": "El atardecer",
+          "emoji": "🌇"
+        },
+        {
+          "en": "Midnight",
+          "es": "La medianoche",
+          "emoji": "🌃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Dawn is sunrise and dusk is sunset, and roosters crow at dawn because light wakes a clock inside them.", "es": "El amanecer es la salida del Sol y el atardecer su bajada; los gallos cantan porque la luz despierta su reloj interno." },
+      "why": {
+        "en": "Dawn is sunrise and dusk is sunset, and roosters crow at dawn because light wakes a clock inside them.",
+        "es": "El amanecer es la salida del Sol y el atardecer su bajada; los gallos cantan porque la luz despierta su reloj interno."
+      },
       "topic": "parts of the day",
       "source": "https://www.britannica.com/science/dawn-atmospheric-science"
     },
     {
-      "id": "everyday-easy-029", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕐",
-      "q": { "en": "What does the short clock hand show?", "es": "¿Qué muestra la manecilla corta del reloj?" },
+      "id": "everyday-easy-029",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🕐",
+      "q": {
+        "en": "What does the short clock hand show?",
+        "es": "¿Qué muestra la manecilla corta del reloj?"
+      },
       "choices": [
-        { "en": "The hour", "es": "La hora", "emoji": "🕐" },
-        { "en": "The minutes", "es": "Los minutos", "emoji": "⏱️" },
-        { "en": "The weather", "es": "El clima", "emoji": "🌦️" }
+        {
+          "en": "The hour",
+          "es": "La hora",
+          "emoji": "🕐"
+        },
+        {
+          "en": "The minutes",
+          "es": "Los minutos",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "The weather",
+          "es": "El clima",
+          "emoji": "🌦️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The short hand points to the hour and the long hand counts minutes, going all the way around in one hour.", "es": "La manecilla corta marca la hora y la larga cuenta los minutos, dando una vuelta completa en una hora." },
+      "why": {
+        "en": "The short hand points to the hour and the long hand counts minutes, going all the way around in one hour.",
+        "es": "La manecilla corta marca la hora y la larga cuenta los minutos, dando una vuelta completa en una hora."
+      },
       "topic": "clocks and time",
       "source": "https://www.britannica.com/technology/clock"
     },
     {
-      "id": "everyday-easy-030", "level": "easy", "type": "mc", "lang": "both", "emoji": "⏳",
-      "q": { "en": "How many minutes make one hour?", "es": "¿Cuántos minutos tiene una hora?" },
+      "id": "everyday-easy-030",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧦",
+      "q": {
+        "en": "What do you put on before your shoes?",
+        "es": "¿Qué te pones antes de los zapatos?"
+      },
       "choices": [
-        { "en": "Sixty", "es": "Sesenta", "emoji": "🕐" },
-        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
-        { "en": "One hundred", "es": "Cien", "emoji": "💯" }
+        {
+          "en": "Socks",
+          "es": "Calcetines",
+          "emoji": "🧦"
+        },
+        {
+          "en": "Gloves",
+          "es": "Guantes",
+          "emoji": "🧤"
+        },
+        {
+          "en": "A hat",
+          "es": "Un gorro",
+          "emoji": "🧢"
+        }
       ],
       "answer": 0,
-      "why": { "en": "An hour holds sixty minutes, a count we borrowed from ancient Babylon, where people counted in groups of sixty.", "es": "Una hora tiene sesenta minutos, una cuenta heredada de la antigua Babilonia, donde la gente contaba en grupos de sesenta." },
-      "topic": "clocks and time",
-      "source": "https://www.britannica.com/science/hour"
+      "why": {
+        "en": "Socks go on first to keep shoes from rubbing your skin, and they soak up the sweat your feet make all day.",
+        "es": "Los calcetines van primero para que el zapato no roce tu piel, y absorben el sudor que tus pies hacen durante el día."
+      },
+      "topic": "getting dressed",
+      "source": "https://kidshealth.org/en/kids/feet.html"
     },
     {
-      "id": "everyday-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔃",
-      "q": { "en": "Which way do clock hands turn?", "es": "¿Hacia dónde giran las manecillas del reloj?" },
+      "id": "everyday-easy-031",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🔃",
+      "q": {
+        "en": "Which way do clock hands turn?",
+        "es": "¿Hacia dónde giran las manecillas del reloj?"
+      },
       "choices": [
-        { "en": "To the right", "es": "Hacia la derecha", "emoji": "🔃" },
-        { "en": "To the left", "es": "Hacia la izquierda", "emoji": "🔄" },
-        { "en": "Up and down", "es": "Hacia arriba y abajo", "emoji": "🎢" }
+        {
+          "en": "To the right",
+          "es": "Hacia la derecha",
+          "emoji": "🔃"
+        },
+        {
+          "en": "To the left",
+          "es": "Hacia la izquierda",
+          "emoji": "🔄"
+        },
+        {
+          "en": "Up and down",
+          "es": "Hacia arriba y abajo",
+          "emoji": "🎢"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Clock hands turn the way a sundial shadow moves north of the equator, which is why we say clockwise.", "es": "Las manecillas giran como la sombra de un reloj de sol al norte del ecuador, y por eso decimos sentido horario." },
+      "why": {
+        "en": "Clock hands turn the way a sundial shadow moves north of the equator, which is why we say clockwise.",
+        "es": "Las manecillas giran como la sombra de un reloj de sol al norte del ecuador, y por eso decimos sentido horario."
+      },
       "topic": "clocks and time",
       "source": "https://www.britannica.com/technology/clock"
     },
     {
-      "id": "everyday-easy-032", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌞",
-      "q": { "en": "Which object tells time using a shadow?", "es": "¿Qué objeto marca la hora con una sombra?" },
+      "id": "everyday-easy-032",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌞",
+      "q": {
+        "en": "Which object tells time using a shadow?",
+        "es": "¿Qué objeto marca la hora con una sombra?"
+      },
       "choices": [
-        { "en": "A sundial", "es": "Un reloj de sol", "emoji": "🌞" },
-        { "en": "An hourglass", "es": "Un reloj de arena", "emoji": "⏳" },
-        { "en": "A whistle", "es": "Un silbato", "emoji": "📣" }
+        {
+          "en": "A sundial",
+          "es": "Un reloj de sol",
+          "emoji": "🌞"
+        },
+        {
+          "en": "An hourglass",
+          "es": "Un reloj de arena",
+          "emoji": "⏳"
+        },
+        {
+          "en": "A whistle",
+          "es": "Un silbato",
+          "emoji": "📣"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A sundial tells time by a shadow that swings as the Sun crosses the sky, so it rests on cloudy days.", "es": "El reloj de sol marca la hora con una sombra que se mueve mientras el Sol cruza el cielo, y descansa si hay nubes." },
+      "why": {
+        "en": "A sundial tells time by a shadow that swings as the Sun crosses the sky, so it rests on cloudy days.",
+        "es": "El reloj de sol marca la hora con una sombra que se mueve mientras el Sol cruza el cielo, y descansa si hay nubes."
+      },
       "topic": "clocks and time",
       "source": "https://www.britannica.com/technology/sundial"
     },
     {
-      "id": "everyday-easy-033", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌍",
-      "q": { "en": "How many hours are in one day?", "es": "¿Cuántas horas tiene un día?" },
+      "id": "everyday-easy-033",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌍",
+      "q": {
+        "en": "How many hours are in one day?",
+        "es": "¿Cuántas horas tiene un día?"
+      },
       "choices": [
-        { "en": "Twenty-four", "es": "Veinticuatro", "emoji": "🕛" },
-        { "en": "Twelve", "es": "Doce", "emoji": "🕧" },
-        { "en": "Sixty", "es": "Sesenta", "emoji": "🕐" }
+        {
+          "en": "Twenty-four",
+          "es": "Veinticuatro",
+          "emoji": "🕛"
+        },
+        {
+          "en": "Twelve",
+          "es": "Doce",
+          "emoji": "🕧"
+        },
+        {
+          "en": "Sixty",
+          "es": "Sesenta",
+          "emoji": "🕐"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A day has twenty-four hours because Earth takes that long to spin once all the way around.", "es": "El día tiene veinticuatro horas porque la Tierra tarda ese tiempo en dar una vuelta completa sobre sí misma." },
+      "why": {
+        "en": "A day has twenty-four hours because Earth takes that long to spin once all the way around.",
+        "es": "El día tiene veinticuatro horas porque la Tierra tarda ese tiempo en dar una vuelta completa sobre sí misma."
+      },
       "topic": "clocks and time",
       "source": "https://www.britannica.com/science/day"
     },
     {
-      "id": "everyday-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🗓️",
-      "q": { "en": "What do you find on a calendar?", "es": "¿Qué cosa encuentras en un calendario?" },
+      "id": "everyday-easy-034",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🗓️",
+      "q": {
+        "en": "What do you find on a calendar?",
+        "es": "¿Qué cosa encuentras en un calendario?"
+      },
       "choices": [
-        { "en": "The date", "es": "La fecha", "emoji": "📅" },
-        { "en": "Your weight", "es": "Tu peso", "emoji": "⚖️" },
-        { "en": "The temperature", "es": "La temperatura", "emoji": "🌡️" }
+        {
+          "en": "The date",
+          "es": "La fecha",
+          "emoji": "📅"
+        },
+        {
+          "en": "Your weight",
+          "es": "Tu peso",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "The temperature",
+          "es": "La temperatura",
+          "emoji": "🌡️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A calendar shows days and months, and it adds a leap day every four years to stay matched with the Sun.", "es": "El calendario muestra días y meses, y suma un día extra cada cuatro años para seguir al Sol." },
+      "why": {
+        "en": "A calendar shows days and months, and it adds a leap day every four years to stay matched with the Sun.",
+        "es": "El calendario muestra días y meses, y suma un día extra cada cuatro años para seguir al Sol."
+      },
       "topic": "clocks and time",
       "source": "https://www.britannica.com/science/calendar"
     },
     {
-      "id": "everyday-easy-035", "level": "easy", "type": "mc", "lang": "both", "emoji": "💰",
-      "q": { "en": "What do you use money for?", "es": "¿Para qué sirve el dinero?" },
+      "id": "everyday-easy-035",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "💰",
+      "q": {
+        "en": "What do you use money for?",
+        "es": "¿Para qué sirve el dinero?"
+      },
       "choices": [
-        { "en": "Buy things", "es": "Comprar cosas", "emoji": "🛒" },
-        { "en": "Water plants", "es": "Regar plantas", "emoji": "🌱" },
-        { "en": "Brush teeth", "es": "Lavar los dientes", "emoji": "🪥" }
+        {
+          "en": "Buy things",
+          "es": "Comprar cosas",
+          "emoji": "🛒"
+        },
+        {
+          "en": "Water plants",
+          "es": "Regar plantas",
+          "emoji": "🌱"
+        },
+        {
+          "en": "Brush teeth",
+          "es": "Lavar los dientes",
+          "emoji": "🪥"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Money lets you trade for what you need, and long ago people used salt, shells or cacao beans instead.", "es": "El dinero sirve para cambiarlo por lo que necesitas; hace mucho la gente usaba sal, conchas o semillas de cacao." },
+      "why": {
+        "en": "Money lets you trade for what you need, and long ago people used salt, shells or cacao beans instead.",
+        "es": "El dinero sirve para cambiarlo por lo que necesitas; hace mucho la gente usaba sal, conchas o semillas de cacao."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/money"
     },
     {
-      "id": "everyday-easy-036", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪙",
-      "q": { "en": "What do we call the metal money we use?", "es": "¿Cómo se llama el dinero de metal?" },
+      "id": "everyday-easy-036",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🪙",
+      "q": {
+        "en": "What do we call the metal money we use?",
+        "es": "¿Cómo se llama el dinero de metal?"
+      },
       "choices": [
-        { "en": "Coins", "es": "Las monedas", "emoji": "🪙" },
-        { "en": "Leaves", "es": "Las hojas", "emoji": "🍃" },
-        { "en": "Buttons", "es": "Los botones", "emoji": "🔘" }
+        {
+          "en": "Coins",
+          "es": "Las monedas",
+          "emoji": "🪙"
+        },
+        {
+          "en": "Leaves",
+          "es": "Las hojas",
+          "emoji": "🍃"
+        },
+        {
+          "en": "Buttons",
+          "es": "Los botones",
+          "emoji": "🔘"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Coins are made of metal so they last for years, and their bumpy edges once stopped people shaving off silver.", "es": "Las monedas son de metal para que duren años, y su borde con rayitas evitaba que alguien raspara la plata." },
+      "why": {
+        "en": "Coins are made of metal so they last for years, and their bumpy edges once stopped people shaving off silver.",
+        "es": "Las monedas son de metal para que duren años, y su borde con rayitas evitaba que alguien raspara la plata."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/coin"
     },
     {
-      "id": "everyday-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛍️",
-      "q": { "en": "What is the money you get back called?", "es": "¿Cómo se llama el dinero que te devuelven?" },
+      "id": "everyday-easy-037",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🛍️",
+      "q": {
+        "en": "What is the money you get back called?",
+        "es": "¿Cómo se llama el dinero que te devuelven?"
+      },
       "choices": [
-        { "en": "Change", "es": "El cambio", "emoji": "🪙" },
-        { "en": "A gift", "es": "Un regalo", "emoji": "🎁" },
-        { "en": "A ticket", "es": "Un boleto", "emoji": "🎫" }
+        {
+          "en": "Change",
+          "es": "El cambio",
+          "emoji": "🪙"
+        },
+        {
+          "en": "A gift",
+          "es": "Un regalo",
+          "emoji": "🎁"
+        },
+        {
+          "en": "A ticket",
+          "es": "Un boleto",
+          "emoji": "🎫"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Change is the money handed back when you pay more than the price, so the shop returns the difference.", "es": "El cambio es el dinero que te devuelven cuando pagas más que el precio, así la tienda regresa la diferencia." },
+      "why": {
+        "en": "Change is the money handed back when you pay more than the price, so the shop returns the difference.",
+        "es": "El cambio es el dinero que te devuelven cuando pagas más que el precio, así la tienda regresa la diferencia."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/money"
     },
     {
-      "id": "everyday-easy-038", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏦",
-      "q": { "en": "Where do people keep money safe?", "es": "¿Dónde guarda la gente su dinero seguro?" },
+      "id": "everyday-easy-038",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🏦",
+      "q": {
+        "en": "Where do people keep money safe?",
+        "es": "¿Dónde guarda la gente su dinero seguro?"
+      },
       "choices": [
-        { "en": "In a bank", "es": "En un banco", "emoji": "🏦" },
-        { "en": "Under a pillow", "es": "Bajo la almohada", "emoji": "🛏️" },
-        { "en": "In the oven", "es": "En el horno", "emoji": "🔥" }
+        {
+          "en": "In a bank",
+          "es": "En un banco",
+          "emoji": "🏦"
+        },
+        {
+          "en": "Under a pillow",
+          "es": "Bajo la almohada",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "In the oven",
+          "es": "En el horno",
+          "emoji": "🔥"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A bank keeps money in a strong safe and writes down every coin, so your money waits there for you.", "es": "El banco guarda el dinero en una caja fuerte y anota cada moneda, así tu dinero te espera seguro." },
+      "why": {
+        "en": "A bank keeps money in a strong safe and writes down every coin, so your money waits there for you.",
+        "es": "El banco guarda el dinero en una caja fuerte y anota cada moneda, así tu dinero te espera seguro."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/bank"
     },
     {
-      "id": "everyday-easy-039", "level": "easy", "type": "mc", "lang": "both", "emoji": "💵",
-      "q": { "en": "What is paper money called?", "es": "¿Cómo se llama el dinero de papel?" },
+      "id": "everyday-easy-039",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "💵",
+      "q": {
+        "en": "What is paper money called?",
+        "es": "¿Cómo se llama el dinero de papel?"
+      },
       "choices": [
-        { "en": "A bill", "es": "Un billete", "emoji": "💵" },
-        { "en": "A stamp", "es": "Una estampilla", "emoji": "📮" },
-        { "en": "A map", "es": "Un mapa", "emoji": "🗺️" }
+        {
+          "en": "A bill",
+          "es": "Un billete",
+          "emoji": "💵"
+        },
+        {
+          "en": "A stamp",
+          "es": "Una estampilla",
+          "emoji": "📮"
+        },
+        {
+          "en": "A map",
+          "es": "Un mapa",
+          "emoji": "🗺️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Paper bills weigh less than coins, and the first paper money was printed in China more than a thousand years ago.", "es": "Los billetes pesan menos que las monedas, y el primer papel moneda se imprimió en China hace más de mil años." },
+      "why": {
+        "en": "Paper bills weigh less than coins, and the first paper money was printed in China more than a thousand years ago.",
+        "es": "Los billetes pesan menos que las monedas, y el primer papel moneda se imprimió en China hace más de mil años."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/money"
     },
     {
-      "id": "everyday-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐷",
-      "q": { "en": "Where can you keep coins you save?", "es": "¿Dónde puedes guardar las monedas que ahorras?" },
+      "id": "everyday-easy-040",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🐷",
+      "q": {
+        "en": "Where can you keep coins you save?",
+        "es": "¿Dónde puedes guardar las monedas que ahorras?"
+      },
       "choices": [
-        { "en": "A piggy bank", "es": "Una alcancía", "emoji": "🐷" },
-        { "en": "A frying pan", "es": "Un sartén", "emoji": "🍳" },
-        { "en": "A watering can", "es": "Una regadera", "emoji": "🚿" }
+        {
+          "en": "A piggy bank",
+          "es": "Una alcancía",
+          "emoji": "🐷"
+        },
+        {
+          "en": "A frying pan",
+          "es": "Un sartén",
+          "emoji": "🍳"
+        },
+        {
+          "en": "A watering can",
+          "es": "Una regadera",
+          "emoji": "🚿"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A piggy bank holds coins you save, and it got its name from pygg, an old word for orange clay.", "es": "La alcancía guarda las monedas que ahorras, y las primeras se hacían de un barro anaranjado llamado pygg." },
+      "why": {
+        "en": "A piggy bank holds coins you save, and it got its name from pygg, an old word for orange clay.",
+        "es": "La alcancía guarda las monedas que ahorras, y las primeras se hacían de un barro anaranjado llamado pygg."
+      },
       "topic": "money and coins",
       "source": "https://www.britannica.com/topic/money"
     },
     {
-      "id": "everyday-easy-041", "level": "easy", "type": "mc", "lang": "both", "emoji": "💲",
-      "q": { "en": "How many cents make one dollar?", "es": "¿Cuántos centavos tiene un dólar?" },
+      "id": "everyday-easy-041",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥛",
+      "q": {
+        "en": "Where do we keep milk so it stays fresh?",
+        "es": "¿Dónde guardamos la leche para que siga fresca?"
+      },
       "choices": [
-        { "en": "One hundred", "es": "Cien", "emoji": "💯" },
-        { "en": "Ten", "es": "Diez", "emoji": "🔟" },
-        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" }
+        {
+          "en": "In the fridge",
+          "es": "En el refrigerador",
+          "emoji": "🧊"
+        },
+        {
+          "en": "In a drawer",
+          "es": "En un cajón",
+          "emoji": "🗄️"
+        },
+        {
+          "en": "Under the bed",
+          "es": "Debajo de la cama",
+          "emoji": "🛏️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A dollar is one hundred cents, and many countries split their money into one hundred small pieces too.", "es": "Un dólar tiene cien centavos, y muchos países también dividen su dinero en cien partes pequeñas iguales." },
-      "topic": "money and coins",
-      "source": "https://www.britannica.com/topic/dollar"
+      "why": {
+        "en": "Cold slows the tiny living things that turn milk sour, so a fridge keeps it fresh for days instead of hours.",
+        "es": "El frío frena a los seres diminutos que agrian la leche, así que el refrigerador la mantiene fresca días en vez de horas."
+      },
+      "topic": "the kitchen",
+      "source": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration"
     },
     {
-      "id": "everyday-easy-042", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚽",
-      "q": { "en": "In soccer, which body part kicks the ball?", "es": "En el fútbol, ¿qué parte del cuerpo patea el balón?" },
+      "id": "everyday-easy-042",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⚽",
+      "q": {
+        "en": "In soccer, which body part kicks the ball?",
+        "es": "En el fútbol, ¿qué parte del cuerpo patea el balón?"
+      },
       "choices": [
-        { "en": "Foot", "es": "El pie", "emoji": "🦶" },
-        { "en": "Hand", "es": "La mano", "emoji": "✋" },
-        { "en": "Ear", "es": "La oreja", "emoji": "👂" }
+        {
+          "en": "Foot",
+          "es": "El pie",
+          "emoji": "🦶"
+        },
+        {
+          "en": "Hand",
+          "es": "La mano",
+          "emoji": "✋"
+        },
+        {
+          "en": "Ear",
+          "es": "La oreja",
+          "emoji": "👂"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Players use feet, heads and chests in soccer, and only the goalkeeper may hold the ball with hands.", "es": "En el fútbol se usan los pies, la cabeza y el pecho; solo el portero puede tomar el balón con las manos." },
+      "why": {
+        "en": "Players use feet, heads and chests in soccer, and only the goalkeeper may hold the ball with hands.",
+        "es": "En el fútbol se usan los pies, la cabeza y el pecho; solo el portero puede tomar el balón con las manos."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/football-soccer"
     },
     {
-      "id": "everyday-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚾",
-      "q": { "en": "What do you swing in a baseball game?", "es": "¿Qué objeto se usa para golpear la pelota de béisbol?" },
+      "id": "everyday-easy-043",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⚾",
+      "q": {
+        "en": "What do you swing in a baseball game?",
+        "es": "¿Qué objeto se usa para golpear la pelota de béisbol?"
+      },
       "choices": [
-        { "en": "A bat", "es": "Un bate", "emoji": "🏏" },
-        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" },
-        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+        {
+          "en": "A bat",
+          "es": "Un bate",
+          "emoji": "🏏"
+        },
+        {
+          "en": "A broom",
+          "es": "Una escoba",
+          "emoji": "🧹"
+        },
+        {
+          "en": "A spoon",
+          "es": "Una cuchara",
+          "emoji": "🥄"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A batter swings a wooden bat, and a fast pitch reaches the plate in under half a second.", "es": "El bateador usa un bate de madera, y un lanzamiento rápido llega al plato en menos de medio segundo." },
+      "why": {
+        "en": "A batter swings a wooden bat, and a fast pitch reaches the plate in under half a second.",
+        "es": "El bateador usa un bate de madera, y un lanzamiento rápido llega al plato en menos de medio segundo."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/baseball"
     },
     {
-      "id": "everyday-easy-044", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛳",
-      "q": { "en": "Which ball has little dimples all over?", "es": "¿Qué pelota tiene hoyitos por todos lados?" },
+      "id": "everyday-easy-044",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⛳",
+      "q": {
+        "en": "Which ball has little dimples all over?",
+        "es": "¿Qué pelota tiene hoyitos por todos lados?"
+      },
       "choices": [
-        { "en": "A golf ball", "es": "La pelota de golf", "emoji": "⛳" },
-        { "en": "A soccer ball", "es": "El balón de fútbol", "emoji": "⚽" },
-        { "en": "A beach ball", "es": "La pelota de playa", "emoji": "🏐" }
+        {
+          "en": "A golf ball",
+          "es": "La pelota de golf",
+          "emoji": "⛳"
+        },
+        {
+          "en": "A soccer ball",
+          "es": "El balón de fútbol",
+          "emoji": "⚽"
+        },
+        {
+          "en": "A beach ball",
+          "es": "La pelota de playa",
+          "emoji": "🏐"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Dimples grab the air and let a golf ball fly about twice as far as a smooth one.", "es": "Los hoyitos agarran el aire y hacen que la pelota de golf vuele casi el doble que una lisa." },
+      "why": {
+        "en": "Dimples grab the air and let a golf ball fly about twice as far as a smooth one.",
+        "es": "Los hoyitos agarran el aire y hacen que la pelota de golf vuele casi el doble que una lisa."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/golf"
     },
     {
-      "id": "everyday-easy-045", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏀",
-      "q": { "en": "Where do you throw a basketball to score?", "es": "¿Hacia dónde lanzas el balón en el baloncesto?" },
+      "id": "everyday-easy-045",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🏀",
+      "q": {
+        "en": "Where do you throw a basketball to score?",
+        "es": "¿Hacia dónde lanzas el balón en el baloncesto?"
+      },
       "choices": [
-        { "en": "Through a hoop", "es": "Por un aro", "emoji": "🏀" },
-        { "en": "Into a net on the ground", "es": "A una red en el suelo", "emoji": "🥅" },
-        { "en": "Over a wall", "es": "Por encima de un muro", "emoji": "🧱" }
+        {
+          "en": "Through a hoop",
+          "es": "Por un aro",
+          "emoji": "🏀"
+        },
+        {
+          "en": "Into a net on the ground",
+          "es": "A una red en el suelo",
+          "emoji": "🥅"
+        },
+        {
+          "en": "Over a wall",
+          "es": "Por encima de un muro",
+          "emoji": "🧱"
+        }
       ],
       "answer": 0,
-      "why": { "en": "You shoot through a hoop ten feet up, about three meters, and the first game used real peach baskets.", "es": "Encestas por un aro a tres metros de alto, unos diez pies, y el primer partido usó canastas de duraznos." },
+      "why": {
+        "en": "You shoot through a hoop ten feet up, about three meters, and the first game used real peach baskets.",
+        "es": "Encestas por un aro a tres metros de alto, unos diez pies, y el primer partido usó canastas de duraznos."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/basketball"
     },
     {
-      "id": "everyday-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟨",
-      "q": { "en": "What color card warns a soccer player?", "es": "¿De qué color es la tarjeta que avisa?" },
+      "id": "everyday-easy-046",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🟨",
+      "q": {
+        "en": "What color card warns a soccer player?",
+        "es": "¿De qué color es la tarjeta que avisa?"
+      },
       "choices": [
-        { "en": "Yellow", "es": "Amarilla", "emoji": "🟨" },
-        { "en": "Blue", "es": "Azul", "emoji": "🟦" },
-        { "en": "Purple", "es": "Morada", "emoji": "🟪" }
+        {
+          "en": "Yellow",
+          "es": "Amarilla",
+          "emoji": "🟨"
+        },
+        {
+          "en": "Blue",
+          "es": "Azul",
+          "emoji": "🟦"
+        },
+        {
+          "en": "Purple",
+          "es": "Morada",
+          "emoji": "🟪"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A referee holds up a yellow card as a warning, and the idea came from traffic light colors.", "es": "El árbitro levanta una tarjeta amarilla como aviso, y la idea vino de los colores del semáforo." },
+      "why": {
+        "en": "A referee holds up a yellow card as a warning, and the idea came from traffic light colors.",
+        "es": "El árbitro levanta una tarjeta amarilla como aviso, y la idea vino de los colores del semáforo."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/football-soccer"
     },
     {
-      "id": "everyday-easy-047", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥇",
-      "q": { "en": "In a race, who wins the gold medal?", "es": "En una carrera, ¿quién gana la medalla de oro?" },
+      "id": "everyday-easy-047",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥇",
+      "q": {
+        "en": "In a race, who wins the gold medal?",
+        "es": "En una carrera, ¿quién gana la medalla de oro?"
+      },
       "choices": [
-        { "en": "The one who finishes first", "es": "Quien llega primero", "emoji": "🥇" },
-        { "en": "The one who finishes last", "es": "Quien llega al final", "emoji": "🥉" },
-        { "en": "The one who watches", "es": "Quien solo mira", "emoji": "👀" }
+        {
+          "en": "The one who finishes first",
+          "es": "Quien llega primero",
+          "emoji": "🥇"
+        },
+        {
+          "en": "The one who finishes last",
+          "es": "Quien llega al final",
+          "emoji": "🥉"
+        },
+        {
+          "en": "The one who watches",
+          "es": "Quien solo mira",
+          "emoji": "👀"
+        }
       ],
       "answer": 0,
-      "why": { "en": "First place earns gold, second silver and third bronze, a pattern used at the Olympic Games for over a century.", "es": "El primer lugar gana oro, el segundo plata y el tercero bronce, un orden usado en los Juegos Olímpicos hace más de cien años." },
+      "why": {
+        "en": "First place earns gold, second silver and third bronze, a pattern used at the Olympic Games for over a century.",
+        "es": "El primer lugar gana oro, el segundo plata y el tercero bronce, un orden usado en los Juegos Olímpicos hace más de cien años."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/Olympic-Games"
     },
     {
-      "id": "everyday-easy-048", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛸️",
-      "q": { "en": "Which sport do you play on ice?", "es": "¿Qué deporte se practica sobre el hielo?" },
+      "id": "everyday-easy-048",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⛸️",
+      "q": {
+        "en": "Which sport do you play on ice?",
+        "es": "¿Qué deporte se practica sobre el hielo?"
+      },
       "choices": [
-        { "en": "Ice skating", "es": "El patinaje sobre hielo", "emoji": "⛸️" },
-        { "en": "Surfing", "es": "El surf", "emoji": "🏄" },
-        { "en": "Swimming", "es": "La natación", "emoji": "🏊" }
+        {
+          "en": "Ice skating",
+          "es": "El patinaje sobre hielo",
+          "emoji": "⛸️"
+        },
+        {
+          "en": "Surfing",
+          "es": "El surf",
+          "emoji": "🏄"
+        },
+        {
+          "en": "Swimming",
+          "es": "La natación",
+          "emoji": "🏊"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Skaters glide because the blade presses a thin slippery layer under it, letting them slide across the ice.", "es": "Los patinadores se deslizan porque la cuchilla aprieta una capa delgada y resbalosa debajo, y así van sobre el hielo." },
+      "why": {
+        "en": "Skaters glide because the blade presses a thin slippery layer under it, letting them slide across the ice.",
+        "es": "Los patinadores se deslizan porque la cuchilla aprieta una capa delgada y resbalosa debajo, y así van sobre el hielo."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/ice-skating"
     },
     {
-      "id": "everyday-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "📣",
-      "q": { "en": "What does a referee blow to stop play?", "es": "¿Qué sopla el árbitro para parar el juego?" },
+      "id": "everyday-easy-049",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📣",
+      "q": {
+        "en": "What does a referee blow to stop play?",
+        "es": "¿Qué sopla el árbitro para parar el juego?"
+      },
       "choices": [
-        { "en": "A whistle", "es": "Un silbato", "emoji": "📣" },
-        { "en": "A candle", "es": "Una vela", "emoji": "🕯️" },
-        { "en": "A balloon", "es": "Un globo", "emoji": "🎈" }
+        {
+          "en": "A whistle",
+          "es": "Un silbato",
+          "emoji": "📣"
+        },
+        {
+          "en": "A candle",
+          "es": "Una vela",
+          "emoji": "🕯️"
+        },
+        {
+          "en": "A balloon",
+          "es": "Un globo",
+          "emoji": "🎈"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The whistle sound travels over crowd noise, so every player hears the referee stop the game at once.", "es": "El silbato suena por encima del ruido de la gente, y así todos los jugadores escuchan al árbitro parar el juego." },
+      "why": {
+        "en": "The whistle sound travels over crowd noise, so every player hears the referee stop the game at once.",
+        "es": "El silbato suena por encima del ruido de la gente, y así todos los jugadores escuchan al árbitro parar el juego."
+      },
       "topic": "sports and balls",
       "source": "https://www.britannica.com/sports/football-soccer"
     },
     {
-      "id": "everyday-easy-050", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎲",
-      "q": { "en": "In a board game, what do you roll?", "es": "En un juego de mesa, ¿qué cosa lanzas?" },
+      "id": "everyday-easy-050",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🎲",
+      "q": {
+        "en": "In a board game, what do you roll?",
+        "es": "En un juego de mesa, ¿qué cosa lanzas?"
+      },
       "choices": [
-        { "en": "A die", "es": "Un dado", "emoji": "🎲" },
-        { "en": "A pillow", "es": "Una almohada", "emoji": "🛏️" },
-        { "en": "A book", "es": "Un libro", "emoji": "📕" }
+        {
+          "en": "A die",
+          "es": "Un dado",
+          "emoji": "🎲"
+        },
+        {
+          "en": "A pillow",
+          "es": "Una almohada",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "A book",
+          "es": "Un libro",
+          "emoji": "📕"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A die has six faces, and the dots on two opposite faces always add up to seven.", "es": "El dado tiene seis caras, y los puntos de dos caras opuestas siempre suman siete en total." },
+      "why": {
+        "en": "A die has six faces, and the dots on two opposite faces always add up to seven.",
+        "es": "El dado tiene seis caras, y los puntos de dos caras opuestas siempre suman siete en total."
+      },
       "topic": "games and turns",
       "source": "https://www.britannica.com/topic/dice"
     },
     {
-      "id": "everyday-easy-051", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙂",
-      "q": { "en": "What should you do while waiting your turn?", "es": "¿Qué haces mientras esperas tu turno?" },
+      "id": "everyday-easy-051",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🙂",
+      "q": {
+        "en": "What should you do while waiting your turn?",
+        "es": "¿Qué haces mientras esperas tu turno?"
+      },
       "choices": [
-        { "en": "Wait patiently", "es": "Esperar con paciencia", "emoji": "🙂" },
-        { "en": "Grab the pieces", "es": "Agarrar las fichas", "emoji": "🤏" },
-        { "en": "Shout loudly", "es": "Gritar muy fuerte", "emoji": "📢" }
+        {
+          "en": "Wait patiently",
+          "es": "Esperar con paciencia",
+          "emoji": "🙂"
+        },
+        {
+          "en": "Grab the pieces",
+          "es": "Agarrar las fichas",
+          "emoji": "🤏"
+        },
+        {
+          "en": "Shout loudly",
+          "es": "Gritar muy fuerte",
+          "emoji": "📢"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Taking turns keeps a game fair, and games with clear turns teach children to plan ahead while they wait.", "es": "Respetar los turnos hace justo el juego, y esperar tu turno te enseña a pensar tu jugada con calma." },
+      "why": {
+        "en": "Taking turns keeps a game fair, and games with clear turns teach children to plan ahead while they wait.",
+        "es": "Respetar los turnos hace justo el juego, y esperar tu turno te enseña a pensar tu jugada con calma."
+      },
       "topic": "games and turns",
       "source": "https://kidshealth.org/en/parents/preschool-games.html"
     },
     {
-      "id": "everyday-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "♟️",
-      "q": { "en": "What two colors are on a chess board?", "es": "¿De qué dos colores es un tablero de ajedrez?" },
+      "id": "everyday-easy-052",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "♟️",
+      "q": {
+        "en": "What two colors are on a chess board?",
+        "es": "¿De qué dos colores es un tablero de ajedrez?"
+      },
       "choices": [
-        { "en": "Light and dark", "es": "Claro y oscuro", "emoji": "🏁" },
-        { "en": "All red", "es": "Todo rojo", "emoji": "🟥" },
-        { "en": "All blue", "es": "Todo azul", "emoji": "🟦" }
+        {
+          "en": "Light and dark",
+          "es": "Claro y oscuro",
+          "emoji": "🏁"
+        },
+        {
+          "en": "All red",
+          "es": "Todo rojo",
+          "emoji": "🟥"
+        },
+        {
+          "en": "All blue",
+          "es": "Todo azul",
+          "emoji": "🟦"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A chess board has sixty-four squares in light and dark, and the game began in India long ago.", "es": "El tablero de ajedrez tiene sesenta y cuatro casillas claras y oscuras, y el juego nació en la India hace siglos." },
+      "why": {
+        "en": "A chess board has sixty-four squares in light and dark, and the game began in India long ago.",
+        "es": "El tablero de ajedrez tiene sesenta y cuatro casillas claras y oscuras, y el juego nació en la India hace siglos."
+      },
       "topic": "games and turns",
       "source": "https://www.britannica.com/topic/chess"
     },
     {
-      "id": "everyday-easy-053", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔍",
-      "q": { "en": "What does the seeker do in hide and seek?", "es": "En las escondidas, ¿qué hace el que busca?" },
+      "id": "everyday-easy-053",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🔍",
+      "q": {
+        "en": "What does the seeker do in hide and seek?",
+        "es": "En las escondidas, ¿qué hace el que busca?"
+      },
       "choices": [
-        { "en": "Count and then look", "es": "Contar y luego buscar", "emoji": "🔍" },
-        { "en": "Sleep all day", "es": "Dormir todo el día", "emoji": "😴" },
-        { "en": "Eat lunch", "es": "Comer el almuerzo", "emoji": "🍱" }
+        {
+          "en": "Count and then look",
+          "es": "Contar y luego buscar",
+          "emoji": "🔍"
+        },
+        {
+          "en": "Sleep all day",
+          "es": "Dormir todo el día",
+          "emoji": "😴"
+        },
+        {
+          "en": "Eat lunch",
+          "es": "Comer el almuerzo",
+          "emoji": "🍱"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The seeker counts with eyes closed, then searches; children in many countries play this same game with different rhymes.", "es": "El que busca cuenta con los ojos cerrados y luego busca; en muchos países juegan lo mismo con rimas distintas." },
+      "why": {
+        "en": "The seeker counts with eyes closed, then searches; children in many countries play this same game with different rhymes.",
+        "es": "El que busca cuenta con los ojos cerrados y luego busca; en muchos países juegan lo mismo con rimas distintas."
+      },
       "topic": "games and turns",
       "source": "https://www.britannica.com/topic/hide-and-seek"
     },
     {
-      "id": "everyday-easy-054", "level": "easy", "type": "mc", "lang": "both", "emoji": "🃏",
-      "q": { "en": "Which game uses cards with pictures and beans?", "es": "¿Qué juego usa cartas con dibujos y frijoles?" },
+      "id": "everyday-easy-054",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🃏",
+      "q": {
+        "en": "Which game uses cards with pictures and beans?",
+        "es": "¿Qué juego usa cartas con dibujos y frijoles?"
+      },
       "choices": [
-        { "en": "Lotería", "es": "La lotería", "emoji": "🃏" },
-        { "en": "Jump rope", "es": "La cuerda", "emoji": "🪢" },
-        { "en": "Tag", "es": "Las traes", "emoji": "🏃" }
+        {
+          "en": "Lotería",
+          "es": "La lotería",
+          "emoji": "🃏"
+        },
+        {
+          "en": "Jump rope",
+          "es": "La cuerda",
+          "emoji": "🪢"
+        },
+        {
+          "en": "Tag",
+          "es": "Las traes",
+          "emoji": "🏃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "In lotería a caller sings out picture cards while players mark their boards with dried beans or small stones.", "es": "En la lotería alguien canta las cartas con dibujos y los jugadores marcan su tabla con frijoles o piedritas." },
+      "why": {
+        "en": "In lotería a caller sings out picture cards while players mark their boards with dried beans or small stones.",
+        "es": "En la lotería alguien canta las cartas con dibujos y los jugadores marcan su tabla con frijoles o piedritas."
+      },
       "topic": "games and turns",
       "source": "https://www.britannica.com/place/Mexico"
     },
     {
-      "id": "everyday-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚲",
-      "q": { "en": "How many wheels does a bicycle have?", "es": "¿Cuántas ruedas tiene una bicicleta?" },
+      "id": "everyday-easy-055",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🎒",
+      "q": {
+        "en": "What do you carry your school things in?",
+        "es": "¿En qué llevas tus cosas de la escuela?"
+      },
       "choices": [
-        { "en": "Two", "es": "Dos", "emoji": "2️⃣" },
-        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" },
-        { "en": "Six", "es": "Seis", "emoji": "6️⃣" }
+        {
+          "en": "A backpack",
+          "es": "Una mochila",
+          "emoji": "🎒"
+        },
+        {
+          "en": "A bucket",
+          "es": "Una cubeta",
+          "emoji": "🪣"
+        },
+        {
+          "en": "A basket",
+          "es": "Una canasta",
+          "emoji": "🧺"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A bicycle has two wheels, and it stays up because the spinning wheels keep it steady while you roll.", "es": "La bicicleta tiene dos ruedas, y se mantiene de pie porque las ruedas que giran la sostienen mientras avanzas." },
-      "topic": "getting around",
-      "source": "https://www.britannica.com/technology/bicycle"
+      "why": {
+        "en": "A backpack rides on both shoulders so the weight is shared, and the word means a pack you carry on your back.",
+        "es": "La mochila va sobre los dos hombros para repartir el peso, y así la espalda carga mejor que una sola mano."
+      },
+      "topic": "school",
+      "source": "https://kidshealth.org/en/kids/backpack.html"
     },
     {
-      "id": "everyday-easy-056", "level": "easy", "type": "mc", "lang": "both", "emoji": "⛑️",
-      "q": { "en": "What should you wear when riding a bicycle?", "es": "¿Qué debes usar al andar en bicicleta?" },
+      "id": "everyday-easy-056",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "⛑️",
+      "q": {
+        "en": "What should you wear when riding a bicycle?",
+        "es": "¿Qué debes usar al andar en bicicleta?"
+      },
       "choices": [
-        { "en": "A helmet", "es": "Un casco", "emoji": "⛑️" },
-        { "en": "A crown", "es": "Una corona", "emoji": "👑" },
-        { "en": "A scarf", "es": "Una bufanda", "emoji": "🧣" }
+        {
+          "en": "A helmet",
+          "es": "Un casco",
+          "emoji": "⛑️"
+        },
+        {
+          "en": "A crown",
+          "es": "Una corona",
+          "emoji": "👑"
+        },
+        {
+          "en": "A scarf",
+          "es": "Una bufanda",
+          "emoji": "🧣"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A helmet spreads a bump across the whole shell, so your head takes much less of the knock.", "es": "El casco reparte el golpe por todo su caparazón, así tu cabeza recibe mucho menos del impacto." },
+      "why": {
+        "en": "A helmet spreads a bump across the whole shell, so your head takes much less of the knock.",
+        "es": "El casco reparte el golpe por todo su caparazón, así tu cabeza recibe mucho menos del impacto."
+      },
       "topic": "getting around",
       "source": "https://kidshealth.org/en/kids/bike-safety.html"
     },
     {
-      "id": "everyday-easy-057", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚌",
-      "q": { "en": "Which vehicle carries many children to school?", "es": "¿Qué vehículo lleva a muchos niños a la escuela?" },
+      "id": "everyday-easy-057",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🚌",
+      "q": {
+        "en": "Which vehicle carries many children to school?",
+        "es": "¿Qué vehículo lleva a muchos niños a la escuela?"
+      },
       "choices": [
-        { "en": "A bus", "es": "Un autobús", "emoji": "🚌" },
-        { "en": "A canoe", "es": "Una canoa", "emoji": "🛶" },
-        { "en": "A sled", "es": "Un trineo", "emoji": "🛷" }
+        {
+          "en": "A bus",
+          "es": "Un autobús",
+          "emoji": "🚌"
+        },
+        {
+          "en": "A canoe",
+          "es": "Una canoa",
+          "emoji": "🛶"
+        },
+        {
+          "en": "A sled",
+          "es": "Un trineo",
+          "emoji": "🛷"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A school bus is painted bright yellow because that color catches your eye fastest, even in morning fog.", "es": "El autobús escolar es amarillo brillante porque ese color se nota más rápido, incluso con la neblina de la mañana." },
+      "why": {
+        "en": "A school bus is painted bright yellow because that color catches your eye fastest, even in morning fog.",
+        "es": "El autobús escolar es amarillo brillante porque ese color se nota más rápido, incluso con la neblina de la mañana."
+      },
       "topic": "getting around",
       "source": "https://www.britannica.com/technology/bus-vehicle"
     },
     {
-      "id": "everyday-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "💺",
-      "q": { "en": "What do you buckle inside a car?", "es": "¿Qué te abrochas dentro de un carro?" },
+      "id": "everyday-easy-058",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "💺",
+      "q": {
+        "en": "What do you buckle inside a car?",
+        "es": "¿Qué te abrochas dentro de un carro?"
+      },
       "choices": [
-        { "en": "A seat belt", "es": "El cinturón", "emoji": "💺" },
-        { "en": "A shoelace", "es": "Una agujeta", "emoji": "👟" },
-        { "en": "A backpack", "es": "Una mochila", "emoji": "🎒" }
+        {
+          "en": "A seat belt",
+          "es": "El cinturón",
+          "emoji": "💺"
+        },
+        {
+          "en": "A shoelace",
+          "es": "Una agujeta",
+          "emoji": "👟"
+        },
+        {
+          "en": "A backpack",
+          "es": "Una mochila",
+          "emoji": "🎒"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A seat belt holds you in place when a car stops fast, because your body keeps moving forward.", "es": "El cinturón te sostiene cuando el carro frena de golpe, porque tu cuerpo sigue moviéndose hacia adelante." },
+      "why": {
+        "en": "A seat belt holds you in place when a car stops fast, because your body keeps moving forward.",
+        "es": "El cinturón te sostiene cuando el carro frena de golpe, porque tu cuerpo sigue moviéndose hacia adelante."
+      },
       "topic": "getting around",
       "source": "https://kidshealth.org/en/parents/car-seat-safety.html"
     },
     {
-      "id": "everyday-easy-059", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚆",
-      "q": { "en": "Which vehicle runs on two metal rails?", "es": "¿Qué vehículo va sobre dos rieles de metal?" },
+      "id": "everyday-easy-059",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🚆",
+      "q": {
+        "en": "Which vehicle runs on two metal rails?",
+        "es": "¿Qué vehículo va sobre dos rieles de metal?"
+      },
       "choices": [
-        { "en": "A train", "es": "Un tren", "emoji": "🚆" },
-        { "en": "A boat", "es": "Un barco", "emoji": "⛵" },
-        { "en": "An airplane", "es": "Un avión", "emoji": "✈️" }
+        {
+          "en": "A train",
+          "es": "Un tren",
+          "emoji": "🚆"
+        },
+        {
+          "en": "A boat",
+          "es": "Un barco",
+          "emoji": "⛵"
+        },
+        {
+          "en": "An airplane",
+          "es": "Un avión",
+          "emoji": "✈️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A train rides on steel rails that are so smooth its wheels waste almost no energy rubbing along.", "es": "El tren corre sobre rieles de acero tan lisos que sus ruedas casi no gastan energía al rozarlos." },
+      "why": {
+        "en": "A train rides on steel rails that are so smooth its wheels waste almost no energy rubbing along.",
+        "es": "El tren corre sobre rieles de acero tan lisos que sus ruedas casi no gastan energía al rozarlos."
+      },
       "topic": "getting around",
       "source": "https://www.britannica.com/technology/train-transportation"
     },
     {
-      "id": "everyday-easy-060", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎫",
-      "q": { "en": "What do you pay to ride a bus?", "es": "¿Qué pagas para viajar en autobús?" },
+      "id": "everyday-easy-060",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🎫",
+      "q": {
+        "en": "What do you pay to ride a bus?",
+        "es": "¿Qué pagas para viajar en autobús?"
+      },
       "choices": [
-        { "en": "A fare", "es": "El pasaje", "emoji": "🎫" },
-        { "en": "A song", "es": "Una canción", "emoji": "🎵" },
-        { "en": "A drawing", "es": "Un dibujo", "emoji": "🖍️" }
+        {
+          "en": "A fare",
+          "es": "El pasaje",
+          "emoji": "🎫"
+        },
+        {
+          "en": "A song",
+          "es": "Una canción",
+          "emoji": "🎵"
+        },
+        {
+          "en": "A drawing",
+          "es": "Un dibujo",
+          "emoji": "🖍️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The fare is the price of a ride, and it pays the driver, the fuel and the care of the bus.", "es": "El pasaje es el precio del viaje, y sirve para pagar al chofer, el combustible y el cuidado del autobús." },
+      "why": {
+        "en": "The fare is the price of a ride, and it pays the driver, the fuel and the care of the bus.",
+        "es": "El pasaje es el precio del viaje, y sirve para pagar al chofer, el combustible y el cuidado del autobús."
+      },
       "topic": "getting around",
       "source": "https://www.britannica.com/technology/bus-vehicle"
     },
     {
-      "id": "everyday-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "👀",
-      "q": { "en": "What should you do before crossing the street?", "es": "¿Qué debes hacer antes de cruzar la calle?" },
+      "id": "everyday-easy-061",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "👀",
+      "q": {
+        "en": "What should you do before crossing the street?",
+        "es": "¿Qué debes hacer antes de cruzar la calle?"
+      },
       "choices": [
-        { "en": "Look both ways", "es": "Mirar a los dos lados", "emoji": "👀" },
-        { "en": "Close your eyes", "es": "Cerrar los ojos", "emoji": "🙈" },
-        { "en": "Run fast", "es": "Correr rápido", "emoji": "🏃" }
+        {
+          "en": "Look both ways",
+          "es": "Mirar a los dos lados",
+          "emoji": "👀"
+        },
+        {
+          "en": "Close your eyes",
+          "es": "Cerrar los ojos",
+          "emoji": "🙈"
+        },
+        {
+          "en": "Run fast",
+          "es": "Correr rápido",
+          "emoji": "🏃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Looking both ways and listening helps because a quiet car can come from a direction you forgot to check.", "es": "Mirar a ambos lados y escuchar ayuda, porque un carro silencioso puede venir del lado que olvidaste revisar." },
+      "why": {
+        "en": "Looking both ways and listening helps because a quiet car can come from a direction you forgot to check.",
+        "es": "Mirar a ambos lados y escuchar ayuda, porque un carro silencioso puede venir del lado que olvidaste revisar."
+      },
       "topic": "street safety",
       "source": "https://kidshealth.org/en/kids/street-safe.html"
     },
     {
-      "id": "everyday-easy-062", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚸",
-      "q": { "en": "What are the white stripes on a road for?", "es": "¿Para qué sirven las rayas blancas en la calle?" },
+      "id": "everyday-easy-062",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🚸",
+      "q": {
+        "en": "What are the white stripes on a road for?",
+        "es": "¿Para qué sirven las rayas blancas en la calle?"
+      },
       "choices": [
-        { "en": "Walking across", "es": "Para cruzar a pie", "emoji": "🚸" },
-        { "en": "Parking bikes", "es": "Para estacionar bicicletas", "emoji": "🚲" },
-        { "en": "Planting flowers", "es": "Para sembrar flores", "emoji": "🌷" }
+        {
+          "en": "Walking across",
+          "es": "Para cruzar a pie",
+          "emoji": "🚸"
+        },
+        {
+          "en": "Parking bikes",
+          "es": "Para estacionar bicicletas",
+          "emoji": "🚲"
+        },
+        {
+          "en": "Planting flowers",
+          "es": "Para sembrar flores",
+          "emoji": "🌷"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Those painted stripes mark a crosswalk, and people call it a zebra crossing in many parts of the world.", "es": "Esas rayas pintadas marcan el cruce peatonal, y en muchos países lo llaman paso de cebra por su dibujo." },
+      "why": {
+        "en": "Those painted stripes mark a crosswalk, and people call it a zebra crossing in many parts of the world.",
+        "es": "Esas rayas pintadas marcan el cruce peatonal, y en muchos países lo llaman paso de cebra por su dibujo."
+      },
       "topic": "street safety",
       "source": "https://www.britannica.com/technology/traffic-control"
     },
     {
-      "id": "everyday-easy-063", "level": "easy", "type": "mc", "lang": "both", "emoji": "🛑",
-      "q": { "en": "What does a red octagon sign tell drivers?", "es": "¿Qué indica una señal roja de ocho lados?" },
+      "id": "everyday-easy-063",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🛑",
+      "q": {
+        "en": "What does a red octagon sign tell drivers?",
+        "es": "¿Qué indica una señal roja de ocho lados?"
+      },
       "choices": [
-        { "en": "Stop", "es": "Alto", "emoji": "🛑" },
-        { "en": "Go faster", "es": "Acelerar", "emoji": "🏎️" },
-        { "en": "Turn around", "es": "Dar la vuelta", "emoji": "🔄" }
+        {
+          "en": "Stop",
+          "es": "Alto",
+          "emoji": "🛑"
+        },
+        {
+          "en": "Go faster",
+          "es": "Acelerar",
+          "emoji": "🏎️"
+        },
+        {
+          "en": "Turn around",
+          "es": "Dar la vuelta",
+          "emoji": "🔄"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A stop sign has eight sides so drivers know it by shape alone, even when snow covers the letters.", "es": "La señal de alto tiene ocho lados para reconocerla solo por su forma, aunque la nieve tape las letras." },
+      "why": {
+        "en": "A stop sign has eight sides so drivers know it by shape alone, even when snow covers the letters.",
+        "es": "La señal de alto tiene ocho lados para reconocerla solo por su forma, aunque la nieve tape las letras."
+      },
       "topic": "street safety",
       "source": "https://www.britannica.com/technology/traffic-control"
     },
     {
-      "id": "everyday-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦺",
-      "q": { "en": "Who helps children cross near a school?", "es": "¿Quién ayuda a los niños a cruzar la calle?" },
+      "id": "everyday-easy-064",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🦺",
+      "q": {
+        "en": "Who helps children cross near a school?",
+        "es": "¿Quién ayuda a los niños a cruzar la calle?"
+      },
       "choices": [
-        { "en": "A crossing guard", "es": "Un guardia de cruce", "emoji": "🦺" },
-        { "en": "A baker", "es": "Un panadero", "emoji": "🥐" },
-        { "en": "A pilot", "es": "Un piloto", "emoji": "✈️" }
+        {
+          "en": "A crossing guard",
+          "es": "Un guardia de cruce",
+          "emoji": "🦺"
+        },
+        {
+          "en": "A baker",
+          "es": "Un panadero",
+          "emoji": "🥐"
+        },
+        {
+          "en": "A pilot",
+          "es": "Un piloto",
+          "emoji": "✈️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A crossing guard steps into the road with a bright vest and a sign, so drivers can see and stop.", "es": "El guardia de cruce sale a la calle con chaleco brillante y un letrero, para que los conductores lo vean y frenen." },
+      "why": {
+        "en": "A crossing guard steps into the road with a bright vest and a sign, so drivers can see and stop.",
+        "es": "El guardia de cruce sale a la calle con chaleco brillante y un letrero, para que los conductores lo vean y frenen."
+      },
       "topic": "street safety",
       "source": "https://kidshealth.org/en/kids/street-safe.html"
     },
     {
-      "id": "everyday-easy-065", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤝",
-      "q": { "en": "What should you hold when walking near cars?", "es": "¿Qué debes tomar al caminar cerca de los carros?" },
+      "id": "everyday-easy-065",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🤝",
+      "q": {
+        "en": "What should you hold when walking near cars?",
+        "es": "¿Qué debes tomar al caminar cerca de los carros?"
+      },
       "choices": [
-        { "en": "A grown-up's hand", "es": "La mano de un adulto", "emoji": "🤝" },
-        { "en": "A balloon", "es": "Un globo", "emoji": "🎈" },
-        { "en": "A soccer ball", "es": "Un balón de fútbol", "emoji": "⚽" }
+        {
+          "en": "A grown-up's hand",
+          "es": "La mano de un adulto",
+          "emoji": "🤝"
+        },
+        {
+          "en": "A balloon",
+          "es": "Un globo",
+          "emoji": "🎈"
+        },
+        {
+          "en": "A soccer ball",
+          "es": "Un balón de fútbol",
+          "emoji": "⚽"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Holding a grown-up's hand keeps you close to the curb, and a driver may miss a small child completely.", "es": "Tomar la mano de un adulto te mantiene cerca de la banqueta, porque un conductor puede no ver a un niño pequeño." },
+      "why": {
+        "en": "Holding a grown-up's hand keeps you close to the curb, and a driver may miss a small child completely.",
+        "es": "Tomar la mano de un adulto te mantiene cerca de la banqueta, porque un conductor puede no ver a un niño pequeño."
+      },
       "topic": "street safety",
       "source": "https://kidshealth.org/en/kids/street-safe.html"
     },
     {
-      "id": "everyday-easy-066", "level": "easy", "type": "mc", "lang": "both", "emoji": "📬",
-      "q": { "en": "Who brings letters to your front door?", "es": "¿Quién lleva las cartas hasta tu puerta?" },
+      "id": "everyday-easy-066",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📬",
+      "q": {
+        "en": "Who brings letters to your front door?",
+        "es": "¿Quién lleva las cartas hasta tu puerta?"
+      },
       "choices": [
-        { "en": "A mail carrier", "es": "El cartero", "emoji": "📬" },
-        { "en": "A dentist", "es": "El dentista", "emoji": "🦷" },
-        { "en": "A pilot", "es": "El piloto", "emoji": "✈️" }
+        {
+          "en": "A mail carrier",
+          "es": "El cartero",
+          "emoji": "📬"
+        },
+        {
+          "en": "A dentist",
+          "es": "El dentista",
+          "emoji": "🦷"
+        },
+        {
+          "en": "A pilot",
+          "es": "El piloto",
+          "emoji": "✈️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A mail carrier walks a route every working day, and a letter may travel through several cities before arriving.", "es": "El cartero recorre la misma ruta cada día de trabajo, y una carta puede pasar por varias ciudades antes de llegar." },
+      "why": {
+        "en": "A mail carrier walks a route every working day, and a letter may travel through several cities before arriving.",
+        "es": "El cartero recorre la misma ruta cada día de trabajo, y una carta puede pasar por varias ciudades antes de llegar."
+      },
       "topic": "community helpers",
       "source": "https://www.britannica.com/topic/postal-system"
     },
     {
-      "id": "everyday-easy-067", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥖",
-      "q": { "en": "Who bakes the bread we buy?", "es": "¿Quién hornea el pan que compramos?" },
+      "id": "everyday-easy-067",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥖",
+      "q": {
+        "en": "Who bakes the bread we buy?",
+        "es": "¿Quién hornea el pan que compramos?"
+      },
       "choices": [
-        { "en": "A baker", "es": "El panadero", "emoji": "🥖" },
-        { "en": "A farmer", "es": "El granjero", "emoji": "🚜" },
-        { "en": "A nurse", "es": "La enfermera", "emoji": "🩺" }
+        {
+          "en": "A baker",
+          "es": "El panadero",
+          "emoji": "🥖"
+        },
+        {
+          "en": "A farmer",
+          "es": "El granjero",
+          "emoji": "🚜"
+        },
+        {
+          "en": "A nurse",
+          "es": "La enfermera",
+          "emoji": "🩺"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A baker often starts before sunrise, because dough needs hours to rise before it goes into a hot oven.", "es": "El panadero empieza antes del amanecer, porque la masa necesita horas para crecer antes de entrar al horno caliente." },
+      "why": {
+        "en": "A baker often starts before sunrise, because dough needs hours to rise before it goes into a hot oven.",
+        "es": "El panadero empieza antes del amanecer, porque la masa necesita horas para crecer antes de entrar al horno caliente."
+      },
       "topic": "community helpers",
       "source": "https://www.britannica.com/topic/baking"
     },
     {
-      "id": "everyday-easy-068", "level": "easy", "type": "mc", "lang": "both", "emoji": "🚒",
-      "q": { "en": "Who comes to put out a fire?", "es": "¿Quién llega a apagar un incendio?" },
+      "id": "everyday-easy-068",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🚒",
+      "q": {
+        "en": "Who comes to put out a fire?",
+        "es": "¿Quién llega a apagar un incendio?"
+      },
       "choices": [
-        { "en": "A firefighter", "es": "Un bombero", "emoji": "🚒" },
-        { "en": "A farmer", "es": "Un granjero", "emoji": "🚜" },
-        { "en": "A painter", "es": "Un pintor", "emoji": "🎨" }
+        {
+          "en": "A firefighter",
+          "es": "Un bombero",
+          "emoji": "🚒"
+        },
+        {
+          "en": "A farmer",
+          "es": "Un granjero",
+          "emoji": "🚜"
+        },
+        {
+          "en": "A painter",
+          "es": "Un pintor",
+          "emoji": "🎨"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Firefighters ride a truck that carries its own water and a ladder tall enough to reach high windows.", "es": "Los bomberos llegan en un camión que lleva su propia agua y una escalera muy alta para alcanzar ventanas altas." },
+      "why": {
+        "en": "Firefighters ride a truck that carries its own water and a ladder tall enough to reach high windows.",
+        "es": "Los bomberos llegan en un camión que lleva su propia agua y una escalera muy alta para alcanzar ventanas altas."
+      },
       "topic": "community helpers",
       "source": "https://kidshealth.org/en/kids/fire-safety.html"
     },
     {
-      "id": "everyday-easy-069", "level": "easy", "type": "mc", "lang": "both", "emoji": "🦷",
-      "q": { "en": "Who helps you when a tooth hurts?", "es": "¿Quién te ayuda cuando te duele un diente?" },
+      "id": "everyday-easy-069",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🦷",
+      "q": {
+        "en": "Who helps you when a tooth hurts?",
+        "es": "¿Quién te ayuda cuando te duele un diente?"
+      },
       "choices": [
-        { "en": "A cook", "es": "Un cocinero", "emoji": "🍳" },
-        { "en": "A dentist", "es": "Un dentista", "emoji": "🦷" },
-        { "en": "A driver", "es": "Un chofer", "emoji": "🚕" }
+        {
+          "en": "A cook",
+          "es": "Un cocinero",
+          "emoji": "🍳"
+        },
+        {
+          "en": "A dentist",
+          "es": "Un dentista",
+          "emoji": "🦷"
+        },
+        {
+          "en": "A driver",
+          "es": "Un chofer",
+          "emoji": "🚕"
+        }
       ],
       "answer": 1,
-      "why": { "en": "A dentist checks your teeth with a small mirror, and grown-ups end up with thirty-two teeth in all.", "es": "El dentista revisa tus dientes con un espejito, y las personas grandes llegan a tener treinta y dos dientes en total." },
+      "why": {
+        "en": "A dentist checks your teeth with a small mirror, and grown-ups end up with thirty-two teeth in all.",
+        "es": "El dentista revisa tus dientes con un espejito, y las personas grandes llegan a tener treinta y dos dientes en total."
+      },
       "topic": "community helpers",
       "source": "https://kidshealth.org/en/kids/go-dentist.html"
     },
     {
-      "id": "everyday-easy-070", "level": "easy", "type": "mc", "lang": "both", "emoji": "🩺",
-      "q": { "en": "Who takes care of sick animals?", "es": "¿Quién cuida a los animales enfermos?" },
+      "id": "everyday-easy-070",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🩺",
+      "q": {
+        "en": "Who takes care of sick animals?",
+        "es": "¿Quién cuida a los animales enfermos?"
+      },
       "choices": [
-        { "en": "A librarian", "es": "Un bibliotecario", "emoji": "📚" },
-        { "en": "A plumber", "es": "Un plomero", "emoji": "🔧" },
-        { "en": "A veterinarian", "es": "Un veterinario", "emoji": "🩺" }
+        {
+          "en": "A librarian",
+          "es": "Un bibliotecario",
+          "emoji": "📚"
+        },
+        {
+          "en": "A plumber",
+          "es": "Un plomero",
+          "emoji": "🔧"
+        },
+        {
+          "en": "A veterinarian",
+          "es": "Un veterinario",
+          "emoji": "🩺"
+        }
       ],
       "answer": 2,
-      "why": { "en": "A veterinarian studies many animals at once, because a parrot, a cow and a puppy each need very different care.", "es": "Un veterinario estudia muchos animales a la vez, porque un loro, una vaca y un cachorro necesitan cuidados muy distintos." },
+      "why": {
+        "en": "A veterinarian studies many animals at once, because a parrot, a cow and a puppy each need very different care.",
+        "es": "Un veterinario estudia muchos animales a la vez, porque un loro, una vaca y un cachorro necesitan cuidados muy distintos."
+      },
       "topic": "community helpers",
       "source": "https://kids.britannica.com/kids/article/veterinary-medicine/353906"
     },
     {
-      "id": "everyday-easy-071", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔨",
-      "q": { "en": "Which tool pushes a nail into wood?", "es": "¿Qué herramienta mete un clavo en la madera?" },
+      "id": "everyday-easy-071",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🔨",
+      "q": {
+        "en": "Which tool pushes a nail into wood?",
+        "es": "¿Qué herramienta mete un clavo en la madera?"
+      },
       "choices": [
-        { "en": "A hammer", "es": "Un martillo", "emoji": "🔨" },
-        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" },
-        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" }
+        {
+          "en": "A hammer",
+          "es": "Un martillo",
+          "emoji": "🔨"
+        },
+        {
+          "en": "A spoon",
+          "es": "Una cuchara",
+          "emoji": "🥄"
+        },
+        {
+          "en": "A broom",
+          "es": "Una escoba",
+          "emoji": "🧹"
+        }
       ],
       "answer": 0,
-      "why": { "en": "A hammer's heavy head stores the energy of your swing and gives it to the nail in one quick tap.", "es": "La cabeza pesada del martillo guarda la fuerza de tu golpe y se la entrega al clavo en un toque rápido." },
+      "why": {
+        "en": "A hammer's heavy head stores the energy of your swing and gives it to the nail in one quick tap.",
+        "es": "La cabeza pesada del martillo guarda la fuerza de tu golpe y se la entrega al clavo en un toque rápido."
+      },
       "topic": "tools at home",
       "source": "https://kids.britannica.com/kids/article/tool/353667"
     },
     {
-      "id": "everyday-easy-072", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧹",
-      "q": { "en": "What do you use to sweep the floor?", "es": "¿Qué usas para barrer el piso?" },
+      "id": "everyday-easy-072",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧹",
+      "q": {
+        "en": "What do you use to sweep the floor?",
+        "es": "¿Qué usas para barrer el piso?"
+      },
       "choices": [
-        { "en": "A sponge", "es": "Una esponja", "emoji": "🧽" },
-        { "en": "A broom", "es": "Una escoba", "emoji": "🧹" },
-        { "en": "A ladder", "es": "Una escalera", "emoji": "🪜" }
+        {
+          "en": "A sponge",
+          "es": "Una esponja",
+          "emoji": "🧽"
+        },
+        {
+          "en": "A broom",
+          "es": "Una escoba",
+          "emoji": "🧹"
+        },
+        {
+          "en": "A ladder",
+          "es": "Una escalera",
+          "emoji": "🪜"
+        }
       ],
       "answer": 1,
-      "why": { "en": "A broom's stiff bristles drag dust into a pile, and the oldest brooms were simply bundles of twigs tied together.", "es": "Las cerdas duras de la escoba juntan el polvo, y las escobas más antiguas eran solo manojos de ramitas amarradas." },
+      "why": {
+        "en": "A broom's stiff bristles drag dust into a pile, and the oldest brooms were simply bundles of twigs tied together.",
+        "es": "Las cerdas duras de la escoba juntan el polvo, y las escobas más antiguas eran solo manojos de ramitas amarradas."
+      },
       "topic": "tools at home",
       "source": "https://pbskids.org/designsquad/parentseducators/resources/simple_machines.html"
     },
     {
-      "id": "everyday-easy-073", "level": "easy", "type": "mc", "lang": "both", "emoji": "✂️",
-      "q": { "en": "Which tool cuts paper into shapes?", "es": "¿Qué herramienta corta el papel en figuras?" },
+      "id": "everyday-easy-073",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "✂️",
+      "q": {
+        "en": "Which tool cuts paper into shapes?",
+        "es": "¿Qué herramienta corta el papel en figuras?"
+      },
       "choices": [
-        { "en": "A pencil", "es": "Un lápiz", "emoji": "✏️" },
-        { "en": "A ruler", "es": "Una regla", "emoji": "📏" },
-        { "en": "Scissors", "es": "Las tijeras", "emoji": "✂️" }
+        {
+          "en": "A pencil",
+          "es": "Un lápiz",
+          "emoji": "✏️"
+        },
+        {
+          "en": "A ruler",
+          "es": "Una regla",
+          "emoji": "📏"
+        },
+        {
+          "en": "Scissors",
+          "es": "Las tijeras",
+          "emoji": "✂️"
+        }
       ],
       "answer": 2,
-      "why": { "en": "Scissors are two wedges joined at a pivot, so a small squeeze of your hand makes a surprisingly strong cut.", "es": "Las tijeras son dos cuñas unidas en un eje, así que un apretón pequeño de tu mano logra un corte muy fuerte." },
+      "why": {
+        "en": "Scissors are two wedges joined at a pivot, so a small squeeze of your hand makes a surprisingly strong cut.",
+        "es": "Las tijeras son dos cuñas unidas en un eje, así que un apretón pequeño de tu mano logra un corte muy fuerte."
+      },
       "topic": "tools at home",
       "source": "https://kids.britannica.com/kids/article/simple-machine/353546"
     },
     {
-      "id": "everyday-easy-074", "level": "easy", "type": "mc", "lang": "both", "emoji": "🙏",
-      "q": { "en": "What do you say when someone helps you?", "es": "¿Qué dices cuando alguien te ayuda?" },
+      "id": "everyday-easy-074",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🙏",
+      "q": {
+        "en": "What do you say when someone helps you?",
+        "es": "¿Qué dices cuando alguien te ayuda?"
+      },
       "choices": [
-        { "en": "Thank you", "es": "Gracias", "emoji": "🙏" },
-        { "en": "Goodbye", "es": "Adiós", "emoji": "👋" },
-        { "en": "Watch out", "es": "Cuidado", "emoji": "😬" }
+        {
+          "en": "Thank you",
+          "es": "Gracias",
+          "emoji": "🙏"
+        },
+        {
+          "en": "Goodbye",
+          "es": "Adiós",
+          "emoji": "👋"
+        },
+        {
+          "en": "Watch out",
+          "es": "Cuidado",
+          "emoji": "😬"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Saying thank you tells a helper their effort mattered, and people who thank others often feel happier themselves.", "es": "Decir gracias le avisa a quien te ayuda que su esfuerzo valió, y quienes agradecen suelen sentirse más contentos." },
+      "why": {
+        "en": "Saying thank you tells a helper their effort mattered, and people who thank others often feel happier themselves.",
+        "es": "Decir gracias le avisa a quien te ayuda que su esfuerzo valió, y quienes agradecen suelen sentirse más contentos."
+      },
       "topic": "kindness and sharing",
       "source": "https://kidshealth.org/en/kids/gratitude.html"
     },
     {
-      "id": "everyday-easy-075", "level": "easy", "type": "mc", "lang": "both", "emoji": "🫂",
-      "q": { "en": "Your friend feels sad. What should you do?", "es": "Tu amiga se siente triste. ¿Qué haces?" },
+      "id": "everyday-easy-075",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🫂",
+      "q": {
+        "en": "Your friend feels sad. What should you do?",
+        "es": "Tu amiga se siente triste. ¿Qué haces?"
+      },
       "choices": [
-        { "en": "Laugh loudly", "es": "Reírte fuerte", "emoji": "😆" },
-        { "en": "Ask what happened", "es": "Preguntarle qué pasó", "emoji": "🫂" },
-        { "en": "Walk away", "es": "Irte caminando", "emoji": "🚶" }
+        {
+          "en": "Laugh loudly",
+          "es": "Reírte fuerte",
+          "emoji": "😆"
+        },
+        {
+          "en": "Ask what happened",
+          "es": "Preguntarle qué pasó",
+          "emoji": "🫂"
+        },
+        {
+          "en": "Walk away",
+          "es": "Irte caminando",
+          "emoji": "🚶"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Asking about sad feelings helps, because putting a feeling into words makes the strongest part of it settle down.", "es": "Preguntar por la tristeza ayuda, porque poner un sentimiento en palabras hace que la parte más fuerte se calme." },
+      "why": {
+        "en": "Asking about sad feelings helps, because putting a feeling into words makes the strongest part of it settle down.",
+        "es": "Preguntar por la tristeza ayuda, porque poner un sentimiento en palabras hace que la parte más fuerte se calme."
+      },
       "topic": "kindness and sharing",
       "source": "https://kidshealth.org/en/kids/talk-feelings.html"
     },
     {
-      "id": "everyday-easy-076", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧸",
-      "q": { "en": "What does sharing a toy mean?", "es": "¿Qué significa compartir un juguete?" },
+      "id": "everyday-easy-076",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧸",
+      "q": {
+        "en": "What does sharing a toy mean?",
+        "es": "¿Qué significa compartir un juguete?"
+      },
       "choices": [
-        { "en": "You keep it hidden", "es": "Lo escondes", "emoji": "🙈" },
-        { "en": "You throw it away", "es": "Lo tiras", "emoji": "🗑️" },
-        { "en": "Both of you play", "es": "Los dos juegan", "emoji": "🧸" }
+        {
+          "en": "You keep it hidden",
+          "es": "Lo escondes",
+          "emoji": "🙈"
+        },
+        {
+          "en": "You throw it away",
+          "es": "Lo tiras",
+          "emoji": "🗑️"
+        },
+        {
+          "en": "Both of you play",
+          "es": "Los dos juegan",
+          "emoji": "🧸"
+        }
       ],
       "answer": 2,
-      "why": { "en": "Sharing means taking turns with the same thing, and children who share get invited to play much more often.", "es": "Compartir es turnarse con la misma cosa, y a los niños que comparten los invitan a jugar mucho más seguido." },
+      "why": {
+        "en": "Sharing means taking turns with the same thing, and children who share get invited to play much more often.",
+        "es": "Compartir es turnarse con la misma cosa, y a los niños que comparten los invitan a jugar mucho más seguido."
+      },
       "topic": "kindness and sharing",
       "source": "https://pbskids.org/daniel/parents/article/sharing"
     },
     {
-      "id": "everyday-easy-077", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧼",
-      "q": { "en": "When should you wash your hands?", "es": "¿Cuándo debes lavarte las manos?" },
+      "id": "everyday-easy-077",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧺",
+      "q": {
+        "en": "What keeps food cold at a picnic?",
+        "es": "¿Qué mantiene fría la comida en un picnic?"
+      },
       "choices": [
-        { "en": "Before eating", "es": "Antes de comer", "emoji": "🧼" },
-        { "en": "After sleeping", "es": "Después de dormir", "emoji": "😴" },
-        { "en": "While running", "es": "Mientras corres", "emoji": "🏃" }
+        {
+          "en": "Ice",
+          "es": "Hielo",
+          "emoji": "🧊"
+        },
+        {
+          "en": "A blanket",
+          "es": "Una cobija",
+          "emoji": "🧣"
+        },
+        {
+          "en": "A candle",
+          "es": "Una vela",
+          "emoji": "🕯️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Soap breaks the greasy coat around germs so water can rinse them away, which takes about twenty seconds.", "es": "El jabón rompe la capa grasosa de los gérmenes para que el agua los arrastre, y eso toma unos veinte segundos." },
-      "topic": "healthy habits",
-      "source": "https://kidshealth.org/en/kids/wash-hands.html"
+      "why": {
+        "en": "Ice pulls heat out of the food around it as it melts, which is why a cooler with ice keeps sandwiches safe all afternoon.",
+        "es": "El hielo saca el calor de la comida que lo rodea mientras se derrite, por eso una hielera mantiene los sándwiches frescos toda la tarde."
+      },
+      "topic": "picnics",
+      "source": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping-and-boating"
     },
     {
-      "id": "everyday-easy-078", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪥",
-      "q": { "en": "How many times a day should you brush?", "es": "¿Cuántas veces al día debes cepillarte?" },
+      "id": "everyday-easy-078",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🪥",
+      "q": {
+        "en": "How many times a day should you brush?",
+        "es": "¿Cuántas veces al día debes cepillarte?"
+      },
       "choices": [
-        { "en": "Once", "es": "Una vez", "emoji": "1️⃣" },
-        { "en": "Twice", "es": "Dos veces", "emoji": "🪥" },
-        { "en": "Every hour", "es": "Cada hora", "emoji": "⏰" }
+        {
+          "en": "Once",
+          "es": "Una vez",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "Twice",
+          "es": "Dos veces",
+          "emoji": "🪥"
+        },
+        {
+          "en": "Every hour",
+          "es": "Cada hora",
+          "emoji": "⏰"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Brushing twice clears the sticky film that feeds on sugar, and the fluoride in toothpaste makes enamel harder.", "es": "Cepillarte dos veces quita la capa pegajosa que se alimenta del azúcar, y el flúor de la pasta endurece el esmalte." },
+      "why": {
+        "en": "Brushing twice clears the sticky film that feeds on sugar, and the fluoride in toothpaste makes enamel harder.",
+        "es": "Cepillarte dos veces quita la capa pegajosa que se alimenta del azúcar, y el flúor de la pasta endurece el esmalte."
+      },
       "topic": "healthy habits",
       "source": "https://kidshealth.org/en/kids/brushing-teeth.html"
     },
     {
-      "id": "everyday-easy-079", "level": "easy", "type": "mc", "lang": "both", "emoji": "💧",
-      "q": { "en": "What drink is best when you are thirsty?", "es": "¿Qué bebida es mejor cuando tienes sed?" },
+      "id": "everyday-easy-079",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌱",
+      "q": {
+        "en": "What do you use to water plants outside?",
+        "es": "¿Con qué riegas las plantas de afuera?"
+      },
       "choices": [
-        { "en": "Juice", "es": "Jugo", "emoji": "🧃" },
-        { "en": "Syrup", "es": "Jarabe", "emoji": "🍯" },
-        { "en": "Water", "es": "Agua", "emoji": "💧" }
-      ],
-      "answer": 2,
-      "why": { "en": "Water makes up more than half of your body, and you lose a little in every breath you let out.", "es": "El agua es más de la mitad de tu cuerpo, y pierdes un poquito en cada respiración que sueltas." },
-      "topic": "healthy habits",
-      "source": "https://kidshealth.org/en/kids/water.html"
-    },
-    {
-      "id": "everyday-easy-080", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥛",
-      "q": { "en": "Which food helps your bones grow strong?", "es": "¿Qué alimento ayuda a tus huesos a crecer?" },
-      "choices": [
-        { "en": "Milk and beans", "es": "Leche y frijoles", "emoji": "🥛" },
-        { "en": "Candy", "es": "Dulces", "emoji": "🍬" },
-        { "en": "Soda", "es": "Refresco", "emoji": "🥤" }
+        {
+          "en": "A hose",
+          "es": "Una manguera",
+          "emoji": "🚿"
+        },
+        {
+          "en": "A broom",
+          "es": "Una escoba",
+          "emoji": "🧹"
+        },
+        {
+          "en": "A fork",
+          "es": "Un tenedor",
+          "emoji": "🍴"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Bones need calcium, and milk, beans and green leaves all carry it, which is why bones keep hardening for years.", "es": "Los huesos necesitan calcio, y la leche, los frijoles y las hojas verdes lo tienen, por eso tus huesos siguen endureciéndose." },
+      "why": {
+        "en": "A hose or a watering can brings water to the roots, and early morning is best because less water dries up in the sun.",
+        "es": "Una manguera o una regadera lleva el agua a las raíces, y la mañana temprano es mejor porque se evapora menos con el sol."
+      },
+      "topic": "the garden",
+      "source": "https://kids.nationalgeographic.com/nature/article/gardening"
+    },
+    {
+      "id": "everyday-easy-080",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥛",
+      "q": {
+        "en": "Which food helps your bones grow strong?",
+        "es": "¿Qué alimento ayuda a tus huesos a crecer?"
+      },
+      "choices": [
+        {
+          "en": "Milk and beans",
+          "es": "Leche y frijoles",
+          "emoji": "🥛"
+        },
+        {
+          "en": "Candy",
+          "es": "Dulces",
+          "emoji": "🍬"
+        },
+        {
+          "en": "Soda",
+          "es": "Refresco",
+          "emoji": "🥤"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Bones need calcium, and milk, beans and green leaves all carry it, which is why bones keep hardening for years.",
+        "es": "Los huesos necesitan calcio, y la leche, los frijoles y las hojas verdes lo tienen, por eso tus huesos siguen endureciéndose."
+      },
       "topic": "healthy habits",
       "source": "https://www.myplate.gov/eat-healthy/dairy"
     },
     {
-      "id": "everyday-easy-081", "level": "easy", "type": "mc", "lang": "both", "emoji": "🌧️",
-      "q": { "en": "What do you wear when it rains?", "es": "¿Qué te pones cuando llueve?" },
+      "id": "everyday-easy-081",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🌧️",
+      "q": {
+        "en": "What do you wear when it rains?",
+        "es": "¿Qué te pones cuando llueve?"
+      },
       "choices": [
-        { "en": "A swimsuit", "es": "Un traje de baño", "emoji": "🩱" },
-        { "en": "A raincoat", "es": "Un impermeable", "emoji": "🧥" },
-        { "en": "Sunglasses", "es": "Lentes de sol", "emoji": "🕶️" }
+        {
+          "en": "A swimsuit",
+          "es": "Un traje de baño",
+          "emoji": "🩱"
+        },
+        {
+          "en": "A raincoat",
+          "es": "Un impermeable",
+          "emoji": "🧥"
+        },
+        {
+          "en": "Sunglasses",
+          "es": "Lentes de sol",
+          "emoji": "🕶️"
+        }
       ],
       "answer": 1,
-      "why": { "en": "A raincoat is coated so water beads up and rolls off instead of soaking through the cloth to you.", "es": "El impermeable tiene una capa que hace que el agua forme gotitas y resbale en vez de mojar la tela." },
+      "why": {
+        "en": "A raincoat is coated so water beads up and rolls off instead of soaking through the cloth to you.",
+        "es": "El impermeable tiene una capa que hace que el agua forme gotitas y resbale en vez de mojar la tela."
+      },
       "topic": "seasons and clothes",
       "source": "https://kids.britannica.com/kids/article/rain/353423"
     },
     {
-      "id": "everyday-easy-082", "level": "easy", "type": "mc", "lang": "both", "emoji": "❄️",
-      "q": { "en": "Which season is the coldest of the four?", "es": "¿Cuál de las cuatro estaciones es la más fría?" },
+      "id": "everyday-easy-082",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "❄️",
+      "q": {
+        "en": "Which season is the coldest of the four?",
+        "es": "¿Cuál de las cuatro estaciones es la más fría?"
+      },
       "choices": [
-        { "en": "Summer", "es": "El verano", "emoji": "☀️" },
-        { "en": "Spring", "es": "La primavera", "emoji": "🌷" },
-        { "en": "Winter", "es": "El invierno", "emoji": "❄️" }
+        {
+          "en": "Summer",
+          "es": "El verano",
+          "emoji": "☀️"
+        },
+        {
+          "en": "Spring",
+          "es": "La primavera",
+          "emoji": "🌷"
+        },
+        {
+          "en": "Winter",
+          "es": "El invierno",
+          "emoji": "❄️"
+        }
       ],
       "answer": 2,
-      "why": { "en": "Winter is cold because your half of Earth leans away from the Sun, so its light arrives at a slant.", "es": "En invierno hace frío porque tu mitad de la Tierra se inclina lejos del Sol y la luz llega de lado." },
+      "why": {
+        "en": "Winter is cold because your half of Earth leans away from the Sun, so its light arrives at a slant.",
+        "es": "En invierno hace frío porque tu mitad de la Tierra se inclina lejos del Sol y la luz llega de lado."
+      },
       "topic": "seasons and clothes",
       "source": "https://kids.nationalgeographic.com/science/article/seasons"
     },
     {
-      "id": "everyday-easy-083", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍂",
-      "q": { "en": "In which season do leaves turn orange?", "es": "¿En qué estación las hojas se vuelven anaranjadas?" },
+      "id": "everyday-easy-083",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍳",
+      "q": {
+        "en": "Which room do we cook in?",
+        "es": "¿En qué cuarto cocinamos?"
+      },
       "choices": [
-        { "en": "Fall", "es": "El otoño", "emoji": "🍂" },
-        { "en": "Spring", "es": "La primavera", "emoji": "🌸" },
-        { "en": "Winter", "es": "El invierno", "emoji": "⛄" }
+        {
+          "en": "The kitchen",
+          "es": "La cocina",
+          "emoji": "🍳"
+        },
+        {
+          "en": "The bathroom",
+          "es": "El baño",
+          "emoji": "🛁"
+        },
+        {
+          "en": "The garage",
+          "es": "El garaje",
+          "emoji": "🚗"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The orange was there all along, but green covered it until autumn, when the tree stops feeding the green.", "es": "El anaranjado ya estaba ahí, pero el verde lo tapaba hasta el otoño, cuando el árbol deja de alimentar ese verde." },
-      "topic": "seasons and clothes",
-      "source": "https://kids.britannica.com/kids/article/leaf/353248"
+      "why": {
+        "en": "The kitchen is where the stove and fridge live, and in many homes it is also where the family gathers to talk.",
+        "es": "La cocina es donde viven la estufa y el refrigerador, y en muchas casas también es donde la familia se junta a conversar."
+      },
+      "topic": "at home",
+      "source": "https://kids.britannica.com/kids/article/house/353257"
     },
     {
-      "id": "everyday-easy-084", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧢",
-      "q": { "en": "What keeps the sun off your face?", "es": "¿Qué te protege la cara del sol?" },
+      "id": "everyday-easy-084",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧢",
+      "q": {
+        "en": "What keeps the sun off your face?",
+        "es": "¿Qué te protege la cara del sol?"
+      },
       "choices": [
-        { "en": "A scarf", "es": "Una bufanda", "emoji": "🧣" },
-        { "en": "A hat", "es": "Un sombrero", "emoji": "🧢" },
-        { "en": "A glove", "es": "Un guante", "emoji": "🧤" }
+        {
+          "en": "A scarf",
+          "es": "Una bufanda",
+          "emoji": "🧣"
+        },
+        {
+          "en": "A hat",
+          "es": "Un sombrero",
+          "emoji": "🧢"
+        },
+        {
+          "en": "A glove",
+          "es": "Un guante",
+          "emoji": "🧤"
+        }
       ],
       "answer": 1,
-      "why": { "en": "A wide hat shades your face and eyes, and shade can feel several degrees cooler than the spot beside it.", "es": "Un sombrero ancho da sombra a tu cara y a tus ojos, y la sombra se siente varios grados más fresca." },
+      "why": {
+        "en": "A wide hat shades your face and eyes, and shade can feel several degrees cooler than the spot beside it.",
+        "es": "Un sombrero ancho da sombra a tu cara y a tus ojos, y la sombra se siente varios grados más fresca."
+      },
       "topic": "seasons and clothes",
       "source": "https://kidshealth.org/en/kids/summer-safety.html"
     },
     {
-      "id": "everyday-easy-085", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧊",
-      "q": { "en": "Which kitchen machine keeps food cold?", "es": "¿Qué aparato de la cocina mantiene fría la comida?" },
+      "id": "everyday-easy-085",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🧊",
+      "q": {
+        "en": "Which kitchen machine keeps food cold?",
+        "es": "¿Qué aparato de la cocina mantiene fría la comida?"
+      },
       "choices": [
-        { "en": "An oven", "es": "El horno", "emoji": "🔥" },
-        { "en": "A blender", "es": "La licuadora", "emoji": "🥤" },
-        { "en": "A fridge", "es": "El refrigerador", "emoji": "🧊" }
+        {
+          "en": "An oven",
+          "es": "El horno",
+          "emoji": "🔥"
+        },
+        {
+          "en": "A blender",
+          "es": "La licuadora",
+          "emoji": "🥤"
+        },
+        {
+          "en": "A fridge",
+          "es": "El refrigerador",
+          "emoji": "🧊"
+        }
       ],
       "answer": 2,
-      "why": { "en": "A fridge pumps heat out of the food and into the room, which is why its back feels warm.", "es": "El refrigerador saca el calor de la comida y lo suelta en el cuarto, por eso su parte trasera se siente tibia." },
+      "why": {
+        "en": "A fridge pumps heat out of the food and into the room, which is why its back feels warm.",
+        "es": "El refrigerador saca el calor de la comida y lo suelta en el cuarto, por eso su parte trasera se siente tibia."
+      },
       "topic": "the kitchen",
       "source": "https://kids.britannica.com/kids/article/refrigeration/353447"
     },
     {
-      "id": "everyday-easy-086", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍲",
-      "q": { "en": "What do you cook soup in?", "es": "¿En qué cocinas la sopa?" },
+      "id": "everyday-easy-086",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍲",
+      "q": {
+        "en": "What do you cook soup in?",
+        "es": "¿En qué cocinas la sopa?"
+      },
       "choices": [
-        { "en": "A pot", "es": "Una olla", "emoji": "🍲" },
-        { "en": "A plate", "es": "Un plato", "emoji": "🍽️" },
-        { "en": "A cup", "es": "Una taza", "emoji": "☕" }
+        {
+          "en": "A pot",
+          "es": "Una olla",
+          "emoji": "🍲"
+        },
+        {
+          "en": "A plate",
+          "es": "Un plato",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "A cup",
+          "es": "Una taza",
+          "emoji": "☕"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Metal pots pass heat from the flame into the soup quickly, and a lid makes the water boil much sooner.", "es": "Las ollas de metal pasan el calor del fuego a la sopa rápido, y con tapa el agua hierve mucho antes." },
+      "why": {
+        "en": "Metal pots pass heat from the flame into the soup quickly, and a lid makes the water boil much sooner.",
+        "es": "Las ollas de metal pasan el calor del fuego a la sopa rápido, y con tapa el agua hierve mucho antes."
+      },
       "topic": "the kitchen",
       "source": "https://kids.britannica.com/kids/article/heat/353114"
     },
     {
-      "id": "everyday-easy-087", "level": "easy", "type": "mc", "lang": "both", "emoji": "♨️",
-      "q": { "en": "Which hot box bakes a cake?", "es": "¿Qué caja caliente hornea un pastel?" },
+      "id": "everyday-easy-087",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "♨️",
+      "q": {
+        "en": "Which hot box bakes a cake?",
+        "es": "¿Qué caja caliente hornea un pastel?"
+      },
       "choices": [
-        { "en": "A freezer", "es": "El congelador", "emoji": "🧊" },
-        { "en": "An oven", "es": "El horno", "emoji": "♨️" },
-        { "en": "A sink", "es": "El fregadero", "emoji": "🚰" }
+        {
+          "en": "A freezer",
+          "es": "El congelador",
+          "emoji": "🧊"
+        },
+        {
+          "en": "An oven",
+          "es": "El horno",
+          "emoji": "♨️"
+        },
+        {
+          "en": "A sink",
+          "es": "El fregadero",
+          "emoji": "🚰"
+        }
       ],
       "answer": 1,
-      "why": { "en": "An oven surrounds a cake with hot air, and the heat turns tiny bubbles in the batter into a spongy crumb.", "es": "El horno rodea el pastel con aire caliente, y el calor convierte las burbujitas de la masa en una miga esponjosa." },
+      "why": {
+        "en": "An oven surrounds a cake with hot air, and the heat turns tiny bubbles in the batter into a spongy crumb.",
+        "es": "El horno rodea el pastel con aire caliente, y el calor convierte las burbujitas de la masa en una miga esponjosa."
+      },
       "topic": "the kitchen",
       "source": "https://kids.britannica.com/kids/article/baking/628013"
     },
     {
-      "id": "everyday-easy-088", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥄",
-      "q": { "en": "Which tool do you use to eat soup?", "es": "¿Qué usas para comer la sopa?" },
+      "id": "everyday-easy-088",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥄",
+      "q": {
+        "en": "Which tool do you use to eat soup?",
+        "es": "¿Qué usas para comer la sopa?"
+      },
       "choices": [
-        { "en": "A fork", "es": "Un tenedor", "emoji": "🍴" },
-        { "en": "A straw", "es": "Un popote", "emoji": "🥤" },
-        { "en": "A spoon", "es": "Una cuchara", "emoji": "🥄" }
+        {
+          "en": "A fork",
+          "es": "Un tenedor",
+          "emoji": "🍴"
+        },
+        {
+          "en": "A straw",
+          "es": "Un popote",
+          "emoji": "🥤"
+        },
+        {
+          "en": "A spoon",
+          "es": "Una cuchara",
+          "emoji": "🥄"
+        }
       ],
       "answer": 2,
-      "why": { "en": "A spoon's bowl holds liquid that a fork would drop, which is why soup spoons are rounder and deeper.", "es": "La cuchara tiene un hueco que sostiene el líquido que el tenedor dejaría caer, por eso es redonda y honda." },
+      "why": {
+        "en": "A spoon's bowl holds liquid that a fork would drop, which is why soup spoons are rounder and deeper.",
+        "es": "La cuchara tiene un hueco que sostiene el líquido que el tenedor dejaría caer, por eso es redonda y honda."
+      },
       "topic": "mealtimes",
       "source": "https://kids.britannica.com/kids/article/spoon/353602"
     },
     {
-      "id": "everyday-easy-089", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍽️",
-      "q": { "en": "What do people say before starting a meal?", "es": "¿Qué se dice antes de empezar a comer?" },
+      "id": "everyday-easy-089",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🍽️",
+      "q": {
+        "en": "What do people say before starting a meal?",
+        "es": "¿Qué se dice antes de empezar a comer?"
+      },
       "choices": [
-        { "en": "Enjoy your meal", "es": "Buen provecho", "emoji": "🍽️" },
-        { "en": "Good night", "es": "Buenas noches", "emoji": "🌙" },
-        { "en": "See you later", "es": "Hasta luego", "emoji": "👋" }
+        {
+          "en": "Enjoy your meal",
+          "es": "Buen provecho",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "Good night",
+          "es": "Buenas noches",
+          "emoji": "🌙"
+        },
+        {
+          "en": "See you later",
+          "es": "Hasta luego",
+          "emoji": "👋"
+        }
       ],
       "answer": 0,
-      "why": { "en": "In Spanish people wish each other buen provecho before eating, a warm way to start a meal together.", "es": "En español se dice buen provecho antes de comer, una manera amable de empezar la comida en familia." },
+      "why": {
+        "en": "In Spanish people wish each other buen provecho before eating, a warm way to start a meal together.",
+        "es": "En español se dice buen provecho antes de comer, una manera amable de empezar la comida en familia."
+      },
       "topic": "mealtimes",
       "source": "https://kids.britannica.com/kids/article/Mexico/345680"
     },
     {
-      "id": "everyday-easy-090", "level": "easy", "type": "mc", "lang": "both", "emoji": "🥪",
-      "q": { "en": "What is the meal you eat at midday?", "es": "¿Cuál es la comida del mediodía?" },
+      "id": "everyday-easy-090",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🥪",
+      "q": {
+        "en": "What is the meal you eat at midday?",
+        "es": "¿Cuál es la comida del mediodía?"
+      },
       "choices": [
-        { "en": "Breakfast", "es": "El desayuno", "emoji": "🥣" },
-        { "en": "Lunch", "es": "El almuerzo", "emoji": "🥪" },
-        { "en": "A snack", "es": "Una merienda", "emoji": "🍪" }
+        {
+          "en": "Breakfast",
+          "es": "El desayuno",
+          "emoji": "🥣"
+        },
+        {
+          "en": "Lunch",
+          "es": "El almuerzo",
+          "emoji": "🥪"
+        },
+        {
+          "en": "A snack",
+          "es": "Una merienda",
+          "emoji": "🍪"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Lunch is the midday meal, and its Spanish name almuerzo comes from an old word meaning to bite into.", "es": "El almuerzo es la comida del mediodía, y su nombre viene de una palabra antigua que significaba morder algo." },
+      "why": {
+        "en": "Lunch is the midday meal, and its Spanish name almuerzo comes from an old word meaning to bite into.",
+        "es": "El almuerzo es la comida del mediodía, y su nombre viene de una palabra antigua que significaba morder algo."
+      },
       "topic": "mealtimes",
       "source": "https://kids.britannica.com/kids/article/meal/353310"
     },
     {
-      "id": "everyday-easy-091", "level": "easy", "type": "mc", "lang": "both", "emoji": "📮",
-      "q": { "en": "Where do you drop a letter to mail it?", "es": "¿Dónde dejas una carta para enviarla?" },
+      "id": "everyday-easy-091",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📮",
+      "q": {
+        "en": "Where do you drop a letter to mail it?",
+        "es": "¿Dónde dejas una carta para enviarla?"
+      },
       "choices": [
-        { "en": "A trash can", "es": "Un bote de basura", "emoji": "🗑️" },
-        { "en": "A bookshelf", "es": "Un librero", "emoji": "📚" },
-        { "en": "A mailbox", "es": "Un buzón", "emoji": "📮" }
+        {
+          "en": "A trash can",
+          "es": "Un bote de basura",
+          "emoji": "🗑️"
+        },
+        {
+          "en": "A bookshelf",
+          "es": "Un librero",
+          "emoji": "📚"
+        },
+        {
+          "en": "A mailbox",
+          "es": "Un buzón",
+          "emoji": "📮"
+        }
       ],
       "answer": 2,
-      "why": { "en": "A mailbox is emptied at set hours, and machines then read the address and sort thousands of letters each hour.", "es": "El buzón se vacía a ciertas horas, y luego las máquinas leen la dirección y separan miles de cartas por hora." },
+      "why": {
+        "en": "A mailbox is emptied at set hours, and machines then read the address and sort thousands of letters each hour.",
+        "es": "El buzón se vacía a ciertas horas, y luego las máquinas leen la dirección y separan miles de cartas por hora."
+      },
       "topic": "mail and letters",
       "source": "https://kids.britannica.com/kids/article/postal-system/353400"
     },
     {
-      "id": "everyday-easy-092", "level": "easy", "type": "mc", "lang": "both", "emoji": "✉️",
-      "q": { "en": "What goes on the front of an envelope?", "es": "¿Qué va al frente de un sobre?" },
+      "id": "everyday-easy-092",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "✉️",
+      "q": {
+        "en": "What goes on the front of an envelope?",
+        "es": "¿Qué va al frente de un sobre?"
+      },
       "choices": [
-        { "en": "The address", "es": "La dirección", "emoji": "📬" },
-        { "en": "A drawing", "es": "Un dibujo", "emoji": "🎨" },
-        { "en": "Your lunch", "es": "Tu almuerzo", "emoji": "🥪" }
+        {
+          "en": "The address",
+          "es": "La dirección",
+          "emoji": "📬"
+        },
+        {
+          "en": "A drawing",
+          "es": "Un dibujo",
+          "emoji": "🎨"
+        },
+        {
+          "en": "Your lunch",
+          "es": "Tu almuerzo",
+          "emoji": "🥪"
+        }
       ],
       "answer": 0,
-      "why": { "en": "The address names the country, city and street, and a code of numbers helps machines sort the envelope fast.", "es": "La dirección indica el país, la ciudad y la calle, y un código de números ayuda a las máquinas a separarla." },
+      "why": {
+        "en": "The address names the country, city and street, and a code of numbers helps machines sort the envelope fast.",
+        "es": "La dirección indica el país, la ciudad y la calle, y un código de números ayuda a las máquinas a separarla."
+      },
       "topic": "mail and letters",
       "source": "https://kids.britannica.com/kids/article/postal-system/353400"
     },
     {
-      "id": "everyday-easy-093", "level": "easy", "type": "mc", "lang": "both", "emoji": "📚",
-      "q": { "en": "Where can you borrow books for free?", "es": "¿Dónde puedes pedir libros prestados gratis?" },
+      "id": "everyday-easy-093",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🔦",
+      "q": {
+        "en": "What do you use to see in the dark?",
+        "es": "¿Qué usas para ver en la oscuridad?"
+      },
       "choices": [
-        { "en": "A bakery", "es": "Una panadería", "emoji": "🥐" },
-        { "en": "A library", "es": "Una biblioteca", "emoji": "📚" },
-        { "en": "A garage", "es": "Un garaje", "emoji": "🚗" }
-      ],
-      "answer": 1,
-      "why": { "en": "A library lends the same book to many readers, and lending libraries have been opening for hundreds of years.", "es": "La biblioteca presta el mismo libro a muchos lectores, y las bibliotecas que prestan existen desde hace cientos de años." },
-      "topic": "the library",
-      "source": "https://kids.britannica.com/kids/article/library/353253"
-    },
-    {
-      "id": "everyday-easy-094", "level": "easy", "type": "mc", "lang": "both", "emoji": "🤫",
-      "q": { "en": "How should you speak inside a library?", "es": "¿Cómo debes hablar dentro de una biblioteca?" },
-      "choices": [
-        { "en": "Very loudly", "es": "Muy fuerte", "emoji": "📣" },
-        { "en": "By singing", "es": "Cantando", "emoji": "🎤" },
-        { "en": "Quietly", "es": "En voz bajita", "emoji": "🤫" }
-      ],
-      "answer": 2,
-      "why": { "en": "Quiet voices help everyone read, because your brain uses the same part for reading words and for hearing them.", "es": "Las voces bajitas ayudan a todos a leer, porque tu cerebro usa la misma parte para leer y para escuchar palabras." },
-      "topic": "the library",
-      "source": "https://kids.britannica.com/kids/article/library/353253"
-    },
-    {
-      "id": "everyday-easy-095", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕯️",
-      "q": { "en": "What do you blow out on a cake?", "es": "¿Qué soplas encima de un pastel?" },
-      "choices": [
-        { "en": "Candles", "es": "Las velitas", "emoji": "🕯️" },
-        { "en": "Balloons", "es": "Los globos", "emoji": "🎈" },
-        { "en": "Ribbons", "es": "Los listones", "emoji": "🎀" }
+        {
+          "en": "A flashlight",
+          "es": "Una linterna",
+          "emoji": "🔦"
+        },
+        {
+          "en": "A spoon",
+          "es": "Una cuchara",
+          "emoji": "🥄"
+        },
+        {
+          "en": "A pillow",
+          "es": "Una almohada",
+          "emoji": "🛏️"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Blowing out candles is a very old custom, and the number of candles counts how many times Earth circled the Sun.", "es": "Soplar las velitas es una costumbre muy antigua, y el número de velas cuenta cuántas vueltas dio la Tierra al Sol." },
+      "why": {
+        "en": "A flashlight sends a beam from a tiny bulb, and a curved mirror behind the bulb gathers the light into one bright spot.",
+        "es": "Una linterna lanza un haz desde un foco pequeño, y un espejo curvo detrás del foco junta la luz en un solo punto brillante."
+      },
+      "topic": "tools at home",
+      "source": "https://kids.britannica.com/kids/article/flashlight/632565"
+    },
+    {
+      "id": "everyday-easy-094",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🤫",
+      "q": {
+        "en": "How should you speak inside a library?",
+        "es": "¿Cómo debes hablar dentro de una biblioteca?"
+      },
+      "choices": [
+        {
+          "en": "Very loudly",
+          "es": "Muy fuerte",
+          "emoji": "📣"
+        },
+        {
+          "en": "By singing",
+          "es": "Cantando",
+          "emoji": "🎤"
+        },
+        {
+          "en": "Quietly",
+          "es": "En voz bajita",
+          "emoji": "🤫"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Quiet voices help everyone read, because your brain uses the same part for reading words and for hearing them.",
+        "es": "Las voces bajitas ayudan a todos a leer, porque tu cerebro usa la misma parte para leer y para escuchar palabras."
+      },
+      "topic": "the library",
+      "source": "https://kids.britannica.com/kids/article/library/353253"
+    },
+    {
+      "id": "everyday-easy-095",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🕯️",
+      "q": {
+        "en": "What do you blow out on a cake?",
+        "es": "¿Qué soplas encima de un pastel?"
+      },
+      "choices": [
+        {
+          "en": "Candles",
+          "es": "Las velitas",
+          "emoji": "🕯️"
+        },
+        {
+          "en": "Balloons",
+          "es": "Los globos",
+          "emoji": "🎈"
+        },
+        {
+          "en": "Ribbons",
+          "es": "Los listones",
+          "emoji": "🎀"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Blowing out candles is a very old custom, and the number of candles counts how many times Earth circled the Sun.",
+        "es": "Soplar las velitas es una costumbre muy antigua, y el número de velas cuenta cuántas vueltas dio la Tierra al Sol."
+      },
       "topic": "birthdays",
       "source": "https://kids.britannica.com/kids/article/birthday/627540"
     },
     {
-      "id": "everyday-easy-096", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎂",
-      "q": { "en": "What do many people sing at a birthday?", "es": "¿Qué cantan muchas personas en un cumpleaños?" },
+      "id": "everyday-easy-096",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🎂",
+      "q": {
+        "en": "What do many people sing at a birthday?",
+        "es": "¿Qué cantan muchas personas en un cumpleaños?"
+      },
       "choices": [
-        { "en": "A lullaby", "es": "Un arrullo", "emoji": "🌙" },
-        { "en": "A birthday song", "es": "Una canción de cumpleaños", "emoji": "🎶" },
-        { "en": "A marching tune", "es": "Una marcha", "emoji": "🥁" }
+        {
+          "en": "A lullaby",
+          "es": "Un arrullo",
+          "emoji": "🌙"
+        },
+        {
+          "en": "A birthday song",
+          "es": "Una canción de cumpleaños",
+          "emoji": "🎶"
+        },
+        {
+          "en": "A marching tune",
+          "es": "Una marcha",
+          "emoji": "🥁"
+        }
       ],
       "answer": 1,
-      "why": { "en": "In Mexico many families sing Las Mañanitas for a birthday, often at dawn, before the person has left bed.", "es": "En México muchas familias cantan Las Mañanitas en un cumpleaños, a veces al amanecer, antes de que la persona se levante." },
+      "why": {
+        "en": "In Mexico many families sing Las Mañanitas for a birthday, often at dawn, before the person has left bed.",
+        "es": "En México muchas familias cantan Las Mañanitas en un cumpleaños, a veces al amanecer, antes de que la persona se levante."
+      },
       "topic": "birthdays",
       "source": "https://kids.britannica.com/kids/article/Mexico/345680"
     },
     {
-      "id": "everyday-easy-097", "level": "easy", "type": "mc", "lang": "both", "emoji": "♻️",
-      "q": { "en": "Which bin do empty bottles go in?", "es": "¿En qué bote van las botellas vacías?" },
+      "id": "everyday-easy-097",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "♻️",
+      "q": {
+        "en": "Which bin do empty bottles go in?",
+        "es": "¿En qué bote van las botellas vacías?"
+      },
       "choices": [
-        { "en": "The toy box", "es": "La caja de juguetes", "emoji": "🧸" },
-        { "en": "The fridge", "es": "El refrigerador", "emoji": "🧊" },
-        { "en": "The recycling bin", "es": "El bote de reciclaje", "emoji": "♻️" }
+        {
+          "en": "The toy box",
+          "es": "La caja de juguetes",
+          "emoji": "🧸"
+        },
+        {
+          "en": "The fridge",
+          "es": "El refrigerador",
+          "emoji": "🧊"
+        },
+        {
+          "en": "The recycling bin",
+          "es": "El bote de reciclaje",
+          "emoji": "♻️"
+        }
       ],
       "answer": 2,
-      "why": { "en": "Glass can be melted and shaped again and again, so one bottle may come back as another bottle forever.", "es": "El vidrio se puede derretir y moldear una y otra vez, así que una botella puede volver como otra botella." },
+      "why": {
+        "en": "Glass can be melted and shaped again and again, so one bottle may come back as another bottle forever.",
+        "es": "El vidrio se puede derretir y moldear una y otra vez, así que una botella puede volver como otra botella."
+      },
       "topic": "recycling",
       "source": "https://kids.nationalgeographic.com/nature/article/recycling"
     },
     {
-      "id": "everyday-easy-098", "level": "easy", "type": "mc", "lang": "both", "emoji": "📄",
-      "q": { "en": "What happens to paper we recycle?", "es": "¿Qué pasa con el papel que reciclamos?" },
+      "id": "everyday-easy-098",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "📄",
+      "q": {
+        "en": "What happens to paper we recycle?",
+        "es": "¿Qué pasa con el papel que reciclamos?"
+      },
       "choices": [
-        { "en": "It becomes new paper", "es": "Se vuelve papel nuevo", "emoji": "📄" },
-        { "en": "It turns into water", "es": "Se vuelve agua", "emoji": "💧" },
-        { "en": "It becomes glass", "es": "Se vuelve vidrio", "emoji": "🥃" }
+        {
+          "en": "It becomes new paper",
+          "es": "Se vuelve papel nuevo",
+          "emoji": "📄"
+        },
+        {
+          "en": "It turns into water",
+          "es": "Se vuelve agua",
+          "emoji": "💧"
+        },
+        {
+          "en": "It becomes glass",
+          "es": "Se vuelve vidrio",
+          "emoji": "🥃"
+        }
       ],
       "answer": 0,
-      "why": { "en": "Recycled paper is mashed back into pulp, and a sheet can be reused about five to seven times before its fibers shorten.", "es": "El papel reciclado se deshace en una pasta, y una hoja sirve unas cinco o siete veces antes de que sus fibras se acorten." },
+      "why": {
+        "en": "Recycled paper is mashed back into pulp, and a sheet can be reused about five to seven times before its fibers shorten.",
+        "es": "El papel reciclado se deshace en una pasta, y una hoja sirve unas cinco o siete veces antes de que sus fibras se acorten."
+      },
       "topic": "recycling",
       "source": "https://kids.nationalgeographic.com/nature/article/recycling"
     },
     {
-      "id": "everyday-easy-099", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪨",
-      "q": { "en": "Which game uses chalk squares and one stone?", "es": "¿Qué juego usa cuadros de gis y una piedra?" },
+      "id": "everyday-easy-099",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🪨",
+      "q": {
+        "en": "Which game uses chalk squares and one stone?",
+        "es": "¿Qué juego usa cuadros de gis y una piedra?"
+      },
       "choices": [
-        { "en": "Jump rope", "es": "La cuerda", "emoji": "🪢" },
-        { "en": "Hopscotch", "es": "La rayuela", "emoji": "🦶" },
-        { "en": "Hide and seek", "es": "Las escondidas", "emoji": "🙈" }
+        {
+          "en": "Jump rope",
+          "es": "La cuerda",
+          "emoji": "🪢"
+        },
+        {
+          "en": "Hopscotch",
+          "es": "La rayuela",
+          "emoji": "🦶"
+        },
+        {
+          "en": "Hide and seek",
+          "es": "Las escondidas",
+          "emoji": "🙈"
+        }
       ],
       "answer": 1,
-      "why": { "en": "Rayuela is played across Latin America with chalk squares, and children in ancient Rome played a version of it.", "es": "La rayuela se juega en toda América Latina con cuadros de gis, y en la antigua Roma ya jugaban algo parecido." },
+      "why": {
+        "en": "Rayuela is played across Latin America with chalk squares, and children in ancient Rome played a version of it.",
+        "es": "La rayuela se juega en toda América Latina con cuadros de gis, y en la antigua Roma ya jugaban algo parecido."
+      },
       "topic": "games and turns",
       "source": "https://kids.britannica.com/kids/article/hopscotch/631000"
     },
     {
-      "id": "everyday-easy-100", "level": "easy", "type": "mc", "lang": "both", "emoji": "🪢",
-      "q": { "en": "What do two friends swing for you to jump?", "es": "¿Qué giran dos amigos para que saltes?" },
+      "id": "everyday-easy-100",
+      "level": "easy",
+      "type": "mc",
+      "lang": "both",
+      "emoji": "🪢",
+      "q": {
+        "en": "What do two friends swing for you to jump?",
+        "es": "¿Qué giran dos amigos para que saltes?"
+      },
       "choices": [
-        { "en": "A ball", "es": "Una pelota", "emoji": "⚽" },
-        { "en": "A hoop", "es": "Un aro", "emoji": "🛞" },
-        { "en": "A rope", "es": "Una cuerda", "emoji": "🪢" }
+        {
+          "en": "A ball",
+          "es": "Una pelota",
+          "emoji": "⚽"
+        },
+        {
+          "en": "A hoop",
+          "es": "Un aro",
+          "emoji": "🛞"
+        },
+        {
+          "en": "A rope",
+          "es": "Una cuerda",
+          "emoji": "🪢"
+        }
       ],
       "answer": 2,
-      "why": { "en": "Two turners swing the rope in a big arc, and jumpers keep time by chanting rhymes that set the speed.", "es": "Dos personas giran la cuerda en un arco grande, y quienes saltan llevan el ritmo con rimas que marcan la velocidad." },
+      "why": {
+        "en": "Two turners swing the rope in a big arc, and jumpers keep time by chanting rhymes that set the speed.",
+        "es": "Dos personas giran la cuerda en un arco grande, y quienes saltan llevan el ritmo con rimas que marcan la velocidad."
+      },
       "topic": "games and turns",
       "source": "https://kidshealth.org/en/kids/jump-rope.html"
     }

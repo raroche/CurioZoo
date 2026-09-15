@@ -1384,6 +1384,1344 @@
       "why": { "en": "The Panama Canal lets ships hop between two oceans, saving a long trip around the tip of South America.", "es": "El canal de Panamá deja que los barcos pasen entre dos océanos y ahorren el viaje por el sur de Sudamérica." },
       "topic": "bridges and harbors",
       "source": "https://kids.britannica.com/kids/article/Panama-Canal/353692"
+    },
+    {
+      "id": "geography-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "You sail west from Portugal across the ocean. Which continent do you reach first?", "es": "Navegas hacia el oeste desde Portugal. ¿Qué continente encuentras primero?" },
+      "choices": [
+        { "en": "North America", "es": "América del Norte" },
+        { "en": "Africa", "es": "África" },
+        { "en": "Asia", "es": "Asia" },
+        { "en": "Australia", "es": "Australia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Portugal faces the Atlantic, and the shortest crossing west lands in North America, which is why Lisbon became a great port for explorers.", "es": "Portugal da al Atlántico, y cruzando hacia el oeste llegas a América del Norte; por eso Lisboa fue un gran puerto de exploradores." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Atlantic-Ocean/352849"
+    },
+    {
+      "id": "geography-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which continent lies directly south of Europe across the Mediterranean Sea?", "es": "¿Qué continente está justo al sur de Europa, cruzando el mar Mediterráneo?" },
+      "choices": [
+        { "en": "Asia", "es": "Asia" },
+        { "en": "Africa", "es": "África" },
+        { "en": "South America", "es": "América del Sur" },
+        { "en": "Antarctica", "es": "La Antártida" }
+      ],
+      "answer": 1,
+      "why": { "en": "Africa and Europe almost touch at the Strait of Gibraltar, a gap of about 9 miles, 14 km, of water.", "es": "África y Europa casi se tocan en el estrecho de Gibraltar, un paso de agua de unas 9 millas, 14 km, de ancho." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Mediterranean-Sea/353596"
+    },
+    {
+      "id": "geography-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Which two continents are joined by a narrow strip called Central America?", "es": "¿Qué dos continentes une esa franja angosta llamada Centroamérica?" },
+      "choices": [
+        { "en": "Africa and Europe", "es": "África y Europa" },
+        { "en": "Asia and Europe", "es": "Asia y Europa" },
+        { "en": "North and South America", "es": "América del Norte y del Sur" },
+        { "en": "Australia and Asia", "es": "Australia y Asia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Central America is an isthmus, a thin land bridge; before the Panama Canal cut through it, ships sailed all the way around South America.", "es": "Centroamérica es un istmo, un puente de tierra angosto; antes del canal de Panamá, los barcos rodeaban toda América del Sur." },
+      "topic": "continents",
+      "source": "https://education.nationalgeographic.org/resource/isthmus/"
+    },
+    {
+      "id": "geography-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Europe and Asia share one huge landmass. What single name do geographers use?", "es": "Europa y Asia forman una sola masa de tierra. ¿Qué nombre usan los geógrafos?" },
+      "choices": [
+        { "en": "Pangaea", "es": "Pangea" },
+        { "en": "Gondwana", "es": "Gondwana" },
+        { "en": "Laurasia", "es": "Laurasia" },
+        { "en": "Eurasia", "es": "Eurasia" }
+      ],
+      "answer": 3,
+      "why": { "en": "Eurasia is one continuous continent; the Ural Mountains in Russia are the line mapmakers drew to split Europe from Asia.", "es": "Eurasia es un solo continente continuo; los montes Urales, en Rusia, son la línea que los cartógrafos usan para separar Europa de Asia." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Eurasia/632471"
+    },
+    {
+      "id": "geography-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which ocean touches the west coast of both Chile and Mexico?", "es": "¿Qué océano toca la costa oeste de Chile y de México?" },
+      "choices": [
+        { "en": "The Pacific Ocean", "es": "El océano Pacífico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Pacific is the largest ocean, wider than all the land on Earth put together, and it holds the deepest trenches.", "es": "El Pacífico es el océano más grande: es más ancho que toda la tierra firme junta y guarda las fosas más profundas." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/pacific-size.html"
+    },
+    {
+      "id": "geography-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "Which ocean lies between Africa, Australia and the coast of India?", "es": "¿Qué océano queda entre África, Australia y la costa de la India?" },
+      "choices": [
+        { "en": "The Pacific Ocean", "es": "El océano Pacífico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Southern Ocean", "es": "El océano Antártico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Indian Ocean is the warmest ocean, and its monsoon winds have carried sailing ships between Africa and Asia for thousands of years.", "es": "El océano Índico es el más cálido, y sus vientos monzones han llevado barcos de vela entre África y Asia durante miles de años." },
+      "topic": "oceans",
+      "source": "https://kids.britannica.com/kids/article/Indian-Ocean/353425"
+    },
+    {
+      "id": "geography-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which ocean flows in a complete ring around Antarctica?", "es": "¿Qué océano forma un anillo completo alrededor de la Antártida?" },
+      "choices": [
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" },
+        { "en": "The Southern Ocean", "es": "El océano Antártico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Southern Ocean is the only one that circles the globe without touching land, and its current is the strongest on the planet.", "es": "El océano Antártico es el único que rodea el planeta sin tocar tierra, y su corriente es la más fuerte del mundo." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/southernocean.html"
+    },
+    {
+      "id": "geography-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Which ocean is the smallest and the shallowest of the five?", "es": "¿Cuál es el océano más pequeño y menos profundo de los cinco?" },
+      "choices": [
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Southern Ocean", "es": "El océano Antártico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" },
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Arctic Ocean is mostly covered by floating sea ice, and much of it is shallow shelf water around the edges.", "es": "El océano Ártico está cubierto casi todo por hielo marino flotante, y gran parte de sus aguas son plataformas poco profundas." },
+      "topic": "oceans",
+      "source": "https://oceanservice.noaa.gov/facts/arcticocean.html"
+    },
+    {
+      "id": "geography-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "At the equator, how long does daytime last on almost every day?", "es": "En el ecuador, ¿cuánto dura el día casi todos los días del año?" },
+      "choices": [
+        { "en": "About 12 hours", "es": "Unas 12 horas" },
+        { "en": "About 8 hours", "es": "Unas 8 horas" },
+        { "en": "About 16 hours", "es": "Unas 16 horas" },
+        { "en": "About 20 hours", "es": "Unas 20 horas" }
+      ],
+      "answer": 0,
+      "why": { "en": "The equator faces the Sun evenly all year, so days and nights there stay near 12 hours while places far north swing wildly.", "es": "El ecuador recibe el Sol de forma pareja todo el año, así que el día y la noche duran casi 12 horas siempre." },
+      "topic": "equator and poles",
+      "source": "https://education.nationalgeographic.org/resource/equator/"
+    },
+    {
+      "id": "geography-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Which of these countries has the equator running through it?", "es": "¿Cuál de estos países tiene el ecuador cruzando su territorio?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Bolivia", "es": "Bolivia" },
+        { "en": "Chile", "es": "Chile" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ecuador is the Spanish word for equator, and the line also crosses Colombia and Brazil, plus Kenya and Indonesia elsewhere.", "es": "Ecuador lleva el nombre de esa línea, que también cruza Colombia y Brasil, además de Kenia e Indonesia en otros continentes." },
+      "topic": "equator and poles",
+      "source": "https://kids.britannica.com/kids/article/Ecuador/345536"
+    },
+    {
+      "id": "geography-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Standing at the North Pole, which direction can you possibly walk?", "es": "Si estás parado en el Polo Norte, ¿hacia qué dirección puedes caminar?" },
+      "choices": [
+        { "en": "North", "es": "Al norte" },
+        { "en": "East", "es": "Al este" },
+        { "en": "South", "es": "Al sur" },
+        { "en": "West", "es": "Al oeste" }
+      ],
+      "answer": 2,
+      "why": { "en": "Every path away from the North Pole leads south, because the pole is the top point where all lines of longitude meet.", "es": "Todo camino que sale del Polo Norte va hacia el sur, porque allí se juntan todas las líneas de longitud del planeta." },
+      "topic": "equator and poles",
+      "source": "https://education.nationalgeographic.org/resource/north-pole/"
+    },
+    {
+      "id": "geography-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Antarctica is officially classed as which kind of land region?", "es": "¿Qué tipo de región es la Antártida según los científicos?" },
+      "choices": [
+        { "en": "A rainforest", "es": "Una selva tropical" },
+        { "en": "A wetland", "es": "Un humedal" },
+        { "en": "A grassland", "es": "Una pradera" },
+        { "en": "A desert", "es": "Un desierto" }
+      ],
+      "answer": 3,
+      "why": { "en": "A desert is any place with very little precipitation, and the inland ice of Antarctica gets less snow than the Sahara gets rain.", "es": "Un desierto es un lugar con muy poca precipitación, y el interior de la Antártida recibe menos nieve que la lluvia del Sahara." },
+      "topic": "antarctica",
+      "source": "https://www.nsf.gov/geo/opp/antarct/science/antarcticdesert.jsp"
+    },
+    {
+      "id": "geography-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍂",
+      "q": { "en": "When it is summer in Argentina, what season is it in Canada?", "es": "Cuando es verano en Argentina, ¿qué estación es en Canadá?" },
+      "choices": [
+        { "en": "Winter", "es": "Invierno" },
+        { "en": "Spring", "es": "Primavera" },
+        { "en": "Summer", "es": "Verano" },
+        { "en": "Autumn", "es": "Otoño" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth is tilted, so the two hemispheres lean toward the Sun at opposite times and their seasons are always flipped.", "es": "La Tierra está inclinada, así que cada hemisferio se acerca al Sol en momentos opuestos y sus estaciones siempre están al revés." },
+      "topic": "hemispheres",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "geography-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "📍",
+      "q": { "en": "Which line divides Earth into the Eastern and Western Hemispheres?", "es": "¿Qué línea divide la Tierra en hemisferio oriental y hemisferio occidental?" },
+      "choices": [
+        { "en": "The equator", "es": "El ecuador" },
+        { "en": "The Prime Meridian", "es": "El meridiano de Greenwich" },
+        { "en": "The Tropic of Cancer", "es": "El trópico de Cáncer" },
+        { "en": "The Arctic Circle", "es": "El círculo polar ártico" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Prime Meridian runs through Greenwich in London, and the world agreed on it in 1884 so every map could share one starting line.", "es": "El meridiano de Greenwich pasa por Londres; el mundo lo aceptó en 1884 para que todos los mapas tuvieran la misma línea inicial." },
+      "topic": "hemispheres",
+      "source": "https://education.nationalgeographic.org/resource/prime-meridian/"
+    },
+    {
+      "id": "geography-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which of these cities lies in the Southern Hemisphere?", "es": "¿Cuál de estas ciudades queda en el hemisferio sur?" },
+      "choices": [
+        { "en": "Mexico City", "es": "Ciudad de México" },
+        { "en": "Madrid", "es": "Madrid" },
+        { "en": "Lima", "es": "Lima" },
+        { "en": "Cairo", "es": "El Cairo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lima sits about 12 degrees south of the equator, so its warmest months run from December through March.", "es": "Lima está a unos 12 grados al sur del ecuador, así que sus meses más cálidos van de diciembre a marzo." },
+      "topic": "hemispheres",
+      "source": "https://kids.britannica.com/kids/article/Lima/345861"
+    },
+    {
+      "id": "geography-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "On a trail map, what does a scale bar actually let you do?", "es": "En un mapa de senderos, ¿para qué sirve la barra de escala?" },
+      "choices": [
+        { "en": "Find north", "es": "Encontrar el norte" },
+        { "en": "Read the colors", "es": "Leer los colores" },
+        { "en": "Name the mountains", "es": "Nombrar las montañas" },
+        { "en": "Measure real distance", "es": "Medir la distancia real" }
+      ],
+      "answer": 3,
+      "why": { "en": "A scale bar turns map inches into real miles, so a walk that looks short on paper might take you all afternoon.", "es": "La escala convierte los centímetros del mapa en kilómetros reales, así que una caminata corta en papel puede durar toda la tarde." },
+      "topic": "map scale",
+      "source": "https://www.usgs.gov/faqs/what-does-map-scale-mean"
+    },
+    {
+      "id": "geography-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "A map scale says 1 centimeter equals 5 kilometers. How far is 4 centimeters?", "es": "La escala dice que 1 centímetro equivale a 5 kilómetros. ¿Cuánto son 4 centímetros?" },
+      "choices": [
+        { "en": "20 kilometers, 12 miles", "es": "20 kilómetros, 12 millas" },
+        { "en": "9 kilometers, 6 miles", "es": "9 kilómetros, 6 millas" },
+        { "en": "45 kilometers, 28 miles", "es": "45 kilómetros, 28 millas" },
+        { "en": "54 kilometers, 34 miles", "es": "54 kilómetros, 34 millas" }
+      ],
+      "answer": 0,
+      "why": { "en": "You multiply: four centimeters times five kilometers each gives 20 kilometers, 12 miles, which is how hikers plan a day's walk.", "es": "Se multiplica: cuatro centímetros por cinco kilómetros cada uno dan 20 kilómetros, 12 millas, y así planean su ruta los caminantes." },
+      "topic": "map scale",
+      "source": "https://www.usgs.gov/faqs/what-does-map-scale-mean"
+    },
+    {
+      "id": "geography-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "A compass rose on a map usually points which direction upward?", "es": "En un mapa, ¿qué dirección señala hacia arriba la rosa de los vientos?" },
+      "choices": [
+        { "en": "East", "es": "El este" },
+        { "en": "North", "es": "El norte" },
+        { "en": "South", "es": "El sur" },
+        { "en": "West", "es": "El oeste" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mapmakers agreed to put north at the top, but old European maps once placed east on top, which is where orient comes from.", "es": "Los cartógrafos acordaron poner el norte arriba, pero los mapas europeos antiguos ponían el este arriba, y de ahí viene la palabra orientar." },
+      "topic": "compass rose",
+      "source": "https://education.nationalgeographic.org/resource/compass-rose/"
+    },
+    {
+      "id": "geography-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪜",
+      "q": { "en": "Lines of latitude run in which direction around the globe?", "es": "¿En qué dirección corren las líneas de latitud alrededor del planeta?" },
+      "choices": [
+        { "en": "Up and down", "es": "De arriba abajo" },
+        { "en": "Corner to corner", "es": "De esquina a esquina" },
+        { "en": "Side to side", "es": "De lado a lado" },
+        { "en": "Through the poles", "es": "A través de los polos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Latitude lines circle sideways like rungs on a ladder, always the same distance apart, while longitude lines meet at both poles.", "es": "Las líneas de latitud rodean el planeta de lado como los peldaños de una escalera, mientras las de longitud se juntan en los polos." },
+      "topic": "latitude and longitude",
+      "source": "https://oceanservice.noaa.gov/facts/latitude.html"
+    },
+    {
+      "id": "geography-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "0️⃣",
+      "q": { "en": "What is the latitude of any place sitting right on the equator?", "es": "¿Cuál es la latitud de un lugar que está justo sobre el ecuador?" },
+      "choices": [
+        { "en": "90 degrees", "es": "90 grados" },
+        { "en": "180 degrees", "es": "180 grados" },
+        { "en": "45 degrees", "es": "45 grados" },
+        { "en": "0 degrees", "es": "0 grados" }
+      ],
+      "answer": 3,
+      "why": { "en": "Latitude counts degrees away from the equator, reaching 90 degrees at each pole, so the equator itself is the zero line.", "es": "La latitud cuenta grados desde el ecuador y llega a 90 grados en cada polo, así que el ecuador mismo es la línea cero." },
+      "topic": "latitude and longitude",
+      "source": "https://oceanservice.noaa.gov/facts/latitude.html"
+    },
+    {
+      "id": "geography-medium-024", "level": "medium", "type": "tf", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "On most world maps, Greenland looks far bigger than it truly is.", "es": "En casi todos los mapamundis, Groenlandia se ve mucho más grande de lo que es." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flattening a round Earth stretches the far north, so Greenland looks like Africa even though Africa is about 14 times larger.", "es": "Aplanar una Tierra redonda estira el extremo norte, por eso Groenlandia parece del tamaño de África, aunque África es unas 14 veces mayor." },
+      "topic": "map projections",
+      "source": "https://www.usgs.gov/faqs/what-map-projection"
+    },
+    {
+      "id": "geography-medium-025", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦘",
+      "q": { "en": "Australia is the smallest continent and also the smallest country on Earth.", "es": "Australia es el continente más pequeño y también el país más pequeño de la Tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Australia truly is the smallest continent, but it is a huge country, roughly the size of the mainland United States.", "es": "Australia sí es el continente más pequeño, pero es un país enorme, casi del tamaño de Estados Unidos continental, con desiertos inmensos." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Australia/345759"
+    },
+    {
+      "id": "geography-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which city is the capital of Australia?", "es": "¿Cuál es la capital de Australia?" },
+      "choices": [
+        { "en": "Sydney", "es": "Sídney" },
+        { "en": "Melbourne", "es": "Melbourne" },
+        { "en": "Canberra", "es": "Canberra" },
+        { "en": "Perth", "es": "Perth" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sydney and Melbourne both wanted the honour, so Australia built Canberra between them in 1913 as a brand new capital city.", "es": "Sídney y Melbourne se disputaban el honor, así que Australia fundó Canberra entre las dos en 1913 como capital totalmente nueva." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Canberra/390592"
+    },
+    {
+      "id": "geography-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "✈️",
+      "q": { "en": "Which city is the capital of Brazil?", "es": "¿Cuál es la capital de Brasil?" },
+      "choices": [
+        { "en": "Rio de Janeiro", "es": "Río de Janeiro" },
+        { "en": "São Paulo", "es": "São Paulo" },
+        { "en": "Salvador", "es": "Salvador" },
+        { "en": "Brasília", "es": "Brasilia" }
+      ],
+      "answer": 3,
+      "why": { "en": "Brazil moved its capital inland in 1960 and built Brasília from empty ground; seen from above it is shaped like an airplane.", "es": "Brasil llevó su capital tierra adentro en 1960 y construyó Brasilia desde cero; vista desde el aire tiene forma de avión." },
+      "topic": "capitals",
+      "source": "https://whc.unesco.org/en/list/445/"
+    },
+    {
+      "id": "geography-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏙️",
+      "q": { "en": "Which city is the capital of Argentina?", "es": "¿Cuál es la capital de Argentina?" },
+      "choices": [
+        { "en": "Buenos Aires", "es": "Buenos Aires" },
+        { "en": "Córdoba", "es": "Córdoba" },
+        { "en": "Montevideo", "es": "Montevideo" },
+        { "en": "Santiago", "es": "Santiago" }
+      ],
+      "answer": 0,
+      "why": { "en": "Buenos Aires sits on the Río de la Plata, a river mouth so wide that you cannot see Uruguay across it.", "es": "Buenos Aires está sobre el Río de la Plata, una desembocadura tan ancha que desde la orilla no ves Uruguay del otro lado." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Buenos-Aires/352938"
+    },
+    {
+      "id": "geography-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "Which city is the capital of Egypt?", "es": "¿Cuál es la capital de Egipto?" },
+      "choices": [
+        { "en": "Alexandria", "es": "Alejandría" },
+        { "en": "Cairo", "es": "El Cairo" },
+        { "en": "Luxor", "es": "Luxor" },
+        { "en": "Giza", "es": "Guiza" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cairo sits beside the Nile, and just across the river stand the Giza pyramids, built about 4500 years ago.", "es": "El Cairo está junto al Nilo, y al otro lado del río se alzan las pirámides de Guiza, de unos 4500 años." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Cairo/345529"
+    },
+    {
+      "id": "geography-medium-030", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Which city is the capital of Canada?", "es": "¿Cuál es la capital de Canadá?" },
+      "choices": [
+        { "en": "Toronto", "es": "Toronto" },
+        { "en": "Vancouver", "es": "Vancouver" },
+        { "en": "Ottawa", "es": "Ottawa" },
+        { "en": "Montreal", "es": "Montreal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Queen Victoria chose Ottawa in 1857 partly because it sat on the border between the English and French speaking regions.", "es": "La reina Victoria eligió Ottawa en 1857 en parte porque estaba en la frontera entre las regiones de habla inglesa y francesa." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Ottawa/353844"
+    },
+    {
+      "id": "geography-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Which capital city in South America sits highest up in the mountains?", "es": "¿Qué capital de Sudamérica está más alta en las montañas?" },
+      "choices": [
+        { "en": "Quito", "es": "Quito" },
+        { "en": "Bogotá", "es": "Bogotá" },
+        { "en": "Santiago", "es": "Santiago" },
+        { "en": "La Paz", "es": "La Paz" }
+      ],
+      "answer": 3,
+      "why": { "en": "La Paz sits roughly 3600 meters, 11,800 feet, above sea level in the Andes, so visitors often feel dizzy at first.", "es": "La Paz está a unos 3600 metros, 11,800 pies, sobre el nivel del mar en los Andes, y muchos visitantes se marean." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/La-Paz/345839"
+    },
+    {
+      "id": "geography-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "Which country in South America has coastline on two different oceans?", "es": "¿Qué país de Sudamérica tiene costa en dos océanos distintos?" },
+      "choices": [
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Venezuela", "es": "Venezuela" },
+        { "en": "Ecuador", "es": "Ecuador" }
+      ],
+      "answer": 0,
+      "why": { "en": "Colombia touches both the Pacific Ocean and the Caribbean Sea, which opens into the Atlantic, so its ships reach two worlds.", "es": "Colombia toca el océano Pacífico y el mar Caribe, que se abre al Atlántico, así que sus barcos llegan a dos mundos." },
+      "topic": "countries",
+      "source": "https://kids.britannica.com/kids/article/Colombia/345512"
+    },
+    {
+      "id": "geography-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "Which country shares the island of Hispaniola with the Dominican Republic?", "es": "¿Qué país comparte la isla La Española con República Dominicana?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Haiti", "es": "Haití" },
+        { "en": "Jamaica", "es": "Jamaica" },
+        { "en": "Puerto Rico", "es": "Puerto Rico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Hispaniola is split between two countries with different languages: Spanish in the Dominican Republic and French plus Creole in Haiti.", "es": "La Española se reparte entre dos países con idiomas distintos: el español en República Dominicana y el francés con el criollo en Haití." },
+      "topic": "the caribbean",
+      "source": "https://kids.britannica.com/kids/article/Hispaniola/399131"
+    },
+    {
+      "id": "geography-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "💬",
+      "q": { "en": "Which South American country has Portuguese as its official language?", "es": "¿Qué país de Sudamérica tiene el portugués como idioma oficial?" },
+      "choices": [
+        { "en": "Argentina", "es": "Argentina" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Venezuela", "es": "Venezuela" }
+      ],
+      "answer": 2,
+      "why": { "en": "Brazil was colonised by Portugal, so it became the largest Portuguese speaking nation, with many more speakers than Portugal itself.", "es": "Brasil fue colonizado por Portugal, así que se volvió la nación de habla portuguesa más grande, con muchos más hablantes que Portugal." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/Brazil/345508"
+    },
+    {
+      "id": "geography-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which of these countries lies entirely inside another country?", "es": "¿Cuál de estos países está rodeado por completo por otro país?" },
+      "choices": [
+        { "en": "Portugal", "es": "Portugal" },
+        { "en": "Belgium", "es": "Bélgica" },
+        { "en": "Uruguay", "es": "Uruguay" },
+        { "en": "Lesotho", "es": "Lesoto" }
+      ],
+      "answer": 3,
+      "why": { "en": "Lesotho sits like an island of mountains inside South Africa, one of only three countries on Earth surrounded by a single neighbour.", "es": "Lesoto es como una isla de montañas dentro de Sudáfrica, uno de los tres únicos países del mundo rodeados por un solo vecino." },
+      "topic": "countries",
+      "source": "https://kids.britannica.com/kids/article/Lesotho/345847"
+    },
+    {
+      "id": "geography-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Mexico calls one border river Río Bravo. What do people in Texas call it?", "es": "En México ese río fronterizo se llama Río Bravo. ¿Cómo lo llaman en Texas?" },
+      "choices": [
+        { "en": "The Rio Grande", "es": "Rio Grande" },
+        { "en": "The Colorado", "es": "El Colorado" },
+        { "en": "The Pecos", "es": "El Pecos" },
+        { "en": "The Brazos", "es": "El Brazos" }
+      ],
+      "answer": 0,
+      "why": { "en": "One river, two names: Río Bravo del Norte in Mexico and the Rio Grande further north, running about 1900 miles, 3060 km.", "es": "Un río con dos nombres: Río Bravo del Norte en México y Rio Grande más al norte, con unas 1900 millas, 3060 km." },
+      "topic": "rivers as borders",
+      "source": "https://www.usgs.gov/centers/texas-water-science-center/science/rio-grande-basin"
+    },
+    {
+      "id": "geography-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗼",
+      "q": { "en": "The Eiffel Tower was built for a world fair. What is it made of?", "es": "La torre Eiffel se construyó para una feria mundial. ¿De qué está hecha?" },
+      "choices": [
+        { "en": "Iron", "es": "Hierro" },
+        { "en": "Stone", "es": "Piedra" },
+        { "en": "Concrete", "es": "Concreto" },
+        { "en": "Wood", "es": "Madera" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gustave Eiffel used about 18,000 iron pieces and 2.5 million rivets; many Parisians disliked the tower when it opened in 1889.", "es": "Gustave Eiffel usó unas 18,000 piezas de hierro y 2.5 millones de remaches; a muchos parisinos les disgustó la torre en 1889." },
+      "topic": "landmarks",
+      "source": "https://kids.britannica.com/kids/article/Eiffel-Tower/353187"
+    },
+    {
+      "id": "geography-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What was the Great Wall of China originally built to do?", "es": "¿Para qué se construyó originalmente la Gran Muralla china?" },
+      "choices": [
+        { "en": "Hold back floods", "es": "Detener las inundaciones" },
+        { "en": "Guard the northern border", "es": "Vigilar la frontera del norte" },
+        { "en": "Mark farm fields", "es": "Marcar los campos de cultivo" },
+        { "en": "Carry water to cities", "es": "Llevar agua a las ciudades" }
+      ],
+      "answer": 1,
+      "why": { "en": "The wall is really many walls joined over centuries, stretching more than 13,000 miles, 21,000 km, across hills and desert.", "es": "En realidad son muchas murallas unidas durante siglos, que suman más de 13,000 millas, 21,000 km, entre colinas y desierto." },
+      "topic": "landmarks",
+      "source": "https://whc.unesco.org/en/list/438/"
+    },
+    {
+      "id": "geography-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "In which country would you find the ancient stone circle of Stonehenge?", "es": "¿En qué país está el antiguo círculo de piedras de Stonehenge?" },
+      "choices": [
+        { "en": "Ireland", "es": "Irlanda" },
+        { "en": "Norway", "es": "Noruega" },
+        { "en": "England", "es": "Inglaterra" },
+        { "en": "Scotland", "es": "Escocia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Stonehenge stands on a plain in southern England, and some of its stones were dragged about 150 miles, 240 km, from Wales.", "es": "Stonehenge está en una llanura del sur de Inglaterra, y algunas piedras llegaron desde Gales, a unas 150 millas, 240 km." },
+      "topic": "landmarks",
+      "source": "https://whc.unesco.org/en/list/373/"
+    },
+    {
+      "id": "geography-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕌",
+      "q": { "en": "The Taj Mahal is a famous white building in India. What is it?", "es": "El Taj Mahal es un famoso edificio blanco de la India. ¿Qué es?" },
+      "choices": [
+        { "en": "A palace for kings", "es": "Un palacio de reyes" },
+        { "en": "A train station", "es": "Una estación de tren" },
+        { "en": "A school", "es": "Una escuela" },
+        { "en": "A tomb", "es": "Una tumba" }
+      ],
+      "answer": 3,
+      "why": { "en": "An emperor built the Taj Mahal as a tomb for his wife, using white marble that changes colour with the light.", "es": "Un emperador levantó el Taj Mahal como tumba para su esposa, con mármol blanco que cambia de color según la luz." },
+      "topic": "landmarks",
+      "source": "https://whc.unesco.org/en/list/252/"
+    },
+    {
+      "id": "geography-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "The Christ the Redeemer statue looks out over which South American city?", "es": "¿Sobre qué ciudad de Sudamérica se alza la estatua del Cristo Redentor?" },
+      "choices": [
+        { "en": "Rio de Janeiro", "es": "Río de Janeiro" },
+        { "en": "Lima", "es": "Lima" },
+        { "en": "Caracas", "es": "Caracas" },
+        { "en": "Montevideo", "es": "Montevideo" }
+      ],
+      "answer": 0,
+      "why": { "en": "The statue stands on Corcovado mountain, about 2300 feet, 700 meters, above the beaches, with arms stretching 92 feet, 28 meters, wide.", "es": "La estatua está en el cerro Corcovado, a unos 2300 pies, 700 metros, y sus brazos miden 92 pies, 28 metros." },
+      "topic": "landmarks",
+      "source": "https://kids.britannica.com/kids/article/Rio-de-Janeiro/353971"
+    },
+    {
+      "id": "geography-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "Ships using the Panama Canal pass between which two bodies of water?", "es": "¿Entre qué dos masas de agua pasan los barcos por el canal de Panamá?" },
+      "choices": [
+        { "en": "The Pacific and the Arctic", "es": "El Pacífico y el Ártico" },
+        { "en": "The Atlantic and the Pacific", "es": "El Atlántico y el Pacífico" },
+        { "en": "The Caribbean and the Gulf", "es": "El Caribe y el Golfo" },
+        { "en": "The Indian and the Atlantic", "es": "El Índico y el Atlántico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Locks lift each ship about 85 feet, 26 meters, over the hills, saving a voyage of 8000 miles, 12,900 km, around South America.", "es": "Las esclusas suben cada barco unos 85 pies, 26 metros, sobre las colinas y ahorran 8000 millas, 12,900 km, de viaje." },
+      "topic": "landmarks",
+      "source": "https://kids.britannica.com/kids/article/Panama-Canal/353877"
+    },
+    {
+      "id": "geography-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐒",
+      "q": { "en": "Which country is home to the ruins of Tikal, a great Maya city?", "es": "¿Qué país guarda las ruinas de Tikal, una gran ciudad maya?" },
+      "choices": [
+        { "en": "Honduras", "es": "Honduras" },
+        { "en": "Belize", "es": "Belice" },
+        { "en": "Guatemala", "es": "Guatemala" },
+        { "en": "Mexico", "es": "México" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tikal's stone temples rise above the rainforest in northern Guatemala, and howler monkeys still roar from the trees around them.", "es": "Los templos de piedra de Tikal se alzan sobre la selva del norte de Guatemala, y los monos aulladores todavía rugen entre los árboles." },
+      "topic": "landmarks",
+      "source": "https://whc.unesco.org/en/list/64/"
+    },
+    {
+      "id": "geography-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which ancient city carved into pink rock cliffs stands in Jordan?", "es": "¿Qué ciudad antigua tallada en acantilados rosados está en Jordania?" },
+      "choices": [
+        { "en": "Babylon", "es": "Babilonia" },
+        { "en": "Carthage", "es": "Cartago" },
+        { "en": "Palmyra", "es": "Palmira" },
+        { "en": "Petra", "es": "Petra" }
+      ],
+      "answer": 3,
+      "why": { "en": "Traders called Nabataeans cut Petra's temples straight into sandstone more than 2000 years ago, and hid water channels inside the rock.", "es": "Los nabateos tallaron los templos de Petra en la arenisca hace más de 2000 años y escondieron canales de agua dentro de la roca." },
+      "topic": "landmarks",
+      "source": "https://whc.unesco.org/en/list/326/"
+    },
+    {
+      "id": "geography-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which US state is made up entirely of islands?", "es": "¿Qué estado de Estados Unidos está formado solo por islas?" },
+      "choices": [
+        { "en": "Hawaii", "es": "Hawái" },
+        { "en": "Alaska", "es": "Alaska" },
+        { "en": "Florida", "es": "Florida" },
+        { "en": "Rhode Island", "es": "Rhode Island" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hawaii's islands are the tops of volcanoes rising from the sea floor, and the chain keeps growing as new lava cools.", "es": "Las islas de Hawái son las cimas de volcanes que suben desde el fondo del mar, y la cadena sigue creciendo con cada erupción." },
+      "topic": "us states",
+      "source": "https://www.usgs.gov/observatories/hvo"
+    },
+    {
+      "id": "geography-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "The Grand Canyon was carved by which river over millions of years?", "es": "¿Qué río talló el Gran Cañón durante millones de años?" },
+      "choices": [
+        { "en": "The Rio Grande", "es": "El Rio Grande" },
+        { "en": "The Colorado River", "es": "El río Colorado" },
+        { "en": "The Missouri River", "es": "El río Misuri" },
+        { "en": "The Snake River", "es": "El río Snake" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Colorado River cut down about a mile, 1.6 km, through rock layers that show almost two billion years of Earth's past.", "es": "El río Colorado excavó cerca de una milla, 1.6 km, de rocas que muestran casi dos mil millones de años de historia terrestre." },
+      "topic": "us states",
+      "source": "https://www.usgs.gov/geology-and-ecology-of-national-parks/grand-canyon-national-park"
+    },
+    {
+      "id": "geography-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐻‍❄️",
+      "q": { "en": "Which US state shares a long land border with Canada and touches the Arctic?", "es": "¿Qué estado de Estados Unidos limita con Canadá y toca el Ártico?" },
+      "choices": [
+        { "en": "Washington", "es": "Washington" },
+        { "en": "Maine", "es": "Maine" },
+        { "en": "Alaska", "es": "Alaska" },
+        { "en": "Montana", "es": "Montana" }
+      ],
+      "answer": 2,
+      "why": { "en": "Alaska is by far the largest state, more than twice the size of Texas, and it reaches across into the Eastern Hemisphere.", "es": "Alaska es de lejos el estado más grande, más del doble que Texas, y sus islas llegan hasta el hemisferio oriental." },
+      "topic": "us states",
+      "source": "https://kids.britannica.com/kids/article/Alaska/352693"
+    },
+    {
+      "id": "geography-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐊",
+      "q": { "en": "Which US state is a long peninsula with ocean on two sides?", "es": "¿Qué estado de Estados Unidos es una península con mar en dos lados?" },
+      "choices": [
+        { "en": "Texas", "es": "Texas" },
+        { "en": "Louisiana", "es": "Luisiana" },
+        { "en": "California", "es": "California" },
+        { "en": "Florida", "es": "Florida" }
+      ],
+      "answer": 3,
+      "why": { "en": "A peninsula is land with water on three sides; Florida has the Atlantic to the east and the Gulf of Mexico west.", "es": "Una península es tierra rodeada de agua por tres lados; Florida tiene el Atlántico al este y el golfo de México al oeste." },
+      "topic": "peninsulas",
+      "source": "https://education.nationalgeographic.org/resource/peninsula/"
+    },
+    {
+      "id": "geography-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗽",
+      "q": { "en": "Which US city has the Statue of Liberty standing in its harbor?", "es": "¿Qué ciudad de Estados Unidos tiene la Estatua de la Libertad en su puerto?" },
+      "choices": [
+        { "en": "New York", "es": "Nueva York" },
+        { "en": "Boston", "es": "Boston" },
+        { "en": "Philadelphia", "es": "Filadelfia" },
+        { "en": "Baltimore", "es": "Baltimore" }
+      ],
+      "answer": 0,
+      "why": { "en": "The statue stands on Liberty Island, and her copper skin turned green over about thirty years as the metal met sea air.", "es": "La estatua se alza en la isla de la Libertad, y su piel de cobre se volvió verde en unos treinta años." },
+      "topic": "us landmarks",
+      "source": "https://www.nps.gov/stli/learn/historyculture/index.htm"
+    },
+    {
+      "id": "geography-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which mountain is the highest peak in all of Africa?", "es": "¿Cuál es la montaña más alta de todo África?" },
+      "choices": [
+        { "en": "Mount Kenya", "es": "El monte Kenia" },
+        { "en": "Kilimanjaro", "es": "El Kilimanjaro" },
+        { "en": "Mount Stanley", "es": "El monte Stanley" },
+        { "en": "Mount Toubkal", "es": "El monte Toubkal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Kilimanjaro rises about 19,341 feet, 5895 meters, from warm plains in Tanzania, and glaciers sit on its summit near the equator.", "es": "El Kilimanjaro alcanza unos 19,341 pies, 5895 metros, desde llanuras cálidas de Tanzania, y tiene glaciares en la cima cerca del ecuador." },
+      "topic": "mountains",
+      "source": "https://whc.unesco.org/en/list/403/"
+    },
+    {
+      "id": "geography-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Which mountain range separates France from Spain?", "es": "¿Qué cordillera separa a Francia de España?" },
+      "choices": [
+        { "en": "The Alps", "es": "Los Alpes" },
+        { "en": "The Apennines", "es": "Los Apeninos" },
+        { "en": "The Pyrenees", "es": "Los Pirineos" },
+        { "en": "The Carpathians", "es": "Los Cárpatos" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Pyrenees stretch about 305 miles, 491 km, from the Atlantic to the Mediterranean, and tiny Andorra hides in their middle.", "es": "Los Pirineos se extienden unas 305 millas, 491 km, del Atlántico al Mediterráneo, y el diminuto país de Andorra queda en medio." },
+      "topic": "mountains",
+      "source": "https://kids.britannica.com/kids/article/Pyrenees/353950"
+    },
+    {
+      "id": "geography-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "The Andes run along which side of South America?", "es": "¿Por qué lado de Sudamérica corren los Andes?" },
+      "choices": [
+        { "en": "The northern edge", "es": "El borde norte" },
+        { "en": "The eastern edge", "es": "El borde este" },
+        { "en": "The southern edge", "es": "El borde sur" },
+        { "en": "The western edge", "es": "El borde oeste" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Andes are the longest mountain range on land, about 4300 miles, 7000 km, pushed up where two plates collide near the Pacific.", "es": "Los Andes son la cordillera más larga en tierra firme, unas 4300 millas, 7000 km, levantada donde chocan dos placas junto al Pacífico." },
+      "topic": "the andes",
+      "source": "https://kids.britannica.com/kids/article/Andes-Mountains/352743"
+    },
+    {
+      "id": "geography-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "The Amazon River begins high in which mountain range?", "es": "¿En qué cordillera nace el río Amazonas?" },
+      "choices": [
+        { "en": "The Andes", "es": "Los Andes" },
+        { "en": "The Rockies", "es": "Las Rocosas" },
+        { "en": "The Alps", "es": "Los Alpes" },
+        { "en": "The Himalayas", "es": "El Himalaya" }
+      ],
+      "answer": 0,
+      "why": { "en": "Melting snow in the Peruvian Andes feeds streams that flow about 4000 miles, 6400 km, east across Brazil to the Atlantic.", "es": "La nieve derretida de los Andes peruanos alimenta arroyos que recorren unas 4000 millas, 6400 km, hacia el este hasta el Atlántico." },
+      "topic": "the amazon",
+      "source": "https://kids.britannica.com/kids/article/Amazon-River/352721"
+    },
+    {
+      "id": "geography-medium-054", "level": "medium", "type": "tf", "lang": "both", "emoji": "🛶",
+      "q": { "en": "Ships can sail the Amazon without passing under any bridge.", "es": "Los barcos pueden navegar el Amazonas sin pasar por debajo de ningún puente." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Amazon runs through thick rainforest where roads are rare and boats do the work, so its main channel carries no bridge at all.", "es": "El Amazonas cruza selva espesa donde casi no hay caminos y los barcos hacen el trabajo, por eso su cauce principal sigue sin puentes." },
+      "topic": "the amazon",
+      "source": "https://kids.britannica.com/kids/article/Amazon-River/352721"
+    },
+    {
+      "id": "geography-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥐",
+      "q": { "en": "Which river flows through Paris on its way to the sea?", "es": "¿Qué río cruza París camino al mar?" },
+      "choices": [
+        { "en": "The Rhine", "es": "El Rin" },
+        { "en": "The Seine", "es": "El Sena" },
+        { "en": "The Danube", "es": "El Danubio" },
+        { "en": "The Loire", "es": "El Loira" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Seine splits around two islands where Paris began, and its banks are a protected world heritage site.", "es": "El Sena se abre alrededor de dos islas donde nació París, y sus orillas son un sitio protegido del patrimonio mundial." },
+      "topic": "rivers",
+      "source": "https://whc.unesco.org/en/list/600/"
+    },
+    {
+      "id": "geography-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐊",
+      "q": { "en": "Which is the longest river on the continent of Africa?", "es": "¿Cuál es el río más largo del continente africano?" },
+      "choices": [
+        { "en": "The Congo", "es": "El Congo" },
+        { "en": "The Niger", "es": "El Níger" },
+        { "en": "The Nile", "es": "El Nilo" },
+        { "en": "The Zambezi", "es": "El Zambeze" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Nile runs about 4132 miles, 6650 km, north through eleven countries, and its floods once made Egyptian farming possible.", "es": "El Nilo recorre unas 4132 millas, 6650 km, hacia el norte por once países, y sus crecidas hicieron posible la agricultura egipcia." },
+      "topic": "rivers",
+      "source": "https://kids.britannica.com/kids/article/Nile-River/353781"
+    },
+    {
+      "id": "geography-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "The Iguazú Falls sit on the border between which two countries?", "es": "¿Entre qué dos países están las cataratas del Iguazú?" },
+      "choices": [
+        { "en": "Chile and Argentina", "es": "Chile y Argentina" },
+        { "en": "Brazil and Paraguay", "es": "Brasil y Paraguay" },
+        { "en": "Peru and Bolivia", "es": "Perú y Bolivia" },
+        { "en": "Brazil and Argentina", "es": "Brasil y Argentina" }
+      ],
+      "answer": 3,
+      "why": { "en": "About 275 separate waterfalls tumble over a cliff nearly two miles, 2.7 km, wide, and their spray feeds a rainforest.", "es": "Unas 275 caídas de agua bajan por un acantilado de casi dos millas, 2.7 km, de ancho, y su rocío alimenta la selva." },
+      "topic": "rivers as borders",
+      "source": "https://whc.unesco.org/en/list/303/"
+    },
+    {
+      "id": "geography-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖌️",
+      "q": { "en": "Cave paintings in the Sahara show hippos and cattle. What does that prove?", "es": "Hay pinturas rupestres del Sahara con hipopótamos y vacas. ¿Qué nos dicen?" },
+      "choices": [
+        { "en": "It was once green and wet", "es": "Antes fue verde y húmedo" },
+        { "en": "It was always sandy", "es": "Siempre fue arenoso" },
+        { "en": "Artists copied Egypt", "es": "Los artistas copiaron a Egipto" },
+        { "en": "The animals were imaginary", "es": "Los animales eran imaginarios" }
+      ],
+      "answer": 0,
+      "why": { "en": "About 6000 years ago the Sahara held lakes and grassland; a slow wobble in Earth's orbit dried it into sand and stone.", "es": "Hace unos 6000 años el Sahara tenía lagos y pastizales; un lento bamboleo de la órbita terrestre lo secó hasta volverlo arena." },
+      "topic": "the sahara",
+      "source": "https://whc.unesco.org/en/list/179/"
+    },
+    {
+      "id": "geography-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which of these countries has a large share of the Sahara inside it?", "es": "¿Cuál de estos países tiene gran parte del Sahara en su territorio?" },
+      "choices": [
+        { "en": "Kenya", "es": "Kenia" },
+        { "en": "Algeria", "es": "Argelia" },
+        { "en": "Ethiopia", "es": "Etiopía" },
+        { "en": "South Africa", "es": "Sudáfrica" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Sahara spreads across eleven countries, and Algeria alone holds a stretch of dunes larger than most nations in Europe.", "es": "El Sahara se extiende por once países, y solo Argelia guarda un campo de dunas más grande que la mayoría de las naciones europeas." },
+      "topic": "the sahara",
+      "source": "https://kids.britannica.com/kids/article/Sahara/353997"
+    },
+    {
+      "id": "geography-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "Which desert stretches across southern Argentina and is cold and windy?", "es": "¿Qué desierto cubre el sur de Argentina y es frío y ventoso?" },
+      "choices": [
+        { "en": "The Sonoran", "es": "El Sonorense" },
+        { "en": "The Kalahari", "es": "El Kalahari" },
+        { "en": "The Patagonian", "es": "El Patagónico" },
+        { "en": "The Mojave", "es": "El Mojave" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Andes block rain from the Pacific, leaving Patagonia a dry, windy steppe where guanacos graze and dinosaur fossils turn up.", "es": "Los Andes frenan la lluvia del Pacífico y dejan a la Patagonia como una estepa seca y ventosa, con guanacos y fósiles de dinosaurios." },
+      "topic": "deserts",
+      "source": "https://kids.britannica.com/kids/article/Patagonia/353890"
+    },
+    {
+      "id": "geography-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "How many Great Lakes lie between the United States and Canada?", "es": "¿Cuántos Grandes Lagos hay entre Estados Unidos y Canadá?" },
+      "choices": [
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Seven", "es": "Siete" },
+        { "en": "Five", "es": "Cinco" }
+      ],
+      "answer": 3,
+      "why": { "en": "Huron, Ontario, Michigan, Erie and Superior spell HOMES, and together they hold about one fifth of the fresh surface water on Earth.", "es": "Hurón, Ontario, Michigan, Erie y Superior guardan juntos cerca de la quinta parte del agua dulce superficial de todo el planeta." },
+      "topic": "great lakes",
+      "source": "https://www.epa.gov/greatlakes/great-lakes-facts-and-figures"
+    },
+    {
+      "id": "geography-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "Which of the Great Lakes lies entirely inside the United States?", "es": "¿Cuál de los Grandes Lagos está por completo dentro de Estados Unidos?" },
+      "choices": [
+        { "en": "Lake Michigan", "es": "El lago Michigan" },
+        { "en": "Lake Erie", "es": "El lago Erie" },
+        { "en": "Lake Ontario", "es": "El lago Ontario" },
+        { "en": "Lake Superior", "es": "El lago Superior" }
+      ],
+      "answer": 0,
+      "why": { "en": "The other four Great Lakes are split with Canada, but Lake Michigan touches only Illinois, Indiana, Michigan and Wisconsin.", "es": "Los otros cuatro Grandes Lagos se comparten con Canadá, pero el lago Michigan solo toca Illinois, Indiana, Michigan y Wisconsin." },
+      "topic": "great lakes",
+      "source": "https://www.epa.gov/greatlakes/great-lakes-facts-and-figures"
+    },
+    {
+      "id": "geography-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏝️",
+      "q": { "en": "The Caribbean islands form a long curve. What is that chain called?", "es": "Las islas del Caribe forman una curva larga. ¿Cómo se llama esa cadena?" },
+      "choices": [
+        { "en": "The Azores", "es": "Las Azores" },
+        { "en": "The Antilles", "es": "Las Antillas" },
+        { "en": "The Canaries", "es": "Las Canarias" },
+        { "en": "The Balearics", "es": "Las Baleares" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mapmakers split them into the Greater Antilles, with big islands like Cuba, and the Lesser Antilles, a string of small volcanic ones.", "es": "Los mapas las dividen en Antillas Mayores, con islas grandes como Cuba, y Antillas Menores, un collar de islas volcánicas pequeñas." },
+      "topic": "the caribbean",
+      "source": "https://kids.britannica.com/kids/article/West-Indies/353845"
+    },
+    {
+      "id": "geography-medium-064", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "Which sea washes the eastern shores of Mexico's Yucatán and Belize?", "es": "¿Qué mar baña las costas del este de Yucatán y de Belice?" },
+      "choices": [
+        { "en": "The Mediterranean Sea", "es": "El mar Mediterráneo" },
+        { "en": "The Sargasso Sea", "es": "El mar de los Sargazos" },
+        { "en": "The Caribbean Sea", "es": "El mar Caribe" },
+        { "en": "The Bering Sea", "es": "El mar de Bering" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Caribbean Sea holds the second largest barrier reef on Earth, running about 600 miles, 1000 km, from Mexico to Honduras.", "es": "El mar Caribe guarda el segundo arrecife de coral más grande del mundo, con unas 600 millas, 1000 km, de México a Honduras." },
+      "topic": "the caribbean",
+      "source": "https://whc.unesco.org/en/list/764/"
+    },
+    {
+      "id": "geography-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Which city serves as the capital of Peru?", "es": "¿Qué ciudad es la capital de Perú?" },
+      "choices": [
+        { "en": "Cusco", "es": "Cusco" },
+        { "en": "Arequipa", "es": "Arequipa" },
+        { "en": "Trujillo", "es": "Trujillo" },
+        { "en": "Lima", "es": "Lima" }
+      ],
+      "answer": 3,
+      "why": { "en": "Francisco Pizarro founded Lima in 1535 near the coast, moving power away from Cusco, the old Inca capital in the mountains.", "es": "Francisco Pizarro fundó Lima en 1535 cerca de la costa y alejó el poder del Cusco, la antigua capital inca de las montañas." },
+      "topic": "capitals",
+      "source": "https://whc.unesco.org/en/list/500/"
+    },
+    {
+      "id": "geography-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Which city is the capital of Kenya in East Africa?", "es": "¿Cuál es la capital de Kenia, en el este de África?" },
+      "choices": [
+        { "en": "Nairobi", "es": "Nairobi" },
+        { "en": "Mombasa", "es": "Mombasa" },
+        { "en": "Kampala", "es": "Kampala" },
+        { "en": "Addis Ababa", "es": "Adís Abeba" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nairobi is the only major city with a national park at its edge, where lions and giraffes roam within sight of towers.", "es": "Nairobi es la única gran ciudad con un parque nacional en el borde, donde leones y jirafas andan a la vista de los edificios." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Nairobi/353761"
+    },
+    {
+      "id": "geography-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which country is made of more than 17,000 islands in Southeast Asia?", "es": "¿Qué país está formado por más de 17,000 islas en el sudeste de Asia?" },
+      "choices": [
+        { "en": "The Philippines", "es": "Filipinas" },
+        { "en": "Indonesia", "es": "Indonesia" },
+        { "en": "Japan", "es": "Japón" },
+        { "en": "Malaysia", "es": "Malasia" }
+      ],
+      "answer": 1,
+      "why": { "en": "Indonesia stretches along the equator for about 3200 miles, 5100 km, and sits on the volcanic Ring of Fire.", "es": "Indonesia se extiende sobre el ecuador unas 3200 millas, 5100 km, y descansa sobre el Cinturón de Fuego lleno de volcanes." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/Indonesia/345691"
+    },
+    {
+      "id": "geography-medium-068", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Greenland is the largest island in the world and also a continent.", "es": "Groenlandia es la isla más grande del mundo y también un continente." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Greenland is truly the largest island, yet it belongs to North America; land as big as Australia gets called a continent instead.", "es": "Groenlandia sí es la isla más grande, pero pertenece a América del Norte; una tierra tan enorme como Australia ya se llama continente." },
+      "topic": "islands",
+      "source": "https://kids.britannica.com/kids/article/Greenland/353341"
+    },
+    {
+      "id": "geography-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛷️",
+      "q": { "en": "Which city is the capital of Chile?", "es": "¿Cuál es la capital de Chile?" },
+      "choices": [
+        { "en": "Santiago", "es": "Santiago" },
+        { "en": "Valparaíso", "es": "Valparaíso" },
+        { "en": "Concepción", "es": "Concepción" },
+        { "en": "Antofagasta", "es": "Antofagasta" }
+      ],
+      "answer": 0,
+      "why": { "en": "Santiago sits in a valley with the snowy Andes on one side, so skiers and beachgoers are only hours apart.", "es": "Santiago está en un valle con los Andes nevados a un lado, así que la nieve y la playa quedan a pocas horas." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Santiago/354008"
+    },
+    {
+      "id": "geography-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Which city is the capital of Colombia?", "es": "¿Cuál es la capital de Colombia?" },
+      "choices": [
+        { "en": "Bogotá", "es": "Bogotá" },
+        { "en": "Medellín", "es": "Medellín" },
+        { "en": "Cali", "es": "Cali" },
+        { "en": "Cartagena", "es": "Cartagena" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bogotá sits about 8660 feet, 2640 meters, up on a high plateau, so its weather stays cool all year despite the tropics.", "es": "Bogotá está a unos 8660 pies, 2640 metros, sobre una meseta alta, así que su clima es fresco todo el año en pleno trópico." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Bogota/352890"
+    },
+    {
+      "id": "geography-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦥",
+      "q": { "en": "San José is the capital city of which Central American country?", "es": "¿De qué país centroamericano es capital la ciudad de San José?" },
+      "choices": [
+        { "en": "Costa Rica", "es": "Costa Rica" },
+        { "en": "Panama", "es": "Panamá" },
+        { "en": "Nicaragua", "es": "Nicaragua" },
+        { "en": "El Salvador", "es": "El Salvador" }
+      ],
+      "answer": 0,
+      "why": { "en": "Costa Rica has protected about a quarter of its land as parks, and rainforest birds are spotted right beside the capital.", "es": "Costa Rica protege cerca de la cuarta parte de su territorio en parques, y se ven aves de selva junto a la capital." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Costa-Rica/345517"
+    },
+    {
+      "id": "geography-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which European capital city has a tiny separate country inside it?", "es": "¿Qué capital europea tiene un país diminuto dentro de sus calles?" },
+      "choices": [
+        { "en": "Madrid", "es": "Madrid" },
+        { "en": "Rome", "es": "Roma" },
+        { "en": "Vienna", "es": "Viena" },
+        { "en": "Athens", "es": "Atenas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Vatican City covers about 0.2 square miles, 0.44 square km, inside Rome, making it the smallest country on Earth.", "es": "La Ciudad del Vaticano ocupa unas 0.2 millas cuadradas, 0.44 km cuadrados, dentro de Roma, y es el país más pequeño del mundo." },
+      "topic": "capitals",
+      "source": "https://kids.britannica.com/kids/article/Vatican-City/390643"
+    },
+    {
+      "id": "geography-medium-073", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "In which African country is French an official language?", "es": "¿En qué país africano el francés es idioma oficial?" },
+      "choices": [
+        { "en": "Nigeria", "es": "Nigeria" },
+        { "en": "Senegal", "es": "Senegal" },
+        { "en": "Kenya", "es": "Kenia" },
+        { "en": "Angola", "es": "Angola" }
+      ],
+      "answer": 1,
+      "why": { "en": "France once ruled much of West Africa, so French is used in schools and offices from Senegal to Congo.", "es": "Francia gobernó gran parte de África occidental, así que el francés se usa en escuelas y oficinas desde Senegal hasta el Congo." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/Senegal/345944"
+    },
+    {
+      "id": "geography-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "Which country in Africa has Portuguese as an official language?", "es": "¿Qué país de África tiene el portugués como idioma oficial?" },
+      "choices": [
+        { "en": "Morocco", "es": "Marruecos" },
+        { "en": "Mozambique", "es": "Mozambique" },
+        { "en": "Ghana", "es": "Ghana" },
+        { "en": "Egypt", "es": "Egipto" }
+      ],
+      "answer": 1,
+      "why": { "en": "Portuguese sailors reached the coast of Mozambique in 1498, and the language stayed; Angola and Cape Verde speak it too.", "es": "Marineros portugueses llegaron a la costa de Mozambique en 1498 y el idioma se quedó; Angola y Cabo Verde también lo hablan." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/Mozambique/345893"
+    },
+    {
+      "id": "geography-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which country in Central America has English as its official language?", "es": "¿Qué país de Centroamérica tiene el inglés como idioma oficial?" },
+      "choices": [
+        { "en": "Honduras", "es": "Honduras" },
+        { "en": "Belize", "es": "Belice" },
+        { "en": "Panama", "es": "Panamá" },
+        { "en": "Nicaragua", "es": "Nicaragua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Belize was a British colony called British Honduras, so its neighbours speak Spanish while Belize does business in English.", "es": "Belice fue una colonia británica llamada Honduras Británica, así que sus vecinos hablan español y Belice trabaja en inglés." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/Belize/345494"
+    },
+    {
+      "id": "geography-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "💬",
+      "q": { "en": "About how many countries have Spanish as an official language?", "es": "¿Cuántos países tienen el español como idioma oficial?" },
+      "choices": [
+        { "en": "About 5", "es": "Unos 5" },
+        { "en": "About 9", "es": "Unos 9" },
+        { "en": "About 14", "es": "Unos 14" },
+        { "en": "About 20", "es": "Unos 20" }
+      ],
+      "answer": 3,
+      "why": { "en": "Twenty countries plus Puerto Rico use Spanish officially, spread across Europe, the Americas and Equatorial Guinea in Africa.", "es": "Veinte países más Puerto Rico usan el español de forma oficial, en Europa, en América y en Guinea Ecuatorial, en África." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/Spanish-language/353863"
+    },
+    {
+      "id": "geography-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🟢",
+      "q": { "en": "On a physical map, what do the green and brown colours usually show?", "es": "En un mapa físico, ¿qué muestran normalmente los colores verde y café?" },
+      "choices": [
+        { "en": "Rainfall amounts", "es": "La cantidad de lluvia" },
+        { "en": "Country borders", "es": "Las fronteras de los países" },
+        { "en": "Height of the land", "es": "La altura del terreno" },
+        { "en": "Where people live", "es": "Dónde vive la gente" }
+      ],
+      "answer": 2,
+      "why": { "en": "Physical maps colour low plains green and high ground brown, while political maps use colour only to separate one country from another.", "es": "Los mapas físicos pintan de verde las llanuras bajas y de café las tierras altas; los políticos usan color solo para separar países." },
+      "topic": "maps and legends",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥾",
+      "q": { "en": "Wiggly brown lines on a hiking map are contour lines. What do they show?", "es": "Las líneas cafés onduladas de un mapa son curvas de nivel. ¿Qué indican?" },
+      "choices": [
+        { "en": "Rivers", "es": "Ríos" },
+        { "en": "Roads", "es": "Caminos" },
+        { "en": "Forest edges", "es": "Bordes del bosque" },
+        { "en": "Equal heights", "es": "Alturas iguales" }
+      ],
+      "answer": 3,
+      "why": { "en": "Every point on one contour line sits at the same height, so lines packed close together warn you of a steep climb.", "es": "Todos los puntos de una curva de nivel están a la misma altura, así que líneas muy juntas avisan de una subida empinada." },
+      "topic": "maps and legends",
+      "source": "https://www.usgs.gov/faqs/what-topographic-map"
+    },
+    {
+      "id": "geography-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔎",
+      "q": { "en": "A map grid labels squares A1, B2 and so on. What is it for?", "es": "Un mapa marca casillas A1, B2 y así. ¿Para qué sirve esa cuadrícula?" },
+      "choices": [
+        { "en": "Showing heights", "es": "Mostrar alturas" },
+        { "en": "Measuring rainfall", "es": "Medir la lluvia" },
+        { "en": "Finding places quickly", "es": "Hallar lugares rápido" },
+        { "en": "Marking borders", "es": "Marcar fronteras" }
+      ],
+      "answer": 2,
+      "why": { "en": "The index of an atlas gives each city a grid square, so you search one small box instead of a whole page.", "es": "El índice de un atlas da a cada ciudad una casilla, así buscas en un cuadrito pequeño y no en toda la página." },
+      "topic": "maps and legends",
+      "source": "https://education.nationalgeographic.org/resource/map/"
+    },
+    {
+      "id": "geography-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "Which is the highest mountain in South America?", "es": "¿Cuál es la montaña más alta de Sudamérica?" },
+      "choices": [
+        { "en": "Chimborazo", "es": "El Chimborazo" },
+        { "en": "Huascarán", "es": "El Huascarán" },
+        { "en": "Ojos del Salado", "es": "El Ojos del Salado" },
+        { "en": "Aconcagua", "es": "El Aconcagua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Aconcagua in Argentina reaches about 22,838 feet, 6961 meters, the highest point anywhere outside Asia, and strong hikers reach its summit without ropes.", "es": "El Aconcagua, en Argentina, llega a unos 22,838 pies, 6961 metros, el punto más alto fuera de Asia, y se sube sin cuerdas." },
+      "topic": "mountains",
+      "source": "https://kids.britannica.com/kids/article/Aconcagua/620965"
+    },
+    {
+      "id": "geography-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "Which mountain range separates India from the rest of Asia?", "es": "¿Qué cordillera separa la India del resto de Asia?" },
+      "choices": [
+        { "en": "The Urals", "es": "Los Urales" },
+        { "en": "The Andes", "es": "Los Andes" },
+        { "en": "The Himalayas", "es": "El Himalaya" },
+        { "en": "The Alps", "es": "Los Alpes" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Himalayas rose when India crashed into Asia, and they are still growing about half an inch, 1 cm, each year.", "es": "El Himalaya se levantó cuando la India chocó contra Asia, y todavía crece cerca de media pulgada, 1 cm, cada año." },
+      "topic": "mountains",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/science/himalaya"
+    },
+    {
+      "id": "geography-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚣",
+      "q": { "en": "Which river is the longest in North America?", "es": "¿Cuál es el río más largo de América del Norte?" },
+      "choices": [
+        { "en": "The Rio Grande", "es": "El Rio Grande" },
+        { "en": "The Yukon", "es": "El Yukón" },
+        { "en": "The Colorado", "es": "El Colorado" },
+        { "en": "The Missouri", "es": "El Misuri" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Missouri runs about 2341 miles, 3767 km, before joining the Mississippi, and together they drain nearly a third of the continent.", "es": "El Misuri recorre unas 2341 millas, 3767 km, antes de unirse al Misisipi, y juntos drenan casi un tercio del continente." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/faqs/what-longest-river-united-states"
+    },
+    {
+      "id": "geography-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐉",
+      "q": { "en": "Which river is the longest in Asia?", "es": "¿Cuál es el río más largo de Asia?" },
+      "choices": [
+        { "en": "The Ganges", "es": "El Ganges" },
+        { "en": "The Mekong", "es": "El Mekong" },
+        { "en": "The Yangtze", "es": "El Yangtsé" },
+        { "en": "The Indus", "es": "El Indo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Yangtze flows about 3915 miles, 6300 km, across China, and the rare finless porpoise still swims in its muddy water.", "es": "El Yangtsé recorre unas 3915 millas, 6300 km, por China, y en sus aguas turbias aún nada la rara marsopa sin aleta." },
+      "topic": "rivers",
+      "source": "https://kids.britannica.com/kids/article/Yangtze-River/353916"
+    },
+    {
+      "id": "geography-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚤",
+      "q": { "en": "The Danube passes through more countries than any other river. How many?", "es": "El Danubio cruza más países que cualquier otro río. ¿Cuántos son?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Eight", "es": "Ocho" },
+        { "en": "Ten", "es": "Diez" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Danube touches ten countries between Germany and the Black Sea, and it forms long stretches of border along the way.", "es": "El Danubio toca diez países entre Alemania y el mar Negro, y forma largos tramos de frontera en su camino." },
+      "topic": "rivers as borders",
+      "source": "https://kids.britannica.com/kids/article/Danube-River/353122"
+    },
+    {
+      "id": "geography-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Who owns the land of Antarctica under the treaty signed in 1959?", "es": "Según el tratado firmado en 1959, ¿quién es dueño de la Antártida?" },
+      "choices": [
+        { "en": "Argentina", "es": "Argentina" },
+        { "en": "The United States", "es": "Estados Unidos" },
+        { "en": "No single country", "es": "Ningún país en particular" },
+        { "en": "The United Nations", "es": "Las Naciones Unidas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Antarctic Treaty keeps the continent for peaceful science, so dozens of nations run research stations there and share what they learn.", "es": "El Tratado Antártico reserva el continente para la ciencia pacífica, así que decenas de naciones tienen bases allí y comparten lo que aprenden." },
+      "topic": "antarctica",
+      "source": "https://www.nsf.gov/geo/opp/antarct/anttrty.jsp"
+    },
+    {
+      "id": "geography-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "About how thick is the ice sheet covering the middle of Antarctica?", "es": "¿Qué grosor tiene el hielo que cubre el centro de la Antártida?" },
+      "choices": [
+        { "en": "100 feet, 30 meters", "es": "100 pies, 30 metros" },
+        { "en": "500 feet, 150 meters", "es": "500 pies, 150 metros" },
+        { "en": "About 1 mile, 2 km", "es": "Como 1 milla, 2 km" },
+        { "en": "About 10 miles, 16 km", "es": "Como 10 millas, 16 km" }
+      ],
+      "answer": 2,
+      "why": { "en": "The ice averages about 1.2 miles, 2 km, thick and holds roughly 70 percent of all fresh water on Earth.", "es": "El hielo mide en promedio unas 1.2 millas, 2 km, de grosor y guarda cerca del 70 por ciento del agua dulce del planeta." },
+      "topic": "antarctica",
+      "source": "https://nsidc.org/learn/parts-cryosphere/ice-sheets"
+    },
+    {
+      "id": "geography-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which of these animals breeds on the ice of Antarctica?", "es": "¿Cuál de estos animales cría sobre el hielo de la Antártida?" },
+      "choices": [
+        { "en": "The polar bear", "es": "El oso polar" },
+        { "en": "The walrus", "es": "La morsa" },
+        { "en": "The arctic fox", "es": "El zorro ártico" },
+        { "en": "The emperor penguin", "es": "El pingüino emperador" }
+      ],
+      "answer": 3,
+      "why": { "en": "Polar bears, walruses and arctic foxes all live around the North Pole instead; the two poles share cold but almost no animals.", "es": "Los osos polares, las morsas y los zorros árticos viven cerca del Polo Norte; los dos polos comparten el frío pero casi ningún animal." },
+      "topic": "antarctica",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/emperor-penguin"
+    },
+    {
+      "id": "geography-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏯",
+      "q": { "en": "Which continent holds the countries of Vietnam, Nepal and Iraq?", "es": "¿Qué continente reúne a Vietnam, Nepal e Irak?" },
+      "choices": [
+        { "en": "Africa", "es": "África" },
+        { "en": "Europe", "es": "Europa" },
+        { "en": "Asia", "es": "Asia" },
+        { "en": "Oceania", "es": "Oceanía" }
+      ],
+      "answer": 2,
+      "why": { "en": "Asia covers almost a third of Earth's land and stretches from the Arctic coast of Russia down to tropical Indonesia.", "es": "Asia cubre casi un tercio de la tierra firme del planeta y va desde la costa ártica de Rusia hasta la tropical Indonesia." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Asia/345754"
+    },
+    {
+      "id": "geography-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥝",
+      "q": { "en": "New Zealand and Fiji belong to which region of the world?", "es": "¿A qué región del mundo pertenecen Nueva Zelanda y Fiyi?" },
+      "choices": [
+        { "en": "Southeast Asia", "es": "El sudeste de Asia" },
+        { "en": "The Caribbean", "es": "El Caribe" },
+        { "en": "Scandinavia", "es": "Escandinavia" },
+        { "en": "Oceania", "es": "Oceanía" }
+      ],
+      "answer": 3,
+      "why": { "en": "Oceania gathers Australia, New Zealand and thousands of Pacific islands, a region mostly made of water rather than land.", "es": "Oceanía reúne a Australia, Nueva Zelanda y miles de islas del Pacífico, una región hecha más de agua que de tierra." },
+      "topic": "continents",
+      "source": "https://kids.britannica.com/kids/article/Oceania/353836"
+    },
+    {
+      "id": "geography-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌺",
+      "q": { "en": "Which country lies between Guatemala and Honduras on the Pacific coast?", "es": "¿Qué país queda entre Guatemala y Honduras en la costa del Pacífico?" },
+      "choices": [
+        { "en": "Belize", "es": "Belice" },
+        { "en": "Nicaragua", "es": "Nicaragua" },
+        { "en": "El Salvador", "es": "El Salvador" },
+        { "en": "Costa Rica", "es": "Costa Rica" }
+      ],
+      "answer": 2,
+      "why": { "en": "El Salvador is the smallest country in Central America and the only one there with no Caribbean coastline at all.", "es": "El Salvador es el país más pequeño de Centroamérica y el único de la región que no tiene costa en el mar Caribe." },
+      "topic": "countries",
+      "source": "https://kids.britannica.com/kids/article/El-Salvador/345549"
+    },
+    {
+      "id": "geography-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛴️",
+      "q": { "en": "Which country has land in both Europe and Asia, split by a narrow strait?", "es": "¿Qué país tiene tierra en Europa y en Asia, partida por un estrecho?" },
+      "choices": [
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Italy", "es": "Italia" },
+        { "en": "Turkey", "es": "Turquía" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Bosporus strait runs through Istanbul, so a ferry ride across the water carries you from one continent to another.", "es": "El estrecho del Bósforo atraviesa Estambul, así que un viaje corto en ferry te lleva de un continente al otro." },
+      "topic": "countries",
+      "source": "https://kids.britannica.com/kids/article/Bosporus/352899"
+    },
+    {
+      "id": "geography-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "The Galápagos Islands belong to which South American country?", "es": "¿A qué país de Sudamérica pertenecen las islas Galápagos?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Chile", "es": "Chile" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Colombia", "es": "Colombia" }
+      ],
+      "answer": 2,
+      "why": { "en": "The islands sit about 600 miles, 970 km, out in the Pacific, and their strange tortoises helped Charles Darwin explain evolution.", "es": "Las islas están a unas 600 millas, 970 km, en el Pacífico, y sus tortugas ayudaron a Darwin a explicar la evolución." },
+      "topic": "islands",
+      "source": "https://whc.unesco.org/en/list/1/"
+    },
+    {
+      "id": "geography-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫒",
+      "q": { "en": "Spain and Portugal together form which large European peninsula?", "es": "¿Qué gran península europea forman juntos España y Portugal?" },
+      "choices": [
+        { "en": "The Balkan Peninsula", "es": "La península balcánica" },
+        { "en": "The Italian Peninsula", "es": "La península itálica" },
+        { "en": "The Scandinavian Peninsula", "es": "La península escandinava" },
+        { "en": "The Iberian Peninsula", "es": "La península ibérica" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Pyrenees close off the Iberian Peninsula on land, so for centuries the easiest way in and out was by sea.", "es": "Los Pirineos cierran la península ibérica por tierra, así que durante siglos la forma más fácil de entrar y salir fue por mar." },
+      "topic": "peninsulas",
+      "source": "https://kids.britannica.com/kids/article/Iberian-Peninsula/353435"
+    },
+    {
+      "id": "geography-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Which imaginary line marks the farthest north the Sun shines straight down?", "es": "¿Qué línea marca el punto más al norte donde el Sol cae en vertical?" },
+      "choices": [
+        { "en": "The Arctic Circle", "es": "El círculo polar ártico" },
+        { "en": "The equator", "es": "El ecuador" },
+        { "en": "The Prime Meridian", "es": "El meridiano de Greenwich" },
+        { "en": "The Tropic of Cancer", "es": "El trópico de Cáncer" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Tropic of Cancer sits about 23.5 degrees north, and the Sun stands directly overhead there only once a year, in June.", "es": "El trópico de Cáncer está a 23.5 grados al norte, y allí el Sol cae en vertical una sola vez al año, en junio." },
+      "topic": "equator and poles",
+      "source": "https://education.nationalgeographic.org/resource/tropic-cancer/"
+    },
+    {
+      "id": "geography-medium-095", "level": "medium", "type": "tf", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "A person weighs slightly less standing at the equator than at the poles.", "es": "Una persona pesa un poco menos en el ecuador que en los polos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth bulges at the middle and spins fastest there, so gravity pulls about half a percent more weakly than at the poles.", "es": "La Tierra se abulta en el centro y gira más rápido allí, así que la gravedad jala cerca de medio por ciento menos." },
+      "topic": "equator and poles",
+      "source": "https://www.noaa.gov/jetstream/atmosphere"
+    },
+    {
+      "id": "geography-medium-096", "level": "medium", "type": "tf", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Every country in South America uses Spanish as its official language.", "es": "Todos los países de Sudamérica usan el español como idioma oficial." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Brazil speaks Portuguese, Suriname speaks Dutch, and Guyana speaks English, so the continent carries at least four official languages.", "es": "Brasil habla portugués, Surinam habla neerlandés y Guyana habla inglés, así que el continente tiene al menos cuatro idiomas oficiales." },
+      "topic": "languages",
+      "source": "https://kids.britannica.com/kids/article/South-America/345765"
+    },
+    {
+      "id": "geography-medium-097", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "Dust blown from the Sahara helps fertilize the Amazon rainforest.", "es": "El polvo que sale del Sahara ayuda a fertilizar la selva amazónica." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Winds carry millions of tons of mineral dust across the Atlantic each year, dropping phosphorus that rainforest soils badly need.", "es": "Los vientos llevan millones de toneladas de polvo mineral sobre el Atlántico cada año y sueltan fósforo que los suelos de selva necesitan." },
+      "topic": "the sahara",
+      "source": "https://www.nasa.gov/feature/goddard/2015/nasa-satellite-reveals-how-much-saharan-dust-feeds-amazon-s-plants"
+    },
+    {
+      "id": "geography-medium-098", "level": "medium", "type": "tf", "lang": "both", "emoji": "🍊",
+      "q": { "en": "Lines of longitude are always the same distance apart everywhere on Earth.", "es": "Las líneas de longitud siempre están a la misma distancia en toda la Tierra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Longitude lines are widest at the equator and squeeze together until they all touch at the poles, like segments of an orange.", "es": "Las líneas de longitud son más anchas en el ecuador y se juntan hasta tocarse en los polos, como los gajos de una naranja." },
+      "topic": "latitude and longitude",
+      "source": "https://oceanservice.noaa.gov/facts/longitude.html"
+    },
+    {
+      "id": "geography-medium-099", "level": "medium", "type": "tf", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "Alaska has more coastline than all the other US states combined.", "es": "Alaska tiene más costa que todos los demás estados de Estados Unidos juntos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Alaska's shoreline twists for about 6640 miles, 10,690 km, around bays, fjords and islands, more than the rest put together.", "es": "La costa de Alaska serpentea unas 6640 millas, 10,690 km, entre bahías, fiordos e islas, más que todo el resto junto." },
+      "topic": "us states",
+      "source": "https://oceanservice.noaa.gov/facts/shorelength.html"
+    },
+    {
+      "id": "geography-medium-100", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧭",
+      "q": { "en": "A compass needle points exactly at the North Pole from every spot on Earth.", "es": "La aguja de una brújula apunta exacto al Polo Norte desde cualquier lugar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A needle follows the magnetic north pole, which sits hundreds of miles from the true pole and drifts a little each year.", "es": "La aguja sigue al polo norte magnético, que está a cientos de millas del polo verdadero y se mueve un poco cada año." },
+      "topic": "compass rose",
+      "source": "https://www.ngdc.noaa.gov/geomag/faqgeom.shtml"
     }
   ]
 }

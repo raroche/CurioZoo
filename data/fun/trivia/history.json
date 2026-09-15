@@ -1384,6 +1384,942 @@
       "why": { "en": "Early cameras needed a whole minute of light, so a smile would blur, and some sitters leaned on a hidden metal stand.", "es": "Las cámaras antiguas necesitaban un minuto entero de luz, así que una sonrisa salía borrosa; algunos se apoyaban en un soporte escondido." },
       "topic": "old ways",
       "source": "https://www.si.edu/stories/early-photography-portraits"
+    },
+    {
+      "id": "history-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "Which river did ancient Egyptian farmers depend on every single year?", "es": "¿De qué río dependían cada año los campesinos del antiguo Egipto?" },
+      "choices": [
+        { "en": "The Nile", "es": "El Nilo" },
+        { "en": "The Amazon", "es": "El Amazonas" },
+        { "en": "The Danube", "es": "El Danubio" },
+        { "en": "The Ganges", "es": "El Ganges" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Nile flooded each summer and left dark, rich mud on the fields, so Egyptians called their country Kemet, the black land.", "es": "El Nilo se desbordaba cada verano y dejaba lodo fértil en los campos; por eso los egipcios llamaban a su país Kemet, tierra negra." },
+      "topic": "ancient egypt",
+      "source": "https://www.dkfindout.com/us/history/ancient-egypt/"
+    },
+    {
+      "id": "history-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Whose tomb did Howard Carter uncover in Egypt in 1922?", "es": "¿De quién fue la tumba que Howard Carter descubrió en Egipto en 1922?" },
+      "choices": [
+        { "en": "Ramses II", "es": "Ramsés II" },
+        { "en": "Tutankhamun", "es": "Tutankamón" },
+        { "en": "Cleopatra", "es": "Cleopatra" },
+        { "en": "Khufu", "es": "Keops" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tutankhamun became pharaoh at about nine years old, and his small tomb still held a solid gold mask and a chariot.", "es": "Tutankamón llegó a ser faraón con unos nueve años, y en su pequeña tumba había una máscara de oro macizo y un carro." },
+      "topic": "ancient egypt",
+      "source": "https://www.natgeokids.com/uk/discover/history/egypt/tutankhamun-facts/"
+    },
+    {
+      "id": "history-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What did the Rosetta Stone finally let scholars do?", "es": "¿Qué pudieron hacer por fin los estudiosos gracias a la Piedra de Rosetta?" },
+      "choices": [
+        { "en": "Sail up the Nile", "es": "Navegar por el Nilo" },
+        { "en": "Build a pyramid", "es": "Construir una pirámide" },
+        { "en": "Read hieroglyphs", "es": "Leer los jeroglíficos" },
+        { "en": "Weigh gold coins", "es": "Pesar monedas de oro" }
+      ],
+      "answer": 2,
+      "why": { "en": "The stone carries one message in three scripts, and in 1822 Champollion matched the Greek words to the Egyptian signs.", "es": "La piedra trae el mismo texto en tres escrituras, y en 1822 Champollion comparó las palabras griegas con los signos egipcios." },
+      "topic": "ancient egypt",
+      "source": "https://www.britishmuseum.org/collection/object/Y_EA24"
+    },
+    {
+      "id": "history-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "What did Egyptian embalmers use to dry out a mummy?", "es": "¿Qué usaban los embalsamadores egipcios para secar una momia?" },
+      "choices": [
+        { "en": "Beach sand", "es": "Arena de playa" },
+        { "en": "Ground chalk", "es": "Yeso molido" },
+        { "en": "Warm honey", "es": "Miel tibia" },
+        { "en": "Natron salt", "es": "Sal natrón" }
+      ],
+      "answer": 3,
+      "why": { "en": "Natron is a salt from desert lakes; the body rested in it for forty days before anyone wrapped it in linen.", "es": "El natrón es una sal de lagos del desierto; el cuerpo pasaba cuarenta días en ella antes de envolverlo en lino." },
+      "topic": "ancient egypt",
+      "source": "https://www.si.edu/spotlight/ancient-egypt"
+    },
+    {
+      "id": "history-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "Which pharaoh had the Great Pyramid of Giza built?", "es": "¿Para qué faraón se construyó la Gran Pirámide de Guiza?" },
+      "choices": [
+        { "en": "Khufu", "es": "Keops" },
+        { "en": "Tutankhamun", "es": "Tutankamón" },
+        { "en": "Ramses II", "es": "Ramsés II" },
+        { "en": "Narmer", "es": "Narmer" }
+      ],
+      "answer": 0,
+      "why": { "en": "About 2.3 million stone blocks went into it, and the builders lived in a town nearby with bakeries and doctors.", "es": "Lleva unos 2.3 millones de bloques de piedra, y los constructores vivían en un pueblo cercano con panaderías y médicos." },
+      "topic": "pyramids",
+      "source": "https://www.dkfindout.com/us/history/ancient-egypt/pyramids/"
+    },
+    {
+      "id": "history-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "How many days did the ancient Egyptian calendar year have?", "es": "¿Cuántos días tenía el año del calendario del antiguo Egipto?" },
+      "choices": [
+        { "en": "300", "es": "300" },
+        { "en": "365", "es": "365" },
+        { "en": "400", "es": "400" },
+        { "en": "280", "es": "280" }
+      ],
+      "answer": 1,
+      "why": { "en": "Twelve months of thirty days plus five feast days; Egyptians knew the flood was near when the star Sirius rose at dawn.", "es": "Doce meses de treinta días más cinco días de fiesta; sabían que venía la crecida cuando la estrella Sirio salía al amanecer." },
+      "topic": "telling time",
+      "source": "https://www.rmg.co.uk/stories/topics/history-calendar"
+    },
+    {
+      "id": "history-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "What tall stone needle did Egyptians carve from a single block?", "es": "¿Qué aguja alta de piedra tallaban los egipcios de un solo bloque?" },
+      "choices": [
+        { "en": "A dome", "es": "Una cúpula" },
+        { "en": "A round column", "es": "Una columna redonda" },
+        { "en": "An obelisk", "es": "Un obelisco" },
+        { "en": "A stone arch", "es": "Un arco de piedra" }
+      ],
+      "answer": 2,
+      "why": { "en": "Some obelisks weigh more than a hundred elephants, and workers floated them down the Nile on enormous wooden barges.", "es": "Algunos obeliscos pesan más que cien elefantes, y los trabajadores los llevaban por el Nilo en enormes barcazas de madera." },
+      "topic": "ancient egypt",
+      "source": "https://www.metmuseum.org/art/collection/search/544689"
+    },
+    {
+      "id": "history-medium-011", "level": "medium", "type": "tf", "lang": "both", "emoji": "⏳",
+      "q": { "en": "Cleopatra lived closer in time to the Moon landing than to the pyramids.", "es": "Cleopatra vivió más cerca en el tiempo de la llegada a la Luna que de las pirámides." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Great Pyramid was about 2500 years old when Cleopatra was born, and only about 2000 years separate her from 1969.", "es": "La Gran Pirámide tenía unos 2500 años cuando nació Cleopatra, y de ella a 1969 pasan apenas unos 2000 años." },
+      "topic": "ancient egypt",
+      "source": "https://www.smithsonianmag.com/history/cleopatra-180949555/"
+    },
+    {
+      "id": "history-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧱",
+      "q": { "en": "What did Roman builders mix into concrete so it hardened underwater?", "es": "¿Qué mezclaban los constructores romanos en el concreto para que endureciera bajo el agua?" },
+      "choices": [
+        { "en": "Sea salt", "es": "Sal de mar" },
+        { "en": "Volcanic ash", "es": "Ceniza volcánica" },
+        { "en": "Olive oil", "es": "Aceite de oliva" },
+        { "en": "Sawdust", "es": "Aserrín" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ash from the volcanoes near Naples made a concrete that grows stronger in seawater, which is why Roman harbour walls still stand.", "es": "La ceniza de los volcanes cerca de Nápoles daba un concreto que se hace más fuerte en el mar y por eso dura siglos." },
+      "topic": "romans",
+      "source": "https://www.smithsonianmag.com/science-nature/secrets-of-roman-concrete-180972316/"
+    },
+    {
+      "id": "history-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏟️",
+      "q": { "en": "About how many people could sit inside the Roman Colosseum?", "es": "¿Cuántas personas cabían sentadas más o menos en el Coliseo romano?" },
+      "choices": [
+        { "en": "About 500", "es": "Unas 500" },
+        { "en": "About 5000", "es": "Unas 5000" },
+        { "en": "About 50,000", "es": "Unas 50,000" },
+        { "en": "About 500,000", "es": "Unas 500,000" }
+      ],
+      "answer": 2,
+      "why": { "en": "Eighty arched doorways let the crowd leave in minutes, and sailors pulled a huge cloth awning over the seats for shade.", "es": "Ochenta arcos dejaban salir al público en minutos, y unos marineros tendían un gran toldo de tela para dar sombra." },
+      "topic": "romans",
+      "source": "https://www.dkfindout.com/us/history/ancient-rome/colosseum/"
+    },
+    {
+      "id": "history-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Which language of the Romans did Spanish grow out of?", "es": "¿De qué lengua de los romanos nació el español?" },
+      "choices": [
+        { "en": "Greek", "es": "El griego" },
+        { "en": "Arabic", "es": "El árabe" },
+        { "en": "Etruscan", "es": "El etrusco" },
+        { "en": "Latin", "es": "El latín" }
+      ],
+      "answer": 3,
+      "why": { "en": "Spanish, French, Portuguese, Italian and Romanian all began as everyday Latin, so their words for water still look alike.", "es": "El español, el francés, el portugués, el italiano y el rumano nacieron del latín de todos los días; por eso se parecen tanto." },
+      "topic": "romans",
+      "source": "https://kids.britannica.com/kids/article/Latin-language/353745"
+    },
+    {
+      "id": "history-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which volcano buried the Roman town of Pompeii in the year 79?", "es": "¿Qué volcán sepultó el pueblo romano de Pompeya en el año 79?" },
+      "choices": [
+        { "en": "Mount Vesuvius", "es": "El Vesubio" },
+        { "en": "Mount Etna", "es": "El Etna" },
+        { "en": "Popocatépetl", "es": "El Popocatépetl" },
+        { "en": "Mount Fuji", "es": "El Fuji" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ash sealed the town for centuries and kept wall paintings, loaves of bread in an oven, and even a dog's paw prints.", "es": "La ceniza selló el pueblo por siglos y guardó pinturas, panes dentro del horno y hasta las huellas de un perro." },
+      "topic": "romans",
+      "source": "https://www.nationalgeographic.com/history/article/pompeii"
+    },
+    {
+      "id": "history-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "How did rich Romans heat the floors of their houses?", "es": "¿Cómo calentaban los romanos ricos los pisos de sus casas?" },
+      "choices": [
+        { "en": "With thick straw mats", "es": "Con petates gruesos de paja" },
+        { "en": "With hot air under the floor", "es": "Con aire caliente bajo el piso" },
+        { "en": "With woollen rugs", "es": "Con tapetes de lana" },
+        { "en": "With a fire in the room", "es": "Con una fogata en el cuarto" }
+      ],
+      "answer": 1,
+      "why": { "en": "A furnace sent hot smoke through gaps under the tiles, so people wore wooden sandals to keep their feet comfortable.", "es": "Un horno mandaba humo caliente por huecos bajo las losas, y la gente usaba sandalias de madera para no quemarse los pies." },
+      "topic": "keeping warm",
+      "source": "https://www.english-heritage.org.uk/learn/story-of-england/romans/"
+    },
+    {
+      "id": "history-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌉",
+      "q": { "en": "Which stone keeps a Roman arch from falling down?", "es": "¿Qué piedra evita que un arco romano se caiga?" },
+      "choices": [
+        { "en": "The base stone", "es": "La piedra de la base" },
+        { "en": "The mortar", "es": "La mezcla" },
+        { "en": "The keystone", "es": "La clave" },
+        { "en": "The column", "es": "La columna" }
+      ],
+      "answer": 2,
+      "why": { "en": "The wedge-shaped keystone pushes the weight sideways into the walls, so one arch can carry a road or an aqueduct.", "es": "La clave, en forma de cuña, empuja el peso hacia los lados; por eso un arco puede cargar un camino o un acueducto." },
+      "topic": "romans",
+      "source": "https://www.dkfindout.com/us/history/ancient-rome/"
+    },
+    {
+      "id": "history-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "📆",
+      "q": { "en": "Which Roman leader gave his name to the month of July?", "es": "¿Qué romano dio su nombre al mes de julio?" },
+      "choices": [
+        { "en": "Augustus", "es": "Augusto" },
+        { "en": "Nero", "es": "Nerón" },
+        { "en": "Marcus Aurelius", "es": "Marco Aurelio" },
+        { "en": "Julius Caesar", "es": "Julio César" }
+      ],
+      "answer": 3,
+      "why": { "en": "The month was called Quintilis, the fifth one, until Rome renamed it, and the month after it honours the emperor Augustus.", "es": "El mes se llamaba Quintilis, el quinto, hasta que Roma lo renombró; el mes siguiente honra al emperador Augusto." },
+      "topic": "romans",
+      "source": "https://www.rmg.co.uk/stories/topics/how-did-months-get-their-names"
+    },
+    {
+      "id": "history-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐎",
+      "q": { "en": "What did Romans go to the Circus Maximus to watch?", "es": "¿Qué iban a ver los romanos al Circo Máximo?" },
+      "choices": [
+        { "en": "Chariot races", "es": "Carreras de carros" },
+        { "en": "Boat rides", "es": "Paseos en barco" },
+        { "en": "Wheat markets", "es": "Mercados de trigo" },
+        { "en": "Coin making", "es": "La fábrica de monedas" }
+      ],
+      "answer": 0,
+      "why": { "en": "More than a hundred thousand fans cheered for four team colours, and drivers wrapped the reins around their waist to steer.", "es": "Más de cien mil aficionados animaban a cuatro colores de equipo, y los conductores se ataban las riendas a la cintura." },
+      "topic": "romans",
+      "source": "https://www.britannica.com/topic/Circus-Maximus"
+    },
+    {
+      "id": "history-medium-020", "level": "medium", "type": "tf", "lang": "both", "emoji": "🔢",
+      "q": { "en": "The ancient Romans wrote their numbers using a symbol for zero.", "es": "Los antiguos romanos escribían sus números con un símbolo para el cero." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Roman numerals had no zero, which made adding slow; the zero we use travelled from India through Arab scholars into Europe.", "es": "Los números romanos carecían de cero; el cero que usamos llegó de la India a Europa gracias a los sabios árabes." },
+      "topic": "numbers in history",
+      "source": "https://kids.britannica.com/kids/article/Roman-numerals/353862"
+    },
+    {
+      "id": "history-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏅",
+      "q": { "en": "In which year were the first ancient Olympic Games held?", "es": "¿En qué año se celebraron los primeros Juegos Olímpicos antiguos?" },
+      "choices": [
+        { "en": "1200 BC", "es": "1200 a.C." },
+        { "en": "776 BC", "es": "776 a.C." },
+        { "en": "300 BC", "es": "300 a.C." },
+        { "en": "100 AD", "es": "100 d.C." }
+      ],
+      "answer": 1,
+      "why": { "en": "The games ran every four years at Olympia for about twelve centuries, and cities agreed to a truce so athletes could travel.", "es": "Los juegos se hacían cada cuatro años en Olimpia durante unos doce siglos, y las ciudades pactaban una tregua para que viajaran los atletas." },
+      "topic": "first olympics",
+      "source": "https://www.olympics.com/ioc/ancient-olympic-games"
+    },
+    {
+      "id": "history-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫒",
+      "q": { "en": "What did a winner at the ancient Olympic Games receive?", "es": "¿Qué recibía el ganador de los Juegos Olímpicos antiguos?" },
+      "choices": [
+        { "en": "A silver cup", "es": "Una copa de plata" },
+        { "en": "A bag of coins", "es": "Una bolsa de monedas" },
+        { "en": "A wreath of olive leaves", "es": "Una corona de hojas de olivo" },
+        { "en": "A marble statue", "es": "Una estatua de mármol" }
+      ],
+      "answer": 2,
+      "why": { "en": "The leaves came from a sacred tree beside the temple of Zeus, and back home a winner often ate free for life.", "es": "Las hojas venían de un árbol sagrado junto al templo de Zeus, y en su ciudad le daban comida gratis de por vida." },
+      "topic": "first olympics",
+      "source": "https://www.getty.edu/art/exhibitions/ancient_olympics/"
+    },
+    {
+      "id": "history-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "Which goddess was the Parthenon in Athens built for?", "es": "¿Para qué diosa se construyó el Partenón de Atenas?" },
+      "choices": [
+        { "en": "Hera", "es": "Hera" },
+        { "en": "Artemis", "es": "Artemisa" },
+        { "en": "Demeter", "es": "Deméter" },
+        { "en": "Athena", "es": "Atenea" }
+      ],
+      "answer": 3,
+      "why": { "en": "The city took her name, and inside stood a statue of Athena taller than three grown men, covered in ivory and gold.", "es": "La ciudad tomó su nombre, y adentro había una estatua de Atenea más alta que tres hombres, cubierta de marfil y oro." },
+      "topic": "ancient greece",
+      "source": "https://www.acropolisofathens.gr/"
+    },
+    {
+      "id": "history-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "What did actors in a Greek theatre wear on their faces?", "es": "¿Qué usaban en la cara los actores del teatro griego?" },
+      "choices": [
+        { "en": "Painted masks", "es": "Máscaras pintadas" },
+        { "en": "Silk scarves", "es": "Pañuelos de seda" },
+        { "en": "Bright feathers", "es": "Plumas de colores" },
+        { "en": "Small mirrors", "es": "Espejos pequeños" }
+      ],
+      "answer": 0,
+      "why": { "en": "One actor could play several parts by changing masks, and the wide mouth helped his voice reach thousands of stone seats.", "es": "Un actor podía hacer varios papeles cambiando de máscara, y la boca ancha ayudaba a que su voz llegara muy lejos." },
+      "topic": "ancient greece",
+      "source": "https://www.dkfindout.com/us/history/ancient-greece/greek-theater/"
+    },
+    {
+      "id": "history-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛁",
+      "q": { "en": "Who jumped out of a bath shouting the word Eureka?", "es": "¿Quién salió de un baño gritando la palabra «Eureka»?" },
+      "choices": [
+        { "en": "Homer", "es": "Homero" },
+        { "en": "Archimedes", "es": "Arquímedes" },
+        { "en": "Euclid", "es": "Euclides" },
+        { "en": "Aristotle", "es": "Aristóteles" }
+      ],
+      "answer": 1,
+      "why": { "en": "He saw the water rise and realised he could measure the volume of a crown to test whether it was pure gold.", "es": "Vio subir el agua y entendió que podía medir el volumen de una corona para saber si era de oro puro." },
+      "topic": "ancient greece",
+      "source": "https://kids.britannica.com/kids/article/Archimedes/352780"
+    },
+    {
+      "id": "history-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "What did Chinese sailors use a floating magnetic needle for?", "es": "¿Para qué usaban los marineros chinos una aguja magnética flotante?" },
+      "choices": [
+        { "en": "To measure the depth", "es": "Para medir la profundidad" },
+        { "en": "To tell the hour", "es": "Para saber la hora" },
+        { "en": "To find their direction", "es": "Para orientarse" },
+        { "en": "To catch the wind", "es": "Para atrapar el viento" }
+      ],
+      "answer": 2,
+      "why": { "en": "Chinese inventors first used spoons of lodestone to lay out buildings, and only later did captains trust the needle at sea.", "es": "En China primero usaron cucharas de magnetita para orientar edificios, y después los capitanes confiaron su ruta a la aguja." },
+      "topic": "ancient china",
+      "source": "https://www.rmg.co.uk/stories/topics/history-compass"
+    },
+    {
+      "id": "history-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "What guards the tomb of China's first emperor underground?", "es": "¿Qué cuida bajo tierra la tumba del primer emperador de China?" },
+      "choices": [
+        { "en": "An army of clay figures", "es": "Un ejército de figuras de barro" },
+        { "en": "A ring of stone lions", "es": "Un círculo de leones de piedra" },
+        { "en": "A river of glass", "es": "Un río de vidrio" },
+        { "en": "A wall of ice", "es": "Un muro de hielo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Farmers digging a well in 1974 found the first soldier; about eight thousand were made, and no two faces are alike.", "es": "Unos campesinos que cavaban un pozo en 1974 hallaron al primer soldado; son unos ocho mil y ninguna cara se repite." },
+      "topic": "ancient china",
+      "source": "https://www.britishmuseum.org/exhibitions/first-emperor-chinas-terracotta-army"
+    },
+    {
+      "id": "history-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "💵",
+      "q": { "en": "Where did people first use paper money instead of coins?", "es": "¿Dónde usaron por primera vez billetes de papel en lugar de monedas?" },
+      "choices": [
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "China", "es": "China" },
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Peru", "es": "Perú" }
+      ],
+      "answer": 1,
+      "why": { "en": "Merchants grew tired of carrying heavy strings of coins, so shops wrote paper notes; Marco Polo could hardly believe it.", "es": "Los comerciantes se cansaron de cargar sartas pesadas de monedas y las tiendas dieron notas de papel; Marco Polo no lo creía." },
+      "topic": "everyday things",
+      "source": "https://www.britishmuseum.org/collection/galleries/money"
+    },
+    {
+      "id": "history-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐛",
+      "q": { "en": "Which small creature made the silk that China kept secret?", "es": "¿Qué animalito producía la seda que China guardaba en secreto?" },
+      "choices": [
+        { "en": "A spider", "es": "Una araña" },
+        { "en": "A tiny snail", "es": "Un caracol pequeño" },
+        { "en": "A honeybee", "es": "Una abeja" },
+        { "en": "A moth caterpillar", "es": "La oruga de una palomilla" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each cocoon unwinds into one thread almost a kilometre long, and the caterpillars eat only the leaves of mulberry trees.", "es": "Cada capullo se desenreda en un hilo de casi un kilómetro, y las orugas solo comen hojas de morera." },
+      "topic": "silk road",
+      "source": "https://www.nhm.ac.uk/discover/silk-moths.html"
+    },
+    {
+      "id": "history-medium-030", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌕",
+      "q": { "en": "The Great Wall of China can be seen from the Moon by eye.", "es": "La Gran Muralla china se puede ver desde la Luna a simple vista." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Astronauts say it vanishes even from low orbit, because the wall is narrow and the same colour as the hills around it.", "es": "Los astronautas dicen que desaparece incluso desde órbita baja: es angosta y del mismo color que los cerros de alrededor." },
+      "topic": "ancient china",
+      "source": "https://www.nasa.gov/image-article/great-wall-of-china/"
+    },
+    {
+      "id": "history-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Which people wrote a symbol for zero over 1500 years ago?", "es": "¿Qué pueblo escribió un símbolo para el cero hace más de 1500 años?" },
+      "choices": [
+        { "en": "The Romans", "es": "Los romanos" },
+        { "en": "The Vikings", "es": "Los vikingos" },
+        { "en": "The Maya", "es": "Los mayas" },
+        { "en": "The Greeks", "es": "Los griegos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Maya scribes drew zero as a shell, counted in twenties, and wrote the other numbers with bars for five and dots for one.", "es": "Los escribas mayas dibujaban el cero como un caracol, contaban de veinte en veinte y usaban barras y puntos." },
+      "topic": "maya, aztec and inca",
+      "source": "https://maya.nmai.si.edu/maya-sun/maya-math-game"
+    },
+    {
+      "id": "history-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏐",
+      "q": { "en": "What did ballplayers in Mesoamerica try to pass the ball through?", "es": "¿Por dónde intentaban pasar la pelota los jugadores de Mesoamérica?" },
+      "choices": [
+        { "en": "A stone ring on the wall", "es": "Un aro de piedra en el muro" },
+        { "en": "A wooden goal", "es": "Una portería de madera" },
+        { "en": "A rope net", "es": "Una red de cuerda" },
+        { "en": "A clay pot", "es": "Una olla de barro" }
+      ],
+      "answer": 0,
+      "why": { "en": "The rubber ball was heavy, players struck it with their hips, and the court at Chichén Itzá is longer than a soccer field.", "es": "La pelota de hule era pesada, se golpeaba con las caderas y la cancha de Chichén Itzá mide más que un campo de fútbol." },
+      "topic": "maya, aztec and inca",
+      "source": "https://www.mexicolore.co.uk/aztecs/ball-game"
+    },
+    {
+      "id": "history-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚰",
+      "q": { "en": "How did fresh water reach the Aztec city of Tenochtitlán?", "es": "¿Cómo llegaba el agua dulce a la ciudad azteca de Tenochtitlan?" },
+      "choices": [
+        { "en": "In leather bags on canoes", "es": "En bolsas de cuero sobre canoas" },
+        { "en": "Along a stone aqueduct", "es": "Por un acueducto de piedra" },
+        { "en": "Through pipes of gold", "es": "Por tuberías de oro" },
+        { "en": "From wells under the square", "es": "De pozos bajo la plaza" }
+      ],
+      "answer": 1,
+      "why": { "en": "The aqueduct from Chapultepec had two channels, so one could be cleaned while the other still fed the island city.", "es": "El acueducto de Chapultepec tenía dos canales: uno se limpiaba mientras el otro seguía llevando agua a la ciudad isla." },
+      "topic": "maya, aztec and inca",
+      "source": "https://mna.inah.gob.mx/sala/mexica"
+    },
+    {
+      "id": "history-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "What did Aztec markets use cacao beans as?", "es": "¿Para qué usaban los mercados aztecas los granos de cacao?" },
+      "choices": [
+        { "en": "Seeds for planting", "es": "Semillas para sembrar" },
+        { "en": "Medicine", "es": "Medicina" },
+        { "en": "Money", "es": "Dinero" },
+        { "en": "Paint", "es": "Pintura" }
+      ],
+      "answer": 2,
+      "why": { "en": "A turkey cost about a hundred beans, and cheats sometimes filled empty cacao shells with mud to pass them off.", "es": "Un pavo costaba unos cien granos, y algunos tramposos llenaban de lodo las cáscaras vacías para hacerlas pasar por buenas." },
+      "topic": "maya, aztec and inca",
+      "source": "https://www.si.edu/spotlight/chocolate"
+    },
+    {
+      "id": "history-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧶",
+      "q": { "en": "What did Inca officials keep in knotted cords called quipus?", "es": "¿Qué guardaban los funcionarios incas en cuerdas con nudos llamadas quipus?" },
+      "choices": [
+        { "en": "Seeds", "es": "Semillas" },
+        { "en": "Feathers", "es": "Plumas" },
+        { "en": "Songs", "es": "Canciones" },
+        { "en": "Numbers", "es": "Números" }
+      ],
+      "answer": 3,
+      "why": { "en": "The colour of the cord and the place of each knot told the amount, so one quipu could hold a whole storehouse list.", "es": "El color del cordel y el lugar de cada nudo decían la cantidad; un quipu podía guardar el inventario de un depósito." },
+      "topic": "maya, aztec and inca",
+      "source": "https://americanindian.si.edu/nk360/inka-empire/quipu"
+    },
+    {
+      "id": "history-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥔",
+      "q": { "en": "Which crop did the Inca freeze at night to store for years?", "es": "¿Qué cultivo congelaban los incas de noche para guardarlo por años?" },
+      "choices": [
+        { "en": "The potato", "es": "La papa" },
+        { "en": "The tomato", "es": "El jitomate" },
+        { "en": "The peanut", "es": "El cacahuate" },
+        { "en": "The onion", "es": "La cebolla" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mountain frost at night and sun by day turned potatoes into light, dry chuño that kept in storehouses for years.", "es": "La helada de la noche y el sol del día hacían chuño, papas secas y ligeras que duraban años en los depósitos." },
+      "topic": "maya, aztec and inca",
+      "source": "https://cipotato.org/potato/potato-history/"
+    },
+    {
+      "id": "history-medium-037", "level": "medium", "type": "tf", "lang": "both", "emoji": "🪢",
+      "q": { "en": "The Inca built rope bridges that villages rewove by hand every year.", "es": "Los incas hacían puentes de cuerda que los pueblos volvían a tejer cada año." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Families twisted mountain grass into thick cables and hung them across canyons; the bridge Q'eswachaka in Peru is remade every June.", "es": "Las familias torcían pasto de montaña en cables gruesos y los colgaban sobre cañones; el puente Q'eswachaka, en Perú, se rehace cada junio." },
+      "topic": "maya, aztec and inca",
+      "source": "https://folklife.si.edu/the-last-inca-bridge"
+    },
+    {
+      "id": "history-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "How many ships sailed with Columbus on his first voyage?", "es": "¿Cuántos barcos zarparon con Colón en su primer viaje?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Seven", "es": "Siete" },
+        { "en": "Three", "es": "Tres" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Niña, the Pinta and the Santa María crossed in about ten weeks, and the Santa María ran aground on a reef.", "es": "La Niña, la Pinta y la Santa María cruzaron en unas diez semanas, y la Santa María encalló en un arrecife." },
+      "topic": "explorers",
+      "source": "https://www.rmg.co.uk/stories/topics/christopher-columbus"
+    },
+    {
+      "id": "history-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which crew first sailed all the way around the world?", "es": "¿Qué tripulación fue la primera en dar la vuelta al mundo?" },
+      "choices": [
+        { "en": "Marco Polo's", "es": "La de Marco Polo" },
+        { "en": "Captain Cook's", "es": "La del capitán Cook" },
+        { "en": "Magellan's", "es": "La de Magallanes" },
+        { "en": "Zheng He's", "es": "La de Zheng He" }
+      ],
+      "answer": 2,
+      "why": { "en": "Magellan died along the way, so Juan Sebastián Elcano brought one ship and eighteen tired sailors home to Spain in 1522.", "es": "Magallanes murió en el camino, así que Juan Sebastián Elcano llevó un barco y dieciocho marineros cansados a España en 1522." },
+      "topic": "explorers",
+      "source": "https://www.rmg.co.uk/stories/topics/magellan-first-voyage-around-world"
+    },
+    {
+      "id": "history-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "Which admiral led China's treasure ships as far as Africa?", "es": "¿Qué almirante llevó los barcos del tesoro de China hasta África?" },
+      "choices": [
+        { "en": "Kublai Khan", "es": "Kublai Kan" },
+        { "en": "Zheng He", "es": "Zheng He" },
+        { "en": "Marco Polo", "es": "Marco Polo" },
+        { "en": "Ibn Battuta", "es": "Ibn Battuta" }
+      ],
+      "answer": 1,
+      "why": { "en": "His ships were several times longer than those of Columbus, and in 1414 he brought a giraffe to the emperor's court.", "es": "Sus barcos eran varias veces más largos que los de Colón, y en 1414 llevó una jirafa a la corte del emperador." },
+      "topic": "explorers",
+      "source": "https://www.britannica.com/biography/Zheng-He"
+    },
+    {
+      "id": "history-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What guided Polynesian navigators across thousands of kilometres of ocean?", "es": "¿Qué guiaba a los navegantes polinesios por miles de kilómetros de océano?" },
+      "choices": [
+        { "en": "A compass needle", "es": "Una aguja de brújula" },
+        { "en": "A paper map", "es": "Un mapa de papel" },
+        { "en": "The stars, the waves and the birds", "es": "Las estrellas, las olas y las aves" },
+        { "en": "A ship's clock", "es": "Un reloj de barco" }
+      ],
+      "answer": 2,
+      "why": { "en": "They read the swells with their bodies, watched which way birds flew at dusk, and carried the star paths in memory.", "es": "Sentían el oleaje con el cuerpo, veían hacia dónde volaban las aves al atardecer y llevaban en la memoria los caminos de estrellas." },
+      "topic": "explorers",
+      "source": "https://www.hokulea.com/wayfinding/"
+    },
+    {
+      "id": "history-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "Which trader from Venice wrote a famous book about China?", "es": "¿Qué comerciante de Venecia escribió un libro famoso sobre China?" },
+      "choices": [
+        { "en": "Amerigo Vespucci", "es": "Américo Vespucio" },
+        { "en": "Vasco da Gama", "es": "Vasco da Gama" },
+        { "en": "Ibn Battuta", "es": "Ibn Battuta" },
+        { "en": "Marco Polo", "es": "Marco Polo" }
+      ],
+      "answer": 3,
+      "why": { "en": "He described paper money, coal that burns like wood and riders carrying post; many readers in Europe thought he was exaggerating.", "es": "Contó del papel moneda, del carbón que arde como leña y de los correos a caballo; muchos en Europa creyeron que exageraba." },
+      "topic": "silk road",
+      "source": "https://kids.britannica.com/kids/article/Marco-Polo/353531"
+    },
+    {
+      "id": "history-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "Which traveller from Morocco wandered for about thirty years?", "es": "¿Qué viajero de Marruecos anduvo de viaje unos treinta años?" },
+      "choices": [
+        { "en": "Marco Polo", "es": "Marco Polo" },
+        { "en": "Leif Erikson", "es": "Leif Erikson" },
+        { "en": "Ibn Battuta", "es": "Ibn Battuta" },
+        { "en": "Zheng He", "es": "Zheng He" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ibn Battuta covered around 120,000 kilometres, farther than any traveller of his age, and dictated the whole story to a writer.", "es": "Ibn Battuta recorrió unos 120,000 kilómetros, más que cualquier viajero de su época, y le dictó toda su historia a un escritor." },
+      "topic": "explorers",
+      "source": "https://www.si.edu/exhibitions/ibn-battuta"
+    },
+    {
+      "id": "history-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Whose first name was given to the two American continents?", "es": "¿De quién es el nombre que llevan los dos continentes americanos?" },
+      "choices": [
+        { "en": "Christopher Columbus", "es": "Cristóbal Colón" },
+        { "en": "Amerigo Vespucci", "es": "Américo Vespucio" },
+        { "en": "Ferdinand Magellan", "es": "Fernando de Magallanes" },
+        { "en": "Juan Ponce de León", "es": "Juan Ponce de León" }
+      ],
+      "answer": 1,
+      "why": { "en": "A German mapmaker printed the word America in 1507 after Vespucci argued the land was a whole new continent, and it stuck.", "es": "Un cartógrafo alemán imprimió la palabra América en 1507 porque Vespucio dijo que era un continente nuevo, y el nombre se quedó." },
+      "topic": "explorers",
+      "source": "https://www.loc.gov/item/2003626426/"
+    },
+    {
+      "id": "history-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍋",
+      "q": { "en": "Which fruit kept sailors safe from the illness called scurvy?", "es": "¿Qué fruta protegía del escorbuto a los marineros?" },
+      "choices": [
+        { "en": "Apples", "es": "Manzanas" },
+        { "en": "Bananas", "es": "Plátanos" },
+        { "en": "Lemons and limes", "es": "Limones y limas" },
+        { "en": "Coconuts", "es": "Cocos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Scurvy came from missing vitamin C, and in 1747 a ship's doctor proved that sailors given citrus fruit got better fast.", "es": "El escorbuto venía por falta de vitamina C, y en 1747 un médico de barco probó que los marineros con cítricos mejoraban rápido." },
+      "topic": "explorers",
+      "source": "https://www.rmg.co.uk/stories/topics/scurvy-sailors-disease"
+    },
+    {
+      "id": "history-medium-046", "level": "medium", "type": "tf", "lang": "both", "emoji": "⛑️",
+      "q": { "en": "Viking sailors wore helmets with two long horns on the sides.", "es": "Los marineros vikingos usaban cascos con dos cuernos largos a los lados." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Nobody has ever dug up a horned Viking helmet; the idea came from costumes designed for an opera stage in the 1870s.", "es": "Nunca se ha desenterrado un casco vikingo con cuernos; la idea viene de los trajes de una ópera de los años 1870." },
+      "topic": "vikings",
+      "source": "https://www.historymuseum.ca/vikings/"
+    },
+    {
+      "id": "history-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Who reached North America about 500 years before Columbus?", "es": "¿Quiénes llegaron a América del Norte unos 500 años antes que Colón?" },
+      "choices": [
+        { "en": "The Romans", "es": "Los romanos" },
+        { "en": "The Portuguese", "es": "Los portugueses" },
+        { "en": "The Egyptians", "es": "Los egipcios" },
+        { "en": "The Vikings", "es": "Los vikingos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Leif Erikson landed in a place he called Vinland, and their turf houses were dug up at L'Anse aux Meadows in Canada.", "es": "Leif Erikson llegó a un lugar que llamó Vinlandia, y sus casas de pasto se hallaron en L'Anse aux Meadows, en Canadá." },
+      "topic": "vikings",
+      "source": "https://www.pc.gc.ca/en/lhn-nhs/nl/meadows"
+    },
+    {
+      "id": "history-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚣",
+      "q": { "en": "What let a Viking longship come right up onto a beach?", "es": "¿Qué permitía a un barco vikingo llegar directo a la playa?" },
+      "choices": [
+        { "en": "Its heavy stone base", "es": "Su base pesada de piedra" },
+        { "en": "Its giant anchor", "es": "Su ancla gigante" },
+        { "en": "Its paddle wheels", "es": "Sus ruedas de paletas" },
+        { "en": "Its shallow flat bottom", "es": "Su fondo plano y poco profundo" }
+      ],
+      "answer": 3,
+      "why": { "en": "A longship needed only a metre of water, and the crew could lift the light hull and carry it around a waterfall.", "es": "Un barco vikingo necesitaba apenas un metro de agua, y la tripulación podía cargarlo para rodear una cascada del río." },
+      "topic": "vikings",
+      "source": "https://www.vikingeskibsmuseet.dk/en/"
+    },
+    {
+      "id": "history-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "✒️",
+      "q": { "en": "Which letters did the Vikings carve into wood and stone?", "es": "¿Qué letras tallaban los vikingos en la madera y la piedra?" },
+      "choices": [
+        { "en": "Hieroglyphs", "es": "Jeroglíficos" },
+        { "en": "Greek letters", "es": "Letras griegas" },
+        { "en": "Chinese characters", "es": "Caracteres chinos" },
+        { "en": "Runes", "es": "Runas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Runes are built from straight lines because straight cuts are easy to make in wood grain, and carved stones still stand in Sweden.", "es": "Las runas son de líneas rectas porque es más fácil tallarlas en la madera, y en Suecia siguen de pie muchas piedras talladas." },
+      "topic": "vikings",
+      "source": "https://www.historymuseum.ca/vikings/runes/"
+    },
+    {
+      "id": "history-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Where did the Vikings of Iceland meet to agree their laws?", "es": "¿Dónde se reunían los vikingos de Islandia para acordar sus leyes?" },
+      "choices": [
+        { "en": "In a stone palace", "es": "En un palacio de piedra" },
+        { "en": "Inside a cave", "es": "Dentro de una cueva" },
+        { "en": "On an open plain", "es": "En una llanura abierta" },
+        { "en": "On a ship at sea", "es": "En un barco en el mar" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Althing began around the year 930 and still gives Iceland its parliament, one of the oldest anywhere in the world.", "es": "El Althing empezó hacia el año 930 y sigue siendo el parlamento de Islandia, uno de los más antiguos del mundo." },
+      "topic": "vikings",
+      "source": "https://www.thingvellir.is/en/"
+    },
+    {
+      "id": "history-medium-051", "level": "medium", "type": "tf", "lang": "both", "emoji": "⚡",
+      "q": { "en": "The English word Thursday comes from the Norse god named Thor.", "es": "La palabra inglesa Thursday viene del dios nórdico llamado Thor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Norse gods named several English days: Tuesday for Tyr, Wednesday for Odin, Friday for Frigg, and Thursday for thundering Thor.", "es": "Varios días en inglés llevan nombres nórdicos: Tyr, Odín, Frigg y Thor; en español vienen de los planetas romanos." },
+      "topic": "vikings",
+      "source": "https://www.etymonline.com/word/Thursday"
+    },
+    {
+      "id": "history-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which animal carried the heavy loads along the Silk Road?", "es": "¿Qué animal cargaba los bultos pesados por la Ruta de la Seda?" },
+      "choices": [
+        { "en": "The llama", "es": "La llama" },
+        { "en": "The reindeer", "es": "El reno" },
+        { "en": "The water buffalo", "es": "El búfalo de agua" },
+        { "en": "The two-humped camel", "es": "El camello de dos jorobas" }
+      ],
+      "answer": 3,
+      "why": { "en": "A Bactrian camel carries about 200 kilos, smells water from far away, and shuts its nostrils when desert sand blows.", "es": "El camello bactriano carga unos 200 kilos, huele el agua de lejos y cierra la nariz cuando sopla la arena del desierto." },
+      "topic": "silk road",
+      "source": "https://www.nationalgeographic.org/encyclopedia/silk-road/"
+    },
+    {
+      "id": "history-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "📄",
+      "q": { "en": "Which of these travelled to Europe along the Silk Road?", "es": "¿Cuál de estas cosas llegó a Europa por la Ruta de la Seda?" },
+      "choices": [
+        { "en": "Chocolate", "es": "El chocolate" },
+        { "en": "Potatoes", "es": "La papa" },
+        { "en": "Paper making", "es": "La fabricación de papel" },
+        { "en": "Rubber", "es": "El hule" }
+      ],
+      "answer": 2,
+      "why": { "en": "Paper travelled from China through Samarkand, while chocolate, potatoes and rubber arrived from the Americas centuries later by a different route.", "es": "El papel viajó de China por Samarcanda; el chocolate, la papa y el hule llegaron de América siglos después, por otro camino." },
+      "topic": "silk road",
+      "source": "https://www.britishmuseum.org/blog/introduction-silk-roads"
+    },
+    {
+      "id": "history-medium-054", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧵",
+      "q": { "en": "The Silk Road was one paved road running from China to Rome.", "es": "La Ruta de la Seda era un solo camino pavimentado de China a Roma." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "It was a web of dusty tracks and sea lanes, and a German geographer only gave it that name in 1877.", "es": "Era una red de senderos polvorientos y rutas marinas, y un geógrafo alemán le puso ese nombre apenas en 1877." },
+      "topic": "silk road",
+      "source": "https://en.unesco.org/silkroad/about-silk-roads"
+    },
+    {
+      "id": "history-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏰",
+      "q": { "en": "Which part of a castle was its strongest, tallest tower?", "es": "¿Qué parte de un castillo era la torre más fuerte y alta?" },
+      "choices": [
+        { "en": "The keep", "es": "La torre del homenaje" },
+        { "en": "The stable", "es": "El establo" },
+        { "en": "The kitchen", "es": "La cocina" },
+        { "en": "The chapel", "es": "La capilla" }
+      ],
+      "answer": 0,
+      "why": { "en": "Everyone hid in the keep if the outer wall fell, so its walls could be four metres thick with a well inside.", "es": "Todos se refugiaban en ella si caía la muralla, por eso sus muros llegaban a cuatro metros de grosor y tenía pozo." },
+      "topic": "knights and castles",
+      "source": "https://www.english-heritage.org.uk/learn/castles/"
+    },
+    {
+      "id": "history-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚽",
+      "q": { "en": "Where was the toilet in a stone castle usually placed?", "es": "¿Dónde estaba casi siempre el baño en un castillo de piedra?" },
+      "choices": [
+        { "en": "Next to the kitchen", "es": "Junto a la cocina" },
+        { "en": "Under the stairs", "es": "Bajo las escaleras" },
+        { "en": "In the stable", "es": "En el establo" },
+        { "en": "In a small tower over the outer wall", "es": "En una torrecita sobre la muralla" }
+      ],
+      "answer": 3,
+      "why": { "en": "The chute dropped straight down outside, and people hung their clothes in that little room because the smell kept moths away.", "es": "El conducto caía por fuera, y la gente colgaba su ropa en ese cuartito porque el olor espantaba a las polillas." },
+      "topic": "knights and castles",
+      "source": "https://www.english-heritage.org.uk/learn/castles/castle-life/"
+    },
+    {
+      "id": "history-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "Why did a knight paint a bright pattern on his shield?", "es": "¿Por qué un caballero pintaba un dibujo llamativo en su escudo?" },
+      "choices": [
+        { "en": "To make it lighter", "es": "Para hacerlo más ligero" },
+        { "en": "To keep it dry", "es": "Para mantenerlo seco" },
+        { "en": "To make it float", "es": "Para que flotara" },
+        { "en": "To be recognised from far away", "es": "Para que lo reconocieran de lejos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Armour covered a knight's face, so each family chose its own colours and animals, and the rules for those designs are called heraldry.", "es": "La armadura le tapaba la cara, así que cada familia elegía sus colores y animales; esas reglas se llaman heráldica." },
+      "topic": "knights and castles",
+      "source": "https://www.rct.uk/collection/themes/heraldry"
+    },
+    {
+      "id": "history-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "⏲️",
+      "q": { "en": "About how long did the Middle Ages last in Europe?", "es": "¿Cuánto duró más o menos la Edad Media en Europa?" },
+      "choices": [
+        { "en": "About 1000 years", "es": "Unos 1000 años" },
+        { "en": "About 100 years", "es": "Unos 100 años" },
+        { "en": "About 50 years", "es": "Unos 50 años" },
+        { "en": "About 3000 years", "es": "Unos 3000 años" }
+      ],
+      "answer": 0,
+      "why": { "en": "Historians count from about the year 500 to about 1500, which is why the whole stretch is also called the medieval millennium.", "es": "Los historiadores cuentan desde el año 500 hasta cerca de 1500; por eso a esa etapa se le dice también el milenio medieval." },
+      "topic": "knights and castles",
+      "source": "https://www.dkfindout.com/us/history/middle-ages/"
+    },
+    {
+      "id": "history-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "What was the heavy grate that dropped in a castle gateway?", "es": "¿Qué era la reja pesada que caía en la entrada de un castillo?" },
+      "choices": [
+        { "en": "The drawbridge", "es": "El puente levadizo" },
+        { "en": "The banner", "es": "El estandarte" },
+        { "en": "The portcullis", "es": "El rastrillo" },
+        { "en": "The chapel", "es": "La capilla" }
+      ],
+      "answer": 2,
+      "why": { "en": "The portcullis was oak plated with iron and slid down stone grooves, so two people could drop it in seconds.", "es": "El rastrillo era de roble forrado de hierro y bajaba por ranuras de piedra; dos personas lo soltaban en segundos." },
+      "topic": "knights and castles",
+      "source": "https://www.english-heritage.org.uk/learn/castles/parts-of-a-castle/"
+    },
+    {
+      "id": "history-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐴",
+      "q": { "en": "About how much did a knight's full suit of armour weigh?", "es": "¿Cuánto pesaba más o menos la armadura completa de un caballero?" },
+      "choices": [
+        { "en": "About 5 kilos", "es": "Unos 5 kilos" },
+        { "en": "About 100 kilos", "es": "Unos 100 kilos" },
+        { "en": "About 200 kilos", "es": "Unos 200 kilos" },
+        { "en": "About 25 kilos", "es": "Unos 25 kilos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Twenty-five kilos is about the weight of a big dog, and it was spread over the body, so a knight could run and mount alone.", "es": "Veinticinco kilos son como un perro grande, y el peso se repartía por el cuerpo: un caballero podía correr y montar solo." },
+      "topic": "knights and castles",
+      "source": "https://www.metmuseum.org/art/collection/search/24444"
+    },
+    {
+      "id": "history-medium-061", "level": "medium", "type": "tf", "lang": "both", "emoji": "📏",
+      "q": { "en": "A knight's armour was made to measure, just like a suit of clothes.", "es": "La armadura de un caballero se hacía a la medida, como un traje." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Armourers took a knight's measurements and hammered each plate to fit him, so borrowed armour pinched and rubbed at the joints.", "es": "Los armeros tomaban medidas y martillaban cada placa a la forma del cuerpo; una armadura prestada apretaba en las articulaciones." },
+      "topic": "knights and castles",
+      "source": "https://www.royalarmouries.org/stories/armour/"
+    },
+    {
+      "id": "history-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Which general became the first leader of the United States?", "es": "¿Qué general llegó a ser el primer líder de Estados Unidos?" },
+      "choices": [
+        { "en": "George Washington", "es": "George Washington" },
+        { "en": "Benjamin Franklin", "es": "Benjamin Franklin" },
+        { "en": "Thomas Jefferson", "es": "Thomas Jefferson" },
+        { "en": "Simón Bolívar", "es": "Simón Bolívar" }
+      ],
+      "answer": 0,
+      "why": { "en": "Washington stepped down after eight years and went home to his farm, which astonished kings who expected him to rule for life.", "es": "Washington se retiró tras ocho años y volvió a su granja, lo que asombró a los reyes, que esperaban que mandara toda la vida." },
+      "topic": "leaders",
+      "source": "https://www.mountvernon.org/george-washington/"
+    },
+    {
+      "id": "history-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗽",
+      "q": { "en": "Which leader is called the Liberator of South America?", "es": "¿A qué líder le dicen el Libertador de América del Sur?" },
+      "choices": [
+        { "en": "José Martí", "es": "José Martí" },
+        { "en": "Simón Bolívar", "es": "Simón Bolívar" },
+        { "en": "Miguel Hidalgo", "es": "Miguel Hidalgo" },
+        { "en": "Benito Juárez", "es": "Benito Juárez" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bolívar helped free six countries, Bolivia carries his name, and in 1819 he crossed the freezing Andes with his tired soldiers.", "es": "Bolívar ayudó a liberar seis países y Bolivia lleva su nombre; en 1819 cruzó los Andes helados con sus soldados cansados." },
+      "topic": "leaders",
+      "source": "https://www.britannica.com/biography/Simon-Bolivar"
+    },
+    {
+      "id": "history-medium-064", "level": "medium", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "Which Mexican leader was born in a Zapotec village in Oaxaca?", "es": "¿Qué líder mexicano nació en un pueblo zapoteco de Oaxaca?" },
+      "choices": [
+        { "en": "Miguel Hidalgo", "es": "Miguel Hidalgo" },
+        { "en": "José María Morelos", "es": "José María Morelos" },
+        { "en": "Benito Juárez", "es": "Benito Juárez" },
+        { "en": "Emiliano Zapata", "es": "Emiliano Zapata" }
+      ],
+      "answer": 2,
+      "why": { "en": "Juárez spoke only Zapotec until he was twelve, later studied law, and left a famous line about respecting other people's rights.", "es": "Juárez solo hablaba zapoteco hasta los doce años, después estudió leyes y dejó una frase famosa sobre respetar el derecho ajeno." },
+      "topic": "leaders",
+      "source": "https://www.gob.mx/cultura/articulos/benito-juarez"
+    },
+    {
+      "id": "history-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔔",
+      "q": { "en": "Which priest rang a church bell in 1810 to call Mexicans together?", "es": "¿Qué sacerdote tocó la campana en 1810 para llamar a los mexicanos?" },
+      "choices": [
+        { "en": "Benito Juárez", "es": "Benito Juárez" },
+        { "en": "Vicente Guerrero", "es": "Vicente Guerrero" },
+        { "en": "Agustín de Iturbide", "es": "Agustín de Iturbide" },
+        { "en": "Miguel Hidalgo", "es": "Miguel Hidalgo" }
+      ],
+      "answer": 3,
+      "why": { "en": "That call is known as the Grito de Dolores, and Mexico remembers it on the night of the fifteenth of September.", "es": "Ese llamado se conoce como el Grito de Dolores, y México lo recuerda la noche del quince de septiembre." },
+      "topic": "leaders",
+      "source": "https://www.gob.mx/cultura/articulos/el-grito-de-dolores"
+    },
+    {
+      "id": "history-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪟",
+      "q": { "en": "What job woke workers up before alarm clocks were common?", "es": "¿Qué oficio despertaba a los trabajadores antes de que hubiera despertadores?" },
+      "choices": [
+        { "en": "A knocker-upper with a long pole", "es": "Un despertador humano con una vara larga" },
+        { "en": "A milk seller", "es": "Un vendedor de leche" },
+        { "en": "A night baker", "es": "Un panadero de noche" },
+        { "en": "A street sweeper", "es": "Un barrendero" }
+      ],
+      "answer": 0,
+      "why": { "en": "The knocker-upper tapped bedroom windows with a pole or shot dried peas at the glass, and was paid a few coins weekly.", "es": "Golpeaba las ventanas de las recámaras con una vara o lanzaba chícharos secos al vidrio, y cobraba unas monedas por semana." },
+      "topic": "old jobs",
+      "source": "https://www.bbc.co.uk/news/uk-england-35840393"
+    },
+    {
+      "id": "history-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏮",
+      "q": { "en": "Whose job was it to light the street lamps each evening?", "es": "¿De quién era el trabajo de encender las farolas cada tarde?" },
+      "choices": [
+        { "en": "The lamplighter", "es": "El farolero" },
+        { "en": "The blacksmith", "es": "El herrero" },
+        { "en": "The cooper", "es": "El tonelero" },
+        { "en": "The town crier", "es": "El pregonero" }
+      ],
+      "answer": 0,
+      "why": { "en": "A lamplighter walked a set route with a ladder and a flame, lighting gas lamps at dusk and putting them out at dawn.", "es": "El farolero recorría su ruta con escalera y llama, prendía las lámparas de gas al anochecer y las apagaba al amanecer." },
+      "topic": "old jobs",
+      "source": "https://www.museumoflondon.org.uk/discover/gas-lamps-london"
+    },
+    {
+      "id": "history-medium-068", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "What did a worker called a cooper make out of wood?", "es": "¿Qué hacía de madera un trabajador llamado tonelero?" },
+      "choices": [
+        { "en": "Shoes", "es": "Zapatos" },
+        { "en": "Hats", "es": "Sombreros" },
+        { "en": "Barrels", "es": "Barriles" },
+        { "en": "Candles", "es": "Velas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Coopers bent oak staves and held them with iron hoops, so a good barrel carried water for months without any glue.", "es": "Los toneleros doblaban duelas de roble y las sujetaban con aros de hierro; un buen barril aguantaba el agua sin pegamento." },
+      "topic": "old jobs",
+      "source": "https://www.colonialwilliamsburg.org/learn/trades/cooper/"
+    },
+    {
+      "id": "history-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What did a water clock use to show the passing hours?", "es": "¿Qué usaba un reloj de agua para marcar las horas?" },
+      "choices": [
+        { "en": "A swinging rope", "es": "Una cuerda que se mece" },
+        { "en": "Burning coal", "es": "Carbón encendido" },
+        { "en": "Falling sand", "es": "Arena que cae" },
+        { "en": "Water dripping at a steady rate", "es": "Agua que gotea a ritmo parejo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Egyptians and Greeks liked them because, unlike a sundial, a water clock still worked at night and on cloudy days.", "es": "Egipcios y griegos los usaban porque, a diferencia del reloj de sol, el de agua servía de noche y en días nublados." },
+      "topic": "telling time",
+      "source": "https://www.rmg.co.uk/stories/topics/how-did-people-tell-time"
+    },
+    {
+      "id": "history-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "What made clocks far more exact in the 1600s?", "es": "¿Qué hizo mucho más exactos los relojes en el siglo XVII?" },
+      "choices": [
+        { "en": "A bigger bell", "es": "Una campana más grande" },
+        { "en": "A swinging pendulum", "es": "Un péndulo que oscila" },
+        { "en": "A glass face", "es": "Una carátula de vidrio" },
+        { "en": "A longer chain", "es": "Una cadena más larga" }
+      ],
+      "answer": 1,
+      "why": { "en": "Christiaan Huygens built the first pendulum clock in 1656 and cut a clock's daily mistake from fifteen minutes to fifteen seconds.", "es": "Christiaan Huygens hizo el primer reloj de péndulo en 1656 y bajó el error diario de quince minutos a quince segundos." },
+      "topic": "telling time",
+      "source": "https://www.rmg.co.uk/stories/topics/pendulum-clock-huygens"
+    },
+    {
+      "id": "history-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "⌛",
+      "q": { "en": "What did sailors turn every half hour to measure their watch?", "es": "¿Qué volteaban los marineros cada media hora para medir su guardia?" },
+      "choices": [
+        { "en": "A bucket of water", "es": "Una cubeta de agua" },
+        { "en": "A brass bell", "es": "Una campana de bronce" },
+        { "en": "An hourglass of sand", "es": "Un reloj de arena" },
+        { "en": "A paper chart", "es": "Una carta de papel" }
+      ],
+      "answer": 2,
+      "why": { "en": "A ship's boy turned the glass and rang the bell, which is why sailors still count their time in bells and watches.", "es": "Un grumete volteaba el reloj y tocaba la campana; por eso en los barcos el tiempo se cuenta en campanadas y guardias." },
+      "topic": "telling time",
+      "source": "https://www.rmg.co.uk/collections/objects/sand-glass"
     }
   ]
 }

@@ -2282,6 +2282,446 @@
       "why": { "en": "Plastic is built from long chains no microbe knows how to eat, so it mostly crumbles into tiny pieces instead of rotting.", "es": "El plástico está hecho de cadenas largas que ningún microbio sabe comer, así que se rompe en pedacitos en vez de pudrirse." },
       "topic": "recycling",
       "source": "https://kids.nationalgeographic.com/nature/article/plastic-pollution"
+    },
+    {
+      "id": "science-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "What is the green color inside a leaf that catches sunlight called?", "es": "¿Cómo se llama el color verde de la hoja que atrapa la luz?" },
+      "choices": [
+        { "en": "Chlorophyll", "es": "La clorofila" },
+        { "en": "Carotene", "es": "El caroteno" },
+        { "en": "Cellulose", "es": "La celulosa" },
+        { "en": "Starch", "es": "El almidón" }
+      ],
+      "answer": 0,
+      "why": { "en": "Chlorophyll soaks up red and blue light and bounces green back at your eyes, so leaves look green to us.", "es": "La clorofila absorbe la luz roja y azul y refleja la verde hacia tus ojos, por eso las hojas se ven verdes." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/kids/article/photosynthesis/353275"
+    },
+    {
+      "id": "science-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Leaves breathe through tiny holes. What are those holes called?", "es": "Las hojas respiran por agujeros diminutos. ¿Cómo se llaman esos agujeros?" },
+      "choices": [
+        { "en": "Cuticles", "es": "Cutículas" },
+        { "en": "Stomata", "es": "Estomas" },
+        { "en": "Tendrils", "es": "Zarcillos" },
+        { "en": "Sepals", "es": "Sépalos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Two curved guard cells open and shut each stoma, and most plants close them at midday so they lose less water.", "es": "Dos células guardianas curvas abren y cierran cada estoma, y muchas plantas los cierran al mediodía para perder menos agua." },
+      "topic": "plants",
+      "source": "https://www.sciencelearn.org.nz/resources/1698-leaves-and-photosynthesis"
+    },
+    {
+      "id": "science-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What food does a plant build from sunlight, water and air?", "es": "¿Qué alimento fabrica una planta con luz del sol, agua y aire?" },
+      "choices": [
+        { "en": "Protein", "es": "Proteína" },
+        { "en": "Vitamins", "es": "Vitaminas" },
+        { "en": "Sugar", "es": "Azúcar" },
+        { "en": "Salt", "es": "Sal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Plants stash extra sugar as starch; drop iodine on a potato slice at home and the starch turns blue-black.", "es": "Las plantas guardan el azúcar extra como almidón; pon una gota de yodo en una papa y verás un azul muy oscuro." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/students/article/photosynthesis/276282"
+    },
+    {
+      "id": "science-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "A tree grows huge and heavy. Where does most of that material come from?", "es": "Un árbol crece enorme y pesado. ¿De dónde viene la mayor parte de ese material?" },
+      "choices": [
+        { "en": "From minerals in the soil", "es": "De los minerales del suelo" },
+        { "en": "From rainwater", "es": "Del agua de lluvia" },
+        { "en": "From sunlight itself", "es": "De la propia luz del sol" },
+        { "en": "From carbon dioxide in the air", "es": "Del dióxido de carbono del aire" }
+      ],
+      "answer": 3,
+      "why": { "en": "Wood is mostly carbon that the leaves pulled out of thin air; a growing forest is the sky turned into trunks.", "es": "La madera es sobre todo carbono que las hojas sacaron del aire; un bosque que crece es cielo convertido en troncos." },
+      "topic": "plants",
+      "source": "https://www.britannica.com/science/tree/Tree-structure-and-growth"
+    },
+    {
+      "id": "science-medium-073", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌻",
+      "q": { "en": "Plants make their own food and also breathe in oxygen day and night.", "es": "Las plantas fabrican su propio alimento y también respiran oxígeno de día y de noche." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: plants burn sugar for energy the way you do, so they take in oxygen all day and all night too.", "es": "Cierto: las plantas queman azúcar para obtener energía igual que tú, así que toman oxígeno de día y también de noche." },
+      "topic": "plants",
+      "source": "https://kids.britannica.com/students/article/respiration/277190"
+    },
+    {
+      "id": "science-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "Which three things does a bean seed need before it will sprout?", "es": "¿Qué tres cosas necesita una semilla de frijol antes de brotar?" },
+      "choices": [
+        { "en": "Water, warmth and air", "es": "Agua, calor y aire" },
+        { "en": "Soil, sunlight and wind", "es": "Tierra, luz del sol y viento" },
+        { "en": "Sugar, salt and ice", "es": "Azúcar, sal y hielo" },
+        { "en": "Rain, rocks and shade", "es": "Lluvia, piedras y sombra" }
+      ],
+      "answer": 0,
+      "why": { "en": "A seed packs its own lunch inside, so it sprouts on a damp paper towel in a dark cupboard with no soil.", "es": "La semilla lleva su propia comida adentro, por eso brota sobre una servilleta húmeda dentro de un cajón oscuro, sin tierra." },
+      "topic": "seeds and germination",
+      "source": "https://www.rhs.org.uk/propagation/seed-sowing"
+    },
+    {
+      "id": "science-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What is the first part to push out of a sprouting seed?", "es": "¿Cuál es la primera parte que sale de una semilla que brota?" },
+      "choices": [
+        { "en": "The first leaf", "es": "La primera hoja" },
+        { "en": "The root", "es": "La raíz" },
+        { "en": "The stem", "es": "El tallo" },
+        { "en": "The flower", "es": "La flor" }
+      ],
+      "answer": 1,
+      "why": { "en": "The root heads down first to find water, and it feels which way is down: turn a sprouted bean and it curves back.", "es": "La raíz baja a buscar agua y siente dónde está abajo: gira un frijol brotado y la raíz se curvará de nuevo." },
+      "topic": "seeds and germination",
+      "source": "https://www.kew.org/read-and-watch/how-seeds-germinate"
+    },
+    {
+      "id": "science-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥜",
+      "q": { "en": "What do we call the food packed inside a bean seed?", "es": "¿Cómo se llama el alimento guardado dentro de una semilla de frijol?" },
+      "choices": [
+        { "en": "The nectar", "es": "El néctar" },
+        { "en": "The pollen", "es": "El polen" },
+        { "en": "The cotyledon", "es": "El cotiledón" },
+        { "en": "The sepal", "es": "El sépalo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The two halves of a peanut are cotyledons; they shrink away once the young leaves start making sugar on their own.", "es": "Las dos mitades de un cacahuate son cotiledones; se encogen cuando las hojas nuevas empiezan a fabricar azúcar por su cuenta." },
+      "topic": "seeds and germination",
+      "source": "https://kids.britannica.com/students/article/seed/277272"
+    },
+    {
+      "id": "science-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "Some pine cones stay glued shut until which event opens them?", "es": "¿Qué evento abre los conos de pino que permanecen pegados y cerrados?" },
+      "choices": [
+        { "en": "A heavy snowfall", "es": "Una fuerte nevada" },
+        { "en": "A flood", "es": "Una inundación" },
+        { "en": "A windy night", "es": "Una noche de viento" },
+        { "en": "A forest fire", "es": "Un incendio forestal" }
+      ],
+      "answer": 3,
+      "why": { "en": "Resin seals those cones until heat near 50 °C, 122 °F melts it, dropping seeds onto cleared ground full of ash.", "es": "La resina sella esos conos hasta que el calor de unos 50 °C, 122 °F la derrite y las semillas caen sobre ceniza." },
+      "topic": "seeds and germination",
+      "source": "https://www.nps.gov/articles/000/fire-adapted-plants.htm"
+    },
+    {
+      "id": "science-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥒",
+      "q": { "en": "Yogurt, pickles and sauerkraut all keep longer because of which process?", "es": "¿Qué proceso hace que el yogur y los pepinillos duren más tiempo?" },
+      "choices": [
+        { "en": "Fermentation", "es": "La fermentación" },
+        { "en": "Evaporation", "es": "La evaporación" },
+        { "en": "Germination", "es": "La germinación" },
+        { "en": "Condensation", "es": "La condensación" }
+      ],
+      "answer": 0,
+      "why": { "en": "Friendly microbes turn sugars into acid, and that sourness keeps spoilage microbes out, which is why pickles last for months.", "es": "Unos microbios amistosos convierten el azúcar en ácido, y ese sabor agrio mantiene fuera a los microbios que echan a perder la comida." },
+      "topic": "microbes",
+      "source": "https://www.sciencelearn.org.nz/resources/1839-fermentation"
+    },
+    {
+      "id": "science-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "A blue-green mold on a dish led to which famous medicine?", "es": "¿Qué medicina famosa surgió de un moho azul verdoso en un plato?" },
+      "choices": [
+        { "en": "Aspirin", "es": "La aspirina" },
+        { "en": "Penicillin", "es": "La penicilina" },
+        { "en": "Insulin", "es": "La insulina" },
+        { "en": "Vitamin C", "es": "La vitamina C" }
+      ],
+      "answer": 1,
+      "why": { "en": "In 1928 Alexander Fleming noticed bacteria dying around a mold he had left out, and that mold is a cousin of bread mold.", "es": "En 1928 Alexander Fleming vio que las bacterias morían alrededor de un moho olvidado, pariente del moho verde del pan viejo." },
+      "topic": "microbes",
+      "source": "https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/"
+    },
+    {
+      "id": "science-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Milk is heated then cooled fast to kill germs. What is that called?", "es": "La leche se calienta y se enfría rápido para matar gérmenes. ¿Cómo se llama eso?" },
+      "choices": [
+        { "en": "Filtration", "es": "La filtración" },
+        { "en": "Refrigeration", "es": "La refrigeración" },
+        { "en": "Pasteurization", "es": "La pasteurización" },
+        { "en": "Fermentation", "es": "La fermentación" }
+      ],
+      "answer": 2,
+      "why": { "en": "Louis Pasteur found that about 72 °C, 162 °F for fifteen seconds kills most microbes while leaving the taste alone.", "es": "Louis Pasteur descubrió que unos 72 °C, 162 °F durante quince segundos matan casi todos los microbios sin cambiar el sabor." },
+      "topic": "microbes",
+      "source": "https://www.britannica.com/technology/pasteurization"
+    },
+    {
+      "id": "science-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Cacao beans must ferment for days before they can become which treat?", "es": "¿Qué golosina necesita que los granos de cacao fermenten durante varios días?" },
+      "choices": [
+        { "en": "Cheese", "es": "El queso" },
+        { "en": "Bread", "es": "El pan" },
+        { "en": "Tea", "es": "El té" },
+        { "en": "Chocolate", "es": "El chocolate" }
+      ],
+      "answer": 3,
+      "why": { "en": "Fresh cacao seeds taste bitter and pale; a week fermenting in banana leaves builds the flavor before drying and roasting.", "es": "Los granos frescos de cacao son pálidos y amargos; una semana fermentando entre hojas de plátano crea el sabor antes de tostarlos." },
+      "topic": "microbes",
+      "source": "https://www.britannica.com/topic/cocoa"
+    },
+    {
+      "id": "science-medium-082", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦠",
+      "q": { "en": "Most bacteria living on and inside your body make you sick.", "es": "La mayoría de las bacterias que viven en tu cuerpo te enferman." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: most are harmless helpers. Gut bacteria make vitamin K and break down fibre your own stomach could never handle.", "es": "Falso: casi todas son inofensivas o útiles. Las del intestino fabrican vitamina K y digieren fibra que tu estómago solo no puede." },
+      "topic": "microbes",
+      "source": "https://www.britannica.com/science/human-microbiome"
+    },
+    {
+      "id": "science-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪟",
+      "q": { "en": "Which everyday material is made by melting sand in a hot furnace?", "es": "¿Qué material de uso diario se hace derritiendo arena en un horno caliente?" },
+      "choices": [
+        { "en": "Glass", "es": "El vidrio" },
+        { "en": "Plastic", "es": "El plástico" },
+        { "en": "Rubber", "es": "El caucho" },
+        { "en": "Paper", "es": "El papel" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sand melts near 1700 °C, 3092 °F, and glass cools without forming crystals, so it stays clear and can be blown into shapes.", "es": "La arena se derrite cerca de 1700 °C, 3092 °F y el vidrio se enfría sin formar cristales, por eso queda transparente." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/technology/glass"
+    },
+    {
+      "id": "science-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "What happens to soft clay inside a very hot kiln?", "es": "¿Qué le pasa a la arcilla blanda dentro de un horno muy caliente?" },
+      "choices": [
+        { "en": "It dries out and stays soft", "es": "Se seca y sigue blanda" },
+        { "en": "Its grains fuse into hard ceramic", "es": "Sus granos se funden en cerámica dura" },
+        { "en": "It turns back into loose mud", "es": "Vuelve a ser lodo suelto" },
+        { "en": "It melts into a puddle", "es": "Se derrite en un charco" }
+      ],
+      "answer": 1,
+      "why": { "en": "Above about 1000 °C, 1832 °F the particles partly melt and lock together, so a fired pot will never soften in water again.", "es": "Sobre unos 1000 °C, 1832 °F las partículas se funden un poco y se traban, por eso una olla cocida ya no se ablanda." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/art/pottery"
+    },
+    {
+      "id": "science-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔔",
+      "q": { "en": "Bronze is made by mixing copper with which other metal?", "es": "¿Con qué otro metal se mezcla el cobre para hacer bronce?" },
+      "choices": [
+        { "en": "Silver", "es": "La plata" },
+        { "en": "Iron", "es": "El hierro" },
+        { "en": "Tin", "es": "El estaño" },
+        { "en": "Gold", "es": "El oro" }
+      ],
+      "answer": 2,
+      "why": { "en": "A mix of metals is an alloy, and bronze is harder than either metal alone, which is why it named a whole age.", "es": "La mezcla de metales se llama aleación; el bronce es más duro que el cobre solo y por eso dio nombre a una edad." },
+      "topic": "materials",
+      "source": "https://kids.britannica.com/students/article/bronze/272791"
+    },
+    {
+      "id": "science-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏀",
+      "q": { "en": "Natural rubber leaves the tree as which kind of substance?", "es": "¿En qué forma sale del árbol el caucho natural?" },
+      "choices": [
+        { "en": "A yellow resin", "es": "Una resina amarilla" },
+        { "en": "A clear oil", "es": "Un aceite transparente" },
+        { "en": "A white powder", "es": "Un polvo blanco" },
+        { "en": "A milky sap", "es": "Una savia lechosa" }
+      ],
+      "answer": 3,
+      "why": { "en": "That sap is latex, and people in ancient Mesoamerica mixed it with vine juice to make bouncing balls long before modern factories.", "es": "Esa savia se llama látex, y en Mesoamérica la mezclaban con jugo de una enredadera para hacer pelotas que rebotaban." },
+      "topic": "materials",
+      "source": "https://www.britannica.com/science/latex-plant-fluid"
+    },
+    {
+      "id": "science-medium-087", "level": "medium", "type": "tf", "lang": "both", "emoji": "💎",
+      "q": { "en": "Diamond and the gray core of a pencil are the same element.", "es": "El diamante y la mina gris del lápiz son el mismo elemento." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: both are pure carbon. In graphite the atoms lie in slippery sheets that rub off, while in diamond they form a rigid cage.", "es": "Cierto: ambos son carbono puro. En el grafito los átomos forman láminas resbalosas que se desprenden; en el diamante, una jaula rígida." },
+      "topic": "materials",
+      "source": "https://www.rsc.org/periodic-table/element/6/carbon"
+    },
+    {
+      "id": "science-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Before electric fridges, what did families keep in an icebox to chill food?", "es": "¿Qué guardaban las familias dentro de una nevera de hielo antes de los refrigeradores eléctricos?" },
+      "choices": [
+        { "en": "A block of ice", "es": "Un bloque de hielo" },
+        { "en": "A bowl of salt", "es": "Un tazón de sal" },
+        { "en": "A bag of sand", "es": "Una bolsa de arena" },
+        { "en": "A jug of vinegar", "es": "Una jarra de vinagre" }
+      ],
+      "answer": 0,
+      "why": { "en": "Workers sawed ice from frozen lakes in winter, packed it in sawdust, and shipped it so it lasted through summer.", "es": "En invierno cortaban hielo de los lagos congelados, lo empacaban en aserrín y lo enviaban lejos para que durara todo el verano." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/refrigeration"
+    },
+    {
+      "id": "science-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "Braille lets people read by touch using patterns of what?", "es": "¿Qué patrones usa el braille para que se pueda leer con el tacto?" },
+      "choices": [
+        { "en": "Carved letters", "es": "Letras talladas" },
+        { "en": "Raised dots", "es": "Puntos en relieve" },
+        { "en": "Small holes", "es": "Agujeros pequeños" },
+        { "en": "Wavy lines", "es": "Líneas onduladas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each braille cell holds six dot positions, giving 64 patterns, enough for letters, numbers, music and math in many languages.", "es": "Cada celda de braille tiene seis posiciones de puntos, o sea 64 patrones, suficientes para letras, números, música y matemáticas." },
+      "topic": "inventions",
+      "source": "https://www.afb.org/blindness-and-low-vision/braille"
+    },
+    {
+      "id": "science-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖨️",
+      "q": { "en": "How does a 3D printer build a solid object?", "es": "¿Cómo construye un objeto sólido una impresora 3D?" },
+      "choices": [
+        { "en": "By carving a block away", "es": "Tallando un bloque" },
+        { "en": "By pouring liquid into a mold", "es": "Vertiendo líquido en un molde" },
+        { "en": "By stacking thin layers", "es": "Apilando capas delgadas" },
+        { "en": "By pressing sheets together", "es": "Prensando láminas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Building up instead of cutting away is called additive manufacturing, and it wastes almost nothing; printers have even made bridges and houses.", "es": "Construir en vez de cortar se llama fabricación aditiva y casi no desperdicia material; ya se han impreso puentes y casas." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/3D-printing"
+    },
+    {
+      "id": "science-medium-091", "level": "medium", "type": "tf", "lang": "both", "emoji": "🍿",
+      "q": { "en": "The microwave oven was planned from the start as a kitchen invention.", "es": "El horno de microondas se planeó desde el inicio como un invento de cocina." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "False: an engineer testing radar equipment found the chocolate in his pocket had melted, and popcorn was the first food tried on purpose.", "es": "Falso: un ingeniero que probaba equipos de radar notó que el chocolate de su bolsillo se derritió; las primeras palomitas fueron a propósito." },
+      "topic": "inventions",
+      "source": "https://www.britannica.com/technology/microwave-oven"
+    },
+    {
+      "id": "science-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "📺",
+      "q": { "en": "Mexican inventor Guillermo González Camarena built an early version of what?", "es": "¿De qué creó una versión temprana el inventor mexicano Guillermo González Camarena?" },
+      "choices": [
+        { "en": "The telephone", "es": "El teléfono" },
+        { "en": "The refrigerator", "es": "El refrigerador" },
+        { "en": "The radio", "es": "El radio" },
+        { "en": "Color television", "es": "La televisión a color" }
+      ],
+      "answer": 3,
+      "why": { "en": "He patented a color television system in 1940, when he was in his early twenties, and Mexico broadcast in color soon after.", "es": "Patentó un sistema de televisión a color en 1940, cuando tenía poco más de veinte años, y México transmitió a color poco después." },
+      "topic": "latin american science",
+      "source": "https://www.britannica.com/biography/Guillermo-Gonzalez-Camarena"
+    },
+    {
+      "id": "science-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "Mexican chemist Mario Molina won a Nobel Prize for warning about what?", "es": "¿Sobre qué advirtió el químico mexicano Mario Molina para ganar un Nobel?" },
+      "choices": [
+        { "en": "Gases that thin the ozone layer", "es": "Gases que adelgazan la capa de ozono" },
+        { "en": "Germs in drinking water", "es": "Gérmenes en el agua potable" },
+        { "en": "Salt in ocean currents", "es": "Sal en las corrientes del océano" },
+        { "en": "Sand blowing across deserts", "es": "Arena que cruza los desiertos" }
+      ],
+      "answer": 0,
+      "why": { "en": "His 1974 work showed spray-can gases break ozone apart, and countries agreed to stop using them, so the layer is slowly mending.", "es": "Su trabajo de 1974 mostró que los gases de aerosol rompen el ozono; los países dejaron de usarlos y la capa se repara." },
+      "topic": "latin american science",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1995/molina/facts/"
+    },
+    {
+      "id": "science-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Costa Rican scientist Franklin Chang Díaz designs which kind of rocket engine?", "es": "¿Qué tipo de motor de cohete diseña el científico costarricense Franklin Chang Díaz?" },
+      "choices": [
+        { "en": "A solid fuel engine", "es": "Un motor de combustible sólido" },
+        { "en": "A plasma engine", "es": "Un motor de plasma" },
+        { "en": "A steam engine", "es": "Un motor de vapor" },
+        { "en": "A jet engine", "es": "Un motor a reacción" }
+      ],
+      "answer": 1,
+      "why": { "en": "Plasma is gas heated until it glows and answers to magnets; such engines push gently for months instead of roaring for minutes.", "es": "El plasma es gas tan caliente que brilla y obedece a los imanes; esos motores empujan suave durante meses, no segundos." },
+      "topic": "latin american science",
+      "source": "https://www.nasa.gov/people/franklin-chang-diaz/"
+    },
+    {
+      "id": "science-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦟",
+      "q": { "en": "Colombian scientist Manuel Elkin Patarroyo made an early vaccine against which illness?", "es": "¿Contra qué enfermedad hizo una vacuna temprana el científico colombiano Manuel Elkin Patarroyo?" },
+      "choices": [
+        { "en": "Measles", "es": "El sarampión" },
+        { "en": "Chickenpox", "es": "La varicela" },
+        { "en": "Malaria", "es": "La malaria" },
+        { "en": "Flu", "es": "La gripe" }
+      ],
+      "answer": 2,
+      "why": { "en": "Malaria spreads by mosquito bite. He handed his patent to the World Health Organization for free so poorer countries could use it.", "es": "La malaria se contagia por la picadura de un mosquito. Él donó su patente a la Organización Mundial de la Salud." },
+      "topic": "latin american science",
+      "source": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    },
+    {
+      "id": "science-medium-096", "level": "medium", "type": "mc", "lang": "both", "emoji": "📢",
+      "q": { "en": "Mexico City sirens can warn people seconds before which event arrives?", "es": "¿Qué evento anuncian las alarmas de la Ciudad de México segundos antes?" },
+      "choices": [
+        { "en": "A rainstorm", "es": "Una tormenta de lluvia" },
+        { "en": "A power cut", "es": "Un apagón" },
+        { "en": "A high tide", "es": "Una marea alta" },
+        { "en": "An earthquake", "es": "Un temblor" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sensors near the coast catch the quick first wave and radio ahead, buying up to a minute before the slower shaking arrives.", "es": "Unos sensores en la costa detectan la primera onda rápida y avisan por radio, dando hasta un minuto antes del movimiento fuerte." },
+      "topic": "latin american science",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-early-warning"
+    },
+    {
+      "id": "science-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "Which of these belongs at a special drop-off instead of the recycling bin?", "es": "¿Cuál de estas cosas se lleva a un punto especial en vez del bote de reciclaje?" },
+      "choices": [
+        { "en": "Cardboard boxes", "es": "Cajas de cartón" },
+        { "en": "Glass jars", "es": "Frascos de vidrio" },
+        { "en": "Old batteries", "es": "Pilas usadas" },
+        { "en": "Aluminum cans", "es": "Latas de aluminio" }
+      ],
+      "answer": 2,
+      "why": { "en": "Batteries can spark and start fires inside collection trucks, so schools and shops keep a separate box for them.", "es": "Las pilas pueden chispear y provocar incendios dentro de los camiones de basura, por eso las escuelas y tiendas tienen cajas aparte." },
+      "topic": "recycling",
+      "source": "https://www.epa.gov/recycle/used-household-batteries"
+    },
+    {
+      "id": "science-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "♻️",
+      "q": { "en": "Clear plastic bottles are often recycled into which surprising thing?", "es": "¿En qué cosa sorprendente se reciclan muchas botellas de plástico transparente?" },
+      "choices": [
+        { "en": "New glass jars", "es": "Frascos de vidrio nuevos" },
+        { "en": "Paper towels", "es": "Toallas de papel" },
+        { "en": "Car tires", "es": "Llantas de carro" },
+        { "en": "Cloth for jackets", "es": "Tela para chaquetas" }
+      ],
+      "answer": 3,
+      "why": { "en": "The plastic is melted and pulled into thread; about ten bottles make enough polyester for one shirt, and fleece uses more.", "es": "El plástico se derrite y se estira en hilo; unas diez botellas dan poliéster para una camiseta, y un suéter necesita más." },
+      "topic": "recycling",
+      "source": "https://www.epa.gov/recycle/frequent-questions-recycling"
+    },
+    {
+      "id": "science-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "Which part gives a plant cell its stiff, boxy shape?", "es": "¿Qué parte le da a la célula vegetal su forma rígida y cuadrada?" },
+      "choices": [
+        { "en": "The nucleus", "es": "El núcleo" },
+        { "en": "The membrane", "es": "La membrana" },
+        { "en": "The cell wall", "es": "La pared celular" },
+        { "en": "The chloroplast", "es": "El cloroplasto" }
+      ],
+      "answer": 2,
+      "why": { "en": "The wall is built of cellulose; animal cells have none, which is why celery snaps and meat flops. Limp celery crisps up in water.", "es": "La pared es de celulosa; las células animales no la tienen. Un apio marchito vuelve a ponerse crujiente si lo dejas en agua." },
+      "topic": "cells",
+      "source": "https://kids.britannica.com/students/article/cell/273062"
+    },
+    {
+      "id": "science-medium-100", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "Robert Hooke peered at cork through a microscope and named which thing?", "es": "¿Qué nombró Robert Hooke al mirar corcho con un microscopio?" },
+      "choices": [
+        { "en": "Germs", "es": "Los gérmenes" },
+        { "en": "Atoms", "es": "Los átomos" },
+        { "en": "Crystals", "es": "Los cristales" },
+        { "en": "Cells", "es": "Las células" }
+      ],
+      "answer": 3,
+      "why": { "en": "The tiny empty boxes reminded him of the small rooms monks slept in, called cells, so the name stuck from 1665 onward.", "es": "Las cajitas vacías le recordaron los cuartos pequeños donde dormían los monjes, llamados celdas, y desde 1665 el nombre se quedó." },
+      "topic": "cells",
+      "source": "https://www.britannica.com/biography/Robert-Hooke"
     }
   ]
 }

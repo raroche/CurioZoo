@@ -1384,6 +1384,900 @@
       "why": { "en": "Braille uses up to six raised dots for each letter, and it was invented by a blind teenager in France.", "es": "El braille usa hasta seis puntitos en relieve por letra, y lo inventó un joven ciego en Francia hace mucho tiempo." },
       "topic": "writing around the world",
       "source": "https://kids.britannica.com/kids/article/Braille/352944"
+    },
+    {
+      "id": "cultures-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "💬",
+      "q": { "en": "Which language is used in the schools and government of Nigeria?", "es": "¿Qué idioma se usa en las escuelas y el gobierno de Nigeria?" },
+      "choices": [
+        { "en": "English", "es": "Inglés" },
+        { "en": "French", "es": "Francés" },
+        { "en": "Portuguese", "es": "Portugués" },
+        { "en": "Arabic", "es": "Árabe" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nigeria has more than 500 languages, so English works as a shared language that lets people from different regions understand each other.", "es": "Nigeria tiene más de 500 idiomas, así que el inglés funciona como lengua común para que gente de distintas regiones se entienda." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/Nigeria/345826"
+    },
+    {
+      "id": "cultures-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "📜",
+      "q": { "en": "How many languages does India list as official in its constitution?", "es": "¿Cuántos idiomas reconoce como oficiales la constitución de India?" },
+      "choices": [
+        { "en": "40", "es": "40" },
+        { "en": "22", "es": "22" },
+        { "en": "2", "es": "2" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 1,
+      "why": { "en": "India's constitution lists 22 languages, and its bank notes print the amount in many of them so everyone can read it.", "es": "La constitución de India reconoce 22 idiomas, y sus billetes imprimen la cantidad en varios de ellos para que todos puedan leerla." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/India/353159"
+    },
+    {
+      "id": "cultures-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "How many languages does Switzerland use as national languages?", "es": "¿Cuántos idiomas nacionales usa Suiza?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "One", "es": "Uno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Switzerland has German, French, Italian and Romansh, and its coins use Latin so no single language sits above the others.", "es": "Suiza tiene alemán, francés, italiano y romanche, y sus monedas usan latín para que ningún idioma quede por encima de otro." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/Switzerland/345956"
+    },
+    {
+      "id": "cultures-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "In Egypt, which language do people speak at home and at school?", "es": "¿Qué idioma hablan en Egipto en la casa y en la escuela?" },
+      "choices": [
+        { "en": "Turkish", "es": "Turco" },
+        { "en": "Persian", "es": "Persa" },
+        { "en": "Swahili", "es": "Suajili" },
+        { "en": "Arabic", "es": "Árabe" }
+      ],
+      "answer": 3,
+      "why": { "en": "Arabic is the language of Egypt and much of North Africa, and its letters change shape depending on where they sit in a word.", "es": "El árabe es la lengua de Egipto y del norte de África, y sus letras cambian de forma según su lugar en la palabra." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/Egypt/345333"
+    },
+    {
+      "id": "cultures-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Spanish is an official language of about how many countries?", "es": "¿En cuántos países es oficial el español, más o menos?" },
+      "choices": [
+        { "en": "About 21", "es": "Unos 21" },
+        { "en": "About 4", "es": "Unos 4" },
+        { "en": "About 9", "es": "Unos 9" },
+        { "en": "About 45", "es": "Unos 45" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spanish is official in 21 countries across Europe, the Americas and Africa, including Equatorial Guinea, the only Spanish-speaking country in Africa.", "es": "El español es oficial en 21 países de Europa, América y África, entre ellos Guinea Ecuatorial, el único país africano que lo habla." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/topic/Spanish-language"
+    },
+    {
+      "id": "cultures-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "In which Canadian province do most people speak French?", "es": "¿En qué provincia de Canadá habla francés la mayoría de la gente?" },
+      "choices": [
+        { "en": "Manitoba", "es": "Manitoba" },
+        { "en": "Quebec", "es": "Quebec" },
+        { "en": "Ontario", "es": "Ontario" },
+        { "en": "Alberta", "es": "Alberta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Quebec was settled by French colonists, so French is its official language and its road signs and school lessons are in French.", "es": "Quebec fue colonizado por franceses, por eso el francés es su idioma oficial y sus letreros y clases escolares están en francés." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/Quebec/353751"
+    },
+    {
+      "id": "cultures-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "Which language of the Philippines borrowed many Spanish words?", "es": "¿Qué idioma de las Filipinas tomó prestadas muchas palabras del español?" },
+      "choices": [
+        { "en": "Korean", "es": "Coreano" },
+        { "en": "Thai", "es": "Tailandés" },
+        { "en": "Tagalog", "es": "Tagalo" },
+        { "en": "Vietnamese", "es": "Vietnamita" }
+      ],
+      "answer": 2,
+      "why": { "en": "Spain ruled the Philippines for over 300 years, so Tagalog words like mesa, silya and kutsara came straight from Spanish.", "es": "España gobernó las Filipinas por más de 300 años, por eso palabras del tagalo como mesa, silya y kutsara vienen del español." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/topic/Tagalog-language"
+    },
+    {
+      "id": "cultures-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦓",
+      "q": { "en": "About how many official languages does South Africa have?", "es": "¿Cuántos idiomas oficiales tiene Sudáfrica, más o menos?" },
+      "choices": [
+        { "en": "Exactly two", "es": "Exactamente dos" },
+        { "en": "Exactly four", "es": "Exactamente cuatro" },
+        { "en": "Exactly seven", "es": "Exactamente siete" },
+        { "en": "More than ten", "es": "Más de diez" }
+      ],
+      "answer": 3,
+      "why": { "en": "South Africa recognizes eleven spoken languages plus sign language, and its national anthem is sung in five of them, one after another.", "es": "Sudáfrica reconoce once idiomas hablados y la lengua de señas, y su himno nacional se canta en cinco de ellos, uno tras otro." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/South-Africa/353922"
+    },
+    {
+      "id": "cultures-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Besides Spanish, which ancient language is official in Peru?", "es": "Además del español, ¿qué lengua antigua es oficial en Perú?" },
+      "choices": [
+        { "en": "Quechua", "es": "Quechua" },
+        { "en": "Nahuatl", "es": "Náhuatl" },
+        { "en": "Guarani", "es": "Guaraní" },
+        { "en": "Aymara", "es": "Aimara" }
+      ],
+      "answer": 0,
+      "why": { "en": "Quechua was the language of the Inca empire, and millions of people in Peru, Bolivia and Ecuador still speak it at home.", "es": "El quechua era la lengua del imperio inca, y millones de personas en Perú, Bolivia y Ecuador todavía lo hablan en casa." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/topic/Quechuan-languages"
+    },
+    {
+      "id": "cultures-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "In Paraguay, most people speak Spanish and which other language?", "es": "En Paraguay, la mayoría habla español y ¿qué otro idioma?" },
+      "choices": [
+        { "en": "Mapuche", "es": "Mapuche" },
+        { "en": "Guarani", "es": "Guaraní" },
+        { "en": "Aymara", "es": "Aimara" },
+        { "en": "Quechua", "es": "Quechua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Guarani is official beside Spanish in Paraguay, and most families speak both, switching between them in the middle of a conversation.", "es": "El guaraní es oficial junto al español en Paraguay, y casi todas las familias hablan los dos y cambian de uno a otro." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/topic/Guarani-language"
+    },
+    {
+      "id": "cultures-medium-014", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "In Spain, Spanish is the only language people speak.", "es": "En España, el español es el único idioma que habla la gente." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spain also has Catalan, Galician and Basque as official regional languages, and Basque is related to no other known language on Earth.", "es": "España también tiene el catalán, el gallego y el vasco como lenguas oficiales de sus regiones, y el vasco no se parece a ninguna otra." },
+      "topic": "languages of big countries",
+      "source": "https://www.britannica.com/place/Spain"
+    },
+    {
+      "id": "cultures-medium-015", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Every country in South America uses Spanish as its main language.", "es": "Todos los países de Sudamérica usan el español como idioma principal." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Brazil speaks Portuguese, Guyana speaks English, Suriname speaks Dutch and French Guiana speaks French, so four languages share the continent.", "es": "Brasil habla portugués, Guyana habla inglés, Surinam habla neerlandés y la Guayana Francesa habla francés, así que cuatro idiomas comparten el continente." },
+      "topic": "languages of big countries",
+      "source": "https://kids.britannica.com/kids/article/South-America/353923"
+    },
+    {
+      "id": "cultures-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "In Arabic, the greeting salaam means which of these words?", "es": "En árabe, ¿qué significa el saludo \"salaam\"?" },
+      "choices": [
+        { "en": "Friendship", "es": "Amistad" },
+        { "en": "Welcome", "es": "Bienvenida" },
+        { "en": "Peace", "es": "Paz" },
+        { "en": "Health", "es": "Salud" }
+      ],
+      "answer": 2,
+      "why": { "en": "The full greeting, as-salaamu alaykum, wishes peace upon you, and the person answering sends exactly the same wish back.", "es": "El saludo completo, \"as-salaamu alaykum\", desea paz para ti, y quien responde devuelve exactamente el mismo deseo." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Arabic-language"
+    },
+    {
+      "id": "cultures-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "The Zulu greeting sawubona means which of these?", "es": "¿Qué significa el saludo zulú \"sawubona\"?" },
+      "choices": [
+        { "en": "Good morning", "es": "Buenos días" },
+        { "en": "Come and eat", "es": "Ven a comer" },
+        { "en": "Travel safely", "es": "Buen viaje" },
+        { "en": "I see you", "es": "Te veo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sawubona means I see you, and the reply ngikhona means I am here, so both people say they truly notice each other.", "es": "\"Sawubona\" significa \"te veo\", y la respuesta \"ngikhona\" significa \"aquí estoy\", así ambos dicen que de verdad se notan." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Zulu-language"
+    },
+    {
+      "id": "cultures-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "In the Maori hongi greeting, which two things touch?", "es": "En el saludo maorí llamado \"hongi\", ¿qué dos cosas se tocan?" },
+      "choices": [
+        { "en": "Noses and foreheads", "es": "Las narices y las frentes" },
+        { "en": "Elbows", "es": "Los codos" },
+        { "en": "Palms of the hands", "es": "Las palmas de las manos" },
+        { "en": "Shoulders", "es": "Los hombros" }
+      ],
+      "answer": 0,
+      "why": { "en": "In the hongi, two people press noses and foreheads and share one breath, which welcomes a visitor into the group.", "es": "En el hongi, dos personas juntan la nariz y la frente y comparten un mismo aliento, y así reciben al visitante en el grupo." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Maori"
+    },
+    {
+      "id": "cultures-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🙇",
+      "q": { "en": "You meet a teacher in Japan and bow deeply. What does that show?", "es": "Conoces a un maestro en Japón y haces una reverencia profunda. ¿Qué muestras?" },
+      "choices": [
+        { "en": "A quick goodbye", "es": "Una despedida rápida" },
+        { "en": "Great respect", "es": "Mucho respeto" },
+        { "en": "A big hurry", "es": "Mucha prisa" },
+        { "en": "A funny joke", "es": "Una broma" }
+      ],
+      "answer": 1,
+      "why": { "en": "Japanese bows say hello, thank you and sorry, and the deeper and longer the bow, the more respect the person is showing.", "es": "En Japón la reverencia sirve para saludar, agradecer y disculparse, y mientras más profunda y larga, más respeto muestra la persona." },
+      "topic": "greetings",
+      "source": "https://kids.britannica.com/kids/article/Japan/345484"
+    },
+    {
+      "id": "cultures-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "Which language greets the morning with the word kalimera?", "es": "¿Qué idioma saluda la mañana con la palabra \"kalimera\"?" },
+      "choices": [
+        { "en": "Russian", "es": "Ruso" },
+        { "en": "Polish", "es": "Polaco" },
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Turkish", "es": "Turco" }
+      ],
+      "answer": 2,
+      "why": { "en": "Kalimera joins kali, meaning good, with imera, meaning day, so Greek speakers literally wish each other a good day.", "es": "\"Kalimera\" une \"kali\", que es bueno, con \"imera\", que es día, así que en griego se desean literalmente un buen día." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Greek-language"
+    },
+    {
+      "id": "cultures-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤝",
+      "q": { "en": "In which language is shalom used for both hello and goodbye?", "es": "¿En qué idioma se usa \"shalom\" para saludar y para despedirse?" },
+      "choices": [
+        { "en": "Armenian", "es": "Armenio" },
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Amharic", "es": "Amárico" },
+        { "en": "Hebrew", "es": "Hebreo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Shalom means peace, and Hebrew uses it coming and going, the way Italian speakers use ciao for both arriving and leaving.", "es": "\"Shalom\" significa paz, y en hebreo sirve al llegar y al irse, igual que \"ciao\" en italiano." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/topic/Hebrew-language"
+    },
+    {
+      "id": "cultures-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧣",
+      "q": { "en": "In Tibet, a guest is welcomed with a white silk what?", "es": "En el Tíbet, se recibe a un invitado con un objeto blanco de seda. ¿Cuál es?" },
+      "choices": [
+        { "en": "Scarf", "es": "Una bufanda" },
+        { "en": "Hat", "es": "Un sombrero" },
+        { "en": "Blanket", "es": "Una cobija" },
+        { "en": "Fan", "es": "Un abanico" }
+      ],
+      "answer": 0,
+      "why": { "en": "The white silk scarf is called a khata, and a host drapes it around a guest's neck to wish them a safe journey.", "es": "Esa bufanda de seda blanca se llama \"khata\", y el anfitrión la pone en el cuello del invitado para desearle buen viaje." },
+      "topic": "greetings",
+      "source": "https://www.britannica.com/place/Tibet"
+    },
+    {
+      "id": "cultures-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "🙏",
+      "q": { "en": "In Thailand, the wai greeting is made with what?", "es": "En Tailandia, ¿con qué se hace el saludo llamado \"wai\"?" },
+      "choices": [
+        { "en": "A hug", "es": "Un abrazo" },
+        { "en": "Pressed palms", "es": "Las palmas juntas" },
+        { "en": "A firm handshake", "es": "Un apretón de manos" },
+        { "en": "A wave", "es": "Una seña con la mano" }
+      ],
+      "answer": 1,
+      "why": { "en": "In the wai you press your palms together and dip your head, and the higher your hands rise, the more respect you show.", "es": "En el \"wai\" juntas las palmas y bajas la cabeza, y mientras más alto pones las manos, más respeto muestras." },
+      "topic": "greetings",
+      "source": "https://kids.britannica.com/kids/article/Thailand/353991"
+    },
+    {
+      "id": "cultures-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪔",
+      "q": { "en": "Diwali is often called the festival of what?", "es": "¿De qué se dice que es el festival Diwali?" },
+      "choices": [
+        { "en": "Kites", "es": "De las cometas" },
+        { "en": "Drums", "es": "De los tambores" },
+        { "en": "Lights", "es": "De las luces" },
+        { "en": "Water", "es": "Del agua" }
+      ],
+      "answer": 2,
+      "why": { "en": "Diwali comes from a word meaning row of lamps, and families line doorways with little clay lamps called diyas and share sweets.", "es": "\"Diwali\" viene de una palabra que significa hilera de lámparas; las familias llenan las puertas de lamparitas de barro y comparten dulces." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Diwali/632518"
+    },
+    {
+      "id": "cultures-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "In which country did the spring festival of Holi begin?", "es": "¿En qué país empezó Holi, la fiesta de la primavera?" },
+      "choices": [
+        { "en": "Thailand", "es": "Tailandia" },
+        { "en": "Vietnam", "es": "Vietnam" },
+        { "en": "Indonesia", "es": "Indonesia" },
+        { "en": "India", "es": "India" }
+      ],
+      "answer": 3,
+      "why": { "en": "Holi welcomes spring, and the colored powder people throw is called gulal, which by evening leaves everybody looking exactly the same.", "es": "Holi da la bienvenida a la primavera, y el polvo de colores que se lanzan se llama \"gulal\", que al final deja a todos igualitos." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Holi/632521"
+    },
+    {
+      "id": "cultures-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Songkran, a new year festival in Thailand, is celebrated by splashing what?", "es": "Songkran, la fiesta de año nuevo en Tailandia, se celebra lanzando ¿qué?" },
+      "choices": [
+        { "en": "Water", "es": "Agua" },
+        { "en": "Paint", "es": "Pintura" },
+        { "en": "Flour", "es": "Harina" },
+        { "en": "Rice", "es": "Arroz" }
+      ],
+      "answer": 0,
+      "why": { "en": "Songkran falls in April, the hottest part of the year, and pouring water over someone is a way of washing off bad luck.", "es": "Songkran cae en abril, la época más calurosa del año, y echarle agua a alguien es una forma de quitarle la mala suerte." },
+      "topic": "festivals",
+      "source": "https://ich.unesco.org/en/RL/songkran-in-thailand-traditional-thai-new-year-festival-01719"
+    },
+    {
+      "id": "cultures-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Inti Raymi, an old Inca festival in Peru, honors which thing?", "es": "El Inti Raymi, antigua fiesta inca del Perú, honra ¿a qué?" },
+      "choices": [
+        { "en": "The wind", "es": "El viento" },
+        { "en": "The Sun", "es": "El Sol" },
+        { "en": "The Moon", "es": "La Luna" },
+        { "en": "The sea", "es": "El mar" }
+      ],
+      "answer": 1,
+      "why": { "en": "Inti Raymi means sun festival in Quechua, and it falls in June, the shortest day in the Andes, asking the sun to return.", "es": "\"Inti Raymi\" significa fiesta del sol en quechua, y cae en junio, el día más corto en los Andes, para pedir que el sol vuelva." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Inti-Raymi"
+    },
+    {
+      "id": "cultures-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "Which country holds the huge Carnival parade with samba schools?", "es": "¿Qué país celebra el enorme desfile de Carnaval con escuelas de samba?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Panama", "es": "Panamá" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Portugal", "es": "Portugal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rio de Janeiro built a long stadium called the Sambadrome just for Carnival, where each school parades with floats and thousands of dancers.", "es": "Río de Janeiro construyó un estadio largo llamado Sambódromo solo para el Carnaval, donde cada escuela desfila con carros alegóricos y miles de bailarines." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Carnival/632514"
+    },
+    {
+      "id": "cultures-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧧",
+      "q": { "en": "At Lunar New Year, what do children receive inside red envelopes?", "es": "En el Año Nuevo lunar, ¿qué reciben los niños dentro de los sobres rojos?" },
+      "choices": [
+        { "en": "Candy", "es": "Dulces" },
+        { "en": "Seeds", "es": "Semillas" },
+        { "en": "Stamps", "es": "Estampillas" },
+        { "en": "Money", "es": "Dinero" }
+      ],
+      "answer": 3,
+      "why": { "en": "Red envelopes are called hongbao, and the amount inside usually avoids the number four, because the word sounds like an unlucky one.", "es": "Los sobres rojos se llaman \"hongbao\", y la cantidad suele evitar el número cuatro, porque esa palabra suena como una de mala suerte." },
+      "topic": "new year customs",
+      "source": "https://kids.britannica.com/kids/article/Chinese-New-Year/632516"
+    },
+    {
+      "id": "cultures-medium-030", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Chinese New Year falls on the same date every year.", "es": "El Año Nuevo chino cae en la misma fecha todos los años." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "It follows the moon, so it lands somewhere between late January and late February, and each year takes the name of a zodiac animal.", "es": "Sigue a la Luna, así que cae entre finales de enero y finales de febrero, y cada año lleva un animal del zodiaco." },
+      "topic": "new year customs",
+      "source": "https://www.britannica.com/topic/Chinese-New-Year"
+    },
+    {
+      "id": "cultures-medium-031", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "At Lunar New Year, long noodles are eaten as a wish for long life.", "es": "En el Año Nuevo lunar se comen fideos largos para desear una vida larga." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The longer the noodle, the longer the life it promises, so cooks leave the strands uncut and eaters slurp each one whole.", "es": "Mientras más largo el fideo, más larga la vida que promete, por eso no se cortan y cada uno se sorbe entero." },
+      "topic": "new year customs",
+      "source": "https://folklife.si.edu/talkstory/lunar-new-year-foods"
+    },
+    {
+      "id": "cultures-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "On a Day of the Dead altar, what is the sweet bread called?", "es": "En un altar del Día de Muertos, ¿cómo se llama el pan dulce?" },
+      "choices": [
+        { "en": "Pan de muerto", "es": "Pan de muerto" },
+        { "en": "Rosca de reyes", "es": "Rosca de reyes" },
+        { "en": "Concha", "es": "Concha" },
+        { "en": "Churro", "es": "Churro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pan de muerto is a round loaf with strips of dough shaped like bones laid across the top, baked only for these days.", "es": "El pan de muerto es redondo y lleva tiras de masa en forma de huesos encima, y solo se hornea para estos días." },
+      "topic": "festival foods",
+      "source": "https://folklife.si.edu/talkstory/day-of-the-dead-ofrenda"
+    },
+    {
+      "id": "cultures-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "How many candles does a Hanukkah menorah hold in all?", "es": "¿Cuántas velas lleva en total un candelabro de Janucá?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "9", "es": "9" },
+        { "en": "7", "es": "7" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 1,
+      "why": { "en": "Eight candles stand for the eight nights, and a ninth helper candle called the shamash is the one that lights all the others.", "es": "Ocho velas representan las ocho noches, y una novena vela ayudante llamada \"shamash\" es la que enciende a todas las demás." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Hanukkah/390543"
+    },
+    {
+      "id": "cultures-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "During Ramadan, the evening meal that breaks the fast is called what?", "es": "Durante el Ramadán, ¿cómo se llama la comida de la noche que rompe el ayuno?" },
+      "choices": [
+        { "en": "Eid", "es": "Eid" },
+        { "en": "Zakat", "es": "Zakat" },
+        { "en": "Iftar", "es": "Iftar" },
+        { "en": "Suhoor", "es": "Suhur" }
+      ],
+      "answer": 2,
+      "why": { "en": "Iftar begins right at sunset, often with dates and water, and families invite neighbors so the table grows longer every evening.", "es": "El iftar empieza al atardecer, muchas veces con dátiles y agua, y las familias invitan a los vecinos, así la mesa se alarga." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Ramadan/390551"
+    },
+    {
+      "id": "cultures-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Which celebration marks the end of the month of Ramadan?", "es": "¿Qué celebración marca el final del mes de Ramadán?" },
+      "choices": [
+        { "en": "Diwali", "es": "Diwali" },
+        { "en": "Nowruz", "es": "Nowruz" },
+        { "en": "Vesak", "es": "Vesak" },
+        { "en": "Eid al-Fitr", "es": "Eid al-Fitr" }
+      ],
+      "answer": 3,
+      "why": { "en": "Eid al-Fitr means festival of breaking the fast, and people wear new clothes, visit relatives and hand sweets and small gifts to children.", "es": "\"Eid al-Fitr\" significa fiesta de romper el ayuno; la gente estrena ropa, visita a sus familiares y regala dulces a los niños." },
+      "topic": "festivals",
+      "source": "https://kids.britannica.com/kids/article/Eid-al-Fitr/399856"
+    },
+    {
+      "id": "cultures-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏮",
+      "q": { "en": "At Japan's Obon festival, what do families float on the rivers?", "es": "En la fiesta japonesa de Obon, ¿qué dejan flotar las familias en los ríos?" },
+      "choices": [
+        { "en": "Paper lanterns", "es": "Faroles de papel" },
+        { "en": "Flower crowns", "es": "Coronas de flores" },
+        { "en": "Wooden masks", "es": "Máscaras de madera" },
+        { "en": "Straw dolls", "es": "Muñecas de paja" }
+      ],
+      "answer": 0,
+      "why": { "en": "The lanterns are set on the water to guide visiting ancestors back home, and whole towns dance the bon odori in a big circle.", "es": "Los faroles se ponen en el agua para guiar de regreso a los antepasados que visitan, y pueblos enteros bailan el bon odori en círculo." },
+      "topic": "festivals",
+      "source": "https://www.britannica.com/topic/Bon-Japanese-festival"
+    },
+    {
+      "id": "cultures-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "✍️",
+      "q": { "en": "Japanese children learn hiragana, katakana and which third kind of writing?", "es": "¿Qué tercer tipo de escritura aprenden los niños japoneses, además de hiragana y katakana?" },
+      "choices": [
+        { "en": "Runes", "es": "Runas" },
+        { "en": "Kanji", "es": "Kanji" },
+        { "en": "Hangul", "es": "Hangul" },
+        { "en": "Cyrillic", "es": "Cirílico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Kanji are characters borrowed from Chinese, and one Japanese sentence can mix all three writing systems in the very same line.", "es": "Los kanji son caracteres tomados del chino, y una sola oración en japonés puede mezclar los tres sistemas en la misma línea." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Japanese-writing-system"
+    },
+    {
+      "id": "cultures-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔤",
+      "q": { "en": "Which writing system was designed so that anyone could learn it quickly?", "es": "¿Qué sistema de escritura se diseñó para que cualquiera lo aprendiera rápido?" },
+      "choices": [
+        { "en": "Cuneiform", "es": "Cuneiforme" },
+        { "en": "Hieroglyphs", "es": "Jeroglíficos" },
+        { "en": "Hangul", "es": "Hangul" },
+        { "en": "Kanji", "es": "Kanji" }
+      ],
+      "answer": 2,
+      "why": { "en": "A Korean king had scholars invent hangul in the 1400s, and its letters are shaped like the mouth and tongue making each sound.", "es": "Un rey coreano mandó crear el hangul en el siglo XV, y sus letras imitan la forma de la boca al hacer cada sonido." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Hangul-Korean-alphabet"
+    },
+    {
+      "id": "cultures-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "📖",
+      "q": { "en": "How many dots fit inside one Braille cell?", "es": "¿Cuántos puntos caben en una celda de braille?" },
+      "choices": [
+        { "en": "4", "es": "4" },
+        { "en": "8", "es": "8" },
+        { "en": "10", "es": "10" },
+        { "en": "6", "es": "6" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each Braille cell holds six dots in two columns, and raising different dots makes 63 patterns for letters, numbers and punctuation.", "es": "Cada celda de braille tiene seis puntos en dos columnas, y al levantar distintos puntos se forman 63 patrones para letras, números y signos." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Braille-writing-system"
+    },
+    {
+      "id": "cultures-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🅰️",
+      "q": { "en": "The word alphabet comes from the first two letters of which alphabet?", "es": "¿La palabra \"alfabeto\" viene de las dos primeras letras de qué alfabeto?" },
+      "choices": [
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Latin", "es": "Latino" },
+        { "en": "Arabic", "es": "Árabe" },
+        { "en": "Hebrew", "es": "Hebreo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Alpha and beta are the first two Greek letters, and the Greeks copied their letter shapes from Phoenician sailors and traders.", "es": "Alfa y beta son las dos primeras letras griegas, y los griegos copiaron la forma de sus letras de los fenicios, grandes navegantes." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/alphabet-writing"
+    },
+    {
+      "id": "cultures-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "📰",
+      "q": { "en": "About how many characters does a Chinese newspaper reader need to know?", "es": "¿Cuántos caracteres necesita conocer alguien para leer un periódico en chino?" },
+      "choices": [
+        { "en": "About thirty thousand", "es": "Unos treinta mil" },
+        { "en": "About three thousand", "es": "Unos tres mil" },
+        { "en": "About three hundred", "es": "Unos trescientos" },
+        { "en": "About thirty", "es": "Unos treinta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Chinese has tens of thousands of characters in its dictionaries, but about three thousand is enough to read a newspaper front to back.", "es": "El chino tiene decenas de miles de caracteres en sus diccionarios, pero con unos tres mil ya se puede leer un periódico completo." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Chinese-writing"
+    },
+    {
+      "id": "cultures-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖋️",
+      "q": { "en": "Which alphabet is used to write the Russian language?", "es": "¿Qué alfabeto se usa para escribir el ruso?" },
+      "choices": [
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Arabic", "es": "Árabe" },
+        { "en": "Cyrillic", "es": "Cirílico" },
+        { "en": "Latin", "es": "Latino" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cyrillic has 33 letters and is named after Cyril, a scholar from long ago; Bulgarian, Serbian and Ukrainian use it too.", "es": "El cirílico tiene 33 letras y lleva el nombre de Cirilo, un sabio de hace siglos; el búlgaro y el serbio también lo usan." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Cyrillic-alphabet"
+    },
+    {
+      "id": "cultures-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗿",
+      "q": { "en": "Which stone let scholars finally read Egyptian hieroglyphs?", "es": "¿Qué piedra permitió a los estudiosos por fin leer los jeroglíficos egipcios?" },
+      "choices": [
+        { "en": "The Palermo Stone", "es": "La piedra de Palermo" },
+        { "en": "The Behistun Stone", "es": "La piedra de Behistún" },
+        { "en": "The Moabite Stone", "es": "La piedra moabita" },
+        { "en": "The Rosetta Stone", "es": "La piedra de Rosetta" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Rosetta Stone carries one message in three scripts, so scholars used the Greek part to work out what the hieroglyphs said.", "es": "La piedra de Rosetta lleva el mismo mensaje en tres escrituras, y los estudiosos usaron la parte en griego para descifrar los jeroglíficos." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Rosetta-Stone"
+    },
+    {
+      "id": "cultures-medium-044", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Hebrew is written from right to left across the page, like Arabic.", "es": "El hebreo se escribe de derecha a izquierda, igual que el árabe." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both run right to left, but their numbers still go left to right, so one page can read in two directions at once.", "es": "Los dos van de derecha a izquierda, pero sus números siguen yendo de izquierda a derecha, y la página se lee en dos sentidos." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Hebrew-alphabet"
+    },
+    {
+      "id": "cultures-medium-045", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Each Chinese character stands for a single sound, the way letters do.", "es": "Cada carácter chino representa un solo sonido, como lo hacen las letras." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Most characters stand for a whole word or a piece of meaning, and many pair a meaning part with a hint about the sound.", "es": "Casi todos los caracteres representan una palabra o un trozo de significado, y muchos juntan una parte de sentido con una pista de sonido." },
+      "topic": "writing systems",
+      "source": "https://www.britannica.com/topic/Chinese-languages"
+    },
+    {
+      "id": "cultures-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "👆",
+      "q": { "en": "Louis Braille invented his system of raised dots at about what age?", "es": "¿A qué edad, más o menos, inventó Louis Braille su sistema de puntos en relieve?" },
+      "choices": [
+        { "en": "15", "es": "15" },
+        { "en": "25", "es": "25" },
+        { "en": "35", "es": "35" },
+        { "en": "50", "es": "50" }
+      ],
+      "answer": 0,
+      "why": { "en": "Louis Braille lost his sight as a small child and had finished his six-dot system before his sixteenth birthday.", "es": "Louis Braille perdió la vista cuando era muy pequeño y terminó su sistema de seis puntos antes de cumplir dieciséis años." },
+      "topic": "writing systems",
+      "source": "https://kids.britannica.com/kids/article/Louis-Braille/352971"
+    },
+    {
+      "id": "cultures-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥘",
+      "q": { "en": "Paella, a rice dish cooked in a wide flat pan, comes from where?", "es": "¿De dónde viene la paella, un plato de arroz que se cocina en una sartén ancha?" },
+      "choices": [
+        { "en": "Morocco", "es": "Marruecos" },
+        { "en": "Spain", "es": "España" },
+        { "en": "Greece", "es": "Grecia" },
+        { "en": "Portugal", "es": "Portugal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Paella was born in Valencia, where farmers cooked rice over an orange-wood fire with whatever the fields and marshes gave them.", "es": "La paella nació en Valencia, donde los campesinos cocinaban arroz sobre leña de naranjo con lo que les daban los campos y las marismas." },
+      "topic": "traditional foods",
+      "source": "https://www.britannica.com/topic/paella"
+    },
+    {
+      "id": "cultures-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "Feijoada, a slow stew of black beans, is the national dish of which country?", "es": "La feijoada, un guiso lento de frijoles negros, ¿es el plato nacional de qué país?" },
+      "choices": [
+        { "en": "Cuba", "es": "Cuba" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Peru", "es": "Perú" }
+      ],
+      "answer": 2,
+      "why": { "en": "Feijoada simmers for hours and arrives with rice, orange slices and farofa, a toasted cassava flour sprinkled over everything.", "es": "La feijoada hierve por horas y llega con arroz, rodajas de naranja y farofa, una harina de yuca tostada que se espolvorea encima." },
+      "topic": "traditional foods",
+      "source": "https://www.britannica.com/topic/feijoada"
+    },
+    {
+      "id": "cultures-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥬",
+      "q": { "en": "Kimchi, a spicy pickled cabbage, is eaten at almost every meal where?", "es": "¿Dónde se come kimchi, un repollo picante en conserva, en casi todas las comidas?" },
+      "choices": [
+        { "en": "Japan", "es": "Japón" },
+        { "en": "Vietnam", "es": "Vietnam" },
+        { "en": "Mongolia", "es": "Mongolia" },
+        { "en": "Korea", "es": "Corea" }
+      ],
+      "answer": 3,
+      "why": { "en": "Families once buried clay jars of kimchi in the ground to keep it cool, and many Korean homes own a kimchi fridge.", "es": "Antes las familias enterraban vasijas de barro con kimchi para mantenerlo fresco, y en muchas casas coreanas hay un refrigerador solo para eso." },
+      "topic": "traditional foods",
+      "source": "https://ich.unesco.org/en/RL/kimjang-making-and-sharing-kimchi-in-the-republic-of-korea-00881"
+    },
+    {
+      "id": "cultures-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫓",
+      "q": { "en": "Which country is famous for pupusas, thick corn cakes with filling inside?", "es": "¿Qué país es famoso por las pupusas, tortillas gruesas de maíz rellenas?" },
+      "choices": [
+        { "en": "El Salvador", "es": "El Salvador" },
+        { "en": "Costa Rica", "es": "Costa Rica" },
+        { "en": "Panama", "es": "Panamá" },
+        { "en": "Uruguay", "es": "Uruguay" }
+      ],
+      "answer": 0,
+      "why": { "en": "Pupusas are patted flat by hand, stuffed with cheese or beans, and served with curtido, a tangy pile of pickled cabbage.", "es": "Las pupusas se aplanan a mano, se rellenan con queso o frijoles y se sirven con curtido, un repollo en vinagre bien ácido." },
+      "topic": "traditional foods",
+      "source": "https://folklife.si.edu/talkstory/pupusas-el-salvador"
+    },
+    {
+      "id": "cultures-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍲",
+      "q": { "en": "Which vegetable turns the soup borscht bright pink?", "es": "¿Qué verdura pone de color rosa brillante la sopa borscht?" },
+      "choices": [
+        { "en": "Red cabbage", "es": "El repollo morado" },
+        { "en": "Beet", "es": "La remolacha" },
+        { "en": "Tomato", "es": "El tomate" },
+        { "en": "Red pepper", "es": "El pimiento rojo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Beets give borscht its color; the soup comes from Ukraine and is served hot or cold with a spoonful of sour cream.", "es": "La remolacha le da el color; la sopa viene de Ucrania y se sirve caliente o fría con una cucharada de crema agria." },
+      "topic": "traditional foods",
+      "source": "https://ich.unesco.org/en/USL/culture-of-ukrainian-borscht-cooking-01852"
+    },
+    {
+      "id": "cultures-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍟",
+      "q": { "en": "Poutine, fries covered in gravy and cheese curds, comes from which country?", "es": "¿De qué país viene la poutine, papas fritas cubiertas de salsa y queso?" },
+      "choices": [
+        { "en": "Belgium", "es": "Bélgica" },
+        { "en": "Denmark", "es": "Dinamarca" },
+        { "en": "Canada", "es": "Canadá" },
+        { "en": "Ireland", "es": "Irlanda" }
+      ],
+      "answer": 2,
+      "why": { "en": "Poutine was invented in the countryside of Quebec, and the cheese curds are supposed to squeak against your teeth when fresh.", "es": "La poutine se inventó en el campo de Quebec, y el queso debe rechinar entre los dientes si de verdad está fresco." },
+      "topic": "traditional foods",
+      "source": "https://www.thecanadianencyclopedia.ca/en/article/poutine"
+    },
+    {
+      "id": "cultures-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌶️",
+      "q": { "en": "Which surprising ingredient goes into Mexican mole poblano?", "es": "¿Qué ingrediente sorprendente lleva el mole poblano mexicano?" },
+      "choices": [
+        { "en": "Coconut milk", "es": "Leche de coco" },
+        { "en": "Maple syrup", "es": "Jarabe de maple" },
+        { "en": "Orange peel", "es": "Cáscara de naranja" },
+        { "en": "Chocolate", "es": "Chocolate" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mole poblano blends chiles, spices, seeds and a little dark chocolate into a sauce that can take a whole day to cook.", "es": "El mole poblano mezcla chiles, especias, semillas y un poco de chocolate oscuro en una salsa que puede tardar todo un día." },
+      "topic": "traditional foods",
+      "source": "https://folklife.si.edu/talkstory/mole-poblano-mexico"
+    },
+    {
+      "id": "cultures-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "Which two countries argue over who first made the arepa?", "es": "¿Qué dos países discuten sobre quién hizo primero la arepa?" },
+      "choices": [
+        { "en": "Colombia and Venezuela", "es": "Colombia y Venezuela" },
+        { "en": "Chile and Peru", "es": "Chile y Perú" },
+        { "en": "Cuba and Mexico", "es": "Cuba y México" },
+        { "en": "Bolivia and Ecuador", "es": "Bolivia y Ecuador" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both grill arepas every day; Venezuelans usually split and stuff them like a pocket, while Colombians often eat them flat with cheese.", "es": "Los dos las asan a diario; en Venezuela suelen abrirlas y rellenarlas como un bolsillo, y en Colombia se comen planas con queso." },
+      "topic": "traditional foods",
+      "source": "https://folklife.si.edu/talkstory/arepas-corn-and-country"
+    },
+    {
+      "id": "cultures-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍜",
+      "q": { "en": "Pho, a noodle soup often eaten for breakfast, comes from which country?", "es": "¿De qué país viene el pho, una sopa de fideos que se come en el desayuno?" },
+      "choices": [
+        { "en": "Malaysia", "es": "Malasia" },
+        { "en": "Vietnam", "es": "Vietnam" },
+        { "en": "Thailand", "es": "Tailandia" },
+        { "en": "Cambodia", "es": "Camboya" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pho broth simmers for hours with charred onion, ginger and spices, and in Vietnam a steaming bowl is a normal morning meal.", "es": "El caldo del pho hierve por horas con cebolla quemada, jengibre y especias, y en Vietnam un tazón humeante es un desayuno normal." },
+      "topic": "traditional foods",
+      "source": "https://www.britannica.com/topic/pho"
+    },
+    {
+      "id": "cultures-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "What is the money of Japan called?", "es": "¿Cómo se llama el dinero de Japón?" },
+      "choices": [
+        { "en": "The yuan", "es": "El yuan" },
+        { "en": "The baht", "es": "El baht" },
+        { "en": "The yen", "es": "El yen" },
+        { "en": "The won", "es": "El won" }
+      ],
+      "answer": 2,
+      "why": { "en": "Yen means round, the shape of a coin, and Japan mints a five-yen coin with a hole punched right through the middle.", "es": "\"Yen\" significa redondo, la forma de una moneda, y Japón acuña una moneda de cinco yenes con un agujero en el centro." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/yen-currency"
+    },
+    {
+      "id": "cultures-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "💵",
+      "q": { "en": "Which of these countries pays for things with rupees?", "es": "¿Cuál de estos países paga las cosas con rupias?" },
+      "choices": [
+        { "en": "Thailand", "es": "Tailandia" },
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Turkey", "es": "Turquía" },
+        { "en": "India", "es": "India" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rupees are used in India, Pakistan, Nepal and Sri Lanka, and the Indian symbol mixes a Hindi letter with the Latin letter R.", "es": "La rupia se usa en India, Pakistán, Nepal y Sri Lanka, y el símbolo indio mezcla una letra del hindi con la letra R." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/rupee"
+    },
+    {
+      "id": "cultures-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏷️",
+      "q": { "en": "The dollar sign is also used for which Latin American money?", "es": "¿Para qué moneda de América Latina también se usa el signo de dólar?" },
+      "choices": [
+        { "en": "The Mexican peso", "es": "El peso mexicano" },
+        { "en": "The Guatemalan quetzal", "es": "El quetzal guatemalteco" },
+        { "en": "The Peruvian sol", "es": "El sol peruano" },
+        { "en": "The Costa Rican colón", "es": "El colón costarricense" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mexico writes prices with the same $ sign, so a tag reading $50 in Mexico City means fifty pesos, and never fifty dollars.", "es": "México escribe los precios con el mismo signo $, así que una etiqueta de $50 en la Ciudad de México significa cincuenta pesos." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/peso"
+    },
+    {
+      "id": "cultures-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦜",
+      "q": { "en": "Which country names its money after a bird?", "es": "¿Qué país le puso a su dinero el nombre de un ave?" },
+      "choices": [
+        { "en": "Uruguay", "es": "Uruguay" },
+        { "en": "Guatemala", "es": "Guatemala" },
+        { "en": "Panama", "es": "Panamá" },
+        { "en": "Bolivia", "es": "Bolivia" }
+      ],
+      "answer": 1,
+      "why": { "en": "The quetzal is a green bird with a long tail; the Maya treasured its feathers, and Guatemala put its name on the money.", "es": "El quetzal es un ave verde de cola larga; los mayas valoraban sus plumas, y Guatemala le puso su nombre al dinero." },
+      "topic": "world currencies",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/resplendent-quetzal"
+    },
+    {
+      "id": "cultures-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "💷",
+      "q": { "en": "What is the money of the United Kingdom called?", "es": "¿Cómo se llama el dinero del Reino Unido?" },
+      "choices": [
+        { "en": "The krone", "es": "La corona" },
+        { "en": "The franc", "es": "El franco" },
+        { "en": "The pound", "es": "La libra" },
+        { "en": "The euro", "es": "El euro" }
+      ],
+      "answer": 2,
+      "why": { "en": "A pound was once literally a pound of silver, and its full name, pound sterling, still appears on the bank notes.", "es": "Una libra era antes, de verdad, una libra de plata, y su nombre completo, libra esterlina, todavía aparece en los billetes." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/pound-sterling"
+    },
+    {
+      "id": "cultures-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "Which country calls its money the sol, meaning sun?", "es": "¿Qué país llama \"sol\" a su dinero?" },
+      "choices": [
+        { "en": "Chile", "es": "Chile" },
+        { "en": "Ecuador", "es": "Ecuador" },
+        { "en": "Bolivia", "es": "Bolivia" },
+        { "en": "Peru", "es": "Perú" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sol means sun and nods to the old Inca sun festival, and Peru's coins also show a llama and a hummingbird.", "es": "\"Sol\" recuerda la antigua fiesta inca del sol, y las monedas de Perú muestran también una llama y un colibrí." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/place/Peru"
+    },
+    {
+      "id": "cultures-medium-062", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "The word dollar comes from a coin once made in Central Europe.", "es": "La palabra \"dólar\" viene de una moneda que se hacía en Europa Central." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Silver coins from a valley in Bohemia were called thalers; Dutch sailors said daler, and English speakers turned that into dollar.", "es": "Las monedas de plata de un valle de Bohemia se llamaban \"thaler\"; los marineros holandeses decían \"daler\" y el inglés lo volvió \"dólar\"." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/dollar-currency"
+    },
+    {
+      "id": "cultures-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "The Aztecs used which food as money in their markets?", "es": "¿Qué alimento usaban los aztecas como dinero en sus mercados?" },
+      "choices": [
+        { "en": "Cacao beans", "es": "Granos de cacao" },
+        { "en": "Corn kernels", "es": "Granos de maíz" },
+        { "en": "Dried chiles", "es": "Chiles secos" },
+        { "en": "Blocks of salt", "es": "Bloques de sal" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cacao beans bought cloth and food in Aztec markets, and some traders cheated by filling empty bean shells with mud.", "es": "Con granos de cacao se compraba tela y comida en los mercados aztecas, y algunos tramposos rellenaban cáscaras vacías con lodo." },
+      "topic": "markets and money",
+      "source": "https://www.britannica.com/topic/Aztec"
+    },
+    {
+      "id": "cultures-medium-064", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Every country in Europe pays with the euro.", "es": "Todos los países de Europa pagan con el euro." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Norway keeps its krone, Switzerland its franc and Poland its zloty, while about twenty countries share the euro and design their own coins.", "es": "Noruega conserva su corona, Suiza su franco y Polonia su zloty, mientras que unos veinte países comparten el euro y diseñan sus propias monedas." },
+      "topic": "world currencies",
+      "source": "https://www.britannica.com/topic/euro"
+    },
+    {
+      "id": "cultures-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "The word hurricane came into English from which people of the Caribbean?", "es": "¿De qué pueblo del Caribe llegó al inglés la palabra \"huracán\"?" },
+      "choices": [
+        { "en": "The Guaraní", "es": "Los guaraníes" },
+        { "en": "The Taíno", "es": "Los taínos" },
+        { "en": "The Inca", "es": "Los incas" },
+        { "en": "The Maya", "es": "Los mayas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Taíno people called the great storm wind hurakán; Spanish sailors wrote it huracán, and English turned that into hurricane.", "es": "Los taínos llamaban \"hurakán\" al gran viento de tormenta; los marineros españoles escribieron \"huracán\" y el inglés lo cambió a \"hurricane\"." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/topic/Taino"
+    },
+    {
+      "id": "cultures-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚌",
+      "q": { "en": "In Swahili, the word safari simply means what?", "es": "En suajili, ¿qué significa la palabra \"safari\"?" },
+      "choices": [
+        { "en": "Grassland", "es": "Pradera" },
+        { "en": "Camp", "es": "Campamento" },
+        { "en": "Journey", "es": "Viaje" },
+        { "en": "Lion", "es": "León" }
+      ],
+      "answer": 2,
+      "why": { "en": "Safari means journey, a word Swahili borrowed from Arabic, so riding a bus to work in Tanzania counts as a safari.", "es": "\"Safari\" significa viaje, palabra que el suajili tomó del árabe, así que ir al trabajo en autobús en Tanzania también es un safari." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/topic/Swahili-language"
+    },
+    {
+      "id": "cultures-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which everyday English word was borrowed from Japanese?", "es": "¿Cuál de estas palabras del inglés diario viene del japonés?" },
+      "choices": [
+        { "en": "Tornado", "es": "Tornado" },
+        { "en": "Typhoon", "es": "Tifón" },
+        { "en": "Cyclone", "es": "Ciclón" },
+        { "en": "Tsunami", "es": "Tsunami" }
+      ],
+      "answer": 3,
+      "why": { "en": "Tsunami means harbor wave in Japanese, while typhoon and tornado arrived from other languages, which shows how storms collect names.", "es": "\"Tsunami\" significa ola de puerto en japonés, mientras que tifón y tornado vienen de otras lenguas: las tormentas juntan nombres al viajar." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/science/tsunami"
+    },
+    {
+      "id": "cultures-medium-068", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤖",
+      "q": { "en": "The word robot came from a play written in which language?", "es": "¿En qué idioma estaba escrita la obra de teatro que dio la palabra \"robot\"?" },
+      "choices": [
+        { "en": "Czech", "es": "Checo" },
+        { "en": "Swedish", "es": "Sueco" },
+        { "en": "Polish", "es": "Polaco" },
+        { "en": "Finnish", "es": "Finlandés" }
+      ],
+      "answer": 0,
+      "why": { "en": "A Czech writer used robota, meaning hard work, for the machines in his 1920 play, and the word spread around the world.", "es": "Un escritor checo usó \"robota\", que significa trabajo duro, para las máquinas de su obra de 1920, y la palabra viajó por el mundo." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/technology/robot-technology"
     }
   ]
 }
