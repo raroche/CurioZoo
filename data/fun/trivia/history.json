@@ -2320,6 +2320,404 @@
       "why": { "en": "A ship's boy turned the glass and rang the bell, which is why sailors still count their time in bells and watches.", "es": "Un grumete volteaba el reloj y tocaba la campana; por eso en los barcos el tiempo se cuenta en campanadas y guardias." },
       "topic": "telling time",
       "source": "https://www.rmg.co.uk/collections/objects/sand-glass"
+    },
+    {
+      "id": "history-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖊️",
+      "q": { "en": "Which journalist from Hungary invented the ballpoint pen?", "es": "¿Qué periodista de Hungría inventó el bolígrafo?" },
+      "choices": [
+        { "en": "László Bíró", "es": "László Bíró" },
+        { "en": "Alexander Graham Bell", "es": "Alexander Graham Bell" },
+        { "en": "Thomas Edison", "es": "Thomas Edison" },
+        { "en": "Guglielmo Marconi", "es": "Guglielmo Marconi" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bíró wanted ink that dried like newspaper ink, and in Argentina his pens are still sold under the name birome.", "es": "Bíró quería una tinta que secara como la del periódico, y en Argentina sus plumas se venden como birome desde entonces." },
+      "topic": "inventors",
+      "source": "https://www.britannica.com/technology/ballpoint-pen"
+    },
+    {
+      "id": "history-medium-073", "level": "medium", "type": "mc", "lang": "both", "emoji": "📺",
+      "q": { "en": "What did the Mexican engineer Guillermo González Camarena help invent?", "es": "¿Qué ayudó a inventar el ingeniero mexicano Guillermo González Camarena?" },
+      "choices": [
+        { "en": "The refrigerator", "es": "El refrigerador" },
+        { "en": "Colour television", "es": "La televisión a color" },
+        { "en": "The radio", "es": "La radio" },
+        { "en": "The telephone", "es": "El teléfono" }
+      ],
+      "answer": 1,
+      "why": { "en": "He patented his colour system at twenty-three, and doctors later used his cameras so students could watch an operation closely.", "es": "Patentó su sistema de color a los veintitrés años, y luego unos médicos usaron sus cámaras para que estudiantes vieran una operación." },
+      "topic": "inventors",
+      "source": "https://www.gob.mx/ciencia/articulos/guillermo-gonzalez-camarena"
+    },
+    {
+      "id": "history-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "Before the printing press, how were books in Europe made?", "es": "Antes de la imprenta, ¿cómo se hacían los libros en Europa?" },
+      "choices": [
+        { "en": "Pressed from clay tablets", "es": "Prensados en tablillas de barro" },
+        { "en": "Woven from cloth", "es": "Tejidos con tela" },
+        { "en": "Copied by hand, one at a time", "es": "Copiados a mano, uno por uno" },
+        { "en": "Cut from stone", "es": "Tallados en piedra" }
+      ],
+      "answer": 2,
+      "why": { "en": "A monk could spend a whole year on a single book, so one volume cost about as much as a small farm.", "es": "Un monje podía tardar un año entero en un solo libro, y un ejemplar costaba casi lo mismo que una granja pequeña." },
+      "topic": "printing",
+      "source": "https://www.bl.uk/medieval-english-french-manuscripts"
+    },
+    {
+      "id": "history-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "☎️",
+      "q": { "en": "What did Bell want people to say when answering the telephone?", "es": "¿Qué quería Bell que dijera la gente al contestar el teléfono?" },
+      "choices": [
+        { "en": "Hello", "es": "«Hola»" },
+        { "en": "Ready", "es": "«Listo»" },
+        { "en": "Speak", "es": "«Diga»" },
+        { "en": "Ahoy", "es": "«Ahoy»" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bell preferred the sailors' greeting ahoy, but Edison's suggestion of hello won, and telephone books taught everyone to use it.", "es": "Bell prefería el saludo marinero «ahoy», pero ganó el «hello» de Edison, y los directorios telefónicos enseñaban a usarlo." },
+      "topic": "inventors",
+      "source": "https://www.si.edu/spotlight/alexander-graham-bell"
+    },
+    {
+      "id": "history-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "Which plant did Edison use for a filament that lasted long?", "es": "¿Qué planta usó Edison para un filamento que durara mucho?" },
+      "choices": [
+        { "en": "Pine", "es": "El pino" },
+        { "en": "Bamboo", "es": "El bambú" },
+        { "en": "Corn", "es": "El maíz" },
+        { "en": "Cactus", "es": "El cacto" }
+      ],
+      "answer": 1,
+      "why": { "en": "His team tested thousands of materials, and a thread of carbonised bamboo glowed for more than a thousand hours before breaking.", "es": "Su equipo probó miles de materiales, y un hilo de bambú carbonizado brilló más de mil horas antes de romperse." },
+      "topic": "inventors",
+      "source": "https://www.nps.gov/edis/learn/historyculture/the-lightbulb.htm"
+    },
+    {
+      "id": "history-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "👆",
+      "q": { "en": "Which system of raised dots lets blind people read with fingers?", "es": "¿Qué sistema de puntos en relieve permite leer con los dedos?" },
+      "choices": [
+        { "en": "Morse code", "es": "El código morse" },
+        { "en": "Shorthand", "es": "La taquigrafía" },
+        { "en": "Flag signals", "es": "Las banderas de señales" },
+        { "en": "Braille", "es": "El braille" }
+      ],
+      "answer": 3,
+      "why": { "en": "Louis Braille was fifteen when he finished his six-dot alphabet, borrowing the idea from a soldiers' system for reading in the dark.", "es": "Louis Braille tenía quince años cuando terminó su alfabeto de seis puntos, inspirado en un sistema militar para leer a oscuras." },
+      "topic": "inventors",
+      "source": "https://www.perkins.org/history-of-braille/"
+    },
+    {
+      "id": "history-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "What grew by accident in Alexander Fleming's laboratory dish?", "es": "¿Qué creció por accidente en el plato de laboratorio de Alexander Fleming?" },
+      "choices": [
+        { "en": "A blue flower", "es": "Una flor azul" },
+        { "en": "A mould that killed germs", "es": "Un moho que mataba microbios" },
+        { "en": "A tiny fish", "es": "Un pez diminuto" },
+        { "en": "A salt crystal", "es": "Un cristal de sal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fleming left his dishes out during a holiday in 1928, and the mould that drifted in became the medicine penicillin.", "es": "Fleming dejó sus platos fuera durante unas vacaciones en 1928, y el moho que llegó volando se convirtió en la penicilina." },
+      "topic": "inventions",
+      "source": "https://www.sciencemuseum.org.uk/objects-and-stories/penicillin"
+    },
+    {
+      "id": "history-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What did Röntgen photograph in 1895 to surprise the world?", "es": "¿Qué fotografió Röntgen en 1895 para sorprender al mundo?" },
+      "choices": [
+        { "en": "A star at noon", "es": "Una estrella a mediodía" },
+        { "en": "The bottom of the sea", "es": "El fondo del mar" },
+        { "en": "A bird in flight", "es": "Un ave en vuelo" },
+        { "en": "The bones inside a hand", "es": "Los huesos de una mano" }
+      ],
+      "answer": 3,
+      "why": { "en": "He called the mysterious rays X because he had no idea what they were, and doctors were using them within a year.", "es": "Llamó X a esos rayos misteriosos porque ignoraba qué eran, y en menos de un año los médicos ya los usaban." },
+      "topic": "inventions",
+      "source": "https://www.sciencemuseum.org.uk/objects-and-stories/x-rays"
+    },
+    {
+      "id": "history-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Which everyday fastener was copied from sticky plant burrs?", "es": "¿Qué cierre de uso diario se copió de los abrojos de una planta?" },
+      "choices": [
+        { "en": "Hook-and-loop tape", "es": "La cinta de gancho y felpa" },
+        { "en": "The safety pin", "es": "El seguro" },
+        { "en": "The button", "es": "El botón" },
+        { "en": "The shoelace", "es": "La agujeta" }
+      ],
+      "answer": 0,
+      "why": { "en": "A Swiss engineer put the burrs stuck to his dog's fur under a microscope and saw tiny hooks catching soft loops.", "es": "Un ingeniero suizo miró al microscopio los abrojos pegados al pelo de su perro y vio ganchitos que atrapaban lazos." },
+      "topic": "inventions",
+      "source": "https://www.sciencehistory.org/stories/velcro-burrs"
+    },
+    {
+      "id": "history-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍿",
+      "q": { "en": "What melted in an engineer's pocket and led to the microwave oven?", "es": "¿Qué se derritió en el bolsillo de un ingeniero y llevó al horno de microondas?" },
+      "choices": [
+        { "en": "A candle", "es": "Una vela" },
+        { "en": "A wax crayon", "es": "Un crayón de cera" },
+        { "en": "A block of ice", "es": "Un bloque de hielo" },
+        { "en": "A chocolate bar", "es": "Una barra de chocolate" }
+      ],
+      "answer": 3,
+      "why": { "en": "Percy Spencer was testing radar in 1945, felt his snack soften, and then popped corn with the same invisible waves.", "es": "Percy Spencer probaba un radar en 1945, sintió que su dulce se ablandaba y después reventó palomitas con esas mismas ondas." },
+      "topic": "inventions",
+      "source": "https://www.smithsonianmag.com/innovation/how-the-microwave-was-invented-180962074/"
+    },
+    {
+      "id": "history-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Who stayed in orbit while two crewmates walked on the Moon?", "es": "¿Quién se quedó en órbita mientras dos compañeros caminaban en la Luna?" },
+      "choices": [
+        { "en": "Buzz Aldrin", "es": "Buzz Aldrin" },
+        { "en": "Yuri Gagarin", "es": "Yuri Gagarin" },
+        { "en": "Michael Collins", "es": "Michael Collins" },
+        { "en": "John Glenn", "es": "John Glenn" }
+      ],
+      "answer": 2,
+      "why": { "en": "Collins circled alone in the command module and lost radio contact each time he passed behind the far side of the Moon.", "es": "Collins daba vueltas solo en el módulo de mando y perdía la radio cada vez que pasaba por la cara oculta de la Luna." },
+      "topic": "moon landing",
+      "source": "https://www.nasa.gov/mission/apollo-11/"
+    },
+    {
+      "id": "history-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "👣",
+      "q": { "en": "Why do the astronauts' footprints stay sharp on the Moon?", "es": "¿Por qué las huellas de los astronautas siguen nítidas en la Luna?" },
+      "choices": [
+        { "en": "The dust is frozen hard", "es": "El polvo está congelado" },
+        { "en": "Glue was sprayed on them", "es": "Les rociaron pegamento" },
+        { "en": "There is no wind or rain", "es": "No hay viento ni lluvia" },
+        { "en": "The Sun bakes them", "es": "El Sol los cuece" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Moon has almost no air, so nothing blows the dust around; only a tiny meteorite strike will slowly erase them.", "es": "La Luna casi no tiene aire, así que nada mueve el polvo; solo el golpe de un meteorito pequeño podrá borrarlas." },
+      "topic": "moon landing",
+      "source": "https://moon.nasa.gov/resources/apollo-footprints/"
+    },
+    {
+      "id": "history-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "How tall was the Saturn V rocket that carried Apollo crews?", "es": "¿Qué tan alto era el cohete Saturno V que llevó a las tripulaciones Apolo?" },
+      "choices": [
+        { "en": "About 11 metres", "es": "Unos 11 metros" },
+        { "en": "About 300 metres", "es": "Unos 300 metros" },
+        { "en": "About 25 metres", "es": "Unos 25 metros" },
+        { "en": "About 110 metres", "es": "Unos 110 metros" }
+      ],
+      "answer": 3,
+      "why": { "en": "That is 110 metres, 363 feet, taller than a thirty-storey block of flats, and almost all of it held fuel.", "es": "Son 110 metros, 363 pies, más alto que un edificio de treinta pisos, y casi todo eran tanques de combustible." },
+      "topic": "moon landing",
+      "source": "https://airandspace.si.edu/collection-objects/saturn-v"
+    },
+    {
+      "id": "history-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "What kind of shop did the Wright brothers run in Ohio?", "es": "¿Qué tipo de taller tenían los hermanos Wright en Ohio?" },
+      "choices": [
+        { "en": "A bakery", "es": "Una panadería" },
+        { "en": "A bicycle shop", "es": "Un taller de bicicletas" },
+        { "en": "A shoe shop", "es": "Una zapatería" },
+        { "en": "A print shop", "es": "Una imprenta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Building bicycles taught them about balance and steering, which is why their flying machine leaned into a turn like a rider.", "es": "Hacer bicicletas les enseñó de equilibrio y dirección; por eso su máquina voladora se inclinaba para girar, como un ciclista." },
+      "topic": "wright brothers",
+      "source": "https://airandspace.si.edu/explore/stories/wright-brothers"
+    },
+    {
+      "id": "history-medium-086", "level": "medium", "type": "tf", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "The Wright brothers chose a windy beach so their flights could start more easily.", "es": "Los hermanos Wright eligieron una playa ventosa para que sus vuelos despegaran más fácil." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Steady sea wind gave the wings lift, and the soft sand at Kitty Hawk made a gentler landing than hard ground.", "es": "El viento constante del mar daba sustentación a las alas, y la arena suave de Kitty Hawk amortiguaba los aterrizajes." },
+      "topic": "wright brothers",
+      "source": "https://www.nps.gov/wrbr/learn/historyculture/"
+    },
+    {
+      "id": "history-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Which girl found huge sea reptile fossils on an English beach?", "es": "¿Qué muchacha halló fósiles de grandes reptiles marinos en una playa inglesa?" },
+      "choices": [
+        { "en": "Marie Curie", "es": "Marie Curie" },
+        { "en": "Jane Goodall", "es": "Jane Goodall" },
+        { "en": "Mary Anning", "es": "Mary Anning" },
+        { "en": "Ada Lovelace", "es": "Ada Lovelace" }
+      ],
+      "answer": 2,
+      "why": { "en": "Anning was twelve when her family uncovered an ichthyosaur, and she sold fossils to feed them while museums bought her finds.", "es": "Anning tenía doce años cuando su familia desenterró un ictiosaurio; vendía fósiles para comer y los museos compraban sus hallazgos." },
+      "topic": "fossils",
+      "source": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html"
+    },
+    {
+      "id": "history-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦖",
+      "q": { "en": "What does the word dinosaur mean in ancient Greek?", "es": "¿Qué significa la palabra dinosaurio en griego antiguo?" },
+      "choices": [
+        { "en": "Great tooth", "es": "Diente grande" },
+        { "en": "Old bird", "es": "Ave vieja" },
+        { "en": "Stone giant", "es": "Gigante de piedra" },
+        { "en": "Terrible lizard", "es": "Lagarto terrible" }
+      ],
+      "answer": 3,
+      "why": { "en": "Richard Owen built the name in 1842 from deinos and sauros, though birds show these animals were far from ordinary lizards.", "es": "Richard Owen armó el nombre en 1842 con deinos y sauros, aunque las aves muestran que no eran lagartos comunes." },
+      "topic": "dinosaurs",
+      "source": "https://www.nhm.ac.uk/discover/dino-directory/"
+    },
+    {
+      "id": "history-medium-089", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦕",
+      "q": { "en": "Tyrannosaurus lived closer in time to us than to Stegosaurus.", "es": "El tiranosaurio vivió más cerca de nuestra época que de la del estegosaurio." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "About 83 million years lie between those two dinosaurs, while only 66 million years lie between Tyrannosaurus and you.", "es": "Unos 83 millones de años separan a esos dos dinosaurios, y solo 66 millones te separan a ti del tiranosaurio." },
+      "topic": "dinosaurs",
+      "source": "https://www.amnh.org/dinosaurs"
+    },
+    {
+      "id": "history-medium-090", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧍",
+      "q": { "en": "Dinosaurs and the first people lived on Earth at the same time.", "es": "Los dinosaurios y las primeras personas vivieron en la Tierra al mismo tiempo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 65 million years lie between the last big dinosaurs and the first humans, though birds carry that family onward.", "es": "Unos 65 millones de años separan a los últimos dinosaurios grandes de las primeras personas; las aves continúan esa familia." },
+      "topic": "dinosaurs",
+      "source": "https://www.amnh.org/exhibitions/permanent/hall-of-human-origins"
+    },
+    {
+      "id": "history-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "How does a buried bone slowly turn into a stone fossil?", "es": "¿Cómo se convierte poco a poco un hueso enterrado en un fósil de piedra?" },
+      "choices": [
+        { "en": "The Sun bakes it hard", "es": "El Sol lo endurece" },
+        { "en": "It is frozen solid", "es": "Se congela por completo" },
+        { "en": "Roots squeeze it flat", "es": "Las raíces lo aplastan" },
+        { "en": "Minerals seep in and replace it", "es": "Los minerales lo empapan y lo reemplazan" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mud covers the bone, water carrying minerals soaks through it, and over millions of years stone copies every tiny hole.", "es": "El lodo cubre el hueso, el agua con minerales lo empapa y en millones de años la piedra copia cada hueco diminuto." },
+      "topic": "fossils",
+      "source": "https://www.amnh.org/explore/ology/paleontology/how-do-fossils-form"
+    },
+    {
+      "id": "history-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦶",
+      "q": { "en": "Where were the bones of the giant Argentinosaurus discovered?", "es": "¿Dónde se descubrieron los huesos del gigantesco argentinosaurio?" },
+      "choices": [
+        { "en": "Egypt", "es": "Egipto" },
+        { "en": "Argentina", "es": "Argentina" },
+        { "en": "Japan", "es": "Japón" },
+        { "en": "Norway", "es": "Noruega" }
+      ],
+      "answer": 1,
+      "why": { "en": "Patagonia keeps giving up giants: one thigh bone stands taller than a grown person, and the animal weighed as much as ten elephants.", "es": "La Patagonia sigue dando gigantes: un solo fémur es más alto que una persona, y el animal pesaba como diez elefantes." },
+      "topic": "dinosaurs",
+      "source": "https://www.amnh.org/exhibitions/permanent/titanosaur"
+    },
+    {
+      "id": "history-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "Who wrote the first computer program, long before computers existed?", "es": "¿Quién escribió el primer programa de computadora, mucho antes de que existieran?" },
+      "choices": [
+        { "en": "Marie Curie", "es": "Marie Curie" },
+        { "en": "Grace Hopper", "es": "Grace Hopper" },
+        { "en": "Ada Lovelace", "es": "Ada Lovelace" },
+        { "en": "Florence Nightingale", "es": "Florence Nightingale" }
+      ],
+      "answer": 2,
+      "why": { "en": "In 1843 Lovelace wrote steps for a machine of gears that was never built, and saw it could handle music as well as numbers.", "es": "En 1843 Lovelace escribió los pasos para una máquina de engranes que nunca se construyó, y vio que podría hacer música." },
+      "topic": "first computers",
+      "source": "https://www.computerhistory.org/babbage/adalovelace/"
+    },
+    {
+      "id": "history-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "Which small creature gave computer bugs their name in 1947?", "es": "¿Qué animalito dio su nombre a los errores de computadora en 1947?" },
+      "choices": [
+        { "en": "A moth", "es": "Una palomilla" },
+        { "en": "A spider", "es": "Una araña" },
+        { "en": "An ant", "es": "Una hormiga" },
+        { "en": "A beetle", "es": "Un escarabajo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Engineers taped the moth into their logbook after it stopped a huge machine, noting that they had found a real bug.", "es": "Los ingenieros pegaron la palomilla en su cuaderno después de que frenó una máquina enorme, y anotaron que era un bicho de verdad." },
+      "topic": "first computers",
+      "source": "https://www.si.edu/object/nmah_334663"
+    },
+    {
+      "id": "history-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖥️",
+      "q": { "en": "How much space did the early computer called ENIAC fill?", "es": "¿Cuánto espacio ocupaba la primera computadora llamada ENIAC?" },
+      "choices": [
+        { "en": "A shoebox", "es": "Una caja de zapatos" },
+        { "en": "A desk drawer", "es": "Un cajón de escritorio" },
+        { "en": "A coat pocket", "es": "El bolsillo de un abrigo" },
+        { "en": "A whole large room", "es": "Un cuarto grande entero" }
+      ],
+      "answer": 3,
+      "why": { "en": "ENIAC weighed about 27 tonnes and used 18,000 glass tubes, and six women mathematicians programmed it by moving cables and switches.", "es": "ENIAC pesaba unas 27 toneladas y usaba 18,000 tubos de vidrio; seis matemáticas la programaban moviendo cables e interruptores." },
+      "topic": "first computers",
+      "source": "https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
+    },
+    {
+      "id": "history-medium-096", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "Which machine used punched cards before any computer did?", "es": "¿Qué máquina usó tarjetas perforadas antes que cualquier computadora?" },
+      "choices": [
+        { "en": "A steam train", "es": "Un tren de vapor" },
+        { "en": "A windmill", "es": "Un molino de viento" },
+        { "en": "A weaving loom", "es": "Un telar" },
+        { "en": "A printing press", "es": "Una imprenta" }
+      ],
+      "answer": 2,
+      "why": { "en": "Jacquard's loom of 1804 read holes in cards to weave a pattern, and the same idea later fed instructions to computers.", "es": "El telar de Jacquard, de 1804, leía agujeros en tarjetas para tejer dibujos, y esa idea luego dio órdenes a las computadoras." },
+      "topic": "first computers",
+      "source": "https://www.sciencemuseum.org.uk/objects-and-stories/jacquard-loom"
+    },
+    {
+      "id": "history-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥪",
+      "q": { "en": "Whose name gave the sandwich its word in English?", "es": "¿De quién viene la palabra sándwich en inglés?" },
+      "choices": [
+        { "en": "A French baker", "es": "Un panadero francés" },
+        { "en": "A Greek farmer", "es": "Un campesino griego" },
+        { "en": "An English earl", "es": "Un conde inglés" },
+        { "en": "An Italian sailor", "es": "Un marinero italiano" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Earl of Sandwich asked for meat between bread so he could keep playing cards, and his friends began ordering the same.", "es": "El conde de Sandwich pedía carne entre dos panes para seguir jugando cartas, y sus amigos empezaron a pedir lo mismo." },
+      "topic": "everyday things",
+      "source": "https://www.britannica.com/topic/sandwich-food"
+    },
+    {
+      "id": "history-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍦",
+      "q": { "en": "Who invented the frozen ice pop by leaving a drink outside?", "es": "¿Quién inventó la paleta de hielo al dejar una bebida afuera?" },
+      "choices": [
+        { "en": "An eleven-year-old boy", "es": "Un niño de once años" },
+        { "en": "A ship's cook", "es": "Un cocinero de barco" },
+        { "en": "A king's doctor", "es": "El médico de un rey" },
+        { "en": "A circus clown", "es": "Un payaso de circo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Frank Epperson left fruit water with a stirring stick on a porch on a cold night in 1905 and found it frozen.", "es": "Frank Epperson dejó agua de fruta con un palito en el porche una noche fría de 1905 y la encontró congelada." },
+      "topic": "everyday things",
+      "source": "https://www.smithsonianmag.com/arts-culture/the-accidental-invention-of-the-popsicle-180968163/"
+    },
+    {
+      "id": "history-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪥",
+      "q": { "en": "What were toothbrush bristles made from before nylon arrived?", "es": "¿De qué eran las cerdas del cepillo de dientes antes del nailon?" },
+      "choices": [
+        { "en": "Fish bones", "es": "Espinas de pescado" },
+        { "en": "Grass stems", "es": "Tallos de pasto" },
+        { "en": "Pig hair", "es": "Pelo de cerdo" },
+        { "en": "Sheep wool", "es": "Lana de oveja" }
+      ],
+      "answer": 2,
+      "why": { "en": "China was making bristle brushes around the year 1500, and nylon replaced the hair in 1938 because it dried faster.", "es": "En China ya hacían cepillos de cerdas hacia el año 1500, y el nailon las reemplazó en 1938 porque secaba más rápido." },
+      "topic": "everyday things",
+      "source": "https://www.sciencemuseum.org.uk/objects-and-stories/toothbrush"
+    },
+    {
+      "id": "history-medium-100", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧥",
+      "q": { "en": "The zipper became popular right away, as soon as it was invented.", "es": "El cierre se hizo popular de inmediato, apenas se inventó." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "About twenty years passed, and a boot maker's catchy name, before clothes makers trusted those little metal teeth on jackets.", "es": "Pasaron unos veinte años y el nombre pegajoso de una fábrica de botas antes de que la ropa usara esos dientes." },
+      "topic": "everyday things",
+      "source": "https://www.si.edu/spotlight/zipper"
     }
   ]
 }

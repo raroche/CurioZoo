@@ -2278,6 +2278,442 @@
       "why": { "en": "A Czech writer used robota, meaning hard work, for the machines in his 1920 play, and the word spread around the world.", "es": "Un escritor checo usó \"robota\", que significa trabajo duro, para las máquinas de su obra de 1920, y la palabra viajó por el mundo." },
       "topic": "origins of words",
       "source": "https://www.britannica.com/technology/robot-technology"
+    },
+    {
+      "id": "cultures-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "Which animal's name comes from Quechua, a language of the Andes?", "es": "¿Qué nombre de animal viene del quechua, una lengua de los Andes?" },
+      "choices": [
+        { "en": "Bison", "es": "Bisonte" },
+        { "en": "Puma", "es": "Puma" },
+        { "en": "Tiger", "es": "Tigre" },
+        { "en": "Camel", "es": "Camello" }
+      ],
+      "answer": 1,
+      "why": { "en": "Puma is a Quechua word, and English also borrowed condor, quinoa and jerky, which comes from charqui, meaning dried meat.", "es": "\"Puma\" es una palabra quechua, y del quechua también vienen cóndor, quinua y charqui, que es carne secada al sol." },
+      "topic": "origins of words",
+      "source": "https://kids.britannica.com/kids/article/Quechua/353750"
+    },
+    {
+      "id": "cultures-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍅",
+      "q": { "en": "The word ketchup began as the name of a fish sauce from which region?", "es": "La palabra \"ketchup\" empezó como el nombre de una salsa de pescado. ¿De qué región?" },
+      "choices": [
+        { "en": "West Africa", "es": "África occidental" },
+        { "en": "The Caribbean", "es": "El Caribe" },
+        { "en": "Southeast Asia", "es": "El sudeste de Asia" },
+        { "en": "Northern Europe", "es": "El norte de Europa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sailors carried home a salty fish sauce called ke-tsiap, and English cooks later swapped in tomatoes while keeping the old name.", "es": "Los marineros llevaron una salsa salada de pescado llamada \"ke-tsiap\", y luego los cocineros ingleses le pusieron tomate y le dejaron el nombre." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/topic/ketchup"
+    },
+    {
+      "id": "cultures-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "The word shampoo came into English from which language?", "es": "¿De qué idioma llegó al inglés la palabra \"shampoo\"?" },
+      "choices": [
+        { "en": "Greek", "es": "Griego" },
+        { "en": "Dutch", "es": "Neerlandés" },
+        { "en": "Turkish", "es": "Turco" },
+        { "en": "Hindi", "es": "Hindi" }
+      ],
+      "answer": 3,
+      "why": { "en": "Champo meant to press or massage the head, and travelers brought both the word and the head massage back to Britain.", "es": "\"Champo\" significaba apretar o dar masaje en la cabeza, y los viajeros llevaron a Gran Bretaña la palabra y también el masaje." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/topic/Hindi-language"
+    },
+    {
+      "id": "cultures-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐊",
+      "q": { "en": "The word alligator grew out of which two Spanish words?", "es": "¿De qué dos palabras del español nació la palabra inglesa \"alligator\"?" },
+      "choices": [
+        { "en": "El lagarto", "es": "El lagarto" },
+        { "en": "La tortuga", "es": "La tortuga" },
+        { "en": "El caimán", "es": "El caimán" },
+        { "en": "La serpiente", "es": "La serpiente" }
+      ],
+      "answer": 0,
+      "why": { "en": "Spanish sailors in Florida called it el lagarto, the lizard, and English speakers heard one long word and wrote alligator.", "es": "Los marineros españoles en Florida le decían \"el lagarto\", y los ingleses oyeron una sola palabra larga y escribieron \"alligator\"." },
+      "topic": "origins of words",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/american-alligator"
+    },
+    {
+      "id": "cultures-medium-073", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "The word chocolate came into Spanish from a language of Mexico.", "es": "La palabra \"chocolate\" llegó al español desde una lengua de México." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nahuatl speakers drank xocolatl, a bitter cacao drink, and Spanish took the word, which almost every other language then borrowed.", "es": "Los hablantes de náhuatl tomaban \"xocolatl\", una bebida amarga de cacao; el español tomó la palabra y casi todos los idiomas la copiaron." },
+      "topic": "origins of words",
+      "source": "https://www.britannica.com/topic/chocolate"
+    },
+    {
+      "id": "cultures-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "📚",
+      "q": { "en": "The Popol Vuh is a book of old stories from which people?", "es": "El Popol Vuh es un libro de relatos antiguos, ¿de qué pueblo?" },
+      "choices": [
+        { "en": "The Taíno", "es": "Los taínos" },
+        { "en": "The Maya", "es": "Los mayas" },
+        { "en": "The Inca", "es": "Los incas" },
+        { "en": "The Aztec", "es": "Los aztecas" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Popol Vuh was written in K'iche' Maya and tells of hero twins who play a ball game against the lords of the underworld.", "es": "El Popol Vuh se escribió en maya k'iche' y cuenta de unos gemelos héroes que juegan a la pelota contra los señores del inframundo." },
+      "topic": "folk tales and legends",
+      "source": "https://www.britannica.com/topic/Popol-Vuh"
+    },
+    {
+      "id": "cultures-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "In West African folk tales, Anansi is which animal?", "es": "En los cuentos de África occidental, ¿qué animal es Anansi?" },
+      "choices": [
+        { "en": "A tortoise", "es": "Una tortuga" },
+        { "en": "A crow", "es": "Un cuervo" },
+        { "en": "A spider", "es": "Una araña" },
+        { "en": "A hare", "es": "Una liebre" }
+      ],
+      "answer": 2,
+      "why": { "en": "Anansi outsmarts much bigger animals with clever words, and his stories traveled to the Caribbean, where people call him Aunt Nancy.", "es": "Anansi vence a animales mucho más grandes con palabras astutas, y sus cuentos viajaron al Caribe, donde lo llaman \"Aunt Nancy\"." },
+      "topic": "folk tales and legends",
+      "source": "https://www.britannica.com/topic/Anansi"
+    },
+    {
+      "id": "cultures-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐒",
+      "q": { "en": "The Monkey King of Chinese stories can change into how many shapes?", "es": "El Rey Mono de los cuentos chinos puede cambiar a ¿cuántas formas?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "7", "es": "7" },
+        { "en": "100", "es": "100" },
+        { "en": "72", "es": "72" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sun Wukong can somersault far enough to cross the world in one leap, and he carries a staff that shrinks behind his ear.", "es": "Sun Wukong da una voltereta tan larga que cruza el mundo de un salto, y guarda tras la oreja un bastón que se encoge." },
+      "topic": "folk tales and legends",
+      "source": "https://www.britannica.com/topic/Xiyouji"
+    },
+    {
+      "id": "cultures-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "The legend of La Llorona is told in which part of the world?", "es": "La leyenda de La Llorona se cuenta en ¿qué parte del mundo?" },
+      "choices": [
+        { "en": "Latin America", "es": "América Latina" },
+        { "en": "Scandinavia", "es": "Escandinavia" },
+        { "en": "Southeast Asia", "es": "El sudeste de Asia" },
+        { "en": "West Africa", "es": "África occidental" }
+      ],
+      "answer": 0,
+      "why": { "en": "La Llorona means the weeping woman, and children in Mexico and Central America hear that she wanders near rivers after dark.", "es": "\"La Llorona\" significa la mujer que llora, y en México y Centroamérica cuentan que camina junto a los ríos de noche." },
+      "topic": "folk tales and legends",
+      "source": "https://folklife.si.edu/talkstory/la-llorona-legend"
+    },
+    {
+      "id": "cultures-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍑",
+      "q": { "en": "In a Japanese folk tale, Momotaro is a boy born inside what?", "es": "En un cuento japonés, ¿dentro de qué nace el niño Momotaro?" },
+      "choices": [
+        { "en": "A seashell", "es": "Una concha de mar" },
+        { "en": "A peach", "es": "Un durazno" },
+        { "en": "A bamboo stalk", "es": "Un tallo de bambú" },
+        { "en": "A pumpkin", "es": "Una calabaza" }
+      ],
+      "answer": 1,
+      "why": { "en": "An old couple finds a giant peach floating downstream, and the boy inside later sets off with a dog, a monkey and a pheasant.", "es": "Unos ancianos encuentran un durazno gigante en el río, y el niño de adentro parte luego con un perro, un mono y un faisán." },
+      "topic": "folk tales and legends",
+      "source": "https://www.britannica.com/topic/Momotaro"
+    },
+    {
+      "id": "cultures-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "The legend of El Dorado told of a king covered in what?", "es": "La leyenda de El Dorado hablaba de un rey cubierto de ¿qué?" },
+      "choices": [
+        { "en": "Sea salt", "es": "Sal de mar" },
+        { "en": "Jade beads", "es": "Cuentas de jade" },
+        { "en": "Gold dust", "es": "Polvo de oro" },
+        { "en": "Feathers", "es": "Plumas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Muisca leaders in Colombia really did coat themselves in gold dust before diving into Lake Guatavita, and the tale grew from there.", "es": "Los jefes muiscas de Colombia sí se cubrían de polvo de oro antes de lanzarse al lago Guatavita, y de ahí creció la leyenda." },
+      "topic": "folk tales and legends",
+      "source": "https://www.britannica.com/topic/El-Dorado-legendary-kingdom"
+    },
+    {
+      "id": "cultures-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎸",
+      "q": { "en": "Which large deep guitar gives a mariachi band its low notes?", "es": "¿Qué guitarra grande y profunda da las notas graves en un mariachi?" },
+      "choices": [
+        { "en": "The vihuela", "es": "La vihuela" },
+        { "en": "The charango", "es": "El charango" },
+        { "en": "The cuatro", "es": "El cuatro" },
+        { "en": "The guitarrón", "es": "El guitarrón" }
+      ],
+      "answer": 3,
+      "why": { "en": "The guitarrón is a fat-bellied bass guitar with six strings, and a mariachi also carries violins, trumpets and a small vihuela.", "es": "El guitarrón es un bajo de panza gorda con seis cuerdas, y el mariachi lleva además violines, trompetas y una vihuela pequeña." },
+      "topic": "music and dance",
+      "source": "https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575"
+    },
+    {
+      "id": "cultures-medium-081", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Mariachi music began in Spain and traveled to Mexico.", "es": "La música de mariachi empezó en España y viajó a México." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mariachi grew in western Mexico, especially Jalisco, mixing Spanish string instruments with local songs, and UNESCO lists it as world heritage.", "es": "El mariachi nació en el occidente de México, sobre todo en Jalisco, y mezcla instrumentos de cuerda españoles con canciones locales." },
+      "topic": "music and dance",
+      "source": "https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575"
+    },
+    {
+      "id": "cultures-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "In a samba band, what is the big group of drummers called?", "es": "En una banda de samba, ¿cómo se llama el gran grupo de tamborileros?" },
+      "choices": [
+        { "en": "The bateria", "es": "La batería" },
+        { "en": "The charanga", "es": "La charanga" },
+        { "en": "The murga", "es": "La murga" },
+        { "en": "The tuna", "es": "La tuna" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bateria can hold hundreds of drummers playing as one, led by a whistle so everybody turns the rhythm at the same moment.", "es": "Una batería puede tener cientos de tamborileros tocando como uno solo, guiados por un silbato para cambiar el ritmo al mismo tiempo." },
+      "topic": "music and dance",
+      "source": "https://www.britannica.com/art/samba-Brazilian-dance-and-music"
+    },
+    {
+      "id": "cultures-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎻",
+      "q": { "en": "Tango grew up in the port neighborhoods of which two countries?", "es": "El tango creció en los barrios del puerto de ¿qué dos países?" },
+      "choices": [
+        { "en": "Mexico and Cuba", "es": "México y Cuba" },
+        { "en": "Argentina and Uruguay", "es": "Argentina y Uruguay" },
+        { "en": "Chile and Peru", "es": "Chile y Perú" },
+        { "en": "Spain and Portugal", "es": "España y Portugal" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tango started in Buenos Aires and Montevideo, and its squeezebox, the bandoneón, was invented far away in Germany.", "es": "El tango nació en Buenos Aires y en Montevideo, y su acordeón, el bandoneón, se inventó muy lejos, en Alemania." },
+      "topic": "music and dance",
+      "source": "https://ich.unesco.org/en/RL/tango-00258"
+    },
+    {
+      "id": "cultures-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪘",
+      "q": { "en": "Cumbia, a dance with short shuffling steps, began in which country?", "es": "La cumbia, un baile de pasitos arrastrados, ¿en qué país empezó?" },
+      "choices": [
+        { "en": "Honduras", "es": "Honduras" },
+        { "en": "Paraguay", "es": "Paraguay" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Bolivia", "es": "Bolivia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cumbia was born on Colombia's Caribbean coast, mixing African drums, Indigenous flutes called gaitas and Spanish melody into one dance.", "es": "La cumbia nació en la costa caribeña de Colombia y mezcla tambores africanos, flautas indígenas llamadas gaitas y melodía española en un baile." },
+      "topic": "music and dance",
+      "source": "https://www.britannica.com/art/cumbia"
+    },
+    {
+      "id": "cultures-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "👏",
+      "q": { "en": "In flamenco, dancers keep the beat with their heels and what?", "es": "En el flamenco, los bailaores marcan el ritmo con los tacones y ¿con qué más?" },
+      "choices": [
+        { "en": "Bells", "es": "Campanas" },
+        { "en": "Whistles", "es": "Silbatos" },
+        { "en": "Spoons", "es": "Cucharas" },
+        { "en": "Clapping hands", "es": "Palmas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Flamenco clapping is called palmas, and the art comes from Andalusia in southern Spain, where guitar, singing and dance share one rhythm.", "es": "Las palmas marcan el compás; el flamenco viene de Andalucía, en el sur de España, donde guitarra, cante y baile comparten un ritmo." },
+      "topic": "music and dance",
+      "source": "https://ich.unesco.org/en/RL/flamenco-00363"
+    },
+    {
+      "id": "cultures-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🩰",
+      "q": { "en": "In traditional Irish step dancing, what stays still while the feet fly?", "es": "En la danza irlandesa tradicional, ¿qué se queda quieto mientras los pies vuelan?" },
+      "choices": [
+        { "en": "The arms", "es": "Los brazos" },
+        { "en": "The head", "es": "La cabeza" },
+        { "en": "The knees", "es": "Las rodillas" },
+        { "en": "The eyes", "es": "Los ojos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Dancers hold their arms straight at their sides, and hard shoes with fiberglass tips make the loud tapping everybody hears.", "es": "Los bailarines llevan los brazos pegados al cuerpo, y los zapatos duros con punta de fibra hacen ese taconeo tan fuerte." },
+      "topic": "music and dance",
+      "source": "https://www.britannica.com/art/Irish-step-dancing"
+    },
+    {
+      "id": "cultures-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "Which leaf sits in the middle of the flag of Canada?", "es": "¿Qué hoja está en el centro de la bandera de Canadá?" },
+      "choices": [
+        { "en": "A fern", "es": "Un helecho" },
+        { "en": "A maple leaf", "es": "Una hoja de maple" },
+        { "en": "An oak leaf", "es": "Una hoja de roble" },
+        { "en": "A pine branch", "es": "Una rama de pino" }
+      ],
+      "answer": 1,
+      "why": { "en": "The maple leaf on Canada's flag has eleven points, a shape chosen because it still looks clear when the wind snaps the flag.", "es": "La hoja de maple de la bandera de Canadá tiene once puntas, una forma elegida porque se ve clara aunque el viento la sacuda." },
+      "topic": "flags and symbols",
+      "source": "https://kids.britannica.com/kids/article/Canada/345185"
+    },
+    {
+      "id": "cultures-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "The flag of Japan shows a red circle standing for what?", "es": "La bandera de Japón muestra un círculo rojo que representa ¿qué?" },
+      "choices": [
+        { "en": "A drum", "es": "Un tambor" },
+        { "en": "An apple", "es": "Una manzana" },
+        { "en": "The Sun", "es": "El Sol" },
+        { "en": "The Moon", "es": "La Luna" }
+      ],
+      "answer": 2,
+      "why": { "en": "Japan's name means origin of the sun, so its flag carries one red disc, nicknamed hinomaru, which means circle of the sun.", "es": "El nombre de Japón significa origen del sol, por eso su bandera lleva un disco rojo llamado \"hinomaru\", que es círculo del sol." },
+      "topic": "flags and symbols",
+      "source": "https://kids.britannica.com/kids/article/Japan/345484"
+    },
+    {
+      "id": "cultures-medium-089", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "The flag of Nepal is made of two stacked triangles instead of a rectangle.", "es": "La bandera de Nepal está formada por dos triángulos apilados en vez de un rectángulo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nepal flies the only national flag in the world that is two pennants, showing a moon on the top piece and a sun below.", "es": "Nepal tiene la única bandera nacional del mundo con dos banderines, uno con una luna arriba y otro con un sol abajo." },
+      "topic": "flags and symbols",
+      "source": "https://kids.britannica.com/kids/article/Nepal/345820"
+    },
+    {
+      "id": "cultures-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎭",
+      "q": { "en": "In Mexican lucha libre, what do many wrestlers wear on their faces?", "es": "En la lucha libre mexicana, ¿qué llevan muchos luchadores en la cara?" },
+      "choices": [
+        { "en": "Paint", "es": "Pintura" },
+        { "en": "Goggles", "es": "Gafas de protección" },
+        { "en": "Bandanas", "es": "Pañoletas" },
+        { "en": "Masks", "es": "Máscaras" }
+      ],
+      "answer": 3,
+      "why": { "en": "A luchador's mask hides who he is, and in a mask match the loser must take his own off in front of everyone.", "es": "La máscara del luchador esconde quién es, y en una lucha de máscaras el perdedor debe quitársela delante de todos." },
+      "topic": "games and sports of the world",
+      "source": "https://www.britannica.com/sports/lucha-libre"
+    },
+    {
+      "id": "cultures-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "A sumo wrestler wins by pushing his opponent out of what?", "es": "Un luchador de sumo gana empujando a su rival fuera de ¿qué?" },
+      "choices": [
+        { "en": "A straw ring", "es": "Un círculo de paja" },
+        { "en": "A chalk square", "es": "Un cuadrado de tiza" },
+        { "en": "A shallow pool", "es": "Una piscina baja" },
+        { "en": "A wooden platform", "es": "Una plataforma de madera" }
+      ],
+      "answer": 0,
+      "why": { "en": "The sumo ring is called a dohyo, most matches end in seconds, and wrestlers toss salt to clean the ring before starting.", "es": "El círculo de sumo se llama \"dohyo\", casi todos los combates duran segundos y los luchadores lanzan sal para limpiarlo antes de empezar." },
+      "topic": "games and sports of the world",
+      "source": "https://www.britannica.com/sports/sumo"
+    },
+    {
+      "id": "cultures-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤸",
+      "q": { "en": "Capoeira mixes dance, music and kicks and began in which country?", "es": "La capoeira mezcla baile, música y patadas, y empezó en ¿qué país?" },
+      "choices": [
+        { "en": "Jamaica", "es": "Jamaica" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Mexico", "es": "México" },
+        { "en": "Spain", "es": "España" }
+      ],
+      "answer": 1,
+      "why": { "en": "Capoeira grew in Brazil from African traditions, and players move inside a circle called a roda while a musical bow sets the speed.", "es": "La capoeira creció en Brasil desde tradiciones africanas, y se juega en un círculo llamado \"roda\" donde un arco musical marca la velocidad." },
+      "topic": "games and sports of the world",
+      "source": "https://ich.unesco.org/en/RL/capoeira-circle-00892"
+    },
+    {
+      "id": "cultures-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "In the ancient Maya ball game, players mostly hit the ball with what?", "es": "En el antiguo juego de pelota maya, ¿con qué golpeaban los jugadores la pelota?" },
+      "choices": [
+        { "en": "Wooden bats", "es": "Con bates de madera" },
+        { "en": "Their heads", "es": "Con la cabeza" },
+        { "en": "Their hips", "es": "Con las caderas" },
+        { "en": "Their hands", "es": "Con las manos" }
+      ],
+      "answer": 2,
+      "why": { "en": "The rubber ball was solid and heavy, so players wore thick padding and aimed it through a stone ring set high on a wall.", "es": "La pelota de hule era maciza y pesada; los jugadores usaban protecciones gruesas y la pasaban por un aro de piedra en lo alto." },
+      "topic": "games and sports of the world",
+      "source": "https://www.britannica.com/sports/tlachtli"
+    },
+    {
+      "id": "cultures-medium-094", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "A game of cricket always finishes in under one hour.", "es": "Un partido de críquet siempre termina en menos de una hora." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A test match can run five days with breaks for lunch and tea, and even the short games last about three hours.", "es": "Un partido de prueba puede durar cinco días con pausas para el almuerzo y el té, y los partidos cortos duran unas tres horas." },
+      "topic": "games and sports of the world",
+      "source": "https://kids.britannica.com/kids/article/cricket/353178"
+    },
+    {
+      "id": "cultures-medium-095", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Scotland chose the unicorn as its national animal.", "es": "Escocia eligió al unicornio como su animal nacional." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Scotland picked the unicorn hundreds of years ago as a sign of strength and pride, while Wales chose a red dragon.", "es": "Escocia eligió al unicornio hace cientos de años como señal de fuerza y orgullo, mientras que Gales escogió un dragón rojo." },
+      "topic": "national animals and plants",
+      "source": "https://kids.britannica.com/kids/article/Scotland/353862"
+    },
+    {
+      "id": "cultures-medium-096", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦚",
+      "q": { "en": "Which bird is the national bird of India?", "es": "¿Cuál es el ave nacional de India?" },
+      "choices": [
+        { "en": "The crane", "es": "La grulla" },
+        { "en": "The eagle", "es": "El águila" },
+        { "en": "The parrot", "es": "El loro" },
+        { "en": "The peacock", "es": "El pavo real" }
+      ],
+      "answer": 3,
+      "why": { "en": "A male peacock spreads a fan of about 200 feathers, and Indian law protects the bird, which often strolls through villages.", "es": "El pavo real macho abre un abanico de unas 200 plumas, y la ley de India lo protege, por eso pasea por los pueblos." },
+      "topic": "national animals and plants",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/indian-peafowl"
+    },
+    {
+      "id": "cultures-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌸",
+      "q": { "en": "Which flower does Japan celebrate with picnics under the trees?", "es": "¿Qué flor celebra Japón con días de campo bajo los árboles?" },
+      "choices": [
+        { "en": "The cherry blossom", "es": "La flor del cerezo" },
+        { "en": "The chrysanthemum", "es": "El crisantemo" },
+        { "en": "The lotus", "es": "El loto" },
+        { "en": "The plum blossom", "es": "La flor del ciruelo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hanami means flower viewing, and families picnic under sakura trees for the week or two the blossoms last before they fall.", "es": "\"Hanami\" significa mirar las flores, y las familias hacen días de campo bajo los cerezos durante las dos semanas que duran." },
+      "topic": "national animals and plants",
+      "source": "https://www.britannica.com/plant/cherry-blossom"
+    },
+    {
+      "id": "cultures-medium-098", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "In Japan, students clean their own classrooms at the end of the day.", "es": "En Japón, los estudiantes limpian sus propios salones al final del día." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The daily clean-up is called o-soji; pupils sweep, mop and wipe the desks, which teaches them to care for shared space.", "es": "La limpieza diaria se llama \"o-soji\"; los alumnos barren, trapean y limpian los pupitres, y así aprenden a cuidar el espacio de todos." },
+      "topic": "schools around the world",
+      "source": "https://www.britannica.com/place/Japan"
+    },
+    {
+      "id": "cultures-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "A souk is a covered market you would find where?", "es": "Un \"souk\" es un mercado techado que encontrarías ¿dónde?" },
+      "choices": [
+        { "en": "In Peru", "es": "En Perú" },
+        { "en": "In Morocco", "es": "En Marruecos" },
+        { "en": "In Norway", "es": "En Noruega" },
+        { "en": "In Japan", "es": "En Japón" }
+      ],
+      "answer": 1,
+      "why": { "en": "Souks are mazes of narrow lanes in North African and Middle Eastern cities, where shoppers bargain over spices, leather and lamps.", "es": "Los souks son laberintos de callejones en ciudades del norte de África y del Medio Oriente, donde se regatea por especias, cuero y lámparas." },
+      "topic": "markets and money",
+      "source": "https://www.britannica.com/place/Morocco"
+    },
+    {
+      "id": "cultures-medium-100", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧵",
+      "q": { "en": "A huipil is a woven blouse traditionally worn in which two countries?", "es": "El huipil es una blusa tejida que se usa tradicionalmente en ¿qué dos países?" },
+      "choices": [
+        { "en": "Spain and Portugal", "es": "España y Portugal" },
+        { "en": "Kenya and Tanzania", "es": "Kenia y Tanzania" },
+        { "en": "Mexico and Guatemala", "es": "México y Guatemala" },
+        { "en": "Peru and Bolivia", "es": "Perú y Bolivia" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each town weaves its own huipil pattern, so the colors and designs on a blouse can tell you which village its wearer comes from.", "es": "Cada pueblo teje su propio diseño de huipil, así que los colores de una blusa dicen de qué aldea viene quien la lleva puesta." },
+      "topic": "clothing around the world",
+      "source": "https://folklife.si.edu/talkstory/maya-huipil-weaving"
     }
   ]
 }

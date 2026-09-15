@@ -119,7 +119,7 @@
       "file": "cultures.json",
       "counts": {
         "easy": 100,
-        "medium": 68,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -131,7 +131,7 @@
       "file": "history.json",
       "counts": {
         "easy": 100,
-        "medium": 71,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -179,7 +179,7 @@
       "file": "everyday.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
