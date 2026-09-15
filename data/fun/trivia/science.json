@@ -1384,6 +1384,904 @@
       "why": { "en": "Apples give off an invisible gas that tells fruit to ripen, so a paper bag with an apple softens hard fruit quickly.", "es": "Las manzanas sueltan un gas invisible que le dice a la fruta que madure; una bolsa de papel con manzana ablanda la fruta dura." },
       "topic": "kitchen science",
       "source": "https://www.exploratorium.edu/food/ripening"
+    },
+    {
+      "id": "science-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "At what temperature does water boil at sea level?", "es": "¿A qué temperatura hierve el agua al nivel del mar?" },
+      "choices": [
+        { "en": "100 °C, 212 °F", "es": "100 °C, 212 °F" },
+        { "en": "50 °C, 122 °F", "es": "50 °C, 122 °F" },
+        { "en": "150 °C, 302 °F", "es": "150 °C, 302 °F" },
+        { "en": "75 °C, 167 °F", "es": "75 °C, 167 °F" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water boils at 100 °C, 212 °F, but high on a mountain it boils cooler, near 90 °C, so eggs cook slower.", "es": "El agua hierve a 100 °C, 212 °F, pero en una montaña alta hierve más fría, cerca de 90 °C, y el huevo tarda más." },
+      "topic": "states of matter",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/states-of-matter.html"
+    },
+    {
+      "id": "science-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "You leave a glass of water on a sunny windowsill for days. What happens?", "es": "Dejas un vaso de agua en una ventana soleada varios días. ¿Qué pasa?" },
+      "choices": [
+        { "en": "The water freezes solid", "es": "El agua se congela" },
+        { "en": "The water slowly evaporates", "es": "El agua se evapora poco a poco" },
+        { "en": "The water turns cloudy and thick", "es": "El agua se pone turbia y espesa" },
+        { "en": "The water level stays the same", "es": "El nivel del agua sigue igual" }
+      ],
+      "answer": 1,
+      "why": { "en": "Evaporation happens well below boiling: the fastest water bits escape as invisible vapour. Cover half the glass and see which side empties slower.", "es": "La evaporación ocurre sin hervir: las partículas más rápidas escapan como vapor invisible. Tapa medio vaso y mira cuál se vacía más lento." },
+      "topic": "states of matter",
+      "source": "https://www.exploratorium.edu/snacks/evaporation"
+    },
+    {
+      "id": "science-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥤",
+      "q": { "en": "Water drops form on a cold can. Where did they come from?", "es": "Se forman gotas en una lata fría. ¿De dónde salieron?" },
+      "choices": [
+        { "en": "From inside the can", "es": "De adentro de la lata" },
+        { "en": "From a leak in the metal", "es": "De una fuga en el metal" },
+        { "en": "From water vapour in the air", "es": "Del vapor de agua que hay en el aire" },
+        { "en": "From melted ice on the table", "es": "Del hielo derretido de la mesa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Air always carries invisible vapour, and cold metal makes it condense into drops. Breathe on a mirror and you make the same thing happen.", "es": "El aire siempre lleva vapor invisible; el metal frío lo condensa en gotas. Echa tu aliento en un espejo y verás lo mismo." },
+      "topic": "states of matter",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/water.html"
+    },
+    {
+      "id": "science-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Dry ice turns straight into gas without melting. What is that called?", "es": "El hielo seco pasa directo a gas sin derretirse. ¿Cómo se llama eso?" },
+      "choices": [
+        { "en": "Condensation", "es": "Condensación" },
+        { "en": "Evaporation", "es": "Evaporación" },
+        { "en": "Freezing", "es": "Congelación" },
+        { "en": "Sublimation", "es": "Sublimación" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sublimation skips the liquid step. Dry ice is frozen carbon dioxide at about -78 °C, -109 °F, so it fogs instead of puddling.", "es": "La sublimación se salta el estado líquido. El hielo seco es dióxido de carbono congelado a unos -78 °C, -109 °F, y hace niebla." },
+      "topic": "states of matter",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/dry-ice.html"
+    },
+    {
+      "id": "science-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "What happens to water when it freezes into ice?", "es": "¿Qué le pasa al agua cuando se congela y se vuelve hielo?" },
+      "choices": [
+        { "en": "It takes up more space", "es": "Ocupa más espacio" },
+        { "en": "It shrinks a little", "es": "Se encoge un poco" },
+        { "en": "It stays exactly the same size", "es": "Queda exactamente del mismo tamaño" },
+        { "en": "It loses half its weight", "es": "Pierde la mitad de su peso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ice is about nine percent bigger than the water it came from, which is why ice floats and why pipes burst in winter.", "es": "El hielo ocupa como nueve por ciento más que el agua original, por eso flota y por eso los tubos revientan en invierno." },
+      "topic": "states of matter",
+      "source": "https://kids.britannica.com/kids/article/ice/353125"
+    },
+    {
+      "id": "science-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which state of matter keeps its amount but takes the container's shape?", "es": "¿Qué estado de la materia guarda su cantidad pero toma la forma del recipiente?" },
+      "choices": [
+        { "en": "Solid", "es": "Sólido" },
+        { "en": "Liquid", "es": "Líquido" },
+        { "en": "Gas", "es": "Gas" },
+        { "en": "Powder", "es": "Polvo" }
+      ],
+      "answer": 1,
+      "why": { "en": "A liquid's particles slide past each other but stay touching. Pour juice into three different cups and the amount stays the same.", "es": "Las partículas de un líquido resbalan entre sí pero siguen juntas. Vacía jugo en tres vasos distintos y la cantidad sigue igual." },
+      "topic": "states of matter",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/chemistry.html"
+    },
+    {
+      "id": "science-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "Why does salt sprinkled on an icy sidewalk make the ice melt?", "es": "¿Por qué la sal que echan en una banqueta helada derrite el hielo?" },
+      "choices": [
+        { "en": "It heats the ice up", "es": "Calienta el hielo" },
+        { "en": "It soaks the water away", "es": "Absorbe el agua" },
+        { "en": "It lowers the freezing point of water", "es": "Baja el punto de congelación del agua" },
+        { "en": "It makes the ice much heavier", "es": "Hace el hielo mucho más pesado" }
+      ],
+      "answer": 2,
+      "why": { "en": "Salty water freezes below 0 °C, 32 °F, so the ice melts. That same trick makes homemade ice cream inside a bag.", "es": "El agua salada se congela por debajo de 0 °C, 32 °F, y el hielo se derrite. Ese truco sirve para hacer helado casero." },
+      "topic": "states of matter",
+      "source": "https://www.exploratorium.edu/explore/ice-cream-science"
+    },
+    {
+      "id": "science-medium-011", "level": "medium", "type": "tf", "lang": "both", "emoji": "☁️",
+      "q": { "en": "The white cloud you see above a boiling kettle is a gas.", "es": "La nube blanca que ves sobre una tetera hirviendo es un gas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Real steam is invisible. The white cloud is tiny liquid drops formed when hot vapour meets cooler air, like a small cloud.", "es": "El vapor de verdad es invisible. La nube blanca son gotitas de agua que se forman cuando el vapor caliente toca aire frío." },
+      "topic": "states of matter",
+      "source": "https://www.exploratorium.edu/snacks/water-boiling"
+    },
+    {
+      "id": "science-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫙",
+      "q": { "en": "A metal lid sticks on a jar. Why does hot water help?", "es": "Una tapa de metal está atorada en un frasco. ¿Por qué ayuda el agua caliente?" },
+      "choices": [
+        { "en": "The glass shrinks in hot water", "es": "El vidrio se encoge con agua caliente" },
+        { "en": "The metal expands a little when heated", "es": "El metal se expande un poco al calentarse" },
+        { "en": "The hot water dissolves the seal", "es": "El agua caliente disuelve el sello" },
+        { "en": "The lid becomes much lighter", "es": "La tapa se vuelve mucho más ligera" }
+      ],
+      "answer": 1,
+      "why": { "en": "Heat makes particles jiggle further apart, so metal grows more than glass and the lid loosens. Try warm tap water on a stuck jar.", "es": "El calor hace vibrar y separar las partículas, y el metal crece más que el vidrio. Prueba con agua tibia en una tapa atorada." },
+      "topic": "states of matter",
+      "source": "https://www.exploratorium.edu/snacks/thermal-expansion"
+    },
+    {
+      "id": "science-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "Which of these has its particles packed closest together?", "es": "¿Cuál de estos tiene sus partículas más apretadas entre sí?" },
+      "choices": [
+        { "en": "An iron bar", "es": "Una barra de hierro" },
+        { "en": "Cooking oil", "es": "Aceite de cocina" },
+        { "en": "Warm air", "es": "Aire tibio" },
+        { "en": "Steam from a kettle", "es": "Vapor de una tetera" }
+      ],
+      "answer": 0,
+      "why": { "en": "Solids hold their particles in tight rows, which is why a metal bar keeps its shape while oil pours and air spreads everywhere.", "es": "Los sólidos tienen sus partículas en filas apretadas; por eso una barra de metal guarda su forma y el aceite se derrama." },
+      "topic": "states of matter",
+      "source": "https://kids.britannica.com/kids/article/matter/353321"
+    },
+    {
+      "id": "science-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪟",
+      "q": { "en": "Frost forms on a window on a cold morning. What did the vapour do?", "es": "Se forma escarcha en una ventana en una mañana fría. ¿Qué hizo el vapor?" },
+      "choices": [
+        { "en": "It melted and then froze", "es": "Se derritió y luego se congeló" },
+        { "en": "It turned straight into ice crystals", "es": "Se volvió cristales de hielo directamente" },
+        { "en": "It boiled away slowly", "es": "Hirvió lentamente hasta irse" },
+        { "en": "It soaked into the glass", "es": "Se metió dentro del vidrio" }
+      ],
+      "answer": 1,
+      "why": { "en": "Vapour can become a solid directly, a change called deposition. That is why frost draws feathery patterns instead of a smooth sheet.", "es": "El vapor puede volverse sólido de golpe; eso se llama deposición. Por eso la escarcha dibuja plumas y no una capa lisa." },
+      "topic": "states of matter",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/weather.html"
+    },
+    {
+      "id": "science-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍫",
+      "q": { "en": "Why does chocolate melt in your hand but stay solid in the cupboard?", "es": "¿Por qué el chocolate se derrite en tu mano pero sigue duro en la alacena?" },
+      "choices": [
+        { "en": "Your skin oils dissolve it", "es": "Los aceites de tu piel lo disuelven" },
+        { "en": "The cupboard air is much drier", "es": "El aire de la alacena es más seco" },
+        { "en": "It melts near body temperature", "es": "Se derrite cerca de la temperatura del cuerpo" },
+        { "en": "Squeezing it makes it warmer", "es": "Apretarlo lo calienta" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cocoa butter melts near 34 °C, 93 °F, just under body heat, which is why chocolate feels smooth and melts on your tongue.", "es": "La manteca de cacao se derrite cerca de 34 °C, 93 °F, apenas menos que tu cuerpo; por eso se deshace en la lengua." },
+      "topic": "states of matter",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/chocolate.html"
+    },
+    {
+      "id": "science-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "What do we call the liquid that dissolves something in a solution?", "es": "¿Cómo se llama el líquido que disuelve algo en una solución?" },
+      "choices": [
+        { "en": "The solute", "es": "El soluto" },
+        { "en": "The residue", "es": "El residuo" },
+        { "en": "The filter", "es": "El filtro" },
+        { "en": "The solvent", "es": "El disolvente" }
+      ],
+      "answer": 3,
+      "why": { "en": "Water dissolves so many things it is nicknamed the universal solvent. The dissolved thing, like sugar, is called the solute.", "es": "El agua disuelve tantas cosas que la llaman el disolvente universal. Lo que se disuelve, como el azúcar, se llama soluto." },
+      "topic": "mixtures and solutions",
+      "source": "https://kids.britannica.com/kids/article/solution/353615"
+    },
+    {
+      "id": "science-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "How would you get the salt back from a cup of salty water?", "es": "¿Cómo recuperarías la sal de una taza de agua salada?" },
+      "choices": [
+        { "en": "Let the water evaporate away", "es": "Dejar que el agua se evapore" },
+        { "en": "Pour it through a coffee filter", "es": "Pasarla por un filtro de café" },
+        { "en": "Stir it very fast", "es": "Revolverla muy rápido" },
+        { "en": "Freeze the cup solid", "es": "Congelar la taza por completo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Salt stays behind when water leaves as vapour. Sea salt is harvested this way in shallow ponds along the coast of Mexico.", "es": "La sal se queda cuando el agua se va como vapor. Así se cosecha la sal de mar en charcas poco hondas de México." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.exploratorium.edu/snacks/salt-crystals"
+    },
+    {
+      "id": "science-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "☕",
+      "q": { "en": "Which mixture would a paper filter separate best?", "es": "¿Cuál mezcla separaría mejor un filtro de papel?" },
+      "choices": [
+        { "en": "Salt and water", "es": "Sal y agua" },
+        { "en": "Sand and water", "es": "Arena y agua" },
+        { "en": "Sugar and hot tea", "es": "Azúcar y té caliente" },
+        { "en": "Food colouring and water", "es": "Colorante y agua" }
+      ],
+      "answer": 1,
+      "why": { "en": "Filters catch pieces too big to pass through, but dissolved things slip past with the water. Try coffee grounds against sugar.", "es": "El filtro atrapa los pedazos grandes, pero lo que está disuelto pasa junto con el agua. Prueba con café molido y con azúcar." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.sciencekids.co.nz/experiments/filtering.html"
+    },
+    {
+      "id": "science-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "What keeps the oil and water in mayonnaise from separating?", "es": "¿Qué evita que el aceite y el agua de la mayonesa se separen?" },
+      "choices": [
+        { "en": "Salt", "es": "La sal" },
+        { "en": "Sugar", "es": "El azúcar" },
+        { "en": "Egg yolk", "es": "La yema del huevo" },
+        { "en": "Air bubbles", "es": "Las burbujas de aire" }
+      ],
+      "answer": 2,
+      "why": { "en": "Egg yolk holds oil and water together, making an emulsion. Milk is an emulsion too: tiny fat drops floating in water.", "es": "La yema del huevo une el aceite y el agua en una emulsión. La leche también lo es: gotitas de grasa flotando en agua." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.exploratorium.edu/cooking/eggs/index.html"
+    },
+    {
+      "id": "science-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "You stir sugar into water until some sits undissolved. What happened?", "es": "Revuelves azúcar en agua hasta que un poco queda sin disolverse. ¿Qué pasó?" },
+      "choices": [
+        { "en": "The sugar has melted", "es": "El azúcar se derritió" },
+        { "en": "The water has evaporated", "es": "El agua se evaporó" },
+        { "en": "The sugar reacted with water", "es": "El azúcar reaccionó con el agua" },
+        { "en": "The solution is saturated", "es": "La solución está saturada" }
+      ],
+      "answer": 3,
+      "why": { "en": "A saturated solution holds all it can at that temperature. Warm the glass and it dissolves more, which is how rock candy grows.", "es": "Una solución saturada ya no admite más a esa temperatura. Si calientas el vaso, disuelve más, y así crecen los cristales de azúcar." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/sugar-crystals.html"
+    },
+    {
+      "id": "science-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖊️",
+      "q": { "en": "You dip paper with a black marker line into water. What happens?", "es": "Metes en agua un papel con una raya de marcador negro. ¿Qué pasa?" },
+      "choices": [
+        { "en": "The ink splits into several colours", "es": "La tinta se separa en varios colores" },
+        { "en": "The ink fades to plain grey", "es": "La tinta se vuelve gris pálido" },
+        { "en": "The paper turns solid black", "es": "El papel se pone todo negro" },
+        { "en": "The line slides down the page", "es": "La raya se desliza hacia abajo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Black ink is a blend of dyes that climb the paper at different speeds. Scientists call this chromatography and use it in laboratories.", "es": "La tinta negra es una mezcla de colorantes que suben por el papel a distintas velocidades. Los científicos llaman a esto cromatografía." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.exploratorium.edu/snacks/chromatography"
+    },
+    {
+      "id": "science-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍚",
+      "q": { "en": "Which sugar dissolves fastest in a glass of water?", "es": "¿Cuál azúcar se disuelve más rápido en un vaso de agua?" },
+      "choices": [
+        { "en": "A cube in cold water", "es": "Un cubo en agua fría" },
+        { "en": "Powdered sugar in warm water", "es": "Azúcar en polvo en agua tibia" },
+        { "en": "A cube in warm water", "es": "Un cubo en agua tibia" },
+        { "en": "Powdered sugar in cold water", "es": "Azúcar en polvo en agua fría" }
+      ],
+      "answer": 1,
+      "why": { "en": "Smaller pieces give water more surface to work on, and warmth makes particles move faster. Stirring speeds it up even more.", "es": "Los pedazos chicos dan más superficie al agua, y el calor hace que las partículas se muevan rápido. Revolver ayuda todavía más." },
+      "topic": "mixtures and solutions",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/dissolving.html"
+    },
+    {
+      "id": "science-medium-023", "level": "medium", "type": "tf", "lang": "both", "emoji": "🎈",
+      "q": { "en": "Air is a mixture of several gases, mostly nitrogen.", "es": "El aire es una mezcla de varios gases, sobre todo nitrógeno." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "About 78 percent of air is nitrogen and 21 percent oxygen, so most of every breath is a gas you breathe back out.", "es": "El aire tiene 78 por ciento de nitrógeno y 21 por ciento de oxígeno, así que casi todo lo que respiras vuelve a salir." },
+      "topic": "mixtures and solutions",
+      "source": "https://kids.britannica.com/kids/article/air/352683"
+    },
+    {
+      "id": "science-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "What gas fizzes up when vinegar meets baking soda?", "es": "¿Qué gas burbujea cuando el vinagre se junta con el bicarbonato?" },
+      "choices": [
+        { "en": "Oxygen", "es": "Oxígeno" },
+        { "en": "Hydrogen", "es": "Hidrógeno" },
+        { "en": "Carbon dioxide", "es": "Dióxido de carbono" },
+        { "en": "Helium", "es": "Helio" }
+      ],
+      "answer": 2,
+      "why": { "en": "The acid in vinegar and the base in baking soda swap parts and release carbon dioxide, the same gas that makes soda fizzy.", "es": "El ácido del vinagre y la base del bicarbonato se combinan y sueltan dióxido de carbono, el mismo gas de los refrescos." },
+      "topic": "acids and bases",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/fizzy-reaction.html"
+    },
+    {
+      "id": "science-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍋",
+      "q": { "en": "Which of these kitchen liquids is an acid?", "es": "¿Cuál de estos líquidos de la cocina es un ácido?" },
+      "choices": [
+        { "en": "Soapy water", "es": "Agua jabonosa" },
+        { "en": "Baking soda water", "es": "Agua con bicarbonato" },
+        { "en": "Window cleaner", "es": "Limpiador de ventanas" },
+        { "en": "Lemon juice", "es": "Jugo de limón" }
+      ],
+      "answer": 3,
+      "why": { "en": "Acids taste sour: lemon, vinegar and tomatoes. Bases feel slippery, like soap. Red cabbage water turns pink in acid and green in base.", "es": "Los ácidos saben agrios: limón, vinagre, tomate. Las bases se sienten resbalosas, como el jabón. El agua de col morada cambia de color." },
+      "topic": "acids and bases",
+      "source": "https://www.exploratorium.edu/snacks/red-cabbage-indicator"
+    },
+    {
+      "id": "science-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "On the pH scale, what number means a liquid is neutral?", "es": "En la escala de pH, ¿qué número significa que un líquido es neutro?" },
+      "choices": [
+        { "en": "7", "es": "7" },
+        { "en": "1", "es": "1" },
+        { "en": "14", "es": "14" },
+        { "en": "10", "es": "10" }
+      ],
+      "answer": 0,
+      "why": { "en": "The scale runs from 0 to 14. Pure water sits at 7, lemon juice near 2, and soapy water up around 10.", "es": "La escala va de 0 a 14. El agua pura está en 7, el limón cerca de 2 y el jabón cerca de 10." },
+      "topic": "acids and bases",
+      "source": "https://kids.britannica.com/students/article/pH/276477"
+    },
+    {
+      "id": "science-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧁",
+      "q": { "en": "Baking soda makes a cake rise. What must it react with?", "es": "El bicarbonato hace que un pastel suba. ¿Con qué tiene que reaccionar?" },
+      "choices": [
+        { "en": "Something salty, like broth", "es": "Algo salado, como el caldo" },
+        { "en": "Something acidic, like buttermilk", "es": "Algo ácido, como el suero de leche" },
+        { "en": "Something sweet, like honey", "es": "Algo dulce, como la miel" },
+        { "en": "Something oily, like butter", "es": "Algo graso, como la mantequilla" }
+      ],
+      "answer": 1,
+      "why": { "en": "Baking powder already contains its own dry acid, so it works with plain milk. Baking soda needs lemon, yogurt or buttermilk.", "es": "El polvo para hornear ya trae su propio ácido seco. El bicarbonato solo necesita limón, yogur o suero para soltar sus burbujas." },
+      "topic": "acids and bases",
+      "source": "https://www.exploratorium.edu/cooking/bread/index.html"
+    },
+    {
+      "id": "science-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍗",
+      "q": { "en": "What happens to a chicken bone left in vinegar for a week?", "es": "¿Qué le pasa a un hueso de pollo que pasa una semana en vinagre?" },
+      "choices": [
+        { "en": "It turns to white powder", "es": "Se vuelve polvo blanco" },
+        { "en": "It doubles in size", "es": "Duplica su tamaño" },
+        { "en": "It turns soft and rubbery", "es": "Se pone blando y gomoso" },
+        { "en": "It turns bright green", "es": "Se pone verde brillante" }
+      ],
+      "answer": 2,
+      "why": { "en": "The acid dissolves the calcium that makes bone stiff, leaving bendy protein behind. Try it with a clean drumstick bone in a jar.", "es": "El ácido disuelve el calcio que endurece el hueso y deja la proteína flexible. Prueba con un hueso limpio de pollo en un frasco." },
+      "topic": "acids and bases",
+      "source": "https://www.sciencekids.co.nz/experiments/rubberbone.html"
+    },
+    {
+      "id": "science-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "💊",
+      "q": { "en": "How does an antacid tablet settle an upset stomach?", "es": "¿Cómo calma un antiácido un estómago revuelto?" },
+      "choices": [
+        { "en": "It adds more acid", "es": "Agrega más ácido" },
+        { "en": "It coats the tongue", "es": "Cubre la lengua" },
+        { "en": "It cools the food down", "es": "Enfría la comida" },
+        { "en": "It cancels out extra stomach acid", "es": "Neutraliza el ácido de más del estómago" }
+      ],
+      "answer": 3,
+      "why": { "en": "Your stomach uses strong acid to break down food. A base cancels some of it, making water and salt, and the burning stops.", "es": "Tu estómago usa un ácido fuerte para deshacer la comida. Una base lo neutraliza y forma agua y sal, y el ardor se calma." },
+      "topic": "acids and bases",
+      "source": "https://kids.britannica.com/students/article/acids-and-bases/272799"
+    },
+    {
+      "id": "science-medium-030", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔧",
+      "q": { "en": "What two things does iron need in order to rust?", "es": "¿Qué dos cosas necesita el hierro para oxidarse?" },
+      "choices": [
+        { "en": "Oxygen and water", "es": "Oxígeno y agua" },
+        { "en": "Heat and salt", "es": "Calor y sal" },
+        { "en": "Sunlight and soil", "es": "Luz del sol y tierra" },
+        { "en": "Cold and dry air", "es": "Frío y aire seco" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rust is iron joined to oxygen, a brand new material. Salty air speeds it up, which is why cars near the sea rust faster.", "es": "El óxido es hierro unido al oxígeno, un material nuevo. El aire salado lo acelera, por eso los carros de la costa se oxidan." },
+      "topic": "chemical change",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/rusting.html"
+    },
+    {
+      "id": "science-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍞",
+      "q": { "en": "Which of these kitchen changes is a chemical change?", "es": "¿Cuál de estos cambios en la cocina es un cambio químico?" },
+      "choices": [
+        { "en": "Melting butter", "es": "Derretir mantequilla" },
+        { "en": "Toasting bread", "es": "Tostar pan" },
+        { "en": "Boiling water", "es": "Hervir agua" },
+        { "en": "Chopping an onion", "es": "Picar una cebolla" }
+      ],
+      "answer": 1,
+      "why": { "en": "A chemical change makes a new material you cannot turn back. Toast browns because heat rearranges sugars and proteins in the bread.", "es": "Un cambio químico crea un material nuevo que ya no regresa. El pan se tuesta porque el calor reacomoda sus azúcares y proteínas." },
+      "topic": "chemical change",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/chemical-change.html"
+    },
+    {
+      "id": "science-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What three things does a fire need to keep burning?", "es": "¿Qué tres cosas necesita el fuego para seguir ardiendo?" },
+      "choices": [
+        { "en": "Fuel, water and light", "es": "Combustible, agua y luz" },
+        { "en": "Smoke, heat and wind", "es": "Humo, calor y viento" },
+        { "en": "Fuel, heat and oxygen", "es": "Combustible, calor y oxígeno" },
+        { "en": "Wood, water and air", "es": "Madera, agua y aire" }
+      ],
+      "answer": 2,
+      "why": { "en": "Take away any one and the flame dies. That is why a glass over a candle puts it out once the oxygen runs low.", "es": "Si quitas uno, la llama se apaga. Por eso un vaso encima de una vela la apaga cuando se acaba el oxígeno de adentro." },
+      "topic": "chemical change",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/fire.html"
+    },
+    {
+      "id": "science-medium-033", "level": "medium", "type": "tf", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "A rusty nail weighs more than the same nail did before it rusted.", "es": "Un clavo oxidado pesa más que el mismo clavo antes de oxidarse." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rusting adds oxygen from the air to the iron, so the nail gains mass even though it looks crumbly and weak.", "es": "Al oxidarse, el clavo toma oxígeno del aire y gana masa, aunque se vea desmoronado y débil. Pésalo antes y después." },
+      "topic": "chemical change",
+      "source": "https://www.exploratorium.edu/snacks/rust"
+    },
+    {
+      "id": "science-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥈",
+      "q": { "en": "Why does a silver spoon turn dark after months in a drawer?", "es": "¿Por qué una cuchara de plata se pone oscura tras meses en un cajón?" },
+      "choices": [
+        { "en": "Dust settles on it", "es": "Se le junta el polvo" },
+        { "en": "The metal slowly melts", "es": "El metal se derrite despacio" },
+        { "en": "Light bleaches the silver", "es": "La luz decolora la plata" },
+        { "en": "Silver reacts with gases in the air", "es": "La plata reacciona con gases del aire" }
+      ],
+      "answer": 3,
+      "why": { "en": "That dark layer is tarnish, silver joined to sulfur from the air. A bath of baking soda and foil lifts it off.", "es": "Esa capa oscura es plata unida al azufre del aire. Un baño de bicarbonato con papel aluminio la quita sin tallar." },
+      "topic": "chemical change",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/tarnish.html"
+    },
+    {
+      "id": "science-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "A burning candle gets shorter. Where does the wax go?", "es": "Una vela encendida se hace más corta. ¿A dónde se va la cera?" },
+      "choices": [
+        { "en": "It sinks into the wick", "es": "Se hunde en la mecha" },
+        { "en": "It leaves as gas, vapour and carbon dioxide", "es": "Se va como gas, vapor y dióxido de carbono" },
+        { "en": "It turns into light only", "es": "Se convierte solo en luz" },
+        { "en": "It drips into the holder", "es": "Escurre al candelero" }
+      ],
+      "answer": 1,
+      "why": { "en": "The wick pulls melted wax up, the heat turns it to vapour, and burning that vapour makes water vapour and carbon dioxide.", "es": "La mecha sube la cera derretida, el calor la vuelve vapor y al arder produce vapor de agua y dióxido de carbono." },
+      "topic": "chemical change",
+      "source": "https://www.exploratorium.edu/snacks/candle-science"
+    },
+    {
+      "id": "science-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥑",
+      "q": { "en": "What keeps a cut avocado from turning brown so fast?", "es": "¿Qué evita que un aguacate cortado se ponga café tan rápido?" },
+      "choices": [
+        { "en": "A sprinkle of sugar", "es": "Un poco de azúcar" },
+        { "en": "Warm water", "es": "Agua tibia" },
+        { "en": "A squeeze of lime juice", "es": "Un chorrito de jugo de limón" },
+        { "en": "Bright sunlight", "es": "Luz del sol muy fuerte" }
+      ],
+      "answer": 2,
+      "why": { "en": "Browning is oxygen meeting a chemical in the fruit. Acid from lime slows that reaction, and so does wrapping out the air.", "es": "El pardeamiento ocurre cuando el oxígeno toca una sustancia de la fruta. El ácido del limón frena la reacción, y taparlo también ayuda." },
+      "topic": "chemical change",
+      "source": "https://www.exploratorium.edu/cooking/fruit/index.html"
+    },
+    {
+      "id": "science-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚙️",
+      "q": { "en": "Where should a lever's fulcrum go to lift with least effort?", "es": "¿Dónde va el punto de apoyo de una palanca para levantar con menos esfuerzo?" },
+      "choices": [
+        { "en": "Close to the heavy load", "es": "Cerca de la carga pesada" },
+        { "en": "Right in the middle", "es": "Justo en el centro" },
+        { "en": "Far away from the load", "es": "Muy lejos de la carga" },
+        { "en": "Under your own hands", "es": "Debajo de tus manos" }
+      ],
+      "answer": 0,
+      "why": { "en": "The closer the fulcrum sits to the load, the less push you need, but your hand has to travel much further.", "es": "Mientras más cerca esté el punto de apoyo de la carga, menos fuerza necesitas, pero tu mano tiene que bajar mucho más." },
+      "topic": "simple machines",
+      "source": "https://www.exploratorium.edu/snacks/levers"
+    },
+    {
+      "id": "science-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛝",
+      "q": { "en": "A ramp lifts a load with less force. What is the trade?", "es": "Una rampa sube una carga con menos fuerza. ¿Qué das a cambio?" },
+      "choices": [
+        { "en": "You must push much faster", "es": "Tienes que empujar mucho más rápido" },
+        { "en": "You must push a longer distance", "es": "Tienes que empujar una distancia más larga" },
+        { "en": "The load becomes heavier", "es": "La carga se vuelve más pesada" },
+        { "en": "You always need two people", "es": "Siempre necesitas dos personas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Simple machines trade force for distance. A gentle ramp is easy but long; a steep one is short but hard, and the work matches.", "es": "Las máquinas simples cambian fuerza por distancia. Una rampa suave es fácil pero larga; una empinada es corta pero pesada. El trabajo es igual." },
+      "topic": "simple machines",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/engineering.html"
+    },
+    {
+      "id": "science-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "A screw is really which simple machine wrapped around a post?", "es": "¿Qué máquina simple es en realidad un tornillo enrollado en un poste?" },
+      "choices": [
+        { "en": "A pulley", "es": "Una polea" },
+        { "en": "A lever", "es": "Una palanca" },
+        { "en": "An inclined plane", "es": "Un plano inclinado" },
+        { "en": "A wheel and axle", "es": "Una rueda con eje" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cut a paper triangle and roll it around a pencil to watch the thread appear. Closer threads turn easier and travel slower.", "es": "Recorta un triángulo de papel y enróllalo en un lápiz para ver la rosca. Roscas más juntas giran más fácil y avanzan menos." },
+      "topic": "simple machines",
+      "source": "https://kids.britannica.com/kids/article/simple-machine/353572"
+    },
+    {
+      "id": "science-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪣",
+      "q": { "en": "Which simple machine lets you pull down to lift something up?", "es": "¿Qué máquina simple te deja jalar hacia abajo para subir algo?" },
+      "choices": [
+        { "en": "A wedge", "es": "Una cuña" },
+        { "en": "A screw", "es": "Un tornillo" },
+        { "en": "An inclined plane", "es": "Un plano inclinado" },
+        { "en": "A fixed pulley", "es": "Una polea fija" }
+      ],
+      "answer": 3,
+      "why": { "en": "A single fixed pulley keeps the force the same and just turns your pull around, which is handy on a flagpole or curtain.", "es": "Una polea fija no baja la fuerza, solo cambia la dirección de tu jalón; por eso sirve en un asta o en una cortina." },
+      "topic": "simple machines",
+      "source": "https://www.exploratorium.edu/snacks/pulleys"
+    },
+    {
+      "id": "science-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧷",
+      "q": { "en": "A zipper's slider and a doorstop work as which simple machine?", "es": "¿Qué máquina simple son el jalador de un cierre y un tope de puerta?" },
+      "choices": [
+        { "en": "A wedge", "es": "Una cuña" },
+        { "en": "A pulley", "es": "Una polea" },
+        { "en": "A screw", "es": "Un tornillo" },
+        { "en": "A wheel and axle", "es": "Una rueda con eje" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wedge is two ramps back to back: push it forward and it pushes sideways, splitting or squeezing whatever it enters.", "es": "Una cuña son dos rampas pegadas: la empujas hacia adelante y ella empuja hacia los lados, separando o apretando lo que toca." },
+      "topic": "simple machines",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/simplemachines.html"
+    },
+    {
+      "id": "science-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "Why does a round doorknob count as a wheel and axle?", "es": "¿Por qué una perilla redonda cuenta como rueda con eje?" },
+      "choices": [
+        { "en": "It rolls along the door", "es": "Rueda a lo largo de la puerta" },
+        { "en": "Turning the wide knob turns a thin rod", "es": "Girar la perilla ancha gira una barra delgada" },
+        { "en": "It has hidden ball bearings", "es": "Tiene balines escondidos adentro" },
+        { "en": "It slides along a ramp", "es": "Se desliza por una rampa" }
+      ],
+      "answer": 1,
+      "why": { "en": "A wide wheel turning a narrow axle multiplies your twist. That is also how a steering wheel and a pencil sharpener work.", "es": "Una rueda ancha que gira un eje delgado multiplica tu fuerza. Así funcionan también el volante y el sacapuntas de tu mochila." },
+      "topic": "simple machines",
+      "source": "https://kids.britannica.com/kids/article/wheel-and-axle/353854"
+    },
+    {
+      "id": "science-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧰",
+      "q": { "en": "How many simple machines are on the classic list?", "es": "¿Cuántas máquinas simples hay en la lista clásica?" },
+      "choices": [
+        { "en": "3", "es": "3" },
+        { "en": "4", "es": "4" },
+        { "en": "6", "es": "6" },
+        { "en": "10", "es": "10" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lever, wheel and axle, pulley, ramp, wedge and screw. Every complicated machine, even a bicycle, is built from these six.", "es": "Palanca, rueda y eje, polea, rampa, cuña y tornillo. Cualquier máquina complicada, hasta una bicicleta, se arma con estas seis." },
+      "topic": "simple machines",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/machines.html"
+    },
+    {
+      "id": "science-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚲",
+      "q": { "en": "A small gear turns a big gear. What does the big gear do?", "es": "Un engrane chico gira uno grande. ¿Qué hace el engrane grande?" },
+      "choices": [
+        { "en": "Turns faster with more force", "es": "Gira más rápido y con más fuerza" },
+        { "en": "Turns slower with less force", "es": "Gira más lento y con menos fuerza" },
+        { "en": "Turns at exactly the same speed", "es": "Gira a la misma velocidad exacta" },
+        { "en": "Turns slower with more force", "es": "Gira más lento y con más fuerza" }
+      ],
+      "answer": 3,
+      "why": { "en": "Gears trade speed for turning force. A low gear on a bicycle spins the pedals fast so the wheel can climb a hill.", "es": "Los engranes cambian velocidad por fuerza. Un cambio bajo en la bicicleta te deja pedalear rápido para subir una cuesta empinada." },
+      "topic": "simple machines",
+      "source": "https://www.exploratorium.edu/snacks/gears"
+    },
+    {
+      "id": "science-medium-045", "level": "medium", "type": "tf", "lang": "both", "emoji": "✂️",
+      "q": { "en": "A pair of scissors combines two different simple machines.", "es": "Unas tijeras combinan dos máquinas simples diferentes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The handles are levers and the sharp blades are wedges, so scissors are a compound machine made of four simple ones.", "es": "Los mangos son palancas y las hojas filosas son cuñas, así que las tijeras son una máquina compuesta de cuatro máquinas simples." },
+      "topic": "simple machines",
+      "source": "https://kids.britannica.com/kids/article/machine/353303"
+    },
+    {
+      "id": "science-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What do the warm coils on the back of a fridge do?", "es": "¿Qué hacen los tubos calientes de atrás del refrigerador?" },
+      "choices": [
+        { "en": "Cool the kitchen air", "es": "Enfrían el aire de la cocina" },
+        { "en": "Release heat taken from inside", "es": "Sueltan el calor que sacaron de adentro" },
+        { "en": "Hold spare cold liquid", "es": "Guardan líquido frío de repuesto" },
+        { "en": "Keep the motor warm", "es": "Mantienen caliente el motor" }
+      ],
+      "answer": 1,
+      "why": { "en": "A fridge moves heat rather than making cold. The liquid inside evaporates and takes heat, then dumps it through those coils.", "es": "El refrigerador mueve calor en vez de crear frío. El líquido de adentro se evapora, se lleva el calor y lo suelta en los tubos." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/refrigeration"
+    },
+    {
+      "id": "science-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "What does a microwave oven mostly shake inside your food?", "es": "¿Qué sacude sobre todo un horno de microondas dentro de la comida?" },
+      "choices": [
+        { "en": "Sugar crystals", "es": "Cristales de azúcar" },
+        { "en": "Tiny bits of metal", "es": "Pedacitos de metal" },
+        { "en": "Water molecules", "es": "Moléculas de agua" },
+        { "en": "Pockets of air", "es": "Bolsas de aire" }
+      ],
+      "answer": 2,
+      "why": { "en": "Microwaves make water molecules spin and rub, and that rubbing is heat. Dry food warms slowly, which is why bread goes tough.", "es": "Las microondas hacen girar y frotar las moléculas de agua, y ese roce es calor. La comida seca se calienta despacio y se endurece." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/microwave-oven"
+    },
+    {
+      "id": "science-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚽",
+      "q": { "en": "What keeps a toilet flushing until the bowl is empty?", "es": "¿Qué hace que un inodoro siga vaciándose hasta quedar limpio?" },
+      "choices": [
+        { "en": "A hidden fan", "es": "Un ventilador escondido" },
+        { "en": "A spring under the seat", "es": "Un resorte bajo el asiento" },
+        { "en": "The weight of the lid", "es": "El peso de la tapa" },
+        { "en": "A siphon in the curved pipe", "es": "Un sifón en el tubo curvo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Water filling the S-bend starts a siphon that drags the rest over the bend, and it stops when air breaks the chain.", "es": "El agua llena el codo en forma de S y arranca un sifón que jala el resto; se detiene cuando entra aire." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/siphon"
+    },
+    {
+      "id": "science-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "What does the opening called the aperture do inside a camera?", "es": "¿Qué hace la abertura llamada diafragma dentro de una cámara?" },
+      "choices": [
+        { "en": "Lets in more or less light", "es": "Deja entrar más o menos luz" },
+        { "en": "Focuses the image sharply", "es": "Enfoca la imagen con nitidez" },
+        { "en": "Stores the finished pictures", "es": "Guarda las fotos terminadas" },
+        { "en": "Flips the picture over", "es": "Voltea la imagen de cabeza" }
+      ],
+      "answer": 0,
+      "why": { "en": "A wide aperture lets in lots of light for a dim room; a small one keeps more of the scene sharp, like your pupil.", "es": "Una abertura grande deja entrar mucha luz en un cuarto oscuro; una chica mantiene más cosas enfocadas, igual que tu pupila." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/pinhole-magnifier"
+    },
+    {
+      "id": "science-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Why does the liquid in a thermometer climb when it warms up?", "es": "¿Por qué sube el líquido de un termómetro cuando se calienta?" },
+      "choices": [
+        { "en": "Heat makes the liquid lighter", "es": "El calor lo vuelve más ligero" },
+        { "en": "Warm liquid expands and needs more room", "es": "El líquido caliente se expande y necesita más espacio" },
+        { "en": "The glass shrinks around it", "es": "El vidrio se encoge a su alrededor" },
+        { "en": "Air pushes it up the tube", "es": "El aire lo empuja por el tubo" }
+      ],
+      "answer": 1,
+      "why": { "en": "The bulb holds a lot of liquid and the tube is very thin, so a tiny expansion shows up as a big jump.", "es": "El bulbo guarda mucho líquido y el tubo es muy delgado, así que una expansión mínima se ve como un salto grande." },
+      "topic": "how things work",
+      "source": "https://kids.britannica.com/kids/article/thermometer/353758"
+    },
+    {
+      "id": "science-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔑",
+      "q": { "en": "What must a key do to the pins inside a lock?", "es": "¿Qué tiene que hacerle una llave a los pernos de una cerradura?" },
+      "choices": [
+        { "en": "Push them all down flat", "es": "Aplastarlos todos hacia abajo" },
+        { "en": "Warm them up slightly", "es": "Calentarlos un poquito" },
+        { "en": "Lift each pin to the same line", "es": "Subir cada perno hasta la misma línea" },
+        { "en": "Spin them around in circles", "es": "Hacerlos girar en círculos" }
+      ],
+      "answer": 2,
+      "why": { "en": "A pin tumbler lock holds pins of different heights; only the right bumps line them all up so the cylinder can turn.", "es": "Una cerradura de pernos tiene piezas de distinta altura; solo los dientes correctos las alinean para que el cilindro pueda girar." },
+      "topic": "how things work",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/technology.html"
+    },
+    {
+      "id": "science-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "What shape inside a zipper slider forces the teeth together?", "es": "¿Qué forma dentro del jalador de un cierre junta los dientes?" },
+      "choices": [
+        { "en": "A round hole", "es": "Un agujero redondo" },
+        { "en": "A square box", "es": "Una caja cuadrada" },
+        { "en": "A spiral groove", "es": "Una ranura en espiral" },
+        { "en": "A Y-shaped channel", "es": "Un canal en forma de Y" }
+      ],
+      "answer": 3,
+      "why": { "en": "Pull one way and the Y guides teeth into each other; pull the other way and a wedge pries them apart again.", "es": "Si jalas hacia un lado, la Y junta los dientes; si jalas al otro, una cuña en medio los separa otra vez." },
+      "topic": "how things work",
+      "source": "https://www.si.edu/spotlight/zipper"
+    },
+    {
+      "id": "science-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛗",
+      "q": { "en": "What does the heavy block hanging beside an elevator car do?", "es": "¿Qué hace el bloque pesado que cuelga junto a la cabina de un elevador?" },
+      "choices": [
+        { "en": "Balances the car so the motor works less", "es": "Equilibra la cabina para que el motor trabaje menos" },
+        { "en": "Stops the car in an emergency", "es": "Detiene la cabina en una emergencia" },
+        { "en": "Adds weight for a smoother ride", "es": "Agrega peso para un viaje más suave" },
+        { "en": "Stores electricity for the lights", "es": "Guarda electricidad para las luces" }
+      ],
+      "answer": 0,
+      "why": { "en": "The counterweight matches the car plus about half a full load, so the motor only lifts the difference and saves energy.", "es": "El contrapeso iguala al elevador más la mitad de su carga, así el motor solo levanta la diferencia y gasta menos energía." },
+      "topic": "how things work",
+      "source": "https://www.sciencekids.co.nz/sciencefacts/inventions.html"
+    },
+    {
+      "id": "science-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍵",
+      "q": { "en": "Why is the inside of a thermos silvered like a mirror?", "es": "¿Por qué el interior de un termo está plateado como espejo?" },
+      "choices": [
+        { "en": "To keep the glass from cracking", "es": "Para que el vidrio no se quiebre" },
+        { "en": "To bounce heat back inside", "es": "Para rebotar el calor hacia adentro" },
+        { "en": "To stop the drink from leaking", "es": "Para que la bebida no se salga" },
+        { "en": "To make the liquid pour faster", "es": "Para que el líquido salga más rápido" }
+      ],
+      "answer": 1,
+      "why": { "en": "A vacuum blocks heat carried by air, and the mirror surface bounces back the heat that travels as invisible rays.", "es": "El vacío detiene el calor que viaja por el aire, y la superficie de espejo rebota el calor que viaja como rayos invisibles." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/vacuum-flask"
+    },
+    {
+      "id": "science-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "How does soap lift greasy dirt off a plate?", "es": "¿Cómo levanta el jabón la mugre grasosa de un plato?" },
+      "choices": [
+        { "en": "It dries the grease to powder", "es": "Seca la grasa y la vuelve polvo" },
+        { "en": "It makes the whole plate slippery", "es": "Hace resbaloso todo el plato" },
+        { "en": "One end grabs grease, the other grabs water", "es": "Una punta agarra grasa y la otra agua" },
+        { "en": "It turns the grease into gas", "es": "Convierte la grasa en gas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Soap molecules have a water-loving head and a grease-loving tail, so they surround the grease and let water carry it away.", "es": "Cada molécula de jabón tiene una punta que ama el agua y otra que ama la grasa; así el agua se lleva la mugre." },
+      "topic": "how things work",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/soap.html"
+    },
+    {
+      "id": "science-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍳",
+      "q": { "en": "Why does an egg slide off a nonstick pan so easily?", "es": "¿Por qué un huevo resbala tan fácil en un sartén antiadherente?" },
+      "choices": [
+        { "en": "The pan stays cold underneath", "es": "El sartén se queda frío por debajo" },
+        { "en": "The coating is very smooth metal", "es": "El recubrimiento es metal muy liso" },
+        { "en": "Oil is baked into the surface", "es": "Hay aceite horneado en la superficie" },
+        { "en": "The coating barely grabs other materials", "es": "El recubrimiento casi no se agarra de nada" }
+      ],
+      "answer": 3,
+      "why": { "en": "The coating is a slippery plastic whose molecules hold on to almost nothing, so food touches it but cannot stick.", "es": "El recubrimiento es un plástico resbaloso cuyas moléculas casi no se agarran de nada, así que la comida lo toca pero no se pega." },
+      "topic": "how things work",
+      "source": "https://www.acs.org/education/whatischemistry/landmarks/teflon.html"
+    },
+    {
+      "id": "science-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "How does a pressure cooker cook beans so much faster?", "es": "¿Cómo cocina una olla de presión los frijoles mucho más rápido?" },
+      "choices": [
+        { "en": "Trapped steam raises the boiling point", "es": "El vapor atrapado sube el punto de ebullición" },
+        { "en": "It adds extra salt to the water", "es": "Le agrega más sal al agua" },
+        { "en": "It shakes the beans around", "es": "Sacude los frijoles adentro" },
+        { "en": "It cools them between boils", "es": "Los enfría entre hervores" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sealed steam pushes down on the water so it boils near 120 °C, 250 °F, and beans soften in much less time.", "es": "El vapor atrapado empuja el agua y la hace hervir cerca de 120 °C, 250 °F, y los frijoles se ablandan en menos tiempo." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/cooking/pressure/index.html"
+    },
+    {
+      "id": "science-medium-058", "level": "medium", "type": "tf", "lang": "both", "emoji": "🧹",
+      "q": { "en": "A vacuum cleaner pulls dirt upward with a special sucking force.", "es": "Una aspiradora jala la basura con una fuerza especial de succión." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "The fan pushes air out, leaving less air inside, and the air outside pushes dirt in. Suction is really a push.", "es": "El ventilador saca aire y deja menos adentro, así que el aire de afuera empuja la basura hacia adentro. Succionar es empujar." },
+      "topic": "how things work",
+      "source": "https://www.exploratorium.edu/snacks/air-pressure"
+    },
+    {
+      "id": "science-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "In a fair test, how many things should you change at once?", "es": "En una prueba justa, ¿cuántas cosas debes cambiar a la vez?" },
+      "choices": [
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "One", "es": "Una" },
+        { "en": "As many as possible", "es": "Todas las que puedas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Change one thing, keep the rest the same, and you know what caused the difference. Scientists call it the variable.", "es": "Cambia una sola cosa y deja igual lo demás; así sabes qué causó la diferencia. Los científicos la llaman la variable." },
+      "topic": "scientific method",
+      "source": "https://www.sciencekids.co.nz/experiments.html"
+    },
+    {
+      "id": "science-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "One plant gets juice and one gets plain water. What is the second called?", "es": "Una planta recibe jugo y otra agua simple. ¿Cómo se llama la segunda?" },
+      "choices": [
+        { "en": "The variable", "es": "La variable" },
+        { "en": "The result", "es": "El resultado" },
+        { "en": "The sample", "es": "La muestra" },
+        { "en": "The control", "es": "El control" }
+      ],
+      "answer": 3,
+      "why": { "en": "A control is the ordinary version you compare against. Without it, you could never tell whether the juice made any difference.", "es": "El control es la versión normal con la que comparas. Sin él, jamás sabrías si el jugo cambió algo o no." },
+      "topic": "scientific method",
+      "source": "https://kids.britannica.com/students/article/scientific-method/277340"
+    },
+    {
+      "id": "science-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "❓",
+      "q": { "en": "What is usually the first step of the scientific method?", "es": "¿Cuál suele ser el primer paso del método científico?" },
+      "choices": [
+        { "en": "Asking a question", "es": "Hacer una pregunta" },
+        { "en": "Writing the final report", "es": "Escribir el reporte final" },
+        { "en": "Gathering the equipment", "es": "Juntar el equipo" },
+        { "en": "Telling others the answer", "es": "Contarles la respuesta a otros" }
+      ],
+      "answer": 0,
+      "why": { "en": "A good question is one you can actually test. After it come a hypothesis, an experiment, results and sharing what you found.", "es": "Una buena pregunta es la que sí puedes probar. Después vienen la hipótesis, el experimento, los resultados y compartir lo que descubriste." },
+      "topic": "scientific method",
+      "source": "https://pbskids.org/sid/games"
+    },
+    {
+      "id": "science-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔁",
+      "q": { "en": "Why do scientists repeat the same experiment several times?", "es": "¿Por qué los científicos repiten el mismo experimento varias veces?" },
+      "choices": [
+        { "en": "To use up spare materials", "es": "Para gastar los materiales sobrantes" },
+        { "en": "To be sure the result was no accident", "es": "Para asegurarse de que el resultado no fue casualidad" },
+        { "en": "To make the result bigger", "es": "Para que el resultado salga más grande" },
+        { "en": "To finish the work faster", "es": "Para terminar el trabajo más rápido" }
+      ],
+      "answer": 1,
+      "why": { "en": "One result can happen by luck. Repeating it, and letting other people repeat it too, turns an idea into knowledge.", "es": "Un resultado puede salir por suerte. Repetirlo, y dejar que otras personas lo repitan, convierte una idea en conocimiento de verdad." },
+      "topic": "scientific method",
+      "source": "https://www.exploratorium.edu/education/scientific-inquiry"
+    },
+    {
+      "id": "science-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which of these sentences is an observation a scientist could use?", "es": "¿Cuál de estas frases es una observación que un científico podría usar?" },
+      "choices": [
+        { "en": "The plant looks pretty", "es": "La planta se ve bonita" },
+        { "en": "The plant seems happy", "es": "La planta parece feliz" },
+        { "en": "The plant grew 5 centimetres in one week", "es": "La planta creció 5 centímetros en una semana" },
+        { "en": "The plant is the best one", "es": "La planta es la mejor de todas" }
+      ],
+      "answer": 2,
+      "why": { "en": "An observation is something you can measure or see, like 5 centimetres, about 2 inches. Feelings about the plant belong elsewhere.", "es": "Una observación es algo que puedes medir o ver, como 5 centímetros, unas 2 pulgadas. Lo que sientes sobre la planta va aparte." },
+      "topic": "scientific method",
+      "source": "https://www.sciencekids.co.nz/sciencefacts.html"
+    },
+    {
+      "id": "science-medium-064", "level": "medium", "type": "tf", "lang": "both", "emoji": "📓",
+      "q": { "en": "An experiment that shows a hypothesis was wrong has failed.", "es": "Un experimento que muestra que la hipótesis era falsa fracasó." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A wrong hypothesis is useful: it rules out an idea and points to the next question. Many discoveries began with a surprise.", "es": "Una hipótesis equivocada sirve: descarta una idea y señala la siguiente pregunta. Muchos descubrimientos empezaron con una sorpresa inesperada." },
+      "topic": "scientific method",
+      "source": "https://kids.britannica.com/kids/article/science/353547"
+    },
+    {
+      "id": "science-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "♻️",
+      "q": { "en": "What does the number inside a bottle's recycling triangle tell you?", "es": "¿Qué te dice el número dentro del triángulo de reciclaje de una botella?" },
+      "choices": [
+        { "en": "How many times it was recycled", "es": "Cuántas veces se ha reciclado" },
+        { "en": "How heavy the bottle is", "es": "Cuánto pesa la botella" },
+        { "en": "Which factory made it", "es": "Qué fábrica la hizo" },
+        { "en": "Which kind of plastic it is", "es": "Qué tipo de plástico es" }
+      ],
+      "answer": 3,
+      "why": { "en": "Numbers 1 to 7 name the plastic. Drink bottles are usually 1, which is often spun into fleece jackets and carpet.", "es": "Los números 1 al 7 dicen qué plástico es. Las botellas suelen ser 1, y con ellas se hacen chamarras de tela polar." },
+      "topic": "recycling",
+      "source": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/plastics.html"
+    },
+    {
+      "id": "science-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥫",
+      "q": { "en": "Which material can be melted and remade over and over forever?", "es": "¿Qué material se puede fundir y rehacer una y otra vez para siempre?" },
+      "choices": [
+        { "en": "Aluminium", "es": "Aluminio" },
+        { "en": "Paper", "es": "Papel" },
+        { "en": "Cardboard", "es": "Cartón" },
+        { "en": "Most plastic", "es": "Casi todo el plástico" }
+      ],
+      "answer": 0,
+      "why": { "en": "Metal and glass can be recycled endlessly. Recycling one aluminium can saves enough energy to run a television for three hours.", "es": "El metal y el vidrio se reciclan sin fin. Reciclar una lata de aluminio ahorra la energía para encender un televisor unas tres horas." },
+      "topic": "recycling",
+      "source": "https://kids.nationalgeographic.com/nature/article/recycling"
+    },
+    {
+      "id": "science-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍕",
+      "q": { "en": "Why does a greasy pizza box go in the trash?", "es": "¿Por qué una caja de pizza grasosa va a la basura?" },
+      "choices": [
+        { "en": "Cardboard cannot be recycled at all", "es": "El cartón no se puede reciclar" },
+        { "en": "Oil ruins the paper fibres", "es": "El aceite arruina las fibras del papel" },
+        { "en": "The box is the wrong shape", "es": "La caja tiene la forma equivocada" },
+        { "en": "Printed ink blocks recycling", "es": "La tinta impresa impide el reciclaje" }
+      ],
+      "answer": 1,
+      "why": { "en": "Recycling paper means soaking it into a pulp, and oil floats and weakens the new fibres. Tear off the clean lid instead.", "es": "Reciclar papel significa deshacerlo en pulpa, y la grasa flota y debilita las fibras nuevas. Arranca la tapa limpia y recíclala aparte." },
+      "topic": "recycling",
+      "source": "https://kids.nationalgeographic.com/nature/article/reduce-reuse-recycle"
+    },
+    {
+      "id": "science-medium-068", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "About how long does a plastic bottle take to break down?", "es": "¿Más o menos cuánto tarda una botella de plástico en deshacerse?" },
+      "choices": [
+        { "en": "A few months", "es": "Unos pocos meses" },
+        { "en": "About ten years", "es": "Unos diez años" },
+        { "en": "Hundreds of years", "es": "Cientos de años" },
+        { "en": "One year", "es": "Un año" }
+      ],
+      "answer": 2,
+      "why": { "en": "Plastic is built from long chains no microbe knows how to eat, so it mostly crumbles into tiny pieces instead of rotting.", "es": "El plástico está hecho de cadenas largas que ningún microbio sabe comer, así que se rompe en pedacitos en vez de pudrirse." },
+      "topic": "recycling",
+      "source": "https://kids.nationalgeographic.com/nature/article/plastic-pollution"
     }
   ]
 }

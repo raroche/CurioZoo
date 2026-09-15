@@ -1384,6 +1384,1344 @@
       "why": { "en": "Voyager one left the planets behind long ago and carries a golden disc of Earth's music, greetings and animal sounds.", "es": "La Voyager uno dejó atrás los planetas hace mucho y lleva un disco dorado con música, saludos y sonidos de la Tierra." },
       "topic": "space probes",
       "source": "https://spaceplace.nasa.gov/voyager-to-stars/en/"
+    },
+    {
+      "id": "space-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "Which planet is fourth from the Sun?", "es": "¿Qué planeta es el cuarto desde el Sol?" },
+      "choices": [
+        { "en": "Jupiter", "es": "Júpiter" },
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Saturn", "es": "Saturno" },
+        { "en": "Mars", "es": "Marte" }
+      ],
+      "answer": 3,
+      "why": { "en": "Counting out from the Sun: Mercury, Venus, Earth, Mars. Mars is the last of the four rocky planets.", "es": "Contando desde el Sol: Mercurio, Venus, la Tierra, Marte. Marte es el último de los cuatro planetas rocosos." },
+      "topic": "planet order",
+      "source": "https://spaceplace.nasa.gov/planets/en/"
+    },
+    {
+      "id": "space-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Which planet sits between Mars and Saturn?", "es": "¿Qué planeta está entre Marte y Saturno?" },
+      "choices": [
+        { "en": "Neptune", "es": "Neptuno" },
+        { "en": "Jupiter", "es": "Júpiter" },
+        { "en": "Uranus", "es": "Urano" },
+        { "en": "Earth", "es": "La Tierra" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jupiter is fifth from the Sun and heavier than all the other planets put together, twice over.", "es": "Júpiter es el quinto desde el Sol y pesa más que todos los demás planetas juntos, dos veces." },
+      "topic": "planet order",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "id": "space-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "☄️",
+      "q": { "en": "Where would you find the main asteroid belt?", "es": "¿Dónde está el cinturón principal de asteroides?" },
+      "choices": [
+        { "en": "Between Earth and Mars", "es": "Entre la Tierra y Marte" },
+        { "en": "Beyond Neptune", "es": "Más allá de Neptuno" },
+        { "en": "Between Venus and Earth", "es": "Entre Venus y la Tierra" },
+        { "en": "Between Mars and Jupiter", "es": "Entre Marte y Júpiter" }
+      ],
+      "answer": 3,
+      "why": { "en": "Millions of rocky leftovers circle there, but they are so spread out that spacecraft fly through without trouble.", "es": "Millones de rocas sobrantes giran ahí, pero están tan separadas que las naves pasan entre ellas sin problema." },
+      "topic": "asteroids",
+      "source": "https://science.nasa.gov/solar-system/asteroids/"
+    },
+    {
+      "id": "space-medium-007", "level": "medium", "type": "tf", "lang": "both", "emoji": "🪨",
+      "q": { "en": "The four planets closest to the Sun are all made of rock.", "es": "Los cuatro planetas más cercanos al Sol están hechos de roca." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mercury, Venus, Earth and Mars have solid ground, while the four outer planets are giant balls of gas and ice.", "es": "Mercurio, Venus, la Tierra y Marte tienen suelo sólido, mientras que los cuatro planetas exteriores son bolas de gas y hielo." },
+      "topic": "inner planets",
+      "source": "https://spaceplace.nasa.gov/planets/en/"
+    },
+    {
+      "id": "space-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "Which is the smallest planet in our solar system?", "es": "¿Cuál es el planeta más pequeño del sistema solar?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte" },
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Earth", "es": "La Tierra" },
+        { "en": "Mercury", "es": "Mercurio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mercury is barely bigger than Earth's Moon, and it is so small that its gravity holds almost no air.", "es": "Mercurio es apenas más grande que la Luna, y es tan pequeño que su gravedad casi no retiene aire." },
+      "topic": "mercury",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "id": "space-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "About how long is one year on Mercury?", "es": "¿Cuánto dura un año en Mercurio?" },
+      "choices": [
+        { "en": "88 Earth days", "es": "88 días terrestres" },
+        { "en": "225 Earth days", "es": "225 días terrestres" },
+        { "en": "30 Earth days", "es": "30 días terrestres" },
+        { "en": "365 Earth days", "es": "365 días terrestres" }
+      ],
+      "answer": 0,
+      "why": { "en": "Mercury runs the shortest lap around the Sun, so a child there would have a birthday every three months.", "es": "Mercurio da la vuelta más corta al Sol, así que ahí un niño cumpliría años cada tres meses." },
+      "topic": "mercury",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "id": "space-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "How does the surface of Mercury look up close?", "es": "¿Cómo se ve la superficie de Mercurio de cerca?" },
+      "choices": [
+        { "en": "Swirling orange clouds", "es": "Nubes anaranjadas en remolino" },
+        { "en": "Craters everywhere, like the Moon", "es": "Cráteres por todas partes, como la Luna" },
+        { "en": "Cracked blue ice", "es": "Hielo azul agrietado" },
+        { "en": "Red sand dunes", "es": "Dunas de arena roja" }
+      ],
+      "answer": 1,
+      "why": { "en": "With almost no air to slow them, space rocks hit Mercury hard and leave craters that stay for billions of years.", "es": "Casi sin aire que las frene, las rocas del espacio golpean fuerte y dejan cráteres que duran miles de millones de años." },
+      "topic": "mercury",
+      "source": "https://science.nasa.gov/mercury/"
+    },
+    {
+      "id": "space-medium-011", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Venus is hotter than Mercury even though Mercury sits closer to the Sun.", "es": "Venus es más caliente que Mercurio aunque Mercurio está más cerca del Sol." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "A thick blanket of carbon dioxide traps heat on Venus, keeping it near 465 degrees Celsius, 870 Fahrenheit, day and night.", "es": "Una capa gruesa de dióxido de carbono atrapa el calor en Venus y lo mantiene cerca de 465 grados Celsius, 870 Fahrenheit." },
+      "topic": "venus",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "id": "space-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌅",
+      "q": { "en": "On Venus, where would you see the Sun rise?", "es": "En Venus, ¿por dónde verías salir el Sol?" },
+      "choices": [
+        { "en": "In the east", "es": "Por el este" },
+        { "en": "In the north", "es": "Por el norte" },
+        { "en": "In the south", "es": "Por el sur" },
+        { "en": "In the west", "es": "Por el oeste" }
+      ],
+      "answer": 3,
+      "why": { "en": "Venus turns backwards compared with the other planets, so its sunrises happen in the west and its sunsets in the east.", "es": "Venus gira al revés que los demás planetas, así que ahí el Sol sale por el oeste y se pone por el este." },
+      "topic": "venus",
+      "source": "https://science.nasa.gov/venus/facts/"
+    },
+    {
+      "id": "space-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "Which planet shines brightest in our evening sky?", "es": "¿Qué planeta brilla más en el cielo de la tarde?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte" },
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Jupiter", "es": "Júpiter" },
+        { "en": "Saturn", "es": "Saturno" }
+      ],
+      "answer": 1,
+      "why": { "en": "Venus is wrapped in bright clouds that bounce sunlight back, so people once called it the evening star.", "es": "Venus está envuelto en nubes brillantes que rebotan la luz del Sol, por eso lo llamaban el lucero de la tarde." },
+      "topic": "venus",
+      "source": "https://kids.britannica.com/kids/article/Venus/353663"
+    },
+    {
+      "id": "space-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "Which of these makes Earth special among the planets?", "es": "¿Qué hace especial a la Tierra entre los planetas?" },
+      "choices": [
+        { "en": "Oceans of liquid water on its surface", "es": "Océanos de agua líquida en su superficie" },
+        { "en": "Rings of ice all around it", "es": "Anillos de hielo a su alrededor" },
+        { "en": "A thick cloud of orange haze", "es": "Una nube espesa de niebla anaranjada" },
+        { "en": "Three small rocky moons", "es": "Tres lunas pequeñas y rocosas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth sits at the right distance from the Sun for water to stay liquid, which is why life thrives here.", "es": "La Tierra está a la distancia justa del Sol para que el agua siga líquida, y por eso aquí hay vida." },
+      "topic": "earth as a planet",
+      "source": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "id": "space-medium-015", "level": "medium", "type": "tf", "lang": "both", "emoji": "⏰",
+      "q": { "en": "Earth takes exactly 24 hours to spin around once.", "es": "La Tierra tarda exactamente 24 horas en dar un giro." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "One spin takes 23 hours and 56 minutes; the extra four minutes come from Earth also moving along its orbit.", "es": "Un giro dura 23 horas y 56 minutos; los cuatro minutos extra vienen de que la Tierra también avanza en su órbita." },
+      "topic": "earth's day",
+      "source": "https://spaceplace.nasa.gov/days/en/"
+    },
+    {
+      "id": "space-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "Why does February get an extra day every four years?", "es": "¿Por qué febrero tiene un día extra cada cuatro años?" },
+      "choices": [
+        { "en": "The Moon's cycle falls a day behind", "es": "El ciclo de la Luna se atrasa un día" },
+        { "en": "Earth spins a little slower in February", "es": "La Tierra gira más despacio en febrero" },
+        { "en": "Earth's orbit lasts about 365 and a quarter days", "es": "La órbita de la Tierra dura unos 365 días y cuarto" },
+        { "en": "The Sun pulls Earth closer that month", "es": "El Sol jala a la Tierra ese mes" }
+      ],
+      "answer": 2,
+      "why": { "en": "Those leftover quarter days add up to one whole day every four years, and we call that year a leap year.", "es": "Esos cuartos de día sobrantes suman un día completo cada cuatro años, y ese año se llama año bisiesto." },
+      "topic": "earth's year",
+      "source": "https://spaceplace.nasa.gov/leap-year/en/"
+    },
+    {
+      "id": "space-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕐",
+      "q": { "en": "About how long is one day on Mars?", "es": "¿Cuánto dura un día en Marte?" },
+      "choices": [
+        { "en": "About 10 hours", "es": "Unas 10 horas" },
+        { "en": "About 59 days", "es": "Unos 59 días" },
+        { "en": "About 16 hours", "es": "Unas 16 horas" },
+        { "en": "About 24 hours and 37 minutes", "es": "Unas 24 horas y 37 minutos" }
+      ],
+      "answer": 3,
+      "why": { "en": "A Martian day is called a sol, and it is so close to ours that rover teams live on Mars time.", "es": "El día marciano se llama sol, y se parece tanto al nuestro que los equipos de los rovers viven en hora marciana." },
+      "topic": "mars",
+      "source": "https://spaceplace.nasa.gov/all-about-mars/en/"
+    },
+    {
+      "id": "space-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "About how tall is Olympus Mons on Mars?", "es": "¿Qué tan alto es el monte Olimpo en Marte?" },
+      "choices": [
+        { "en": "About 5 km, 3 miles", "es": "Unos 5 km, 3 millas" },
+        { "en": "About 22 km, 13 miles", "es": "Unos 22 km, 13 millas" },
+        { "en": "About 9 km, 5.5 miles", "es": "Unos 9 km, 5.5 millas" },
+        { "en": "About 60 km, 37 miles", "es": "Unos 60 km, 37 millas" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Martian Mount Olympus stands almost three times as tall as Everest and is about as wide as Arizona.", "es": "El monte Olimpo de Marte es casi tres veces más alto que el Everest y tan ancho como Arizona." },
+      "topic": "mars",
+      "source": "https://science.nasa.gov/resource/olympus-mons/"
+    },
+    {
+      "id": "space-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "What are the names of the two moons of Mars?", "es": "¿Cómo se llaman las dos lunas de Marte?" },
+      "choices": [
+        { "en": "Phobos and Deimos", "es": "Fobos y Deimos" },
+        { "en": "Io and Europa", "es": "Ío y Europa" },
+        { "en": "Titan and Rhea", "es": "Titán y Rea" },
+        { "en": "Charon and Nix", "es": "Caronte y Nix" }
+      ],
+      "answer": 0,
+      "why": { "en": "Phobos and Deimos are lumpy little rocks, and Phobos races around Mars three times in a single Martian day.", "es": "Fobos y Deimos son rocas pequeñas y desiguales; Fobos da tres vueltas a Marte en un solo día marciano." },
+      "topic": "moons",
+      "source": "https://science.nasa.gov/mars/moons/"
+    },
+    {
+      "id": "space-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌇",
+      "q": { "en": "What color is the Martian sky at sunset?", "es": "¿De qué color es el cielo de Marte al atardecer?" },
+      "choices": [
+        { "en": "Butterscotch orange", "es": "Naranja caramelo" },
+        { "en": "Bright green", "es": "Verde brillante" },
+        { "en": "Blue", "es": "Azul" },
+        { "en": "Deep purple", "es": "Morado oscuro" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fine red dust scatters light the opposite way to our air, so Martian days glow orange and sunsets turn blue.", "es": "El polvo rojo dispersa la luz al revés que nuestro aire, así que el día es anaranjado y el atardecer azul." },
+      "topic": "mars",
+      "source": "https://science.nasa.gov/resource/blue-sunset-on-mars/"
+    },
+    {
+      "id": "space-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "About how many Earths would fit inside Jupiter?", "es": "¿Cuántas Tierras cabrían dentro de Júpiter?" },
+      "choices": [
+        { "en": "About 13", "es": "Unas 13" },
+        { "en": "About 1,300", "es": "Unas 1,300" },
+        { "en": "About 130", "es": "Unas 130" },
+        { "en": "About 13,000", "es": "Unas 13,000" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jupiter is so wide that all the other planets could fit inside it with room left over.", "es": "Júpiter es tan ancho que todos los demás planetas cabrían dentro de él y todavía sobraría espacio." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "id": "space-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "How does the Great Red Spot compare with Earth?", "es": "¿Cómo se compara la Gran Mancha Roja con la Tierra?" },
+      "choices": [
+        { "en": "It is about the size of Mexico", "es": "Es del tamaño de México" },
+        { "en": "It is about as wide as the Moon", "es": "Es tan ancha como la Luna" },
+        { "en": "It is smaller than a hurricane", "es": "Es más chica que un huracán" },
+        { "en": "It is wider than the whole Earth", "es": "Es más ancha que toda la Tierra" }
+      ],
+      "answer": 3,
+      "why": { "en": "This storm has been swirling for at least 150 years, and three Earths once fit across it.", "es": "Esta tormenta lleva al menos 150 años girando, y en otros tiempos cabían tres Tierras a lo ancho." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/jupiter-storms/"
+    },
+    {
+      "id": "space-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "Who first spotted the four big moons of Jupiter?", "es": "¿Quién vio primero las cuatro lunas grandes de Júpiter?" },
+      "choices": [
+        { "en": "Isaac Newton", "es": "Isaac Newton" },
+        { "en": "Nicolaus Copernicus", "es": "Nicolás Copérnico" },
+        { "en": "Edwin Hubble", "es": "Edwin Hubble" },
+        { "en": "Galileo Galilei", "es": "Galileo Galilei" }
+      ],
+      "answer": 3,
+      "why": { "en": "In 1610 Galileo watched four dots move around Jupiter, proving that not everything in the sky circles Earth.", "es": "En 1610 Galileo vio cuatro puntitos moverse alrededor de Júpiter, y así probó que no todo gira alrededor de la Tierra." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/moons/"
+    },
+    {
+      "id": "space-medium-024", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Jupiter is the biggest planet, so it has the longest day.", "es": "Júpiter es el planeta más grande, así que tiene el día más largo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Jupiter spins fastest of all, finishing a full turn in about 10 hours, which makes its day the shortest.", "es": "Júpiter gira más rápido que todos y completa una vuelta en unas 10 horas, así que tiene el día más corto." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/facts/"
+    },
+    {
+      "id": "space-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "What are the rings of Saturn actually made of?", "es": "¿De qué están hechos en realidad los anillos de Saturno?" },
+      "choices": [
+        { "en": "Solid sheets of metal", "es": "Láminas sólidas de metal" },
+        { "en": "Clouds of colored gas", "es": "Nubes de gas de colores" },
+        { "en": "Fine red sand", "es": "Arena roja muy fina" },
+        { "en": "Chunks of ice and rock", "es": "Pedazos de hielo y roca" }
+      ],
+      "answer": 3,
+      "why": { "en": "The pieces range from grains of sugar to lumps the size of a house, all circling Saturn separately.", "es": "Los pedazos van desde granos de azúcar hasta bloques del tamaño de una casa, y cada uno gira por su cuenta." },
+      "topic": "saturn",
+      "source": "https://spaceplace.nasa.gov/saturn-rings/en/"
+    },
+    {
+      "id": "space-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "How thick are the wide rings of Saturn in most places?", "es": "¿Qué grosor tienen los anillos anchos de Saturno?" },
+      "choices": [
+        { "en": "About 10 metres, 30 feet", "es": "Unos 10 metros, 30 pies" },
+        { "en": "About 1 km, 0.6 miles", "es": "Un kilómetro, 0.6 millas" },
+        { "en": "About 100 km, 62 miles", "es": "Unos 100 km, 62 millas" },
+        { "en": "About 1000 km, 620 miles", "es": "Unos 1000 km, 620 millas" }
+      ],
+      "answer": 0,
+      "why": { "en": "The rings stretch about 280,000 km, 175,000 miles across, yet they are thinner than a school building is tall.", "es": "Los anillos miden unos 280,000 km, 175,000 millas de ancho, pero son más delgados que la altura de una escuela." },
+      "topic": "saturn",
+      "source": "https://science.nasa.gov/saturn/rings/"
+    },
+    {
+      "id": "space-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Which planet is smaller than the moon Titan?", "es": "¿Qué planeta es más pequeño que Titán, la luna de Saturno?" },
+      "choices": [
+        { "en": "Mars", "es": "Marte" },
+        { "en": "Venus", "es": "Venus" },
+        { "en": "Earth", "es": "La Tierra" },
+        { "en": "Mercury", "es": "Mercurio" }
+      ],
+      "answer": 3,
+      "why": { "en": "Titan is the only moon with a thick atmosphere, and it is wider than the planet Mercury.", "es": "Titán es la única luna con una atmósfera espesa, y es más ancha que el planeta Mercurio." },
+      "topic": "moons",
+      "source": "https://science.nasa.gov/saturn/moons/titan/"
+    },
+    {
+      "id": "space-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "About how long is one year on Saturn?", "es": "¿Cuánto dura un año en Saturno?" },
+      "choices": [
+        { "en": "About 12 Earth years", "es": "Unos 12 años terrestres" },
+        { "en": "About 84 Earth years", "es": "Unos 84 años terrestres" },
+        { "en": "About 29 Earth years", "es": "Unos 29 años terrestres" },
+        { "en": "About 165 Earth years", "es": "Unos 165 años terrestres" }
+      ],
+      "answer": 2,
+      "why": { "en": "Saturn takes so long to circle the Sun that a person born there would wait 29 years for one birthday.", "es": "Saturno tarda tanto en rodear el Sol que alguien nacido ahí esperaría 29 años para cumplir un año." },
+      "topic": "saturn",
+      "source": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "id": "space-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛢️",
+      "q": { "en": "How far over is Uranus tipped on its side?", "es": "¿Cuánto está inclinado Urano sobre su costado?" },
+      "choices": [
+        { "en": "About 23 degrees", "es": "Unos 23 grados" },
+        { "en": "About 98 degrees", "es": "Unos 98 grados" },
+        { "en": "About 45 degrees", "es": "Unos 45 grados" },
+        { "en": "About 180 degrees", "es": "Unos 180 grados" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tipped almost fully over, Uranus rolls around the Sun like a barrel, giving each pole 21 years of sunlight.", "es": "Volcado casi por completo, Urano rueda alrededor del Sol como un barril y cada polo recibe 21 años de luz." },
+      "topic": "uranus",
+      "source": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "id": "space-medium-030", "level": "medium", "type": "mc", "lang": "both", "emoji": "💙",
+      "q": { "en": "What gives Uranus and Neptune their blue-green color?", "es": "¿Qué le da a Urano y Neptuno su color azul verdoso?" },
+      "choices": [
+        { "en": "Methane gas in their air", "es": "El metano de su aire" },
+        { "en": "Oceans of blue water", "es": "Océanos de agua azul" },
+        { "en": "Clouds of blue dust", "es": "Nubes de polvo azul" },
+        { "en": "Rings of blue ice", "es": "Anillos de hielo azul" }
+      ],
+      "answer": 0,
+      "why": { "en": "Methane soaks up red light and throws back blue, which is why both ice giants look like pale blue marbles.", "es": "El metano absorbe la luz roja y devuelve la azul, por eso los dos gigantes helados parecen canicas azul pálido." },
+      "topic": "uranus",
+      "source": "https://science.nasa.gov/uranus/facts/"
+    },
+    {
+      "id": "space-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Which planet has the fastest winds in the solar system?", "es": "¿Qué planeta tiene los vientos más rápidos del sistema solar?" },
+      "choices": [
+        { "en": "Jupiter", "es": "Júpiter" },
+        { "en": "Saturn", "es": "Saturno" },
+        { "en": "Neptune", "es": "Neptuno" },
+        { "en": "Mars", "es": "Marte" }
+      ],
+      "answer": 2,
+      "why": { "en": "Winds on Neptune whip along at about 2,000 km/h, 1,200 mph, faster than a jet plane flies.", "es": "Los vientos de Neptuno soplan a unos 2,000 km/h, 1,200 millas por hora, más rápido que un avión de pasajeros." },
+      "topic": "neptune",
+      "source": "https://science.nasa.gov/neptune/facts/"
+    },
+    {
+      "id": "space-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "✏️",
+      "q": { "en": "How did astronomers first find the planet Neptune?", "es": "¿Cómo encontraron los astrónomos el planeta Neptuno?" },
+      "choices": [
+        { "en": "A robot landed on it", "es": "Un robot aterrizó en él" },
+        { "en": "A comet crashed into it", "es": "Un cometa chocó contra él" },
+        { "en": "Math predicted where to look", "es": "Las matemáticas predijeron dónde buscar" },
+        { "en": "Sailors saw it with bare eyes", "es": "Unos marineros lo vieron a simple vista" }
+      ],
+      "answer": 2,
+      "why": { "en": "Uranus wandered off its expected path, so astronomers calculated where a hidden planet must sit, then pointed a telescope there.", "es": "Urano se salía de su camino esperado, así que calcularon dónde debía estar un planeta oculto y apuntaron el telescopio ahí." },
+      "topic": "neptune",
+      "source": "https://kids.britannica.com/kids/article/Neptune/353462"
+    },
+    {
+      "id": "space-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Which is the largest moon in our solar system?", "es": "¿Cuál es la luna más grande del sistema solar?" },
+      "choices": [
+        { "en": "Titan", "es": "Titán" },
+        { "en": "Europa", "es": "Europa" },
+        { "en": "Ganymede", "es": "Ganímedes" },
+        { "en": "Our Moon", "es": "Nuestra Luna" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ganymede circles Jupiter and is bigger than Mercury, and it even has a magnetic field of its own.", "es": "Ganímedes gira alrededor de Júpiter, es más grande que Mercurio y hasta tiene su propio campo magnético." },
+      "topic": "moons",
+      "source": "https://science.nasa.gov/jupiter/moons/ganymede/"
+    },
+    {
+      "id": "space-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "What do scientists think hides under the ice of Europa?", "es": "¿Qué creen los científicos que hay bajo el hielo de Europa?" },
+      "choices": [
+        { "en": "A core of pure iron", "es": "Un núcleo de hierro puro" },
+        { "en": "A layer of dry sand", "es": "Una capa de arena seca" },
+        { "en": "A sea of liquid methane", "es": "Un mar de metano líquido" },
+        { "en": "A deep salty ocean", "es": "Un océano profundo y salado" }
+      ],
+      "answer": 3,
+      "why": { "en": "The cracked ice of Europa hides more water than all of Earth's oceans together, a fine place to search for life.", "es": "El hielo agrietado de Europa esconde más agua que todos los océanos de la Tierra juntos, un buen lugar para buscar vida." },
+      "topic": "moons",
+      "source": "https://science.nasa.gov/jupiter/moons/europa/"
+    },
+    {
+      "id": "space-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which moon has more erupting volcanoes than anywhere else?", "es": "¿Qué luna tiene más volcanes en erupción que ningún otro lugar?" },
+      "choices": [
+        { "en": "Io", "es": "Ío" },
+        { "en": "Titan", "es": "Titán" },
+        { "en": "Callisto", "es": "Calisto" },
+        { "en": "Phobos", "es": "Fobos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Jupiter squeezes and stretches Io as it orbits, heating its insides until hundreds of volcanoes blast sulfur into space.", "es": "Júpiter aprieta y estira a Ío mientras gira, calentando su interior hasta que cientos de volcanes lanzan azufre al espacio." },
+      "topic": "moons",
+      "source": "https://science.nasa.gov/jupiter/moons/io/"
+    },
+    {
+      "id": "space-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "About how far away is the Moon from Earth?", "es": "¿A qué distancia está la Luna de la Tierra?" },
+      "choices": [
+        { "en": "About 38,000 km, 24,000 miles", "es": "Unos 38,000 km, 24,000 millas" },
+        { "en": "About 3.8 million km, 2.4 million miles", "es": "Unos 3.8 millones de km, 2.4 millones de millas" },
+        { "en": "About 384,000 km, 239,000 miles", "es": "Unos 384,000 km, 239,000 millas" },
+        { "en": "About 1 million km, 620,000 miles", "es": "Un millón de km, 620,000 millas" }
+      ],
+      "answer": 2,
+      "why": { "en": "All eight planets could be lined up in the gap between Earth and the Moon with room to spare.", "es": "Los ocho planetas cabrían en fila en el hueco entre la Tierra y la Luna, y todavía sobraría espacio." },
+      "topic": "the moon",
+      "source": "https://spaceplace.nasa.gov/moon-distance/en/"
+    },
+    {
+      "id": "space-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌓",
+      "q": { "en": "How long does the Moon take to go through all its phases?", "es": "¿Cuánto tarda la Luna en pasar por todas sus fases?" },
+      "choices": [
+        { "en": "About 7 days", "es": "Unos 7 días" },
+        { "en": "About 14 days", "es": "Unos 14 días" },
+        { "en": "About 29.5 days", "es": "Unos 29.5 días" },
+        { "en": "About 365 days", "es": "Unos 365 días" }
+      ],
+      "answer": 2,
+      "why": { "en": "That cycle gave us the word month, and it is why old calendars counted time by the Moon.", "es": "Ese ciclo nos dio la palabra mes, y por eso los calendarios antiguos medían el tiempo con la Luna." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌒",
+      "q": { "en": "What causes the changing shapes of the Moon?", "es": "¿Qué causa los cambios de forma de la Luna?" },
+      "choices": [
+        { "en": "Earth's shadow falls on it", "es": "La sombra de la Tierra cae sobre ella" },
+        { "en": "Clouds cover part of it", "es": "Las nubes tapan una parte" },
+        { "en": "We see more or less of its sunlit half", "es": "Vemos más o menos de su mitad iluminada" },
+        { "en": "The Moon changes shape as it spins", "es": "La Luna cambia de forma al girar" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Sun always lights half the Moon; as the Moon circles us, we see more or less of that lit half.", "es": "El Sol siempre ilumina la mitad de la Luna; al girar a nuestro alrededor, vemos más o menos de esa mitad." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌒",
+      "q": { "en": "Which phase comes right after a new moon?", "es": "¿Qué fase viene justo después de la luna nueva?" },
+      "choices": [
+        { "en": "Full moon", "es": "Luna llena" },
+        { "en": "Waning gibbous", "es": "Gibosa menguante" },
+        { "en": "Waxing crescent", "es": "Luna creciente" },
+        { "en": "Last quarter", "es": "Cuarto menguante" }
+      ],
+      "answer": 2,
+      "why": { "en": "Waxing means growing, so a thin sliver appears and widens a little more each evening for two weeks.", "es": "Creciente quiere decir que aumenta, así que aparece una raya delgada que se ensancha cada noche durante dos semanas." },
+      "topic": "moon phases",
+      "source": "https://spaceplace.nasa.gov/moon-phases/en/"
+    },
+    {
+      "id": "space-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌔",
+      "q": { "en": "What does the word gibbous mean for a Moon phase?", "es": "¿Qué significa la palabra gibosa en las fases de la Luna?" },
+      "choices": [
+        { "en": "Fully dark", "es": "Totalmente oscura" },
+        { "en": "Humped, more than half lit", "es": "Jorobada, más de la mitad iluminada" },
+        { "en": "Exactly half lit", "es": "Exactamente la mitad iluminada" },
+        { "en": "A very thin sliver", "es": "Una raya muy delgada" }
+      ],
+      "answer": 1,
+      "why": { "en": "Gibbous comes from a Latin word for hump, and it names the fat Moon between half and full.", "es": "Gibosa viene de una palabra latina que significa joroba, y nombra a la Luna gorda entre la mitad y la llena." },
+      "topic": "moon phases",
+      "source": "https://science.nasa.gov/moon/moon-phases/"
+    },
+    {
+      "id": "space-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "What gives Earth its four seasons?", "es": "¿Qué le da a la Tierra sus cuatro estaciones?" },
+      "choices": [
+        { "en": "Its tilted axis", "es": "Su eje inclinado" },
+        { "en": "Its distance from the Sun", "es": "Su distancia al Sol" },
+        { "en": "The phases of the Moon", "es": "Las fases de la Luna" },
+        { "en": "The speed of its spin", "es": "La velocidad de su giro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth leans about 23.5 degrees, so each half of the planet takes turns getting more direct sunlight.", "es": "La Tierra está inclinada unos 23.5 grados, así que cada mitad del planeta recibe por turnos más luz directa." },
+      "topic": "seasons",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "space-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "When it is summer in Argentina, what season is it in Canada?", "es": "Cuando es verano en Argentina, ¿qué estación es en Canadá?" },
+      "choices": [
+        { "en": "Summer", "es": "Verano" },
+        { "en": "Spring", "es": "Primavera" },
+        { "en": "Winter", "es": "Invierno" },
+        { "en": "Autumn", "es": "Otoño" }
+      ],
+      "answer": 2,
+      "why": { "en": "The two halves of Earth lean opposite ways, so the seasons south of the equator are flipped.", "es": "Las dos mitades de la Tierra se inclinan al revés, así que al sur del ecuador las estaciones están invertidas." },
+      "topic": "seasons",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "space-medium-043", "level": "medium", "type": "tf", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Earth is closest to the Sun in the middle of northern summer.", "es": "La Tierra está más cerca del Sol a mitad del verano del norte." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Earth comes nearest the Sun in early January; the tilt, not the distance, is what makes the seasons.", "es": "La Tierra pasa más cerca del Sol a principios de enero; lo que crea las estaciones es la inclinación." },
+      "topic": "seasons",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "space-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "What turns the Moon red during a lunar eclipse?", "es": "¿Qué pone roja a la Luna en un eclipse lunar?" },
+      "choices": [
+        { "en": "A red glow from Earth's oceans", "es": "Un resplandor rojo de los océanos" },
+        { "en": "Dust on the surface of the Moon", "es": "El polvo de la superficie lunar" },
+        { "en": "Light reflected from Mars", "es": "Luz reflejada desde Marte" },
+        { "en": "Sunlight bent through Earth's air", "es": "La luz del Sol desviada por el aire terrestre" }
+      ],
+      "answer": 3,
+      "why": { "en": "Earth's air bends red sunrise light around the planet onto the Moon, giving it a deep copper glow.", "es": "El aire de la Tierra desvía la luz rojiza del amanecer hacia la Luna y le da un brillo cobrizo." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/moon/eclipses/"
+    },
+    {
+      "id": "space-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌚",
+      "q": { "en": "During which Moon phase can a solar eclipse happen?", "es": "¿En qué fase lunar puede ocurrir un eclipse solar?" },
+      "choices": [
+        { "en": "New moon", "es": "Luna nueva" },
+        { "en": "Full moon", "es": "Luna llena" },
+        { "en": "First quarter", "es": "Cuarto creciente" },
+        { "en": "Waning crescent", "es": "Menguante delgada" }
+      ],
+      "answer": 0,
+      "why": { "en": "Only at new moon does the Moon pass between us and the Sun, and its shadow seldom lines up.", "es": "Solo en luna nueva pasa la Luna entre nosotros y el Sol, y su sombra pocas veces queda alineada." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/"
+    },
+    {
+      "id": "space-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "About how long does the darkest part of a solar eclipse last?", "es": "¿Cuánto dura la parte más oscura de un eclipse solar?" },
+      "choices": [
+        { "en": "A few seconds", "es": "Unos segundos" },
+        { "en": "About an hour", "es": "Como una hora" },
+        { "en": "Most of the day", "es": "Casi todo el día" },
+        { "en": "A few minutes", "es": "Unos minutos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Totality lasts at most about seven and a half minutes, because the Moon's shadow races across the ground.", "es": "La totalidad dura como mucho siete minutos y medio, porque la sombra de la Luna corre muy rápido por el suelo." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/"
+    },
+    {
+      "id": "space-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "About how far is Earth from the Sun?", "es": "¿A qué distancia está la Tierra del Sol?" },
+      "choices": [
+        { "en": "About 15 million km, 9 million miles", "es": "Unos 15 millones de km, 9 millones de millas" },
+        { "en": "About 1.5 million km, 930,000 miles", "es": "Unos 1.5 millones de km, 930,000 millas" },
+        { "en": "About 150 million km, 93 million miles", "es": "Unos 150 millones de km, 93 millones de millas" },
+        { "en": "About 1.5 billion km, 930 million miles", "es": "Unos 1500 millones de km, 930 millones de millas" }
+      ],
+      "answer": 2,
+      "why": { "en": "Astronomers call that distance one astronomical unit and use it as a ruler for the whole solar system.", "es": "Los astrónomos llaman a esa distancia una unidad astronómica y la usan como regla para todo el sistema solar." },
+      "topic": "earth's orbit",
+      "source": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "id": "space-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "⭕",
+      "q": { "en": "What shape is the path Earth takes around the Sun?", "es": "¿Qué forma tiene el camino de la Tierra alrededor del Sol?" },
+      "choices": [
+        { "en": "A perfect circle", "es": "Un círculo perfecto" },
+        { "en": "A long thin oval", "es": "Un óvalo largo y delgado" },
+        { "en": "A figure eight", "es": "Un ocho" },
+        { "en": "A slightly squashed circle", "es": "Un círculo un poco aplastado" }
+      ],
+      "answer": 3,
+      "why": { "en": "Orbits are ellipses, but Earth's is so close to round that a drawing of it looks like a circle.", "es": "Las órbitas son elipses, pero la de la Tierra es tan redonda que en un dibujo parece un círculo." },
+      "topic": "earth's orbit",
+      "source": "https://spaceplace.nasa.gov/orbits/en/"
+    },
+    {
+      "id": "space-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What kind of star is our Sun?", "es": "¿Qué tipo de estrella es nuestro Sol?" },
+      "choices": [
+        { "en": "A red giant", "es": "Una gigante roja" },
+        { "en": "A medium yellow dwarf", "es": "Una enana amarilla mediana" },
+        { "en": "A blue supergiant", "es": "Una supergigante azul" },
+        { "en": "A white dwarf", "es": "Una enana blanca" }
+      ],
+      "answer": 1,
+      "why": { "en": "Among the stars our Sun is quite ordinary, and most stars in the galaxy are smaller and dimmer.", "es": "Entre las estrellas, nuestro Sol es bastante común, y la mayoría de las estrellas de la galaxia son más pequeñas." },
+      "topic": "the sun as a star",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "About how wide is the Sun from side to side?", "es": "¿Qué tan ancho es el Sol?" },
+      "choices": [
+        { "en": "About 140,000 km, 87,000 miles", "es": "Unos 140,000 km, 87,000 millas" },
+        { "en": "About 14,000 km, 8,700 miles", "es": "Unos 14,000 km, 8,700 millas" },
+        { "en": "About 1.4 million km, 865,000 miles", "es": "Unos 1.4 millones de km, 865,000 millas" },
+        { "en": "About 14 million km, 8.7 million miles", "es": "Unos 14 millones de km, 8.7 millones de millas" }
+      ],
+      "answer": 2,
+      "why": { "en": "About 109 Earths would line up across the face of the Sun, which holds most of the solar system's matter.", "es": "Unas 109 Tierras cabrían en fila a lo ancho del Sol, que guarda casi toda la materia del sistema solar." },
+      "topic": "the sun as a star",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕶️",
+      "q": { "en": "What do we call the dark patches seen on the Sun?", "es": "¿Cómo se llaman las manchas oscuras que se ven en el Sol?" },
+      "choices": [
+        { "en": "Solar flares", "es": "Fulguraciones solares" },
+        { "en": "Craters", "es": "Cráteres" },
+        { "en": "Comet shadows", "es": "Sombras de cometas" },
+        { "en": "Sunspots", "es": "Manchas solares" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sunspots are cooler patches where the Sun's magnetism is tangled, and some of them are wider than Earth.", "es": "Las manchas solares son zonas más frías donde el magnetismo del Sol se enreda, y algunas son más anchas que la Tierra." },
+      "topic": "the sun as a star",
+      "source": "https://spaceplace.nasa.gov/sunspots/en/"
+    },
+    {
+      "id": "space-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "About how high above Earth does the space station orbit?", "es": "¿A qué altura sobre la Tierra orbita la estación espacial?" },
+      "choices": [
+        { "en": "About 400 km, 250 miles", "es": "Unos 400 km, 250 millas" },
+        { "en": "About 40 km, 25 miles", "es": "Unos 40 km, 25 millas" },
+        { "en": "About 4,000 km, 2,500 miles", "es": "Unos 4,000 km, 2,500 millas" },
+        { "en": "About 36,000 km, 22,000 miles", "es": "Unos 36,000 km, 22,000 millas" }
+      ],
+      "answer": 0,
+      "why": { "en": "That is roughly the distance from Mexico City to Guadalajara, but straight up instead of across the ground.", "es": "Es más o menos la distancia de la Ciudad de México a Guadalajara, pero hacia arriba en vez de a lo largo." },
+      "topic": "the space station",
+      "source": "https://spaceplace.nasa.gov/space-station/en/"
+    },
+    {
+      "id": "space-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "How long does the space station take to circle Earth once?", "es": "¿Cuánto tarda la estación espacial en dar una vuelta a la Tierra?" },
+      "choices": [
+        { "en": "About 90 minutes", "es": "Unos 90 minutos" },
+        { "en": "About 24 hours", "es": "Unas 24 horas" },
+        { "en": "About 12 hours", "es": "Unas 12 horas" },
+        { "en": "About 10 minutes", "es": "Unos 10 minutos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flying at about 28,000 km/h, 17,500 mph, the crew crosses a whole ocean while eating breakfast.", "es": "Vuela a unos 28,000 km/h, 17,500 millas por hora, así que la tripulación cruza un océano mientras desayuna." },
+      "topic": "the space station",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space/The_International_Space_Station"
+    },
+    {
+      "id": "space-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏟️",
+      "q": { "en": "About how big is the space station from end to end?", "es": "¿De qué tamaño es la estación espacial de un extremo al otro?" },
+      "choices": [
+        { "en": "About the size of a school bus", "es": "Como un autobús escolar" },
+        { "en": "About the size of a house", "es": "Como una casa" },
+        { "en": "About the size of a soccer field", "es": "Como una cancha de fútbol" },
+        { "en": "About the size of a city block", "es": "Como una cuadra de la ciudad" }
+      ],
+      "answer": 2,
+      "why": { "en": "Its frame spans about 109 metres, 357 feet, and it was carried up piece by piece over many flights.", "es": "Su armazón mide unos 109 metros, 357 pies, y subió al espacio pieza por pieza en muchos viajes." },
+      "topic": "the space station",
+      "source": "https://spaceplace.nasa.gov/space-station/en/"
+    },
+    {
+      "id": "space-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "📆",
+      "q": { "en": "How long does a crew usually stay on the space station?", "es": "¿Cuánto tiempo suele quedarse una tripulación en la estación espacial?" },
+      "choices": [
+        { "en": "About a week", "es": "Como una semana" },
+        { "en": "About two days", "es": "Como dos días" },
+        { "en": "About five years", "es": "Como cinco años" },
+        { "en": "About six months", "es": "Como seis meses" }
+      ],
+      "answer": 3,
+      "why": { "en": "Six months is long enough for real science but short enough that bones and muscles can recover afterwards.", "es": "Seis meses alcanzan para hacer ciencia de verdad, pero son pocos como para que los huesos y músculos se recuperen." },
+      "topic": "the space station",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space/Astronauts"
+    },
+    {
+      "id": "space-medium-056", "level": "medium", "type": "tf", "lang": "both", "emoji": "🤝",
+      "q": { "en": "The space station was built and is run by a single country.", "es": "La estación espacial fue construida y la maneja un solo país." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Five space agencies from 15 nations share it, and crews speak both English and Russian on board.", "es": "Cinco agencias espaciales de 15 países la comparten, y a bordo las tripulaciones hablan inglés y ruso." },
+      "topic": "the space station",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space/The_International_Space_Station"
+    },
+    {
+      "id": "space-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "What happens to an astronaut's height after months in orbit?", "es": "¿Qué le pasa a la estatura de un astronauta en órbita?" },
+      "choices": [
+        { "en": "It drops about 5 cm, 2 inches", "es": "Baja unos 5 cm, 2 pulgadas" },
+        { "en": "It stays exactly the same", "es": "Se queda exactamente igual" },
+        { "en": "Only the legs grow longer", "es": "Solo le crecen las piernas" },
+        { "en": "It rises about 5 cm, 2 inches", "es": "Sube unos 5 cm, 2 pulgadas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Without gravity squashing it, the spine stretches out, and astronauts shrink back to normal within days of landing.", "es": "Sin la gravedad que la aplaste, la columna se estira, y al aterrizar los astronautas vuelven a su altura en días." },
+      "topic": "astronaut life",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space/Astronauts"
+    },
+    {
+      "id": "space-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "Why do astronauts exercise about two hours every day?", "es": "¿Por qué los astronautas hacen ejercicio dos horas al día?" },
+      "choices": [
+        { "en": "To keep bones and muscles strong", "es": "Para mantener fuertes huesos y músculos" },
+        { "en": "To stay warm in the cold", "es": "Para no pasar frío" },
+        { "en": "To use up the extra food", "es": "Para gastar la comida extra" },
+        { "en": "To help the station stay steady", "es": "Para que la estación no se mueva" }
+      ],
+      "answer": 0,
+      "why": { "en": "Floating means muscles barely work, so without a treadmill and weights astronauts would come home too weak to walk.", "es": "Al flotar, los músculos casi no trabajan, y sin caminadora ni pesas los astronautas volverían demasiado débiles para caminar." },
+      "topic": "astronaut life",
+      "source": "https://spaceplace.nasa.gov/astronaut-exercise/en/"
+    },
+    {
+      "id": "space-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌯",
+      "q": { "en": "Why do space crews eat tortillas instead of sliced bread?", "es": "¿Por qué en el espacio comen tortillas en vez de pan de caja?" },
+      "choices": [
+        { "en": "Tortillas taste better in orbit", "es": "Las tortillas saben mejor en órbita" },
+        { "en": "Bread crumbs float and get everywhere", "es": "Las migas de pan flotan por todas partes" },
+        { "en": "Bread is too heavy to launch", "es": "El pan pesa demasiado para lanzarlo" },
+        { "en": "Tortillas keep for many years", "es": "Las tortillas duran muchos años" }
+      ],
+      "answer": 1,
+      "why": { "en": "Loose crumbs drift into eyes and machines, so a Mexican astronaut suggested tortillas, and crews have used them since.", "es": "Las migas sueltas se meten en los ojos y las máquinas; un astronauta mexicano propuso tortillas y desde entonces se usan." },
+      "topic": "astronaut life",
+      "source": "https://www.nasa.gov/international-space-station/space-station-food/"
+    },
+    {
+      "id": "space-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What happens to the water astronauts sweat on the station?", "es": "¿Qué pasa con el sudor de los astronautas en la estación?" },
+      "choices": [
+        { "en": "It is dumped into space", "es": "Lo tiran al espacio" },
+        { "en": "It is frozen for later use", "es": "Lo congelan para después" },
+        { "en": "It is cleaned and drunk again", "es": "Lo limpian y lo vuelven a beber" },
+        { "en": "It is turned into rocket fuel", "es": "Lo convierten en combustible" }
+      ],
+      "answer": 2,
+      "why": { "en": "Machines recycle sweat, breath and even urine into drinking water, saving the cost of launching heavy tanks.", "es": "Las máquinas reciclan el sudor, el aliento y hasta la orina en agua potable, y así evitan subir tanques pesados." },
+      "topic": "astronaut life",
+      "source": "https://spaceplace.nasa.gov/water-in-space/en/"
+    },
+    {
+      "id": "space-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧑‍🚀",
+      "q": { "en": "What job does the gold layer on a helmet visor do?", "es": "¿Para qué sirve la capa dorada del visor del casco?" },
+      "choices": [
+        { "en": "It blocks the harsh light of the Sun", "es": "Bloquea la luz fuerte del Sol" },
+        { "en": "It makes the suit look smart", "es": "Hace que el traje se vea elegante" },
+        { "en": "It keeps the glass from cracking", "es": "Evita que el vidrio se rompa" },
+        { "en": "It helps the cameras focus", "es": "Ayuda a enfocar las cámaras" }
+      ],
+      "answer": 0,
+      "why": { "en": "A gold film thinner than a hair reflects glare and heat, letting an astronaut look toward the Sun safely.", "es": "Una capa de oro más delgada que un cabello refleja el brillo y el calor, y protege los ojos del astronauta." },
+      "topic": "space suits",
+      "source": "https://spaceplace.nasa.gov/spacesuits/en/"
+    },
+    {
+      "id": "space-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧥",
+      "q": { "en": "What keeps an astronaut cool inside a space suit?", "es": "¿Qué mantiene fresco a un astronauta dentro del traje espacial?" },
+      "choices": [
+        { "en": "A small electric fan", "es": "Un ventilador pequeño" },
+        { "en": "Water tubes woven into the underwear", "es": "Tubos de agua tejidos en la ropa interior" },
+        { "en": "Blocks of ice in a pocket", "es": "Bloques de hielo en un bolsillo" },
+        { "en": "Cold air from a bottle", "es": "Aire frío de una botella" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 90 metres, 300 feet, of thin tubing carries cool water across the body to carry heat away.", "es": "Unos 90 metros, 300 pies, de tubos delgados llevan agua fría por todo el cuerpo para sacar el calor." },
+      "topic": "space suits",
+      "source": "https://spaceplace.nasa.gov/spacesuits/en/"
+    },
+    {
+      "id": "space-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Why do big rockets drop off parts as they climb?", "es": "¿Por qué los cohetes grandes sueltan partes mientras suben?" },
+      "choices": [
+        { "en": "To leave the empty fuel tanks behind", "es": "Para dejar atrás los tanques vacíos" },
+        { "en": "To make the launch look better", "es": "Para que el lanzamiento se vea mejor" },
+        { "en": "To slow the climb down", "es": "Para frenar su subida" },
+        { "en": "To drop mail back to Earth", "es": "Para dejar caer correo a la Tierra" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each stage burns its fuel, then falls away, so the rocket stops hauling dead weight and flies faster.", "es": "Cada etapa quema su combustible y se desprende, así el cohete deja de cargar peso muerto y vuela más rápido." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/rockets/en/"
+    },
+    {
+      "id": "space-medium-064", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "Why does a rocket carry tanks of oxygen with it?", "es": "¿Por qué un cohete lleva tanques de oxígeno?" },
+      "choices": [
+        { "en": "For the crew to drink", "es": "Para que la tripulación lo beba" },
+        { "en": "So the fuel can burn where there is no air", "es": "Para que el combustible arda donde no hay aire" },
+        { "en": "To keep the engines cool", "es": "Para enfriar los motores" },
+        { "en": "To fill up the parachutes", "es": "Para inflar los paracaídas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fire needs oxygen, and space has none, so a rocket brings both fuel and its own oxygen to burn it.", "es": "El fuego necesita oxígeno y en el espacio no hay, así que el cohete lleva combustible y su propio oxígeno." },
+      "topic": "rockets",
+      "source": "https://spaceplace.nasa.gov/rockets/en/"
+    },
+    {
+      "id": "space-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌐",
+      "q": { "en": "Why are many launch pads built close to the equator?", "es": "¿Por qué muchas plataformas de lanzamiento están cerca del ecuador?" },
+      "choices": [
+        { "en": "The weather is always clear there", "es": "Ahí el clima siempre está despejado" },
+        { "en": "The air is thinner there", "es": "El aire es más delgado ahí" },
+        { "en": "Fuel costs less near the equator", "es": "El combustible cuesta menos ahí" },
+        { "en": "Earth spins fastest there and adds speed", "es": "La Tierra gira más rápido ahí y da velocidad" }
+      ],
+      "answer": 3,
+      "why": { "en": "The ground near the equator races east at about 1,670 km/h, 1,040 mph, giving each rocket a free head start.", "es": "El suelo cerca del ecuador corre hacia el este a unos 1,670 km/h, 1,040 millas por hora, y empuja al cohete." },
+      "topic": "rockets",
+      "source": "https://www.esa.int/kids/en/learn/Technology/Rockets/Spaceport"
+    },
+    {
+      "id": "space-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "📱",
+      "q": { "en": "How many satellites must a phone hear to find your street?", "es": "¿Cuántos satélites necesita oír un teléfono para ubicar tu calle?" },
+      "choices": [
+        { "en": "At least one", "es": "Al menos uno" },
+        { "en": "At least two", "es": "Al menos dos" },
+        { "en": "At least four", "es": "Al menos cuatro" },
+        { "en": "At least twelve", "es": "Al menos doce" }
+      ],
+      "answer": 2,
+      "why": { "en": "Three satellites fix your spot on the ground and a fourth sets the exact time the signals took.", "es": "Tres satélites fijan tu lugar en el suelo y un cuarto ajusta el tiempo exacto que tardaron las señales." },
+      "topic": "satellites",
+      "source": "https://spaceplace.nasa.gov/gps/en/"
+    },
+    {
+      "id": "space-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "How does a satellite stay over the same spot on Earth?", "es": "¿Cómo se queda un satélite sobre el mismo punto de la Tierra?" },
+      "choices": [
+        { "en": "It hovers with its engines running", "es": "Se sostiene con motores encendidos" },
+        { "en": "It laps Earth once a day above the equator", "es": "Da una vuelta al día sobre el ecuador" },
+        { "en": "It hangs from a very long cable", "es": "Cuelga de un cable larguísimo" },
+        { "en": "It rests on top of a mountain", "es": "Se apoya en la cima de una montaña" }
+      ],
+      "answer": 1,
+      "why": { "en": "At about 35,800 km, 22,200 miles up, one lap takes exactly one day, so the satellite seems to hold still.", "es": "A unos 35,800 km, 22,200 millas de altura, una vuelta dura justo un día, y el satélite parece quedarse quieto." },
+      "topic": "satellites",
+      "source": "https://kids.britannica.com/students/article/satellite/277020"
+    },
+    {
+      "id": "space-medium-068", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌽",
+      "q": { "en": "Satellites in orbit help farmers decide when to water their fields.", "es": "Los satélites en órbita ayudan a los agricultores a decidir cuándo regar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cameras in orbit see how green and how warm a field is, which tells farmers where the soil is dry.", "es": "Las cámaras en órbita ven qué tan verde y caliente está un campo, y así los agricultores saben dónde falta agua." },
+      "topic": "satellites",
+      "source": "https://spaceplace.nasa.gov/satellite/en/"
+    },
+    {
+      "id": "space-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "👨‍🚀",
+      "q": { "en": "Who was the first person to travel into space?", "es": "¿Quién fue la primera persona en viajar al espacio?" },
+      "choices": [
+        { "en": "Neil Armstrong", "es": "Neil Armstrong" },
+        { "en": "Yuri Gagarin", "es": "Yuri Gagarin" },
+        { "en": "Alan Shepard", "es": "Alan Shepard" },
+        { "en": "Valentina Tereshkova", "es": "Valentina Tereshkova" }
+      ],
+      "answer": 1,
+      "why": { "en": "Yuri Gagarin circled Earth once in 1961, and his whole flight lasted only 108 minutes.", "es": "Yuri Gagarin dio una vuelta a la Tierra en 1961, y todo su vuelo duró apenas 108 minutos." },
+      "topic": "space history",
+      "source": "https://kids.britannica.com/kids/article/Yuri-Gagarin/399707"
+    },
+    {
+      "id": "space-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "👩‍🚀",
+      "q": { "en": "Who was the first woman to fly into space?", "es": "¿Quién fue la primera mujer en volar al espacio?" },
+      "choices": [
+        { "en": "Sally Ride", "es": "Sally Ride" },
+        { "en": "Mae Jemison", "es": "Mae Jemison" },
+        { "en": "Valentina Tereshkova", "es": "Valentina Tereshkova" },
+        { "en": "Ellen Ochoa", "es": "Ellen Ochoa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Valentina Tereshkova flew alone for three days in 1963, and she had trained as a parachute jumper.", "es": "Valentina Tereshkova voló sola durante tres días en 1963, y se había entrenado como paracaidista." },
+      "topic": "space history",
+      "source": "https://kids.britannica.com/students/article/Valentina-Tereshkova/277500"
+    },
+    {
+      "id": "space-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "What was Sputnik 1, launched in 1957?", "es": "¿Qué fue el Sputnik 1, lanzado en 1957?" },
+      "choices": [
+        { "en": "The first rocket engine", "es": "El primer motor de cohete" },
+        { "en": "The first Moon lander", "es": "El primer módulo lunar" },
+        { "en": "The first space telescope", "es": "El primer telescopio espacial" },
+        { "en": "The first satellite in orbit", "es": "El primer satélite en órbita" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sputnik was a metal ball the size of a beach ball that beeped as it circled Earth every 96 minutes.", "es": "Sputnik era una bola de metal del tamaño de un balón de playa que sonaba mientras daba vueltas cada 96 minutos." },
+      "topic": "space history",
+      "source": "https://kids.britannica.com/kids/article/Sputnik/475855"
+    },
+    {
+      "id": "space-medium-072", "level": "medium", "type": "tf", "lang": "both", "emoji": "🚶",
+      "q": { "en": "The first spacewalk happened before anyone landed on the Moon.", "es": "La primera caminata espacial ocurrió antes de que alguien pisara la Luna." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Alexei Leonov floated outside his capsule in 1965, four years before the first footprints appeared on the Moon.", "es": "Alexei Leonov flotó fuera de su cápsula en 1965, cuatro años antes de las primeras huellas en la Luna." },
+      "topic": "space history",
+      "source": "https://www.esa.int/kids/en/learn/Life_in_Space/Living_in_space/Spacewalks"
+    },
+    {
+      "id": "space-medium-073", "level": "medium", "type": "mc", "lang": "both", "emoji": "👣",
+      "q": { "en": "How many people have walked on the surface of the Moon?", "es": "¿Cuántas personas han caminado sobre la superficie de la Luna?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "12", "es": "12" },
+        { "en": "6", "es": "6" },
+        { "en": "24", "es": "24" }
+      ],
+      "answer": 1,
+      "why": { "en": "Twelve astronauts walked there on six Apollo landings, and the last pair left in 1972.", "es": "Doce astronautas caminaron ahí en seis alunizajes del programa Apolo, y la última pareja se fue en 1972." },
+      "topic": "moon landing",
+      "source": "https://science.nasa.gov/moon/moon-landings/"
+    },
+    {
+      "id": "space-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "What did the third Apollo 11 astronaut do during the landing?", "es": "¿Qué hizo el tercer astronauta del Apolo 11 durante el alunizaje?" },
+      "choices": [
+        { "en": "He walked on the Moon as well", "es": "Caminó en la Luna también" },
+        { "en": "He circled the Moon alone in orbit", "es": "Dio vueltas solo en órbita lunar" },
+        { "en": "He waited back on Earth", "es": "Esperó aquí en la Tierra" },
+        { "en": "He drove a rover on the surface", "es": "Manejó un vehículo en la superficie" }
+      ],
+      "answer": 1,
+      "why": { "en": "Michael Collins flew the command module while his crewmates landed, passing behind the Moon with all radio cut off.", "es": "Michael Collins piloteaba el módulo de mando mientras sus compañeros alunizaban, y pasaba detrás de la Luna sin radio." },
+      "topic": "moon landing",
+      "source": "https://science.nasa.gov/mission/apollo-11/"
+    },
+    {
+      "id": "space-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "In which year did people first walk on the Moon?", "es": "¿En qué año caminaron personas por primera vez en la Luna?" },
+      "choices": [
+        { "en": "1957", "es": "1957" },
+        { "en": "1969", "es": "1969" },
+        { "en": "1972", "es": "1972" },
+        { "en": "1981", "es": "1981" }
+      ],
+      "answer": 1,
+      "why": { "en": "Apollo 11 touched down in July 1969, and about 600 million people watched it on television.", "es": "El Apolo 11 alunizó en julio de 1969, y unos 600 millones de personas lo vieron por televisión." },
+      "topic": "moon landing",
+      "source": "https://kids.nationalgeographic.com/space/article/moon-landing"
+    },
+    {
+      "id": "space-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛸",
+      "q": { "en": "What does a flyby spacecraft do at a planet?", "es": "¿Qué hace una nave de sobrevuelo al llegar a un planeta?" },
+      "choices": [
+        { "en": "It lands and drives around", "es": "Aterriza y maneja por ahí" },
+        { "en": "It sweeps past and keeps going", "es": "Pasa de largo y sigue su camino" },
+        { "en": "It circles the planet for years", "es": "Le da vueltas durante años" },
+        { "en": "It scoops up rocks to bring home", "es": "Recoge rocas para traerlas a casa" }
+      ],
+      "answer": 1,
+      "why": { "en": "A flyby gets one quick look but needs far less fuel than slowing down to enter orbit.", "es": "Un sobrevuelo da una sola mirada rápida, pero gasta mucho menos combustible que frenar para entrar en órbita." },
+      "topic": "space probes",
+      "source": "https://spaceplace.nasa.gov/how-do-spacecraft-explore/en/"
+    },
+    {
+      "id": "space-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "Which pair of probes launched in 1977 to tour the outer planets?", "es": "¿Qué par de sondas se lanzó en 1977 para recorrer los planetas exteriores?" },
+      "choices": [
+        { "en": "Viking 1 and 2", "es": "Viking 1 y 2" },
+        { "en": "Pioneer 1 and 2", "es": "Pioneer 1 y 2" },
+        { "en": "Mariner 1 and 2", "es": "Mariner 1 y 2" },
+        { "en": "Voyager 1 and 2", "es": "Voyager 1 y 2" }
+      ],
+      "answer": 3,
+      "why": { "en": "The two Voyagers used the pull of each giant planet to swing on to the next one, saving years of fuel.", "es": "Las dos Voyager usaron el jalón de cada planeta gigante para impulsarse al siguiente y ahorrar años de combustible." },
+      "topic": "space probes",
+      "source": "https://science.nasa.gov/mission/voyager/"
+    },
+    {
+      "id": "space-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "💿",
+      "q": { "en": "What rides along on each Voyager probe for aliens to find?", "es": "¿Qué viaja en cada sonda Voyager por si un extraterrestre la encuentra?" },
+      "choices": [
+        { "en": "A golden disc of sounds and pictures", "es": "Un disco dorado con sonidos e imágenes" },
+        { "en": "A box of Moon rocks", "es": "Una caja con rocas de la Luna" },
+        { "en": "A live plant in a jar", "es": "Una planta viva en un frasco" },
+        { "en": "A map of every city on Earth", "es": "Un mapa de todas las ciudades" }
+      ],
+      "answer": 0,
+      "why": { "en": "The disc holds greetings in 55 languages, birdsong, thunder and music, in case anyone ever finds it.", "es": "El disco lleva saludos en 55 idiomas, cantos de pájaros, truenos y música, por si alguien alguna vez lo encuentra." },
+      "topic": "space probes",
+      "source": "https://science.nasa.gov/mission/voyager/golden-record/"
+    },
+    {
+      "id": "space-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Which spacecraft spent years orbiting Saturn and its moons?", "es": "¿Qué nave pasó años orbitando Saturno y sus lunas?" },
+      "choices": [
+        { "en": "Cassini", "es": "Cassini" },
+        { "en": "Juno", "es": "Juno" },
+        { "en": "Galileo", "es": "Galileo" },
+        { "en": "New Horizons", "es": "New Horizons" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cassini dropped a small lander onto Titan and later dived between Saturn and its rings on purpose.", "es": "Cassini dejó caer un pequeño módulo sobre Titán y luego se lanzó a propósito entre Saturno y sus anillos." },
+      "topic": "space probes",
+      "source": "https://science.nasa.gov/mission/cassini/"
+    },
+    {
+      "id": "space-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎮",
+      "q": { "en": "Why can nobody steer a Mars rover with a joystick?", "es": "¿Por qué nadie maneja un rover de Marte con un control?" },
+      "choices": [
+        { "en": "The rover has no steering wheel", "es": "El rover no tiene volante" },
+        { "en": "Martian wind blows it off course", "es": "El viento marciano lo desvía" },
+        { "en": "Radio signals take minutes to arrive", "es": "Las señales de radio tardan minutos en llegar" },
+        { "en": "Its cameras are far too slow", "es": "Sus cámaras son demasiado lentas" }
+      ],
+      "answer": 2,
+      "why": { "en": "A message takes between 4 and 24 minutes each way, so drivers send a whole day's plan at once.", "es": "Un mensaje tarda entre 4 y 24 minutos en cada dirección, así que envían el plan de todo un día." },
+      "topic": "mars rovers",
+      "source": "https://spaceplace.nasa.gov/mars-rovers/en/"
+    },
+    {
+      "id": "space-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "About how fast does a Mars rover drive?", "es": "¿Qué tan rápido maneja un rover en Marte?" },
+      "choices": [
+        { "en": "Faster than a car on a highway", "es": "Más rápido que un carro en carretera" },
+        { "en": "About as fast as a bicycle", "es": "Como una bicicleta" },
+        { "en": "About as fast as a running dog", "es": "Como un perro corriendo" },
+        { "en": "Slower than a person walking", "es": "Más lento que una persona caminando" }
+      ],
+      "answer": 3,
+      "why": { "en": "Top speed is about 0.14 km/h, 0.09 mph, because a stuck wheel millions of kilometres away cannot be fixed.", "es": "Su velocidad máxima es de unos 0.14 km/h, 0.09 millas por hora, porque una rueda atorada no se puede arreglar." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/msl-curiosity/"
+    },
+    {
+      "id": "space-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚁",
+      "q": { "en": "What did the little helicopter Ingenuity prove on Mars?", "es": "¿Qué demostró el pequeño helicóptero Ingenuity en Marte?" },
+      "choices": [
+        { "en": "That flying works in very thin air", "es": "Que se puede volar en aire muy delgado" },
+        { "en": "That Mars hides water under the sand", "es": "Que Marte esconde agua bajo la arena" },
+        { "en": "That gravity on Mars is strong", "es": "Que la gravedad de Marte es fuerte" },
+        { "en": "That radios work well on Mars", "es": "Que los radios funcionan bien en Marte" }
+      ],
+      "answer": 0,
+      "why": { "en": "Martian air is about one percent as thick as ours, so its blades had to spin about eight times faster.", "es": "El aire de Marte es como el uno por ciento del nuestro, así que sus aspas giraban ocho veces más rápido." },
+      "topic": "mars rovers",
+      "source": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+    },
+    {
+      "id": "space-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "What does a bigger telescope mirror let you do?", "es": "¿Para qué sirve un espejo más grande en un telescopio?" },
+      "choices": [
+        { "en": "Make the whole sky look brighter", "es": "Hacer que todo el cielo brille más" },
+        { "en": "Gather more light and see fainter things", "es": "Juntar más luz y ver cosas más débiles" },
+        { "en": "Pull the stars a little closer", "es": "Acercar un poco las estrellas" },
+        { "en": "Turn gray views into color", "es": "Convertir imágenes grises en color" }
+      ],
+      "answer": 1,
+      "why": { "en": "A mirror works like a bucket for light, so a wider one catches more and shows dimmer, older galaxies.", "es": "Un espejo funciona como una cubeta para la luz, y uno más ancho capta más y muestra galaxias más débiles." },
+      "topic": "telescopes",
+      "source": "https://spaceplace.nasa.gov/telescopes/en/"
+    },
+    {
+      "id": "space-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Why do astronomers put telescopes on high dry mountains?", "es": "¿Por qué ponen telescopios en montañas altas y secas?" },
+      "choices": [
+        { "en": "The stars are a little closer up there", "es": "Las estrellas están más cerca ahí arriba" },
+        { "en": "It is warmer near the top", "es": "Hace más calor en la cima" },
+        { "en": "Thin dry air blurs the view far less", "es": "El aire seco y delgado borronea mucho menos" },
+        { "en": "Rockets can land there easily", "es": "Los cohetes aterrizan fácil ahí" }
+      ],
+      "answer": 2,
+      "why": { "en": "Moving air makes stars twinkle, so the Atacama in Chile, dry and high, gives some of the steadiest skies.", "es": "El aire en movimiento hace titilar las estrellas; el desierto de Atacama, en Chile, seco y alto, da cielos muy estables." },
+      "topic": "telescopes",
+      "source": "https://www.eso.org/public/teles-instr/paranal-observatory/"
+    },
+    {
+      "id": "space-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "📡",
+      "q": { "en": "Where does the ALMA radio telescope array listen from?", "es": "¿Desde dónde escucha el conjunto de radiotelescopios ALMA?" },
+      "choices": [
+        { "en": "An island in the Caribbean", "es": "Una isla del Caribe" },
+        { "en": "A valley in Costa Rica", "es": "Un valle de Costa Rica" },
+        { "en": "A rainforest in Brazil", "es": "Una selva de Brasil" },
+        { "en": "A high plateau in Chile", "es": "Un llano alto de Chile" }
+      ],
+      "answer": 3,
+      "why": { "en": "The 66 dishes of ALMA sit 5,000 metres, 16,400 feet, up on the Chajnantor plateau, where the air is dry.", "es": "Las 66 antenas de ALMA están a 5,000 metros, 16,400 pies, en el llano de Chajnantor, donde el aire es seco." },
+      "topic": "telescopes",
+      "source": "https://www.eso.org/public/teles-instr/alma/"
+    },
+    {
+      "id": "space-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which is the largest object in the asteroid belt?", "es": "¿Cuál es el objeto más grande del cinturón de asteroides?" },
+      "choices": [
+        { "en": "Ceres", "es": "Ceres" },
+        { "en": "Vesta", "es": "Vesta" },
+        { "en": "Pallas", "es": "Palas" },
+        { "en": "Eros", "es": "Eros" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ceres is round enough to count as a dwarf planet, and it may hide ice under its dusty crust.", "es": "Ceres es tan redondo que cuenta como planeta enano, y quizá esconde hielo bajo su corteza polvorienta." },
+      "topic": "asteroids",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/"
+    },
+    {
+      "id": "space-medium-087", "level": "medium", "type": "tf", "lang": "both", "emoji": "🥔",
+      "q": { "en": "Most asteroids have lumpy shapes rather than round ones.", "es": "La mayoría de los asteroides tienen formas desiguales en vez de redondas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Only the biggest asteroids pull themselves into a ball; the rest stay lumpy, like a giant potato in space.", "es": "Solo los asteroides más grandes se vuelven una bola; los demás quedan desiguales, como una papa gigante en el espacio." },
+      "topic": "asteroids",
+      "source": "https://spaceplace.nasa.gov/asteroid/en/"
+    },
+    {
+      "id": "space-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "☄️",
+      "q": { "en": "Which way does the tail of a comet always point?", "es": "¿Hacia dónde apunta siempre la cola de un cometa?" },
+      "choices": [
+        { "en": "Behind the comet as it travels", "es": "Hacia atrás mientras viaja" },
+        { "en": "Toward the Sun", "es": "Hacia el Sol" },
+        { "en": "Away from the Sun", "es": "En sentido contrario al Sol" },
+        { "en": "Toward Earth", "es": "Hacia la Tierra" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sunlight and the solar wind blow the dust and gas outward, so on the way home a comet flies tail first.", "es": "La luz y el viento solar empujan el polvo y el gas hacia afuera, y al regresar el cometa viaja de cola." },
+      "topic": "comets",
+      "source": "https://spaceplace.nasa.gov/comet-tails/en/"
+    },
+    {
+      "id": "space-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔭",
+      "q": { "en": "About how often does Halley's Comet come back?", "es": "¿Cada cuánto regresa el cometa Halley?" },
+      "choices": [
+        { "en": "Every 6 years", "es": "Cada 6 años" },
+        { "en": "Every 200 years", "es": "Cada 200 años" },
+        { "en": "Every 1000 years", "es": "Cada 1000 años" },
+        { "en": "Every 76 years", "es": "Cada 76 años" }
+      ],
+      "answer": 3,
+      "why": { "en": "Most people see it once in a lifetime, and sky watchers have written about it for over 2,000 years.", "es": "Casi todos lo ven una sola vez en la vida, y los observadores del cielo lo anotan desde hace 2,000 años." },
+      "topic": "comets",
+      "source": "https://kids.britannica.com/kids/article/Halleys-Comet/353132"
+    },
+    {
+      "id": "space-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌠",
+      "q": { "en": "Why does a meteor shower happen at the same time each year?", "es": "¿Por qué una lluvia de meteoros ocurre en la misma época cada año?" },
+      "choices": [
+        { "en": "Earth crosses the dusty trail of a comet", "es": "La Tierra cruza el rastro de polvo de un cometa" },
+        { "en": "The Moon lines up with the Sun", "es": "La Luna se alinea con el Sol" },
+        { "en": "The planets pull loose rocks toward us", "es": "Los planetas jalan rocas sueltas hacia acá" },
+        { "en": "Stars slip out of their constellations", "es": "Las estrellas se salen de sus constelaciones" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Perseids arrive every August because Earth passes through crumbs left by a comet that circles the Sun.", "es": "Las Perseidas llegan cada agosto porque la Tierra cruza las migajas que dejó un cometa que gira alrededor del Sol." },
+      "topic": "meteors",
+      "source": "https://spaceplace.nasa.gov/meteor-shower/en/"
+    },
+    {
+      "id": "space-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "How big is a typical shooting star before it burns?", "es": "¿De qué tamaño es una estrella fugaz antes de arder?" },
+      "choices": [
+        { "en": "About the size of a car", "es": "Como un carro" },
+        { "en": "About the size of a soccer ball", "es": "Como un balón de fútbol" },
+        { "en": "About the size of a grain of sand", "es": "Como un grano de arena" },
+        { "en": "About the size of a house", "es": "Como una casa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tiny grains hit the air at huge speed about 80 km, 50 miles up, and glow white hot for a second.", "es": "Granitos diminutos chocan con el aire a gran velocidad a unos 80 km, 50 millas de altura, y brillan un segundo." },
+      "topic": "meteors",
+      "source": "https://spaceplace.nasa.gov/meteor-shower/en/"
+    },
+    {
+      "id": "space-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "What shape is our Milky Way galaxy?", "es": "¿Qué forma tiene nuestra galaxia, la Vía Láctea?" },
+      "choices": [
+        { "en": "A round ball of stars", "es": "Una bola redonda de estrellas" },
+        { "en": "A ring with an empty middle", "es": "Un anillo con el centro vacío" },
+        { "en": "A cloud with no fixed shape", "es": "Una nube sin forma fija" },
+        { "en": "A flat spiral with a central bar", "es": "Una espiral plana con una barra central" }
+      ],
+      "answer": 3,
+      "why": { "en": "We sit inside one of its arms, about halfway out, which is why the galaxy looks like a band of light.", "es": "Vivimos dentro de uno de sus brazos, a media distancia del centro, por eso la galaxia se ve como una franja." },
+      "topic": "the milky way",
+      "source": "https://spaceplace.nasa.gov/milky-way/en/"
+    },
+    {
+      "id": "space-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "How long does the Sun take to circle the Milky Way once?", "es": "¿Cuánto tarda el Sol en dar una vuelta a la Vía Láctea?" },
+      "choices": [
+        { "en": "About 230 years", "es": "Unos 230 años" },
+        { "en": "About 230,000 years", "es": "Unos 230,000 años" },
+        { "en": "About 230 million years", "es": "Unos 230 millones de años" },
+        { "en": "About 230 billion years", "es": "Unos 230 mil millones de años" }
+      ],
+      "answer": 2,
+      "why": { "en": "The last time the Sun was in this spot, the first dinosaurs were just beginning to appear on Earth.", "es": "La última vez que el Sol estuvo en este punto, apenas empezaban a aparecer los primeros dinosaurios en la Tierra." },
+      "topic": "the milky way",
+      "source": "https://spaceplace.nasa.gov/milky-way/en/"
+    },
+    {
+      "id": "space-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "How many official constellations do astronomers use?", "es": "¿Cuántas constelaciones oficiales usan los astrónomos?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "48", "es": "48" },
+        { "en": "88", "es": "88" },
+        { "en": "365", "es": "365" }
+      ],
+      "answer": 2,
+      "why": { "en": "The 88 patterns divide the whole sky like countries on a map, so every star has an address.", "es": "Los 88 dibujos reparten todo el cielo como países en un mapa, así cada estrella tiene su dirección." },
+      "topic": "constellations",
+      "source": "https://spaceplace.nasa.gov/constellations/en/"
+    },
+    {
+      "id": "space-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "✝️",
+      "q": { "en": "Which constellation appears on the flag of Brazil?", "es": "¿Qué constelación aparece en la bandera de Brasil?" },
+      "choices": [
+        { "en": "Orion", "es": "Orión" },
+        { "en": "The Big Dipper", "es": "El Carro Mayor" },
+        { "en": "Cassiopeia", "es": "Casiopea" },
+        { "en": "The Southern Cross", "es": "La Cruz del Sur" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Southern Cross guides travellers below the equator the way the North Star guides people up north.", "es": "La Cruz del Sur guía a los viajeros al sur del ecuador, como la estrella polar guía en el norte." },
+      "topic": "constellations",
+      "source": "https://kids.britannica.com/kids/article/Southern-Cross/353565"
+    },
+    {
+      "id": "space-medium-096", "level": "medium", "type": "tf", "lang": "both", "emoji": "🔭",
+      "q": { "en": "The stars in a constellation are all close neighbours in space.", "es": "Las estrellas de una constelación son vecinas cercanas en el espacio." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "They only look close from here; some are twice as far away as others in the same pattern.", "es": "Solo parecen cercanas desde aquí; algunas están al doble de distancia que otras del mismo dibujo." },
+      "topic": "constellations",
+      "source": "https://spaceplace.nasa.gov/constellations/en/"
+    },
+    {
+      "id": "space-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "How long does Pluto take to orbit the Sun once?", "es": "¿Cuánto tarda Plutón en dar una vuelta al Sol?" },
+      "choices": [
+        { "en": "About 48 Earth years", "es": "Unos 48 años terrestres" },
+        { "en": "About 248 Earth years", "es": "Unos 248 años terrestres" },
+        { "en": "About 88 Earth years", "es": "Unos 88 años terrestres" },
+        { "en": "About 900 Earth years", "es": "Unos 900 años terrestres" }
+      ],
+      "answer": 1,
+      "why": { "en": "Pluto has yet to finish one lap since people first spotted it in 1930, and it will take decades more.", "es": "Plutón aún no completa una vuelta desde que lo descubrieron en 1930, y le faltan varias décadas más." },
+      "topic": "dwarf planets",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    },
+    {
+      "id": "space-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "How does the moon Charon compare with Pluto?", "es": "¿Cómo se compara la luna Caronte con Plutón?" },
+      "choices": [
+        { "en": "It is a tenth as wide as Pluto", "es": "Mide la décima parte de Plutón" },
+        { "en": "It is twice as wide as Pluto", "es": "Mide el doble que Plutón" },
+        { "en": "It is about half as wide as Pluto", "es": "Mide como la mitad de Plutón" },
+        { "en": "It is exactly the same width", "es": "Mide exactamente lo mismo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Charon is so large that the two swing around a point in empty space between them, like dancing partners.", "es": "Caronte es tan grande que los dos giran alrededor de un punto vacío entre ellos, como dos bailarines." },
+      "topic": "dwarf planets",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/moons/"
+    },
+    {
+      "id": "space-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Who was the first Latin American to travel into space?", "es": "¿Quién fue el primer latinoamericano en viajar al espacio?" },
+      "choices": [
+        { "en": "Arnaldo Tamayo Méndez", "es": "Arnaldo Tamayo Méndez" },
+        { "en": "Franklin Chang Díaz", "es": "Franklin Chang Díaz" },
+        { "en": "Rodolfo Neri Vela", "es": "Rodolfo Neri Vela" },
+        { "en": "Marcos Pontes", "es": "Marcos Pontes" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Cuban pilot flew in 1980 and was also the first person of African descent to reach orbit.", "es": "El piloto cubano voló en 1980 y también fue la primera persona de origen africano en llegar a la órbita." },
+      "topic": "latin american space",
+      "source": "https://kids.britannica.com/students/article/Arnaldo-Tamayo-Mendez/312970"
+    },
+    {
+      "id": "space-medium-100", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚀",
+      "q": { "en": "Which Costa Rican astronaut flew on seven space missions?", "es": "¿Qué astronauta costarricense voló en siete misiones espaciales?" },
+      "choices": [
+        { "en": "Rodolfo Neri Vela", "es": "Rodolfo Neri Vela" },
+        { "en": "Ellen Ochoa", "es": "Ellen Ochoa" },
+        { "en": "Marcos Pontes", "es": "Marcos Pontes" },
+        { "en": "Franklin Chang Díaz", "es": "Franklin Chang Díaz" }
+      ],
+      "answer": 3,
+      "why": { "en": "Franklin Chang Díaz grew up in Costa Rica and later designed a plasma engine for future trips to Mars.", "es": "Franklin Chang Díaz creció en Costa Rica y después diseñó un motor de plasma para futuros viajes a Marte." },
+      "topic": "latin american space",
+      "source": "https://kids.britannica.com/students/article/Franklin-Chang-Diaz/273906"
     }
   ]
 }

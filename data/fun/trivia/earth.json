@@ -1382,6 +1382,1350 @@
       "why": { "en": "Waves carry loose things to shore and leave a wiggly line of shells, seaweed and driftwood called the wrack line.", "es": "Las olas arrastran cosas sueltas hasta la orilla y dejan una línea de conchas, algas y madera que marca hasta dónde llegó el agua." },
       "topic": "the beach",
       "source": "https://oceanservice.noaa.gov/facts/beach.html"
+    },
+    {
+      "id": "earth-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which step of the water cycle turns water vapor back into tiny droplets?", "es": "¿Qué paso del ciclo del agua convierte el vapor en gotitas?" },
+      "choices": [
+        { "en": "Condensation", "es": "Condensación" },
+        { "en": "Evaporation", "es": "Evaporación" },
+        { "en": "Precipitation", "es": "Precipitación" },
+        { "en": "Collection", "es": "Acumulación" }
+      ],
+      "answer": 0,
+      "why": { "en": "Condensation happens when rising vapor cools and sticks to dust specks; billions of those droplets together are what makes a cloud.", "es": "La condensación ocurre cuando el vapor sube, se enfría y se pega a motas de polvo; miles de millones de gotitas forman una nube." },
+      "topic": "water cycle",
+      "source": "https://scijinks.gov/water-cycle/"
+    },
+    {
+      "id": "earth-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Plants release water vapor from their leaves. What is that step called?", "es": "Las plantas liberan vapor de agua por sus hojas. ¿Cómo se llama ese paso?" },
+      "choices": [
+        { "en": "Respiration", "es": "Respiración" },
+        { "en": "Transpiration", "es": "Transpiración" },
+        { "en": "Germination", "es": "Germinación" },
+        { "en": "Pollination", "es": "Polinización" }
+      ],
+      "answer": 1,
+      "why": { "en": "Transpiration sends huge amounts of vapor upward; a single large tree can release hundreds of liters, about 100 gallons, on a hot day.", "es": "La transpiración manda muchísimo vapor hacia arriba; un árbol grande puede soltar cientos de litros, unos 100 galones, en un día caluroso." },
+      "topic": "water cycle",
+      "source": "https://climatekids.nasa.gov/water-cycle/"
+    },
+    {
+      "id": "earth-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Water that runs over the ground into a river is called what?", "es": "¿Cómo se llama el agua que corre por el suelo hasta un río?" },
+      "choices": [
+        { "en": "Groundwater", "es": "Agua subterránea" },
+        { "en": "Transpiration", "es": "Transpiración" },
+        { "en": "Runoff", "es": "Escorrentía" },
+        { "en": "Condensation", "es": "Condensación" }
+      ],
+      "answer": 2,
+      "why": { "en": "Runoff carves gullies and carries soil to the sea; it is why rivers look brown after a heavy storm.", "es": "La escorrentía cava canales y lleva tierra al mar; por eso los ríos se ven cafés después de una tormenta fuerte." },
+      "topic": "water cycle",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/runoff-surface-and-overland-water-runoff"
+    },
+    {
+      "id": "earth-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Ice turning straight into water vapor without melting is called what?", "es": "¿Cómo se llama cuando el hielo pasa directo a vapor sin derretirse?" },
+      "choices": [
+        { "en": "Condensation", "es": "Condensación" },
+        { "en": "Precipitation", "es": "Precipitación" },
+        { "en": "Infiltration", "es": "Infiltración" },
+        { "en": "Sublimation", "es": "Sublimación" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sublimation is why old snow shrinks on a sunny, dry, windy day even when the air stays below freezing.", "es": "La sublimación explica por qué la nieve vieja se encoge en un día seco y con viento aunque el aire siga bajo cero." },
+      "topic": "water cycle",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/sublimation-and-water-cycle"
+    },
+    {
+      "id": "earth-medium-008", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦕",
+      "q": { "en": "The same water has been cycling on Earth since the time of dinosaurs.", "es": "La misma agua lleva circulando en la Tierra desde la época de los dinosaurios." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Earth gained almost no new water; the rain in your hand may once have sat in a dinosaur's puddle.", "es": "La Tierra casi no gana agua nueva; la lluvia en tu mano pudo estar en un charco de dinosaurios." },
+      "topic": "water cycle",
+      "source": "https://climatekids.nasa.gov/water-cycle/"
+    },
+    {
+      "id": "earth-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "About how much of Earth's water is salty ocean water?", "es": "¿Qué parte del agua de la Tierra es agua salada del océano?" },
+      "choices": [
+        { "en": "About half", "es": "Cerca de la mitad" },
+        { "en": "About 97 percent", "es": "Cerca del 97 por ciento" },
+        { "en": "About 70 percent", "es": "Cerca del 70 por ciento" },
+        { "en": "About 30 percent", "es": "Cerca del 30 por ciento" }
+      ],
+      "answer": 1,
+      "why": { "en": "About 97 percent of Earth's water is salty, so all the rivers, lakes and ice hold only a thin slice.", "es": "Cerca del 97 por ciento del agua de la Tierra es salada, así que ríos, lagos y hielo guardan muy poca." },
+      "topic": "fresh water",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth"
+    },
+    {
+      "id": "earth-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "Which cloud looks like white cotton puffs on a sunny afternoon?", "es": "¿Cuál nube parece bolas de algodón blanco en una tarde soleada?" },
+      "choices": [
+        { "en": "Cirrus", "es": "Cirro" },
+        { "en": "Stratus", "es": "Estrato" },
+        { "en": "Cumulus", "es": "Cúmulo" },
+        { "en": "Nimbostratus", "es": "Nimboestrato" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cumulus means 'heap' in Latin; these clouds grow where warm air rises in bubbles, and they usually mean fair weather.", "es": "Cúmulo significa 'montón' en latín; estas nubes crecen donde el aire caliente sube en burbujas y suelen anunciar buen tiempo." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Thin, feathery clouds high in the sky are made of what?", "es": "¿De qué están hechas las nubes finas y plumosas de gran altura?" },
+      "choices": [
+        { "en": "Water droplets", "es": "Gotitas de agua" },
+        { "en": "Dust grains", "es": "Granos de polvo" },
+        { "en": "Smoke", "es": "Humo" },
+        { "en": "Ice crystals", "es": "Cristales de hielo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cirrus clouds float six kilometres up, about 20,000 feet, where the air is so cold that water freezes into crystals.", "es": "Los cirros flotan a seis kilómetros de altura, unos 20,000 pies, donde el aire es tan frío que el agua se cristaliza." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "Which cloud spreads like a grey blanket and brings steady drizzle?", "es": "¿Cuál nube se extiende como una manta gris y trae llovizna pareja?" },
+      "choices": [
+        { "en": "Stratus", "es": "Estrato" },
+        { "en": "Cumulus", "es": "Cúmulo" },
+        { "en": "Cirrus", "es": "Cirro" },
+        { "en": "Cumulonimbus", "es": "Cumulonimbo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stratus comes from the Latin for 'spread out'; when a stratus layer touches the ground we simply call it fog.", "es": "Estrato viene del latín 'extendido'; cuando una capa de estratos toca el suelo simplemente la llamamos niebla o neblina." },
+      "topic": "clouds",
+      "source": "https://kids.britannica.com/kids/article/cloud/352943"
+    },
+    {
+      "id": "earth-medium-013", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛈️",
+      "q": { "en": "Which tall cloud shaped like an anvil brings thunderstorms?", "es": "¿Cuál nube alta con forma de yunque trae tormentas eléctricas?" },
+      "choices": [
+        { "en": "Altostratus", "es": "Altoestrato" },
+        { "en": "Cumulonimbus", "es": "Cumulonimbo" },
+        { "en": "Cirrostratus", "es": "Cirroestrato" },
+        { "en": "Stratocumulus", "es": "Estratocúmulo" }
+      ],
+      "answer": 1,
+      "why": { "en": "A cumulonimbus can tower 12 kilometres, about 8 miles, high, so its flat top gets spread sideways by strong winds.", "es": "Un cumulonimbo puede subir 12 kilómetros, unas 8 millas, y los vientos fuertes aplanan su cima hacia los lados." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎈",
+      "q": { "en": "What makes a cloud stay up when water is heavier than air?", "es": "¿Qué mantiene arriba a una nube si el agua pesa más que el aire?" },
+      "choices": [
+        { "en": "The cloud is hollow inside", "es": "La nube está hueca por dentro" },
+        { "en": "Wind pushes it from the side", "es": "El viento la empuja de lado" },
+        { "en": "The droplets are tiny and air rises", "es": "Las gotitas son diminutas y el aire sube" },
+        { "en": "A cloud is only warm gas", "es": "La nube es solo gas caliente" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each droplet is about a hundredth of a millimetre across, so rising air holds it up like dust in a sunbeam.", "es": "Cada gotita mide como una centésima de milímetro, así que el aire que sube la sostiene como al polvo en un rayo." },
+      "topic": "clouds",
+      "source": "https://scijinks.gov/clouds/"
+    },
+    {
+      "id": "earth-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "Which of these describes climate rather than one day of weather?", "es": "¿Cuál de estas describe el clima y no el tiempo de un día?" },
+      "choices": [
+        { "en": "A thunderstorm this afternoon", "es": "Una tormenta esta tarde" },
+        { "en": "Snow falling on the hill", "es": "Nieve cayendo en el cerro" },
+        { "en": "Fog in the valley at dawn", "es": "Neblina en el valle al amanecer" },
+        { "en": "Dry winters in a place for centuries", "es": "Inviernos secos en un lugar durante siglos" }
+      ],
+      "answer": 3,
+      "why": { "en": "Weather is what the sky does this week; climate is the pattern of weather a place shows over thirty years or more.", "es": "El tiempo es lo que hace el cielo esta semana; el clima es el patrón que un lugar muestra durante treinta años o más." },
+      "topic": "weather and climate",
+      "source": "https://climatekids.nasa.gov/weather-climate/"
+    },
+    {
+      "id": "earth-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "How many years of weather do scientists usually average to describe a climate?", "es": "¿Cuántos años de tiempo promedian los científicos para describir un clima?" },
+      "choices": [
+        { "en": "Thirty years", "es": "Treinta años" },
+        { "en": "Three years", "es": "Tres años" },
+        { "en": "One hundred years", "es": "Cien años" },
+        { "en": "Ten years", "es": "Diez años" }
+      ],
+      "answer": 0,
+      "why": { "en": "Thirty years is long enough to smooth out one odd winter, so it became the standard window for climate normals.", "es": "Treinta años bastan para suavizar un invierno raro, por eso se volvió la ventana estándar para las normales del clima." },
+      "topic": "weather and climate",
+      "source": "https://scijinks.gov/weather-vs-climate/"
+    },
+    {
+      "id": "earth-medium-017", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌤️",
+      "q": { "en": "Climate and weather mean the same thing in science.", "es": "El clima y el tiempo significan lo mismo en la ciencia." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Climate is the average you expect and weather is what you get; one packs your closet, the other your day.", "es": "El clima es lo que esperas y el tiempo lo que te toca; uno llena tu clóset y el otro tu día." },
+      "topic": "weather and climate",
+      "source": "https://scijinks.gov/weather-vs-climate/"
+    },
+    {
+      "id": "earth-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "Where must the Sun be for you to see a rainbow?", "es": "¿Dónde debe estar el Sol para que veas un arcoíris?" },
+      "choices": [
+        { "en": "Straight overhead", "es": "Justo encima de ti" },
+        { "en": "Right in front of you", "es": "Frente a ti" },
+        { "en": "Behind you", "es": "Detrás de ti" },
+        { "en": "Below the horizon", "es": "Bajo el horizonte" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sunlight enters each drop, bounces off the back and returns toward you, so a rainbow always sits opposite the Sun.", "es": "La luz entra en cada gota, rebota en el fondo y regresa hacia ti, por eso el arcoíris siempre queda del lado opuesto al Sol." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "What do we call the rare second, fainter bow above a rainbow?", "es": "¿Cómo se llama el segundo arco, más tenue, sobre un arcoíris?" },
+      "choices": [
+        { "en": "A halo", "es": "Un halo" },
+        { "en": "A sundog", "es": "Un parhelio" },
+        { "en": "A glory", "es": "Una gloria" },
+        { "en": "A secondary rainbow", "es": "Un arcoíris secundario" }
+      ],
+      "answer": 3,
+      "why": { "en": "In the secondary bow light bounces twice inside each drop, which flips the colours so red points inward instead of outward.", "es": "En el arco secundario la luz rebota dos veces dentro de cada gota, y eso invierte los colores: el rojo queda hacia adentro." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-medium-020", "level": "medium", "type": "tf", "lang": "both", "emoji": "👀",
+      "q": { "en": "Each person sees their own rainbow made by different raindrops.", "es": "Cada persona ve su propio arcoíris, formado por gotas distintas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your eyes pick the drops at just the right angle, so a friend two steps away is watching a different set.", "es": "Tus ojos escogen las gotas con el ángulo exacto, así que un amigo a dos pasos mira un conjunto distinto de gotas." },
+      "topic": "rainbows",
+      "source": "https://scijinks.gov/rainbow/"
+    },
+    {
+      "id": "earth-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "A storm starts while you play outside. Where should you go?", "es": "Empieza una tormenta mientras juegas afuera. ¿A dónde debes ir?" },
+      "choices": [
+        { "en": "Under a tall tree", "es": "Bajo un árbol alto" },
+        { "en": "Inside a building or a car", "es": "Adentro de un edificio o un carro" },
+        { "en": "Next to a metal fence", "es": "Junto a una cerca de metal" },
+        { "en": "Into an open field", "es": "A un campo abierto" }
+      ],
+      "answer": 1,
+      "why": { "en": "A closed car is safe because its metal shell carries the charge around you and into the ground, leaving you untouched.", "es": "Un carro cerrado es seguro porque su caparazón de metal lleva la carga alrededor de ti y hacia el suelo sin tocarte." },
+      "topic": "lightning safety",
+      "source": "https://www.weather.gov/safety/lightning-tips"
+    },
+    {
+      "id": "earth-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "You count five seconds between the flash and the thunder. How far away?", "es": "Cuentas cinco segundos entre el destello y el trueno. ¿Qué tan lejos cayó?" },
+      "choices": [
+        { "en": "About half a mile, 0.8 km", "es": "Como media milla, 0.8 km" },
+        { "en": "About 3 miles, 5 km", "es": "Unas 3 millas, 5 km" },
+        { "en": "About 1 mile, 1.7 km", "es": "Como una milla, 1.7 km" },
+        { "en": "About 5 miles, 8 km", "es": "Unas 5 millas, 8 km" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sound travels about a kilometre every three seconds, so dividing your count by three gives the distance to the strike.", "es": "El sonido recorre un kilómetro cada tres segundos, así que dividir tu conteo entre tres te da la distancia del rayo." },
+      "topic": "lightning safety",
+      "source": "https://scijinks.gov/lightning/"
+    },
+    {
+      "id": "earth-medium-023", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔊",
+      "q": { "en": "What makes the sound of thunder after a lightning bolt?", "es": "¿Qué produce el sonido del trueno después de un rayo?" },
+      "choices": [
+        { "en": "Clouds bumping together", "es": "Las nubes chocando" },
+        { "en": "Rain hitting the ground", "es": "La lluvia al caer" },
+        { "en": "Wind rushing downhill", "es": "El viento bajando" },
+        { "en": "Air exploding outward from the heat", "es": "El aire que estalla por el calor" }
+      ],
+      "answer": 3,
+      "why": { "en": "The bolt heats a narrow tube of air in a flash, and that air blasts outward so fast it makes a shock wave.", "es": "El rayo calienta un tubo delgado de aire en un instante, y ese aire sale disparado tan rápido que crea una onda de choque." },
+      "topic": "thunder",
+      "source": "https://scijinks.gov/thunder/"
+    },
+    {
+      "id": "earth-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Why are hurricanes given human names by weather forecasters?", "es": "¿Por qué los meteorólogos les ponen nombres de personas a los huracanes?" },
+      "choices": [
+        { "en": "To avoid confusion when several storms exist", "es": "Para evitar confusión cuando hay varias tormentas" },
+        { "en": "To make them sound friendly", "es": "Para que suenen amigables" },
+        { "en": "Because each one lasts a year", "es": "Porque cada uno dura un año" },
+        { "en": "To mark where they will land", "es": "Para marcar dónde tocarán tierra" }
+      ],
+      "answer": 0,
+      "why": { "en": "Names travel faster than numbers over radio; forecasters keep six lists and reuse each list after six years pass.", "es": "Los nombres viajan mejor que los números por radio; los meteorólogos usan seis listas y repiten cada lista seis años después." },
+      "topic": "hurricanes",
+      "source": "https://scijinks.gov/hurricane-names/"
+    },
+    {
+      "id": "earth-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "👁️",
+      "q": { "en": "What is the calm circle at the centre of a hurricane called?", "es": "¿Cómo se llama el círculo en calma en el centro de un huracán?" },
+      "choices": [
+        { "en": "The wall", "es": "La pared" },
+        { "en": "The eye", "es": "El ojo" },
+        { "en": "The tail", "es": "La cola" },
+        { "en": "The band", "es": "La banda" }
+      ],
+      "answer": 1,
+      "why": { "en": "Inside the eye the air sinks instead of rising, so the wind drops and you may even see blue sky above.", "es": "Dentro del ojo el aire baja en vez de subir, así que el viento se calma y hasta puedes ver cielo azul." },
+      "topic": "hurricanes",
+      "source": "https://scijinks.gov/hurricane/"
+    },
+    {
+      "id": "earth-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What does a hurricane need from the ocean to grow stronger?", "es": "¿Qué necesita un huracán del océano para hacerse más fuerte?" },
+      "choices": [
+        { "en": "Cold deep water", "es": "Agua fría y profunda" },
+        { "en": "Salty spray", "es": "Rocío salado" },
+        { "en": "Warm surface water", "es": "Agua cálida en la superficie" },
+        { "en": "Fast currents", "es": "Corrientes rápidas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The sea must be warmer than 26 °C, 79 °F, so the storm dies quickly once it moves over land.", "es": "El mar debe estar a más de 26 °C, 79 °F, por eso la tormenta se apaga rápido al pasar sobre tierra." },
+      "topic": "hurricanes",
+      "source": "https://scijinks.gov/hurricane/"
+    },
+    {
+      "id": "earth-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌪️",
+      "q": { "en": "What is a hurricane called when it forms in the western Pacific Ocean?", "es": "¿Cómo se llama un huracán cuando se forma en el Pacífico occidental?" },
+      "choices": [
+        { "en": "A monsoon", "es": "Un monzón" },
+        { "en": "A cyclone", "es": "Un ciclón" },
+        { "en": "A blizzard", "es": "Una ventisca" },
+        { "en": "A typhoon", "es": "Un tifón" }
+      ],
+      "answer": 3,
+      "why": { "en": "Same storm, three names: hurricane in the Atlantic, typhoon near Japan, and cyclone over the Indian Ocean and Australia.", "es": "Es la misma tormenta con tres nombres: huracán en el Atlántico, tifón cerca de Japón y ciclón en el océano Índico." },
+      "topic": "hurricanes",
+      "source": "https://oceanservice.noaa.gov/facts/cyclone.html"
+    },
+    {
+      "id": "earth-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Which instrument measures how fast the wind is blowing?", "es": "¿Cuál instrumento mide qué tan rápido sopla el viento?" },
+      "choices": [
+        { "en": "An anemometer", "es": "El anemómetro" },
+        { "en": "A barometer", "es": "El barómetro" },
+        { "en": "A hygrometer", "es": "El higrómetro" },
+        { "en": "A rain gauge", "es": "El pluviómetro" }
+      ],
+      "answer": 0,
+      "why": { "en": "An anemometer spins little cups; counting turns per minute tells the speed, and the word comes from Greek anemos, meaning wind.", "es": "El anemómetro gira unas copitas; contar vueltas por minuto da la velocidad, y su nombre viene del griego anemos, que significa viento." },
+      "topic": "weather instruments",
+      "source": "https://scijinks.gov/how-do-we-measure-wind/"
+    },
+    {
+      "id": "earth-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛵",
+      "q": { "en": "A sailboat can travel toward the wind by zigzagging. What is that called?", "es": "Un velero puede avanzar contra el viento zigzagueando. ¿Cómo se llama eso?" },
+      "choices": [
+        { "en": "Drifting", "es": "Derivar" },
+        { "en": "Tacking", "es": "Virar" },
+        { "en": "Anchoring", "es": "Anclar" },
+        { "en": "Rowing", "es": "Remar" }
+      ],
+      "answer": 1,
+      "why": { "en": "The sail works like a wing: air rushing over its curve pulls the boat forward, so zigzags let it climb upwind.", "es": "La vela funciona como un ala: el aire que corre por su curva jala el barco, y el zigzag lo hace subir contra el viento." },
+      "topic": "wind and sails",
+      "source": "https://kids.britannica.com/students/article/sailing/276795"
+    },
+    {
+      "id": "earth-medium-030", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "What makes wind blow from one place to another?", "es": "¿Qué hace que el viento sople de un lugar a otro?" },
+      "choices": [
+        { "en": "The spin of the clouds", "es": "El giro de las nubes" },
+        { "en": "Ocean waves pushing air", "es": "Las olas empujando el aire" },
+        { "en": "Differences in air pressure", "es": "Las diferencias de presión del aire" },
+        { "en": "The pull of the Moon", "es": "La fuerza de la Luna" }
+      ],
+      "answer": 2,
+      "why": { "en": "Air always slides from high pressure toward low pressure; the bigger the difference, the harder the wind pushes.", "es": "El aire siempre se desliza de la presión alta hacia la baja; mientras mayor sea la diferencia, más fuerte empuja el viento." },
+      "topic": "wind and sails",
+      "source": "https://scijinks.gov/wind/"
+    },
+    {
+      "id": "earth-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "Which steady winds carried sailing ships west across the Atlantic?", "es": "¿Cuáles vientos constantes llevaban los barcos de vela al oeste por el Atlántico?" },
+      "choices": [
+        { "en": "The westerlies", "es": "Los vientos del oeste" },
+        { "en": "The jet stream", "es": "La corriente en chorro" },
+        { "en": "The polar easterlies", "es": "Los vientos polares del este" },
+        { "en": "The trade winds", "es": "Los vientos alisios" }
+      ],
+      "answer": 3,
+      "why": { "en": "Trade winds blow near the equator, from the northeast above it and the southeast below, steady enough to plan a voyage.", "es": "Los alisios soplan cerca del ecuador, del noreste arriba y del sureste abajo, tan constantes que permitían planear un viaje entero." },
+      "topic": "wind and sails",
+      "source": "https://kids.britannica.com/kids/article/trade-wind/399745"
+    },
+    {
+      "id": "earth-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "What does a rain gauge measure in a garden?", "es": "¿Qué mide un pluviómetro en un jardín?" },
+      "choices": [
+        { "en": "How deep the rain fell", "es": "Cuánta lluvia cayó" },
+        { "en": "How fast the wind blows", "es": "Qué tan rápido sopla el viento" },
+        { "en": "How warm the air is", "es": "Qué tan tibio está el aire" },
+        { "en": "How wet the soil feels", "es": "Qué tan húmeda está la tierra" }
+      ],
+      "answer": 0,
+      "why": { "en": "A rain gauge reports depth, so 25 millimetres, one inch, of rain means that much water covered every flat surface.", "es": "El pluviómetro mide profundidad, así que 25 milímetros, una pulgada, de lluvia significa esa capa de agua sobre cada superficie plana." },
+      "topic": "weather instruments",
+      "source": "https://scijinks.gov/measure-rain/"
+    },
+    {
+      "id": "earth-medium-033", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "At what temperature does pure water freeze on a Celsius thermometer?", "es": "¿A qué temperatura se congela el agua pura en un termómetro Celsius?" },
+      "choices": [
+        { "en": "32 degrees", "es": "32 grados" },
+        { "en": "0 degrees", "es": "0 grados" },
+        { "en": "100 degrees", "es": "100 grados" },
+        { "en": "10 degrees below zero", "es": "10 grados bajo cero" }
+      ],
+      "answer": 1,
+      "why": { "en": "Zero Celsius equals 32 Fahrenheit; Anders Celsius built his scale around water, with freezing at zero and boiling at one hundred.", "es": "Cero Celsius equivale a 32 Fahrenheit; Anders Celsius armó su escala con el agua: congelación en cero y ebullición en cien." },
+      "topic": "weather instruments",
+      "source": "https://scijinks.gov/thermometer/"
+    },
+    {
+      "id": "earth-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "📉",
+      "q": { "en": "A barometer is falling fast. What kind of weather is coming?", "es": "El barómetro baja rápido. ¿Qué tipo de tiempo se acerca?" },
+      "choices": [
+        { "en": "Clear and calm", "es": "Cielo despejado y calma" },
+        { "en": "Colder and drier", "es": "Más frío y seco" },
+        { "en": "A storm with wind and rain", "es": "Una tormenta con viento y lluvia" },
+        { "en": "Hot and sunny", "es": "Calor y sol" }
+      ],
+      "answer": 2,
+      "why": { "en": "Falling pressure means lighter air is moving in, and lighter air lets moisture rise, which is exactly how storms build.", "es": "Una presión que baja significa aire más ligero llegando, y el aire ligero deja subir la humedad, que es como nacen las tormentas." },
+      "topic": "weather instruments",
+      "source": "https://scijinks.gov/barometer/"
+    },
+    {
+      "id": "earth-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Which weather map line joins places with the same air pressure?", "es": "¿Cuál línea del mapa del tiempo une lugares con la misma presión?" },
+      "choices": [
+        { "en": "An isotherm", "es": "Una isoterma" },
+        { "en": "A contour line", "es": "Una curva de nivel" },
+        { "en": "A meridian", "es": "Un meridiano" },
+        { "en": "An isobar", "es": "Una isobara" }
+      ],
+      "answer": 3,
+      "why": { "en": "Isobars packed close together warn of strong wind, the same way tight contour lines on a map warn of a steep hill.", "es": "Las isobaras muy juntas avisan de viento fuerte, igual que las curvas de nivel apretadas en un mapa avisan de una cuesta empinada." },
+      "topic": "weather instruments",
+      "source": "https://kids.britannica.com/students/article/weather-map/628252"
+    },
+    {
+      "id": "earth-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "What does a hygrometer tell you about the air?", "es": "¿Qué te dice un higrómetro sobre el aire?" },
+      "choices": [
+        { "en": "How much water vapor it holds", "es": "Cuánto vapor de agua tiene" },
+        { "en": "How fast it moves", "es": "Qué tan rápido se mueve" },
+        { "en": "How heavy its pressure is", "es": "Cuánto pesa su presión" },
+        { "en": "How clean it is", "es": "Qué tan limpio está" }
+      ],
+      "answer": 0,
+      "why": { "en": "Warm air can hold far more vapor than cold air, which is why a summer evening feels sticky and a winter one dry.", "es": "El aire caliente guarda mucho más vapor que el frío, por eso una tarde de verano se siente pegajosa y una de invierno seca." },
+      "topic": "weather instruments",
+      "source": "https://scijinks.gov/humidity/"
+    },
+    {
+      "id": "earth-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐧",
+      "q": { "en": "Which of the five oceans surrounds the continent of Antarctica?", "es": "¿Cuál de los cinco océanos rodea el continente de la Antártida?" },
+      "choices": [
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" },
+        { "en": "The Southern Ocean", "es": "El océano Antártico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Southern Ocean is defined by a current that circles Antarctica, the only current that runs all the way around the planet.", "es": "El océano Antártico se define por una corriente que rodea la Antártida, la única corriente que da la vuelta completa al planeta." },
+      "topic": "five oceans",
+      "source": "https://oceanservice.noaa.gov/facts/howmanyoceans.html"
+    },
+    {
+      "id": "earth-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which ocean is the smallest and shallowest of the five?", "es": "¿Cuál océano es el más pequeño y menos profundo de los cinco?" },
+      "choices": [
+        { "en": "The Southern Ocean", "es": "El océano Antártico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" }
+      ],
+      "answer": 2,
+      "why": { "en": "Much of the Arctic Ocean wears a lid of floating sea ice, and its average depth is barely a quarter of the Pacific's.", "es": "Gran parte del océano Ártico lleva una tapa de hielo flotante, y su profundidad media es apenas un cuarto de la del Pacífico." },
+      "topic": "five oceans",
+      "source": "https://kids.britannica.com/kids/article/Arctic-Ocean/353089"
+    },
+    {
+      "id": "earth-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which ocean holds the warm current called the Gulf Stream?", "es": "¿Cuál océano tiene la corriente cálida llamada Corriente del Golfo?" },
+      "choices": [
+        { "en": "The Pacific Ocean", "es": "El océano Pacífico" },
+        { "en": "The Indian Ocean", "es": "El océano Índico" },
+        { "en": "The Arctic Ocean", "es": "El océano Ártico" },
+        { "en": "The Atlantic Ocean", "es": "El océano Atlántico" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Gulf Stream starts in the Gulf of Mexico and carries warm water northeast, keeping winters in western Europe surprisingly mild.", "es": "La Corriente del Golfo nace en el golfo de México y lleva agua cálida al noreste, así los inviernos del oeste de Europa son suaves." },
+      "topic": "five oceans",
+      "source": "https://oceanservice.noaa.gov/facts/gulfstreamspeed.html"
+    },
+    {
+      "id": "earth-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "Which river empties the most fresh water into the Gulf of Mexico?", "es": "¿Cuál río vierte más agua dulce en el golfo de México?" },
+      "choices": [
+        { "en": "The Mississippi River", "es": "El río Misisipi" },
+        { "en": "The Rio Grande", "es": "El río Bravo" },
+        { "en": "The Colorado River", "es": "El río Colorado" },
+        { "en": "The Ohio River", "es": "El río Ohio" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Mississippi drains water from 31 states; its muddy plume spreads so far that satellites can see it from space.", "es": "El Misisipi drena agua de 31 estados; su pluma de lodo se extiende tanto que los satélites la ven desde el espacio." },
+      "topic": "gulf of mexico",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/mississippi-river-basin"
+    },
+    {
+      "id": "earth-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗺️",
+      "q": { "en": "Which peninsula separates the Gulf of Mexico from the Caribbean Sea?", "es": "¿Cuál península separa el golfo de México del mar Caribe?" },
+      "choices": [
+        { "en": "Baja California", "es": "Baja California" },
+        { "en": "Yucatán", "es": "Yucatán" },
+        { "en": "Florida", "es": "Florida" },
+        { "en": "Nicoya", "es": "Nicoya" }
+      ],
+      "answer": 1,
+      "why": { "en": "A huge crater lies buried under the Yucatán coast, left by the asteroid linked to the end of the dinosaurs.", "es": "Bajo la costa de Yucatán hay un cráter enorme enterrado, dejado por el asteroide ligado al final de los dinosaurios." },
+      "topic": "gulf of mexico",
+      "source": "https://kids.britannica.com/kids/article/Gulf-of-Mexico/353572"
+    },
+    {
+      "id": "earth-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "How many high tides does most of a coast get each day?", "es": "¿Cuántas mareas altas tiene la mayoría de las costas cada día?" },
+      "choices": [
+        { "en": "One", "es": "Una" },
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Moon pulls a bulge of water toward it and another bulge swings out on the far side, so two arrive daily.", "es": "La Luna jala un abultamiento de agua hacia ella y otro se forma del lado opuesto, por eso llegan dos cada día." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/tidefrequency.html"
+    },
+    {
+      "id": "earth-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "When the Sun, Moon and Earth line up, which tide appears?", "es": "Cuando el Sol, la Luna y la Tierra se alinean, ¿cuál marea aparece?" },
+      "choices": [
+        { "en": "A neap tide", "es": "Una marea muerta" },
+        { "en": "A slack tide", "es": "Una marea quieta" },
+        { "en": "A rip current", "es": "Una corriente de resaca" },
+        { "en": "A spring tide", "es": "Una marea viva" }
+      ],
+      "answer": 3,
+      "why": { "en": "Spring tides have nothing to do with the season; the name means the water springs up, and they come twice a month.", "es": "La marea viva no tiene que ver con la primavera; se llama así porque el agua brota, y ocurre dos veces al mes." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/springtide.html"
+    },
+    {
+      "id": "earth-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚓",
+      "q": { "en": "Which bay in Canada has the greatest difference between its tides?", "es": "¿Cuál bahía de Canadá tiene la mayor diferencia entre sus mareas?" },
+      "choices": [
+        { "en": "The Bay of Fundy", "es": "La bahía de Fundy" },
+        { "en": "Hudson Bay", "es": "La bahía de Hudson" },
+        { "en": "Baffin Bay", "es": "La bahía de Baffin" },
+        { "en": "Georgian Bay", "es": "La bahía Georgiana" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water there can rise 16 metres, about 52 feet, between low and high tide, taller than a four-storey house.", "es": "El agua puede subir 16 metros, unos 52 pies, entre la marea baja y la alta, más alto que una casa de cuatro pisos." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/highest-tide.html"
+    },
+    {
+      "id": "earth-medium-045", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "Tides are caused by the wind blowing across the sea.", "es": "Las mareas las causa el viento que sopla sobre el mar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Wind makes waves, but tides come from gravity: the Moon pulls hardest, and the Sun adds about half as much again.", "es": "El viento hace olas, pero las mareas vienen de la gravedad: la Luna jala más fuerte y el Sol añade como la mitad." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/tides.html"
+    },
+    {
+      "id": "earth-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "What kind of living thing builds a coral reef?", "es": "¿Qué tipo de ser vivo construye un arrecife de coral?" },
+      "choices": [
+        { "en": "A kind of seaweed", "es": "Un alga marina" },
+        { "en": "A shellfish like a clam", "es": "Un molusco como la almeja" },
+        { "en": "A tiny animal called a polyp", "es": "Un animalito llamado pólipo" },
+        { "en": "A sponge that hardens", "es": "Una esponja que se endurece" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each polyp is smaller than your fingernail and builds a stone cup around itself; millions of cups stacked make the reef.", "es": "Cada pólipo es más pequeño que tu uña y construye una copita de piedra a su alrededor; millones de copitas forman el arrecife." },
+      "topic": "coral reefs",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs"
+    },
+    {
+      "id": "earth-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Where does a coral polyp get most of its food?", "es": "¿De dónde saca casi toda su comida un pólipo de coral?" },
+      "choices": [
+        { "en": "From sand it swallows", "es": "De la arena que traga" },
+        { "en": "From fish that swim by", "es": "De los peces que pasan" },
+        { "en": "From rain that falls above", "es": "De la lluvia que cae" },
+        { "en": "From algae living inside it", "es": "De las algas que viven adentro" }
+      ],
+      "answer": 3,
+      "why": { "en": "The algae make sugar from sunlight and share it; they also give coral its colour, so a stressed reef turns bone white.", "es": "Las algas fabrican azúcar con la luz del Sol y la comparten; también dan color al coral, por eso un arrecife enfermo se blanquea." },
+      "topic": "coral reefs",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs"
+    },
+    {
+      "id": "earth-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Which country's coast is guarded by the Mesoamerican Barrier Reef?", "es": "¿Cuál país tiene su costa protegida por el Gran Arrecife Mesoamericano?" },
+      "choices": [
+        { "en": "Belize", "es": "Belice" },
+        { "en": "Costa Rica", "es": "Costa Rica" },
+        { "en": "Venezuela", "es": "Venezuela" },
+        { "en": "Cuba", "es": "Cuba" }
+      ],
+      "answer": 0,
+      "why": { "en": "The reef runs about 1000 kilometres, 620 miles, from Mexico past Belize to Honduras, and it shelters whale sharks.", "es": "El arrecife corre unos 1000 kilómetros, 620 millas, desde México pasando por Belice hasta Honduras, y da refugio a tiburones ballena." },
+      "topic": "coral reefs",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/belize"
+    },
+    {
+      "id": "earth-medium-049", "level": "medium", "type": "tf", "lang": "both", "emoji": "🐙",
+      "q": { "en": "Coral is a colourful plant that grows on the sea floor.", "es": "El coral es una planta colorida que crece en el fondo del mar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Coral is an animal related to jellyfish; it catches plankton at night with stinging tentacles far too small to feel.", "es": "El coral es un animal pariente de las medusas; de noche atrapa plancton con tentáculos urticantes demasiado pequeños para sentirlos." },
+      "topic": "coral reefs",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs"
+    },
+    {
+      "id": "earth-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏔️",
+      "q": { "en": "What do we call the huge splits that open across a glacier?", "es": "¿Cómo se llaman las hendiduras enormes que se abren en un glaciar?" },
+      "choices": [
+        { "en": "Sinkholes", "es": "Sumideros" },
+        { "en": "Moraines", "es": "Morrenas" },
+        { "en": "Crevasses", "es": "Grietas" },
+        { "en": "Fjords", "es": "Fiordos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ice near the surface is brittle, so as a glacier bends over a slope the top layer snaps open into deep cracks.", "es": "El hielo de arriba es quebradizo, así que cuando el glaciar se dobla sobre una pendiente la capa superior se parte en grietas profundas." },
+      "topic": "glaciers",
+      "source": "https://www.usgs.gov/faqs/what-glacier"
+    },
+    {
+      "id": "earth-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "💥",
+      "q": { "en": "What is it called when a chunk of ice breaks off a glacier?", "es": "¿Cómo se llama cuando un pedazo de hielo se desprende de un glaciar?" },
+      "choices": [
+        { "en": "Melting", "es": "Derretimiento" },
+        { "en": "Sliding", "es": "Deslizamiento" },
+        { "en": "Drifting", "es": "Deriva" },
+        { "en": "Calving", "es": "Desprendimiento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Calving makes a boom like thunder, and the newborn iceberg rocks the water hard enough to rock boats far away.", "es": "El desprendimiento suena como un trueno, y el iceberg recién nacido mueve el agua con fuerza suficiente para mecer barcos lejanos." },
+      "topic": "glaciers",
+      "source": "https://climatekids.nasa.gov/ice-sheets/"
+    },
+    {
+      "id": "earth-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Why is most of an iceberg hidden below the water line?", "es": "¿Por qué casi todo un iceberg queda escondido bajo el agua?" },
+      "choices": [
+        { "en": "Ice is only slightly lighter than water", "es": "El hielo pesa apenas un poco menos que el agua" },
+        { "en": "Ice is heavier than water", "es": "El hielo pesa más que el agua" },
+        { "en": "Waves push it down", "es": "Las olas lo empujan abajo" },
+        { "en": "Salt pulls it under", "es": "La sal lo jala al fondo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ice floats because freezing spreads water molecules apart, but only by about a tenth, so nine tenths still rides underwater.", "es": "El hielo flota porque al congelarse las moléculas se separan, pero solo como un décimo, así que nueve décimos siguen bajo el agua." },
+      "topic": "icebergs",
+      "source": "https://oceanservice.noaa.gov/facts/iceberg.html"
+    },
+    {
+      "id": "earth-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "What shape of valley does a glacier carve as it grinds downhill?", "es": "¿Qué forma de valle talla un glaciar mientras baja raspando?" },
+      "choices": [
+        { "en": "A narrow V shape", "es": "Una V angosta" },
+        { "en": "A wide U shape", "es": "Una U ancha" },
+        { "en": "A round bowl", "es": "Un tazón redondo" },
+        { "en": "A flat square", "es": "Un cuadrado plano" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rivers cut narrow V valleys, but a glacier is wide and heavy, so it planes the sides flat and leaves a U.", "es": "Los ríos tallan valles en V angosta, pero un glaciar es ancho y pesado, alisa los costados y deja un valle en U." },
+      "topic": "glaciers",
+      "source": "https://www.nps.gov/subjects/glaciers/glacial-landforms.htm"
+    },
+    {
+      "id": "earth-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "Which South American desert is the driest place outside the poles?", "es": "¿Cuál desierto sudamericano es el lugar más seco fuera de los polos?" },
+      "choices": [
+        { "en": "The Sonoran Desert", "es": "El desierto de Sonora" },
+        { "en": "The Patagonian Desert", "es": "El desierto de Patagonia" },
+        { "en": "The Atacama Desert", "es": "El desierto de Atacama" },
+        { "en": "The Mojave Desert", "es": "El desierto de Mojave" }
+      ],
+      "answer": 2,
+      "why": { "en": "Parts of the Atacama in Chile may go years without rain, so scientists test Mars rovers on its cracked ground.", "es": "Partes del Atacama, en Chile, pueden pasar años sin lluvia, por eso los científicos prueban vehículos para Marte en su suelo agrietado." },
+      "topic": "deserts",
+      "source": "https://kids.britannica.com/kids/article/Atacama-Desert/390676"
+    },
+    {
+      "id": "earth-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌵",
+      "q": { "en": "How little rain must a place get to count as a desert?", "es": "¿Qué tan poca lluvia debe recibir un lugar para ser desierto?" },
+      "choices": [
+        { "en": "Under 500 mm, 20 inches, a year", "es": "Menos de 500 mm, 20 pulgadas, al año" },
+        { "en": "Under 50 mm, 2 inches, a year", "es": "Menos de 50 mm, 2 pulgadas, al año" },
+        { "en": "Under 1000 mm, 39 inches, a year", "es": "Menos de 1000 mm, 39 pulgadas, al año" },
+        { "en": "Under 250 mm, 10 inches, a year", "es": "Menos de 250 mm, 10 pulgadas, al año" }
+      ],
+      "answer": 3,
+      "why": { "en": "Dryness, and not heat, makes a desert, which is why Antarctica counts as the largest cold desert on the planet.", "es": "Lo que hace un desierto es la sequedad, no el calor, por eso la Antártida es el desierto frío más grande del planeta." },
+      "topic": "deserts",
+      "source": "https://kids.nationalgeographic.com/nature/habitats/article/desert"
+    },
+    {
+      "id": "earth-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐪",
+      "q": { "en": "What happens to desert sand dunes over many years?", "es": "¿Qué les pasa a las dunas del desierto con los años?" },
+      "choices": [
+        { "en": "They creep slowly downwind", "es": "Avanzan despacio con el viento" },
+        { "en": "They sink into the ground", "es": "Se hunden en el suelo" },
+        { "en": "They turn into stone", "es": "Se vuelven piedra" },
+        { "en": "They grow taller every night", "es": "Crecen cada noche" }
+      ],
+      "answer": 0,
+      "why": { "en": "Grains roll up the gentle side and tumble down the steep side, so a dune can travel 30 metres, 100 feet, a year.", "es": "Los granos suben por el lado suave y caen por el empinado, así una duna puede viajar 30 metros, 100 pies, al año." },
+      "topic": "deserts",
+      "source": "https://www.nps.gov/grsa/learn/nature/dunes.htm"
+    },
+    {
+      "id": "earth-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Which country holds the largest share of the Amazon rainforest?", "es": "¿Cuál país tiene la mayor parte de la selva amazónica?" },
+      "choices": [
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Brazil", "es": "Brasil" },
+        { "en": "Colombia", "es": "Colombia" },
+        { "en": "Ecuador", "es": "Ecuador" }
+      ],
+      "answer": 1,
+      "why": { "en": "About three fifths of the Amazon lies in Brazil, but the forest also spreads into eight other countries and one territory.", "es": "Cerca de tres quintos de la Amazonia está en Brasil, pero la selva también se extiende a ocho países más y un territorio." },
+      "topic": "rainforests",
+      "source": "https://kids.nationalgeographic.com/geography/countries/article/brazil"
+    },
+    {
+      "id": "earth-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛶",
+      "q": { "en": "Where does the Amazon River begin its long journey to the sea?", "es": "¿Dónde comienza el río Amazonas su largo viaje hasta el mar?" },
+      "choices": [
+        { "en": "In the Brazilian lowlands", "es": "En las tierras bajas de Brasil" },
+        { "en": "In the Guiana Highlands", "es": "En las Guayanas" },
+        { "en": "High in the Andes mountains", "es": "Alto en la cordillera de los Andes" },
+        { "en": "On the coast of Ecuador", "es": "En la costa de Ecuador" }
+      ],
+      "answer": 2,
+      "why": { "en": "A trickle in the Peruvian Andes grows into a river so wide near its mouth that you cannot see the other bank.", "es": "Un hilito en los Andes peruanos se vuelve un río tan ancho cerca de su boca que no alcanzas a ver la otra orilla." },
+      "topic": "the amazon",
+      "source": "https://kids.britannica.com/kids/article/Amazon-River/352810"
+    },
+    {
+      "id": "earth-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "Which rainforest layer stays dark and damp with very few plants?", "es": "¿Cuál capa de la selva se queda oscura y húmeda con pocas plantas?" },
+      "choices": [
+        { "en": "The emergent layer", "es": "La capa emergente" },
+        { "en": "The canopy", "es": "El dosel" },
+        { "en": "The understorey", "es": "El sotobosque" },
+        { "en": "The forest floor", "es": "El suelo del bosque" }
+      ],
+      "answer": 3,
+      "why": { "en": "The canopy above blocks nearly all the light, so only about two percent reaches the ground and leaves rot in months.", "es": "El dosel de arriba tapa casi toda la luz, así que solo llega cerca del dos por ciento y las hojas se pudren en meses." },
+      "topic": "rainforests",
+      "source": "https://kids.nationalgeographic.com/nature/habitats/article/rainforest"
+    },
+    {
+      "id": "earth-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "☁️",
+      "q": { "en": "How does a rainforest make much of its own rain?", "es": "¿Cómo fabrica una selva buena parte de su propia lluvia?" },
+      "choices": [
+        { "en": "Trees breathe out vapor that forms clouds", "es": "Los árboles exhalan vapor que forma nubes" },
+        { "en": "Rivers boil in the heat", "es": "Los ríos hierven con el calor" },
+        { "en": "Rocks release water from underground", "es": "Las rocas sueltan agua del subsuelo" },
+        { "en": "Animals drink and sweat it out", "es": "Los animales la beben y la sudan" }
+      ],
+      "answer": 0,
+      "why": { "en": "Amazon trees pump so much vapor upward that scientists call the streams of moist air flying rivers above the forest.", "es": "Los árboles amazónicos bombean tanto vapor hacia arriba que los científicos llaman ríos voladores a esas corrientes de aire húmedo." },
+      "topic": "rainforests",
+      "source": "https://climatekids.nasa.gov/rainforest/"
+    },
+    {
+      "id": "earth-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗻",
+      "q": { "en": "The Andes run down which side of South America?", "es": "¿Por cuál lado de Sudamérica corre la cordillera de los Andes?" },
+      "choices": [
+        { "en": "The eastern side", "es": "El lado este" },
+        { "en": "The western side", "es": "El lado oeste" },
+        { "en": "The northern side", "es": "El lado norte" },
+        { "en": "The southern tip", "es": "La punta sur" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Andes stretch about 7000 kilometres, 4300 miles, through seven countries, making them the longest mountain chain above water.", "es": "Los Andes se extienden unos 7000 kilómetros, 4300 millas, por siete países, y son la cadena montañosa más larga sobre el agua." },
+      "topic": "the andes",
+      "source": "https://kids.britannica.com/kids/article/Andes-Mountains/352832"
+    },
+    {
+      "id": "earth-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which two plates pushing together lifted the Andes mountains?", "es": "¿Cuáles dos placas al chocar levantaron la cordillera de los Andes?" },
+      "choices": [
+        { "en": "Two thick plates of land crust", "es": "Dos placas gruesas de continente" },
+        { "en": "A plate and a deep hot spot", "es": "Una placa y un punto caliente" },
+        { "en": "An ocean plate and a land plate", "es": "Una placa oceánica y una continental" },
+        { "en": "Two plates sliding side by side", "es": "Dos placas que se rozan de lado" }
+      ],
+      "answer": 2,
+      "why": { "en": "The heavier sea floor dives beneath South America, crumpling the edge upward and melting below, which is why volcanoes line the range.", "es": "El fondo marino, más pesado, se hunde bajo Sudamérica, arruga el borde hacia arriba y se funde abajo, por eso hay volcanes ahí." },
+      "topic": "the andes",
+      "source": "https://www.usgs.gov/programs/VHP/plate-tectonics-and-volcanoes"
+    },
+    {
+      "id": "earth-medium-063", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Which gas does ocean plankton give off that we breathe?", "es": "¿Cuál gas suelta el plancton del océano que nosotros respiramos?" },
+      "choices": [
+        { "en": "Nitrogen", "es": "Nitrógeno" },
+        { "en": "Carbon dioxide", "es": "Dióxido de carbono" },
+        { "en": "Helium", "es": "Helio" },
+        { "en": "Oxygen", "es": "Oxígeno" }
+      ],
+      "answer": 3,
+      "why": { "en": "Tiny drifting plants make roughly half the oxygen on the planet, so every second breath you take begins in the sea.", "es": "Esas plantitas flotantes producen casi la mitad del oxígeno del planeta, así que cada segunda respiración tuya empieza en el mar." },
+      "topic": "five oceans",
+      "source": "https://ocean.si.edu/ocean-life/plankton/every-other-breath"
+    },
+    {
+      "id": "earth-medium-064", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧂",
+      "q": { "en": "Where did the salt in the ocean come from?", "es": "¿De dónde vino la sal del océano?" },
+      "choices": [
+        { "en": "From rocks worn down by rivers", "es": "De las rocas gastadas por los ríos" },
+        { "en": "From fish and seaweed", "es": "De los peces y las algas" },
+        { "en": "From salty rain clouds", "es": "De nubes de lluvia salada" },
+        { "en": "From the pull of the Moon", "es": "De la fuerza de la Luna" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rivers carry a pinch of dissolved rock to the sea; water leaves by evaporating, but the salt stays and piles up.", "es": "Los ríos llevan al mar una pizca de roca disuelta; el agua se va al evaporarse, pero la sal se queda y se acumula." },
+      "topic": "five oceans",
+      "source": "https://oceanservice.noaa.gov/facts/whysalty.html"
+    },
+    {
+      "id": "earth-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "Which layer of the ocean stays completely dark all the time?", "es": "¿Cuál capa del océano se queda completamente oscura todo el tiempo?" },
+      "choices": [
+        { "en": "The sunlight zone", "es": "La zona de luz" },
+        { "en": "The midnight zone", "es": "La zona de medianoche" },
+        { "en": "The surface zone", "es": "La zona superficial" },
+        { "en": "The splash zone", "es": "La zona de salpicadura" }
+      ],
+      "answer": 1,
+      "why": { "en": "Below 1000 metres, about 3300 feet, no sunlight arrives, so many fish there make their own light to find food.", "es": "Bajo los 1000 metros, unos 3300 pies, ya no llega luz del Sol, así que muchos peces fabrican su propia luz." },
+      "topic": "five oceans",
+      "source": "https://ocean.si.edu/ecosystems/deep-sea/deep-sea"
+    },
+    {
+      "id": "earth-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍂",
+      "q": { "en": "When it is winter in Canada, what season is it in Chile?", "es": "Cuando es invierno en Canadá, ¿qué estación es en Chile?" },
+      "choices": [
+        { "en": "Autumn", "es": "Otoño" },
+        { "en": "Spring", "es": "Primavera" },
+        { "en": "Summer", "es": "Verano" },
+        { "en": "Winter", "es": "Invierno" }
+      ],
+      "answer": 2,
+      "why": { "en": "The two halves of the planet lean opposite ways, so December brings beach weather to Santiago and snow to Montreal.", "es": "Las dos mitades del planeta se inclinan al revés, por eso diciembre trae playa en Santiago y nieve en Montreal." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/solstice/"
+    },
+    {
+      "id": "earth-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌍",
+      "q": { "en": "What actually causes the seasons on our planet?", "es": "¿Qué causa en realidad las estaciones en nuestro planeta?" },
+      "choices": [
+        { "en": "Earth moving closer to the Sun", "es": "La Tierra acercándose al Sol" },
+        { "en": "The Moon blocking sunlight", "es": "La Luna tapando la luz" },
+        { "en": "Clouds covering half the planet", "es": "Nubes cubriendo medio planeta" },
+        { "en": "Earth's tilted axis as it orbits", "es": "La inclinación del eje de la Tierra" }
+      ],
+      "answer": 3,
+      "why": { "en": "Earth leans 23.5 degrees, so each half tips toward the Sun for part of the year and gets longer, stronger days.", "es": "La Tierra se inclina 23.5 grados, así cada mitad se ladea hacia el Sol parte del año y recibe días más largos." },
+      "topic": "seasons",
+      "source": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "earth-medium-068", "level": "medium", "type": "tf", "lang": "both", "emoji": "☀️",
+      "q": { "en": "On the equator the days stay about twelve hours long all year.", "es": "En el ecuador los días duran cerca de doce horas todo el año." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The equator faces the Sun evenly no matter how Earth tilts, so sunrise and sunset barely shift through the whole year.", "es": "El ecuador recibe el Sol de forma pareja sin importar la inclinación, así que el amanecer y el atardecer casi no cambian." },
+      "topic": "seasons",
+      "source": "https://scijinks.gov/equinox/"
+    },
+    {
+      "id": "earth-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌎",
+      "q": { "en": "Which layer of Earth is the thickest by far?", "es": "¿Cuál capa de la Tierra es con mucho la más gruesa?" },
+      "choices": [
+        { "en": "The crust", "es": "La corteza" },
+        { "en": "The mantle", "es": "El manto" },
+        { "en": "The outer core", "es": "El núcleo externo" },
+        { "en": "The inner core", "es": "El núcleo interno" }
+      ],
+      "answer": 1,
+      "why": { "en": "The mantle is about 2900 kilometres, 1800 miles, deep and holds most of Earth's rock, flowing slower than a growing fingernail.", "es": "El manto tiene unos 2900 kilómetros, 1800 millas, de espesor y guarda casi toda la roca de la Tierra, fluyendo lentísimo." },
+      "topic": "layers of the earth",
+      "source": "https://spaceplace.nasa.gov/earth-layers/en/"
+    },
+    {
+      "id": "earth-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔩",
+      "q": { "en": "What is the inner core of Earth mostly made of?", "es": "¿De qué está hecho casi todo el núcleo interno de la Tierra?" },
+      "choices": [
+        { "en": "Melted rock", "es": "Roca derretida" },
+        { "en": "Thick mud", "es": "Lodo espeso" },
+        { "en": "Solid iron and nickel", "es": "Hierro y níquel sólidos" },
+        { "en": "Hot gas", "es": "Gas caliente" }
+      ],
+      "answer": 2,
+      "why": { "en": "It is as hot as the surface of the Sun, yet the crushing weight above squeezes that metal into a solid ball.", "es": "Está tan caliente como la superficie del Sol, pero el peso aplastante de arriba comprime ese metal en una bola sólida." },
+      "topic": "layers of the earth",
+      "source": "https://kids.britannica.com/kids/article/Earth/353061"
+    },
+    {
+      "id": "earth-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Which spinning layer of Earth creates our magnetic field?", "es": "¿Cuál capa giratoria de la Tierra crea nuestro campo magnético?" },
+      "choices": [
+        { "en": "The crust", "es": "La corteza" },
+        { "en": "The mantle", "es": "El manto" },
+        { "en": "The inner core", "es": "El núcleo interno" },
+        { "en": "The liquid outer core", "es": "El núcleo externo líquido" }
+      ],
+      "answer": 3,
+      "why": { "en": "Churning liquid iron works like a giant dynamo, and the field it makes steers compass needles and shields us from solar wind.", "es": "El hierro líquido en movimiento actúa como un dinamo gigante, y su campo guía las brújulas y nos protege del viento solar." },
+      "topic": "layers of the earth",
+      "source": "https://climatekids.nasa.gov/magnetosphere/"
+    },
+    {
+      "id": "earth-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which scale do scientists use to measure an earthquake's energy?", "es": "¿Cuál escala usan los científicos para medir la energía de un sismo?" },
+      "choices": [
+        { "en": "The moment magnitude scale", "es": "La escala de magnitud de momento" },
+        { "en": "The Beaufort scale", "es": "La escala de Beaufort" },
+        { "en": "The Celsius scale", "es": "La escala Celsius" },
+        { "en": "The Mohs scale", "es": "La escala de Mohs" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each step up the scale means about 32 times more energy, so a magnitude 7 dwarfs a magnitude 6 quake.", "es": "Cada paso de la escala significa unas 32 veces más energía, así que un sismo de magnitud 7 empequeñece a uno de 6." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity"
+    },
+    {
+      "id": "earth-medium-073", "level": "medium", "type": "mc", "lang": "both", "emoji": "📍",
+      "q": { "en": "What do we call the point underground where an earthquake starts?", "es": "¿Cómo se llama el punto bajo tierra donde empieza un sismo?" },
+      "choices": [
+        { "en": "The epicentre", "es": "El epicentro" },
+        { "en": "The focus", "es": "El hipocentro" },
+        { "en": "The fault line", "es": "La falla" },
+        { "en": "The tremor", "es": "El temblor" }
+      ],
+      "answer": 1,
+      "why": { "en": "The focus sits deep below; the spot on the surface straight above it is the epicentre, where shaking usually feels strongest.", "es": "El hipocentro está en lo profundo; el punto de la superficie justo encima es el epicentro, donde el temblor suele sentirse más fuerte." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/faqs/what-difference-between-earthquake-hypocenter-and-epicenter"
+    },
+    {
+      "id": "earth-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "📈",
+      "q": { "en": "Which waves from an earthquake travel fastest and arrive first?", "es": "¿Cuáles ondas de un sismo viajan más rápido y llegan primero?" },
+      "choices": [
+        { "en": "S waves", "es": "Las ondas S" },
+        { "en": "Surface waves", "es": "Las ondas superficiales" },
+        { "en": "P waves", "es": "Las ondas P" },
+        { "en": "Love waves", "es": "Las ondas Love" }
+      ],
+      "answer": 2,
+      "why": { "en": "P waves push and pull like a squeezed spring and can move through liquid, which is how we learned the outer core melts.", "es": "Las ondas P empujan y jalan como un resorte y cruzan líquidos, así supimos que el núcleo externo está derretido." },
+      "topic": "earthquakes",
+      "source": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes"
+    },
+    {
+      "id": "earth-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Which ring of volcanoes circles the edges of the Pacific Ocean?", "es": "¿Cuál anillo de volcanes rodea los bordes del océano Pacífico?" },
+      "choices": [
+        { "en": "The Great Rift Valley", "es": "El Gran Valle del Rift" },
+        { "en": "The Mid-Atlantic Ridge", "es": "La dorsal mesoatlántica" },
+        { "en": "The Andean Belt", "es": "El cinturón andino" },
+        { "en": "The Ring of Fire", "es": "El Cinturón de Fuego" }
+      ],
+      "answer": 3,
+      "why": { "en": "About three quarters of the planet's volcanoes sit along this horseshoe, from Chile up to Alaska and down past Japan.", "es": "Cerca de tres cuartas partes de los volcanes del planeta están en esa herradura, desde Chile hasta Alaska y bajando por Japón." },
+      "topic": "volcanoes",
+      "source": "https://www.usgs.gov/faqs/what-pacific-ring-fire"
+    },
+    {
+      "id": "earth-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "What is melted rock called while it is still underground?", "es": "¿Cómo se llama la roca derretida mientras sigue bajo tierra?" },
+      "choices": [
+        { "en": "Magma", "es": "Magma" },
+        { "en": "Lava", "es": "Lava" },
+        { "en": "Ash", "es": "Ceniza" },
+        { "en": "Pumice", "es": "Piedra pómez" }
+      ],
+      "answer": 0,
+      "why": { "en": "Same molten rock, two names: it is magma below the surface and lava the moment it pours out into the air.", "es": "Es la misma roca fundida con dos nombres: magma bajo la superficie y lava en el momento en que sale al aire." },
+      "topic": "volcanoes",
+      "source": "https://www.usgs.gov/programs/VHP/volcano-hazards-program"
+    },
+    {
+      "id": "earth-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "Which volcano shape is wide and gentle, built by runny lava?", "es": "¿Cuál forma de volcán es ancha y suave, hecha de lava líquida?" },
+      "choices": [
+        { "en": "A cinder cone", "es": "Un cono de ceniza" },
+        { "en": "A shield volcano", "es": "Un volcán en escudo" },
+        { "en": "A stratovolcano", "es": "Un estratovolcán" },
+        { "en": "A lava dome", "es": "Un domo de lava" }
+      ],
+      "answer": 1,
+      "why": { "en": "Runny lava spreads far before it cools, so a shield volcano slopes as gently as a plate lying upside down.", "es": "La lava líquida se esparce mucho antes de enfriarse, por eso un volcán en escudo baja tan suave como un plato volteado." },
+      "topic": "volcanoes",
+      "source": "https://www.usgs.gov/programs/VHP/shield-volcanoes"
+    },
+    {
+      "id": "earth-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌽",
+      "q": { "en": "A volcano once grew in a farmer's cornfield in Mexico. Its name?", "es": "Un volcán creció en la milpa de un campesino en México. ¿Su nombre?" },
+      "choices": [
+        { "en": "Popocatépetl", "es": "Popocatépetl" },
+        { "en": "Cotopaxi", "es": "Cotopaxi" },
+        { "en": "Paricutín", "es": "Paricutín" },
+        { "en": "Villarrica", "es": "Villarrica" }
+      ],
+      "answer": 2,
+      "why": { "en": "Paricutín rose out of flat ground in 1943 and grew taller than a 100-storey building within one year.", "es": "El Paricutín brotó de un terreno plano en 1943 y en un año creció más alto que un edificio de 100 pisos." },
+      "topic": "volcanoes",
+      "source": "https://kids.britannica.com/kids/article/Paricutin/545983"
+    },
+    {
+      "id": "earth-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "How do fold mountains like the Himalayas get pushed up?", "es": "¿Cómo se levantan las montañas plegadas como el Himalaya?" },
+      "choices": [
+        { "en": "A hot spot melts through a plate", "es": "Un punto caliente derrite la placa" },
+        { "en": "Wind piles rock into ridges", "es": "El viento apila roca en crestas" },
+        { "en": "A river cuts around hard stone", "es": "Un río rodea la piedra dura" },
+        { "en": "Two continents crash and crumple", "es": "Dos continentes chocan y se arrugan" }
+      ],
+      "answer": 3,
+      "why": { "en": "India is still pressing into Asia, which is why the Himalayas grow about a centimetre, half an inch, taller each year.", "es": "India sigue empujando contra Asia, por eso el Himalaya crece cerca de un centímetro, media pulgada, cada año." },
+      "topic": "mountains",
+      "source": "https://pubs.usgs.gov/gip/dynamic/himalaya.html"
+    },
+    {
+      "id": "earth-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "Which sea creatures left fossils on top of the Himalayas?", "es": "¿Cuáles criaturas marinas dejaron fósiles en la cima del Himalaya?" },
+      "choices": [
+        { "en": "Shells and ammonites", "es": "Conchas y amonites" },
+        { "en": "Whales and dolphins", "es": "Ballenas y delfines" },
+        { "en": "Penguins and seals", "es": "Pingüinos y focas" },
+        { "en": "Crabs and lobsters", "es": "Cangrejos y langostas" }
+      ],
+      "answer": 0,
+      "why": { "en": "That rock was once an ocean floor; the collision lifted it nearly 9 kilometres, 5.5 miles, into the thin cold air.", "es": "Esa roca fue fondo marino; el choque la subió casi 9 kilómetros, 5.5 millas, hasta el aire frío y delgado." },
+      "topic": "mountains",
+      "source": "https://kids.britannica.com/kids/article/Himalayas/353197"
+    },
+    {
+      "id": "earth-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏞️",
+      "q": { "en": "What is the wide curve a slow river makes across a plain?", "es": "¿Cómo se llama la curva ancha que hace un río lento en la llanura?" },
+      "choices": [
+        { "en": "A delta", "es": "Un delta" },
+        { "en": "A meander", "es": "Un meandro" },
+        { "en": "A canyon", "es": "Un cañón" },
+        { "en": "A rapid", "es": "Un rápido" }
+      ],
+      "answer": 1,
+      "why": { "en": "Water runs faster on the outside of a bend and digs there, so meanders creep sideways and sometimes cut off into lakes.", "es": "El agua corre más rápido por fuera de la curva y excava ahí, así los meandros se desplazan y a veces forman lagos." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/rivers-streams-and-creeks"
+    },
+    {
+      "id": "earth-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "What is the fan of mud a river drops where it meets the sea?", "es": "¿Cómo se llama el abanico de lodo que deja un río al llegar al mar?" },
+      "choices": [
+        { "en": "A source", "es": "Una fuente" },
+        { "en": "A basin", "es": "Una cuenca" },
+        { "en": "A delta", "es": "Un delta" },
+        { "en": "A gorge", "es": "Un desfiladero" }
+      ],
+      "answer": 2,
+      "why": { "en": "The name comes from the Greek letter delta, a triangle, because the Nile drops its mud in exactly that shape.", "es": "El nombre viene de la letra griega delta, un triángulo, porque el Nilo suelta su lodo justo con esa forma." },
+      "topic": "rivers",
+      "source": "https://kids.britannica.com/kids/article/delta/399086"
+    },
+    {
+      "id": "earth-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "All the land that drains into one river is called what?", "es": "¿Cómo se llama todo el terreno que desagua en un mismo río?" },
+      "choices": [
+        { "en": "A delta", "es": "Un delta" },
+        { "en": "A floodplain", "es": "Una llanura de inundación" },
+        { "en": "An estuary", "es": "Un estuario" },
+        { "en": "A watershed", "es": "Una cuenca hidrográfica" }
+      ],
+      "answer": 3,
+      "why": { "en": "Every drop that falls in a watershed heads for the same river, so a spill far uphill can reach the sea.", "es": "Cada gota que cae en una cuenca va al mismo río, por eso un derrame allá arriba puede llegar hasta el mar." },
+      "topic": "rivers",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/watersheds-and-drainage-basins"
+    },
+    {
+      "id": "earth-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which kind of rock forms in layers from squeezed sand and mud?", "es": "¿Cuál tipo de roca se forma en capas de arena y lodo apretados?" },
+      "choices": [
+        { "en": "Sedimentary rock", "es": "Roca sedimentaria" },
+        { "en": "Igneous rock", "es": "Roca ígnea" },
+        { "en": "Metamorphic rock", "es": "Roca metamórfica" },
+        { "en": "Volcanic glass", "es": "Vidrio volcánico" }
+      ],
+      "answer": 0,
+      "why": { "en": "Layers pile up like a sandwich over thousands of years, and only this kind of rock traps fossils inside it.", "es": "Las capas se apilan como un sándwich durante miles de años, y solo esta clase de roca guarda fósiles adentro." },
+      "topic": "rocks",
+      "source": "https://kids.britannica.com/kids/article/rock/353688"
+    },
+    {
+      "id": "earth-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏛️",
+      "q": { "en": "Heat and pressure change limestone into which beautiful stone?", "es": "¿En qué piedra hermosa se convierte la caliza con calor y presión?" },
+      "choices": [
+        { "en": "Granite", "es": "Granito" },
+        { "en": "Marble", "es": "Mármol" },
+        { "en": "Sandstone", "es": "Arenisca" },
+        { "en": "Obsidian", "es": "Obsidiana" }
+      ],
+      "answer": 1,
+      "why": { "en": "Marble is limestone recooked deep underground; its crystals grow big enough to catch light, which is why statues glow softly.", "es": "El mármol es caliza recocida en lo profundo; sus cristales crecen tanto que atrapan la luz, por eso las estatuas parecen brillar." },
+      "topic": "rocks",
+      "source": "https://kids.britannica.com/kids/article/marble/353391"
+    },
+    {
+      "id": "earth-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "💎",
+      "q": { "en": "Which mineral sits at the top of the Mohs hardness scale?", "es": "¿Cuál mineral está en la cima de la escala de dureza de Mohs?" },
+      "choices": [
+        { "en": "Quartz", "es": "Cuarzo" },
+        { "en": "Topaz", "es": "Topacio" },
+        { "en": "Diamond", "es": "Diamante" },
+        { "en": "Corundum", "es": "Corindón" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mohs ranked ten minerals from talc to diamond; each one can scratch every mineral listed below it on the ladder.", "es": "Mohs ordenó diez minerales del talco al diamante; cada uno puede rayar a todos los minerales que están debajo en la lista." },
+      "topic": "minerals",
+      "source": "https://www.usgs.gov/programs/mineral-resources-program"
+    },
+    {
+      "id": "earth-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "💠",
+      "q": { "en": "Which common mineral can you eat every day at dinner?", "es": "¿Cuál mineral común puedes comer todos los días en la cena?" },
+      "choices": [
+        { "en": "Quartz", "es": "Cuarzo" },
+        { "en": "Mica", "es": "Mica" },
+        { "en": "Gypsum", "es": "Yeso" },
+        { "en": "Halite", "es": "Halita" }
+      ],
+      "answer": 3,
+      "why": { "en": "Halite is table salt in crystal form; it grows in neat cubes, which is why grains look square under a lens.", "es": "La halita es la sal de mesa en cristal; crece en cubos perfectos, por eso los granos se ven cuadrados con una lupa." },
+      "topic": "minerals",
+      "source": "https://kids.britannica.com/kids/article/mineral/353419"
+    },
+    {
+      "id": "earth-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "What has happened to the bone inside a fossilized dinosaur bone?", "es": "¿Qué le pasó al hueso dentro de un hueso de dinosaurio fosilizado?" },
+      "choices": [
+        { "en": "Minerals replaced it bit by bit", "es": "Los minerales lo reemplazaron poco a poco" },
+        { "en": "It dried out and stayed bone", "es": "Se secó y siguió siendo hueso" },
+        { "en": "It turned into coal", "es": "Se volvió carbón" },
+        { "en": "It melted into the rock", "es": "Se derritió en la roca" }
+      ],
+      "answer": 0,
+      "why": { "en": "Water carrying minerals seeps in and swaps them for bone, copying every tiny channel, so a fossil is really stone shaped like bone.", "es": "El agua con minerales se filtra y los cambia por el hueso, copiando cada canalito, así que un fósil es piedra con forma de hueso." },
+      "topic": "fossils",
+      "source": "https://www.nps.gov/subjects/fossils/what-is-a-fossil.htm"
+    },
+    {
+      "id": "earth-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐾",
+      "q": { "en": "What do we call a fossil footprint or burrow left by an animal?", "es": "¿Cómo se llama la huella o madriguera fósil que deja un animal?" },
+      "choices": [
+        { "en": "A body fossil", "es": "Un fósil corporal" },
+        { "en": "A trace fossil", "es": "Un fósil de rastro" },
+        { "en": "A cast", "es": "Un molde" },
+        { "en": "An impression", "es": "Un vaciado" }
+      ],
+      "answer": 1,
+      "why": { "en": "Trace fossils capture behaviour: a track can show how fast a dinosaur walked and whether it travelled in a herd.", "es": "Los fósiles de rastro guardan la conducta: una huella puede decir qué tan rápido caminaba un dinosaurio y si iba en manada." },
+      "topic": "fossils",
+      "source": "https://www.nps.gov/subjects/fossils/trace-fossils.htm"
+    },
+    {
+      "id": "earth-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Which golden tree sap can trap insects and harden into a fossil?", "es": "¿Cuál savia dorada de árbol atrapa insectos y se endurece como fósil?" },
+      "choices": [
+        { "en": "Honey", "es": "Miel" },
+        { "en": "Beeswax", "es": "Cera de abeja" },
+        { "en": "Amber", "es": "Ámbar" },
+        { "en": "Tar", "es": "Brea" }
+      ],
+      "answer": 2,
+      "why": { "en": "Amber from Chiapas in Mexico holds ants and flies that lived about 23 million years ago, still complete down to their hairs.", "es": "El ámbar de Chiapas, en México, guarda hormigas y moscas de hace unos 23 millones de años, completas hasta sus pelitos." },
+      "topic": "fossils",
+      "source": "https://naturalhistory.si.edu/education/teaching-resources/paleontology/amber"
+    },
+    {
+      "id": "earth-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "How long can nature take to build one centimetre of topsoil?", "es": "¿Cuánto puede tardar la naturaleza en formar un centímetro de suelo fértil?" },
+      "choices": [
+        { "en": "About a week", "es": "Cerca de una semana" },
+        { "en": "About a month", "es": "Cerca de un mes" },
+        { "en": "About a year", "es": "Cerca de un año" },
+        { "en": "Hundreds of years", "es": "Cientos de años" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rock must crumble and dead leaves must rot before soil forms, which is why washing it away is so serious.", "es": "La roca debe desmoronarse y las hojas muertas pudrirse antes de que haya suelo, por eso perderlo por erosión es tan grave." },
+      "topic": "soil",
+      "source": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils"
+    },
+    {
+      "id": "earth-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "What is the dark crumbly part of soil made of rotted plants?", "es": "¿Cómo se llama la parte oscura del suelo hecha de plantas podridas?" },
+      "choices": [
+        { "en": "Humus", "es": "Humus" },
+        { "en": "Clay", "es": "Arcilla" },
+        { "en": "Gravel", "es": "Grava" },
+        { "en": "Sand", "es": "Arena" }
+      ],
+      "answer": 0,
+      "why": { "en": "Humus holds water like a sponge and feeds roots; a single spoon of rich soil can hold more microbes than people on Earth.", "es": "El humus retiene agua como esponja y alimenta las raíces; una cucharada de suelo rico tiene más microbios que personas hay en la Tierra." },
+      "topic": "soil",
+      "source": "https://kids.britannica.com/kids/article/soil/353793"
+    },
+    {
+      "id": "earth-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "How does a limestone cave get hollowed out underground?", "es": "¿Cómo se ahueca una caverna de caliza bajo tierra?" },
+      "choices": [
+        { "en": "Wind blows the rock away", "es": "El viento se lleva la roca" },
+        { "en": "Slightly acidic water dissolves the rock", "es": "El agua un poco ácida la disuelve" },
+        { "en": "Earthquakes crack it open", "es": "Los sismos la abren" },
+        { "en": "Animals dig the tunnels", "es": "Los animales cavan los túneles" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rain picks up carbon dioxide and turns weakly acidic, then eats limestone drop by drop for thousands of years.", "es": "La lluvia recoge dióxido de carbono y se vuelve un poco ácida, y así come la caliza gota a gota durante miles de años." },
+      "topic": "caves",
+      "source": "https://www.nps.gov/subjects/caves/cave-formation.htm"
+    },
+    {
+      "id": "earth-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "What is a cenote in the Yucatán of Mexico?", "es": "¿Qué es un cenote en la península de Yucatán, en México?" },
+      "choices": [
+        { "en": "A dry lava tube", "es": "Un tubo de lava seco" },
+        { "en": "A salty lagoon", "es": "Una laguna salada" },
+        { "en": "A sinkhole filled with fresh water", "es": "Un hoyo hundido lleno de agua dulce" },
+        { "en": "A hot spring", "es": "Una fuente termal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Cenotes open where a cave roof collapses; the Maya treated them as doorways to the underworld and drank from them.", "es": "Los cenotes se abren cuando el techo de una caverna se derrumba; los mayas los veían como puertas al inframundo y bebían ahí." },
+      "topic": "caves",
+      "source": "https://kids.britannica.com/kids/article/Yucatan-Peninsula/353983"
+    },
+    {
+      "id": "earth-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏕️",
+      "q": { "en": "Which cave formation grows upward from the floor?", "es": "¿Cuál formación de una caverna crece hacia arriba desde el piso?" },
+      "choices": [
+        { "en": "A stalactite", "es": "Una estalactita" },
+        { "en": "A column", "es": "Una columna" },
+        { "en": "A curtain", "es": "Una cortina" },
+        { "en": "A stalagmite", "es": "Una estalagmita" }
+      ],
+      "answer": 3,
+      "why": { "en": "Remember it by the letters: stalactites hold tight to the ceiling, stalagmites might grow up and meet them as a column.", "es": "Truco: la estalactita cuelga del techo y la estalagmita sube del suelo; si se encuentran, juntas forman una columna de piedra." },
+      "topic": "caves",
+      "source": "https://www.nps.gov/subjects/caves/speleothems.htm"
+    },
+    {
+      "id": "earth-medium-096", "level": "medium", "type": "mc", "lang": "both", "emoji": "♻️",
+      "q": { "en": "How many times can an aluminium can be recycled into a new can?", "es": "¿Cuántas veces se puede reciclar una lata de aluminio en otra lata?" },
+      "choices": [
+        { "en": "Over and over with no limit", "es": "Una y otra vez sin límite" },
+        { "en": "About twice", "es": "Unas dos veces" },
+        { "en": "About ten times", "es": "Unas diez veces" },
+        { "en": "Only once", "es": "Solo una vez" }
+      ],
+      "answer": 0,
+      "why": { "en": "Melting a can uses about 5 percent of the energy needed to make one from ore, and the metal stays just as good.", "es": "Fundir una lata usa cerca del 5 por ciento de la energía de hacerla desde el mineral, y el metal queda igual de bueno." },
+      "topic": "recycling",
+      "source": "https://www.epa.gov/recycle/recycling-basics-and-benefits"
+    },
+    {
+      "id": "earth-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗑️",
+      "q": { "en": "Which everyday item takes the longest to break down in a landfill?", "es": "¿Cuál objeto diario tarda más en descomponerse en un basurero?" },
+      "choices": [
+        { "en": "A paper bag", "es": "Una bolsa de papel" },
+        { "en": "A glass bottle", "es": "Una botella de vidrio" },
+        { "en": "An apple core", "es": "Un corazón de manzana" },
+        { "en": "A cotton shirt", "es": "Una camisa de algodón" }
+      ],
+      "answer": 1,
+      "why": { "en": "Glass is basically melted sand and may sit unchanged for thousands of years, yet it can be recycled endlessly instead.", "es": "El vidrio es arena fundida y puede quedarse igual miles de años, aunque se puede reciclar una y otra vez sin fin." },
+      "topic": "recycling",
+      "source": "https://www.epa.gov/recycle/recycling-basics-and-benefits"
+    },
+    {
+      "id": "earth-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "What do we call plastic pieces smaller than 5 millimetres in the sea?", "es": "¿Cómo llamamos a los pedazos de plástico menores de 5 milímetros en el mar?" },
+      "choices": [
+        { "en": "Sea foam", "es": "Espuma de mar" },
+        { "en": "Plankton", "es": "Plancton" },
+        { "en": "Microplastics", "es": "Microplásticos" },
+        { "en": "Driftwood", "es": "Madera flotante" }
+      ],
+      "answer": 2,
+      "why": { "en": "Waves and sunlight crumble bottles into specks that fish mistake for food, and those specks travel all the way to the poles.", "es": "Las olas y el Sol desmenuzan botellas en motas que los peces confunden con comida, y esas motas llegan hasta los polos." },
+      "topic": "pollution",
+      "source": "https://oceanservice.noaa.gov/facts/microplastics.html"
+    },
+    {
+      "id": "earth-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Where does most ocean plastic come from before it reaches the sea?", "es": "¿De dónde viene casi todo el plástico del océano antes de llegar al mar?" },
+      "choices": [
+        { "en": "Ships dumping at sea", "es": "Barcos que tiran basura" },
+        { "en": "Fishing nets alone", "es": "Solo redes de pesca" },
+        { "en": "Picnics on the beach", "es": "Días de campo en la playa" },
+        { "en": "Rivers carrying it from land", "es": "Ríos que lo arrastran desde tierra" }
+      ],
+      "answer": 3,
+      "why": { "en": "Rivers act like conveyor belts, so a wrapper dropped far inland can float thousands of kilometres and end up in an ocean.", "es": "Los ríos funcionan como bandas transportadoras, así una envoltura tirada tierra adentro puede flotar miles de kilómetros y acabar en un océano." },
+      "topic": "pollution",
+      "source": "https://ocean.si.edu/conservation/pollution/marine-plastics"
+    },
+    {
+      "id": "earth-medium-100", "level": "medium", "type": "tf", "lang": "both", "emoji": "⏳",
+      "q": { "en": "Most household waste in a landfill breaks down within one year.", "es": "Casi toda la basura de casa en un basurero se descompone en un año." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Landfills are packed tight with little air, so even a newspaper can stay readable after decades buried underground.", "es": "Los basureros están apretados y con poco aire, así que hasta un periódico puede seguir legible tras décadas enterrado." },
+      "topic": "pollution",
+      "source": "https://www.epa.gov/landfills/basic-information-about-landfills"
     }
   ]
 }

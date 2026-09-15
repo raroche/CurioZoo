@@ -1828,6 +1828,900 @@
       "why": { "en": "Yellow and orange colors hide in the leaf all summer, and when the tree stops making chlorophyll those colors finally show through.", "es": "Los tonos amarillos y naranjas están en la hoja todo el verano; cuando el árbol deja de hacer clorofila, por fin se ven." },
       "topic": "trees and forests",
       "source": "https://kids.britannica.com/kids/article/leaf/353346"
+    },
+    {
+      "id": "animals-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Which animal warms its body by lying on a sunny rock?", "es": "¿Cuál animal calienta su cuerpo echándose en una roca soleada?" },
+      "choices": [
+        { "en": "A lizard", "es": "Una lagartija" },
+        { "en": "A robin", "es": "Un petirrojo" },
+        { "en": "A mouse", "es": "Un ratón" },
+        { "en": "A rabbit", "es": "Un conejo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Reptiles are cold-blooded, so their body takes the temperature around them, and a lizard sunbathes to warm up and hides in shade to cool.", "es": "Los reptiles son de sangre fría, así que toman la temperatura de su entorno; la lagartija se asolea y luego busca sombra." },
+      "topic": "animal groups",
+      "source": "https://kids.britannica.com/kids/article/reptile/353733"
+    },
+    {
+      "id": "animals-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Which body part lets a fish take oxygen out of the water?", "es": "¿Cuál parte del cuerpo le permite al pez sacar oxígeno del agua?" },
+      "choices": [
+        { "en": "The fins", "es": "Las aletas" },
+        { "en": "The gills", "es": "Las branquias" },
+        { "en": "The scales", "es": "Las escamas" },
+        { "en": "The swim bladder", "es": "La vejiga natatoria" }
+      ],
+      "answer": 1,
+      "why": { "en": "Water flows over feathery gills packed with blood vessels, which pull out dissolved oxygen, so a fish suffocates in plain air.", "es": "El agua pasa por las branquias llenas de vasos sanguíneos, que sacan el oxígeno disuelto; por eso un pez se ahoga fuera del agua." },
+      "topic": "animal groups",
+      "source": "https://kids.britannica.com/kids/article/fish/353183"
+    },
+    {
+      "id": "animals-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "A tadpole has just grown its back legs. What grows next?", "es": "Un renacuajo acaba de sacar sus patas traseras. ¿Qué le sale después?" },
+      "choices": [
+        { "en": "Gills", "es": "Las branquias" },
+        { "en": "Scales", "es": "Las escamas" },
+        { "en": "Front legs", "es": "Las patas delanteras" },
+        { "en": "A shell", "es": "Un caparazón" }
+      ],
+      "answer": 2,
+      "why": { "en": "Back legs come first, then front legs, and last the tail shrinks away as the growing body absorbs it for food.", "es": "Primero salen las patas traseras, luego las delanteras, y al final la cola se encoge porque el cuerpo la absorbe como alimento." },
+      "topic": "life cycles",
+      "source": "https://kids.britannica.com/kids/article/frog/353219"
+    },
+    {
+      "id": "animals-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌴",
+      "q": { "en": "Which layer of a rainforest is dark, damp and gets the least light?", "es": "¿Cuál capa de la selva es oscura, húmeda y recibe la menor luz?" },
+      "choices": [
+        { "en": "The canopy", "es": "El dosel" },
+        { "en": "The understory", "es": "El sotobosque" },
+        { "en": "The emergent layer", "es": "La capa emergente" },
+        { "en": "The forest floor", "es": "El suelo del bosque" }
+      ],
+      "answer": 3,
+      "why": { "en": "Only about 2 percent of sunlight reaches the forest floor, so plants there have huge leaves and the soil is surprisingly thin.", "es": "Solo un 2 por ciento de la luz llega al suelo de la selva, por eso las plantas de abajo tienen hojas enormes." },
+      "topic": "habitats and biomes",
+      "source": "https://kids.britannica.com/kids/article/rainforest/353714"
+    },
+    {
+      "id": "animals-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "In a food chain, about how much energy passes to the next level?", "es": "En una cadena alimenticia, ¿cuánta energía pasa al siguiente nivel?" },
+      "choices": [
+        { "en": "About 90 percent", "es": "Cerca del 90 por ciento" },
+        { "en": "About 50 percent", "es": "Cerca del 50 por ciento" },
+        { "en": "About 25 percent", "es": "Cerca del 25 por ciento" },
+        { "en": "About 10 percent", "es": "Cerca del 10 por ciento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Most energy is spent moving, growing and staying warm, which is why food chains rarely have more than four or five links.", "es": "Casi toda la energía se gasta en moverse, crecer y mantener el calor, por eso una cadena rara vez pasa de cinco eslabones." },
+      "topic": "food chains",
+      "source": "https://kids.britannica.com/kids/article/food-chain/353128"
+    },
+    {
+      "id": "animals-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "Monarch butterflies fly south each fall to spend the winter in which country?", "es": "¿En cuál país pasan el invierno las mariposas monarca que vuelan al sur?" },
+      "choices": [
+        { "en": "Mexico", "es": "México" },
+        { "en": "Peru", "es": "Perú" },
+        { "en": "Canada", "es": "Canadá" },
+        { "en": "Spain", "es": "España" }
+      ],
+      "answer": 0,
+      "why": { "en": "They gather by the millions in the oyamel fir forests of Michoacán, on a journey no single butterfly has ever made before.", "es": "Se juntan por millones en los bosques de oyamel de Michoacán, en un viaje que ninguna mariposa ha hecho antes." },
+      "topic": "migration and hibernation",
+      "source": "https://kids.nationalgeographic.com/animals/invertebrates/facts/monarch-butterfly"
+    },
+    {
+      "id": "animals-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦒",
+      "q": { "en": "About how tall can a grown giraffe stand?", "es": "¿Qué tan alta puede llegar a ser una jirafa adulta?" },
+      "choices": [
+        { "en": "About 8 feet, 2.5 m", "es": "Unos 8 pies, 2.5 m" },
+        { "en": "About 12 feet, 3.5 m", "es": "Unos 12 pies, 3.5 m" },
+        { "en": "About 18 feet, 5.5 m", "es": "Unos 18 pies, 5.5 m" },
+        { "en": "About 25 feet, 7.5 m", "es": "Unos 25 pies, 7.5 m" }
+      ],
+      "answer": 2,
+      "why": { "en": "A giraffe is as tall as a two-story house, yet its long neck holds only seven bones, the same number as yours.", "es": "Una jirafa mide como una casa de dos pisos, pero su cuello largo tiene solo siete huesos, los mismos que el tuyo." },
+      "topic": "animal sizes",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/giraffe"
+    },
+    {
+      "id": "animals-medium-043", "level": "medium", "type": "tf", "lang": "both", "emoji": "🦓",
+      "q": { "en": "A zebra's stripes are mainly there to keep it warm at night.", "es": "Las rayas de la cebra sirven sobre todo para mantenerla caliente de noche." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Studies show the stripes mostly confuse biting flies, which land far less often on striped coats than on plain brown ones.", "es": "Los estudios muestran que las rayas confunden a las moscas que pican, pues se posan mucho menos en pelajes rayados que lisos." },
+      "topic": "camouflage",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/plains-zebra"
+    },
+    {
+      "id": "animals-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪴",
+      "q": { "en": "A potted plant is kept in a dark closet for two weeks. What happens?", "es": "Una planta en maceta pasa dos semanas en un clóset oscuro. ¿Qué le pasa?" },
+      "choices": [
+        { "en": "It grows twice as fast", "es": "Crece el doble de rápido" },
+        { "en": "Its leaves turn pale and yellow", "es": "Sus hojas se ponen pálidas y amarillas" },
+        { "en": "It opens bright red flowers", "es": "Abre flores rojas brillantes" },
+        { "en": "Its roots turn green", "es": "Sus raíces se vuelven verdes" }
+      ],
+      "answer": 1,
+      "why": { "en": "With no light the plant cannot make sugar, so it breaks down its own chlorophyll and the green fades to pale yellow.", "es": "Sin luz la planta no puede fabricar azúcar, así que deshace su propia clorofila y el verde se vuelve amarillo pálido." },
+      "topic": "how plants make food",
+      "source": "https://kids.britannica.com/kids/article/photosynthesis/353695"
+    },
+    {
+      "id": "animals-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Some flowers use no animal helper at all. What carries their pollen?", "es": "Algunas flores no usan ningún animal ayudante. ¿Qué lleva su polen?" },
+      "choices": [
+        { "en": "The rain", "es": "La lluvia" },
+        { "en": "The wind", "es": "El viento" },
+        { "en": "Ocean waves", "es": "Las olas del mar" },
+        { "en": "Sunlight", "es": "La luz del sol" }
+      ],
+      "answer": 1,
+      "why": { "en": "Grasses, corn and pine trees let the wind do the work, making clouds of dry pollen that can also make people sneeze.", "es": "Los pastos, el maíz y los pinos dejan que el viento trabaje, soltando nubes de polen seco que también nos hacen estornudar." },
+      "topic": "pollination",
+      "source": "https://kids.britannica.com/kids/article/pollination/353649"
+    },
+    {
+      "id": "animals-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦕",
+      "q": { "en": "What does it mean when scientists say a species is extinct?", "es": "¿Qué significa que los científicos digan que una especie está extinta?" },
+      "choices": [
+        { "en": "None are left alive anywhere", "es": "Que ya no vive ninguno" },
+        { "en": "Only a few are left", "es": "Que quedan muy pocos" },
+        { "en": "It lives only in zoos", "es": "Que solo vive en zoológicos" },
+        { "en": "It moved to another continent", "es": "Que se mudó de continente" }
+      ],
+      "answer": 0,
+      "why": { "en": "Endangered means very few remain and help can still work, while extinct means the last one has died and nothing brings it back.", "es": "En peligro significa que quedan muy pocos y aún se puede ayudar; extinto significa que murió el último y ya no vuelve." },
+      "topic": "endangered and extinct",
+      "source": "https://kids.britannica.com/kids/article/extinction/399723"
+    },
+    {
+      "id": "animals-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦗",
+      "q": { "en": "Where on its body does a cricket keep its ears?", "es": "¿En cuál parte del cuerpo tiene sus oídos un grillo?" },
+      "choices": [
+        { "en": "On its head", "es": "En la cabeza" },
+        { "en": "On its front legs", "es": "En las patas delanteras" },
+        { "en": "On its wings", "es": "En las alas" },
+        { "en": "On its antennae", "es": "En las antenas" }
+      ],
+      "answer": 1,
+      "why": { "en": "A cricket hears through thin drums just below the knee of each front leg, and it sings by rubbing its wings together.", "es": "El grillo oye por unos tímpanos finos debajo de la rodilla de cada pata delantera, y canta frotando sus alas." },
+      "topic": "animal senses",
+      "source": "https://www.si.edu/spotlight/buginfo/cricket"
+    },
+    {
+      "id": "animals-medium-048", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "About how long does an elephant carry her calf before it is born?", "es": "¿Cuánto tiempo lleva una elefanta a su cría antes de que nazca?" },
+      "choices": [
+        { "en": "About 9 months", "es": "Unos 9 meses" },
+        { "en": "About 12 months", "es": "Unos 12 meses" },
+        { "en": "About 18 months", "es": "Unos 18 meses" },
+        { "en": "About 22 months", "es": "Unos 22 meses" }
+      ],
+      "answer": 3,
+      "why": { "en": "Almost two years give the calf a big brain and steady legs, so it can stand and walk within an hour of birth.", "es": "Casi dos años le dan al elefantito un cerebro grande y patas firmes, así puede pararse y caminar en su primera hora." },
+      "topic": "animal babies and parents",
+      "source": "https://nationalzoo.si.edu/animals/african-elephant"
+    },
+    {
+      "id": "animals-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦩",
+      "q": { "en": "A flamingo holds its head upside down to eat. Why?", "es": "Un flamenco come con la cabeza al revés. ¿Por qué?" },
+      "choices": [
+        { "en": "To keep its feathers dry", "es": "Para no mojarse las plumas" },
+        { "en": "To watch the sky for danger", "es": "Para vigilar el cielo" },
+        { "en": "To strain tiny food from the water", "es": "Para colar comida diminuta del agua" },
+        { "en": "To cool its long neck", "es": "Para enfriar su cuello largo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Its beak works like a sieve: the tongue pumps water through comb-like plates that trap shrimp and algae, which turn the bird pink.", "es": "Su pico funciona como colador: la lengua bombea agua entre láminas como peines que atrapan camarones y algas, y eso lo vuelve rosado." },
+      "topic": "teeth and beaks",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/american-flamingo"
+    },
+    {
+      "id": "animals-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "About how old can a giant sequoia tree grow to be?", "es": "¿Qué edad puede alcanzar una secuoya gigante?" },
+      "choices": [
+        { "en": "About 100 years", "es": "Unos 100 años" },
+        { "en": "About 300 years", "es": "Unos 300 años" },
+        { "en": "About 900 years", "es": "Unos 900 años" },
+        { "en": "Over 3000 years", "es": "Más de 3000 años" }
+      ],
+      "answer": 3,
+      "why": { "en": "Giant sequoias keep growing wider every year, and their spongy bark can be 2 feet, 60 cm, thick, which shrugs off fire.", "es": "Las secuoyas gigantes siguen engordando cada año, y su corteza esponjosa puede medir 60 cm, 2 pies, de grosor y resiste el fuego." },
+      "topic": "trees and forests",
+      "source": "https://www.nps.gov/seki/learn/nature/sherman.htm"
+    },
+    {
+      "id": "animals-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "A burr sticks to a dog's fur in the park. What is happening?", "es": "Un abrojo se pega al pelo de un perro en el parque. ¿Qué pasa?" },
+      "choices": [
+        { "en": "The plant is drinking", "es": "La planta está bebiendo" },
+        { "en": "A seed is hitching a ride", "es": "Una semilla viaja de aventón" },
+        { "en": "The dog is being marked", "es": "Al perro lo están marcando" },
+        { "en": "An insect is hiding there", "es": "Un insecto se esconde ahí" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tiny hooks on the burr grab hair, and the seed drops off far from its parent plant, where sunlight and soil are free.", "es": "Unos ganchitos del abrojo se agarran del pelo, y la semilla cae lejos de su planta madre, donde hay sol y tierra libres." },
+      "topic": "seeds travelling",
+      "source": "https://kids.britannica.com/kids/article/seed/353786"
+    },
+    {
+      "id": "animals-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍄",
+      "q": { "en": "What do we call the hidden web of threads a fungus grows underground?", "es": "¿Cómo se llama la red de hilos que un hongo forma bajo tierra?" },
+      "choices": [
+        { "en": "Roots", "es": "Raíces" },
+        { "en": "Moss", "es": "Musgo" },
+        { "en": "Mycelium", "es": "Micelio" },
+        { "en": "Lichen", "es": "Liquen" }
+      ],
+      "answer": 2,
+      "why": { "en": "The mushroom is only the fruit, while the mycelium below can spread for miles and trade food with tree roots in the forest.", "es": "El hongo que ves es solo el fruto; el micelio de abajo se extiende kilómetros e intercambia alimento con las raíces de los árboles." },
+      "topic": "fungi",
+      "source": "https://kids.britannica.com/kids/article/fungus/353236"
+    },
+    {
+      "id": "animals-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪸",
+      "q": { "en": "What happens to a coral when the sea water around it gets too warm?", "es": "¿Qué le pasa a un coral cuando el agua del mar se calienta demasiado?" },
+      "choices": [
+        { "en": "It turns bone white", "es": "Se pone blanco como hueso" },
+        { "en": "It grows much faster", "es": "Crece mucho más rápido" },
+        { "en": "It sinks into the sand", "es": "Se hunde en la arena" },
+        { "en": "It closes up forever", "es": "Se cierra para siempre" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stressed coral pushes out the colorful algae that feed it and turns white, and if cool water returns soon, the algae come back.", "es": "El coral estresado expulsa las algas de colores que lo alimentan y queda blanco; si el agua se enfría pronto, las algas regresan." },
+      "topic": "coral reefs",
+      "source": "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+    },
+    {
+      "id": "animals-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "The river dolphin of the Amazon is famous for being which color?", "es": "¿De cuál color es famoso el delfín de río del Amazonas?" },
+      "choices": [
+        { "en": "Pink", "es": "Rosado" },
+        { "en": "Green", "es": "Verde" },
+        { "en": "Yellow", "es": "Amarillo" },
+        { "en": "Black", "es": "Negro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Adult boto dolphins blush pink as their skin thins with age, and they turn their heads sideways to hunt among flooded trees.", "es": "El delfín boto se pone rosado al adelgazar su piel con la edad, y gira la cabeza de lado para cazar entre árboles inundados." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/amazon-river-dolphin"
+    },
+    {
+      "id": "animals-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "Which wild cousin of the llama grows the finest wool of all?", "es": "¿Cuál pariente silvestre de la llama da la lana más fina de todas?" },
+      "choices": [
+        { "en": "The alpaca", "es": "La alpaca" },
+        { "en": "The guanaco", "es": "El guanaco" },
+        { "en": "The vicuña", "es": "La vicuña" },
+        { "en": "The camel", "es": "El camello" }
+      ],
+      "answer": 2,
+      "why": { "en": "Vicuña fibre is thinner than a human hair, and the Inca reserved cloth made from it for their rulers alone.", "es": "La fibra de vicuña es más delgada que un cabello, y los incas reservaban esa tela solo para sus gobernantes." },
+      "topic": "animals of latin america",
+      "source": "https://kids.britannica.com/kids/article/vicuna/353930"
+    },
+    {
+      "id": "animals-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Where does a female sea turtle go to lay her eggs?", "es": "¿A dónde va una tortuga marina hembra a poner sus huevos?" },
+      "choices": [
+        { "en": "Into a coral cave", "es": "A una cueva de coral" },
+        { "en": "Onto a floating raft of weed", "es": "A una balsa de algas" },
+        { "en": "Into the mouth of a river", "es": "A la boca de un río" },
+        { "en": "Onto the beach where she hatched", "es": "A la playa donde ella nació" }
+      ],
+      "answer": 3,
+      "why": { "en": "She can find that same stretch of sand decades later, probably by reading the Earth's magnetic field like a map.", "es": "Puede encontrar ese mismo tramo de arena décadas después, seguramente leyendo el campo magnético de la Tierra como si fuera un mapa." },
+      "topic": "ocean life",
+      "source": "https://www.fisheries.noaa.gov/species/green-turtle"
+    },
+    {
+      "id": "animals-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕷️",
+      "q": { "en": "How many eyes do most spiders have?", "es": "¿Cuántos ojos tienen casi todas las arañas?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "4", "es": "4" },
+        { "en": "6", "es": "6" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 3,
+      "why": { "en": "Eight eyes still give poor sight in most spiders, so they read the trembling of their web to know what has landed.", "es": "Aunque tienen ocho ojos, casi todas las arañas ven mal, así que leen el temblor de su telaraña para saber qué cayó." },
+      "topic": "insects and spiders",
+      "source": "https://www.si.edu/spotlight/buginfo/spiders"
+    },
+    {
+      "id": "animals-medium-058", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐝",
+      "q": { "en": "A honeybee returns to the hive and dances in a figure eight. Why?", "es": "Una abeja vuelve a la colmena y baila en forma de ocho. ¿Por qué?" },
+      "choices": [
+        { "en": "To warm up the hive", "es": "Para calentar la colmena" },
+        { "en": "To beg for food", "es": "Para pedir comida" },
+        { "en": "To tell the others where flowers are", "es": "Para decir dónde están las flores" },
+        { "en": "To choose a new queen", "es": "Para elegir una nueva reina" }
+      ],
+      "answer": 2,
+      "why": { "en": "The angle of her waggle points toward the Sun, and the length of the dance says how far the flowers are.", "es": "El ángulo de su meneo apunta hacia el Sol, y lo que dura el baile dice a qué distancia están las flores." },
+      "topic": "insects and spiders",
+      "source": "https://www.si.edu/spotlight/buginfo/honeybee"
+    },
+    {
+      "id": "animals-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦆",
+      "q": { "en": "Why do geese fly in a V shape?", "es": "¿Por qué los gansos vuelan formando una V?" },
+      "choices": [
+        { "en": "To see the ground better", "es": "Para ver mejor el suelo" },
+        { "en": "To save energy in each other's air", "es": "Para ahorrar energía con el aire de los demás" },
+        { "en": "To scare eagles away", "es": "Para espantar a las águilas" },
+        { "en": "To stay warm at night", "es": "Para mantenerse calientes de noche" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each bird rides the rising air off the wingtip ahead of it, and they take turns in the hardest spot at the point.", "es": "Cada ave aprovecha el aire que sube de la punta del ala de adelante, y se turnan en el puesto más difícil." },
+      "topic": "birds",
+      "source": "https://kids.britannica.com/kids/article/goose/399861"
+    },
+    {
+      "id": "animals-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "How does a shark find a fish hiding under the sand?", "es": "¿Cómo encuentra un tiburón a un pez escondido bajo la arena?" },
+      "choices": [
+        { "en": "By feeling its electric signals", "es": "Sintiendo sus señales eléctricas" },
+        { "en": "By hearing its heartbeat with ears", "es": "Oyendo sus latidos con las orejas" },
+        { "en": "By seeing through the sand", "es": "Viendo a través de la arena" },
+        { "en": "By tasting the water", "es": "Probando el sabor del agua" }
+      ],
+      "answer": 0,
+      "why": { "en": "Jelly-filled pores on a shark's snout sense the faint electricity every moving muscle makes, so hiding under sand does little good.", "es": "Unos poros con gel en el hocico del tiburón detectan la débil electricidad de cada músculo, así que esconderse en la arena sirve poco." },
+      "topic": "animal senses",
+      "source": "https://ocean.si.edu/ocean-life/sharks-rays/sharks"
+    },
+    {
+      "id": "animals-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Which tree grows with its roots standing in salty water?", "es": "¿Cuál árbol crece con las raíces metidas en agua salada?" },
+      "choices": [
+        { "en": "The oak", "es": "El roble" },
+        { "en": "The pine", "es": "El pino" },
+        { "en": "The mangrove", "es": "El mangle" },
+        { "en": "The birch", "es": "El abedul" }
+      ],
+      "answer": 2,
+      "why": { "en": "Mangrove roots arch above the mud to breathe, and the tangle they make is a nursery where young fish hide from bigger ones.", "es": "Las raíces del mangle se arquean sobre el lodo para respirar, y ese enredo es una guardería donde los peces chicos se esconden." },
+      "topic": "habitats and biomes",
+      "source": "https://oceanservice.noaa.gov/facts/mangroves.html"
+    },
+    {
+      "id": "animals-medium-062", "level": "medium", "type": "tf", "lang": "both", "emoji": "🐻",
+      "q": { "en": "Bears in winter sleep so deeply that they can be woken only in spring.", "es": "Los osos duermen tan profundo en invierno que solo despiertan en la primavera." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A bear's winter sleep is light, its temperature drops just a few degrees, and a mother even gives birth and nurses her cubs.", "es": "El sueño invernal del oso es ligero, su temperatura baja pocos grados, y una mamá osa hasta pare y amamanta a sus crías." },
+      "topic": "migration and hibernation",
+      "source": "https://kids.britannica.com/kids/article/hibernation/353007"
+    },
+    {
+      "id": "animals-medium-063", "level": "medium", "type": "tf", "lang": "both", "emoji": "🕸️",
+      "q": { "en": "A spider is an insect because it has six legs and antennae.", "es": "Una araña es un insecto porque tiene seis patas y antenas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spiders are arachnids with eight legs, two body parts and no antennae, and they sit closer to scorpions than to beetles.", "es": "Las arañas son arácnidos: ocho patas, dos partes del cuerpo y sin antenas, y están más cerca de los escorpiones que de los escarabajos." },
+      "topic": "animal groups",
+      "source": "https://www.si.edu/spotlight/buginfo/spiders"
+    },
+    {
+      "id": "animals-medium-064", "level": "medium", "type": "tf", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Nearly every food chain on Earth starts with energy from the Sun.", "es": "Casi toda cadena alimenticia de la Tierra empieza con la energía del Sol." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plants catch sunlight and pass it along, and only deep-sea vent communities are the rare case that runs on chemicals instead.", "es": "Las plantas atrapan la luz del Sol y la pasan; solo las fuentes del mar profundo viven de sustancias químicas en su lugar." },
+      "topic": "food chains",
+      "source": "https://kids.britannica.com/kids/article/food-chain/353128"
+    },
+    {
+      "id": "animals-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐾",
+      "q": { "en": "An opossum falls over stiff with its tongue out when a dog appears. Why?", "es": "Un tlacuache se tira tieso con la lengua afuera cuando llega un perro. ¿Por qué?" },
+      "choices": [
+        { "en": "It fell asleep suddenly", "es": "Se durmió de repente" },
+        { "en": "It is playing dead to be left alone", "es": "Se hace el muerto para que lo dejen" },
+        { "en": "It is much too cold", "es": "Tiene mucho frío" },
+        { "en": "It is asking the dog to play", "es": "Le está pidiendo jugar al perro" }
+      ],
+      "answer": 1,
+      "why": { "en": "The opossum cannot choose it: fear switches the body into a faint that can last hours, and it even gives off a rotten smell.", "es": "El tlacuache no lo decide: el miedo lo hace desmayarse por horas, y hasta suelta un olor a podrido para que lo dejen." },
+      "topic": "animal defenses",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/virginia-opossum"
+    },
+    {
+      "id": "animals-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Which part of a plant carries water up from the roots to the leaves?", "es": "¿Cuál parte de la planta lleva el agua de las raíces a las hojas?" },
+      "choices": [
+        { "en": "The flower", "es": "La flor" },
+        { "en": "The fruit", "es": "El fruto" },
+        { "en": "The seed", "es": "La semilla" },
+        { "en": "The stem", "es": "El tallo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Thin tubes inside the stem work like drinking straws, and water leaving the leaves drags the whole column upward behind it.", "es": "Unos tubos delgados dentro del tallo funcionan como popotes, y el agua que sale por las hojas jala toda la columna hacia arriba." },
+      "topic": "how plants make food",
+      "source": "https://kids.britannica.com/kids/article/plant/353652"
+    },
+    {
+      "id": "animals-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Which is the smallest mammal in the world by weight?", "es": "¿Cuál es el mamífero más pequeño del mundo por su peso?" },
+      "choices": [
+        { "en": "The bumblebee bat", "es": "El murciélago abejorro" },
+        { "en": "The house mouse", "es": "El ratón casero" },
+        { "en": "The pygmy marmoset", "es": "El tití pigmeo" },
+        { "en": "The mole", "es": "El topo" }
+      ],
+      "answer": 0,
+      "why": { "en": "A bumblebee bat weighs about as much as two paper clips, roughly 2 grams, and fits between a person's thumb and finger.", "es": "El murciélago abejorro pesa como dos clips, unos 2 gramos, y cabe entre el pulgar y el dedo de una persona." },
+      "topic": "animal sizes",
+      "source": "https://kids.britannica.com/kids/article/bat/352913"
+    },
+    {
+      "id": "animals-medium-068", "level": "medium", "type": "tf", "lang": "both", "emoji": "🐣",
+      "q": { "en": "A chicken egg takes about three weeks to hatch.", "es": "Un huevo de gallina tarda unas tres semanas en abrirse." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The hen turns the eggs many times a day so the growing chick stays loose inside, and it hatches on about day 21.", "es": "La gallina voltea los huevos muchas veces al día para que el pollito no se pegue, y nace hacia el día 21." },
+      "topic": "life cycles",
+      "source": "https://kids.britannica.com/kids/article/chicken/399122"
+    },
+    {
+      "id": "animals-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦗",
+      "q": { "en": "A young grasshopper looks like a small adult without wings. What is it called?", "es": "Un saltamontes joven parece un adulto pequeño sin alas. ¿Cómo se llama?" },
+      "choices": [
+        { "en": "A nymph", "es": "Ninfa" },
+        { "en": "A larva", "es": "Larva" },
+        { "en": "A pupa", "es": "Pupa" },
+        { "en": "A caterpillar", "es": "Oruga" }
+      ],
+      "answer": 0,
+      "why": { "en": "Grasshoppers, crickets and dragonflies skip the pupa stage, and a nymph simply sheds its skin again and again until wings appear.", "es": "Los saltamontes, grillos y libélulas se saltan la pupa, y la ninfa solo cambia de piel una y otra vez hasta tener alas." },
+      "topic": "life cycles",
+      "source": "https://www.si.edu/spotlight/buginfo/grasshopper"
+    },
+    {
+      "id": "animals-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "Which animals visit pale, strong-smelling flowers that open after dark?", "es": "¿Cuáles animales visitan flores pálidas y olorosas que abren de noche?" },
+      "choices": [
+        { "en": "Daytime butterflies", "es": "Las mariposas diurnas" },
+        { "en": "Bats and moths", "es": "Los murciélagos y las polillas" },
+        { "en": "Honeybees", "es": "Las abejas" },
+        { "en": "Hummingbirds", "es": "Los colibríes" }
+      ],
+      "answer": 1,
+      "why": { "en": "Night flowers trade bright colors for strong scent and pale petals that catch moonlight, and bats pollinate agave, bananas and cactus this way.", "es": "Las flores nocturnas cambian el color por un olor fuerte y pétalos pálidos que brillan con la Luna; así los murciélagos polinizan el agave." },
+      "topic": "pollination",
+      "source": "https://kids.britannica.com/kids/article/pollination/353649"
+    },
+    {
+      "id": "animals-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦫",
+      "q": { "en": "Why are a beaver's front teeth orange?", "es": "¿Por qué los dientes delanteros del castor son anaranjados?" },
+      "choices": [
+        { "en": "Tree bark stains them", "es": "La corteza los mancha" },
+        { "en": "Iron in the enamel makes them hard", "es": "El hierro del esmalte los hace duros" },
+        { "en": "They are made of orange bone", "es": "Son de hueso anaranjado" },
+        { "en": "Sunlight bleaches them", "es": "El sol los decolora" }
+      ],
+      "answer": 1,
+      "why": { "en": "Iron mixed into the front of the enamel keeps the edge sharp, and those teeth grow all life long, so gnawing files them down.", "es": "El hierro en la parte frontal del esmalte mantiene el filo, y esos dientes crecen toda la vida, así que roer los desgasta." },
+      "topic": "teeth and beaks",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/beaver"
+    },
+    {
+      "id": "animals-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "In which fish does the father carry the eggs until they hatch?", "es": "¿En cuál pez el papá lleva los huevos hasta que nacen?" },
+      "choices": [
+        { "en": "The salmon", "es": "El salmón" },
+        { "en": "The clownfish", "es": "El pez payaso" },
+        { "en": "The seahorse", "es": "El caballito de mar" },
+        { "en": "The catfish", "es": "El bagre" }
+      ],
+      "answer": 2,
+      "why": { "en": "The mother places her eggs in a pouch on the father's belly, and weeks later he pumps out dozens of tiny seahorses.", "es": "La mamá deja sus huevos en una bolsa en la panza del papá, y semanas después él expulsa decenas de caballitos diminutos." },
+      "topic": "animal babies and parents",
+      "source": "https://ocean.si.edu/ocean-life/fish/seahorses"
+    },
+    {
+      "id": "animals-medium-073", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍁",
+      "q": { "en": "A maple seed spins like a little helicopter as it falls. Why?", "es": "Una semilla de arce gira como helicóptero al caer. ¿Por qué?" },
+      "choices": [
+        { "en": "To drill into the soil", "es": "Para clavarse en la tierra" },
+        { "en": "To stay in the air longer", "es": "Para quedarse más tiempo en el aire" },
+        { "en": "To frighten birds away", "es": "Para espantar a los pájaros" },
+        { "en": "To keep itself dry", "es": "Para mantenerse seca" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spinning makes a tiny whirlwind above the wing that holds the seed up, so a breeze can carry it far from the parent tree.", "es": "Al girar crea un remolino diminuto sobre el ala que sostiene la semilla, así la brisa la lleva lejos del árbol madre." },
+      "topic": "seeds travelling",
+      "source": "https://kids.britannica.com/kids/article/seed/353786"
+    },
+    {
+      "id": "animals-medium-074", "level": "medium", "type": "tf", "lang": "both", "emoji": "🍄",
+      "q": { "en": "Mushrooms are plants that grow without needing any sunlight.", "es": "Los hongos son plantas que crecen sin necesitar luz del sol." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fungi form their own kingdom, closer to animals than to plants, and they feed by soaking up food from wood, soil or leaves.", "es": "Los hongos forman su propio reino, más cercano a los animales que a las plantas, y comen absorbiendo alimento de madera, tierra u hojas." },
+      "topic": "fungi",
+      "source": "https://kids.britannica.com/kids/article/fungus/353236"
+    },
+    {
+      "id": "animals-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "A crusty patch on a rock is part fungus and part algae. What is it?", "es": "Una costra sobre una roca es mitad hongo y mitad alga. ¿Qué es?" },
+      "choices": [
+        { "en": "Moss", "es": "Musgo" },
+        { "en": "Lichen", "es": "Liquen" },
+        { "en": "Mold", "es": "Moho" },
+        { "en": "Fern", "es": "Helecho" }
+      ],
+      "answer": 1,
+      "why": { "en": "In a lichen the fungus gives shelter and the algae makes food, a team so tough it grows on bare rock and in Antarctica.", "es": "En un liquen el hongo da refugio y el alga hace la comida, un equipo tan duro que vive sobre roca pelada." },
+      "topic": "fungi",
+      "source": "https://kids.britannica.com/kids/article/lichen/353409"
+    },
+    {
+      "id": "animals-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "Which fish lives safely among the stinging arms of a sea anemone?", "es": "¿Cuál pez vive a salvo entre los brazos urticantes de una anémona?" },
+      "choices": [
+        { "en": "The clownfish", "es": "El pez payaso" },
+        { "en": "The parrotfish", "es": "El pez loro" },
+        { "en": "The angelfish", "es": "El pez ángel" },
+        { "en": "The pufferfish", "es": "El pez globo" }
+      ],
+      "answer": 0,
+      "why": { "en": "A coat of slime keeps the clownfish from being stung, and in return it chases away animals that nibble the anemone.", "es": "Una capa de baba evita que el pez payaso reciba el piquete, y a cambio él espanta a los animales que mordisquean la anémona." },
+      "topic": "coral reefs",
+      "source": "https://ocean.si.edu/ocean-life/fish/clownfish"
+    },
+    {
+      "id": "animals-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏖️",
+      "q": { "en": "Where does much of the white sand on a tropical beach come from?", "es": "¿De dónde viene gran parte de la arena blanca de una playa tropical?" },
+      "choices": [
+        { "en": "Shells ground up by storms", "es": "De conchas molidas por las tormentas" },
+        { "en": "Coral that parrotfish have eaten", "es": "Del coral que se comió el pez loro" },
+        { "en": "Dust blown from the desert", "es": "De polvo traído del desierto" },
+        { "en": "Rocks worn down by rivers", "es": "De rocas gastadas por los ríos" }
+      ],
+      "answer": 1,
+      "why": { "en": "A parrotfish scrapes algae off coral, grinds the rock in its throat, and can make 400 pounds, 180 kg, of sand each year.", "es": "El pez loro raspa algas del coral, muele la roca en su garganta y puede producir 180 kg, 400 libras, de arena al año." },
+      "topic": "coral reefs",
+      "source": "https://ocean.si.edu/ocean-life/fish/parrotfish"
+    },
+    {
+      "id": "animals-medium-078", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "Many ocean fish are dark on top and pale underneath. Why?", "es": "Muchos peces son oscuros arriba y claros abajo. ¿Por qué?" },
+      "choices": [
+        { "en": "To swim a little faster", "es": "Para nadar más rápido" },
+        { "en": "To hide from above and below", "es": "Para esconderse por arriba y por abajo" },
+        { "en": "To stay warm in cold water", "es": "Para mantenerse calientes" },
+        { "en": "To attract a mate", "es": "Para atraer pareja" }
+      ],
+      "answer": 1,
+      "why": { "en": "Seen from above the dark back blends with deep water, and from below the pale belly disappears into the bright surface.", "es": "Vista desde arriba, la espalda oscura se confunde con el agua profunda, y desde abajo la panza clara desaparece en la superficie brillante." },
+      "topic": "camouflage",
+      "source": "https://ocean.si.edu/ocean-life/fish/coloration"
+    },
+    {
+      "id": "animals-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "A harmless snake copies the bright bands of a dangerous one. What is that?", "es": "Una serpiente inofensiva copia las bandas brillantes de una peligrosa. ¿Qué es eso?" },
+      "choices": [
+        { "en": "Hibernation", "es": "Hibernación" },
+        { "en": "Mimicry", "es": "Mimetismo" },
+        { "en": "Migration", "es": "Migración" },
+        { "en": "Shedding", "es": "Muda de piel" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mimicry works because predators learn one warning pattern and then avoid every animal wearing it, even the ones that are perfectly safe.", "es": "El mimetismo funciona porque los depredadores aprenden un patrón de aviso y luego evitan a todo animal que lo lleve, aunque sea inofensivo." },
+      "topic": "camouflage",
+      "source": "https://kids.britannica.com/kids/article/mimicry/353468"
+    },
+    {
+      "id": "animals-medium-080", "level": "medium", "type": "tf", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "The passenger pigeon once flew in flocks of millions and is gone forever.", "es": "La paloma migratoria volaba en bandadas de millones y ya desapareció para siempre." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Flocks once darkened the sky for hours over North America, and the last passenger pigeon died in a zoo in 1914.", "es": "Las bandadas oscurecían el cielo por horas en América del Norte, y la última paloma migratoria murió en un zoológico en 1914." },
+      "topic": "endangered and extinct",
+      "source": "https://www.si.edu/spotlight/passenger-pigeon"
+    },
+    {
+      "id": "animals-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐒",
+      "q": { "en": "What helps an endangered animal most in the long run?", "es": "¿Qué ayuda más a un animal en peligro a largo plazo?" },
+      "choices": [
+        { "en": "A bigger cage at the zoo", "es": "Una jaula más grande en el zoológico" },
+        { "en": "Moving it to another country", "es": "Llevarlo a otro país" },
+        { "en": "Protecting the habitat it needs", "es": "Proteger el hábitat que necesita" },
+        { "en": "Feeding it more often", "es": "Darle de comer más seguido" }
+      ],
+      "answer": 2,
+      "why": { "en": "Golden lion tamarins in Brazil climbed back from a few hundred once their coastal forest was replanted and joined into bigger patches.", "es": "Los tamarinos leones dorados de Brasil se recuperaron cuando su bosque costero fue replantado y unido en pedazos más grandes." },
+      "topic": "endangered and extinct",
+      "source": "https://nationalzoo.si.edu/animals/golden-lion-tamarin"
+    },
+    {
+      "id": "animals-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which animal swims faster than any other in the ocean?", "es": "¿Cuál animal nada más rápido que cualquier otro en el océano?" },
+      "choices": [
+        { "en": "The dolphin", "es": "El delfín" },
+        { "en": "The orca", "es": "La orca" },
+        { "en": "The sea turtle", "es": "La tortuga marina" },
+        { "en": "The sailfish", "es": "El pez vela" }
+      ],
+      "answer": 3,
+      "why": { "en": "A sailfish reaches about 68 miles per hour, 110 km per hour, and raises the fin on its back like a sail to turn.", "es": "El pez vela alcanza unos 110 km por hora, 68 millas por hora, y levanta la aleta de su lomo como vela para girar." },
+      "topic": "animal speed",
+      "source": "https://ocean.si.edu/ocean-life/fish/sailfish"
+    },
+    {
+      "id": "animals-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "A cheetah reaches full speed in seconds. About how long can it keep running?", "es": "Un guepardo llega a su máxima velocidad en segundos. ¿Cuánto puede sostenerla?" },
+      "choices": [
+        { "en": "About 30 seconds", "es": "Unos 30 segundos" },
+        { "en": "About 5 minutes", "es": "Unos 5 minutos" },
+        { "en": "About 20 minutes", "es": "Unos 20 minutos" },
+        { "en": "Almost an hour", "es": "Casi una hora" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sprinting heats a cheetah's body so fast that it must stop and pant, and it often loses its meal to lions or hyenas.", "es": "Correr calienta tanto el cuerpo del guepardo que debe parar a jadear, y muchas veces pierde su comida ante leones o hienas." },
+      "topic": "animal speed",
+      "source": "https://kids.nationalgeographic.com/animals/mammals/facts/cheetah"
+    },
+    {
+      "id": "animals-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦅",
+      "q": { "en": "Which huge eagle of Central American forests hunts sloths and monkeys?", "es": "¿Cuál águila enorme de los bosques de Centroamérica caza perezosos y monos?" },
+      "choices": [
+        { "en": "The bald eagle", "es": "El águila calva" },
+        { "en": "The osprey", "es": "El águila pescadora" },
+        { "en": "The kestrel", "es": "El cernícalo" },
+        { "en": "The harpy eagle", "es": "El águila harpía" }
+      ],
+      "answer": 3,
+      "why": { "en": "A harpy eagle's legs are as thick as a child's wrist, and its curved claws are longer than a grizzly bear's.", "es": "Las patas del águila harpía son tan gruesas como la muñeca de un niño, y sus garras son más largas que las de un oso." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/birds/facts/harpy-eagle"
+    },
+    {
+      "id": "animals-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "About how long can a Galápagos giant tortoise live?", "es": "¿Cuánto puede vivir una tortuga gigante de Galápagos?" },
+      "choices": [
+        { "en": "About 15 years", "es": "Unos 15 años" },
+        { "en": "About 40 years", "es": "Unos 40 años" },
+        { "en": "Over 100 years", "es": "Más de 100 años" },
+        { "en": "About 70 years", "es": "Unos 70 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "These tortoises can weigh 500 pounds, 230 kg, and go a year without food or water, which is why sailors once carried them aboard.", "es": "Estas tortugas pesan hasta 230 kg, 500 libras, y aguantan un año sin comida ni agua, por eso los marineros las llevaban a bordo." },
+      "topic": "animals of latin america",
+      "source": "https://kids.britannica.com/kids/article/Galapagos-tortoise/631108"
+    },
+    {
+      "id": "animals-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "Which snake of South American swamps is the heaviest in the world?", "es": "¿Cuál serpiente de los pantanos de Sudamérica es la más pesada del mundo?" },
+      "choices": [
+        { "en": "The boa constrictor", "es": "La boa constrictora" },
+        { "en": "The reticulated python", "es": "La pitón reticulada" },
+        { "en": "The green anaconda", "es": "La anaconda verde" },
+        { "en": "The bushmaster", "es": "El cascabel mudo" }
+      ],
+      "answer": 2,
+      "why": { "en": "A green anaconda can weigh over 200 pounds, 90 kg, and it waits with only its eyes and nostrils above the water.", "es": "Una anaconda verde puede pesar más de 90 kg, 200 libras, y espera con solo los ojos y las fosas nasales fuera del agua." },
+      "topic": "animals of latin america",
+      "source": "https://kids.nationalgeographic.com/animals/reptiles/facts/green-anaconda"
+    },
+    {
+      "id": "animals-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "Why do pine trees keep their needles through the whole winter?", "es": "¿Por qué los pinos conservan sus agujas durante todo el invierno?" },
+      "choices": [
+        { "en": "The needles are too heavy to fall", "es": "Las agujas pesan mucho para caerse" },
+        { "en": "Snow glues them on", "es": "La nieve las pega" },
+        { "en": "The needles hold plenty of sugar", "es": "Las agujas guardan mucha azúcar" },
+        { "en": "A waxy coat keeps water inside", "es": "Una capa de cera guarda el agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "A thin waxy skin and a narrow shape stop needles from drying out, so a pine can make food on any mild winter day.", "es": "Una piel cerosa y su forma delgada evitan que las agujas se sequen, así el pino puede fabricar alimento en días templados de invierno." },
+      "topic": "trees and forests",
+      "source": "https://kids.britannica.com/kids/article/conifer/399405"
+    },
+    {
+      "id": "animals-medium-088", "level": "medium", "type": "tf", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Trees can share food with each other through fungus threads in the soil.", "es": "Los árboles pueden compartir alimento por hilos de hongo en el suelo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fungus threads wrap tree roots and pass along sugar and water, and a big old tree can feed shaded seedlings nearby.", "es": "Los hilos de hongo envuelven las raíces y pasan azúcar y agua, así un árbol viejo alimenta a los arbolitos que crecen a la sombra." },
+      "topic": "trees and forests",
+      "source": "https://kids.britannica.com/kids/article/forest/353137"
+    },
+    {
+      "id": "animals-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "Which bird has the widest wings of any living bird?", "es": "¿Cuál ave tiene las alas más anchas de todas las aves vivas?" },
+      "choices": [
+        { "en": "The condor", "es": "El cóndor" },
+        { "en": "The pelican", "es": "El pelícano" },
+        { "en": "The eagle", "es": "El águila" },
+        { "en": "The wandering albatross", "es": "El albatros viajero" }
+      ],
+      "answer": 3,
+      "why": { "en": "Its wings stretch about 11 feet, 3.4 m, and it can glide for hours over the sea with hardly a single flap.", "es": "Sus alas miden unos 3.4 m, 11 pies, y puede planear por horas sobre el mar casi sin mover las alas." },
+      "topic": "animal sizes",
+      "source": "https://kids.britannica.com/kids/article/albatross/352802"
+    },
+    {
+      "id": "animals-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦑",
+      "q": { "en": "Which animal has the largest eyes of any animal on Earth?", "es": "¿Cuál animal tiene los ojos más grandes de todos en la Tierra?" },
+      "choices": [
+        { "en": "The blue whale", "es": "La ballena azul" },
+        { "en": "The giant squid", "es": "El calamar gigante" },
+        { "en": "The elephant", "es": "El elefante" },
+        { "en": "The ostrich", "es": "El avestruz" }
+      ],
+      "answer": 1,
+      "why": { "en": "A giant squid's eye is about the size of a dinner plate, which helps it spot faint glows in the deep dark sea.", "es": "El ojo del calamar gigante mide como un plato de comida, lo que le ayuda a ver brillos débiles en el mar profundo." },
+      "topic": "animal sizes",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/giant-squid"
+    },
+    {
+      "id": "animals-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Where would you find a forest made of giant seaweed?", "es": "¿Dónde encontrarías un bosque hecho de algas gigantes?" },
+      "choices": [
+        { "en": "In warm shallow lagoons", "es": "En lagunas cálidas y poco profundas" },
+        { "en": "In deep ocean trenches", "es": "En las fosas del océano profundo" },
+        { "en": "In cool water near rocky coasts", "es": "En agua fría cerca de costas rocosas" },
+        { "en": "In the mouths of rivers", "es": "En los deltas de los ríos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Kelp grabs rock with a root-like holdfast and can grow 2 feet, 60 cm, in a day, sheltering otters, fish and urchins.", "es": "El kelp se agarra a la roca y puede crecer 60 cm, 2 pies, en un día, dando refugio a nutrias y peces." },
+      "topic": "habitats and biomes",
+      "source": "https://oceanservice.noaa.gov/facts/kelp.html"
+    },
+    {
+      "id": "animals-medium-092", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐳",
+      "q": { "en": "What is the long spiral tusk of a narwhal actually made of?", "es": "¿De qué está hecho el largo colmillo en espiral del narval?" },
+      "choices": [
+        { "en": "A horn of bone", "es": "De un cuerno de hueso" },
+        { "en": "Hardened skin", "es": "De piel endurecida" },
+        { "en": "A stiffened fin", "es": "De una aleta endurecida" },
+        { "en": "A giant tooth", "es": "De un diente gigante" }
+      ],
+      "answer": 3,
+      "why": { "en": "The tusk is a canine tooth that grows out through the upper lip, packed with nerves that seem to taste the sea water.", "es": "El colmillo es un diente que atraviesa el labio de arriba y está lleno de nervios que parecen probar el agua del mar." },
+      "topic": "ocean life",
+      "source": "https://ocean.si.edu/ocean-life/marine-mammals/narwhal"
+    },
+    {
+      "id": "animals-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "About how deep can a sperm whale dive to hunt squid?", "es": "¿Qué tan hondo puede bucear un cachalote para cazar calamares?" },
+      "choices": [
+        { "en": "About 100 feet, 30 m", "es": "Unos 100 pies, 30 m" },
+        { "en": "About 500 feet, 150 m", "es": "Unos 500 pies, 150 m" },
+        { "en": "About 1000 feet, 300 m", "es": "Unos 1000 pies, 300 m" },
+        { "en": "Over 3000 feet, 900 m", "es": "Más de 3000 pies, 900 m" }
+      ],
+      "answer": 3,
+      "why": { "en": "A sperm whale can hold its breath for over an hour, and its ribcage folds in as the pressure squeezes its body.", "es": "El cachalote aguanta la respiración más de una hora, y sus costillas se pliegan cuando la presión le aprieta el cuerpo." },
+      "topic": "ocean life",
+      "source": "https://www.fisheries.noaa.gov/species/sperm-whale"
+    },
+    {
+      "id": "animals-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎶",
+      "q": { "en": "A cicada sings in the trees for weeks. Where did it spend the years before?", "es": "Una cigarra canta en los árboles por semanas. ¿Dónde pasó los años antes?" },
+      "choices": [
+        { "en": "Underground drinking from roots", "es": "Bajo tierra bebiendo de las raíces" },
+        { "en": "In a cocoon on a branch", "es": "En un capullo en una rama" },
+        { "en": "Inside a hollow log", "es": "Dentro de un tronco hueco" },
+        { "en": "Under a stone in a pond", "es": "Bajo una piedra del estanque" }
+      ],
+      "answer": 0,
+      "why": { "en": "Some cicada nymphs stay underground 13 or 17 years, then climb out together in numbers too big for predators to eat.", "es": "Algunas ninfas de cigarra pasan 13 o 17 años bajo tierra y luego salen juntas en cantidades que los depredadores no pueden acabar." },
+      "topic": "insects and spiders",
+      "source": "https://www.si.edu/spotlight/buginfo/cicadas"
+    },
+    {
+      "id": "animals-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦉",
+      "q": { "en": "How does an owl find a mouse under the snow in the dark?", "es": "¿Cómo encuentra un búho a un ratón bajo la nieve en la oscuridad?" },
+      "choices": [
+        { "en": "By smelling its trail", "es": "Oliendo su rastro" },
+        { "en": "By feeling the ground shake", "es": "Sintiendo temblar el suelo" },
+        { "en": "By hearing with lopsided ears", "es": "Oyendo con orejas desiguales" },
+        { "en": "By seeing heat like a snake", "es": "Viendo el calor como una serpiente" }
+      ],
+      "answer": 2,
+      "why": { "en": "One ear sits higher than the other, so a sound arrives at slightly different moments and the owl can place it exactly.", "es": "Una oreja está más alta que la otra, así el sonido llega en momentos distintos y el búho ubica al ratón en tres dimensiones." },
+      "topic": "animal senses",
+      "source": "https://kids.britannica.com/kids/article/owl/353587"
+    },
+    {
+      "id": "animals-medium-096", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐺",
+      "q": { "en": "The wolves all leave a valley. What happens to the deer and young trees?", "es": "Los lobos se van de un valle. ¿Qué pasa con los venados y los arbolitos?" },
+      "choices": [
+        { "en": "More deer and fewer young trees", "es": "Más venados y menos arbolitos" },
+        { "en": "Fewer deer and more young trees", "es": "Menos venados y más arbolitos" },
+        { "en": "More of both", "es": "Más de los dos" },
+        { "en": "Fewer of both", "es": "Menos de los dos" }
+      ],
+      "answer": 0,
+      "why": { "en": "With no hunters the deer herd grows and eats seedlings faster than they sprout, so streamside willows and aspens slowly disappear.", "es": "Sin cazadores la manada de venados crece y come los brotes más rápido de lo que nacen, así los sauces de la orilla desaparecen." },
+      "topic": "food chains",
+      "source": "https://kids.britannica.com/kids/article/wolf/353987"
+    },
+    {
+      "id": "animals-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏜️",
+      "q": { "en": "What do we call a long sleep that helps animals survive dry heat?", "es": "¿Cómo se llama el sueño largo que ayuda a los animales a aguantar el calor seco?" },
+      "choices": [
+        { "en": "Hibernation", "es": "Hibernación" },
+        { "en": "Migration", "es": "Migración" },
+        { "en": "Estivation", "es": "Estivación" },
+        { "en": "Shedding", "es": "Muda" }
+      ],
+      "answer": 2,
+      "why": { "en": "Lungfish wrap themselves in cocoons of mud and wait months for rain, breathing slowly until the river fills up again.", "es": "Los peces pulmonados se envuelven en capullos de lodo y esperan meses la lluvia, respirando despacio hasta que el río vuelve a llenarse." },
+      "topic": "migration and hibernation",
+      "source": "https://kids.britannica.com/kids/article/hibernation/353007"
+    },
+    {
+      "id": "animals-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which bird lays its egg in another bird's nest and flies away?", "es": "¿Cuál ave pone su huevo en el nido de otra ave y se va?" },
+      "choices": [
+        { "en": "The cuckoo", "es": "El cuco" },
+        { "en": "The swallow", "es": "La golondrina" },
+        { "en": "The wren", "es": "El chochín" },
+        { "en": "The finch", "es": "El pinzón" }
+      ],
+      "answer": 0,
+      "why": { "en": "The cuckoo chick hatches early and pushes the other eggs out, and the smaller foster parents feed a baby twice their size.", "es": "El polluelo de cuco nace antes y empuja los otros huevos fuera, y los padres adoptivos alimentan a un bebé del doble de su tamaño." },
+      "topic": "animal babies and parents",
+      "source": "https://kids.britannica.com/kids/article/cuckoo/399411"
+    },
+    {
+      "id": "animals-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "A shark loses a tooth while biting. What happens to the gap?", "es": "Un tiburón pierde un diente al morder. ¿Qué pasa con el hueco?" },
+      "choices": [
+        { "en": "It stays empty for life", "es": "Queda vacío de por vida" },
+        { "en": "The gum grows over it", "es": "La encía lo cubre" },
+        { "en": "A new tooth takes a year", "es": "Un diente nuevo tarda un año" },
+        { "en": "A tooth from the row behind moves up", "es": "Sube un diente de la fila de atrás" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sharks keep rows of spare teeth on a conveyor belt of gum, and one shark may use thousands of teeth in a lifetime.", "es": "Los tiburones tienen filas de dientes de repuesto sobre una encía que avanza, y uno solo puede usar miles de dientes en su vida." },
+      "topic": "teeth and beaks",
+      "source": "https://ocean.si.edu/ocean-life/sharks-rays/shark-teeth"
+    },
+    {
+      "id": "animals-medium-100", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐡",
+      "q": { "en": "A bigger fish chases a pufferfish. What does the puffer do?", "es": "Un pez más grande persigue a un pez globo. ¿Qué hace?" },
+      "choices": [
+        { "en": "Swallows water and swells into a ball", "es": "Traga agua y se infla como pelota" },
+        { "en": "Squirts glue from its mouth", "es": "Lanza pegamento por la boca" },
+        { "en": "Turns completely see-through", "es": "Se vuelve transparente" },
+        { "en": "Drops all of its fins", "es": "Suelta todas sus aletas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Gulping water makes the puffer three times its size and pops out spines, and most kinds also carry a strong poison.", "es": "Al tragar agua el pez globo se vuelve tres veces más grande y saca espinas, y casi todos llevan además un veneno fuerte." },
+      "topic": "animal defenses",
+      "source": "https://ocean.si.edu/ocean-life/fish/pufferfish"
     }
   ]
 }

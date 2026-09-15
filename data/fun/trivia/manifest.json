@@ -35,7 +35,7 @@
       "file": "animals.json",
       "counts": {
         "easy": 100,
-        "medium": 35,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -47,7 +47,7 @@
       "file": "space.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -59,7 +59,7 @@
       "file": "physics.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -71,7 +71,7 @@
       "file": "body.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -83,7 +83,7 @@
       "file": "earth.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -95,7 +95,7 @@
       "file": "science.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 68,
         "hard": 3
       }
     },

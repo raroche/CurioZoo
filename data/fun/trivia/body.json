@@ -1384,6 +1384,1340 @@
       "why": { "en": "A watermelon is about nine parts water out of ten, so eating slices on a hot day helps you drink.", "es": "La sandía tiene como nueve partes de agua de cada diez, así que comerla en un día caluroso también te hidrata." },
       "topic": "drinking water",
       "source": "https://kidshealth.org/en/kids/water.html"
+    },
+    {
+      "id": "body-medium-004", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫘",
+      "q": { "en": "Which pair of organs cleans your blood and makes urine?", "es": "¿Qué par de órganos limpia tu sangre y produce la orina?" },
+      "choices": [
+        { "en": "Kidneys", "es": "Los riñones" },
+        { "en": "Lungs", "es": "Los pulmones" },
+        { "en": "Liver", "es": "El hígado" },
+        { "en": "Spleen", "es": "El bazo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your two kidneys filter all your blood about 40 times a day, keeping the water and tossing the rest.", "es": "Tus dos riñones filtran toda tu sangre unas 40 veces al día: guardan el agua y desechan lo demás." },
+      "topic": "major organs",
+      "source": "https://kidshealth.org/en/kids/kidneys.html"
+    },
+    {
+      "id": "body-medium-005", "level": "medium", "type": "mc", "lang": "both", "emoji": "🩺",
+      "q": { "en": "Which is the largest organ inside your body?", "es": "¿Cuál es el órgano más grande dentro de tu cuerpo?" },
+      "choices": [
+        { "en": "Heart", "es": "El corazón" },
+        { "en": "Liver", "es": "El hígado" },
+        { "en": "Stomach", "es": "El estómago" },
+        { "en": "Kidney", "es": "El riñón" }
+      ],
+      "answer": 1,
+      "why": { "en": "The liver does over 500 jobs, from cleaning blood to storing sugar; only your skin, on the outside, is bigger.", "es": "El hígado hace más de 500 tareas, desde limpiar la sangre hasta guardar azúcar; solo la piel, por fuera, es más grande." },
+      "topic": "major organs",
+      "source": "https://kidshealth.org/en/kids/liver.html"
+    },
+    {
+      "id": "body-medium-006", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Which organ makes insulin to control the sugar in blood?", "es": "¿Qué órgano produce insulina para controlar el azúcar de la sangre?" },
+      "choices": [
+        { "en": "Liver", "es": "El hígado" },
+        { "en": "Spleen", "es": "El bazo" },
+        { "en": "Pancreas", "es": "El páncreas" },
+        { "en": "Gallbladder", "es": "La vesícula" }
+      ],
+      "answer": 2,
+      "why": { "en": "The pancreas sits behind your stomach and also pours juices onto your food to help break it down.", "es": "El páncreas está detrás del estómago y además lanza jugos sobre la comida para ayudar a deshacerla." },
+      "topic": "major organs",
+      "source": "https://kidshealth.org/en/kids/pancreas.html"
+    },
+    {
+      "id": "body-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🟡",
+      "q": { "en": "Which small organ stores the bile your liver makes?", "es": "¿Qué órgano pequeño guarda la bilis que produce tu hígado?" },
+      "choices": [
+        { "en": "Appendix", "es": "El apéndice" },
+        { "en": "Spleen", "es": "El bazo" },
+        { "en": "Bladder", "es": "La vejiga" },
+        { "en": "Gallbladder", "es": "La vesícula biliar" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bile is a green-yellow liquid that breaks fat into tiny drops, the way soap breaks up oil in a pan.", "es": "La bilis es un líquido verde amarillo que parte la grasa en gotitas, como el jabón parte el aceite en un sartén." },
+      "topic": "major organs",
+      "source": "https://kids.britannica.com/kids/article/gallbladder/399341"
+    },
+    {
+      "id": "body-medium-008", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Your heart sits in the middle of your chest, tipped a little left.", "es": "Tu corazón está en el centro del pecho, inclinado un poco hacia la izquierda." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "People point to the left because the tip of the heart leans that way, and that is where you feel it.", "es": "La gente señala la izquierda porque la punta del corazón se inclina hacia allá, y ahí es donde lo sientes." },
+      "topic": "major organs",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "How many bones does a grown-up body have?", "es": "¿Cuántos huesos tiene el cuerpo de una persona adulta?" },
+      "choices": [
+        { "en": "106", "es": "106" },
+        { "en": "206", "es": "206" },
+        { "en": "306", "es": "306" },
+        { "en": "406", "es": "406" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your skeleton is rebuilt so slowly that most of it is replaced about every ten years.", "es": "Tu esqueleto se renueva tan despacio que casi todo se reemplaza cada diez años más o menos." },
+      "topic": "skeleton",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "Which is the smallest bone in your whole body?", "es": "¿Cuál es el hueso más pequeño de todo tu cuerpo?" },
+      "choices": [
+        { "en": "A bone in your little toe", "es": "Un hueso del dedo chico del pie" },
+        { "en": "The kneecap", "es": "La rótula" },
+        { "en": "A bone inside your ear", "es": "Un hueso dentro del oído" },
+        { "en": "A bone in your nose", "es": "Un hueso de la nariz" }
+      ],
+      "answer": 2,
+      "why": { "en": "The stirrup bone deep in your ear is about 3 millimeters, one tenth of an inch, long.", "es": "El hueso estribo, en lo hondo del oído, mide unos 3 milímetros, la décima parte de una pulgada." },
+      "topic": "skeleton",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "👶",
+      "q": { "en": "About how many bones is a newborn baby born with?", "es": "¿Con cuántos huesos nace más o menos un bebé?" },
+      "choices": [
+        { "en": "About 150", "es": "Unos 150" },
+        { "en": "About 206", "es": "Unos 206" },
+        { "en": "About 250", "es": "Unos 250" },
+        { "en": "About 300", "es": "Unos 300" }
+      ],
+      "answer": 3,
+      "why": { "en": "Many baby bones are soft cartilage that later joins together, which is why an adult ends up with fewer.", "es": "Muchos huesos del bebé son cartílago blando que después se une, por eso una persona adulta termina con menos." },
+      "topic": "skeleton",
+      "source": "https://kidshealth.org/en/parents/bones-muscles-joints.html"
+    },
+    {
+      "id": "body-medium-012", "level": "medium", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "What is the bendy stuff at the end of bones called?", "es": "¿Cómo se llama el material flexible en la punta de los huesos?" },
+      "choices": [
+        { "en": "Marrow", "es": "La médula" },
+        { "en": "Cartilage", "es": "El cartílago" },
+        { "en": "Enamel", "es": "El esmalte" },
+        { "en": "Tendon", "es": "El tendón" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cartilage is smooth and springy, so your bones glide instead of scraping; your ears and nose are made of it.", "es": "El cartílago es liso y elástico, así los huesos se deslizan; tus orejas y tu nariz están hechas de él." },
+      "topic": "skeleton",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-medium-013", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Bones are dry and dead inside, like little rocks.", "es": "Los huesos por dentro están secos y sin vida, como piedritas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bones are alive: they have blood vessels and nerves, they heal when broken, and they grow with you.", "es": "Los huesos están vivos: tienen vasos sanguíneos y nervios, se reparan cuando se rompen y crecen contigo." },
+      "topic": "skeleton",
+      "source": "https://kids.britannica.com/kids/article/bone/352967"
+    },
+    {
+      "id": "body-medium-014", "level": "medium", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "About how many muscles pull on the bones in your body?", "es": "¿Cuántos músculos jalan los huesos de tu cuerpo más o menos?" },
+      "choices": [
+        { "en": "About 60", "es": "Unos 60" },
+        { "en": "About 200", "es": "Unos 200" },
+        { "en": "More than 600", "es": "Más de 600" },
+        { "en": "More than 5000", "es": "Más de 5000" }
+      ],
+      "answer": 2,
+      "why": { "en": "Over 600 muscles make up nearly half your weight, and the busiest ones are the muscles that move your eyes.", "es": "Más de 600 músculos forman casi la mitad de tu peso, y los más ocupados son los que mueven los ojos." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-medium-015", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦵",
+      "q": { "en": "What do you call the cord that ties muscle to bone?", "es": "¿Cómo se llama la cuerda que amarra el músculo al hueso?" },
+      "choices": [
+        { "en": "A tendon", "es": "Un tendón" },
+        { "en": "A ligament", "es": "Un ligamento" },
+        { "en": "A nerve", "es": "Un nervio" },
+        { "en": "A vein", "es": "Una vena" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tendons are tough cords; the one above your heel is the thickest, and you can feel it with your fingers.", "es": "Los tendones son cuerdas duras; el de arriba del talón es el más grueso y puedes sentirlo con los dedos." },
+      "topic": "muscles",
+      "source": "https://kids.britannica.com/kids/article/muscle/353570"
+    },
+    {
+      "id": "body-medium-016", "level": "medium", "type": "mc", "lang": "both", "emoji": "💪",
+      "q": { "en": "When a muscle works, what does it do to your bone?", "es": "¿Qué le hace un músculo a tu hueso cuando trabaja?" },
+      "choices": [
+        { "en": "Pushes it", "es": "Lo empuja" },
+        { "en": "Pulls it", "es": "Lo jala" },
+        { "en": "Spins it", "es": "Lo gira" },
+        { "en": "Stretches it", "es": "Lo estira" }
+      ],
+      "answer": 1,
+      "why": { "en": "Muscles only pull, so they work in pairs: one pulls a bone one way and its partner pulls it back.", "es": "Los músculos solo jalan, por eso trabajan en pares: uno jala el hueso a un lado y su pareja lo regresa." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-medium-017", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥕",
+      "q": { "en": "Which muscle is the strongest one for its small size?", "es": "¿Cuál músculo es el más fuerte para su tamaño pequeño?" },
+      "choices": [
+        { "en": "The calf muscle", "es": "El músculo de la pantorrilla" },
+        { "en": "The tongue", "es": "La lengua" },
+        { "en": "The heart", "es": "El corazón" },
+        { "en": "The jaw muscle", "es": "El músculo de la mandíbula" }
+      ],
+      "answer": 3,
+      "why": { "en": "The jaw muscle can close your back teeth with the force of a small suitcase, which is how you crunch a carrot.", "es": "El músculo de la mandíbula cierra tus muelas con la fuerza de una maleta pequeña; por eso muerdes una zanahoria." },
+      "topic": "muscles",
+      "source": "https://kids.britannica.com/kids/article/muscle/353570"
+    },
+    {
+      "id": "body-medium-018", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎒",
+      "q": { "en": "You lift a heavy backpack. Which arm muscle bulges up?", "es": "Levantas una mochila pesada. ¿Cuál músculo del brazo se abulta?" },
+      "choices": [
+        { "en": "The biceps", "es": "El bíceps" },
+        { "en": "The triceps", "es": "El tríceps" },
+        { "en": "The quadriceps", "es": "El cuádriceps" },
+        { "en": "The calf", "es": "La pantorrilla" }
+      ],
+      "answer": 0,
+      "why": { "en": "Biceps means \"two heads\" in Latin, because the muscle starts as two cords before joining into one bulge.", "es": "Bíceps significa \"dos cabezas\" en latín, porque el músculo empieza como dos cuerdas antes de unirse en un bulto." },
+      "topic": "muscles",
+      "source": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "body-medium-019", "level": "medium", "type": "mc", "lang": "both", "emoji": "🩸",
+      "q": { "en": "About how long does one drop of blood take to circle your body?", "es": "¿Cuánto tarda una gota de sangre en dar la vuelta a tu cuerpo?" },
+      "choices": [
+        { "en": "About one second", "es": "Un segundo" },
+        { "en": "About one minute", "es": "Un minuto" },
+        { "en": "About one hour", "es": "Una hora" },
+        { "en": "About one day", "es": "Un día" }
+      ],
+      "answer": 1,
+      "why": { "en": "All your blood vessels laid end to end would stretch about 100,000 kilometers, 60,000 miles, yet blood laps them in a minute.", "es": "Todos tus vasos sanguíneos, uno tras otro, medirían unos 100,000 kilómetros, 60,000 millas, y la sangre los recorre en un minuto." },
+      "topic": "blood and the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-020", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "Which vessels carry blood away from your heart?", "es": "¿Qué vasos llevan la sangre lejos de tu corazón?" },
+      "choices": [
+        { "en": "Veins", "es": "Las venas" },
+        { "en": "Capillaries", "es": "Los capilares" },
+        { "en": "Arteries", "es": "Las arterias" },
+        { "en": "Nerves", "es": "Los nervios" }
+      ],
+      "answer": 2,
+      "why": { "en": "Arteries have thick springy walls to take the push of each beat; veins are thinner and carry blood back.", "es": "Las arterias tienen paredes gruesas y elásticas para aguantar cada latido; las venas son delgadas y traen la sangre de regreso." },
+      "topic": "blood and the heart",
+      "source": "https://kids.britannica.com/kids/article/circulatory-system/353261"
+    },
+    {
+      "id": "body-medium-021", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫀",
+      "q": { "en": "How many rooms, called chambers, does your heart have?", "es": "¿Cuántos cuartos, llamados cámaras, tiene tu corazón?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Four", "es": "Cuatro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Two chambers take blood in and two push it out, one loop to your lungs and one to the rest of you.", "es": "Dos cámaras reciben la sangre y dos la empujan: un circuito va a los pulmones y otro a todo el cuerpo." },
+      "topic": "blood and the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-022", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "What makes the lub-dub sound inside your chest?", "es": "¿Qué produce el sonido pum-pum dentro de tu pecho?" },
+      "choices": [
+        { "en": "Valves snapping shut", "es": "Las válvulas al cerrarse" },
+        { "en": "Blood splashing", "es": "La sangre al salpicar" },
+        { "en": "Muscles rubbing together", "es": "Los músculos al rozarse" },
+        { "en": "Air moving in the lungs", "es": "El aire en los pulmones" }
+      ],
+      "answer": 0,
+      "why": { "en": "Your heart has four valves that shut like little doors so blood moves one way only, and that clap is the sound.", "es": "Tu corazón tiene cuatro válvulas que se cierran como puertitas para que la sangre vaya en un solo sentido; ese golpe suena." },
+      "topic": "blood and the heart",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-023", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Veins look blue through your skin because of the way light bounces.", "es": "Las venas se ven azules a través de la piel por cómo rebota la luz." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blood is always red, darker when it has given away its oxygen; skin scatters light so the vein looks blue.", "es": "La sangre siempre es roja, más oscura cuando ya soltó su oxígeno; la piel dispersa la luz y la vena se ve azul." },
+      "topic": "blood and the heart",
+      "source": "https://kids.britannica.com/kids/article/blood/352903"
+    },
+    {
+      "id": "body-medium-024", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "About how long is the whole path food takes through you?", "es": "¿Qué tan largo es el camino que recorre la comida dentro de ti?" },
+      "choices": [
+        { "en": "About 3 meters, 10 feet", "es": "Unos 3 metros, 10 pies" },
+        { "en": "About 6 meters, 20 feet", "es": "Unos 6 metros, 20 pies" },
+        { "en": "About 9 meters, 30 feet", "es": "Unos 9 metros, 30 pies" },
+        { "en": "About 20 meters, 65 feet", "es": "Unos 20 metros, 65 pies" }
+      ],
+      "answer": 2,
+      "why": { "en": "The tube from mouth to end is about 9 meters, 30 feet, long, coiled up so it fits inside you.", "es": "El tubo desde la boca hasta el final mide unos 9 metros, 30 pies, y va enrollado para caber dentro de ti." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-medium-025", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧪",
+      "q": { "en": "What does your stomach use to turn food into mush?", "es": "¿Qué usa tu estómago para convertir la comida en papilla?" },
+      "choices": [
+        { "en": "Cold water", "es": "Agua fría" },
+        { "en": "Acid", "es": "Ácido" },
+        { "en": "Sugar", "es": "Azúcar" },
+        { "en": "Air", "es": "Aire" }
+      ],
+      "answer": 1,
+      "why": { "en": "Stomach acid could eat through metal, so your stomach builds a fresh lining of mucus every few days.", "es": "El ácido del estómago podría deshacer metal, por eso el estómago forma una capa nueva de moco cada pocos días." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-medium-026", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥪",
+      "q": { "en": "Where does most food pass into your blood?", "es": "¿Dónde pasa la mayor parte de la comida a tu sangre?" },
+      "choices": [
+        { "en": "The stomach", "es": "El estómago" },
+        { "en": "The esophagus", "es": "El esófago" },
+        { "en": "The large intestine", "es": "El intestino grueso" },
+        { "en": "The small intestine", "es": "El intestino delgado" }
+      ],
+      "answer": 3,
+      "why": { "en": "The small intestine is lined with millions of tiny fingers that soak up food, giving it the surface of a tennis court.", "es": "El intestino delgado tiene millones de dedos diminutos que absorben la comida; juntos cubrirían una cancha de tenis." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-medium-027", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "What does your large intestine mainly pull out of leftovers?", "es": "¿Qué saca sobre todo tu intestino grueso de las sobras?" },
+      "choices": [
+        { "en": "Water", "es": "El agua" },
+        { "en": "Sugar", "es": "El azúcar" },
+        { "en": "Protein", "es": "La proteína" },
+        { "en": "Fat", "es": "La grasa" }
+      ],
+      "answer": 0,
+      "why": { "en": "The large intestine takes back water so you stay hydrated, and friendly bacteria there make vitamins for you.", "es": "El intestino grueso recupera el agua para que no te deshidrates, y las bacterias amistosas de ahí fabrican vitaminas." },
+      "topic": "digestion",
+      "source": "https://kidshealth.org/en/kids/digestive-system.html"
+    },
+    {
+      "id": "body-medium-028", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "What is the muscle squeeze that pushes food along called?", "es": "¿Cómo se llama el apretón muscular que empuja la comida?" },
+      "choices": [
+        { "en": "Digestion", "es": "La digestión" },
+        { "en": "Circulation", "es": "La circulación" },
+        { "en": "Peristalsis", "es": "El peristaltismo" },
+        { "en": "Absorption", "es": "La absorción" }
+      ],
+      "answer": 2,
+      "why": { "en": "Peristalsis works like squeezing toothpaste, wave after wave, so food keeps moving all the way down without your help.", "es": "El peristaltismo es como exprimir pasta de dientes, onda tras onda, para que la comida siga bajando sin tu ayuda." },
+      "topic": "digestion",
+      "source": "https://kids.britannica.com/kids/article/digestive-system/353078"
+    },
+    {
+      "id": "body-medium-029", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "How many teeth does an adult have, counting wisdom teeth?", "es": "¿Cuántos dientes tiene una persona adulta, contando las muelas del juicio?" },
+      "choices": [
+        { "en": "20", "es": "20" },
+        { "en": "24", "es": "24" },
+        { "en": "28", "es": "28" },
+        { "en": "32", "es": "32" }
+      ],
+      "answer": 3,
+      "why": { "en": "Adults grow 32 teeth; the last four, called wisdom teeth, arrive years later, and some people simply do not grow them.", "es": "Las personas adultas tienen 32 dientes; las últimas cuatro muelas, llamadas del juicio, llegan años después y a algunos les faltan." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-medium-030", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍎",
+      "q": { "en": "Which teeth are shaped like chisels for biting an apple?", "es": "¿Qué dientes tienen forma de cincel para morder una manzana?" },
+      "choices": [
+        { "en": "The incisors in front", "es": "Los incisivos de enfrente" },
+        { "en": "The molars in back", "es": "Los molares de atrás" },
+        { "en": "The pointy canines", "es": "Los caninos puntiagudos" },
+        { "en": "The premolars", "es": "Los premolares" }
+      ],
+      "answer": 0,
+      "why": { "en": "Incisors have a straight edge for cutting, canines tear, and flat molars grind food like two little millstones.", "es": "Los incisivos tienen borde recto para cortar, los caninos desgarran y los molares planos muelen como dos piedras de molino." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-medium-031", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦷",
+      "q": { "en": "What is inside the middle of every tooth?", "es": "¿Qué hay en el centro de cada diente?" },
+      "choices": [
+        { "en": "Solid enamel", "es": "Esmalte macizo" },
+        { "en": "Pulp with nerves", "es": "Pulpa con nervios" },
+        { "en": "Air", "es": "Aire" },
+        { "en": "Cartilage", "es": "Cartílago" }
+      ],
+      "answer": 1,
+      "why": { "en": "The soft pulp keeps the tooth alive and feels cold ice cream through tiny tubes in the layer around it.", "es": "La pulpa blanda mantiene vivo el diente y siente el helado frío por tubitos de la capa que la rodea." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-medium-032", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧒",
+      "q": { "en": "Around what age does a child usually lose the first tooth?", "es": "¿A qué edad se le cae normalmente el primer diente a un niño?" },
+      "choices": [
+        { "en": "About 3 years old", "es": "A los 3 años" },
+        { "en": "About 4 years old", "es": "A los 4 años" },
+        { "en": "About 6 years old", "es": "A los 6 años" },
+        { "en": "About 9 years old", "es": "A los 9 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "Baby teeth usually loosen around age 6, and the first adult molars push through behind them without pushing any out.", "es": "Los dientes de leche se aflojan cerca de los 6 años, y las primeras muelas adultas salen atrás sin sacar ninguna." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/lose-tooth.html"
+    },
+    {
+      "id": "body-medium-033", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "If an adult tooth falls out, a third tooth grows in.", "es": "Si se cae un diente adulto, crece un tercer diente en su lugar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "People get only two sets, so adult teeth must last; sharks, on the other hand, replace theirs all their lives.", "es": "Las personas tienen solo dos juegos, por eso hay que cuidar los adultos; los tiburones cambian los suyos toda la vida." },
+      "topic": "teeth",
+      "source": "https://kidshealth.org/en/kids/teeth.html"
+    },
+    {
+      "id": "body-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤧",
+      "q": { "en": "Which kind of germ gives you a common cold?", "es": "¿Qué tipo de microbio te contagia un resfriado común?" },
+      "choices": [
+        { "en": "A virus", "es": "Un virus" },
+        { "en": "A bacterium", "es": "Una bacteria" },
+        { "en": "A fungus", "es": "Un hongo" },
+        { "en": "A parasite", "es": "Un parásito" }
+      ],
+      "answer": 0,
+      "why": { "en": "Colds come from viruses, which are so tiny that thousands could line up across one grain of salt.", "es": "Los resfriados los causan virus, tan diminutos que miles cabrían en fila sobre un solo grano de sal." },
+      "topic": "germs and vaccines",
+      "source": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "body-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧼",
+      "q": { "en": "What does soap do to germs on your wet hands?", "es": "¿Qué le hace el jabón a los microbios de tus manos mojadas?" },
+      "choices": [
+        { "en": "Freezes them", "es": "Los congela" },
+        { "en": "Breaks their greasy coat", "es": "Rompe su capa grasosa" },
+        { "en": "Glues them to your skin", "es": "Los pega a tu piel" },
+        { "en": "Feeds them", "es": "Los alimenta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Many germs wear a greasy coat; soap pulls that coat apart and water carries the pieces down the drain.", "es": "Muchos microbios tienen una capa grasosa; el jabón la desarma y el agua se lleva los pedazos por el desagüe." },
+      "topic": "germs and vaccines",
+      "source": "https://kidshealth.org/en/kids/wash-hands.html"
+    },
+    {
+      "id": "body-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "What does a vaccine teach your body to do?", "es": "¿Qué le enseña una vacuna a tu cuerpo?" },
+      "choices": [
+        { "en": "Grow stronger bones", "es": "Fortalecer los huesos" },
+        { "en": "Make more blood", "es": "Fabricar más sangre" },
+        { "en": "Practice fighting one germ", "es": "Practicar contra un microbio" },
+        { "en": "Digest food faster", "es": "Digerir más rápido" }
+      ],
+      "answer": 2,
+      "why": { "en": "A vaccine shows your body a harmless piece of a germ, so your defenders remember it and act fast later.", "es": "La vacuna le muestra a tu cuerpo un pedacito inofensivo del microbio, así tus defensas lo recuerdan y actúan rápido después." },
+      "topic": "germs and vaccines",
+      "source": "https://kidshealth.org/en/kids/vaccine.html"
+    },
+    {
+      "id": "body-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "🛡️",
+      "q": { "en": "Which body part is your first wall against germs?", "es": "¿Qué parte del cuerpo es tu primera barrera contra los microbios?" },
+      "choices": [
+        { "en": "Your skin", "es": "Tu piel" },
+        { "en": "Your hair", "es": "Tu cabello" },
+        { "en": "Your bones", "es": "Tus huesos" },
+        { "en": "Your nails", "es": "Tus uñas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Unbroken skin blocks germs, and sticky mucus in your nose traps the ones that try to sneak in with air.", "es": "La piel sin heridas bloquea los microbios, y el moco pegajoso de la nariz atrapa a los que entran con el aire." },
+      "topic": "germs and vaccines",
+      "source": "https://kidshealth.org/en/kids/immune.html"
+    },
+    {
+      "id": "body-medium-038", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "A fever means your body is warming up to slow germs down.", "es": "La fiebre es tu cuerpo calentándose para frenar a los microbios." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "A warmer body makes germs grow slowly and wakes up your defenders, which is why rest and water help so much.", "es": "Un cuerpo más caliente hace que los microbios crezcan despacio y despierta a tus defensas; por eso ayudan el descanso y el agua." },
+      "topic": "germs and vaccines",
+      "source": "https://kidshealth.org/en/kids/fever.html"
+    },
+    {
+      "id": "body-medium-039", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥚",
+      "q": { "en": "Which food group gives your muscles the bricks to grow?", "es": "¿Qué grupo de alimentos da a tus músculos los ladrillos para crecer?" },
+      "choices": [
+        { "en": "Protein foods like beans and eggs", "es": "Proteínas como frijoles y huevos" },
+        { "en": "Sweet snacks", "es": "Dulces y golosinas" },
+        { "en": "Oils", "es": "Aceites" },
+        { "en": "Salty crackers", "es": "Galletas saladas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Protein from beans, eggs, fish and meat is taken apart and rebuilt into your muscles, hair and skin.", "es": "La proteína de los frijoles, huevos, pescado y carne se desarma y se vuelve a armar como músculos, cabello y piel." },
+      "topic": "food and water",
+      "source": "https://www.myplate.gov/eat-healthy/protein-foods"
+    },
+    {
+      "id": "body-medium-040", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥗",
+      "q": { "en": "Which food group should fill half your plate at lunch?", "es": "¿Qué grupo de alimentos debe llenar la mitad de tu plato?" },
+      "choices": [
+        { "en": "Grains", "es": "Los granos" },
+        { "en": "Dairy", "es": "Los lácteos" },
+        { "en": "Protein foods", "es": "Las proteínas" },
+        { "en": "Fruits and vegetables", "es": "Las frutas y verduras" }
+      ],
+      "answer": 3,
+      "why": { "en": "Half a plate of fruits and vegetables brings fiber and vitamins, and eating many colors brings different helpers.", "es": "Media porción de frutas y verduras aporta fibra y vitaminas, y comer muchos colores aporta ayudantes distintos." },
+      "topic": "food and water",
+      "source": "https://www.myplate.gov/eat-healthy/what-is-myplate"
+    },
+    {
+      "id": "body-medium-041", "level": "medium", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "About how much of your body is made of water?", "es": "¿Qué parte de tu cuerpo es agua más o menos?" },
+      "choices": [
+        { "en": "About 10%", "es": "Un 10%" },
+        { "en": "About 30%", "es": "Un 30%" },
+        { "en": "About 60%", "es": "Un 60%" },
+        { "en": "About 90%", "es": "Un 90%" }
+      ],
+      "answer": 2,
+      "why": { "en": "About 60 percent of you is water, and your brain and heart hold even more of it than that.", "es": "Cerca del 60 por ciento de ti es agua, y tu cerebro y tu corazón tienen todavía más que eso." },
+      "topic": "food and water",
+      "source": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body"
+    },
+    {
+      "id": "body-medium-042", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥛",
+      "q": { "en": "Which of these foods carries the most calcium for bones?", "es": "¿Cuál de estos alimentos trae más calcio para los huesos?" },
+      "choices": [
+        { "en": "White rice", "es": "Arroz blanco" },
+        { "en": "Yogurt", "es": "Yogur" },
+        { "en": "Apple slices", "es": "Rebanadas de manzana" },
+        { "en": "Salty crackers", "es": "Galletas saladas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Calcium from dairy, and also from beans and greens, is the mineral your body packs into bone to keep it hard.", "es": "El calcio de los lácteos, y también de los frijoles y las verduras verdes, es el mineral que endurece tus huesos." },
+      "topic": "food and water",
+      "source": "https://kidshealth.org/en/kids/calcium.html"
+    },
+    {
+      "id": "body-medium-043", "level": "medium", "type": "mc", "lang": "both", "emoji": "🚰",
+      "q": { "en": "Your pee is dark yellow after a hot game. What does that mean?", "es": "Tu orina está amarilla oscura después de un partido. ¿Qué significa?" },
+      "choices": [
+        { "en": "You need more sleep", "es": "Necesitas dormir más" },
+        { "en": "You ate too much sugar", "es": "Comiste mucha azúcar" },
+        { "en": "You need more sunlight", "es": "Necesitas más sol" },
+        { "en": "You need to drink water", "es": "Necesitas tomar agua" }
+      ],
+      "answer": 3,
+      "why": { "en": "Dark pee means your kidneys are saving water; a pale, straw color tells you that you have had enough to drink.", "es": "La orina oscura avisa que tus riñones están guardando agua; un color claro como paja dice que ya tomaste suficiente." },
+      "topic": "food and water",
+      "source": "https://kidshealth.org/en/kids/dehydration.html"
+    },
+    {
+      "id": "body-medium-044", "level": "medium", "type": "mc", "lang": "both", "emoji": "💦",
+      "q": { "en": "Why does sweat cool you down on a hot day?", "es": "¿Por qué el sudor te refresca en un día caluroso?" },
+      "choices": [
+        { "en": "It pushes air over your skin", "es": "Empuja aire sobre tu piel" },
+        { "en": "It takes heat away as it dries", "es": "Se lleva calor al secarse" },
+        { "en": "It makes your blood thicker", "es": "Hace tu sangre más espesa" },
+        { "en": "It closes your pores", "es": "Cierra tus poros" }
+      ],
+      "answer": 1,
+      "why": { "en": "Turning liquid sweat into vapor uses heat, and that heat comes straight from your skin, so you cool off.", "es": "Convertir el sudor líquido en vapor gasta calor, y ese calor sale de tu piel, por eso te refrescas." },
+      "topic": "sweat and shivers",
+      "source": "https://kidshealth.org/en/kids/sweat.html"
+    },
+    {
+      "id": "body-medium-045", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥶",
+      "q": { "en": "What are your muscles doing when you shiver in the cold?", "es": "¿Qué hacen tus músculos cuando tiemblas de frío?" },
+      "choices": [
+        { "en": "Resting to save energy", "es": "Descansan para ahorrar energía" },
+        { "en": "Pushing blood to your skin", "es": "Mandan sangre a tu piel" },
+        { "en": "Shaking quickly to make heat", "es": "Tiemblan rápido para dar calor" },
+        { "en": "Growing thicker", "es": "Crecen más gruesos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tiny fast muscle twitches burn fuel and give off heat, the same way you warm up by running in place.", "es": "Los temblores rápidos de los músculos queman energía y sueltan calor, igual que cuando corres en tu lugar para calentarte." },
+      "topic": "sweat and shivers",
+      "source": "https://kids.britannica.com/kids/article/human-body/353353"
+    },
+    {
+      "id": "body-medium-046", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "What is the usual temperature inside a healthy body?", "es": "¿Cuál es la temperatura normal dentro de un cuerpo sano?" },
+      "choices": [
+        { "en": "About 27 °C, 81 °F", "es": "Unos 27 °C, 81 °F" },
+        { "en": "About 32 °C, 90 °F", "es": "Unos 32 °C, 90 °F" },
+        { "en": "About 37 °C, 98.6 °F", "es": "Unos 37 °C, 98.6 °F" },
+        { "en": "About 42 °C, 108 °F", "es": "Unos 42 °C, 108 °F" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your brain keeps you near 37 °C, 98.6 °F, all day by turning sweat and shivers on and off.", "es": "Tu cerebro te mantiene cerca de 37 °C, 98.6 °F, todo el día, prendiendo y apagando el sudor y los temblores." },
+      "topic": "sweat and shivers",
+      "source": "https://kidshealth.org/en/kids/fever.html"
+    },
+    {
+      "id": "body-medium-047", "level": "medium", "type": "mc", "lang": "both", "emoji": "👣",
+      "q": { "en": "Where on your body are there the most sweat glands?", "es": "¿En qué parte del cuerpo hay más glándulas de sudor?" },
+      "choices": [
+        { "en": "Your back", "es": "La espalda" },
+        { "en": "Your chest", "es": "El pecho" },
+        { "en": "Your arms", "es": "Los brazos" },
+        { "en": "The soles of your feet", "es": "Las plantas de los pies" }
+      ],
+      "answer": 3,
+      "why": { "en": "Your feet have around 250,000 sweat glands, more than anywhere else, which is why shoes get damp so fast.", "es": "Tus pies tienen unas 250,000 glándulas de sudor, más que cualquier otra parte; por eso los zapatos se humedecen rápido." },
+      "topic": "sweat and shivers",
+      "source": "https://kidshealth.org/en/kids/sweat.html"
+    },
+    {
+      "id": "body-medium-048", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Sweat starts out smelly as soon as it leaves your skin.", "es": "El sudor sale de tu piel ya con mal olor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fresh sweat is almost odorless; the smell appears later when friendly skin bacteria feed on it and leave their own.", "es": "El sudor recién salido casi no huele; el olor llega después, cuando las bacterias de la piel se alimentan de él." },
+      "topic": "sweat and shivers",
+      "source": "https://kidshealth.org/en/kids/sweat.html"
+    },
+    {
+      "id": "body-medium-049", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "About how fast do nerve messages race through your body?", "es": "¿Qué tan rápido viajan los mensajes de los nervios por tu cuerpo?" },
+      "choices": [
+        { "en": "About 5 km/h, 3 mph", "es": "Unos 5 km/h, 3 mph" },
+        { "en": "About 50 km/h, 30 mph", "es": "Unos 50 km/h, 30 mph" },
+        { "en": "About 400 km/h, 250 mph", "es": "Unos 400 km/h, 250 mph" },
+        { "en": "About 1000 km/h, 600 mph", "es": "Unos 1000 km/h, 600 mph" }
+      ],
+      "answer": 2,
+      "why": { "en": "The fastest nerves carry signals at about 400 kilometers per hour, 250 miles per hour, faster than a race car.", "es": "Los nervios más veloces llevan señales a unos 400 kilómetros por hora, 250 millas por hora, más rápido que un carro de carreras." },
+      "topic": "brain and nerves",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-medium-050", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which is the biggest part of your brain?", "es": "¿Cuál es la parte más grande del encéfalo?" },
+      "choices": [
+        { "en": "The cerebrum", "es": "El cerebro" },
+        { "en": "The cerebellum", "es": "El cerebelo" },
+        { "en": "The brain stem", "es": "El tronco encefálico" },
+        { "en": "The spinal cord", "es": "La médula espinal" }
+      ],
+      "answer": 0,
+      "why": { "en": "The cerebrum fills most of your skull and does your thinking, reading and dreaming, in two wrinkled halves.", "es": "El cerebro llena casi todo el cráneo y se encarga de pensar, leer y soñar, en dos mitades arrugadas." },
+      "topic": "brain and nerves",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-medium-051", "level": "medium", "type": "mc", "lang": "both", "emoji": "🦵",
+      "q": { "en": "A doctor taps your knee and your leg kicks. What decided that?", "es": "El doctor toca tu rodilla y tu pierna patea. ¿Quién lo decidió?" },
+      "choices": [
+        { "en": "Your brain", "es": "Tu cerebro" },
+        { "en": "Your spinal cord", "es": "Tu médula espinal" },
+        { "en": "Your kneecap", "es": "Tu rótula" },
+        { "en": "Your muscles alone", "es": "Solo tus músculos" }
+      ],
+      "answer": 1,
+      "why": { "en": "A reflex takes a shortcut through the spinal cord, so your leg moves before your brain even hears about it.", "es": "El reflejo toma un atajo por la médula espinal, así tu pierna se mueve antes de que tu cerebro se entere." },
+      "topic": "brain and nerves",
+      "source": "https://kids.britannica.com/kids/article/nervous-system/353572"
+    },
+    {
+      "id": "body-medium-052", "level": "medium", "type": "mc", "lang": "both", "emoji": "✋",
+      "q": { "en": "Which side of your brain moves your right hand?", "es": "¿Qué lado de tu cerebro mueve tu mano derecha?" },
+      "choices": [
+        { "en": "The left side", "es": "El lado izquierdo" },
+        { "en": "The right side", "es": "El lado derecho" },
+        { "en": "Both sides equally", "es": "Los dos lados igual" },
+        { "en": "The front only", "es": "Solo la parte de adelante" }
+      ],
+      "answer": 0,
+      "why": { "en": "Nerves cross over in the brain stem, so the left half steers your right side and the right half steers your left.", "es": "Los nervios se cruzan en el tronco encefálico: la mitad izquierda maneja tu lado derecho y la derecha maneja tu izquierdo." },
+      "topic": "brain and nerves",
+      "source": "https://kidshealth.org/en/kids/brain.html"
+    },
+    {
+      "id": "body-medium-053", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔋",
+      "q": { "en": "About how much of your energy does your brain use?", "es": "¿Qué parte de tu energía gasta tu cerebro más o menos?" },
+      "choices": [
+        { "en": "About 2%", "es": "Un 2%" },
+        { "en": "About 5%", "es": "Un 5%" },
+        { "en": "About 10%", "es": "Un 10%" },
+        { "en": "About 20%", "es": "Un 20%" }
+      ],
+      "answer": 3,
+      "why": { "en": "Your brain is only about 2% of your weight but uses around 20% of the energy from your food.", "es": "Tu cerebro es apenas un 2% de tu peso, pero gasta cerca del 20% de la energía de tu comida." },
+      "topic": "brain and nerves",
+      "source": "https://kids.britannica.com/kids/article/brain/352918"
+    },
+    {
+      "id": "body-medium-054", "level": "medium", "type": "mc", "lang": "both", "emoji": "👅",
+      "q": { "en": "How many basic flavors can your tongue really pick up?", "es": "¿Cuántos sabores básicos puede detectar tu lengua?" },
+      "choices": [
+        { "en": "Three", "es": "Tres" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Ten", "es": "Diez" },
+        { "en": "Twenty", "es": "Veinte" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sweet, salty, sour, bitter and savory umami; the rest of flavor is really smell, which is why food tastes flat with a cold.", "es": "Dulce, salado, ácido, amargo y umami; el resto del sabor es olor, por eso la comida sabe a poco con gripa." },
+      "topic": "the senses",
+      "source": "https://kidshealth.org/en/kids/tongue.html"
+    },
+    {
+      "id": "body-medium-055", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤚",
+      "q": { "en": "Which part of your skin has the most touch sensors?", "es": "¿Qué parte de tu piel tiene más sensores del tacto?" },
+      "choices": [
+        { "en": "Your fingertips", "es": "Las yemas de los dedos" },
+        { "en": "Your back", "es": "La espalda" },
+        { "en": "Your knees", "es": "Las rodillas" },
+        { "en": "Your elbows", "es": "Los codos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Fingertips and lips are packed with sensors, while your back has so few that two pokes can feel like one.", "es": "Las yemas y los labios están llenos de sensores; la espalda tiene tan pocos que dos toques se sienten como uno." },
+      "topic": "the senses",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-056", "level": "medium", "type": "mc", "lang": "both", "emoji": "👆",
+      "q": { "en": "You close your eyes and touch your nose. Which sense helped?", "es": "Cierras los ojos y te tocas la nariz. ¿Qué sentido te ayudó?" },
+      "choices": [
+        { "en": "Sight", "es": "La vista" },
+        { "en": "Smell", "es": "El olfato" },
+        { "en": "Hearing", "es": "El oído" },
+        { "en": "Your body position sense", "es": "El sentido de la posición" }
+      ],
+      "answer": 3,
+      "why": { "en": "Sensors in muscles and joints tell your brain where each part is, a sixth sense called proprioception.", "es": "Sensores en músculos y articulaciones le dicen a tu cerebro dónde está cada parte: un sexto sentido llamado propiocepción." },
+      "topic": "the senses",
+      "source": "https://kids.britannica.com/kids/article/sense/353851"
+    },
+    {
+      "id": "body-medium-057", "level": "medium", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "How does your nose tell apart thousands of different smells?", "es": "¿Cómo distingue tu nariz miles de olores diferentes?" },
+      "choices": [
+        { "en": "With taste buds", "es": "Con papilas gustativas" },
+        { "en": "With tiny sensors that match each smell", "es": "Con sensores diminutos para cada olor" },
+        { "en": "With hairs that filter air", "es": "Con pelitos que filtran el aire" },
+        { "en": "With the bones in the nose", "es": "Con los huesos de la nariz" }
+      ],
+      "answer": 1,
+      "why": { "en": "Smell sensors at the top of your nose fit odor bits like keys in locks, and your brain reads the pattern.", "es": "Los sensores del olfato, arriba en tu nariz, encajan los olores como llaves en cerraduras y tu cerebro lee el patrón." },
+      "topic": "the senses",
+      "source": "https://kidshealth.org/en/kids/nose.html"
+    },
+    {
+      "id": "body-medium-058", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Your skin uses separate sensors for cold, warmth, pressure and itch.", "es": "Tu piel usa sensores distintos para el frío, el calor, la presión y la comezón." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each kind of sensor sits at a different depth, so a cold spoon and a light touch feel completely different.", "es": "Cada tipo de sensor está a distinta profundidad, por eso una cuchara fría y un roce suave se sienten diferente." },
+      "topic": "the senses",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-059", "level": "medium", "type": "mc", "lang": "both", "emoji": "🩹",
+      "q": { "en": "You scrape your knee. Which blood helper plugs the hole first?", "es": "Te raspas la rodilla. ¿Qué parte de la sangre tapa primero?" },
+      "choices": [
+        { "en": "Red blood cells", "es": "Los glóbulos rojos" },
+        { "en": "Platelets", "es": "Las plaquetas" },
+        { "en": "Plasma", "es": "El plasma" },
+        { "en": "White blood cells", "es": "Los glóbulos blancos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Platelets are sticky bits that pile up and make threads, and the dried pile becomes the scab on your knee.", "es": "Las plaquetas son pedacitos pegajosos que se amontonan y forman hilos; ese montón seco se vuelve la costra de tu rodilla." },
+      "topic": "skin and healing",
+      "source": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "body-medium-060", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧴",
+      "q": { "en": "How many layers does your skin have?", "es": "¿Cuántas capas tiene tu piel?" },
+      "choices": [
+        { "en": "One", "es": "Una" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Seven", "es": "Siete" }
+      ],
+      "answer": 2,
+      "why": { "en": "The outside layer you can see is dead cells that flake off, while new ones are built underneath every day.", "es": "La capa de afuera que ves son células muertas que se desprenden, mientras abajo se fabrican nuevas cada día." },
+      "topic": "skin and healing",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-061", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎨",
+      "q": { "en": "What makes some people's skin darker than other people's skin?", "es": "¿Qué hace que la piel de unas personas sea más oscura?" },
+      "choices": [
+        { "en": "Melanin", "es": "La melanina" },
+        { "en": "Keratin", "es": "La queratina" },
+        { "en": "Collagen", "es": "El colágeno" },
+        { "en": "Iron", "es": "El hierro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Melanin is a brown pigment that shields skin from sunlight, and everyone makes it, just in different amounts.", "es": "La melanina es un pigmento café que protege la piel del sol, y todas las personas la producen en distintas cantidades." },
+      "topic": "skin and healing",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "About how long does your skin take to replace itself?", "es": "¿Cuánto tarda tu piel en renovarse por completo?" },
+      "choices": [
+        { "en": "About a day", "es": "Un día" },
+        { "en": "About a week", "es": "Una semana" },
+        { "en": "About a year", "es": "Un año" },
+        { "en": "About a month", "es": "Un mes" }
+      ],
+      "answer": 3,
+      "why": { "en": "You shed millions of skin flakes every day, and in about four weeks your outer layer is completely new.", "es": "Sueltas millones de escamas de piel cada día, y en unas cuatro semanas tu capa exterior es totalmente nueva." },
+      "topic": "skin and healing",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-063", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Picking at a scab helps the scrape under it heal faster.", "es": "Arrancar la costra ayuda a que el raspón sane más rápido." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A scab is a natural bandage; leaving it alone gives the new skin underneath time to grow and stay smooth.", "es": "La costra es una venda natural; si la dejas en paz, la piel nueva de abajo crece mejor y queda lisa." },
+      "topic": "skin and healing",
+      "source": "https://kidshealth.org/en/kids/skin.html"
+    },
+    {
+      "id": "body-medium-064", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫁",
+      "q": { "en": "Which muscle under your lungs pulls air in?", "es": "¿Qué músculo debajo de tus pulmones jala el aire?" },
+      "choices": [
+        { "en": "The diaphragm", "es": "El diafragma" },
+        { "en": "The biceps", "es": "El bíceps" },
+        { "en": "The jaw muscle", "es": "El músculo de la mandíbula" },
+        { "en": "The heart", "es": "El corazón" }
+      ],
+      "answer": 0,
+      "why": { "en": "The diaphragm is a dome of muscle that flattens down, making room so air rushes into your lungs.", "es": "El diafragma es una cúpula de músculo que se aplana y hace espacio para que el aire entre a los pulmones." },
+      "topic": "breathing and lungs",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌬️",
+      "q": { "en": "About how many times do you breathe in one day?", "es": "¿Cuántas veces respiras en un día más o menos?" },
+      "choices": [
+        { "en": "About 200", "es": "Unas 200" },
+        { "en": "About 2000", "es": "Unas 2000" },
+        { "en": "About 5000", "es": "Unas 5000" },
+        { "en": "About 20,000", "es": "Unas 20,000" }
+      ],
+      "answer": 3,
+      "why": { "en": "A child breathes about 20 times a minute at rest, and each breath moves about half a liter, one pint, of air.", "es": "Un niño respira unas 20 veces por minuto en reposo, y cada respiración mueve medio litro, una pinta, de aire." },
+      "topic": "breathing and lungs",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-medium-066", "level": "medium", "type": "mc", "lang": "both", "emoji": "🫧",
+      "q": { "en": "Where in your lungs does oxygen jump into your blood?", "es": "¿En qué parte de los pulmones pasa el oxígeno a la sangre?" },
+      "choices": [
+        { "en": "In the windpipe", "es": "En la tráquea" },
+        { "en": "In the ribs", "es": "En las costillas" },
+        { "en": "In tiny air sacs", "es": "En sacos de aire diminutos" },
+        { "en": "In the nose", "es": "En la nariz" }
+      ],
+      "answer": 2,
+      "why": { "en": "Your lungs hold about 300 million air sacs called alveoli, spread out wider than the floor of your classroom.", "es": "Tus pulmones tienen unos 300 millones de sacos de aire llamados alvéolos, extendidos más que el piso de tu salón." },
+      "topic": "breathing and lungs",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-medium-067", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "What does your body breathe out that plants like to use?", "es": "¿Qué exhala tu cuerpo que las plantas aprovechan?" },
+      "choices": [
+        { "en": "Carbon dioxide", "es": "Dióxido de carbono" },
+        { "en": "Oxygen", "es": "Oxígeno" },
+        { "en": "Nitrogen", "es": "Nitrógeno" },
+        { "en": "Hydrogen", "es": "Hidrógeno" }
+      ],
+      "answer": 0,
+      "why": { "en": "You breathe out the carbon dioxide your cells make, and plants take it in to build leaves and fruit.", "es": "Exhalas el dióxido de carbono que fabrican tus células, y las plantas lo toman para construir hojas y frutos." },
+      "topic": "breathing and lungs",
+      "source": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "body-medium-068", "level": "medium", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Which tube carries air from your throat down to your lungs?", "es": "¿Qué tubo lleva el aire desde tu garganta hasta los pulmones?" },
+      "choices": [
+        { "en": "The esophagus", "es": "El esófago" },
+        { "en": "The larynx", "es": "La laringe" },
+        { "en": "A blood vessel", "es": "Un vaso sanguíneo" },
+        { "en": "The trachea", "es": "La tráquea" }
+      ],
+      "answer": 3,
+      "why": { "en": "The trachea is held open by rings of cartilage, like a vacuum hose, so it cannot collapse when you bend.", "es": "La tráquea se mantiene abierta con anillos de cartílago, como una manguera de aspiradora, para que no se aplaste." },
+      "topic": "breathing and lungs",
+      "source": "https://kids.britannica.com/kids/article/respiratory-system/353748"
+    },
+    {
+      "id": "body-medium-069", "level": "medium", "type": "mc", "lang": "both", "emoji": "😴",
+      "q": { "en": "When does your body release most of its growth hormone?", "es": "¿Cuándo libera tu cuerpo casi toda su hormona del crecimiento?" },
+      "choices": [
+        { "en": "While you sleep deeply at night", "es": "Mientras duermes profundo de noche" },
+        { "en": "Right after breakfast", "es": "Justo después del desayuno" },
+        { "en": "While you run at recess", "es": "Mientras corres en el recreo" },
+        { "en": "While you read quietly", "es": "Mientras lees en silencio" }
+      ],
+      "answer": 0,
+      "why": { "en": "Growth hormone pours out in the deepest part of night sleep, which is one reason children grow while resting.", "es": "La hormona del crecimiento sale en la parte más profunda del sueño; por eso los niños crecen mientras descansan." },
+      "topic": "sleep and growing",
+      "source": "https://kidshealth.org/en/kids/not-tired.html"
+    },
+    {
+      "id": "body-medium-070", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌙",
+      "q": { "en": "About how long does one whole sleep cycle last?", "es": "¿Cuánto dura un ciclo completo de sueño más o menos?" },
+      "choices": [
+        { "en": "About 20 minutes", "es": "Unos 20 minutos" },
+        { "en": "About 90 minutes", "es": "Unos 90 minutos" },
+        { "en": "About 4 hours", "es": "Unas 4 horas" },
+        { "en": "About 8 hours", "es": "Unas 8 horas" }
+      ],
+      "answer": 1,
+      "why": { "en": "You go through four or five cycles a night, each one ending with the dreaming stage called REM sleep.", "es": "Pasas por cuatro o cinco ciclos cada noche, y cada uno termina con la etapa de los sueños llamada REM." },
+      "topic": "sleep and growing",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-medium-071", "level": "medium", "type": "mc", "lang": "both", "emoji": "💤",
+      "q": { "en": "Which chemical does your brain make when the lights go down?", "es": "¿Qué sustancia fabrica tu cerebro cuando bajan las luces?" },
+      "choices": [
+        { "en": "Insulin", "es": "La insulina" },
+        { "en": "Adrenaline", "es": "La adrenalina" },
+        { "en": "Melatonin", "es": "La melatonina" },
+        { "en": "Calcium", "es": "El calcio" }
+      ],
+      "answer": 2,
+      "why": { "en": "Darkness tells your brain to make melatonin, the sleepy signal, so bright screens at night can keep you awake.", "es": "La oscuridad le dice a tu cerebro que fabrique melatonina, la señal del sueño; por eso las pantallas brillantes te desvelan." },
+      "topic": "sleep and growing",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-medium-072", "level": "medium", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which part of a bone lets a child get taller?", "es": "¿Qué parte del hueso permite que un niño crezca más alto?" },
+      "choices": [
+        { "en": "The marrow", "es": "La médula" },
+        { "en": "The joint", "es": "La articulación" },
+        { "en": "The outer skin of the bone", "es": "La piel exterior del hueso" },
+        { "en": "The growth plate", "es": "El cartílago de crecimiento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Near each end of a long bone sits a plate of cartilage that adds new bone until you stop growing.", "es": "Cerca de cada punta de un hueso largo hay una placa de cartílago que agrega hueso nuevo hasta que dejas de crecer." },
+      "topic": "sleep and growing",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-medium-073", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Your brain switches off and rests completely while you sleep.", "es": "Tu cerebro se apaga y descansa por completo mientras duermes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "During dreams your brain is nearly as busy as when you are awake, sorting the day and storing what you learned.", "es": "Mientras sueñas, tu cerebro trabaja casi tanto como despierto: ordena el día y guarda lo que aprendiste." },
+      "topic": "sleep and growing",
+      "source": "https://kidshealth.org/en/kids/sleep.html"
+    },
+    {
+      "id": "body-medium-074", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏃",
+      "q": { "en": "What happens to your breathing when you run up stairs?", "es": "¿Qué le pasa a tu respiración cuando subes corriendo las escaleras?" },
+      "choices": [
+        { "en": "It gets faster and deeper", "es": "Se vuelve más rápida y profunda" },
+        { "en": "It gets slower", "es": "Se hace más lenta" },
+        { "en": "It pauses for a while", "es": "Se detiene un rato" },
+        { "en": "It stays exactly the same", "es": "Sigue exactamente igual" }
+      ],
+      "answer": 0,
+      "why": { "en": "Working muscles need more oxygen and make more carbon dioxide, so your lungs and heart both speed up together.", "es": "Los músculos que trabajan piden más oxígeno y sueltan más dióxido de carbono, por eso pulmones y corazón se aceleran juntos." },
+      "topic": "exercise",
+      "source": "https://kidshealth.org/en/kids/work-it-out.html"
+    },
+    {
+      "id": "body-medium-075", "level": "medium", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "What are you counting when you count your pulse?", "es": "¿Qué estás contando cuando cuentas tu pulso?" },
+      "choices": [
+        { "en": "Breaths", "es": "Las respiraciones" },
+        { "en": "Heartbeats", "es": "Los latidos" },
+        { "en": "Muscle twitches", "es": "Los tirones del músculo" },
+        { "en": "Steps", "es": "Los pasos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each beat sends a wave of pressure down your arteries, and you feel that wave where an artery runs near the skin.", "es": "Cada latido manda una ola de presión por tus arterias, y sientes esa ola donde una arteria pasa cerca de la piel." },
+      "topic": "exercise",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-076", "level": "medium", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "About how many minutes should a child move each day?", "es": "¿Cuántos minutos debe moverse un niño cada día?" },
+      "choices": [
+        { "en": "10 minutes", "es": "10 minutos" },
+        { "en": "30 minutes", "es": "30 minutos" },
+        { "en": "60 minutes", "es": "60 minutos" },
+        { "en": "180 minutes", "es": "180 minutos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Health guides suggest about an hour of moving a day, and it counts even when it is split into short bursts.", "es": "Las guías de salud sugieren cerca de una hora de movimiento al día, y cuenta aunque la partas en ratos cortos." },
+      "topic": "exercise",
+      "source": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html"
+    },
+    {
+      "id": "body-medium-077", "level": "medium", "type": "mc", "lang": "both", "emoji": "🏊",
+      "q": { "en": "What happens to a trained athlete's resting heartbeat over time?", "es": "¿Qué le pasa al pulso en reposo de un atleta entrenado?" },
+      "choices": [
+        { "en": "It gets faster", "es": "Se acelera" },
+        { "en": "It gets louder", "es": "Suena más fuerte" },
+        { "en": "It stays the same", "es": "Se queda igual" },
+        { "en": "It gets slower", "es": "Se hace más lento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Practice makes the heart muscle stronger, so it pushes more blood with each beat and needs fewer beats to rest.", "es": "El entrenamiento fortalece el músculo del corazón, así empuja más sangre en cada latido y necesita menos latidos en reposo." },
+      "topic": "exercise",
+      "source": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "id": "body-medium-078", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Jumping and running make your bones stronger as well as your muscles.", "es": "Saltar y correr fortalecen tus huesos además de tus músculos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Bones add material where they are pushed and pulled, so jumping games build a skeleton that lasts for years.", "es": "Los huesos agregan material donde reciben empujones y jalones, así los juegos de saltar construyen un esqueleto duradero." },
+      "topic": "exercise",
+      "source": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "body-medium-079", "level": "medium", "type": "mc", "lang": "both", "emoji": "👁️",
+      "q": { "en": "Which part of your eye bends light to make a sharp picture?", "es": "¿Qué parte de tu ojo dobla la luz para formar una imagen nítida?" },
+      "choices": [
+        { "en": "The pupil", "es": "La pupila" },
+        { "en": "The lens", "es": "El cristalino" },
+        { "en": "The iris", "es": "El iris" },
+        { "en": "The eyelid", "es": "El párpado" }
+      ],
+      "answer": 1,
+      "why": { "en": "The clear lens changes shape to focus near or far, and the curved cornea in front bends the light first.", "es": "El cristalino cambia de forma para enfocar de cerca o de lejos, y la córnea curva de enfrente dobla la luz primero." },
+      "topic": "eyes and glasses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-medium-080", "level": "medium", "type": "mc", "lang": "both", "emoji": "🙃",
+      "q": { "en": "How does the picture land on the back of your eye?", "es": "¿Cómo llega la imagen al fondo de tu ojo?" },
+      "choices": [
+        { "en": "Sideways", "es": "De lado" },
+        { "en": "Right side up", "es": "Al derecho" },
+        { "en": "Upside down", "es": "De cabeza" },
+        { "en": "In black and white", "es": "En blanco y negro" }
+      ],
+      "answer": 2,
+      "why": { "en": "The lens flips the image, and your brain has learned to turn it right side up before you notice anything.", "es": "El cristalino voltea la imagen, y tu cerebro ya aprendió a ponerla al derecho antes de que te des cuenta." },
+      "topic": "eyes and glasses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-medium-081", "level": "medium", "type": "mc", "lang": "both", "emoji": "👓",
+      "q": { "en": "What do glasses do for someone who sees blurry letters?", "es": "¿Qué hacen los lentes por alguien que ve las letras borrosas?" },
+      "choices": [
+        { "en": "Make the letters bigger", "es": "Hacen las letras más grandes" },
+        { "en": "Make the eye stronger", "es": "Hacen el ojo más fuerte" },
+        { "en": "Add light to the room", "es": "Agregan luz al cuarto" },
+        { "en": "Bend light to land on the right spot", "es": "Doblan la luz al punto correcto" }
+      ],
+      "answer": 3,
+      "why": { "en": "A lens moves the focus onto the retina at the back of the eye, where the light sensors are waiting.", "es": "El lente mueve el enfoque hasta la retina, al fondo del ojo, que es donde esperan los sensores de luz." },
+      "topic": "eyes and glasses",
+      "source": "https://kidshealth.org/en/kids/glasses.html"
+    },
+    {
+      "id": "body-medium-082", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "Which cells in your eye let you see colors?", "es": "¿Qué células de tu ojo te dejan ver los colores?" },
+      "choices": [
+        { "en": "Cones", "es": "Los conos" },
+        { "en": "Rods", "es": "Los bastones" },
+        { "en": "Nerves", "es": "Los nervios" },
+        { "en": "Muscles", "es": "Los músculos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Cones need bright light to work, so at night your rods take over and the world looks gray.", "es": "Los conos necesitan luz brillante, por eso de noche trabajan los bastones y el mundo se ve gris." },
+      "topic": "eyes and glasses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-medium-083", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "What controls how big the pupil of your eye gets?", "es": "¿Qué controla el tamaño de la pupila de tu ojo?" },
+      "choices": [
+        { "en": "The lens", "es": "El cristalino" },
+        { "en": "The eyelid", "es": "El párpado" },
+        { "en": "The iris", "es": "El iris" },
+        { "en": "The retina", "es": "La retina" }
+      ],
+      "answer": 2,
+      "why": { "en": "The colored iris is a ring of muscle; it shrinks the pupil in bright light and opens it wide in the dark.", "es": "El iris de color es un anillo de músculo: achica la pupila con luz fuerte y la abre grande en la oscuridad." },
+      "topic": "eyes and glasses",
+      "source": "https://kidshealth.org/en/kids/eyes.html"
+    },
+    {
+      "id": "body-medium-084", "level": "medium", "type": "mc", "lang": "both", "emoji": "👂",
+      "q": { "en": "How many tiny bones pass sound through your middle ear?", "es": "¿Cuántos huesitos pasan el sonido por tu oído medio?" },
+      "choices": [
+        { "en": "One", "es": "Uno" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Six", "es": "Seis" }
+      ],
+      "answer": 2,
+      "why": { "en": "The hammer, anvil and stirrup pass the eardrum's shaking along, making the sound stronger on the way.", "es": "El martillo, el yunque y el estribo pasan el temblor del tímpano y lo hacen más fuerte en el camino." },
+      "topic": "ears and balance",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-medium-085", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤸",
+      "q": { "en": "Which part of your ear helps you keep your balance?", "es": "¿Qué parte de tu oído te ayuda a mantener el equilibrio?" },
+      "choices": [
+        { "en": "The eardrum", "es": "El tímpano" },
+        { "en": "The earlobe", "es": "El lóbulo" },
+        { "en": "The outer ear", "es": "La oreja" },
+        { "en": "Three looping tubes inside", "es": "Tres tubos curvos por dentro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Three loops set at right angles hold fluid that sloshes when you tilt, telling your brain which way is up.", "es": "Tres tubos en ángulos distintos guardan un líquido que se mueve al inclinarte y le avisa a tu cerebro dónde está arriba." },
+      "topic": "ears and balance",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-medium-086", "level": "medium", "type": "mc", "lang": "both", "emoji": "🥁",
+      "q": { "en": "What does your eardrum do when a sound reaches it?", "es": "¿Qué hace tu tímpano cuando le llega un sonido?" },
+      "choices": [
+        { "en": "It vibrates like a drum skin", "es": "Vibra como el parche de un tambor" },
+        { "en": "It opens a little door", "es": "Abre una puertita" },
+        { "en": "It fills with liquid", "es": "Se llena de líquido" },
+        { "en": "It grows tighter and thicker", "es": "Se hace más gruesa y tensa" }
+      ],
+      "answer": 0,
+      "why": { "en": "The eardrum is thinner than paper and moves less than the width of a hair when a quiet sound arrives.", "es": "El tímpano es más delgado que una hoja y se mueve menos que el grosor de un cabello con un sonido suave." },
+      "topic": "ears and balance",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-medium-087", "level": "medium", "type": "mc", "lang": "both", "emoji": "⛰️",
+      "q": { "en": "Why do your ears pop when a car climbs a mountain?", "es": "¿Por qué te truenan los oídos cuando un carro sube una montaña?" },
+      "choices": [
+        { "en": "Water leaves your ear", "es": "Sale agua de tu oído" },
+        { "en": "Air pressure evens out behind the eardrum", "es": "El aire se equilibra detrás del tímpano" },
+        { "en": "The little bones knock together", "es": "Los huesitos chocan entre sí" },
+        { "en": "The eardrum grows", "es": "El tímpano crece" }
+      ],
+      "answer": 1,
+      "why": { "en": "A narrow tube joins each ear to your throat, and swallowing opens it so the pressure on both sides matches.", "es": "Un tubo delgado une cada oído con tu garganta, y al tragar se abre para que la presión de los dos lados coincida." },
+      "topic": "ears and balance",
+      "source": "https://kidshealth.org/en/kids/ears.html"
+    },
+    {
+      "id": "body-medium-088", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎧",
+      "q": { "en": "How can you take care of your ears when music plays?", "es": "¿Cómo puedes cuidar tus oídos cuando suena la música?" },
+      "choices": [
+        { "en": "Turn the volume all the way up", "es": "Subir el volumen al máximo" },
+        { "en": "Use one earphone only", "es": "Usar solo un audífono" },
+        { "en": "Listen for many hours", "es": "Escuchar muchas horas" },
+        { "en": "Keep the volume low enough to hear a voice", "es": "Dejar el volumen bajo para oír una voz" }
+      ],
+      "answer": 3,
+      "why": { "en": "Loud sound bends the tiny hair cells inside your ear, and those cells do their best work when you keep it gentle.", "es": "El sonido fuerte dobla las células con pelitos dentro de tu oído, y esas células trabajan mejor con volumen suave." },
+      "topic": "ears and balance",
+      "source": "https://www.nidcd.nih.gov/health/its-noisy-out-there"
+    },
+    {
+      "id": "body-medium-089", "level": "medium", "type": "mc", "lang": "both", "emoji": "💇",
+      "q": { "en": "What are your hair and your nails both made of?", "es": "¿De qué están hechos tu cabello y tus uñas?" },
+      "choices": [
+        { "en": "Keratin", "es": "Queratina" },
+        { "en": "Calcium", "es": "Calcio" },
+        { "en": "Melanin", "es": "Melanina" },
+        { "en": "Collagen", "es": "Colágeno" }
+      ],
+      "answer": 0,
+      "why": { "en": "Keratin is a tough protein made by cells that die as they harden, which is why a haircut feels like nothing.", "es": "La queratina es una proteína dura que hacen células que se endurecen y mueren; por eso cortarte el pelo no duele." },
+      "topic": "hair and nails",
+      "source": "https://kidshealth.org/en/kids/hair.html"
+    },
+    {
+      "id": "body-medium-090", "level": "medium", "type": "mc", "lang": "both", "emoji": "💅",
+      "q": { "en": "About how fast do your fingernails grow each month?", "es": "¿Qué tan rápido crecen tus uñas cada mes?" },
+      "choices": [
+        { "en": "About 1 millimeter", "es": "Un milímetro" },
+        { "en": "About 3 millimeters", "es": "Unos 3 milímetros" },
+        { "en": "About 1 centimeter", "es": "Un centímetro" },
+        { "en": "About 3 centimeters", "es": "Unos 3 centímetros" }
+      ],
+      "answer": 1,
+      "why": { "en": "Fingernails grow about 3 millimeters, one tenth of an inch, a month, and toenails take about four times longer.", "es": "Las uñas de las manos crecen unos 3 milímetros, una décima de pulgada, al mes; las de los pies tardan cuatro veces más." },
+      "topic": "hair and nails",
+      "source": "https://kidshealth.org/en/kids/nails.html"
+    },
+    {
+      "id": "body-medium-091", "level": "medium", "type": "mc", "lang": "both", "emoji": "🌛",
+      "q": { "en": "What is the white half-moon at the base of a nail?", "es": "¿Qué es la media luna blanca en la base de una uña?" },
+      "choices": [
+        { "en": "A bruise", "es": "Un moretón" },
+        { "en": "Trapped air", "es": "Aire atrapado" },
+        { "en": "The place where new nail is made", "es": "El lugar donde nace la uña" },
+        { "en": "Leftover soap", "es": "Jabón que quedó" }
+      ],
+      "answer": 2,
+      "why": { "en": "The pale crescent, called the lunula, is the top of the root, where fresh nail is pushed out day by day.", "es": "La media luna pálida, llamada lúnula, es la punta de la raíz, donde se empuja uña nueva día tras día." },
+      "topic": "hair and nails",
+      "source": "https://kidshealth.org/en/kids/nails.html"
+    },
+    {
+      "id": "body-medium-092", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Goose bumps are left over from ancestors whose fur puffed up for warmth.", "es": "La piel de gallina viene de antepasados cuyo pelo se esponjaba para dar calor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tiny muscles tug each hair upright; in a furry animal that traps warm air, but on us it only makes bumps.", "es": "Músculos diminutos jalan cada pelo hacia arriba; en un animal peludo eso atrapa aire tibio, en nosotros solo hace bolitas." },
+      "topic": "hair and nails",
+      "source": "https://kids.britannica.com/kids/article/hair/353210"
+    },
+    {
+      "id": "body-medium-093", "level": "medium", "type": "mc", "lang": "both", "emoji": "✍️",
+      "q": { "en": "About how many people out of ten are left-handed?", "es": "¿Cuántas personas de cada diez son zurdas?" },
+      "choices": [
+        { "en": "About one", "es": "Como una" },
+        { "en": "About three", "es": "Como tres" },
+        { "en": "About five", "es": "Como cinco" },
+        { "en": "About eight", "es": "Como ocho" }
+      ],
+      "answer": 0,
+      "why": { "en": "Roughly one person in ten writes with the left hand, and the pattern shows up in families all over the world.", "es": "Alrededor de una persona de cada diez escribe con la mano izquierda, y ese patrón aparece en familias de todo el mundo." },
+      "topic": "handedness",
+      "source": "https://kids.britannica.com/students/article/handedness/608742"
+    },
+    {
+      "id": "body-medium-094", "level": "medium", "type": "mc", "lang": "both", "emoji": "🖍️",
+      "q": { "en": "When does a child usually show which hand they prefer?", "es": "¿Cuándo muestra un niño qué mano prefiere?" },
+      "choices": [
+        { "en": "Before birth", "es": "Antes de nacer" },
+        { "en": "Between ages 2 and 4", "es": "Entre los 2 y los 4 años" },
+        { "en": "At age 10", "es": "A los 10 años" },
+        { "en": "As a teenager", "es": "En la adolescencia" }
+      ],
+      "answer": 1,
+      "why": { "en": "Babies swap hands for a while; a clear favorite usually settles by the time a child starts drawing letters.", "es": "Los bebés cambian de mano un tiempo; la favorita se define más o menos cuando el niño empieza a dibujar letras." },
+      "topic": "handedness",
+      "source": "https://kidshealth.org/en/parents/handedness.html"
+    },
+    {
+      "id": "body-medium-095", "level": "medium", "type": "mc", "lang": "both", "emoji": "🤹",
+      "q": { "en": "What do you call a person who uses both hands equally well?", "es": "¿Cómo se le dice a quien usa igual de bien las dos manos?" },
+      "choices": [
+        { "en": "Left-handed", "es": "Zurdo" },
+        { "en": "Right-handed", "es": "Diestro" },
+        { "en": "Double-jointed", "es": "De articulaciones flexibles" },
+        { "en": "Ambidextrous", "es": "Ambidiestro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Ambidextrous comes from Latin words meaning \"both right\", because long ago the right hand was seen as the skilled one.", "es": "Ambidiestro viene del latín y significa \"dos veces diestro\", porque antes se creía que la mano derecha era la hábil." },
+      "topic": "handedness",
+      "source": "https://kids.britannica.com/students/article/handedness/608742"
+    },
+    {
+      "id": "body-medium-096", "level": "medium", "type": "tf", "lang": "both",
+      "q": { "en": "Handedness is decided only by which hand a child is taught to use.", "es": "La mano dominante depende solo de cuál mano le enseñan a usar al niño." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Genes and the way the brain grows both play a part, which is why lefties appear in families that write right-handed.", "es": "Los genes y la forma en que crece el cerebro influyen, por eso hay zurdos en familias donde todos escriben con la derecha." },
+      "topic": "handedness",
+      "source": "https://kidshealth.org/en/parents/handedness.html"
+    },
+    {
+      "id": "body-medium-097", "level": "medium", "type": "mc", "lang": "both", "emoji": "😯",
+      "q": { "en": "Which part snaps shut to make the hic sound?", "es": "¿Qué parte se cierra de golpe para hacer el sonido del hipo?" },
+      "choices": [
+        { "en": "Your lips", "es": "Tus labios" },
+        { "en": "Your tongue", "es": "Tu lengua" },
+        { "en": "The flap over your windpipe", "es": "La tapa de tu tráquea" },
+        { "en": "Your nose", "es": "Tu nariz" }
+      ],
+      "answer": 2,
+      "why": { "en": "The diaphragm jumps, air rushes in, and the flap at the top of your windpipe claps shut with a hic.", "es": "El diafragma brinca, entra aire de golpe y la tapa de tu tráquea se cierra con un hip." },
+      "topic": "hiccups laughter and tears",
+      "source": "https://kidshealth.org/en/kids/hiccup.html"
+    },
+    {
+      "id": "body-medium-098", "level": "medium", "type": "mc", "lang": "both", "emoji": "😢",
+      "q": { "en": "How many kinds of tears do your eyes make?", "es": "¿Cuántas clases de lágrimas producen tus ojos?" },
+      "choices": [
+        { "en": "One", "es": "Una" },
+        { "en": "Three", "es": "Tres" },
+        { "en": "Five", "es": "Cinco" },
+        { "en": "Ten", "es": "Diez" }
+      ],
+      "answer": 1,
+      "why": { "en": "You make tears that keep eyes wet, tears that wash out dust, and tears that come with strong feelings.", "es": "Hay lágrimas que mantienen húmedo el ojo, lágrimas que sacan el polvo y lágrimas que llegan con emociones fuertes." },
+      "topic": "hiccups laughter and tears",
+      "source": "https://kidshealth.org/en/kids/tears.html"
+    },
+    {
+      "id": "body-medium-099", "level": "medium", "type": "mc", "lang": "both", "emoji": "👃",
+      "q": { "en": "Where do your tears go when you are done crying?", "es": "¿Adónde van tus lágrimas cuando terminas de llorar?" },
+      "choices": [
+        { "en": "They dry on your cheeks", "es": "Se secan en tus mejillas" },
+        { "en": "They soak into your eyelid", "es": "Se meten en tu párpado" },
+        { "en": "They go back into the eye", "es": "Regresan al ojo" },
+        { "en": "Down a tiny tube into your nose", "es": "Por un tubito hasta tu nariz" }
+      ],
+      "answer": 3,
+      "why": { "en": "A small drain in the corner of each eye leads to your nose, which is why crying makes your nose run.", "es": "En la esquina de cada ojo hay un desagüe que llega a la nariz; por eso te moquea la nariz al llorar." },
+      "topic": "hiccups laughter and tears",
+      "source": "https://kidshealth.org/en/kids/tears.html"
+    },
+    {
+      "id": "body-medium-100", "level": "medium", "type": "mc", "lang": "both", "emoji": "😂",
+      "q": { "en": "Why can you hardly tickle yourself into laughing?", "es": "¿Por qué casi no puedes hacerte cosquillas a ti mismo?" },
+      "choices": [
+        { "en": "Your brain expects your own touch", "es": "Tu cerebro espera tu propio toque" },
+        { "en": "Your fingers are too warm", "es": "Tus dedos están muy tibios" },
+        { "en": "Your skin is thicker there", "es": "Tu piel es más gruesa ahí" },
+        { "en": "Your muscles are relaxed", "es": "Tus músculos están relajados" }
+      ],
+      "answer": 0,
+      "why": { "en": "The cerebellum predicts the touch your own hand will make and turns the surprise down, and tickling needs surprise.", "es": "El cerebelo predice el toque de tu propia mano y baja la sorpresa, y las cosquillas necesitan sorpresa." },
+      "topic": "hiccups laughter and tears",
+      "source": "https://kidshealth.org/en/kids/brain.html"
     }
   ]
 }
