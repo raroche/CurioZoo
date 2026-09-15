@@ -36,7 +36,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 3
+        "hard": 100
       }
     },
     {
@@ -48,7 +48,7 @@
       "counts": {
         "easy": 100,
         "medium": 100,
-        "hard": 3
+        "hard": 68
       }
     },
     {
@@ -155,7 +155,7 @@
       "file": "words.json",
       "counts": {
         "easy": 100,
-        "medium": 6,
+        "medium": 100,
         "hard": 6
       }
     },
@@ -191,7 +191,7 @@
       "file": "general.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -203,7 +203,7 @@
       "file": "why.json",
       "counts": {
         "easy": 100,
-        "medium": 3,
+        "medium": 100,
         "hard": 3
       }
     },
@@ -215,7 +215,7 @@
       "file": "puzzles.json",
       "counts": {
         "easy": 80,
-        "medium": 6,
+        "medium": 86,
         "hard": 6
       }
     }

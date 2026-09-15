@@ -2722,6 +2722,1342 @@
       "why": { "en": "Gulping water makes the puffer three times its size and pops out spines, and most kinds also carry a strong poison.", "es": "Al tragar agua el pez globo se vuelve tres veces más grande y saca espinas, y casi todos llevan además un veneno fuerte." },
       "topic": "animal defenses",
       "source": "https://ocean.si.edu/ocean-life/fish/pufferfish"
+    },
+    {
+      "id": "animals-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔬",
+      "q": { "en": "In the naming system biologists use, which rank sits directly below phylum?", "es": "En el sistema de nombres que usan los biólogos, ¿qué rango está justo debajo del filo?" },
+      "choices": [
+        { "en": "Class", "es": "Clase" },
+        { "en": "Order", "es": "Orden" },
+        { "en": "Family", "es": "Familia" },
+        { "en": "Genus", "es": "Género" }
+      ],
+      "answer": 0,
+      "why": { "en": "The ranks run kingdom, phylum, class, order, family, genus, species, each one narrower, so a class holds many orders.", "es": "Los rangos van reino, filo, clase, orden, familia, género y especie, cada uno más estrecho, así que una clase contiene muchos órdenes." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/science/taxonomy"
+    },
+    {
+      "id": "animals-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐆",
+      "q": { "en": "A species is written Panthera onca. What does the first word, Panthera, tell you?", "es": "Una especie se escribe Panthera onca. ¿Qué te dice la primera palabra, Panthera?" },
+      "choices": [
+        { "en": "Its family", "es": "Su familia" },
+        { "en": "Its genus", "es": "Su género" },
+        { "en": "Its order", "es": "Su orden" },
+        { "en": "Its kingdom", "es": "Su reino" }
+      ],
+      "answer": 1,
+      "why": { "en": "Binomial names pair genus and species; Panthera onca is the jaguar, a cousin of lions and tigers in the same genus.", "es": "El nombre binomial junta género y especie; Panthera onca es el jaguar, primo de los leones y tigres del mismo género." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/science/binomial-nomenclature"
+    },
+    {
+      "id": "animals-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍄",
+      "q": { "en": "A mushroom, a mold and a yeast all belong to which kingdom of living things?", "es": "¿A qué reino de los seres vivos pertenecen un hongo de sombrero, un moho y una levadura?" },
+      "choices": [
+        { "en": "Plants", "es": "Plantas" },
+        { "en": "Animals", "es": "Animales" },
+        { "en": "Fungi", "es": "Hongos" },
+        { "en": "Bacteria", "es": "Bacterias" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fungi absorb food from outside their bodies instead of making it, which is why they are closer to animals than plants.", "es": "Los hongos absorben alimento desde afuera en vez de fabricarlo, por eso están más cerca de los animales que de las plantas." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/science/fungus"
+    },
+    {
+      "id": "animals-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦠",
+      "q": { "en": "Which group of living things is made of cells that lack a nucleus?", "es": "¿Qué grupo de seres vivos está formado por células que carecen de núcleo?" },
+      "choices": [
+        { "en": "Fungi", "es": "Hongos" },
+        { "en": "Protists", "es": "Protistas" },
+        { "en": "Green algae", "es": "Algas verdes" },
+        { "en": "Bacteria", "es": "Bacterias" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cells without a nucleus are called prokaryotes; their DNA floats loose, and bacteria were the only life on Earth for ages.", "es": "Las células sin núcleo se llaman procariotas; su ADN flota suelto y las bacterias dominaron la Tierra durante miles de millones de años." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/science/prokaryote"
+    },
+    {
+      "id": "animals-hard-008", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A tomato and a potato belong to the same plant family.", "es": "El tomate y la papa pertenecen a la misma familia de plantas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both are nightshades, family Solanaceae, along with chiles and eggplant; a potato is a swollen stem, a tomato a fruit.", "es": "Las dos son solanáceas, familia Solanaceae, junto al chile y la berenjena; la papa es un tallo grueso y el tomate una fruta." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/plant/Solanaceae"
+    },
+    {
+      "id": "animals-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "Which of these groupings contains the greatest number of different species?", "es": "¿Cuál de estas agrupaciones contiene la mayor cantidad de especies diferentes?" },
+      "choices": [
+        { "en": "One genus", "es": "Un género" },
+        { "en": "One family", "es": "Una familia" },
+        { "en": "One order", "es": "Un orden" },
+        { "en": "One class", "es": "Una clase" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each step upward is wider, so the class Mammalia contains every order, family and genus of mammal, from bats to blue whales.", "es": "Cada escalón hacia arriba es más amplio: la clase Mammalia incluye todos los órdenes, familias y géneros de mamíferos, del murciélago a la ballena." },
+      "topic": "classification",
+      "source": "https://www.britannica.com/animal/mammal"
+    },
+    {
+      "id": "animals-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪲",
+      "q": { "en": "About what share of all known animal species are invertebrates?", "es": "¿Qué parte de todas las especies animales conocidas son invertebrados, aproximadamente?" },
+      "choices": [
+        { "en": "About 5 percent", "es": "Cerca del 5 por ciento" },
+        { "en": "About 40 percent", "es": "Cerca del 40 por ciento" },
+        { "en": "About 70 percent", "es": "Cerca del 70 por ciento" },
+        { "en": "About 95 percent", "es": "Cerca del 95 por ciento" }
+      ],
+      "answer": 3,
+      "why": { "en": "Invertebrates are animals with no backbone; insects alone outnumber every vertebrate species, and beetles make up a huge slice of them.", "es": "Los invertebrados son animales sin columna vertebral; solo los insectos superan a todos los vertebrados, y los escarabajos son una enorme parte de ellos." },
+      "topic": "vertebrates and invertebrates",
+      "source": "https://www.nhm.ac.uk/discover/what-are-invertebrates.html"
+    },
+    {
+      "id": "animals-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "A sea star, a sea urchin and a sea cucumber all belong to which phylum?", "es": "La estrella de mar, el erizo de mar y el pepino de mar, ¿a qué filo pertenecen?" },
+      "choices": [
+        { "en": "Cnidaria", "es": "Cnidarios" },
+        { "en": "Echinodermata", "es": "Equinodermos" },
+        { "en": "Mollusca", "es": "Moluscos" },
+        { "en": "Arthropoda", "es": "Artrópodos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Echinoderms share five-part symmetry and tube feet worked by water pressure, and they are the invertebrates most closely related to us.", "es": "Los equinodermos tienen simetría de cinco partes y pies tubulares movidos por presión de agua; son los invertebrados más emparentados con nosotros." },
+      "topic": "vertebrates and invertebrates",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/sea-stars-and-relatives"
+    },
+    {
+      "id": "animals-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐙",
+      "q": { "en": "An octopus, a snail and a clam share a phylum. Which one?", "es": "El pulpo, el caracol y la almeja comparten un filo. ¿Cuál es?" },
+      "choices": [
+        { "en": "Annelida", "es": "Anélidos" },
+        { "en": "Nematoda", "es": "Nematodos" },
+        { "en": "Mollusca", "es": "Moluscos" },
+        { "en": "Porifera", "es": "Poríferos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Molluscs have a soft body and a muscular foot; the octopus lost its shell, and its foot became eight arms.", "es": "Los moluscos tienen cuerpo blando y un pie musculoso; el pulpo perdió su concha y su pie se convirtió en ocho brazos." },
+      "topic": "vertebrates and invertebrates",
+      "source": "https://www.britannica.com/animal/mollusk"
+    },
+    {
+      "id": "animals-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "Which animal is a vertebrate even though its skeleton is made of cartilage?", "es": "¿Qué animal es un vertebrado aunque su esqueleto sea de cartílago?" },
+      "choices": [
+        { "en": "The shark", "es": "El tiburón" },
+        { "en": "The squid", "es": "El calamar" },
+        { "en": "The lobster", "es": "La langosta" },
+        { "en": "The jellyfish", "es": "La medusa" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sharks are fish with skeletons of cartilage, the bendy tissue in your ear, so they still have a true backbone.", "es": "Los tiburones son peces con esqueleto de cartílago, el tejido flexible de tu oreja, así que sí tienen columna vertebral." },
+      "topic": "vertebrates and invertebrates",
+      "source": "https://www.britannica.com/animal/chondrichthyan"
+    },
+    {
+      "id": "animals-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧽",
+      "q": { "en": "Which of these sea creatures is an animal that lacks organs completely?", "es": "¿Cuál de estas criaturas marinas es un animal que carece por completo de órganos?" },
+      "choices": [
+        { "en": "The sea anemone", "es": "La anémona de mar" },
+        { "en": "The coral polyp", "es": "El pólipo de coral" },
+        { "en": "The sea sponge", "es": "La esponja de mar" },
+        { "en": "The jellyfish", "es": "La medusa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Sponges are the simplest animals: they have no organs or nerves, and pump water through pores to filter out food.", "es": "Las esponjas son los animales más simples: carecen de órganos y de nervios, y bombean agua por sus poros para filtrar comida." },
+      "topic": "vertebrates and invertebrates",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/sponges"
+    },
+    {
+      "id": "animals-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐫",
+      "q": { "en": "How does a camel's hump help it survive a desert crossing?", "es": "¿Cómo ayuda la joroba del camello a cruzar el desierto?" },
+      "choices": [
+        { "en": "It stores drinking water", "es": "Guarda agua para beber" },
+        { "en": "It shades the spine", "es": "Da sombra a la columna" },
+        { "en": "It cools the blood", "es": "Enfría la sangre" },
+        { "en": "It stores fat for energy", "es": "Guarda grasa para dar energía" }
+      ],
+      "answer": 3,
+      "why": { "en": "The hump is a mound of fat the camel burns for energy; keeping fat in one place lets the body shed heat.", "es": "La joroba es un montón de grasa que el camello quema como energía; tener la grasa junta deja que el cuerpo suelte calor." },
+      "topic": "adaptations",
+      "source": "https://www.nhm.ac.uk/discover/why-do-camels-have-humps.html"
+    },
+    {
+      "id": "animals-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐻",
+      "q": { "en": "Why do a polar bear's hairs help it stay warm in the Arctic?", "es": "¿Por qué los pelos del oso polar lo ayudan a mantenerse caliente en el Ártico?" },
+      "choices": [
+        { "en": "They are black and soak up light", "es": "Son negros y absorben la luz" },
+        { "en": "They are oily and repel snow", "es": "Son aceitosos y repelen la nieve" },
+        { "en": "They are hollow and trap air", "es": "Son huecos y atrapan aire" },
+        { "en": "They are flat and block wind", "es": "Son planos y frenan el viento" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each hair is a hollow tube; trapped air is a poor conductor of heat, and the bear's black skin below absorbs sunlight.", "es": "Cada pelo es un tubo hueco; el aire atrapado conduce mal el calor, y la piel negra del oso, debajo, absorbe la luz del sol." },
+      "topic": "adaptations",
+      "source": "https://www.nhm.ac.uk/discover/polar-bear-fur-not-white.html"
+    },
+    {
+      "id": "animals-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦊",
+      "q": { "en": "A desert fox has huge ears. Besides hearing, what job do they do?", "es": "Un zorro del desierto tiene orejas enormes. Además de oír, ¿qué función cumplen?" },
+      "choices": [
+        { "en": "Store water", "es": "Guardar agua" },
+        { "en": "Release body heat", "es": "Soltar calor del cuerpo" },
+        { "en": "Balance the head", "es": "Equilibrar la cabeza" },
+        { "en": "Warn other foxes", "es": "Avisar a otros zorros" }
+      ],
+      "answer": 1,
+      "why": { "en": "Blood flowing through thin ear skin loses heat to the air; the fennec fox of the Sahara has the largest ears.", "es": "La sangre que pasa por la piel delgada de la oreja pierde calor; el zorro fénec del Sahara tiene las orejas más grandes." },
+      "topic": "adaptations",
+      "source": "https://www.britannica.com/animal/fennec-fox"
+    },
+    {
+      "id": "animals-hard-018", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Why can a gecko walk across a smooth ceiling without falling?", "es": "¿Por qué un gecko puede caminar por un techo liso sin caerse?" },
+      "choices": [
+        { "en": "Sticky glue from its toes", "es": "Pegamento pegajoso de sus dedos" },
+        { "en": "Tiny suction cups", "es": "Pequeñas ventosas" },
+        { "en": "Billions of hairs using molecular attraction", "es": "Miles de millones de pelos con atracción molecular" },
+        { "en": "Static electricity in its skin", "es": "Electricidad estática en su piel" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each toe carries millions of hairs called setae; van der Waals forces, the weak pull between molecules, hold the gecko up.", "es": "Cada dedo tiene millones de pelitos llamados setas; las fuerzas de van der Waals, la atracción débil entre moléculas, sostienen al gecko." },
+      "topic": "adaptations",
+      "source": "https://www.britannica.com/animal/gecko"
+    },
+    {
+      "id": "animals-hard-019", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A giraffe's neck holds far more bones than a human neck does.", "es": "El cuello de una jirafa tiene muchos más huesos que el cuello humano." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Almost every mammal has seven neck bones; a giraffe's are simply enormous, each one about as long as your forearm.", "es": "Casi todos los mamíferos tienen siete huesos en el cuello; los de la jirafa son enormes, cada uno tan largo como tu antebrazo." },
+      "topic": "adaptations",
+      "source": "https://www.britannica.com/animal/giraffe-mammal"
+    },
+    {
+      "id": "animals-hard-020", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "Peppered moths in sooty English woods turned mostly dark. What explains the change?", "es": "Las polillas moteadas de los bosques ingleses con hollín se volvieron oscuras. ¿Qué explica el cambio?" },
+      "choices": [
+        { "en": "The soot stained their wings", "es": "El hollín manchó sus alas" },
+        { "en": "They chose darker trees", "es": "Eligieron árboles más oscuros" },
+        { "en": "Their food changed color", "es": "Su comida cambió de color" },
+        { "en": "Dark moths survived and bred more", "es": "Las oscuras sobrevivieron y tuvieron más crías" }
+      ],
+      "answer": 3,
+      "why": { "en": "Birds ate the pale moths that showed up on blackened bark, so dark moths left more young; cleaner air brought pale ones back.", "es": "Las aves comían las polillas claras que resaltaban en la corteza negra, y las oscuras dejaron más crías; con aire limpio regresaron las claras." },
+      "topic": "natural selection",
+      "source": "https://www.nhm.ac.uk/discover/peppered-moth-evolution.html"
+    },
+    {
+      "id": "animals-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "What differs most between the finch species Darwin collected in the Galápagos?", "es": "¿En qué se diferencian más las especies de pinzones que Darwin recogió en las Galápagos?" },
+      "choices": [
+        { "en": "Their beak shapes", "es": "La forma de su pico" },
+        { "en": "Their feather colors", "es": "El color de sus plumas" },
+        { "en": "Their wing lengths", "es": "El largo de sus alas" },
+        { "en": "Their songs", "es": "Su canto" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each beak suits a different food: crushing seeds, probing cactus, picking insects, so one ancestor filled many jobs across the islands.", "es": "Cada pico sirve para un alimento distinto: romper semillas, hurgar cactus o atrapar insectos; un solo antepasado ocupó muchos oficios en las islas." },
+      "topic": "natural selection",
+      "source": "https://www.britannica.com/animal/Darwins-finch"
+    },
+    {
+      "id": "animals-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧬",
+      "q": { "en": "In natural selection, what is the one thing a trait must do to spread?", "es": "En la selección natural, ¿qué debe lograr un rasgo para extenderse?" },
+      "choices": [
+        { "en": "Make the animal stronger", "es": "Hacer más fuerte al animal" },
+        { "en": "Appear in every individual", "es": "Aparecer en todos los individuos" },
+        { "en": "Be learned by the young", "es": "Ser aprendido por las crías" },
+        { "en": "Help its owner leave more offspring", "es": "Ayudar a su dueño a dejar más crías" }
+      ],
+      "answer": 3,
+      "why": { "en": "Selection counts descendants, so a trait spreads only by raising the number of surviving young, even if it makes the animal weaker.", "es": "La selección cuenta descendientes, así que un rasgo se extiende solo si aumenta las crías que sobreviven, aunque debilite al animal." },
+      "topic": "natural selection",
+      "source": "https://www.britannica.com/science/natural-selection"
+    },
+    {
+      "id": "animals-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧫",
+      "q": { "en": "Bacteria stop responding to a medicine after years of use. Which process explains this?", "es": "Unas bacterias dejan de responder a un medicamento tras años de uso. ¿Qué proceso lo explica?" },
+      "choices": [
+        { "en": "Convergent evolution", "es": "Evolución convergente" },
+        { "en": "Genetic drift", "es": "Deriva genética" },
+        { "en": "Natural selection", "es": "Selección natural" },
+        { "en": "Symbiosis", "es": "Simbiosis" }
+      ],
+      "answer": 2,
+      "why": { "en": "A few bacteria already carry a resistance gene; the medicine kills the rest, so the survivors multiply and pass that gene on.", "es": "Unas pocas bacterias ya tienen un gen de resistencia; el medicamento mata al resto, así que las sobrevivientes se multiplican y heredan ese gen." },
+      "topic": "natural selection",
+      "source": "https://www.britannica.com/science/antibiotic-resistance"
+    },
+    {
+      "id": "animals-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐕",
+      "q": { "en": "A tapeworm lives in a dog's gut and takes its food. Which relationship is that?", "es": "Una tenia vive en el intestino de un perro y toma su alimento. ¿Qué relación es?" },
+      "choices": [
+        { "en": "Commensalism", "es": "Comensalismo" },
+        { "en": "Mutualism", "es": "Mutualismo" },
+        { "en": "Parasitism", "es": "Parasitismo" },
+        { "en": "Predation", "es": "Depredación" }
+      ],
+      "answer": 2,
+      "why": { "en": "In parasitism one partner gains and the host loses; a parasite usually keeps its host alive, because a dead host feeds nobody.", "es": "En el parasitismo uno gana y el hospedero pierde; el parásito suele mantener vivo al hospedero, porque un hospedero muerto ya no alimenta." },
+      "topic": "symbiosis",
+      "source": "https://www.britannica.com/science/parasitism"
+    },
+    {
+      "id": "animals-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐟",
+      "q": { "en": "A remora rides a shark, eating scraps while the shark is unaffected. Name the relationship.", "es": "Una rémora viaja pegada a un tiburón y come sus sobras sin afectarlo. ¿Cómo se llama esa relación?" },
+      "choices": [
+        { "en": "Commensalism", "es": "Comensalismo" },
+        { "en": "Mutualism", "es": "Mutualismo" },
+        { "en": "Parasitism", "es": "Parasitismo" },
+        { "en": "Competition", "es": "Competencia" }
+      ],
+      "answer": 0,
+      "why": { "en": "Commensalism means one partner benefits while the other neither gains nor loses; the remora's top fin became a flat suction pad.", "es": "El comensalismo es cuando uno gana y el otro ni gana ni pierde; la aleta superior de la rémora se volvió una ventosa plana." },
+      "topic": "symbiosis",
+      "source": "https://www.britannica.com/science/commensalism"
+    },
+    {
+      "id": "animals-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐄",
+      "q": { "en": "Which job do the microbes in a cow's stomach do for the cow?", "es": "¿Qué trabajo hacen los microbios del estómago de la vaca para ella?" },
+      "choices": [
+        { "en": "Produce vitamin C", "es": "Producir vitamina C" },
+        { "en": "Cool the blood", "es": "Enfriar la sangre" },
+        { "en": "Filter salt from grass", "es": "Filtrar la sal del pasto" },
+        { "en": "Break down cellulose", "es": "Descomponer la celulosa" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cellulose is the tough fibre in plant walls; microbes in the rumen digest it, and the cow then digests the microbes.", "es": "La celulosa es la fibra dura de la pared vegetal; los microbios del rumen la digieren, y luego la vaca digiere a los microbios." },
+      "topic": "symbiosis",
+      "source": "https://www.britannica.com/animal/ruminant"
+    },
+    {
+      "id": "animals-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Acacia trees feed ants sugar and house them in thorns. What do the ants give back?", "es": "Las acacias alimentan hormigas con azúcar y las alojan en sus espinas. ¿Qué dan las hormigas a cambio?" },
+      "choices": [
+        { "en": "Protection from grazers", "es": "Protección contra animales que ramonean" },
+        { "en": "Pollen", "es": "Polen" },
+        { "en": "Water from the soil", "es": "Agua del suelo" },
+        { "en": "Seeds for new trees", "es": "Semillas para árboles nuevos" }
+      ],
+      "answer": 0,
+      "why": { "en": "The ants bite any animal that browses the leaves and clip away rival plants, a mutualism where both partners gain.", "es": "Las hormigas muerden a cualquier animal que coma las hojas y cortan las plantas rivales: un mutualismo donde los dos socios ganan." },
+      "topic": "symbiosis",
+      "source": "https://www.britannica.com/plant/acacia"
+    },
+    {
+      "id": "animals-hard-028", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A coral polyp feeds only by catching plankton with its stinging arms.", "es": "Un pólipo de coral se alimenta solo atrapando plancton con sus brazos urticantes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Most of its food comes from algae called zooxanthellae living inside it, which photosynthesise and hand over the sugar they make.", "es": "Casi toda su comida viene de unas algas llamadas zooxantelas que viven dentro y le entregan el azúcar que fabrican con la luz." },
+      "topic": "symbiosis",
+      "source": "https://oceanservice.noaa.gov/facts/zooxanthellae.html"
+    },
+    {
+      "id": "animals-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦇",
+      "q": { "en": "Some moths answer a hunting bat with their own ultrasonic clicks. Why does that work?", "es": "Algunas polillas responden al murciélago cazador con sus propios chasquidos ultrasónicos. ¿Por qué funciona?" },
+      "choices": [
+        { "en": "It jams the bat's sonar", "es": "Confunde el sonar del murciélago" },
+        { "en": "It calls other moths", "es": "Llama a otras polillas" },
+        { "en": "It hurts the bat's ears", "es": "Lastima los oídos del murciélago" },
+        { "en": "It attracts the bat's rivals", "es": "Atrae a los rivales del murciélago" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tiger moth clicks jam the bat's returning echoes and warn that the moth tastes foul, so many bats break off the chase.", "es": "Los chasquidos de la polilla tigre confunden el eco del murciélago y avisan que sabe mal, así que muchos abandonan la cacería." },
+      "topic": "echolocation",
+      "source": "https://www.smithsonianmag.com/science-nature/tiger-moths-jam-bat-sonar-180949403/"
+    },
+    {
+      "id": "animals-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Which organ does a dolphin use to focus the clicks it sends out?", "es": "¿Qué órgano usa un delfín para enfocar los chasquidos que emite?" },
+      "choices": [
+        { "en": "The blowhole", "es": "El espiráculo" },
+        { "en": "The melon", "es": "El melón" },
+        { "en": "The lungs", "es": "Los pulmones" },
+        { "en": "The tongue", "es": "La lengua" }
+      ],
+      "answer": 1,
+      "why": { "en": "The melon is a fatty lens in the forehead that aims sound; the dolphin hears returning echoes through its lower jawbone.", "es": "El melón es un lente de grasa en la frente que dirige el sonido; el delfín oye los ecos por su mandíbula inferior." },
+      "topic": "echolocation",
+      "source": "https://ocean.si.edu/ocean-life/marine-mammals/how-dolphins-use-sound"
+    },
+    {
+      "id": "animals-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕯️",
+      "q": { "en": "Which bird uses echolocation to fly inside pitch-dark caves in South America?", "es": "¿Qué ave usa ecolocalización para volar dentro de cuevas oscuras en América del Sur?" },
+      "choices": [
+        { "en": "The hoatzin", "es": "El hoacín" },
+        { "en": "The potoo", "es": "El nictibio" },
+        { "en": "The oilbird", "es": "El guácharo" },
+        { "en": "The toucan", "es": "El tucán" }
+      ],
+      "answer": 2,
+      "why": { "en": "The oilbird, called guácharo in Venezuela, clicks at frequencies people can hear, and leaves the cave at night to eat fruit.", "es": "El guácharo, como se le llama en Venezuela, chasquea en frecuencias que oímos y sale de la cueva de noche a comer frutas." },
+      "topic": "echolocation",
+      "source": "https://www.britannica.com/animal/oilbird"
+    },
+    {
+      "id": "animals-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐛",
+      "q": { "en": "Inside a chrysalis, what happens to most of the caterpillar's body?", "es": "Dentro de la crisálida, ¿qué le pasa a casi todo el cuerpo de la oruga?" },
+      "choices": [
+        { "en": "It slowly stretches into wings", "es": "Se estira poco a poco hasta ser alas" },
+        { "en": "It freezes until spring", "es": "Se congela hasta la primavera" },
+        { "en": "It splits neatly in half", "es": "Se parte justo por la mitad" },
+        { "en": "It dissolves into a soup of cells", "es": "Se deshace en una sopa de células" }
+      ],
+      "answer": 3,
+      "why": { "en": "Enzymes break most tissues down, but clusters called imaginal discs survive and grow into the wings, legs and eyes.", "es": "Unas enzimas deshacen casi todos los tejidos, pero unos grupos llamados discos imaginales sobreviven y forman alas, patas y ojos del adulto." },
+      "topic": "metamorphosis",
+      "source": "https://www.si.edu/stories/how-caterpillars-become-butterflies"
+    },
+    {
+      "id": "animals-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦗",
+      "q": { "en": "Which of these insects grows up through incomplete metamorphosis?", "es": "¿Cuál de estos insectos crece por metamorfosis incompleta?" },
+      "choices": [
+        { "en": "The beetle", "es": "El escarabajo" },
+        { "en": "The moth", "es": "La polilla" },
+        { "en": "The grasshopper", "es": "El saltamontes" },
+        { "en": "The fly", "es": "La mosca" }
+      ],
+      "answer": 2,
+      "why": { "en": "Incomplete metamorphosis skips the pupa: a nymph hatches looking like a small adult and moults until its wings are full size.", "es": "La metamorfosis incompleta se salta la pupa: la ninfa nace parecida a un adulto pequeño y muda hasta tener alas completas." },
+      "topic": "metamorphosis",
+      "source": "https://www.britannica.com/science/metamorphosis"
+    },
+    {
+      "id": "animals-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "What triggers a tadpole to start turning into a frog?", "es": "¿Qué hace que un renacuajo empiece a convertirse en rana?" },
+      "choices": [
+        { "en": "A rise in water salt", "es": "Más sal en el agua" },
+        { "en": "A thyroid hormone", "es": "Una hormona tiroidea" },
+        { "en": "Longer days alone", "es": "Solo los días más largos" },
+        { "en": "A drop in oxygen", "es": "Menos oxígeno" }
+      ],
+      "answer": 1,
+      "why": { "en": "Thyroid hormone, a chemical messenger from a gland in the throat, reshapes the tail, gut and gills over a few weeks.", "es": "La hormona tiroidea, un mensajero químico de una glándula del cuello, transforma la cola, el intestino y las branquias en pocas semanas." },
+      "topic": "metamorphosis",
+      "source": "https://www.britannica.com/animal/frog-amphibian"
+    },
+    {
+      "id": "animals-hard-035", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "An axolotl becomes an adult while keeping the feathery gills of its larva.", "es": "El ajolote llega a adulto conservando las branquias plumosas de su larva." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "This is neoteny: the axolotl of Mexico stays in its larval shape for life, breeding in water without ever leaving it.", "es": "Esto es neotenia: el ajolote de México conserva su forma larval toda la vida y se reproduce en el agua sin salir de ella." },
+      "topic": "metamorphosis",
+      "source": "https://www.britannica.com/animal/axolotl"
+    },
+    {
+      "id": "animals-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌿",
+      "q": { "en": "Which two ingredients does a plant combine to make sugar during photosynthesis?", "es": "¿Qué dos ingredientes combina una planta para fabricar azúcar en la fotosíntesis?" },
+      "choices": [
+        { "en": "Oxygen and nitrogen", "es": "Oxígeno y nitrógeno" },
+        { "en": "Carbon dioxide and water", "es": "Dióxido de carbono y agua" },
+        { "en": "Sugar and sunlight", "es": "Azúcar y luz del sol" },
+        { "en": "Nitrogen and water", "es": "Nitrógeno y agua" }
+      ],
+      "answer": 1,
+      "why": { "en": "In words: carbon dioxide plus water, powered by sunlight, makes glucose plus oxygen; the oxygen you breathe is the leftover.", "es": "En palabras: dióxido de carbono más agua, con la energía del sol, dan glucosa más oxígeno; el oxígeno que respiras es lo sobrante." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/photosynthesis"
+    },
+    {
+      "id": "animals-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌳",
+      "q": { "en": "Where does most of the mass of a tree trunk actually come from?", "es": "¿De dónde viene en realidad casi toda la masa del tronco de un árbol?" },
+      "choices": [
+        { "en": "The soil", "es": "De la tierra" },
+        { "en": "Rainwater", "es": "Del agua de lluvia" },
+        { "en": "Carbon dioxide in the air", "es": "Del dióxido de carbono del aire" },
+        { "en": "Minerals in groundwater", "es": "De los minerales del subsuelo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Photosynthesis pulls carbon from air and builds it into wood, so a tree is mostly air and water, with little soil inside.", "es": "La fotosíntesis toma carbono del aire y lo convierte en madera, así que un árbol es sobre todo aire y agua, casi sin tierra." },
+      "topic": "photosynthesis",
+      "source": "https://www.si.edu/stories/where-do-trees-get-their-mass"
+    },
+    {
+      "id": "animals-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍃",
+      "q": { "en": "Which tiny openings on a leaf let carbon dioxide in and water vapour out?", "es": "¿Qué aberturas diminutas de la hoja dejan entrar dióxido de carbono y salir vapor de agua?" },
+      "choices": [
+        { "en": "Stomata", "es": "Estomas" },
+        { "en": "Veins", "es": "Nervaduras" },
+        { "en": "Chloroplasts", "es": "Cloroplastos" },
+        { "en": "Root hairs", "es": "Pelos radiculares" }
+      ],
+      "answer": 0,
+      "why": { "en": "Stomata are pores guarded by two curved cells that close in dry heat, trading food-making for saving water inside the leaf.", "es": "Los estomas son poros con dos células curvas que se cierran con el calor seco, cambiando la fabricación de alimento por guardar agua." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/stomate"
+    },
+    {
+      "id": "animals-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🟢",
+      "q": { "en": "Inside which part of a plant cell does photosynthesis take place?", "es": "¿Dentro de qué parte de la célula vegetal ocurre la fotosíntesis?" },
+      "choices": [
+        { "en": "The nucleus", "es": "El núcleo" },
+        { "en": "The vacuole", "es": "La vacuola" },
+        { "en": "The mitochondrion", "es": "La mitocondria" },
+        { "en": "The chloroplast", "es": "El cloroplasto" }
+      ],
+      "answer": 3,
+      "why": { "en": "Chloroplasts are green packets holding chlorophyll; they were once free bacteria swallowed by an early cell, and they keep their own DNA.", "es": "Los cloroplastos son paquetes verdes con clorofila; alguna vez fueron bacterias libres tragadas por una célula antigua y todavía guardan su propio ADN." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/chloroplast"
+    },
+    {
+      "id": "animals-hard-040", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "During the night plants use oxygen and give off carbon dioxide.", "es": "Durante la noche las plantas usan oxígeno y sueltan dióxido de carbono." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Plants respire day and night, burning sugar with oxygen; only in daylight does photosynthesis outweigh it and release oxygen overall.", "es": "Las plantas respiran de día y de noche, quemando azúcar con oxígeno; solo con luz la fotosíntesis la supera y libera oxígeno." },
+      "topic": "photosynthesis",
+      "source": "https://www.britannica.com/science/plant-respiration"
+    },
+    {
+      "id": "animals-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦦",
+      "q": { "en": "What makes a species a keystone species in its ecosystem?", "es": "¿Qué hace que una especie sea una especie clave en su ecosistema?" },
+      "choices": [
+        { "en": "It is the biggest predator", "es": "Es el depredador más grande" },
+        { "en": "Its effect is far larger than its numbers", "es": "Su efecto es mucho mayor que su número" },
+        { "en": "It lives longest of all", "es": "Vive más tiempo que todas" },
+        { "en": "It eats the widest range of food", "es": "Come la mayor variedad de alimentos" }
+      ],
+      "answer": 1,
+      "why": { "en": "A keystone species holds a whole web together; remove the sea otter and urchins eat the kelp forest down to bare rock.", "es": "Una especie clave sostiene toda la red; si quitas a la nutria marina, los erizos devoran el bosque de kelp hasta dejar roca." },
+      "topic": "ecosystems",
+      "source": "https://education.nationalgeographic.org/resource/keystone-species/"
+    },
+    {
+      "id": "animals-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦫",
+      "q": { "en": "Beavers flood a valley by damming a creek. What is such an animal called?", "es": "Los castores inundan un valle al represar un arroyo. ¿Cómo se llama un animal así?" },
+      "choices": [
+        { "en": "An apex predator", "es": "Un depredador tope" },
+        { "en": "A decomposer", "es": "Un descomponedor" },
+        { "en": "An ecosystem engineer", "es": "Un ingeniero del ecosistema" },
+        { "en": "A pioneer species", "es": "Una especie pionera" }
+      ],
+      "answer": 2,
+      "why": { "en": "Ecosystem engineers reshape habitat itself; beaver ponds slow floods, store water in drought and create homes for frogs, fish and birds.", "es": "Los ingenieros del ecosistema transforman el hábitat; las presas de castor frenan crecidas, guardan agua en sequía y dan casa a ranas y aves." },
+      "topic": "ecosystems",
+      "source": "https://www.britannica.com/animal/beaver"
+    },
+    {
+      "id": "animals-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐺",
+      "q": { "en": "Wolves returned to a park and the willows along the rivers grew back. Which chain explains this?", "es": "Los lobos volvieron a un parque y los sauces de los ríos crecieron de nuevo. ¿Qué cadena lo explica?" },
+      "choices": [
+        { "en": "A trophic cascade", "es": "Una cascada trófica" },
+        { "en": "A food web collapse", "es": "Un colapso de la red alimentaria" },
+        { "en": "A population bloom", "es": "Un estallido de población" },
+        { "en": "A nutrient cycle", "es": "Un ciclo de nutrientes" }
+      ],
+      "answer": 0,
+      "why": { "en": "A trophic cascade runs downward: fewer browsing elk means more willow, which feeds beavers and songbirds, changing even the river banks.", "es": "Una cascada trófica baja por la red: menos alces ramoneando significa más sauces, que alimentan castores y aves, y cambian hasta las orillas." },
+      "topic": "ecosystems",
+      "source": "https://www.nps.gov/yell/learn/nature/wolf-restoration.htm"
+    },
+    {
+      "id": "animals-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌱",
+      "q": { "en": "Clover roots hold nodules full of bacteria. What do those bacteria supply?", "es": "Las raíces del trébol tienen nódulos llenos de bacterias. ¿Qué aportan esas bacterias?" },
+      "choices": [
+        { "en": "Sugar", "es": "Azúcar" },
+        { "en": "Water", "es": "Agua" },
+        { "en": "Phosphorus", "es": "Fósforo" },
+        { "en": "Usable nitrogen", "es": "Nitrógeno aprovechable" }
+      ],
+      "answer": 3,
+      "why": { "en": "Nitrogen gas is 78 percent of air but useless to plants until these bacteria fix it into ammonia, feeding the whole field.", "es": "El nitrógeno es el 78 por ciento del aire pero las plantas no pueden usarlo hasta que estas bacterias lo convierten en amoniaco." },
+      "topic": "ecosystems",
+      "source": "https://www.britannica.com/science/nitrogen-fixation"
+    },
+    {
+      "id": "animals-hard-045", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "All the fig trees in a rainforest drop their fruit in one short season.", "es": "Todos los árboles de higo de una selva sueltan su fruta en la misma temporada corta." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Different figs fruit at odd times year round, so toucans, monkeys and bats always find food; biologists call figs a keystone resource.", "es": "Distintos higos fructifican en épocas variadas todo el año, así que tucanes, monos y murciélagos siempre hallan comida; son un recurso clave." },
+      "topic": "ecosystems",
+      "source": "https://www.smithsonianmag.com/science-nature/fig-trees-are-keystone-species-180968219/"
+    },
+    {
+      "id": "animals-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐦‍⬛",
+      "q": { "en": "Which bird bends a wire into a hook to lift food from a tube?", "es": "¿Qué ave dobla un alambre en forma de gancho para sacar comida de un tubo?" },
+      "choices": [
+        { "en": "The New Caledonian crow", "es": "El cuervo de Nueva Caledonia" },
+        { "en": "The common pigeon", "es": "La paloma común" },
+        { "en": "The barn owl", "es": "La lechuza común" },
+        { "en": "The mallard duck", "es": "El pato de collar" }
+      ],
+      "answer": 0,
+      "why": { "en": "New Caledonian crows shape twigs and wire into hooks, plan several steps ahead, and pass tool designs on to their young.", "es": "Los cuervos de Nueva Caledonia moldean ramitas y alambre en ganchos, planean varios pasos por adelantado y enseñan sus diseños a las crías." },
+      "topic": "animal intelligence",
+      "source": "https://www.britannica.com/animal/New-Caledonian-crow"
+    },
+    {
+      "id": "animals-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐒",
+      "q": { "en": "A chimpanzee strips leaves off a twig before poking it into a termite mound. Why?", "es": "Un chimpancé quita las hojas de una ramita antes de meterla en un termitero. ¿Por qué?" },
+      "choices": [
+        { "en": "To mark its territory", "es": "Para marcar su territorio" },
+        { "en": "To make a smoother fishing tool", "es": "Para tener una mejor herramienta de pesca" },
+        { "en": "To hide its scent", "es": "Para ocultar su olor" },
+        { "en": "To sharpen the tip", "es": "Para afilar la punta" }
+      ],
+      "answer": 1,
+      "why": { "en": "Shaping a stick before using it is toolmaking, seen by Jane Goodall at Gombe; termites bite the twig and get pulled out.", "es": "Dar forma a un palo antes de usarlo es fabricar herramientas, algo que Jane Goodall vio en Gombe; las termitas muerden y salen." },
+      "topic": "animal intelligence",
+      "source": "https://www.britannica.com/animal/chimpanzee"
+    },
+    {
+      "id": "animals-hard-048", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪞",
+      "q": { "en": "Which of these animals has passed the mirror self-recognition test?", "es": "¿Cuál de estos animales ha pasado la prueba del espejo?" },
+      "choices": [
+        { "en": "The domestic dog", "es": "El perro doméstico" },
+        { "en": "The house cat", "es": "El gato doméstico" },
+        { "en": "The bottlenose dolphin", "es": "El delfín nariz de botella" },
+        { "en": "The rabbit", "es": "El conejo" }
+      ],
+      "answer": 2,
+      "why": { "en": "Dolphins twist to inspect a mark drawn on their body, which suggests they know the reflection is themselves, as elephants and magpies do.", "es": "Los delfines se giran para revisar una marca pintada en su cuerpo, lo que sugiere que se reconocen, igual que elefantes y urracas." },
+      "topic": "animal intelligence",
+      "source": "https://www.smithsonianmag.com/science-nature/the-mirror-test-and-animal-self-awareness-180976909/"
+    },
+    {
+      "id": "animals-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "A sea otter floats on its back with a stone on its chest. What is the stone for?", "es": "Una nutria marina flota de espaldas con una piedra sobre el pecho. ¿Para qué sirve la piedra?" },
+      "choices": [
+        { "en": "Ballast to stay upright", "es": "Lastre para no volcarse" },
+        { "en": "A warm rock from the beach", "es": "Una piedra tibia de la playa" },
+        { "en": "A signal to other otters", "es": "Una señal para otras nutrias" },
+        { "en": "An anvil for cracking shells", "es": "Un yunque para romper conchas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Otters keep a favourite stone in a loose armpit pouch and hammer clams against it, one of few mammals outside primates using tools.", "es": "La nutria guarda su piedra favorita en un pliegue de la axila y golpea almejas contra ella; pocos mamíferos fuera de los primates usan herramientas." },
+      "topic": "animal intelligence",
+      "source": "https://ocean.si.edu/ocean-life/marine-mammals/sea-otters"
+    },
+    {
+      "id": "animals-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥥",
+      "q": { "en": "Which object has a veined octopus been filmed carrying to use as a shelter?", "es": "¿Qué objeto se ha filmado cargando a un pulpo veteado para usarlo como refugio?" },
+      "choices": [
+        { "en": "A coconut shell half", "es": "Media cáscara de coco" },
+        { "en": "A glass bottle", "es": "Una botella de vidrio" },
+        { "en": "A crab's claw", "es": "La tenaza de un cangrejo" },
+        { "en": "A flat stone", "es": "Una piedra plana" }
+      ],
+      "answer": 0,
+      "why": { "en": "The octopus tucks two shell halves under its body and walks on stiff arms, carrying a portable den for later use.", "es": "El pulpo mete dos mitades de concha bajo su cuerpo y camina con los brazos rígidos, cargando un refugio portátil para después." },
+      "topic": "animal intelligence",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids"
+    },
+    {
+      "id": "animals-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "Which biome covers the widest band of land across Canada and Russia?", "es": "¿Qué bioma cubre la franja de tierra más ancha en Canadá y Rusia?" },
+      "choices": [
+        { "en": "Tundra", "es": "Tundra" },
+        { "en": "Temperate rainforest", "es": "Bosque templado lluvioso" },
+        { "en": "Boreal forest, or taiga", "es": "Bosque boreal o taiga" },
+        { "en": "Grassland", "es": "Pastizal" }
+      ],
+      "answer": 2,
+      "why": { "en": "The taiga is a belt of spruce and fir circling the northern world, holding more trees than any other forest type.", "es": "La taiga es un cinturón de abetos y píceas que rodea el norte del mundo y guarda más árboles que cualquier otro bosque." },
+      "topic": "biomes",
+      "source": "https://www.britannica.com/science/taiga"
+    },
+    {
+      "id": "animals-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌾",
+      "q": { "en": "The cerrado and the pampas of South America are examples of which biome?", "es": "¿De qué bioma son ejemplos el cerrado y la pampa de América del Sur?" },
+      "choices": [
+        { "en": "Tropical rainforest", "es": "Selva tropical" },
+        { "en": "Desert", "es": "Desierto" },
+        { "en": "Cloud forest", "es": "Bosque nuboso" },
+        { "en": "Savanna and grassland", "es": "Sabana y pastizal" }
+      ],
+      "answer": 3,
+      "why": { "en": "Grasslands grow where rain is too little for forest and too much for desert; the cerrado holds thousands of plants found nowhere else.", "es": "Los pastizales crecen donde llueve poco para un bosque y mucho para un desierto; el cerrado tiene miles de plantas que solo viven ahí." },
+      "topic": "biomes",
+      "source": "https://www.britannica.com/place/Cerrado"
+    },
+    {
+      "id": "animals-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Why does almost no tree grow on the tundra of northern Alaska?", "es": "¿Por qué casi ningún árbol crece en la tundra del norte de Alaska?" },
+      "choices": [
+        { "en": "Too much wind", "es": "Demasiado viento" },
+        { "en": "Frozen ground below the surface", "es": "Suelo congelado bajo la superficie" },
+        { "en": "Salty soil", "es": "Suelo salado" },
+        { "en": "Too little sunlight in summer", "es": "Muy poca luz en verano" }
+      ],
+      "answer": 1,
+      "why": { "en": "Permafrost is soil frozen all year; roots cannot reach deep, and the short summer gives too few warm weeks for wood.", "es": "El permafrost es suelo congelado todo el año; las raíces no pueden bajar, y el verano corto da muy pocas semanas cálidas." },
+      "topic": "biomes",
+      "source": "https://www.britannica.com/science/tundra"
+    },
+    {
+      "id": "animals-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "A mountain forest wrapped in mist for most of the year has which name?", "es": "Un bosque de montaña envuelto en neblina casi todo el año, ¿qué nombre recibe?" },
+      "choices": [
+        { "en": "Mangrove", "es": "Manglar" },
+        { "en": "Chaparral", "es": "Chaparral" },
+        { "en": "Steppe", "es": "Estepa" },
+        { "en": "Cloud forest", "es": "Bosque nuboso" }
+      ],
+      "answer": 3,
+      "why": { "en": "Cloud forests such as Monteverde in Costa Rica drink water straight from fog, and their branches are carpeted with mosses and orchids.", "es": "Los bosques nubosos como Monteverde, en Costa Rica, beben agua directo de la niebla, y sus ramas están alfombradas de musgos y orquídeas." },
+      "topic": "biomes",
+      "source": "https://www.britannica.com/science/cloud-forest"
+    },
+    {
+      "id": "animals-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐢",
+      "q": { "en": "Which sense lets a loggerhead turtle find its home beach after crossing an ocean?", "es": "¿Qué sentido permite a la tortuga caguama hallar su playa natal tras cruzar un océano?" },
+      "choices": [
+        { "en": "Taste of the water", "es": "El sabor del agua" },
+        { "en": "A magnetic map sense", "es": "Un sentido de mapa magnético" },
+        { "en": "Memory of coastlines", "es": "La memoria de las costas" },
+        { "en": "Counting wave beats", "es": "Contar los golpes de ola" }
+      ],
+      "answer": 1,
+      "why": { "en": "Turtles read the angle and strength of Earth's magnetic field like map coordinates, learning their own beach's signature as hatchlings.", "es": "Las tortugas leen el ángulo y la fuerza del campo magnético terrestre como coordenadas, y aprenden la firma de su playa al nacer." },
+      "topic": "migration",
+      "source": "https://www.noaa.gov/stories/how-sea-turtles-navigate-using-earths-magnetic-field"
+    },
+    {
+      "id": "animals-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "Young indigo buntings raised under a planetarium sky learned to steer by what?", "es": "Unos azulejos índigo criados bajo un cielo de planetario aprendieron a orientarse, ¿con qué?" },
+      "choices": [
+        { "en": "The Moon's phase", "es": "La fase de la Luna" },
+        { "en": "The Milky Way's colour", "es": "El color de la Vía Láctea" },
+        { "en": "The planetarium walls", "es": "Las paredes del planetario" },
+        { "en": "The stars around Polaris", "es": "Las estrellas alrededor de Polaris" }
+      ],
+      "answer": 3,
+      "why": { "en": "The buntings watched which part of the sky stayed still and used it as north, so a shifted sky misled them.", "es": "Los azulejos miraban qué parte del cielo se quedaba quieta y la usaban como norte, así que un cielo movido los desorientaba." },
+      "topic": "migration",
+      "source": "https://www.britannica.com/animal/indigo-bunting"
+    },
+    {
+      "id": "animals-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🕊️",
+      "q": { "en": "How does a homing pigeon carried far from its loft find its way back?", "es": "¿Cómo encuentra el camino de regreso una paloma mensajera llevada lejos de su palomar?" },
+      "choices": [
+        { "en": "By following roads", "es": "Siguiendo las carreteras" },
+        { "en": "By listening for the loft", "es": "Escuchando el palomar" },
+        { "en": "By the Sun's position plus a magnetic sense", "es": "Por la posición del Sol y un sentido magnético" },
+        { "en": "By following other birds", "es": "Siguiendo a otras aves" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pigeons combine a sun compass, corrected by their body clock, with magnetic and smell cues, which is why cloudy days slow them.", "es": "Las palomas combinan una brújula solar, corregida por su reloj interno, con señales magnéticas y olores; por eso los días nublados las atrasan." },
+      "topic": "migration",
+      "source": "https://www.britannica.com/animal/homing-pigeon"
+    },
+    {
+      "id": "animals-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦋",
+      "q": { "en": "How many butterfly generations pass before a monarch family returns north from Mexico?", "es": "¿Cuántas generaciones de mariposas pasan antes de que una familia monarca vuelva al norte desde México?" },
+      "choices": [
+        { "en": "One", "es": "Una" },
+        { "en": "Two", "es": "Dos" },
+        { "en": "Three or four", "es": "Tres o cuatro" },
+        { "en": "Ten or more", "es": "Diez o más" }
+      ],
+      "answer": 2,
+      "why": { "en": "The butterfly that flies south lives about eight months; its great-grandchildren finish the trip north, so no monarch makes the whole loop.", "es": "La mariposa que vuela al sur vive unos ocho meses; sus bisnietas terminan el viaje al norte, así que ninguna hace el circuito completo." },
+      "topic": "migration",
+      "source": "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/"
+    },
+    {
+      "id": "animals-hard-059", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A robin can sense Earth's magnetic field using chemistry inside its eyes.", "es": "Un petirrojo puede percibir el campo magnético terrestre con química dentro de sus ojos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Blue light striking proteins called cryptochromes makes pairs of electrons react differently by field angle, so the bird may literally see north.", "es": "La luz azul golpea proteínas llamadas criptocromos y hace que pares de electrones reaccionen según el ángulo del campo; el ave casi ve el norte." },
+      "topic": "migration",
+      "source": "https://www.nhm.ac.uk/discover/how-do-birds-navigate.html"
+    },
+    {
+      "id": "animals-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌻",
+      "q": { "en": "Bees see a pattern on flowers that people miss. Which light reveals it?", "es": "Las abejas ven un patrón en las flores que las personas no notan. ¿Qué luz lo revela?" },
+      "choices": [
+        { "en": "Infrared", "es": "Infrarroja" },
+        { "en": "Ultraviolet", "es": "Ultravioleta" },
+        { "en": "Polarised red", "es": "Roja polarizada" },
+        { "en": "X-rays", "es": "Rayos X" }
+      ],
+      "answer": 1,
+      "why": { "en": "Many petals carry ultraviolet stripes acting as landing guides, invisible to us because our eye lenses block that short wavelength.", "es": "Muchos pétalos tienen rayas ultravioleta que sirven de pista de aterrizaje, invisibles para nosotros porque el lente del ojo bloquea esa onda corta." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/science/ultraviolet-radiation"
+    },
+    {
+      "id": "animals-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦆",
+      "q": { "en": "A platypus hunts with its eyes shut. Which sense guides it underwater?", "es": "Un ornitorrinco caza con los ojos cerrados. ¿Qué sentido lo guía bajo el agua?" },
+      "choices": [
+        { "en": "Electroreception", "es": "Electrorrecepción" },
+        { "en": "Echolocation", "es": "Ecolocalización" },
+        { "en": "Magnetoreception", "es": "Magnetorrecepción" },
+        { "en": "Infrared vision", "es": "Visión infrarroja" }
+      ],
+      "answer": 0,
+      "why": { "en": "Electroreception means sensing the faint electric fields muscles make; thousands of pores in the platypus bill map a shrimp's twitch in mud.", "es": "La electrorrecepción es percibir los campos eléctricos débiles de los músculos; miles de poros en el pico del ornitorrinco ubican un camarón enterrado." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/animal/platypus"
+    },
+    {
+      "id": "animals-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐍",
+      "q": { "en": "A pit viper strikes a mouse in total darkness. What does its facial pit detect?", "es": "Una víbora de foseta ataca a un ratón en total oscuridad. ¿Qué detecta su foseta facial?" },
+      "choices": [
+        { "en": "Sound waves", "es": "Ondas de sonido" },
+        { "en": "Scent trails", "es": "Rastros de olor" },
+        { "en": "Body heat as infrared", "es": "El calor del cuerpo como infrarrojo" },
+        { "en": "Electric fields", "es": "Campos eléctricos" }
+      ],
+      "answer": 2,
+      "why": { "en": "The pit is a hollow lined with heat-sensing cells that build a rough infrared image, letting the snake aim at a warm body.", "es": "La fosa es un hueco forrado de células que sienten calor y arman una imagen infrarroja tosca, y así la serpiente apunta al cuerpo tibio." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/animal/pit-viper"
+    },
+    {
+      "id": "animals-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦐",
+      "q": { "en": "About how many colour receptors does a mantis shrimp eye carry, compared with our three?", "es": "¿Cuántos receptores de color tiene el ojo del camarón mantis, frente a nuestros tres?" },
+      "choices": [
+        { "en": "Four", "es": "Cuatro" },
+        { "en": "Six", "es": "Seis" },
+        { "en": "Twelve", "es": "Doce" },
+        { "en": "Thirty", "es": "Treinta" }
+      ],
+      "answer": 2,
+      "why": { "en": "A mantis shrimp has about twelve receptor types and sees polarised light too, though tests suggest it compares colours rather than blending them.", "es": "El camarón mantis tiene unos doce tipos de receptores y ve luz polarizada, aunque los estudios sugieren que compara colores en vez de mezclarlos." },
+      "topic": "animal senses",
+      "source": "https://ocean.si.edu/ocean-life/invertebrates/mantis-shrimp"
+    },
+    {
+      "id": "animals-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐘",
+      "q": { "en": "An elephant herd moves toward rain falling far away. Which signal do they follow?", "es": "Una manada de elefantes camina hacia una lluvia lejana. ¿Qué señal siguen?" },
+      "choices": [
+        { "en": "The colour of the sky", "es": "El color del cielo" },
+        { "en": "Bird calls", "es": "Los cantos de las aves" },
+        { "en": "Rising humidity alone", "es": "Solo la humedad que sube" },
+        { "en": "Very low rumbles through the ground", "es": "Retumbos muy graves por el suelo" }
+      ],
+      "answer": 3,
+      "why": { "en": "Elephants make infrasound below our hearing that travels kilometres; they pick it up through the ground with sensitive feet and trunk tips.", "es": "Los elefantes emiten infrasonidos por debajo de nuestro oído que viajan kilómetros; los captan por el suelo con patas y trompa sensibles." },
+      "topic": "animal senses",
+      "source": "https://www.britannica.com/animal/elephant-mammal"
+    },
+    {
+      "id": "animals-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Dolphins and extinct ichthyosaurs share a sleek shape though they are distant cousins. Name the process.", "es": "Los delfines y los ictiosaurios extintos comparten forma esbelta aunque son primos lejanos. ¿Cómo se llama ese proceso?" },
+      "choices": [
+        { "en": "Convergent evolution", "es": "Evolución convergente" },
+        { "en": "Coevolution", "es": "Coevolución" },
+        { "en": "Adaptive radiation", "es": "Radiación adaptativa" },
+        { "en": "Genetic drift", "es": "Deriva genética" }
+      ],
+      "answer": 0,
+      "why": { "en": "Convergent evolution is unrelated lines meeting the same problem and finding the same answer; fast swimming favours a torpedo body and fins.", "es": "La evolución convergente es cuando linajes distintos enfrentan el mismo problema y hallan la misma solución: nadar rápido premia un cuerpo de torpedo." },
+      "topic": "convergent evolution",
+      "source": "https://www.nhm.ac.uk/discover/convergent-evolution.html"
+    },
+    {
+      "id": "animals-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪽",
+      "q": { "en": "Which pair of animals evolved wings separately from each other?", "es": "¿Qué par de animales desarrolló alas por separado?" },
+      "choices": [
+        { "en": "Sparrow and eagle", "es": "Gorrión y águila" },
+        { "en": "Bat and flying squirrel", "es": "Murciélago y ardilla voladora" },
+        { "en": "Eagle and owl", "es": "Águila y búho" },
+        { "en": "Bat and sparrow", "es": "Murciélago y gorrión" }
+      ],
+      "answer": 3,
+      "why": { "en": "Bird wings run along the whole arm; a bat's stretch between long finger bones, so flight appeared twice by different designs.", "es": "El ala del ave recorre todo el brazo; la del murciélago se estira entre dedos largos: el vuelo surgió dos veces con diseños distintos." },
+      "topic": "convergent evolution",
+      "source": "https://www.britannica.com/science/convergent-evolution"
+    },
+    {
+      "id": "animals-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐕‍🦺",
+      "q": { "en": "Which Australian animal evolved a wolf-like skull while carrying its young in a pouch?", "es": "¿Qué animal australiano desarrolló un cráneo de lobo mientras cargaba a sus crías en una bolsa?" },
+      "choices": [
+        { "en": "The wombat", "es": "El wómbat" },
+        { "en": "The thylacine", "es": "El tilacino" },
+        { "en": "The quoll", "es": "El quol" },
+        { "en": "The bandicoot", "es": "El bandicut" }
+      ],
+      "answer": 1,
+      "why": { "en": "The thylacine was a marsupial that hunted like a wolf and grew a wolf's skull shape, a famous case of convergent evolution.", "es": "El tilacino era un marsupial que cazaba como un lobo y desarrolló un cráneo de lobo: un caso famoso de evolución convergente." },
+      "topic": "convergent evolution",
+      "source": "https://www.nhm.ac.uk/discover/thylacine-tasmanian-tiger.html"
+    },
+    {
+      "id": "animals-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧸",
+      "q": { "en": "What does a tardigrade do to survive being dried out for years?", "es": "¿Qué hace un tardígrado para sobrevivir años completamente seco?" },
+      "choices": [
+        { "en": "Grows a hard shell", "es": "Forma un caparazón duro" },
+        { "en": "Curls into a tun and nearly stops its chemistry", "es": "Se enrolla en un tonel y casi detiene su química" },
+        { "en": "Burrows into ice", "es": "Se entierra en el hielo" },
+        { "en": "Splits into spores", "es": "Se divide en esporas" }
+      ],
+      "answer": 1,
+      "why": { "en": "In the tun state a tardigrade loses almost all its water and replaces it with sugars and proteins that hold cells intact.", "es": "En estado de tonel el tardígrado pierde casi toda su agua y la reemplaza con azúcares y proteínas que mantienen intactas sus células." },
+      "topic": "extremophiles",
+      "source": "https://www.nhm.ac.uk/discover/what-are-tardigrades.html"
+    },
+    {
+      "id": "animals-hard-069", "level": "hard", "type": "mc", "lang": "both", "emoji": "♨️",
+      "q": { "en": "Which living things thrive in the boiling springs of a geyser basin?", "es": "¿Qué seres vivos prosperan en los manantiales hirvientes de una cuenca de géiseres?" },
+      "choices": [
+        { "en": "Thermophilic microbes", "es": "Microbios termófilos" },
+        { "en": "Freshwater sponges", "es": "Esponjas de agua dulce" },
+        { "en": "Water fleas", "es": "Pulgas de agua" },
+        { "en": "Mosses", "es": "Musgos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Thermophiles are heat-loving microbes; their colours paint the hot pools, and an enzyme from one of them made DNA testing possible.", "es": "Los termófilos son microbios amantes del calor; sus colores pintan las pozas hirvientes, y una enzima de uno de ellos permitió analizar el ADN." },
+      "topic": "extremophiles",
+      "source": "https://www.usgs.gov/volcanoes/yellowstone/thermophiles-yellowstone"
+    },
+    {
+      "id": "animals-hard-070", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "Dried tardigrades were flown outside a spacecraft. What happened when they were brought back?", "es": "Unos tardígrados secos viajaron fuera de una nave espacial. ¿Qué pasó cuando los trajeron de vuelta?" },
+      "choices": [
+        { "en": "All died within hours", "es": "Todos murieron en horas" },
+        { "en": "They lost all their legs", "es": "Perdieron todas sus patas" },
+        { "en": "Many revived and some laid eggs", "es": "Muchos revivieron y algunos pusieron huevos" },
+        { "en": "They doubled in size", "es": "Duplicaron su tamaño" }
+      ],
+      "answer": 2,
+      "why": { "en": "Tardigrades survived vacuum and solar radiation in the tun state; at under a millimetre long they live in moss, sand and mud.", "es": "Los tardígrados sobrevivieron al vacío y a la radiación solar en estado de tonel; miden menos de un milímetro y viven en musgo y lodo." },
+      "topic": "extremophiles",
+      "source": "https://www.nhm.ac.uk/discover/tardigrades-water-bears-in-space.html"
+    },
+    {
+      "id": "animals-hard-071", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "Below about 1000 metres, 3300 feet, sunlight is gone. What is that ocean zone called?", "es": "Bajo unos 1000 metros, 3300 pies, la luz del sol desaparece. ¿Cómo se llama esa zona del océano?" },
+      "choices": [
+        { "en": "The sunlight zone", "es": "La zona de luz solar" },
+        { "en": "The twilight zone", "es": "La zona crepuscular" },
+        { "en": "The midnight zone", "es": "La zona de medianoche" },
+        { "en": "The trench zone", "es": "La zona de fosas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The midnight or bathypelagic zone is black and near freezing, so most animals there make their own light to hunt and signal.", "es": "La zona de medianoche o batipelágica es negra y casi helada, así que muchos animales fabrican su propia luz para cazar y comunicarse." },
+      "topic": "deep sea",
+      "source": "https://ocean.si.edu/ecosystems/deep-sea/deep-sea"
+    },
+    {
+      "id": "animals-hard-072", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Deep-sea vent communities live on energy from chemicals instead of sunlight. What is that called?", "es": "Las comunidades de fuentes hidrotermales viven de energía química en vez de luz solar. ¿Cómo se llama eso?" },
+      "choices": [
+        { "en": "Photosynthesis", "es": "Fotosíntesis" },
+        { "en": "Fermentation", "es": "Fermentación" },
+        { "en": "Respiration", "es": "Respiración" },
+        { "en": "Chemosynthesis", "es": "Quimiosíntesis" }
+      ],
+      "answer": 3,
+      "why": { "en": "Chemosynthesis lets bacteria build sugar from hydrogen sulfide gushing out of vents, feeding giant tube worms that have no mouth or gut.", "es": "La quimiosíntesis permite a las bacterias formar azúcar con el sulfuro que brota de las fuentes, y alimenta gusanos tubo sin boca ni intestino." },
+      "topic": "deep sea",
+      "source": "https://oceanexplorer.noaa.gov/facts/chemosynthesis.html"
+    },
+    {
+      "id": "animals-hard-073", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦞",
+      "q": { "en": "Why is red the most common body colour among deep-sea shrimp and fish?", "es": "¿Por qué el rojo es el color más común entre camarones y peces de aguas profundas?" },
+      "choices": [
+        { "en": "Red warns off predators", "es": "El rojo ahuyenta a los depredadores" },
+        { "en": "Red hides them in coral", "es": "El rojo los oculta en el coral" },
+        { "en": "Red light is gone at depth, so red looks black", "es": "La luz roja desaparece a esa profundidad y el rojo se ve negro" },
+        { "en": "Red skin resists pressure", "es": "La piel roja aguanta la presión" }
+      ],
+      "answer": 2,
+      "why": { "en": "Water absorbs red wavelengths within tens of metres, so a scarlet animal is invisible down there unless a blue searchlight finds it.", "es": "El agua absorbe el rojo en pocas decenas de metros, así que un animal escarlata es invisible allá abajo salvo bajo una luz azul." },
+      "topic": "deep sea",
+      "source": "https://ocean.si.edu/ocean-life/fish/why-deep-sea-animals-are-red"
+    },
+    {
+      "id": "animals-hard-074", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐡",
+      "q": { "en": "Which adaptation lets a deep-sea fish survive pressure that would crush a submarine?", "es": "¿Qué adaptación permite a un pez abisal soportar la presión que aplastaría un submarino?" },
+      "choices": [
+        { "en": "A thick armoured skin", "es": "Una piel gruesa y acorazada" },
+        { "en": "An air bladder of helium", "es": "Una vejiga de helio" },
+        { "en": "A layer of ice crystals", "es": "Una capa de cristales de hielo" },
+        { "en": "A body mostly of water with few air spaces", "es": "Un cuerpo casi todo de agua con pocos espacios de aire" }
+      ],
+      "answer": 3,
+      "why": { "en": "Water hardly compresses, so a watery body feels no squeeze; it is trapped gas, like a swim bladder, that pressure crushes.", "es": "El agua casi no se comprime, así que un cuerpo acuoso no siente el apretón; lo que la presión aplasta es el gas atrapado." },
+      "topic": "deep sea",
+      "source": "https://ocean.si.edu/ecosystems/deep-sea/deep-sea-pressure"
+    },
+    {
+      "id": "animals-hard-075", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦈",
+      "q": { "en": "Which animal holds the longest known lifespan of any vertebrate?", "es": "¿Qué animal tiene la vida más larga conocida de todos los vertebrados?" },
+      "choices": [
+        { "en": "The Greenland shark", "es": "El tiburón de Groenlandia" },
+        { "en": "The bowhead whale", "es": "La ballena de Groenlandia" },
+        { "en": "The Galápagos tortoise", "es": "La tortuga de Galápagos" },
+        { "en": "The koi carp", "es": "La carpa koi" }
+      ],
+      "answer": 0,
+      "why": { "en": "Greenland sharks grow about one centimetre a year and can live past 250 years, reaching adulthood only around age 150.", "es": "El tiburón de Groenlandia crece un centímetro al año y puede pasar de los 250 años; llega a adulto cerca de los 150." },
+      "topic": "animal lifespans",
+      "source": "https://www.nhm.ac.uk/discover/greenland-shark-longest-living-vertebrate.html"
+    },
+    {
+      "id": "animals-hard-076", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐭",
+      "q": { "en": "Why does a small mammal like a mouse usually live a far shorter life than an elephant?", "es": "¿Por qué un mamífero pequeño como el ratón suele vivir mucho menos que un elefante?" },
+      "choices": [
+        { "en": "It has fewer bones", "es": "Tiene menos huesos" },
+        { "en": "Its fast metabolism and heart rate wear it out sooner", "es": "Su metabolismo y su pulso acelerados lo desgastan antes" },
+        { "en": "It eats less protein", "es": "Come menos proteína" },
+        { "en": "It sleeps less", "es": "Duerme menos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Small bodies lose heat fast, so their chemistry runs hot; a mouse heart beats around 600 times a minute, an elephant's about 30.", "es": "Los cuerpos pequeños pierden calor rápido y su química corre acelerada: el corazón de un ratón late unas 600 veces por minuto." },
+      "topic": "animal lifespans",
+      "source": "https://www.britannica.com/science/metabolism"
+    },
+    {
+      "id": "animals-hard-077", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A queen honeybee lives about as long as a worker bee does.", "es": "Una abeja reina vive más o menos lo mismo que una abeja obrera." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A worker lives about six weeks in summer while a queen can last several years, fed royal jelly her whole life.", "es": "Una obrera vive unas seis semanas en verano, mientras que una reina puede durar varios años, alimentada con jalea real toda su vida." },
+      "topic": "animal lifespans",
+      "source": "https://www.britannica.com/animal/honeybee"
+    },
+    {
+      "id": "animals-hard-078", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪰",
+      "q": { "en": "A Venus flytrap shuts only after two hairs are touched. Why the double check?", "es": "La atrapamoscas se cierra solo tras tocar dos pelos. ¿Por qué esa doble comprobación?" },
+      "choices": [
+        { "en": "To save energy on false alarms", "es": "Para ahorrar energía en falsas alarmas" },
+        { "en": "To hold the insect tighter", "es": "Para sujetar mejor al insecto" },
+        { "en": "To let rain pass through", "es": "Para dejar pasar la lluvia" },
+        { "en": "To warn nearby plants", "es": "Para avisar a las plantas vecinas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Closing costs the plant a lot of energy, so two touches within about twenty seconds prove a live insect, not a raindrop.", "es": "Cerrarse le cuesta mucha energía, así que dos toques en unos veinte segundos prueban que hay un insecto vivo y no una gota de lluvia." },
+      "topic": "plant defences",
+      "source": "https://www.britannica.com/plant/Venus-flytrap"
+    },
+    {
+      "id": "animals-hard-079", "level": "hard", "type": "mc", "lang": "both", "emoji": "🏺",
+      "q": { "en": "Which nutrient do pitcher plants get from insects that their boggy soil lacks?", "es": "¿Qué nutriente obtienen las plantas jarro de los insectos y les falta en su suelo pantanoso?" },
+      "choices": [
+        { "en": "Sugar", "es": "Azúcar" },
+        { "en": "Carbon", "es": "Carbono" },
+        { "en": "Nitrogen", "es": "Nitrógeno" },
+        { "en": "Oxygen", "es": "Oxígeno" }
+      ],
+      "answer": 2,
+      "why": { "en": "Bog soil is washed of nitrogen, the element proteins need, so the pitcher drowns insects in a digestive pool and absorbs them.", "es": "El suelo del pantano pierde nitrógeno, el elemento que necesitan las proteínas, así que la jarra ahoga insectos en un charco digestivo y los absorbe." },
+      "topic": "plant defences",
+      "source": "https://www.britannica.com/plant/pitcher-plant"
+    },
+    {
+      "id": "animals-hard-080", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍅",
+      "q": { "en": "A caterpillar bites a tomato leaf and nearby leaves turn bitter within minutes. How?", "es": "Una oruga muerde una hoja de tomate y las hojas cercanas se amargan en minutos. ¿Cómo?" },
+      "choices": [
+        { "en": "Wind carries the caterpillar's scent", "es": "El viento lleva el olor de la oruga" },
+        { "en": "Roots pump in bitter minerals", "es": "Las raíces bombean minerales amargos" },
+        { "en": "The sun bleaches the wound", "es": "El sol blanquea la herida" },
+        { "en": "Chemical alarm signals travel through the plant", "es": "Señales químicas de alarma viajan por la planta" }
+      ],
+      "answer": 3,
+      "why": { "en": "The wound sets off jasmonate signals that spread through the plant and switch on defence chemicals, and airborne warnings can reach neighbours.", "es": "La herida dispara señales de jasmonato que recorren la planta y encienden químicos defensivos; algunos avisos viajan por el aire a las vecinas." },
+      "topic": "plant defences",
+      "source": "https://www.britannica.com/science/chemical-defense"
+    },
+    {
+      "id": "animals-hard-081", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌶️",
+      "q": { "en": "Why do chile peppers make capsaicin, the chemical that burns your mouth?", "es": "¿Por qué los chiles producen capsaicina, la sustancia que arde en la boca?" },
+      "choices": [
+        { "en": "To ripen faster", "es": "Para madurar más rápido" },
+        { "en": "To attract bees", "es": "Para atraer abejas" },
+        { "en": "To store water", "es": "Para guardar agua" },
+        { "en": "To keep mammals away while birds spread the seeds", "es": "Para alejar mamíferos mientras las aves esparcen sus semillas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mammal teeth grind seeds, but birds lack the receptor capsaicin triggers, so they swallow chiles whole and drop the seeds far away.", "es": "Los dientes de los mamíferos trituran las semillas, pero las aves carecen del receptor de la capsaicina, tragan el chile entero y esparcen semillas." },
+      "topic": "plant defences",
+      "source": "https://www.britannica.com/science/capsaicin"
+    },
+    {
+      "id": "animals-hard-082", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌰",
+      "q": { "en": "What do biologists call the underground partnership between fungal threads and tree roots?", "es": "¿Cómo llaman los biólogos a la sociedad subterránea entre hilos de hongo y raíces de árbol?" },
+      "choices": [
+        { "en": "Lichen", "es": "Liquen" },
+        { "en": "Mycorrhiza", "es": "Micorriza" },
+        { "en": "Rhizome", "es": "Rizoma" },
+        { "en": "Humus", "es": "Humus" }
+      ],
+      "answer": 1,
+      "why": { "en": "In a mycorrhiza the fungus gathers water and minerals for the tree and takes sugar in return; most land plants have one.", "es": "En una micorriza el hongo reúne agua y minerales para el árbol y recibe azúcar a cambio; casi toda planta terrestre tiene una." },
+      "topic": "fungi",
+      "source": "https://www.britannica.com/science/mycorrhiza"
+    },
+    {
+      "id": "animals-hard-083", "level": "hard", "type": "mc", "lang": "both", "emoji": "🍄‍🟫",
+      "q": { "en": "A fungus in Oregon spreads across square kilometres underground. What makes it one organism?", "es": "Un hongo de Oregón se extiende kilómetros cuadrados bajo tierra. ¿Qué lo hace un solo organismo?" },
+      "choices": [
+        { "en": "All its cells share the same genes", "es": "Todas sus células comparten los mismos genes" },
+        { "en": "It grows from one mushroom cap", "es": "Crece de un solo sombrero" },
+        { "en": "It has a single root", "es": "Tiene una única raíz" },
+        { "en": "It is fenced by a wall", "es": "Está cercado por un muro" }
+      ],
+      "answer": 0,
+      "why": { "en": "The honey fungus grows outward as one connected mycelium with identical DNA, making it among the largest and oldest living things known.", "es": "El hongo de miel crece hacia afuera como un solo micelio conectado con ADN idéntico; es de los seres vivos más grandes y viejos conocidos." },
+      "topic": "fungi",
+      "source": "https://www.usda.gov/media/blog/2015/06/23/humongous-fungus-oregon"
+    },
+    {
+      "id": "animals-hard-084", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Fungi are more closely related to animals than they are to plants.", "es": "Los hongos están más emparentados con los animales que con las plantas." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both fungi and animals store energy as glycogen and build support from chitin, the same material found in an insect's shell.", "es": "Hongos y animales guardan energía como glucógeno y se sostienen con quitina, el mismo material del caparazón de un insecto." },
+      "topic": "fungi",
+      "source": "https://www.nhm.ac.uk/discover/are-fungi-plants-or-animals.html"
+    },
+    {
+      "id": "animals-hard-085", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪸",
+      "q": { "en": "When we say a coral has bleached, what has actually left it?", "es": "Cuando decimos que un coral se ha blanqueado, ¿qué es lo que en realidad perdió?" },
+      "choices": [
+        { "en": "Its skeleton", "es": "Su esqueleto" },
+        { "en": "Its stinging cells", "es": "Sus células urticantes" },
+        { "en": "Its colourful algae", "es": "Sus algas de colores" },
+        { "en": "Its mucus coat", "es": "Su capa de mucosidad" }
+      ],
+      "answer": 2,
+      "why": { "en": "Heat stress makes the polyp expel its zooxanthellae, so the white limestone skeleton shows through; the coral starves unless they return.", "es": "El calor hace que el pólipo expulse sus zooxantelas y deja ver el esqueleto blanco de caliza; el coral pasa hambre si no regresan." },
+      "topic": "coral bleaching",
+      "source": "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+    },
+    {
+      "id": "animals-hard-086", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Which two changes in sea water push a reef toward bleaching?", "es": "¿Qué dos cambios en el agua del mar empujan a un arrecife hacia el blanqueamiento?" },
+      "choices": [
+        { "en": "Higher temperature and more acid", "es": "Más temperatura y más acidez" },
+        { "en": "Lower salt and more oxygen", "es": "Menos sal y más oxígeno" },
+        { "en": "More sand and less wind", "es": "Más arena y menos viento" },
+        { "en": "Colder water and more algae", "es": "Agua más fría y más algas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Extra carbon dioxide warms the sea and dissolves into it as acid, which makes building limestone skeletons harder for coral and shellfish.", "es": "El dióxido de carbono extra calienta el mar y se disuelve como ácido, lo que dificulta construir esqueletos de caliza a corales y mariscos." },
+      "topic": "coral bleaching",
+      "source": "https://oceanservice.noaa.gov/facts/acidification.html"
+    },
+    {
+      "id": "animals-hard-087", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "A bleached coral is already dead and can no longer recover.", "es": "Un coral blanqueado ya está muerto y jamás puede recuperarse." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "A bleached polyp is alive but starving; if the water cools soon enough, algae move back in and the colour returns.", "es": "Un pólipo blanqueado sigue vivo pero con hambre; si el agua se enfría a tiempo, las algas vuelven a entrar y el color regresa." },
+      "topic": "coral bleaching",
+      "source": "https://coralreef.noaa.gov/education/coralbleaching.html"
+    },
+    {
+      "id": "animals-hard-088", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐸",
+      "q": { "en": "Cane toads were brought to Australia to eat beetles. What went wrong?", "es": "Los sapos de caña llegaron a Australia para comer escarabajos. ¿Qué salió mal?" },
+      "choices": [
+        { "en": "They ate the crops instead", "es": "Se comieron los cultivos" },
+        { "en": "They froze in winter", "es": "Se congelaron en invierno" },
+        { "en": "They fed only at sea", "es": "Solo comían en el mar" },
+        { "en": "They spread widely and poisoned native predators", "es": "Se esparcieron y envenenaron a depredadores nativos" }
+      ],
+      "answer": 3,
+      "why": { "en": "The toads could not reach beetles high on the cane, bred fast across the north, and their skin toxin kills quolls and snakes.", "es": "Los sapos no alcanzaban a los escarabajos altos en la caña, se multiplicaron por el norte y su veneno de piel mata quoles y serpientes." },
+      "topic": "invasive species",
+      "source": "https://www.britannica.com/animal/cane-toad"
+    },
+    {
+      "id": "animals-hard-089", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚢",
+      "q": { "en": "What makes an introduced species become invasive rather than harmless?", "es": "¿Qué hace que una especie introducida se vuelva invasora en vez de inofensiva?" },
+      "choices": [
+        { "en": "It is larger than natives", "es": "Es más grande que las nativas" },
+        { "en": "It arrives by ship", "es": "Llega en barco" },
+        { "en": "It breeds fast with no local enemies", "es": "Se reproduce rápido sin enemigos locales" },
+        { "en": "It is brightly coloured", "es": "Tiene colores llamativos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Away from home a species leaves its predators, parasites and rivals behind, so numbers climb until native species lose food and space.", "es": "Lejos de casa una especie deja atrás a sus depredadores, parásitos y rivales, así que crece hasta que las nativas pierden comida y espacio." },
+      "topic": "invasive species",
+      "source": "https://www.usgs.gov/faqs/what-are-invasive-species"
+    },
+    {
+      "id": "animals-hard-090", "level": "hard", "type": "tf", "lang": "both",
+      "q": { "en": "Every species that moves into a new country becomes invasive there.", "es": "Toda especie que llega a un país nuevo se vuelve invasora ahí." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Most newcomers fade away or settle in quietly; only a few explode in numbers and crowd out the species already living there.", "es": "Casi todas las recién llegadas desaparecen o se acomodan sin ruido; solo unas pocas estallan en número y desplazan a las que ya vivían ahí." },
+      "topic": "invasive species",
+      "source": "https://www.britannica.com/science/invasive-species"
+    },
+    {
+      "id": "animals-hard-091", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦅",
+      "q": { "en": "Which chemical thinned bald eagle eggshells before it was banned in the United States?", "es": "¿Qué sustancia adelgazó los cascarones del águila calva antes de ser prohibida en Estados Unidos?" },
+      "choices": [
+        { "en": "DDT", "es": "El DDT" },
+        { "en": "Lead paint", "es": "La pintura con plomo" },
+        { "en": "Road salt", "es": "La sal de carretera" },
+        { "en": "Chlorine", "es": "El cloro" }
+      ],
+      "answer": 0,
+      "why": { "en": "DDT built up along the food chain and weakened shells so eggs cracked; after the 1972 ban eagle numbers climbed back.", "es": "El DDT se acumulaba en la cadena alimentaria y adelgazaba los cascarones; tras la prohibición de 1972 las águilas se recuperaron." },
+      "topic": "endangered recovery",
+      "source": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus"
+    },
+    {
+      "id": "animals-hard-092", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐋",
+      "q": { "en": "Which step allowed humpback whale numbers to climb back through the twentieth century?", "es": "¿Qué medida permitió que las ballenas jorobadas se recuperaran durante el siglo veinte?" },
+      "choices": [
+        { "en": "An international ban on hunting them", "es": "Una prohibición internacional de cazarlas" },
+        { "en": "Feeding them at sea", "es": "Alimentarlas en alta mar" },
+        { "en": "Moving them to new oceans", "es": "Llevarlas a otros océanos" },
+        { "en": "Breeding them in aquariums", "es": "Criarlas en acuarios" }
+      ],
+      "answer": 0,
+      "why": { "en": "Protection began in 1966 and most populations grew; humpbacks sing long songs that whole groups update together across a season.", "es": "La protección comenzó en 1966 y casi todas las poblaciones crecieron; las jorobadas cantan canciones largas que todo el grupo va cambiando junto." },
+      "topic": "endangered recovery",
+      "source": "https://www.fisheries.noaa.gov/species/humpback-whale"
+    },
+    {
+      "id": "animals-hard-093", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "How did biologists raise California condor chicks without taming them to people?", "es": "¿Cómo criaron los biólogos a los pollos de cóndor de California sin acostumbrarlos a la gente?" },
+      "choices": [
+        { "en": "Playing recorded calls", "es": "Poniendo llamados grabados" },
+        { "en": "Keeping the cages dark", "es": "Manteniendo las jaulas oscuras" },
+        { "en": "Feeding them with condor hand puppets", "es": "Alimentándolos con títeres de cóndor" },
+        { "en": "Releasing them as eggs", "es": "Soltándolos siendo huevos" }
+      ],
+      "answer": 2,
+      "why": { "en": "Puppet feeding kept the chicks wild; the whole species once fell to 27 birds, and captive breeding returned condors to canyon skies.", "es": "Alimentarlos con títeres los mantuvo silvestres; la especie llegó a tener 27 aves, y la cría en cautiverio devolvió cóndores a los cañones." },
+      "topic": "endangered recovery",
+      "source": "https://www.fws.gov/species/california-condor-gymnogyps-californianus"
+    },
+    {
+      "id": "animals-hard-094", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐬",
+      "q": { "en": "Why does the Amazon river dolphin have a loose neck it can turn widely?", "es": "¿Por qué el delfín rosado del Amazonas tiene un cuello suelto que puede girar mucho?" },
+      "choices": [
+        { "en": "To swim faster", "es": "Para nadar más rápido" },
+        { "en": "To breathe upside down", "es": "Para respirar de cabeza" },
+        { "en": "To dig in sand", "es": "Para escarbar en la arena" },
+        { "en": "To look around flooded forest trees", "es": "Para mirar entre los árboles del bosque inundado" }
+      ],
+      "answer": 3,
+      "why": { "en": "In the wet season the boto swims among tree trunks, so a bending neck and paddle flippers let it steer in tight spaces.", "es": "En la temporada de lluvias el boto nada entre troncos, así que un cuello flexible y aletas anchas lo ayudan a girar en espacios estrechos." },
+      "topic": "animals of latin america",
+      "source": "https://www.worldwildlife.org/species/amazon-river-dolphin"
+    },
+    {
+      "id": "animals-hard-095", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦙",
+      "q": { "en": "Why is vicuña fibre warmer for its weight than sheep wool?", "es": "¿Por qué la fibra de vicuña abriga más por su peso que la lana de oveja?" },
+      "choices": [
+        { "en": "It is oilier", "es": "Es más aceitosa" },
+        { "en": "It is woven tighter", "es": "Está tejida más apretada" },
+        { "en": "Its fibres are far thinner and trap more air", "es": "Sus fibras son mucho más finas y atrapan más aire" },
+        { "en": "It holds more water", "es": "Retiene más agua" }
+      ],
+      "answer": 2,
+      "why": { "en": "Vicuña hairs measure about 12 microns across, thinner than cashmere, and Andean herders shear wild animals only every two years.", "es": "El pelo de vicuña mide unas 12 micras, más fino que la cachemira, y los pastores andinos esquilan animales silvestres cada dos años." },
+      "topic": "animals of latin america",
+      "source": "https://www.britannica.com/animal/vicuna"
+    },
+    {
+      "id": "animals-hard-096", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐜",
+      "q": { "en": "Leafcutter ants carry tiny workers riding on the cut leaves. What is their job?", "es": "Las hormigas arrieras llevan obreras diminutas montadas en las hojas cortadas. ¿Cuál es su tarea?" },
+      "choices": [
+        { "en": "Guarding against parasitic flies", "es": "Proteger de moscas parásitas" },
+        { "en": "Tasting the leaf", "es": "Probar la hoja" },
+        { "en": "Balancing the load", "es": "Equilibrar la carga" },
+        { "en": "Cutting the stem", "es": "Cortar el tallo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Phorid flies try to lay eggs on the carrier's neck, so a tiny minim rides guard; a mature colony can hold millions of ants.", "es": "Las moscas fóridas intentan poner huevos en el cuello de la cargadora, así que una obrera diminuta vigila; una colonia madura puede tener millones." },
+      "topic": "animals of latin america",
+      "source": "https://www.si.edu/stories/leafcutter-ants"
+    },
+    {
+      "id": "animals-hard-097", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦎",
+      "q": { "en": "Which Galápagos reptile sneezes salt and grazes on seaweed underwater?", "es": "¿Qué reptil de las Galápagos estornuda sal y pasta algas bajo el agua?" },
+      "choices": [
+        { "en": "The land iguana", "es": "La iguana terrestre" },
+        { "en": "The lava lizard", "es": "La lagartija de lava" },
+        { "en": "The marine iguana", "es": "La iguana marina" },
+        { "en": "The giant tortoise", "es": "La tortuga gigante" }
+      ],
+      "answer": 2,
+      "why": { "en": "Marine iguanas are the only sea-going lizards; glands above their eyes squeeze out salt, leaving white crusts on their heads.", "es": "Las iguanas marinas son los únicos lagartos que se alimentan en el mar; unas glándulas sobre sus ojos expulsan sal y dejan costras blancas." },
+      "topic": "animals of latin america",
+      "source": "https://www.britannica.com/animal/marine-iguana"
+    },
+    {
+      "id": "animals-hard-098", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌲",
+      "q": { "en": "In which kind of tree do monarch butterflies cluster through winter in central Mexico?", "es": "¿En qué tipo de árbol se agrupan las mariposas monarca durante el invierno en el centro de México?" },
+      "choices": [
+        { "en": "Mangrove", "es": "Manglar" },
+        { "en": "Oyamel fir", "es": "Oyamel" },
+        { "en": "Ceiba", "es": "Ceiba" },
+        { "en": "Mesquite", "es": "Mezquite" }
+      ],
+      "answer": 1,
+      "why": { "en": "Oyamel firs grow above 2900 metres, 9500 feet, where the cool damp air keeps butterflies just alive and still until spring.", "es": "Los oyameles crecen sobre los 2900 metros, 9500 pies, donde el aire fresco y húmedo mantiene a las mariposas quietas y vivas hasta la primavera." },
+      "topic": "animals of latin america",
+      "source": "https://www.nps.gov/subjects/monarchs/overwintering-sites.htm"
+    },
+    {
+      "id": "animals-hard-099", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐾",
+      "q": { "en": "Where does a wild poison dart frog get the toxin in its skin?", "es": "¿De dónde saca una rana dardo silvestre la toxina de su piel?" },
+      "choices": [
+        { "en": "It makes it in its liver", "es": "La fabrica en el hígado" },
+        { "en": "From river minerals", "es": "De los minerales del río" },
+        { "en": "From sunlight on its back", "es": "Del sol sobre su espalda" },
+        { "en": "From the ants and mites it eats", "es": "De las hormigas y ácaros que come" }
+      ],
+      "answer": 3,
+      "why": { "en": "Frogs raised in a tank on fruit flies stay harmless, which shows the poison is collected from prey, not built from scratch.", "es": "Las ranas criadas en un terrario con moscas de fruta son inofensivas, lo que muestra que el veneno viene de sus presas silvestres." },
+      "topic": "animals of latin america",
+      "source": "https://www.smithsonianmag.com/science-nature/how-poison-dart-frogs-get-their-toxins-180977412/"
+    },
+    {
+      "id": "animals-hard-100", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐠",
+      "q": { "en": "Which giant Amazon fish must surface to breathe air with a lung-like bladder?", "es": "¿Qué pez gigante del Amazonas debe subir a respirar aire con una vejiga parecida a un pulmón?" },
+      "choices": [
+        { "en": "The piranha", "es": "La piraña" },
+        { "en": "The pacu", "es": "El pacú" },
+        { "en": "The candiru", "es": "La candirú" },
+        { "en": "The arapaima", "es": "El arapaima" }
+      ],
+      "answer": 3,
+      "why": { "en": "The arapaima, called pirarucú in Brazil, can pass three metres, 10 feet, and drowns if kept away from the surface.", "es": "El arapaima, llamado pirarucú en Brasil, puede pasar los tres metros, 10 pies, y se ahoga si le impiden subir a respirar." },
+      "topic": "animals of latin america",
+      "source": "https://www.britannica.com/animal/arapaima"
     }
   ]
 }

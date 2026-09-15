@@ -1470,6 +1470,1298 @@
       "why": { "es": "Girasol junta gira y sol en una sola palabra, porque la flor joven gira durante el día para mirar siempre al Sol." },
       "topic": "palabras compuestas",
       "source": "https://dle.rae.es/girasol"
+    },
+    {
+      "id": "words-medium-007", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word is closest in meaning to the word furious?" },
+      "choices": [
+        { "en": "Angry" },
+        { "en": "Curious" },
+        { "en": "Tired" },
+        { "en": "Gentle" }
+      ],
+      "answer": 0,
+      "why": { "en": "Furious comes from the Latin word for rage, and the same root gives us fury and infuriate." },
+      "topic": "synonyms",
+      "source": "https://www.etymonline.com/word/furious"
+    },
+    {
+      "id": "words-medium-008", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra significa lo mismo que la palabra veloz?" },
+      "choices": [
+        { "es": "Rápido" },
+        { "es": "Lento" },
+        { "es": "Pesado" },
+        { "es": "Tranquilo" }
+      ],
+      "answer": 0,
+      "why": { "es": "Veloz viene del latín velox y de esa misma raíz salen velocidad y velocímetro, el aparato que mide qué tan rápido vas." },
+      "topic": "sinónimos",
+      "source": "https://dle.rae.es/veloz"
+    },
+    {
+      "id": "words-medium-009", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word means the opposite of the word ancient?" },
+      "choices": [
+        { "en": "Hollow" },
+        { "en": "Modern" },
+        { "en": "Narrow" },
+        { "en": "Silent" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ancient means very old, and modern comes from a Latin word meaning just now, so they pull in opposite directions." },
+      "topic": "antonyms",
+      "source": "https://www.etymonline.com/word/modern"
+    },
+    {
+      "id": "words-medium-010", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál es el antónimo de la palabra antiguo?" },
+      "choices": [
+        { "es": "Pesado" },
+        { "es": "Moderno" },
+        { "es": "Estrecho" },
+        { "es": "Callado" }
+      ],
+      "answer": 1,
+      "why": { "es": "Antónimo viene del griego y significa nombre contrario, así que antiguo y moderno se oponen como viejo y nuevo." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/antonimo"
+    },
+    {
+      "id": "words-medium-011", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What does the prefix pre- mean in the word preview?" },
+      "choices": [
+        { "en": "Again" },
+        { "en": "Against" },
+        { "en": "Before" },
+        { "en": "Without" }
+      ],
+      "answer": 2,
+      "why": { "en": "Pre- means before, so a preview is a look before the show, and prehistoric means before writing existed." },
+      "topic": "prefixes",
+      "source": "https://www.merriam-webster.com/dictionary/pre-"
+    },
+    {
+      "id": "words-medium-012", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra significa lo contrario de la palabra valiente?" },
+      "choices": [
+        { "es": "Fuerte" },
+        { "es": "Alegre" },
+        { "es": "Cobarde" },
+        { "es": "Veloz" }
+      ],
+      "answer": 2,
+      "why": { "es": "Valiente viene de valer, porque antes se pensaba que quien valía mucho era el que enfrentaba el miedo." },
+      "topic": "antónimos",
+      "source": "https://dle.rae.es/valiente"
+    },
+    {
+      "id": "words-medium-013", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "In the word misspell, what does the prefix mis- tell you?" },
+      "choices": [
+        { "en": "It happens again" },
+        { "en": "It happens before" },
+        { "en": "It happens together" },
+        { "en": "It happens wrongly" }
+      ],
+      "answer": 3,
+      "why": { "en": "Mis- means wrongly or badly, and it explains why misspell keeps two s letters, one from mis and one from spell." },
+      "topic": "prefixes",
+      "source": "https://www.merriam-webster.com/dictionary/mis-"
+    },
+    {
+      "id": "words-medium-014", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué significa el prefijo des- en la palabra desatar?" },
+      "choices": [
+        { "es": "Atar antes" },
+        { "es": "Atar otra vez" },
+        { "es": "Atar muy fuerte" },
+        { "es": "Lo contrario de atar" }
+      ],
+      "answer": 3,
+      "why": { "es": "El prefijo des- da la vuelta al significado, como en deshacer, desarmar y despeinar, que deshacen lo que alguien hizo." },
+      "topic": "prefijos",
+      "source": "https://dle.rae.es/des-"
+    },
+    {
+      "id": "words-medium-015", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What does the suffix -less add to the word fearless?" },
+      "choices": [
+        { "en": "Without fear" },
+        { "en": "Full of fear" },
+        { "en": "A little fear" },
+        { "en": "Fear again" }
+      ],
+      "answer": 0,
+      "why": { "en": "The suffix -less means without, from an old English root meaning free from, so fearless describes someone free from fear." },
+      "topic": "suffixes",
+      "source": "https://www.etymonline.com/word/-less"
+    },
+    {
+      "id": "words-medium-016", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué significa el prefijo bi- en la palabra bicicleta?" },
+      "choices": [
+        { "es": "Dos" },
+        { "es": "Tres" },
+        { "es": "Uno" },
+        { "es": "Medio" }
+      ],
+      "answer": 0,
+      "why": { "es": "Bi- significa dos en latín, por eso una bicicleta tiene dos ruedas y una persona bilingüe habla dos lenguas." },
+      "topic": "prefijos",
+      "source": "https://dle.rae.es/bi-"
+    },
+    {
+      "id": "words-medium-017", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Adding the suffix -ful to the word care makes which word?" },
+      "choices": [
+        { "en": "Careless" },
+        { "en": "Careful" },
+        { "en": "Caring" },
+        { "en": "Cared" }
+      ],
+      "answer": 1,
+      "why": { "en": "The suffix -ful once meant full of, so careful meant full of care, and a handful is what one hand holds." },
+      "topic": "suffixes",
+      "source": "https://www.merriam-webster.com/dictionary/-ful"
+    },
+    {
+      "id": "words-medium-018", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué quiere decir la palabra librito con su terminación -ito?" },
+      "choices": [
+        { "es": "Muchos libros" },
+        { "es": "Un libro pequeño" },
+        { "es": "Un libro viejo" },
+        { "es": "Un libro grande" }
+      ],
+      "answer": 1,
+      "why": { "es": "El sufijo -ito hace pequeñas las cosas y también las vuelve cariñosas, por eso abuelita suena más tierno que abuela." },
+      "topic": "diminutivos",
+      "source": "https://dle.rae.es/-ito"
+    },
+    {
+      "id": "words-medium-019", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word fits the sentence: They left ___ books at home?" },
+      "choices": [
+        { "en": "There" },
+        { "en": "They're" },
+        { "en": "Their" },
+        { "en": "Theirs" }
+      ],
+      "answer": 2,
+      "why": { "en": "Their shows belonging, there points to a place, and they're is short for they are; all three sound alike." },
+      "topic": "homophones",
+      "source": "https://www.merriam-webster.com/dictionary/their"
+    },
+    {
+      "id": "words-medium-020", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál de estas palabras es el aumentativo de la palabra perro?" },
+      "choices": [
+        { "es": "Perrito" },
+        { "es": "Perrera" },
+        { "es": "Perrazo" },
+        { "es": "Perruno" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los aumentativos usan -azo, -ote y -ón para agrandar, como en portón, casona y grandote, palabras que suenan más grandes que su original." },
+      "topic": "aumentativos",
+      "source": "https://dle.rae.es/-azo"
+    },
+    {
+      "id": "words-medium-021", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word sounds exactly like the word knight?" },
+      "choices": [
+        { "en": "Kite" },
+        { "en": "Knot" },
+        { "en": "Nice" },
+        { "en": "Night" }
+      ],
+      "answer": 3,
+      "why": { "en": "Knight and night sound alike, and long ago English speakers really did pronounce that k at the start of knight." },
+      "topic": "homophones",
+      "source": "https://www.etymonline.com/word/knight"
+    },
+    {
+      "id": "words-medium-022", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál es el superlativo de la palabra fácil?" },
+      "choices": [
+        { "es": "Facilito" },
+        { "es": "Facilote" },
+        { "es": "Facilmente" },
+        { "es": "Facilísimo" }
+      ],
+      "answer": 3,
+      "why": { "es": "El sufijo -ísimo llegó del latín y significa muy, por eso facilísimo quiere decir muy fácil y siempre lleva tilde." },
+      "topic": "superlativos",
+      "source": "https://dle.rae.es/-isimo"
+    },
+    {
+      "id": "words-medium-023", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word is a homophone of the word sea?" },
+      "choices": [
+        { "en": "See" },
+        { "en": "Say" },
+        { "en": "Sew" },
+        { "en": "Sky" }
+      ],
+      "answer": 0,
+      "why": { "en": "Homophone comes from Greek words meaning same sound, so sea and see match your ear while your eyes tell them apart." },
+      "topic": "homophones",
+      "source": "https://www.merriam-webster.com/dictionary/homophone"
+    },
+    {
+      "id": "words-medium-024", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra usas para saludar a una amiga?" },
+      "choices": [
+        { "es": "Hola" },
+        { "es": "Ola" },
+        { "es": "Olla" },
+        { "es": "Hoya" }
+      ],
+      "answer": 0,
+      "why": { "es": "Hola y ola suenan igual porque la h española es muda; solo la escritura distingue el saludo del movimiento del mar." },
+      "topic": "palabras homófonas",
+      "source": "https://dle.rae.es/hola"
+    },
+    {
+      "id": "words-medium-025", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which of these four words is a compound word?" },
+      "choices": [
+        { "en": "Rainy" },
+        { "en": "Rainbow" },
+        { "en": "Raining" },
+        { "en": "Rained" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rainbow joins rain and bow, and bow here means an arch, which is why a rainbow curves across the sky." },
+      "topic": "compound words",
+      "source": "https://www.etymonline.com/word/rainbow"
+    },
+    {
+      "id": "words-medium-026", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra nombra la pieza hueca por donde corre el agua?" },
+      "choices": [
+        { "es": "Tuvo" },
+        { "es": "Tubo" },
+        { "es": "Tuba" },
+        { "es": "Tupo" }
+      ],
+      "answer": 1,
+      "why": { "es": "Tubo se escribe con b y tuvo con v, aunque suenan idéntico; tuvo viene del verbo tener y habla del pasado." },
+      "topic": "palabras homófonas",
+      "source": "https://dle.rae.es/tubo"
+    },
+    {
+      "id": "words-medium-027", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "The word breakfast joins break with which other word?" },
+      "choices": [
+        { "en": "Feast" },
+        { "en": "First" },
+        { "en": "Fast" },
+        { "en": "Fest" }
+      ],
+      "answer": 2,
+      "why": { "en": "Breakfast means breaking the fast of the night, because you have gone many hours without eating while asleep." },
+      "topic": "compound words",
+      "source": "https://www.etymonline.com/word/breakfast"
+    },
+    {
+      "id": "words-medium-028", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra usas para decir que algo existe en un lugar?" },
+      "choices": [
+        { "es": "Ahí" },
+        { "es": "Ay" },
+        { "es": "Hay" },
+        { "es": "Allí" }
+      ],
+      "answer": 2,
+      "why": { "es": "Hay viene del verbo haber, ahí señala un lugar y ay expresa dolor; las tres suenan casi igual al hablar." },
+      "topic": "palabras homófonas",
+      "source": "https://dle.rae.es/haber"
+    },
+    {
+      "id": "words-medium-029", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which of these words hides two smaller words inside it?" },
+      "choices": [
+        { "en": "Elephant" },
+        { "en": "Umbrella" },
+        { "en": "Banana" },
+        { "en": "Grasshopper" }
+      ],
+      "answer": 3,
+      "why": { "en": "Grasshopper is simply grass plus hopper, a plain name for an insect that hops through grass on springy back legs." },
+      "topic": "compound words",
+      "source": "https://www.merriam-webster.com/dictionary/grasshopper"
+    },
+    {
+      "id": "words-medium-030", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cómo se llama el objeto que sirve para abrir latas?" },
+      "choices": [
+        { "es": "Sacalatas" },
+        { "es": "Cortalatas" },
+        { "es": "Tapalatas" },
+        { "es": "Abrelatas" }
+      ],
+      "answer": 3,
+      "why": { "es": "Abrelatas une un verbo y un sustantivo, igual que lavaplatos, rompecabezas y limpiaparabrisas, que se escriben en una sola palabra." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/abrelatas"
+    },
+    {
+      "id": "words-medium-031", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "In the sentence The tall giraffe ran fast, which word is the adjective?" },
+      "choices": [
+        { "en": "Tall" },
+        { "en": "Giraffe" },
+        { "en": "Ran" },
+        { "en": "Fast" }
+      ],
+      "answer": 0,
+      "why": { "en": "An adjective describes a noun, so tall describes the giraffe, while ran is the verb and fast tells how it ran." },
+      "topic": "parts of speech",
+      "source": "https://kids.britannica.com/kids/article/adjective/399855"
+    },
+    {
+      "id": "words-medium-032", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué dos palabras forman la palabra compuesta paraguas?" },
+      "choices": [
+        { "es": "Para y aguas" },
+        { "es": "Par y aguas" },
+        { "es": "Pared y agua" },
+        { "es": "Parte y aguas" }
+      ],
+      "answer": 0,
+      "why": { "es": "Paraguas junta el verbo parar con aguas, o sea algo que detiene el agua, igual que parabrisas y paracaídas." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/paraguas"
+    },
+    {
+      "id": "words-medium-033", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "In the sentence Maria painted a bright mural, which word is the verb?" },
+      "choices": [
+        { "en": "Maria" },
+        { "en": "Painted" },
+        { "en": "Bright" },
+        { "en": "Mural" }
+      ],
+      "answer": 1,
+      "why": { "en": "A verb names the action, and painted also carries time, telling you the painting already happened rather than happening now." },
+      "topic": "parts of speech",
+      "source": "https://kids.britannica.com/kids/article/verb/354045"
+    },
+    {
+      "id": "words-medium-034", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál de estas palabras está formada por dos palabras juntas?" },
+      "choices": [
+        { "es": "Ventana" },
+        { "es": "Rascacielos" },
+        { "es": "Escalera" },
+        { "es": "Semilla" }
+      ],
+      "answer": 1,
+      "why": { "es": "Rascacielos nace de rascar y cielos, y se inventó para nombrar edificios tan altos que parecían rozar las nubes." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/rascacielos"
+    },
+    {
+      "id": "words-medium-035", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word in The turtle walked slowly describes how it walked?" },
+      "choices": [
+        { "en": "Turtle" },
+        { "en": "Walked" },
+        { "en": "Slowly" },
+        { "en": "The" }
+      ],
+      "answer": 2,
+      "why": { "en": "Slowly is an adverb, and the -ly ending grew from an old English word meaning like, so slowly means in a slow way." },
+      "topic": "parts of speech",
+      "source": "https://www.etymonline.com/word/-ly"
+    },
+    {
+      "id": "words-medium-036", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "En la oración «el perro café corre rápido», ¿cuál es el adjetivo?" },
+      "choices": [
+        { "es": "Perro" },
+        { "es": "Corre" },
+        { "es": "Café" },
+        { "es": "Rápido" }
+      ],
+      "answer": 2,
+      "why": { "es": "El adjetivo describe al sustantivo, así que café dice cómo es el perro; rápido aquí explica cómo corre y es adverbio." },
+      "topic": "adjetivos",
+      "source": "https://dle.rae.es/adjetivo"
+    },
+    {
+      "id": "words-medium-037", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "How many syllables does the word elephant have when you say it?" },
+      "choices": [
+        { "en": "Two" },
+        { "en": "Four" },
+        { "en": "Five" },
+        { "en": "Three" }
+      ],
+      "answer": 3,
+      "why": { "en": "El-e-phant has three beats, and every syllable needs one vowel sound, which is why you can count them by clapping." },
+      "topic": "syllables",
+      "source": "https://www.merriam-webster.com/dictionary/syllable"
+    },
+    {
+      "id": "words-medium-038", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "En la oración «Ana dibuja un mapa grande», ¿cuál es el verbo?" },
+      "choices": [
+        { "es": "Ana" },
+        { "es": "Mapa" },
+        { "es": "Grande" },
+        { "es": "Dibuja" }
+      ],
+      "answer": 3,
+      "why": { "es": "El verbo nombra la acción y además marca el tiempo: dibuja ocurre ahora, dibujó ya pasó y dibujará todavía viene." },
+      "topic": "verbos",
+      "source": "https://dle.rae.es/verbo"
+    },
+    {
+      "id": "words-medium-039", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which of these animal names has four syllables?" },
+      "choices": [
+        { "en": "Alligator" },
+        { "en": "Butterfly" },
+        { "en": "Elephant" },
+        { "en": "Kangaroo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Al-li-ga-tor has four beats while the others have three, and alligator came from the Spanish el lagarto, the lizard." },
+      "topic": "syllables",
+      "source": "https://www.etymonline.com/word/alligator"
+    },
+    {
+      "id": "words-medium-040", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál es la sílaba tónica de la palabra ventana?" },
+      "choices": [
+        { "es": "Ta" },
+        { "es": "Ven" },
+        { "es": "Na" },
+        { "es": "Te" }
+      ],
+      "answer": 0,
+      "why": { "es": "Ventana es una palabra grave porque la fuerza cae en la penúltima sílaba, y como termina en vocal se escribe sin tilde." },
+      "topic": "sílaba tónica",
+      "source": "https://dle.rae.es/ventana"
+    },
+    {
+      "id": "words-medium-041", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Every syllable in an English word must contain which thing?" },
+      "choices": [
+        { "en": "A silent letter" },
+        { "en": "A vowel sound" },
+        { "en": "Two consonants" },
+        { "en": "A capital letter" }
+      ],
+      "answer": 1,
+      "why": { "en": "A syllable is built around one vowel sound, so rhythm still has two syllables because the letter y is doing a vowel's job." },
+      "topic": "syllables",
+      "source": "https://www.merriam-webster.com/dictionary/syllable"
+    },
+    {
+      "id": "words-medium-042", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuántas sílabas tiene la palabra murciélago?" },
+      "choices": [
+        { "es": "Tres" },
+        { "es": "Cuatro" },
+        { "es": "Cinco" },
+        { "es": "Seis" }
+      ],
+      "answer": 1,
+      "why": { "es": "Mur-cié-la-go tiene cuatro sílabas y es esdrújula, con la fuerza en la antepenúltima; por eso siempre lleva tilde escrita." },
+      "topic": "sílabas",
+      "source": "https://dle.rae.es/murcielago"
+    },
+    {
+      "id": "words-medium-043", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which of these words comes first in alphabetical order?" },
+      "choices": [
+        { "en": "Camel" },
+        { "en": "Candle" },
+        { "en": "Cactus" },
+        { "en": "Canyon" }
+      ],
+      "answer": 2,
+      "why": { "en": "When two words share letters you compare the next one: cactus has c third, while camel, candle and canyon all have m or n." },
+      "topic": "alphabetical order",
+      "source": "https://kids.britannica.com/kids/article/alphabet/352744"
+    },
+    {
+      "id": "words-medium-044", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cómo se llaman las palabras con la fuerza en la última sílaba?" },
+      "choices": [
+        { "es": "Graves" },
+        { "es": "Esdrújulas" },
+        { "es": "Agudas" },
+        { "es": "Sobresdrújulas" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las agudas se llaman así porque la voz sube al final, como en café, camión, reloj y feliz." },
+      "topic": "acentuación",
+      "source": "https://dle.rae.es/agudo"
+    },
+    {
+      "id": "words-medium-045", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Put in alphabetical order, which of these words comes last?" },
+      "choices": [
+        { "en": "Dolphin" },
+        { "en": "Donkey" },
+        { "en": "Dragon" },
+        { "en": "Drum" }
+      ],
+      "answer": 3,
+      "why": { "en": "Dolphin, donkey, dragon, drum: after the shared d you sort by o before r, then a before u, so drum ends the list." },
+      "topic": "alphabetical order",
+      "source": "https://kids.britannica.com/kids/article/alphabet/352744"
+    },
+    {
+      "id": "words-medium-046", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál de estas palabras va primero en orden alfabético?" },
+      "choices": [
+        { "es": "Cabra" },
+        { "es": "Cacao" },
+        { "es": "Camino" },
+        { "es": "Caballo" }
+      ],
+      "answer": 3,
+      "why": { "es": "Cuando las primeras letras coinciden se compara la siguiente: caballo lleva b y luego a, mientras que cabra lleva b y luego r." },
+      "topic": "orden alfabético",
+      "source": "https://dle.rae.es/abecedario"
+    },
+    {
+      "id": "words-medium-047", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What does a person mean by saying it is raining cats and dogs?" },
+      "choices": [
+        { "en": "It is raining very hard" },
+        { "en": "Animals are playing outside" },
+        { "en": "The storm is ending" },
+        { "en": "The weather is mild" }
+      ],
+      "answer": 0,
+      "why": { "en": "The phrase means a downpour; one idea is that old street gutters overflowed in storms and washed stray animals along." },
+      "topic": "idioms",
+      "source": "https://www.merriam-webster.com/dictionary/rain%20cats%20and%20dogs"
+    },
+    {
+      "id": "words-medium-048", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "Si ordenas estas palabras por orden alfabético, ¿cuál queda al final?" },
+      "choices": [
+        { "es": "Piña" },
+        { "es": "Pera" },
+        { "es": "Perro" },
+        { "es": "Pez" }
+      ],
+      "answer": 0,
+      "why": { "es": "El orden es pera, perro, pez y piña: primero manda la segunda letra, y la i va después de la e." },
+      "topic": "orden alfabético",
+      "source": "https://dle.rae.es/pina"
+    },
+    {
+      "id": "words-medium-049", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "A friend says break a leg before your play. What is wished?" },
+      "choices": [
+        { "en": "A quick rehearsal" },
+        { "en": "Good luck on stage" },
+        { "en": "A longer show" },
+        { "en": "A bigger audience" }
+      ],
+      "answer": 1,
+      "why": { "en": "Theatre people thought wishing good luck aloud would spoil it, so they wished the opposite and the odd phrase stuck." },
+      "topic": "idioms",
+      "source": "https://www.merriam-webster.com/dictionary/break%20a%20leg"
+    },
+    {
+      "id": "words-medium-050", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué quiere decir la expresión «estar en las nubes»?" },
+      "choices": [
+        { "es": "Estar feliz" },
+        { "es": "Estar distraído" },
+        { "es": "Estar cansado" },
+        { "es": "Estar enojado" }
+      ],
+      "answer": 1,
+      "why": { "es": "Es una frase hecha: sus palabras juntas significan algo distinto, y describe a quien piensa en otra cosa mientras le hablan." },
+      "topic": "dichos",
+      "source": "https://dle.rae.es/nube"
+    },
+    {
+      "id": "words-medium-051", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "If a task is called a piece of cake, how is it?" },
+      "choices": [
+        { "en": "Very sweet" },
+        { "en": "Very messy" },
+        { "en": "Very easy" },
+        { "en": "Very long" }
+      ],
+      "answer": 2,
+      "why": { "en": "An idiom means something its words alone would hide, and this one pictures a job as pleasant and quickly finished." },
+      "topic": "idioms",
+      "source": "https://www.merriam-webster.com/dictionary/piece%20of%20cake"
+    },
+    {
+      "id": "words-medium-052", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué aconseja el refrán «al mal tiempo, buena cara»?" },
+      "choices": [
+        { "es": "Guardar silencio" },
+        { "es": "Salir cuando llueve" },
+        { "es": "Enfrentar los problemas con ánimo" },
+        { "es": "Cambiar de casa" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los refranes son consejos antiguos en pocas palabras; este usa el clima como imagen de los ratos difíciles de la vida." },
+      "topic": "refranes",
+      "source": "https://dle.rae.es/refran"
+    },
+    {
+      "id": "words-medium-053", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Someone lets the cat out of the bag. What have they done?" },
+      "choices": [
+        { "en": "Made a mess" },
+        { "en": "Told a joke" },
+        { "en": "Started a game" },
+        { "en": "Given away a secret" }
+      ],
+      "answer": 3,
+      "why": { "en": "The saying means a secret slipped out, and one story traces it to markets where a cat was hidden in a sack." },
+      "topic": "idioms",
+      "source": "https://www.merriam-webster.com/dictionary/let%20the%20cat%20out%20of%20the%20bag"
+    },
+    {
+      "id": "words-medium-054", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "Si alguien «se hace el loco», ¿qué está haciendo?" },
+      "choices": [
+        { "es": "Se ríe mucho" },
+        { "es": "Corre muy rápido" },
+        { "es": "Habla sin parar" },
+        { "es": "Finge que ignora algo" }
+      ],
+      "answer": 3,
+      "why": { "es": "La expresión describe a quien aparenta ignorar algo para evitar una responsabilidad, y se usa en casi toda América Latina." },
+      "topic": "dichos",
+      "source": "https://dle.rae.es/loco"
+    },
+    {
+      "id": "words-medium-055", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "The rhyme says i before e, but e comes first after which letter?" },
+      "choices": [
+        { "en": "C" },
+        { "en": "T" },
+        { "en": "S" },
+        { "en": "R" }
+      ],
+      "answer": 0,
+      "why": { "en": "Receive and ceiling follow the rule, yet weird, their and seize break it, so the rhyme is a hint rather than a law." },
+      "topic": "spelling rules",
+      "source": "https://www.merriam-webster.com/dictionary/receive"
+    },
+    {
+      "id": "words-medium-056", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué letra se escribe siempre antes de la p y la b?" },
+      "choices": [
+        { "es": "La m" },
+        { "es": "La n" },
+        { "es": "La s" },
+        { "es": "La r" }
+      ],
+      "answer": 0,
+      "why": { "es": "Por eso escribimos campo, hombre y también con m; delante de v y de otras letras, en cambio, se usa n." },
+      "topic": "ortografía",
+      "source": "https://dle.rae.es/hombre"
+    },
+    {
+      "id": "words-medium-057", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "When you add -ing to the word run, what happens to the n?" },
+      "choices": [
+        { "en": "It disappears" },
+        { "en": "It doubles" },
+        { "en": "It becomes m" },
+        { "en": "It moves" }
+      ],
+      "answer": 1,
+      "why": { "en": "Short vowel words ending in one consonant double it, so running keeps the u short; hoping and hopping mean different things." },
+      "topic": "spelling rules",
+      "source": "https://www.merriam-webster.com/dictionary/run"
+    },
+    {
+      "id": "words-medium-058", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cómo se escribe correctamente la estación más fría del año?" },
+      "choices": [
+        { "es": "Imvierno" },
+        { "es": "Invierno" },
+        { "es": "Inbierno" },
+        { "es": "Imbierno" }
+      ],
+      "answer": 1,
+      "why": { "es": "Después de la n siempre va v, como en invierno, envío y conversar; después de la m va b, como en hombro." },
+      "topic": "ortografía",
+      "source": "https://dle.rae.es/invierno"
+    },
+    {
+      "id": "words-medium-059", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What do you call a large group of fish swimming together?" },
+      "choices": [
+        { "en": "A flock" },
+        { "en": "A herd" },
+        { "en": "A school" },
+        { "en": "A pack" }
+      ],
+      "answer": 2,
+      "why": { "en": "A school of fish has nothing to do with lessons; the word comes from an old Dutch word meaning a crowd." },
+      "topic": "collective nouns",
+      "source": "https://www.etymonline.com/word/school"
+    },
+    {
+      "id": "words-medium-060", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿De qué nació la letra ñ que usa el español?" },
+      "choices": [
+        { "es": "De una ele doble" },
+        { "es": "De una ge suave" },
+        { "es": "De dos enes seguidas" },
+        { "es": "De una ene con punto" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los copistas medievales escribían nn y ahorraban espacio poniendo una rayita encima; esa rayita se convirtió en la virgulilla de la ñ." },
+      "topic": "la letra ñ",
+      "source": "https://dle.rae.es/ene"
+    },
+    {
+      "id": "words-medium-061", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word names a group of birds flying together?" },
+      "choices": [
+        { "en": "A pod" },
+        { "en": "A herd" },
+        { "en": "A swarm" },
+        { "en": "A flock" }
+      ],
+      "answer": 3,
+      "why": { "en": "Birds move in a flock, whales in a pod, bees in a swarm, and English keeps a separate word for almost every animal." },
+      "topic": "collective nouns",
+      "source": "https://www.merriam-webster.com/dictionary/flock"
+    },
+    {
+      "id": "words-medium-062", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "En la oración «él come fruta», ¿por qué lleva tilde la palabra él?" },
+      "choices": [
+        { "es": "Porque empieza la oración" },
+        { "es": "Porque es un verbo" },
+        { "es": "Porque es un artículo" },
+        { "es": "Porque es un pronombre" }
+      ],
+      "answer": 3,
+      "why": { "es": "Es la tilde diacrítica: distingue palabras iguales, como él y el, tú y tu, sí y si, o té y te." },
+      "topic": "tilde diacrítica",
+      "source": "https://dle.rae.es/tilde"
+    },
+    {
+      "id": "words-medium-063", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which two words are squeezed together to make the contraction won't?" },
+      "choices": [
+        { "en": "Will not" },
+        { "en": "Would not" },
+        { "en": "Want to" },
+        { "en": "Was not" }
+      ],
+      "answer": 0,
+      "why": { "en": "Won't looks odd because it grew from an older form, wol not, and the apostrophe marks the letters that dropped out." },
+      "topic": "contractions",
+      "source": "https://www.etymonline.com/word/won%27t"
+    },
+    {
+      "id": "words-medium-064", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "La palabra papa, escrita sin tilde, ¿qué cosa nombra?" },
+      "choices": [
+        { "es": "Un alimento que crece bajo tierra" },
+        { "es": "Al padre de familia" },
+        { "es": "Una pregunta" },
+        { "es": "Un animal del campo" }
+      ],
+      "answer": 0,
+      "why": { "es": "Papa con tilde en la última a significa padre; sin tilde nombra el tubérculo andino que llegó a Europa desde Perú." },
+      "topic": "tilde diacrítica",
+      "source": "https://dle.rae.es/papa"
+    },
+    {
+      "id": "words-medium-065", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What is the plural of the word goose?" },
+      "choices": [
+        { "en": "Gooses" },
+        { "en": "Geese" },
+        { "en": "Geeses" },
+        { "en": "Goosen" }
+      ],
+      "answer": 1,
+      "why": { "en": "Goose becomes geese by changing its vowel, an ancient pattern that also gives us tooth and teeth, foot and feet." },
+      "topic": "irregular plurals",
+      "source": "https://www.merriam-webster.com/dictionary/goose"
+    },
+    {
+      "id": "words-medium-066", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál es el femenino de la palabra actor?" },
+      "choices": [
+        { "es": "Actora" },
+        { "es": "Actriz" },
+        { "es": "Actoresa" },
+        { "es": "Actoria" }
+      ],
+      "answer": 1,
+      "why": { "es": "Actriz conserva una terminación latina antigua, igual que emperatriz; la mayoría de los oficios solo cambian la o por una a." },
+      "topic": "género",
+      "source": "https://dle.rae.es/actriz"
+    },
+    {
+      "id": "words-medium-067", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which animal name stays the same for one animal or many?" },
+      "choices": [
+        { "en": "Cow" },
+        { "en": "Goat" },
+        { "en": "Sheep" },
+        { "en": "Hen" }
+      ],
+      "answer": 2,
+      "why": { "en": "One sheep, ten sheep: the word holds its shape, and deer, fish and moose behave the same stubborn way in English." },
+      "topic": "irregular plurals",
+      "source": "https://www.merriam-webster.com/dictionary/sheep"
+    },
+    {
+      "id": "words-medium-068", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra cambia de significado según lleve el o la?" },
+      "choices": [
+        { "es": "Mesa" },
+        { "es": "Libro" },
+        { "es": "Capital" },
+        { "es": "Árbol" }
+      ],
+      "answer": 2,
+      "why": { "es": "El capital es el dinero de un negocio y la capital es la ciudad principal de un país; el artículo lo decide todo." },
+      "topic": "género",
+      "source": "https://dle.rae.es/capital"
+    },
+    {
+      "id": "words-medium-069", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which plural changes a vowel inside the word instead of adding s?" },
+      "choices": [
+        { "en": "Cats" },
+        { "en": "Boxes" },
+        { "en": "Trees" },
+        { "en": "Teeth" }
+      ],
+      "answer": 3,
+      "why": { "en": "Teeth swaps the vowel of tooth, a leftover from an old sound change; most English plurals just add an s or es." },
+      "topic": "irregular plurals",
+      "source": "https://www.merriam-webster.com/dictionary/tooth"
+    },
+    {
+      "id": "words-medium-070", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál es el plural de la palabra luz?" },
+      "choices": [
+        { "es": "Luzes" },
+        { "es": "Luzs" },
+        { "es": "Lucez" },
+        { "es": "Luces" }
+      ],
+      "answer": 3,
+      "why": { "es": "Las palabras terminadas en z cambian esa z por c antes de la e, como lápiz y lápices, o pez y peces." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/luz"
+    },
+    {
+      "id": "words-medium-071", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which everyday English word was borrowed from Spanish?" },
+      "choices": [
+        { "en": "Tornado" },
+        { "en": "Table" },
+        { "en": "Window" },
+        { "en": "Garden" }
+      ],
+      "answer": 0,
+      "why": { "en": "English took tornado from Spanish sailors, who mixed tronada, meaning thunderstorm, with tornar, meaning to turn." },
+      "topic": "words from spanish",
+      "source": "https://www.etymonline.com/word/tornado"
+    },
+    {
+      "id": "words-medium-072", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra tiene la misma forma en singular y en plural?" },
+      "choices": [
+        { "es": "Lunes" },
+        { "es": "Libro" },
+        { "es": "Casa" },
+        { "es": "Papel" }
+      ],
+      "answer": 0,
+      "why": { "es": "Decimos el lunes y los lunes sin cambiar la palabra; pasa igual con crisis, tesis y paraguas, que ya terminan en s." },
+      "topic": "plurales",
+      "source": "https://dle.rae.es/lunes"
+    },
+    {
+      "id": "words-medium-073", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "The English word canyon grew from which Spanish word?" },
+      "choices": [
+        { "en": "Camino" },
+        { "en": "Cañón" },
+        { "en": "Campo" },
+        { "en": "Cabaña" }
+      ],
+      "answer": 1,
+      "why": { "en": "Cañón means a big tube, from caña, a reed, and English kept the sound by writing ny in place of the ñ." },
+      "topic": "words from spanish",
+      "source": "https://www.etymonline.com/word/canyon"
+    },
+    {
+      "id": "words-medium-074", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cómo se llama un grupo de peces que nada junto?" },
+      "choices": [
+        { "es": "Una manada" },
+        { "es": "Un cardumen" },
+        { "es": "Un rebaño" },
+        { "es": "Una bandada" }
+      ],
+      "answer": 1,
+      "why": { "es": "Cardumen viene del portugués y en algunos países se dice banco de peces; nadar juntos confunde a quien los persigue." },
+      "topic": "colectivos",
+      "source": "https://dle.rae.es/cardumen"
+    },
+    {
+      "id": "words-medium-075", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word did English borrow from Spanish for an inner courtyard?" },
+      "choices": [
+        { "en": "Attic" },
+        { "en": "Porch" },
+        { "en": "Patio" },
+        { "en": "Balcony" }
+      ],
+      "answer": 2,
+      "why": { "en": "Patio kept its Spanish spelling and meaning when English borrowed it, along with plaza, siesta, rodeo, cafeteria and mosquito." },
+      "topic": "words from spanish",
+      "source": "https://www.etymonline.com/word/patio"
+    },
+    {
+      "id": "words-medium-076", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué nombre recibe un grupo de aves que vuela junto?" },
+      "choices": [
+        { "es": "Un cardumen" },
+        { "es": "Una jauría" },
+        { "es": "Una bandada" },
+        { "es": "Un enjambre" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cada animal tiene su colectivo: bandada para aves, jauría para perros, enjambre para abejas y manada para lobos." },
+      "topic": "colectivos",
+      "source": "https://dle.rae.es/bandada"
+    },
+    {
+      "id": "words-medium-077", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "What is the name for words like buzz and sizzle that copy sounds?" },
+      "choices": [
+        { "en": "Synonym" },
+        { "en": "Metaphor" },
+        { "en": "Alliteration" },
+        { "en": "Onomatopoeia" }
+      ],
+      "answer": 3,
+      "why": { "en": "Onomatopoeia is Greek for name making, and every language invents its own: a dog says woof in English and guau in Spanish." },
+      "topic": "onomatopoeia",
+      "source": "https://www.merriam-webster.com/dictionary/onomatopoeia"
+    },
+    {
+      "id": "words-medium-078", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cómo se llama el conjunto de ovejas que cuida un pastor?" },
+      "choices": [
+        { "es": "Un enjambre" },
+        { "es": "Una bandada" },
+        { "es": "Un cardumen" },
+        { "es": "Un rebaño" }
+      ],
+      "answer": 3,
+      "why": { "es": "Rebaño se usa para ovejas y cabras; manada se reserva para animales salvajes como lobos, elefantes y ballenas." },
+      "topic": "colectivos",
+      "source": "https://dle.rae.es/rebano"
+    },
+    {
+      "id": "words-medium-079", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which of these words reads the same forwards and backwards?" },
+      "choices": [
+        { "en": "Level" },
+        { "en": "Lemon" },
+        { "en": "Later" },
+        { "en": "Lively" }
+      ],
+      "answer": 0,
+      "why": { "en": "Level is a palindrome, and so are noon, kayak and racecar; the word palindrome is Greek for running back again." },
+      "topic": "palindromes",
+      "source": "https://www.merriam-webster.com/dictionary/palindrome"
+    },
+    {
+      "id": "words-medium-080", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿De qué lengua tomó el español la palabra chocolate?" },
+      "choices": [
+        { "es": "Del náhuatl" },
+        { "es": "Del quechua" },
+        { "es": "Del árabe" },
+        { "es": "Del griego" }
+      ],
+      "answer": 0,
+      "why": { "es": "El náhuatl de los mexicas también dio aguacate, coyote, chicle y elote, palabras que se usan en muchísimos lugares del mundo." },
+      "topic": "palabras del náhuatl",
+      "source": "https://dle.rae.es/chocolate"
+    },
+    {
+      "id": "words-medium-081", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "The word alphabet was built from the first letters of which alphabet?" },
+      "choices": [
+        { "en": "Latin" },
+        { "en": "Greek" },
+        { "en": "Arabic" },
+        { "en": "Hebrew" }
+      ],
+      "answer": 1,
+      "why": { "en": "Alpha and beta are the first two Greek letters, so the word alphabet literally means a b, spelled out the Greek way." },
+      "topic": "word origins",
+      "source": "https://www.etymonline.com/word/alphabet"
+    },
+    {
+      "id": "words-medium-082", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál de estas palabras llegó al español desde el quechua?" },
+      "choices": [
+        { "es": "Aceituna" },
+        { "es": "Cóndor" },
+        { "es": "Jirafa" },
+        { "es": "Naranja" }
+      ],
+      "answer": 1,
+      "why": { "es": "Del quechua de los Andes vienen cóndor, papa, llama, pampa y carpa; aceituna, jirafa y naranja llegaron del árabe." },
+      "topic": "palabras del quechua",
+      "source": "https://dle.rae.es/condor"
+    },
+    {
+      "id": "words-medium-083", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "The word dinosaur was made from Greek words meaning what?" },
+      "choices": [
+        { "en": "Ancient bone" },
+        { "en": "Stone beast" },
+        { "en": "Terrible lizard" },
+        { "en": "Giant reptile" }
+      ],
+      "answer": 2,
+      "why": { "en": "Deinos meant fearfully great and sauros meant lizard, a name invented in 1842 when the first fossils were studied." },
+      "topic": "word origins",
+      "source": "https://www.etymonline.com/word/dinosaur"
+    },
+    {
+      "id": "words-medium-084", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué tienen en común almohada, azúcar y aceite?" },
+      "choices": [
+        { "es": "Vienen del latín" },
+        { "es": "Vienen del griego" },
+        { "es": "Vienen del árabe" },
+        { "es": "Vienen del náhuatl" }
+      ],
+      "answer": 2,
+      "why": { "es": "El español conserva unas cuatro mil palabras de origen árabe, huella de casi ocho siglos de convivencia en la península ibérica." },
+      "topic": "palabras del árabe",
+      "source": "https://dle.rae.es/almohada"
+    },
+    {
+      "id": "words-medium-085", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which animal name comes from Greek words meaning river horse?" },
+      "choices": [
+        { "en": "Rhinoceros" },
+        { "en": "Crocodile" },
+        { "en": "Manatee" },
+        { "en": "Hippopotamus" }
+      ],
+      "answer": 3,
+      "why": { "en": "Hippos meant horse and potamos meant river, and rhinoceros from the same language means nose horn." },
+      "topic": "word origins",
+      "source": "https://www.etymonline.com/word/hippopotamus"
+    },
+    {
+      "id": "words-medium-086", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Qué palabra imita el sonido que hace un reloj?" },
+      "choices": [
+        { "es": "Zas" },
+        { "es": "Pum" },
+        { "es": "Crac" },
+        { "es": "Tictac" }
+      ],
+      "answer": 3,
+      "why": { "es": "Las onomatopeyas copian sonidos y cambian según el idioma: el gallo hace quiquiriquí en español y cock-a-doodle-doo en inglés." },
+      "topic": "onomatopeyas",
+      "source": "https://dle.rae.es/tictac"
+    },
+    {
+      "id": "words-medium-087", "level": "medium", "type": "mc", "lang": "en",
+      "q": { "en": "Which word could replace shouted in a story without changing much?" },
+      "choices": [
+        { "en": "Yelled" },
+        { "en": "Whispered" },
+        { "en": "Murmured" },
+        { "en": "Mumbled" }
+      ],
+      "answer": 0,
+      "why": { "en": "Yelled and shouted are synonyms; the other three all mean speaking quietly, which would turn the scene upside down." },
+      "topic": "synonyms",
+      "source": "https://www.merriam-webster.com/thesaurus/shout"
+    },
+    {
+      "id": "words-medium-088", "level": "medium", "type": "mc", "lang": "es",
+      "q": { "es": "¿Cuál de estas palabras se lee igual al derecho y al revés?" },
+      "choices": [
+        { "es": "Reconocer" },
+        { "es": "Rescatar" },
+        { "es": "Recordar" },
+        { "es": "Regresar" }
+      ],
+      "answer": 0,
+      "why": { "es": "Reconocer es un palíndromo, igual que radar, oso y ananá; la palabra viene del griego y significa correr de vuelta." },
+      "topic": "palíndromos",
+      "source": "https://dle.rae.es/palindromo"
+    },
+    {
+      "id": "words-medium-089", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "In the word queue, the four letters after the q are silent." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Queue sounds just like the letter q, and it came into English from French, where it first meant a tail." },
+      "topic": "spelling",
+      "source": "https://www.etymonline.com/word/queue"
+    },
+    {
+      "id": "words-medium-090", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "La palabra tomate llegó al español desde el náhuatl." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "En náhuatl tomatl nombraba el fruto, y del español pasó a casi todos los idiomas del mundo con muy pocos cambios." },
+      "topic": "palabras del náhuatl",
+      "source": "https://dle.rae.es/tomate"
+    },
+    {
+      "id": "words-medium-091", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "The little dot above a lowercase letter i is called a tittle." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tittle means a tiny mark, and scribes added the dot so an i would stand out among crowded handwritten strokes." },
+      "topic": "letters",
+      "source": "https://www.merriam-webster.com/dictionary/tittle"
+    },
+    {
+      "id": "words-medium-092", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "Todas las palabras esdrújulas del español llevan tilde escrita." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "Es la única regla de acentuación sin excepciones: pájaro, música, teléfono y sílaba siempre se escriben con tilde." },
+      "topic": "acentuación",
+      "source": "https://dle.rae.es/esdrujulo"
+    },
+    {
+      "id": "words-medium-093", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "The English word salary comes from the Latin word for salt." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Roman workers received a salarium, an allowance connected with salt, which was precious enough to be worth working for." },
+      "topic": "word origins",
+      "source": "https://www.etymonline.com/word/salary"
+    },
+    {
+      "id": "words-medium-094", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "La letra h del español se escribe pero no se pronuncia." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "En latín la h sí sonaba, pero con los siglos se apagó; solo suena unida a la c, como en chocolate." },
+      "topic": "ortografía",
+      "source": "https://dle.rae.es/h"
+    },
+    {
+      "id": "words-medium-095", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "The plural of the word ox is spelled oxes." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "The plural is oxen, one of the last English words that still take the old -en ending, with children and brethren." },
+      "topic": "irregular plurals",
+      "source": "https://www.merriam-webster.com/dictionary/ox"
+    },
+    {
+      "id": "words-medium-096", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "La palabra águila es femenina, por eso se dice la águila." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "Águila sí es femenina, pero se dice el águila porque empieza con a tónica; en plural vuelve a ser las águilas." },
+      "topic": "género",
+      "source": "https://dle.rae.es/aguila"
+    },
+    {
+      "id": "words-medium-097", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "Every English word contains one of the letters a, e, i, o or u." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "Rhythm, myth and crypt hold no a, e, i, o or u; in those words the letter y carries the vowel sound." },
+      "topic": "vowels",
+      "source": "https://www.merriam-webster.com/dictionary/rhythm"
+    },
+    {
+      "id": "words-medium-098", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "Las palabras agudas siempre llevan tilde escrita." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "Solo la llevan cuando terminan en vocal, en n o en s; por eso reloj y papel se escriben sin tilde." },
+      "topic": "acentuación",
+      "source": "https://dle.rae.es/tilde"
+    },
+    {
+      "id": "words-medium-099", "level": "medium", "type": "tf", "lang": "en",
+      "q": { "en": "A group of lions living together is called a pod." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "Lions live in a pride; a pod is for whales and dolphins, and a pride of lions is led by related lionesses." },
+      "topic": "collective nouns",
+      "source": "https://www.merriam-webster.com/dictionary/pride"
+    },
+    {
+      "id": "words-medium-100", "level": "medium", "type": "tf", "lang": "es",
+      "q": { "es": "La palabra sacapuntas está formada por tres palabras distintas." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "Sacapuntas une solo dos: el verbo sacar y el sustantivo puntas, igual que cumpleaños junta cumple y años." },
+      "topic": "palabras compuestas",
+      "source": "https://dle.rae.es/sacapuntas"
     }
   ]
 }

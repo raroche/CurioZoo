@@ -2722,6 +2722,904 @@
       "why": { "en": "Franklin Chang Díaz grew up in Costa Rica and later designed a plasma engine for future trips to Mars.", "es": "Franklin Chang Díaz creció en Costa Rica y después diseñó un motor de plasma para futuros viajes a Marte." },
       "topic": "latin american space",
       "source": "https://kids.britannica.com/students/article/Franklin-Chang-Diaz/273906"
+    },
+    {
+      "id": "space-hard-004", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Why did the four inner planets end up rocky while the outer four grew huge and gassy?", "es": "¿Por qué los cuatro planetas interiores quedaron rocosos y los cuatro exteriores crecieron enormes y gaseosos?" },
+      "choices": [
+        { "en": "The young Sun's heat drove the light gases outward", "es": "El calor del Sol joven empujó los gases ligeros hacia afuera" },
+        { "en": "The inner planets spin much faster", "es": "Los planetas interiores giran mucho más rápido" },
+        { "en": "The outer planets formed much later", "es": "Los planetas exteriores se formaron mucho después" },
+        { "en": "Jupiter's gravity pulled the rock inward", "es": "La gravedad de Júpiter jaló la roca hacia adentro" }
+      ],
+      "answer": 0,
+      "why": { "en": "Near the Sun only metal and rock could stay solid; ice and gas survived far out, where the giant planets grew.", "es": "Cerca del Sol solo el metal y la roca seguían sólidos; el hielo y el gas sobrevivieron lejos, donde crecieron los gigantes." },
+      "topic": "inner planets",
+      "source": "https://science.nasa.gov/solar-system/"
+    },
+    {
+      "id": "space-hard-005", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧲",
+      "q": { "en": "About how much of the volume of Mercury is taken up by its iron core?", "es": "¿Qué parte del volumen de Mercurio ocupa su núcleo de hierro?" },
+      "choices": [
+        { "en": "About 15 percent", "es": "Cerca del 15 por ciento" },
+        { "en": "About 55 percent", "es": "Cerca del 55 por ciento" },
+        { "en": "About 30 percent", "es": "Cerca del 30 por ciento" },
+        { "en": "About 80 percent", "es": "Cerca del 80 por ciento" }
+      ],
+      "answer": 1,
+      "why": { "en": "Mercury's iron core fills about 55 percent of its volume, against 17 percent for Earth, which is why it is so dense.", "es": "El núcleo de hierro de Mercurio ocupa el 55 por ciento de su volumen, contra el 17 de la Tierra. Por eso pesa tanto." },
+      "topic": "mercury",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "id": "space-hard-006", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌡️",
+      "q": { "en": "What keeps Venus hotter than Mercury even though Mercury orbits much closer to the Sun?", "es": "¿Qué mantiene a Venus más caliente que Mercurio si Mercurio orbita mucho más cerca del Sol?" },
+      "choices": [
+        { "en": "It spins backwards on its axis", "es": "Gira al revés sobre su eje" },
+        { "en": "Its surface is covered in glowing lava", "es": "Su superficie está cubierta de lava brillante" },
+        { "en": "Its thick carbon dioxide air traps the heat", "es": "Su aire espeso de dióxido de carbono atrapa el calor" },
+        { "en": "It sits nearer the asteroid belt", "es": "Está más cerca del cinturón de asteroides" }
+      ],
+      "answer": 2,
+      "why": { "en": "Venus holds a runaway greenhouse effect: its dense carbon dioxide blanket traps heat until the ground reaches about 465 °C, 870 °F.", "es": "Venus sufre un efecto invernadero desbocado: su manta densa de dióxido de carbono atrapa el calor hasta unos 465 °C, 870 °F." },
+      "topic": "venus",
+      "source": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    {
+      "id": "space-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "On the surface of Venus the air presses as hard as ocean water at about what depth?", "es": "En la superficie de Venus, ¿a qué profundidad del océano equivale la presión del aire?" },
+      "choices": [
+        { "en": "About 9 m, 30 ft", "es": "Unos 9 m, 30 pies" },
+        { "en": "About 90 m, 300 ft", "es": "Unos 90 m, 300 pies" },
+        { "en": "About 9000 m, 30,000 ft", "es": "Unos 9000 m, 30,000 pies" },
+        { "en": "About 900 m, 3000 ft", "es": "Unos 900 m, 3000 pies" }
+      ],
+      "answer": 3,
+      "why": { "en": "Surface pressure on Venus is about 92 times Earth's, the same squeeze a diver would feel roughly 900 metres underwater.", "es": "La presión en la superficie de Venus es unas 92 veces la de la Tierra, como la que siente un buzo a 900 metros." },
+      "topic": "venus",
+      "source": "https://science.nasa.gov/venus/"
+    },
+    {
+      "id": "space-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "💧",
+      "q": { "en": "Why would a puddle on Mars boil away even while the temperature stays below freezing?", "es": "¿Por qué un charco en Marte herviría aunque la temperatura siga bajo cero?" },
+      "choices": [
+        { "en": "Its air pressure is under one percent of Earth's", "es": "Su presión de aire es menos del uno por ciento de la terrestre" },
+        { "en": "Its soil is packed with perchlorate salts", "es": "Su suelo está lleno de sales de perclorato" },
+        { "en": "The solar wind heats the ground directly", "es": "El viento solar calienta el suelo directamente" },
+        { "en": "Its core stopped making a magnetic field", "es": "Su núcleo dejó de generar un campo magnético" }
+      ],
+      "answer": 0,
+      "why": { "en": "At about 6 millibars water skips being liquid and turns straight to vapour, a change called sublimation, which keeps the gullies dry.", "es": "Con unos 6 milibares la presión es tan baja que el agua pasa directo a vapor, un cambio llamado sublimación." },
+      "topic": "mars",
+      "source": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "id": "space-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "Why could Olympus Mons on Mars grow far taller than any volcano on Earth?", "es": "¿Por qué el Monte Olimpo de Marte pudo crecer mucho más alto que cualquier volcán terrestre?" },
+      "choices": [
+        { "en": "Martian rock weighs far less than Earth rock", "es": "La roca marciana pesa mucho menos que la terrestre" },
+        { "en": "Mars lacks moving plates, so lava piled on one spot", "es": "Marte carece de placas móviles y la lava se apiló en un solo punto" },
+        { "en": "Mars spins fast enough to bulge its crust", "es": "Marte gira tan rápido que abulta su corteza" },
+        { "en": "Its stronger gravity squeezed the peak upward", "es": "Su gravedad más fuerte empujó la cima hacia arriba" }
+      ],
+      "answer": 1,
+      "why": { "en": "On Earth a drifting plate slides a hotspot into a chain of islands; Mars holds still, so one shield volcano keeps growing.", "es": "En la Tierra una placa móvil convierte un punto caliente en una cadena de islas; Marte está quieto y el volcán sigue creciendo." },
+      "topic": "mars",
+      "source": "https://science.nasa.gov/resource/olympus-mons/"
+    },
+    {
+      "id": "space-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "About how much more mass would Jupiter need before it could shine as a star?", "es": "¿Cuánta masa más necesitaría Júpiter para poder brillar como una estrella?" },
+      "choices": [
+        { "en": "About 80 times more", "es": "Unas 80 veces más" },
+        { "en": "About 5 times more", "es": "Unas 5 veces más" },
+        { "en": "About 20 times more", "es": "Unas 20 veces más" },
+        { "en": "About 1000 times more", "es": "Unas 1000 veces más" }
+      ],
+      "answer": 0,
+      "why": { "en": "Hydrogen fusion begins near 80 Jupiter masses; below that a body only glows faintly, which is what a brown dwarf does.", "es": "La fusión del hidrógeno empieza cerca de 80 masas de Júpiter; por debajo el cuerpo solo brilla poco, como una enana marrón." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    {
+      "id": "space-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚡",
+      "q": { "en": "What strange form does hydrogen take deep inside Jupiter, where the pressure is crushing?", "es": "¿Qué forma extraña toma el hidrógeno en el interior profundo de Júpiter, donde la presión es aplastante?" },
+      "choices": [
+        { "en": "A powder of frozen crystals", "es": "Un polvo de cristales congelados" },
+        { "en": "A clear glassy solid", "es": "Un sólido transparente como vidrio" },
+        { "en": "A liquid metal that carries electricity", "es": "Un metal líquido que conduce electricidad" },
+        { "en": "A thick sticky tar", "es": "Un alquitrán espeso y pegajoso" }
+      ],
+      "answer": 2,
+      "why": { "en": "Squeezed hard enough, hydrogen loses hold of its electrons and flows like liquid metal, and that churning ocean powers Jupiter's magnetic field.", "es": "Bajo una presión enorme el hidrógeno suelta sus electrones y fluye como metal líquido; ese océano genera el campo magnético de Júpiter." },
+      "topic": "jupiter",
+      "source": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    {
+      "id": "space-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌋",
+      "q": { "en": "What keeps Io erupting while its neighbour Callisto stays cold and quiet?", "es": "¿Qué mantiene a Ío en erupción mientras su vecina Calisto sigue fría y tranquila?" },
+      "choices": [
+        { "en": "Radioactive rock in its core", "es": "Roca radiactiva en su núcleo" },
+        { "en": "Sunlight focused by the clouds of Jupiter", "es": "Luz solar concentrada por las nubes de Júpiter" },
+        { "en": "A collision that melted its inside", "es": "Un choque que derritió su interior" },
+        { "en": "Tidal squeezing by the gravity of Jupiter", "es": "El apretón de marea de la gravedad de Júpiter" }
+      ],
+      "answer": 3,
+      "why": { "en": "Io is pulled into different shapes as it orbits, and the constant kneading heats its rock enough to feed hundreds of volcanoes.", "es": "Ío cambia de forma mientras gira, y ese amasado constante calienta su roca lo suficiente para alimentar cientos de volcanes activos." },
+      "topic": "moons of jupiter",
+      "source": "https://science.nasa.gov/jupiter/moons/io/"
+    },
+    {
+      "id": "space-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Which clue first told scientists that Europa hides a salty ocean under its ice?", "es": "¿Qué pista les dijo primero a los científicos que Europa esconde un océano salado bajo su hielo?" },
+      "choices": [
+        { "en": "A wobble in its magnetic field as Jupiter's field sweeps by", "es": "Un bamboleo en su campo magnético cuando pasa el campo de Júpiter" },
+        { "en": "Radar echoes bouncing off the ocean floor", "es": "Ecos de radar rebotando en el fondo del océano" },
+        { "en": "The slow wobble of the moon as it spins", "es": "El bamboleo lento de la luna mientras gira" },
+        { "en": "Salt crystals found floating in its thin air", "es": "Cristales de sal flotando en su aire delgado" }
+      ],
+      "answer": 0,
+      "why": { "en": "A conducting salty ocean makes its own field when Jupiter's field passes, and the Galileo spacecraft measured exactly that signal.", "es": "Un océano salado conduce electricidad y genera su propio campo cuando pasa el de Júpiter; la nave Galileo midió justo esa señal." },
+      "topic": "moons of jupiter",
+      "source": "https://science.nasa.gov/jupiter/moons/europa/"
+    },
+    {
+      "id": "space-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌧️",
+      "q": { "en": "On Titan, which liquid falls as rain and fills the lakes near its north pole?", "es": "En Titán, ¿qué líquido cae como lluvia y llena los lagos cerca de su polo norte?" },
+      "choices": [
+        { "en": "Liquid nitrogen", "es": "Nitrógeno líquido" },
+        { "en": "Methane", "es": "Metano" },
+        { "en": "Ammonia", "es": "Amoniaco" },
+        { "en": "Sulfuric acid", "es": "Ácido sulfúrico" }
+      ],
+      "answer": 1,
+      "why": { "en": "Titan sits near minus 179 °C, minus 290 °F, cold enough for methane to rain, carve rivers and pool into lakes.", "es": "Titán está a unos 179 °C bajo cero, 290 °F bajo cero, y con ese frío el metano llueve y forma ríos." },
+      "topic": "moons of saturn",
+      "source": "https://science.nasa.gov/saturn/moons/titan/"
+    },
+    {
+      "id": "space-hard-015", "level": "hard", "type": "mc", "lang": "both", "emoji": "💨",
+      "q": { "en": "Which small moon of Saturn sprays icy jets from cracks near its south pole?", "es": "¿Cuál luna pequeña de Saturno lanza chorros de hielo por grietas cerca de su polo sur?" },
+      "choices": [
+        { "en": "Mimas", "es": "Mimas" },
+        { "en": "Iapetus", "es": "Jápeto" },
+        { "en": "Enceladus", "es": "Encélado" },
+        { "en": "Rhea", "es": "Rea" }
+      ],
+      "answer": 2,
+      "why": { "en": "Enceladus feeds the faint E ring of Saturn with the ice it throws out, and its plumes carry salt from an ocean below.", "es": "Encélado alimenta el tenue anillo E de Saturno con el hielo que lanza, y sus chorros llevan sal de un océano interior." },
+      "topic": "moons of saturn",
+      "source": "https://science.nasa.gov/saturn/moons/enceladus/"
+    },
+    {
+      "id": "space-hard-016", "level": "hard", "type": "mc", "lang": "both", "emoji": "💍",
+      "q": { "en": "Why do the ring particles of Saturn stay spread out instead of clumping into one moon?", "es": "¿Por qué las partículas de los anillos de Saturno siguen dispersas en vez de juntarse en una luna?" },
+      "choices": [
+        { "en": "The ring is too cold for ice to stick", "es": "El anillo está demasiado frío para que el hielo se pegue" },
+        { "en": "The tidal pull of Saturn beats the chunks' own gravity", "es": "La marea de Saturno vence a la gravedad propia de los trozos" },
+        { "en": "The pieces spin too slowly to gather", "es": "Los pedazos giran demasiado lento para juntarse" },
+        { "en": "Sunlight pushes the pieces apart", "es": "La luz del Sol separa los pedazos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Inside a boundary called the Roche limit, a planet's tug stretches any growing lump apart faster than gravity can pull it together.", "es": "Dentro de un borde llamado límite de Roche, la fuerza del planeta estira cualquier grumo más rápido de lo que la gravedad lo junta." },
+      "topic": "planetary rings",
+      "source": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "id": "space-hard-017", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔷",
+      "q": { "en": "What shape does the long-lived cloud pattern at the north pole of Saturn trace?", "es": "¿Qué figura dibuja el patrón de nubes que dura años en el polo norte de Saturno?" },
+      "choices": [
+        { "en": "A triangle", "es": "Un triángulo" },
+        { "en": "A spiral", "es": "Una espiral" },
+        { "en": "A square", "es": "Un cuadrado" },
+        { "en": "A hexagon", "es": "Un hexágono" }
+      ],
+      "answer": 3,
+      "why": { "en": "A jet stream weaving between faster and slower winds locks into six straight sides, a pattern wide enough to swallow four Earths.", "es": "Una corriente en chorro entre vientos rápidos y lentos se acomoda en seis lados rectos, tan ancha que cabrían cuatro Tierras." },
+      "topic": "saturn",
+      "source": "https://science.nasa.gov/resource/saturns-hexagon/"
+    },
+    {
+      "id": "space-hard-018", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔵",
+      "q": { "en": "Uranus takes about 84 Earth years to circle the Sun, so each pole gets roughly 42 years of sunlight.", "es": "Urano tarda unos 84 años terrestres en rodear el Sol, así que cada polo recibe unos 42 años de luz." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Because the planet lies on its side, one pole faces the Sun for about 42 years while the other sits in darkness.", "es": "Como el planeta está acostado, un polo mira al Sol unos 42 años mientras el otro queda en plena oscuridad." },
+      "topic": "uranus",
+      "source": "https://science.nasa.gov/uranus/uranus-facts/"
+    },
+    {
+      "id": "space-hard-019", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌀",
+      "q": { "en": "Which large moon circles its planet backwards, hinting that it was captured long ago?", "es": "¿Cuál luna grande gira al revés alrededor de su planeta, señal de que fue capturada hace mucho?" },
+      "choices": [
+        { "en": "Triton, at Neptune", "es": "Tritón, en Neptuno" },
+        { "en": "Titan, at Saturn", "es": "Titán, en Saturno" },
+        { "en": "Ganymede, at Jupiter", "es": "Ganimedes, en Júpiter" },
+        { "en": "Rhea, at Saturn", "es": "Rea, en Saturno" }
+      ],
+      "answer": 0,
+      "why": { "en": "Triton orbits against the spin of Neptune, so astronomers think it began as a Kuiper belt world that the planet caught.", "es": "Tritón gira al revés que Neptuno, así que los astrónomos creen que fue un mundo del cinturón de Kuiper capturado por el planeta." },
+      "topic": "neptune",
+      "source": "https://science.nasa.gov/neptune/moons/triton/"
+    },
+    {
+      "id": "space-hard-020", "level": "hard", "type": "tf", "lang": "both", "emoji": "🛬",
+      "q": { "en": "A spacecraft could land on the solid surface of Jupiter if it survived the heat.", "es": "Una nave podría aterrizar en la superficie sólida de Júpiter si aguantara el calor." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "The gas of Jupiter thickens smoothly into liquid with no ground anywhere, so a probe sinks and is crushed instead of landing.", "es": "El gas de Júpiter se vuelve líquido poco a poco y no hay suelo, así que una sonda se hunde y queda aplastada." },
+      "topic": "gas giants",
+      "source": "https://science.nasa.gov/jupiter/"
+    },
+    {
+      "id": "space-hard-021", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧊",
+      "q": { "en": "Why do astronomers group Uranus and Neptune apart from Jupiter and Saturn?", "es": "¿Por qué los astrónomos agrupan a Urano y Neptuno aparte de Júpiter y Saturno?" },
+      "choices": [
+        { "en": "They spin in the opposite direction to the Sun", "es": "Giran en sentido contrario al Sol" },
+        { "en": "They formed much later than the other planets", "es": "Se formaron mucho después que los demás planetas" },
+        { "en": "They hold far more water, ammonia and methane ice", "es": "Guardan mucho más hielo de agua, amoniaco y metano" },
+        { "en": "They are mostly solid rock like Earth", "es": "Son casi pura roca sólida como la Tierra" }
+      ],
+      "answer": 2,
+      "why": { "en": "Jupiter and Saturn are mostly hydrogen and helium; Uranus and Neptune carry a thick slushy mantle of ices, so they are called ice giants.", "es": "Júpiter y Saturno son casi puro hidrógeno y helio; Urano y Neptuno guardan un manto espeso de hielos y por eso son gigantes helados." },
+      "topic": "ice giants",
+      "source": "https://science.nasa.gov/neptune/neptune-facts/"
+    },
+    {
+      "id": "space-hard-022", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "What will happen to Phobos as it spirals closer to Mars over millions of years?", "es": "¿Qué le pasará a Fobos mientras baja en espiral hacia Marte durante millones de años?" },
+      "choices": [
+        { "en": "It will settle into a steady orbit", "es": "Se acomodará en una órbita estable" },
+        { "en": "It will break apart and may form a ring", "es": "Se romperá y podría formar un anillo" },
+        { "en": "It will escape into the asteroid belt", "es": "Escapará hacia el cinturón de asteroides" },
+        { "en": "It will merge with Deimos", "es": "Se unirá con Deimos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Phobos falls about two centimetres closer each year, and the pull of Mars will finally tear it into a ring of rubble.", "es": "Fobos se acerca unos dos centímetros cada año, y al final la fuerza de Marte lo romperá en un anillo de escombros." },
+      "topic": "moons of mars",
+      "source": "https://science.nasa.gov/mars/moons/phobos/"
+    },
+    {
+      "id": "space-hard-023", "level": "hard", "type": "mc", "lang": "both", "emoji": "❄️",
+      "q": { "en": "Which surprise did radar find hiding in permanently shadowed craters of Mercury?", "es": "¿Qué sorpresa encontró el radar escondida en los cráteres siempre en sombra de Mercurio?" },
+      "choices": [
+        { "en": "Frozen water", "es": "Agua congelada" },
+        { "en": "Pools of liquid iron", "es": "Charcos de hierro líquido" },
+        { "en": "Fields of glass beads", "es": "Campos de esferas de vidrio" },
+        { "en": "Drifts of frozen carbon dioxide", "es": "Montones de dióxido de carbono congelado" }
+      ],
+      "answer": 0,
+      "why": { "en": "Some crater floors at the poles never see sunlight, so they stay below minus 170 °C, minus 280 °F, and keep ice frozen.", "es": "Algunos cráteres polares jamás reciben luz, así que se quedan bajo 170 °C bajo cero, 280 °F bajo cero, y conservan hielo." },
+      "topic": "mercury",
+      "source": "https://science.nasa.gov/mercury/facts/"
+    },
+    {
+      "id": "space-hard-024", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "About what share of the total mass of the solar system sits in the Sun alone?", "es": "¿Qué parte de toda la masa del sistema solar está solo en el Sol?" },
+      "choices": [
+        { "en": "About 70 percent", "es": "Cerca del 70 por ciento" },
+        { "en": "About 85 percent", "es": "Cerca del 85 por ciento" },
+        { "en": "About 95 percent", "es": "Cerca del 95 por ciento" },
+        { "en": "More than 99 percent", "es": "Más del 99 por ciento" }
+      ],
+      "answer": 3,
+      "why": { "en": "The Sun holds about 99.8 percent of all the matter here, and Jupiter takes most of the small slice that remains.", "es": "El Sol guarda cerca del 99.8 por ciento de toda la materia del sistema, y Júpiter se lleva casi todo lo que sobra." },
+      "topic": "the solar system",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-hard-025", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔁",
+      "q": { "en": "Why does Mars sometimes appear to loop backwards against the stars for weeks?", "es": "¿Por qué Marte a veces parece hacer un rizo hacia atrás entre las estrellas durante semanas?" },
+      "choices": [
+        { "en": "Mars truly reverses its orbit", "es": "Marte de verdad invierte su órbita" },
+        { "en": "Earth overtakes it on a faster inner orbit", "es": "La Tierra lo rebasa por una órbita interior más rápida" },
+        { "en": "Its moons tug it off course", "es": "Sus lunas lo desvían del camino" },
+        { "en": "Sunlight bends as it passes the Sun", "es": "La luz se dobla al pasar cerca del Sol" }
+      ],
+      "answer": 1,
+      "why": { "en": "Earth moves faster, so as we pass Mars it seems to slide backwards, the same way a slower car appears to drift back.", "es": "La Tierra va más rápido, y al rebasar a Marte parece que retrocede, igual que un carro lento visto desde otro carro." },
+      "topic": "orbits",
+      "source": "https://www.britannica.com/science/retrograde-motion"
+    },
+    {
+      "id": "space-hard-026", "level": "hard", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which test does Pluto fail in the definition of a planet agreed in 2006?", "es": "¿Qué prueba reprueba Plutón en la definición de planeta acordada en 2006?" },
+      "choices": [
+        { "en": "It is too small to pull itself round", "es": "Es demasiado pequeño para volverse redondo" },
+        { "en": "It orbits Neptune rather than the Sun", "es": "Orbita a Neptuno en vez de al Sol" },
+        { "en": "It has yet to clear its orbital path", "es": "Aún le falta despejar su camino orbital" },
+        { "en": "It has too many moons of its own", "es": "Tiene demasiadas lunas propias" }
+      ],
+      "answer": 2,
+      "why": { "en": "A planet must orbit the Sun, be round, and sweep its path clear; Pluto shares its lane with countless Kuiper belt bodies.", "es": "Un planeta debe girar alrededor del Sol, ser redondo y despejar su órbita; Plutón comparte su camino con miles de cuerpos del Kuiper." },
+      "topic": "dwarf planet rules",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/"
+    },
+    {
+      "id": "space-hard-027", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚪",
+      "q": { "en": "Which dwarf planet lies inside the asteroid belt and holds ice beneath its crust?", "es": "¿Cuál planeta enano está dentro del cinturón de asteroides y guarda hielo bajo su corteza?" },
+      "choices": [
+        { "en": "Ceres", "es": "Ceres" },
+        { "en": "Eris", "es": "Eris" },
+        { "en": "Makemake", "es": "Makemake" },
+        { "en": "Haumea", "es": "Haumea" }
+      ],
+      "answer": 0,
+      "why": { "en": "Ceres is about 940 km, 580 miles wide, and bright salty patches in Occator crater show briny water once reached the surface.", "es": "Ceres mide unos 940 km, 580 millas de ancho, y las manchas brillantes del cráter Occator muestran que subió agua salada." },
+      "topic": "dwarf planets",
+      "source": "https://science.nasa.gov/dwarf-planets/ceres/"
+    },
+    {
+      "id": "space-hard-028", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "How does the combined mass of the whole asteroid belt compare with our Moon?", "es": "¿Cómo se compara la masa junta de todo el cinturón de asteroides con nuestra Luna?" },
+      "choices": [
+        { "en": "It is about ten times the Moon", "es": "Es unas diez veces la Luna" },
+        { "en": "It is roughly four percent of the Moon", "es": "Es cerca del cuatro por ciento de la Luna" },
+        { "en": "It is about the same as the Moon", "es": "Es casi igual que la Luna" },
+        { "en": "It is about half the Moon", "es": "Es como la mitad de la Luna" }
+      ],
+      "answer": 1,
+      "why": { "en": "Films show a crowded field, but the belt is mostly empty: spacecraft fly straight through, and Ceres alone holds a third of its mass.", "es": "Las películas lo pintan lleno, pero el cinturón está casi vacío: las naves lo cruzan derecho y Ceres tiene un tercio de su masa." },
+      "topic": "asteroid belt",
+      "source": "https://science.nasa.gov/solar-system/asteroids/"
+    },
+    {
+      "id": "space-hard-029", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧭",
+      "q": { "en": "Where does the Kuiper belt begin, measured out from the Sun?", "es": "¿Dónde empieza el cinturón de Kuiper, medido desde el Sol?" },
+      "choices": [
+        { "en": "Just past Mars, near 2 astronomical units", "es": "Pasando Marte, cerca de 2 unidades astronómicas" },
+        { "en": "Between Jupiter and Saturn", "es": "Entre Júpiter y Saturno" },
+        { "en": "Just inside the orbit of Uranus", "es": "Justo dentro de la órbita de Urano" },
+        { "en": "Beyond Neptune, near 30 astronomical units", "es": "Más allá de Neptuno, cerca de 30 unidades astronómicas" }
+      ],
+      "answer": 3,
+      "why": { "en": "One astronomical unit is the Earth to Sun distance, so this ring of icy leftovers begins about thirty times farther out than we are.", "es": "Una unidad astronómica es la distancia de la Tierra al Sol, así que ese anillo de hielos empieza unas treinta veces más lejos." },
+      "topic": "kuiper belt",
+      "source": "https://science.nasa.gov/solar-system/kuiper-belt/"
+    },
+    {
+      "id": "space-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌌",
+      "q": { "en": "Which distant shell of icy bodies is thought to send us long-period comets?", "es": "¿Cuál caparazón lejano de cuerpos helados nos manda los cometas de periodo largo?" },
+      "choices": [
+        { "en": "The Kuiper belt", "es": "El cinturón de Kuiper" },
+        { "en": "The asteroid belt", "es": "El cinturón de asteroides" },
+        { "en": "The Oort cloud", "es": "La nube de Oort" },
+        { "en": "The heliosphere", "es": "La heliosfera" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Oort cloud is a huge spherical swarm perhaps a thousand times farther than Neptune, and a passing star can nudge one inward.", "es": "La nube de Oort es un enjambre esférico quizá mil veces más lejos que Neptuno, y una estrella que pasa puede empujar un cometa." },
+      "topic": "oort cloud",
+      "source": "https://science.nasa.gov/solar-system/oort-cloud/"
+    },
+    {
+      "id": "space-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "☄️",
+      "q": { "en": "How many separate tails does a bright comet usually show as it rounds the Sun?", "es": "¿Cuántas colas distintas suele mostrar un cometa brillante al rodear el Sol?" },
+      "choices": [
+        { "en": "Two, one of dust and one of gas", "es": "Dos, una de polvo y otra de gas" },
+        { "en": "One, always made of dust", "es": "Una, siempre de polvo" },
+        { "en": "Three, of dust, gas and rock", "es": "Tres, de polvo, gas y roca" },
+        { "en": "Four, one for each direction", "es": "Cuatro, una por cada dirección" }
+      ],
+      "answer": 0,
+      "why": { "en": "Sunlight pushes a curved dust tail, while the solar wind blows a straight blue ion tail of glowing charged gas.", "es": "La luz del Sol empuja una cola curva de polvo, y el viento solar sopla una cola azul recta de gas cargado." },
+      "topic": "comets",
+      "source": "https://science.nasa.gov/solar-system/comets/"
+    },
+    {
+      "id": "space-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "💫",
+      "q": { "en": "What is the glowing cloud of gas around the icy core of a comet called?", "es": "¿Cómo se llama la nube brillante de gas alrededor del núcleo helado de un cometa?" },
+      "choices": [
+        { "en": "The corona", "es": "La corona" },
+        { "en": "The coma", "es": "La coma" },
+        { "en": "The halo", "es": "El halo" },
+        { "en": "The photosphere", "es": "La fotosfera" }
+      ],
+      "answer": 1,
+      "why": { "en": "As ice turns straight to gas it forms a coma that can swell wider than Jupiter around a nucleus only kilometres across.", "es": "Al pasar el hielo directo a gas se forma una coma que puede ser más ancha que Júpiter, alrededor de un núcleo diminuto." },
+      "topic": "comets",
+      "source": "https://www.britannica.com/science/coma-astronomy"
+    },
+    {
+      "id": "space-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "🛰️",
+      "q": { "en": "Which spacecraft dropped a small lander onto a comet in 2014?", "es": "¿Cuál nave dejó un pequeño módulo sobre un cometa en 2014?" },
+      "choices": [
+        { "en": "Stardust", "es": "Stardust" },
+        { "en": "Deep Impact", "es": "Deep Impact" },
+        { "en": "Rosetta", "es": "Rosetta" },
+        { "en": "Giotto", "es": "Giotto" }
+      ],
+      "answer": 2,
+      "why": { "en": "Rosetta chased comet 67P for ten years, then released the washing machine sized lander Philae onto its dusty, rubbly surface.", "es": "Rosetta persiguió al cometa 67P durante diez años y luego soltó a Philae, un módulo del tamaño de una lavadora." },
+      "topic": "comet missions",
+      "source": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta"
+    },
+    {
+      "id": "space-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪨",
+      "q": { "en": "Which clue tells a scientist that a heavy black stone fell from space?", "es": "¿Qué pista le dice a un científico que una piedra negra y pesada cayó del espacio?" },
+      "choices": [
+        { "en": "It is lighter than a stone of the same size", "es": "Pesa menos que una piedra del mismo tamaño" },
+        { "en": "It gives off a faint green glow", "es": "Despide un brillo verde tenue" },
+        { "en": "It dissolves slowly in rainwater", "es": "Se disuelve despacio en agua de lluvia" },
+        { "en": "It has a glassy crust and nickel iron metal inside", "es": "Tiene una costra vidriosa y metal de hierro con níquel adentro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Friction melts a thin skin during the fall, and most meteorites carry nickel bearing iron, a mixture almost unknown in Earth rocks.", "es": "La fricción derrite una capa fina durante la caída, y casi todos traen hierro con níquel, una mezcla rarísima en rocas terrestres." },
+      "topic": "meteorites",
+      "source": "https://www.britannica.com/science/meteorite"
+    },
+    {
+      "id": "space-hard-035", "level": "hard", "type": "tf", "lang": "both", "emoji": "💥",
+      "q": { "en": "The asteroid belt is the wreckage of a planet that broke apart long ago.", "es": "El cinturón de asteroides son los restos de un planeta que se partió hace mucho tiempo." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "The gravity of Jupiter kept the chunks moving too fast to stick together, so the belt holds original building blocks instead.", "es": "La gravedad de Júpiter mantuvo los trozos tan veloces que jamás se unieron, así que el cinturón guarda materiales originales." },
+      "topic": "asteroid belt",
+      "source": "https://science.nasa.gov/solar-system/asteroids/facts/"
+    },
+    {
+      "id": "space-hard-036", "level": "hard", "type": "tf", "lang": "both", "emoji": "🔄",
+      "q": { "en": "For part of its orbit Pluto travels closer to the Sun than Neptune does.", "es": "Durante parte de su órbita Plutón viaja más cerca del Sol que Neptuno." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "The stretched orbit of Pluto carried it inside the path of Neptune from 1979 to 1999, and a locked rhythm keeps them apart.", "es": "La órbita alargada de Plutón lo metió dentro del camino de Neptuno de 1979 a 1999, pero un ritmo de tres a dos los separa." },
+      "topic": "dwarf planets",
+      "source": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    },
+    {
+      "id": "space-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌑",
+      "q": { "en": "Why does a solar eclipse skip most new moons instead of happening every month?", "es": "¿Por qué un eclipse solar se salta casi todas las lunas nuevas en vez de ocurrir cada mes?" },
+      "choices": [
+        { "en": "The orbit of the Moon is tilted about five degrees", "es": "La órbita de la Luna está inclinada unos cinco grados" },
+        { "en": "The Moon travels too fast that week", "es": "La Luna viaja demasiado rápido esa semana" },
+        { "en": "The shadow of Earth gets in the way", "es": "La sombra de la Tierra se interpone" },
+        { "en": "The Sun shines too brightly to be covered", "es": "El Sol brilla demasiado para ser tapado" }
+      ],
+      "answer": 0,
+      "why": { "en": "The tilted orbit usually carries the Moon above or below the Sun, so the shadow lands only when the paths cross at a node.", "es": "La órbita inclinada suele llevar la Luna arriba o abajo del Sol; la sombra cae solo cuando los caminos se cruzan en un nodo." },
+      "topic": "eclipse geometry",
+      "source": "https://science.nasa.gov/eclipses/faq/"
+    },
+    {
+      "id": "space-hard-038", "level": "hard", "type": "mc", "lang": "both", "emoji": "💍",
+      "q": { "en": "What makes an eclipse annular, leaving a bright ring of Sun around the Moon?", "es": "¿Qué hace que un eclipse sea anular y deje un anillo brillante de Sol alrededor de la Luna?" },
+      "choices": [
+        { "en": "Thin high clouds spread the sunlight", "es": "Nubes altas y finas dispersan la luz solar" },
+        { "en": "The Moon sits near the far point of its orbit", "es": "La Luna está cerca del punto lejano de su órbita" },
+        { "en": "Earth is closest to the Sun that week", "es": "La Tierra está lo más cerca del Sol esa semana" },
+        { "en": "The Moon passes slightly off centre", "es": "La Luna pasa un poco descentrada" }
+      ],
+      "answer": 1,
+      "why": { "en": "The distance to the Moon varies by about 40,000 km, 25,000 miles, so a smaller looking Moon leaves a blazing rim behind.", "es": "La distancia a la Luna cambia unos 40,000 km, 25,000 millas, así que una Luna más pequeña deja un borde brillante." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/types/"
+    },
+    {
+      "id": "space-hard-039", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌒",
+      "q": { "en": "About how wide is the strip of ground that sees a total solar eclipse?", "es": "¿Qué tan ancha es la franja de suelo que alcanza a ver un eclipse solar total?" },
+      "choices": [
+        { "en": "About 5 km, 3 miles", "es": "Unos 5 km, 3 millas" },
+        { "en": "About 1500 km, 900 miles", "es": "Unos 1500 km, 900 millas" },
+        { "en": "About 100 to 270 km, 60 to 170 miles", "es": "Entre 100 y 270 km, 60 y 170 millas" },
+        { "en": "About 4000 km, 2500 miles", "es": "Unos 4000 km, 2500 millas" }
+      ],
+      "answer": 2,
+      "why": { "en": "The dark inner shadow, called the umbra, sweeps a narrow band across the globe at more than 1600 km per hour.", "es": "La sombra interior oscura, llamada umbra, barre una franja angosta del planeta a más de 1600 km por hora." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/"
+    },
+    {
+      "id": "space-hard-040", "level": "hard", "type": "mc", "lang": "both", "emoji": "✨",
+      "q": { "en": "What makes the sparkling points called Baily's beads appear at the edge of totality?", "es": "¿Qué hace aparecer los puntos brillantes llamados perlas de Baily al borde de la totalidad?" },
+      "choices": [
+        { "en": "Light bending around the air of Earth", "es": "La luz doblándose alrededor del aire de la Tierra" },
+        { "en": "Glare scattering inside the watcher's eye", "es": "El resplandor dispersándose dentro del ojo del observador" },
+        { "en": "Hot gas jets rising from the Sun", "es": "Chorros de gas caliente que suben del Sol" },
+        { "en": "Sunlight shining through valleys on the rim of the Moon", "es": "Luz solar pasando por valles del borde de la Luna" }
+      ],
+      "answer": 3,
+      "why": { "en": "The edge of the Moon is jagged with mountains and valleys, so the last light breaks into separate beads before winking out.", "es": "El borde de la Luna está lleno de montañas y valles, así que la última luz se parte en cuentas antes de apagarse." },
+      "topic": "eclipses",
+      "source": "https://www.britannica.com/science/Baily-beads"
+    },
+    {
+      "id": "space-hard-041", "level": "hard", "type": "mc", "lang": "both", "emoji": "👑",
+      "q": { "en": "Which part of the Sun becomes visible to the eye only during a total eclipse?", "es": "¿Cuál parte del Sol se vuelve visible a simple vista solo durante un eclipse total?" },
+      "choices": [
+        { "en": "The corona", "es": "La corona" },
+        { "en": "The core", "es": "El núcleo" },
+        { "en": "The photosphere", "es": "La fotosfera" },
+        { "en": "The sunspot belt", "es": "La franja de manchas solares" }
+      ],
+      "answer": 0,
+      "why": { "en": "The corona is the pearly outer atmosphere of the Sun, a million times fainter than the disc and strangely hotter than the surface.", "es": "La corona es la atmósfera exterior nacarada del Sol, un millón de veces más tenue que el disco y más caliente que la superficie." },
+      "topic": "the sun's layers",
+      "source": "https://science.nasa.gov/sun/solar-atmosphere/"
+    },
+    {
+      "id": "space-hard-042", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌕",
+      "q": { "en": "Why do far more people watch a total lunar eclipse than a total solar one?", "es": "¿Por qué mucha más gente ve un eclipse lunar total que uno solar total?" },
+      "choices": [
+        { "en": "Lunar eclipses last for several days", "es": "Los eclipses lunares duran varios días" },
+        { "en": "The shadow of Earth covers the whole night side at once", "es": "La sombra de la Tierra cubre todo el lado nocturno a la vez" },
+        { "en": "Lunar eclipses happen ten times a year", "es": "Los eclipses lunares ocurren diez veces al año" },
+        { "en": "The Moon shines brighter during the event", "es": "La Luna brilla más durante el fenómeno" }
+      ],
+      "answer": 1,
+      "why": { "en": "Anyone facing the Moon sees it dim, while a solar eclipse turns total only inside a shadow track a few hundred kilometres wide.", "es": "Quien mire la Luna la ve oscurecerse, pero un eclipse solar es total solo dentro de una franja de pocos cientos de kilómetros." },
+      "topic": "eclipses",
+      "source": "https://science.nasa.gov/eclipses/lunar-eclipses/"
+    },
+    {
+      "id": "space-hard-043", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌊",
+      "q": { "en": "Why does Earth get two high tides a day rather than just one?", "es": "¿Por qué la Tierra tiene dos mareas altas al día en vez de una sola?" },
+      "choices": [
+        { "en": "The Sun makes the second bulge on its own", "es": "El Sol crea el segundo abultamiento por su cuenta" },
+        { "en": "Earth spins twice as fast as the Moon orbits", "es": "La Tierra gira el doble de rápido de lo que orbita la Luna" },
+        { "en": "The Moon pulls the near water toward it and the planet away from the far water", "es": "La Luna jala el agua cercana hacia ella y al planeta lejos del agua lejana" },
+        { "en": "The second bulge comes from water sloshing back", "es": "El segundo abultamiento viene del agua que regresa" }
+      ],
+      "answer": 2,
+      "why": { "en": "Gravity weakens with distance, so the near side is pulled hardest and the far side least, leaving a bulge of water at each end.", "es": "La gravedad baja con la distancia: el lado cercano recibe el jalón más fuerte y el lejano el más débil, dejando dos abultamientos." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/education/tutorial_tides/tides03_gravity.html"
+    },
+    {
+      "id": "space-hard-044", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌗",
+      "q": { "en": "When do the highest spring tides arrive along a coast?", "es": "¿Cuándo llegan las mareas vivas más altas a una costa?" },
+      "choices": [
+        { "en": "At first and last quarter", "es": "En cuarto creciente y cuarto menguante" },
+        { "en": "In spring, when the days lengthen", "es": "En primavera, cuando los días se alargan" },
+        { "en": "Whenever the Moon rides lowest in the sky", "es": "Cuando la Luna se ve más baja en el cielo" },
+        { "en": "At full moon and at new moon", "es": "En luna llena y en luna nueva" }
+      ],
+      "answer": 3,
+      "why": { "en": "Spring tides have nothing to do with the season: they come when the Sun and Moon line up and their pulls add together.", "es": "Las mareas vivas nada tienen que ver con la estación: llegan cuando el Sol y la Luna se alinean y sus jalones se suman." },
+      "topic": "tides",
+      "source": "https://oceanservice.noaa.gov/facts/springtide.html"
+    },
+    {
+      "id": "space-hard-045", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏳",
+      "q": { "en": "How do ocean tides slowly change the length of a day on Earth?", "es": "¿Cómo cambian poco a poco las mareas la duración de un día en la Tierra?" },
+      "choices": [
+        { "en": "They shorten it by a second each century", "es": "Lo acortan un segundo cada siglo" },
+        { "en": "They lengthen it as friction drains the planet's spin", "es": "Lo alargan porque la fricción le roba giro al planeta" },
+        { "en": "They leave it exactly the same", "es": "Lo dejan exactamente igual" },
+        { "en": "They lengthen it by a whole hour each century", "es": "Lo alargan una hora entera cada siglo" }
+      ],
+      "answer": 1,
+      "why": { "en": "Tidal friction steals spin from Earth and hands it to the Moon, which drifts about 3.8 cm, 1.5 inches farther away each year.", "es": "Las mareas le quitan giro a la Tierra y se lo pasan a la Luna, que se aleja 3.8 cm, 1.5 pulgadas al año." },
+      "topic": "tides",
+      "source": "https://www.britannica.com/science/tidal-friction"
+    },
+    {
+      "id": "space-hard-046", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔒",
+      "q": { "en": "Why do we always see the same face of the Moon from Earth?", "es": "¿Por qué siempre vemos la misma cara de la Luna desde la Tierra?" },
+      "choices": [
+        { "en": "It makes one full spin every day", "es": "Da una vuelta completa cada día" },
+        { "en": "It stopped spinning billions of years ago", "es": "Dejó de girar hace miles de millones de años" },
+        { "en": "The shadow of Earth hides the other half", "es": "La sombra de la Tierra tapa la otra mitad" },
+        { "en": "It turns once for each orbit, a state called tidal locking", "es": "Gira una vez por cada órbita, algo llamado acoplamiento de marea" }
+      ],
+      "answer": 3,
+      "why": { "en": "The pull of Earth slowed the spin of the Moon until one rotation matched one orbit, so the far side stayed hidden until spacecraft arrived.", "es": "La Tierra frenó el giro de la Luna hasta igualar una vuelta con una órbita, y el lado lejano quedó oculto hasta las sondas." },
+      "topic": "the moon's far side",
+      "source": "https://science.nasa.gov/moon/facts/"
+    },
+    {
+      "id": "space-hard-047", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌘",
+      "q": { "en": "How does the far side of the Moon look different from the side we see?", "es": "¿En qué se ve distinto el lado lejano de la Luna respecto al lado que vemos?" },
+      "choices": [
+        { "en": "It has far fewer dark lava plains and a thicker crust", "es": "Tiene muchas menos llanuras de lava y una corteza más gruesa" },
+        { "en": "It is covered in a sheet of ice", "es": "Está cubierto por una capa de hielo" },
+        { "en": "It stays in permanent darkness", "es": "Vive en oscuridad permanente" },
+        { "en": "It is much smoother and flatter", "es": "Es mucho más liso y plano" }
+      ],
+      "answer": 0,
+      "why": { "en": "The hidden hemisphere is rugged and crowded with craters because its crust is thicker, so less lava rose to flood the basins.", "es": "El hemisferio oculto es áspero y lleno de cráteres porque su corteza es más gruesa y subió menos lava para llenar las cuencas." },
+      "topic": "the moon's far side",
+      "source": "https://science.nasa.gov/moon/lunar-far-side/"
+    },
+    {
+      "id": "space-hard-048", "level": "hard", "type": "tf", "lang": "both", "emoji": "🌚",
+      "q": { "en": "The far side of the Moon stays in darkness because sunlight only reaches the side we see.", "es": "El lado lejano de la Luna vive en oscuridad porque la luz del Sol solo llega al lado que vemos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Both halves get two weeks of sunlight in turn; the far side is hidden from us, which is a different thing from being dark.", "es": "Las dos mitades reciben dos semanas de luz por turno; el lado lejano está oculto para nosotros, algo muy distinto a estar oscuro." },
+      "topic": "the moon's far side",
+      "source": "https://science.nasa.gov/moon/lunar-phases-and-eclipses/"
+    },
+    {
+      "id": "space-hard-049", "level": "hard", "type": "mc", "lang": "both", "emoji": "📷",
+      "q": { "en": "Which country sent the probe that took the first photographs of the lunar far side in 1959?", "es": "¿Qué país envió la sonda que tomó las primeras fotos del lado lejano de la Luna en 1959?" },
+      "choices": [
+        { "en": "France", "es": "Francia" },
+        { "en": "The United States", "es": "Estados Unidos" },
+        { "en": "The Soviet Union", "es": "La Unión Soviética" },
+        { "en": "Japan", "es": "Japón" }
+      ],
+      "answer": 2,
+      "why": { "en": "Luna 3 swung around the Moon, developed its film on board, and radioed home blurry pictures of a surface nobody had seen.", "es": "La sonda Luna 3 rodeó nuestro satélite, reveló su película a bordo y envió fotos borrosas de una superficie jamás vista." },
+      "topic": "space history",
+      "source": "https://science.nasa.gov/mission/luna-03/"
+    },
+    {
+      "id": "space-hard-050", "level": "hard", "type": "mc", "lang": "both", "emoji": "☀️",
+      "q": { "en": "Which layer of the Sun do we actually see as its bright visible surface?", "es": "¿Cuál capa del Sol vemos en realidad como su superficie brillante?" },
+      "choices": [
+        { "en": "The chromosphere", "es": "La cromosfera" },
+        { "en": "The photosphere", "es": "La fotosfera" },
+        { "en": "The corona", "es": "La corona" },
+        { "en": "The radiative zone", "es": "La zona radiativa" }
+      ],
+      "answer": 1,
+      "why": { "en": "Below the photosphere the gas is opaque, so that thin layer, near 5500 °C, 10,000 °F, is the deepest we can see.", "es": "Debajo de la fotosfera el gas es opaco, así que esa capa fina, de unos 5500 °C, 10,000 °F, es lo más hondo visible." },
+      "topic": "the sun's layers",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-hard-051", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔥",
+      "q": { "en": "About how hot is the core of the Sun, where hydrogen fuses into helium?", "es": "¿Qué tan caliente está el núcleo del Sol, donde el hidrógeno se fusiona en helio?" },
+      "choices": [
+        { "en": "About 15 million °C, 27 million °F", "es": "Unos 15 millones de °C, 27 millones de °F" },
+        { "en": "About 5500 °C, 10,000 °F", "es": "Unos 5500 °C, 10,000 °F" },
+        { "en": "About 100,000 °C, 180,000 °F", "es": "Unos 100,000 °C, 180,000 °F" },
+        { "en": "About 2 billion °C, 3.6 billion °F", "es": "Unos 2 mil millones de °C, 3.6 mil millones de °F" }
+      ],
+      "answer": 0,
+      "why": { "en": "Four hydrogen nuclei merge into one helium nucleus, and the tiny missing mass leaves as the energy that lights the whole system.", "es": "Cuatro núcleos de hidrógeno se fusionan en uno de helio, y la masa que falta sale como la energía que ilumina el sistema." },
+      "topic": "the sun's layers",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-hard-052", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔦",
+      "q": { "en": "Roughly how long does energy made in the core take to reach the surface of the Sun?", "es": "¿Cuánto tarda la energía creada en el núcleo en llegar a la superficie del Sol?" },
+      "choices": [
+        { "en": "About eight minutes", "es": "Unos ocho minutos" },
+        { "en": "About one day", "es": "Cerca de un día" },
+        { "en": "Tens of thousands of years", "es": "Decenas de miles de años" },
+        { "en": "About three hundred years", "es": "Unos trescientos años" }
+      ],
+      "answer": 2,
+      "why": { "en": "Energy zigzags through dense gas, absorbed and thrown out again endlessly, so the sunlight warming you began its journey before the pyramids.", "es": "La energía zigzaguea por el gas denso, absorbida y reemitida sin fin, así que la luz que te calienta salió antes de las pirámides." },
+      "topic": "the sun's layers",
+      "source": "https://science.nasa.gov/sun/"
+    },
+    {
+      "id": "space-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚫",
+      "q": { "en": "Why does a sunspot look dark against the rest of the solar surface?", "es": "¿Por qué una mancha solar se ve oscura contra el resto de la superficie solar?" },
+      "choices": [
+        { "en": "It is a hole through the outer layers", "es": "Es un agujero que atraviesa las capas exteriores" },
+        { "en": "Cool dust floats above that patch", "es": "Polvo frío flota sobre esa zona" },
+        { "en": "It is the shadow of a passing planet", "es": "Es la sombra de un planeta que pasa" },
+        { "en": "Strong magnetism blocks rising heat, so it is cooler", "es": "El magnetismo fuerte frena el calor que sube y queda más fría" }
+      ],
+      "answer": 3,
+      "why": { "en": "A spot still glows near 3800 °C, 6900 °F, hot enough to outshine the full Moon, but looks black beside brighter surroundings.", "es": "Una mancha brilla a unos 3800 °C, 6900 °F, más que la Luna llena, pero se ve negra junto a un entorno más brillante." },
+      "topic": "sunspots",
+      "source": "https://www.swpc.noaa.gov/phenomena/sunspotssolar-cycle"
+    },
+    {
+      "id": "space-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔄",
+      "q": { "en": "About how many years pass between one busy peak of sunspots and the next?", "es": "¿Cuántos años pasan entre un pico alto de manchas solares y el siguiente?" },
+      "choices": [
+        { "en": "About 3 years", "es": "Unos 3 años" },
+        { "en": "About 11 years", "es": "Unos 11 años" },
+        { "en": "About 27 years", "es": "Unos 27 años" },
+        { "en": "About 50 years", "es": "Unos 50 años" }
+      ],
+      "answer": 1,
+      "why": { "en": "The magnetic field of the Sun tangles, peaks and flips roughly every eleven years, so the full magnetic cycle takes about 22.", "es": "El campo magnético del Sol se enreda, llega a su punto alto y se invierte cada once años, así que el ciclo completo dura 22." },
+      "topic": "sunspots",
+      "source": "https://science.nasa.gov/sun/solar-cycle/"
+    },
+    {
+      "id": "space-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌞",
+      "q": { "en": "How does the equator of the Sun spin compared with its poles?", "es": "¿Cómo gira el ecuador del Sol comparado con sus polos?" },
+      "choices": [
+        { "en": "The equator goes round faster", "es": "El ecuador da la vuelta más rápido" },
+        { "en": "The poles go round faster", "es": "Los polos dan la vuelta más rápido" },
+        { "en": "Both take exactly 25 days", "es": "Ambos tardan exactamente 25 días" },
+        { "en": "The poles stay completely still", "es": "Los polos se quedan totalmente quietos" }
+      ],
+      "answer": 0,
+      "why": { "en": "Being a ball of gas, the Sun can turn at different speeds: about 25 days at the equator and near 35 at the poles.", "es": "Como es una bola de gas, el Sol gira a distintas velocidades: unos 25 días en el ecuador y casi 35 en los polos." },
+      "topic": "the sun's layers",
+      "source": "https://science.nasa.gov/sun/facts/"
+    },
+    {
+      "id": "space-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "🟢",
+      "q": { "en": "What makes the sky glow green during a strong aurora?", "es": "¿Qué hace que el cielo brille de verde durante una aurora fuerte?" },
+      "choices": [
+        { "en": "Sunlight reflecting off polar ice", "es": "Luz solar reflejada en el hielo polar" },
+        { "en": "Moonlight bouncing inside ice clouds", "es": "Luz de la Luna rebotando en nubes de hielo" },
+        { "en": "Charged particles striking oxygen high in the air", "es": "Partículas cargadas golpeando oxígeno muy alto en el aire" },
+        { "en": "Lightning inside the upper atmosphere", "es": "Rayos dentro de la atmósfera superior" }
+      ],
+      "answer": 2,
+      "why": { "en": "Particles from the Sun funnel down magnetic field lines and slam into oxygen atoms, which release green light near 100 km, 60 miles up.", "es": "Las partículas del Sol bajan por las líneas magnéticas y chocan con átomos de oxígeno, que sueltan luz verde a unos 100 km de altura." },
+      "topic": "auroras",
+      "source": "https://www.swpc.noaa.gov/phenomena/aurora"
+    },
+    {
+      "id": "space-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌈",
+      "q": { "en": "What is the southern counterpart of the aurora borealis called?", "es": "¿Cómo se llama la versión del sur de la aurora boreal?" },
+      "choices": [
+        { "en": "Aurora polaris", "es": "Aurora polaris" },
+        { "en": "Aurora meridionalis", "es": "Aurora meridionalis" },
+        { "en": "Aurora antarctica", "es": "Aurora antarctica" },
+        { "en": "Aurora australis", "es": "Aurora austral" }
+      ],
+      "answer": 3,
+      "why": { "en": "The two glows are near mirror images, because the same magnetic field lines funnel particles into both polar regions at once.", "es": "Los dos resplandores son casi espejos, porque las mismas líneas magnéticas llevan partículas a las dos regiones polares al mismo tiempo." },
+      "topic": "auroras",
+      "source": "https://www.britannica.com/science/aurora-atmospheric-phenomenon"
+    },
+    {
+      "id": "space-hard-058", "level": "hard", "type": "tf", "lang": "both", "emoji": "🪐",
+      "q": { "en": "Jupiter and Saturn both display auroras around their poles.", "es": "Júpiter y Saturno muestran auroras alrededor de sus polos." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Any world with a magnetic field and an atmosphere can glow, and the ultraviolet auroras of Jupiter are hundreds of times more powerful.", "es": "Cualquier mundo con campo magnético y atmósfera puede brillar así, y las auroras ultravioletas de Júpiter son cientos de veces más potentes." },
+      "topic": "auroras",
+      "source": "https://science.nasa.gov/mission/hubble/science/exploring-the-solar-system/hubble-and-jupiter/"
+    },
+    {
+      "id": "space-hard-059", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌫️",
+      "q": { "en": "What must happen inside a cold cloud of gas before a star can switch on?", "es": "¿Qué debe pasar dentro de una nube fría de gas antes de que una estrella se encienda?" },
+      "choices": [
+        { "en": "Gravity squeezes the centre until fusion begins", "es": "La gravedad aprieta el centro hasta que arranca la fusión" },
+        { "en": "The cloud must freeze solid", "es": "La nube debe congelarse por completo" },
+        { "en": "A comet must pass through it", "es": "Un cometa debe atravesarla" },
+        { "en": "The cloud must stop spinning completely", "es": "La nube debe dejar de girar del todo" }
+      ],
+      "answer": 0,
+      "why": { "en": "A clump collapses, heats as it shrinks, and once the centre passes about 10 million °C hydrogen fusion starts and the star shines.", "es": "Un grumo se colapsa, se calienta al encogerse y, al pasar los 10 millones de °C, arranca la fusión y la estrella se enciende." },
+      "topic": "star birth",
+      "source": "https://science.nasa.gov/universe/stars/"
+    },
+    {
+      "id": "space-hard-060", "level": "hard", "type": "mc", "lang": "both", "emoji": "⭐",
+      "q": { "en": "What is a star doing during the long stretch called the main sequence?", "es": "¿Qué hace una estrella durante la larga etapa llamada secuencia principal?" },
+      "choices": [
+        { "en": "Cooling down after its birth", "es": "Enfriándose después de nacer" },
+        { "en": "Fusing hydrogen into helium in its core", "es": "Fusionando hidrógeno en helio dentro de su núcleo" },
+        { "en": "Swelling into a red giant", "es": "Hinchándose hasta ser una gigante roja" },
+        { "en": "Throwing off its outer layers", "es": "Lanzando al espacio sus capas exteriores" }
+      ],
+      "answer": 1,
+      "why": { "en": "Our Sun has spent about 4.6 billion years on the main sequence and has roughly five billion more before it swells.", "es": "Nuestro Sol lleva unos 4600 millones de años en la secuencia principal y le quedan casi 5000 millones antes de hincharse." },
+      "topic": "star life cycle",
+      "source": "https://science.nasa.gov/universe/stars/"
+    },
+    {
+      "id": "space-hard-061", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚪",
+      "q": { "en": "What will the Sun leave behind after it sheds its outer layers?", "es": "¿Qué dejará atrás el Sol después de soltar sus capas exteriores?" },
+      "choices": [
+        { "en": "A black hole", "es": "Un agujero negro" },
+        { "en": "A neutron star", "es": "Una estrella de neutrones" },
+        { "en": "A white dwarf about the size of Earth", "es": "Una enana blanca del tamaño de la Tierra" },
+        { "en": "A cloud that collapses into a twin Sun", "es": "Una nube que se colapsa en un Sol gemelo" }
+      ],
+      "answer": 2,
+      "why": { "en": "The Sun is far too light to explode, so its bare core will cool for billions of years inside a glowing planetary nebula.", "es": "El Sol es demasiado ligero para estallar, así que su núcleo desnudo se enfriará durante miles de millones de años dentro de una nebulosa." },
+      "topic": "star life cycle",
+      "source": "https://science.nasa.gov/universe/stars/types/"
+    },
+    {
+      "id": "space-hard-062", "level": "hard", "type": "mc", "lang": "both", "emoji": "💥",
+      "q": { "en": "How massive must a star be before it can end its life as a supernova?", "es": "¿Qué tan masiva debe ser una estrella para terminar su vida como supernova?" },
+      "choices": [
+        { "en": "About twice the Sun", "es": "Unas dos veces el Sol" },
+        { "en": "About the same as the Sun", "es": "Casi igual que el Sol" },
+        { "en": "About half the Sun", "es": "Cerca de la mitad del Sol" },
+        { "en": "About eight times the Sun or more", "es": "Unas ocho veces el Sol o más" }
+      ],
+      "answer": 3,
+      "why": { "en": "Lighter stars fade into white dwarfs, but a heavy core collapses in seconds and the rebound blast can briefly outshine a whole galaxy.", "es": "Las estrellas ligeras acaban como enanas blancas, pero un núcleo pesado se colapsa en segundos y el estallido puede superar a una galaxia." },
+      "topic": "star life cycle",
+      "source": "https://science.nasa.gov/universe/supernovae/"
+    },
+    {
+      "id": "space-hard-063", "level": "hard", "type": "mc", "lang": "both", "emoji": "🥄",
+      "q": { "en": "How much would a teaspoon of neutron star material weigh on Earth?", "es": "¿Cuánto pesaría en la Tierra una cucharadita de material de estrella de neutrones?" },
+      "choices": [
+        { "en": "About a billion tonnes", "es": "Unos mil millones de toneladas" },
+        { "en": "About a kilogram", "es": "Cerca de un kilogramo" },
+        { "en": "About a tonne", "es": "Cerca de una tonelada" },
+        { "en": "About a thousand tonnes", "es": "Unas mil toneladas" }
+      ],
+      "answer": 0,
+      "why": { "en": "A collapsed core packs more mass than the Sun into a ball about 20 km, 12 miles across, denser than an atomic nucleus.", "es": "Un núcleo colapsado mete más masa que el Sol en una bola de unos 20 km, 12 millas, más densa que un núcleo atómico." },
+      "topic": "neutron stars",
+      "source": "https://science.nasa.gov/universe/neutron-stars/"
+    },
+    {
+      "id": "space-hard-064", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚨",
+      "q": { "en": "What is a pulsar, first spotted as a steady ticking in radio signals?", "es": "¿Qué es un púlsar, detectado al principio como un tictac regular en señales de radio?" },
+      "choices": [
+        { "en": "A star that swells and shrinks each second", "es": "Una estrella que se hincha y encoge cada segundo" },
+        { "en": "A spinning neutron star sweeping a beam past us", "es": "Una estrella de neutrones que gira y barre un haz hacia nosotros" },
+        { "en": "A pair of comets crossing orbits", "es": "Un par de cometas que cruzan sus órbitas" },
+        { "en": "A young star still gathering gas", "es": "Una estrella joven que aún junta gas" }
+      ],
+      "answer": 1,
+      "why": { "en": "The beam works like a lighthouse, and some pulsars turn hundreds of times a second, keeping time better than many clocks.", "es": "El haz funciona como un faro, y algunos púlsares giran cientos de veces por segundo, marcando el tiempo mejor que muchos relojes." },
+      "topic": "neutron stars",
+      "source": "https://science.nasa.gov/universe/pulsars/"
+    },
+    {
+      "id": "space-hard-065", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦴",
+      "q": { "en": "Where did the calcium in your bones and the iron in your blood first form?", "es": "¿Dónde se formaron por primera vez el calcio de tus huesos y el hierro de tu sangre?" },
+      "choices": [
+        { "en": "In the hot core of Earth", "es": "En el núcleo caliente de la Tierra" },
+        { "en": "In the rings of Saturn", "es": "En los anillos de Saturno" },
+        { "en": "Inside stars that later exploded", "es": "Dentro de estrellas que después estallaron" },
+        { "en": "In comets from the Oort cloud", "es": "En cometas de la nube de Oort" }
+      ],
+      "answer": 2,
+      "why": { "en": "Fusion builds elements up to iron inside massive stars, and a supernova scatters them into clouds where new planets and people form.", "es": "La fusión crea elementos hasta el hierro dentro de estrellas grandes, y una supernova los esparce en nubes donde nacen planetas y personas." },
+      "topic": "star life cycle",
+      "source": "https://science.nasa.gov/universe/supernovae/"
+    },
+    {
+      "id": "space-hard-066", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "Which kind of star is by far the most common in our galaxy?", "es": "¿Cuál tipo de estrella es con mucho el más común en nuestra galaxia?" },
+      "choices": [
+        { "en": "Yellow stars like the Sun", "es": "Estrellas amarillas como el Sol" },
+        { "en": "Blue giants", "es": "Gigantes azules" },
+        { "en": "White dwarfs", "es": "Enanas blancas" },
+        { "en": "Red dwarfs", "es": "Enanas rojas" }
+      ],
+      "answer": 3,
+      "why": { "en": "Small cool red dwarfs make up roughly three quarters of all stars, yet even the nearest one is too faint to see unaided.", "es": "Las enanas rojas, pequeñas y frías, son casi tres cuartas partes de las estrellas, pero ni la más cercana se ve a simple vista." },
+      "topic": "types of stars",
+      "source": "https://science.nasa.gov/universe/stars/types/"
+    },
+    {
+      "id": "space-hard-067", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "About how far does light travel in one year, the distance we call a light-year?", "es": "¿Qué distancia recorre la luz en un año, lo que llamamos un año luz?" },
+      "choices": [
+        { "en": "About 9.5 billion km, 5.9 billion miles", "es": "Unos 9.5 mil millones de km, 5.9 mil millones de millas" },
+        { "en": "About 9.5 trillion km, 5.9 trillion miles", "es": "Unos 9.5 billones de km, 5.9 billones de millas" },
+        { "en": "About 300,000 km, 186,000 miles", "es": "Unos 300,000 km, 186,000 millas" },
+        { "en": "About 150 million km, 93 million miles", "es": "Unos 150 millones de km, 93 millones de millas" }
+      ],
+      "answer": 1,
+      "why": { "en": "Light covers about 300,000 km, 186,000 miles every second, so a light-year measures distance rather than time, despite its name.", "es": "La luz recorre unos 300,000 km, 186,000 millas por segundo, así que un año luz mide distancia y no tiempo, pese a su nombre." },
+      "topic": "light-years",
+      "source": "https://science.nasa.gov/universe/how-far-is-a-light-year/"
+    },
+    {
+      "id": "space-hard-068", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌟",
+      "q": { "en": "How long does light from the nearest star beyond the Sun take to reach us?", "es": "¿Cuánto tarda en llegarnos la luz de la estrella más cercana después del Sol?" },
+      "choices": [
+        { "en": "About 4.2 days", "es": "Unos 4.2 días" },
+        { "en": "About 42 years", "es": "Unos 42 años" },
+        { "en": "About 4.2 years", "es": "Unos 4.2 años" },
+        { "en": "About 420 years", "es": "Unos 420 años" }
+      ],
+      "answer": 2,
+      "why": { "en": "Proxima Centauri lies about 4.2 light-years away, so we always see it as it looked a little over four years ago.", "es": "Próxima Centauri está a unos 4.2 años luz, así que la vemos siempre como era hace poco más de cuatro años." },
+      "topic": "light-years",
+      "source": "https://science.nasa.gov/universe/exoplanets/proxima-centauri-b/"
     }
   ]
 }
