@@ -170,7 +170,7 @@ function renderSetup(manifest, chosen, m) {
     </fieldset>
 
     <fieldset class="gp-fieldset">
-      <legend class="gp-fieldset__legend">How many?</legend>
+      <legend class="gp-fieldset__legend">How many questions?</legend>
       <div class="gp-row gp-row--wrap" id="gp-trivia-counts" role="radiogroup"
            aria-label="How many questions">${counts}</div>
     </fieldset>

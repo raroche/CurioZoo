@@ -247,7 +247,10 @@ export function secondLooks(round) {
     .map((x) => ({ question: x.question, category: x.category, again: true }));
 }
 
-export const SEEN_CAP = 4000;
+/* Above the whole bank (4,800 at 100 per topic per level), so a child who has
+   answered everything still has every fact lit in the Fact Book. About 40
+   bytes an entry: 6,000 is well under a quarter of a megabyte. */
+export const SEEN_CAP = 6000;
 export const RECENT_CAP = 60;
 
 /** A saved trivia object with anything malformed replaced by a safe value. */

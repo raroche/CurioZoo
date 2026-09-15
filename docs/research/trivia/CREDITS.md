@@ -1,260 +1,258 @@
 # Curio Trivia: fact sources
 
-Every question in `data/fun/trivia/` carries one `source` URL. This file
-groups them by topic so a reviewer can see where the facts came from. The
-wording of every question is written for this project; only the facts come
-from these pages. Rebuild it after a batch with the snippet in PROGRESS.md.
+Every question in `data/fun/trivia/` carries one `source` URL. With
+thousands of questions the list is too long to read link by link, so this
+file counts the sites each topic leans on. The wording of every question is
+written for this project; only the facts come from these pages.
 
-Before the ship gate, a reviewer should open every link: several were written
-from memory by the model that wrote the seed questions and have not been
-clicked.
+The URLs were written as plausible pages on real sites by the models that
+wrote the questions, and were not opened. Before anyone cites one, click it.
+Rebuild this file with the command at the bottom.
 
-## 🐾 Animals & Nature
+## 🐾 Animals & Nature (300 questions, 21 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/animal/spider-arachnid
-  - https://www.britannica.com/animal/whale
-  - https://www.britannica.com/science/echolocation-physiology
-- **education.nationalgeographic.org**
-  - https://education.nationalgeographic.org/resource/mutualism/
-- **kids.nationalgeographic.com**
-  - https://kids.nationalgeographic.com/animals/amphibians/facts/frog
-  - https://kids.nationalgeographic.com/animals/mammals/facts/cheetah
-  - https://kids.nationalgeographic.com/animals/mammals/facts/cow
-- **nps.gov**
-  - https://www.nps.gov/yell/learn/nature/bearhibernation.htm
-- **ocean.si.edu**
-  - https://ocean.si.edu/ocean-life/invertebrates/octopuses-and-squids
+- britannica.com · 72
+- kids.britannica.com · 71
+- kids.nationalgeographic.com · 53
+- ocean.si.edu · 29
+- si.edu · 13
+- kids.sandiegozoo.org · 11
+- nhm.ac.uk · 11
+- oceanservice.noaa.gov · 8
+- nps.gov · 5
+- fisheries.noaa.gov · 5
+- education.nationalgeographic.org · 4
+- smithsonianmag.com · 4
+- and 9 more sites
 
-## 🚀 Space & the Sky
+## 🚀 Space & the Sky (300 questions, 13 sites)
 
-- **nasa.gov**
-  - https://www.nasa.gov/humans-in-space/astronauts/
-- **science.nasa.gov**
-  - https://science.nasa.gov/dwarf-planets/
-  - https://science.nasa.gov/eclipses/types/
-  - https://science.nasa.gov/saturn/facts/
-- **spaceplace.nasa.gov**
-  - https://spaceplace.nasa.gov/all-about-earth/en/
-  - https://spaceplace.nasa.gov/all-about-mars/en/
-  - https://spaceplace.nasa.gov/galaxy/en/
-  - https://spaceplace.nasa.gov/planets/en/
-  - https://spaceplace.nasa.gov/sun-heat/en/
+- science.nasa.gov · 130
+- spaceplace.nasa.gov · 104
+- esa.int · 15
+- kids.britannica.com · 15
+- nasa.gov · 12
+- britannica.com · 9
+- kids.nationalgeographic.com · 5
+- eso.org · 3
+- oceanservice.noaa.gov · 2
+- swpc.noaa.gov · 2
+- planetary.org · 1
+- nesdis.noaa.gov · 1
+- and 1 more sites
 
-## ⚛️ Physics & the Universe
+## ⚛️ Physics & the Universe (300 questions, 15 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/science/big-bang-model
-  - https://www.britannica.com/science/friction
-  - https://www.britannica.com/science/light
-  - https://www.britannica.com/science/light-year
-  - https://www.britannica.com/science/magnet
-  - https://www.britannica.com/science/potential-energy
-  - https://www.britannica.com/science/sound-physics
-- **grc.nasa.gov**
-  - https://www.grc.nasa.gov/www/k-12/airplane/newton1g.html
-  - https://www.grc.nasa.gov/www/k-12/rocket/newton3r.html
+- britannica.com · 94
+- kids.britannica.com · 49
+- exploratorium.edu · 42
+- spaceplace.nasa.gov · 41
+- sciencekids.co.nz · 17
+- physicsclassroom.com · 17
+- grc.nasa.gov · 13
+- science.nasa.gov · 12
+- climatekids.nasa.gov · 4
+- physicscentral.com · 4
+- scijinks.gov · 3
+- weather.gov · 1
+- and 3 more sites
 
-## 🫀 Human Body & Health
+## 🫀 Human Body & Health (300 questions, 17 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/science/femur
-  - https://www.britannica.com/science/hand-anatomy
-- **kidshealth.org**
-  - https://kidshealth.org/en/kids/blood.html
-  - https://kidshealth.org/en/kids/brain.html
-  - https://kidshealth.org/en/kids/digestive-system.html
-  - https://kidshealth.org/en/kids/heart.html
-  - https://kidshealth.org/en/kids/nose.html
-  - https://kidshealth.org/en/kids/sleep.html
+- kidshealth.org · 180
+- britannica.com · 48
+- kids.britannica.com · 18
+- cdc.gov · 8
+- genome.gov · 8
+- medlineplus.gov · 6
+- ninds.nih.gov · 6
+- nhlbi.nih.gov · 5
+- niddk.nih.gov · 4
+- nidcd.nih.gov · 3
+- ods.od.nih.gov · 3
+- nei.nih.gov · 3
+- and 5 more sites
 
-## 🌍 Earth, Weather & Oceans
+## 🌍 Earth, Weather & Oceans (300 questions, 25 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/place/Pacific-Ocean
-  - https://www.britannica.com/science/lava-volcanic-ejecta
-- **noaa.gov**
-  - https://www.noaa.gov/stories/how-do-snowflakes-form-get-science-behind-snow
-- **oceanservice.noaa.gov**
-  - https://oceanservice.noaa.gov/facts/oceandepth.html
-- **pubs.usgs.gov**
-  - https://pubs.usgs.gov/gip/dynamic/dynamic.html
-- **usgs.gov**
-  - https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle
-  - https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle
-  - https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water
-- **weather.gov**
-  - https://www.weather.gov/safety/lightning-science-overview
+- scijinks.gov · 56
+- usgs.gov · 50
+- britannica.com · 39
+- kids.britannica.com · 35
+- oceanservice.noaa.gov · 33
+- kids.nationalgeographic.com · 15
+- nps.gov · 12
+- climatekids.nasa.gov · 12
+- noaa.gov · 11
+- weather.gov · 7
+- ocean.si.edu · 7
+- epa.gov · 3
+- and 13 more sites
 
-## 🔬 Science & How Things Work
+## 🔬 Science & How Things Work (300 questions, 26 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/biography/Antonie-van-Leeuwenhoek
-  - https://www.britannica.com/science/chemical-reaction
-  - https://www.britannica.com/science/gold-chemical-element
-  - https://www.britannica.com/science/melting
-  - https://www.britannica.com/science/photosynthesis
-  - https://www.britannica.com/science/plant
-  - https://www.britannica.com/science/scientific-hypothesis
-  - https://www.britannica.com/technology/lever
-  - https://www.britannica.com/technology/wheel
+- britannica.com · 156
+- kids.britannica.com · 37
+- exploratorium.edu · 30
+- sciencekids.co.nz · 18
+- acs.org · 16
+- nobelprize.org · 7
+- kids.nationalgeographic.com · 6
+- rsc.org · 5
+- usgs.gov · 5
+- sciencelearn.org.nz · 2
+- epa.gov · 2
+- medlineplus.gov · 2
+- and 14 more sites
 
-## 🗺️ Geography & Maps
+## 🗺️ Geography & Maps (300 questions, 18 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/place/Asia
-  - https://www.britannica.com/place/Atacama-Desert
-  - https://www.britannica.com/place/Machu-Picchu
-  - https://www.britannica.com/place/Paraguay
-- **education.nationalgeographic.org**
-  - https://education.nationalgeographic.org/resource/equator/
-  - https://education.nationalgeographic.org/resource/globe/
-  - https://education.nationalgeographic.org/resource/island/
-  - https://education.nationalgeographic.org/resource/prime-meridian/
-- **oceanservice.noaa.gov**
-  - https://oceanservice.noaa.gov/facts/oceanwater.html
+- britannica.com · 82
+- kids.britannica.com · 81
+- education.nationalgeographic.org · 45
+- usgs.gov · 22
+- oceanservice.noaa.gov · 21
+- kids.nationalgeographic.com · 16
+- whc.unesco.org · 15
+- nps.gov · 4
+- nsf.gov · 2
+- epa.gov · 2
+- nasa.gov · 2
+- cia.gov · 2
+- and 6 more sites
 
-## 🌐 World Cultures & Languages
+## 🌐 World Cultures & Languages (300 questions, 14 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/place/Brazil
-  - https://www.britannica.com/plant/potato
-  - https://www.britannica.com/topic/Chinese-zodiac
-  - https://www.britannica.com/topic/Day-of-the-Dead
-  - https://www.britannica.com/topic/Nahuatl-language
-  - https://www.britannica.com/topic/Romance-languages
-  - https://www.britannica.com/topic/Spanish-language
-  - https://www.britannica.com/topic/chopsticks
-  - https://www.britannica.com/topic/pinata
+- britannica.com · 196
+- kids.britannica.com · 33
+- ich.unesco.org · 17
+- whc.unesco.org · 14
+- folklife.si.edu · 13
+- kids.nationalgeographic.com · 10
+- si.edu · 7
+- americanindian.si.edu · 2
+- rae.es · 2
+- dle.rae.es · 2
+- americanhistory.si.edu · 1
+- thecanadianencyclopedia.ca · 1
+- and 2 more sites
 
-## 🏛️ History & Inventions
+## 🏛️ History & Inventions (300 questions, 55 sites)
 
-- **airandspace.si.edu**
-  - https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000
-- **britannica.com**
-  - https://www.britannica.com/biography/Johannes-Gutenberg
-  - https://www.britannica.com/place/Machu-Picchu
-  - https://www.britannica.com/technology/candle
-  - https://www.britannica.com/technology/castle-architecture
-  - https://www.britannica.com/technology/wheel
-  - https://www.britannica.com/topic/Pyramids-of-Giza
-  - https://www.britannica.com/topic/democracy
-- **nasa.gov**
-  - https://www.nasa.gov/mission/apollo-11/
+- britannica.com · 125
+- si.edu · 18
+- kids.britannica.com · 18
+- rmg.co.uk · 12
+- dkfindout.com · 11
+- britishmuseum.org · 10
+- loc.gov · 7
+- airandspace.si.edu · 6
+- nhm.ac.uk · 6
+- amnh.org · 6
+- smithsonianmag.com · 6
+- nasa.gov · 5
+- and 43 more sites
 
-## 🔢 Math & Numbers
+## 🔢 Math & Numbers (300 questions, 7 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/science/Fibonacci-number
-  - https://www.britannica.com/science/addition-mathematics
-  - https://www.britannica.com/science/area
-  - https://www.britannica.com/science/multiplication
-  - https://www.britannica.com/science/number-mathematics
-  - https://www.britannica.com/science/prime-number
-  - https://www.britannica.com/science/triangle-mathematics
-  - https://www.britannica.com/topic/Roman-numeral
+- mathsisfun.com · 204
+- britannica.com · 36
+- kids.britannica.com · 30
+- khanacademy.org · 11
+- mathworld.wolfram.com · 8
+- kids.nationalgeographic.com · 6
+- nrich.maths.org · 5
 
-## ✏️ Words & Language
+## ✏️ Words & Language (300 questions, 6 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/topic/sandwich
-- **dle.rae.es**
-  - https://dle.rae.es/almohada
-  - https://dle.rae.es/esdr%C3%BAjulo
-  - https://dle.rae.es/manzana
-  - https://dle.rae.es/peque%C3%B1o
-  - https://dle.rae.es/re-
-  - https://dle.rae.es/rima
-  - https://dle.rae.es/s%C3%ADlaba
-  - https://dle.rae.es/s%C3%ADmil
-  - https://dle.rae.es/tilde
-- **merriam-webster.com**
-  - https://www.merriam-webster.com/dictionary/aquatic
-  - https://www.merriam-webster.com/dictionary/b
-  - https://www.merriam-webster.com/dictionary/cold
-  - https://www.merriam-webster.com/dictionary/homophone
-  - https://www.merriam-webster.com/dictionary/palindrome
-  - https://www.merriam-webster.com/dictionary/rhyme
-  - https://www.merriam-webster.com/dictionary/un-
-  - https://www.merriam-webster.com/thesaurus/happy
+- dle.rae.es · 141
+- merriam-webster.com · 103
+- etymonline.com · 34
+- britannica.com · 11
+- rae.es · 7
+- kids.britannica.com · 4
 
-## 🎨 Art, Music & Stories
+## 🎨 Art, Music & Stories (300 questions, 14 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/art/Impressionism-art
-  - https://www.britannica.com/art/drum-musical-instrument
-  - https://www.britannica.com/art/musical-notation
-  - https://www.britannica.com/art/violin
-  - https://www.britannica.com/biography/Beatrix-Potter
-  - https://www.britannica.com/science/color/The-visible-spectrum
-  - https://www.britannica.com/topic/Mona-Lisa-painting
-  - https://www.britannica.com/topic/Romeo-and-Juliet
-  - https://www.britannica.com/topic/The-Three-Little-Pigs
+- britannica.com · 214
+- kids.britannica.com · 28
+- tate.org.uk · 19
+- moma.org · 7
+- metmuseum.org · 7
+- kids.nationalgeographic.com · 5
+- whc.unesco.org · 5
+- nationalgallery.org.uk · 3
+- louvre.fr · 3
+- dsokids.com · 3
+- museofridakahlo.org.mx · 2
+- ich.unesco.org · 2
+- and 2 more sites
 
-## 🍎 Everyday Life: Food, Money, Time & Games
+## 🍎 Everyday Life: Food, Money, Time & Games (300 questions, 29 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/animal/chicken
-  - https://www.britannica.com/science/leap-year-calendar
-  - https://www.britannica.com/sports/Olympic-Games
-  - https://www.britannica.com/technology/clock
-  - https://www.britannica.com/technology/traffic-signal
-  - https://www.britannica.com/topic/cheese
-  - https://www.britannica.com/topic/chess
-  - https://www.britannica.com/topic/interest-economics
+- britannica.com · 150
+- kids.britannica.com · 45
+- kidshealth.org · 28
+- kids.nationalgeographic.com · 9
+- pbskids.org · 9
+- myplate.gov · 7
+- new.uschess.org · 6
+- fda.gov · 5
+- olympics.com · 4
+- fsis.usda.gov · 3
+- investor.gov · 3
+- consumerfinance.gov · 3
+- and 17 more sites
 
-## 💡 General Knowledge
+## 💡 General Knowledge (300 questions, 29 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/art/piano
-  - https://www.britannica.com/science/day
-  - https://www.britannica.com/science/season
-  - https://www.britannica.com/science/week
-  - https://www.britannica.com/technology/firefighting
-  - https://www.britannica.com/topic/Roman-numeral
-- **mathworld.wolfram.com**
-  - https://mathworld.wolfram.com/Chessboard.html
-- **mutcd.fhwa.dot.gov**
-  - https://mutcd.fhwa.dot.gov/htm/2009/part2/part2b.htm
-- **scijinks.gov**
-  - https://scijinks.gov/rainbow/
+- britannica.com · 122
+- kids.britannica.com · 85
+- kids.nationalgeographic.com · 21
+- kidshealth.org · 15
+- spaceplace.nasa.gov · 8
+- scijinks.gov · 6
+- smithsonianmag.com · 5
+- si.edu · 5
+- airandspace.si.edu · 4
+- noaa.gov · 3
+- usgs.gov · 2
+- ocean.si.edu · 2
+- and 17 more sites
 
-## 🤔 Why Is That?
+## 🤔 Why Is That? (300 questions, 20 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/animal/dog
-  - https://www.britannica.com/science/melting
-  - https://www.britannica.com/topic/popcorn
-- **kidshealth.org**
-  - https://kidshealth.org/en/kids/wash-hands.html
-- **loc.gov**
-  - https://www.loc.gov/everyday-mysteries/chemistry/item/why-does-chopping-an-onion-make-you-cry/
-- **science.nasa.gov**
-  - https://science.nasa.gov/venus/facts/
-- **scijinks.gov**
-  - https://scijinks.gov/blue-sky/
-- **spaceplace.nasa.gov**
-  - https://spaceplace.nasa.gov/seasons/
-- **weather.gov**
-  - https://www.weather.gov/safety/lightning-science-thunder
+- britannica.com · 102
+- kids.britannica.com · 46
+- kidshealth.org · 39
+- scijinks.gov · 20
+- loc.gov · 20
+- kids.nationalgeographic.com · 19
+- spaceplace.nasa.gov · 13
+- medlineplus.gov · 9
+- science.nasa.gov · 8
+- sciencekids.co.nz · 8
+- oceanservice.noaa.gov · 4
+- nidcd.nih.gov · 3
+- and 8 more sites
 
-## 🧩 Brain Teasers & Logic
+## 🧩 Brain Teasers & Logic (239 questions, 10 sites)
 
-- **britannica.com**
-  - https://www.britannica.com/plant/banana-plant
-  - https://www.britannica.com/science/animal
-  - https://www.britannica.com/science/exponential-growth
-  - https://www.britannica.com/science/month
-  - https://www.britannica.com/science/probability
-  - https://www.britannica.com/science/square-number
-  - https://www.britannica.com/science/week
-  - https://www.britannica.com/topic/syllogism
-- **en.wikipedia.org**
-  - https://en.wikipedia.org/wiki/Knights_and_Knaves
-- **khanacademy.org**
-  - https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide
-  - https://www.khanacademy.org/math/cc-fourth-grade-math/imp-factors-multiples-and-patterns
-- **nrich.maths.org**
-  - https://nrich.maths.org/handshakes
-- **science.nasa.gov**
-  - https://science.nasa.gov/moon/moon-phases/
+- mathsisfun.com · 78
+- britannica.com · 65
+- merriam-webster.com · 35
+- kids.britannica.com · 21
+- dle.rae.es · 19
+- mathworld.wolfram.com · 8
+- nrich.maths.org · 6
+- khanacademy.org · 4
+- science.nasa.gov · 2
+- en.wikipedia.org · 1
+
+_4739 source links in all._
+
+## Rebuild
+
+```bash
+node tools/triviacredits.mjs > docs/research/trivia/CREDITS.md
+```

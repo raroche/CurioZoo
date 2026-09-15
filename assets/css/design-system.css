@@ -4607,6 +4607,8 @@ button, a, label, summary, [role="button"] {
 }
 
 .cz-trivia-card { max-width: 760px; margin-inline: auto; }
+/* No tag above the trivia setup, so no room is kept for one. */
+.cz-mode--practice.cz-trivia-play { padding-top: 0; }
 /* Count on the left, language and speaker on the right, the topic chip under
    both. A grid, so the language pill never wraps under the count on a phone. */
 .cz-trivia-top {

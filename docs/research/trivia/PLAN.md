@@ -81,7 +81,7 @@ no lives, no daily streak.
 | Route | Screen id | What it shows |
 |---|---|---|
 | `#/fun` | `fun` (exists) | The hub; add the tile |
-| `#/fun/trivia` | `triviasetup` | Learn box (Fact Book link) above the Practice card: level, category, how many, language, Start |
+| `#/fun/trivia` | `triviasetup` | The setup card first (level, category, how many questions, language, Start), then the Learn box (Fact Book link) below it |
 | `#/fun/trivia/play` | `triviagame` | One question at a time, then the results |
 | `#/fun/trivia/learn` | `trivialearn` | The Fact Book |
 
@@ -553,7 +553,7 @@ export function secondLooks(round)
 
 export function record(memory, id, right, today)
   // seen[id] = [rightCount, wrongCount, dayNumber]; recent.push(id) capped at 60;
-  // seen capped at 4000 entries, oldest dropped
+  // seen capped at 6000 entries (above the whole bank), oldest dropped
 
 export function starsFor(round) -> number     // one per right answer, second looks included
 export function rank(stars) -> { name, es, next }
@@ -598,11 +598,12 @@ on first render so the child's last choices are back next week.
 Same skeleton as `#screen-capsetup`: backlink, `gp-page-title` "Curio
 Trivia", lede "Questions about animals, space, your body, the world and
 more. Every answer teaches you something, even the ones you miss.", then the
+`cz-mode cz-mode--practice cz-trivia-play` card `#gp-trivia-setup` (no
+"Practice" tag: trivia is played, not practised) drawn by
+`renderSetup(manifest, chosen, memory)`, then below it the
 `cz-mode cz-mode--learn` box ("The Fact Book" · "Every fun fact in the game,
 by topic. The ones you have earned light up. No score, nothing to get
-wrong." · button "Open the Fact Book →" to `#/fun/trivia/learn`), then the
-`cz-mode cz-mode--practice` card `#gp-trivia-setup` drawn by
-`renderSetup(manifest, chosen, memory)`:
+wrong." · button "Open the Fact Book →" to `#/fun/trivia/learn`). The card:
 
 1. **Who is playing?** three `gp-card gp-card--mode` cards (`data-trivialevel`):
    "Easy · ages 4 to 6 · three choices, read out loud", "Medium · ages 7 to 10
@@ -611,7 +612,7 @@ wrong." · button "Open the Fact Book →" to `#/fun/trivia/learn`), then the
    (`radioGroupKeys` needs one): "🎲 Mixed" first and selected, then the
    sixteen categories as "🐾 Animals & Nature" (`data-triviacat`). Each pill
    shows a small count of questions left unseen at this level, e.g. `58`.
-3. **How many?** pills 5 · 10 · 15 (`data-triviacount`). Selecting a level
+3. **How many questions?** pills 5 · 10 · 15 (`data-triviacount`). Selecting a level
    resets the count to that level's default unless the child changed it.
 4. **Language to start in** two pills "English" · "Español"
    (`data-trivialang`). Can still be flipped on every card.
@@ -954,8 +955,8 @@ Master/Maestro.
 - `speech.speak` cancels whatever is playing. Do not auto-read at Medium or
   Hard: a nine-year-old reading faster than the voice will find it
   maddening. The button is there.
-- The seen map grows one entry per question ever answered. Capped at 4,000
-  entries, that is under 200 KB. Fine.
+- The seen map grows one entry per question ever answered. Capped at 6,000
+  entries (above the whole bank), that is under 250 KB. Fine.
 
 ## Out of scope, on purpose
 

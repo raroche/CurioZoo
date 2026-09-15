@@ -1,7 +1,7 @@
 {
   "note": "Brain Teasers & Logic. Three levels in one file so a reviewer sees the ladder. One-language items: en and es pools written separately.",
   "category": "puzzles",
-  "attribution": { "facts": "Written for this project from the sources listed per question." },
+  "attribution": {"facts":"Written for this project from the sources listed per question."},
   "questions": [
     {
       "id": "puzzles-easy-001", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎨",
@@ -248,6 +248,2998 @@
       "why": { "es": "Lucía está en el grupo de los que juegan ajedrez, y todo ese grupo juega damas; lo contrario no se puede asegurar." },
       "topic": "logic",
       "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-easy-007", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔷",
+      "q": { "en": "Circle, square, circle, square, what comes next?", "es": "Círculo, cuadrado, círculo, cuadrado, ¿qué sigue?" },
+      "choices": [
+        { "en": "Circle", "es": "Círculo", "emoji": "🔵" },
+        { "en": "Triangle", "es": "Triángulo", "emoji": "🔺" },
+        { "en": "Star", "es": "Estrella", "emoji": "⭐" }
+      ],
+      "answer": 0,
+      "why": { "en": "The two shapes take turns. After a square the pattern starts over, so a circle comes next every time.", "es": "Las dos figuras se turnan. Después de un cuadrado el patrón vuelve a empezar, así que sigue un círculo." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-008", "level": "easy", "type": "mc", "lang": "en", "emoji": "🧊",
+      "q": { "en": "White, cold, and I melt away. What am I?" },
+      "choices": [
+        { "en": "Sand", "emoji": "🏖️" },
+        { "en": "Snow", "emoji": "❄️" },
+        { "en": "Paper", "emoji": "📄" }
+      ],
+      "answer": 1,
+      "why": { "en": "Snow is frozen water, so warmth turns it back into liquid water and it disappears into a small puddle." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/snow"
+    },
+    {
+      "id": "puzzles-easy-009", "level": "easy", "type": "mc", "lang": "es", "emoji": "🍯",
+      "q": { "es": "Tengo alas y hago miel. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una mariposa", "emoji": "🦋" },
+        { "es": "Un pájaro", "emoji": "🐦" },
+        { "es": "Una abeja", "emoji": "🐝" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las abejas juntan néctar de las flores y lo convierten en miel dentro del panal para comer en invierno." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/honeybee"
+    },
+    {
+      "id": "puzzles-easy-010", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐱",
+      "q": { "en": "How many eyes do three cats have?", "es": "¿Cuántos ojos tienen tres gatos juntos?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Each cat has two eyes, so three cats have two plus two plus two, which is six; count them in pairs.", "es": "Cada gato tiene dos ojos, así que tres gatos tienen dos más dos más dos, que son seis; cuéntalos de dos en dos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-011", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌞",
+      "q": { "en": "Yellow, hot, and lights our day. What is it?" },
+      "choices": [
+        { "en": "A lamp", "emoji": "💡" },
+        { "en": "The Sun", "emoji": "☀️" },
+        { "en": "A candle", "emoji": "🕯️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The Sun is a star so big and hot that its light reaches us in about eight minutes across space." },
+      "topic": "riddles",
+      "source": "https://science.nasa.gov/sun/"
+    },
+    {
+      "id": "puzzles-easy-012", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌊",
+      "q": { "es": "Vivo en el agua y tengo aletas. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un gato", "emoji": "🐱" },
+        { "es": "Un pájaro", "emoji": "🐦" },
+        { "es": "Un pez", "emoji": "🐟" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los peces respiran bajo el agua con branquias y usan las aletas como remos para girar y avanzar." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/fish"
+    },
+    {
+      "id": "puzzles-easy-013", "level": "easy", "type": "mc", "lang": "both", "emoji": "🟨",
+      "q": { "en": "How many corners do two squares have?", "es": "¿Cuántas esquinas tienen dos cuadrados juntos?" },
+      "choices": [
+        { "en": "Eight", "es": "Ocho", "emoji": "8️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Four", "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "A square has four corners, so two squares have four plus four, which is eight corners and eight sides too.", "es": "Un cuadrado tiene cuatro esquinas, así que dos cuadrados tienen cuatro más cuatro: ocho esquinas y ocho lados." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/square.html"
+    },
+    {
+      "id": "puzzles-easy-014", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌧️",
+      "q": { "en": "I keep you dry in rain. What am I?" },
+      "choices": [
+        { "en": "Sunglasses", "emoji": "🕶️" },
+        { "en": "An umbrella", "emoji": "☂️" },
+        { "en": "A scarf", "emoji": "🧣" }
+      ],
+      "answer": 1,
+      "why": { "en": "An umbrella spreads cloth over your head so raindrops slide down the sides instead of landing on you." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/umbrella"
+    },
+    {
+      "id": "puzzles-easy-015", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌳",
+      "q": { "es": "Soy redondo, rojo y crezco en árboles. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una uva", "emoji": "🍇" },
+        { "es": "Una zanahoria", "emoji": "🥕" },
+        { "es": "Una manzana", "emoji": "🍎" }
+      ],
+      "answer": 2,
+      "why": { "es": "La manzana crece en un árbol y es roja o verde; la uva crece en racimos y es mucho más pequeña." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/plant/apple-fruit-and-tree"
+    },
+    {
+      "id": "puzzles-easy-016", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧺",
+      "q": { "en": "Which is more, five apples or three apples?", "es": "¿Qué hay más, cinco manzanas o tres manzanas?" },
+      "choices": [
+        { "en": "Five apples", "es": "Cinco manzanas", "emoji": "🍎" },
+        { "en": "Three apples", "es": "Tres manzanas", "emoji": "🍏" },
+        { "en": "They are the same", "es": "Son iguales", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Five comes after three when you count, so five apples is the bigger pile by exactly two apples.", "es": "Cinco viene después de tres al contar, así que cinco manzanas son más, exactamente dos manzanas más." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-017", "level": "easy", "type": "mc", "lang": "en", "emoji": "⏱️",
+      "q": { "en": "I have a face and hands. What am I?" },
+      "choices": [
+        { "en": "A book", "emoji": "📕" },
+        { "en": "A clock", "emoji": "🕐" },
+        { "en": "A door", "emoji": "🚪" }
+      ],
+      "answer": 1,
+      "why": { "en": "A clock has a round face and two hands that point, and the short hand shows the hour." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/clock"
+    },
+    {
+      "id": "puzzles-easy-018", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌛",
+      "q": { "es": "Doy luz de noche en tu cuarto. ¿Qué soy?" },
+      "choices": [
+        { "es": "Una silla", "emoji": "🪑" },
+        { "es": "Una ventana", "emoji": "🪟" },
+        { "es": "Una lámpara", "emoji": "💡" }
+      ],
+      "answer": 2,
+      "why": { "es": "Una lámpara transforma la electricidad en luz, y por eso puedes leer un cuento aunque afuera esté oscuro." },
+      "topic": "riddles",
+      "source": "https://dle.rae.es/lampara"
+    },
+    {
+      "id": "puzzles-easy-019", "level": "easy", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "Which is heavier, an elephant or a mouse?", "es": "¿Qué pesa más, un elefante o un ratón?" },
+      "choices": [
+        { "en": "The elephant", "es": "El elefante", "emoji": "🐘" },
+        { "en": "The mouse", "es": "El ratón", "emoji": "🐭" },
+        { "en": "They weigh the same", "es": "Pesan igual", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "An elephant can weigh as much as a small truck, while a mouse weighs less than a slice of bread.", "es": "Un elefante puede pesar como un camión pequeño, y un ratón pesa menos que una rebanada de pan." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-easy-020", "level": "easy", "type": "mc", "lang": "en", "emoji": "💧",
+      "q": { "en": "Full of holes but holding water. What am I?" },
+      "choices": [
+        { "en": "A rock", "emoji": "🪨" },
+        { "en": "A sponge", "emoji": "🧽" },
+        { "en": "A cup", "emoji": "☕" }
+      ],
+      "answer": 1,
+      "why": { "en": "A sponge is a mesh of tiny holes, and water clings inside them until you squeeze the sponge out." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/sponge"
+    },
+    {
+      "id": "puzzles-easy-021", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦴",
+      "q": { "es": "Tengo cuatro patas y ladro fuerte. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un pato", "emoji": "🦆" },
+        { "es": "Un caballo", "emoji": "🐴" },
+        { "es": "Un perro", "emoji": "🐶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Solo el perro ladra, y lo hace para avisar o saludar; su oído capta sonidos que tú ni escuchas." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/dog"
+    },
+    {
+      "id": "puzzles-easy-022", "level": "easy", "type": "mc", "lang": "both", "emoji": "🏡",
+      "q": { "en": "Who is older, a grandmother or her grandchild?", "es": "¿Quién es mayor, una abuela o su nieto?" },
+      "choices": [
+        { "en": "The grandmother", "es": "La abuela", "emoji": "👵" },
+        { "en": "The grandchild", "es": "El nieto", "emoji": "👶" },
+        { "en": "They are the same age", "es": "Tienen la misma edad", "emoji": "🎂" }
+      ],
+      "answer": 0,
+      "why": { "en": "A grandmother is the parent of a parent, so she was born two whole generations before her grandchild.", "es": "Una abuela es la mamá de un papá o una mamá, así que nació dos generaciones antes que su nieto." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/grandmother"
+    },
+    {
+      "id": "puzzles-easy-023", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚶",
+      "q": { "en": "I follow you in sunshine. What am I?" },
+      "choices": [
+        { "en": "Your echo", "emoji": "🔊" },
+        { "en": "Your shadow", "emoji": "👤" },
+        { "en": "Your coat", "emoji": "🧥" }
+      ],
+      "answer": 1,
+      "why": { "en": "Your body blocks sunlight, and the dark shape on the ground behind you is that missing light, your shadow." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/shadow"
+    },
+    {
+      "id": "puzzles-easy-024", "level": "easy", "type": "mc", "lang": "es", "emoji": "⛄",
+      "q": { "es": "Soy blanca, fría y caigo en invierno. ¿Qué soy?" },
+      "choices": [
+        { "es": "La arena", "emoji": "🏖️" },
+        { "es": "La hoja", "emoji": "🍂" },
+        { "es": "La nieve", "emoji": "❄️" }
+      ],
+      "answer": 2,
+      "why": { "es": "La nieve es agua congelada que cae en copos, y cada copo tiene seis puntas por la forma del hielo." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/snow"
+    },
+    {
+      "id": "puzzles-easy-025", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "One, two, three, four, what comes next?", "es": "Uno, dos, tres, cuatro, ¿qué número sigue?" },
+      "choices": [
+        { "en": "Five", "es": "Cinco", "emoji": "5️⃣" },
+        { "en": "Seven", "es": "Siete", "emoji": "7️⃣" },
+        { "en": "Two", "es": "Dos", "emoji": "2️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Counting numbers go up by one each time, so after four you add one more and land on five.", "es": "Los números para contar suben de uno en uno, así que después de cuatro sumas uno y llegas a cinco." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-026", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌿",
+      "q": { "en": "Small, red, with black spots. What am I?" },
+      "choices": [
+        { "en": "A bee", "emoji": "🐝" },
+        { "en": "A ladybug", "emoji": "🐞" },
+        { "en": "A snail", "emoji": "🐌" }
+      ],
+      "answer": 1,
+      "why": { "en": "A ladybug's bright red back with black dots warns birds that it tastes bad, so they leave it alone." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/ladybug"
+    },
+    {
+      "id": "puzzles-easy-027", "level": "easy", "type": "mc", "lang": "es", "emoji": "👣",
+      "q": { "es": "Me pones en los pies para caminar. ¿Qué soy?" },
+      "choices": [
+        { "es": "Un sombrero", "emoji": "👒" },
+        { "es": "Un guante", "emoji": "🧤" },
+        { "es": "Un zapato", "emoji": "👟" }
+      ],
+      "answer": 2,
+      "why": { "es": "El zapato protege la planta del pie de piedras y del frío, y por eso tiene una suela dura." },
+      "topic": "riddles",
+      "source": "https://dle.rae.es/zapato"
+    },
+    {
+      "id": "puzzles-easy-028", "level": "easy", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Big, small, big, small, what comes next?", "es": "Grande, pequeño, grande, pequeño, ¿qué sigue?" },
+      "choices": [
+        { "en": "Big", "es": "Grande", "emoji": "🟦" },
+        { "en": "Small", "es": "Pequeño", "emoji": "🔹" },
+        { "en": "Medium", "es": "Mediano", "emoji": "🟩" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pattern swaps between big and small, and the last one was small, so a big one comes next.", "es": "El patrón cambia entre grande y pequeño, y el último fue pequeño, así que ahora toca uno grande." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-029", "level": "easy", "type": "mc", "lang": "en", "emoji": "🏠",
+      "q": { "en": "I carry my house everywhere. What am I?" },
+      "choices": [
+        { "en": "A bird", "emoji": "🐦" },
+        { "en": "A snail", "emoji": "🐌" },
+        { "en": "A fish", "emoji": "🐟" }
+      ],
+      "answer": 1,
+      "why": { "en": "A snail's shell grows with its body and it can pull its whole soft self inside when danger comes." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/animal/snail"
+    },
+    {
+      "id": "puzzles-easy-030", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔁",
+      "q": { "es": "Sol, luna, sol, luna, ¿qué sigue?" },
+      "choices": [
+        { "es": "Una estrella", "emoji": "⭐" },
+        { "es": "La luna", "emoji": "🌙" },
+        { "es": "El sol", "emoji": "☀️" }
+      ],
+      "answer": 2,
+      "why": { "es": "El patrón alterna sol y luna, y como el último fue la luna, ahora le toca otra vez al sol." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-031", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "All these balls are red. What color is one?", "es": "Todas estas pelotas son rojas. ¿De qué color es una?" },
+      "choices": [
+        { "en": "Red", "es": "Roja", "emoji": "🔴" },
+        { "en": "Blue", "es": "Azul", "emoji": "🔵" },
+        { "en": "Green", "es": "Verde", "emoji": "🟢" }
+      ],
+      "answer": 0,
+      "why": { "en": "If every single ball is red, then any ball you pick from the group has to be red too.", "es": "Si todas las pelotas son rojas, entonces cualquier pelota que saques del grupo también tiene que ser roja." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-easy-032", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔁",
+      "q": { "en": "Circle, circle, square, circle, circle, what next?" },
+      "choices": [
+        { "en": "Circle", "emoji": "🔵" },
+        { "en": "Square", "emoji": "🟥" },
+        { "en": "Triangle", "emoji": "🔺" }
+      ],
+      "answer": 1,
+      "why": { "en": "The group repeats as circle, circle, square, so after two circles the square always takes the third spot." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-033", "level": "easy", "type": "mc", "lang": "es", "emoji": "🧮",
+      "q": { "es": "Cinco, diez, quince, ¿qué número sigue?" },
+      "choices": [
+        { "es": "Dieciocho", "emoji": "🔢" },
+        { "es": "Dieciséis", "emoji": "➕" },
+        { "es": "Veinte", "emoji": "🧮" }
+      ],
+      "answer": 2,
+      "why": { "es": "La serie sube de cinco en cinco: cinco, diez, quince y luego veinte, igual que cuentas monedas de cinco." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-034", "level": "easy", "type": "mc", "lang": "both", "emoji": "🐈",
+      "q": { "en": "How many ears do three cats have?", "es": "¿Cuántas orejas tienen tres gatos en total?" },
+      "choices": [
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Nine", "es": "Nueve", "emoji": "9️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every cat has two ears, and two plus two plus two makes six, which is counting by twos.", "es": "Cada gato tiene dos orejas, y dos más dos más dos son seis: eso es contar de dos en dos." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-035", "level": "easy", "type": "mc", "lang": "en", "emoji": "🐾",
+      "q": { "en": "Cat, dog, cat, dog, cat, what comes next?" },
+      "choices": [
+        { "en": "Cat", "emoji": "🐱" },
+        { "en": "Dog", "emoji": "🐶" },
+        { "en": "Bird", "emoji": "🐦" }
+      ],
+      "answer": 1,
+      "why": { "en": "The animals alternate one by one, so a cat is always followed by a dog in this row." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-036", "level": "easy", "type": "mc", "lang": "es", "emoji": "🎨",
+      "q": { "es": "Rojo, rojo, azul, rojo, rojo, ¿qué sigue?" },
+      "choices": [
+        { "es": "Rojo", "emoji": "🔴" },
+        { "es": "Verde", "emoji": "🟢" },
+        { "es": "Azul", "emoji": "🔵" }
+      ],
+      "answer": 2,
+      "why": { "es": "El grupo se repite como rojo, rojo, azul, así que después de dos rojos siempre viene un azul." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-037", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔍",
+      "q": { "en": "Apple, banana, car: which one is different?", "es": "Manzana, plátano, carro: ¿cuál es diferente?" },
+      "choices": [
+        { "en": "The car", "es": "El carro", "emoji": "🚗" },
+        { "en": "The apple", "es": "La manzana", "emoji": "🍎" },
+        { "en": "The banana", "es": "El plátano", "emoji": "🍌" }
+      ],
+      "answer": 0,
+      "why": { "en": "The apple and the banana are fruits that grow on plants, while a car is a machine people build.", "es": "La manzana y el plátano son frutas que crecen en plantas; el carro es una máquina que la gente construye." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/fruit"
+    },
+    {
+      "id": "puzzles-easy-038", "level": "easy", "type": "mc", "lang": "en", "emoji": "➕",
+      "q": { "en": "Two, four, six, eight, what comes next?" },
+      "choices": [
+        { "en": "Nine", "emoji": "9️⃣" },
+        { "en": "Ten", "emoji": "🔟" },
+        { "en": "Seven", "emoji": "7️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "These are the counting-by-twos numbers, and adding two more to eight lands you neatly on ten." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-039", "level": "easy", "type": "mc", "lang": "es", "emoji": "🗓️",
+      "q": { "es": "Viernes, sábado, ¿qué día sigue después?" },
+      "choices": [
+        { "es": "El lunes", "emoji": "1️⃣" },
+        { "es": "El martes", "emoji": "2️⃣" },
+        { "es": "El domingo", "emoji": "7️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "La semana se repite siempre igual, y el domingo llega justo después del sábado para cerrar la semana." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-040", "level": "easy", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "Which shape has three sides?", "es": "¿Cuál figura tiene tres lados?" },
+      "choices": [
+        { "en": "A triangle", "es": "El triángulo", "emoji": "🔺" },
+        { "en": "A square", "es": "El cuadrado", "emoji": "🟥" },
+        { "en": "A circle", "es": "El círculo", "emoji": "🔵" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tri means three, so a triangle has three sides and three corners, and it is the strongest shape for bridges.", "es": "Tri significa tres, por eso un triángulo tiene tres lados y tres esquinas, y es la figura más fuerte para puentes." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/triangles.html"
+    },
+    {
+      "id": "puzzles-easy-041", "level": "easy", "type": "mc", "lang": "en", "emoji": "📅",
+      "q": { "en": "Monday, Tuesday, Wednesday, what day comes next?" },
+      "choices": [
+        { "en": "Sunday", "emoji": "7️⃣" },
+        { "en": "Thursday", "emoji": "4️⃣" },
+        { "en": "Friday", "emoji": "5️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "The week always runs in the same order, and Thursday sits right after Wednesday, halfway through the school week." },
+      "topic": "patterns",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-042", "level": "easy", "type": "mc", "lang": "es", "emoji": "🤔",
+      "q": { "es": "Si ayer fue lunes, ¿qué día es hoy?" },
+      "choices": [
+        { "es": "El domingo", "emoji": "7️⃣" },
+        { "es": "El miércoles", "emoji": "3️⃣" },
+        { "es": "El martes", "emoji": "2️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los días van en orden fijo, y si el lunes ya pasó ayer, entonces hoy tiene que ser martes." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-043", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Which is the biggest: ant, dog, whale?", "es": "¿Cuál es el más grande: hormiga, perro o ballena?" },
+      "choices": [
+        { "en": "The whale", "es": "La ballena", "emoji": "🐋" },
+        { "en": "The ant", "es": "La hormiga", "emoji": "🐜" },
+        { "en": "The dog", "es": "El perro", "emoji": "🐶" }
+      ],
+      "answer": 0,
+      "why": { "en": "A blue whale can grow longer than a school bus, while a dog fits on a couch and an ant on your finger.", "es": "Una ballena azul puede ser más larga que un autobús escolar; un perro cabe en un sillón y una hormiga en tu dedo." },
+      "topic": "comparing",
+      "source": "https://www.britannica.com/animal/blue-whale"
+    },
+    {
+      "id": "puzzles-easy-044", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎢",
+      "q": { "en": "Up, down, up, down, what comes next?" },
+      "choices": [
+        { "en": "Down", "emoji": "⬇️" },
+        { "en": "Up", "emoji": "⬆️" },
+        { "en": "Sideways", "emoji": "➡️" }
+      ],
+      "answer": 1,
+      "why": { "en": "The two moves swap every turn, so after a down move the next one has to be up again." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-045", "level": "easy", "type": "mc", "lang": "es", "emoji": "🦜",
+      "q": { "es": "Todos los pájaros tienen plumas. ¿Qué tiene un loro?" },
+      "choices": [
+        { "es": "Escamas", "emoji": "🐟" },
+        { "es": "Pelo", "emoji": "🐱" },
+        { "es": "Plumas", "emoji": "🪶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Un loro es un pájaro, y si todos los pájaros tienen plumas, entonces el loro también está en ese grupo." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/animal/bird"
+    },
+    {
+      "id": "puzzles-easy-046", "level": "easy", "type": "mc", "lang": "both", "emoji": "🎵",
+      "q": { "en": "Clap, stomp, clap, stomp, what comes next?", "es": "Aplauso, pisotón, aplauso, pisotón, ¿qué sigue?" },
+      "choices": [
+        { "en": "A clap", "es": "Un aplauso", "emoji": "👏" },
+        { "en": "A stomp", "es": "Un pisotón", "emoji": "🦶" },
+        { "en": "A jump", "es": "Un salto", "emoji": "🤸" }
+      ],
+      "answer": 0,
+      "why": { "en": "The pattern has two parts that trade places, and since a stomp just happened, a clap must come next.", "es": "El patrón tiene dos partes que se alternan, y como acaba de haber un pisotón, ahora sigue un aplauso." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/definitions/pattern.html"
+    },
+    {
+      "id": "puzzles-easy-047", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌅",
+      "q": { "en": "If tomorrow is Sunday, what day is it?" },
+      "choices": [
+        { "en": "Monday", "emoji": "2️⃣" },
+        { "en": "Saturday", "emoji": "6️⃣" },
+        { "en": "Friday", "emoji": "5️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Sunday comes right after Saturday, so if tomorrow is Sunday then you must be standing in Saturday." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/week"
+    },
+    {
+      "id": "puzzles-easy-048", "level": "easy", "type": "mc", "lang": "es", "emoji": "🏃",
+      "q": { "es": "Sofía corre más rápido que Mateo. ¿Quién llega primero?" },
+      "choices": [
+        { "es": "Mateo", "emoji": "🧒" },
+        { "es": "Llegan juntos", "emoji": "🤝" },
+        { "es": "Sofía", "emoji": "👧" }
+      ],
+      "answer": 2,
+      "why": { "es": "Correr más rápido significa recorrer la misma distancia en menos tiempo, así que Sofía cruza la meta antes." },
+      "topic": "logic",
+      "source": "https://www.mathsisfun.com/measure/speed-velocity.html"
+    },
+    {
+      "id": "puzzles-easy-049", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕳️",
+      "q": { "en": "One, two, four, five: which number is missing?", "es": "Uno, dos, cuatro, cinco: ¿qué número falta?" },
+      "choices": [
+        { "en": "Three", "es": "Tres", "emoji": "3️⃣" },
+        { "en": "Six", "es": "Seis", "emoji": "6️⃣" },
+        { "en": "Zero", "es": "Cero", "emoji": "0️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "Counting goes one, two, three, four, five, so three is the one that slipped out of the line.", "es": "Al contar decimos uno, dos, tres, cuatro, cinco, así que el número que se escapó de la fila es tres." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-050", "level": "easy", "type": "mc", "lang": "en", "emoji": "🍬",
+      "q": { "en": "Ana has more candy than Beto. Who has less?" },
+      "choices": [
+        { "en": "Ana", "emoji": "👧" },
+        { "en": "Beto", "emoji": "🧒" },
+        { "en": "Both the same", "emoji": "🍬" }
+      ],
+      "answer": 1,
+      "why": { "en": "If Ana has more, then Beto must have fewer pieces; more and less are two sides of one comparison." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/fewer"
+    },
+    {
+      "id": "puzzles-easy-051", "level": "easy", "type": "mc", "lang": "es", "emoji": "🪜",
+      "q": { "es": "El gato está arriba del perro. ¿Quién está abajo?" },
+      "choices": [
+        { "es": "El gato", "emoji": "🐱" },
+        { "es": "Los dos", "emoji": "🪜" },
+        { "es": "El perro", "emoji": "🐶" }
+      ],
+      "answer": 2,
+      "why": { "es": "Arriba y abajo son opuestos: si el gato ocupa el lugar de arriba, al perro le queda el de abajo." },
+      "topic": "logic",
+      "source": "https://dle.rae.es/arriba"
+    },
+    {
+      "id": "puzzles-easy-052", "level": "easy", "type": "mc", "lang": "both", "emoji": "🍪",
+      "q": { "en": "Which is more, two cookies or six cookies?", "es": "¿Qué es más, dos galletas o seis galletas?" },
+      "choices": [
+        { "en": "Six cookies", "es": "Seis galletas", "emoji": "🥠" },
+        { "en": "Two cookies", "es": "Dos galletas", "emoji": "🍪" },
+        { "en": "They are the same", "es": "Son iguales", "emoji": "🤝" }
+      ],
+      "answer": 0,
+      "why": { "en": "Six is farther along the number line than two, so six cookies is four more cookies than two.", "es": "Seis está más adelante que dos al contar, así que seis galletas son cuatro galletas más que dos." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-053", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚸",
+      "q": { "en": "Sam stands ahead of Lia. Who is first?" },
+      "choices": [
+        { "en": "Lia", "emoji": "👧" },
+        { "en": "Sam", "emoji": "🧒" },
+        { "en": "They tie", "emoji": "🤝" }
+      ],
+      "answer": 1,
+      "why": { "en": "Ahead means closer to the front of the line, so Sam reaches the counter before Lia does." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/ahead"
+    },
+    {
+      "id": "puzzles-easy-054", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔵",
+      "q": { "es": "Pedro tiene menos canicas que Luisa. ¿Quién tiene más?" },
+      "choices": [
+        { "es": "Pedro", "emoji": "🧒" },
+        { "es": "Tienen igual", "emoji": "🤝" },
+        { "es": "Luisa", "emoji": "👧" }
+      ],
+      "answer": 2,
+      "why": { "es": "Menos y más son opuestos al comparar cantidades, así que si Pedro tiene menos, Luisa tiene la pila mayor." },
+      "topic": "logic",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-055", "level": "easy", "type": "mc", "lang": "both", "emoji": "🧦",
+      "q": { "en": "Shoe, sock, spoon: which is the odd one out?", "es": "Zapato, calcetín, cuchara: ¿cuál es el intruso?" },
+      "choices": [
+        { "en": "The spoon", "es": "La cuchara", "emoji": "🥄" },
+        { "en": "The shoe", "es": "El zapato", "emoji": "👟" },
+        { "en": "The sock", "es": "El calcetín", "emoji": "🧦" }
+      ],
+      "answer": 0,
+      "why": { "en": "A shoe and a sock both go on your feet, but a spoon goes in your hand at the table.", "es": "El zapato y el calcetín van en los pies, pero la cuchara va en la mano cuando comes en la mesa." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/spoon"
+    },
+    {
+      "id": "puzzles-easy-056", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎈",
+      "q": { "en": "Which is lighter, a balloon or a book?" },
+      "choices": [
+        { "en": "A book", "emoji": "📘" },
+        { "en": "A balloon", "emoji": "🎈" },
+        { "en": "They match", "emoji": "⚖️" }
+      ],
+      "answer": 1,
+      "why": { "en": "A balloon holds mostly air, and air weighs almost nothing, while a book is many stacked sheets of paper." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-easy-057", "level": "easy", "type": "mc", "lang": "es", "emoji": "🥭",
+      "q": { "es": "Si toda fruta es dulce, ¿cómo es el mango?" },
+      "choices": [
+        { "es": "Salado", "emoji": "🧂" },
+        { "es": "Picante", "emoji": "🌶️" },
+        { "es": "Dulce", "emoji": "🥭" }
+      ],
+      "answer": 2,
+      "why": { "es": "El mango es una fruta, y si la regla dice que toda fruta es dulce, el mango entra en esa regla." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/plant/mango-plant-and-fruit"
+    },
+    {
+      "id": "puzzles-easy-058", "level": "easy", "type": "mc", "lang": "both", "emoji": "🔶",
+      "q": { "en": "Triangle, circle, triangle, circle, what is next?", "es": "Triángulo, círculo, triángulo, círculo, ¿qué sigue?" },
+      "choices": [
+        { "en": "A triangle", "es": "Un triángulo", "emoji": "🔺" },
+        { "en": "A circle", "es": "Un círculo", "emoji": "⚪" },
+        { "en": "A square", "es": "Un cuadrado", "emoji": "🟩" }
+      ],
+      "answer": 0,
+      "why": { "en": "The row swaps between a triangle and a circle, so after the circle the triangle takes its turn again.", "es": "La fila alterna un triángulo y un círculo, así que después del círculo le toca otra vez al triángulo." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/shapes.html"
+    },
+    {
+      "id": "puzzles-easy-059", "level": "easy", "type": "mc", "lang": "en", "emoji": "⏰",
+      "q": { "en": "Nico wakes up before Mia. Who wakes later?" },
+      "choices": [
+        { "en": "Nico", "emoji": "🧒" },
+        { "en": "Mia", "emoji": "👧" },
+        { "en": "Both at once", "emoji": "⏰" }
+      ],
+      "answer": 1,
+      "why": { "en": "Before means earlier in time, so if Nico is already awake, Mia is still the one getting up later." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/before"
+    },
+    {
+      "id": "puzzles-easy-060", "level": "easy", "type": "mc", "lang": "es", "emoji": "🔍",
+      "q": { "es": "Rojo, azul, silla: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "El rojo", "emoji": "🔴" },
+        { "es": "El azul", "emoji": "🔵" },
+        { "es": "La silla", "emoji": "🪑" }
+      ],
+      "answer": 2,
+      "why": { "es": "Rojo y azul son colores que ves; la silla es un mueble de verdad donde te puedes sentar." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/color"
+    },
+    {
+      "id": "puzzles-easy-061", "level": "easy", "type": "mc", "lang": "both", "emoji": "📏",
+      "q": { "en": "Who is taller, a baby or her mother?", "es": "¿Quién es más alta, una bebé o su mamá?" },
+      "choices": [
+        { "en": "The mother", "es": "La mamá", "emoji": "👩" },
+        { "en": "The baby", "es": "La bebé", "emoji": "👶" },
+        { "en": "They measure the same", "es": "Miden igual", "emoji": "📏" }
+      ],
+      "answer": 0,
+      "why": { "en": "Babies start out about as long as a loaf of bread and grow taller for years, so a mother is taller.", "es": "Los bebés miden al nacer como un pan grande y crecen durante años, así que la mamá es más alta." },
+      "topic": "comparing",
+      "source": "https://www.merriam-webster.com/dictionary/taller"
+    },
+    {
+      "id": "puzzles-easy-062", "level": "easy", "type": "mc", "lang": "en", "emoji": "🎂",
+      "q": { "en": "Milo is older than Zoe. Who was born first?" },
+      "choices": [
+        { "en": "Zoe", "emoji": "👧" },
+        { "en": "Milo", "emoji": "🧒" },
+        { "en": "The same day", "emoji": "🎂" }
+      ],
+      "answer": 1,
+      "why": { "en": "Being older means having lived more time, and that only happens if your birthday came first on the calendar." },
+      "topic": "logic",
+      "source": "https://www.merriam-webster.com/dictionary/older"
+    },
+    {
+      "id": "puzzles-easy-063", "level": "easy", "type": "mc", "lang": "es", "emoji": "🧰",
+      "q": { "es": "Manzana, uva, martillo: ¿cuál es el intruso?" },
+      "choices": [
+        { "es": "La manzana", "emoji": "🍎" },
+        { "es": "La uva", "emoji": "🍇" },
+        { "es": "El martillo", "emoji": "🔨" }
+      ],
+      "answer": 2,
+      "why": { "es": "La manzana y la uva son frutas que se comen; el martillo es una herramienta de metal para clavar." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/fruta"
+    },
+    {
+      "id": "puzzles-easy-064", "level": "easy", "type": "mc", "lang": "both", "emoji": "🕰️",
+      "q": { "en": "Morning, afternoon, night: which comes first?", "es": "Mañana, tarde, noche: ¿cuál va primero?" },
+      "choices": [
+        { "en": "Morning", "es": "La mañana", "emoji": "🌅" },
+        { "en": "Afternoon", "es": "La tarde", "emoji": "🌇" },
+        { "en": "Night", "es": "La noche", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "A day runs from morning to afternoon to night, and morning starts when the Sun climbs over the horizon.", "es": "El día va de la mañana a la tarde y luego a la noche; la mañana empieza cuando sale el Sol." },
+      "topic": "logic",
+      "source": "https://www.britannica.com/science/day"
+    },
+    {
+      "id": "puzzles-easy-065", "level": "easy", "type": "mc", "lang": "en", "emoji": "📐",
+      "q": { "en": "Which is longer, a pencil or a bus?" },
+      "choices": [
+        { "en": "A pencil", "emoji": "✏️" },
+        { "en": "A bus", "emoji": "🚌" },
+        { "en": "Both the same", "emoji": "📏" }
+      ],
+      "answer": 1,
+      "why": { "en": "A school bus is longer than ten pencils lined up, which is why it needs a whole parking space." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/length.html"
+    },
+    {
+      "id": "puzzles-easy-066", "level": "easy", "type": "mc", "lang": "es", "emoji": "🌲",
+      "q": { "es": "Carro, avión, árbol: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "El carro", "emoji": "🚗" },
+        { "es": "El avión", "emoji": "✈️" },
+        { "es": "El árbol", "emoji": "🌳" }
+      ],
+      "answer": 2,
+      "why": { "es": "El carro y el avión son máquinas que transportan gente; el árbol es un ser vivo que crece solo." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/arbol"
+    },
+    {
+      "id": "puzzles-easy-067", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌌",
+      "q": { "en": "Sun, moon, shoe: which one is different?" },
+      "choices": [
+        { "en": "The shoe", "emoji": "👟" },
+        { "en": "The Sun", "emoji": "☀️" },
+        { "en": "The Moon", "emoji": "🌙" }
+      ],
+      "answer": 0,
+      "why": { "en": "The Sun and the Moon are huge objects out in the sky, while a shoe is something people make and wear." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/place/Moon"
+    },
+    {
+      "id": "puzzles-easy-068", "level": "easy", "type": "mc", "lang": "es", "emoji": "🥛",
+      "q": { "es": "Leche, jugo, piedra: ¿cuál es diferente?" },
+      "choices": [
+        { "es": "La leche", "emoji": "🥛" },
+        { "es": "La piedra", "emoji": "🪨" },
+        { "es": "El jugo", "emoji": "🧃" }
+      ],
+      "answer": 1,
+      "why": { "es": "La leche y el jugo son líquidos que puedes tomar; la piedra es dura y jamás se bebe." },
+      "topic": "odd one out",
+      "source": "https://dle.rae.es/liquido"
+    },
+    {
+      "id": "puzzles-easy-069", "level": "easy", "type": "mc", "lang": "en", "emoji": "🖍️",
+      "q": { "en": "Red, blue, banana: which is different?" },
+      "choices": [
+        { "en": "Red", "emoji": "🔴" },
+        { "en": "Blue", "emoji": "🔵" },
+        { "en": "Banana", "emoji": "🍌" }
+      ],
+      "answer": 2,
+      "why": { "en": "Red and blue are colors you can see anywhere, but a banana is a fruit you can actually eat." },
+      "topic": "odd one out",
+      "source": "https://www.merriam-webster.com/dictionary/color"
+    },
+    {
+      "id": "puzzles-easy-070", "level": "easy", "type": "mc", "lang": "es", "emoji": "📐",
+      "q": { "es": "Triángulo, cuadrado, plátano: ¿cuál es el intruso?" },
+      "choices": [
+        { "es": "El plátano", "emoji": "🍌" },
+        { "es": "El triángulo", "emoji": "🔺" },
+        { "es": "El cuadrado", "emoji": "🟥" }
+      ],
+      "answer": 0,
+      "why": { "es": "El triángulo y el cuadrado son figuras con lados rectos; el plátano es una fruta curva que se pela." },
+      "topic": "odd one out",
+      "source": "https://www.mathsisfun.com/geometry/shapes.html"
+    },
+    {
+      "id": "puzzles-easy-071", "level": "easy", "type": "mc", "lang": "en", "emoji": "🌊",
+      "q": { "en": "Fish, shark, eagle: which one is different?" },
+      "choices": [
+        { "en": "The shark", "emoji": "🦈" },
+        { "en": "The eagle", "emoji": "🦅" },
+        { "en": "The fish", "emoji": "🐠" }
+      ],
+      "answer": 1,
+      "why": { "en": "The shark and the fish live in water and breathe with gills, while an eagle breathes air and flies." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/animal/fish"
+    },
+    {
+      "id": "puzzles-easy-072", "level": "easy", "type": "mc", "lang": "es", "emoji": "🐦",
+      "q": { "es": "¿Cuántas alas tienen tres pájaros?" },
+      "choices": [
+        { "es": "Tres", "emoji": "3️⃣" },
+        { "es": "Nueve", "emoji": "9️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Un pájaro vuela con dos alas, así que tres pájaros suman dos más dos más dos: seis alas en total." },
+      "topic": "counting",
+      "source": "https://www.britannica.com/animal/bird"
+    },
+    {
+      "id": "puzzles-easy-073", "level": "easy", "type": "mc", "lang": "en", "emoji": "☔",
+      "q": { "en": "Rain, snow, pencil: which one is different?" },
+      "choices": [
+        { "en": "The pencil", "emoji": "✏️" },
+        { "en": "The rain", "emoji": "🌧️" },
+        { "en": "The snow", "emoji": "❄️" }
+      ],
+      "answer": 0,
+      "why": { "en": "Rain and snow both fall from clouds as water, but a pencil is made in a factory from wood." },
+      "topic": "odd one out",
+      "source": "https://www.britannica.com/science/precipitation"
+    },
+    {
+      "id": "puzzles-easy-074", "level": "easy", "type": "mc", "lang": "es", "emoji": "🙌",
+      "q": { "es": "¿Cuántos dedos tienes en las dos manos?" },
+      "choices": [
+        { "es": "Cinco", "emoji": "5️⃣" },
+        { "es": "Diez", "emoji": "🔟" },
+        { "es": "Ocho", "emoji": "8️⃣" }
+      ],
+      "answer": 1,
+      "why": { "es": "Cada mano tiene cinco dedos, y cinco más cinco son diez; por eso contamos de diez en diez." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-075", "level": "easy", "type": "mc", "lang": "en", "emoji": "🦶",
+      "q": { "en": "How many toes are on two feet?" },
+      "choices": [
+        { "en": "Five", "emoji": "5️⃣" },
+        { "en": "Eight", "emoji": "8️⃣" },
+        { "en": "Ten", "emoji": "🔟" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each foot carries five toes, and five plus five makes ten, the same count as your fingers." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-076", "level": "easy", "type": "mc", "lang": "es", "emoji": "🚲",
+      "q": { "es": "¿Cuántas ruedas tiene una bicicleta y un triciclo?" },
+      "choices": [
+        { "es": "Cinco", "emoji": "5️⃣" },
+        { "es": "Cuatro", "emoji": "4️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" }
+      ],
+      "answer": 0,
+      "why": { "es": "La bicicleta rueda sobre dos llantas y el triciclo sobre tres; dos más tres dan cinco en total." },
+      "topic": "counting",
+      "source": "https://dle.rae.es/triciclo"
+    },
+    {
+      "id": "puzzles-easy-077", "level": "easy", "type": "mc", "lang": "en", "emoji": "🚗",
+      "q": { "en": "How many wheels do two cars have?" },
+      "choices": [
+        { "en": "Four", "emoji": "4️⃣" },
+        { "en": "Eight", "emoji": "8️⃣" },
+        { "en": "Six", "emoji": "6️⃣" }
+      ],
+      "answer": 1,
+      "why": { "en": "Most cars roll on four wheels, so two cars together have four plus four, which makes eight wheels." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-easy-078", "level": "easy", "type": "mc", "lang": "es", "emoji": "👣",
+      "q": { "es": "¿Cuántos pies tienen dos niños juntos?" },
+      "choices": [
+        { "es": "Dos", "emoji": "2️⃣" },
+        { "es": "Seis", "emoji": "6️⃣" },
+        { "es": "Cuatro", "emoji": "4️⃣" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cada niño camina con dos pies, y dos más dos son cuatro; por eso dejan cuatro huellas en la arena." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "puzzles-easy-079", "level": "easy", "type": "mc", "lang": "en", "emoji": "🔺",
+      "q": { "en": "How many sides do two triangles have?" },
+      "choices": [
+        { "en": "Six", "emoji": "6️⃣" },
+        { "en": "Three", "emoji": "3️⃣" },
+        { "en": "Four", "emoji": "4️⃣" }
+      ],
+      "answer": 0,
+      "why": { "en": "One triangle has three sides, so two of them have three plus three, which adds up to six sides." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/geometry/triangles.html"
+    },
+    {
+      "id": "puzzles-easy-080", "level": "easy", "type": "mc", "lang": "es", "emoji": "⚖️",
+      "q": { "es": "¿Qué pesa más, una pluma o un libro?" },
+      "choices": [
+        { "es": "La pluma", "emoji": "🪶" },
+        { "es": "El libro", "emoji": "📘" },
+        { "es": "Pesan igual", "emoji": "⚖️" }
+      ],
+      "answer": 1,
+      "why": { "es": "Un libro junta cientos de hojas apretadas, y una pluma es tan ligera que el viento la levanta." },
+      "topic": "comparing",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-medium-007", "level": "medium", "type": "mc", "lang": "both", "emoji": "🐚",
+      "q": { "en": "What number comes next: 1, 1, 2, 3, 5, ?", "es": "En la serie 1, 1, 2, 3, 5, ¿qué número sigue?" },
+      "choices": [
+        { "en": "5", "es": "5" },
+        { "en": "6", "es": "6" },
+        { "en": "7", "es": "7" },
+        { "en": "8", "es": "8" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each number is the sum of the two before it, so 3 plus 5 makes 8. Mathematicians call this the Fibonacci sequence.", "es": "Cada número es la suma de los dos anteriores, así que 3 más 5 da 8. Se llama sucesión de Fibonacci." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/fibonacci-sequence.html"
+    },
+    {
+      "id": "puzzles-medium-008", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔢",
+      "q": { "en": "What number comes next: 2, 4, 8, 16, ?", "es": "En la serie 2, 4, 8, 16, ¿qué número sigue?" },
+      "choices": [
+        { "en": "24", "es": "24" },
+        { "en": "32", "es": "32" },
+        { "en": "48", "es": "48" },
+        { "en": "64", "es": "64" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each number doubles the one before it, so 16 doubled is 32. Doubling grows fast: two more steps reach 128.", "es": "Cada número es el doble del anterior, así que el doble de 16 es 32. Duplicar crece muy rápido." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-009", "level": "medium", "type": "mc", "lang": "both", "emoji": "📅",
+      "q": { "en": "If tomorrow is Friday, what day was yesterday?", "es": "Si mañana es viernes, ¿qué día fue ayer?" },
+      "choices": [
+        { "en": "Wednesday", "es": "El miércoles" },
+        { "en": "Thursday", "es": "El jueves" },
+        { "en": "Saturday", "es": "El sábado" },
+        { "en": "Sunday", "es": "El domingo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Tomorrow being Friday makes it Thursday now, so yesterday was Wednesday, two days before Friday on the calendar.", "es": "Si mañana es viernes, hoy es jueves, así que ayer fue miércoles, dos días antes del viernes en el calendario." },
+      "topic": "calendar",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-010", "level": "medium", "type": "mc", "lang": "both", "emoji": "🪶",
+      "q": { "en": "Which is heavier: one kilo of rocks or one kilo of feathers?", "es": "¿Qué pesa más: un kilo de piedras o un kilo de plumas?" },
+      "choices": [
+        { "en": "The rocks", "es": "Las piedras" },
+        { "en": "The feathers", "es": "Las plumas" },
+        { "en": "The bigger pile", "es": "El montón más grande" },
+        { "en": "They weigh the same", "es": "Pesan lo mismo" }
+      ],
+      "answer": 3,
+      "why": { "en": "A kilo is a kilo, so both weigh the same; the feathers just fill a much bigger space.", "es": "Un kilo es un kilo, así que pesan igual; las plumas solo ocupan un espacio mucho más grande." },
+      "topic": "weight",
+      "source": "https://www.mathsisfun.com/measure/metric-mass.html"
+    },
+    {
+      "id": "puzzles-medium-011", "level": "medium", "type": "mc", "lang": "both", "emoji": "🟥",
+      "q": { "en": "Every square is a rectangle. What must Ana's square also be?", "es": "Todo cuadrado es un rectángulo. ¿Qué más es el cuadrado de Ana?" },
+      "choices": [
+        { "en": "A rectangle", "es": "Un rectángulo" },
+        { "en": "A triangle", "es": "Un triángulo" },
+        { "en": "A cube", "es": "Un cubo" },
+        { "en": "A circle", "es": "Un círculo" }
+      ],
+      "answer": 0,
+      "why": { "en": "Squares follow every rectangle rule: four sides and four square corners, with the extra rule that all sides match.", "es": "El cuadrado cumple las reglas del rectángulo: cuatro lados y cuatro esquinas rectas, y además todos sus lados son iguales." },
+      "topic": "logic",
+      "source": "https://www.mathsisfun.com/quadrilaterals.html"
+    },
+    {
+      "id": "puzzles-medium-012", "level": "medium", "type": "mc", "lang": "en", "emoji": "⏰",
+      "q": { "en": "What has hands but cannot clap?" },
+      "choices": [
+        { "en": "A clock" },
+        { "en": "A tree" },
+        { "en": "A glove" },
+        { "en": "A river" }
+      ],
+      "answer": 0,
+      "why": { "en": "A clock's hands point at the hours and minutes, and they got that name from the way fingers point." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/hand"
+    },
+    {
+      "id": "puzzles-medium-013", "level": "medium", "type": "mc", "lang": "en", "emoji": "🍾",
+      "q": { "en": "What has a neck but no head?" },
+      "choices": [
+        { "en": "A ladder" },
+        { "en": "A window" },
+        { "en": "A bottle" },
+        { "en": "A pencil" }
+      ],
+      "answer": 2,
+      "why": { "en": "A bottle's narrow part is called its neck because it looks like one, and the wide part is the shoulder." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/neck"
+    },
+    {
+      "id": "puzzles-medium-014", "level": "medium", "type": "mc", "lang": "en", "emoji": "🧻",
+      "q": { "en": "What gets wetter the more it dries?" },
+      "choices": [
+        { "en": "A sponge" },
+        { "en": "A raincoat" },
+        { "en": "A cloud" },
+        { "en": "A towel" }
+      ],
+      "answer": 3,
+      "why": { "en": "A towel dries you by soaking up water, so the more it dries, the wetter the towel becomes." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/towel"
+    },
+    {
+      "id": "puzzles-medium-015", "level": "medium", "type": "mc", "lang": "en", "emoji": "💈",
+      "q": { "en": "What has many teeth but cannot bite?" },
+      "choices": [
+        { "en": "A comb" },
+        { "en": "A crocodile" },
+        { "en": "A whistle" },
+        { "en": "A drum" }
+      ],
+      "answer": 0,
+      "why": { "en": "A comb's thin points are called teeth, and a zipper has teeth too; only living mouths can bite." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/tooth"
+    },
+    {
+      "id": "puzzles-medium-016", "level": "medium", "type": "mc", "lang": "en", "emoji": "🏡",
+      "q": { "en": "What runs around a yard without moving?" },
+      "choices": [
+        { "en": "A fence" },
+        { "en": "A dog" },
+        { "en": "A hose" },
+        { "en": "A shadow" }
+      ],
+      "answer": 0,
+      "why": { "en": "A fence runs all the way around a yard, since run can mean to stretch along, as a road runs north." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/run"
+    },
+    {
+      "id": "puzzles-medium-017", "level": "medium", "type": "mc", "lang": "en", "emoji": "✉️",
+      "q": { "en": "What can travel around the world staying in one corner?" },
+      "choices": [
+        { "en": "A map" },
+        { "en": "A suitcase" },
+        { "en": "A stamp" },
+        { "en": "A passport" }
+      ],
+      "answer": 2,
+      "why": { "en": "A postage stamp sits in the corner of an envelope and rides with the letter to any country on Earth." },
+      "topic": "riddles",
+      "source": "https://kids.britannica.com/kids/article/postal-service/353721"
+    },
+    {
+      "id": "puzzles-medium-018", "level": "medium", "type": "mc", "lang": "en", "emoji": "🎸",
+      "q": { "en": "What kind of band cannot play music?" },
+      "choices": [
+        { "en": "A marching band" },
+        { "en": "A jazz band" },
+        { "en": "A school band" },
+        { "en": "A rubber band" }
+      ],
+      "answer": 3,
+      "why": { "en": "A rubber band is a stretchy loop, and the word band also means a group of players, so it has two meanings." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/band"
+    },
+    {
+      "id": "puzzles-medium-019", "level": "medium", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Which word reads the same backwards: LEVEL, TABLE, HOUSE, CHAIR?" },
+      "choices": [
+        { "en": "LEVEL" },
+        { "en": "TABLE" },
+        { "en": "HOUSE" },
+        { "en": "CHAIR" }
+      ],
+      "answer": 0,
+      "why": { "en": "Level spells the same letters forwards and backwards, and such words are called palindromes, like noon, radar and civic." },
+      "topic": "mirror words",
+      "source": "https://www.merriam-webster.com/dictionary/palindrome"
+    },
+    {
+      "id": "puzzles-medium-020", "level": "medium", "type": "mc", "lang": "en", "emoji": "🔍",
+      "q": { "en": "Which letter looks the same in a mirror: B, F, J or M?" },
+      "choices": [
+        { "en": "B" },
+        { "en": "F" },
+        { "en": "J" },
+        { "en": "M" }
+      ],
+      "answer": 3,
+      "why": { "en": "A mirror flips left and right, and M is the same on both sides, so its reflection matches perfectly." },
+      "topic": "mirror words",
+      "source": "https://www.mathsisfun.com/geometry/symmetry-reflection.html"
+    },
+    {
+      "id": "puzzles-medium-021", "level": "medium", "type": "mc", "lang": "en", "emoji": "📮",
+      "q": { "en": "Which word starts and ends with E but holds one letter?" },
+      "choices": [
+        { "en": "Eagle" },
+        { "en": "Engine" },
+        { "en": "Envelope" },
+        { "en": "Escape" }
+      ],
+      "answer": 2,
+      "why": { "en": "Envelope begins and ends with E, and it holds a letter you mail, so the joke uses two meanings of letter." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/envelope"
+    },
+    {
+      "id": "puzzles-medium-022", "level": "medium", "type": "mc", "lang": "en", "emoji": "🦜",
+      "q": { "en": "All parrots are birds. Coco is a parrot. What is Coco?" },
+      "choices": [
+        { "en": "A bird" },
+        { "en": "A mammal" },
+        { "en": "A fish" },
+        { "en": "A reptile" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every parrot belongs to the bird group, so Coco must be one; reasoning shaped like this is called a syllogism." },
+      "topic": "logic",
+      "source": "https://kids.britannica.com/kids/article/parrot/353517"
+    },
+    {
+      "id": "puzzles-medium-023", "level": "medium", "type": "mc", "lang": "es", "emoji": "🥑",
+      "q": { "es": "Agua pasa por mi casa, cate de mi corazón. ¿Qué es?" },
+      "choices": [
+        { "es": "La sandía" },
+        { "es": "El tomate" },
+        { "es": "La papaya" },
+        { "es": "El aguacate" }
+      ],
+      "answer": 3,
+      "why": { "es": "La adivinanza esconde la palabra: agua más cate forman aguacate, una fruta cremosa originaria de México y Centroamérica." },
+      "topic": "adivinanzas",
+      "source": "https://kids.britannica.com/students/article/avocado/272939"
+    },
+    {
+      "id": "puzzles-medium-024", "level": "medium", "type": "mc", "lang": "es", "emoji": "🍐",
+      "q": { "es": "Blanca por dentro y verde por fuera, si quieres saber espera. ¿Qué fruta es?" },
+      "choices": [
+        { "es": "La manzana" },
+        { "es": "La pera" },
+        { "es": "La uva" },
+        { "es": "La piña" }
+      ],
+      "answer": 1,
+      "why": { "es": "La palabra espera esconde la respuesta, porque dice es-pera. La pera es verde por fuera y blanca por dentro." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/pera"
+    },
+    {
+      "id": "puzzles-medium-025", "level": "medium", "type": "mc", "lang": "es", "emoji": "🕰️",
+      "q": { "es": "Tengo agujas y no sé coser; doy la hora. ¿Qué soy?" },
+      "choices": [
+        { "es": "El reloj" },
+        { "es": "La aguja" },
+        { "es": "La brújula" },
+        { "es": "El calendario" }
+      ],
+      "answer": 0,
+      "why": { "es": "Las manecillas del reloj también se llaman agujas, y marcan las horas y los minutos sin tocar ninguna tela." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/reloj"
+    },
+    {
+      "id": "puzzles-medium-026", "level": "medium", "type": "mc", "lang": "es", "emoji": "🥚",
+      "q": { "es": "Cajita blanca que todos saben abrir y nadie cerrar. ¿Qué es?" },
+      "choices": [
+        { "es": "La nuez" },
+        { "es": "La caja" },
+        { "es": "La concha" },
+        { "es": "El huevo" }
+      ],
+      "answer": 3,
+      "why": { "es": "El cascarón del huevo se rompe con facilidad, pero nadie puede volver a pegarlo, por eso nadie lo cierra." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/huevo"
+    },
+    {
+      "id": "puzzles-medium-027", "level": "medium", "type": "mc", "lang": "es", "emoji": "🦇",
+      "q": { "es": "Vuelo de noche, duermo de día y soy mamífero. ¿Qué soy?" },
+      "choices": [
+        { "es": "El búho" },
+        { "es": "La lechuza" },
+        { "es": "El murciélago" },
+        { "es": "La polilla" }
+      ],
+      "answer": 2,
+      "why": { "es": "El murciélago es el único mamífero que vuela de verdad, y descansa colgado de cabeza durante el día." },
+      "topic": "adivinanzas",
+      "source": "https://kids.britannica.com/kids/article/bat/352838"
+    },
+    {
+      "id": "puzzles-medium-028", "level": "medium", "type": "mc", "lang": "es", "emoji": "🍬",
+      "q": { "es": "Blanco como la nieve, dulce como la miel, endulzo el café. ¿Qué soy?" },
+      "choices": [
+        { "es": "El azúcar" },
+        { "es": "La sal" },
+        { "es": "La harina" },
+        { "es": "La leche" }
+      ],
+      "answer": 0,
+      "why": { "es": "El azúcar se saca de la caña o de la remolacha, y sus cristales blancos se disuelven rápido en líquidos calientes." },
+      "topic": "adivinanzas",
+      "source": "https://kids.britannica.com/kids/article/sugar/353966"
+    },
+    {
+      "id": "puzzles-medium-029", "level": "medium", "type": "mc", "lang": "es", "emoji": "📚",
+      "q": { "es": "Tengo hojas y no soy árbol, tengo lomo y no soy caballo. ¿Qué soy?" },
+      "choices": [
+        { "es": "La lechuga" },
+        { "es": "El caballo" },
+        { "es": "El libro" },
+        { "es": "La mesa" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las páginas del libro se llaman hojas y su borde cosido se llama lomo, dos palabras prestadas de la naturaleza." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/libro"
+    },
+    {
+      "id": "puzzles-medium-030", "level": "medium", "type": "mc", "lang": "es", "emoji": "⛏️",
+      "q": { "es": "Cuanto más le quitas, más grande se hace. ¿Qué es?" },
+      "choices": [
+        { "es": "La montaña" },
+        { "es": "La sombra" },
+        { "es": "La nube" },
+        { "es": "El hoyo" }
+      ],
+      "answer": 3,
+      "why": { "es": "Al sacar tierra de un hoyo, el hueco crece; por eso quitar material lo hace más grande en vez de pequeño." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/hoyo"
+    },
+    {
+      "id": "puzzles-medium-031", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔡",
+      "q": { "es": "¿Cuál palabra se lee igual al derecho y al revés?" },
+      "choices": [
+        { "es": "Reconocer" },
+        { "es": "Escuela" },
+        { "es": "Ventana" },
+        { "es": "Camino" }
+      ],
+      "answer": 0,
+      "why": { "es": "Reconocer se lee igual en los dos sentidos; estas palabras se llaman palíndromos, como ala, oso y anilina." },
+      "topic": "palabras espejo",
+      "source": "https://dle.rae.es/palindromo"
+    },
+    {
+      "id": "puzzles-medium-032", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔎",
+      "q": { "es": "¿Cuál letra se ve igual en un espejo: B, E, F o A?" },
+      "choices": [
+        { "es": "B" },
+        { "es": "E" },
+        { "es": "F" },
+        { "es": "A" }
+      ],
+      "answer": 3,
+      "why": { "es": "El espejo intercambia izquierda y derecha, y la letra A es igual en ambos lados, así que su reflejo coincide." },
+      "topic": "palabras espejo",
+      "source": "https://www.mathsisfun.com/geometry/symmetry-reflection.html"
+    },
+    {
+      "id": "puzzles-medium-033", "level": "medium", "type": "mc", "lang": "es", "emoji": "🐜",
+      "q": { "es": "Todos los insectos tienen seis patas. La hormiga es un insecto. ¿Cuántas patas tiene?" },
+      "choices": [
+        { "es": "Cuatro" },
+        { "es": "Seis" },
+        { "es": "Ocho" },
+        { "es": "Diez" }
+      ],
+      "answer": 1,
+      "why": { "es": "Si la regla vale para todos los insectos y la hormiga es uno, entonces tiene seis patas, igual que las abejas." },
+      "topic": "lógica",
+      "source": "https://kids.britannica.com/kids/article/insect/353102"
+    },
+    {
+      "id": "puzzles-medium-034", "level": "medium", "type": "mc", "lang": "both", "emoji": "🍬",
+      "q": { "en": "Four children share ten candies equally. How many candies remain?", "es": "Cuatro niños se reparten diez dulces en partes iguales. ¿Cuántos sobran?" },
+      "choices": [
+        { "en": "1", "es": "1" },
+        { "en": "2", "es": "2" },
+        { "en": "3", "es": "3" },
+        { "en": "4", "es": "4" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each child takes two candies, using eight in all, so two candies remain; that leftover is called the remainder.", "es": "Cada niño toma dos dulces, o sea ocho en total, y sobran dos; a eso se le llama el residuo." },
+      "topic": "sharing",
+      "source": "https://www.mathsisfun.com/numbers/division.html"
+    },
+    {
+      "id": "puzzles-medium-035", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔴",
+      "q": { "en": "A bag holds three red marbles and one blue marble. Which color is likelier?", "es": "Una bolsa tiene tres canicas rojas y una azul. ¿Qué color es más probable?" },
+      "choices": [
+        { "en": "Red", "es": "Roja" },
+        { "en": "Blue", "es": "Azul" },
+        { "en": "Both have the same chance", "es": "Las dos tienen la misma probabilidad" },
+        { "en": "It changes on every try", "es": "Cambia en cada intento" }
+      ],
+      "answer": 0,
+      "why": { "en": "Three of the four marbles are red, so red wins three times out of four pulls on average.", "es": "Tres de las cuatro canicas son rojas, así que saldrá roja tres de cada cuatro veces en promedio." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-medium-036", "level": "medium", "type": "mc", "lang": "both", "emoji": "💰",
+      "q": { "en": "Leo has five coins worth ten cents each. How much money?", "es": "Leo tiene cinco monedas de diez centavos. ¿Cuánto dinero tiene?" },
+      "choices": [
+        { "en": "15 cents", "es": "15 centavos" },
+        { "en": "50 cents", "es": "50 centavos" },
+        { "en": "55 cents", "es": "55 centavos" },
+        { "en": "5 cents", "es": "5 centavos" }
+      ],
+      "answer": 1,
+      "why": { "en": "Five coins of ten cents make five tens, which is fifty cents, the same as half of one dollar.", "es": "Cinco monedas de diez centavos son cinco decenas, o sea cincuenta centavos, la mitad de un peso completo." },
+      "topic": "coins",
+      "source": "https://www.mathsisfun.com/money/counting-money.html"
+    },
+    {
+      "id": "puzzles-medium-037", "level": "medium", "type": "mc", "lang": "both", "emoji": "💺",
+      "q": { "en": "Dani sits between Eva and Fito. Eva is on the left. Who is rightmost?", "es": "Dani se sienta entre Eva y Fito. Eva está a la izquierda. ¿Quién queda a la derecha?" },
+      "choices": [
+        { "en": "Eva", "es": "Eva" },
+        { "en": "Dani", "es": "Dani" },
+        { "en": "Fito", "es": "Fito" },
+        { "en": "Nobody", "es": "Nadie" }
+      ],
+      "answer": 2,
+      "why": { "en": "Eva is leftmost and Dani is in the middle, so the only seat left for Fito is the right end.", "es": "Eva está en el extremo izquierdo y Dani en medio, así que a Fito solo le queda el asiento derecho." },
+      "topic": "seating",
+      "source": "https://nrich.maths.org/problems"
+    },
+    {
+      "id": "puzzles-medium-038", "level": "medium", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "Mia is 8 and her brother is 3 years older. How old is he?", "es": "Mía tiene 8 años y su hermano tiene 3 más. ¿Cuántos años tiene él?" },
+      "choices": [
+        { "en": "5", "es": "5" },
+        { "en": "8", "es": "8" },
+        { "en": "10", "es": "10" },
+        { "en": "11", "es": "11" }
+      ],
+      "answer": 3,
+      "why": { "en": "Older means add, so 8 plus 3 equals 11, and the gap of three years between them stays the same forever.", "es": "Mayor significa sumar, así que 8 más 3 es 11; la diferencia de tres años se mantiene siempre igual." },
+      "topic": "ages",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "puzzles-medium-039", "level": "medium", "type": "mc", "lang": "en", "emoji": "📏",
+      "q": { "en": "Ben is taller than Rosa but shorter than Ali. Who is tallest?" },
+      "choices": [
+        { "en": "Rosa" },
+        { "en": "Ben" },
+        { "en": "Ali" },
+        { "en": "They are equal" }
+      ],
+      "answer": 2,
+      "why": { "en": "Line them up from shortest to tallest: Rosa, Ben, Ali, so Ali stands at the top of the line." },
+      "topic": "logic",
+      "source": "https://nrich.maths.org/problems"
+    },
+    {
+      "id": "puzzles-medium-040", "level": "medium", "type": "mc", "lang": "en", "emoji": "📦",
+      "q": { "en": "Pam always tells the truth. She says the box holds a frog. What is inside?" },
+      "choices": [
+        { "en": "A rock" },
+        { "en": "A book" },
+        { "en": "A frog" },
+        { "en": "A shell" }
+      ],
+      "answer": 2,
+      "why": { "en": "Someone who always tells the truth gives true information, so the box really holds a frog; logicians call her a truth teller." },
+      "topic": "logic",
+      "source": "https://kids.britannica.com/kids/article/logic/399937"
+    },
+    {
+      "id": "puzzles-medium-041", "level": "medium", "type": "mc", "lang": "en", "emoji": "⭕",
+      "q": { "en": "Which one is different: square, triangle, circle, pentagon?" },
+      "choices": [
+        { "en": "Square" },
+        { "en": "Triangle" },
+        { "en": "Circle" },
+        { "en": "Pentagon" }
+      ],
+      "answer": 2,
+      "why": { "en": "The circle has no corners or straight sides, while the other three are made only of straight lines." },
+      "topic": "odd one out",
+      "source": "https://www.mathsisfun.com/geometry/polygons.html"
+    },
+    {
+      "id": "puzzles-medium-042", "level": "medium", "type": "mc", "lang": "en", "emoji": "🗓️",
+      "q": { "en": "Which month is different: June, September, April, March?" },
+      "choices": [
+        { "en": "June" },
+        { "en": "September" },
+        { "en": "April" },
+        { "en": "March" }
+      ],
+      "answer": 3,
+      "why": { "en": "June, September and April each have 30 days, but March has 31, so March breaks the hidden rule." },
+      "topic": "odd one out",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-043", "level": "medium", "type": "mc", "lang": "en", "emoji": "🐋",
+      "q": { "en": "Which one is different: whale, bat, shark, dog?" },
+      "choices": [
+        { "en": "Whale" },
+        { "en": "Bat" },
+        { "en": "Shark" },
+        { "en": "Dog" }
+      ],
+      "answer": 2,
+      "why": { "en": "Whales, bats and dogs are mammals that feed their babies milk, while the shark is a fish that breathes with gills." },
+      "topic": "odd one out",
+      "source": "https://kids.britannica.com/kids/article/mammal/353328"
+    },
+    {
+      "id": "puzzles-medium-044", "level": "medium", "type": "mc", "lang": "en", "emoji": "🕷️",
+      "q": { "en": "How many legs do three spiders and two ants have?" },
+      "choices": [
+        { "en": "40" },
+        { "en": "36" },
+        { "en": "34" },
+        { "en": "30" }
+      ],
+      "answer": 1,
+      "why": { "en": "Spiders have eight legs and insects have six, so 24 plus 12 makes 36 legs crawling along together." },
+      "topic": "counting",
+      "source": "https://kids.britannica.com/kids/article/spider/353884"
+    },
+    {
+      "id": "puzzles-medium-045", "level": "medium", "type": "mc", "lang": "en", "emoji": "1️⃣",
+      "q": { "en": "How many times does the digit 1 appear from 1 to 20?" },
+      "choices": [
+        { "en": "20" },
+        { "en": "13" },
+        { "en": "12" },
+        { "en": "11" }
+      ],
+      "answer": 2,
+      "why": { "en": "Count 1, then 10 through 19, which give twelve in all, because 11 carries the digit 1 twice." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/numbers/counting.html"
+    },
+    {
+      "id": "puzzles-medium-046", "level": "medium", "type": "mc", "lang": "en", "emoji": "➕",
+      "q": { "en": "What number comes next: 1, 4, 7, 10, ?" },
+      "choices": [
+        { "en": "14" },
+        { "en": "13" },
+        { "en": "12" },
+        { "en": "11" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each step adds three, so 10 plus 3 gives 13, and counting by threes makes exactly the same list." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-047", "level": "medium", "type": "mc", "lang": "en", "emoji": "➖",
+      "q": { "en": "What number comes next: 100, 90, 80, 70, ?" },
+      "choices": [
+        { "en": "45" },
+        { "en": "50" },
+        { "en": "55" },
+        { "en": "60" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each step subtracts ten, so 70 minus 10 is 60, and counting down by tens reaches zero in six more steps." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-048", "level": "medium", "type": "mc", "lang": "en", "emoji": "🔠",
+      "q": { "en": "What letter comes next: A, C, E, G, ?" },
+      "choices": [
+        { "en": "H" },
+        { "en": "I" },
+        { "en": "J" },
+        { "en": "K" }
+      ],
+      "answer": 1,
+      "why": { "en": "The list skips one letter each time, so after G you skip H and land on I, the ninth letter." },
+      "topic": "patterns",
+      "source": "https://www.merriam-webster.com/dictionary/alphabet"
+    },
+    {
+      "id": "puzzles-medium-049", "level": "medium", "type": "mc", "lang": "en", "emoji": "📆",
+      "q": { "en": "A month starts on a Monday. What day is the fifteenth?" },
+      "choices": [
+        { "en": "Tuesday" },
+        { "en": "Sunday" },
+        { "en": "Friday" },
+        { "en": "Monday" }
+      ],
+      "answer": 3,
+      "why": { "en": "Days repeat every seven, so the 1st, the 8th and the 15th all land on Monday, one week apart each time." },
+      "topic": "calendar",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-050", "level": "medium", "type": "mc", "lang": "en", "emoji": "⏳",
+      "q": { "en": "How many days are in two weeks and three days?" },
+      "choices": [
+        { "en": "18" },
+        { "en": "17" },
+        { "en": "16" },
+        { "en": "15" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each week holds seven days, so 7 plus 7 plus 3 equals 17 days in total on the calendar." },
+      "topic": "calendar",
+      "source": "https://www.mathsisfun.com/measure/time.html"
+    },
+    {
+      "id": "puzzles-medium-051", "level": "medium", "type": "mc", "lang": "es", "emoji": "☔",
+      "q": { "es": "Si llueve, Ana lleva paraguas. Hoy llueve. ¿Qué lleva Ana?" },
+      "choices": [
+        { "es": "Sus lentes" },
+        { "es": "Su paraguas" },
+        { "es": "Su cometa" },
+        { "es": "Su boleto" }
+      ],
+      "answer": 1,
+      "why": { "es": "La regla dice que la lluvia siempre trae el paraguas, así que al cumplirse la condición, Ana lo lleva." },
+      "topic": "lógica",
+      "source": "https://kids.britannica.com/kids/article/logic/399937"
+    },
+    {
+      "id": "puzzles-medium-052", "level": "medium", "type": "mc", "lang": "es", "emoji": "🏁",
+      "q": { "es": "Mateo llegó antes que Lucía y después de Bruno. ¿Quién llegó primero?" },
+      "choices": [
+        { "es": "Mateo" },
+        { "es": "Lucía" },
+        { "es": "Llegaron juntos" },
+        { "es": "Bruno" }
+      ],
+      "answer": 3,
+      "why": { "es": "Ordena la llegada: Bruno, Mateo y Lucía. Bruno abrió la fila porque Mateo llegó justo después de él." },
+      "topic": "lógica",
+      "source": "https://nrich.maths.org/problems"
+    },
+    {
+      "id": "puzzles-medium-053", "level": "medium", "type": "mc", "lang": "es", "emoji": "🎁",
+      "q": { "es": "Rita siempre dice la verdad y asegura que la caja tiene canicas. ¿Qué hay dentro?" },
+      "choices": [
+        { "es": "Canicas" },
+        { "es": "Dulces" },
+        { "es": "Monedas" },
+        { "es": "Hojas secas" }
+      ],
+      "answer": 0,
+      "why": { "es": "Quien siempre dice la verdad da información cierta, así que dentro de la caja hay canicas de verdad." },
+      "topic": "lógica",
+      "source": "https://kids.britannica.com/kids/article/logic/399937"
+    },
+    {
+      "id": "puzzles-medium-054", "level": "medium", "type": "mc", "lang": "es", "emoji": "🧮",
+      "q": { "es": "¿Cuál número es el intruso: 8, 12, 15, 20?" },
+      "choices": [
+        { "es": "8" },
+        { "es": "12" },
+        { "es": "15" },
+        { "es": "20" }
+      ],
+      "answer": 2,
+      "why": { "es": "Ocho, doce y veinte se pueden dividir en grupos exactos de cuatro; quince se queda fuera porque es impar." },
+      "topic": "el intruso",
+      "source": "https://www.mathsisfun.com/numbers/multiples.html"
+    },
+    {
+      "id": "puzzles-medium-055", "level": "medium", "type": "mc", "lang": "es", "emoji": "🥁",
+      "q": { "es": "¿Cuál instrumento es diferente: guitarra, violín, tambor, arpa?" },
+      "choices": [
+        { "es": "La guitarra" },
+        { "es": "El violín" },
+        { "es": "El tambor" },
+        { "es": "El arpa" }
+      ],
+      "answer": 2,
+      "why": { "es": "La guitarra, el violín y el arpa suenan al vibrar sus cuerdas; el tambor suena al golpear una membrana." },
+      "topic": "el intruso",
+      "source": "https://kids.britannica.com/kids/article/musical-instrument/353423"
+    },
+    {
+      "id": "puzzles-medium-056", "level": "medium", "type": "mc", "lang": "es", "emoji": "🌳",
+      "q": { "es": "¿Cuál material es diferente: cobre, hierro, madera, plata?" },
+      "choices": [
+        { "es": "La madera" },
+        { "es": "El cobre" },
+        { "es": "El hierro" },
+        { "es": "La plata" }
+      ],
+      "answer": 0,
+      "why": { "es": "El cobre, el hierro y la plata son metales que conducen electricidad; la madera viene de los árboles y aísla." },
+      "topic": "el intruso",
+      "source": "https://kids.britannica.com/kids/article/metal/353372"
+    },
+    {
+      "id": "puzzles-medium-057", "level": "medium", "type": "mc", "lang": "es", "emoji": "📈",
+      "q": { "es": "En la serie 1, 2, 4, 7, 11, ¿qué número sigue?" },
+      "choices": [
+        { "es": "14" },
+        { "es": "15" },
+        { "es": "16" },
+        { "es": "18" }
+      ],
+      "answer": 2,
+      "why": { "es": "Las diferencias crecen de uno en uno: 1, 2, 3, 4 y ahora 5, así que 11 más 5 da 16." },
+      "topic": "patrones",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-058", "level": "medium", "type": "mc", "lang": "es", "emoji": "📉",
+      "q": { "es": "En la serie 81, 27, 9, ¿qué número sigue?" },
+      "choices": [
+        { "es": "3" },
+        { "es": "6" },
+        { "es": "1" },
+        { "es": "0" }
+      ],
+      "answer": 0,
+      "why": { "es": "Cada número se divide entre tres: 81 entre 3 es 27, 27 entre 3 es 9, y 9 entre 3 da 3." },
+      "topic": "patrones",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-059", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔵",
+      "q": { "es": "Rojo, azul, azul, rojo, azul, azul, ¿qué color sigue?" },
+      "choices": [
+        { "es": "Azul" },
+        { "es": "Verde" },
+        { "es": "Amarillo" },
+        { "es": "Rojo" }
+      ],
+      "answer": 3,
+      "why": { "es": "El patrón repite un rojo y dos azules, así que después del segundo azul vuelve a empezar con rojo." },
+      "topic": "patrones",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-060", "level": "medium", "type": "mc", "lang": "es", "emoji": "🗒️",
+      "q": { "es": "Si el primer día del mes es jueves, ¿qué día será el octavo?" },
+      "choices": [
+        { "es": "El miércoles" },
+        { "es": "El jueves" },
+        { "es": "El viernes" },
+        { "es": "El sábado" }
+      ],
+      "answer": 1,
+      "why": { "es": "Los días se repiten cada siete, así que el 1 y el 8 caen en jueves, con una semana exacta de diferencia." },
+      "topic": "calendario",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-061", "level": "medium", "type": "mc", "lang": "es", "emoji": "🌅",
+      "q": { "es": "Si mañana es domingo, ¿qué día fue anteayer?" },
+      "choices": [
+        { "es": "El jueves" },
+        { "es": "El viernes" },
+        { "es": "El miércoles" },
+        { "es": "El martes" }
+      ],
+      "answer": 0,
+      "why": { "es": "Si mañana es domingo, hoy es sábado, ayer fue viernes y anteayer fue jueves, dos días antes de hoy." },
+      "topic": "calendario",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-062", "level": "medium", "type": "mc", "lang": "both", "emoji": "🔲",
+      "q": { "en": "A big square is split into four equal small squares. How many squares total?", "es": "Un cuadrado grande se divide en cuatro cuadrados iguales. ¿Cuántos cuadrados hay en total?" },
+      "choices": [
+        { "en": "4", "es": "4" },
+        { "en": "5", "es": "5" },
+        { "en": "8", "es": "8" },
+        { "en": "9", "es": "9" }
+      ],
+      "answer": 1,
+      "why": { "en": "Count the four small squares and then the big one around them, which makes five squares in the drawing.", "es": "Cuenta los cuatro cuadrados pequeños y también el grande que los rodea: en total hay cinco cuadrados." },
+      "topic": "shapes",
+      "source": "https://www.mathsisfun.com/geometry/square.html"
+    },
+    {
+      "id": "puzzles-medium-063", "level": "medium", "type": "tf", "lang": "both", "emoji": "➗",
+      "q": { "en": "Half of 30 is bigger than a third of 60.", "es": "La mitad de 30 es mayor que la tercera parte de 60." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Half of 30 is 15 and a third of 60 is 20, so the second number is the bigger one.", "es": "La mitad de 30 es 15 y la tercera parte de 60 es 20, así que el segundo número es mayor." },
+      "topic": "numbers",
+      "source": "https://www.mathsisfun.com/fractions.html"
+    },
+    {
+      "id": "puzzles-medium-064", "level": "medium", "type": "tf", "lang": "both", "emoji": "🕐",
+      "q": { "en": "An hour holds more minutes than February holds days.", "es": "Una hora tiene más minutos que días tiene febrero." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "An hour has 60 minutes while February has 28 days, or 29 in a leap year, so the hour wins.", "es": "Una hora tiene 60 minutos y febrero tiene 28 días, o 29 en año bisiesto, así que gana la hora." },
+      "topic": "calendar",
+      "source": "https://kids.britannica.com/kids/article/calendar/353081"
+    },
+    {
+      "id": "puzzles-medium-065", "level": "medium", "type": "mc", "lang": "both", "emoji": "🧠",
+      "q": { "en": "Which number is different: 9, 16, 20, 25?", "es": "¿Cuál número es diferente: 9, 16, 20, 25?" },
+      "choices": [
+        { "en": "9", "es": "9" },
+        { "en": "16", "es": "16" },
+        { "en": "20", "es": "20" },
+        { "en": "25", "es": "25" }
+      ],
+      "answer": 2,
+      "why": { "en": "Nine, sixteen and twenty-five are squares of 3, 4 and 5, but twenty is left out of that club.", "es": "Nueve, dieciséis y veinticinco son cuadrados de 3, 4 y 5; veinte se queda fuera de ese grupo." },
+      "topic": "odd one out",
+      "source": "https://www.mathsisfun.com/square-root.html"
+    },
+    {
+      "id": "puzzles-medium-066", "level": "medium", "type": "mc", "lang": "en", "emoji": "🪙",
+      "q": { "en": "A coin is flipped once. What is the chance it lands heads?" },
+      "choices": [
+        { "en": "One in six" },
+        { "en": "One in four" },
+        { "en": "One in three" },
+        { "en": "One in two" }
+      ],
+      "answer": 3,
+      "why": { "en": "A coin has two equal sides, so heads comes up about half the time when you flip it many times." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-medium-067", "level": "medium", "type": "mc", "lang": "en", "emoji": "🎲",
+      "q": { "en": "You roll one fair die once. Which result is most likely?" },
+      "choices": [
+        { "en": "Six" },
+        { "en": "One" },
+        { "en": "Three" },
+        { "en": "Every number has the same chance" }
+      ],
+      "answer": 3,
+      "why": { "en": "A die has six matching faces, so each number has one chance in six, and no face is luckier than another." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-medium-068", "level": "medium", "type": "mc", "lang": "en", "emoji": "💵",
+      "q": { "en": "Which two coins add up to 30 cents?" },
+      "choices": [
+        { "en": "10 and 10" },
+        { "en": "20 and 5" },
+        { "en": "25 and 10" },
+        { "en": "25 and 5" }
+      ],
+      "answer": 3,
+      "why": { "en": "A quarter is worth 25 cents and a nickel is worth 5, and 25 plus 5 makes exactly 30 cents." },
+      "topic": "coins",
+      "source": "https://www.mathsisfun.com/money/counting-money.html"
+    },
+    {
+      "id": "puzzles-medium-069", "level": "medium", "type": "mc", "lang": "en", "emoji": "⚖️",
+      "q": { "en": "Three apples balance six plums. How many plums balance one apple?" },
+      "choices": [
+        { "en": "One" },
+        { "en": "Two" },
+        { "en": "Three" },
+        { "en": "Six" }
+      ],
+      "answer": 1,
+      "why": { "en": "Split both sides into three equal groups: one apple sits opposite two plums, so each apple weighs two plums." },
+      "topic": "weight",
+      "source": "https://www.mathsisfun.com/measure/weight-mass.html"
+    },
+    {
+      "id": "puzzles-medium-070", "level": "medium", "type": "mc", "lang": "en", "emoji": "🍕",
+      "q": { "en": "A pizza is cut into 12 slices for 4 children. How many slices each?" },
+      "choices": [
+        { "en": "Two" },
+        { "en": "Three" },
+        { "en": "Four" },
+        { "en": "Six" }
+      ],
+      "answer": 1,
+      "why": { "en": "Twelve slices split among four children gives three each, because 4 times 3 equals 12 with none left over." },
+      "topic": "sharing",
+      "source": "https://www.mathsisfun.com/numbers/division.html"
+    },
+    {
+      "id": "puzzles-medium-071", "level": "medium", "type": "mc", "lang": "en", "emoji": "🌸",
+      "q": { "en": "Ana's mother has four children: Spring, Summer, Autumn. Who is the fourth?" },
+      "choices": [
+        { "en": "Ana" },
+        { "en": "Winter" },
+        { "en": "April" },
+        { "en": "Rain" }
+      ],
+      "answer": 0,
+      "why": { "en": "The question already names her as Ana's mother, so Ana is the fourth child; the season pattern pulls your eye away." },
+      "topic": "lateral",
+      "source": "https://www.merriam-webster.com/dictionary/riddle"
+    },
+    {
+      "id": "puzzles-medium-072", "level": "medium", "type": "mc", "lang": "en", "emoji": "🪑",
+      "q": { "en": "Three chairs stand in a row. Nina sits beside both friends. Where does she sit?" },
+      "choices": [
+        { "en": "On the left end" },
+        { "en": "In the middle" },
+        { "en": "On the right end" },
+        { "en": "Behind them" }
+      ],
+      "answer": 1,
+      "why": { "en": "Only the middle chair touches both other chairs, so Nina must be seated between her two friends." },
+      "topic": "seating",
+      "source": "https://nrich.maths.org/problems"
+    },
+    {
+      "id": "puzzles-medium-073", "level": "medium", "type": "tf", "lang": "en", "emoji": "5️⃣",
+      "q": { "en": "In the pattern 5, 10, 15, 20 the next number is 24." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 1,
+      "why": { "en": "The pattern counts by fives, so after 20 comes 25, and 24 breaks the rule of adding five each time." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
+    },
+    {
+      "id": "puzzles-medium-074", "level": "medium", "type": "tf", "lang": "en", "emoji": "🐧",
+      "q": { "en": "If all penguins are birds, then some birds are penguins." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "Penguins sit inside the bird group, so at least some birds are penguins, though most birds are something else." },
+      "topic": "logic",
+      "source": "https://kids.britannica.com/kids/article/penguin/353520"
+    },
+    {
+      "id": "puzzles-medium-075", "level": "medium", "type": "mc", "lang": "en", "emoji": "🕯️",
+      "q": { "en": "I get shorter as I grow older. What am I?" },
+      "choices": [
+        { "en": "A mountain" },
+        { "en": "A river" },
+        { "en": "A tree" },
+        { "en": "A candle" }
+      ],
+      "answer": 3,
+      "why": { "en": "A burning candle melts away, so the longer it lives the shorter it stands, and a pencil does the same." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/candle"
+    },
+    {
+      "id": "puzzles-medium-076", "level": "medium", "type": "mc", "lang": "es", "emoji": "🐈",
+      "q": { "es": "¿Cuántas patas tienen cuatro gatos y tres pájaros juntos?" },
+      "choices": [
+        { "es": "20" },
+        { "es": "21" },
+        { "es": "22" },
+        { "es": "24" }
+      ],
+      "answer": 2,
+      "why": { "es": "Cada gato aporta cuatro patas y cada pájaro dos, así que 16 más 6 suman 22 patas en total." },
+      "topic": "contar",
+      "source": "https://www.mathsisfun.com/numbers/addition.html"
+    },
+    {
+      "id": "puzzles-medium-077", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔷",
+      "q": { "es": "¿Cuántos lados tienen juntos un triángulo, un cuadrado y un pentágono?" },
+      "choices": [
+        { "es": "10" },
+        { "es": "11" },
+        { "es": "12" },
+        { "es": "14" }
+      ],
+      "answer": 2,
+      "why": { "es": "Suma tres, cuatro y cinco lados: doce en total. El prefijo penta significa cinco en griego antiguo." },
+      "topic": "figuras",
+      "source": "https://www.mathsisfun.com/geometry/polygons.html"
+    },
+    {
+      "id": "puzzles-medium-078", "level": "medium", "type": "mc", "lang": "es", "emoji": "🔘",
+      "q": { "es": "Quince canicas se reparten entre cinco niños. ¿Cuántas recibe cada uno?" },
+      "choices": [
+        { "es": "Dos" },
+        { "es": "Cuatro" },
+        { "es": "Cinco" },
+        { "es": "Tres" }
+      ],
+      "answer": 3,
+      "why": { "es": "Quince entre cinco da tres, porque cinco grupos de tres canicas completan justo las quince que había." },
+      "topic": "repartir",
+      "source": "https://www.mathsisfun.com/numbers/division.html"
+    },
+    {
+      "id": "puzzles-medium-079", "level": "medium", "type": "mc", "lang": "es", "emoji": "🎈",
+      "q": { "es": "Pablo tiene el doble de años que su hermana de 4. ¿Cuántos años tiene?" },
+      "choices": [
+        { "es": "6" },
+        { "es": "8" },
+        { "es": "10" },
+        { "es": "12" }
+      ],
+      "answer": 1,
+      "why": { "es": "El doble significa multiplicar por dos, así que 4 por 2 es 8 años; entre ellos hay cuatro de diferencia." },
+      "topic": "edades",
+      "source": "https://www.mathsisfun.com/numbers/multiplication.html"
+    },
+    {
+      "id": "puzzles-medium-080", "level": "medium", "type": "mc", "lang": "es", "emoji": "🍓",
+      "q": { "es": "Una bolsa tiene 5 dulces de fresa y 1 de limón. ¿Cuál sale más?" },
+      "choices": [
+        { "es": "El de limón" },
+        { "es": "Los dos igual" },
+        { "es": "Depende de la bolsa" },
+        { "es": "El de fresa" }
+      ],
+      "answer": 3,
+      "why": { "es": "Cinco de los seis dulces son de fresa, así que saldrá fresa cinco de cada seis veces en promedio." },
+      "topic": "probabilidad",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-medium-081", "level": "medium", "type": "mc", "lang": "es", "emoji": "🎰",
+      "q": { "es": "Al lanzar un dado, ¿qué probabilidad hay de sacar un número par?" },
+      "choices": [
+        { "es": "1 de 6" },
+        { "es": "1 de 3" },
+        { "es": "1 de 2" },
+        { "es": "2 de 3" }
+      ],
+      "answer": 2,
+      "why": { "es": "Tres de las seis caras son pares: 2, 4 y 6, así que la mitad de los lanzamientos da par." },
+      "topic": "probabilidad",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-medium-082", "level": "medium", "type": "mc", "lang": "es", "emoji": "🏦",
+      "q": { "es": "Tienes 3 monedas de 5 pesos y 2 de 10. ¿Cuánto dinero tienes?" },
+      "choices": [
+        { "es": "25 pesos" },
+        { "es": "30 pesos" },
+        { "es": "35 pesos" },
+        { "es": "40 pesos" }
+      ],
+      "answer": 2,
+      "why": { "es": "Tres monedas de 5 dan 15 y dos de 10 dan 20, así que 15 más 20 suman 35 pesos." },
+      "topic": "monedas",
+      "source": "https://www.mathsisfun.com/money/counting-money.html"
+    },
+    {
+      "id": "puzzles-medium-083", "level": "medium", "type": "mc", "lang": "es", "emoji": "🛋️",
+      "q": { "es": "Iván queda a la izquierda de Lía, y Lía de Rosa. ¿Quién está en medio?" },
+      "choices": [
+        { "es": "Iván" },
+        { "es": "Lía" },
+        { "es": "Rosa" },
+        { "es": "Ninguno" }
+      ],
+      "answer": 1,
+      "why": { "es": "El orden de izquierda a derecha es Iván, Lía y Rosa, así que Lía queda con una amiga de cada lado." },
+      "topic": "asientos",
+      "source": "https://nrich.maths.org/problems"
+    },
+    {
+      "id": "puzzles-medium-084", "level": "medium", "type": "tf", "lang": "es", "emoji": "🐕",
+      "q": { "es": "Si todos los perros son animales, entonces todos los animales son perros." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "La regla solo funciona en un sentido: cada perro es animal, pero los gatos y las aves también son animales." },
+      "topic": "lógica",
+      "source": "https://kids.britannica.com/kids/article/logic/399937"
+    },
+    {
+      "id": "puzzles-medium-085", "level": "medium", "type": "tf", "lang": "es", "emoji": "🔶",
+      "q": { "es": "Un cuadrado y un rombo tienen el mismo número de lados." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "Los dos tienen cuatro lados; el rombo los tiene iguales, pero sus esquinas quedan inclinadas en vez de rectas." },
+      "topic": "figuras",
+      "source": "https://www.mathsisfun.com/geometry/rhombus.html"
+    },
+    {
+      "id": "puzzles-medium-086", "level": "medium", "type": "mc", "lang": "es", "emoji": "🚌",
+      "q": { "es": "Un autobús sale a las 9 y llega a las 11:30. ¿Cuánto duró el viaje?" },
+      "choices": [
+        { "es": "Dos horas" },
+        { "es": "Dos horas y media" },
+        { "es": "Tres horas" },
+        { "es": "Una hora y media" }
+      ],
+      "answer": 1,
+      "why": { "es": "De las 9 a las 11 hay dos horas, y de 11:00 a 11:30 media hora más, o sea dos horas y media." },
+      "topic": "tiempo",
+      "source": "https://www.mathsisfun.com/measure/reading-time.html"
+    },
+    {
+      "id": "puzzles-hard-007", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗣️",
+      "q": { "en": "Rosa and Tito: one always lies, one always tells the truth. Rosa says, \"Tito and I are different types.\" Who is truthful?", "es": "Rosa y Tito: uno siempre miente y el otro siempre dice la verdad. Rosa dice: \"Tito y yo somos distintos\". ¿Quién dice la verdad?" },
+      "choices": [
+        { "en": "Rosa", "es": "Rosa" },
+        { "en": "Tito", "es": "Tito" },
+        { "en": "Both of them", "es": "Los dos" },
+        { "en": "Neither of them", "es": "Ninguno de los dos" }
+      ],
+      "answer": 0,
+      "why": { "en": "If Rosa lied, both islanders would be liars, leaving no truth teller, so her claim holds and Tito is the liar.", "es": "Si Rosa mintiera, los dos serían mentirosos y faltaría quien dice la verdad, así que ella dice la verdad y Tito miente." },
+      "topic": "truth tellers",
+      "source": "https://mathworld.wolfram.com/KnightsandKnavesProblem.html"
+    },
+    {
+      "id": "puzzles-hard-008", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎲",
+      "q": { "en": "You roll two fair dice and add the numbers. Which total appears most often over many rolls?", "es": "Lanzas dos dados y sumas los números. ¿Cuál total aparece con más frecuencia en muchos lanzamientos?" },
+      "choices": [
+        { "en": "6", "es": "6" },
+        { "en": "7", "es": "7" },
+        { "en": "8", "es": "8" },
+        { "en": "12", "es": "12" }
+      ],
+      "answer": 1,
+      "why": { "en": "Seven can be made six ways out of 36 outcomes, more than any other total, so it appears about once every six rolls.", "es": "El 7 se forma de seis maneras entre 36 resultados, más que cualquier otro total, así que sale casi una vez cada seis tiros." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability.html"
+    },
+    {
+      "id": "puzzles-hard-009", "level": "hard", "type": "mc", "lang": "both", "emoji": "🌻",
+      "q": { "en": "In 1, 2, 3, 5, 8, 13 each number is the sum of the two before it. Which number comes next?", "es": "En 1, 2, 3, 5, 8, 13 cada número es la suma de los dos anteriores. ¿Cuál número sigue?" },
+      "choices": [
+        { "en": "18", "es": "18" },
+        { "en": "20", "es": "20" },
+        { "en": "21", "es": "21" },
+        { "en": "26", "es": "26" }
+      ],
+      "answer": 2,
+      "why": { "en": "Adding 8 and 13 gives 21; this Fibonacci pattern also shows up in sunflower seed spirals and pinecone scales.", "es": "Al sumar 8 y 13 obtienes 21; este patrón de Fibonacci también aparece en las espirales de los girasoles y las piñas." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/numbers/fibonacci-sequence.html"
+    },
+    {
+      "id": "puzzles-hard-010", "level": "hard", "type": "mc", "lang": "both", "emoji": "♟️",
+      "q": { "en": "Counting every size from 1 by 1 up to 8 by 8, how many squares hide on a chessboard?", "es": "Contando todos los tamaños, desde 1 por 1 hasta 8 por 8, ¿cuántos cuadrados hay en un tablero de ajedrez?" },
+      "choices": [
+        { "en": "64", "es": "64" },
+        { "en": "100", "es": "100" },
+        { "en": "128", "es": "128" },
+        { "en": "204", "es": "204" }
+      ],
+      "answer": 3,
+      "why": { "en": "Add the squares of 1 through 8: 1 + 4 + 9 + 16 + 25 + 36 + 49 + 64 equals 204 squares.", "es": "Suma los cuadrados del 1 al 8: 1 + 4 + 9 + 16 + 25 + 36 + 49 + 64 da 204 cuadrados en total." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/geometry/square.html"
+    },
+    {
+      "id": "puzzles-hard-011", "level": "hard", "type": "mc", "lang": "both", "emoji": "🧦",
+      "q": { "en": "A dark drawer holds black socks and white socks mixed together. How many socks must you grab to guarantee a pair?", "es": "Un cajón oscuro tiene calcetines negros y blancos mezclados. ¿Cuántos calcetines debes sacar para asegurar un par igual?" },
+      "choices": [
+        { "en": "3", "es": "3" },
+        { "en": "2", "es": "2" },
+        { "en": "4", "es": "4" },
+        { "en": "5", "es": "5" }
+      ],
+      "answer": 0,
+      "why": { "en": "With only two colors, three socks force two to match; this pigeonhole idea says more socks than colors guarantees a repeat.", "es": "Con solo dos colores, tres calcetines obligan a que dos coincidan; el principio del palomar dice que el exceso siempre repite." },
+      "topic": "pigeonhole",
+      "source": "https://mathworld.wolfram.com/DirichletsBoxPrinciple.html"
+    },
+    {
+      "id": "puzzles-hard-012", "level": "hard", "type": "mc", "lang": "both", "emoji": "⏱️",
+      "q": { "en": "Without looking it up, how many seconds does one full day hold?", "es": "Sin buscarlo, ¿cuántos segundos tiene un día completo?" },
+      "choices": [
+        { "en": "1,440", "es": "1,440" },
+        { "en": "86,400", "es": "86,400" },
+        { "en": "604,800", "es": "604,800" },
+        { "en": "3,600", "es": "3,600" }
+      ],
+      "answer": 1,
+      "why": { "en": "Multiply 60 seconds by 60 minutes for 3,600 an hour, then by 24 hours, giving 86,400 seconds every day.", "es": "Multiplica 60 segundos por 60 minutos y obtienes 3,600 por hora; al multiplicar por 24 horas llegas a 86,400 segundos diarios." },
+      "topic": "estimation",
+      "source": "https://www.britannica.com/science/day"
+    },
+    {
+      "id": "puzzles-hard-013", "level": "hard", "type": "mc", "lang": "both", "emoji": "🎂",
+      "q": { "en": "Marta is three times as old as her brother. In six years she will be twice his age. How old is Marta?", "es": "Marta tiene el triple de la edad de su hermano. En seis años tendrá el doble que él. ¿Cuántos años tiene Marta?" },
+      "choices": [
+        { "en": "12", "es": "12" },
+        { "en": "15", "es": "15" },
+        { "en": "18", "es": "18" },
+        { "en": "24", "es": "24" }
+      ],
+      "answer": 2,
+      "why": { "en": "Call the brother b: 3b + 6 equals 2b + 12, so b is 6 and Marta is 18 years old.", "es": "Si el hermano tiene b años, 3b + 6 es igual a 2b + 12, entonces b vale 6 y Marta tiene 18." },
+      "topic": "ages",
+      "source": "https://www.mathsisfun.com/algebra/introduction.html"
+    },
+    {
+      "id": "puzzles-hard-014", "level": "hard", "type": "mc", "lang": "both", "emoji": "💡",
+      "q": { "en": "Three switches downstairs control one bulb upstairs, and you may climb the stairs once. Which plan finds the right switch?", "es": "Tres interruptores abajo controlan un foco arriba y puedes subir una sola vez. ¿Cuál plan encuentra el interruptor correcto?" },
+      "choices": [
+        { "en": "Turn all three on, then look at the bulb", "es": "Encender los tres y luego mirar el foco" },
+        { "en": "Turn two on and look upstairs quickly", "es": "Encender dos y mirar el foco muy rápido" },
+        { "en": "Turn one on, run upstairs, then guess", "es": "Encender uno, correr arriba y adivinar" },
+        { "en": "Leave one on ten minutes, switch to another, then touch the bulb", "es": "Dejar uno encendido diez minutos, cambiar a otro y tocar el foco" }
+      ],
+      "answer": 3,
+      "why": { "en": "The warm dark bulb names the first switch, the lit bulb names the second, and a cool dark bulb names the third.", "es": "El foco apagado pero tibio delata al primero, el encendido al segundo y el apagado y frío al tercero." },
+      "topic": "classic puzzles",
+      "source": "https://www.britannica.com/topic/number-game"
+    },
+    {
+      "id": "puzzles-hard-015", "level": "hard", "type": "tf", "lang": "both", "emoji": "📅",
+      "q": { "en": "In any group of 13 people, at least two of them share a birth month.", "es": "En cualquier grupo de 13 personas, al menos dos cumplen años en el mismo mes." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "A year holds twelve months, so the thirteenth person must land in a month someone already occupies. That is the pigeonhole principle.", "es": "El año tiene doce meses, así que la persona número 13 cae en un mes ya ocupado: es el principio del palomar." },
+      "topic": "pigeonhole",
+      "source": "https://www.britannica.com/science/pigeonhole-principle"
+    },
+    {
+      "id": "puzzles-hard-016", "level": "hard", "type": "mc", "lang": "en", "emoji": "🏥",
+      "q": { "en": "A boy reaches the hospital and the surgeon says, \"He is my son.\" His father waits at home. Who is the surgeon?" },
+      "choices": [
+        { "en": "His mother" },
+        { "en": "His uncle" },
+        { "en": "His grandfather" },
+        { "en": "A family friend" }
+      ],
+      "answer": 0,
+      "why": { "en": "The surgeon is his mother, and the puzzle works only because many listeners picture a man the moment they hear surgeon." },
+      "topic": "lateral",
+      "source": "https://www.britannica.com/topic/riddle"
+    },
+    {
+      "id": "puzzles-hard-017", "level": "hard", "type": "mc", "lang": "en", "emoji": "👣",
+      "q": { "en": "The more of me you take, the more you leave behind me. What am I?" },
+      "choices": [
+        { "en": "Shadows" },
+        { "en": "Footsteps" },
+        { "en": "Memories" },
+        { "en": "Photographs" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each step you take leaves one more footprint behind you, so taking more always means leaving more on the ground." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/footstep"
+    },
+    {
+      "id": "puzzles-hard-018", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔤",
+      "q": { "en": "Which letter appears once in \"minute\", twice in \"moment\", and zero times in \"year\"?" },
+      "choices": [
+        { "en": "E" },
+        { "en": "N" },
+        { "en": "M" },
+        { "en": "T" }
+      ],
+      "answer": 2,
+      "why": { "en": "Count the letters: minute holds one m, moment holds two, and year holds none, which makes this old riddle fair." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/moment"
+    },
+    {
+      "id": "puzzles-hard-019", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔡",
+      "q": { "en": "What letter comes next in this sequence: J, F, M, A, M, J, J, A?" },
+      "choices": [
+        { "en": "D" },
+        { "en": "N" },
+        { "en": "O" },
+        { "en": "S" }
+      ],
+      "answer": 3,
+      "why": { "en": "They are the first letters of the months, so after August comes September; the hidden rule is calendar order, not alphabet order." },
+      "topic": "letter sequences",
+      "source": "https://www.britannica.com/science/calendar"
+    },
+    {
+      "id": "puzzles-hard-020", "level": "hard", "type": "mc", "lang": "en", "emoji": "🌬️",
+      "q": { "en": "I am light as a feather, yet the strongest person can hold me only a minute. What am I?" },
+      "choices": [
+        { "en": "Breath" },
+        { "en": "A shadow" },
+        { "en": "A cloud" },
+        { "en": "A whisper" }
+      ],
+      "answer": 0,
+      "why": { "en": "Breath weighs almost nothing, yet even trained divers must let it go, because the body keeps demanding fresh oxygen." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/respiration-physiology"
+    },
+    {
+      "id": "puzzles-hard-021", "level": "hard", "type": "mc", "lang": "en", "emoji": "✏️",
+      "q": { "en": "Which word becomes shorter when you add two letters to it?" },
+      "choices": [
+        { "en": "LONG" },
+        { "en": "SHORT" },
+        { "en": "SMALL" },
+        { "en": "TALL" }
+      ],
+      "answer": 1,
+      "why": { "en": "Adding the letters e and r turns short into shorter, so the word grows longer while its meaning shrinks." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/short"
+    },
+    {
+      "id": "puzzles-hard-022", "level": "hard", "type": "tf", "lang": "en", "emoji": "🔀",
+      "q": { "en": "An anagram uses every letter of the original word exactly once, in a new order." },
+      "choices": [
+        { "en": "True" },
+        { "en": "False" }
+      ],
+      "answer": 0,
+      "why": { "en": "True: listen and silent share the same six letters rearranged, which is why anagram puzzles feel fair rather than tricky." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/anagram"
+    },
+    {
+      "id": "puzzles-hard-023", "level": "hard", "type": "mc", "lang": "es", "emoji": "🪒",
+      "q": { "es": "Lana sube, lana baja. ¿Qué objeto de la casa es?" },
+      "choices": [
+        { "es": "La escalera" },
+        { "es": "La cortina" },
+        { "es": "La navaja" },
+        { "es": "La oveja" }
+      ],
+      "answer": 2,
+      "why": { "es": "Al unir los sonidos de \"lana sube\" y \"lana baja\" escuchas \"la navaja\", un juego de palabras típico de las adivinanzas." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/navaja"
+    },
+    {
+      "id": "puzzles-hard-024", "level": "hard", "type": "mc", "lang": "es", "emoji": "🧅",
+      "q": { "es": "Nací en el campo, me guardan en la cocina y quien me pela llora sin pena. ¿Qué soy?" },
+      "choices": [
+        { "es": "El ajo" },
+        { "es": "El chile" },
+        { "es": "La papa" },
+        { "es": "La cebolla" }
+      ],
+      "answer": 3,
+      "why": { "es": "La cebolla libera un gas que irrita los ojos al cortarla, por eso lloras sin estar triste ni tener dolor." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/plant/onion"
+    },
+    {
+      "id": "puzzles-hard-025", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔠",
+      "q": { "es": "¿Qué letra sigue en la serie E, F, M, A, M, J, J, A?" },
+      "choices": [
+        { "es": "S" },
+        { "es": "O" },
+        { "es": "N" },
+        { "es": "D" }
+      ],
+      "answer": 0,
+      "why": { "es": "Son las iniciales de los meses en español; después de agosto sigue septiembre, así que la letra escondida es la S." },
+      "topic": "secuencias de letras",
+      "source": "https://www.britannica.com/science/calendar"
+    },
+    {
+      "id": "puzzles-hard-026", "level": "hard", "type": "mc", "lang": "es", "emoji": "🧱",
+      "q": { "es": "Un ladrillo pesa un kilo más medio ladrillo. ¿Cuánto pesa el ladrillo completo?" },
+      "choices": [
+        { "es": "1 kilo" },
+        { "es": "2 kilos" },
+        { "es": "1.5 kilos" },
+        { "es": "3 kilos" }
+      ],
+      "answer": 1,
+      "why": { "es": "Si el ladrillo pesa un kilo más su mitad, esa mitad pesa un kilo y el ladrillo entero pesa 2 kilos." },
+      "topic": "acertijos",
+      "source": "https://www.mathsisfun.com/algebra/introduction.html"
+    },
+    {
+      "id": "puzzles-hard-027", "level": "hard", "type": "mc", "lang": "es", "emoji": "🕷️",
+      "q": { "es": "En alto vive, en alto mora, en alto teje la tejedora. ¿Quién es?" },
+      "choices": [
+        { "es": "La abeja" },
+        { "es": "La hormiga" },
+        { "es": "La araña" },
+        { "es": "El colibrí" }
+      ],
+      "answer": 2,
+      "why": { "es": "La araña teje su tela en lugares altos con un hilo de seda que resulta más resistente que el acero del mismo grosor." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/animal/spider-arachnid"
+    },
+    {
+      "id": "puzzles-hard-028", "level": "hard", "type": "mc", "lang": "es", "emoji": "🍍",
+      "q": { "es": "Soy redonda y espinosa por fuera, amarilla y dulce por dentro, y llevo corona. ¿Qué fruta soy?" },
+      "choices": [
+        { "es": "El mango" },
+        { "es": "El melón" },
+        { "es": "La papaya" },
+        { "es": "La piña" }
+      ],
+      "answer": 3,
+      "why": { "es": "La piña lleva una corona de hojas y su cáscara con escamas viene de muchas flores pequeñas que se unen en una sola fruta." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/plant/pineapple"
+    },
+    {
+      "id": "puzzles-hard-029", "level": "hard", "type": "tf", "lang": "es", "emoji": "🪞",
+      "q": { "es": "La palabra \"reconocer\" se lee igual de izquierda a derecha y de derecha a izquierda." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "es": "Es un palíndromo de nueve letras; otros ejemplos en español son \"anilina\", \"radar\" y la frase \"anita lava la tina\"." },
+      "topic": "palabras",
+      "source": "https://dle.rae.es/palindromo"
+    },
+    {
+      "id": "puzzles-hard-030", "level": "hard", "type": "mc", "lang": "both", "emoji": "🚪",
+      "q": { "en": "Two doors, two guards: one guard always lies, one always tells the truth. Which single question finds the safe door?", "es": "Dos puertas, dos guardias: uno siempre miente y el otro siempre dice la verdad. ¿Cuál pregunta única encuentra la puerta segura?" },
+      "choices": [
+        { "en": "Ask either guard which door the other would call safe, then take the other door", "es": "Preguntar a cualquiera cuál puerta llamaría segura el otro, y tomar la puerta contraria" },
+        { "en": "Ask either guard which door is safe, then take that door", "es": "Preguntar a cualquiera cuál puerta es segura y tomar esa puerta" },
+        { "en": "Ask the honest guard which door is safe, then take it", "es": "Preguntar al guardia honesto cuál puerta es segura y tomarla" },
+        { "en": "Ask both guards the same question and follow their agreement", "es": "Hacer la misma pregunta a los dos y seguir lo que coincida" }
+      ],
+      "answer": 0,
+      "why": { "en": "Both guards point at the dangerous door, since one lies about a truth and the other tells the truth about a lie.", "es": "Los dos señalan la puerta peligrosa: uno miente sobre una verdad y el otro dice la verdad sobre una mentira." },
+      "topic": "truth tellers",
+      "source": "https://www.britannica.com/topic/number-game"
+    },
+    {
+      "id": "puzzles-hard-031", "level": "hard", "type": "mc", "lang": "both", "emoji": "🪙",
+      "q": { "en": "A fair coin has landed heads five times in a row. What is the chance the next flip is heads?", "es": "Una moneda cae cara cinco veces seguidas. ¿Qué probabilidad hay de que el siguiente lanzamiento sea cara?" },
+      "choices": [
+        { "en": "1/32", "es": "1/32" },
+        { "en": "1/2", "es": "1/2" },
+        { "en": "1/64", "es": "1/64" },
+        { "en": "Smaller than 1/2", "es": "Menor que 1/2" }
+      ],
+      "answer": 1,
+      "why": { "en": "The coin carries no memory of earlier flips, so each toss stays an even 1/2 chance, whatever the streak before it.", "es": "La moneda no recuerda los lanzamientos pasados, así que cada tiro mantiene la misma probabilidad de 1/2, sin importar la racha." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability-events-independent.html"
+    },
+    {
+      "id": "puzzles-hard-032", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔺",
+      "q": { "en": "Triangular numbers count dots in growing triangles: 1, 3, 6, 10, 15, 21. Which number comes next?", "es": "Los números triangulares cuentan puntos en triángulos que crecen: 1, 3, 6, 10, 15, 21. ¿Cuál número sigue?" },
+      "choices": [
+        { "en": "24", "es": "24" },
+        { "en": "26", "es": "26" },
+        { "en": "28", "es": "28" },
+        { "en": "30", "es": "30" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each step adds one more dot than the last, so 21 plus 7 gives 28; bowling pins form a smaller triangular number.", "es": "Cada paso agrega un punto más que el anterior, así que 21 más 7 da 28; los pinos de boliche forman otro número triangular." },
+      "topic": "patterns",
+      "source": "https://www.mathsisfun.com/algebra/triangular-numbers.html"
+    },
+    {
+      "id": "puzzles-hard-033", "level": "hard", "type": "mc", "lang": "both", "emoji": "📐",
+      "q": { "en": "How many diagonals can you draw inside a hexagon?", "es": "¿Cuántas diagonales puedes trazar dentro de un hexágono?" },
+      "choices": [
+        { "en": "6", "es": "6" },
+        { "en": "12", "es": "12" },
+        { "en": "15", "es": "15" },
+        { "en": "9", "es": "9" }
+      ],
+      "answer": 3,
+      "why": { "en": "Each of the six corners joins three far corners, giving 18 ends, and every diagonal owns two ends, so nine diagonals.", "es": "Cada uno de los seis vértices se une con tres vértices lejanos, dando 18 puntas, y cada diagonal tiene dos: nueve diagonales." },
+      "topic": "counting",
+      "source": "https://www.mathsisfun.com/geometry/polygons.html"
+    },
+    {
+      "id": "puzzles-hard-034", "level": "hard", "type": "mc", "lang": "both", "emoji": "⬛",
+      "q": { "en": "A chessboard loses two opposite corner squares. What happens when you try to cover the 62 squares with 31 dominoes?", "es": "Un tablero de ajedrez pierde dos esquinas opuestas. ¿Qué pasa al cubrir las 62 casillas con 31 fichas de dominó?" },
+      "choices": [
+        { "en": "It fails, because both lost corners shared one color", "es": "Falla, porque las dos esquinas perdidas eran del mismo color" },
+        { "en": "It works, because 62 is an even number", "es": "Funciona, porque 62 es un número par" },
+        { "en": "It works, if the dominoes lie diagonally", "es": "Funciona, si las fichas se colocan en diagonal" },
+        { "en": "It works, because every corner touches two squares", "es": "Funciona, porque cada esquina toca dos casillas" }
+      ],
+      "answer": 0,
+      "why": { "en": "Every domino covers one light and one dark square, but the cut board keeps 32 of one color and only 30 of the other.", "es": "Cada ficha cubre una casilla clara y una oscura, pero al tablero recortado le quedan 32 de un color y solo 30 del otro." },
+      "topic": "parity",
+      "source": "https://mathworld.wolfram.com/MutilatedChessboard.html"
+    },
+    {
+      "id": "puzzles-hard-035", "level": "hard", "type": "mc", "lang": "both", "emoji": "⌛",
+      "q": { "en": "A million seconds is closest to which stretch of time?", "es": "¿Un millón de segundos se parece más a cuál de estos periodos?" },
+      "choices": [
+        { "en": "About 12 hours", "es": "Unas 12 horas" },
+        { "en": "About 12 days", "es": "Unos 12 días" },
+        { "en": "About 12 weeks", "es": "Unas 12 semanas" },
+        { "en": "About 12 months", "es": "Unos 12 meses" }
+      ],
+      "answer": 1,
+      "why": { "en": "Divide 1,000,000 by 86,400 to get about 11.6 days, while a billion seconds runs closer to 32 years.", "es": "Divide 1,000,000 entre 86,400 y obtienes unos 11.6 días; mil millones de segundos equivalen a casi 32 años." },
+      "topic": "estimation",
+      "source": "https://www.britannica.com/science/time"
+    },
+    {
+      "id": "puzzles-hard-036", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚖️",
+      "q": { "en": "One coin among 27 is slightly heavier. How few balance weighings always find it?", "es": "Una moneda entre 27 pesa un poco más. ¿Cuántas pesadas en balanza bastan siempre para encontrarla?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "4", "es": "4" },
+        { "en": "3", "es": "3" },
+        { "en": "5", "es": "5" }
+      ],
+      "answer": 2,
+      "why": { "en": "Split into three piles of nine and weigh two; the balance points to the guilty pile, and three such splits reach one coin.", "es": "Divide en tres montones de nueve y pesa dos; la balanza señala el montón culpable, y tres divisiones así llegan a una moneda." },
+      "topic": "weighing",
+      "source": "https://www.britannica.com/technology/balance-measurement-instrument"
+    },
+    {
+      "id": "puzzles-hard-037", "level": "hard", "type": "mc", "lang": "both", "emoji": "🐦",
+      "q": { "en": "Ana, Beto and Carla own a cat, a dog and a bird. Ana dislikes birds and Beto owns the dog. Which pet is Carla's?", "es": "Ana, Beto y Carla tienen un gato, un perro y un pájaro. A Ana le disgustan los pájaros y Beto tiene el perro. ¿Qué mascota es de Carla?" },
+      "choices": [
+        { "en": "The cat", "es": "El gato" },
+        { "en": "The dog", "es": "El perro" },
+        { "en": "Nobody can tell", "es": "Es imposible saberlo" },
+        { "en": "The bird", "es": "El pájaro" }
+      ],
+      "answer": 3,
+      "why": { "en": "Beto has the dog, so Ana keeps the cat because birds bother her, which leaves the bird for Carla alone.", "es": "Beto tiene el perro, Ana se queda con el gato porque los pájaros le molestan, y a Carla le toca el pájaro." },
+      "topic": "logic grids",
+      "source": "https://www.britannica.com/topic/logic"
+    },
+    {
+      "id": "puzzles-hard-038", "level": "hard", "type": "tf", "lang": "both", "emoji": "↔️",
+      "q": { "en": "Starting at zero and moving one step left or right twelve times, you can finish on an odd number.", "es": "Si empiezas en cero y das doce pasos de uno a la izquierda o a la derecha, puedes terminar en un número impar." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Each step flips the number between even and odd, so an even count of steps always lands you back on an even spot.", "es": "Cada paso cambia la paridad, así que después de doce pasos, un número par de ellos, siempre caes en un número par." },
+      "topic": "parity",
+      "source": "https://mathworld.wolfram.com/Parity.html"
+    },
+    {
+      "id": "puzzles-hard-039", "level": "hard", "type": "mc", "lang": "en", "emoji": "🛗",
+      "q": { "en": "A short man rides down from floor ten each morning, but going home he leaves the elevator at seven, unless it rains. Why?" },
+      "choices": [
+        { "en": "He can reach only the seventh button, and an umbrella extends his reach" },
+        { "en": "He enjoys climbing the last three floors for exercise" },
+        { "en": "The elevator stops working above floor seven" },
+        { "en": "He visits a friend who lives on floor seven" }
+      ],
+      "answer": 0,
+      "why": { "en": "His arm reaches only as high as button seven, so on rainy days his umbrella presses ten for him." },
+      "topic": "lateral",
+      "source": "https://www.britannica.com/topic/riddle"
+    },
+    {
+      "id": "puzzles-hard-040", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔊",
+      "q": { "en": "I speak without a mouth and hear without ears. I have no body, but the wind wakes me. What am I?" },
+      "choices": [
+        { "en": "Thunder" },
+        { "en": "An echo" },
+        { "en": "A dream" },
+        { "en": "A whistle" }
+      ],
+      "answer": 1,
+      "why": { "en": "An echo is your own voice bouncing off a wall or cliff and returning, which takes about a tenth of a second." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/echo-sound"
+    },
+    {
+      "id": "puzzles-hard-041", "level": "hard", "type": "mc", "lang": "en", "emoji": "📏",
+      "q": { "en": "Which word continues the pattern: DOG, TREE, HOUSE, PLANET?" },
+      "choices": [
+        { "en": "CAR" },
+        { "en": "FLOWER" },
+        { "en": "PICTURE" },
+        { "en": "MOUNTAIN" }
+      ],
+      "answer": 2,
+      "why": { "en": "Each word adds one letter: three, four, five, six, so a seven-letter word such as picture keeps the pattern going." },
+      "topic": "patterns",
+      "source": "https://www.merriam-webster.com/dictionary/pattern"
+    },
+    {
+      "id": "puzzles-hard-042", "level": "hard", "type": "mc", "lang": "en", "emoji": "🔢",
+      "q": { "en": "What letter comes next: O, T, T, F, F, S, S?" },
+      "choices": [
+        { "en": "N" },
+        { "en": "T" },
+        { "en": "O" },
+        { "en": "E" }
+      ],
+      "answer": 3,
+      "why": { "en": "These are the first letters of one, two, three, four, five, six, seven, so eight supplies the letter E." },
+      "topic": "letter sequences",
+      "source": "https://www.merriam-webster.com/dictionary/eight"
+    },
+    {
+      "id": "puzzles-hard-043", "level": "hard", "type": "mc", "lang": "en", "emoji": "🧤",
+      "q": { "en": "What has one thumb and four fingers, yet stays completely lifeless?" },
+      "choices": [
+        { "en": "A glove" },
+        { "en": "A mitten" },
+        { "en": "A statue" },
+        { "en": "A rake" }
+      ],
+      "answer": 0,
+      "why": { "en": "A glove copies the shape of a hand, one thumb and four fingers, though the wool or leather moves only when you do." },
+      "topic": "riddles",
+      "source": "https://www.merriam-webster.com/dictionary/glove"
+    },
+    {
+      "id": "puzzles-hard-044", "level": "hard", "type": "mc", "lang": "en", "emoji": "🌙",
+      "q": { "en": "Which word is an anagram of NIGHT, using all five letters once?" },
+      "choices": [
+        { "en": "TIGHT" },
+        { "en": "THING" },
+        { "en": "SIGHT" },
+        { "en": "RIGHT" }
+      ],
+      "answer": 1,
+      "why": { "en": "THING uses the same five letters as NIGHT rearranged, while the others swap a letter instead of moving them around." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/thing"
+    },
+    {
+      "id": "puzzles-hard-045", "level": "hard", "type": "mc", "lang": "en", "emoji": "📖",
+      "q": { "en": "Which word holds the five vowels a, e, i, o and u in alphabetical order?" },
+      "choices": [
+        { "en": "EDUCATION" },
+        { "en": "SEQUOIA" },
+        { "en": "FACETIOUS" },
+        { "en": "DIALOGUE" }
+      ],
+      "answer": 2,
+      "why": { "en": "Facetious runs a, e, i, o, u in order; sequoia holds all five vowels too, but scrambled rather than sorted." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/facetious"
+    },
+    {
+      "id": "puzzles-hard-046", "level": "hard", "type": "mc", "lang": "es", "emoji": "🌬️",
+      "q": { "es": "Vuela sin alas, silba sin boca y pega sin manos. ¿Qué es?" },
+      "choices": [
+        { "es": "El humo" },
+        { "es": "La lluvia" },
+        { "es": "El eco" },
+        { "es": "El viento" }
+      ],
+      "answer": 3,
+      "why": { "es": "El viento es aire en movimiento causado por diferencias de presión, y puede empujar barcos o mover molinos enormes." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/science/wind"
+    },
+    {
+      "id": "puzzles-hard-047", "level": "hard", "type": "mc", "lang": "es", "emoji": "🫐",
+      "q": { "es": "Blanco fue mi nacimiento, verde mi niñez, y ahora que estoy madura, negra me ves. ¿Qué fruta soy?" },
+      "choices": [
+        { "es": "La mora" },
+        { "es": "La uva" },
+        { "es": "La aceituna" },
+        { "es": "La ciruela" }
+      ],
+      "answer": 0,
+      "why": { "es": "La mora cambia de blanco a verde, luego a rojo y por fin a negro; cada color avisa qué tan madura está." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/plant/blackberry"
+    },
+    {
+      "id": "puzzles-hard-048", "level": "hard", "type": "mc", "lang": "es", "emoji": "🛤️",
+      "q": { "es": "Todos me pisan, pero yo no piso a nadie; todos preguntan por mí. ¿Qué soy?" },
+      "choices": [
+        { "es": "El puente" },
+        { "es": "El camino" },
+        { "es": "La alfombra" },
+        { "es": "La sombra" }
+      ],
+      "answer": 1,
+      "why": { "es": "El camino recibe los pasos de todos y da su nombre a las preguntas de los viajeros que buscan llegar lejos." },
+      "topic": "adivinanzas",
+      "source": "https://dle.rae.es/camino"
+    },
+    {
+      "id": "puzzles-hard-049", "level": "hard", "type": "mc", "lang": "es", "emoji": "🔡",
+      "q": { "es": "¿Qué letra sigue en la serie U, D, T, C, C, S, S?" },
+      "choices": [
+        { "es": "N" },
+        { "es": "D" },
+        { "es": "O" },
+        { "es": "T" }
+      ],
+      "answer": 2,
+      "why": { "es": "Son las iniciales de uno, dos, tres, cuatro, cinco, seis y siete, así que el ocho aporta la letra O." },
+      "topic": "secuencias de letras",
+      "source": "https://dle.rae.es/ocho"
+    },
+    {
+      "id": "puzzles-hard-050", "level": "hard", "type": "mc", "lang": "es", "emoji": "🥚",
+      "q": { "es": "Blanco por fuera, amarillo por dentro, la gallina lo pone y en la sartén se fríe. ¿Qué es?" },
+      "choices": [
+        { "es": "El queso" },
+        { "es": "La harina" },
+        { "es": "La mantequilla" },
+        { "es": "El huevo" }
+      ],
+      "answer": 3,
+      "why": { "es": "El huevo guarda la yema amarilla dentro de la clara blanca, y su cascarón tiene miles de poros diminutos para respirar." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/science/egg-biology"
+    },
+    {
+      "id": "puzzles-hard-051", "level": "hard", "type": "mc", "lang": "es", "emoji": "🕯️",
+      "q": { "es": "Mientras más alumbro, más pequeña me vuelvo, y al final solo queda cera. ¿Qué soy?" },
+      "choices": [
+        { "es": "La vela" },
+        { "es": "La lámpara" },
+        { "es": "La luna" },
+        { "es": "La linterna" }
+      ],
+      "answer": 0,
+      "why": { "es": "La vela se consume porque la llama derrite la cera, que sube por el pabilo y se quema como combustible." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/technology/candle"
+    },
+    {
+      "id": "puzzles-hard-052", "level": "hard", "type": "mc", "lang": "es", "emoji": "🏃",
+      "q": { "es": "En una carrera rebasas al corredor que va en segundo lugar. ¿En qué lugar quedas?" },
+      "choices": [
+        { "es": "Primero" },
+        { "es": "Segundo" },
+        { "es": "Tercero" },
+        { "es": "Cuarto" }
+      ],
+      "answer": 1,
+      "why": { "es": "Al rebasar al segundo ocupas su lugar, no el del líder; muchos contestan primero sin pensar en quién iba adelante." },
+      "topic": "acertijos",
+      "source": "https://www.britannica.com/sports/running"
+    },
+    {
+      "id": "puzzles-hard-053", "level": "hard", "type": "mc", "lang": "both", "emoji": "📦",
+      "q": { "en": "Three boxes are labeled apples, oranges, and mixed, and every label is false. Which single box should you draw one fruit from?", "es": "Tres cajas dicen manzanas, naranjas y mezcla, y todas las etiquetas están equivocadas. ¿De cuál caja debes sacar una sola fruta?" },
+      "choices": [
+        { "en": "The one labeled apples", "es": "La que dice manzanas" },
+        { "en": "The one labeled oranges", "es": "La que dice naranjas" },
+        { "en": "The one labeled mixed", "es": "La que dice mezcla" },
+        { "en": "Any box works", "es": "Cualquier caja sirve" }
+      ],
+      "answer": 2,
+      "why": { "en": "The mixed box really holds one kind, so the fruit you pull names it, and the other two labels then swap places.", "es": "La caja de la mezcla guarda una sola fruta, así que lo que saques la nombra y las otras dos etiquetas se intercambian." },
+      "topic": "classic puzzles",
+      "source": "https://www.britannica.com/topic/number-game"
+    },
+    {
+      "id": "puzzles-hard-054", "level": "hard", "type": "mc", "lang": "both", "emoji": "🗼",
+      "q": { "en": "In the Tower of Hanoi with three disks, moving one disk at a time, what is the smallest number of moves?", "es": "En la Torre de Hanói con tres discos, moviendo un disco a la vez, ¿cuál es el mínimo de movimientos?" },
+      "choices": [
+        { "en": "5", "es": "5" },
+        { "en": "6", "es": "6" },
+        { "en": "8", "es": "8" },
+        { "en": "7", "es": "7" }
+      ],
+      "answer": 3,
+      "why": { "en": "Three disks need 7 moves because each extra disk doubles the work and adds one: the rule is 2 to the n minus 1.", "es": "Tres discos necesitan 7 movimientos porque cada disco extra duplica el trabajo y suma uno: la regla es 2 elevado a n menos 1." },
+      "topic": "classic puzzles",
+      "source": "https://mathworld.wolfram.com/TowerofHanoi.html"
+    },
+    {
+      "id": "puzzles-hard-055", "level": "hard", "type": "mc", "lang": "both", "emoji": "🦊",
+      "q": { "en": "A farmer ferries a fox, a goose and a sack of corn across a river, one item per trip. Which item crosses first?", "es": "Un granjero cruza un río con un zorro, un ganso y un costal de maíz, uno por viaje. ¿Cuál cruza primero?" },
+      "choices": [
+        { "en": "The goose", "es": "El ganso" },
+        { "en": "The fox", "es": "El zorro" },
+        { "en": "The corn", "es": "El maíz" },
+        { "en": "The fox or the corn", "es": "El zorro o el maíz" }
+      ],
+      "answer": 0,
+      "why": { "en": "The goose would eat the corn and the fox would eat the goose, so the goose rides first and later returns for one trip.", "es": "El ganso se comería el maíz y el zorro al ganso, así que el ganso cruza primero y después regresa un viaje." },
+      "topic": "classic puzzles",
+      "source": "https://mathworld.wolfram.com/WolfGoatandCabbageProblem.html"
+    },
+    {
+      "id": "puzzles-hard-056", "level": "hard", "type": "mc", "lang": "both", "emoji": "⚽",
+      "q": { "en": "In a class of 30 students, 18 play soccer, 15 play basketball, and 7 play both sports. How many play neither?", "es": "En un salón de 30 estudiantes, 18 juegan futbol, 15 juegan basquetbol y 7 juegan ambos. ¿Cuántos juegan ninguno de los dos?" },
+      "choices": [
+        { "en": "2", "es": "2" },
+        { "en": "4", "es": "4" },
+        { "en": "6", "es": "6" },
+        { "en": "7", "es": "7" }
+      ],
+      "answer": 1,
+      "why": { "en": "Add 18 and 15, then subtract the 7 counted twice, giving 26 players, so 4 of the 30 stay out.", "es": "Suma 18 y 15, resta los 7 contados dos veces y quedan 26 jugadores, así que 4 de los 30 se quedan fuera." },
+      "topic": "venn logic",
+      "source": "https://www.britannica.com/science/Venn-diagram"
+    },
+    {
+      "id": "puzzles-hard-057", "level": "hard", "type": "mc", "lang": "both", "emoji": "🔐",
+      "q": { "en": "In the two-digit sum 1A + A1 = 77, the letter A is one digit. Which digit is A?", "es": "En la suma de dos cifras 1A + A1 = 77, la letra A es un dígito. ¿Cuál dígito es A?" },
+      "choices": [
+        { "en": "4", "es": "4" },
+        { "en": "5", "es": "5" },
+        { "en": "6", "es": "6" },
+        { "en": "7", "es": "7" }
+      ],
+      "answer": 2,
+      "why": { "en": "The sum equals 11 times A plus 11, so 11A equals 66 and A is 6; indeed 16 plus 61 makes 77.", "es": "La suma vale 11 veces A más 11, entonces 11A es 66 y A vale 6; en efecto, 16 más 61 da 77." },
+      "topic": "cryptarithms",
+      "source": "https://mathworld.wolfram.com/Cryptarithmetic.html"
+    },
+    {
+      "id": "puzzles-hard-058", "level": "hard", "type": "mc", "lang": "both", "emoji": "👀",
+      "q": { "en": "Each line describes the line above: 1, 11, 21, 1211, 111221. Which line comes next?", "es": "Cada línea describe la anterior: 1, 11, 21, 1211, 111221. ¿Cuál línea sigue?" },
+      "choices": [
+        { "en": "1112221", "es": "1112221" },
+        { "en": "121121", "es": "121121" },
+        { "en": "222111", "es": "222111" },
+        { "en": "312211", "es": "312211" }
+      ],
+      "answer": 3,
+      "why": { "en": "Read 111221 aloud as three ones, two twos, one one, which writes itself as 312211; the rule is describing, not adding.", "es": "Lee 111221 en voz alta: tres unos, dos doses, un uno, y eso se escribe 312211; la regla es describir, no sumar." },
+      "topic": "patterns",
+      "source": "https://mathworld.wolfram.com/LookandSaySequence.html"
+    },
+    {
+      "id": "puzzles-hard-059", "level": "hard", "type": "tf", "lang": "both", "emoji": "👶",
+      "q": { "en": "In a family of three children, two boys and one girl is likelier than three boys.", "es": "En una familia de tres hijos, dos niños y una niña es más probable que tres niños." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 0,
+      "why": { "en": "Eight equal orders exist; three of them give two boys and one girl, while only one gives three boys.", "es": "Existen ocho combinaciones iguales: tres dan dos niños y una niña, mientras que solo una da tres niños." },
+      "topic": "probability",
+      "source": "https://www.mathsisfun.com/data/probability-tree-diagrams.html"
+    },
+    {
+      "id": "puzzles-hard-060", "level": "hard", "type": "tf", "lang": "both", "emoji": "🎸",
+      "q": { "en": "Every guitar is an instrument, so every instrument must be a guitar.", "es": "Toda guitarra es un instrumento, así que todo instrumento tiene que ser una guitarra." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "Turning a statement around breaks it: drums are instruments too, so the small group sits inside the larger one.", "es": "Invertir una afirmación la rompe: el tambor también es instrumento, así que el grupo pequeño vive dentro del grande." },
+      "topic": "syllogisms",
+      "source": "https://www.britannica.com/topic/syllogism"
+    },
+    {
+      "id": "puzzles-hard-061", "level": "hard", "type": "tf", "lang": "both", "emoji": "💰",
+      "q": { "en": "A balance scale can always find the one heavy coin among nine in a single weighing.", "es": "Una balanza siempre puede encontrar la moneda pesada entre nueve con una sola pesada." },
+      "choices": [
+        { "en": "True", "es": "Cierto" },
+        { "en": "False", "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "en": "One weighing has three outcomes, enough for three suspects, so nine coins need two weighings: first thirds, then coins.", "es": "Una pesada da tres resultados, suficiente para tres sospechosas; nueve monedas necesitan dos pesadas, primero tercios y luego monedas." },
+      "topic": "weighing",
+      "source": "https://www.britannica.com/technology/balance-measurement-instrument"
+    },
+    {
+      "id": "puzzles-hard-062", "level": "hard", "type": "mc", "lang": "en", "emoji": "🗺️",
+      "q": { "en": "I have cities without houses, forests without trees, and water without fish. What am I?" },
+      "choices": [
+        { "en": "A map" },
+        { "en": "A photograph" },
+        { "en": "A painting" },
+        { "en": "A story" }
+      ],
+      "answer": 0,
+      "why": { "en": "A map draws places as symbols, so its forests are green patches and its rivers are blue lines on paper." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/science/map"
+    },
+    {
+      "id": "puzzles-hard-063", "level": "hard", "type": "mc", "lang": "en", "emoji": "🐈",
+      "q": { "en": "Which word hides the name of an animal inside its letters?" },
+      "choices": [
+        { "en": "MELODY" },
+        { "en": "CATALOG" },
+        { "en": "PENCIL" },
+        { "en": "FOREST" }
+      ],
+      "answer": 1,
+      "why": { "en": "CATALOG opens with c, a, t, so a whole cat hides at the front; puzzlers call these embedded words." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/catalog"
+    },
+    {
+      "id": "puzzles-hard-064", "level": "hard", "type": "mc", "lang": "en", "emoji": "🪐",
+      "q": { "en": "What letter comes next: M, V, E, M, J, S?" },
+      "choices": [
+        { "en": "N" },
+        { "en": "P" },
+        { "en": "U" },
+        { "en": "S" }
+      ],
+      "answer": 2,
+      "why": { "en": "The letters begin the planets in order from the Sun, so after Saturn comes Uranus and its letter U." },
+      "topic": "letter sequences",
+      "source": "https://www.britannica.com/science/solar-system"
+    },
+    {
+      "id": "puzzles-hard-065", "level": "hard", "type": "mc", "lang": "en", "emoji": "🍽️",
+      "q": { "en": "Two mothers and two daughters sit down to eat, and three plates are enough for everyone. How does that work?" },
+      "choices": [
+        { "en": "Two of them share a single plate" },
+        { "en": "One of them eats after the others finish" },
+        { "en": "One daughter brought her own bowl" },
+        { "en": "They are a grandmother, her daughter, and that daughter's daughter" }
+      ],
+      "answer": 3,
+      "why": { "en": "The middle woman is a mother and a daughter at once, so three people fill four family roles around the table." },
+      "topic": "lateral",
+      "source": "https://www.britannica.com/topic/riddle"
+    },
+    {
+      "id": "puzzles-hard-066", "level": "hard", "type": "mc", "lang": "en", "emoji": "🪙",
+      "q": { "en": "What has a head and a tail, yet no body at all?" },
+      "choices": [
+        { "en": "A coin" },
+        { "en": "An arrow" },
+        { "en": "A kite" },
+        { "en": "A comb" }
+      ],
+      "answer": 0,
+      "why": { "en": "A coin shows heads on one face and tails on the other, names that come from old portraits stamped on metal." },
+      "topic": "riddles",
+      "source": "https://www.britannica.com/topic/coin"
+    },
+    {
+      "id": "puzzles-hard-067", "level": "hard", "type": "mc", "lang": "en", "emoji": "📚",
+      "q": { "en": "Which word contains three double letters in a row?" },
+      "choices": [
+        { "en": "COMMITTEE" },
+        { "en": "BOOKKEEPER" },
+        { "en": "BALLOONS" },
+        { "en": "SUCCESSES" }
+      ],
+      "answer": 1,
+      "why": { "en": "Bookkeeper stacks oo, kk and ee side by side, a rare run that few English words manage without a hyphen." },
+      "topic": "word puzzles",
+      "source": "https://www.merriam-webster.com/dictionary/bookkeeper"
+    },
+    {
+      "id": "puzzles-hard-068", "level": "hard", "type": "mc", "lang": "es", "emoji": "🧀",
+      "q": { "es": "Redondo como la Luna, blanco como la cal, me hacen con leche y sal. ¿Qué soy?" },
+      "choices": [
+        { "es": "El pan" },
+        { "es": "La tortilla" },
+        { "es": "El queso" },
+        { "es": "La crema" }
+      ],
+      "answer": 2,
+      "why": { "es": "El queso se hace cuajando la leche y separando el suero; con 10 litros de leche sale cerca de un kilo." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/topic/cheese"
+    },
+    {
+      "id": "puzzles-hard-069", "level": "hard", "type": "mc", "lang": "es", "emoji": "🖼️",
+      "q": { "es": "Hermanos y hermanas no tengo, pero el padre de este hombre del retrato es hijo de mi padre. ¿Quién es?" },
+      "choices": [
+        { "es": "Mi padre" },
+        { "es": "Mi sobrino" },
+        { "es": "Yo mismo" },
+        { "es": "Mi hijo" }
+      ],
+      "answer": 3,
+      "why": { "es": "Sin hermanos, el hijo de mi padre soy yo; entonces yo soy el padre del retratado y él es mi hijo." },
+      "topic": "acertijos",
+      "source": "https://www.britannica.com/topic/riddle"
+    },
+    {
+      "id": "puzzles-hard-070", "level": "hard", "type": "mc", "lang": "es", "emoji": "🦇",
+      "q": { "es": "¿Cuál palabra contiene las cinco vocales una sola vez cada una?" },
+      "choices": [
+        { "es": "Murciélago" },
+        { "es": "Escuela" },
+        { "es": "Biblioteca" },
+        { "es": "Ferrocarril" }
+      ],
+      "answer": 0,
+      "why": { "es": "Murciélago lleva a, e, i, o, u una sola vez; también lo hacen palabras como \"arquitecto\" y \"comunidades\"." },
+      "topic": "palabras",
+      "source": "https://dle.rae.es/murcielago"
+    },
+    {
+      "id": "puzzles-hard-071", "level": "hard", "type": "mc", "lang": "es", "emoji": "🗓️",
+      "q": { "es": "Somos doce hermanos; el primero se llama enero y el último diciembre. ¿Qué somos?" },
+      "choices": [
+        { "es": "Las horas" },
+        { "es": "Los meses" },
+        { "es": "Los días" },
+        { "es": "Las estaciones" }
+      ],
+      "answer": 1,
+      "why": { "es": "Los doce meses vienen del calendario romano, que al principio tenía diez y luego agregó dos para cuadrar el año." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/science/calendar"
+    },
+    {
+      "id": "puzzles-hard-072", "level": "hard", "type": "mc", "lang": "es", "emoji": "🥔",
+      "q": { "es": "Tengo ojos y no veo, tengo cáscara y no soy huevo, y en la tierra crezco. ¿Qué soy?" },
+      "choices": [
+        { "es": "La aguja" },
+        { "es": "La piedra" },
+        { "es": "La papa" },
+        { "es": "El clavo" }
+      ],
+      "answer": 2,
+      "why": { "es": "Los ojos de la papa son yemas; de cada uno puede brotar una planta nueva, por eso se siembran pedazos." },
+      "topic": "adivinanzas",
+      "source": "https://www.britannica.com/plant/potato"
+    },
+    {
+      "id": "puzzles-hard-073", "level": "hard", "type": "tf", "lang": "es", "emoji": "🔁",
+      "q": { "es": "Una serie que empieza con 1, 2, 4 solo puede continuar con el número 8." },
+      "choices": [
+        { "es": "Cierto" },
+        { "es": "Falso" }
+      ],
+      "answer": 1,
+      "why": { "es": "También sirve 7, si la regla suma 1, luego 2 y luego 3; tres datos rara vez definen una sola regla." },
+      "topic": "secuencias",
+      "source": "https://www.mathsisfun.com/numberpatterns.html"
     }
   ]
 }
