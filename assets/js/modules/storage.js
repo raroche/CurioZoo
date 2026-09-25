@@ -62,7 +62,10 @@ const DEFAULTS = {
     trivia: {},
     /* Discovered or Invented: count and language last chosen, and which
        things were asked lately. Owned by modules/discover.js. */
-    discover: {}
+    discover: {},
+    /* Math Brain Teasers: level, count and language last chosen, and every
+       teaser met, per level. Owned by modules/teasers.js. */
+    teasers: {}
   },
   /* stats[categoryId] = { seen, correct, streakBest, lastSeenIso } */
   stats: {},

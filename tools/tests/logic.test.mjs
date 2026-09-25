@@ -299,6 +299,11 @@ describe('where back goes', () => {
     assert.equal(backTarget('#/fun').href, '#/home');
   });
 
+  test('Math Brain Teasers is a room one step below home', () => {
+    assert.equal(backTarget('#/teasers').href, '#/home');
+    assert.equal(backTarget('#/teasers/play'), null);
+  });
+
   test('Curio Trivia is a room of its own, one step below home', () => {
     assert.equal(backTarget('#/trivia').href, '#/home');
     /* The round and the Fact Book carry their own labelled links. */

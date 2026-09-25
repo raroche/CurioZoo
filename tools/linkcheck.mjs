@@ -143,6 +143,9 @@ for (const [link, from] of links) {
       err(`${link} -> "${parts[1]}" has no step "${parts[2]}"   [${where}]`);
     }
   }
+  if (head === 'teasers' && parts[1] && !open && parts[1] !== 'play') {
+    err(`${link} -> Math Brain Teasers has no page "${parts[1]}"   [${where}]`);
+  }
   if (head === 'trivia' && parts[1] && !open && !['play', 'learn'].includes(parts[1])) {
     err(`${link} -> Curio Trivia has no page "${parts[1]}"   [${where}]`);
   }

@@ -31,6 +31,7 @@ import { renderParents, toggleGuideLanguage } from './screens/parents.js';
 import { renderLearn, renderElemLearn, renderAngleLearn, paintAngTurn, paintAngTrap, paintAngClock, learnStep, learnJump, learnOrder, showElementDetail } from './screens/learn.js';
 import { answerTrivia, renderTrivia, renderTriviaLearn, setTriviaSetup, triviaAction, triviaKey } from './screens/trivia.js';
 import { answerDisc, discAction, discKey, setDiscSetup } from './screens/discover.js';
+import { answerTeaser, renderTeasers, setTeaserSetup, teaserAction, teaserKey } from './screens/teasers.js';
 import { backTarget } from './modules/routes.js';
 
 /* ------------------------------------------------------------------ */
@@ -128,6 +129,10 @@ function route() {
       break;
     case 'fun':
       renderFun(parts[1], parts[2]);
+      break;
+    case 'teasers':
+      paintRoomHead('teasers', 'cz-teaser-pic');
+      renderTeasers(parts[1]);
       break;
     case 'trivia':
       paintRoomHead('trivia', 'cz-trivia-pic');
@@ -425,6 +430,14 @@ function onClick(ev) {
     if (pill) { setDiscSetup(key, pill.dataset[attr]); return; }
   }
 
+  /* ---- Math Brain Teasers ---- */
+  const teaserPick = ev.target.closest('[data-teaserpick]');
+  if (teaserPick) { answerTeaser(Number(teaserPick.dataset.teaserpick)); return; }
+  for (const [attr, key] of [['teaserlevel', 'level'], ['teasercount', 'count'], ['teaserlang', 'lang']]) {
+    const pill = ev.target.closest(`[data-${attr}]`);
+    if (pill) { setTeaserSetup(key, pill.dataset[attr]); return; }
+  }
+
   const choice = ev.target.closest('.gp-choice');
   if (choice && !state.answered) { handleAnswer(choice.dataset.choice); return; }
 
@@ -442,6 +455,10 @@ function onClick(ev) {
   }
   if (action.dataset.action.startsWith('trivia-')) {
     triviaAction(action.dataset.action, action);
+    return;
+  }
+  if (action.dataset.action.startsWith('teaser-')) {
+    teaserAction(action.dataset.action);
     return;
   }
   if (action.dataset.action.startsWith('disc-')) {
@@ -575,6 +592,7 @@ function onKeydown(ev) {
   }
   if (triviaKey(ev)) return;
   if (discKey(ev)) return;
+  if (teaserKey(ev)) return;
   if (!document.getElementById('screen-quiz').classList.contains('is-active')) return;
   if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
 
