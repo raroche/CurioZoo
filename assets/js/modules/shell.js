@@ -69,6 +69,9 @@ export const state = {
   trivia: { manifest: null, data: new Map(), setup: null, round: null, book: null },
   /* Discovered or Invented. `setup` is seeded from settings.discover. */
   discover: { data: null, setup: null, round: null },
+  /* Math Brain Teasers. `manifest` names the levels; each level's teasers are
+     cached by modules/teasers.js. */
+  teasers: { manifest: null, setup: null, round: null, starting: false },
   /* Chess Club. `board` and `game` are the live board and the rules object
      for whatever screen is showing; both are torn down on the way out, since
      a board left behind keeps its pointer listeners. */
@@ -113,7 +116,7 @@ const SCREENS = ['home', 'gifted', 'tests', 'categories', 'quiz', 'results', 'pa
   'math', 'mathtopic', 'fun', 'flagsetup', 'flaggame', 'shapesetup', 'shapegame',
   'capsetup', 'capgame', 'elemsetup', 'elemgame', 'angsetup', 'anggame',
   'learn', 'elemlearn', 'anglearn', 'triviasetup', 'triviagame', 'trivialearn',
-  'discsetup', 'discgame',
+  'discsetup', 'discgame', 'teasersetup', 'teasergame',
   'chess', 'chesslevel', 'chesslesson', 'chessplay', 'chesspuzzle', 'chessopenings',
   'chesstournament', 'error'];
 

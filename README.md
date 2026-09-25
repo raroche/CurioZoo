@@ -51,6 +51,7 @@ listing — in [`assets/img/logo/anim/`](assets/img/logo/anim/README.md).
 | Room | What it is |
 |---|---|
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
+| **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
@@ -254,6 +255,19 @@ The bank holds 4,739 questions: 100 per topic per level, except Brain Teasers
 & Logic, which has 80 Easy, 86 Medium and 73 Hard so far. A family playing
 every week does not see a repeat for years; `tools/triviacheck.mjs`
 holds every question to the writing rules in `docs/research/trivia/PLAN.md`.
+
+**Math Brain Teasers** has its own room at `#/teasers`: 113 Easy, 106 Medium
+and 108 Hard. None was written from scratch. Each one was found in a real
+place and retold in plain words, and each keeps its source. Only two kinds
+are kept: public domain (Dudeney, Carroll, Loyd, Alcuin, the Greek
+Anthology) and traditional folk riddles, each shown to circulate in at least
+two other unrelated places. Puzzles made up by a modern author or contest
+were taken out; the checker refuses them. Every teaser also records the date
+its answer was worked out by hand and its wording read for a second meaning.
+`docs/research/teasers/CREDITS.md` lists them all. A child meets every
+teaser in a level before any comes back. New teasers go in with
+`node tools/teasersmerge.mjs batch.json`, which checks the whole batch and
+writes nothing if one item fails, then `node tools/teaserscheck.mjs --write`.
 
 **Discovered or Invented?** is one of the games. Water, gold and Pluto were
 already here; the wheel, chocolate and the periodic table were made by people.
@@ -472,6 +486,7 @@ GiftedPrep/
 │           ├── shuffle.js      the one fair shuffle the games share
 │           ├── trivia.js       Curio Trivia: rounds, memory, stars
 │           ├── discover.js     Discovered or Invented?: rounds and memory
+│           ├── teasers.js      Math Brain Teasers: rounds, memory, sum checker
 │           ├── sections.js     the rooms, and the creature that fronts each
 │           └── shell.js        shared state and DOM helpers
 │
@@ -481,12 +496,14 @@ GiftedPrep/
 │           ├── fun.js          the games hub, flags and country shapes
 │           ├── trivia.js       Curio Trivia screens and the Fact Book
 │           ├── discover.js     Discovered or Invented? screens
+│           ├── teasers.js      Math Brain Teasers screens
 │           ├── parents.js      the Parent Guide screen
 │           └── learn.js        browsing modes, and the periodic table page
 ├── data/
 │   ├── manifest.json           tests, grades, category index
 │   ├── cogat/  nnat/  olsat/   one JSON file per category
 │   ├── math/                   Math Lab topics, one file per grade
+│   ├── teasers/                Math Brain Teasers: one file per level
 │   └── fun/                    flag game data: countries, continents, past flags
 │       ├── discover.json       Discovered or Invented?, both languages
 │       └── trivia/             Curio Trivia: a manifest and one file per topic

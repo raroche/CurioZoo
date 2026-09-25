@@ -658,6 +658,44 @@
   </section>
 
   <!-- ============================================================ -->
+  <!-- Math Brain Teasers: a room of its own, at #/teasers.          -->
+  <!-- Words marked data-teaser-text follow the child's language;    -->
+  <!-- see paintChrome() in screens/teasers.js.                      -->
+  <!-- ============================================================ -->
+  <section class="gp-screen cz-room--lagoon" id="screen-teasersetup" aria-labelledby="teasersetup-title">
+    <div class="gp-container">
+      <div class="gp-backslot"></div>
+      <div class="cz-roomhead cz-tile--lagoon">
+        <span class="cz-roomhead__pic" id="cz-teaser-pic" aria-hidden="true"></span>
+        <div>
+          <h1 class="gp-page-title" id="teasersetup-title" data-teaser-text="title">Math Brain Teasers</h1>
+          <p class="gp-page-lede" data-teaser-text="lede">Riddles and puzzles that make you think twice. Read
+             slowly: the first answer that jumps out is not always right.</p>
+        </div>
+      </div>
+      <section class="cz-mode cz-mode--practice cz-trivia-play">
+        <div class="gp-card gp-card--setup" id="gp-teaser-setup"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="gp-screen cz-room--lagoon" id="screen-teasergame" aria-labelledby="teasergame-title">
+    <div class="gp-container">
+      <div class="gp-flagbar">
+        <a class="gp-btn gp-btn--ghost gp-backlink" href="#/teasers" data-teaser-text="changeLink">&larr; Change the round</a>
+        <p class="gp-flagbar__score">
+          <span class="gp-tally gp-tally--right"><span aria-hidden="true">&#10003;</span>
+            <strong data-teaser-right>0</strong><span class="gp-sr-only" data-teaser-text="rightSr">right</span></span>
+          <span class="gp-tally gp-tally--wrong"><span aria-hidden="true">&#10007;</span>
+            <strong data-teaser-wrong>0</strong><span class="gp-sr-only" data-teaser-text="learnSr">to learn</span></span>
+        </p>
+      </div>
+      <h1 class="gp-sr-only" id="teasergame-title" data-teaser-text="title">Math Brain Teasers</h1>
+      <div id="gp-teaser-body" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
   <!-- Curio Trivia: a room of its own, at #/trivia.                 -->
   <!-- ============================================================ -->
   <section class="gp-screen cz-room--honey" id="screen-triviasetup" aria-labelledby="triviasetup-title">

@@ -1,0 +1,31 @@
+{
+  "levels": [
+    {
+      "id": "easy",
+      "name": {
+        "en": "Easy",
+        "es": "Fácil"
+      },
+      "ages": "6–8",
+      "count": 113
+    },
+    {
+      "id": "medium",
+      "name": {
+        "en": "Medium",
+        "es": "Medio"
+      },
+      "ages": "8–10",
+      "count": 106
+    },
+    {
+      "id": "hard",
+      "name": {
+        "en": "Hard",
+        "es": "Difícil"
+      },
+      "ages": "10–13",
+      "count": 108
+    }
+  ]
+}

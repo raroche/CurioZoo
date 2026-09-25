@@ -25,10 +25,13 @@ export function backTarget(hash = location.hash || '#/home') {
   if (head === 'fun' && parts.length > 1) return null;
   /* So do the trivia round and the Fact Book: "Change the round", "Back to the game". */
   if (head === 'trivia' && parts.length > 1) return null;
+  /* A teaser round has its own "Change the round". */
+  if (head === 'teasers' && parts.length > 1) return null;
 
   switch (head) {
     case 'fun':
     case 'trivia':
+    case 'teasers':
     case 'gifted':
     case 'chess':
     case 'math':

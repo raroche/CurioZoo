@@ -182,6 +182,18 @@ export const ROOMS = [
     meta: '86 topics · grades 1 to 6'
   },
   {
+    id: 'teasers',
+    name: 'Math Brain Teasers',
+    hue: 'lagoon',
+    /* The frog's eyes sit on top of its head: two bumps, neither round ears
+       nor pointed ones, so it reads apart from every other room. */
+    creature: 'frog',
+    href: '#/teasers',
+    status: 'live',
+    blurb: 'Riddles that make you think twice. Three levels, and a hint when you are stuck.',
+    meta: '327 teasers \u00b7 3 levels \u00b7 English or Spanish'
+  },
+  {
     id: 'trivia',
     name: 'Curio Trivia',
     hue: 'honey',

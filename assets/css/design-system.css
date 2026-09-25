@@ -4586,6 +4586,12 @@ button, a, label, summary, [role="button"] {
   --room-line: var(--cz-honey-line);
   --room-ink: var(--cz-honey-ink);
 }
+.cz-room--lagoon {
+  --room: var(--cz-lagoon);
+  --room-soft: var(--cz-lagoon-soft);
+  --room-line: var(--cz-lagoon-line);
+  --room-ink: var(--cz-lagoon-ink);
+}
 .cz-room--orchid {
   --room: var(--cz-orchid);
   --room-soft: var(--cz-orchid-soft);
@@ -4799,3 +4805,25 @@ button, a, label, summary, [role="button"] {
   right: var(--gp-space-2);
 }
 .cz-disc-donetools { justify-content: flex-end; margin-bottom: var(--gp-space-2); }
+
+/* ============================================================ */
+/* Math Brain Teasers                                            */
+/* ============================================================ */
+
+/* A teaser is a few sentences, not a one-line question, so it reads as a
+   paragraph: left-aligned and a little smaller than a trivia stem. */
+.cz-teaser-q { font-size: var(--gp-text-lg); line-height: 1.4; text-align: left; }
+.cz-teaser-hintbtn { margin: 0 0 var(--gp-space-4); min-height: 44px; }
+.cz-teaser-hint {
+  margin: 0 0 var(--gp-space-4);
+  padding: var(--gp-space-3) var(--gp-space-4);
+  border-radius: var(--gp-radius-lg);
+  border: 2px dashed var(--room-line, var(--gp-accent-line));
+  text-align: left;
+  line-height: 1.4;
+}
+/* Some emoji fonts report a narrower glyph than they draw, which eats the
+   space that follows, as the trivia pills found. */
+.cz-teaser-q .cz-trivia-q__emoji,
+.cz-teaser-hint > span:first-child,
+.cz-teaser-hintbtn > span:first-child { margin-inline-end: .3em; }

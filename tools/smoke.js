@@ -171,6 +171,64 @@
     await wait(200);
   }
 
+  /* ---- Math Brain Teasers ----
+     A room with levels, a hint behind a button and a language flip: each is
+     a redraw that could come back blank, so each is looked at. */
+  for (const level of ['easy', 'medium', 'hard']) {
+    location.hash = '#/teasers';
+    await wait(1300);
+    check(`teasers/${level}: setup is visible`, vis(document.getElementById('screen-teasersetup')));
+    document.querySelector(`[data-teaserlevel="${level}"]`)?.click();
+    await wait(200);
+    document.querySelector('[data-teasercount="5"]')?.click();
+    await wait(200);
+    const start = document.querySelector('[data-action="teaser-start"]');
+    check(`teasers/${level}: has a start button`, !!start);
+    start?.click();
+    await wait(1400);
+    check(`teasers/${level}: the game screen is visible`, vis(document.getElementById('screen-teasergame')));
+    const want = level === 'easy' ? 3 : 4;
+    const tiles = document.querySelectorAll('[data-teaserpick]').length;
+    check(`teasers/${level}: shows ${want} choices`, tiles === want, `${tiles}`);
+    const hintBtn = document.querySelector('[data-action="teaser-hint"]');
+    if (hintBtn) {
+      hintBtn.click();
+      await wait(250);
+      check(`teasers/${level}: the hint opens`, !!document.querySelector('.cz-teaser-hint'));
+    }
+    document.querySelector('[data-teaserpick]')?.click();
+    await wait(500);
+    check(`teasers/${level}: feedback and why appear`,
+      !!document.querySelector('#gp-teaser-body .gp-flagq__say')
+      && !!document.querySelector('#gp-teaser-body .cz-trivia-why'));
+    /* The flip has to change something: the card's language to the other
+       one, and the words of the question and the tiles with it. Checking only
+       that the card says en or es passed with a button that did nothing. */
+    const card = () => document.querySelector('#gp-teaser-body .cz-teaser-card');
+    const words = () => [card()?.querySelector('.cz-teaser-q')?.textContent,
+      ...[...document.querySelectorAll('[data-teaserpick] .gp-choice__body')].map((b) => b.textContent)].join('|');
+    const langBefore = card()?.getAttribute('lang');
+    const wordsBefore = words();
+    document.querySelector('[data-action="teaser-lang"]')?.click();
+    await wait(300);
+    const flipped = card()?.getAttribute('lang');
+    check(`teasers/${level}: the card flips to the other language`,
+      !!langBefore && flipped === (langBefore === 'en' ? 'es' : 'en'), `${langBefore} -> ${flipped}`);
+    check(`teasers/${level}: the question is in the new language`, words() !== wordsBefore);
+    document.querySelector('[data-action="teaser-lang"]')?.click();
+    await wait(200);
+    for (let i = 0; i < 4; i += 1) {
+      document.querySelector('[data-action="teaser-next"]')?.click();
+      await wait(250);
+      document.querySelector('[data-teaserpick]')?.click();
+      await wait(250);
+    }
+    document.querySelector('[data-action="teaser-next"]')?.click();
+    await wait(500);
+    check(`teasers/${level}: a round of five reaches the results`,
+      vis(document.querySelector('#gp-teaser-body .gp-flagdone')));
+  }
+
   /* ---- Curio Trivia moved out of Fun and Games: the old links still land ---- */
   for (const [from, to] of [['#/fun/trivia', '#/trivia'], ['#/fun/trivia/learn', '#/trivia/learn']]) {
     location.hash = from;
@@ -288,6 +346,7 @@
     ['#/fun/flags/learn', '#/fun/flags'],
     ['#/fun/discover', '#/fun'],
     ['#/trivia', '#/home'],
+    ['#/teasers', '#/home'],
     ['#/trivia/learn', '#/trivia'],
     ['#/chess', '#/home'],
     ['#/chess/1', '#/chess'],
