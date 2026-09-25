@@ -29,7 +29,8 @@ import { applySpeechButton, renderGiftedExplainer, goForward, goPrev, handleAnsw
 import { answerMath, checkMath, crossOut, nimTake, paintRegion, pickDoor, renderMath, runMachine, settleDoor, stepExercise, tapPeg, toggleBuildCell, turnDial } from './screens/math.js';
 import { renderParents, toggleGuideLanguage } from './screens/parents.js';
 import { renderLearn, renderElemLearn, renderAngleLearn, paintAngTurn, paintAngTrap, paintAngClock, learnStep, learnJump, learnOrder, showElementDetail } from './screens/learn.js';
-import { answerTrivia, setTriviaSetup, triviaAction, triviaKey } from './screens/trivia.js';
+import { answerTrivia, renderTrivia, renderTriviaLearn, setTriviaSetup, triviaAction, triviaKey } from './screens/trivia.js';
+import { answerDisc, discAction, discKey, setDiscSetup } from './screens/discover.js';
 import { backTarget } from './modules/routes.js';
 
 /* ------------------------------------------------------------------ */
@@ -127,6 +128,11 @@ function route() {
       break;
     case 'fun':
       renderFun(parts[1], parts[2]);
+      break;
+    case 'trivia':
+      paintRoomHead('trivia', 'cz-trivia-pic');
+      if (parts[1] === 'learn') renderTriviaLearn();
+      else renderTrivia(parts[1]);
       break;
     case 'math':
       renderMath(parts[1], parts[2]);
@@ -411,6 +417,14 @@ function onClick(ev) {
     if (pill) { setTriviaSetup(key, pill.dataset[attr]); return; }
   }
 
+  /* ---- Discovered or Invented: above .gp-choice for the same reason ---- */
+  const discPick = ev.target.closest('[data-discpick]');
+  if (discPick) { answerDisc(discPick.dataset.discpick); return; }
+  for (const [attr, key] of [['disccount', 'count'], ['disclang', 'lang']]) {
+    const pill = ev.target.closest(`[data-${attr}]`);
+    if (pill) { setDiscSetup(key, pill.dataset[attr]); return; }
+  }
+
   const choice = ev.target.closest('.gp-choice');
   if (choice && !state.answered) { handleAnswer(choice.dataset.choice); return; }
 
@@ -428,6 +442,10 @@ function onClick(ev) {
   }
   if (action.dataset.action.startsWith('trivia-')) {
     triviaAction(action.dataset.action, action);
+    return;
+  }
+  if (action.dataset.action.startsWith('disc-')) {
+    discAction(action.dataset.action);
     return;
   }
   switch (action.dataset.action) {
@@ -556,6 +574,7 @@ function onKeydown(ev) {
     if (ev.key === 'ArrowLeft') { ev.preventDefault(); learnStep(-1); return; }
   }
   if (triviaKey(ev)) return;
+  if (discKey(ev)) return;
   if (!document.getElementById('screen-quiz').classList.contains('is-active')) return;
   if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
 

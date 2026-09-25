@@ -1,7 +1,7 @@
 /**
  * screens/fun.js — the Fun and Games room.
  *
- * The hub, Name the Flag and Name the Country Shape. Round building, distractors and
+ * The hub, Name the Flag, Name the Country Shape and the rest. Round building, distractors and
  * typed-answer matching live in modules/flags.js and modules/shapes.js.
  */
 
@@ -16,7 +16,7 @@ import * as angles from './../modules/angles.js';
 import { SCENES, sceneSvg } from './../modules/angleart.js';
 import { spreadAnswer, noteSlot } from './../modules/slots.js';
 import { renderLearn, renderElemLearn, renderAngleLearn } from './learn.js';
-import { renderTrivia, renderTriviaLearn } from './trivia.js';
+import { renderDiscover } from './discover.js';
 import { $, $$, paint, react, showError, showScreen, state } from './../modules/shell.js';
 
 /* ------------------------------------------------------------------ */
@@ -74,15 +74,16 @@ const ART = {
     <rect x="40" y="33" width="11" height="19" rx="2" fill="${t}"/>
     <path d="M10 52 H54" stroke="${t}" stroke-width="3.4" stroke-linecap="round" fill="none"/>`,
 
-  /* A speech bubble asking something. Trivia is a conversation: a question,
-     an answer, and then the "why" that makes it worth having asked. */
-  quiz: (t, p) => `
+  /* The two answers side by side: a magnifying glass for finding a thing
+     that was already there, a hammer for making one that was not. */
+  discover: (t, p) => `
     <rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
-    <path d="M14 13 H50 A5 5 0 0 1 55 18 V39 A5 5 0 0 1 50 44 H30 L20 53 V44 H14
-             A5 5 0 0 1 9 39 V18 A5 5 0 0 1 14 13 Z" fill="${t}"/>
-    <path d="M26.5 23.5 A5.5 5.5 0 1 1 34 28.6 C32.6 29.3 32 30.2 32 31.8 V33"
-          fill="none" stroke="${p}" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="32" cy="38.6" r="2.4" fill="${p}"/>`
+    <circle cx="21" cy="24" r="9" fill="none" stroke="${t}" stroke-width="4.5"/>
+    <path d="M27.5 30.5 L34 37" stroke="${t}" stroke-width="5.5" stroke-linecap="round"/>
+    <rect x="36" y="15" width="20" height="10" rx="2.5" fill="${t}"/>
+    <path d="M46 25 V51" stroke="${t}" stroke-width="5" stroke-linecap="round"/>
+    <path d="M12 51 H30" stroke="var(--gp-ink)" stroke-width="3" stroke-linecap="round"
+          opacity=".35"/>`
 };
 
 const gameArt = (kind) => `<svg class="cz-gameart" viewBox="0 0 64 64" aria-hidden="true"
@@ -105,9 +106,9 @@ const FUN_GAMES = [
   { id: 'angles', art: 'angle', hue: 'sky', name: 'Guess the Angle',
     sub: 'How far does it open? Clock hands, roofs, ramps and a ball that bounces.',
     meta: '6 kinds of question \u00b7 no protractor needed' },
-  { id: 'trivia', art: 'quiz', hue: 'orchid', name: 'Curio Trivia',
-    sub: 'Animals, space, your body, the world. Three levels, every answer teaches you something.',
-    meta: '4,739 questions \u00b7 English or Spanish' }
+  { id: 'discover', art: 'discover', hue: 'orchid', name: 'Discovered or Invented?',
+    sub: 'Was it already here, or did people make it? Water, the wheel, chocolate, Pluto.',
+    meta: '106 questions \u00b7 English or Spanish' }
 ];
 
 function renderFunHub() {
@@ -128,10 +129,13 @@ function renderFunHub() {
 
 export async function renderFun(game, step) {
   if (!game) { renderFunHub(); return; }
+  /* Curio Trivia moved out to a room of its own. Old links and bookmarks
+     still land on it; replace, so Back does not bounce the child here again. */
+  if (game === 'trivia') { location.replace(`#/trivia${step ? `/${step}` : ''}`); return; }
+  if (game === 'discover') { await renderDiscover(step); return; }
   if (step === 'learn') {
     if (game === 'elements') { await renderElemLearn(); return; }
     if (game === 'angles') { renderAngleLearn(); return; }
-    if (game === 'trivia') { await renderTriviaLearn(); return; }
     await renderLearn(game);
     return;
   }
@@ -139,7 +143,6 @@ export async function renderFun(game, step) {
   if (game === 'capitals') { await renderCapitals(step); return; }
   if (game === 'elements') { await renderElements(step); return; }
   if (game === 'angles') { renderAngles(step); return; }
-  if (game === 'trivia') { await renderTrivia(step); return; }
   if (game !== 'flags') { renderFunHub(); return; }
   try {
     if (!state.flags.data) state.flags.data = await flags.loadFlags();

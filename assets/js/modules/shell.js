@@ -67,6 +67,8 @@ export const state = {
   /* Curio Trivia. `data` caches each category's questions, `setup` is seeded
      from settings.trivia on the first visit, `book` is the Fact Book's view. */
   trivia: { manifest: null, data: new Map(), setup: null, round: null, book: null },
+  /* Discovered or Invented. `setup` is seeded from settings.discover. */
+  discover: { data: null, setup: null, round: null },
   /* Chess Club. `board` and `game` are the live board and the rules object
      for whatever screen is showing; both are torn down on the way out, since
      a board left behind keeps its pointer listeners. */
@@ -111,6 +113,7 @@ const SCREENS = ['home', 'gifted', 'tests', 'categories', 'quiz', 'results', 'pa
   'math', 'mathtopic', 'fun', 'flagsetup', 'flaggame', 'shapesetup', 'shapegame',
   'capsetup', 'capgame', 'elemsetup', 'elemgame', 'angsetup', 'anggame',
   'learn', 'elemlearn', 'anglearn', 'triviasetup', 'triviagame', 'trivialearn',
+  'discsetup', 'discgame',
   'chess', 'chesslevel', 'chesslesson', 'chessplay', 'chesspuzzle', 'chessopenings',
   'chesstournament', 'error'];
 
