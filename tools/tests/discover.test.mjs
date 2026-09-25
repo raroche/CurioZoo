@@ -54,9 +54,22 @@ describe('buildRound', () => {
 
   test('things not seen lately come first', () => {
     const items = bank(10, 10);
-    const recent = items.slice(0, 15).map((x) => x.id);
+    /* Seen: all 10 discovered and 5 invented; unseen: 5 invented, both kinds
+       are still among the unseen once the answers mix, so all 5 are fresh
+       whenever the runs allow it. */
+    const recent = [...items.slice(0, 7), ...items.slice(10, 13)].map((x) => x.id);
     const list = D.buildRound(items, 5, { recent }, rng(3));
     for (const x of list) assert.ok(!recent.includes(x.id), `${x.id} was seen lately`);
+  });
+
+  test('when the unseen are all one answer, only the fewest seen are borrowed', () => {
+    const items = bank(10, 10);
+    const recent = items.slice(0, 15).map((x) => x.id);
+    const list = D.buildRound(items, 5, { recent }, rng(3));
+    /* 5 unseen "invented" would be a run of 5; one seen "discovered" is
+       enough to keep runs to 3, and no more are taken. */
+    assert.equal(list.filter((x) => recent.includes(x.id)).length, 1);
+    assert.ok(longestRun(list) <= D.MAX_RUN);
   });
 
   test('when everything has been seen, the longest ago comes back first', () => {
@@ -65,6 +78,28 @@ describe('buildRound', () => {
     const list = D.buildRound(items, 3, { recent }, rng(9));
     const ids = new Set(list.map((x) => x.id));
     assert.deepEqual(ids, new Set(recent.slice(0, 3)));
+  });
+});
+
+describe('balance', () => {
+  test('a round never comes out all one answer when the bank has both', () => {
+    /* Everything unseen is "discovered": the plain pick would be ten of the
+       same, a run of ten no reordering can break. */
+    const items = bank(20, 20);
+    const recent = items.filter((x) => x.answer === 'invented').map((x) => x.id);
+    for (let seed = 1; seed < 50; seed += 1) {
+      const list = D.buildRound(items, 10, { recent }, rng(seed));
+      assert.ok(list.some((x) => x.answer === 'invented'), `seed ${seed}`);
+      assert.ok(longestRun(list) <= D.MAX_RUN, `seed ${seed}: run of ${longestRun(list)}`);
+    }
+  });
+
+  test('it takes only as many of the rare answer as the runs need', () => {
+    const picked = Array.from({ length: 10 }, (_, i) => mk(i, 'discovered'));
+    const spare = [mk(20, 'invented'), mk(21, 'invented'), mk(22, 'invented')];
+    const out = D.balance(picked, spare);
+    assert.equal(out.length, 10);
+    assert.equal(out.filter((x) => x.answer === 'invented').length, 2);
   });
 });
 

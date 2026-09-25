@@ -99,8 +99,37 @@ export function buildRound(items, count = DEFAULT_COUNT, memory = {}, random = M
   /* When the fresh ones run out, the longest-ago seen come back first. */
   const stale = items.filter((x) => seenAt.has(x.id))
     .sort((a, b) => seenAt.get(a.id) - seenAt.get(b.id));
-  const picked = [...fresh, ...stale].slice(0, want);
+  const order = [...fresh, ...stale];
+  const picked = balance(order.slice(0, want), order.slice(want));
   return capRuns(shuffle(picked, random), MAX_RUN, random);
+}
+
+/**
+ * Make sure the round holds enough of the rarer answer for capRuns to keep
+ * every run to MAX_RUN. A plain pick can come out all one answer, by chance or
+ * because the unseen ones left are all "discovered", and then no reordering
+ * helps: ten of the same is a run of ten.
+ *
+ * With `a` of one answer and `b` of the other, runs of at most MAX_RUN need
+ * a <= MAX_RUN * (b + 1). While that fails, the last-chosen item of the
+ * common answer (the least wanted) makes way for the next item of the rare
+ * one from `spare`, which is in the same order of preference.
+ */
+export function balance(picked, spare, maxRun = MAX_RUN) {
+  const out = picked.slice();
+  const rest = spare.slice();
+  for (;;) {
+    const counts = {};
+    out.forEach((x) => { counts[x.answer] = (counts[x.answer] || 0) + 1; });
+    const [common] = Object.keys(counts).sort((p, q) => counts[q] - counts[p]);
+    const rare = ANSWERS.find((k) => k !== common);
+    if ((counts[common] || 0) <= maxRun * ((counts[rare] || 0) + 1)) return out;
+    const j = rest.findIndex((x) => x.answer === rare);
+    if (j === -1) return out;
+    const drop = out.map((x) => x.answer).lastIndexOf(common);
+    out.splice(drop, 1);
+    out.push(rest.splice(j, 1)[0]);
+  }
 }
 
 export const judge = (item, pick) => pick === item.answer;
@@ -186,6 +215,6 @@ export function record(memory, id) {
 }
 
 export default {
-  ANSWERS, COUNTS, DEFAULT_COUNT, MAX_RUN, RECENT_CAP, loadDiscover, capRuns, buildRound,
+  ANSWERS, COUNTS, DEFAULT_COUNT, MAX_RUN, RECENT_CAP, loadDiscover, capRuns, balance, buildRound,
   judge, pick, UI, ui, feedbackLine, normaliseMemory, record
 };

@@ -43,13 +43,17 @@ export async function renderDiscover(step) {
     location.replace('#/fun/discover');
     return;
   }
+  const here = () => (location.hash || '').startsWith('#/fun/discover');
   try {
     if (!state.discover.data) state.discover.data = await D.loadDiscover();
   } catch (err) {
     console.error(err);
-    showError('Discovered or Invented could not be loaded.');
+    if (here()) showError('Discovered or Invented could not be loaded.');
     return;
   }
+  /* The child may have gone somewhere else while the questions loaded; the
+     setup must not be drawn over the page they went to. */
+  if (!here()) return;
   seedSetup();
   if (step === 'play' && state.discover.round) { drawDiscQuestion(); return; }
   drawDiscSetup();
