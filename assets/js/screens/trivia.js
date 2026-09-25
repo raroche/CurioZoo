@@ -6,7 +6,8 @@
  * remembered) is made in modules/trivia.js; this file only turns those answers
  * into markup and wires the buttons.
  *
- * Reached from screens/fun.js, which forwards #/fun/trivia here.
+ * A room of its own, at #/trivia. It used to be a game inside Fun and Games,
+ * so screens/fun.js still forwards the old #/fun/trivia links here.
  */
 
 import * as T from './../modules/trivia.js';
@@ -14,7 +15,7 @@ import * as storage from './../modules/storage.js';
 import * as speech from './../modules/speech.js';
 import { icon } from './../modules/icons.js';
 import { escapeHtml as esc } from './../modules/charts.js';
-import { shuffle } from './../modules/capitals.js';
+import { shuffle } from './../modules/shuffle.js';
 import { spreadAnswer, noteSlot } from './../modules/slots.js';
 import { $, paint, react, showError, showScreen, state } from './../modules/shell.js';
 
@@ -269,7 +270,7 @@ export async function startTriviaRound() {
     answered: false, picked: null, choices: null, choicesFor: -1, slots: [],
     learned: [], secondLooks: false, readFor: -1, saved: false
   };
-  location.hash = '#/fun/trivia/play';
+  location.hash = '#/trivia/play';
   drawTriviaQuestion();
 }
 
@@ -513,8 +514,8 @@ function drawTriviaResults() {
 
       <div class="gp-flagdone__again">
         <button type="button" class="gp-btn gp-btn--primary" data-action="trivia-again">${esc(T.ui('againBtn', lang))}</button>
-        <a class="gp-btn gp-btn--ghost" href="#/fun/trivia">${esc(T.ui('change', lang))}</a>
-        <a class="gp-btn gp-btn--quiet" href="#/fun">${esc(T.ui('back', lang))}</a>
+        <a class="gp-btn gp-btn--ghost" href="#/trivia">${esc(T.ui('change', lang))}</a>
+        <a class="gp-btn gp-btn--quiet" href="#/home">${esc(T.ui('back', lang))}</a>
       </div>
     </div>`;
   paint();
@@ -541,7 +542,7 @@ async function drawBook() {
   try { pool = await ensureData(ids); }
   catch (err) { console.error(err); showError('The Fact Book could not be loaded.'); return; }
   /* The child may have tapped another pill, or left, while that loaded. */
-  if (state.trivia.book !== book || !(location.hash || '').startsWith('#/fun/trivia/learn')) return;
+  if (state.trivia.book !== book || !(location.hash || '').startsWith('#/trivia/learn')) return;
 
   const m = memory();
   const radio = (on) => `role="radio" aria-checked="${on}" tabindex="${on ? 0 : -1}"`;
@@ -565,7 +566,7 @@ async function drawBook() {
   const got = items.filter((x) => m.seen[x.q.id]).length;
 
   $('#gp-trivia-learn').innerHTML = `
-    <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun/trivia">&larr; Back to the game</a>
+    <a class="gp-btn gp-btn--ghost gp-backlink" href="#/trivia">&larr; Back to the game</a>
     <h1 class="gp-page-title" id="trivialearn-title">The Fact Book</h1>
     <p class="gp-page-lede">Every fun fact in Curio Trivia. The ones you have answered are lit.</p>
 

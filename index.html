@@ -625,14 +625,52 @@
   </section>
 
   <!-- ============================================================ -->
-  <!-- Fun: Curio Trivia                                             -->
+  <!-- Fun: Discovered or Invented?                                  -->
   <!-- ============================================================ -->
-  <section class="gp-screen cz-room--orchid" id="screen-triviasetup" aria-labelledby="triviasetup-title">
+  <section class="gp-screen cz-room--orchid" id="screen-discsetup" aria-labelledby="discsetup-title">
     <div class="gp-container">
-      <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun">&larr; Back to games</a>
-      <h1 class="gp-page-title" id="triviasetup-title">Curio Trivia</h1>
-      <p class="gp-page-lede">Questions about animals, space, your body, the world and more. Every
-         answer teaches you something, even the ones you miss.</p>
+      <!-- The words marked data-disc-text are swapped for Spanish when a child
+           plays in Spanish. See paintChrome() in screens/discover.js. -->
+      <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun" data-disc-text="backLink">&larr; Back to games</a>
+      <h1 class="gp-page-title" id="discsetup-title" data-disc-text="title">Discovered or Invented?</h1>
+      <p class="gp-page-lede" data-disc-text="lede">Was it already here, waiting to be found? Or did people make it?
+         Stop and think before you tap.</p>
+      <section class="cz-mode cz-mode--practice cz-trivia-play">
+        <div class="gp-card gp-card--setup" id="gp-disc-setup"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="gp-screen cz-room--orchid" id="screen-discgame" aria-labelledby="discgame-title">
+    <div class="gp-container">
+      <div class="gp-flagbar">
+        <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun/discover" data-disc-text="changeLink">&larr; Change the round</a>
+        <p class="gp-flagbar__score">
+          <span class="gp-tally gp-tally--right"><span aria-hidden="true">&#10003;</span>
+            <strong data-disc-right>0</strong><span class="gp-sr-only" data-disc-text="rightSr">right</span></span>
+          <span class="gp-tally gp-tally--wrong"><span aria-hidden="true">&#10007;</span>
+            <strong data-disc-wrong>0</strong><span class="gp-sr-only" data-disc-text="learnSr">to learn</span></span>
+        </p>
+      </div>
+      <h1 class="gp-sr-only" id="discgame-title" data-disc-text="title">Discovered or Invented?</h1>
+      <div id="gp-disc-body" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- Curio Trivia: a room of its own, at #/trivia.                 -->
+  <!-- ============================================================ -->
+  <section class="gp-screen cz-room--honey" id="screen-triviasetup" aria-labelledby="triviasetup-title">
+    <div class="gp-container">
+      <div class="gp-backslot"></div>
+      <div class="cz-roomhead cz-tile--honey">
+        <span class="cz-roomhead__pic" id="cz-trivia-pic" aria-hidden="true"></span>
+        <div>
+          <h1 class="gp-page-title" id="triviasetup-title">Curio Trivia</h1>
+          <p class="gp-page-lede">Questions about animals, space, your body, the world and more. Every
+             answer teaches you something, even the ones you miss.</p>
+        </div>
+      </div>
       <!-- The game comes first here: trivia is played, not practised, so it
            has no "Practice" tag. The Fact Book sits below it. -->
       <section class="cz-mode cz-mode--practice cz-trivia-play">
@@ -649,7 +687,7 @@
                light up. No score, nothing to get wrong.</p>
           </div>
         </div>
-        <a class="gp-btn gp-btn--primary gp-btn--big cz-mode__go" href="#/fun/trivia/learn">
+        <a class="gp-btn gp-btn--primary gp-btn--big cz-mode__go" href="#/trivia/learn">
           Open the Fact Book &rarr;
         </a>
       </section>
@@ -657,10 +695,10 @@
     </div>
   </section>
 
-  <section class="gp-screen cz-room--orchid" id="screen-triviagame" aria-labelledby="triviagame-title">
+  <section class="gp-screen cz-room--honey" id="screen-triviagame" aria-labelledby="triviagame-title">
     <div class="gp-container">
       <div class="gp-flagbar">
-        <a class="gp-btn gp-btn--ghost gp-backlink" href="#/fun/trivia">&larr; Change the round</a>
+        <a class="gp-btn gp-btn--ghost gp-backlink" href="#/trivia">&larr; Change the round</a>
         <p class="gp-flagbar__score">
           <span class="gp-tally gp-tally--right"><span aria-hidden="true">&#10003;</span>
             <strong data-trivia-right>0</strong><span class="gp-sr-only">right</span></span>
@@ -673,7 +711,7 @@
     </div>
   </section>
 
-  <section class="gp-screen cz-room--orchid" id="screen-trivialearn" aria-labelledby="trivialearn-title">
+  <section class="gp-screen cz-room--honey" id="screen-trivialearn" aria-labelledby="trivialearn-title">
     <div class="gp-container">
       <div id="gp-trivia-learn"></div>
     </div>

@@ -41,7 +41,8 @@
       screen: '#screen-shapegame', next: '[data-action="shape-next"]', setup: [] },
     { id: 'capitals', setupScreen: 'screen-capsetup', start: '[data-action="cap-start"]',   answer: '[data-capanswer]',
       screen: '#screen-capgame',  next: '[data-action="cap-next"]',  setup: [] },
-    { id: 'trivia', setupScreen: 'screen-triviasetup', start: '[data-action="trivia-start"]', answer: '[data-triviapick]',
+    /* A room of its own now, not a game in Fun; the old address is checked below. */
+    { id: 'trivia', path: '#/trivia', setupScreen: 'screen-triviasetup', start: '[data-action="trivia-start"]', answer: '[data-triviapick]',
       screen: '#screen-triviagame', next: '[data-action="trivia-next"]', setup: [] },
     { id: 'elements', setupScreen: 'screen-elemsetup', start: '[data-action="elem-start"]',  answer: '[data-elemanswer]',
       screen: '#screen-elemgame', next: '[data-action="elem-next"]',
@@ -60,7 +61,8 @@
 
   for (const g of GAMES) {
     const name = g.label || g.id;
-    location.hash = `#/fun/${g.id}`;
+    const home = g.path || `#/fun/${g.id}`;
+    location.hash = home;
     await wait(1300);
     const shown = [...document.querySelectorAll('.gp-screen')].filter(vis).map((s) => s.id);
     check(`${name}: setup is visible`, shown.length === 1, shown.join(',') || 'nothing visible');
@@ -100,10 +102,80 @@
 
     /* The browsing mode is a page a child can land on directly, so it gets the
        same visibility check the games do. */
-    location.hash = `#/fun/${g.id}/learn`;
+    location.hash = `${home}/learn`;
     await wait(1600);
     const seen = [...document.querySelectorAll('.gp-screen')].filter(vis).map((s) => s.id);
     check(`${name}: learn mode is visible`, seen.length === 1, seen.join(',') || 'nothing visible');
+  }
+
+  /* ---- Discovered or Invented? ----
+     Played through to the end, in Spanish, because that is the path with the
+     most moving parts: the setup redraws in the chosen language, the card
+     flips language mid-question, and the results page is only reached by
+     answering every card. */
+  {
+    const onScreen = (id) => vis(document.getElementById(id));
+    location.hash = '#/fun/discover';
+    await wait(1300);
+    check('discover: setup is visible', onScreen('screen-discsetup'));
+    document.querySelector('[data-disccount="10"]')?.click();
+    await wait(200);
+    document.querySelector('[data-disclang="es"]')?.click();
+    await wait(300);
+    const title = document.getElementById('discsetup-title')?.textContent || '';
+    check('discover: setup follows Spanish', /Descubierto o inventado/.test(title), title);
+    const legend = document.querySelector('#gp-disc-setup legend')?.textContent || '';
+    check('discover: setup labels are Spanish', /Cuántas preguntas/.test(legend), legend);
+
+    const start = document.querySelector('[data-action="disc-start"]');
+    check('discover: has a start button', !!start);
+    start?.click();
+    await wait(900);
+    check('discover: the game screen is visible', onScreen('screen-discgame'));
+    const card = () => document.querySelector('#gp-disc-body .cz-disc-card');
+    check('discover: the card starts in Spanish', card()?.getAttribute('lang') === 'es');
+
+    document.querySelector('[data-discpick="discovered"]')?.click();
+    await wait(500);
+    check('discover: feedback appears', !!document.querySelector('#gp-disc-body .gp-flagq__say'));
+    check('discover: the why appears', !!document.querySelector('#gp-disc-body .cz-trivia-why'));
+    check('discover: there is a way on', !!document.querySelector('[data-action="disc-next"]'));
+
+    document.querySelector('[data-action="disc-lang"]')?.click();
+    await wait(300);
+    check('discover: the card flips to English', card()?.getAttribute('lang') === 'en');
+    check('discover: the answer survives the flip',
+      !!document.querySelector('#gp-disc-body .cz-trivia-why'));
+
+    /* Nine more, then the results. */
+    for (let i = 0; i < 9; i += 1) {
+      document.querySelector('[data-action="disc-next"]')?.click();
+      await wait(250);
+      document.querySelector('[data-discpick="invented"]')?.click();
+      await wait(250);
+    }
+    document.querySelector('[data-action="disc-next"]')?.click();
+    await wait(600);
+    const done = document.querySelector('#gp-disc-body .gp-flagdone');
+    check('discover: a round of ten reaches the results', vis(done));
+    check('discover: the results offer another round',
+      !!document.querySelector('[data-action="disc-again"]'));
+
+    /* A step the game does not have lands on its setup, not on a page that
+       only looks right. */
+    location.hash = '#/fun/discover/learn';
+    await wait(900);
+    check('discover: an unknown step goes to the setup', location.hash === '#/fun/discover',
+      location.hash);
+    document.querySelector('[data-disclang="en"]')?.click();
+    await wait(200);
+  }
+
+  /* ---- Curio Trivia moved out of Fun and Games: the old links still land ---- */
+  for (const [from, to] of [['#/fun/trivia', '#/trivia'], ['#/fun/trivia/learn', '#/trivia/learn']]) {
+    location.hash = from;
+    await wait(1500);
+    check(`${from} redirects to ${to}`, location.hash === to, location.hash);
   }
 
   /* ---- the Chess Club ----
@@ -214,8 +286,9 @@
     ['#/fun/flags', '#/fun'],
     ['#/fun/elements', '#/fun'],
     ['#/fun/flags/learn', '#/fun/flags'],
-    ['#/fun/trivia', '#/fun'],
-    ['#/fun/trivia/learn', '#/fun/trivia'],
+    ['#/fun/discover', '#/fun'],
+    ['#/trivia', '#/home'],
+    ['#/trivia/learn', '#/trivia'],
     ['#/chess', '#/home'],
     ['#/chess/1', '#/chess'],
     ['#/chess/1/l1-board', '#/chess/1'],

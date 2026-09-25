@@ -132,11 +132,19 @@ for (const [link, from] of links) {
     }
   }
   if (head === 'fun' && parts[1] && !open) {
-    const games = new Set(['flags', 'shapes', 'capitals', 'elements', 'angles', 'trivia']);
-    if (!games.has(parts[1])) err(`${link} -> no game called "${parts[1]}"   [${where}]`);
-    if (parts[2] && !['play', 'learn'].includes(parts[2])) {
-      err(`${link} -> unknown step "${parts[2]}"   [${where}]`);
+    /* Each game and the steps it has. Discovered or Invented has no browsing
+       mode, so #/fun/discover/learn is a broken link, not a page. */
+    const steps = {
+      flags: ['play', 'learn'], shapes: ['play', 'learn'], capitals: ['play', 'learn'],
+      elements: ['play', 'learn'], angles: ['play', 'learn'], discover: ['play']
+    };
+    if (!steps[parts[1]]) err(`${link} -> no game called "${parts[1]}"   [${where}]`);
+    else if (parts[2] && !steps[parts[1]].includes(parts[2])) {
+      err(`${link} -> "${parts[1]}" has no step "${parts[2]}"   [${where}]`);
     }
+  }
+  if (head === 'trivia' && parts[1] && !open && !['play', 'learn'].includes(parts[1])) {
+    err(`${link} -> Curio Trivia has no page "${parts[1]}"   [${where}]`);
   }
 }
 

@@ -6,6 +6,7 @@
  * the measurements behind them, are in modules/fuzzy.js.
  */
 
+import { shuffle } from './shuffle.js';
 import { judgeTyped, editDistance, allowedEdits, similarity } from './fuzzy.js';
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (ch) => (
@@ -54,14 +55,9 @@ export function judge(typed, country, data) {
 /* Rounds                                                              */
 /* ------------------------------------------------------------------ */
 
-export function shuffle(list, random = Math.random) {
-  const a = list.slice();
-  for (let i = a.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+/* Kept as an export so older callers still find it here. New code imports
+   it from ./shuffle.js. */
+export { shuffle };
 
 export const COUNTS = [10, 25, 50, 'all'];
 export const PICKS = [

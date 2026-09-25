@@ -23,9 +23,12 @@ export function backTarget(hash = location.hash || '#/home') {
 
   /* The games label their own way out: "Back to games", "Change the round". */
   if (head === 'fun' && parts.length > 1) return null;
+  /* So do the trivia round and the Fact Book: "Change the round", "Back to the game". */
+  if (head === 'trivia' && parts.length > 1) return null;
 
   switch (head) {
     case 'fun':
+    case 'trivia':
     case 'gifted':
     case 'chess':
     case 'math':

@@ -59,7 +59,10 @@ const DEFAULTS = {
        child has answered and how, stars per category, and the last round.
        Owned and validated by modules/trivia.js (normaliseMemory). It has to be
        named here or migrate() drops it on the next version bump. */
-    trivia: {}
+    trivia: {},
+    /* Discovered or Invented: count and language last chosen, and which
+       things were asked lately. Owned by modules/discover.js. */
+    discover: {}
   },
   /* stats[categoryId] = { seen, correct, streakBest, lastSeenIso } */
   stats: {},

@@ -12,7 +12,7 @@
  * small bank still fills a round. See docs/research/trivia/PLAN.md.
  */
 
-import { shuffle } from './capitals.js';
+import { shuffle } from './shuffle.js';
 
 export const LEVEL_IDS = ['easy', 'medium', 'hard'];
 export const COUNTS = [5, 10, 15];
@@ -212,7 +212,7 @@ export const UI = {
   learned: { en: 'What I learned', es: 'Lo que aprendí' },
   againBtn: { en: 'Play again', es: 'Jugar otra vez' },
   change: { en: 'Change the round', es: 'Cambiar la ronda' },
-  back: { en: 'Back to games', es: 'Volver a los juegos' },
+  back: { en: 'Home', es: 'Inicio' },
   wordGame: { en: 'This one is an English word game.', es: 'Este es un juego de palabras en español.' },
   toNext: { en: '{n} to {rank}', es: '{n} para {rank}' },
   top: { en: 'the top rank', es: 'el rango más alto' }

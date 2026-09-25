@@ -299,6 +299,13 @@ describe('where back goes', () => {
     assert.equal(backTarget('#/fun').href, '#/home');
   });
 
+  test('Curio Trivia is a room of its own, one step below home', () => {
+    assert.equal(backTarget('#/trivia').href, '#/home');
+    /* The round and the Fact Book carry their own labelled links. */
+    assert.equal(backTarget('#/trivia/play'), null);
+    assert.equal(backTarget('#/trivia/learn'), null);
+  });
+
   test('leaving a quiz is an action, not a link, so it can ask first', () => {
     const t = backTarget('#/quiz');
     assert.equal(t.href, null);

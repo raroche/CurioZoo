@@ -182,6 +182,19 @@ export const ROOMS = [
     meta: '86 topics · grades 1 to 6'
   },
   {
+    id: 'trivia',
+    name: 'Curio Trivia',
+    hue: 'honey',
+    /* The long neck of the family: the one who can see over everything. Its
+       ossicones are the only ears that are neither round nor pointed, so it
+       cannot be mistaken for any other room at tile size. */
+    creature: 'giraffe',
+    href: '#/trivia',
+    status: 'live',
+    blurb: 'Animals, space, your body, the world. Every answer teaches you something.',
+    meta: '4,739 questions \u00b7 3 levels \u00b7 English or Spanish'
+  },
+  {
     id: 'fun',
     name: 'Fun and Games',
     hue: 'flamingo',
@@ -191,7 +204,7 @@ export const ROOMS = [
     creature: 'rabbit',
     href: '#/fun',
     status: 'live',
-    blurb: 'Name every flag in the world. Name a country from its shape alone.',
+    blurb: 'Name every flag in the world. Was the wheel discovered or invented?',
     meta: '6 games · English or Spanish'
   },
   {
