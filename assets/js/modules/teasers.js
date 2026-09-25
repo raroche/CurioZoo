@@ -63,7 +63,11 @@ export function buildRound(items, count = DEFAULT_COUNT, memory = {}, random = M
   const stale = items.filter((x) => seenAt.has(x.id))
     .sort((a, b) => seenAt.get(a.id) - seenAt.get(b.id));
   /* Not shuffled together: in the round where a level runs out, the last
-     unseen teasers must still come before the first repeat. */
+     unseen teasers must still come before the first repeat. The repeats are
+     the longest-ago seen, and that is what "oldest first" decides: which ones
+     come back. Their order inside the round is shuffled on purpose; kept in
+     seen order, every pass through a level would replay the last one in the
+     same sequence, and a child would learn the order instead of the puzzles. */
   const first = fresh.slice(0, want);
   return [...first, ...shuffle(stale.slice(0, want - first.length), random)];
 }

@@ -45,13 +45,16 @@ export async function renderTeasers(step) {
     location.replace('#/teasers');
     return;
   }
+  const here = () => (location.hash || '').startsWith('#/teasers');
   try {
     if (!state.teasers.manifest) state.teasers.manifest = await T.loadManifest();
   } catch (err) {
     console.error(err);
-    showError('The brain teasers could not be loaded.');
+    if (here()) showError('The brain teasers could not be loaded.');
     return;
   }
+  /* The child may have gone somewhere else while the list loaded. */
+  if (!here()) return;
   seedSetup();
   if (step === 'play') { drawTeaserQuestion(); return; }
   drawTeaserSetup();
@@ -76,11 +79,14 @@ function renderSetup(manifest, chosen) {
   const t = (key, vars) => esc(T.ui(key, lang, vars));
   const radio = (on) => `role="radio" aria-checked="${on}" tabindex="${on ? 0 : -1}"`;
 
+  /* One choice of three, like the count and language pickers below it: a
+     radio group, so a screen reader says which level is chosen and the arrow
+     keys move through it (radioGroupKeys in app.js). */
   const levels = manifest.levels.map((l) => {
     const on = chosen.level === l.id;
     return `
-      <button type="button" class="gp-card gp-card--mode${on ? ' is-selected' : ''}"
-              data-teaserlevel="${l.id}" aria-pressed="${on}">
+      <button type="button" class="gp-card gp-card--mode${on ? ' is-selected' : ''}" ${radio(on)}
+              data-teaserlevel="${l.id}">
         <span class="gp-card__title">${esc(T.pick(l.name, lang))} &middot; ${t('ages', { ages: l.ages })}</span>
         <span class="gp-card__sub">${t('teasers', { n: l.count })}</span>
       </button>`;
@@ -101,7 +107,8 @@ function renderSetup(manifest, chosen) {
   return `
     <fieldset class="gp-fieldset">
       <legend class="gp-fieldset__legend">${t('who')}</legend>
-      <div class="gp-grid gp-grid--modes">${levels}</div>
+      <div class="gp-grid gp-grid--modes" id="gp-teaser-levels" role="radiogroup"
+           aria-label="${t('who')}">${levels}</div>
     </fieldset>
 
     <fieldset class="gp-fieldset">
@@ -149,15 +156,21 @@ export async function startTeaserRound() {
   state.teasers.starting = true;
   react('think', 3000);
   let items;
+  /* Only start if the child is still where they pressed the button (the
+     setup, or the results for "Play again") when the level arrives: a slow
+     load must not pull them back into a room they have left. */
+  const from = location.hash || '';
+  const stillHere = () => (location.hash || '') === from;
   try {
     items = await T.loadLevel(setup.level);
   } catch (err) {
     console.error(err);
-    showError('The brain teasers could not be loaded.');
+    if (stillHere()) showError('The brain teasers could not be loaded.');
     return;
   } finally {
     state.teasers.starting = false;
   }
+  if (!stillHere()) return;
   const list = T.buildRound(items, setup.count, { seen: memory().seen[setup.level] });
   if (!list.length) return;
   state.teasers.round = {

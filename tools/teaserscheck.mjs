@@ -163,7 +163,11 @@ ${LEVEL_IDS.map((level) => `## ${LEVELS[level].name.en} (ages ${LEVELS[level].ag
 ${bank[level].map((x) => `| ${x.id} | ${String(x.q?.en || '').replace(/\|/g, '\\|').replace(/\s+/g, ' ')} | ${x.rights || '?'} | [${String(x.sourceName || 'source').replace(/[[\]|]/g, '')}](${x.source}) |`).join('\n')}
 `).join('\n')}`;
 
-if (process.argv.includes('--write')) {
+if (process.argv.includes('--write') && errors.length) {
+  /* A manifest or credits page written from a bank that fails its checks
+     would describe teasers the game must not ship. */
+  err('--write: nothing written, because the bank has errors');
+} else if (process.argv.includes('--write')) {
   fs.writeFileSync(MANIFEST, manifestText);
   fs.mkdirSync('docs/research/teasers', { recursive: true });
   fs.writeFileSync(CREDITS, credits);

@@ -17,11 +17,13 @@ const BANK = new URL('../../data/teasers/', import.meta.url).pathname;
 function sandbox() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'teasers-'));
   fs.mkdirSync(path.join(dir, 'data/teasers'), { recursive: true });
-  for (const f of ['easy.json', 'medium.json', 'hard.json']) {
+  for (const f of ['easy.json', 'medium.json', 'hard.json', 'manifest.json']) {
     fs.copyFileSync(path.join(BANK, f), path.join(dir, 'data/teasers', f));
   }
   return dir;
 }
+const leftovers = (dir) => fs.readdirSync(path.join(dir, 'data'))
+  .filter((f) => /^teasers\.(staging|old)-/.test(f));
 const snapshot = (dir) => ['easy', 'medium', 'hard']
   .map((l) => fs.readFileSync(path.join(dir, `data/teasers/${l}.json`), 'utf8'));
 const run = (dir, batch) => {
@@ -49,7 +51,31 @@ describe('teasersmerge', () => {
     assert.notEqual(r.status, 0);
     assert.match(r.stderr, /Nothing written/);
     assert.deepEqual(snapshot(dir), before);
-    assert.deepEqual(fs.readdirSync(path.join(dir, 'data/teasers')).filter((f) => f.includes('.tmp')), []);
+    assert.deepEqual(leftovers(dir), []);
+  });
+
+  test('a good merge leaves no staging or old folders behind', () => {
+    const dir = sandbox();
+    const r = run(dir, { items: [good(6)] });
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(leftovers(dir), []);
+    assert.ok(fs.existsSync(path.join(dir, 'data/teasers/manifest.json')), 'the manifest came along');
+  });
+
+  test('a run killed in the middle of the swap is put right by the next one', () => {
+    /* The state a kill between the two renames leaves: the old bank aside,
+       a half-built staging folder, and no bank folder at all. */
+    const dir = sandbox();
+    const before = snapshot(dir);
+    fs.renameSync(path.join(dir, 'data/teasers'), path.join(dir, 'data/teasers.old-99999'));
+    fs.mkdirSync(path.join(dir, 'data/teasers.staging-99999'));
+    fs.writeFileSync(path.join(dir, 'data/teasers.staging-99999/easy.json'), '{"half":');
+    const r = run(dir, { items: [good(7)] });
+    assert.equal(r.status, 0, r.stderr);
+    assert.match(r.stdout, /restored/);
+    assert.deepEqual(leftovers(dir), []);
+    const easy = JSON.parse(snapshot(dir)[0]).items;
+    assert.equal(easy.length, JSON.parse(before[0]).items.length + 1);
   });
 
   test('a good batch is added with the next free ids', () => {
@@ -69,5 +95,24 @@ describe('teasersmerge', () => {
     const r = run(dir, { items: [{ ...good(5), rights: 'modern-original' }] });
     assert.notEqual(r.status, 0);
     assert.deepEqual(snapshot(dir), before);
+  });
+});
+
+describe('teaserscheck --write', () => {
+  const CHECK = new URL('../teaserscheck.mjs', import.meta.url).pathname;
+  test('writes nothing when the bank has errors', () => {
+    const dir = sandbox();
+    fs.mkdirSync(path.join(dir, 'docs/research/teasers'), { recursive: true });
+    const manifest = path.join(dir, 'data/teasers/manifest.json');
+    const was = fs.readFileSync(manifest, 'utf8');
+    /* Break the bank: a Hard level of one teaser is far below the minimum. */
+    const hard = JSON.parse(fs.readFileSync(path.join(dir, 'data/teasers/hard.json'), 'utf8'));
+    hard.items = hard.items.slice(0, 1);
+    fs.writeFileSync(path.join(dir, 'data/teasers/hard.json'), JSON.stringify(hard));
+    const r = spawnSync(process.execPath, [CHECK, '--write'], { cwd: dir, encoding: 'utf8' });
+    assert.notEqual(r.status, 0);
+    assert.match(r.stdout, /nothing written/);
+    assert.equal(fs.readFileSync(manifest, 'utf8'), was);
+    assert.ok(!fs.existsSync(path.join(dir, 'docs/research/teasers/CREDITS.md')));
   });
 });

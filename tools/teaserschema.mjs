@@ -56,9 +56,14 @@ export function problems(x, level, { withId = true } = {}) {
   else if (!RIGHTS.includes(x.rights)) bad(`rights must be ${RIGHTS.join(' or ')}`);
   if (!x.origin) bad('no origin (the book, the puzzle, or "folk riddle")');
   const basic = /basic exercise|math fact/i.test(x.origin || '');
-  if (x.rights === 'traditional' && !basic
-      && !(Array.isArray(x.alsoFound) && x.alsoFound.filter((u) => /^https?:\/\//.test(u)).length >= 2)) {
-    bad('traditional needs two other places it was found (alsoFound)');
+  if (x.rights === 'traditional' && !basic) {
+    /* Two other sites, not two pages of one site and not the source again:
+       a riddle only one publisher prints may well be that publisher's own. */
+    const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return null; } };
+    const others = new Set((Array.isArray(x.alsoFound) ? x.alsoFound : [])
+      .filter((u) => /^https?:\/\//.test(u)).map(host).filter(Boolean));
+    others.delete(host(x.source));
+    if (others.size < 2) bad('traditional needs two other sites it was found on (alsoFound), apart from the source');
   }
 
   /* The human review: answer solved independently, and wording read for a
