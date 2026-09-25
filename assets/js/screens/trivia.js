@@ -81,7 +81,16 @@ function rememberChoices(setup) {
 /* ------------------------------------------------------------------ */
 
 export async function renderTrivia(step) {
+  /* The setup, a round in play, and the Fact Book (drawn by
+     renderTriviaLearn). Anything else, and "play" with no round behind it,
+     goes to the setup's own address rather than showing it under a wrong one. */
+  if ((step && step !== 'play') || (step === 'play' && !state.trivia.round)) {
+    location.replace('#/trivia');
+    return;
+  }
   if (!(await ensureManifest())) return;
+  /* The child may have left while the list loaded. */
+  if (!(location.hash || '').startsWith('#/trivia')) return;
   seedSetup();
   if (step === 'play' && state.trivia.round) { drawTriviaQuestion(); return; }
   /* "Last time you learned" needs the words of last week's facts, which live
