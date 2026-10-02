@@ -24,7 +24,8 @@ import * as T from '../assets/js/modules/truthlogic.js';
 import * as R from '../assets/js/modules/rulelogic.js';
 import * as B from '../assets/js/modules/bridgeslogic.js';
 import * as TR from '../assets/js/modules/trainslogic.js';
-import { checkBridgesBank, checkCodeBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
+import * as RG from '../assets/js/modules/robotgen.js';
+import { checkBridgesBank, checkCodeBank, checkRobotBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -398,7 +399,48 @@ function buildTrains() {
   for (const bank of banks) writeBank(`data/logic/trains/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains };
+/* ------------------------------------------------------------------ */
+/* Robot Path                                                          */
+/* ------------------------------------------------------------------ */
+
+function buildRobotWorld(def) {
+  const w = RG.world(def.id);
+  const pool = [];
+  const shapes = new Set();
+  for (let j = 0; pool.length < RG.WORLD_SIZE && j < 20000; j++) {
+    const l = RG.makeLevel(w, rngFor('robot', w.id, 'bank', j), { tries: 40 });
+    if (!l) continue;
+    const shape = RG.shapeOf(l);
+    if (shapes.has(shape)) continue;
+    shapes.add(shape);
+    pool.push(l);
+  }
+  if (pool.length < RG.WORLD_SIZE) throw new Error(`${w.id}: made only ${pool.length}`);
+  pool.sort((a, b) => a.par * 10 + a.animals.length - (b.par * 10 + b.animals.length));
+  const order = [...pool.slice(0, RG.TEACH), ...interleave(pool.slice(RG.TEACH))];
+  return { id: w.id, puzzles: order.map((l, i) => ({ id: `${w.id}-${pad(i + 1)}`, ...(i < RG.TEACH ? { teach: true } : {}), ...l })) };
+}
+
+function buildRobot() {
+  const banks = [];
+  for (const level of RG.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const chapters = RG.WORLDS[level].map((d) => buildRobotWorld(d));
+    const bank = { game: 'robot', level, v: 1, chapters };
+    const problems = checkRobotBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`robot/${level}: ${n} levels in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/robot/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains, robot: buildRobot };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

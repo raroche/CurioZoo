@@ -173,7 +173,7 @@ export const GAMES = [
     meta: { en: '1,000 puzzles · 3 levels', es: '1.000 acertijos · 3 niveles' }
   },
   {
-    id: 'robot', live: false,
+    id: 'robot', live: true,
     name: { en: 'Robot Path', es: 'El camino del robot' },
     blurb: {
       en: 'Program the zookeeper robot to feed the animals. Loops, helpers and more.',

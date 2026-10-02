@@ -19,7 +19,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 3 — Find the Rule (600 puzzles)
 - [x] 2026-10-02 Phase 4 — Zoo Bridges (900 puzzles)
 - [x] 2026-10-02 Phase 5 — Train Tracks (1,000 puzzles)
-- [ ] Phase 6 — Robot Path
+- [x] 2026-10-02 Phase 6 — Robot Path (600 levels)
 - [ ] Phase 7 — Fix the Bug
 - [ ] Phase 8 — Endless, room badge ladder, Spanish review list
       (Daily is already done for Crack the Code; each new game adds its own.)
@@ -109,6 +109,19 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - Checked in the browser: set with hints + GO, predict, pulls, order,
   siding to solved; phone dark (board scrolls in its own box).
 
+## Robot Path: what shipped
+- 12 worlds × 50 = 600 levels: Petting Farm, Duck Pond, Monkey Grove,
+  Penguin Beach (screen arrows); Turning Bridge, Savanna, Rainforest,
+  Reptile House; Arctic, Night House, Aquarium, Keeper HQ.
+- robotvm.js: interpreter (no eval), bounded; trace of events with the path
+  of the tile that caused each. robotgen.js: program-first generation,
+  corridor-first for sensors, recursion from a helper that calls itself;
+  loop/helper/colour worlds checked so the plain program does not fit.
+- rooms/logic/robotbench.js: board, tap editor with caret and brackets,
+  runner; shared with Fix the Bug.
+- Checked in the browser: hints build a working start, Run to 3 stars;
+  nested Until/If/F by tapping; a forever-loop stops "tired" with a bug mark.
+
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a
   child knows, no art to maintain, CSP-safe text.
@@ -144,6 +157,12 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - **Train hints follow the child's own setting**: the first train that goes
   wrong, and the first switch on its way that differs from the answer, rather
   than the research's route-by-route deduction engine.
+- **Robot Path's hand-made "spine" levels** are the generator's three
+  gentlest per world, marked teach; no level is hand-drawn. Par is the size
+  of the program the level was made from (or the shortest plain program for
+  step-by-step worlds), not an exhaustive search; a child who beats it still
+  gets ★★★. "Several boards, one program" became the Night House sensor
+  world (one look-first program walks any corridor), not a multi-board view.
 - **The Question Gate chapter was dropped** from Truth Island: there are only a
   handful of different yes/no-question puzzles, not forty.
 - `.claude/launch.json` has a second server, `giftedprep-alt` on port 8767, for

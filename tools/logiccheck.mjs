@@ -27,6 +27,9 @@ import * as B from '../assets/js/modules/bridgeslogic.js';
 import { BRIDGES_TEXT } from '../assets/js/modules/bridgestext.js';
 import * as TR from '../assets/js/modules/trainslogic.js';
 import { TRAINS_TEXT } from '../assets/js/modules/trainstext.js';
+import * as RG from '../assets/js/modules/robotgen.js';
+import * as RV from '../assets/js/modules/robotvm.js';
+import { ROBOT_TEXT, KIND_WORD } from '../assets/js/modules/robottext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -365,6 +368,66 @@ export function checkTrainsBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Robot Path                                                          */
+/* ------------------------------------------------------------------ */
+
+const ABSTRACT = new Set(['run1', 'run2', 'loopfeed', 'loopturn', 'helper', 'helpers2', 'colour']);
+
+/** One robot level: shape, the reference program works and fits, the idea is needed. */
+export function checkRobotLevel(l, w, where) {
+  const errs = [];
+  const err = (m) => errs.push(`${where}: ${m}`);
+  const rows = l.cells.split('/');
+  if (rows.length !== w.grid || rows.some((r) => r.length !== w.grid || /[^.#ob]/.test(r))) err('bad grid');
+  if (Boolean(l.abs) !== Boolean(w.abs)) err('abs flag does not match the world');
+  const B = RV.board(l);
+  if (!B.open(l.start[0], l.start[1])) err('the robot starts in a wall');
+  if (!l.animals.length || l.animals.some(([x, y]) => !B.open(x, y))) err('an animal is in a wall');
+  if (l.animals.some(([x, y]) => x === l.start[0] && y === l.start[1])) err('an animal sits on the start');
+  if (!l.palette || l.palette.join() !== w.palette.join()) err('palette does not match the world');
+  for (const r of RV.ROWS) {
+    if ((l.slots[r] === undefined) !== (l.ref[r] === undefined)) err(`row ${r} has slots but no program, or the reverse`);
+    if (l.ref[r] && RV.sizeOf(l.ref[r]) > l.slots[r]) err(`the reference does not fit row ${r}`);
+  }
+  const res = RV.run(l, l.ref);
+  if (!res.ok) err(`the reference program fails (${res.why})`);
+  const flat = RV.flatLength(l, Boolean(l.abs));
+  if (flat !== l.flat) err(`flat is ${flat}, stored ${l.flat}`);
+  const room = RV.ROWS.reduce((s, r) => s + (l.slots[r] || 0), 0);
+  if (ABSTRACT.has(l.kind) && flat <= room) err('the plain program fits, so the world\'s idea is not needed');
+  if (l.par !== RV.programSize(l.ref) && !['seq', 'seqturn'].includes(l.kind)) err('par is not the reference size');
+  if (['seq', 'seqturn'].includes(l.kind) && l.par !== flat) err('par is not the shortest plain program');
+  if (!KIND_WORD[l.kind]) err(`no words for kind ${l.kind}`);
+  const ops = new Set(RV.flatten(l.ref).map(({ c }) => (c.op === 'call' ? c.p : c.op)));
+  for (const o of ops) if (!w.palette.includes(o)) err(`the reference uses ${o}, which is not on the palette`);
+  return errs;
+}
+
+export function checkRobotBank(bank) {
+  const errs = [];
+  if (bank.game !== 'robot') errs.push(`game is "${bank.game}", not "robot"`);
+  const defs = RG.WORLDS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong worlds`);
+  for (const chapter of bank.chapters || []) {
+    const w = RG.world(chapter.id);
+    if (!w) continue;
+    if (chapter.puzzles.length !== RG.WORLD_SIZE) errs.push(`${w.id}: ${chapter.puzzles.length} levels`);
+    const shapes = new Set();
+    chapter.puzzles.forEach((l, i) => {
+      const where = `${w.id} #${i + 1}`;
+      if (l.id !== `${w.id}-${pad(i + 1)}`) errs.push(`${where}: id "${l.id}"`);
+      if (Boolean(l.teach) !== (i < RG.TEACH)) errs.push(`${where}: teach flag is wrong`);
+      const shape = RG.shapeOf(l);
+      if (shapes.has(shape)) errs.push(`${where}: the same level twice`);
+      shapes.add(shape);
+      errs.push(...checkRobotLevel(l, w, where));
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -413,6 +476,7 @@ function main() {
   errors.push(...checkParity('ruletext', RULE_TEXT));
   errors.push(...checkParity('bridgestext', BRIDGES_TEXT));
   errors.push(...checkParity('trainstext', TRAINS_TEXT));
+  errors.push(...checkParity('robottext', ROBOT_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -423,7 +487,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

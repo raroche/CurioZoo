@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Five are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900) and Train Tracks (1,000), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Two more are planned |
+| **Logic Games** | Seven games that make a child think in steps. Six are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000) and Robot Path (600 levels), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. One more is planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -417,6 +417,22 @@ that is a stack (Knuth's railway sort: an order can be sorted exactly when it
 has no 2-3-1 in it), and a machine of levers and flips together. Every set
 puzzle has exactly one setting that works, checked by trying them all.
 1,000 puzzles.
+
+**Robot Path** is the sixth: program a zookeeper robot to feed the
+animals. Easy uses screen arrows (up, right, down, left), because a robot's
+own left and right is a real stumbling block at six; Medium switches to
+forward and turns, with the robot's nose always showing where it faces.
+Ideas arrive one world at a time: steps, Repeat, a helper row (a
+procedure), tiles that only work on painted squares, two helpers, If and
+Until ("look before you move"), and a helper that calls itself. The editor
+is tap-first, with no dragging: rows of tiles with a slot limit ("7 of 10
+tiles"), brackets with their own inside, and a caret. Run animates the
+robot, Step goes one move at a time, and a failure stops the robot and puts
+a bug on the tile that caused it. Levels are made program-first: a program
+is run on an open field to carve the path, and a loop or helper level is
+kept only if the plain program with no loops does not fit the slots, so the
+idea is needed, not optional. The program runner is our own, so no code is
+ever evaluated. 600 levels.
 
 ## Math Lab
 

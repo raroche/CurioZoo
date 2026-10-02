@@ -540,3 +540,71 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 @media (max-width: 560px) {
   .cz-tr-yard { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================================
+   Robot Path and Fix the Bug (rooms/logic/robotbench.js)
+   ========================================================================== */
+
+.cz-rb { display: grid; gap: var(--gp-space-3); }
+.cz-rb-svg { display: block; width: 100%; max-width: 470px; height: auto; margin-inline: auto; }
+.cz-rb-wall { fill: var(--cz-leaf-soft); }
+.cz-rb-scenery { font-size: 24px; text-anchor: middle; }
+.cz-rb-path { fill: var(--cz-honey-soft); stroke: var(--cz-honey-line); stroke-width: 1.5; }
+.cz-rb-path.is-o { fill: var(--cz-mango-soft); }
+.cz-rb-path.is-b { fill: var(--cz-sky-soft); }
+.cz-rb-animal text { font-size: 30px; text-anchor: middle; }
+.cz-rb-animal.is-fed text:first-child { opacity: 0.55; }
+.cz-rb-fed { font: 900 16px var(--gp-font-ui); fill: var(--gp-good); }
+.cz-rb-body { fill: var(--cz-sky); stroke: var(--gp-ink); stroke-width: 2; }
+.cz-rb-nose { fill: var(--cz-mango); stroke: var(--gp-ink); stroke-width: 1.5; }
+.cz-rb-ahead { fill: none; stroke: var(--gp-ink-muted); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.cz-rb-ouch { font-size: 20px; }
+
+/* The program: rows of tiles, brackets with their own inside, a caret. */
+.cz-rb-editor { display: grid; gap: var(--gp-space-2); }
+.cz-rb-row {
+  display: grid; grid-template-columns: 9rem 1fr; gap: var(--gp-space-2); align-items: start;
+  padding: var(--gp-space-2); border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface);
+}
+.cz-rb-row.is-over { border-color: var(--gp-retry); border-style: dashed; }
+.cz-rb-rowname { text-align: left; font: inherit; font-weight: 800; background: none; border: none; color: var(--room-ink); cursor: pointer; min-height: 44px; }
+.cz-rb-rowname small { display: block; font-size: var(--gp-text-xs); color: var(--gp-ink-muted); font-weight: 700; }
+.cz-rb-list { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 52px; }
+.cz-rb-tile {
+  display: grid; place-items: center; width: 48px; height: 48px; padding: 0; font-size: 22px; cursor: pointer;
+  border: 2px solid var(--gp-line-strong); border-radius: 10px; background: var(--gp-surface-2); color: var(--gp-ink);
+}
+.cz-rb-tile.is-selected, .cz-rb-box.is-selected { border-color: var(--room); box-shadow: 0 0 0 3px var(--room-line); }
+.cz-rb-tile.is-running, .cz-rb-box.is-running { outline: 3px solid var(--gp-focus); outline-offset: 2px; }
+.cz-rb-tile.is-bug, .cz-rb-box.is-bug { border-color: var(--gp-retry); border-style: dashed; border-width: 3px; }
+.cz-rb-tile.is-paint-o { background: repeating-linear-gradient(45deg, var(--cz-mango-soft) 0 6px, var(--cz-mango-line) 6px 12px); }
+.cz-rb-tile.is-paint-b { background: radial-gradient(var(--cz-sky-line) 30%, transparent 32%) 0 0 / 10px 10px, var(--cz-sky-soft); }
+.cz-rb-box {
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; padding: 4px;
+  border: 2px solid var(--room-line); border-radius: 12px; background: var(--room-soft);
+}
+.cz-rb-box--if { border-style: dashed; }
+.cz-rb-head { font: inherit; font-weight: 800; font-size: var(--gp-text-sm); min-height: 44px; padding: 0 10px; border: none; border-radius: 8px; background: var(--gp-surface); color: var(--gp-ink); cursor: pointer; }
+.cz-rb-inner {
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; min-width: 44px; min-height: 48px; padding: 2px 4px;
+  border-radius: 8px; background: var(--gp-surface); border: 1px dashed var(--gp-line-strong);
+}
+.cz-rb-end { width: 28px; min-height: 44px; padding: 0; border: none; background: none; font-size: 22px; color: var(--room-ink); cursor: pointer; }
+.cz-rb-else { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase; }
+.cz-rb-caret { display: inline-block; width: 3px; height: 40px; border-radius: 2px; background: var(--gp-focus); animation: cz-rb-blink 1s steps(2, start) infinite; }
+@keyframes cz-rb-blink { to { visibility: hidden; } }
+.cz-rb-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 6px 8px; border-radius: var(--gp-radius-md); background: var(--gp-surface-2); }
+.cz-rb-toolname { font-weight: 800; margin-right: var(--gp-space-2); }
+.cz-rb-palette { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rb-pal {
+  display: grid; place-items: center; gap: 2px; min-width: 66px; min-height: 62px; padding: 4px 6px; cursor: pointer;
+  border: 2px solid var(--gp-line); border-radius: 12px; background: var(--gp-surface); color: var(--gp-ink); font: inherit;
+}
+.cz-rb-pal span { font-size: 22px; line-height: 1; }
+.cz-rb-pal small { font-size: 11px; font-weight: 700; line-height: 1.1; }
+.cz-rb-pal:hover, .cz-rb-pal:focus-visible { border-color: var(--room); }
+.cz-rb-pal.is-quiet { background: var(--gp-surface-2); }
+
+@media (max-width: 560px) {
+  .cz-rb-row { grid-template-columns: 1fr; }
+}

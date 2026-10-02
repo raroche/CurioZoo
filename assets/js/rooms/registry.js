@@ -123,7 +123,7 @@ export const REGISTRY = [
     href: '#/logic',
     status: 'live',
     blurb: 'Crack codes, catch the Moon animals, find secret rules and more.',
-    meta: '7 games · 3,940 puzzles so far · English or Spanish',
+    meta: '7 games · 4,540 puzzles so far · English or Spanish',
 
     routes: ['logic'],
     code: () => import('./logic/room.js'),
