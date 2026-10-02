@@ -51,7 +51,12 @@
 .cz-logic-daily__pic { display: grid; place-items: center; width: 44px; height: 44px; font-size: 30px; }
 .cz-logic-daily__pic .cz-gameart { width: 44px; height: 44px; }
 .cz-logic-daily__stars { font-weight: 800; color: var(--room-ink); }
-.cz-logic-daily--wide { margin: var(--gp-space-5) 0 0; }
+.cz-logic-daily--wide { margin: var(--gp-space-4) 0 0; }
+.cz-logic-badge {
+  display: flex; align-items: center; gap: var(--gp-space-3); margin: var(--gp-space-3) 0 0; padding: var(--gp-space-3) var(--gp-space-4);
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-lg); background: var(--room-soft);
+}
+.cz-logic-badge__icon { font-size: 34px; line-height: 1; }
 .cz-logic-games { margin-top: var(--gp-space-8); }
 
 /* ---- a game's chapters ---- */

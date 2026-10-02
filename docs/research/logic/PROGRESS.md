@@ -21,8 +21,9 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 5 — Train Tracks (1,000 puzzles)
 - [x] 2026-10-02 Phase 6 — Robot Path (600 levels)
 - [x] 2026-10-02 Phase 7 — Fix the Bug (600 puzzles)
-- [ ] Phase 8 — Endless, room badge ladder, Spanish review list
-      (Daily is already done for Crack the Code; each new game adds its own.)
+- [x] 2026-10-02 Phase 8 — Daily for every game, Endless practice for every
+      game (#/logic/<game>/endless/<n>), the room's badge ladder, and
+      SPANISH-REVIEW.md
 
 ## How the room is built (read before adding a game)
 - `rooms/logic/hub.js` routes every address and draws the hub, a game's
@@ -133,6 +134,20 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   whole level. Bug jar on the game page from solved puzzles.
 - Checked in the browser: find (slip, then right), order to ★★★, predict to
   ★★★, fix by tapping the Repeat and "Fewer", daily.
+
+## Final touches: what shipped
+- Endless: every game's daily maker, seeded by a count instead of a date,
+  so it never runs out and a reload shows the same puzzle; a count per game
+  and level is kept (`settings.logic.endless`), no stars.
+- Badges by total stars, from Curious Cub (0) to Zoo Genius (1,000); shown
+  on the hub with how many stars to the next. They only go up.
+- SPANISH-REVIEW.md: the choices a native speaker should confirm.
+
+## What is left for people, not code
+- A native Spanish read (SPANISH-REVIEW.md).
+- A playtest with children of each age band, especially: Truth Island h5 and
+  Bridges "What if…?" for 10–11-year-olds; Robot Path's relative turns for
+  8-year-olds; Train Tracks flip switches.
 
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a

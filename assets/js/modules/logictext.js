@@ -68,7 +68,17 @@ export const ROOM = {
     chapterDone: 'Chapter complete!',
     chapterOpen: 'A new chapter is open: {name}!',
     loadFail: 'The puzzles could not be loaded.',
-    collection: 'Your zoo'
+    collection: 'Your zoo',
+    endless: 'Endless practice',
+    endlessLede: 'Fresh puzzles that never run out.',
+    endlessCount: '{n} solved',
+    endlessNext: 'Another one',
+    badgeNow: 'You are a {badge}',
+    badgeNext: '{n} more stars to {badge}',
+    badgeTop: 'The highest badge of all!',
+    'badge.cub': 'Curious Cub', 'badge.finder': 'Clue Finder', 'badge.spotter': 'Pattern Spotter',
+    'badge.explorer': 'Logic Explorer', 'badge.master': 'Puzzle Master', 'badge.thinker': 'Deep Thinker',
+    'badge.genius': 'Zoo Genius'
   },
   es: {
     roomTitle: 'Juegos de lógica',
@@ -113,7 +123,17 @@ export const ROOM = {
     chapterDone: '¡Capítulo terminado!',
     chapterOpen: '¡Se abrió un capítulo nuevo: {name}!',
     loadFail: 'No se pudieron cargar los acertijos.',
-    collection: 'Tu zoológico'
+    collection: 'Tu zoológico',
+    endless: 'Práctica sin fin',
+    endlessLede: 'Acertijos nuevos que nunca se acaban.',
+    endlessCount: '{n} resueltos',
+    endlessNext: 'Otro más',
+    badgeNow: 'Eres {badge}',
+    badgeNext: 'Te faltan {n} estrellas para {badge}',
+    badgeTop: '¡La insignia más alta de todas!',
+    'badge.cub': 'Cachorro curioso', 'badge.finder': 'Buscapistas', 'badge.spotter': 'Ojo de patrones',
+    'badge.explorer': 'Explorador de la lógica', 'badge.master': 'Maestro de acertijos', 'badge.thinker': 'Gran pensador',
+    'badge.genius': 'Genio del zoo'
   }
 };
 

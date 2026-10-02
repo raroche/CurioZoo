@@ -98,6 +98,23 @@ describe('a saved record', () => {
   });
 });
 
+describe('endless practice and badges', () => {
+  test('endless counts go up one at a time, per game and level', () => {
+    let rec = P.normalise({});
+    rec = P.addEndless(rec, 'code', 'easy');
+    rec = P.addEndless(rec, 'code', 'easy');
+    assert.equal(P.endlessCount(rec, 'code', 'easy'), 2);
+    assert.equal(P.endlessCount(rec, 'code', 'hard'), 0);
+    assert.equal(P.normalise(JSON.parse(JSON.stringify(rec))).endless['code:easy'], 2);
+  });
+
+  test('badges follow total stars, with how far to the next', () => {
+    assert.equal(P.badgeOf(0).badge.id, 'cub');
+    assert.deepEqual([P.badgeOf(80).badge.id, P.badgeOf(80).toGo], ['spotter', 70]);
+    assert.equal(P.badgeOf(5000).next, null);
+  });
+});
+
 describe('random numbers', () => {
   test('the same seed gives the same numbers', () => {
     const a = mulberry32(42);

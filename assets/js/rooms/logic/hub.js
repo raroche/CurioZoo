@@ -63,6 +63,11 @@ export async function renderLogic(parts) {
   if (location.hash !== here) return;
   if (!a) { await drawGameHome(mod); return; }
   if (a === 'daily') { await drawDaily(mod); return; }
+  if (a === 'endless') {
+    const r = rec();
+    await drawDaily(mod, Number(b) || P.endlessCount(r, mod.id, P.levelOf(r, mod.id)) + 1);
+    return;
+  }
   if (!b) { await drawChapter(mod, a); return; }
   await drawPuzzle(mod, a, Number(b));
 }
@@ -100,6 +105,7 @@ function drawHub() {
   const L = lang();
   const r = rec();
   const days = P.daysThisWeek(r, today());
+  const badge = P.badgeOf(P.totalStars(r));
   const tiles = GAMES.map((g, i) => {
     const inner = `
       <span class="cz-tile__pic">${gameArt(g.id)}</span>
@@ -130,6 +136,11 @@ function drawHub() {
     <p class="cz-logic-stat">
       <span class="cz-stars">${star(true, 20)}</span> <span><strong>${esc(t('starsTotal', { n: P.totalStars(r) }))}</strong></span>
       <span>${esc(days ? t('daysWeek', { n: days }) : t('daysNone'))}</span>
+    </p>
+    <p class="cz-logic-badge">
+      <span class="cz-logic-badge__icon" aria-hidden="true">${badge.badge.icon}</span>
+      <span><strong>${esc(t('badgeNow', { badge: t(`badge.${badge.badge.id}`) }))}</strong><br>
+        <span class="gp-muted">${esc(badge.next ? t('badgeNext', { n: badge.toGo, badge: t(`badge.${badge.next.id}`) }) : t('badgeTop'))}</span></span>
     </p>
     <section class="cz-logic-today" aria-labelledby="cz-logic-today-h">
       <h2 class="cz-logic-h2" id="cz-logic-today-h">${esc(t('daily'))}</h2>
@@ -199,6 +210,11 @@ async function drawGameHome(mod) {
       <span class="cz-logic-daily__pic" aria-hidden="true">📅</span>
       <span><strong>${esc(t('daily'))}</strong><br><span class="gp-muted">${esc(got ? t('dailyDone') : t(level))}</span></span>
       <span class="cz-logic-daily__stars">${got ? stars(got) : esc(t('play'))}</span>
+    </a>
+    <a class="cz-logic-daily cz-logic-daily--wide" href="#/logic/${mod.id}/endless">
+      <span class="cz-logic-daily__pic" aria-hidden="true">♾️</span>
+      <span><strong>${esc(t('endless'))}</strong><br><span class="gp-muted">${esc(t('endlessLede'))}</span></span>
+      <span class="cz-logic-daily__stars">${esc(t('endlessCount', { n: P.endlessCount(r, mod.id, level) }))}</span>
     </a>
     <h2 class="cz-logic-h2">${esc(t('chapters'))}</h2>
     <div class="cz-logic-chapters">${chapters}</div>
@@ -347,7 +363,7 @@ function showWin(news = null) {
   const chs = v.kind === 'play' ? v.mod.chapters(v.level, L) : [];
   const next = w.next && {
     href: w.next.href,
-    label: w.next.chapter !== undefined ? chs[w.next.chapter].title : t('next')
+    label: w.next.labelKey ? t(w.next.labelKey) : w.next.chapter !== undefined ? chs[w.next.chapter].title : t('next')
   };
   const back = v.kind === 'play'
     ? { href: `#/logic/${v.mod.id}/${v.chapterId}`, label: t('backChapter') }
@@ -368,10 +384,13 @@ function showWin(news = null) {
 /* Today's puzzle                                                      */
 /* ------------------------------------------------------------------ */
 
-async function drawDaily(mod) {
+/* Today's puzzle, or with `endless` the n-th endless one: the same maker,
+   seeded by the count instead of the date, so endless never runs out and a
+   reload shows the same puzzle. */
+async function drawDaily(mod, endless = null) {
   const r = rec();
   const level = P.levelOf(r, mod.id);
-  const iso = today();
+  const iso = endless ? `endless-${endless}` : today();
   const here = location.hash;
   /* Most games make today's puzzle at once; Fix the Bug reads the robot
      levels first, so this may wait. */
@@ -379,21 +398,28 @@ async function drawDaily(mod) {
   try { made = await mod.dailyPuzzle(level, iso); } catch (err) { console.error(err); }
   if (location.hash !== here) return;
   if (!made) { location.replace(`#/logic/${mod.id}`); return; }
-  view = { kind: 'daily', mod, level, iso, puzzle: made.puzzle, chapterId: made.chapterId };
+  view = { kind: 'daily', mod, level, iso, endless, puzzle: made.puzzle, chapterId: made.chapterId };
   drawDailyPlay();
 }
+
+const dailyTitle = (v) => t(v.endless ? 'endless' : 'daily');
+const dailySub = (v) => (v.endless
+  ? `${t(v.level)} · ${t('endlessCount', { n: P.endlessCount(rec(), v.mod.id, v.level) })}`
+  : t('dailyFor', { level: t(v.level), date: v.iso }));
 
 function drawDailyPlay() {
   const v = view;
   const L = lang();
-  playShell({
-    back: { href: `#/logic/${v.mod.id}`, label: t('backGame') },
-    title: t('daily'),
-    sub: t('dailyFor', { level: t(v.level), date: v.iso })
-  });
+  playShell({ back: { href: `#/logic/${v.mod.id}`, label: t('backGame') }, title: dailyTitle(v), sub: dailySub(v) });
   v.mod.draw($('#cz-logic-board'), {
     puzzle: v.puzzle, chapterId: v.chapterId, level: v.level, lang: L, daily: true,
     onSolved: ({ stars: got, why }) => {
+      if (v.endless) {
+        save(P.markDay(P.addEndless(rec(), v.mod.id, v.level), today()));
+        v.win = { got, best: got, why, next: { href: `#/logic/${v.mod.id}/endless/${v.endless + 1}`, labelKey: 'endlessNext' } };
+        showWin([esc(t('endlessCount', { n: P.endlessCount(rec(), v.mod.id, v.level) }))]);
+        return;
+      }
       let after = P.setDaily(rec(), v.mod.id, v.level, v.iso, got);
       after = P.markDay(after, today());
       save(after);
@@ -417,13 +443,13 @@ function rerender() {
     const L = lang();
     const ch = view.kind === 'play' ? view.mod.chapters(view.level, L)[view.index] : null;
     const title = $('#logicplay-title');
-    if (title) title.textContent = ch ? ch.title : t('daily');
+    if (title) title.textContent = ch ? ch.title : dailyTitle(view);
     $$('#gp-logic-play .cz-logic-tools').forEach((el) => { el.outerHTML = tools(); });
     const sub = $('#gp-logic-play .cz-logic-playsub');
     if (sub) {
       sub.textContent = view.kind === 'play'
         ? t('puzzleOf', { n: view.n, t: view.bank.chapters[view.index].puzzles.length })
-        : t('dailyFor', { level: t(view.level), date: view.iso });
+        : dailySub(view);
     }
     const teach = $('#gp-logic-play .cz-logic-teach');
     if (teach) teach.innerHTML = `<span aria-hidden="true">🎓</span> ${esc(t('teachNote'))}`;

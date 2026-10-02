@@ -339,6 +339,13 @@ and program. Seven games, 5,140 puzzles, every one solved again by
 `tools/logiccheck.mjs` on every build (`docs/research/logic/PLAN.md` has the
 plan and `PROGRESS.md` the record of what was built and why).
 
+Every game has a daily puzzle (the same for everyone, made on the device
+from the date) and endless practice that never runs out, on top of its
+chapters. Chapters open after twenty solves in the one before, three puzzles
+ahead are always open, stars only go up, and the room's badge ladder climbs
+from Curious Cub to Zoo Genius by total stars. The Spanish still needs a
+native read: `docs/research/logic/SPANISH-REVIEW.md`.
+
 **Crack the Code** is the first. A safe is locked with a row of animals, and
 each clue is an earlier guess with what it got right. Most safes give all
 the clues at once and ask for the one code that fits, because free guessing

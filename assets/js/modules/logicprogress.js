@@ -17,7 +17,7 @@ export const UNLOCK_AT = 20;      // solves in a chapter that open the next one
 export const AHEAD = 3;           // puzzles open past the ones solved
 const DAYS_KEPT = 14;
 
-const blank = () => ({ v: 1, lang: 'en', level: {}, stars: {}, daily: {}, days: [] });
+const blank = () => ({ v: 1, lang: 'en', level: {}, stars: {}, daily: {}, days: [], endless: {} });
 
 const isObj = (x) => x && typeof x === 'object' && !Array.isArray(x);
 const LEVELS = ['easy', 'medium', 'hard'];
@@ -45,7 +45,46 @@ export function normalise(raw) {
     }
   }
   if (Array.isArray(raw.days)) out.days = [...new Set(raw.days.filter((d) => ISO.test(d)))].sort().slice(-DAYS_KEPT);
+  if (isObj(raw.endless)) {
+    for (const [k, n] of Object.entries(raw.endless)) if (/^[a-z]+:(easy|medium|hard)$/.test(k) && Number.isInteger(n) && n >= 0) out.endless[k] = n;
+  }
   return out;
+}
+
+/* ------------------------------------------------------------------ */
+/* Endless practice                                                    */
+/* ------------------------------------------------------------------ */
+
+/** How many endless puzzles a child has solved in one game at one level. */
+export const endlessCount = (rec, game, level) => (rec.endless || {})[`${game}:${level}`] || 0;
+
+/** One more solved. Endless puzzles have no stars to keep; the count is the reward. */
+export function addEndless(rec, game, level) {
+  const k = `${game}:${level}`;
+  return { ...rec, endless: { ...(rec.endless || {}), [k]: endlessCount(rec, game, level) + 1 } };
+}
+
+/* ------------------------------------------------------------------ */
+/* The room's badges                                                   */
+/* ------------------------------------------------------------------ */
+
+/** Badges by total stars. They only ever go up, because stars do. */
+export const BADGES = [
+  { id: 'cub', stars: 0, icon: '🐣' },
+  { id: 'finder', stars: 25, icon: '🔎' },
+  { id: 'spotter', stars: 75, icon: '🧩' },
+  { id: 'explorer', stars: 150, icon: '🧭' },
+  { id: 'master', stars: 300, icon: '🏅' },
+  { id: 'thinker', stars: 600, icon: '🦉' },
+  { id: 'genius', stars: 1000, icon: '👑' }
+];
+
+/** The badge a star total has earned, and the next one with how far to go. */
+export function badgeOf(total) {
+  let at = 0;
+  BADGES.forEach((b, i) => { if (total >= b.stars) at = i; });
+  const next = BADGES[at + 1] || null;
+  return { badge: BADGES[at], next, toGo: next ? next.stars - total : 0 };
 }
 
 const key = (game, id) => `${game}:${id}`;
@@ -150,5 +189,6 @@ export function setLang(rec, lang) {
 
 export default {
   UNLOCK_AT, AHEAD, normalise, starsOf, setStars, tally, totalStars, chapterOpen, needToOpen,
-  puzzleOpen, markDay, daysThisWeek, dailyKey, dailyStars, setDaily, levelOf, setLevel, setLang
+  puzzleOpen, markDay, daysThisWeek, dailyKey, dailyStars, setDaily, levelOf, setLevel, setLang,
+  endlessCount, addEndless, BADGES, badgeOf
 };
