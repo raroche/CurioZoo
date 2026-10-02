@@ -1,5 +1,5 @@
 /**
- * screens/math.js — the Math Lab room.
+ * rooms/math/math.js — the Math Lab room.
  *
  * Lessons, topics and every kind of exercise: the tower, the sieve, the magic
  * square, the cipher wheel, Nim, the doors, the map colouring. The rules for
@@ -7,11 +7,11 @@
  * is the screen and the handlers.
  */
 
-import * as data from './../modules/data.js';
-import * as storage from './../modules/storage.js';
-import { escapeHtml } from './../modules/charts.js';
-import * as mathlab from './../modules/mathlab.js';
-import { $, $$, paint, showError, showScreen, state } from './../modules/shell.js';
+import * as data from '../../modules/data.js';
+import * as storage from '../../modules/storage.js';
+import { escapeHtml } from '../../modules/charts.js';
+import * as mathlab from '../../modules/mathlab.js';
+import { $, $$, paint, showError, showScreen, state } from '../../modules/shell.js';
 
 /* ------------------------------------------------------------------ */
 /* Math Lab                                                            */

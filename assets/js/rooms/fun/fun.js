@@ -1,23 +1,24 @@
 /**
- * screens/fun.js — the Fun and Games room.
+ * rooms/fun/fun.js — the Fun and Games room.
  *
  * The hub, Name the Flag, Name the Country Shape and the rest. Round building, distractors and
  * typed-answer matching live in modules/flags.js and modules/shapes.js.
  */
 
-import * as data from './../modules/data.js';
-import { icon } from './../modules/icons.js';
-import { escapeHtml } from './../modules/charts.js';
-import * as flags from './../modules/flags.js';
-import * as shapes from './../modules/shapes.js';
-import * as capitals from './../modules/capitals.js';
-import * as elements from './../modules/elements.js';
-import * as angles from './../modules/angles.js';
-import { SCENES, sceneSvg } from './../modules/angleart.js';
-import { spreadAnswer, noteSlot } from './../modules/slots.js';
+import * as data from '../../modules/data.js';
+import { icon } from '../../modules/icons.js';
+import { escapeHtml } from '../../modules/charts.js';
+import * as flags from '../../modules/flags.js';
+import * as shapes from '../../modules/shapes.js';
+import * as capitals from '../../modules/capitals.js';
+import * as elements from '../../modules/elements.js';
+import * as angles from '../../modules/angles.js';
+import { SCENES, sceneSvg } from '../../modules/angleart.js';
+import { spreadAnswer, noteSlot } from '../../modules/slots.js';
 import { renderLearn, renderElemLearn, renderAngleLearn } from './learn.js';
 import { renderDiscover } from './discover.js';
-import { $, $$, paint, react, showError, showScreen, state } from './../modules/shell.js';
+import { $, $$, paint, react, showError, showScreen, state } from '../../modules/shell.js';
+import { celebrate, confetti } from '../../modules/celebrate.js';
 
 /* ------------------------------------------------------------------ */
 /* Fun: name the flag                                                  */
@@ -245,8 +246,7 @@ function drawFlagResults() {
   }
   $('#gp-flag-body').innerHTML = `
     <div class="gp-flagdone${perfect ? ' is-perfect' : ''}">
-      ${perfect ? '<div class="gp-confetti" aria-hidden="true">' +
-        Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('') + '</div>' : ''}
+      ${confetti(perfect)}
       <h2 class="gp-flagdone__head">${perfect ? 'Every single one.' : 'Round finished.'}</h2>
       <p class="gp-flagdone__score"><strong>${r.right}</strong> right,
         <strong>${r.wrong}</strong> wrong, out of ${total}.</p>
@@ -259,6 +259,7 @@ function drawFlagResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-flag-body'));
   flagScore();
   showScreen('flaggame');
 }
@@ -433,8 +434,7 @@ async function drawShapeResults() {
   }
   $('#gp-shape-body').innerHTML = `
     <div class="gp-flagdone${perfect ? ' is-perfect' : ''}">
-      ${perfect ? '<div class="gp-confetti" aria-hidden="true">' +
-        Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('') + '</div>' : ''}
+      ${confetti(perfect)}
       <h2 class="gp-flagdone__head">${perfect ? 'Every single one.' : 'Round finished.'}</h2>
       <p class="gp-flagdone__score"><strong>${r.right}</strong> right,
         <strong>${r.wrong}</strong> wrong, out of ${total}.</p>
@@ -447,6 +447,7 @@ async function drawShapeResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-shape-body'));
   shapeScore();
   showScreen('shapegame');
 }
@@ -627,6 +628,7 @@ function drawCapResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-cap-body'));
   showScreen('capgame');
 }
 
@@ -764,6 +766,7 @@ function drawElemResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-elem-body'));
   showScreen('elemgame');
 }
 
@@ -894,5 +897,6 @@ function drawAngResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-ang-body'));
   showScreen('anggame');
 }

@@ -7,7 +7,10 @@
   publish = "."
   # Nothing is compiled, but everything is checked. A syntax error or a broken
   # question used to be able to reach production; now the deploy fails first.
-  command = "npm run verify"
+  #
+  # Then the offline copy is stamped: sw.js learns this deploy's version and
+  # the hash of every file. Only Netlify's copy is changed; see tools/offline.mjs.
+  command = "npm run verify && node tools/offline.mjs --stamp"
 
 [build.environment]
   NODE_VERSION = "22"
@@ -18,6 +21,13 @@
 # had no rule to place it and the cached JS had no handler to run it. The whole
 # site is a few hundred kilobytes, so always revalidate; a 304 is cheap and the
 # page can never be served half-updated.
+# The offline worker. The browser has to see a new deploy's copy at once, or
+# families keep the old version saved on their device.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
 [[headers]]
   for = "/assets/*"
   [headers.values]

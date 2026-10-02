@@ -1,13 +1,13 @@
 /**
- * screens/parents.js — the Parent Guide screen.
+ * rooms/gifted/parents.js — the Parent Guide screen.
  *
  * The guide's content lives in modules/parents.js; this is only the screen
  * around it and the language switch.
  */
 
-import * as storage from './../modules/storage.js';
-import { renderParentGuide } from './../modules/parents.js';
-import { $, paint, state } from './../modules/shell.js';
+import * as storage from '../../modules/storage.js';
+import { renderParentGuide } from '../../modules/parents.js';
+import { $, paint, state } from '../../modules/shell.js';
 
 /* ------------------------------------------------------------------ */
 /* Parent guide                                                        */

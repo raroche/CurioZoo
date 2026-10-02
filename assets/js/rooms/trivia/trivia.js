@@ -1,5 +1,5 @@
 /**
- * screens/trivia.js — Curio Trivia, drawn.
+ * rooms/trivia/trivia.js — Curio Trivia, drawn.
  *
  * The setup card, one question at a time, the results and the Fact Book. Every
  * decision (which questions, what a tap means, what a star is, what is
@@ -7,17 +7,18 @@
  * into markup and wires the buttons.
  *
  * A room of its own, at #/trivia. It used to be a game inside Fun and Games,
- * so screens/fun.js still forwards the old #/fun/trivia links here.
+ * so rooms/fun/fun.js still forwards the old #/fun/trivia links here.
  */
 
-import * as T from './../modules/trivia.js';
-import * as storage from './../modules/storage.js';
-import * as speech from './../modules/speech.js';
-import { icon } from './../modules/icons.js';
-import { escapeHtml as esc } from './../modules/charts.js';
-import { shuffle } from './../modules/shuffle.js';
-import { spreadAnswer, noteSlot } from './../modules/slots.js';
-import { $, paint, react, showError, showScreen, state } from './../modules/shell.js';
+import * as T from '../../modules/trivia.js';
+import * as storage from '../../modules/storage.js';
+import * as speech from '../../modules/speech.js';
+import { icon } from '../../modules/icons.js';
+import { escapeHtml as esc } from '../../modules/charts.js';
+import { shuffle } from '../../modules/shuffle.js';
+import { spreadAnswer, noteSlot } from '../../modules/slots.js';
+import { $, paint, react, showError, showScreen, state } from '../../modules/shell.js';
+import { celebrate, confetti } from '../../modules/celebrate.js';
 
 const otherLang = (lang) => (lang === 'es' ? 'en' : 'es');
 const memory = () => T.normaliseMemory(state.settings.trivia);
@@ -497,8 +498,7 @@ function drawTriviaResults() {
 
   $('#gp-trivia-body').innerHTML = `
     <div class="gp-flagdone cz-trivia-done${perfect ? ' is-perfect' : ''}" lang="${lang}">
-      ${perfect ? '<div class="gp-confetti" aria-hidden="true">' +
-        Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('') + '</div>' : ''}
+      ${confetti(perfect)}
       <h2 class="gp-flagdone__head">${esc(T.ui(perfect ? 'perfect' : 'done', lang))}</h2>
       <p class="gp-flagdone__score">${T.ui('score', lang, {
         r: `<strong>${r.right}</strong>`, w: `<strong>${r.wrong}</strong>`, t: total })}</p>
@@ -528,6 +528,7 @@ function drawTriviaResults() {
       </div>
     </div>`;
   paint();
+  celebrate($('#gp-trivia-body'));
   tally();
   showScreen('triviagame');
 }

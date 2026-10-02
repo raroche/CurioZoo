@@ -1,0 +1,100 @@
+<!--
+  The Chess Club room's screens.
+
+  Not a page of its own: the app fetches this file the first time a child
+  opens the room and adds these sections to <main> in index.html. Until then
+  none of it is downloaded. See assets/js/rooms/registry.js.
+
+  The rules are the ones index.html has always had: no style="..." attributes
+  (the Content-Security-Policy drops them; use data-style), and every screen
+  is a <section class="gp-screen" id="screen-NAME">.
+-->
+<!-- ============================================================ -->
+<!-- Chess Club: three levels, from the pieces to 600+.             -->
+<!-- Built in steps; see docs/research/chess/PLAN.md.               -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--leaf" id="screen-chess" aria-labelledby="chess-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <div class="cz-roomhead cz-tile--leaf">
+      <span class="cz-roomhead__pic" id="cz-chess-pic" data-room-pic="chess" aria-hidden="true"></span>
+      <div>
+        <h1 class="gp-page-title" id="chess-title">Chess Club</h1>
+        <p class="gp-page-lede">Meet the six pieces one at a time, play a real game, then learn the tricks. Nothing here needs reading out loud.</p>
+      </div>
+    </div>
+    <div id="gp-chess-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: one level's lessons, in order                     -->
+<!-- ============================================================ -->
+<section class="gp-screen" id="screen-chesslevel" aria-labelledby="chesslevel-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <div class="cz-roomhead" id="cz-chesslevel-head">
+      <span class="cz-roomhead__pic" id="cz-chesslevel-pic" aria-hidden="true"></span>
+      <div>
+        <h1 class="gp-page-title" id="chesslevel-title">Level</h1>
+        <p class="gp-page-lede" id="gp-chesslevel-lede"></p>
+      </div>
+    </div>
+    <div id="gp-chesslevel-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: the lesson player (Phase 3)                       -->
+<!-- ============================================================ -->
+<section class="gp-screen" id="screen-chesslesson" aria-labelledby="chesslesson-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="chesslesson-title">Lesson</h1>
+    <div id="gp-chesslesson-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: play a game (Phase 4)                             -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--leaf" id="screen-chessplay" aria-labelledby="chessplay-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="chessplay-title">Play a game</h1>
+    <div id="gp-chessplay-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: puzzles (Phase 5)                                 -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--leaf" id="screen-chesspuzzle" aria-labelledby="chesspuzzle-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="chesspuzzle-title">Puzzles</h1>
+    <div id="gp-chesspuzzle-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: the openings library                              -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--leaf" id="screen-chessopenings" aria-labelledby="chessopenings-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="chessopenings-title">Openings</h1>
+    <div id="gp-chessopenings-body"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- Chess Club: getting ready for a real tournament               -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--leaf" id="screen-chesstournament" aria-labelledby="chesstournament-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="chesstournament-title">Your first tournament</h1>
+    <div id="gp-chesstournament-body"></div>
+  </div>
+</section>

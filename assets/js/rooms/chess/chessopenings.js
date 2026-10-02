@@ -1,5 +1,5 @@
 /**
- * screens/chessopenings.js — the openings library.
+ * rooms/chess/chessopenings.js — the openings library.
  *
  * A place to look up a named opening: what it is, what it is trying to do,
  * when to choose it, how to meet it when you are on the other side, and the
@@ -17,11 +17,11 @@
  * roughly half the time.
  */
 
-import { Chess } from './../vendor/chess.js';
-import { createBoard } from './../modules/chessboard.js';
-import * as progress from './../modules/chessprogress.js';
-import { escapeHtml } from './../modules/charts.js';
-import { $, paint, showScreen, state } from './../modules/shell.js';
+import { Chess } from '../../vendor/chess.js';
+import { createBoard } from '../../modules/chessboard.js';
+import * as progress from '../../modules/chessprogress.js';
+import { escapeHtml } from '../../modules/charts.js';
+import { $, paint, showScreen, state } from '../../modules/shell.js';
 
 const esc = escapeHtml;
 

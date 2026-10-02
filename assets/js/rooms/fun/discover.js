@@ -1,19 +1,20 @@
 /**
- * screens/discover.js — Discovered or Invented?, drawn.
+ * rooms/fun/discover.js — Discovered or Invented?, drawn.
  *
  * The setup card, one question at a time and the results. The decisions
  * (which items, in what order, what is remembered) live in
  * modules/discover.js; this file turns them into markup.
  *
- * Reached from screens/fun.js, which forwards #/fun/discover here.
+ * Reached from rooms/fun/fun.js, which forwards #/fun/discover here.
  */
 
-import * as D from './../modules/discover.js';
-import * as storage from './../modules/storage.js';
-import * as speech from './../modules/speech.js';
-import { icon } from './../modules/icons.js';
-import { escapeHtml as esc } from './../modules/charts.js';
-import { $, $$, paint, react, showError, showScreen, state } from './../modules/shell.js';
+import * as D from '../../modules/discover.js';
+import * as storage from '../../modules/storage.js';
+import * as speech from '../../modules/speech.js';
+import { icon } from '../../modules/icons.js';
+import { escapeHtml as esc } from '../../modules/charts.js';
+import { $, $$, paint, react, showError, showScreen, state } from '../../modules/shell.js';
+import { celebrate, confetti } from '../../modules/celebrate.js';
 
 const otherLang = (lang) => (lang === 'es' ? 'en' : 'es');
 const memory = () => D.normaliseMemory(state.settings.discover);
@@ -308,8 +309,7 @@ function drawDiscResults() {
 
   $('#gp-disc-body').innerHTML = `
     <div class="gp-flagdone cz-trivia-done${perfect ? ' is-perfect' : ''}" lang="${lang}">
-      ${perfect ? '<div class="gp-confetti" aria-hidden="true">' +
-        Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('') + '</div>' : ''}
+      ${confetti(perfect)}
       <div class="cz-trivia-tools cz-disc-donetools">
         <button type="button" class="gp-btn gp-btn--ghost cz-trivia-lang" data-action="disc-lang"
           lang="${otherLang(lang)}">${esc(D.ui('langPill', lang))}</button>
@@ -336,6 +336,7 @@ function drawDiscResults() {
     </div>`;
   paintChrome(lang);
   paint();
+  celebrate($('#gp-disc-body'));
   tally();
   showScreen('discgame');
 }

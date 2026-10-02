@@ -1,5 +1,5 @@
 /**
- * screens/chess.js — the Chess Club room.
+ * rooms/chess/chess.js — the Chess Club room.
  *
  * Three levels: Pawn Camp (the pieces and the rules), Knight School (openings,
  * tactics and the basic mates) and Queen's Guild (600 and up). The research
@@ -16,17 +16,16 @@
  * rather than opening an empty screen.
  */
 
-import { ensurePieceDefs, pieceHref } from './../modules/chesspieces.js';
-import * as progress from './../modules/chessprogress.js';
-import { GAMES } from './../modules/chessgames.js';
-import { escapeHtml } from './../modules/charts.js';
-import { paintRoomHead } from './gifted.js';
+import { ensurePieceDefs, pieceHref } from '../../modules/chesspieces.js';
+import * as progress from '../../modules/chessprogress.js';
+import { GAMES } from '../../modules/chessgames.js';
+import { escapeHtml } from '../../modules/charts.js';
 import { openLesson, closeLesson, lessonAction, lessonChoice } from './chesslesson.js';
 import { renderPlay, closePlay, playAction, playPick } from './chessplay.js';
 import { renderPuzzles, closePuzzles, puzzleAction } from './chesspuzzle.js';
 import { renderOpenings, closeOpenings, openingsAction } from './chessopenings.js';
 import { renderTournament, closeTournament, tournamentAction, answerDrill } from './chesstournament.js';
-import { $, paint, showError, showScreen } from './../modules/shell.js';
+import { $, paint, showError, showScreen } from '../../modules/shell.js';
 
 const esc = escapeHtml;
 
@@ -553,7 +552,6 @@ export async function renderChess(step, lessonId, third) {
     return;
   }
 
-  paintRoomHead('chess', 'cz-chess-pic');
   renderHub(all, p);
   showScreen('chess');
 }

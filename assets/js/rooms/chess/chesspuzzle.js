@@ -1,5 +1,5 @@
 /**
- * screens/chesspuzzle.js — one position, one right move, five in a row.
+ * rooms/chess/chesspuzzle.js — one position, one right move, five in a row.
  *
  * Pick a kind of trick, get five positions of that kind, find the move in
  * each. The positions are real ones from real games that real people got
@@ -16,12 +16,12 @@
  * and the puzzle simply counts as missed. Nobody is ever stuck.
  */
 
-import { Chess } from './../vendor/chess.js';
-import { createBoard } from './../modules/chessboard.js';
-import * as puzzles from './../modules/chesspuzzles.js';
-import * as progress from './../modules/chessprogress.js';
-import { escapeHtml } from './../modules/charts.js';
-import { $, paint, react, showScreen, state } from './../modules/shell.js';
+import { Chess } from '../../vendor/chess.js';
+import { createBoard } from '../../modules/chessboard.js';
+import * as puzzles from '../../modules/chesspuzzles.js';
+import * as progress from '../../modules/chessprogress.js';
+import { escapeHtml } from '../../modules/charts.js';
+import { $, paint, react, showScreen, state } from '../../modules/shell.js';
 
 const esc = escapeHtml;
 

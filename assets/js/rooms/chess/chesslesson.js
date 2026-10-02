@@ -1,5 +1,5 @@
 /**
- * screens/chesslesson.js — playing one lesson.
+ * rooms/chess/chesslesson.js — playing one lesson.
  *
  * A board on one side, one short card on the other, and a row of dots showing
  * how far through we are. Each step of the lesson replaces the card and
@@ -17,15 +17,16 @@
  * to press.
  */
 
-import { Chess } from './../vendor/chess.js';
-import { createBoard } from './../modules/chessboard.js';
-import * as lessonKit from './../modules/chesslesson.js';
-import * as progress from './../modules/chessprogress.js';
-import { gameById } from './../modules/chessgames.js';
-import { themeById as puzzleThemeById } from './../modules/chesspuzzles.js';
-import * as speech from './../modules/speech.js';
-import { escapeHtml } from './../modules/charts.js';
-import { $, paint, react, showScreen, state } from './../modules/shell.js';
+import { Chess } from '../../vendor/chess.js';
+import { createBoard } from '../../modules/chessboard.js';
+import * as lessonKit from '../../modules/chesslesson.js';
+import * as progress from '../../modules/chessprogress.js';
+import { gameById } from '../../modules/chessgames.js';
+import { themeById as puzzleThemeById } from '../../modules/chesspuzzles.js';
+import * as speech from '../../modules/speech.js';
+import { escapeHtml } from '../../modules/charts.js';
+import { $, paint, react, showScreen, state } from '../../modules/shell.js';
+import { confetti } from '../../modules/celebrate.js';
 
 const esc = escapeHtml;
 
@@ -492,10 +493,7 @@ function finish() {
   /* Only for three stars. Confetti every time is wallpaper; confetti for the
      best result is a reward. Anyone who asked for less movement gets the
      stars and the words and no falling paper -- the stylesheet handles that. */
-  const cheer = stars >= lessonKit.MAX_STARS
-    ? `<span class="gp-confetti" aria-hidden="true">${
-      Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('')}</span>`
-    : '';
+  const cheer = confetti(stars >= lessonKit.MAX_STARS);
   card(`
     <div class="gp-done cz-lesson__done">
       ${cheer}

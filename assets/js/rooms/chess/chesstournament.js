@@ -1,5 +1,5 @@
 /**
- * screens/chesstournament.js — getting ready for a real tournament.
+ * rooms/chess/chesstournament.js — getting ready for a real tournament.
  *
  * The rules are the US Chess Federation's, 7th edition, and every drill cites
  * the rule number it comes from. A child will not read the number. It is
@@ -19,9 +19,9 @@
  * first-timer is not rule 10B. It is not knowing where to stand.
  */
 
-import { escapeHtml } from './../modules/charts.js';
-import * as progress from './../modules/chessprogress.js';
-import { $, paint, react, showScreen, state } from './../modules/shell.js';
+import { escapeHtml } from '../../modules/charts.js';
+import * as progress from '../../modules/chessprogress.js';
+import { $, paint, react, showScreen, state } from '../../modules/shell.js';
 
 const esc = escapeHtml;
 

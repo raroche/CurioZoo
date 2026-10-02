@@ -1,0 +1,1139 @@
+/* ==========================================================================
+   The Chess Club room's styles.
+
+   Loaded with the room, the first time a child opens it, and never before:
+   see assets/js/rooms/registry.js. Everything in here is the chess room's
+   own. Tokens, buttons, cards and anything another room could use stay in
+   assets/css/design-system.css, which is always loaded first, so these rules
+   come after it in the cascade exactly as they did when they lived at the end
+   of that file.
+   ========================================================================== */
+
+/* ==========================================================================
+   The chess board (modules/chessboard.js)
+
+   One SVG on an 8x8 grid. Everything here is a class, because the site sends
+   style-src 'self' and a style attribute would be dropped without a word --
+   the board would draw thirty-two pieces stacked on one square.
+
+   The board's two colours are tokens rather than literals so a "board theme"
+   earned with stars is a class on the wrapper and nothing else.
+   ========================================================================== */
+
+.cz-cb {
+  --cb-light: #EFD8B4;
+  --cb-dark:  #B07C4F;
+  /* Wong's colourblind-safe pair. Blue says "this is yours / this happened",
+     orange says "you may go here". They stay distinct under deuteranopia and
+     protanopia, and each mark also has its own SHAPE, so colour is never the
+     only thing carrying the meaning. */
+  --cb-mine:  #0072B2;
+  --cb-go:    #E69F00;
+  --cb-danger:#D55E00;
+
+  position: relative;
+  width: min(92vw, 62vh, 34rem);
+  margin-inline: auto;
+  touch-action: none;          /* a drag must not scroll the page instead */
+}
+
+/* 44px per square is Apple's touch target and the size a six-year-old can
+   actually hit; below this the board is a puzzle of a different kind.
+   
+   The doubled class is deliberate. createBoard() adds .cz-cb to whatever
+   element it is handed, so the board usually wears a layout class too -- and a
+   `min-width: 0` on that class, written later in this file, beat the floor on
+   equal specificity and quietly cost a phone a pixel per square. One extra
+   class makes the floor win without anyone having to remember it exists. */
+.cz-cb.cz-cb { min-width: var(--cb-floor); }
+
+.cz-cb__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--gp-radius-md);
+  overflow: visible;           /* the check ring reaches past its square */
+  box-shadow: var(--gp-shadow-sm);
+}
+
+.cz-cb__sq--light { fill: var(--cb-light); }
+.cz-cb__sq--dark  { fill: var(--cb-dark); }
+
+/* Each coordinate is painted in the colour of the opposite square, so it is
+   readable wherever it lands. A single fixed colour hides half of them, which
+   is exactly what happened first time: only 8, 6, 4 and 2 could be seen. */
+.cz-cb__coord {
+  font-size: .21px;
+  font-weight: 700;
+  font-family: var(--gp-font);
+  opacity: .8;
+  pointer-events: none;
+  user-select: none;
+}
+.cz-cb__coord.is-on-light { fill: var(--cb-dark); }
+.cz-cb__coord.is-on-dark  { fill: var(--cb-light); }
+.cz-cb__coord--file { text-anchor: end; }
+
+/* Pieces are moved with a transform ATTRIBUTE, which CSS may still animate:
+   a presentation attribute is a CSS declaration of the lowest priority, so
+   the transition below applies to it. Setting a style attribute instead would
+   be silently discarded by the policy. */
+.cz-cb__piece {
+  transition: transform .18s ease-out;
+  cursor: grab;
+  /* Without this the transform is measured from the viewBox origin and every
+     piece flies in from the corner. */
+  transform-box: view-box;
+}
+/* Turning the board round is not a move: every piece must jump, not swim.
+   Set on the wrapper for one synchronous reflow, never across a frame -- a
+   hidden tab runs no animation frames, and a frame-based version left the
+   pieces permanently frozen if the board was built in the background. */
+.cz-cb.is-still .cz-cb__piece { transition: none; }
+.cz-cb__piece.is-dragging {
+  transition: none;
+  cursor: grabbing;
+  filter: drop-shadow(0 .06px .1px rgb(0 0 0 / .45));
+  pointer-events: none;        /* the square underneath must receive the drop */
+}
+.cz-cb.is-locked .cz-cb__piece { cursor: default; }
+
+/* Where the last move came from and went to. A wash rather than an outline,
+   so a piece standing on it is still perfectly readable. */
+.cz-cb__last   { fill: var(--cb-mine); opacity: .36; }
+/* The piece in your hand: a filled square, the strongest mark on the board. */
+.cz-cb__select { fill: var(--cb-mine); opacity: .45; }
+
+/* Somewhere you may go. A dot on an empty square, a ring around a piece you
+   may take -- a dot under a piece cannot be seen, and "you can take that" is
+   the single most useful thing to show a beginner. */
+.cz-cb__dot { fill: var(--cb-go); opacity: .85; }
+.cz-cb__dot--take {
+  fill: none;
+  stroke: var(--cb-go);
+  stroke-width: .1;
+  opacity: .95;
+}
+
+/* A star to collect. Same orange as the dots: both mean "go here". */
+.cz-cb__star { fill: var(--cb-go); stroke: #6B4A00; stroke-width: .03; }
+
+/* The king is in check. The only red on the board, and the only circle. */
+.cz-cb__check {
+  fill: none;
+  stroke: var(--cb-danger);
+  stroke-width: .09;
+  opacity: .95;
+}
+
+/* "Look here" -- a lesson pointing at a square without claiming anything
+   about moves. A dashed outline, so it reads as annotation. */
+.cz-cb__ring {
+  fill: none;
+  stroke: var(--cb-mine);
+  stroke-width: .07;
+  stroke-dasharray: .16 .12;
+  opacity: .9;
+}
+
+.cz-cb__arrow {
+  stroke: var(--cb-mine);
+  stroke-width: .12;
+  stroke-linecap: round;
+  opacity: .8;
+}
+.cz-cb__arrowhead { fill: var(--cb-mine); opacity: .8; }
+
+/* Promotion. The board dims and four big pieces come up in the pawn's file. */
+.cz-cb__promoveil { fill: rgb(0 0 0 / .55); }
+.cz-cb__promocell { fill: var(--gp-bg); stroke: var(--cb-mine); stroke-width: .04; }
+.cz-cb__promopick { cursor: pointer; }
+.cz-cb__promopick:hover .cz-cb__promocell { fill: var(--cb-go); }
+
+/* Where each move is announced. It must never be visible: it repeats what the
+   board already shows, and a sighted child reading "White plays Nxe5" twice is
+   noise. It carries its own hiding rather than leaning only on .gp-sr-only,
+   because a live region that becomes visible is a bug nobody tests for. */
+.cz-cb__live {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* The accessible board: 64 real buttons, off-screen but focusable, so the
+   game can be played with a keyboard and heard by a screen reader. It uses
+   .gp-sr-only for the hiding; this only puts the focus ring back where a
+   sighted keyboard user can see which square they are on. */
+.cz-cb__grid button:focus-visible {
+  position: fixed;
+  inset-block-start: var(--gp-space-2);
+  inset-inline-start: var(--gp-space-2);
+  z-index: 50;
+  width: auto; height: auto;
+  clip: auto; clip-path: none;
+  padding: var(--gp-space-2) var(--gp-space-3);
+  border: 2px solid var(--gp-accent);
+  border-radius: var(--gp-radius-sm);
+  background: var(--gp-bg);
+  color: var(--gp-ink);
+  font: inherit;
+}
+
+/* On a phone the floor makes the board wider than the padded column it
+   sits in, and auto margins collapse to zero the moment a box overflows its
+   parent -- so the board sat against the right edge with a 20px gutter on the
+   left and 3px on the right. Pulling it out by half the overflow puts it back
+   in the middle of the SCREEN, which is where a board belongs. */
+@media (max-width: 400px) {
+  .cz-cb { margin-inline: calc((100% - var(--cb-floor)) / 2); }
+}
+
+/* On a phone too narrow to hold the floor at all -- an SE-sized 320px screen
+   -- the floor has to give way, because the alternative is worse. Holding 352
+   there made the whole PAGE 16px wider than the screen, so every screen in the
+   app slid sideways under a finger, and the board still could not be seen
+   whole. Squares drop to about 39px, which is under Apple's 44 but is still a
+   large, forgiving target for a drag, and the board fits. Nothing above this
+   width changes. */
+@media (max-width: 372px) {
+  :root { --cb-floor: calc(100vw - 8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cz-cb__piece { transition: none; }
+}
+
+
+/* ==========================================================================
+   The Chess Club room (rooms/chess/chess.js)
+
+   The hub answers one question -- what do I do now? -- so the single biggest
+   thing on it is the button that opens the next lesson. Everything else is a
+   record of what has been done, never a demand.
+   ========================================================================== */
+
+/* A real chess piece, from the same symbols the board uses, so the Rook a
+   child earns is the rook they have been moving around. */
+.cz-chess-piece {
+  display: block;
+  width: 2.2rem; height: 2.2rem;
+}
+.cz-chess-piece--big { width: 3.4rem; height: 3.4rem; }
+
+/* ---- the one-screen welcome, shown once ---- */
+
+.cz-chess-intro {
+  display: grid;
+  justify-items: center;
+  gap: var(--gp-space-4);
+  max-width: 34rem;
+  margin: var(--gp-space-6) auto;
+  padding: var(--gp-space-7) var(--gp-space-5);
+  border: 2px solid var(--room-line, var(--gp-accent-line));
+  border-radius: var(--gp-radius-xl);
+  background: var(--room-soft, var(--gp-accent-soft));
+  text-align: center;
+}
+.cz-chess-intro__pic { margin: 0; }
+.cz-chess-intro__pic .cz-chess-piece { width: 5rem; height: 5rem; }
+.cz-chess-intro__title { margin: 0; font-size: 1.6rem; line-height: 1.2; }
+.cz-chess-intro__lede { margin: 0; max-width: 26rem; color: var(--gp-ink-soft); }
+
+/* ---- rank, stars, days ---- */
+
+.cz-chess-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gp-space-3);
+  margin-bottom: var(--gp-space-3);
+}
+.cz-chess-stat {
+  display: grid;
+  justify-items: center;
+  gap: var(--gp-space-1);
+  padding: var(--gp-space-4) var(--gp-space-2);
+  border: 1px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  text-align: center;
+}
+.cz-chess-stat__pic {
+  display: grid;
+  place-items: center;
+  min-height: 2.4rem;
+}
+.cz-chess-stat__pic--star { color: #E69F00; font-size: 2rem; line-height: 1; }
+.cz-chess-stat__num { font-size: 1.35rem; font-weight: 800; line-height: 1.1; }
+.cz-chess-stat__cap { font-size: .78rem; color: var(--gp-ink-soft); }
+
+/* What earns the next rank. It is a goal, so it is stated as one thing to do,
+   never as a bar that is nearly full. */
+.cz-chess-goal {
+  margin: 0 0 var(--gp-space-5);
+  text-align: center;
+  font-size: .9rem;
+  color: var(--gp-ink-soft);
+}
+
+/* ---- the next lesson: the loudest thing on the page ---- */
+
+.cz-chess-next {
+  display: grid;
+  justify-items: center;
+  gap: var(--gp-space-3);
+  margin-bottom: var(--gp-space-7);
+  padding: var(--gp-space-6) var(--gp-space-5);
+  border: 2px solid var(--room-line, var(--gp-accent-line));
+  border-radius: var(--gp-radius-xl);
+  background: var(--room-soft, var(--gp-accent-soft));
+  text-align: center;
+}
+.cz-chess-next__tag {
+  margin: 0;
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--room-ink, var(--gp-accent-strong));
+}
+.cz-chess-next__title { margin: 0; font-size: 1.45rem; line-height: 1.2; }
+.cz-chess-next__blurb { margin: 0; max-width: 30rem; color: var(--gp-ink-soft); }
+.cz-chess-next__meta { margin: 0; font-size: .8rem; color: var(--gp-ink-soft); }
+
+/* ---- stars ---- */
+
+.cz-chess-stars { letter-spacing: .06em; font-size: 1.05rem; line-height: 1; }
+.cz-chess-star { color: var(--gp-line); }
+.cz-chess-star.is-on { color: #E69F00; }
+
+/* ---- the week ----
+   Seven dots, one per day. There is deliberately no streak: a five-year-old
+   does not decide when the iPad comes out, so a broken run would punish a
+   child for a decision a parent made. A gap costs nothing and says nothing. */
+
+.cz-chess-week { display: inline-flex; gap: 3px; align-items: center; }
+.cz-chess-day {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--gp-line);
+}
+.cz-chess-day.is-on { background: var(--room, var(--gp-accent)); }
+.cz-chess-day.is-today { outline: 2px solid var(--gp-ink-soft); outline-offset: 1px; }
+
+/* ---- a locked level tile ---- */
+
+.cz-tile__lock { font-size: 1.2rem; opacity: .6; }
+
+/* ---- one level's page ---- */
+
+.cz-chess-levelbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gp-space-3);
+  margin-top: var(--gp-space-4);
+}
+.cz-chess-levelbar__band {
+  padding: 2px var(--gp-space-3);
+  border-radius: 999px;
+  background: var(--room-soft, var(--gp-accent-soft));
+  color: var(--room-ink, var(--gp-accent-strong));
+  font-size: .78rem;
+  font-weight: 700;
+}
+.cz-chess-levelbar__count { font-size: .85rem; color: var(--gp-ink-soft); }
+.cz-chess-levelbar__track { flex: 1 1 8rem; min-width: 6rem; }
+
+/* ---- one lesson card ---- */
+
+.cz-chess-lesson__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gp-space-2);
+  margin-top: var(--gp-space-3);
+}
+.cz-chess-lesson__mins { font-size: .76rem; color: var(--gp-ink-soft); }
+.cz-chess-lock { font-size: 1rem; opacity: .55; }
+
+/* A lesson that is shut, or not written yet. Quieter, and not a link -- a
+   card that looks tappable and does nothing is worse than one that plainly
+   is not ready. */
+.cz-chess-lesson.is-locked,
+.cz-chess-lesson.is-soon {
+  opacity: .62;
+  cursor: default;
+  box-shadow: none;
+}
+.cz-chess-lesson.is-locked:hover,
+.cz-chess-lesson.is-soon:hover { transform: none; box-shadow: none; }
+
+/* A tile's meta line is normally two or three shouted words -- "12 TOPICS" --
+   which uppercase suits. The reason a level is shut is a whole sentence, and a
+   sentence in capitals is a sentence nobody reads. */
+.cz-tile__meta--why {
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+
+.cz-chess-credits {
+  margin-top: var(--gp-space-7);
+  font-size: .78rem;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .cz-chess-stats { gap: var(--gp-space-2); }
+  .cz-chess-stat { padding: var(--gp-space-3) var(--gp-space-1); }
+  .cz-chess-stat__num { font-size: 1.1rem; }
+  .cz-chess-stat__cap { font-size: .7rem; }
+}
+
+
+/* ==========================================================================
+   Playing one chess lesson (rooms/chess/chesslesson.js)
+
+   Board on one side, one short card on the other. Each step replaces the card
+   and repaints the board; nothing else moves, so a child never has to re-find
+   the button they just pressed.
+   ========================================================================== */
+
+.cz-lesson {
+  display: grid;
+  gap: var(--gp-space-5);
+  align-items: start;
+  margin-top: var(--gp-space-4);
+}
+@media (min-width: 900px) {
+  /* Side by side once there is room, board first: it is the thing being
+     talked about, and on a left-to-right page that means it comes first. */
+  .cz-lesson { grid-template-columns: minmax(320px, 1fr) minmax(280px, 24rem); }
+}
+
+/* No min-width here on purpose: createBoard() puts .cz-cb on this very
+   element and the board sets its own width. */
+
+.cz-lesson__side {
+  display: grid;
+  gap: var(--gp-space-3);
+  align-content: start;
+}
+
+.cz-lesson__dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+/* The way back to the step before, beside the dots that say where you are.
+   Smaller than a normal icon button, because it sits in a row of 6px dots and
+   a 44px circle beside them reads as the main thing to press. It is still 36px
+   across, which a finger finds. */
+.cz-lesson__back {
+  width: 36px;
+  min-height: 36px;
+  margin-inline-end: var(--gp-space-2);
+  font-size: 1rem;
+}
+
+/* Looking back at a step already done. */
+.cz-lesson__lookhead {
+  margin: 0 0 var(--gp-space-2);
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--gp-ink-soft);
+}
+.cz-lesson__why { margin: 0 0 var(--gp-space-3); color: var(--gp-ink-soft); }
+.cz-lesson__look {
+  display: flex;
+  align-items: center;
+  gap: var(--gp-space-2);
+  flex-wrap: wrap;
+  margin-top: var(--gp-space-3);
+}
+.cz-lesson__look .gp-btn[disabled] { opacity: .4; cursor: default; }
+
+.cz-lesson__card {
+  display: grid;
+  gap: var(--gp-space-3);
+  justify-items: start;
+  padding: var(--gp-space-5);
+  border: 2px solid var(--room-line, var(--gp-accent-line));
+  border-radius: var(--gp-radius-xl);
+  background: var(--room-soft, var(--gp-accent-soft));
+}
+
+/* The one line that says what to do. Big, because it is the only instruction
+   on the screen, and short, because a wall of text is the single commonest
+   reason a child puts a learning app down. */
+.cz-lesson__ask {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cz-lesson__count { margin: 0; font-size: .85rem; color: var(--gp-ink-soft); }
+
+/* Feedback. It appears under the card rather than replacing anything, so the
+   question a child is answering stays on screen while they read the answer. */
+.cz-lesson__say {
+  margin: 0;
+  min-height: 1.4em;
+  font-size: .95rem;
+  line-height: 1.4;
+}
+.cz-lesson__say.is-good { color: var(--gp-good); font-weight: 700; }
+.cz-lesson__say.is-retry { color: var(--gp-ink-soft); }
+
+.cz-lesson__go { justify-self: stretch; text-align: center; }
+.cz-lesson__read { font-size: .85rem; }
+
+/* ---- the end card ---- */
+
+.cz-lesson__done {
+  position: relative;   /* the confetti is absolutely placed inside it */
+  display: grid;
+  gap: var(--gp-space-3);
+  justify-items: center;
+  text-align: center;
+}
+.cz-lesson__done h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; }
+
+.cz-lesson__stars { margin: 0; font-size: 2.6rem; line-height: 1; letter-spacing: .08em; }
+
+/* Freeing a piece is the reward that is not a number. Magnus' Kingdom cages
+   the pieces and hands out keys; this is the same idea with less ceremony. */
+.cz-lesson__freed {
+  margin: 0;
+  font-weight: 700;
+  color: var(--room-ink, var(--gp-accent-strong));
+}
+
+.cz-lesson__after { justify-content: center; }
+
+@media (max-width: 560px) {
+  .cz-lesson__card { padding: var(--gp-space-4); }
+  .cz-lesson__ask { font-size: 1.05rem; }
+}
+
+
+/* ==========================================================================
+   Playing against a bot (rooms/chess/chessplay.js)
+   ========================================================================== */
+
+.cz-play {
+  display: grid;
+  gap: var(--gp-space-3);
+  justify-items: center;
+  margin-top: var(--gp-space-4);
+}
+
+/* Who is playing, above and below the board. It is the same shape both ways
+   round, because a child should be able to see at a glance that there are two
+   sides and one of them is them. */
+.cz-play__who {
+  display: grid;
+  gap: var(--gp-space-2);
+  width: min(92vw, 34rem);
+  min-width: var(--cb-floor);
+  padding: var(--gp-space-2) var(--gp-space-3);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+}
+/* Who they are, on one line. What they have taken goes underneath it, on a
+   line of its own: squeezed onto the end of this one the pieces had to be
+   tiny to fit beside a name, and a tally nobody can make out is not a tally. */
+.cz-play__line {
+  display: flex;
+  align-items: center;
+  gap: var(--gp-space-3);
+}
+.cz-play__name { font-weight: 800; }
+.cz-play__goal,
+.cz-play__think { font-size: .85rem; color: var(--gp-ink-soft); }
+
+/* The bot's face, from the same creature set the rooms use, so an opponent
+   looks like somebody rather than like a difficulty setting. */
+.cz-play-face { display: block; width: 2.4rem; height: 2.4rem; }
+.cz-play-face .cz-creature { width: 100%; height: 100%; }
+
+.cz-play__say { margin: 0; min-height: 1.4em; font-size: .95rem; }
+.cz-play__say.is-retry { color: var(--gp-retry); }
+.cz-play__tools { justify-content: center; }
+.cz-play__done { display: grid; gap: var(--gp-space-3); justify-items: center; text-align: center; }
+.cz-play__ladder { margin: 0; }
+.cz-play__replay { margin: 0; font-size: .9rem; color: var(--gp-ink-soft); }
+
+/* ---- what each player has taken ---- */
+
+/* Its own row, under the name, aligned with it. */
+.cz-play__taken {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.cz-play__taken[hidden] { display: none; }
+
+/* Big enough to tell a bishop from a knight at arm's length on a phone, which
+   is the whole point of showing them. They still overlap a little, because
+   sixteen of them have to fit on a 320px screen, and they wrap when they do
+   not. */
+.cz-play__tk { width: 3rem; height: 3rem; margin-inline-end: -.7rem; }
+.cz-play__tk:last-of-type { margin-inline-end: 0; }
+
+/* Only ever shown beside the player who is ahead. */
+.cz-play__lead {
+  margin-inline-start: var(--gp-space-3);
+  padding: .1rem .5rem;
+  border-radius: var(--gp-radius-pill);
+  background: var(--gp-surface-2);
+  font-size: 1rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- stepping back through the game ---- */
+
+.cz-play__review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gp-space-2);
+  flex-wrap: wrap;
+  width: 100%;
+}
+.cz-play__at {
+  min-width: 7ch;
+  text-align: center;
+  font-size: .85rem;
+  color: var(--gp-ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+/* Disabled means "there is nothing that way", which is information. It is
+   dimmed rather than hidden so the pair of arrows stays put and a child does
+   not have to hunt for the one that is left. */
+.cz-play__review .gp-btn[disabled] { opacity: .4; cursor: default; }
+
+/* ---- choosing ---- */
+
+.cz-play-games,
+.cz-play-bots {
+  display: grid;
+  gap: var(--gp-space-3);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  margin-top: var(--gp-space-3);
+}
+
+.cz-play-game,
+.cz-play-bot {
+  display: grid;
+  gap: 2px;
+  justify-items: start;
+  padding: var(--gp-space-4);
+  border: 2px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  color: var(--gp-ink);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+.cz-play-game.is-on,
+.cz-play-bot.is-on {
+  border-color: var(--room, var(--gp-accent));
+  background: var(--room-soft, var(--gp-accent-soft));
+}
+.cz-play-game__name,
+.cz-play-bot__name { font-weight: 800; }
+.cz-play-game__blurb,
+.cz-play-bot__blurb { font-size: .85rem; color: var(--gp-ink-soft); line-height: 1.35; }
+
+/* Which rung the ladder thinks a child is on. A suggestion, never a lock:
+   picking your own opponent is the one bit of control this screen offers. */
+.cz-play-bot__tag {
+  margin-top: var(--gp-space-1);
+  padding: 1px var(--gp-space-2);
+  border-radius: 999px;
+  background: var(--room, var(--gp-accent));
+  color: var(--gp-bg);
+  font-size: .7rem;
+  font-weight: 800;
+}
+
+.cz-play-goal {
+  margin: var(--gp-space-5) 0 var(--gp-space-4);
+  padding: var(--gp-space-3) var(--gp-space-4);
+  border-left: 3px solid var(--room, var(--gp-accent));
+  background: var(--room-soft, var(--gp-accent-soft));
+  border-radius: var(--gp-radius-sm);
+}
+
+@media (max-width: 400px) {
+  .cz-play__who { min-width: 0; width: 100%; }
+}
+
+/* The small games, listed on the hub. Deliberately plainer than the level
+   tiles: these are a shelf of things to try, not the path through the room. */
+.cz-chess-mini {
+  display: grid;
+  gap: var(--gp-space-2);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-bottom: var(--gp-space-6);
+}
+.cz-chess-mini__one {
+  display: grid;
+  gap: 2px;
+  padding: var(--gp-space-3) var(--gp-space-4);
+  border: 1px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  color: var(--gp-ink);
+  text-decoration: none;
+}
+.cz-chess-mini__one:hover,
+.cz-chess-mini__one:focus-visible { border-color: var(--room, var(--gp-accent)); }
+.cz-chess-mini__name { font-weight: 800; }
+.cz-chess-mini__blurb { font-size: .82rem; color: var(--gp-ink-soft); line-height: 1.35; }
+
+
+/* ==========================================================================
+   Puzzles (rooms/chess/chesspuzzle.js)
+   ========================================================================== */
+
+/* The one number a child watches. Big, because it is the point of the screen,
+   and shown alone rather than in a row of statistics. */
+.cz-puz-power {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  margin: var(--gp-space-5) auto;
+  padding: var(--gp-space-4) var(--gp-space-6);
+  border: 2px solid var(--room-line, var(--gp-accent-line));
+  border-radius: var(--gp-radius-xl);
+  background: var(--room-soft, var(--gp-accent-soft));
+  width: fit-content;
+  text-align: center;
+}
+.cz-puz-power__num { font-size: 2.2rem; font-weight: 800; line-height: 1; }
+/* What the number means, in the child's own words. Narrow on purpose: it is
+   two short lines under the number, not a paragraph to wade through. */
+.cz-puz-power__what {
+  max-width: 30rem;
+  margin: var(--gp-space-2) auto 0;
+  text-align: center;
+  font-size: .9rem;
+  color: var(--gp-ink-soft);
+}
+.cz-puz-power__cap { font-size: .8rem; color: var(--gp-ink-soft); }
+.cz-puz-power--after { margin-block: var(--gp-space-3); }
+
+/* Which way it went. Colour and an arrow, never colour alone. */
+.cz-puz-power__move { font-weight: 800; }
+.cz-puz-power__move.is-up { color: var(--gp-good); }
+.cz-puz-power__move.is-down { color: var(--gp-ink-soft); }
+
+.cz-puz-themes {
+  display: grid;
+  gap: var(--gp-space-3);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.cz-puz-theme {
+  display: grid;
+  gap: 2px;
+  padding: var(--gp-space-4);
+  border: 1px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  color: var(--gp-ink);
+  text-decoration: none;
+}
+.cz-puz-theme:hover,
+.cz-puz-theme:focus-visible { border-color: var(--room, var(--gp-accent)); }
+/* What this kind of puzzle is, above the board, for a child who has landed
+   here without doing the lesson that teaches it. */
+.cz-puz__look {
+  width: min(92vw, 34rem);
+  margin: 0 auto var(--gp-space-2);
+  text-align: center;
+  font-size: .9rem;
+  color: var(--gp-ink-soft);
+}
+
+/* The panel after a puzzle is solved. It sits under the board rather than over
+   it, because the finished position is the thing a child has just earned the
+   right to look at, and a box on top of it takes that away. */
+.cz-puz__after {
+  width: min(92vw, 34rem);
+  margin-inline: auto;
+  padding: var(--gp-space-4);
+  border: 2px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  text-align: center;
+}
+.cz-puz__after[hidden] { display: none; }
+.cz-puz__done-head { margin: 0; font-size: 1.15rem; font-weight: 800; }
+.cz-puz__done-sub { margin: var(--gp-space-2) 0 0; color: var(--gp-ink-soft); font-size: .9rem; }
+.cz-puz__done-row { justify-content: center; margin-top: var(--gp-space-4); }
+
+.cz-puz-theme.is-locked { opacity: .6; cursor: default; }
+.cz-puz-theme.is-locked:hover { border-color: var(--gp-line); }
+.cz-puz-theme__name { font-weight: 800; }
+.cz-puz-theme__blurb { font-size: .82rem; color: var(--gp-ink-soft); line-height: 1.35; }
+/* A shut door with a sign on it teaches something; one without just annoys. */
+.cz-puz-theme__lock { margin-top: var(--gp-space-1); font-size: .76rem; color: var(--gp-ink-soft); }
+
+/* ---- solving one ---- */
+
+.cz-puz { display: grid; gap: var(--gp-space-3); justify-items: center; }
+.cz-puz__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--gp-space-3);
+  width: min(92vw, 34rem);
+}
+.cz-puz__theme { font-weight: 800; }
+.cz-puz__count { margin-left: auto; font-size: .85rem; color: var(--gp-ink-soft); }
+
+/* Whose move it is. The single most important line on the screen, and the one
+   a beginner most often forgets to read. */
+.cz-puz__ask { margin: 0; font-size: 1.15rem; font-weight: 700; }
+
+.cz-puz__say { margin: 0; min-height: 1.4em; font-size: .95rem; }
+.cz-puz__say.is-good { color: var(--gp-good); font-weight: 700; }
+.cz-puz__say.is-retry { color: var(--gp-ink-soft); }
+.cz-puz__tools { justify-content: center; }
+.cz-puz__done { display: grid; gap: var(--gp-space-3); justify-items: center; text-align: center; }
+
+
+/* ==========================================================================
+   Board colours, earned with stars
+
+   Cosmetic only: a night board and a wooden board play identically. Each one
+   redefines exactly two tokens, so nothing else about the board has to know
+   these exist. The marks keep the same blue and orange throughout, because
+   they carry meaning and a child should not have to relearn them.
+   ========================================================================== */
+
+.cz-cb--wood   { --cb-light: #EFD8B4; --cb-dark: #B07C4F; }
+.cz-cb--forest { --cb-light: #E8E7CB; --cb-dark: #6C8A5A; }
+.cz-cb--ocean  { --cb-light: #DDE7EE; --cb-dark: #6389A8; }
+.cz-cb--sunset { --cb-light: #F5DDC8; --cb-dark: #B76E62; }
+.cz-cb--night  { --cb-light: #9AA4B4; --cb-dark: #45506B; }
+
+/* ---- the picker on the hub ---- */
+
+.cz-chess-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gp-space-3);
+  justify-content: center;
+  margin-bottom: var(--gp-space-6);
+}
+
+.cz-chess-theme {
+  display: grid;
+  gap: var(--gp-space-1);
+  justify-items: center;
+  padding: var(--gp-space-2);
+  border: 2px solid transparent;
+  border-radius: var(--gp-radius-lg);
+  background: none;
+  color: var(--gp-ink);
+  font: inherit;
+  cursor: pointer;
+}
+.cz-chess-theme.is-on { border-color: var(--room, var(--gp-accent)); }
+.cz-chess-theme.is-locked { opacity: .5; cursor: default; }
+
+/* Four squares, which is the smallest drawing that still reads as a board. */
+.cz-chess-swatch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 42px; height: 42px;
+  border-radius: var(--gp-radius-sm);
+  overflow: hidden;
+}
+.cz-chess-swatch i { display: block; }
+.cz-chess-swatch i:nth-child(1),
+.cz-chess-swatch i:nth-child(4) { background: var(--cb-light); }
+.cz-chess-swatch i:nth-child(2),
+.cz-chess-swatch i:nth-child(3) { background: var(--cb-dark); }
+
+.cz-chess-theme__name { font-size: .72rem; font-weight: 700; }
+.cz-chess-theme__cost { font-size: .68rem; color: var(--gp-ink-soft); }
+
+
+/* ==========================================================================
+   Caged pieces on the level page
+
+   Magnus' Kingdom locks its pieces up and hands out keys, and it is the one
+   reward in the research that is not a number: a child can see at a glance
+   which pieces are theirs. The bars are drawn, not shaded, so they read the
+   same in both themes.
+   ========================================================================== */
+
+.cz-chess-cage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 2.6rem; height: 2.6rem;
+  margin-bottom: var(--gp-space-1);
+}
+.cz-chess-cage__piece { width: 2.2rem; height: 2.2rem; }
+
+/* A locked piece is dimmed and greyed, so the bars read as a state rather
+   than as decoration on top of a perfectly normal piece. */
+.cz-chess-cage:not(.is-free) .cz-chess-cage__piece { opacity: .45; filter: grayscale(1); }
+
+.cz-chess-cage__bars {
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--gp-ink-soft);
+  border-radius: var(--gp-radius-sm);
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--gp-ink-soft) 0 2px,
+    transparent 2px 9px);
+  opacity: .8;
+  transition: opacity var(--gp-dur-slow) var(--gp-ease),
+              transform var(--gp-dur-slow) var(--gp-ease);
+}
+
+/* The bars drop away rather than vanishing. It is one transition and it is
+   the only moment in the room that says "that is yours now". */
+.cz-chess-cage.is-free .cz-chess-cage__bars {
+  opacity: 0;
+  transform: translateY(60%) scaleY(.2);
+}
+
+/* ---- stars arriving on the end card ---- */
+
+.cz-lesson__stars .cz-chess-star,
+.cz-play__done .cz-chess-star,
+.cz-puz__done .cz-chess-star { display: inline-block; }
+
+.cz-lesson__stars .cz-chess-star.is-on,
+.cz-play__done .cz-chess-star.is-on,
+.cz-puz__done .cz-chess-star.is-on {
+  animation: cz-star-pop 420ms var(--gp-ease) backwards;
+}
+.cz-lesson__stars .cz-chess-star.is-on:nth-child(2),
+.cz-play__done .cz-chess-star.is-on:nth-child(2),
+.cz-puz__done .cz-chess-star.is-on:nth-child(2) { animation-delay: 180ms; }
+.cz-lesson__stars .cz-chess-star.is-on:nth-child(3),
+.cz-play__done .cz-chess-star.is-on:nth-child(3),
+.cz-puz__done .cz-chess-star.is-on:nth-child(3) { animation-delay: 360ms; }
+
+@keyframes cz-star-pop {
+  0%   { transform: scale(.2) rotate(-25deg); opacity: 0; }
+  60%  { transform: scale(1.25) rotate(6deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cz-chess-cage__bars { transition: none; }
+  .cz-chess-star.is-on { animation: none; }
+}
+
+/* ==========================================================================
+   The openings library (rooms/chess/chessopenings.js)
+
+   A shelf of named openings, and a page per opening that PLAYS the line
+   rather than printing it. The research is blunt about why: a child who
+   memorises a list of moves is helpless on the first move that is not in it,
+   so the moves are never a paragraph of notation.
+   ========================================================================== */
+
+.cz-open-note {
+  max-width: 44rem;
+  margin: 0 0 var(--gp-space-6);
+  color: var(--gp-ink-soft);
+}
+
+.cz-open-family { margin-bottom: var(--gp-space-8); }
+.cz-open-family__name { margin: 0 0 2px; font-size: 1.15rem; }
+.cz-open-family__blurb { margin: 0 0 var(--gp-space-4); color: var(--gp-ink-soft); font-size: .9rem; }
+
+.cz-open-cards {
+  display: grid;
+  gap: var(--gp-space-3);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.cz-open-card {
+  display: grid;
+  gap: 4px;
+  justify-items: start;
+  padding: var(--gp-space-4);
+  border: 2px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  color: var(--gp-ink);
+  text-decoration: none;
+}
+.cz-open-card:hover { border-color: var(--gp-ink-soft); }
+.cz-open-card__emoji { font-size: 1.6rem; line-height: 1; }
+.cz-open-card__name { font-weight: 800; }
+.cz-open-card__idea { font-size: .88rem; color: var(--gp-ink-soft); }
+.cz-open-card__tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+.cz-open-tag {
+  padding: 1px .5rem;
+  border-radius: var(--gp-radius-pill);
+  background: var(--gp-surface-2);
+  font-size: .72rem;
+  font-weight: 700;
+}
+.cz-open-tag--trap { background: var(--cb-go, #E69F00); color: #1a1a1a; }
+
+/* ---- one opening ---- */
+
+.cz-open {
+  display: grid;
+  gap: var(--gp-space-5);
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: var(--gp-space-4);
+}
+@media (min-width: 900px) {
+  .cz-open { grid-template-columns: auto minmax(0, 1fr); align-items: start; }
+}
+.cz-open__side { display: grid; gap: var(--gp-space-4); align-content: start; }
+.cz-open__idea { margin: 0; font-size: 1.05rem; font-weight: 700; }
+
+/* Every move is its own button, so a child can jump to the one they want
+   instead of pressing an arrow nine times. */
+.cz-open__moves {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.cz-open__no { margin-inline-start: var(--gp-space-2); color: var(--gp-ink-soft); font-size: .85rem; }
+.cz-open__move {
+  min-height: 32px;
+  padding: 2px .5rem;
+  border: 2px solid transparent;
+  border-radius: var(--gp-radius-sm, 8px);
+  background: var(--gp-surface-2);
+  color: var(--gp-ink-soft);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cz-open__move.is-done { color: var(--gp-ink); }
+.cz-open__move.is-now { border-color: var(--cb-mine, #0072B2); color: var(--gp-ink); }
+
+.cz-open__nav { display: flex; align-items: center; gap: var(--gp-space-2); flex-wrap: wrap; }
+.cz-open__at { min-width: 8ch; font-size: .85rem; color: var(--gp-ink-soft); }
+.cz-open__nav .gp-btn[disabled] { opacity: .4; cursor: default; }
+.cz-open__lines .gp-btn.is-on { border-color: var(--cb-mine, #0072B2); color: var(--gp-ink); }
+
+.cz-open__facts { display: grid; gap: 2px; margin: 0; }
+.cz-open__facts dt {
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--gp-ink-soft);
+  margin-top: var(--gp-space-2);
+}
+.cz-open__facts dd { margin: 0; }
+.cz-open__back { margin: 0; }
+
+/* Puzzle themes, grouped. Forty-five cards in one grid is a wall rather than
+   a choice; the families give a child somewhere to start. */
+.cz-puz-family { margin-bottom: var(--gp-space-8); }
+.cz-puz-family__name { margin: 0 0 2px; font-size: 1.15rem; }
+.cz-puz-family__blurb { margin: 0 0 var(--gp-space-4); color: var(--gp-ink-soft); font-size: .9rem; }
+
+/* ==========================================================================
+   Getting ready for a tournament (rooms/chess/chesstournament.js)
+
+   Rules are not presented as rules. Each one arrives as a situation at your
+   own board, with the US Chess rule number underneath the answer — a child
+   will not read the number, but a parent or a coach can check it.
+   ========================================================================== */
+
+.cz-tn-h { margin: 0 0 var(--gp-space-2); font-size: 1.15rem; }
+.cz-tn-sub { margin: 0 0 var(--gp-space-4); color: var(--gp-ink-soft); font-size: .92rem; }
+.cz-tn-day, .cz-tn-drills, .cz-tn-kit { margin-bottom: var(--gp-space-8); }
+
+/* The walk through the day. Numbered, because it happens in an order and that
+   order is most of what a first-timer is worried about. */
+.cz-tn-steps { display: grid; gap: var(--gp-space-3); margin: 0; padding: 0; list-style: none; }
+.cz-tn-step {
+  display: flex;
+  gap: var(--gp-space-3);
+  align-items: flex-start;
+  padding: var(--gp-space-3) var(--gp-space-4);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+}
+.cz-tn-step__icon { font-size: 1.4rem; line-height: 1.4; }
+.cz-tn-step__body { display: grid; gap: 2px; }
+.cz-tn-step__body span { color: var(--gp-ink-soft); font-size: .92rem; }
+
+.cz-tn-sets {
+  display: grid;
+  gap: var(--gp-space-3);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.cz-tn-set {
+  display: grid;
+  gap: 4px;
+  justify-items: start;
+  padding: var(--gp-space-4);
+  border: 2px solid var(--gp-line);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+  color: var(--gp-ink);
+  text-decoration: none;
+}
+.cz-tn-set:hover { border-color: var(--gp-ink-soft); }
+.cz-tn-set__emoji { font-size: 1.6rem; line-height: 1; }
+.cz-tn-set__name { font-weight: 800; }
+.cz-tn-set__blurb { font-size: .88rem; color: var(--gp-ink-soft); }
+.cz-tn-set__meta { font-size: .78rem; font-weight: 700; color: var(--gp-ink-soft); }
+
+.cz-tn-kitlist { display: grid; gap: var(--gp-space-2); margin: 0; padding: 0; list-style: none; }
+.cz-tn-kitlist li { display: grid; gap: 1px; }
+.cz-tn-kitlist span { color: var(--gp-ink-soft); font-size: .9rem; }
+
+.cz-tn-note { color: var(--gp-ink-soft); font-size: .85rem; }
+
+/* ---- a run of drills ---- */
+
+.cz-tn-run { display: grid; gap: var(--gp-space-4); max-width: 40rem; }
+.cz-tn-run__dots { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cz-tn-card {
+  padding: var(--gp-space-5);
+  border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface);
+}
+.cz-tn-ask { margin: 0 0 var(--gp-space-4); font-size: 1.1rem; font-weight: 700; }
+
+
+.cz-tn-after { display: grid; gap: var(--gp-space-2); margin-top: var(--gp-space-4); }
+.cz-tn-verdict { margin: 0; font-weight: 800; }
+.cz-tn-verdict.is-good { color: var(--gp-good, #2E7D32); }
+.cz-tn-verdict.is-retry { color: var(--gp-retry); }
+.cz-tn-why { margin: 0; }
+.cz-tn-rule {
+  margin: 0;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--gp-ink-soft);
+}
+.cz-tn-done { display: grid; gap: var(--gp-space-3); justify-items: center; text-align: center; }

@@ -1,18 +1,19 @@
 /**
- * screens/teasers.js — Math Brain Teasers, drawn.
+ * rooms/teasers/teasers.js — Math Brain Teasers, drawn.
  *
  * A room of its own, at #/teasers. The setup card, one teaser at a time with
  * a hint behind a button, and the results. The decisions live in
  * modules/teasers.js.
  */
 
-import * as T from './../modules/teasers.js';
-import * as storage from './../modules/storage.js';
-import * as speech from './../modules/speech.js';
-import { icon } from './../modules/icons.js';
-import { escapeHtml as esc } from './../modules/charts.js';
-import { spreadAnswer, noteSlot } from './../modules/slots.js';
-import { $, $$, paint, react, showError, showScreen, state } from './../modules/shell.js';
+import * as T from '../../modules/teasers.js';
+import * as storage from '../../modules/storage.js';
+import * as speech from '../../modules/speech.js';
+import { icon } from '../../modules/icons.js';
+import { escapeHtml as esc } from '../../modules/charts.js';
+import { spreadAnswer, noteSlot } from '../../modules/slots.js';
+import { $, $$, paint, react, showError, showScreen, state } from '../../modules/shell.js';
+import { celebrate, confetti } from '../../modules/celebrate.js';
 
 const otherLang = (lang) => (lang === 'es' ? 'en' : 'es');
 const memory = () => T.normaliseMemory(state.settings.teasers);
@@ -341,8 +342,7 @@ function drawTeaserResults() {
 
   $('#gp-teaser-body').innerHTML = `
     <div class="gp-flagdone cz-trivia-done${perfect ? ' is-perfect' : ''}" lang="${lang}">
-      ${perfect ? '<div class="gp-confetti" aria-hidden="true">' +
-        Array.from({ length: 14 }, (_, i) => `<span data-style="--i:${i}"></span>`).join('') + '</div>' : ''}
+      ${confetti(perfect)}
       <div class="cz-trivia-tools cz-disc-donetools">
         <button type="button" class="gp-btn gp-btn--ghost cz-trivia-lang" data-action="teaser-lang"
           lang="${otherLang(lang)}">${esc(T.ui('langPill', lang))}</button>
@@ -369,6 +369,7 @@ function drawTeaserResults() {
     </div>`;
   paintChrome(lang);
   paint();
+  celebrate($('#gp-teaser-body'));
   tally();
   showScreen('teasergame');
 }

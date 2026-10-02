@@ -1,38 +1,22 @@
 /**
- * screens/gifted.js — the GiftedPrep room.
+ * rooms/gifted/gifted.js — the GiftedPrep room.
  *
  * Everything that used to be the whole application: the grade and count
  * pickers, the test and category lists, building a session, the question
- * screen and the results. Read-aloud lives here too, because the only thing
- * the site reads out is a question.
+ * screen and the results. The wiring that connects it to the page is in
+ * room.js beside it.
  */
 
-import * as data from './../modules/data.js';
-import * as storage from './../modules/storage.js';
-import * as speech from './../modules/speech.js';
-import { QuizSession, encouragement, relabel } from './../modules/quiz.js';
-import { renderFigure, describeFigure } from './../modules/figures.js';
-import { icon } from './../modules/icons.js';
-import { ring, bars, escapeHtml } from './../modules/charts.js';
-import { ROOMS, roomGrid, creature, roomById } from './../modules/sections.js';
-import { renderTestsExplainer } from './../modules/parents.js';
-import { $, $$, paint, react, showError, state } from './../modules/shell.js';
-
-/* ------------------------------------------------------------------ */
-/* Read aloud                                                          */
-/* ------------------------------------------------------------------ */
-
-export function applySpeechButton() {
-  const btn = $('#gp-speak-toggle');
-  if (!btn) return;
-  if (!speech.isSupported()) { btn.hidden = true; return; }
-  const on = state.settings.readAloud;
-  btn.innerHTML = icon(on ? 'speaker' : 'speakerOff');
-  btn.setAttribute('aria-pressed', String(on));
-  btn.setAttribute('aria-label', on ? 'Turn read aloud off' : 'Turn read aloud on');
-  btn.classList.toggle('is-active', on);
-  speech.setEnabled(on);
-}
+import * as data from '../../modules/data.js';
+import * as storage from '../../modules/storage.js';
+import * as speech from '../../modules/speech.js';
+import { QuizSession, encouragement, relabel } from '../../modules/quiz.js';
+import { renderFigure, describeFigure } from '../../modules/figures.js';
+import { icon } from '../../modules/icons.js';
+import { ring, bars, escapeHtml } from '../../modules/charts.js';
+import { renderTestsExplainer } from '../../modules/parents.js';
+import { $, $$, paint, react, showError, state } from '../../modules/shell.js';
+import { bump, celebrate, confetti } from '../../modules/celebrate.js';
 
 /** Speak the current question: the stem, then a description of any picture. */
 function speakQuestion() {
@@ -44,7 +28,7 @@ function speakQuestion() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Home                                                                */
+/* The room's front page                                               */
 /* ------------------------------------------------------------------ */
 
 const GRADE_NOTES = {
@@ -104,41 +88,6 @@ export function renderCountPicker() {
   $('#gp-count-note').textContent = COUNT_NOTES[chosen] || '';
   const sub = $('#gp-quick-sub');
   if (sub) sub.textContent = `${chosen} mixed puzzles from all three tests. Best place to start.`;
-}
-
-/**
- * Draw the zoo map. Reading from ROOMS rather than from markup is the whole
- * point of Phase 2: a new section appears here, in the navigation and in the
- * checker without anyone editing this function.
- */
-export function renderRooms() {
-  const host = document.getElementById('cz-tiles');
-  if (host) host.innerHTML = roomGrid(ROOMS);
-}
-
-/* The room banner is painted from the same registry entry as its card, so the
-   creature on the section page can never drift from the one on the map. */
-export function paintRoomHead(id, picId) {
-  const pic = document.getElementById(picId);
-  const room = roomById(id);
-  if (pic && room && !pic.childElementCount) pic.innerHTML = creature(room.creature);
-}
-
-export function renderHomeStats() {
-  const totals = storage.getTotals();
-  const card = $('#gp-home-stats');
-  if (!totals.answered) { card.hidden = true; return; }
-  card.hidden = false;
-  const stats = storage.getStats();
-  const rows = state.manifest.categories
-    .filter((c) => stats[c.id])
-    .map((c) => ({ name: c.name, correct: stats[c.id].correct, seen: stats[c.id].seen }))
-    .sort((a, b) => b.seen - a.seen)
-    .slice(0, 6);
-  $('#gp-home-stats-body').innerHTML =
-    `<p class="gp-muted">${totals.answered} puzzles answered, ${totals.correct} right, across ${totals.sessions} session${totals.sessions === 1 ? '' : 's'}.</p>`
-    + `<div class="gp-bars" data-style="margin-top:var(--gp-space-4)">${bars(rows)}</div>`;
-    paint();
 }
 
 /* ------------------------------------------------------------------ */
@@ -407,6 +356,9 @@ function showResult(q, choiceId, correct, { speak = false, review = false } = {}
     streak: s.streak
   };
 
+  /* A question looked at again is read, not marked, so its answer does not
+     pop or wobble a second time. */
+  $('#gp-choices').classList.toggle('is-review', review);
   $$('.gp-choice').forEach((btn) => {
     const id = btn.dataset.choice;
     btn.classList.add('is-disabled');
@@ -449,6 +401,7 @@ function showResult(q, choiceId, correct, { speak = false, review = false } = {}
   $('#gp-score-text').textContent = `${s.correctCount} / ${s.answers.length}`;
   $('#gp-streak-text').textContent = String(s.streak);
   $('#gp-streak-chip').hidden = s.streak < 2 || review;
+  if (!review && result.correct && s.streak >= 2) bump($('#gp-streak-chip'));
   $('#gp-progress-fill').style.width = `${Math.round((s.answers.length / s.total) * 100)}%`;
 
   if (speak) {
@@ -532,11 +485,14 @@ export function renderResults() {
 
   $('#results-title').textContent = sum.percent >= 70 ? 'Nice work!' : 'All done!';
   $('#gp-results-message').textContent = encouragement(sum.percent);
-  $('#gp-results-ring').innerHTML = ring({ correct: sum.correct, total: sum.total });
+  /* Every one right gets the same paper every other room throws. */
+  const perfect = sum.total > 0 && sum.correct === sum.total;
+  $('#gp-results-ring').innerHTML = confetti(perfect) + ring({ correct: sum.correct, total: sum.total });
   $('#gp-results-bars').innerHTML = bars(sum.categories.map((c) => ({
     name: c.name, correct: c.correct, seen: c.seen
   })));
   paint();
+  celebrate($('#gp-results-ring'));
 
   const missed = s.questions.filter((q) => sum.missed.includes(q.id));
   const card = $('#gp-review-card');

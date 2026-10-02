@@ -3,7 +3,7 @@
  *
  * Which things a round asks about, in which order, what a tap means and what
  * the game remembers. Pure, so the tests run it under node;
- * screens/discover.js only draws.
+ * rooms/fun/discover.js only draws.
  *
  * There are only two answers, so the order matters more than it looks. Pure
  * chance puts the same answer four or more times running in almost half of

@@ -1,5 +1,5 @@
 /**
- * screens/learn.js — the browsing modes.
+ * rooms/fun/learn.js — the browsing modes.
  *
  * Two things live here. A shared browser for the flags, the outlines and the
  * capitals, which are the same job with a different picture. And the periodic
@@ -7,15 +7,15 @@
  * it worth learning is its shape rather than any one cell.
  */
 
-import { escapeHtml } from './../modules/charts.js';
-import * as flags from './../modules/flags.js';
-import * as shapes from './../modules/shapes.js';
-import * as capitals from './../modules/capitals.js';
-import * as elements from './../modules/elements.js';
-import * as angles from './../modules/angles.js';
-import { SCENES, sceneSvg } from './../modules/angleart.js';
-import { renderBrowser, order, ORDERS } from './../modules/learn.js';
-import { $, $$, paint, showError, showScreen, state } from './../modules/shell.js';
+import { escapeHtml } from '../../modules/charts.js';
+import * as flags from '../../modules/flags.js';
+import * as shapes from '../../modules/shapes.js';
+import * as capitals from '../../modules/capitals.js';
+import * as elements from '../../modules/elements.js';
+import * as angles from '../../modules/angles.js';
+import { SCENES, sceneSvg } from '../../modules/angleart.js';
+import { renderBrowser, order, ORDERS } from '../../modules/learn.js';
+import { $, $$, paint, showError, showScreen, state } from '../../modules/shell.js';
 
 /* ------------------------------------------------------------------ */
 /* The shared browser                                                  */

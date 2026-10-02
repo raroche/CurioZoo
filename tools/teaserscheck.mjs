@@ -22,7 +22,7 @@ const MIN = 100;
 const MAX = 200;
 
 const { LEVEL_IDS } = await import('../assets/js/modules/teasers.js');
-const { ROOMS } = await import('../assets/js/modules/sections.js');
+const { ROOMS } = await import('../assets/js/rooms/registry.js');
 const { LEVELS, problems, fold } = await import('./teaserschema.mjs');
 
 /* The seven the family asked for by name, with the answers they gave. */
@@ -111,7 +111,7 @@ const manifestText = `${JSON.stringify(manifest, null, 2)}\n`;
 const total = all.length;
 const room = ROOMS.find((r) => r.id === 'teasers');
 const meta = `${total.toLocaleString('en-US')} teasers · 3 levels · English or Spanish`;
-if (room && room.meta !== meta) err(`sections.js: the teasers room meta should read "${meta}"`);
+if (room && room.meta !== meta) err(`rooms/registry.js: the teasers room meta should read "${meta}"`);
 
 const credits = `# Math Brain Teasers — sources
 

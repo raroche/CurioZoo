@@ -1,5 +1,5 @@
 /**
- * screens/chessplay.js — playing a game against one of the bots.
+ * rooms/chess/chessplay.js — playing a game against one of the bots.
  *
  * Pick an opponent, pick a game, play it. The eight games run from Pawn Wars,
  * which a four-year-old can win on their first day, up to a whole game of
@@ -20,16 +20,16 @@
  * them a rung for it is insulting.
  */
 
-import { Chess } from './../vendor/chess.js';
-import { createBoard, fenToPosition } from './../modules/chessboard.js';
-import * as bot from './../modules/chessbot.js';
-import * as games from './../modules/chessgames.js';
-import * as progress from './../modules/chessprogress.js';
-import { taken, leadLabel } from './../modules/chesstaken.js';
-import { pieceHref, pieceName } from './../modules/chesspieces.js';
-import { escapeHtml } from './../modules/charts.js';
-import { creature } from './../modules/sections.js';
-import { $, paint, react, showScreen, state } from './../modules/shell.js';
+import { Chess } from '../../vendor/chess.js';
+import { createBoard, fenToPosition } from '../../modules/chessboard.js';
+import * as bot from '../../modules/chessbot.js';
+import * as games from '../../modules/chessgames.js';
+import * as progress from '../../modules/chessprogress.js';
+import { taken, leadLabel } from '../../modules/chesstaken.js';
+import { pieceHref, pieceName } from '../../modules/chesspieces.js';
+import { escapeHtml } from '../../modules/charts.js';
+import { creature } from '../../modules/sections.js';
+import { $, paint, react, showScreen, state } from '../../modules/shell.js';
 
 const esc = escapeHtml;
 
