@@ -25,6 +25,8 @@ import * as R from '../assets/js/modules/rulelogic.js';
 import { RULE_TEXT, ruleSentence, describe } from '../assets/js/modules/ruletext.js';
 import * as B from '../assets/js/modules/bridgeslogic.js';
 import { BRIDGES_TEXT } from '../assets/js/modules/bridgestext.js';
+import * as TR from '../assets/js/modules/trainslogic.js';
+import { TRAINS_TEXT } from '../assets/js/modules/trainstext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -288,6 +290,81 @@ export function checkBridgesBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Train Tracks                                                        */
+/* ------------------------------------------------------------------ */
+
+export function checkTrainsBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'trains') err(`game is "${bank.game}", not "trains"`);
+  const defs = TR.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  const animals = new Set(ANIMALS.map((a) => a.id));
+  for (const chapter of bank.chapters || []) {
+    const ch = TR.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== TR.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const shapes = new Set();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < TR.TEACH)) err(`${where}: teach flag is wrong`);
+      if (p.mode !== ch.mode) { err(`${where}: mode ${p.mode}, chapter is ${ch.mode}`); return; }
+      const shape = TR.shapeOf(p);
+      if (shapes.has(shape)) err(`${where}: the same puzzle twice`);
+      shapes.add(shape);
+      if (p.mode === 'siding') {
+        const n = p.cars.length;
+        if (n < ch.cars[0] || n > ch.cars[1]) err(`${where}: ${n} cars`);
+        if ([...p.cars].sort((a, b) => a - b).join() !== Array.from({ length: n }, (_, k) => k + 1).join()) err(`${where}: cars are not 1..${n}`);
+        const moves = TR.sidingSolve(p.cars);
+        if (!moves) err(`${where}: the cars cannot be sorted with one siding`);
+        else if (moves.length !== p.par) err(`${where}: par ${p.par}, moves ${moves.length}`);
+        if (!p.animals || p.animals.length !== n || new Set(p.animals).size !== n || p.animals.some((a) => !animals.has(a))) err(`${where}: bad animals`);
+        return;
+      }
+      const { lay } = p;
+      if (lay.lanes < ch.lanes[0] || lay.lanes > ch.lanes[1]) err(`${where}: ${lay.lanes} lanes`);
+      if (lay.cols < ch.cols[0] || lay.cols > ch.cols[1]) err(`${where}: ${lay.cols} columns`);
+      const used = new Set();
+      for (const [c, src, dst, kind] of lay.x) {
+        if (c < 0 || c >= lay.cols || Math.abs(src - dst) !== 1 || src < 0 || dst < 0 || src >= lay.lanes || dst >= lay.lanes) err(`${where}: a switch off the railway`);
+        if (!['lever', 'flip'].includes(kind)) err(`${where}: unknown switch kind`);
+        for (const l of [src, dst]) { if (used.has(`${c}:${l}`)) err(`${where}: two switches on one track in one column`); used.add(`${c}:${l}`); }
+      }
+      if (!p.stations || p.stations.length !== lay.lanes || new Set(p.stations).size !== lay.lanes || p.stations.some((a) => !animals.has(a))) err(`${where}: bad stations`);
+      const flips = lay.x.filter((x) => x[3] === 'flip').length;
+      if (ch.flips === 'none' && flips) err(`${where}: a flip switch in a lever chapter`);
+      if (ch.flips !== 'none' && !flips) err(`${where}: no flip switch in a flip chapter`);
+      const nT = p.trains.length;
+      if (nT < ch.trains[0] || nT > ch.trains[1]) err(`${where}: ${nT} trains`);
+      if (p.start.length !== lay.x.length) { err(`${where}: start has the wrong length`); return; }
+      const runs = TR.runAll(lay, p.trains.map((x) => x.from), p.mode === 'set' ? p.sol : p.start);
+      if (p.mode === 'predict') {
+        if (runs[0].to !== p.trains[0].to) err(`${where}: the train does not stop where it says`);
+        if (!runs[0].path.some(([, , k, went]) => k >= 0 && went)) err(`${where}: no switch turns the train`);
+      } else if (p.mode === 'set') {
+        if (p.start.some((v) => v !== 0)) err(`${where}: switches must start straight`);
+        const ok = TR.settings(lay, p.trains, 2);
+        if (ok.length !== 1) err(`${where}: ${ok.length} settings work`);
+        else if (ok[0].join() !== p.sol.join()) err(`${where}: the one setting is not the stored one`);
+        if (new Set(p.trains.map((x) => x.to)).size !== nT) err(`${where}: two trains go to one house`);
+      } else if (p.mode === 'pulls') {
+        if (flips) err(`${where}: pulls puzzles are levers only`);
+        const best = TR.minPulls(lay, p.trains, p.start);
+        if (!best || best.pulls !== p.par || p.par < 2) err(`${where}: par ${p.par} is not the fewest pulls (${best && best.pulls})`);
+      } else if (p.mode === 'order') {
+        if (p.trains.some((x) => x.from !== 0)) err(`${where}: order trains all leave from the first track`);
+        if (runs.some((r, k) => r.to !== p.trains[k].to)) err(`${where}: the k-th train does not reach the k-th house`);
+        if (new Set(p.trains.map((x) => x.to)).size !== nT) err(`${where}: two trains go to one house`);
+      }
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -335,6 +412,7 @@ function main() {
   errors.push(...checkParity('truthtext', TRUTH_TEXT));
   errors.push(...checkParity('ruletext', RULE_TEXT));
   errors.push(...checkParity('bridgestext', BRIDGES_TEXT));
+  errors.push(...checkParity('trainstext', TRAINS_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -345,7 +423,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

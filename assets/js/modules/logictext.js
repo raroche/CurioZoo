@@ -164,7 +164,7 @@ export const GAMES = [
     meta: { en: '900 puzzles · 3 levels', es: '900 acertijos · 3 niveles' }
   },
   {
-    id: 'trains', live: false,
+    id: 'trains', live: true,
     name: { en: 'Train Tracks', es: 'Vías del tren' },
     blurb: {
       en: 'Set the switches so every animal rides home. Then press GO and watch.',

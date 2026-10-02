@@ -27,7 +27,8 @@ const LOADERS = {
   code: () => import('./code.js'),
   truth: () => import('./truth.js'),
   rule: () => import('./rule.js'),
-  bridges: () => import('./bridges.js')
+  bridges: () => import('./bridges.js'),
+  trains: () => import('./trains.js')
 };
 const loaded = new Map();
 

@@ -18,7 +18,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 2 — Truth Island (600 puzzles)
 - [x] 2026-10-02 Phase 3 — Find the Rule (600 puzzles)
 - [x] 2026-10-02 Phase 4 — Zoo Bridges (900 puzzles)
-- [ ] Phase 5 — Train Tracks
+- [x] 2026-10-02 Phase 5 — Train Tracks (1,000 puzzles)
 - [ ] Phase 6 — Robot Path
 - [ ] Phase 7 — Fix the Bug
 - [ ] Phase 8 — Endless, room badge ladder, Spanish review list
@@ -98,6 +98,17 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - Checked in the browser: hints to a finished grid, Check/Show/Undo, big Hard
   grid at iPad size in light mode.
 
+## Train Tracks: what shipped
+- 10 chapters × 100 = 1,000: predict, set (1, 2, 3–4 trains), fewest pulls,
+  flip warm-up, flip yard, choose the order, the siding, levers + flips.
+- trainslogic.js: lanes + crossovers; levers and flips; set puzzles kept
+  only if exactly one of the 2^n settings works; fewest pulls exact by DP;
+  siding solved by Knuth's greedy rule (tests: sortable counts are Catalan).
+- Board: SVG railway, animated rides (one element moved per frame), routes
+  drawn at once with reduced motion; houses tick or "?" after a run.
+- Checked in the browser: set with hints + GO, predict, pulls, order,
+  siding to solved; phone dark (board scrolls in its own box).
+
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a
   child knows, no art to maintain, CSP-safe text.
@@ -127,6 +138,12 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   crossing" and m4/h2 accept either "keep together" rule. The biggest Hard
   chapters (h8–h10) need "keep together" or "what if", not always "what if",
   which would take minutes per puzzle to find.
+- **Train Tracks memory points ("lazy" switches) were left out.** The
+  research flagged them as possibly too abstract; "Zoo Machine" mixes levers
+  and flip switches instead.
+- **Train hints follow the child's own setting**: the first train that goes
+  wrong, and the first switch on its way that differs from the answer, rather
+  than the research's route-by-route deduction engine.
 - **The Question Gate chapter was dropped** from Truth Island: there are only a
   handful of different yes/no-question puzzles, not forty.
 - `.claude/launch.json` has a second server, `giftedprep-alt` on port 8767, for

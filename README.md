@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Four are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600) and Zoo Bridges (900), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Three more are planned |
+| **Logic Games** | Seven games that make a child think in steps. Five are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900) and Train Tracks (1,000), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Two more are planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -402,6 +402,21 @@ enough" to "don't trap a pair", "keep the zoo together" and "what if…?", and
 every puzzle is graded by the hardest technique it needs. The solver only
 ever deduces, so when it finishes a grid, that grid has one answer; the
 tests check this against brute force. 900 puzzles from 5×5 to 13×13.
+
+**Train Tracks** is the fifth: the zoo railway. Trains run left to right,
+one at a time, so nothing depends on speed; each carries an animal to its
+house, matched by picture. A switch shows which way it points four ways
+(lever, solid live rail, dashed dead rail, words), and GO sends the trains
+riding along the track (with reduced motion, their routes are drawn at once).
+Easy predicts where a train will stop, then sets switches for one train and
+for two; Medium shares switches among four trains and asks for the fewest
+lever pulls when switches may change between trains; Hard brings flip
+switches that turn over after every train (the idea of the Digi-Comp II and
+Bebras's 2018 "Railroad"), choosing the order trains leave, a dead-end siding
+that is a stack (Knuth's railway sort: an order can be sorted exactly when it
+has no 2-3-1 in it), and a machine of levers and flips together. Every set
+puzzle has exactly one setting that works, checked by trying them all.
+1,000 puzzles.
 
 ## Math Lab
 

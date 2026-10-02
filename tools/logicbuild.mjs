@@ -23,7 +23,8 @@ import { rngFor } from '../assets/js/modules/logicrng.js';
 import * as T from '../assets/js/modules/truthlogic.js';
 import * as R from '../assets/js/modules/rulelogic.js';
 import * as B from '../assets/js/modules/bridgeslogic.js';
-import { checkBridgesBank, checkCodeBank, checkRuleBank, checkTruthBank } from './logiccheck.mjs';
+import * as TR from '../assets/js/modules/trainslogic.js';
+import { checkBridgesBank, checkCodeBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -349,7 +350,55 @@ function buildBridges() {
   for (const bank of banks) writeBank(`data/logic/bridges/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges };
+/* ------------------------------------------------------------------ */
+/* Train Tracks                                                        */
+/* ------------------------------------------------------------------ */
+
+function buildTrainsChapter(def) {
+  const ch = TR.chapter(def.id);
+  const pool = [];
+  const shapes = new Set();
+  for (let j = 0; pool.length < TR.CHAPTER_SIZE && j < 40000; j++) {
+    const p = TR.makePuzzle(ch, rngFor('trains', ch.id, 'bank', j), { tries: 40 });
+    if (!p) continue;
+    const shape = TR.shapeOf(p);
+    if (shapes.has(shape)) continue;
+    shapes.add(shape);
+    pool.push(p);
+  }
+  if (pool.length < TR.CHAPTER_SIZE) throw new Error(`${ch.id}: made only ${pool.length} of ${TR.CHAPTER_SIZE}`);
+  const size = (p) => (p.mode === 'siding' ? p.cars.length * 10 + p.par : p.lay.x.length * 10 + p.trains.length + p.par);
+  pool.sort((a, b) => size(a) - size(b));
+  const order = [...pool.slice(0, TR.TEACH), ...interleave(pool.slice(TR.TEACH))];
+  return {
+    id: ch.id,
+    puzzles: order.map((p, i) => ({
+      id: `${ch.id}-${pad(i + 1)}`, ...(i < TR.TEACH ? { teach: true } : {}),
+      ...TR.dress(p, rngFor('trains', ch.id, 'dress', i))
+    }))
+  };
+}
+
+function buildTrains() {
+  const banks = [];
+  for (const level of TR.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const chapters = TR.CHAPTERS[level].map((d) => buildTrainsChapter(d));
+    const bank = { game: 'trains', level, v: 1, chapters };
+    const problems = checkTrainsBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`trains/${level}: ${n} puzzles in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/trains/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

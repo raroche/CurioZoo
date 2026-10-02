@@ -480,3 +480,63 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 .cz-br-tick { font: 800 11px var(--gp-font-ui); fill: var(--gp-good); text-anchor: middle; }
 .cz-br-visitor { font-size: 17px; text-anchor: middle; }
 .cz-br-badge.is-over { font: 900 20px var(--gp-font-ui); fill: var(--gp-retry); text-anchor: middle; }
+
+/* ==========================================================================
+   Train Tracks (rooms/logic/trains.js)
+   ========================================================================== */
+
+.cz-tr { display: grid; gap: var(--gp-space-3); }
+.cz-tr-svg { display: block; width: 100%; max-width: 980px; height: auto; margin-inline: auto; }
+.cz-tr-ground { fill: var(--cz-leaf-soft); stroke: var(--cz-leaf-line); stroke-width: 2; }
+/* The live way is a solid rail; the way not taken is thin and dashed. */
+.cz-tr-rail { fill: none; stroke: var(--gp-ink-soft); stroke-width: 6; stroke-linecap: round; }
+.cz-tr-rail.is-off { stroke: var(--gp-line-strong); stroke-width: 3; stroke-dasharray: 6 7; }
+.cz-tr-route { fill: none; stroke-width: 5; stroke-dasharray: 2 9; stroke-linecap: round; }
+.cz-tr-route--0 { stroke: var(--gp-focus); }
+.cz-tr-route--1 { stroke: var(--cz-flamingo); }
+.cz-tr-route--2 { stroke: var(--cz-orchid); }
+.cz-tr-route--3 { stroke: var(--cz-honey); }
+.cz-tr-switch[data-tr-switch] { cursor: pointer; }
+.cz-tr-switch:focus { outline: none; }
+.cz-tr-hub { fill: var(--gp-surface); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-tr-switch.is-flip .cz-tr-hub { fill: var(--cz-sky-soft); stroke-width: 3; }
+.cz-tr-switch:focus-visible .cz-tr-hub, .cz-tr-switch.is-hint .cz-tr-hub { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-tr-lever { stroke: var(--cz-mango); stroke-width: 6; stroke-linecap: round; }
+.cz-tr-flip { font: 800 13px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; pointer-events: none; }
+.cz-tr-num { font: 700 12px var(--gp-font-ui); fill: var(--gp-ink-muted); text-anchor: middle; }
+.cz-tr-house rect { fill: var(--gp-surface); stroke: var(--gp-ink-soft); stroke-width: 2; }
+.cz-tr-house.is-ok rect { stroke: var(--gp-good); stroke-width: 4; }
+.cz-tr-house.is-bad rect { stroke: var(--gp-retry); stroke-width: 4; stroke-dasharray: 6 4; }
+.cz-tr-emoji { font-size: 28px; }
+.cz-tr-roof { font-size: 18px; }
+.cz-tr-mark { font: 900 22px var(--gp-font-ui); fill: var(--gp-ink); }
+.cz-tr-qn { font: 800 12px var(--gp-font-ui); fill: var(--gp-ink-muted); }
+
+.cz-tr-picks, .cz-tr-chips { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-tr-pulls { margin: 0; }
+.cz-tr-order { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--gp-space-2); counter-reset: tr; }
+.cz-tr-order li { display: grid; justify-items: center; gap: 2px; counter-increment: tr; }
+.cz-tr-order li::after { content: counter(tr); font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); }
+.cz-tr-slot {
+  display: grid; place-items: center; width: 58px; height: 58px; font-size: 30px; color: var(--gp-ink-muted);
+  border: 3px dashed var(--gp-line-strong); border-radius: 14px; background: var(--gp-surface); font-weight: 800;
+}
+.cz-tr-slot.is-full { border-style: solid; border-color: var(--room); cursor: pointer; }
+
+/* The siding: cars arrive, wait on a dead end, and go into the zoo. */
+.cz-tr-want, .cz-tr-row { display: flex; flex-wrap: wrap; gap: 6px; min-height: 56px; align-items: center; }
+.cz-tr-car {
+  position: relative; display: inline-grid; place-items: center; width: 54px; height: 54px; font-size: 28px;
+  border: 2px solid var(--gp-line-strong); border-radius: 12px; background: var(--gp-surface);
+}
+.cz-tr-car small { position: absolute; right: 4px; bottom: 1px; font-size: 11px; font-weight: 800; color: var(--gp-ink-muted); }
+.cz-tr-yard { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--gp-space-3); align-items: start; }
+.cz-tr-yard section { padding: var(--gp-space-2) var(--gp-space-3); border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface); }
+.cz-tr-yard h3 { margin: 0 0 6px; font-size: var(--gp-text-sm); }
+.cz-tr-sidingbox { border-style: dashed; }
+.cz-tr-stack { display: flex; flex-direction: column; gap: 6px; min-height: 56px; }
+.cz-tr .is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+
+@media (max-width: 560px) {
+  .cz-tr-yard { grid-template-columns: 1fr; }
+}
