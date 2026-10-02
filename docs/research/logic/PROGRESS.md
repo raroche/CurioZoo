@@ -15,7 +15,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
       Work continues on branch `logic-games`.
 - [x] 2026-10-02 Phase 0 — room shell and shared pieces
 - [x] 2026-10-02 Phase 1 — Crack the Code (840 safes, room is live)
-- [ ] Phase 2 — Truth Island
+- [x] 2026-10-02 Phase 2 — Truth Island (600 puzzles)
 - [ ] Phase 3 — Find the Rule
 - [ ] Phase 4 — Zoo Bridges
 - [ ] Phase 5 — Train Tracks
@@ -55,6 +55,23 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   notes and the detective note, chapter unlock, lock news, English↔Spanish
   mid-puzzle. No console errors, no sideways scroll.
 
+## Truth Island: what shipped
+- 15 chapters × 40 = 600 puzzles; the first 2 of each chapter teach (free hints).
+- Easy: picture sentences (counts, "no …", "more … than …", who holds what),
+  then accusations chained from them; e5 hides the picture and a Sun-badge
+  animal tells what is in it. Medium: about-me, same/different, counting,
+  pencil (needs one suppose), mix. Hard: four animals, and/or/if, the Cloud
+  animal, two sentences each, and h5 with two separate suppose steps.
+- The solver (truthlogic.js) narrows a domain per animal; step kinds fact,
+  check, known, self, both, left, suppose. Hints start from the child's own
+  tokens and what earlier hints ruled out, so they always move forward.
+- Pencil mode: bubbles show "would be true/false", "must be true/false" and
+  "Clash!" in words.
+- Island album on the game page: how often each islander was met as Sun /
+  Moon / Cloud, worked out from solved puzzles (nothing extra stored).
+- Checked in the browser: Easy picture, pencil on Medium, Cloud with hints
+  to the end in Spanish, hidden picture at 375 px dark. No console errors.
+
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a
   child knows, no art to maintain, CSP-safe text.
@@ -62,6 +79,14 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - **Hand-made teaching puzzles**: instead of 36 hand-written safes, the first 3
   of each chapter are the generator's gentlest, marked `teach`, with free hints
   that walk every step. The 682 lock is the one hand-made safe (m4-01).
+- **Truth Island h5** asks for two separate "suppose" steps, not one nested
+  two deep: a depth-2 suppose is about 1 in 200 four-animal puzzles, too rare
+  to fill a chapter.
+- **Truth Island h4** (two sentences each) lets one of an animal's two
+  sentences be a red herring, as the research allows at Hard; no animal may
+  be spare, and no sentence may be one anyone could say ("I am a Sun animal").
+- **The Question Gate chapter was dropped** from Truth Island: there are only a
+  handful of different yes/no-question puzzles, not forty.
 - `.claude/launch.json` has a second server, `giftedprep-alt` on port 8767, for
   when another session already holds 8765.
 

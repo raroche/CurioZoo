@@ -137,7 +137,7 @@ export const GAMES = [
     meta: { en: '840 safes · 3 levels', es: '840 cajas fuertes · 3 niveles' }
   },
   {
-    id: 'truth', live: false,
+    id: 'truth', live: true,
     name: { en: 'Truth Island', es: 'La isla de la verdad' },
     blurb: {
       en: 'Sun animals always tell the truth. Moon animals always say the opposite. Who is who?',

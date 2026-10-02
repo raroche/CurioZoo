@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. The first, Crack the Code, has 840 safes at three levels, in English and Spanish, and every one is proven to have exactly one answer. Six more are planned |
+| **Logic Games** | Seven games that make a child think in steps. Two are built: Crack the Code (840 safes) and Truth Island (600 puzzles), at three levels, in English and Spanish, and every puzzle is proven to have exactly one answer. Five more are planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -358,6 +358,22 @@ doing it), and the card after a solve explains the key steps. Stars only go
 up, and every ten safes in a chapter open a lock on a zoo enclosure. A daily
 safe for each level is made on the device from the date, the same for
 everyone, with no server.
+
+**Truth Island** is the second. Sun animals always tell the truth and Moon
+animals always say the opposite; each animal says something, and the child
+works out who is who. They are not called liars: young children hear "liar"
+as "bad", and the animals are meant to be liked. Easy anchors every puzzle to
+a picture ("there are 3 apples", and the child can count 2), because puzzles
+made only of "she is a Moon" never have a single answer. Medium brings
+sentences about themselves, same-or-different and counting, and a pencil: a
+pencilled token means "maybe", and every speech bubble then says whether its
+sentence would be true, must be true, or clashes. Holding a "suppose" in your
+head is the hard part, so the pencil keeps it on the screen. Hard adds four
+animals, "and / or (or both) / if", two sentences each, and the Cloud animal,
+who may say anything. 600 puzzles, fifteen chapters of forty, every one
+proven by `tools/logiccheck.mjs` to have one answer, no spare sentence, and a
+chain of steps a person can follow, which is what the hints and the "why"
+are made from.
 
 ## Math Lab
 

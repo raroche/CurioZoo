@@ -274,3 +274,100 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
   .cz-code-note { width: 38px; height: 38px; }
   .cz-logic-tools { margin-left: 0; }
 }
+
+/* ==========================================================================
+   Truth Island (rooms/logic/truth.js)
+   ========================================================================== */
+
+.cz-truth { display: grid; gap: var(--gp-space-4); }
+
+/* The three tokens: a sun with rays, a crescent, a cloud. Shape first. */
+.cz-truth-tok { display: block; flex: none; }
+.cz-truth-tok--sun { color: var(--cz-honey); }
+.cz-truth-tok--moon { color: var(--gp-focus); }   /* readable on both themes */
+.cz-truth-tok--cloud { color: var(--gp-ink-muted); }
+
+.cz-truth-rules { display: flex; align-items: center; gap: var(--gp-space-2); margin: 0; color: var(--gp-ink-soft); font-size: var(--gp-text-sm); }
+.cz-truth-rules > span { margin-left: var(--gp-space-1); }
+
+/* The picture, on a picnic blanket. */
+.cz-truth-scene {
+  padding: var(--gp-space-3) var(--gp-space-4); border: 2px solid var(--room-line);
+  border-radius: var(--gp-radius-lg); background: var(--room-soft);
+}
+.cz-truth-scene__label { font-weight: 800; font-size: var(--gp-text-xs); letter-spacing: 0.04em; text-transform: uppercase; color: var(--gp-ink-soft); }
+.cz-truth-blanket { display: flex; flex-wrap: wrap; gap: var(--gp-space-3) var(--gp-space-6); font-size: 32px; line-height: 1.2; margin-top: var(--gp-space-1); }
+.cz-truth-group { letter-spacing: 2px; }
+.cz-truth-scene.is-curtain { display: flex; align-items: center; gap: var(--gp-space-3); }
+.cz-truth-scene.is-curtain p { margin: 0; font-weight: 600; }
+.cz-truth-curtain { font-size: 40px; }
+
+/* The islanders. */
+.cz-truth-isle { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--gp-space-4); }
+.cz-truth-animal {
+  display: grid; gap: var(--gp-space-3); align-content: end; padding: var(--gp-space-3);
+  border: 2px solid var(--gp-line); border-radius: var(--gp-radius-xl); background: var(--gp-surface);
+}
+.cz-truth-bubbles { display: grid; gap: var(--gp-space-2); }
+.cz-truth-bubble {
+  display: grid; gap: 6px; text-align: left; padding: var(--gp-space-2) var(--gp-space-3);
+  border: 2px solid var(--gp-line-strong); border-radius: 16px 16px 16px 4px;
+  background: var(--gp-surface-2); color: var(--gp-ink); font: inherit; cursor: pointer;
+}
+.cz-truth-bubble:hover, .cz-truth-bubble:focus-visible { border-color: var(--room); }
+.cz-truth-bubble.is-hint { border-color: var(--gp-focus); box-shadow: 0 0 0 3px var(--gp-focus); }
+.cz-truth-bubble.is-bad { border-color: var(--gp-retry); border-style: dashed; }
+.cz-truth-icons { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 22px; min-height: 30px; }
+.cz-truth-mini { display: inline-block; }
+.cz-truth-mini .cz-creature { width: 28px; height: 28px; }
+.cz-truth-op { font-weight: 800; font-size: 18px; color: var(--gp-ink-soft); padding: 0 2px; }
+.cz-truth-op--word { font-size: var(--gp-text-xs); text-transform: uppercase; letter-spacing: 0.05em; }
+.cz-truth-objs { letter-spacing: 1px; }
+/* "None": the object with a line through it. */
+.cz-truth-none { position: relative; display: inline-block; }
+.cz-truth-none::after {
+  content: ""; position: absolute; left: -3px; right: -3px; top: 50%;
+  border-top: 3px solid var(--gp-retry); transform: rotate(-35deg);
+}
+.cz-truth-text { font-size: var(--gp-text-sm); font-weight: 600; line-height: 1.35; }
+.cz-truth-would { font-size: var(--gp-text-xs); font-weight: 800; }
+.cz-truth-would.is-true { color: var(--gp-good); }
+.cz-truth-would.is-false { color: var(--gp-retry); }
+.cz-truth-would.is-must { display: inline-flex; align-items: center; gap: 4px; color: var(--gp-ink-soft); }
+.cz-truth-would.is-clash { background: var(--gp-retry-soft); color: var(--gp-retry); padding: 2px 6px; border-radius: 6px; }
+
+.cz-truth-who { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.cz-truth-face { position: relative; display: block; }
+.cz-truth-face > .cz-creature { width: 64px; height: 64px; }
+.cz-truth-held { position: absolute; right: -16px; bottom: -2px; font-size: 26px; }
+.cz-truth-name { font-weight: 800; }
+.cz-truth-badge {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: var(--gp-radius-pill);
+  background: var(--cz-honey-soft); color: var(--cz-honey-ink); font-size: var(--gp-text-xs); font-weight: 800;
+}
+
+/* The token slot. Empty is a dashed square with "?"; a token is solid; a
+   pencilled "maybe" stays dashed, whatever it holds. */
+.cz-truth-slot {
+  display: flex; align-items: center; justify-content: center; gap: var(--gp-space-2);
+  min-height: 56px; padding: 4px 10px; border: 3px dashed var(--gp-line-strong); border-radius: 14px;
+  background: var(--gp-surface); color: var(--gp-ink); font: inherit; font-weight: 800; cursor: pointer;
+}
+.cz-truth-slot.is-sun { border-style: solid; border-color: var(--cz-honey-line); background: var(--cz-honey-soft); color: var(--cz-honey-ink); }
+.cz-truth-slot.is-moon { border-style: solid; border-color: var(--cz-sky-line); background: var(--cz-sky-soft); color: var(--cz-sky-ink); }
+.cz-truth-slot.is-cloud { border-style: solid; background: var(--gp-surface-3); }
+.cz-truth-slot.is-maybe { border-style: dashed; opacity: 0.8; }
+.cz-truth-slot.is-maybe .cz-truth-slot__word::after { content: " ?"; }
+.cz-truth-slot.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+.cz-truth-slot[disabled] { cursor: default; opacity: 1; }
+.cz-truth-ruled { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; font-size: var(--gp-text-xs); font-weight: 700; color: var(--gp-ink-soft); }
+.cz-truth-slot__q { font-size: 26px; color: var(--gp-ink-muted); }
+.cz-truth-pencilhelp {
+  margin: 0; padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-md);
+  border: 2px dashed var(--room-line); font-size: var(--gp-text-sm); font-weight: 600;
+}
+.cz-truth-albumface .cz-creature { width: 44px; height: 44px; }
+
+@media (max-width: 560px) {
+  .cz-truth-isle { grid-template-columns: 1fr; }
+}

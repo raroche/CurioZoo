@@ -20,7 +20,8 @@ import path from 'node:path';
 import * as C from '../assets/js/modules/codelogic.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 import { rngFor } from '../assets/js/modules/logicrng.js';
-import { checkCodeBank } from './logiccheck.mjs';
+import * as T from '../assets/js/modules/truthlogic.js';
+import { checkCodeBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -162,7 +163,82 @@ function buildCode() {
   for (const bank of banks) writeBank(`data/logic/code/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode };
+/* ------------------------------------------------------------------ */
+/* Truth Island                                                        */
+/* ------------------------------------------------------------------ */
+
+/* The same shape of puzzle (same sentences about the same seats) may come
+   back with a different cast, but not more than twice in a chapter. */
+const SHAPE_REPEATS = 2;
+/* "Everyone is a Sun animal" is the answer a guesser tries first, so it may
+   be at most a quarter of a chapter's puzzles with more than one animal. */
+const ALL_SUN_SHARE = 0.25;
+
+function buildTruthChapter(def) {
+  const ch = T.chapter(def.id);
+  const want = T.CHAPTER_SIZE;
+  const pool = [];
+  const shapes = new Map();
+  let allSun = 0;
+  for (let j = 0; pool.length < want + 10 && j < 20000; j++) {
+    const p = T.makePuzzle(ch, rngFor('truth', ch.id, 'bank', j), { tries: 60 });
+    if (!p) continue;
+    const shape = T.shapeOf(p);
+    if ((shapes.get(shape) || 0) >= SHAPE_REPEATS) continue;
+    const sunny = p.cast.length > 1 && p.sol.every((k) => k === 'sun');
+    if (sunny && allSun + 1 > Math.floor((want) * ALL_SUN_SHARE)) continue;
+    shapes.set(shape, (shapes.get(shape) || 0) + 1);
+    if (sunny) allSun += 1;
+    pool.push(p);
+  }
+  if (pool.length < want) throw new Error(`${ch.id}: made only ${pool.length} of ${want}`);
+  const ease = (p) => p.depth * 1000 + p.cast.length * 100 + p.steps;
+  pool.sort((a, b) => ease(a) - ease(b));
+  /* Drop the hardest extras, keeping the all-Sun share inside the cap. */
+  const picked = pool.slice(0, want);
+  const order = [...picked.slice(0, T.TEACH), ...interleave(picked.slice(T.TEACH))];
+  const puzzles = order.map((p, i) => tidyTruth({ id: `${ch.id}-${pad(i + 1)}`, teach: i < T.TEACH, ...p }));
+  return { id: ch.id, puzzles };
+}
+
+function tidyTruth(p) {
+  const out = { id: p.id };
+  if (p.teach) out.teach = true;
+  out.cast = p.cast;
+  if (p.cloud) out.cloud = true;
+  if (p.hidden) out.hidden = true;
+  if (p.badge !== undefined) out.badge = p.badge;
+  if (p.scene && p.scene.c) {
+    out.scene = { c: p.scene.c };
+    if (p.scene.h && p.scene.h.some(Boolean)) out.scene.h = p.scene.h;
+  }
+  out.says = p.says;
+  out.sol = p.sol;
+  out.depth = p.depth;
+  out.steps = p.steps;
+  return out;
+}
+
+function buildTruth() {
+  const banks = [];
+  for (const level of T.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const chapters = T.CHAPTERS[level].map((def) => buildTruthChapter(def));
+    const bank = { game: 'truth', level, v: 1, chapters };
+    const problems = checkTruthBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`truth/${level}: ${n} puzzles in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/truth/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

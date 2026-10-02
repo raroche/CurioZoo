@@ -24,7 +24,8 @@ import { backLink, esc, flipLang, lang, rec, save, say, stars, t, tools, winCard
 
 /* The games that have been built, each loaded on first use. */
 const LOADERS = {
-  code: () => import('./code.js')
+  code: () => import('./code.js'),
+  truth: () => import('./truth.js')
 };
 const loaded = new Map();
 

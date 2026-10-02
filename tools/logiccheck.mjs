@@ -19,11 +19,15 @@ import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import * as C from '../assets/js/modules/codelogic.js';
 import { CODE_TEXT } from '../assets/js/modules/codetext.js';
+import * as T from '../assets/js/modules/truthlogic.js';
+import { TRUTH_TEXT, sentence } from '../assets/js/modules/truthtext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
 const pad = (n) => String(n).padStart(2, '0');
-const slots = (s) => [...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',');
+/* Which slots a sentence uses. Not how often: Spanish may say "su frase"
+   where English repeats the name. */
+const slots = (s) => [...new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]))].sort().join(',');
 
 /* ------------------------------------------------------------------ */
 /* Crack the Code                                                      */
@@ -100,6 +104,73 @@ export function checkCodeBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Truth Island                                                        */
+/* ------------------------------------------------------------------ */
+
+const STEP_KEYS = { fact: ['step.fact', 'step.badge'], check: ['step.check'], known: ['step.known'], self: ['step.self', 'step.selfx'],
+  both: ['step.both', 'step.bothx'], left: ['step.left'], suppose: ['step.suppose', 'step.supposex', 'step.suppose2'] };
+
+export function checkTruthBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'truth') err(`game is "${bank.game}", not "truth"`);
+  const defs = T.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  const ids = (bank.chapters || []).map((c) => c.id).join(',');
+  if (ids !== defs.map((d) => d.id).join(',')) err(`${bank.level}: chapters are ${ids}`);
+
+  for (const chapter of bank.chapters || []) {
+    const ch = T.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== T.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles, need ${T.CHAPTER_SIZE}`);
+    const shapes = new Map();
+    let allSun = 0;
+    chapter.puzzles.forEach((raw, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const p = { ...raw, scene: raw.scene || {} };
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < T.TEACH)) err(`${where}: teach flag is wrong`);
+      if (p.cast.length < ch.n[0] || p.cast.length > ch.n[1]) err(`${where}: ${p.cast.length} animals`);
+      if (new Set(p.cast).size !== p.cast.length || p.cast.some((k) => !T.CAST.includes(k))) err(`${where}: bad cast`);
+      if (Boolean(p.cloud) !== Boolean(ch.cloud)) err(`${where}: cloud flag does not match the chapter`);
+      if (Boolean(p.hidden) !== Boolean(ch.hidden)) err(`${where}: hidden flag does not match the chapter`);
+      if (ch.hidden && (p.badge !== 0 || p.sol[0] !== 'sun')) err(`${where}: the badge animal must be first and a Sun`);
+      if (!T.legalWorld(p, p.sol)) err(`${where}: the answer breaks the island's rules`);
+      const sols = T.solutions(p);
+      if (sols.length !== 1) { err(`${where}: ${sols.length} answers fit`); return; }
+      if (sols[0].some((k, j) => k !== p.sol[j])) err(`${where}: the one answer that fits is not the stored one`);
+      if (!T.acceptable(ch, p)) err(`${where}: a sentence is spare, or the chapter's idea is missing`);
+      const said = new Set();
+      for (const [who, s] of p.says) {
+        if (who < 0 || who >= p.cast.length) err(`${where}: a speaker who is not there`);
+        if (said.has(`${who}:${T.canon(s)}`)) err(`${where}: an animal says the same thing twice`);
+        said.add(`${who}:${T.canon(s)}`);
+        for (const L of ['en', 'es']) {
+          const text = sentence(s, who, p.cast, L);
+          if (/undefined|NaN|\{/.test(text) || text.length < 6) err(`${where}: bad ${L} sentence "${text}"`);
+        }
+      }
+      const run = T.humanSolve(p, { maxDepth: ch.depth[1] });
+      if (!run.solved) { err(`${where}: the step-by-step solver cannot finish it`); return; }
+      if (run.sol.some((k, j) => k !== p.sol[j])) err(`${where}: the solver reached a different answer`);
+      if (run.depth < ch.depth[0] || run.depth > ch.depth[1]) err(`${where}: depth ${run.depth}, chapter allows ${ch.depth.join('-')}`);
+      if (ch.supposes && run.steps.filter((s) => s.kind === 'suppose').length < ch.supposes) err(`${where}: needs ${ch.supposes} pencil ideas`);
+      if (p.depth !== run.depth || p.steps !== run.steps.length) err(`${where}: stored depth/steps do not match the solver`);
+      for (const step of run.steps) {
+        if (!step.keep.includes(p.sol[step.who])) err(`${where}: a ${step.kind} step rules out the answer`);
+        if (!STEP_KEYS[step.kind] || STEP_KEYS[step.kind].some((k) => !TRUTH_TEXT.en[k])) err(`${where}: no words for a ${step.kind} step`);
+      }
+      const shape = T.shapeOf(p);
+      shapes.set(shape, (shapes.get(shape) || 0) + 1);
+      if (shapes.get(shape) > 2) err(`${where}: the same puzzle shape a third time`);
+      if (p.cast.length > 1 && p.sol.every((k) => k === 'sun')) allSun += 1;
+    });
+    if (allSun > T.CHAPTER_SIZE * 0.25) err(`${ch.id}: ${allSun} puzzles where everyone is a Sun animal`);
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -144,6 +215,7 @@ function main() {
     for (const f of ['name', 'blurb', 'meta']) if (!g[f] || !g[f].en || !g[f].es) errors.push(`game ${g.id}: ${f} needs en and es`);
   }
   errors.push(...checkParity('codetext', CODE_TEXT), ...checkCodeText());
+  errors.push(...checkParity('truthtext', TRUTH_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -154,7 +226,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);
