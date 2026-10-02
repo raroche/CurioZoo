@@ -85,38 +85,53 @@ async function saveEverything() {
   const queue = FILES.slice();
   /* The first visit tells the page how far it has got, so the child sees
      "Saving games for offline play… 40%" instead of a site that feels slow.
-     An update copies most files across and says nothing. */
+     An update copies most files across and says nothing.
+
+     Messages go out one after another on one chain, so they arrive in the
+     order they were sent, and the last one ("saved" or "failed") is sent
+     before the install settles: the browser may stop a worker the moment
+     its install is over. After the first failure the other downloads stop
+     and nothing more is said, so a late "saving" can never follow "failed". */
   const first = old.length === 0;
   const total = FILES.length;
   let done = 0;
   let told = 0;
-  const tell = (msg) => self.clients.matchAll({ type: 'window', includeUncontrolled: true })
-    .then((list) => list.forEach((c) => c.postMessage(msg)))
-    .catch(() => { /* no page to tell */ });
+  let over = false;
+  let said = Promise.resolve();
+  const tell = (msg) => {
+    said = said
+      .then(() => self.clients.matchAll({ type: 'window', includeUncontrolled: true }))
+      .then((list) => list.forEach((c) => c.postMessage({ ...msg, install: CACHE })))
+      .catch(() => { /* no page to tell */ });
+    return said;
+  };
 
   async function worker() {
-    while (queue.length) {
+    while (queue.length && !over) {
       const [path, hash] = queue.shift();
       const key = urlOf(path);
       if (!(await copyIfSame(old, cache, key, hash))) {
         const res = await fetch(key, { cache: 'no-cache' });
         if (!res.ok) throw new Error(`offline copy: ${path} answered ${res.status}`);
+        if (over) return;
         await cache.put(key, stamp(res, hash));
       }
       done += 1;
-      if (first && Date.now() - told > 300) {
+      if (first && !over && Date.now() - told > 300) {
         told = Date.now();
         tell({ type: 'curiozoo-saving', done, total });
       }
     }
   }
   try {
-    await Promise.all(Array.from({ length: PARALLEL }, worker));
+    await Promise.all(Array.from({ length: PARALLEL }, () => worker().catch((err) => { over = true; throw err; })));
   } catch (err) {
-    if (first) tell({ type: 'curiozoo-save-failed' });
+    over = true;
+    if (first) await tell({ type: 'curiozoo-save-failed' });
     throw err;
   }
-  if (first) tell({ type: 'curiozoo-saved', total });
+  over = true;
+  if (first) await tell({ type: 'curiozoo-saved', total });
 }
 
 async function oldCaches() {

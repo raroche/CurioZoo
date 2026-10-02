@@ -45,6 +45,10 @@ const CHECK_EVERY = 60 * 60 * 1000;
 let saving = false;
 let hidden = false;          // the child closed the note
 let hideTimer = 0;
+/* Installs that have said "saved" or "failed". That is their last word: a
+   late message from one of them is ignored, so it can never bring "Saving…"
+   back after the end. */
+const ended = new Set();
 
 /** Is the first visit's offline copy being saved right now? */
 export const isSaving = () => saving;
@@ -53,9 +57,14 @@ function note({ text, pct = null, done = false }) {
   const box = document.getElementById('cz-offline-note');
   if (!box || hidden) return;
   const words = document.getElementById('cz-offline-note-text');
-  /* The sentence changes twice (saving, saved), so a screen reader hears it
-     twice; the percent changes often and is for eyes only. */
-  if (words.textContent !== text) words.textContent = text;
+  /* The sentence changes twice (saving, saved), and only then is it put in
+     the live region, so a screen reader hears it twice; the percent changes
+     often and is for eyes only. */
+  if (words.textContent !== text) {
+    words.textContent = text;
+    const live = document.getElementById('cz-offline-live');
+    if (live) live.textContent = text;
+  }
   document.getElementById('cz-offline-note-pct').textContent = pct === null ? '' : `${pct}%`;
   document.getElementById('cz-offline-note-bar').value = done ? 100 : pct || 0;
   box.classList.toggle('is-done', done);
@@ -69,6 +78,8 @@ function hideNote() {
 
 function onWorkerMessage(e) {
   const m = e.data || {};
+  if (!/^curiozoo-sav/.test(m.type || '') || ended.has(m.install)) return;
+  if (m.type !== 'curiozoo-saving') ended.add(m.install);
   if (m.type === 'curiozoo-saving') {
     saving = true;
     note({ text: 'Saving games for offline play…', pct: Math.min(99, Math.floor((100 * m.done) / Math.max(1, m.total))) });

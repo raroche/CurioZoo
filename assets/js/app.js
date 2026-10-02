@@ -25,7 +25,7 @@ import * as speech from './modules/speech.js';
 import { icon } from './modules/icons.js';
 import { hydrateMascots, mascot, setMood } from './modules/mascot.js';
 import { applyStyles } from './modules/style.js';
-import { $, applySpeechButton, hydrateIcons, savingOffline, setBackResolver, setLoadingCreature, setSavingCheck, showError, state, whileLoading } from './modules/shell.js';
+import { $, LOADING_DELAY, applySpeechButton, hydrateIcons, savingOffline, setBackResolver, setLoadingCreature, setSavingCheck, showError, showLoading, state, whileLoading } from './modules/shell.js';
 import { backTarget, roomById, roomFile, roomForRoute } from './rooms/registry.js';
 import { startOffline, applyUpdateIfSafe, isSaving } from './offline.js';
 
@@ -304,8 +304,6 @@ async function boot() {
   document.addEventListener('click', onClick);
   document.addEventListener('keydown', (ev) => { radioGroupKeys(ev); });
   document.addEventListener('keydown', onKeydown);
-  window.addEventListener('hashchange', route);
-
   $('#gp-theme-toggle').addEventListener('click', toggleTheme);
   wireMascot();
   $('#gp-speak-toggle').addEventListener('click', () => {
@@ -318,15 +316,26 @@ async function boot() {
   window.matchMedia('(prefers-color-scheme: dark)')
     .addEventListener('change', () => { if (state.settings.theme === 'auto') applyTheme(); });
 
+  /* Every room waits for the question list, so on a slow line the very
+     first screen waits too: the mascot thinks, the same as for a room. Any
+     address counts here, since the router draws whichever is current once
+     the list is in. */
+  setLoadingCreature('logo');
+  const slow = setTimeout(() => showLoading({ title: 'Opening CurioZoo…', text: 'Getting everything ready.' }), LOADING_DELAY);
   try {
     state.manifest = await data.loadManifest();
   } catch (err) {
+    clearTimeout(slow);
     console.error(err);
     showError('The question list could not be loaded. If you opened index.html directly from the file system, run a small web server in this folder instead — for example: python3 tools/serve.py 8000');
     return;
   }
 
+  clearTimeout(slow);
   setSavingCheck(isSaving);
+  /* Only now: a tap on a link before the list arrived must not draw a room
+     that needs it. The route() below draws wherever the child is by then. */
+  window.addEventListener('hashchange', route);
   route();
   startOffline();
 }

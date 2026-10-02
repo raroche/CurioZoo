@@ -11,6 +11,16 @@ test('comments and spare whitespace go', () => {
   assert.equal(minifyCss('/* hi */\n.a {\n  color: red;\n  margin: 0 auto;\n}\n'), '.a{color:red;margin:0 auto}');
 });
 
+test('a comment is not a space: it never makes a descendant, and never joins two words', () => {
+  assert.equal(minifyCss('.a/**/.b { color: red; }'), '.a.b{color:red}');
+  assert.equal(minifyCss('.a /**/ .b { x: 1 }'), '.a .b{x:1}');
+  assert.equal(minifyCss('.a/**/ .b { x: 1 }'), '.a .b{x:1}');
+  assert.equal(minifyCss('a { b: red/**/blue; c: 1/* x */px }'), 'a{b:red/**/blue;c:1/**/px}');
+  assert.equal(minifyCss('a { b: c/**/; }'), 'a{b:c}');
+  assert.equal(minifyCss('a { b: 1/**/.5em; c: 50/**/% }'), 'a{b:1/**/.5em;c:50/**/%}');
+  assert.equal(minifyCss('.a/**/#b, a/**/:hover { x: 1 }'), '.a#b,a:hover{x:1}');
+});
+
 test('a space before ":" stays, because it means a descendant', () => {
   assert.equal(minifyCss('.a :hover { x: 1 }'), '.a :hover{x:1}');
   assert.equal(minifyCss('.a:hover, .b > .c { x: 1 }'), '.a:hover,.b>.c{x:1}');

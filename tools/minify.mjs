@@ -4,7 +4,7 @@
  * repository keep their comments (which explain a great deal).
  *
  * It only does what cannot change a rule's meaning:
- *   - drops comments;
+ *   - drops comments, without joining what they kept apart;
  *   - turns every run of whitespace into one space, and drops that space
  *     where CSS never needs it: next to { } ; , > and after : and (,
  *     and before );
@@ -15,16 +15,21 @@
  *
  * Used by tools/offline.mjs --minify, which minifies before hashing, so the
  * offline copy's hashes are those of the files actually served.
- * tools/tests/minify.test.mjs holds the tricky cases. When this was written,
- * every stylesheet was also parsed by a real browser both ways and its 1,589
- * rules compared one by one: identical, except that four var() fallbacks
- * lost the space after a comma, which a browser keeps as written and which
- * means nothing.
+ * tools/tests/minify.test.mjs holds the tricky cases. Node has no CSS
+ * parser, so tools/smoke.js (run in a real browser) parses every stylesheet
+ * both ways and compares the rules one by one. They are identical, except
+ * that four var() fallbacks lose the space after a comma, which a browser
+ * keeps as written and which means nothing.
  */
 
 const DROP_AROUND = new Set(['{', '}', ';', ',', '>']);
 const DROP_AFTER = new Set([':', '(']);
 const DROP_BEFORE = new Set([')']);
+/* Would these two characters join into one token with nothing between them?
+   Two name characters ("red" "blue"), or a number running into a decimal
+   point or a percent sign ("1" ".5", "50" "%"). */
+const NAME = /[\w\\-]/;
+const joins = (a, b) => (NAME.test(a) && NAME.test(b)) || (/\d/.test(a) && (b === '.' || b === '%')) || (a === '.' && /\d/.test(b));
 
 export function minifyCss(src) {
   let out = '';
@@ -45,9 +50,14 @@ export function minifyCss(src) {
   while (i < n) {
     const c = src[i];
     if (c === '/' && src[i + 1] === '*') {
+      // A comment is not whitespace: ".a", an empty comment, ".b" is one
+      // element with both classes, not ".b" inside ".a". So it goes without a
+      // trace, unless the two sides would then run together into one word or
+      // number ("red", comment, "blue"), where an empty comment keeps them
+      // apart, exactly as the original did.
       const end = src.indexOf('*/', i + 2);
       i = end < 0 ? n : end + 2;
-      space = true;
+      if (!space && joins(out[out.length - 1] || '', src[i] || '')) put('/**/');
       continue;
     }
     if (c === '"' || c === "'") {

@@ -157,10 +157,14 @@
 
 <!-- The first visit saves every game on the device for offline play; this
      says how far it has got, then that it is done (see offline.js). -->
+<!-- What the note says, for a screen reader. Outside the note, because a
+     live region inside something hidden is not in the accessibility tree, and
+     revealing it with its words already in does not reliably announce them. -->
+<span class="gp-sr-only" id="cz-offline-live" aria-live="polite"></span>
 <div class="cz-offline-note" id="cz-offline-note" hidden>
   <span class="cz-offline-note__spin" aria-hidden="true"></span>
-  <span class="cz-offline-note__words">
-    <span class="cz-offline-note__text" id="cz-offline-note-text" aria-live="polite"></span>
+  <span class="cz-offline-note__words" aria-hidden="true">
+    <span class="cz-offline-note__text" id="cz-offline-note-text"></span>
     <span class="cz-offline-note__pct" id="cz-offline-note-pct" aria-hidden="true"></span>
   </span>
   <progress class="cz-offline-note__bar" id="cz-offline-note-bar" max="100" value="0" aria-label="Saved for offline play"></progress>
