@@ -37,7 +37,9 @@ export function render() {
 
 export function onClick(ev) {
   if (!ev.target.closest('[data-action="reset-progress"]')) return false;
-  if (window.confirm('Clear all practice history? Your grade and colour settings are kept.')) {
+  /* Only the practice shown in this card. Each room keeps its own stars,
+     so a slip here never wipes a chess or logic collection. */
+  if (window.confirm('Clear the practice history shown here? Your grade, colour settings and the stars in each room are kept.')) {
     storage.resetProgress();
     renderHomeStats();
   }

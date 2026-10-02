@@ -52,6 +52,12 @@ const tileLabel = (p, L) => (p.teach ? { icon: '🎓', text: t('teach') } : { ic
 
 let play = null;
 
+/** The child left the puzzle: stop a run, so it never ends on another screen. */
+function leave() {
+  if (play && play.b) RB.stopRun(play.b);
+  play = null;
+}
+
 function draw(host, ctx) {
   if (play && play.b) RB.stopRun(play.b);
   const p = ctx.puzzle;
@@ -88,7 +94,7 @@ function paintBoard() {
   }
   const runBar = mode === 'fix' || mode === 'order' || (mode === 'find' && !play.found)
     ? (play.done ? '' : RB.runBar(b, L)) : '';
-  play.host.innerHTML = `<div class="cz-rb cz-bug cz-bug--${mode}" lang="${L}">
+  RB.renderInto(play.host, `<div class="cz-rb cz-bug cz-bug--${mode}" lang="${L}">
     <p class="cz-code-ask">🐞 ${esc(rb(`bug.ask.${mode}`, L))}</p>
     ${RB.boardSvg(b, L, marks)}
     ${runBar}
@@ -97,7 +103,7 @@ function paintBoard() {
     ${play.done ? '' : `<div class="cz-code-actions"><button type="button" class="gp-btn gp-btn--ghost" data-action="bug-hint">
       <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button></div>`}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : ''}</div>
-  </div>`;
+  </div>`);
   /* The tile picked to swap (order) and the tiles being tapped (find) are
      buttons in the locked editor: let them be pressed. */
   if (mode === 'order' || mode === 'find') {
@@ -235,10 +241,11 @@ function predict(i) {
   const [x, y] = p.choices[i];
   play.picked = [x, y];
   const right = x === p.answer[0] && y === p.answer[1];
+  /* Every answer counts, the right one too: 1 is "right first time". */
+  play.runs += 1;
   play.msg = null;
   animate(() => {
     if (right) { win(); return; }
-    play.runs += 1;
     play.picked = null;
     play.msg = (L) => `<p class="cz-code-say is-wrong">${esc(rb('bug.predict.wrong', L))}</p>`;
     react('oops', 1400);
@@ -343,7 +350,7 @@ function extras({ bank: b, rec, lang: L }) {
 /* Today's bug comes from the day's place in the level's own bank, made
    fresh with the date: a bank level, a new bug. */
 async function dailyFrom(level, iso) {
-  const robot = await fetch(`data/logic/robot/${level}.json`, { cache: 'no-cache' }).then((r) => r.json());
+  const robot = await RB.robotBank(level);
   const all = robot.chapters.flatMap((c) => c.puzzles);
   const rng = rngFor('bug', 'daily', level, iso);
   for (let t = 0; t < 30; t++) {
@@ -358,5 +365,5 @@ const dailyPuzzle = (level, iso) => dailyFrom(level, iso);
 
 export default {
   id: 'bug', bank, chapters, levelOfChapter, tileLabel, draw, repaint, click, key,
-  say: readAloud, extras, dailyPuzzle
+  say: readAloud, extras, dailyPuzzle, leave
 };

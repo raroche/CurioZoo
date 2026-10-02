@@ -21,6 +21,7 @@ import { today } from '../../modules/logicrng.js';
 import { celebrate } from '../../modules/celebrate.js';
 import { $, $$, paint, react, showError, showScreen } from '../../modules/shell.js';
 import { backLink, esc, flipLang, lang, rec, save, say, stars, t, tools, winCard } from './frame.js';
+import { makeDaily } from './daily.js';
 
 /* The games that have been built, each loaded on first use. */
 const LOADERS = {
@@ -41,26 +42,49 @@ async function loadGame(id) {
 
 let view = null;     // what is on screen: { kind, game, mod, ... }
 
+/* Each draw takes a ticket. A draw that waited (for a game or a bank) paints
+   only if no newer draw has started since: two quick level taps share one
+   address, so the address alone cannot tell which answer is the latest. */
+let drawing = 0;
+const ticket = () => ++drawing;
+const stale = (n) => n !== drawing;
+
+/* The puzzle on screen is going away: its game stops any ride or run, so
+   nothing ends later on a screen the child has left. */
+function leaveView() {
+  if (view && view.mod && view.mod.leave) {
+    try { view.mod.leave(); } catch (err) { console.error(err); }
+  }
+}
+
+/** The child went to another room. */
+export function leaveLogic() {
+  leaveView();
+  view = null;
+}
+
 /* ------------------------------------------------------------------ */
 /* Routing                                                             */
 /* ------------------------------------------------------------------ */
 
 export async function renderLogic(parts) {
   const [, game, a, b] = parts;
+  leaveView();
   if (!game) { drawHub(); return; }
   const meta = gameById(game);
   if (!meta || !meta.live || !LOADERS[game]) { location.replace('#/logic'); return; }
   const here = location.hash;
+  const n = ticket();
   let mod;
   try {
     mod = await loadGame(game);
   } catch (err) {
     console.error(err);
     loaded.delete(game);
-    if (location.hash === here) showError(t('loadFail'));
+    if (location.hash === here && !stale(n)) showError(t('loadFail'));
     return;
   }
-  if (location.hash !== here) return;
+  if (location.hash !== here || stale(n)) return;
   if (!a) { await drawGameHome(mod); return; }
   if (a === 'daily') { await drawDaily(mod); return; }
   if (a === 'endless') {
@@ -72,15 +96,16 @@ export async function renderLogic(parts) {
   await drawPuzzle(mod, a, Number(b));
 }
 
-/** Load a level's bank, or show the error screen and return null. */
-async function bankOf(mod, level) {
+/** Load a level's bank for draw `n`, or show the error screen; null if
+    it failed or a newer draw has started meanwhile. */
+async function bankOf(mod, level, n) {
   const here = location.hash;
   try {
     const bank = await mod.bank(level);
-    return location.hash === here ? bank : null;
+    return location.hash === here && !stale(n) ? bank : null;
   } catch (err) {
     console.error(err);
-    if (location.hash === here) showError(t('loadFail'));
+    if (location.hash === here && !stale(n)) showError(t('loadFail'));
     return null;
   }
 }
@@ -101,6 +126,7 @@ function paintChrome() {
 /* ------------------------------------------------------------------ */
 
 function drawHub() {
+  ticket();
   view = { kind: 'hub' };
   const L = lang();
   const r = rec();
@@ -157,9 +183,10 @@ function drawHub() {
 /* ------------------------------------------------------------------ */
 
 async function drawGameHome(mod) {
+  const n = ticket();
   const r = rec();
   const level = P.levelOf(r, mod.id);
-  const bank = await bankOf(mod, level);
+  const bank = await bankOf(mod, level, n);
   if (!bank) return;
   view = { kind: 'game', mod };
   const L = lang();
@@ -231,7 +258,7 @@ async function drawGameHome(mod) {
 async function drawChapter(mod, chapterId) {
   const level = mod.levelOfChapter(chapterId);
   if (!level) { location.replace(`#/logic/${mod.id}`); return; }
-  const bank = await bankOf(mod, level);
+  const bank = await bankOf(mod, level, ticket());
   if (!bank) return;
   const r = rec();
   const ids = idsOf(bank);
@@ -288,7 +315,7 @@ function playShell({ back, title, sub, teach }) {
 async function drawPuzzle(mod, chapterId, n) {
   const level = mod.levelOfChapter(chapterId);
   if (!level) { location.replace(`#/logic/${mod.id}`); return; }
-  const bank = await bankOf(mod, level);
+  const bank = await bankOf(mod, level, ticket());
   if (!bank) return;
   const ids = idsOf(bank);
   const index = bank.chapters.findIndex((c) => c.id === chapterId);
@@ -315,7 +342,8 @@ function drawPlay() {
   });
   v.mod.draw($('#cz-logic-board'), {
     puzzle: v.puzzle, chapterId: v.chapterId, level: v.level, lang: L,
-    onSolved: (result) => solvedPuzzle(result)
+    /* Only for this puzzle, while it is still the one on screen. */
+    onSolved: (result) => { if (view === v) solvedPuzzle(result); }
   });
   paintChrome();
   paint();
@@ -392,12 +420,25 @@ async function drawDaily(mod, endless = null) {
   const level = P.levelOf(r, mod.id);
   const iso = endless ? `endless-${endless}` : today();
   const here = location.hash;
-  /* Most games make today's puzzle at once; Fix the Bug reads the robot
-     levels first, so this may wait. */
-  let made = null;
-  try { made = await mod.dailyPuzzle(level, iso); } catch (err) { console.error(err); }
-  if (location.hash !== here) return;
-  if (!made) { location.replace(`#/logic/${mod.id}`); return; }
+  const n = ticket();
+  view = { kind: 'making', mod };
+  /* Making a puzzle can take a moment on a slow tablet (a Hard code is the
+     slowest, about a quarter of a second), so say so first and let that
+     paint before the work starts. */
+  const v0 = { endless, level, mod, iso };
+  playShell({ back: { href: `#/logic/${mod.id}`, label: t('backGame') }, title: dailyTitle(v0), sub: dailySub(v0) });
+  $('#cz-logic-board').innerHTML = `<p class="cz-logic-making" role="status">${esc(t('making'))}</p>`;
+  paintChrome();
+  paint();
+  showScreen('logicplay');
+  await new Promise((r) => requestAnimationFrame(() => setTimeout(r, 0)));
+  if (location.hash !== here || stale(n)) return;
+  /* Fix the Bug reads the robot levels first, so this may wait. A seed that
+     makes nothing moves on to the next seed, and then to the bank, so this
+     is null only offline with nothing saved: then say so, and count nothing. */
+  const made = await makeDaily(mod, level, iso);
+  if (location.hash !== here || stale(n)) return;
+  if (!made) { showError(t('loadFail')); return; }
   view = { kind: 'daily', mod, level, iso, endless, puzzle: made.puzzle, chapterId: made.chapterId };
   drawDailyPlay();
 }
@@ -414,6 +455,7 @@ function drawDailyPlay() {
   v.mod.draw($('#cz-logic-board'), {
     puzzle: v.puzzle, chapterId: v.chapterId, level: v.level, lang: L, daily: true,
     onSolved: ({ stars: got, why }) => {
+      if (view !== v) return;
       if (v.endless) {
         save(P.markDay(P.addEndless(rec(), v.mod.id, v.level), today()));
         v.win = { got, best: got, why, next: { href: `#/logic/${v.mod.id}/endless/${v.endless + 1}`, labelKey: 'endlessNext' } };

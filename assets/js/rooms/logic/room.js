@@ -6,7 +6,7 @@
  * the contract in ../registry.js.
  */
 
-import { logicClick, logicKey, renderLogic } from './hub.js';
+import { leaveLogic, logicClick, logicKey, renderLogic } from './hub.js';
 
 /* #/logic, #/logic/code, #/logic/code/e1, #/logic/code/e1/7, #/logic/code/daily */
 export function render(parts) {
@@ -15,3 +15,4 @@ export function render(parts) {
 
 export const onClick = logicClick;
 export const onKeydown = logicKey;
+export const leave = leaveLogic;

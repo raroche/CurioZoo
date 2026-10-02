@@ -50,7 +50,11 @@ const tileLabel = (p, L) => (p.teach ? { icon: '🎓', text: t('teach') } : { ic
 /* ------------------------------------------------------------------ */
 
 const CELL = 60;
+const EDGE = 26;      // room round the board for the column letters and row numbers
+const REACH = 30;     // a tap this close to a route's line is a tap on that route
+const ZOOM_FROM = 7;  // boards this many columns wide offer "Bigger board"
 let play = null;
+let big = false;      // the child's choice, kept from board to board
 
 function draw(host, ctx) {
   const p = B.parse(ctx.puzzle.g);
@@ -62,6 +66,7 @@ function draw(host, ctx) {
   const start = hash(ctx.puzzle.g) % ANIMALS.length;
   play = {
     host, ctx, p, maxb, G, sol,
+    x0: Math.min(...p.isl.map((i) => i.x)), y0: Math.min(...p.isl.map((i) => i.y)),
     animal: p.isl.map((_, i) => ANIMALS[(start + i) % ANIMALS.length]),
     vals: G.edges.map(() => 0), undo: [],
     hints: 0, reveals: 0, hint: null, msg: null, done: false, shake: -1, show: new Set()
@@ -69,7 +74,10 @@ function draw(host, ctx) {
   paintBoard();
 }
 
-const name = (i, L, cap = false) => islandName(play.animal[i], L, cap);
+/* An island's square as the board prints it: "C4" is column C, row 4. */
+const colLetter = (c) => String.fromCharCode(65 + c);
+const square = (i) => `${colLetter(play.p.isl[i].x - play.x0)}${play.p.isl[i].y - play.y0 + 1}`;
+const name = (i, L, cap = false) => islandName(play.animal[i], L, cap, square(i));
 const countAt = (i) => B.countAt(play.G, play.vals, i);
 
 /* ------------------------------------------------------------------ */
@@ -86,11 +94,12 @@ function edgeSvg(k, L) {
   const v = play.vals[k];
   const horiz = e.dir === 'h';
   const R = 23;
-  /* The water between the two islands, as a tap target. */
-  const hx = horiz ? x1 + R : x1 - 18;
-  const hy = horiz ? y1 - 18 : y1 + R;
-  const hw = horiz ? x2 - x1 - 2 * R : 36;
-  const hh = horiz ? 36 : y2 - y1 - 2 * R;
+  /* The water between the two islands, as a focus ring and hover. A tap
+     anywhere near the line counts too (see edgeNear). */
+  const hx = horiz ? x1 + R : x1 - 24;
+  const hy = horiz ? y1 - 24 : y1 + R;
+  const hw = horiz ? x2 - x1 - 2 * R : 48;
+  const hh = horiz ? 48 : y2 - y1 - 2 * R;
   const off = v === 2 ? [-5, 5] : v === 1 ? [0] : [];
   const lines = off.map((o) => (horiz
     ? `<line x1="${x1 + R - 2}" y1="${y1 + o}" x2="${x2 - R + 2}" y2="${y2 + o}"/>`
@@ -98,7 +107,7 @@ function edgeSvg(k, L) {
   const wrong = play.show.has(k) ? ' is-wrong' : '';
   const hint = play.hint && play.hint.edge === k && play.hint.level >= 1 ? ' is-hint' : '';
   const shake = play.shake === k ? ' is-shake' : '';
-  const label = bt('route', L, { I: name(e.a, L), J: name(e.b, L), k: v });
+  const label = bt(v === 1 ? 'route1' : 'route', L, { I: name(e.a, L), J: name(e.b, L), k: v });
   return `<g class="cz-br-edge${wrong}${hint}${shake}">
     <g class="cz-br-planks">${lines}</g>
     <rect class="cz-br-hit" x="${hx}" y="${hy}" width="${Math.max(hw, 8)}" height="${Math.max(hh, 8)}" rx="8"
@@ -136,13 +145,25 @@ function paintBoard() {
      shown floating in a sea of nothing. */
   const xs = p.isl.map((i) => i.x);
   const ys = p.isl.map((i) => i.y);
-  const x0 = Math.min(...xs) * CELL;
-  const y0 = Math.min(...ys) * CELL;
-  const cols = Math.max(...xs) - Math.min(...xs) + 1;
-  const rows = Math.max(...ys) - Math.min(...ys) + 1;
+  const x0 = play.x0 * CELL;
+  const y0 = play.y0 * CELL;
+  const cols = Math.max(...xs) - play.x0 + 1;
+  const rows = Math.max(...ys) - play.y0 + 1;
   const W = cols * CELL;
   const H = rows * CELL;
-  const svg = `<svg class="cz-br-svg" viewBox="${x0} ${y0} ${W} ${H}" data-style="min-width:${cols * 34}px;max-width:${cols * 72}px">
+  /* Column letters across the top and row numbers down the side, so every
+     island has a square ("C4") its name can use. */
+  const coords = [
+    ...Array.from({ length: cols }, (_, c) => `<text class="cz-br-coord" x="${x0 + c * CELL + CELL / 2}" y="${y0 - 8}">${colLetter(c)}</text>`),
+    ...Array.from({ length: rows }, (_, r) => `<text class="cz-br-coord" x="${x0 - EDGE / 2}" y="${y0 + r * CELL + CELL / 2 + 5}">${r + 1}</text>`)
+  ].join('');
+  /* "Bigger board" makes a cell 64 px, so every route is a thumb wide; the
+     board then scrolls sideways in its frame. */
+  const zoom = cols >= ZOOM_FROM;
+  const px = zoom && big ? 64 : 34;
+  const svg = `<svg class="cz-br-svg" viewBox="${x0 - EDGE} ${y0 - EDGE} ${W + EDGE} ${H + EDGE}"
+      data-style="min-width:${Math.round((cols + EDGE / CELL) * px)}px;max-width:${Math.round((cols + EDGE / CELL) * Math.max(px, 72))}px">
+    <g aria-hidden="true">${coords}</g>
     <rect class="cz-br-water" x="${x0}" y="${y0}" width="${W}" height="${H}" rx="14"/>
     ${play.G.edges.map((_, k) => edgeSvg(k, L)).join('')}
     ${p.isl.map((_, i) => islandSvg(i, L)).join('')}
@@ -156,7 +177,9 @@ function paintBoard() {
   play.host.innerHTML = `<div class="cz-br" lang="${L}">
     <p class="cz-code-ask">${esc(bt('ask', L))}</p>
     <p class="cz-truth-rules"><span>${esc(bt('rules', L))}</span></p>
-    <p class="cz-rule-help">${esc(bt('tapHelp', L))}</p>
+    <p class="cz-rule-help">${esc(bt('tapHelp', L))} ${esc(bt('coordHelp', L))}</p>
+    ${zoom ? `<p class="cz-br-zoom"><button type="button" class="gp-btn gp-btn--ghost" data-action="br-zoom" aria-pressed="${big}">
+      <span aria-hidden="true">${big ? '🔍−' : '🔍+'}</span> ${esc(bt(big ? 'smaller' : 'bigger', L))}</button></p>` : ''}
     <div class="cz-br-wrap">${svg}</div>
     ${actions}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : helper(L)}</div>
@@ -299,13 +322,51 @@ function check() {
 /* Clicks, keys, reading aloud                                         */
 /* ------------------------------------------------------------------ */
 
+/**
+ * The route a tap on the board means: the one whose line (centre to centre)
+ * passes closest, within REACH. So every route's target is as big as the
+ * board allows, not just the strip of water drawn for it. A tap on an
+ * island's number is no route; a tap from the keyboard has no place and
+ * goes by its focused route instead.
+ */
+function edgeNear(ev) {
+  const svg = ev.target.closest && ev.target.closest('.cz-br-svg');
+  if (!svg || (!ev.clientX && !ev.clientY) || !svg.getScreenCTM) return -1;
+  const m = svg.getScreenCTM();
+  if (!m) return -1;
+  const pt = new DOMPoint(ev.clientX, ev.clientY).matrixTransform(m.inverse());
+  if (play.p.isl.some((isl) => { const [cx, cy] = centre(isl); return Math.hypot(pt.x - cx, pt.y - cy) < 16; })) return -1;
+  let best = -1;
+  let bestD = REACH;
+  play.G.edges.forEach((e, k) => {
+    const [x1, y1] = centre(play.p.isl[e.a]);
+    const [x2, y2] = centre(play.p.isl[e.b]);
+    const along = e.dir === 'h' ? pt.x : pt.y;
+    const lo = e.dir === 'h' ? Math.min(x1, x2) : Math.min(y1, y2);
+    const hi = e.dir === 'h' ? Math.max(x1, x2) : Math.max(y1, y2);
+    if (along < lo || along > hi) return;
+    const d = e.dir === 'h' ? Math.abs(pt.y - y1) : Math.abs(pt.x - x1);
+    if (d < bestD) { bestD = d; best = k; }
+  });
+  return best;
+}
+
 function click(ev) {
   if (!play || play.done) return false;
+  const near = edgeNear(ev);
+  if (near >= 0) { tap(near); return true; }
   const hit = ev.target.closest('[data-br-edge]');
   if (hit) { tap(Number(hit.dataset.brEdge)); return true; }
   const action = ev.target.closest('[data-action]');
   if (!action) return false;
   switch (action.dataset.action) {
+    case 'br-zoom': {
+      big = !big;
+      paintBoard();
+      const btn = play.host.querySelector('[data-action="br-zoom"]');
+      if (btn) btn.focus();
+      return true;
+    }
     case 'br-undo': {
       const last = play.undo.pop();
       if (last) play.vals[last[0]] = last[1];

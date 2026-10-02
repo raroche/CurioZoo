@@ -25,18 +25,9 @@ import * as RB from './robotbench.js';
 /* The bank and the worlds                                             */
 /* ------------------------------------------------------------------ */
 
-const banks = new Map();
-
-export async function robotBank(level) {
-  if (!banks.has(level)) {
-    banks.set(level, fetch(`data/logic/robot/${level}.json`, { cache: 'no-cache' }).then((res) => {
-      if (!res.ok) throw new Error(`Could not load the ${level} robot levels`);
-      return res.json();
-    }));
-    banks.get(level).catch(() => banks.delete(level));
-  }
-  return banks.get(level);
-}
+/* The bank is loaded by robotbench.js, which Fix the Bug shares, so the
+   robot levels are fetched once for both games. */
+const { robotBank } = RB;
 
 const chapters = (level, L) => G.WORLDS[level].map((w) => ({ id: w.id, title: rb(`ch.${w.id}`, L), idea: rb(`ch.${w.id}.idea`, L) }));
 const levelOfChapter = (id) => (G.world(id) || {}).level || null;
@@ -48,6 +39,12 @@ const tileLabel = (p, L) => (p.teach ? { icon: '🎓', text: t('teach') } : { ic
 
 let play = null;
 
+/** The child left the puzzle: stop a run, so it never ends on another screen. */
+function leave() {
+  if (play && play.b) RB.stopRun(play.b);
+  play = null;
+}
+
 function draw(host, ctx) {
   if (play && play.b) RB.stopRun(play.b);
   play = { host, ctx, b: RB.makeBench(ctx.puzzle), hint: 0, done: false, msg: null };
@@ -58,7 +55,7 @@ function paintBoard() {
   const L = lang();
   const { b } = play;
   b.locked = play.done || Boolean(b.runner && b.runner.timer);
-  play.host.innerHTML = `<div class="cz-rb" lang="${L}">
+  RB.renderInto(play.host, `<div class="cz-rb" lang="${L}">
     <p class="cz-code-ask">${esc(rb(b.level.abs ? 'askAbs' : 'askRel', L))}</p>
     ${RB.boardSvg(b, L)}
     ${play.done ? '' : RB.runBar(b, L)}
@@ -66,7 +63,7 @@ function paintBoard() {
     ${play.done ? '' : `<div class="cz-code-actions"><button type="button" class="gp-btn gp-btn--ghost" data-action="rb-hint">
       <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button></div>`}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : ''}</div>
-  </div>`;
+  </div>`);
   paint();
 }
 
@@ -146,14 +143,15 @@ function hint() {
     play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb(`hint.${kind}`, L))}</p>`;
   } else {
     /* Show one more tile of a program that works: the first place the
-       child's Main differs, or, once Main matches, the helper rows. */
+       child's Main differs (extra tiles at its end are a difference too),
+       or, once Main matches, the helper rows. */
     const ref = b.level.ref;
     RB.stopRun(b);
     const mine = b.prog.main;
     let k = 0;
     while (k < mine.length && k < ref.main.length && JSON.stringify(mine[k]) === JSON.stringify(ref.main[k])) k += 1;
     b.undo.push(JSON.stringify(b.prog));
-    if (k < ref.main.length) b.prog.main = V.clone({ main: ref.main.slice(0, k + 1) }).main;
+    if (k < ref.main.length || mine.length > ref.main.length) b.prog.main = V.clone({ main: ref.main.slice(0, k + 1) }).main;
     else for (const r of b.rows) if (ref[r]) b.prog[r] = V.clone({ x: ref[r] }).x;
     b.caret = { path: ['main'], index: b.prog.main.length };
     b.sel = null;
@@ -237,5 +235,5 @@ function dailyPuzzle(level, iso) {
 
 export default {
   id: 'robot', bank: robotBank, chapters, levelOfChapter, tileLabel, draw, repaint, click, key,
-  say: readAloud, extras, dailyPuzzle
+  say: readAloud, extras, dailyPuzzle, leave
 };

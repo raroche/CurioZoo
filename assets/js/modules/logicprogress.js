@@ -17,7 +17,7 @@ export const UNLOCK_AT = 20;      // solves in a chapter that open the next one
 export const AHEAD = 3;           // puzzles open past the ones solved
 const DAYS_KEPT = 14;
 
-const blank = () => ({ v: 1, lang: 'en', level: {}, stars: {}, daily: {}, days: [], endless: {} });
+const blank = () => ({ v: 1, lang: 'en', level: {}, stars: {}, daily: {}, dailySum: {}, days: [], endless: {} });
 
 const isObj = (x) => x && typeof x === 'object' && !Array.isArray(x);
 const LEVELS = ['easy', 'medium', 'hard'];
@@ -42,6 +42,15 @@ export function normalise(raw) {
       const keep = {};
       for (const [k, n] of Object.entries(games)) if (Number.isInteger(n) && n >= 1 && n <= 3) keep[k] = n;
       if (Object.keys(keep).length) out.daily[day] = keep;
+    }
+  }
+  /* Daily stars ever earned, per game. Old days are dropped from `daily`,
+     but their stars stay here, so a total (and a badge) never goes down. */
+  const kept = sumDaily(out.daily);
+  for (const g of Object.keys(kept)) out.dailySum[g] = kept[g];
+  if (isObj(raw.dailySum)) {
+    for (const [g, n] of Object.entries(raw.dailySum)) {
+      if (/^[a-z]+$/.test(g) && Number.isInteger(n) && n > (out.dailySum[g] || 0)) out.dailySum[g] = n;
     }
   }
   if (Array.isArray(raw.days)) out.days = [...new Set(raw.days.filter((d) => ISO.test(d)))].sort().slice(-DAYS_KEPT);
@@ -110,15 +119,26 @@ export function tally(rec, game, ids) {
   return { solved, stars };
 }
 
-/** Every star in one game, or in the whole room. */
+/* Daily stars per game, from the days still kept. */
+function sumDaily(daily) {
+  const out = {};
+  for (const games of Object.values(daily)) {
+    for (const [k, v] of Object.entries(games)) {
+      const g = k.split(':')[0];
+      out[g] = (out[g] || 0) + v;
+    }
+  }
+  return out;
+}
+
+/** Every star in one game, or in the whole room, daily stars of dropped days included. */
 export function totalStars(rec, game = null) {
-  let n = Object.entries(rec.stars)
+  const n = Object.entries(rec.stars)
     .filter(([k]) => !game || k.startsWith(`${game}:`))
     .reduce((sum, [, v]) => sum + v, 0);
-  for (const games of Object.values(rec.daily)) {
-    for (const [k, v] of Object.entries(games)) if (!game || k.startsWith(`${game}:`)) n += v;
-  }
-  return n;
+  const sums = { ...sumDaily(rec.daily) };
+  for (const [g, v] of Object.entries(rec.dailySum || {})) sums[g] = Math.max(sums[g] || 0, v);
+  return n + (game ? sums[game] || 0 : Object.values(sums).reduce((a, b) => a + b, 0));
 }
 
 /**
@@ -169,10 +189,13 @@ export function setDaily(rec, game, level, iso, n) {
   const day = rec.daily[iso] || {};
   const best = Math.max(day[k] || 0, Math.min(3, Math.max(1, n | 0)));
   if (best === day[k]) return rec;
-  /* Only the last few weeks of daily results are worth keeping. */
+  /* Only the last few weeks of daily results are worth keeping; the stars
+     they hold are added to the lifetime sum first, so none are lost. */
+  const dailySum = { ...(rec.dailySum || {}) };
+  dailySum[game] = Math.max(dailySum[game] || 0, sumDaily(rec.daily)[game] || 0) + best - (day[k] || 0);
   const daily = { ...rec.daily, [iso]: { ...day, [k]: best } };
   const keepFrom = Object.keys(daily).sort().slice(-60);
-  return { ...rec, daily: Object.fromEntries(keepFrom.map((d) => [d, daily[d]])) };
+  return { ...rec, dailySum, daily: Object.fromEntries(keepFrom.map((d) => [d, daily[d]])) };
 }
 
 export const levelOf = (rec, game) => rec.level[game] || 'easy';

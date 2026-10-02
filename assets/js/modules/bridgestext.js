@@ -16,6 +16,7 @@ export const BRIDGES_TEXT = {
     tapHelp: 'Tap the water between two islands to build a bridge. Tap again for two, and again to take them away.',
     islandLabel: '{I}: needs {n}, has {k}',
     route: 'Route between {I} and {J}: {k} bridges',
+    route1: 'Route between {I} and {J}: 1 bridge',
     crossNo: "Bridges can't cross. Take the other bridge away first.",
     over: '{I} has too many bridges.',
     cut: 'Those islands are cut off: they have all their bridges but cannot reach the rest of the zoo.',
@@ -25,6 +26,8 @@ export const BRIDGES_TEXT = {
     checkBadN: '{n} bridges do not belong.',
     showMe: 'Show me',
     undo: 'Undo',
+    bigger: 'Bigger board', smaller: 'Smaller board',
+    coordHelp: 'Every island has a letter and a number, like C4: its column and its row.',
     restart: 'Start again',
     right: 'Every island is happy!',
     tryTech: 'Try this: {t}',
@@ -101,6 +104,7 @@ export const BRIDGES_TEXT = {
     tapHelp: 'Toca el agua entre dos islas para hacer un puente. Toca otra vez para hacer dos, y otra vez para quitarlos.',
     islandLabel: '{I}: necesita {n}, tiene {k}',
     route: 'Ruta entre {I} y {J}: {k} puentes',
+    route1: 'Ruta entre {I} y {J}: 1 puente',
     crossNo: 'Los puentes no se pueden cruzar. Quita primero el otro puente.',
     over: '{I} tiene demasiados puentes.',
     cut: 'Esas islas están aisladas: tienen todos sus puentes, pero no llegan al resto del zoo.',
@@ -110,6 +114,8 @@ export const BRIDGES_TEXT = {
     checkBadN: '{n} puentes no van ahí.',
     showMe: 'Muéstramelos',
     undo: 'Deshacer',
+    bigger: 'Tablero más grande', smaller: 'Tablero más pequeño',
+    coordHelp: 'Cada isla tiene una letra y un número, como C4: su columna y su fila.',
     restart: 'Empezar de nuevo',
     right: '¡Todas las islas están contentas!',
     tryTech: 'Prueba esto: {t}',
@@ -182,9 +188,13 @@ export const BRIDGES_TEXT = {
   }
 };
 
-/** "the lion island" / "la isla del león", "la isla de la jirafa". */
-export function islandName(animal, L, cap = false) {
-  const t = L === 'es' ? `la isla ${animal.es.art === 'la' ? 'de la' : 'del'} ${animal.es.n}` : `the ${animal.en} island`;
+/**
+ * "the lion island (C4)" / "la isla del león (C4)". A big board has more
+ * islands than there are animals, so the square (column letter, row number,
+ * as printed round the board) is what makes the name one island's alone.
+ */
+export function islandName(animal, L, cap = false, at = '') {
+  const t = (L === 'es' ? `la isla ${animal.es.art === 'la' ? 'de la' : 'del'} ${animal.es.n}` : `the ${animal.en} island`) + (at ? ` (${at})` : '');
   return cap ? t.charAt(0).toUpperCase() + t.slice(1) : t;
 }
 

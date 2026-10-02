@@ -115,6 +115,43 @@ describe('endless practice and badges', () => {
   });
 });
 
+describe('stars never go down', () => {
+  const dayN = (i) => new Date(Date.UTC(2026, 0, 1 + i)).toISOString().slice(0, 10);
+
+  test('dropping old daily results keeps their stars and the badge', () => {
+    let rec = P.normalise({});
+    for (let i = 0; i < 25; i++) rec = P.setDaily(rec, 'code', 'easy', dayN(i), 3);
+    rec = P.setStars(rec, 'code', 'e1-01', 1);
+    assert.equal(P.totalStars(rec), 76);
+    assert.equal(P.badgeOf(P.totalStars(rec)).badge.id, 'spotter');
+    let last = P.totalStars(rec);
+    for (let i = 25; i < 100; i++) {
+      rec = P.setDaily(rec, 'truth', 'easy', dayN(i), 1);
+      assert.ok(P.totalStars(rec) > last, `day ${i}`);
+      last = P.totalStars(rec);
+    }
+    assert.equal(Object.keys(rec.daily).length, 60);
+    assert.equal(P.totalStars(rec), 76 + 75);
+    assert.equal(P.totalStars(rec, 'code'), 76);
+  });
+
+  test('a better daily result adds only the difference', () => {
+    let rec = P.setDaily(P.normalise({}), 'code', 'easy', '2026-10-02', 1);
+    rec = P.setDaily(rec, 'code', 'easy', '2026-10-02', 3);
+    rec = P.setDaily(rec, 'code', 'easy', '2026-10-02', 2);
+    assert.equal(P.totalStars(rec), 3);
+  });
+
+  test('the lifetime sum survives a save and load, and an old record gets one', () => {
+    let rec = P.normalise({});
+    for (let i = 0; i < 70; i++) rec = P.setDaily(rec, 'code', 'easy', dayN(i), 2);
+    assert.equal(P.totalStars(P.normalise(JSON.parse(JSON.stringify(rec)))), 140);
+    const old = P.normalise({ daily: { '2026-10-01': { 'code:easy': 3 } } });
+    assert.deepEqual(old.dailySum, { code: 3 });
+    assert.equal(P.normalise({ dailySum: { code: -4, 'x:y': 9 } }).dailySum.code, undefined);
+  });
+});
+
 describe('random numbers', () => {
   test('the same seed gives the same numbers', () => {
     const a = mulberry32(42);

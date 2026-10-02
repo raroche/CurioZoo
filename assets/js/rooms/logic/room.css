@@ -469,6 +469,10 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 .cz-br-planks line { stroke: var(--cz-mango); stroke-width: 5; stroke-linecap: round; }
 .cz-br-edge.is-wrong .cz-br-planks line { stroke: var(--gp-retry); stroke-dasharray: 7 5; }
 .cz-br-hit { fill: transparent; cursor: pointer; }
+.cz-br-svg { cursor: pointer; }
+.cz-br-coord { font-size: 15px; font-weight: 800; fill: var(--gp-ink-muted); text-anchor: middle; }
+.cz-br-island { pointer-events: none; }
+.cz-br-zoom { margin: 0 0 var(--gp-space-2); }
 .cz-br-hit:hover { fill: var(--cz-lagoon-line); fill-opacity: 0.35; }
 .cz-br-hit:focus { outline: none; }
 .cz-br-hit:focus-visible { stroke: var(--gp-focus); stroke-width: 3; stroke-dasharray: 6 4; }
@@ -595,7 +599,10 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
   border-radius: 8px; background: var(--gp-surface); border: 1px dashed var(--gp-line-strong);
 }
 .cz-rb-end { width: 28px; min-height: 44px; padding: 0; border: none; background: none; font-size: 22px; color: var(--room-ink); cursor: pointer; }
-.cz-rb-else { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase; }
+.cz-rb-else {
+  font: inherit; font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase;
+  min-width: 44px; min-height: 44px; padding: 0 6px; border: none; border-radius: 8px; background: none; cursor: pointer;
+}
 .cz-rb-caret { display: inline-block; width: 3px; height: 40px; border-radius: 2px; background: var(--gp-focus); animation: cz-rb-blink 1s steps(2, start) infinite; }
 @keyframes cz-rb-blink { to { visibility: hidden; } }
 .cz-rb-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 6px 8px; border-radius: var(--gp-radius-md); background: var(--gp-surface-2); }
@@ -623,3 +630,6 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 .cz-rb-mark:focus-visible circle { stroke-width: 5; }
 .cz-bug .cz-rb-tile.is-tappable:hover { border-color: var(--room); }
 .cz-bug-opt { min-height: 48px; font-size: var(--gp-text-md); }
+
+/* Shown while today's or an endless puzzle is being made. */
+.cz-logic-making { padding: var(--gp-space-6) 0; text-align: center; color: var(--gp-ink-muted); font-weight: 700; }

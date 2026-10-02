@@ -31,8 +31,15 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   `rooms/logic/<game>.js`, added to `LOADERS` in hub.js. Its default export
   is the adapter: `id, bank(level), chapters(level, lang), levelOfChapter(id),
   tileLabel(p, lang), draw(host, ctx), repaint(lang), click(ev), key(ev),
-  say(), extras(...), news(...), dailyPuzzle(level, iso)`. `code.js` is the
-  model. `ctx.onSolved({ stars, why: (lang) => [html, ...] })` ends a puzzle.
+  say(), extras(...), news(...), dailyPuzzle(level, iso), leave()`. `code.js`
+  is the model. `ctx.onSolved({ stars, why: (lang) => [html, ...] })` ends a
+  puzzle; the hub ignores it once the child has left that puzzle.
+- `leave()` is optional. A game with timers or animation frames must have it:
+  the hub calls it on every move inside the room and when the child goes to
+  another room. Every timer and frame must also check it still belongs to the
+  puzzle on screen.
+- `dailyPuzzle` may return null for a seed. `rooms/logic/daily.js` then tries
+  the next seeds and, last, a bank puzzle, so the child always gets one.
 - Every sentence a board shows must be a function of the language
   (`play.msg = (L) => ...`) so a language switch mid-puzzle redraws it without
   losing the child's work.
@@ -142,6 +149,34 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - Badges by total stars, from Curious Cub (0) to Zoo Genius (1,000); shown
   on the hub with how many stars to the next. They only go up.
 - SPANISH-REVIEW.md: the choices a native speaker should confirm.
+
+## Review of the first build: what changed
+A review (15 points) and the PR's bot comments found these; each is fixed
+and has a test in node or in `tools/logicsmoke.js` (paste it on #/logic).
+- A seed that makes no puzzle tries the next seeds, then a bank puzzle
+  (`rooms/logic/daily.js`); it never sends the child back silently.
+- Leaving a puzzle stops its run or ride (`leave()`); `onSolved` from a
+  puzzle no longer on screen is ignored. Rooms may now export `leave()`.
+- Draws take a ticket, so two quick level taps show the last one tapped.
+- "Where will it stop?" trains carry 🚂, not the answer's animal; every
+  prediction counts, so wrong-then-right is ★, not ★★★.
+- A Fix the Bug "find" puzzle has exactly one place to fix; the checker
+  enforces it (12 Medium puzzles were rebuilt).
+- Daily stars are also summed for life (`dailySum`), so dropping old days
+  never lowers the total or a badge.
+- Robot editor: Else is a button, the focused control keeps the focus after
+  a redraw, the caret is spoken, and the board is described in words.
+- Zoo Bridges: a tap picks the nearest route line; boards 7+ columns wide
+  offer "Bigger board" (64 px cells); islands are named with their square,
+  "the lion island (C4)", and the board prints column letters and row numbers.
+- Fix the Bug reuses Robot Path's cached bank; "Making your puzzle…" shows
+  before a daily or endless puzzle is made.
+- Not done, on purpose: a Web Worker for making puzzles (the slowest, a Hard
+  code, is about 0.25 s once per puzzle on a slow tablet; revisit if a
+  playtest feels it), and saving each made puzzle. **Policy:** daily stars
+  are kept by date and endless by count, never by puzzle content, so a
+  change to a maker may change which puzzle an old date shows but can never
+  lose anything earned. No version number is needed.
 
 ## What is left for people, not code
 - A native Spanish read (SPANISH-REVIEW.md).

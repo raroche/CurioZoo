@@ -175,7 +175,7 @@ for (const room of fs.readdirSync(roomsDir, { withFileTypes: true })) {
   if (room.isDirectory() && fs.existsSync(f)) sheets.push(f);
 }
 const defined = new Map();   // keyframes name -> sheet
-const used = new Map();      // animation name -> sheet that uses it
+const used = new Map();      // animation name -> every sheet that uses it
 for (const sheet of sheets) {
   /* Comments out first: they talk about animations by name. */
   const text = fs.readFileSync(sheet, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
@@ -184,15 +184,21 @@ for (const sheet of sheets) {
     defined.set(m[1], sheet);
   }
   for (const m of text.matchAll(/animation(?:-name)?\s*:\s*([^;}]+)/g)) {
-    for (const name of m[1].match(/(?<![\w-])(?:gp|cz)-[\w-]+/g) || []) used.set(name, sheet);
+    for (const name of m[1].match(/(?<![\w-])(?:gp|cz)-[\w-]+/g) || []) {
+      if (!used.has(name)) used.set(name, new Set());
+      used.get(name).add(sheet);
+    }
   }
 }
-for (const [name, sheet] of used) {
-  /* A room may use the shared keyframes, which are always loaded first; the
-     shared sheet may not use a room's, which may not be loaded at all. */
-  if (!defined.has(name)) err(`${sheet} animates with "${name}", but no @keyframes ${name} exists`);
-  else if (sheet === CSS && defined.get(name) !== CSS) {
-    err(`${CSS} uses @keyframes ${name}, which only ${defined.get(name)} defines`);
+for (const [name, users] of used) {
+  /* A sheet may use the shared keyframes, which are always loaded first, or
+     its own. It may not use another room's: that room may not be loaded at
+     all, and then nothing moves. */
+  for (const sheet of users) {
+    if (!defined.has(name)) err(`${sheet} animates with "${name}", but no @keyframes ${name} exists`);
+    else if (defined.get(name) !== CSS && defined.get(name) !== sheet) {
+      err(`${sheet} uses @keyframes ${name}, which only ${defined.get(name)} defines`);
+    }
   }
 }
 for (const [name, sheet] of defined) {

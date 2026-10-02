@@ -226,6 +226,9 @@ export function makeBugPuzzle(level, mode, rng, { easy = false, maxMoves = 24 } 
     if (mode === 'find') {
       const tile = V.tileAt(mu.prog, mu.at);
       const right = V.tileAt(ref, mu.at);
+      /* "Tap the wrong tile" needs one wrong tile: no other tile, and no
+         added tile, may also make it work. */
+      if (fixes.size !== 1) continue;
       if (!tile || !right || !fixes.has(enc(mu.at)) || ['M3', 'M4', 'M5', 'M6', 'M9'].includes(mu.m)) continue;
       /* Three replacements to choose from: the right one and two that do not work. */
       const opts = [];

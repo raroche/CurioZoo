@@ -37,6 +37,8 @@
  *   onClick(ev)      optional. A click anywhere while this room is showing.
  *                    Return true if it was the room's.
  *   onKeydown(ev)    optional. The same, for a key.
+ *   leave()          optional. The child went to another room: stop timers
+ *                    and animations so nothing finishes on a hidden screen.
  */
 
 const HOME = { href: '#/home', label: 'Home' };

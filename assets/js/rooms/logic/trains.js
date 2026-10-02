@@ -60,9 +60,28 @@ const colX = (c) => X0 + c * COL;
 
 let play = null;
 let timer = null;
+let frame = 0;
+
+/* Stop a ride in progress: its frames and pauses belong to a puzzle that is
+   no longer on screen. */
+function stopRide() {
+  clearTimeout(timer);
+  cancelAnimationFrame(frame);
+  timer = null;
+  frame = 0;
+}
+
+/** The child left the puzzle. */
+function leave() {
+  stopRide();
+  play = null;
+}
 
 const animalOfLane = (i) => animalById(play.p.stations[i]);
-const trainAnimal = (ti) => animalOfLane(play.p.trains[ti].to);
+/* A train carries the animal of the house it must reach. A "where will it
+   stop?" train carries no one: its animal would give the answer away. */
+const NO_ONE = { id: 'train', emoji: '🚂' };
+const trainAnimal = (ti) => (play.mode === 'predict' ? NO_ONE : animalOfLane(play.p.trains[ti].to));
 
 /* "up" / "hacia arriba": where a switch points, for a hint's sentence. */
 function dirWord(k, v, L) {
@@ -81,7 +100,7 @@ function stateWord(k, v, L) {
 /* ------------------------------------------------------------------ */
 
 function draw(host, ctx) {
-  clearTimeout(timer);
+  stopRide();
   const p = ctx.puzzle;
   play = {
     host, ctx, p, mode: p.mode, hints: 0, hint: null, runs: 0, msg: null, done: false, busy: false,
@@ -275,8 +294,12 @@ function ride(queue, done) {
   play.routes = [];
   const svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
   let i = 0;
+  /* Every frame and pause checks it still belongs to the puzzle on screen. */
+  const mine = play;
   const next = () => {
-    if (i >= ds.length || !play) { play.mover = null; play.busy = false; done(runs); return; }
+    timer = null;
+    if (play !== mine) return;
+    if (i >= ds.length) { play.mover = null; play.busy = false; done(runs); return; }
     svgPath.setAttribute('d', ds[i]);
     const len = svgPath.getTotalLength();
     const ms = 260 * (play.p.lay.cols + 2);
@@ -288,13 +311,15 @@ function ride(queue, done) {
     paintBoard();
     const el = play.host.querySelector('.cz-tr-mover');
     const step = (now) => {
+      frame = 0;
+      if (play !== mine) return;
       const f = Math.min(1, (now - start) / ms);
       const pt = svgPath.getPointAtLength(len * f);
       if (el) { el.setAttribute('x', pt.x - 12); el.setAttribute('y', pt.y + 8); }
-      if (f < 1) requestAnimationFrame(step);
+      if (f < 1) frame = requestAnimationFrame(step);
       else { play.routes.push(ds[i]); i += 1; timer = setTimeout(next, 120); }
     };
-    requestAnimationFrame(step);
+    frame = requestAnimationFrame(step);
   };
   next();
 }
@@ -380,14 +405,16 @@ function sendNext() {
 function predict(i) {
   if (play.busy) return;
   const run = T.runAll(play.p.lay, [play.p.trains[0].from], play.state)[0];
+  /* Every answer counts, the right one too: 1 is "right first time". */
+  play.runs += 1;
   if (i !== run.to) {
-    play.runs += 1;
     play.msg = (L) => `<p class="cz-code-say is-wrong">${esc(tr('predictWrong', L))}</p>`;
     react('oops', 1500);
     paintBoard();
     return;
   }
   play.msg = null;
+  play.stop = run.to;
   ride([0], (runs) => {
     showResults([0], runs);
     win();
@@ -405,7 +432,10 @@ function win() {
     wrong: play.siding ? play.siding.wrong : 0
   });
   const pulls = play.pulls;
-  play.msg = (L) => `<p class="cz-code-say is-right">✓ ${esc(tr('right', L))}</p>`;
+  const stop = play.stop;
+  play.msg = (L) => `<p class="cz-code-say is-right">✓ ${esc(mode === 'predict'
+    ? tr('predictRight', L, { H: houseName(animalOfLane(stop), L) })
+    : tr('right', L))}</p>`;
   paintBoard();
   react('happy', 2000);
   play.ctx.onSolved({
@@ -627,5 +657,5 @@ function dailyPuzzle(level, iso) {
 
 export default {
   id: 'trains', bank, chapters, levelOfChapter, tileLabel, draw, repaint, click, key,
-  say: readAloud, extras, dailyPuzzle
+  say: readAloud, extras, dailyPuzzle, leave
 };

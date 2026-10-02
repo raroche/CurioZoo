@@ -158,6 +158,9 @@ async function route() {
   }
   /* The child may have moved on while it loaded. */
   if ((location.hash || '#/home') !== hash) return;
+  if (current && current !== room && current.leave) {
+    try { current.leave(); } catch (err) { console.error(err); }
+  }
   current = room;
   room.render(parts.length ? parts : ['home']);
 }

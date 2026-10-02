@@ -124,3 +124,12 @@ describe('the shipped bank', () => {
     });
   }
 });
+
+describe('island names', () => {
+  test('carry the square, so two lion islands are never the same name', () => {
+    const lion = ANIMALS.find((a) => a.id === 'lion');
+    assert.equal(islandName(lion, 'en', true, 'C4'), 'The lion island (C4)');
+    assert.equal(islandName(lion, 'es', false, 'K12'), 'la isla del león (K12)');
+    assert.notEqual(islandName(lion, 'en', false, 'A1'), islandName(lion, 'en', false, 'B1'));
+  });
+});

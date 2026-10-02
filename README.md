@@ -705,6 +705,8 @@ GiftedPrep/
     ├── linkcheck.mjs           follows every internal link to a real route
     ├── smoke.js                plays every game in a real browser: paste it in
     │                           the console before shipping a change to a game
+    ├── logicsmoke.js           the same for the seven Logic Games: leaving mid-ride,
+    │                           scores, level taps, keyboard, phone-sized bridges
     ├── capitalcheck.mjs        checks the capital data and proves the typo
     │                           tolerance never accepts another country's answer
     ├── elementcheck.mjs        proves the periodic table is complete: 1 to 118,

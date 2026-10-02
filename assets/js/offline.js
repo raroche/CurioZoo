@@ -3,8 +3,8 @@
  *
  * The worker itself is /sw.js; this is the page's half. It registers the
  * worker, and when a new version has finished downloading it waits for the
- * child to be on the home page before switching over, because switching in
- * the middle of a round would reload the page under them.
+ * child to be on the home page, in every open tab, before switching over,
+ * because switching in the middle of a round would reload the page under them.
  *
  * It does nothing where there is no service worker: an old browser, a file
  * opened from disk, or a phone wrapper that serves the files itself (which is
@@ -13,6 +13,26 @@
 
 let registration = null;
 let lastCheck = 0;
+let reloadAtHome = false;   // a new version took over while this tab was mid-round
+const atHome = () => { const h = location.hash || '#/home'; return h === '#/home' || h === '#/'; };
+
+/* Tabs tell each other where they are. An update is switched on from a tab
+   at home, but it takes over every open tab, so it waits while any other tab
+   is in the middle of something. */
+const tabs = typeof BroadcastChannel === 'function' ? new BroadcastChannel('curiozoo-tabs') : null;
+if (tabs) tabs.onmessage = (e) => { if (e.data === 'where') tabs.postMessage({ busy: !atHome() }); };
+
+/** True if another open tab answers that it is away from home. */
+function anotherTabBusy() {
+  if (!tabs) return Promise.resolve(false);
+  return new Promise((resolve) => {
+    let busy = false;
+    const hear = (e) => { if (e.data && e.data.busy) busy = true; };
+    tabs.addEventListener('message', hear);
+    tabs.postMessage('where');
+    setTimeout(() => { tabs.removeEventListener('message', hear); resolve(busy); }, 300);
+  });
+}
 /* A home-screen app on an iPad can stay open for days and never navigate, so
    it also looks for a new version when it comes back to the front, but not
    more than once an hour. */
@@ -29,6 +49,9 @@ export function startOffline() {
   let reloading = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
     if (!hadWorker || reloading) return;
+    /* Another tab switched while this one is mid-round: finish the round,
+       and reload on the next trip home (the router calls applyUpdateIfSafe). */
+    if (!atHome()) { reloadAtHome = true; return; }
     reloading = true;
     location.reload();
   });
@@ -67,9 +90,12 @@ export function startOffline() {
  * pick it up.
  */
 export function applyUpdateIfSafe() {
+  if (!atHome()) return;
+  if (reloadAtHome) { reloadAtHome = false; location.reload(); return; }
   const waiting = registration && registration.waiting;
   if (!waiting || !navigator.serviceWorker.controller) return;
-  const hash = location.hash || '#/home';
-  if (hash !== '#/home' && hash !== '#/') return;
-  waiting.postMessage({ type: 'curiozoo-update' });
+  anotherTabBusy().then((busy) => {
+    if (busy || !atHome() || registration.waiting !== waiting) return;
+    waiting.postMessage({ type: 'curiozoo-update' });
+  });
 }

@@ -472,7 +472,9 @@ export function checkBugBank(bank) {
           return RV.run(p, q).ok;
         });
         if (works.length !== 1 || p.options.length !== 3) err('the three choices must hold exactly one that works');
-        if (!BG.fixPlaces(p, p.prog).has(at.join('.'))) err('the marked tile is not where it is fixed');
+        const fixes = BG.fixPlaces(p, p.prog);
+        if (!fixes.has(at.join('.'))) err('the marked tile is not where it is fixed');
+        if (fixes.size !== 1) err(`${fixes.size} places fix it, so the tile to tap is not clear`);
       } else if (p.mode === 'predict') {
         const end = BG.endOf(p, p.prog);
         if (end.x !== p.answer[0] || end.y !== p.answer[1]) err('the answer is not where the robot stops');

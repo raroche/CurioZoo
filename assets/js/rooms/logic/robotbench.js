@@ -29,6 +29,24 @@ const dec = (s) => s.split('.').map((p) => (/^\d+$/.test(p) ? Number(p) : p));
 const same = (a, b) => a && b && a.length === b.length && a.every((x, i) => x === b[i]);
 
 /* ------------------------------------------------------------------ */
+/* The robot levels                                                    */
+/* ------------------------------------------------------------------ */
+
+const banks = new Map();
+
+/** A level's robot bank, fetched once and shared by Robot Path and Fix the Bug. */
+export async function robotBank(level) {
+  if (!banks.has(level)) {
+    banks.set(level, fetch(`data/logic/robot/${level}.json`, { cache: 'no-cache' }).then((res) => {
+      if (!res.ok) throw new Error(`Could not load the ${level} robot levels`);
+      return res.json();
+    }));
+    banks.get(level).catch(() => banks.delete(level));
+  }
+  return banks.get(level);
+}
+
+/* ------------------------------------------------------------------ */
 /* A bench                                                             */
 /* ------------------------------------------------------------------ */
 
@@ -69,6 +87,30 @@ function scene(b) {
   return { x: e.x, y: e.y, dir: e.dir, fed, ev: e };
 }
 
+/**
+ * The board in words, for a screen reader: its size, the robot's square and
+ * heading, every row's path squares, and every animal. Columns and rows
+ * count from 1, rows from the top.
+ */
+export function boardWords(b, L) {
+  const lv = b.level;
+  const rows = lv.cells.split('/');
+  const s = scene(b);
+  const cap = (x) => x.charAt(0).toUpperCase() + x.slice(1);
+  const out = [rb('sr.board', L, { w: rows[0].length, h: rows.length }),
+    rb('sr.robot', L, { x: s.x + 1, y: s.y + 1, dir: rb(`dir.${s.dir}`, L) })];
+  rows.forEach((row, y) => {
+    const cols = [...row].map((v, x) => (v === '#' ? null : v === 'o' || v === 'b' ? `${x + 1} (${rb(`sr.${v}`, L)})` : `${x + 1}`)).filter(Boolean);
+    const k = cols.length > 1 ? 'sr.row' : cols.length ? 'sr.row1' : 'sr.rowNone';
+    out.push(rb(k, L, { y: y + 1, cols: cols.join(', ') }));
+  });
+  lv.animals.forEach(([x, y, kind], i) => {
+    const a = animalById(kind);
+    out.push(rb(s.fed.has(i) ? 'sr.fed' : 'sr.animal', L, { animal: cap(L === 'es' ? a.es.n : a.en), x: x + 1, y: y + 1 }));
+  });
+  return out;
+}
+
 /** The board. `marks` (Fix the Bug's "where will it stop?") are tappable squares. */
 export function boardSvg(b, L, marks = null) {
   const lv = b.level;
@@ -106,18 +148,23 @@ export function boardSvg(b, L, marks = null) {
       <circle cx="-6" cy="-5" r="1.8" fill="#2B2926"/><circle cx="6" cy="-5" r="1.8" fill="#2B2926"/>
     </g>`;
   const picks = (marks || []).map(([mx, my, state], i) => `<g class="cz-rb-mark${state ? ` is-${state}` : ''}" data-rb-mark="${i}"
-      role="button" tabindex="0" aria-label="${i + 1}">
+      role="button" tabindex="0" aria-label="${esc(rb('sr.mark', L, { n: i + 1, x: mx + 1, y: my + 1 }))}">
       <circle cx="${mx * CELL + CELL / 2}" cy="${my * CELL + CELL / 2}" r="${CELL / 2 - 5}"/>
       <text x="${mx * CELL + CELL / 2}" y="${my * CELL + CELL / 2 + 6}">${i + 1}</text></g>`).join('');
-  return `<div class="cz-br-wrap"><svg class="cz-rb-svg" viewBox="0 0 ${W} ${H}" role="img"
-    aria-label="${esc(rb('askAbs', L))}">${DEFS}${cells}${animals}${ahead}${robot}${bump}${picks}</svg></div>`;
+  /* The picture is hidden from screen readers, which get the same board in
+     words; the "where will it stop?" squares stay reachable as buttons. */
+  const words = boardWords(b, L).map((w) => `<li>${esc(w)}</li>`).join('');
+  return `<div class="cz-br-wrap"><ul class="gp-sr-only">${words}</ul>
+    <svg class="cz-rb-svg" viewBox="0 0 ${W} ${H}" role="group" aria-label="${esc(rb(lv.abs ? 'askAbs' : 'askRel', L))}">
+    <g aria-hidden="true">${DEFS}${cells}${animals}${ahead}${robot}${bump}</g>${picks}</svg></div>`;
 }
 
 /* ------------------------------------------------------------------ */
 /* The program                                                         */
 /* ------------------------------------------------------------------ */
 
-const CARET = '<span class="cz-rb-caret" aria-hidden="true"></span>';
+/* The caret is a bar to the eye and a sentence to a screen reader. */
+const caret = (L) => `<span class="cz-rb-caret"><span class="gp-sr-only">${esc(rb('caretHere', L))}</span></span>`;
 
 function tileLabel(c, L) {
   if (c.op === 'call') return rb(`op.${c.p}`, L);
@@ -141,7 +188,8 @@ function tileHtml(b, c, path, L) {
     return `<span class="cz-rb-box cz-rb-box--${c.op}${sel}${now}${bug}">
       <button type="button" class="cz-rb-head" data-rb-tile="${p}" aria-label="${label}">${head}</button>
       ${inner(c.op === 'if' ? 'then' : 'body')}
-      ${c.op === 'if' ? `<span class="cz-rb-else">${esc(rb('else', L))}</span>${inner('else')}` : ''}
+      ${c.op === 'if' ? `<button type="button" class="cz-rb-else" data-rb-into="${enc([...path, 'else'])}"
+        aria-label="${esc(rb('putElse', L))}">${esc(rb('else', L))}</button>${inner('else')}` : ''}
       <button type="button" class="cz-rb-end" data-rb-after="${p}" aria-label="${esc(rb('endOf', L, { what: tileLabel(c, L) }))}">⟧</button>
     </span>`;
   }
@@ -152,8 +200,8 @@ function tileHtml(b, c, path, L) {
 function listHtml(b, list, path, L) {
   const here = (i) => !b.locked && b.caret && same(b.caret.path, path) && b.caret.index === i;
   let out = '';
-  list.forEach((c, i) => { if (here(i)) out += CARET; out += tileHtml(b, c, [...path, i], L); });
-  if (here(list.length)) out += CARET;
+  list.forEach((c, i) => { if (here(i)) out += caret(L); out += tileHtml(b, c, [...path, i], L); });
+  if (here(list.length)) out += caret(L);
   return out;
 }
 
@@ -195,6 +243,34 @@ export function runBar(b, L) {
     <button type="button" class="gp-btn gp-btn--ghost" data-action="rb-reset">⟲ ${esc(rb('reset', L))}</button>
     <button type="button" class="gp-btn gp-btn--ghost" data-action="rb-speed">${b.speed > 200 ? '🐇' : '🐢'} ${esc(rb(b.speed > 200 ? 'fast' : 'slow', L))}</button>
   </div>`;
+}
+
+/* ------------------------------------------------------------------ */
+/* Drawing it, keeping the keyboard's place                            */
+/* ------------------------------------------------------------------ */
+
+/* What a focused control is, by its data attribute, so the same control can
+   be found again after the bench is drawn anew. */
+const FOCUS_KEYS = ['rbPal', 'rbTile', 'rbAfter', 'rbRow', 'rbInto', 'rbMark', 'trHouse', 'action'];
+const attrOf = (k) => `data-${k.replace(/[A-Z]/g, (m) => `-${m.toLowerCase()}`)}`;
+
+/**
+ * Put `html` in `host`. Whatever had the keyboard focus gets it back: the
+ * same palette tile after adding one, the same tile after selecting it. If
+ * that control is gone (a removed tile) or off (Run while running), the
+ * Main row takes the focus, so it never falls out to the page.
+ */
+export function renderInto(host, html) {
+  const el = document.activeElement;
+  let key = null;
+  if (el && el !== document.body && host.contains(el)) key = FOCUS_KEYS.find((k) => el.dataset && el.dataset[k] !== undefined);
+  const val = key ? el.dataset[key] : null;
+  host.innerHTML = html;
+  if (!key) return;
+  const again = host.querySelector(`[${attrOf(key)}="${CSS.escape(val)}"]`);
+  const to = again && !again.disabled ? again
+    : host.querySelector('[data-action="rb-reset"]') || host.querySelector('[data-rb-row="main"]');
+  if (to) to.focus({ preventScroll: true });
 }
 
 /* ------------------------------------------------------------------ */
@@ -328,4 +404,4 @@ export function stopRun(b) {
   b.bug = null;
 }
 
-export default { makeBench, rowSize, benchSize, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };
+export default { robotBank, renderInto, makeBench, rowSize, benchSize, boardWords, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };
