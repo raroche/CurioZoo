@@ -106,6 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
+| **Logic Games** | Seven games that make a child think in steps. The first, Crack the Code, has 840 safes at three levels, in English and Spanish, and every one is proven to have exactly one answer. Six more are planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -330,6 +331,33 @@ between them. The 106 items are half and half, in `data/fun/discover.json`, and
 `tools/discovercheck.mjs` keeps them that way. Every item links to a source;
 `node tools/discovercheck.mjs --write` rebuilds the list in
 `docs/research/discover/CREDITS.md`.
+
+## Logic Games
+
+A room of its own at `#/logic`, for reasoning in steps: deduce, test, plan
+and program. Seven games are planned (`docs/research/logic/PLAN.md`); the
+hub shows the ones still to come as "coming soon".
+
+**Crack the Code** is the first. A safe is locked with a row of animals, and
+each clue is an earlier guess with what it got right. Most safes give all
+the clues at once and ask for the one code that fits, because free guessing
+on a small board is won by luck; "Could it be?" safes ask whether one code is
+still possible; and every chapter's boss is a free crack, where a gentle
+detective's note points out a guess that ignores a clue already given.
+Easy marks every animal (home, wrong home, not here), Medium moves to counts,
+and Hard is Bulls and Cows, with the famous "682" lock on the way. The name
+Mastermind is a trademark and is not used.
+
+840 safes: twelve chapters of seventy, three levels. None is written by hand
+except the 682 lock. `node tools/logicbuild.mjs code` makes them from fixed
+seeds, and `tools/logiccheck.mjs`, part of `npm run verify`, solves every one
+again twice: by brute force, to prove exactly one code fits, and with the
+step-by-step solver the hints use, so a hint can never run out or cross out
+the real answer. Hints come in three taps (where to look, the reason, then
+doing it), and the card after a solve explains the key steps. Stars only go
+up, and every ten safes in a chapter open a lock on a zoo enclosure. A daily
+safe for each level is made on the device from the date, the same for
+everyone, with no server.
 
 ## Math Lab
 

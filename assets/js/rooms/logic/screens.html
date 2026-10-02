@@ -1,0 +1,37 @@
+<!--
+  The Logic Games room's screens.
+
+  Not a page of its own: the app fetches this file the first time a child
+  opens the room and adds these sections to <main> in index.html. See
+  assets/js/rooms/registry.js.
+
+  Three screens serve all seven games: the room's hub, a game's home (its
+  levels and chapters, and one chapter's puzzles), and one puzzle. Each game
+  draws its own board inside the third. No style="..." attributes: the
+  Content-Security-Policy drops them; use data-style.
+-->
+<section class="gp-screen cz-room--jade" id="screen-logichub" aria-labelledby="logichub-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <div class="cz-roomhead cz-tile--jade cz-logic-head">
+      <span class="cz-roomhead__pic" data-room-pic="logic" aria-hidden="true"></span>
+      <div>
+        <h1 class="gp-page-title" id="logichub-title" data-logic-text="roomTitle">Logic Games</h1>
+        <p class="gp-page-lede" data-logic-text="roomLede">Puzzles that make you think in steps.</p>
+      </div>
+    </div>
+    <div id="gp-logic-hub"></div>
+  </div>
+</section>
+
+<section class="gp-screen cz-room--jade" id="screen-logicgame" aria-labelledby="logicgame-title">
+  <div class="gp-container">
+    <div id="gp-logic-game"></div>
+  </div>
+</section>
+
+<section class="gp-screen cz-room--jade" id="screen-logicplay" aria-labelledby="logicplay-title">
+  <div class="gp-container">
+    <div id="gp-logic-play"></div>
+  </div>
+</section>

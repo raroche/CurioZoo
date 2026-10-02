@@ -114,6 +114,26 @@ export const REGISTRY = [
     back: (parts) => (parts.length > 1 ? null : HOME)
   },
   {
+    id: 'logic',
+    name: 'Logic Games',
+    hue: 'jade',
+    /* The curious one. Cat ears are pointed like the fox's, but shorter and
+       set wider; the fox is Chess Club's and the two read apart at tile size. */
+    creature: 'cat',
+    href: '#/logic',
+    status: 'live',
+    blurb: 'Crack codes, catch the Moon animals, run trains and program a robot.',
+    meta: '7 games · 840 puzzles so far · English or Spanish',
+
+    routes: ['logic'],
+    code: () => import('./logic/room.js'),
+    screens: 'logic/screens.html',
+    css: 'logic/room.css',
+    /* Inside a game every screen draws its own way back, in the child's
+       language: "Back to the chapter", "Volver a los capítulos". */
+    back: (parts) => (parts.length > 1 ? null : HOME)
+  },
+  {
     id: 'fun',
     name: 'Fun and Games',
     hue: 'flamingo',

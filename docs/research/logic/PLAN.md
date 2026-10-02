@@ -180,7 +180,8 @@ missing in either language or the slots differ.
 
 Every chapter teaches **one new idea**. It opens with 2–3 hand-made teaching
 puzzles, then the generated ones, sorted easy to hard. The next chapter opens
-when two thirds of this one are solved. Three puzzles ahead are always open,
+after 20 solves in this one (`UNLOCK_AT` in `logicprogress.js`; two thirds of
+a 70-puzzle chapter was too long a wait). Three puzzles ahead are always open,
 so a stuck child can skip.
 
 ### 3.4 Stars and rewards (shared rules)
@@ -202,11 +203,11 @@ so a stuck child can skip.
 All SVG, drawn in code, no image files, no `style=""` (set attributes with
 `setAttribute`; values go through `data-style` + `paint()` where needed).
 
-- **12 animal heads that differ by outline first**: lion, elephant, giraffe,
-  penguin, zebra, panda, monkey, owl, frog, turtle, flamingo, hippo.
-  Each also has a **shape badge** (circle, square, triangle, diamond, star,
-  hexagon, heart, cross...) and a palette colour. Shape, badge and colour
-  together, so colour is never the only cue. Happy and neutral faces.
+- **12 animals, as emoji** (decided in Phase 1): lion, monkey, frog, penguin,
+  zebra, flamingo, owl, turtle, elephant, giraffe, panda, hippo. They differ
+  by outline first, every supported device draws them in colour, and they
+  need no art upkeep. A game that needs a shape badge too (Train Tracks)
+  adds one beside the emoji.
 - Stars (empty, half-lit, full), ✓, !, ?, ✗ glyphs, a hint ring, a focus ring.
 - Animal names in EN/ES **with article** (`{en:'fox', es:{n:'zorro', art:'el'}}`)
   so Spanish sentences never need gender guessed at run time.
