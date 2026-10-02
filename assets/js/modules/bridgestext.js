@@ -1,0 +1,205 @@
+/**
+ * bridgestext.js — every word Zoo Bridges says, in English and Spanish.
+ *
+ * The solver writes technique tags ('justEnough'); these turn a tag into the
+ * name a child learns ("Just enough") and the reason it worked. Islands are
+ * named after the animal that lives there: "the lion island" / "la isla del
+ * león" (the article comes from zooart.js, so "de la jirafa" is right too).
+ */
+
+import { lookup } from './logictext.js';
+
+export const BRIDGES_TEXT = {
+  en: {
+    ask: 'Join the islands with bridges. Each island shows how many bridges it needs.',
+    rules: 'Bridges go straight across or straight down, at most two between two islands, and they never cross. In the end every island must be joined to all the others.',
+    tapHelp: 'Tap the water between two islands to build a bridge. Tap again for two, and again to take them away.',
+    islandLabel: '{I}: needs {n}, has {k}',
+    route: 'Route between {I} and {J}: {k} bridges',
+    route1: 'Route between {I} and {J}: 1 bridge',
+    crossNo: "Bridges can't cross. Take the other bridge away first.",
+    over: '{I} has too many bridges.',
+    cut: 'Those islands are cut off: they have all their bridges but cannot reach the rest of the zoo.',
+    check: 'Check my bridges',
+    checkOk: 'Every bridge so far is right.',
+    checkBad1: '1 bridge does not belong.',
+    checkBadN: '{n} bridges do not belong.',
+    showMe: 'Show me',
+    undo: 'Undo',
+    bigger: 'Bigger board', smaller: 'Smaller board',
+    coordHelp: 'Every island has a letter and a number, like C4: its column and its row.',
+    restart: 'Start again',
+    right: 'Every island is happy!',
+    tryTech: 'Try this: {t}',
+    lookBridge: 'Look at this bridge.',
+    wrongBridge: 'This bridge does not fit. Take it away.',
+    doBridge: 'Build the bridge.',
+    whyUsed: 'Techniques you used: {list}.',
+    whyHard: 'The hardest step: {s}',
+
+    'tech.onlyNeighbour': 'Only one friend',
+    'tech.full': 'Full up!',
+    'tech.cap': 'Full up!',
+    'tech.noCross': 'No crossing',
+    'tech.justEnough': 'Just enough',
+    'tech.atLeastOne': 'At least one each way',
+    'tech.pairIsolation': "Don't trap a pair",
+    'tech.closedGroup': 'Keep the zoo together',
+    'tech.onlyExit': 'Keep the zoo together',
+    'tech.whatIf': 'What if…?',
+
+    'why.full': '{I} already has all {n} of its bridges, so it takes no more.',
+    'why.cap': '{I} needs {n} in all and already has some, so this route can hold at most {m}.',
+    'why.noCross': 'There is a bridge here already, and bridges cannot cross. So this route is closed.',
+    'why.onlyNeighbour': '{I} needs {n} and can only reach one island, so its bridges go there.',
+    'why.justEnough': '{I} needs {n}, and its routes can hold exactly {n}. So every route gets as many bridges as it can take.',
+    'why.atLeastOne': '{I} needs {n}. Even if every other route were full, it would still need {m} here.',
+    'why.pairIsolation': 'If these two islands used all their bridges on each other, they would be cut off from the rest. So they share at most {m}.',
+    'why.closedGroup': 'A bridge here would close a group of islands off from the rest of the zoo. So no more bridges here.',
+    'why.onlyExit': 'This group of islands has only one way out to the rest of the zoo, so it needs a bridge here.',
+    'why.whatIf': 'What if this route had {m} bridges? Follow it through and an island breaks. So it does not.',
+
+    'ch.e1': 'Only One Friend', 'ch.e1.idea': 'An island that can reach only one other island sends all its bridges there.',
+    'ch.e2': 'Full Up!', 'ch.e2.idea': 'An island with all its bridges takes no more, and bridges never cross.',
+    'ch.e3': 'Count the Dots', 'ch.e3.idea': 'The dots round an island fill up as bridges arrive.',
+    'ch.e4': 'Double Bridges', 'ch.e4.idea': 'Now two bridges can join the same two islands.',
+    'ch.e5': 'Just Enough', 'ch.e5.idea': 'A 4 in a corner can only reach two islands: two bridges to each.',
+    'ch.e6': 'Just Enough Again', 'ch.e6.idea': 'A 6 on an edge, an 8 in the middle: just enough again.',
+    'ch.e7': 'Easy Mix', 'ch.e7.idea': 'Everything so far, mixed up.',
+    'ch.e8': 'At Least One Each Way', 'ch.e8.idea': 'A 3 in a corner needs at least one bridge each way.',
+    'ch.e9': 'Review', 'ch.e9.idea': 'Bigger zoos with everything you know.',
+    'ch.e10': 'Big Review', 'ch.e10.idea': 'The biggest Easy zoos.',
+    'ch.m1': "Don't Trap a Pair", 'ch.m1.idea': 'Two 1s cannot join each other: they would be cut off.',
+    'ch.m2': 'At Least One', 'ch.m2.idea': 'Count what the other routes can hold.',
+    'ch.m3': 'Medium Mix', 'ch.m3.idea': 'Everything so far, mixed up.',
+    'ch.m4': 'Keep the Zoo Together', 'ch.m4.idea': 'A group with only one way out must use it.',
+    'ch.m5': 'Closed Groups', 'ch.m5.idea': 'Never close a group of islands off from the rest.',
+    'ch.m6': 'Wide Zoo', 'ch.m6.idea': 'Bigger zoos, every technique.',
+    'ch.m7': 'Busy Zoo', 'ch.m7.idea': 'More islands, more routes.',
+    'ch.m8': 'Ten by Ten', 'ch.m8.idea': 'A ten-by-ten zoo.',
+    'ch.m9': 'Long Routes', 'ch.m9.idea': 'Long bridges across the water.',
+    'ch.m10': 'Medium Finale', 'ch.m10.idea': 'The biggest Medium zoos.',
+    'ch.h1': 'Together at Scale', 'ch.h1.idea': 'Keep big zoos together.',
+    'ch.h2': 'Only Way Out', 'ch.h2.idea': 'Find the group with one way out.',
+    'ch.h3': 'Twelve by Twelve', 'ch.h3.idea': 'A twelve-by-twelve zoo.',
+    'ch.h4': 'Dense Zoo', 'ch.h4.idea': 'Islands everywhere.',
+    'ch.h5': 'Crowded Islands', 'ch.h5.idea': 'More islands than ever.',
+    'ch.h6': 'What If…?', 'ch.h6.idea': 'Try a bridge in your head, follow it, and see an island break.',
+    'ch.h7': 'What If Again', 'ch.h7.idea': 'Bigger zoos that need a "what if".',
+    'ch.h8': 'Great Zoo', 'ch.h8.idea': 'Long puzzles with every technique.',
+    'ch.h9': 'Thirteen by Thirteen', 'ch.h9.idea': 'The biggest grids.',
+    'ch.h10': 'Grand Finale', 'ch.h10.idea': 'The hardest zoos of all.',
+
+    'hab.0': 'Savanna', 'hab.1': 'Jungle', 'hab.2': 'Arctic', 'hab.3': 'Desert', 'hab.4': 'Reef',
+    'hab.5': 'Mountains', 'hab.6': 'Wetland', 'hab.7': 'Forest', 'hab.8': 'Islands', 'hab.9': 'Night Zoo',
+    'map.title': 'Zoo map',
+    'map.lede': 'Every chapter is a habitat. Solve its puzzles to fill it with visitors; finish one with three stars on every puzzle and it lights up at night.',
+    'map.count': '{n} of {t} visitors',
+    'map.night': 'Lit up at night',
+    'tile.puzzle': 'Bridge puzzle'
+  },
+  es: {
+    ask: 'Une las islas con puentes. Cada isla muestra cuántos puentes necesita.',
+    rules: 'Los puentes van rectos, de lado o hacia abajo, como mucho dos entre dos islas, y nunca se cruzan. Al final todas las islas tienen que quedar unidas.',
+    tapHelp: 'Toca el agua entre dos islas para hacer un puente. Toca otra vez para hacer dos, y otra vez para quitarlos.',
+    islandLabel: '{I}: necesita {n}, tiene {k}',
+    route: 'Ruta entre {I} y {J}: {k} puentes',
+    route1: 'Ruta entre {I} y {J}: 1 puente',
+    crossNo: 'Los puentes no se pueden cruzar. Quita primero el otro puente.',
+    over: '{I} tiene demasiados puentes.',
+    cut: 'Esas islas están aisladas: tienen todos sus puentes, pero no llegan al resto del zoo.',
+    check: 'Revisar mis puentes',
+    checkOk: 'Todos los puentes hasta ahora están bien.',
+    checkBad1: '1 puente no va ahí.',
+    checkBadN: '{n} puentes no van ahí.',
+    showMe: 'Muéstramelos',
+    undo: 'Deshacer',
+    bigger: 'Tablero más grande', smaller: 'Tablero más pequeño',
+    coordHelp: 'Cada isla tiene una letra y un número, como C4: su columna y su fila.',
+    restart: 'Empezar de nuevo',
+    right: '¡Todas las islas están contentas!',
+    tryTech: 'Prueba esto: {t}',
+    lookBridge: 'Mira este puente.',
+    wrongBridge: 'Este puente no encaja. Quítalo.',
+    doBridge: 'Construye el puente.',
+    whyUsed: 'Técnicas que usaste: {list}.',
+    whyHard: 'El paso más difícil: {s}',
+
+    'tech.onlyNeighbour': 'Un solo amigo',
+    'tech.full': '¡Lleno!',
+    'tech.cap': '¡Lleno!',
+    'tech.noCross': 'Sin cruzar',
+    'tech.justEnough': 'Justo lo necesario',
+    'tech.atLeastOne': 'Al menos uno a cada lado',
+    'tech.pairIsolation': 'No encierres a dos',
+    'tech.closedGroup': 'Que nadie quede aislado',
+    'tech.onlyExit': 'Que nadie quede aislado',
+    'tech.whatIf': '¿Y si…?',
+
+    'why.full': '{I} ya tiene sus {n} puentes, así que no admite más.',
+    'why.cap': '{I} necesita {n} en total y ya tiene algunos, así que esta ruta admite como mucho {m}.',
+    'why.noCross': 'Aquí ya hay un puente, y los puentes no se cruzan. Así que esta ruta está cerrada.',
+    'why.onlyNeighbour': '{I} necesita {n} y solo puede llegar a una isla, así que sus puentes van ahí.',
+    'why.justEnough': '{I} necesita {n}, y sus rutas admiten justo {n}. Así que cada ruta lleva todos los puentes que puede.',
+    'why.atLeastOne': '{I} necesita {n}. Aunque las otras rutas estuvieran llenas, aquí todavía necesitaría {m}.',
+    'why.pairIsolation': 'Si estas dos islas gastaran todos sus puentes entre ellas, quedarían aisladas del resto. Así que comparten como mucho {m}.',
+    'why.closedGroup': 'Un puente aquí dejaría un grupo de islas aislado del resto del zoo. Así que aquí no van más puentes.',
+    'why.onlyExit': 'Este grupo de islas solo tiene una salida hacia el resto del zoo, así que necesita un puente aquí.',
+    'why.whatIf': '¿Y si esta ruta tuviera {m} puentes? Sigue la idea y alguna isla falla. Así que no.',
+
+    'ch.e1': 'Un solo amigo', 'ch.e1.idea': 'Una isla que solo llega a otra isla manda allí todos sus puentes.',
+    'ch.e2': '¡Lleno!', 'ch.e2.idea': 'Una isla con todos sus puentes no admite más, y los puentes nunca se cruzan.',
+    'ch.e3': 'Cuenta los puntos', 'ch.e3.idea': 'Los puntos alrededor de una isla se llenan al llegar los puentes.',
+    'ch.e4': 'Puentes dobles', 'ch.e4.idea': 'Ahora dos puentes pueden unir las mismas dos islas.',
+    'ch.e5': 'Justo lo necesario', 'ch.e5.idea': 'Un 4 en una esquina solo llega a dos islas: dos puentes a cada una.',
+    'ch.e6': 'Otra vez justo', 'ch.e6.idea': 'Un 6 en un borde, un 8 en el centro: otra vez justo lo necesario.',
+    'ch.e7': 'Mezcla fácil', 'ch.e7.idea': 'Todo lo anterior, mezclado.',
+    'ch.e8': 'Al menos uno a cada lado', 'ch.e8.idea': 'Un 3 en una esquina necesita al menos un puente hacia cada lado.',
+    'ch.e9': 'Repaso', 'ch.e9.idea': 'Zoos más grandes con todo lo que sabes.',
+    'ch.e10': 'Gran repaso', 'ch.e10.idea': 'Los zoos fáciles más grandes.',
+    'ch.m1': 'No encierres a dos', 'ch.m1.idea': 'Dos 1 no se pueden unir entre ellos: quedarían aislados.',
+    'ch.m2': 'Al menos uno', 'ch.m2.idea': 'Cuenta lo que admiten las otras rutas.',
+    'ch.m3': 'Mezcla media', 'ch.m3.idea': 'Todo lo anterior, mezclado.',
+    'ch.m4': 'Que nadie quede aislado', 'ch.m4.idea': 'Un grupo con una sola salida tiene que usarla.',
+    'ch.m5': 'Grupos cerrados', 'ch.m5.idea': 'Nunca dejes un grupo de islas aislado del resto.',
+    'ch.m6': 'Zoo ancho', 'ch.m6.idea': 'Zoos más grandes, todas las técnicas.',
+    'ch.m7': 'Zoo con mucho movimiento', 'ch.m7.idea': 'Más islas, más rutas.',
+    'ch.m8': 'Diez por diez', 'ch.m8.idea': 'Un zoo de diez por diez.',
+    'ch.m9': 'Rutas largas', 'ch.m9.idea': 'Puentes largos sobre el agua.',
+    'ch.m10': 'Gran final medio', 'ch.m10.idea': 'Los zoos medios más grandes.',
+    'ch.h1': 'Juntos y en grande', 'ch.h1.idea': 'Mantén unidos los zoos grandes.',
+    'ch.h2': 'Una sola salida', 'ch.h2.idea': 'Encuentra el grupo con una sola salida.',
+    'ch.h3': 'Doce por doce', 'ch.h3.idea': 'Un zoo de doce por doce.',
+    'ch.h4': 'Zoo lleno', 'ch.h4.idea': 'Islas por todas partes.',
+    'ch.h5': 'Islas apretadas', 'ch.h5.idea': 'Más islas que nunca.',
+    'ch.h6': '¿Y si…?', 'ch.h6.idea': 'Prueba un puente en tu cabeza, síguelo y mira cómo falla una isla.',
+    'ch.h7': 'Otra vez ¿y si…?', 'ch.h7.idea': 'Zoos más grandes que necesitan un «¿y si…?».',
+    'ch.h8': 'Gran zoo', 'ch.h8.idea': 'Acertijos largos con todas las técnicas.',
+    'ch.h9': 'Trece por trece', 'ch.h9.idea': 'Las cuadrículas más grandes.',
+    'ch.h10': 'Gran final', 'ch.h10.idea': 'Los zoos más difíciles de todos.',
+
+    'hab.0': 'Sabana', 'hab.1': 'Selva', 'hab.2': 'Ártico', 'hab.3': 'Desierto', 'hab.4': 'Arrecife',
+    'hab.5': 'Montañas', 'hab.6': 'Humedal', 'hab.7': 'Bosque', 'hab.8': 'Islas', 'hab.9': 'Zoo de noche',
+    'map.title': 'Mapa del zoo',
+    'map.lede': 'Cada capítulo es un hábitat. Resuelve sus acertijos para llenarlo de visitantes; termina uno con tres estrellas en cada acertijo y se ilumina de noche.',
+    'map.count': '{n} de {t} visitantes',
+    'map.night': 'Iluminado de noche',
+    'tile.puzzle': 'Acertijo de puentes'
+  }
+};
+
+/**
+ * "the lion island (C4)" / "la isla del león (C4)". A big board has more
+ * islands than there are animals, so the square (column letter, row number,
+ * as printed round the board) is what makes the name one island's alone.
+ */
+export function islandName(animal, L, cap = false, at = '') {
+  const t = (L === 'es' ? `la isla ${animal.es.art === 'la' ? 'de la' : 'del'} ${animal.es.n}` : `the ${animal.en} island`) + (at ? ` (${at})` : '');
+  return cap ? t.charAt(0).toUpperCase() + t.slice(1) : t;
+}
+
+export const HABITAT_EMOJI = ['🦁', '🌴', '🧊', '🌵', '🐠', '🏔️', '🦩', '🌲', '🏝️', '🌙'];
+
+export const bt = (key, lang, vars) => lookup(BRIDGES_TEXT, key, lang, vars);
+
+export default { BRIDGES_TEXT, HABITAT_EMOJI, bt, islandName };

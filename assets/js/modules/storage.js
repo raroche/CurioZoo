@@ -65,7 +65,10 @@ const DEFAULTS = {
     discover: {},
     /* Math Brain Teasers: level, count and language last chosen, and every
        teaser met, per level. Owned by modules/teasers.js. */
-    teasers: {}
+    teasers: {},
+    /* Logic Games: stars per puzzle, daily puzzles, days played, level and
+       language per game. Owned and validated by modules/logicprogress.js. */
+    logic: {}
   },
   /* stats[categoryId] = { seen, correct, streakBest, lastSeenIso } */
   stats: {},

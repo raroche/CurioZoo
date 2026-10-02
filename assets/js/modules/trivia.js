@@ -3,7 +3,7 @@
  *
  * Which questions a round gets, in which order, what a tap means, what a star
  * is and what the game remembers. Everything here is pure so the checker and
- * the tests can run it under node; screens/trivia.js only draws.
+ * the tests can run it under node; rooms/trivia/trivia.js only draws.
  *
  * The memory is a small spaced-retrieval scheme (a Leitner box, more or less).
  * A question never seen is the most likely pick. A miss comes back after two

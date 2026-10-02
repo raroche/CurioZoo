@@ -220,8 +220,11 @@ else {
   }
 }
 
-const CSS = 'assets/css/design-system.css';
-const css = fs.readFileSync(CSS, 'utf8');
+/* The shared stylesheet and the room's own, read in the order the browser
+   applies them: the room's rules load after the design system's. */
+const CSS_FILES = ['assets/css/design-system.css', 'assets/js/rooms/chess/room.css'];
+const CSS = CSS_FILES.join(' + ');
+const css = CSS_FILES.map((f) => fs.readFileSync(f, 'utf8')).join('\n');
 /* Every class the board draws has to exist, or the mark is invisible: an
    unstyled <circle> is black on a brown square and reads as a smudge.
 
@@ -728,9 +731,9 @@ else {
 /* The home page tile and the README both quote counts. A number that has
    drifted from the data is a small lie a child can check, and the sort of
    thing nobody notices until somebody counts. */
-const { ROOMS } = await import('../assets/js/modules/sections.js');
+const { ROOMS } = await import('../assets/js/rooms/registry.js');
 const room = ROOMS.find((r) => r.id === 'chess');
-if (!room) err('there is no chess room in sections.js');
+if (!room) err('there is no chess room in rooms/registry.js');
 else if (room.status === 'live') {
   const claims = [
     [`${seenLessonIds.size} lessons`, 'lessons'],
@@ -740,7 +743,7 @@ else if (room.status === 'live') {
   for (const [text, what] of claims) {
     if (!room.meta.includes(text)) {
       err(`the home page tile says "${room.meta}" but there are ${text} — `
-        + `update the ${what} count in modules/sections.js`);
+        + `update the ${what} count in assets/js/rooms/registry.js`);
     }
   }
 }
@@ -1074,13 +1077,13 @@ else if (room.status === 'live') {
    The result now goes into a box UNDER the board. If the end card ever goes
    back to replacing the whole body, this fails. */
 {
-  const src = fs.readFileSync(new URL('../assets/js/screens/chessplay.js', import.meta.url), 'utf8');
+  const src = fs.readFileSync(new URL('../assets/js/rooms/chess/chessplay.js', import.meta.url), 'utf8');
   const finishAt = src.indexOf('function finish(');
   const finishBody = finishAt === -1 ? '' : src.slice(finishAt, finishAt + 2600);
   if (!finishAt) {
-    err('screens/chessplay.js: no finish() — the end of a game is not handled');
+    err('rooms/chess/chessplay.js: no finish() — the end of a game is not handled');
   } else if (/\$\('#gp-chessplay-body'\)\.innerHTML/.test(finishBody)) {
-    err('screens/chessplay.js: finish() replaces the whole screen, which throws '
+    err('rooms/chess/chessplay.js: finish() replaces the whole screen, which throws '
       + 'the board away — a child cannot look back at the game they just lost');
   }
   for (const [needle, why] of [
@@ -1090,11 +1093,11 @@ else if (room.status === 'live') {
     ['chess-fwd', 'there is no way to step forward through a game'],
     ['chess-live', 'there is no way back to the live game from a review']
   ]) {
-    if (!src.includes(needle)) err(`screens/chessplay.js: ${why} (${needle} is gone)`);
+    if (!src.includes(needle)) err(`rooms/chess/chessplay.js: ${why} (${needle} is gone)`);
   }
   /* Looking back must never be able to move a piece. */
   if (!/viewAt !== null/.test(src)) {
-    err('screens/chessplay.js: nothing stops a move being made while reviewing '
+    err('rooms/chess/chessplay.js: nothing stops a move being made while reviewing '
       + 'a past position');
   }
 }

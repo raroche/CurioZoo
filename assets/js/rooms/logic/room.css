@@ -1,0 +1,635 @@
+/* ==========================================================================
+   The Logic Games room's styles.
+
+   Loaded with the room, the first time a child opens it: see
+   assets/js/rooms/registry.js. Tokens, buttons, cards and the tiles stay in
+   assets/css/design-system.css, which is always loaded first. Colours are the
+   palette tokens, which already carry a light and a dark value, so nothing
+   here needs a dark-theme override. Every state also has a shape or a glyph;
+   colour only ever adds to it.
+   ========================================================================== */
+
+/* The room wears the jade of its tile. Like the other room classes it only
+   sets the four values and never provides a default. */
+.cz-room--jade {
+  --room: var(--cz-jade);
+  --room-soft: var(--cz-jade-soft);
+  --room-line: var(--cz-jade-line);
+  --room-ink: var(--cz-jade-ink);
+}
+
+/* ---- shared pieces ---- */
+
+.cz-logic-top {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: var(--gp-space-3); margin-bottom: var(--gp-space-4);
+}
+.cz-logic-top .gp-backlink { margin: 0; }
+.cz-logic-tools { display: flex; align-items: center; gap: var(--gp-space-2); margin-left: auto; }
+#gp-logic-hub > .cz-logic-tools { justify-content: flex-end; margin: var(--gp-space-4) 0 var(--gp-space-2); }
+.cz-logic-head { margin-bottom: var(--gp-space-5); }
+.cz-logic-head .cz-gameart { width: 52px; height: 52px; }
+.cz-logic-h2 { font-size: var(--gp-text-xl); margin: var(--gp-space-8) 0 var(--gp-space-3); color: var(--room-ink); }
+
+.cz-stars { display: inline-flex; gap: 2px; vertical-align: middle; color: var(--cz-honey); }
+.cz-star { display: block; }
+
+.cz-logic-stat {
+  display: flex; flex-wrap: wrap; gap: var(--gp-space-3) var(--gp-space-6);
+  align-items: center; margin: var(--gp-space-2) 0 0; color: var(--gp-ink-soft);
+}
+
+/* Today's puzzles: one small card per game. */
+.cz-logic-dailies { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--gp-space-3); }
+.cz-logic-daily {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--gp-space-3);
+  padding: var(--gp-space-3) var(--gp-space-4); min-height: 64px;
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface); color: var(--gp-ink); text-decoration: none;
+}
+.cz-logic-daily:hover, .cz-logic-daily:focus-visible { background: var(--room-soft); }
+.cz-logic-daily__pic { display: grid; place-items: center; width: 44px; height: 44px; font-size: 30px; }
+.cz-logic-daily__pic .cz-gameart { width: 44px; height: 44px; }
+.cz-logic-daily__stars { font-weight: 800; color: var(--room-ink); }
+.cz-logic-daily--wide { margin: var(--gp-space-4) 0 0; }
+.cz-logic-badge {
+  display: flex; align-items: center; gap: var(--gp-space-3); margin: var(--gp-space-3) 0 0; padding: var(--gp-space-3) var(--gp-space-4);
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-lg); background: var(--room-soft);
+}
+.cz-logic-badge__icon { font-size: 34px; line-height: 1; }
+.cz-logic-games { margin-top: var(--gp-space-8); }
+
+/* ---- a game's chapters ---- */
+
+.cz-logic-chapters { display: grid; gap: var(--gp-space-3); }
+.cz-logic-ch {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--gp-space-4); align-items: start;
+  padding: var(--gp-space-4) var(--gp-space-5);
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-lg);
+  background: var(--gp-surface); color: var(--gp-ink); text-decoration: none;
+}
+a.cz-logic-ch:hover, a.cz-logic-ch:focus-visible { background: var(--room-soft); }
+.cz-logic-ch.is-locked { border-style: dashed; border-color: var(--gp-line); background: var(--gp-surface-2); }
+.cz-logic-ch__num {
+  display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--room-soft); color: var(--room-ink); font-weight: 800; font-size: var(--gp-text-lg);
+  border: 2px solid var(--room-line);
+}
+.cz-logic-ch.is-locked .cz-logic-ch__num { background: var(--gp-surface-3); color: var(--gp-ink-muted); border-color: var(--gp-line); }
+.cz-logic-ch__text { display: grid; gap: 4px; min-width: 0; }
+.cz-logic-ch__name { font-weight: 800; font-size: var(--gp-text-lg); color: var(--room-ink); }
+.cz-logic-ch.is-locked .cz-logic-ch__name { color: var(--gp-ink-muted); }
+.cz-logic-ch__idea { color: var(--gp-ink-soft); font-size: var(--gp-text-sm); }
+.cz-logic-ch__bar { display: block; height: 8px; border-radius: 99px; background: var(--gp-surface-3); overflow: hidden; margin-top: 4px; }
+.cz-logic-ch__bar > span { display: block; height: 100%; background: var(--room); border-radius: 99px; }
+.cz-logic-ch__count { font-size: var(--gp-text-xs); font-weight: 700; color: var(--gp-ink-muted); }
+.cz-logic-ch__locked { font-size: var(--gp-text-sm); color: var(--gp-ink-muted); }
+.cz-logic-ch__locked::before { content: "🔒 "; }
+
+/* One chapter's puzzles, as a grid of numbered tiles. */
+.cz-logic-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
+  gap: var(--gp-space-2); margin-top: var(--gp-space-4);
+}
+.cz-logic-tile {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  aspect-ratio: 1; min-height: 64px;
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-md);
+  background: var(--gp-surface); color: var(--gp-ink); text-decoration: none;
+}
+a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room); }
+.cz-logic-tile.is-done { background: var(--room-soft); }
+.cz-logic-tile.is-teach { border-width: 3px; border-style: double; }
+.cz-logic-tile.is-locked { opacity: 0.5; border-style: dashed; border-color: var(--gp-line); background: var(--gp-surface-2); }
+.cz-logic-tile__n { font-weight: 800; font-size: var(--gp-text-md); line-height: 1; }
+.cz-logic-tile__kind { font-size: 15px; line-height: 1; }
+.cz-logic-tile__lock { font-size: 12px; }
+
+/* ---- one puzzle ---- */
+
+.cz-logic-playhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--gp-space-1) var(--gp-space-4); }
+.cz-logic-playtitle { margin: 0; font-size: var(--gp-text-xl); color: var(--room-ink); }
+.cz-logic-playsub { margin: 0; color: var(--gp-ink-muted); font-weight: 700; font-size: var(--gp-text-sm); }
+.cz-logic-teach {
+  display: inline-block; margin: var(--gp-space-3) 0 0; padding: var(--gp-space-1) var(--gp-space-3);
+  border-radius: var(--gp-radius-pill); background: var(--room-soft); border: 2px dashed var(--room-line);
+  font-weight: 700; font-size: var(--gp-text-sm);
+}
+#cz-logic-board { margin-top: var(--gp-space-4); }
+
+/* The end of a puzzle. */
+.cz-logic-win {
+  margin-top: var(--gp-space-6); padding: var(--gp-space-6) var(--gp-space-5);
+  border: 2px solid var(--room-line); border-radius: var(--gp-radius-xl); background: var(--gp-surface);
+}
+.cz-logic-win__stars { margin: 0 0 var(--gp-space-2); }
+.cz-logic-news { font-weight: 700; margin: var(--gp-space-2) auto; max-width: 40rem; }
+.cz-logic-why {
+  text-align: left; max-width: 42rem; margin: var(--gp-space-5) auto 0;
+  padding: var(--gp-space-4) var(--gp-space-5); border-radius: var(--gp-radius-lg); background: var(--gp-surface-2);
+}
+.cz-logic-why__title { margin: 0 0 var(--gp-space-2); font-size: var(--gp-text-md); }
+.cz-logic-why ol { margin: 0; padding-left: 1.3em; display: grid; gap: var(--gp-space-2); }
+
+/* ==========================================================================
+   Crack the Code (rooms/logic/code.js)
+   ========================================================================== */
+
+.cz-code { display: grid; gap: var(--gp-space-4); }
+.cz-code-ask { margin: 0; font-size: var(--gp-text-lg); font-weight: 700; }
+.cz-code-h { margin: 0; font-size: var(--gp-text-md); }
+
+/* The three marks: a filled disc, a ring with arrows, a flat bar. */
+.cz-mark { display: block; flex: none; }
+.cz-mark--h { color: var(--gp-good); }
+.cz-mark--w { color: var(--gp-retry); }
+.cz-mark--n { color: var(--gp-ink-muted); }
+
+.cz-code-legend {
+  display: flex; flex-wrap: wrap; gap: var(--gp-space-2) var(--gp-space-5); margin: 0;
+  font-size: var(--gp-text-sm); font-weight: 700; color: var(--gp-ink-soft);
+}
+.cz-code-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.cz-code-legend__note { margin: 0; font-size: var(--gp-text-sm); color: var(--gp-ink-muted); max-width: 44rem; }
+
+.cz-code-clues { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--gp-space-2); }
+.cz-code-clue {
+  display: grid; grid-template-columns: 5.5rem auto 1fr; align-items: center; gap: var(--gp-space-3);
+  padding: var(--gp-space-2) var(--gp-space-4);
+  border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface);
+}
+.cz-code-clue.is-hint { border-color: var(--gp-focus); box-shadow: 0 0 0 3px var(--gp-focus); }
+.cz-code-clue.is-bad { border-color: var(--gp-retry); border-style: dashed; }
+.cz-code-clue.is-loose { border-style: dashed; }
+.cz-code-clue__label {
+  font-weight: 800; font-size: var(--gp-text-xs); letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--gp-ink-soft);
+}
+.cz-code-row { display: flex; gap: var(--gp-space-2); flex-wrap: wrap; }
+.cz-code-cell { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; }
+.cz-code-cellmark { display: block; height: 20px; }
+.cz-code-blank { display: block; width: 20px; height: 20px; }
+
+.cz-sym {
+  display: grid; place-items: center; width: 52px; height: 52px;
+  font-size: 34px; line-height: 1; border-radius: 12px; background: var(--gp-surface-2);
+}
+.cz-sym--digit { font-family: var(--gp-font-ui); font-weight: 800; font-size: 30px; color: var(--gp-ink); }
+
+.cz-code-count { display: flex; flex-wrap: wrap; align-items: center; gap: var(--gp-space-2); }
+.cz-code-pegs { display: inline-flex; gap: 3px; }
+.cz-code-count__words { font-size: var(--gp-text-sm); font-weight: 700; color: var(--gp-ink-soft); }
+
+/* The work area: answer row, tray and buttons beside the notes. */
+.cz-code-work { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--gp-space-5); align-items: start; }
+.cz-code-main { display: grid; gap: var(--gp-space-4); }
+.cz-code-answer { display: grid; gap: 6px; }
+.cz-code-row--answer { gap: var(--gp-space-3); }
+.cz-code-slot {
+  display: grid; place-items: center; width: 66px; height: 66px; padding: 0;
+  border: 3px dashed var(--gp-line-strong); border-radius: 14px; background: var(--gp-surface);
+  cursor: pointer; color: var(--gp-ink);
+}
+.cz-code-slot .cz-sym { background: transparent; }
+.cz-code-slot:not(:has(.cz-code-slot__n)) { border-style: solid; }
+.cz-code-slot.is-cursor { border-style: solid; border-color: var(--room); box-shadow: 0 0 0 4px var(--room-line); }
+.cz-code-slot.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+.cz-code-slot__n { font-weight: 800; color: var(--gp-ink-muted); font-size: var(--gp-text-lg); }
+
+.cz-code-tray { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-code-pick {
+  position: relative; display: grid; place-items: center; width: 60px; height: 60px; padding: 0;
+  border: 2px solid var(--gp-line); border-radius: 14px; background: var(--gp-surface); cursor: pointer;
+}
+.cz-code-pick:hover, .cz-code-pick:focus-visible { border-color: var(--room); background: var(--room-soft); }
+.cz-code-pick .cz-sym { background: transparent; }
+.cz-code-pick__key { position: absolute; top: 2px; right: 5px; font-size: 11px; font-weight: 700; color: var(--gp-ink-muted); }
+.cz-code-actions { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); align-items: center; }
+
+/* The notes grid. */
+.cz-code-notes {
+  padding: var(--gp-space-2) var(--gp-space-4) var(--gp-space-3);
+  border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface);
+}
+.cz-code-notes summary { font-weight: 800; cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.cz-code-notes__help { margin: 0 0 var(--gp-space-2); font-size: var(--gp-text-xs); color: var(--gp-ink-muted); max-width: 24rem; }
+.cz-code-grid { border-collapse: separate; border-spacing: 4px; }
+.cz-code-grid th { font-size: var(--gp-text-xs); color: var(--gp-ink-muted); font-weight: 800; }
+.cz-code-grid th .cz-sym { width: 34px; height: 34px; font-size: 22px; background: transparent; }
+.cz-code-grid th .cz-sym--digit { font-size: 20px; }
+.cz-code-note {
+  width: 42px; height: 42px; padding: 0; border-radius: 9px;
+  border: 2px solid var(--gp-line); background: var(--gp-surface);
+  font-weight: 800; font-size: 18px; color: var(--gp-ink-soft); cursor: pointer;
+}
+.cz-code-note.is-crossed { background: var(--gp-surface-3); }
+.cz-code-note.is-auto { background: var(--gp-surface-2); border-style: dashed; cursor: default; }
+.cz-code-note.is-flagged { border-color: var(--gp-retry); color: var(--gp-retry); border-width: 3px; }
+.cz-code-note.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 1px; }
+.cz-code-notes__check { margin-top: var(--gp-space-2); }
+
+/* Messages under the board. */
+.cz-code-msg { min-height: 1.5em; }
+.cz-code-msg > p { margin: 0 0 var(--gp-space-2); }
+.cz-code-say { font-weight: 800; font-size: var(--gp-text-lg); }
+.cz-code-say.is-right { color: var(--gp-good); }
+.cz-code-say.is-wrong { color: var(--gp-retry); }
+.cz-code-hint, .cz-code-detective, .cz-code-note-msg {
+  padding: var(--gp-space-3) var(--gp-space-4); border-radius: var(--gp-radius-md);
+  background: var(--room-soft); border: 2px solid var(--room-line); font-weight: 600;
+}
+.cz-code-detective { display: grid; gap: var(--gp-space-2); justify-items: start; }
+.cz-code-detective p { margin: 0; }
+.cz-code-detective .gp-btn { margin-right: var(--gp-space-2); }
+.cz-code-would { margin: var(--gp-space-2) 0; font-weight: 700; }
+
+/* Could it be? */
+.cz-code-cand {
+  display: grid; gap: 6px; justify-items: start; padding: var(--gp-space-3) var(--gp-space-4);
+  border: 3px solid var(--room); border-radius: var(--gp-radius-lg); background: var(--room-soft);
+}
+.cz-code-could { display: flex; flex-wrap: wrap; gap: var(--gp-space-3); }
+.cz-code-could__btn { min-width: 11rem; }
+.cz-code-left { margin: 0; font-weight: 700; color: var(--gp-ink-soft); }
+
+/* The zoo map on a game's home. */
+.cz-code-zoo { margin-top: var(--gp-space-6); }
+.cz-code-pens { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: var(--gp-space-3); }
+.cz-code-pen {
+  display: flex; gap: var(--gp-space-3); align-items: flex-start; padding: var(--gp-space-3) var(--gp-space-4);
+  border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface);
+}
+.cz-code-pen.is-home { background: var(--room-soft); border-color: var(--room-line); }
+.cz-code-pen__pic { font-size: 40px; line-height: 1; }
+.cz-code-pen__text { display: grid; gap: 4px; font-size: var(--gp-text-sm); }
+.cz-code-pen__locks { display: flex; gap: 4px; }
+.cz-code-pen__locks > span { width: 13px; height: 13px; border-radius: 3px; border: 2px solid var(--gp-line-strong); }
+.cz-code-pen__locks > span.is-open { background: var(--room); border-color: var(--room); }
+.cz-code-pen__fact { color: var(--gp-ink-soft); }
+
+@media (max-width: 760px) {
+  .cz-code-work { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cz-code-clue { grid-template-columns: 1fr; gap: var(--gp-space-2); }
+  .cz-sym { width: 44px; height: 44px; font-size: 28px; }
+  .cz-sym--digit { font-size: 26px; }
+  .cz-code-slot { width: 56px; height: 56px; }
+  .cz-code-pick { width: 52px; height: 52px; }
+  .cz-code-note { width: 38px; height: 38px; }
+  .cz-logic-tools { margin-left: 0; }
+}
+
+/* ==========================================================================
+   Truth Island (rooms/logic/truth.js)
+   ========================================================================== */
+
+.cz-truth { display: grid; gap: var(--gp-space-4); }
+
+/* The three tokens: a sun with rays, a crescent, a cloud. Shape first. */
+.cz-truth-tok { display: block; flex: none; }
+.cz-truth-tok--sun { color: var(--cz-honey); }
+.cz-truth-tok--moon { color: var(--gp-focus); }   /* readable on both themes */
+.cz-truth-tok--cloud { color: var(--gp-ink-muted); }
+
+.cz-truth-rules { display: flex; align-items: center; gap: var(--gp-space-2); margin: 0; color: var(--gp-ink-soft); font-size: var(--gp-text-sm); }
+.cz-truth-rules > span { margin-left: var(--gp-space-1); }
+
+/* The picture, on a picnic blanket. */
+.cz-truth-scene {
+  padding: var(--gp-space-3) var(--gp-space-4); border: 2px solid var(--room-line);
+  border-radius: var(--gp-radius-lg); background: var(--room-soft);
+}
+.cz-truth-scene__label { font-weight: 800; font-size: var(--gp-text-xs); letter-spacing: 0.04em; text-transform: uppercase; color: var(--gp-ink-soft); }
+.cz-truth-blanket { display: flex; flex-wrap: wrap; gap: var(--gp-space-3) var(--gp-space-6); font-size: 32px; line-height: 1.2; margin-top: var(--gp-space-1); }
+.cz-truth-group { letter-spacing: 2px; }
+.cz-truth-scene.is-curtain { display: flex; align-items: center; gap: var(--gp-space-3); }
+.cz-truth-scene.is-curtain p { margin: 0; font-weight: 600; }
+.cz-truth-curtain { font-size: 40px; }
+
+/* The islanders. */
+.cz-truth-isle { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--gp-space-4); }
+.cz-truth-animal {
+  display: grid; gap: var(--gp-space-3); align-content: end; padding: var(--gp-space-3);
+  border: 2px solid var(--gp-line); border-radius: var(--gp-radius-xl); background: var(--gp-surface);
+}
+.cz-truth-bubbles { display: grid; gap: var(--gp-space-2); }
+.cz-truth-bubble {
+  display: grid; gap: 6px; text-align: left; padding: var(--gp-space-2) var(--gp-space-3);
+  border: 2px solid var(--gp-line-strong); border-radius: 16px 16px 16px 4px;
+  background: var(--gp-surface-2); color: var(--gp-ink); font: inherit; cursor: pointer;
+}
+.cz-truth-bubble:hover, .cz-truth-bubble:focus-visible { border-color: var(--room); }
+.cz-truth-bubble.is-hint { border-color: var(--gp-focus); box-shadow: 0 0 0 3px var(--gp-focus); }
+.cz-truth-bubble.is-bad { border-color: var(--gp-retry); border-style: dashed; }
+.cz-truth-icons { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 22px; min-height: 30px; }
+.cz-truth-mini { display: inline-block; }
+.cz-truth-mini .cz-creature { width: 28px; height: 28px; }
+.cz-truth-op { font-weight: 800; font-size: 18px; color: var(--gp-ink-soft); padding: 0 2px; }
+.cz-truth-op--word { font-size: var(--gp-text-xs); text-transform: uppercase; letter-spacing: 0.05em; }
+.cz-truth-objs { letter-spacing: 1px; }
+/* "None": the object with a line through it. */
+.cz-truth-none { position: relative; display: inline-block; }
+.cz-truth-none::after {
+  content: ""; position: absolute; left: -3px; right: -3px; top: 50%;
+  border-top: 3px solid var(--gp-retry); transform: rotate(-35deg);
+}
+.cz-truth-text { font-size: var(--gp-text-sm); font-weight: 600; line-height: 1.35; }
+.cz-truth-would { font-size: var(--gp-text-xs); font-weight: 800; }
+.cz-truth-would.is-true { color: var(--gp-good); }
+.cz-truth-would.is-false { color: var(--gp-retry); }
+.cz-truth-would.is-must { display: inline-flex; align-items: center; gap: 4px; color: var(--gp-ink-soft); }
+.cz-truth-would.is-clash { background: var(--gp-retry-soft); color: var(--gp-retry); padding: 2px 6px; border-radius: 6px; }
+
+.cz-truth-who { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.cz-truth-face { position: relative; display: block; }
+.cz-truth-face > .cz-creature { width: 64px; height: 64px; }
+.cz-truth-held { position: absolute; right: -16px; bottom: -2px; font-size: 26px; }
+.cz-truth-name { font-weight: 800; }
+.cz-truth-badge {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: var(--gp-radius-pill);
+  background: var(--cz-honey-soft); color: var(--cz-honey-ink); font-size: var(--gp-text-xs); font-weight: 800;
+}
+
+/* The token slot. Empty is a dashed square with "?"; a token is solid; a
+   pencilled "maybe" stays dashed, whatever it holds. */
+.cz-truth-slot {
+  display: flex; align-items: center; justify-content: center; gap: var(--gp-space-2);
+  min-height: 56px; padding: 4px 10px; border: 3px dashed var(--gp-line-strong); border-radius: 14px;
+  background: var(--gp-surface); color: var(--gp-ink); font: inherit; font-weight: 800; cursor: pointer;
+}
+.cz-truth-slot.is-sun { border-style: solid; border-color: var(--cz-honey-line); background: var(--cz-honey-soft); color: var(--cz-honey-ink); }
+.cz-truth-slot.is-moon { border-style: solid; border-color: var(--cz-sky-line); background: var(--cz-sky-soft); color: var(--cz-sky-ink); }
+.cz-truth-slot.is-cloud { border-style: solid; background: var(--gp-surface-3); }
+.cz-truth-slot.is-maybe { border-style: dashed; opacity: 0.8; }
+.cz-truth-slot.is-maybe .cz-truth-slot__word::after { content: " ?"; }
+.cz-truth-slot.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+.cz-truth-slot[disabled] { cursor: default; opacity: 1; }
+.cz-truth-ruled { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; font-size: var(--gp-text-xs); font-weight: 700; color: var(--gp-ink-soft); }
+.cz-truth-slot__q { font-size: 26px; color: var(--gp-ink-muted); }
+.cz-truth-pencilhelp {
+  margin: 0; padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-md);
+  border: 2px dashed var(--room-line); font-size: var(--gp-text-sm); font-weight: 600;
+}
+.cz-truth-albumface .cz-creature { width: 44px; height: 44px; }
+
+@media (max-width: 560px) {
+  .cz-truth-isle { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   Find the Rule (rooms/logic/rule.js)
+   ========================================================================== */
+
+.cz-rule { display: grid; gap: var(--gp-space-4); }
+.cz-rule-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* A creature: the site's face plus a hat, a pattern, buttons and a held
+   thing. Size is a real difference in size, so a small one is drawn small. */
+.cz-rule-c { position: relative; display: inline-grid; place-items: center; width: 64px; height: 68px; }
+.cz-rule-c svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.cz-rule-c--small svg { width: 70%; height: 70%; }
+.cz-rule-item { position: absolute; right: -6px; bottom: 0; font-size: 22px; line-height: 1; }
+
+.cz-rule-pairbox { display: inline-flex; align-items: center; gap: 2px; padding: 2px 6px; border-radius: 12px; border: 2px dashed var(--gp-line-strong); }
+.cz-rule-pairn { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); }
+
+/* The two shelves by the gate: a check and a cross, in words as well. */
+.cz-rule-gate { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gp-space-3); }
+.cz-rule-shelf { padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-lg); border: 2px solid var(--gp-line); background: var(--gp-surface); }
+.cz-rule-shelf.is-pass { border-color: var(--gp-good-line); background: var(--gp-good-soft); }
+.cz-rule-shelf.is-stop { border-color: var(--gp-retry-line); background: var(--gp-retry-soft); border-style: dashed; }
+.cz-rule-shelf h3 { margin: 0 0 var(--gp-space-1); font-size: var(--gp-text-md); }
+.cz-rule-shelf.is-pass h3 { color: var(--gp-good); }
+.cz-rule-shelf.is-stop h3 { color: var(--gp-retry); }
+.cz-rule-shelf ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; min-height: 68px; }
+.cz-rule-shelf li.is-mine { outline: 2px solid var(--room); outline-offset: 2px; border-radius: 10px; }
+
+.cz-rule-test h3, .cz-rule-prove h3 { margin: 0; font-size: var(--gp-text-md); }
+.cz-rule-help { margin: 2px 0 var(--gp-space-2); font-size: var(--gp-text-sm); color: var(--gp-ink-muted); }
+.cz-rule-line { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-rule-pickc, .cz-rule-sortc {
+  display: grid; place-items: center; padding: 4px 8px; min-width: 76px; min-height: 76px;
+  border: 2px solid var(--gp-line); border-radius: 14px; background: var(--gp-surface); cursor: pointer; font: inherit; color: var(--gp-ink);
+}
+.cz-rule-pickc.is-picked { border-color: var(--room); border-width: 3px; box-shadow: 0 0 0 4px var(--room-line); }
+.cz-rule-pickc.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+
+.cz-rule-machine { display: flex; flex-wrap: wrap; gap: var(--gp-space-4); align-items: flex-start; }
+.cz-rule-preview { display: grid; place-items: center; min-width: 110px; min-height: 96px; padding: var(--gp-space-2); border-radius: var(--gp-radius-lg); background: var(--room-soft); border: 2px solid var(--room-line); }
+.cz-rule-rows { display: grid; gap: var(--gp-space-2); flex: 1 1 280px; min-width: 0; }
+.cz-rule-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rule-machine2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gp-space-3); }
+.cz-rule-machine2 h4 { margin: 0 0 4px; font-size: var(--gp-text-sm); }
+.cz-rule-chip { min-height: 40px; }
+
+.cz-rule-predict { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); align-items: center; }
+.cz-rule-q { margin: 0 var(--gp-space-2) 0 0; font-weight: 800; font-size: var(--gp-text-lg); }
+.cz-rule-say.is-pass { border: 2px solid var(--gp-good-line); }
+.cz-rule-say.is-stop { border: 2px dashed var(--gp-retry-line); }
+
+/* Proving: sort six, or build the rule. */
+.cz-rule-sort { list-style: none; margin: var(--gp-space-2) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-rule-sortc { gap: 2px; }
+.cz-rule-sortc.is-pass { border-color: var(--gp-good); background: var(--gp-good-soft); }
+.cz-rule-sortc.is-stop { border-color: var(--gp-retry); border-style: dashed; background: var(--gp-retry-soft); }
+.cz-rule-sortw { font-size: var(--gp-text-xs); font-weight: 800; }
+
+.cz-rule-built { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); align-items: center; margin: var(--gp-space-2) 0; }
+.cz-rule-term { display: inline-flex; align-items: center; gap: 4px; }
+.cz-rule-termbtn {
+  display: grid; text-align: left; gap: 2px; min-height: 52px; padding: 6px 12px; cursor: pointer; font: inherit; color: var(--gp-ink);
+  border: 2px dashed var(--gp-line-strong); border-radius: 12px; background: var(--gp-surface);
+}
+.cz-rule-term.is-active .cz-rule-termbtn { border-style: solid; border-color: var(--room); box-shadow: 0 0 0 3px var(--room-line); }
+.cz-rule-termn { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase; }
+.cz-rule-join { font-weight: 800; }
+.cz-rule-x { min-width: 36px; padding: 0 8px; }
+.cz-rule-palette { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rule-preview-text { margin: var(--gp-space-2) 0 0; padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-md); background: var(--gp-surface-2); }
+.cz-rule-book { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+
+@media (max-width: 760px) {
+  .cz-rule-machine2 { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cz-rule-gate { grid-template-columns: 1fr; }
+  .cz-rule-preview { min-width: 0; width: 100%; }
+}
+
+/* ==========================================================================
+   Zoo Bridges (rooms/logic/bridges.js)
+   ========================================================================== */
+
+.cz-br { display: grid; gap: var(--gp-space-3); }
+/* A big grid on a phone scrolls sideways inside its own box, never the page. */
+.cz-br-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.cz-br-svg { display: block; width: 100%; max-width: 720px; height: auto; margin-inline: auto; touch-action: manipulation; }
+.cz-br-water { fill: var(--cz-lagoon-soft); stroke: var(--cz-lagoon-line); stroke-width: 2; }
+.cz-br-planks line { stroke: var(--cz-mango); stroke-width: 5; stroke-linecap: round; }
+.cz-br-edge.is-wrong .cz-br-planks line { stroke: var(--gp-retry); stroke-dasharray: 7 5; }
+.cz-br-hit { fill: transparent; cursor: pointer; }
+.cz-br-svg { cursor: pointer; }
+.cz-br-coord { font-size: 15px; font-weight: 800; fill: var(--gp-ink-muted); text-anchor: middle; }
+.cz-br-island { pointer-events: none; }
+.cz-br-zoom { margin: 0 0 var(--gp-space-2); }
+.cz-br-hit:hover { fill: var(--cz-lagoon-line); fill-opacity: 0.35; }
+.cz-br-hit:focus { outline: none; }
+.cz-br-hit:focus-visible { stroke: var(--gp-focus); stroke-width: 3; stroke-dasharray: 6 4; }
+.cz-br-edge.is-hint .cz-br-hit { stroke: var(--gp-focus); stroke-width: 4; stroke-dasharray: 6 4; fill: var(--gp-focus); fill-opacity: 0.12; }
+.cz-br-edge.is-shake { animation: gp-wobble 460ms ease-in-out; transform-box: fill-box; transform-origin: center; }
+
+.cz-br-disc { fill: var(--gp-surface); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-br-island.is-full .cz-br-disc { fill: var(--gp-good-soft); stroke: var(--gp-good); stroke-width: 3; }
+.cz-br-island.is-over .cz-br-disc { stroke: var(--gp-retry); stroke-dasharray: 4 3; stroke-width: 3; }
+.cz-br-island.is-hint .cz-br-disc { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-br-n { font: 800 20px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; dominant-baseline: middle; }
+.cz-br-dot { fill: none; stroke: var(--gp-ink-muted); stroke-width: 1.5; }
+.cz-br-dot.is-on { fill: var(--gp-ink); stroke: var(--gp-ink); }
+.cz-br-tick { font: 800 11px var(--gp-font-ui); fill: var(--gp-good); text-anchor: middle; }
+.cz-br-visitor { font-size: 17px; text-anchor: middle; }
+.cz-br-badge.is-over { font: 900 20px var(--gp-font-ui); fill: var(--gp-retry); text-anchor: middle; }
+
+/* ==========================================================================
+   Train Tracks (rooms/logic/trains.js)
+   ========================================================================== */
+
+.cz-tr { display: grid; gap: var(--gp-space-3); }
+.cz-tr-svg { display: block; width: 100%; max-width: 980px; height: auto; margin-inline: auto; }
+.cz-tr-ground { fill: var(--cz-leaf-soft); stroke: var(--cz-leaf-line); stroke-width: 2; }
+/* The live way is a solid rail; the way not taken is thin and dashed. */
+.cz-tr-rail { fill: none; stroke: var(--gp-ink-soft); stroke-width: 6; stroke-linecap: round; }
+.cz-tr-rail.is-off { stroke: var(--gp-line-strong); stroke-width: 3; stroke-dasharray: 6 7; }
+.cz-tr-route { fill: none; stroke-width: 5; stroke-dasharray: 2 9; stroke-linecap: round; }
+.cz-tr-route--0 { stroke: var(--gp-focus); }
+.cz-tr-route--1 { stroke: var(--cz-flamingo); }
+.cz-tr-route--2 { stroke: var(--cz-orchid); }
+.cz-tr-route--3 { stroke: var(--cz-honey); }
+.cz-tr-switch[data-tr-switch] { cursor: pointer; }
+.cz-tr-switch:focus { outline: none; }
+.cz-tr-hub { fill: var(--gp-surface); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-tr-switch.is-flip .cz-tr-hub { fill: var(--cz-sky-soft); stroke-width: 3; }
+.cz-tr-switch:focus-visible .cz-tr-hub, .cz-tr-switch.is-hint .cz-tr-hub { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-tr-lever { stroke: var(--cz-mango); stroke-width: 6; stroke-linecap: round; }
+.cz-tr-flip { font: 800 13px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; pointer-events: none; }
+.cz-tr-num { font: 700 12px var(--gp-font-ui); fill: var(--gp-ink-muted); text-anchor: middle; }
+.cz-tr-house rect { fill: var(--gp-surface); stroke: var(--gp-ink-soft); stroke-width: 2; }
+.cz-tr-house.is-ok rect { stroke: var(--gp-good); stroke-width: 4; }
+.cz-tr-house.is-bad rect { stroke: var(--gp-retry); stroke-width: 4; stroke-dasharray: 6 4; }
+.cz-tr-emoji { font-size: 28px; }
+.cz-tr-roof { font-size: 18px; }
+.cz-tr-mark { font: 900 22px var(--gp-font-ui); fill: var(--gp-ink); }
+.cz-tr-qn { font: 800 12px var(--gp-font-ui); fill: var(--gp-ink-muted); }
+
+.cz-tr-picks, .cz-tr-chips { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-tr-pulls { margin: 0; }
+.cz-tr-order { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--gp-space-2); counter-reset: tr; }
+.cz-tr-order li { display: grid; justify-items: center; gap: 2px; counter-increment: tr; }
+.cz-tr-order li::after { content: counter(tr); font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); }
+.cz-tr-slot {
+  display: grid; place-items: center; width: 58px; height: 58px; font-size: 30px; color: var(--gp-ink-muted);
+  border: 3px dashed var(--gp-line-strong); border-radius: 14px; background: var(--gp-surface); font-weight: 800;
+}
+.cz-tr-slot.is-full { border-style: solid; border-color: var(--room); cursor: pointer; }
+
+/* The siding: cars arrive, wait on a dead end, and go into the zoo. */
+.cz-tr-want, .cz-tr-row { display: flex; flex-wrap: wrap; gap: 6px; min-height: 56px; align-items: center; }
+.cz-tr-car {
+  position: relative; display: inline-grid; place-items: center; width: 54px; height: 54px; font-size: 28px;
+  border: 2px solid var(--gp-line-strong); border-radius: 12px; background: var(--gp-surface);
+}
+.cz-tr-car small { position: absolute; right: 4px; bottom: 1px; font-size: 11px; font-weight: 800; color: var(--gp-ink-muted); }
+.cz-tr-yard { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--gp-space-3); align-items: start; }
+.cz-tr-yard section { padding: var(--gp-space-2) var(--gp-space-3); border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface); }
+.cz-tr-yard h3 { margin: 0 0 6px; font-size: var(--gp-text-sm); }
+.cz-tr-sidingbox { border-style: dashed; }
+.cz-tr-stack { display: flex; flex-direction: column; gap: 6px; min-height: 56px; }
+.cz-tr .is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+
+@media (max-width: 560px) {
+  .cz-tr-yard { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   Robot Path and Fix the Bug (rooms/logic/robotbench.js)
+   ========================================================================== */
+
+.cz-rb { display: grid; gap: var(--gp-space-3); }
+.cz-rb-svg { display: block; width: 100%; max-width: 470px; height: auto; margin-inline: auto; }
+.cz-rb-wall { fill: var(--cz-leaf-soft); }
+.cz-rb-scenery { font-size: 24px; text-anchor: middle; }
+.cz-rb-path { fill: var(--cz-honey-soft); stroke: var(--cz-honey-line); stroke-width: 1.5; }
+.cz-rb-path.is-o { fill: var(--cz-mango-soft); }
+.cz-rb-path.is-b { fill: var(--cz-sky-soft); }
+.cz-rb-animal text { font-size: 30px; text-anchor: middle; }
+.cz-rb-animal.is-fed text:first-child { opacity: 0.55; }
+.cz-rb-fed { font: 900 16px var(--gp-font-ui); fill: var(--gp-good); }
+.cz-rb-body { fill: var(--cz-sky); stroke: var(--gp-ink); stroke-width: 2; }
+.cz-rb-nose { fill: var(--cz-mango); stroke: var(--gp-ink); stroke-width: 1.5; }
+.cz-rb-ahead { fill: none; stroke: var(--gp-ink-muted); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.cz-rb-ouch { font-size: 20px; }
+
+/* The program: rows of tiles, brackets with their own inside, a caret. */
+.cz-rb-editor { display: grid; gap: var(--gp-space-2); }
+.cz-rb-row {
+  display: grid; grid-template-columns: 9rem 1fr; gap: var(--gp-space-2); align-items: start;
+  padding: var(--gp-space-2); border: 2px solid var(--gp-line); border-radius: var(--gp-radius-lg); background: var(--gp-surface);
+}
+.cz-rb-row.is-over { border-color: var(--gp-retry); border-style: dashed; }
+.cz-rb-rowname { text-align: left; font: inherit; font-weight: 800; background: none; border: none; color: var(--room-ink); cursor: pointer; min-height: 44px; }
+.cz-rb-rowname small { display: block; font-size: var(--gp-text-xs); color: var(--gp-ink-muted); font-weight: 700; }
+.cz-rb-list { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 52px; }
+.cz-rb-tile {
+  display: grid; place-items: center; width: 48px; height: 48px; padding: 0; font-size: 22px; cursor: pointer;
+  border: 2px solid var(--gp-line-strong); border-radius: 10px; background: var(--gp-surface-2); color: var(--gp-ink);
+}
+.cz-rb-tile.is-selected, .cz-rb-box.is-selected { border-color: var(--room); box-shadow: 0 0 0 3px var(--room-line); }
+.cz-rb-tile.is-running, .cz-rb-box.is-running { outline: 3px solid var(--gp-focus); outline-offset: 2px; }
+.cz-rb-tile.is-bug, .cz-rb-box.is-bug { border-color: var(--gp-retry); border-style: dashed; border-width: 3px; }
+.cz-rb-tile.is-paint-o { background: repeating-linear-gradient(45deg, var(--cz-mango-soft) 0 6px, var(--cz-mango-line) 6px 12px); }
+.cz-rb-tile.is-paint-b { background: radial-gradient(var(--cz-sky-line) 30%, transparent 32%) 0 0 / 10px 10px, var(--cz-sky-soft); }
+.cz-rb-box {
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; padding: 4px;
+  border: 2px solid var(--room-line); border-radius: 12px; background: var(--room-soft);
+}
+.cz-rb-box--if { border-style: dashed; }
+.cz-rb-head { font: inherit; font-weight: 800; font-size: var(--gp-text-sm); min-height: 44px; padding: 0 10px; border: none; border-radius: 8px; background: var(--gp-surface); color: var(--gp-ink); cursor: pointer; }
+.cz-rb-inner {
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; min-width: 44px; min-height: 48px; padding: 2px 4px;
+  border-radius: 8px; background: var(--gp-surface); border: 1px dashed var(--gp-line-strong);
+}
+.cz-rb-end { width: 28px; min-height: 44px; padding: 0; border: none; background: none; font-size: 22px; color: var(--room-ink); cursor: pointer; }
+.cz-rb-else {
+  font: inherit; font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase;
+  min-width: 44px; min-height: 44px; padding: 0 6px; border: none; border-radius: 8px; background: none; cursor: pointer;
+}
+.cz-rb-caret { display: inline-block; width: 3px; height: 40px; border-radius: 2px; background: var(--gp-focus); animation: cz-rb-blink 1s steps(2, start) infinite; }
+@keyframes cz-rb-blink { to { visibility: hidden; } }
+.cz-rb-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 6px 8px; border-radius: var(--gp-radius-md); background: var(--gp-surface-2); }
+.cz-rb-toolname { font-weight: 800; margin-right: var(--gp-space-2); }
+.cz-rb-palette { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rb-pal {
+  display: grid; place-items: center; gap: 2px; min-width: 66px; min-height: 62px; padding: 4px 6px; cursor: pointer;
+  border: 2px solid var(--gp-line); border-radius: 12px; background: var(--gp-surface); color: var(--gp-ink); font: inherit;
+}
+.cz-rb-pal span { font-size: 22px; line-height: 1; }
+.cz-rb-pal small { font-size: 11px; font-weight: 700; line-height: 1.1; }
+.cz-rb-pal:hover, .cz-rb-pal:focus-visible { border-color: var(--room); }
+.cz-rb-pal.is-quiet { background: var(--gp-surface-2); }
+
+@media (max-width: 560px) {
+  .cz-rb-row { grid-template-columns: 1fr; }
+}
+
+/* ---- Fix the Bug (rooms/logic/bug.js) ---- */
+.cz-rb-mark { cursor: pointer; }
+.cz-rb-mark circle { fill: var(--gp-focus); fill-opacity: 0.18; stroke: var(--gp-focus); stroke-width: 3; stroke-dasharray: 5 4; }
+.cz-rb-mark.is-picked circle { fill-opacity: 0.4; stroke-dasharray: none; }
+.cz-rb-mark text { font: 800 18px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; }
+.cz-rb-mark:focus { outline: none; }
+.cz-rb-mark:focus-visible circle { stroke-width: 5; }
+.cz-bug .cz-rb-tile.is-tappable:hover { border-color: var(--room); }
+.cz-bug-opt { min-height: 48px; font-size: var(--gp-text-md); }
+
+/* Shown while today's or an endless puzzle is being made. */
+.cz-logic-making { padding: var(--gp-space-6) 0; text-align: center; color: var(--gp-ink-muted); font-weight: 700; }

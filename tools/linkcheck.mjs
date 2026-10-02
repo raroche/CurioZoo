@@ -21,13 +21,11 @@ const warnings = [];
 const err = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
-/* ---- what the router actually handles ---- */
-
-const app = fs.readFileSync('assets/js/app.js', 'utf8');
-const routeFn = app.slice(app.indexOf('function route()'));
-const routeBody = routeFn.slice(0, routeFn.indexOf('\n}\n'));
-const ROUTES = new Set([...routeBody.matchAll(/case '([a-z]+)'/g)].map((m) => m[1]));
-if (!ROUTES.size) err('could not find any case labels in route()');
+/* ---- what the router actually handles ----
+   Every address's first part belongs to one room in the registry. */
+const { REGISTRY } = await import('../assets/js/rooms/registry.js');
+const ROUTES = new Set(REGISTRY.flatMap((r) => r.routes || []));
+if (!ROUTES.size) err('could not find any routes in assets/js/rooms/registry.js');
 
 /* ---- what exists, for the second path segment ---- */
 
@@ -51,15 +49,16 @@ for (const n of [1, 2, 3]) {
   for (const l of JSON.parse(fs.readFileSync(file, 'utf8')).lessons || []) chessLessons.add(l.id);
 }
 
-const { ROOMS } = await import('../assets/js/modules/sections.js');
+const { ROOMS } = await import('../assets/js/rooms/registry.js');
 
 /* ---- collect every link the app can produce ---- */
 
 const files = ['index.html'];
+/* Each room's screens.html holds links too, so it is read like index.html. */
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
   const full = path.join(d, e.name);
   if (e.isDirectory()) walk(full);
-  else if (e.name.endsWith('.js')) files.push(full);
+  else if (e.name.endsWith('.js') || e.name.endsWith('.html')) files.push(full);
 });
 walk('assets/js');
 
@@ -83,7 +82,7 @@ for (const f of files) {
   for (const m of src.matchAll(/href="(#\/[^"]*?)\$\{/g)) note(m[1] + '*', f);
   for (const m of src.matchAll(/location\.hash\s*=\s*`(#\/[^`]*?)\$\{/g)) note(m[1] + '*', f);
 }
-for (const r of ROOMS) note(r.href, 'modules/sections.js (ROOMS)');
+for (const r of ROOMS) note(r.href, 'rooms/registry.js (ROOMS)');
 
 /* ---- resolve each one ---- */
 
@@ -96,7 +95,7 @@ for (const [link, from] of links) {
 
   if (!head) { reached.add('home'); continue; }
   if (!ROUTES.has(head)) {
-    err(`${link} -> no case '${head}' in route()   [${where}]`);
+    err(`${link} -> no room in rooms/registry.js answers '${head}'   [${where}]`);
     continue;
   }
   reached.add(head);

@@ -2,14 +2,17 @@
  * app.js — CurioZoo shell.
  *
  * The theme, the hash router, one delegated event listener, and boot. That is
- * all. Each room owns its own screen under ./screens, shared state and DOM
- * helpers live in ./modules/shell.js, and the rules a room needs live in
- * ./modules next to their tests.
+ * all. It knows no room by name: every room is an entry in ./rooms/registry.js
+ * and a folder under ./rooms, loaded the first time a child opens it. Shared
+ * state and DOM helpers live in ./modules/shell.js, and the rules a room needs
+ * live in ./modules next to their tests.
  *
- * It used to be all of that in one 1,864-line file, which was fine for three
- * sections and would not have survived ten. The import graph is deliberately
- * one-directional -- app.js imports screens, screens import shell, shell
- * imports nothing of theirs -- so a new room cannot create a cycle.
+ * It used to be all of that in one 1,864-line file, and after that a router
+ * that imported every room and a click handler that knew every button in the
+ * zoo. Adding a game meant editing it. Now adding a game means adding a folder
+ * and one registry entry, and this file does not change. The import graph is
+ * one-directional -- app.js loads rooms, rooms import shell and modules,
+ * modules import nothing of theirs -- so a new room cannot create a cycle.
  *
  * No framework: the whole app is a router plus template strings, which is
  * genuinely less code than any library would be, with nothing to install and
@@ -19,20 +22,12 @@
 import * as data from './modules/data.js';
 import * as storage from './modules/storage.js';
 import * as speech from './modules/speech.js';
-import * as flags from './modules/flags.js';
-import { describeFigure } from './modules/figures.js';
 import { icon } from './modules/icons.js';
-import { hydrateMascots, setMood } from './modules/mascot.js';
-import { $, $$, hydrateIcons, showError, showScreen, state } from './modules/shell.js';
-import { answerAngle, drawAngSetup, nextAngle, startAngRound, answerElement, drawElemQuestion, drawElemSetup, nextElement, startElemRound, answerCapChoice, answerCapTyped, drawCapQuestion, drawCapSetup, nextCapital, startCapRound, answerFlag, answerShapeChoice, answerShapeTyped, answerShapeVault, answerVault, drawFlagQuestion, drawFlagSetup, drawShapeQuestion, drawShapeSetup, renderFun, startFlagRound, startShapeRound } from './screens/fun.js';
-import { applySpeechButton, renderGiftedExplainer, goForward, goPrev, handleAnswer, nextQuestion, paintRoomHead, questionCount, renderCategories, renderCountPicker, renderGradePicker, renderHomeStats, renderResults, renderRooms, renderTests, startSession } from './screens/gifted.js';
-import { answerMath, checkMath, crossOut, nimTake, paintRegion, pickDoor, renderMath, runMachine, settleDoor, stepExercise, tapPeg, toggleBuildCell, turnDial } from './screens/math.js';
-import { renderParents, toggleGuideLanguage } from './screens/parents.js';
-import { renderLearn, renderElemLearn, renderAngleLearn, paintAngTurn, paintAngTrap, paintAngClock, learnStep, learnJump, learnOrder, showElementDetail } from './screens/learn.js';
-import { answerTrivia, renderTrivia, renderTriviaLearn, setTriviaSetup, triviaAction, triviaKey } from './screens/trivia.js';
-import { answerDisc, discAction, discKey, setDiscSetup } from './screens/discover.js';
-import { answerTeaser, renderTeasers, setTeaserSetup, teaserAction, teaserKey } from './screens/teasers.js';
-import { backTarget } from './modules/routes.js';
+import { hydrateMascots, mascot, setMood } from './modules/mascot.js';
+import { applyStyles } from './modules/style.js';
+import { $, applySpeechButton, hydrateIcons, setBackResolver, showError, state } from './modules/shell.js';
+import { backTarget, roomById, roomFile, roomForRoute } from './rooms/registry.js';
+import { startOffline, applyUpdateIfSafe } from './offline.js';
 
 /* ------------------------------------------------------------------ */
 /* Theme                                                               */
@@ -61,487 +56,131 @@ function toggleTheme() {
 }
 
 /* ------------------------------------------------------------------ */
-/* The Chess Club, fetched only if somebody opens it                   */
+/* Rooms, fetched the first time somebody opens one                    */
 /* ------------------------------------------------------------------ */
 
 /**
- * The chess room, loaded on the first visit to it.
- *
- * It is by far the heaviest room -- the vendored rules library alone is a
- * hundred kilobytes, and with the board, the bot, the lessons and the puzzle
- * code it comes to over three hundred. Imported statically, every child who
- * only ever wanted the flag game downloaded all of it.
- *
- * The handlers below check whether it has loaded rather than awaiting it.
- * They can only fire from a chess screen, and a chess screen cannot be on
- * display unless this has already resolved.
+ * Every room is downloaded only when a child first opens it: its code, its
+ * screens and its styles, all at once. A child who only ever wanted the flag
+ * game never downloads the Chess Club. Each room is fetched once; the promise
+ * is kept, so a second visit is instant and two quick taps fetch it once.
  */
-let chess = null;
-let chessLoading = null;
+const opened = new Map();     // room id -> Promise of its room.js module
+let current = null;           // the room whose screen is showing
 
-function chessRoom() {
-  if (chess) return Promise.resolve(chess);
-  if (!chessLoading) {
-    chessLoading = import('./screens/chess.js').then((mod) => { chess = mod; return mod; });
+function openRoom(entry) {
+  if (!opened.has(entry.id)) {
+    const loading = Promise.all([
+      entry.code(),
+      entry.screens ? fetchText(roomFile(entry.screens)) : null,
+      entry.css ? loadStyles(roomFile(entry.css)) : null
+    ]).then(async ([room, html]) => {
+      if (html) mountScreens(entry, html);
+      if (room.init) await room.init();
+      return room;
+    });
+    /* A failure is not remembered: on a flaky connection the next tap tries
+       again instead of finding the same broken promise forever. */
+    loading.catch(() => opened.delete(entry.id));
+    opened.set(entry.id, loading);
   }
-  return chessLoading;
+  return opened.get(entry.id);
+}
+
+async function fetchText(url) {
+  const res = await fetch(url, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`Could not load ${url} (HTTP ${res.status})`);
+  return res.text();
+}
+
+/* Resolves once the rules are in force, so a room's screens never show for a
+   moment without their styles. */
+function loadStyles(href) {
+  if (document.querySelector(`link[rel="stylesheet"][href="${href}"]`)) return null;
+  return new Promise((resolve, reject) => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    link.onload = () => resolve();
+    link.onerror = () => { link.remove(); reject(new Error(`Could not load ${href}`)); };
+    document.head.appendChild(link);
+  });
+}
+
+/**
+ * Put a room's screens on the page, just before the error screen.
+ *
+ * Everything index.html's own markup gets at boot, these get here: icons,
+ * mascots, data-style, and the room's creature in its banner, alive, and
+ * drawn from the same registry entry as its card so the two never drift.
+ */
+function mountScreens(entry, html) {
+  if (document.querySelector(`#gp-main > [data-room="${entry.id}"]`)) return;
+  const tpl = document.createElement('template');
+  tpl.innerHTML = html;
+  const screens = [...tpl.content.children].filter((el) => el.matches('section.gp-screen'));
+  if (!screens.length) throw new Error(`${entry.screens} holds no <section class="gp-screen">`);
+  $('#screen-error').before(...screens);
+  for (const el of screens) {
+    el.dataset.room = entry.id;
+    hydrateIcons(el);
+    hydrateMascots(el);
+    applyStyles(el);
+    /* The room's creature, alive: it breathes and blinks on its banner. */
+    el.querySelectorAll('[data-room-pic]').forEach((pic) => {
+      const room = roomById(pic.dataset.roomPic);
+      if (room && !pic.childElementCount) pic.innerHTML = mascot({ kind: room.creature });
+    });
+  }
 }
 
 /* ------------------------------------------------------------------ */
 /* Router                                                              */
 /* ------------------------------------------------------------------ */
 
-function route() {
+async function route() {
   const hash = location.hash || '#/home';
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
   const head = parts[0] || 'home';
+  const entry = roomForRoute(head);
+  if (!entry) { location.hash = '#/home'; return; }
 
-  switch (head) {
-    case 'home':
-      renderRooms();
-      renderHomeStats();
-      showScreen('home');
-      break;
-    case 'gifted':
-      paintRoomHead('gifted', 'cz-gifted-pic');
-      renderGiftedExplainer();
-      renderGradePicker();
-      renderCountPicker();
-      showScreen('gifted');
-      break;
-    case 'tests':
-      renderTests();
-      showScreen('tests');
-      break;
-    case 'categories':
-      if (!parts[1]) { location.hash = '#/tests'; return; }
-      renderCategories(parts[1]);
-      showScreen('categories');
-      break;
-    case 'quiz':
-      if (!state.session) { location.hash = '#/home'; return; }
-      showScreen('quiz');
-      break;
-    case 'results':
-      if (!state.session) { location.hash = '#/home'; return; }
-      renderResults();
-      showScreen('results');
-      break;
-    case 'fun':
-      renderFun(parts[1], parts[2]);
-      break;
-    case 'teasers':
-      paintRoomHead('teasers', 'cz-teaser-pic');
-      renderTeasers(parts[1]);
-      break;
-    case 'trivia':
-      paintRoomHead('trivia', 'cz-trivia-pic');
-      if (parts[1] === 'learn') renderTriviaLearn();
-      else renderTrivia(parts[1]);
-      break;
-    case 'math':
-      renderMath(parts[1], parts[2]);
-      break;
-    case 'chess':
-      chessRoom().then((room) => {
-        /* The child may have moved on while it loaded. */
-        if ((location.hash || '#/home').startsWith('#/chess')) room.renderChess(parts[1], parts[2], parts[3]);
-      }).catch((err) => {
-        console.error(err);
-        showError('The Chess Club could not be loaded.');
-      });
-      break;
-    case 'parents':
-      renderParents();
-      showScreen('parents');
-      break;
-    default:
-      location.hash = '#/home';
+  /* The one safe moment to switch to a new version: no round is open. */
+  if (entry.id === 'home') applyUpdateIfSafe();
+
+  let room;
+  try {
+    room = await openRoom(entry);
+  } catch (err) {
+    console.error(err);
+    showError(`${entry.name || 'This page'} could not be loaded. Check the connection and try again.`);
+    return;
   }
-}
-
-function goBack() {
-  const target = backTarget();
-  if (!target) { location.hash = '#/home'; return; }
-  if (target.href) { location.hash = target.href; return; }
-  leaveQuiz();
-}
-
-function leaveQuiz() {
-  if (state.session && state.session.answers.length && !confirmLeave()) return;
-  speech.cancel();
-  location.hash = state.lastRun && state.lastRun.testId
-    ? `#/categories/${state.lastRun.testId}` : '#/gifted';
-}
-
-function confirmLeave() {
-  return window.confirm('Leave this set? Your answers so far are already saved.');
+  /* The child may have moved on while it loaded. */
+  if ((location.hash || '#/home') !== hash) return;
+  if (current && current !== room && current.leave) {
+    try { current.leave(); } catch (err) { console.error(err); }
+  }
+  current = room;
+  room.render(parts.length ? parts : ['home']);
 }
 
 /* ------------------------------------------------------------------ */
 /* Events                                                              */
 /* ------------------------------------------------------------------ */
 
+/* One listener for the whole page. A click belongs to whichever room is
+   showing, so two rooms can use the same attribute without one stealing the
+   other's taps -- which used to be a real hazard: the chess lesson's answer
+   cards had to be checked before the quiz's, or the quiz grabbed them. */
 function onClick(ev) {
   /* iOS refuses to speak until synthesis is triggered inside a real gesture. */
   if (!state.audioUnlocked) { speech.unlock(); state.audioUnlocked = true; }
+  if (current && current.onClick) current.onClick(ev);
+}
 
-  const grade = ev.target.closest('[data-grade]');
-  if (grade) {
-    state.settings.grade = Number(grade.dataset.grade);
-    storage.setSetting('grade', state.settings.grade);
-    renderGradePicker();
-    return;
-  }
-
-  const count = ev.target.closest('[data-count]');
-  if (count) {
-    state.settings.questionCount = Number(count.dataset.count);
-    storage.setSetting('questionCount', state.settings.questionCount);
-    renderCountPicker();
-    return;
-  }
-
-  if (ev.target.closest('[data-lesson-done]')) {
-    const wrap = document.querySelector('.gp-teachwrap');
-    if (wrap) wrap.open = false;
-    $('#gp-turn-head').scrollIntoView({ block: 'start', behavior: 'smooth' });
-    return;
-  }
-
-  /* ---- country shape game ---- */
-  /* ---- browsing mode ---- */
-  const ls = ev.target.closest('[data-learnstep]');
-  if (ls) { learnStep(ls.dataset.learnstep); return; }
-
-  const lj = ev.target.closest('[data-learnjump]');
-  if (lj) { learnJump(lj.dataset.learnjump); return; }
-
-  const lo = ev.target.closest('[data-learnorder]');
-  if (lo) { learnOrder(lo.dataset.learnorder); return; }
-
-  /* On the learning page a cell explains itself instead of being an answer. */
-  const learnCell = ev.target.closest('#screen-elemlearn [data-elemcell]');
-  if (learnCell) { showElementDetail(learnCell.dataset.elemcell); return; }
-
-  /* ---- name the element ---- */
-  const es = ev.target.closest('[data-elemset]');
-  if (es) { state.elements.setup.set = es.dataset.elemset; drawElemSetup(); return; }
-
-  const ea = ev.target.closest('[data-elemask]');
-  if (ea) { state.elements.setup.ask = ea.dataset.elemask; drawElemSetup(); return; }
-
-  const en = ev.target.closest('[data-elemcount]');
-  if (en) { state.elements.setup.count = en.dataset.elemcount; drawElemSetup(); return; }
-
-  /* ---- the angle workshop ---- */
-  const ad = ev.target.closest('[data-angdemo]');
-  if (ad) { state.angles.demo.deg = Number(ad.dataset.angdemo); paintAngTurn(); return; }
-
-  const ac = ev.target.closest('[data-angclock]');
-  if (ac) { state.angles.demo.hour = Number(ac.dataset.angclock); paintAngClock(); return; }
-
-  /* ---- guess the angle ---- */
-  const aa = ev.target.closest('[data-angask]');
-  if (aa) { state.angles.setup.ask = aa.dataset.angask; drawAngSetup(); return; }
-
-  const asv = ev.target.closest('[data-angset]');
-  if (asv) { state.angles.setup.set = asv.dataset.angset; drawAngSetup(); return; }
-
-  const an = ev.target.closest('[data-angcount]');
-  if (an) { state.angles.setup.count = an.dataset.angcount; drawAngSetup(); return; }
-
-  const ap = ev.target.closest('[data-anganswer]');
-  if (ap) { answerAngle(ap.dataset.anganswer); return; }
-
-  const ans = ev.target.closest('[data-elemanswer]');
-  if (ans) { answerElement(ans.dataset.elemanswer); return; }
-
-  const cellPick = ev.target.closest('[data-elemcell]');
-  if (cellPick) { answerElement(cellPick.dataset.elemcell); return; }
-
-  /* ---- capital city game ---- */
-  const cc = ev.target.closest('[data-capcount]');
-  if (cc) { state.capitals.setup.count = cc.dataset.capcount; drawCapSetup(); return; }
-
-  const cp = ev.target.closest('[data-cappick]');
-  if (cp) { state.capitals.setup.pick = cp.dataset.cappick; drawCapSetup(); return; }
-
-  const cm = ev.target.closest('[data-capmode]');
-  if (cm) {
-    state.capitals.setup.mode = cm.dataset.capmode;
-    if (cm.dataset.capmode !== 'continent') state.capitals.setup.continents = [];
-    drawCapSetup();
-    return;
-  }
-
-  const ck = ev.target.closest('[data-capcont]');
-  if (ck) {
-    const id = ck.dataset.capcont;
-    const on = state.capitals.setup.continents;
-    const at = on.indexOf(id);
-    if (at === -1) on.push(id); else on.splice(at, 1);
-    drawCapSetup();
-    return;
-  }
-
-  const ca = ev.target.closest('[data-capanswer]');
-  if (ca) { answerCapChoice(ca.dataset.capanswer); return; }
-
-  if (ev.target.closest('[data-capcheck]')) { answerCapTyped(); return; }
-
-  const sc = ev.target.closest('[data-shapecount]');
-  if (sc) { state.shapes.setup.count = sc.dataset.shapecount; drawShapeSetup(); return; }
-
-  const sp = ev.target.closest('[data-shapepick]');
-  if (sp) { state.shapes.setup.pick = sp.dataset.shapepick; drawShapeSetup(); return; }
-
-  const sm = ev.target.closest('[data-shapemode]');
-  if (sm) {
-    state.shapes.setup.mode = sm.dataset.shapemode;
-    if (sm.dataset.shapemode !== 'continent') state.shapes.setup.continents = [];
-    drawShapeSetup();
-    return;
-  }
-
-  const sk = ev.target.closest('[data-shapecont]');
-  if (sk) {
-    const id = sk.dataset.shapecont;
-    const on = state.shapes.setup.continents;
-    state.shapes.setup.continents = on.includes(id) ? on.filter((x) => x !== id) : on.concat(id);
-    drawShapeSetup();
-    return;
-  }
-
-  const sa = ev.target.closest('[data-shapeanswer]');
-  if (sa) { answerShapeChoice(sa.dataset.shapeanswer); return; }
-
-  if (ev.target.closest('[data-shapecheck]')) { answerShapeTyped(); return; }
-
-  const sv = ev.target.closest('[data-shapevault]');
-  if (sv) { answerShapeVault(sv.dataset.shapevault); return; }
-
-  /* ---- flag game ---- */
-  const fs2 = ev.target.closest('[data-flagscope]');
-  if (fs2) {
-    state.flags.setup.scope = fs2.dataset.flagscope;
-    /* A continent chosen under one scope may hold nothing under the other. */
-    state.flags.setup.continents = state.flags.setup.continents.filter((id) =>
-      flags.inScope(state.flags.data, state.flags.setup.scope).some((c) => c.continent === id));
-    drawFlagSetup();
-    return;
-  }
-
-  const fc = ev.target.closest('[data-flagcount]');
-  if (fc) { state.flags.setup.count = fc.dataset.flagcount; drawFlagSetup(); return; }
-
-  const fm = ev.target.closest('[data-flagmode]');
-  if (fm) {
-    state.flags.setup.mode = fm.dataset.flagmode;
-    if (fm.dataset.flagmode !== 'continent') state.flags.setup.continents = [];
-    drawFlagSetup();
-    return;
-  }
-
-  const fk = ev.target.closest('[data-flagcont]');
-  if (fk) {
-    const id = fk.dataset.flagcont;
-    const on = state.flags.setup.continents;
-    state.flags.setup.continents = on.includes(id) ? on.filter((x) => x !== id) : on.concat(id);
-    drawFlagSetup();
-    return;
-  }
-
-  const flagPick = ev.target.closest('[data-flagpick]');
-  if (flagPick) { answerFlag(flagPick.dataset.flagpick); return; }
-
-  const vault = ev.target.closest('[data-vaultpick]');
-  if (vault) { answerVault(vault.dataset.vaultpick); return; }
-
-  if (ev.target.closest('[data-run]')) { runMachine(); return; }
-
-  const take = ev.target.closest('[data-take]');
-  if (take) { nimTake(Number(take.dataset.take)); return; }
-
-  const door = ev.target.closest('[data-door]');
-  if (door) { pickDoor(Number(door.dataset.door)); return; }
-  if (ev.target.closest('[data-stay]')) { settleDoor(false); return; }
-  if (ev.target.closest('[data-switch]')) { settleDoor(true); return; }
-
-  const dial = ev.target.closest('[data-shift]');
-  if (dial) { turnDial(Number(dial.dataset.shift)); return; }
-
-  const scell = ev.target.closest('[data-num]');
-  if (scell) { crossOut(scell); return; }
-
-  const peg = ev.target.closest('[data-peg]');
-  if (peg) { tapPeg(peg); return; }
-
-  const region = ev.target.closest('[data-region]');
-  if (region) { paintRegion(region.dataset.region); return; }
-
-  const cell = ev.target.closest('[data-cell]');
-  if (cell) { toggleBuildCell(cell); return; }
-
-  const pick = ev.target.closest('[data-pick]');
-  if (pick && !pick.disabled) { answerMath(pick.dataset.pick); return; }
-
-  if (ev.target.closest('#gp-exercise [data-check]')) { checkMath(); return; }
-
-  /* A chess lesson's question. It has to come BEFORE the generic .gp-choice
-     handler below: the chess cards wear that class to look like every other
-     set of answers on the site, and the gifted quiz would otherwise grab them
-     and try to score them against a session that does not exist. */
-  /* All three can only be pressed on a chess screen, which cannot be showing
-     unless the room has loaded -- so `chess` is never null when they fire. */
-  const chessPick = ev.target.closest('[data-chess-choice]');
-  if (chessPick && chess) { chess.lessonChoice(chessPick.dataset.chessChoice); return; }
-
-  const chessBot = ev.target.closest('[data-chess-bot]');
-  if (chessBot && chess) { chess.playPick('bot', chessBot.dataset.chessBot); return; }
-
-  const chessGame = ev.target.closest('[data-chess-game]');
-  if (chessGame && chess) { chess.playPick('game', chessGame.dataset.chessGame); return; }
-
-  /* Answering a tournament drill. */
-  const tnPick = ev.target.closest('[data-tnpick]');
-  if (tnPick && chess) { chess.tournamentPick(tnPick.dataset.tnpick); return; }
-
-  /* Jumping straight to a move in an opening line. */
-  const openAt = ev.target.closest('[data-openat]');
-  if (openAt && chess) { chess.chessAction('chess-openat', openAt); return; }
-
-  const chessTheme = ev.target.closest('[data-chess-theme]');
-  if (chessTheme && chess) { chess.chessAction('chess-theme', chessTheme); return; }
-
-  /* ---- Curio Trivia: above the generic .gp-choice handler, as chess is ---- */
-  const triviaPick = ev.target.closest('[data-triviapick]');
-  if (triviaPick) { answerTrivia(Number(triviaPick.dataset.triviapick)); return; }
-  for (const [attr, key] of [['trivialevel', 'level'], ['triviacat', 'category'], ['triviacount', 'count'], ['trivialang', 'lang']]) {
-    const pill = ev.target.closest(`[data-${attr}]`);
-    if (pill) { setTriviaSetup(key, pill.dataset[attr]); return; }
-  }
-
-  /* ---- Discovered or Invented: above .gp-choice for the same reason ---- */
-  const discPick = ev.target.closest('[data-discpick]');
-  if (discPick) { answerDisc(discPick.dataset.discpick); return; }
-  for (const [attr, key] of [['disccount', 'count'], ['disclang', 'lang']]) {
-    const pill = ev.target.closest(`[data-${attr}]`);
-    if (pill) { setDiscSetup(key, pill.dataset[attr]); return; }
-  }
-
-  /* ---- Math Brain Teasers ---- */
-  const teaserPick = ev.target.closest('[data-teaserpick]');
-  if (teaserPick) { answerTeaser(Number(teaserPick.dataset.teaserpick)); return; }
-  for (const [attr, key] of [['teaserlevel', 'level'], ['teasercount', 'count'], ['teaserlang', 'lang']]) {
-    const pill = ev.target.closest(`[data-${attr}]`);
-    if (pill) { setTeaserSetup(key, pill.dataset[attr]); return; }
-  }
-
-  const choice = ev.target.closest('.gp-choice');
-  if (choice && !state.answered) { handleAnswer(choice.dataset.choice); return; }
-
-  const cat = ev.target.closest('[data-category]');
-  if (cat) {
-    startSession({ categoryId: cat.dataset.category, limit: questionCount() });
-    return;
-  }
-
-  const action = ev.target.closest('[data-action]');
-  if (!action) return;
-  if (action.dataset.action.startsWith('chess-')) {
-    if (chess) chess.chessAction(action.dataset.action, action);
-    return;
-  }
-  if (action.dataset.action.startsWith('trivia-')) {
-    triviaAction(action.dataset.action, action);
-    return;
-  }
-  if (action.dataset.action.startsWith('teaser-')) {
-    teaserAction(action.dataset.action);
-    return;
-  }
-  if (action.dataset.action.startsWith('disc-')) {
-    discAction(action.dataset.action);
-    return;
-  }
-  switch (action.dataset.action) {
-    case 'leave-quiz':
-      leaveQuiz();
-      break;
-    case 'ang-arms':
-      state.angles.demo.swap = !state.angles.demo.swap;
-      paintAngTrap();
-      break;
-    case 'ang-start':
-      startAngRound();
-      break;
-    case 'ang-next':
-      nextAngle();
-      break;
-    case 'ang-again':
-      startAngRound();
-      break;
-    case 'elem-start':
-      startElemRound();
-      break;
-    case 'elem-next':
-      nextElement();
-      break;
-    case 'elem-again':
-      startElemRound();
-      break;
-    case 'cap-start':
-      startCapRound();
-      break;
-    case 'cap-next':
-      nextCapital();
-      break;
-    case 'cap-again':
-      startCapRound();
-      break;
-    case 'shape-start':
-      startShapeRound();
-      break;
-    case 'shape-next':
-      state.shapes.round.index += 1;
-      drawShapeQuestion();
-      break;
-    case 'shape-again':
-      startShapeRound();
-      break;
-    case 'flag-start':
-      startFlagRound();
-      break;
-    case 'flag-next': {
-      const r = state.flags.round;
-      r.index += 1;
-      drawFlagQuestion();
-      break;
-    }
-    case 'flag-again':
-      startFlagRound();
-      break;
-    case 'quick-start':
-      startSession({ limit: questionCount() });
-      break;
-    case 'start-all': {
-      const testId = $('#screen-categories').dataset.test || null;
-      startSession({ testId, limit: questionCount() });
-      break;
-    }
-    case 'again':
-      startSession({ ...(state.lastRun || {}), limit: questionCount() });
-      break;
-    case 'reset-progress':
-      if (window.confirm('Clear all practice history? Your grade and colour settings are kept.')) {
-        storage.resetProgress();
-        renderHomeStats();
-      }
-      break;
-    default:
-      break;
-  }
+function onKeydown(ev) {
+  if (current && current.onKeydown) current.onKeydown(ev);
 }
 
 /**
@@ -583,32 +222,6 @@ function radioGroupKeys(ev) {
   return true;
 }
 
-function onKeydown(ev) {
-  /* Arrows page through the browsing mode, the way any gallery behaves. */
-  if (document.getElementById('screen-learn')?.classList.contains('is-active')
-      && !/^(INPUT|TEXTAREA)$/.test(ev.target.tagName)) {
-    if (ev.key === 'ArrowRight') { ev.preventDefault(); learnStep(1); return; }
-    if (ev.key === 'ArrowLeft') { ev.preventDefault(); learnStep(-1); return; }
-  }
-  if (triviaKey(ev)) return;
-  if (discKey(ev)) return;
-  if (teaserKey(ev)) return;
-  if (!document.getElementById('screen-quiz').classList.contains('is-active')) return;
-  if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
-
-  if (!state.answered && /^[1-6]$/.test(ev.key)) {
-    const btn = $$('.gp-choice')[Number(ev.key) - 1];
-    if (btn) { ev.preventDefault(); btn.click(); }
-    return;
-  }
-  if (ev.key === 'ArrowLeft') { ev.preventDefault(); goPrev(); return; }
-  if (ev.key === 'ArrowRight') { ev.preventDefault(); goForward(); return; }
-  if (state.answered && (ev.key === 'Enter' || ev.key === ' ')) {
-    ev.preventDefault();
-    nextQuestion();
-  }
-}
-
 /* ------------------------------------------------------------------ */
 /* The mascot                                                          */
 /* ------------------------------------------------------------------ */
@@ -618,7 +231,7 @@ function onKeydown(ev) {
  *
  * All of it is chrome, none of it is load-bearing, and every listener is
  * passive or trivial. Answering a question is wired where the answer is
- * marked, not here: see screens/gifted.js and screens/fun.js.
+ * marked, not here: see rooms/gifted/gifted.js and rooms/fun/fun.js.
  */
 function wireMascot() {
   const brand = $('.gp-brand');
@@ -677,36 +290,15 @@ async function boot() {
   hydrateMascots();
   applyTheme();
   applySpeechButton();
+  setBackResolver(backTarget);
 
   document.addEventListener('click', onClick);
   document.addEventListener('keydown', (ev) => { radioGroupKeys(ev); });
   document.addEventListener('keydown', onKeydown);
   window.addEventListener('hashchange', route);
 
-  $('#gp-next').addEventListener('click', nextQuestion);
-  $('#gp-prev').addEventListener('click', goPrev);
-  $('#gp-fwd').addEventListener('click', goForward);
-  $('#gp-replay').addEventListener('click', () => speech.speak(
-    [state.session?.current?.promptSpeech || state.session?.current?.prompt,
-     state.session?.current?.figure ? describeFigure(state.session.current.figure) : ''],
-    { force: true }
-  ));
   $('#gp-theme-toggle').addEventListener('click', toggleTheme);
-
   wireMascot();
-  $('#gp-lang-toggle').addEventListener('click', toggleGuideLanguage);
-  $('#gp-ex-prev').addEventListener('click', () => stepExercise(-1));
-  $('#gp-ex-next').addEventListener('click', () => stepExercise(1));
-  /* Enter should submit the answer box, the way any small form behaves. */
-  document.addEventListener('keydown', (ev) => {
-    if (ev.key !== 'Enter') return;
-    if (ev.target.matches('[data-shapetyped]')) { ev.preventDefault(); answerShapeTyped(); return; }
-    if (ev.target.matches('[data-captyped]')) { ev.preventDefault(); answerCapTyped(); return; }
-    if (ev.target.matches('#gp-exercise [data-feed]')) { ev.preventDefault(); runMachine(); return; }
-    if (!ev.target.matches('#gp-exercise [data-answer-input]')) return;
-    ev.preventDefault();
-    checkMath();
-  });
   $('#gp-speak-toggle').addEventListener('click', () => {
     state.settings.readAloud = !state.settings.readAloud;
     storage.setSetting('readAloud', state.settings.readAloud);
@@ -721,11 +313,12 @@ async function boot() {
     state.manifest = await data.loadManifest();
   } catch (err) {
     console.error(err);
-    showError('The question list could not be loaded. If you opened index.html directly from the file system, run a small web server in this folder instead — for example: python3 -m http.server');
+    showError('The question list could not be loaded. If you opened index.html directly from the file system, run a small web server in this folder instead — for example: python3 tools/serve.py 8000');
     return;
   }
 
   route();
+  startOffline();
 }
 
 if (document.readyState === 'loading') {

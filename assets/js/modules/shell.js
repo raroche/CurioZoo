@@ -2,8 +2,8 @@
  * shell.js — the things every screen needs.
  *
  * Shared application state and the handful of DOM helpers that go with it.
- * Screens import from here; nothing here imports a screen, which is what keeps
- * the graph acyclic now that app.js is no longer one file.
+ * Rooms import from here; nothing here imports a room, which is what keeps
+ * the graph acyclic and lets each room load on its own.
  */
 
 import * as data from './data.js';
@@ -11,7 +11,7 @@ import * as storage from './storage.js';
 import { icon } from './icons.js';
 import { setMood } from './mascot.js';
 import { applyStyles } from './style.js';
-import { backTarget } from './routes.js';
+import * as speech from './speech.js';
 
 /* ------------------------------------------------------------------ */
 /* State                                                               */
@@ -112,23 +112,6 @@ export function hydrateIcons(root = document) {
 /* Screens                                                             */
 /* ------------------------------------------------------------------ */
 
-const SCREENS = ['home', 'gifted', 'tests', 'categories', 'quiz', 'results', 'parents',
-  'math', 'mathtopic', 'fun', 'flagsetup', 'flaggame', 'shapesetup', 'shapegame',
-  'capsetup', 'capgame', 'elemsetup', 'elemgame', 'angsetup', 'anggame',
-  'learn', 'elemlearn', 'anglearn', 'triviasetup', 'triviagame', 'trivialearn',
-  'discsetup', 'discgame', 'teasersetup', 'teasergame',
-  'chess', 'chesslevel', 'chesslesson', 'chessplay', 'chesspuzzle', 'chessopenings',
-  'chesstournament', 'error'];
-
-/**
- * Show one screen and hide the rest.
- *
- * A name that is not in SCREENS used to hide everything and show nothing: the
- * loop turned each screen off and never found one to turn on. That shipped the
- * capital game as a blank page — the markup was in the DOM and the round had
- * been built, so nothing threw and nothing logged. It only looked broken to a
- * person. Now it says so.
- */
 /**
  * The one back control, drawn into whichever screen is showing.
  *
@@ -136,9 +119,15 @@ const SCREENS = ['home', 'gifted', 'tests', 'categories', 'quiz', 'results', 'pa
  * above the title instead of in the top bar, where it was a mystery arrow
  * beside the logo.
  */
+let backOf = () => null;
+
+/** Who decides where back goes. The app hands in the room registry's rule;
+    this module cannot import it, because modules know nothing of rooms. */
+export function setBackResolver(fn) { backOf = fn; }
+
 function paintBack() {
   $$('.gp-backslot').forEach((slot) => { slot.innerHTML = ''; });
-  const target = backTarget();
+  const target = backOf();
   if (!target) return;
   const slot = document.querySelector('.gp-screen.is-active .gp-backslot');
   if (!slot) return;
@@ -149,15 +138,26 @@ function paintBack() {
       + ` data-action="${target.action}">&larr; ${target.label}</button>`;
 }
 
+/**
+ * Show one screen and hide the rest.
+ *
+ * A name with no screen behind it used to hide everything and show nothing:
+ * the loop turned each screen off and never found one to turn on. That shipped
+ * the capital game as a blank page — the markup was in the DOM and the round
+ * had been built, so nothing threw and nothing logged. It only looked broken
+ * to a person. Now it says so.
+ *
+ * The screens are whatever is on the page: home and error from index.html,
+ * and each room's own, added when the room is first opened.
+ */
 export function showScreen(name) {
-  if (!SCREENS.includes(name)) {
-    throw new Error(`showScreen("${name}"): not in SCREENS, so every screen `
-      + `would be hidden. Add it to modules/shell.js.`);
+  const target = document.getElementById(`screen-${name}`);
+  if (!target || !target.classList.contains('gp-screen')) {
+    throw new Error(`showScreen("${name}"): there is no <section class="gp-screen" `
+      + `id="screen-${name}"> on the page, so every screen would be hidden. `
+      + `Is it in the room's screens.html?`);
   }
-  SCREENS.forEach((s) => {
-    const el = document.getElementById(`screen-${s}`);
-    if (el) el.classList.toggle('is-active', s === name);
-  });
+  $$('#gp-main > .gp-screen').forEach((el) => el.classList.toggle('is-active', el === target));
   /* The back control lives in the page now, not the top bar, and is drawn
      here rather than in the router. The router calls route() before the screen
      it is building becomes active, so painting there filled the slot of the
@@ -171,6 +171,22 @@ export function showScreen(name) {
      user is not left behind at the top bar. */
   const heading = document.querySelector(`#screen-${name} h1`);
   if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
+}
+
+/* ------------------------------------------------------------------ */
+/* Read aloud: the speaker button in the top bar                        */
+/* ------------------------------------------------------------------ */
+
+export function applySpeechButton() {
+  const btn = $('#gp-speak-toggle');
+  if (!btn) return;
+  if (!speech.isSupported()) { btn.hidden = true; return; }
+  const on = state.settings.readAloud;
+  btn.innerHTML = icon(on ? 'speaker' : 'speakerOff');
+  btn.setAttribute('aria-pressed', String(on));
+  btn.setAttribute('aria-label', on ? 'Turn read aloud off' : 'Turn read aloud on');
+  btn.classList.toggle('is-active', on);
+  speech.setEnabled(on);
 }
 
 export function showError(message) {

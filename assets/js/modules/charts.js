@@ -14,16 +14,18 @@
 export function ring({ correct, total, size = 190 }) {
   const pct = total ? correct / total : 0;
   const r = size / 2 - 14;
-  const c = 2 * Math.PI * r;
-  const dash = (c * pct).toFixed(2);
   const tone = pct >= 0.7 ? 'var(--gp-good)' : pct >= 0.4 ? 'var(--gp-secondary)' : 'var(--gp-retry)';
 
   /* A rounded cap on a zero-length arc still paints a dot, which reads as a
      wrong score of "a bit". Draw no arc at all when nothing was correct. */
+  /* pathLength="100" makes the dash lengths percentages, so the stylesheet
+     can draw the arc in from nothing (gp-ring-draw) without knowing the
+     circle's size. */
+  const on = pct * 100;
   const arc = correct === 0 ? '' : `
-          <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none"
-                  stroke="${tone}" stroke-width="16" stroke-linecap="round"
-                  stroke-dasharray="${dash} ${(c - dash).toFixed(2)}"
+          <circle class="gp-ring__arc" cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none"
+                  stroke="${tone}" stroke-width="16" stroke-linecap="round" pathLength="100"
+                  stroke-dasharray="${on.toFixed(2)} ${(100 - on).toFixed(2)}"
                   transform="rotate(-90 ${size / 2} ${size / 2})" />`;
 
   return `
@@ -35,7 +37,7 @@ export function ring({ correct, total, size = 190 }) {
         </svg>
       </div>
       <div class="gp-center">
-        <div class="gp-ring__value">${correct}<span class="gp-muted" data-style="font-size:.5em"> / ${total}</span></div>
+        <div class="gp-ring__value"><span data-count-up>${correct}</span><span class="gp-muted" data-style="font-size:.5em"> / ${total}</span></div>
         <div class="gp-ring__label">puzzles right</div>
       </div>
     </div>`;

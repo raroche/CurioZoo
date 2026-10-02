@@ -3,7 +3,7 @@
  *
  * Which teasers a round gets, what a tap means, what the words on the card
  * say and what the room remembers. Pure, so the checker and the tests run it
- * under node; screens/teasers.js only draws.
+ * under node; rooms/teasers/teasers.js only draws.
  *
  * Every teaser was found somewhere (a puzzle book, a teacher's page, a
  * contest) and retold in plain words; the source is kept with it. See

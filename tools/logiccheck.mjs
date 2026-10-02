@@ -1,0 +1,575 @@
+#!/usr/bin/env node
+/**
+ * Check every Logic Games puzzle bank, and the words that go with it.
+ *
+ * Part of npm run verify. Nothing in a bank is trusted because a tool wrote
+ * it: every puzzle is solved again here, from its clues, by brute force AND by
+ * the step-by-step solver the hints use. A puzzle with two answers, or one the
+ * hints cannot reach, or a hint that would cross out the real answer, fails
+ * the build instead of reaching a child.
+ *
+ * It also holds the two languages to each other: every key in English must
+ * be in Spanish with the same {slots}, and the other way round.
+ *
+ * tools/logicbuild.mjs imports checkCodeBank() and runs it before it writes
+ * anything, so a bank that would fail here is never written.
+ */
+
+import fs from 'node:fs';
+import { pathToFileURL } from 'node:url';
+import * as C from '../assets/js/modules/codelogic.js';
+import { CODE_TEXT } from '../assets/js/modules/codetext.js';
+import * as T from '../assets/js/modules/truthlogic.js';
+import { TRUTH_TEXT, sentence } from '../assets/js/modules/truthtext.js';
+import * as R from '../assets/js/modules/rulelogic.js';
+import { RULE_TEXT, ruleSentence, describe } from '../assets/js/modules/ruletext.js';
+import * as B from '../assets/js/modules/bridgeslogic.js';
+import { BRIDGES_TEXT } from '../assets/js/modules/bridgestext.js';
+import * as TR from '../assets/js/modules/trainslogic.js';
+import { TRAINS_TEXT } from '../assets/js/modules/trainstext.js';
+import * as RG from '../assets/js/modules/robotgen.js';
+import * as RV from '../assets/js/modules/robotvm.js';
+import { ROBOT_TEXT, KIND_WORD } from '../assets/js/modules/robottext.js';
+import * as BG from '../assets/js/modules/robotbug.js';
+import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
+import { ANIMALS } from '../assets/js/modules/zooart.js';
+
+const pad = (n) => String(n).padStart(2, '0');
+/* Which slots a sentence uses. Not how often: Spanish may say "su frase"
+   where English repeats the name. */
+const slots = (s) => [...new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]))].sort().join(',');
+
+/* ------------------------------------------------------------------ */
+/* Crack the Code                                                      */
+/* ------------------------------------------------------------------ */
+
+export function checkCodeBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'code') err(`game is "${bank.game}", not "code"`);
+  const defs = C.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  const ids = (bank.chapters || []).map((c) => c.id).join(',');
+  if (ids !== defs.map((d) => d.id).join(',')) err(`${bank.level}: chapters are ${ids}, expected ${defs.map((d) => d.id).join(',')}`);
+
+  const seen = new Set();
+  for (const chapter of bank.chapters || []) {
+    const ch = C.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== C.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles, need ${C.CHAPTER_SIZE}`);
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}" should be ${ch.id}-${pad(i + 1)}`);
+      if (p.mode !== C.modeAt(i)) err(`${where}: mode "${p.mode}" should be "${C.modeAt(i)}"`);
+      if (Boolean(p.teach) !== (i < C.TEACH)) err(`${where}: teach flag is wrong`);
+      const key = JSON.stringify([p.mode, p.secret, p.clues || null, p.cand || null]);
+      if (seen.has(key)) err(`${where}: the same puzzle appears twice`);
+      seen.add(key);
+
+      if (ch.digits) {
+        if (p.sym) err(`${where}: a number chapter has no animals`);
+      } else if (!Array.isArray(p.sym) || p.sym.length !== ch.k || new Set(p.sym).size !== ch.k
+        || p.sym.some((x) => !Number.isInteger(x) || x < 0 || x >= ANIMALS.length)) {
+        err(`${where}: sym must be ${ch.k} different animals`);
+      }
+      if (!Array.isArray(p.secret) || !C.legalGuess(ch, p.secret)) { err(`${where}: the secret is not a legal code`); return; }
+
+      if (p.mode === 'free') return;
+      if (!Array.isArray(p.clues) || !p.clues.length) { err(`${where}: no clues`); return; }
+      for (const g of p.clues) {
+        if (!C.legalGuess(ch, g)) err(`${where}: clue ${JSON.stringify(g)} is not a legal code`);
+        if (C.sameCode(g, p.secret)) err(`${where}: a clue is the answer itself`);
+      }
+      const clues = C.cluesOf(ch, p);
+
+      if (p.mode === 'could') {
+        if (!C.legalGuess(ch, p.cand)) { err(`${where}: the candidate is not a legal code`); return; }
+        const bad = clues.map((c, ci) => (C.fits(p.cand, [c], ch.fb) ? -1 : ci)).filter((x) => x >= 0);
+        if (p.yes && bad.length) err(`${where}: says "could be" but clue ${bad[0] + 1} does not fit`);
+        if (!p.yes && (bad.length !== 1 || bad[0] !== p.broken)) {
+          err(`${where}: says clue ${p.broken + 1} breaks, but the broken clues are ${bad.map((x) => x + 1).join(',') || 'none'}`);
+        }
+        if (!C.fits(p.secret, clues, ch.fb)) err(`${where}: the secret does not fit its own clues`);
+        return;
+      }
+
+      /* A Clue Safe: one answer, and it is the secret. */
+      const sols = C.solutions(ch, clues, 2);
+      if (sols.length !== 1) { err(`${where}: ${sols.length === 0 ? 'no' : 'more than one'} code fits the clues`); return; }
+      if (!C.sameCode(sols[0], p.secret)) err(`${where}: the one code that fits is not the secret`);
+      if (!p.hand && C.minimise(ch, clues, p.secret).length !== clues.length) err(`${where}: a clue is not needed`);
+      const run = C.humanSolve(ch, clues);
+      if (!run.solved) { err(`${where}: the step-by-step solver cannot finish it, so the hints would run out`); return; }
+      if (!C.sameCode(run.code, p.secret)) err(`${where}: the solver reached the wrong code`);
+      if (!p.hand && (run.tier < ch.tiers[0] || run.tier > ch.tiers[1])) err(`${where}: needs tier ${run.tier}, the chapter allows ${ch.tiers.join('-')}`);
+      if (p.tier !== run.tier) err(`${where}: stored tier ${p.tier}, solver says ${run.tier}`);
+      if (p.steps !== run.steps.length) err(`${where}: stored ${p.steps} steps, solver takes ${run.steps.length}`);
+      for (const step of run.steps) {
+        if (step.out.some(([s, x]) => p.secret[s] === x)) err(`${where}: a ${step.rule} step crosses out the answer`);
+        if (!CODE_TEXT.en[step.rule]) err(`${where}: no sentence for rule ${step.rule}`);
+      }
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Truth Island                                                        */
+/* ------------------------------------------------------------------ */
+
+const STEP_KEYS = { fact: ['step.fact', 'step.badge'], check: ['step.check'], known: ['step.known'], self: ['step.self', 'step.selfx'],
+  both: ['step.both', 'step.bothx'], left: ['step.left'], suppose: ['step.suppose', 'step.supposex', 'step.suppose2'] };
+
+export function checkTruthBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'truth') err(`game is "${bank.game}", not "truth"`);
+  const defs = T.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  const ids = (bank.chapters || []).map((c) => c.id).join(',');
+  if (ids !== defs.map((d) => d.id).join(',')) err(`${bank.level}: chapters are ${ids}`);
+
+  for (const chapter of bank.chapters || []) {
+    const ch = T.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== T.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles, need ${T.CHAPTER_SIZE}`);
+    const shapes = new Map();
+    let allSun = 0;
+    chapter.puzzles.forEach((raw, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const p = { ...raw, scene: raw.scene || {} };
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < T.TEACH)) err(`${where}: teach flag is wrong`);
+      if (p.cast.length < ch.n[0] || p.cast.length > ch.n[1]) err(`${where}: ${p.cast.length} animals`);
+      if (new Set(p.cast).size !== p.cast.length || p.cast.some((k) => !T.CAST.includes(k))) err(`${where}: bad cast`);
+      if (Boolean(p.cloud) !== Boolean(ch.cloud)) err(`${where}: cloud flag does not match the chapter`);
+      if (Boolean(p.hidden) !== Boolean(ch.hidden)) err(`${where}: hidden flag does not match the chapter`);
+      if (ch.hidden && (p.badge !== 0 || p.sol[0] !== 'sun')) err(`${where}: the badge animal must be first and a Sun`);
+      if (!T.legalWorld(p, p.sol)) err(`${where}: the answer breaks the island's rules`);
+      const sols = T.solutions(p);
+      if (sols.length !== 1) { err(`${where}: ${sols.length} answers fit`); return; }
+      if (sols[0].some((k, j) => k !== p.sol[j])) err(`${where}: the one answer that fits is not the stored one`);
+      if (!T.acceptable(ch, p)) err(`${where}: a sentence is spare, or the chapter's idea is missing`);
+      const said = new Set();
+      for (const [who, s] of p.says) {
+        if (who < 0 || who >= p.cast.length) err(`${where}: a speaker who is not there`);
+        if (said.has(`${who}:${T.canon(s)}`)) err(`${where}: an animal says the same thing twice`);
+        said.add(`${who}:${T.canon(s)}`);
+        for (const L of ['en', 'es']) {
+          const text = sentence(s, who, p.cast, L);
+          if (/undefined|NaN|\{/.test(text) || text.length < 6) err(`${where}: bad ${L} sentence "${text}"`);
+        }
+      }
+      const run = T.humanSolve(p, { maxDepth: ch.depth[1] });
+      if (!run.solved) { err(`${where}: the step-by-step solver cannot finish it`); return; }
+      if (run.sol.some((k, j) => k !== p.sol[j])) err(`${where}: the solver reached a different answer`);
+      if (run.depth < ch.depth[0] || run.depth > ch.depth[1]) err(`${where}: depth ${run.depth}, chapter allows ${ch.depth.join('-')}`);
+      if (ch.supposes && run.steps.filter((s) => s.kind === 'suppose').length < ch.supposes) err(`${where}: needs ${ch.supposes} pencil ideas`);
+      if (p.depth !== run.depth || p.steps !== run.steps.length) err(`${where}: stored depth/steps do not match the solver`);
+      for (const step of run.steps) {
+        if (!step.keep.includes(p.sol[step.who])) err(`${where}: a ${step.kind} step rules out the answer`);
+        if (!STEP_KEYS[step.kind] || STEP_KEYS[step.kind].some((k) => !TRUTH_TEXT.en[k])) err(`${where}: no words for a ${step.kind} step`);
+      }
+      const shape = T.shapeOf(p);
+      shapes.set(shape, (shapes.get(shape) || 0) + 1);
+      if (shapes.get(shape) > 2) err(`${where}: the same puzzle shape a third time`);
+      if (p.cast.length > 1 && p.sol.every((k) => k === 'sun')) allSun += 1;
+    });
+    if (allSun > T.CHAPTER_SIZE * 0.25) err(`${ch.id}: ${allSun} puzzles where everyone is a Sun animal`);
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Find the Rule                                                       */
+/* ------------------------------------------------------------------ */
+
+export function checkRuleBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'rule') err(`game is "${bank.game}", not "rule"`);
+  const defs = R.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  for (const chapter of bank.chapters || []) {
+    const ch = R.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== R.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const rules = new Map();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < R.TEACH)) err(`${where}: teach flag is wrong`);
+      const active = R.ORDER.filter((a) => p.setup[a]);
+      if (active.length !== ch.attrs) err(`${where}: ${active.length} attributes, chapter wants ${ch.attrs}`);
+      for (const a of active) {
+        if (p.setup[a].some((v) => !R.ATTRS[a].all.includes(v)) || p.setup[a].length < 2) err(`${where}: bad values for ${a}`);
+      }
+      for (const a of ch.force || []) if (!p.setup[a]) err(`${where}: ${a} must be in play`);
+      const U = R.universe(p.setup, ch.pair);
+      const at = R.indexer(U);
+      const target = R.extKey(p.rule, U);
+      if (!target.includes('1') || !target.includes('0')) err(`${where}: the rule lets everyone or no one through`);
+      const legal = (c) => at(c) !== undefined;
+      const ev = p.evidence;
+      if (ev.some(([c]) => !legal(c))) { err(`${where}: evidence holds a creature that cannot exist`); return; }
+      if (ev.some(([c, pass]) => R.evaluate(p.rule, c) !== pass)) err(`${where}: evidence disagrees with the rule`);
+      const passes = ev.filter(([, x]) => x).length;
+      if (passes < 2 || ev.length - passes < 2) err(`${where}: needs two passed and two stopped to start`);
+      const H = R.hypotheses(p.setup, ch.pair);
+      const ideas = R.alive(H, U, ev, [target]);
+      if (ideas.length < 2) err(`${where}: the opening already gives the rule away`);
+      if (!ideas.includes(target)) err(`${where}: the rule itself does not fit the evidence`);
+      if (R.sizeOf(p.rule) !== p.size) err(`${where}: stored size is wrong`);
+      if (p.size >= 3 && H.has(target)) err(`${where}: a "three-part" rule that two parts say just as well`);
+      if (ch.prove === 'sort') {
+        if (!p.line || p.line.length !== R.LINE_SIZE || p.line.some((c) => !legal(c))) err(`${where}: bad waiting line`);
+        if (!p.proof || p.proof.length !== R.PROOF_SIZE || p.proof.some((c) => !legal(c))) { err(`${where}: bad proof set`); return; }
+        const used = new Set([...ev.map(([c]) => at(c)), ...p.line.map(at)]);
+        if (p.proof.some((c) => used.has(at(c)))) err(`${where}: a creature to sort was already seen`);
+        /* Every idea but the right one sorts at least one of the six wrong. */
+        for (const k of ideas) {
+          if (k === target) continue;
+          if (p.proof.every((c) => k[at(c)] === target[at(c)])) err(`${where}: a wrong idea could sort all six right`);
+        }
+        /* The waiting line can tell every two ideas apart. */
+        for (let x = 0; x < ideas.length; x++) {
+          for (let y = x + 1; y < ideas.length; y++) {
+            if (p.line.every((c) => ideas[x][at(c)] === ideas[y][at(c)])) err(`${where}: the line cannot tell two ideas apart`);
+          }
+        }
+      }
+      for (const L of ['en', 'es']) {
+        const text = ruleSentence(p.rule, L, ch.pair);
+        if (/undefined|\{/.test(text)) err(`${where}: bad ${L} rule sentence "${text}"`);
+        const one = ch.pair ? ev[0][0][0] : ev[0][0];
+        if (/undefined/.test(describe(one, p.setup, L))) err(`${where}: bad ${L} creature words`);
+      }
+      const k = JSON.stringify([p.rule, Object.keys(p.setup).sort()]);
+      rules.set(k, (rules.get(k) || 0) + 1);
+      if (rules.get(k) > 2) err(`${where}: the same rule and creatures a third time`);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Zoo Bridges                                                         */
+/* ------------------------------------------------------------------ */
+
+export function checkBridgesBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'bridges') err(`game is "${bank.game}", not "bridges"`);
+  const defs = B.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  const forms = new Set();
+  for (const chapter of bank.chapters || []) {
+    const ch = B.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== B.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    chapter.puzzles.forEach((q, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (q.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${q.id}"`);
+      if (Boolean(q.teach) !== (i < B.TEACH)) err(`${where}: teach flag is wrong`);
+      let p;
+      try { p = B.parse(q.g); } catch (e) { err(`${where}: ${e.message}`); return; }
+      if (p.w !== ch.w || p.h !== ch.h) err(`${where}: grid is ${p.w}x${p.h}, chapter is ${ch.w}x${ch.h}`);
+      if (q.maxb !== ch.maxb) err(`${where}: maxb ${q.maxb}`);
+      if (p.isl.length < ch.isl[0] || p.isl.length > ch.isl[1]) err(`${where}: ${p.isl.length} islands`);
+      if (p.isl.some((x) => x.n > 4 * q.maxb)) err(`${where}: an island needs more than it can ever have`);
+      const run = B.humanSolve(p, q.maxb, { maxLevel: ch.tl });
+      if (!run.solved) { err(`${where}: the solver cannot finish it with the chapter's techniques`); return; }
+      if (run.level < B.minLevel(ch)) err(`${where}: too easy for the chapter (rung ${run.level})`);
+      if (ch.need && !ch.need.some((tg) => run.tags.includes(tg))) err(`${where}: the chapter's technique never comes up`);
+      if (q.tech !== run.level || q.steps !== run.steps.length) err(`${where}: stored tech/steps do not match the solver`);
+      for (const s of run.steps) if (!BRIDGES_TEXT.en[`why.${s.tag}`] || !BRIDGES_TEXT.en[`tech.${s.tag}`]) err(`${where}: no words for ${s.tag}`);
+      const form = B.canonical(q.g);
+      if (forms.has(form)) err(`${where}: the same grid (turned or flipped) twice`);
+      forms.add(form);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Train Tracks                                                        */
+/* ------------------------------------------------------------------ */
+
+export function checkTrainsBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'trains') err(`game is "${bank.game}", not "trains"`);
+  const defs = TR.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  const animals = new Set(ANIMALS.map((a) => a.id));
+  for (const chapter of bank.chapters || []) {
+    const ch = TR.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== TR.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const shapes = new Set();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < TR.TEACH)) err(`${where}: teach flag is wrong`);
+      if (p.mode !== ch.mode) { err(`${where}: mode ${p.mode}, chapter is ${ch.mode}`); return; }
+      const shape = TR.shapeOf(p);
+      if (shapes.has(shape)) err(`${where}: the same puzzle twice`);
+      shapes.add(shape);
+      if (p.mode === 'siding') {
+        const n = p.cars.length;
+        if (n < ch.cars[0] || n > ch.cars[1]) err(`${where}: ${n} cars`);
+        if ([...p.cars].sort((a, b) => a - b).join() !== Array.from({ length: n }, (_, k) => k + 1).join()) err(`${where}: cars are not 1..${n}`);
+        const moves = TR.sidingSolve(p.cars);
+        if (!moves) err(`${where}: the cars cannot be sorted with one siding`);
+        else if (moves.length !== p.par) err(`${where}: par ${p.par}, moves ${moves.length}`);
+        if (!p.animals || p.animals.length !== n || new Set(p.animals).size !== n || p.animals.some((a) => !animals.has(a))) err(`${where}: bad animals`);
+        return;
+      }
+      const { lay } = p;
+      if (lay.lanes < ch.lanes[0] || lay.lanes > ch.lanes[1]) err(`${where}: ${lay.lanes} lanes`);
+      if (lay.cols < ch.cols[0] || lay.cols > ch.cols[1]) err(`${where}: ${lay.cols} columns`);
+      const used = new Set();
+      for (const [c, src, dst, kind] of lay.x) {
+        if (c < 0 || c >= lay.cols || Math.abs(src - dst) !== 1 || src < 0 || dst < 0 || src >= lay.lanes || dst >= lay.lanes) err(`${where}: a switch off the railway`);
+        if (!['lever', 'flip'].includes(kind)) err(`${where}: unknown switch kind`);
+        for (const l of [src, dst]) { if (used.has(`${c}:${l}`)) err(`${where}: two switches on one track in one column`); used.add(`${c}:${l}`); }
+      }
+      if (!p.stations || p.stations.length !== lay.lanes || new Set(p.stations).size !== lay.lanes || p.stations.some((a) => !animals.has(a))) err(`${where}: bad stations`);
+      const flips = lay.x.filter((x) => x[3] === 'flip').length;
+      if (ch.flips === 'none' && flips) err(`${where}: a flip switch in a lever chapter`);
+      if (ch.flips !== 'none' && !flips) err(`${where}: no flip switch in a flip chapter`);
+      const nT = p.trains.length;
+      if (nT < ch.trains[0] || nT > ch.trains[1]) err(`${where}: ${nT} trains`);
+      if (p.start.length !== lay.x.length) { err(`${where}: start has the wrong length`); return; }
+      const runs = TR.runAll(lay, p.trains.map((x) => x.from), p.mode === 'set' ? p.sol : p.start);
+      if (p.mode === 'predict') {
+        if (runs[0].to !== p.trains[0].to) err(`${where}: the train does not stop where it says`);
+        if (!runs[0].path.some(([, , k, went]) => k >= 0 && went)) err(`${where}: no switch turns the train`);
+      } else if (p.mode === 'set') {
+        if (p.start.some((v) => v !== 0)) err(`${where}: switches must start straight`);
+        const ok = TR.settings(lay, p.trains, 2);
+        if (ok.length !== 1) err(`${where}: ${ok.length} settings work`);
+        else if (ok[0].join() !== p.sol.join()) err(`${where}: the one setting is not the stored one`);
+        if (new Set(p.trains.map((x) => x.to)).size !== nT) err(`${where}: two trains go to one house`);
+      } else if (p.mode === 'pulls') {
+        if (flips) err(`${where}: pulls puzzles are levers only`);
+        const best = TR.minPulls(lay, p.trains, p.start);
+        if (!best || best.pulls !== p.par || p.par < 2) err(`${where}: par ${p.par} is not the fewest pulls (${best && best.pulls})`);
+      } else if (p.mode === 'order') {
+        if (p.trains.some((x) => x.from !== 0)) err(`${where}: order trains all leave from the first track`);
+        if (runs.some((r, k) => r.to !== p.trains[k].to)) err(`${where}: the k-th train does not reach the k-th house`);
+        if (new Set(p.trains.map((x) => x.to)).size !== nT) err(`${where}: two trains go to one house`);
+      }
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Robot Path                                                          */
+/* ------------------------------------------------------------------ */
+
+const ABSTRACT = new Set(['run1', 'run2', 'loopfeed', 'loopturn', 'helper', 'helpers2', 'colour']);
+
+/** One robot level: shape, the reference program works and fits, the idea is needed. */
+export function checkRobotLevel(l, w, where) {
+  const errs = [];
+  const err = (m) => errs.push(`${where}: ${m}`);
+  const rows = l.cells.split('/');
+  if (rows.length !== w.grid || rows.some((r) => r.length !== w.grid || /[^.#ob]/.test(r))) err('bad grid');
+  if (Boolean(l.abs) !== Boolean(w.abs)) err('abs flag does not match the world');
+  const B = RV.board(l);
+  if (!B.open(l.start[0], l.start[1])) err('the robot starts in a wall');
+  if (!l.animals.length || l.animals.some(([x, y]) => !B.open(x, y))) err('an animal is in a wall');
+  if (l.animals.some(([x, y]) => x === l.start[0] && y === l.start[1])) err('an animal sits on the start');
+  if (!l.palette || l.palette.join() !== w.palette.join()) err('palette does not match the world');
+  for (const r of RV.ROWS) {
+    if ((l.slots[r] === undefined) !== (l.ref[r] === undefined)) err(`row ${r} has slots but no program, or the reverse`);
+    if (l.ref[r] && RV.sizeOf(l.ref[r]) > l.slots[r]) err(`the reference does not fit row ${r}`);
+  }
+  const res = RV.run(l, l.ref);
+  if (!res.ok) err(`the reference program fails (${res.why})`);
+  const flat = RV.flatLength(l, Boolean(l.abs));
+  if (flat !== l.flat) err(`flat is ${flat}, stored ${l.flat}`);
+  const room = RV.ROWS.reduce((s, r) => s + (l.slots[r] || 0), 0);
+  if (ABSTRACT.has(l.kind) && flat <= room) err('the plain program fits, so the world\'s idea is not needed');
+  if (l.par !== RV.programSize(l.ref) && !['seq', 'seqturn'].includes(l.kind)) err('par is not the reference size');
+  if (['seq', 'seqturn'].includes(l.kind) && l.par !== flat) err('par is not the shortest plain program');
+  if (!KIND_WORD[l.kind]) err(`no words for kind ${l.kind}`);
+  const ops = new Set(RV.flatten(l.ref).map(({ c }) => (c.op === 'call' ? c.p : c.op)));
+  for (const o of ops) if (!w.palette.includes(o)) err(`the reference uses ${o}, which is not on the palette`);
+  return errs;
+}
+
+export function checkRobotBank(bank) {
+  const errs = [];
+  if (bank.game !== 'robot') errs.push(`game is "${bank.game}", not "robot"`);
+  const defs = RG.WORLDS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong worlds`);
+  for (const chapter of bank.chapters || []) {
+    const w = RG.world(chapter.id);
+    if (!w) continue;
+    if (chapter.puzzles.length !== RG.WORLD_SIZE) errs.push(`${w.id}: ${chapter.puzzles.length} levels`);
+    const shapes = new Set();
+    chapter.puzzles.forEach((l, i) => {
+      const where = `${w.id} #${i + 1}`;
+      if (l.id !== `${w.id}-${pad(i + 1)}`) errs.push(`${where}: id "${l.id}"`);
+      if (Boolean(l.teach) !== (i < RG.TEACH)) errs.push(`${where}: teach flag is wrong`);
+      const shape = RG.shapeOf(l);
+      if (shapes.has(shape)) errs.push(`${where}: the same level twice`);
+      shapes.add(shape);
+      errs.push(...checkRobotLevel(l, w, where));
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Fix the Bug                                                         */
+/* ------------------------------------------------------------------ */
+
+export function checkBugBank(bank) {
+  const errs = [];
+  if (bank.game !== 'bug') errs.push(`game is "${bank.game}", not "bug"`);
+  const defs = BG.CHAPTERS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong chapters`);
+  for (const chapter of bank.chapters || []) {
+    const ch = BG.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== BG.CHAPTER_SIZE) errs.push(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const seen = new Set();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const err = (m) => errs.push(`${where}: ${m}`);
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < BG.TEACH)) err('teach flag is wrong');
+      if (p.mode !== ch.mode) err(`mode ${p.mode}`);
+      const w = RG.world(String(p.src).split('-')[0]);
+      if (!w || !ch.from.includes(w.id)) { err(`comes from ${p.src}, not from ${ch.from.join('/')}`); return; }
+      errs.push(...checkRobotLevel(p, w, where));
+      const key = JSON.stringify([p.src, p.prog]);
+      if (seen.has(key)) err('the same puzzle twice');
+      seen.add(key);
+      const res = RV.run(p, p.prog);
+      if (res.ok) err('the buggy program works');
+      if (res.why === 'tired' || res.why === 'deep') err('the buggy program never stops');
+      if (p.bug && !BG.MUTATIONS.includes(p.bug.m)) err('unknown kind of bug');
+      if (p.bug && !ROBOT_TEXT.en[`bug.${p.bug.m}`]) err(`no words for bug ${p.bug.m}`);
+      if (p.mode === 'fix') {
+        const fixes = BG.fixPlaces(p, p.prog);
+        if (!fixes.size) err('no single change fixes it');
+        if (fixes.size > (ch.exact ? 1 : 3)) err(`${fixes.size} places fix it`);
+      } else if (p.mode === 'find') {
+        const at = p.bug.at;
+        const works = p.options.filter((o) => {
+          const q = RV.clone(p.prog);
+          RV.listAt(q, at.slice(0, -1))[at[at.length - 1]] = o;
+          return RV.run(p, q).ok;
+        });
+        if (works.length !== 1 || p.options.length !== 3) err('the three choices must hold exactly one that works');
+        const fixes = BG.fixPlaces(p, p.prog);
+        if (!fixes.has(at.join('.'))) err('the marked tile is not where it is fixed');
+        if (fixes.size !== 1) err(`${fixes.size} places fix it, so the tile to tap is not clear`);
+      } else if (p.mode === 'predict') {
+        const end = BG.endOf(p, p.prog);
+        if (end.x !== p.answer[0] || end.y !== p.answer[1]) err('the answer is not where the robot stops');
+        if (end.moves > (ch.maxMoves || 24)) err('too long a program to trace');
+        const keys = p.choices.map((c) => c.join(','));
+        if (new Set(keys).size !== keys.length || keys.length < 3 || !keys.includes(p.answer.join(','))) err('choices must be 3+ different squares including the answer');
+        const B = RV.board(p);
+        if (p.choices.some(([x, y]) => !B.open(x, y))) err('a choice is in a wall');
+      } else if (p.mode === 'order') {
+        const sort = (l) => l.map((c) => JSON.stringify(c)).sort().join();
+        if (sort(p.prog.main) !== sort(p.ref.main)) err('the mixed-up tiles are not the right tiles');
+      }
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* The two languages                                                   */
+/* ------------------------------------------------------------------ */
+
+export function checkParity(name, table) {
+  const errs = [];
+  const en = table.en || {};
+  const es = table.es || {};
+  for (const k of Object.keys(en)) {
+    if (!(k in es)) errs.push(`${name}: "${k}" has no Spanish`);
+    else if (slots(en[k]) !== slots(es[k])) errs.push(`${name}: "${k}" has slots {${slots(en[k])}} in English, {${slots(es[k])}} in Spanish`);
+  }
+  for (const k of Object.keys(es)) if (!(k in en)) errs.push(`${name}: "${k}" is in Spanish only`);
+  return errs;
+}
+
+function checkCodeText() {
+  const errs = [];
+  for (const rule of [...Object.keys(C.TIER), 'R1agg', 'R3home', 'R7x']) {
+    if (!CODE_TEXT.en[rule]) errs.push(`codetext: no sentence for rule ${rule}`);
+  }
+  for (const level of C.LEVELS) {
+    for (const ch of C.CHAPTERS[level]) {
+      for (const k of [`ch.${ch.id}`, `ch.${ch.id}.idea`, `fact.${ch.animal}`]) {
+        if (!CODE_TEXT.en[k]) errs.push(`codetext: missing "${k}"`);
+      }
+      if (!ANIMALS.some((a) => a.id === ch.animal)) errs.push(`chapter ${ch.id}: no animal called ${ch.animal}`);
+    }
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Run                                                                 */
+/* ------------------------------------------------------------------ */
+
+function main() {
+  const errors = [];
+  const report = [];
+
+  errors.push(...checkParity('logictext', ROOM));
+  for (const g of GAMES) {
+    for (const f of ['name', 'blurb', 'meta']) if (!g[f] || !g[f].en || !g[f].es) errors.push(`game ${g.id}: ${f} needs en and es`);
+  }
+  errors.push(...checkParity('codetext', CODE_TEXT), ...checkCodeText());
+  errors.push(...checkParity('truthtext', TRUTH_TEXT));
+  errors.push(...checkParity('ruletext', RULE_TEXT));
+  errors.push(...checkParity('bridgestext', BRIDGES_TEXT));
+  errors.push(...checkParity('trainstext', TRAINS_TEXT));
+  errors.push(...checkParity('robottext', ROBOT_TEXT));
+
+  const live = GAMES.filter((g) => g.live).map((g) => g.id);
+  for (const game of live) {
+    let total = 0;
+    for (const level of ['easy', 'medium', 'hard']) {
+      const file = `data/logic/${game}/${level}.json`;
+      if (!fs.existsSync(file)) { errors.push(`${game} is live but ${file} is missing`); continue; }
+      let bank;
+      try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
+      if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank, bug: checkBugBank }[game];
+      if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
+      errors.push(...checker(bank).map((m) => `${file}: ${m}`));
+      const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);
+      if (n < 200) errors.push(`${file}: ${n} puzzles; a level needs at least 200`);
+      total += n;
+    }
+    report.push(`${game}: ${total} puzzles`);
+  }
+
+  console.log(report.join(' · ') || 'no live games');
+  if (errors.length) {
+    console.log(`\nERRORS (${errors.length}):`);
+    errors.slice(0, 60).forEach((m) => console.log(`  x ${m}`));
+    if (errors.length > 60) console.log(`  ... and ${errors.length - 60} more`);
+    process.exit(1);
+  }
+  console.log('\nNo errors.');
+}
+
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main();

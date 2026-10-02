@@ -1,0 +1,70 @@
+<!--
+  The Curio Trivia room's screens.
+
+  Not a page of its own: the app fetches this file the first time a child
+  opens the room and adds these sections to <main> in index.html. Until then
+  none of it is downloaded. See assets/js/rooms/registry.js.
+
+  The rules are the ones index.html has always had: no style="..." attributes
+  (the Content-Security-Policy drops them; use data-style), and every screen
+  is a <section class="gp-screen" id="screen-NAME">.
+-->
+<!-- ============================================================ -->
+<!-- Curio Trivia: a room of its own, at #/trivia.                 -->
+<!-- ============================================================ -->
+<section class="gp-screen cz-room--honey" id="screen-triviasetup" aria-labelledby="triviasetup-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <div class="cz-roomhead cz-tile--honey">
+      <span class="cz-roomhead__pic" id="cz-trivia-pic" data-room-pic="trivia" aria-hidden="true"></span>
+      <div>
+        <h1 class="gp-page-title" id="triviasetup-title">Curio Trivia</h1>
+        <p class="gp-page-lede">Questions about animals, space, your body, the world and more. Every
+           answer teaches you something, even the ones you miss.</p>
+      </div>
+    </div>
+    <!-- The game comes first here: trivia is played, not practised, so it
+         has no "Practice" tag. The Fact Book sits below it. -->
+    <section class="cz-mode cz-mode--practice cz-trivia-play">
+      <div class="gp-card gp-card--setup" id="gp-trivia-setup"></div>
+    </section>
+
+    <section class="cz-mode cz-mode--learn">
+      <p class="cz-mode__tag">Learn</p>
+      <div class="cz-mode__body">
+        <span class="cz-mode__icon" data-icon="book" aria-hidden="true"></span>
+        <div>
+          <h2 class="cz-mode__title">The Fact Book</h2>
+          <p class="cz-mode__blurb">Every fun fact in the game, by topic. The ones you have earned
+             light up. No score, nothing to get wrong.</p>
+        </div>
+      </div>
+      <a class="gp-btn gp-btn--primary gp-btn--big cz-mode__go" href="#/trivia/learn">
+        Open the Fact Book &rarr;
+      </a>
+    </section>
+
+  </div>
+</section>
+
+<section class="gp-screen cz-room--honey" id="screen-triviagame" aria-labelledby="triviagame-title">
+  <div class="gp-container">
+    <div class="gp-flagbar">
+      <a class="gp-btn gp-btn--ghost gp-backlink" href="#/trivia">&larr; Change the round</a>
+      <p class="gp-flagbar__score">
+        <span class="gp-tally gp-tally--right"><span aria-hidden="true">&#10003;</span>
+          <strong data-trivia-right>0</strong><span class="gp-sr-only">right</span></span>
+        <span class="gp-tally gp-tally--wrong"><span aria-hidden="true">&#10007;</span>
+          <strong data-trivia-wrong>0</strong><span class="gp-sr-only">to learn</span></span>
+      </p>
+    </div>
+    <h1 class="gp-sr-only" id="triviagame-title">Curio Trivia</h1>
+    <div id="gp-trivia-body" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="gp-screen cz-room--honey" id="screen-trivialearn" aria-labelledby="trivialearn-title">
+  <div class="gp-container">
+    <div id="gp-trivia-learn"></div>
+  </div>
+</section>

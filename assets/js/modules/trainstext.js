@@ -1,0 +1,175 @@
+/**
+ * trainstext.js — every word Train Tracks says, in English and Spanish.
+ *
+ * A train switch is "desvío" in Spanish: understood everywhere, where
+ * "cambio" and "chucho" are local. (Still to be read by a native speaker.)
+ * Houses are named after their animal: "the lion house" / "la casa del león".
+ */
+
+import { lookup } from './logictext.js';
+
+export const TRAINS_TEXT = {
+  en: {
+    'ask.predict': 'The switches are set. Where will the train stop? Tap that house.',
+    'ask.set': 'Set the switches so every train reaches its own animal house. Then press GO.',
+    'ask.pulls': 'Send the trains one at a time. Before each one, pull the levers you need. Use as few pulls as you can.',
+    'ask.order': 'The switches are fixed. Choose which train leaves first, second, third… so every animal gets home.',
+    'ask.siding': 'Bring the cars into the zoo in the right order. Use the siding to let one wait.',
+    howFlip: 'A round switch with ↻ flips over after every train that meets it.',
+    howLever: 'Tap a switch to change it. Trains run one at a time, from the top of the list.',
+    straight: 'straight on',
+    turnUp: 'turns up',
+    turnDown: 'turns down',
+    switchLabel: 'Switch {n}: {state}',
+    switchFlip: 'Switch {n}: {state}. It flips after every train.',
+    go: 'GO!',
+    reset: 'Put the switches back',
+    sendNext: 'Send the next train',
+    queue: 'Trains in order',
+    order: 'Leaving order',
+    orderPick: 'Tap the animals in the order they should leave.',
+    orderFill: 'Put every train in the order first.',
+    clearOrder: 'Clear the order',
+    pullsCount: 'Pulls: {n}',
+    pullsPar: 'Fewest possible: {n}',
+    arrived: '{T} reached {H}.',
+    wrongHouse: 'Oh no! {T} went to {H}.',
+    tryAgain: 'Change what you need and try again.',
+    pullsReset: 'The trains go back to the start, and the levers too. Try again!',
+    flipBack: 'The switches are back where you set them.',
+    right: 'Every animal is home!',
+    predictRight: 'Yes! It stops at {H}.',
+    predictWrong: 'Not that one. Follow the track and look at each switch on the way.',
+    'hint.look': 'Look at this switch.',
+    'hint.lever': '{T} needs this switch to point {dir} when it gets here.',
+    'hint.flip': 'This switch flips after every train. {n} trains meet it before {T}, so it must start pointing {dir}.',
+    'hint.predict': 'Follow the track with your finger. At each switch, go the way it points.',
+    'hint.pulls': 'For {T}, this switch must point {dir}.',
+    'dir.straight': 'straight on', 'dir.up': 'up', 'dir.down': 'down',
+    'hint.order': 'Send an empty train in your head: it ends at {H}. So the {a} goes {nth}.',
+    'hint.sidingOut': 'The zoo needs {A} next, and it is on top of the siding. Bring it out.',
+    'hint.sidingIn': 'The zoo needs {A} next, and it is not ready yet. Put the next car into the siding.',
+    'hint.done': 'Everything is set. Press GO!',
+    first: 'first', second: 'second', third: 'third', fourth: 'fourth',
+    siding: 'Siding',
+    incoming: 'Arriving',
+    zoo: 'Into the zoo',
+    wants: 'The zoo wants them in this order:',
+    pushIn: 'Into the siding',
+    popOut: 'Out to the zoo',
+    sidingEmpty: 'The siding is empty.',
+    noneLeft: 'No more cars are arriving.',
+    sidingWrong: 'The zoo needs {A} next. {B} has to wait.',
+    undo: 'Undo',
+    whySet: 'Every train reached its house with your switches.',
+    whyFlip: 'Flip switches take turns: a switch met by an even number of trains ends where it started.',
+    whyPulls: 'You used {n} pulls. The fewest possible was {par}.',
+    whyOrder: 'With flip switches, where the next train goes depends only on how many trains went before.',
+    whySiding: 'A siding is a stack: the last car in is the first car out.',
+    whyPredict: 'Each switch sends the train the way it points.',
+
+    'ch.e1': 'Follow the Track', 'ch.e1.idea': 'The switches are already set. Where will the train stop?',
+    'ch.e2': 'Set the Switches', 'ch.e2.idea': 'One train. Set the switches so it gets home.',
+    'ch.e3': 'Two Trains, One Plan', 'ch.e3.idea': 'Two trains, and one setting has to work for both.',
+    'ch.m1': 'Busy Railway', 'ch.m1.idea': 'Three or four trains share the same switches.',
+    'ch.m2': 'Fewest Pulls', 'ch.m2.idea': 'Change the levers between trains, but as few times as you can.',
+    'ch.m3': 'Flip Warm-up', 'ch.m3.idea': 'Some switches flip after every train. Plan ahead!',
+    'ch.h1': 'Flip-Flop Yard', 'ch.h1.idea': 'Almost every switch flips. Count the trains that meet each one.',
+    'ch.h2': 'Line Them Up', 'ch.h2.idea': 'The switches are set. You choose who leaves when.',
+    'ch.h3': 'The Siding', 'ch.h3.idea': 'Use a dead-end siding to put the cars in order.',
+    'ch.h4': 'Zoo Machine', 'ch.h4.idea': 'Levers and flip switches together.',
+    'tile.puzzle': 'Railway puzzle',
+    'map.title': 'Railway map',
+    'map.lede': 'Every 10 puzzles you solve in a chapter opens a station on the zoo railway.',
+    'map.count': '{n} of 10 stations open'
+  },
+  es: {
+    'ask.predict': 'Los desvíos ya están puestos. ¿Dónde parará el tren? Toca esa casa.',
+    'ask.set': 'Mueve los desvíos para que cada tren llegue a la casa de su animal. Luego pulsa ¡VAMOS!',
+    'ask.pulls': 'Manda los trenes de uno en uno. Antes de cada uno, mueve las palancas que hagan falta. Muévelas las menos veces posible.',
+    'ask.order': 'Los desvíos no se mueven. Elige qué tren sale primero, segundo, tercero… para que cada animal llegue a su casa.',
+    'ask.siding': 'Mete los vagones en el zoo en el orden correcto. Usa la vía muerta para que uno espere.',
+    howFlip: 'Un desvío redondo con ↻ cambia de posición después de cada tren que pasa por él.',
+    howLever: 'Toca un desvío para cambiarlo. Los trenes salen de uno en uno, empezando por el primero de la lista.',
+    straight: 'recto',
+    turnUp: 'gira hacia arriba',
+    turnDown: 'gira hacia abajo',
+    switchLabel: 'Desvío {n}: {state}',
+    switchFlip: 'Desvío {n}: {state}. Cambia después de cada tren.',
+    go: '¡VAMOS!',
+    reset: 'Dejar los desvíos como estaban',
+    sendNext: 'Mandar el siguiente tren',
+    queue: 'Trenes en orden',
+    order: 'Orden de salida',
+    orderPick: 'Toca los animales en el orden en que deben salir.',
+    orderFill: 'Primero pon todos los trenes en el orden.',
+    clearOrder: 'Borrar el orden',
+    pullsCount: 'Movimientos: {n}',
+    pullsPar: 'Los menos posibles: {n}',
+    arrived: '{T} llegó a {H}.',
+    wrongHouse: '¡Oh, no! {T} fue a {H}.',
+    tryAgain: 'Cambia lo que haga falta y vuelve a intentarlo.',
+    pullsReset: 'Los trenes vuelven al principio, y las palancas también. ¡Inténtalo otra vez!',
+    flipBack: 'Los desvíos vuelven a estar como los pusiste.',
+    right: '¡Todos los animales están en casa!',
+    predictRight: '¡Sí! Para en {H}.',
+    predictWrong: 'Esa no. Sigue la vía y mira cada desvío por el camino.',
+    'hint.look': 'Mira este desvío.',
+    'hint.lever': '{T} necesita que este desvío apunte {dir} cuando llegue aquí.',
+    'hint.flip': 'Este desvío cambia después de cada tren. Antes de {T} pasan {n} trenes por él, así que tiene que empezar apuntando {dir}.',
+    'hint.predict': 'Sigue la vía con el dedo. En cada desvío, ve hacia donde apunta.',
+    'hint.pulls': 'Para {T}, este desvío tiene que apuntar {dir}.',
+    'dir.straight': 'recto', 'dir.up': 'hacia arriba', 'dir.down': 'hacia abajo',
+    'hint.order': 'Imagina un tren vacío: termina en {H}. Así que {a} sale {nth}.',
+    'hint.sidingOut': 'El zoo necesita {A} ahora, y está arriba en la vía muerta. Sácalo.',
+    'hint.sidingIn': 'El zoo necesita {A} ahora, y todavía no está listo. Mete el siguiente vagón en la vía muerta.',
+    'hint.done': 'Todo está listo. Pulsa «¡VAMOS!».',
+    first: 'primero', second: 'segundo', third: 'tercero', fourth: 'cuarto',
+    siding: 'Vía muerta',
+    incoming: 'Llegando',
+    zoo: 'Dentro del zoo',
+    wants: 'El zoo los quiere en este orden:',
+    pushIn: 'A la vía muerta',
+    popOut: 'Al zoo',
+    sidingEmpty: 'La vía muerta está vacía.',
+    noneLeft: 'Ya no llegan más vagones.',
+    sidingWrong: 'El zoo necesita {A} ahora. {B} tiene que esperar.',
+    undo: 'Deshacer',
+    whySet: 'Con tus desvíos, cada tren llegó a su casa.',
+    whyFlip: 'Los desvíos que cambian se turnan: si pasa un número par de trenes, terminan como empezaron.',
+    whyPulls: 'Moviste las palancas {n} veces. Lo mínimo posible era {par}.',
+    whyOrder: 'Con desvíos que cambian, adónde va el siguiente tren depende solo de cuántos trenes pasaron antes.',
+    whySiding: 'Una vía muerta es una pila: el último vagón que entra es el primero que sale.',
+    whyPredict: 'Cada desvío manda el tren hacia donde apunta.',
+
+    'ch.e1': 'Sigue la vía', 'ch.e1.idea': 'Los desvíos ya están puestos. ¿Dónde parará el tren?',
+    'ch.e2': 'Mueve los desvíos', 'ch.e2.idea': 'Un tren. Mueve los desvíos para que llegue a casa.',
+    'ch.e3': 'Dos trenes, un plan', 'ch.e3.idea': 'Dos trenes, y la misma posición tiene que servir para los dos.',
+    'ch.m1': 'Vía ocupada', 'ch.m1.idea': 'Tres o cuatro trenes usan los mismos desvíos.',
+    'ch.m2': 'Menos movimientos', 'ch.m2.idea': 'Cambia las palancas entre tren y tren, pero las menos veces posible.',
+    'ch.m3': 'Desvíos que cambian', 'ch.m3.idea': 'Algunos desvíos cambian después de cada tren. ¡Piensa antes!',
+    'ch.h1': 'Patio de vaivén', 'ch.h1.idea': 'Casi todos los desvíos cambian. Cuenta los trenes que pasan por cada uno.',
+    'ch.h2': 'En fila', 'ch.h2.idea': 'Los desvíos ya están puestos. Tú eliges quién sale cuándo.',
+    'ch.h3': 'La vía muerta', 'ch.h3.idea': 'Usa una vía muerta para ordenar los vagones.',
+    'ch.h4': 'La máquina del zoo', 'ch.h4.idea': 'Palancas y desvíos que cambian, juntos.',
+    'tile.puzzle': 'Acertijo de trenes',
+    'map.title': 'Mapa del tren',
+    'map.lede': 'Cada 10 acertijos que resuelves en un capítulo abren una estación del tren del zoo.',
+    'map.count': '{n} de 10 estaciones abiertas'
+  }
+};
+
+export const tr = (key, lang, vars) => lookup(TRAINS_TEXT, key, lang, vars);
+
+const del = (animal) => (animal.es.art === 'la' ? 'de la' : 'del');
+const cap = (s, on) => (on ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+
+/** "the lion train" / "el tren del león". */
+export const trainName = (animal, L, up = false) =>
+  cap(L === 'es' ? `el tren ${del(animal)} ${animal.es.n}` : `the ${animal.en} train`, up);
+
+/** "the lion house" / "la casa del león". */
+export const houseName = (animal, L, up = false) =>
+  cap(L === 'es' ? `la casa ${del(animal)} ${animal.es.n}` : `the ${animal.en} house`, up);
+
+export default { TRAINS_TEXT, tr, trainName, houseName };

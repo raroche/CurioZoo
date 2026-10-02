@@ -18,7 +18,10 @@ const warnings = [];
 const err = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
-const { ROOMS, CREATURES, creature, roomCard } = await import('../assets/js/modules/sections.js');
+const { CREATURES, creature, roomCard } = await import('../assets/js/modules/sections.js');
+const { REGISTRY, ROOMS } = await import('../assets/js/rooms/registry.js');
+const ROOMS_DIR = 'assets/js/rooms';
+const registrySrc = fs.readFileSync(`${ROOMS_DIR}/registry.js`, 'utf8');
 const css = fs.readFileSync(CSS, 'utf8');
 
 /* ---- every room is complete and unique ---- */
@@ -41,6 +44,44 @@ for (const [i, r] of ROOMS.entries()) {
   if (!/^#\//.test(r.href)) err(`${where}: href "${r.href}" is not a hash route`);
   if (r.blurb.length > 90) warn(`${where}: blurb is ${r.blurb.length} chars; it wraps past two lines`);
 }
+
+/* ---- every room's code is where the registry says ----
+   A room is loaded only when a child opens it, so a wrong path here is not a
+   build error or a console line on the home page. It is a room that says
+   "could not be loaded" the first time anybody taps it. */
+const routeOwner = new Map();
+for (const r of REGISTRY) {
+  const where = `registry entry "${r.id || '?'}"`;
+  if (!r.id || !/^[a-z]+$/.test(r.id)) err(`${where}: id must be lower-case letters`);
+  if (!Array.isArray(r.routes) || !r.routes.length) err(`${where}: no routes`);
+  for (const head of r.routes || []) {
+    if (routeOwner.has(head)) err(`${where}: route '${head}' is also claimed by "${routeOwner.get(head)}"`);
+    routeOwner.set(head, r.id);
+  }
+  if (typeof r.code !== 'function') err(`${where}: no code() to load it`);
+  if (typeof r.back !== 'function') err(`${where}: no back() rule`);
+  /* The folder is named after the room, so a room's files are where a
+     person would look for them. */
+  if (!registrySrc.includes(`import('./${r.id}/room.js')`)) {
+    err(`${where}: code() must be () => import('./${r.id}/room.js')`);
+  }
+  const roomJs = `${ROOMS_DIR}/${r.id}/room.js`;
+  if (!fs.existsSync(roomJs)) err(`${where}: ${roomJs} is missing`);
+  else if (!/export (async )?function render\b|export const render\b/.test(fs.readFileSync(roomJs, 'utf8'))) {
+    err(`${roomJs} does not export render(parts), so the room can never be drawn`);
+  }
+  for (const key of ['screens', 'css']) {
+    if (!r[key]) continue;
+    if (!r[key].startsWith(`${r.id}/`)) err(`${where}: ${key} "${r[key]}" is outside the room's own folder`);
+    if (!fs.existsSync(`${ROOMS_DIR}/${r[key]}`)) err(`${where}: ${key} file ${ROOMS_DIR}/${r[key]} is missing`);
+  }
+  /* A card has to lead to its own room, not to somebody else's. */
+  if (r.href && r.status === 'live') {
+    const head = r.href.replace(/^#\//, '').split('/')[0];
+    if (!(r.routes || []).includes(head)) err(`${where}: its card links to ${r.href}, which is not one of its routes`);
+  }
+}
+if (!routeOwner.has('home')) err('no room answers #/home');
 
 /* ---- two rooms must not look alike ---- */
 

@@ -1,10 +1,9 @@
 /**
- * sections.js — the rooms of the zoo, and the creatures that live in them.
+ * sections.js — the creatures of the zoo, and the card each room wears.
  *
- * This file exists so that adding a section is one entry in one list rather
- * than a new screen in index.html, a new branch in the router, a new render
- * function in app.js and a new colour somewhere in the stylesheet. The home
- * page, the navigation and the checker all read from ROOMS.
+ * The rooms themselves are listed in assets/js/rooms/registry.js; this file
+ * draws them. It knows nothing about any one room, so it stays a module that
+ * anything may import.
  *
  * Every creature is the logo with different ears. That is deliberate: eight
  * unrelated animal drawings would look like clip art, whereas one shape wearing
@@ -164,85 +163,9 @@ export function creature(kind, {
 /* ------------------------------------------------------------------ */
 /* The rooms                                                           */
 /* ------------------------------------------------------------------ */
-
-/**
- * Order is the order a child sees them, so the most inviting room comes first
- * and the test practice comes last. `hue` is a palette key; `status` is 'live'
- * or 'soon'. Anything marked 'soon' is shown greyed and is not a link.
- */
-export const ROOMS = [
-  {
-    id: 'math',
-    name: 'Math Lab',
-    hue: 'sky',
-    creature: 'owl',
-    href: '#/math',
-    status: 'live',
-    blurb: 'Primes, infinity, secret codes and puzzles nobody has solved yet.',
-    meta: '86 topics · grades 1 to 6'
-  },
-  {
-    id: 'teasers',
-    name: 'Math Brain Teasers',
-    hue: 'lagoon',
-    /* The frog's eyes sit on top of its head: two bumps, neither round ears
-       nor pointed ones, so it reads apart from every other room. */
-    creature: 'frog',
-    href: '#/teasers',
-    status: 'live',
-    blurb: 'Riddles that make you think twice. Three levels, and a hint when you are stuck.',
-    meta: '327 teasers \u00b7 3 levels \u00b7 English or Spanish'
-  },
-  {
-    id: 'trivia',
-    name: 'Curio Trivia',
-    hue: 'honey',
-    /* The long neck of the family: the one who can see over everything. Its
-       ossicones are the only ears that are neither round nor pointed, so it
-       cannot be mistaken for any other room at tile size. */
-    creature: 'giraffe',
-    href: '#/trivia',
-    status: 'live',
-    blurb: 'Animals, space, your body, the world. Every answer teaches you something.',
-    meta: '4,739 questions \u00b7 3 levels \u00b7 English or Spanish'
-  },
-  {
-    id: 'fun',
-    name: 'Fun and Games',
-    hue: 'flamingo',
-    /* Owl tufts and fox ears are both triangles and read alike at 46px. The
-       three live rooms take the three most unlike silhouettes there are:
-       sharp tufts, tall ears, round ears. */
-    creature: 'rabbit',
-    href: '#/fun',
-    status: 'live',
-    blurb: 'Name every flag in the world. Was the wheel discovered or invented?',
-    meta: '6 games · English or Spanish'
-  },
-  {
-    id: 'chess',
-    name: 'Chess Club',
-    hue: 'leaf',
-    creature: 'fox',
-    href: '#/chess',
-    status: 'live',
-    blurb: 'Meet the six pieces, win your first game, then learn the tricks.',
-    meta: '52 lessons \u00b7 8 games \u00b7 11,157 puzzles'
-  },
-  {
-    id: 'gifted',
-    name: 'GiftedPrep',
-    hue: 'orchid',
-    creature: 'bear',
-    href: '#/gifted',
-    status: 'live',
-    blurb: 'The kinds of puzzles used on gifted tests, so test day is not a surprise.',
-    meta: '1,576 puzzles · grades 1 to 4'
-  }
-];
-
-export const LIVE_ROOMS = ROOMS.filter((r) => r.status === 'live');
-export const roomById = (id) => ROOMS.find((r) => r.id === id) || null;
+/* The rooms themselves -- names, colours, which creature -- are listed in
+   assets/js/rooms/registry.js, beside the code that runs them. This file only
+   knows how to draw one. */
 
 /* ------------------------------------------------------------------ */
 /* Rendering                                                           */
@@ -252,13 +175,21 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (ch) => (
   { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]
 ));
 
-/** One room, as a card. A 'soon' room is a div, so it cannot be clicked. */
-export function roomCard(room) {
+/**
+ * One room, as a card. A 'soon' room is a div, so it cannot be clicked.
+ *
+ * A live room's creature is marked for the live mascot (data-mascot), which
+ * hydrateMascots() swaps in once the card is on the page; until then, and in
+ * anything that never hydrates, the still drawing stands in. `n` is the
+ * card's place in the list, which staggers its arrival and its blinking.
+ */
+export function roomCard(room, n = 0) {
   const soon = room.status !== 'live';
   const tag = soon ? 'div' : 'a';
-  const attrs = soon ? '' : ` href="${room.href}"`;
+  const attrs = (soon ? '' : ` href="${room.href}"`) + ` data-style="--n:${n}"`;
+  const live = soon ? '' : ` data-mascot="idle" data-mascot-kind="${room.creature}"`;
   return `<${tag} class="cz-tile cz-tile--${room.hue}${soon ? ' is-soon' : ''}"${attrs}>
-      <span class="cz-tile__pic">${creature(room.creature)}</span>
+      <span class="cz-tile__pic"${live}>${creature(room.creature)}</span>
       <span class="cz-tile__text">
         <span class="cz-tile__name">${esc(room.name)}</span>
         <span class="cz-tile__blurb">${esc(room.blurb)}</span>
@@ -268,8 +199,8 @@ export function roomCard(room) {
     </${tag}>`;
 }
 
-export function roomGrid(rooms = ROOMS) {
-  return `<div class="cz-tiles">${rooms.map(roomCard).join('')}</div>`;
+export function roomGrid(rooms) {
+  return `<div class="cz-tiles">${rooms.map((r, i) => roomCard(r, i)).join('')}</div>`;
 }
 
-export default { ROOMS, LIVE_ROOMS, roomById, roomCard, roomGrid, creature, CREATURES };
+export default { roomCard, roomGrid, creature, CREATURES };

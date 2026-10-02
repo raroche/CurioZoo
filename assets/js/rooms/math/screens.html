@@ -1,0 +1,39 @@
+<!--
+  The Math Lab room's screens.
+
+  Not a page of its own: the app fetches this file the first time a child
+  opens the room and adds these sections to <main> in index.html. Until then
+  none of it is downloaded. See assets/js/rooms/registry.js.
+
+  The rules are the ones index.html has always had: no style="..." attributes
+  (the Content-Security-Policy drops them; use data-style), and every screen
+  is a <section class="gp-screen" id="screen-NAME">.
+-->
+<!-- ============================================================== -->
+<!-- Math Lab                                                       -->
+<!-- ============================================================== -->
+<section class="gp-screen" id="screen-math" aria-labelledby="math-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <h1 class="gp-page-title" id="math-title">Math Lab</h1>
+    <p class="gp-page-lede">Advanced maths, one grade at a time. Short lessons, then puzzles.</p>
+    <div id="gp-math-body"></div>
+  </div>
+</section>
+
+<section class="gp-screen" id="screen-mathtopic" aria-labelledby="mathtopic-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <p class="gp-crumb" id="gp-math-crumb"></p>
+    <h1 class="gp-page-title" id="mathtopic-title">Topic</h1>
+    <p class="gp-page-lede" id="gp-topic-big"></p>
+    <div id="gp-topic-teach"></div>
+    <h2 class="gp-turn" id="gp-turn-head">Your turn</h2>
+    <div class="gp-exwrap" id="gp-exercise"></div>
+    <div class="gp-exnav">
+      <button type="button" class="gp-btn gp-btn--ghost" id="gp-ex-prev">&larr; Back</button>
+      <span class="gp-dots" id="gp-ex-dots"></span>
+      <button type="button" class="gp-btn gp-btn--primary" id="gp-ex-next">Next &rarr;</button>
+    </div>
+  </div>
+</section>

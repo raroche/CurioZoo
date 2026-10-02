@@ -13,7 +13,7 @@ import fs from 'node:fs';
 
 import { orderPool, shuffle, relabel, QuizSession } from '../../assets/js/modules/quiz.js';
 import { buildRound, makeChoices } from '../../assets/js/modules/flags.js';
-import { backTarget } from '../../assets/js/modules/routes.js';
+import { backTarget } from '../../assets/js/rooms/registry.js';
 import {
   hanoiStart, hanoiMove, hanoiLegal, hanoiWon,
   checkMagic, checkSieve, sieveKeep, isPrime,
