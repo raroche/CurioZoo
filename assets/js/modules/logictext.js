@@ -146,7 +146,7 @@ export const GAMES = [
     meta: { en: '600 puzzles · 3 levels', es: '600 acertijos · 3 niveles' }
   },
   {
-    id: 'rule', live: false,
+    id: 'rule', live: true,
     name: { en: 'Find the Rule', es: 'Descubre la regla' },
     blurb: {
       en: 'Some creatures pass the gate and some are stopped. Test, think, and find the secret rule.',

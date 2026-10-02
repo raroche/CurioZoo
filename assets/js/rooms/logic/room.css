@@ -371,3 +371,83 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 @media (max-width: 560px) {
   .cz-truth-isle { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================================
+   Find the Rule (rooms/logic/rule.js)
+   ========================================================================== */
+
+.cz-rule { display: grid; gap: var(--gp-space-4); }
+.cz-rule-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* A creature: the site's face plus a hat, a pattern, buttons and a held
+   thing. Size is a real difference in size, so a small one is drawn small. */
+.cz-rule-c { position: relative; display: inline-grid; place-items: center; width: 64px; height: 68px; }
+.cz-rule-c svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.cz-rule-c--small svg { width: 70%; height: 70%; }
+.cz-rule-item { position: absolute; right: -6px; bottom: 0; font-size: 22px; line-height: 1; }
+
+.cz-rule-pairbox { display: inline-flex; align-items: center; gap: 2px; padding: 2px 6px; border-radius: 12px; border: 2px dashed var(--gp-line-strong); }
+.cz-rule-pairn { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); }
+
+/* The two shelves by the gate: a check and a cross, in words as well. */
+.cz-rule-gate { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gp-space-3); }
+.cz-rule-shelf { padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-lg); border: 2px solid var(--gp-line); background: var(--gp-surface); }
+.cz-rule-shelf.is-pass { border-color: var(--gp-good-line); background: var(--gp-good-soft); }
+.cz-rule-shelf.is-stop { border-color: var(--gp-retry-line); background: var(--gp-retry-soft); border-style: dashed; }
+.cz-rule-shelf h3 { margin: 0 0 var(--gp-space-1); font-size: var(--gp-text-md); }
+.cz-rule-shelf.is-pass h3 { color: var(--gp-good); }
+.cz-rule-shelf.is-stop h3 { color: var(--gp-retry); }
+.cz-rule-shelf ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; min-height: 68px; }
+.cz-rule-shelf li.is-mine { outline: 2px solid var(--room); outline-offset: 2px; border-radius: 10px; }
+
+.cz-rule-test h3, .cz-rule-prove h3 { margin: 0; font-size: var(--gp-text-md); }
+.cz-rule-help { margin: 2px 0 var(--gp-space-2); font-size: var(--gp-text-sm); color: var(--gp-ink-muted); }
+.cz-rule-line { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-rule-pickc, .cz-rule-sortc {
+  display: grid; place-items: center; padding: 4px 8px; min-width: 76px; min-height: 76px;
+  border: 2px solid var(--gp-line); border-radius: 14px; background: var(--gp-surface); cursor: pointer; font: inherit; color: var(--gp-ink);
+}
+.cz-rule-pickc.is-picked { border-color: var(--room); border-width: 3px; box-shadow: 0 0 0 4px var(--room-line); }
+.cz-rule-pickc.is-hint { outline: 3px solid var(--gp-focus); outline-offset: 3px; }
+
+.cz-rule-machine { display: flex; flex-wrap: wrap; gap: var(--gp-space-4); align-items: flex-start; }
+.cz-rule-preview { display: grid; place-items: center; min-width: 110px; min-height: 96px; padding: var(--gp-space-2); border-radius: var(--gp-radius-lg); background: var(--room-soft); border: 2px solid var(--room-line); }
+.cz-rule-rows { display: grid; gap: var(--gp-space-2); flex: 1 1 280px; min-width: 0; }
+.cz-rule-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rule-machine2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gp-space-3); }
+.cz-rule-machine2 h4 { margin: 0 0 4px; font-size: var(--gp-text-sm); }
+.cz-rule-chip { min-height: 40px; }
+
+.cz-rule-predict { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); align-items: center; }
+.cz-rule-q { margin: 0 var(--gp-space-2) 0 0; font-weight: 800; font-size: var(--gp-text-lg); }
+.cz-rule-say.is-pass { border: 2px solid var(--gp-good-line); }
+.cz-rule-say.is-stop { border: 2px dashed var(--gp-retry-line); }
+
+/* Proving: sort six, or build the rule. */
+.cz-rule-sort { list-style: none; margin: var(--gp-space-2) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-rule-sortc { gap: 2px; }
+.cz-rule-sortc.is-pass { border-color: var(--gp-good); background: var(--gp-good-soft); }
+.cz-rule-sortc.is-stop { border-color: var(--gp-retry); border-style: dashed; background: var(--gp-retry-soft); }
+.cz-rule-sortw { font-size: var(--gp-text-xs); font-weight: 800; }
+
+.cz-rule-built { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); align-items: center; margin: var(--gp-space-2) 0; }
+.cz-rule-term { display: inline-flex; align-items: center; gap: 4px; }
+.cz-rule-termbtn {
+  display: grid; text-align: left; gap: 2px; min-height: 52px; padding: 6px 12px; cursor: pointer; font: inherit; color: var(--gp-ink);
+  border: 2px dashed var(--gp-line-strong); border-radius: 12px; background: var(--gp-surface);
+}
+.cz-rule-term.is-active .cz-rule-termbtn { border-style: solid; border-color: var(--room); box-shadow: 0 0 0 3px var(--room-line); }
+.cz-rule-termn { font-size: var(--gp-text-xs); font-weight: 800; color: var(--gp-ink-muted); text-transform: uppercase; }
+.cz-rule-join { font-weight: 800; }
+.cz-rule-x { min-width: 36px; padding: 0 8px; }
+.cz-rule-palette { display: flex; flex-wrap: wrap; gap: 6px; }
+.cz-rule-preview-text { margin: var(--gp-space-2) 0 0; padding: var(--gp-space-2) var(--gp-space-3); border-radius: var(--gp-radius-md); background: var(--gp-surface-2); }
+.cz-rule-book { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+
+@media (max-width: 760px) {
+  .cz-rule-machine2 { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cz-rule-gate { grid-template-columns: 1fr; }
+  .cz-rule-preview { min-width: 0; width: 100%; }
+}

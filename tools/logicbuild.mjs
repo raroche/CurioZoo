@@ -21,7 +21,8 @@ import * as C from '../assets/js/modules/codelogic.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 import { rngFor } from '../assets/js/modules/logicrng.js';
 import * as T from '../assets/js/modules/truthlogic.js';
-import { checkCodeBank, checkTruthBank } from './logiccheck.mjs';
+import * as R from '../assets/js/modules/rulelogic.js';
+import { checkCodeBank, checkRuleBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -238,7 +239,65 @@ function buildTruth() {
   for (const bank of banks) writeBank(`data/logic/truth/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth };
+/* ------------------------------------------------------------------ */
+/* Find the Rule                                                       */
+/* ------------------------------------------------------------------ */
+
+/* The same secret rule, with the same kinds of creature around it, at most
+   twice in a chapter. (Count the Buttons has only five rules, so the
+   creatures around them are what make its forty puzzles different.) */
+const RULE_REPEATS = 2;
+
+function buildRuleChapter(def) {
+  const ch = R.chapter(def.id);
+  const want = R.CHAPTER_SIZE;
+  const pool = [];
+  const rules = new Map();
+  for (let j = 0; pool.length < want && j < 6000; j++) {
+    const p = R.makePuzzle(ch, rngFor('rule', ch.id, 'bank', j), { tries: 40 });
+    if (!p) continue;
+    const key = JSON.stringify([p.rule, Object.keys(p.setup).sort()]);
+    if ((rules.get(key) || 0) >= RULE_REPEATS) continue;
+    rules.set(key, (rules.get(key) || 0) + 1);
+    pool.push(p);
+  }
+  if (pool.length < want) throw new Error(`${ch.id}: made only ${pool.length} of ${want}`);
+  const ease = (p) => p.size * 100 + p.par * 10 + p.evidence.length;
+  pool.sort((a, b) => ease(a) - ease(b));
+  const order = [...pool.slice(0, R.TEACH), ...interleave(pool.slice(R.TEACH))];
+  const puzzles = order.map((p, i) => {
+    const out = { id: `${ch.id}-${pad(i + 1)}` };
+    if (i < R.TEACH) out.teach = true;
+    Object.assign(out, { setup: p.setup, rule: p.rule, evidence: p.evidence });
+    if (p.line) out.line = p.line;
+    if (p.proof) out.proof = p.proof;
+    out.par = p.par;
+    out.size = p.size;
+    return out;
+  });
+  return { id: ch.id, puzzles };
+}
+
+function buildRule() {
+  const banks = [];
+  for (const level of R.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const chapters = R.CHAPTERS[level].map((d) => buildRuleChapter(d));
+    const bank = { game: 'rule', level, v: 1, chapters };
+    const problems = checkRuleBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`rule/${level}: ${n} puzzles in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/rule/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

@@ -16,7 +16,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 0 — room shell and shared pieces
 - [x] 2026-10-02 Phase 1 — Crack the Code (840 safes, room is live)
 - [x] 2026-10-02 Phase 2 — Truth Island (600 puzzles)
-- [ ] Phase 3 — Find the Rule
+- [x] 2026-10-02 Phase 3 — Find the Rule (600 puzzles)
 - [ ] Phase 4 — Zoo Bridges
 - [ ] Phase 5 — Train Tracks
 - [ ] Phase 6 — Robot Path
@@ -72,6 +72,19 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - Checked in the browser: Easy picture, pencil on Medium, Cloud with hints
   to the end in Spanish, hidden picture at 375 px dark. No console errors.
 
+## Find the Rule: what shipped
+- 15 chapters × 40 = 600 puzzles; first 2 of each teach (free hints).
+- Creatures are the site's face plus a hat, a pattern on the wall, buttons,
+  a size and a held thing; 3 attributes on Easy, 4 on Medium, 5 on Hard.
+- Easy: waiting line + sort six (checked: every wrong idea that fits the
+  opening sorts at least one wrong; the line can tell every two ideas
+  apart). Medium/Hard: dress-up machine + build the rule from parts.
+- Rules compared by fingerprint (which creatures pass). Hints: look → the
+  test that splits the ideas left → "the rule is about …".
+- Rule book on the game page, from solved puzzles.
+- Checked in the browser: Easy line + brave tester + sort to 3 stars; Medium
+  wrong build → counterexample, right build; Hard pairs; Spanish after a win.
+
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a
   child knows, no art to maintain, CSP-safe text.
@@ -85,6 +98,14 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - **Truth Island h4** (two sentences each) lets one of an animal's two
   sentences be a red herring, as the research allows at Hard; no animal may
   be spare, and no sentence may be one anyone could say ("I am a Sun animal").
+- **Find the Rule's Hard chapters** are three-part rules, "not both",
+  pairs, counting-plus and a mix. The research's "parade" (rules about a
+  line of creatures) and "two gates" chapters were left out: two gates is
+  the same as one gate, and parades need a sequence editor of their own.
+  Three-part rules use one joining word for all parts ("and" or "or"), so
+  the builder can always express them.
+- **Hints in Find the Rule reason over rules of one or two parts.** Three-part
+  rules are too many to list on a phone; the hint still finds good tests.
 - **The Question Gate chapter was dropped** from Truth Island: there are only a
   handful of different yes/no-question puzzles, not forty.
 - `.claude/launch.json` has a second server, `giftedprep-alt` on port 8767, for

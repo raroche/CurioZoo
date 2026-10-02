@@ -21,6 +21,8 @@ import * as C from '../assets/js/modules/codelogic.js';
 import { CODE_TEXT } from '../assets/js/modules/codetext.js';
 import * as T from '../assets/js/modules/truthlogic.js';
 import { TRUTH_TEXT, sentence } from '../assets/js/modules/truthtext.js';
+import * as R from '../assets/js/modules/rulelogic.js';
+import { RULE_TEXT, ruleSentence, describe } from '../assets/js/modules/ruletext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -171,6 +173,79 @@ export function checkTruthBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Find the Rule                                                       */
+/* ------------------------------------------------------------------ */
+
+export function checkRuleBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'rule') err(`game is "${bank.game}", not "rule"`);
+  const defs = R.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  for (const chapter of bank.chapters || []) {
+    const ch = R.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== R.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const rules = new Map();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < R.TEACH)) err(`${where}: teach flag is wrong`);
+      const active = R.ORDER.filter((a) => p.setup[a]);
+      if (active.length !== ch.attrs) err(`${where}: ${active.length} attributes, chapter wants ${ch.attrs}`);
+      for (const a of active) {
+        if (p.setup[a].some((v) => !R.ATTRS[a].all.includes(v)) || p.setup[a].length < 2) err(`${where}: bad values for ${a}`);
+      }
+      for (const a of ch.force || []) if (!p.setup[a]) err(`${where}: ${a} must be in play`);
+      const U = R.universe(p.setup, ch.pair);
+      const at = R.indexer(U);
+      const target = R.extKey(p.rule, U);
+      if (!target.includes('1') || !target.includes('0')) err(`${where}: the rule lets everyone or no one through`);
+      const legal = (c) => at(c) !== undefined;
+      const ev = p.evidence;
+      if (ev.some(([c]) => !legal(c))) { err(`${where}: evidence holds a creature that cannot exist`); return; }
+      if (ev.some(([c, pass]) => R.evaluate(p.rule, c) !== pass)) err(`${where}: evidence disagrees with the rule`);
+      const passes = ev.filter(([, x]) => x).length;
+      if (passes < 2 || ev.length - passes < 2) err(`${where}: needs two passed and two stopped to start`);
+      const H = R.hypotheses(p.setup, ch.pair);
+      const ideas = R.alive(H, U, ev, [target]);
+      if (ideas.length < 2) err(`${where}: the opening already gives the rule away`);
+      if (!ideas.includes(target)) err(`${where}: the rule itself does not fit the evidence`);
+      if (R.sizeOf(p.rule) !== p.size) err(`${where}: stored size is wrong`);
+      if (p.size >= 3 && H.has(target)) err(`${where}: a "three-part" rule that two parts say just as well`);
+      if (ch.prove === 'sort') {
+        if (!p.line || p.line.length !== R.LINE_SIZE || p.line.some((c) => !legal(c))) err(`${where}: bad waiting line`);
+        if (!p.proof || p.proof.length !== R.PROOF_SIZE || p.proof.some((c) => !legal(c))) { err(`${where}: bad proof set`); return; }
+        const used = new Set([...ev.map(([c]) => at(c)), ...p.line.map(at)]);
+        if (p.proof.some((c) => used.has(at(c)))) err(`${where}: a creature to sort was already seen`);
+        /* Every idea but the right one sorts at least one of the six wrong. */
+        for (const k of ideas) {
+          if (k === target) continue;
+          if (p.proof.every((c) => k[at(c)] === target[at(c)])) err(`${where}: a wrong idea could sort all six right`);
+        }
+        /* The waiting line can tell every two ideas apart. */
+        for (let x = 0; x < ideas.length; x++) {
+          for (let y = x + 1; y < ideas.length; y++) {
+            if (p.line.every((c) => ideas[x][at(c)] === ideas[y][at(c)])) err(`${where}: the line cannot tell two ideas apart`);
+          }
+        }
+      }
+      for (const L of ['en', 'es']) {
+        const text = ruleSentence(p.rule, L, ch.pair);
+        if (/undefined|\{/.test(text)) err(`${where}: bad ${L} rule sentence "${text}"`);
+        const one = ch.pair ? ev[0][0][0] : ev[0][0];
+        if (/undefined/.test(describe(one, p.setup, L))) err(`${where}: bad ${L} creature words`);
+      }
+      const k = JSON.stringify([p.rule, Object.keys(p.setup).sort()]);
+      rules.set(k, (rules.get(k) || 0) + 1);
+      if (rules.get(k) > 2) err(`${where}: the same rule and creatures a third time`);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -216,6 +291,7 @@ function main() {
   }
   errors.push(...checkParity('codetext', CODE_TEXT), ...checkCodeText());
   errors.push(...checkParity('truthtext', TRUTH_TEXT));
+  errors.push(...checkParity('ruletext', RULE_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -226,7 +302,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

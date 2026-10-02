@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Two are built: Crack the Code (840 safes) and Truth Island (600 puzzles), at three levels, in English and Spanish, and every puzzle is proven to have exactly one answer. Five more are planned |
+| **Logic Games** | Seven games that make a child think in steps. Three are built: Crack the Code (840 safes), Truth Island (600 puzzles) and Find the Rule (600 puzzles), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Four more are planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -374,6 +374,22 @@ who may say anything. 600 puzzles, fifteen chapters of forty, every one
 proven by `tools/logiccheck.mjs` to have one answer, no spare sentence, and a
 chain of steps a person can follow, which is what the hints and the "why"
 are made from.
+
+**Find the Rule** is the third. Creatures walk up to a gate; some pass and
+some are stopped, and the child finds the secret rule ("wears a crown and
+has no stripes"). Every test starts with a prediction, which turns it into a
+question, and a correct prediction that a creature will be *stopped* earns a
+"brave tester" note: children test what they expect to pass, and finding a
+rule needs the other kind of test too. Easy tests from a waiting line and
+proves the rule by sorting six new creatures, chosen so that a nearly-right
+rule always sorts one wrong; Medium and Hard dress creatures up in a machine
+and build the rule from parts, which reads back as a sentence as they build.
+A wrong rule is answered with one creature it gets wrong, added to the
+shelf, and nothing is taken away. Rules are judged by what they do, not how
+they are worded: "cap or crown" is right when the rule is "wears a hat".
+Medium has a chapter of traps (every passer shares a second thing that does
+not matter); Hard has three-part rules, "one or the other but not both", and
+pairs, where the rule compares two creatures. 600 puzzles.
 
 ## Math Lab
 
