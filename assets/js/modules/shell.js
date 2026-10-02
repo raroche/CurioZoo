@@ -9,7 +9,7 @@
 import * as data from './data.js';
 import * as storage from './storage.js';
 import { icon } from './icons.js';
-import { setMood } from './mascot.js';
+import { mascot, setMood } from './mascot.js';
 import { applyStyles } from './style.js';
 import * as speech from './speech.js';
 
@@ -192,4 +192,52 @@ export function applySpeechButton() {
 export function showError(message) {
   $('#gp-error-message').textContent = message;
   showScreen('error');
+}
+
+/* ------------------------------------------------------------------ */
+/* Loading: a creature thinking, while a room or its puzzles arrive     */
+/* ------------------------------------------------------------------ */
+
+/* Shorter than this and a loading screen is only a flash. */
+export const LOADING_DELAY = 250;
+
+let creature = 'logo';
+let savingNow = () => false;
+
+/** The room being opened, so its own creature does the thinking. The app sets it. */
+export function setLoadingCreature(kind) { creature = kind || 'logo'; }
+
+/** Is the offline copy being saved right now? offline.js knows; the app hands it in. */
+export function setSavingCheck(fn) { savingNow = fn; }
+export const savingOffline = () => savingNow();
+
+/** Show the loading screen: the room's creature in its "think" mood, a title, a line (in `lang`). */
+export function showLoading({ title, text = '', lang = 'en' }) {
+  const pic = $('#cz-loading-pic');
+  if (!pic) return;
+  $('#screen-loading').setAttribute('lang', lang);
+  if (pic.dataset.kind !== creature) {
+    pic.innerHTML = mascot({ kind: creature, mood: 'think', className: 'cz-loading__mascot' });
+    pic.dataset.kind = creature;
+  }
+  $('#loading-title').textContent = title;
+  $('#cz-loading-text').textContent = text;
+  showScreen('loading');
+}
+
+/**
+ * Wait for `work` (a promise). If it is still not done after LOADING_DELAY,
+ * show the loading screen with `words()` -- { title, text, lang } -- unless the
+ * child has gone somewhere else meanwhile, or `wanted()` says this work is no
+ * longer the latest (two quick taps on the same page share one address). The
+ * caller draws its own screen when the work is done, replacing this one.
+ */
+export async function whileLoading(work, words, wanted = () => true) {
+  const here = location.hash;
+  const timer = setTimeout(() => { if (location.hash === here && wanted()) showLoading(words()); }, LOADING_DELAY);
+  try {
+    return await work;
+  } finally {
+    clearTimeout(timer);
+  }
 }

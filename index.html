@@ -34,6 +34,24 @@
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/css/design-system.css">
+<!-- Everything the first screen runs, asked for at once beside the
+     stylesheet instead of one import at a time; tools/preloadcheck.mjs keeps
+     this list equal to the real imports. The question list too: boot waits
+     for it before drawing the home page. -->
+<link rel="modulepreload" href="assets/js/app.js">
+<link rel="modulepreload" href="assets/js/modules/data.js">
+<link rel="modulepreload" href="assets/js/modules/storage.js">
+<link rel="modulepreload" href="assets/js/modules/speech.js">
+<link rel="modulepreload" href="assets/js/modules/icons.js">
+<link rel="modulepreload" href="assets/js/modules/mascot.js">
+<link rel="modulepreload" href="assets/js/modules/sections.js">
+<link rel="modulepreload" href="assets/js/modules/style.js">
+<link rel="modulepreload" href="assets/js/modules/shell.js">
+<link rel="modulepreload" href="assets/js/rooms/registry.js">
+<link rel="modulepreload" href="assets/js/offline.js">
+<link rel="modulepreload" href="assets/js/rooms/home/room.js">
+<link rel="modulepreload" href="assets/js/modules/charts.js">
+<link rel="preload" href="data/manifest.json" as="fetch" crossorigin>
 </head>
 
 <body class="gp-app">
@@ -114,6 +132,17 @@
        assets/js/rooms/<room>/screens.html. The app adds a room's screens
        here the first time a child opens it. See assets/js/rooms/registry.js. -->
 
+  <!-- Shown while a room, or a game's puzzles, take a moment to arrive. The
+       room's own creature thinks instead of a spinner (see shell.js). -->
+  <section class="gp-screen" id="screen-loading" aria-labelledby="loading-title" aria-busy="true">
+    <div class="gp-container gp-stack gp-center cz-loading">
+      <div class="cz-loading__pic" id="cz-loading-pic"></div>
+      <h1 class="gp-page-title" id="loading-title">Opening…</h1>
+      <div class="cz-loading__bar" aria-hidden="true"><span></span></div>
+      <p class="gp-page-lede cz-loading__text" id="cz-loading-text" role="status"></p>
+    </div>
+  </section>
+
   <section class="gp-screen" id="screen-error" aria-labelledby="error-title">
     <div class="gp-container gp-stack gp-center">
       <h1 class="gp-page-title" id="error-title">Something did not load</h1>
@@ -125,6 +154,18 @@
   </section>
 
 </main>
+
+<!-- The first visit saves every game on the device for offline play; this
+     says how far it has got, then that it is done (see offline.js). -->
+<div class="cz-offline-note" id="cz-offline-note" hidden>
+  <span class="cz-offline-note__spin" aria-hidden="true"></span>
+  <span class="cz-offline-note__words">
+    <span class="cz-offline-note__text" id="cz-offline-note-text" aria-live="polite"></span>
+    <span class="cz-offline-note__pct" id="cz-offline-note-pct" aria-hidden="true"></span>
+  </span>
+  <progress class="cz-offline-note__bar" id="cz-offline-note-bar" max="100" value="0" aria-label="Saved for offline play"></progress>
+  <button type="button" class="cz-offline-note__close" id="cz-offline-note-close" aria-label="Hide this message">✕</button>
+</div>
 
 <footer class="gp-footer">
   <p>

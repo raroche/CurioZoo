@@ -38,9 +38,60 @@ function anotherTabBusy() {
    more than once an hour. */
 const CHECK_EVERY = 60 * 60 * 1000;
 
+/* ------------------------------------------------------------------ */
+/* The first visit: "Saving games for offline play… 40%"               */
+/* ------------------------------------------------------------------ */
+
+let saving = false;
+let hidden = false;          // the child closed the note
+let hideTimer = 0;
+
+/** Is the first visit's offline copy being saved right now? */
+export const isSaving = () => saving;
+
+function note({ text, pct = null, done = false }) {
+  const box = document.getElementById('cz-offline-note');
+  if (!box || hidden) return;
+  const words = document.getElementById('cz-offline-note-text');
+  /* The sentence changes twice (saving, saved), so a screen reader hears it
+     twice; the percent changes often and is for eyes only. */
+  if (words.textContent !== text) words.textContent = text;
+  document.getElementById('cz-offline-note-pct').textContent = pct === null ? '' : `${pct}%`;
+  document.getElementById('cz-offline-note-bar').value = done ? 100 : pct || 0;
+  box.classList.toggle('is-done', done);
+  box.hidden = false;
+}
+
+function hideNote() {
+  const box = document.getElementById('cz-offline-note');
+  if (box) box.hidden = true;
+}
+
+function onWorkerMessage(e) {
+  const m = e.data || {};
+  if (m.type === 'curiozoo-saving') {
+    saving = true;
+    note({ text: 'Saving games for offline play…', pct: Math.min(99, Math.floor((100 * m.done) / Math.max(1, m.total))) });
+  } else if (m.type === 'curiozoo-saved') {
+    saving = false;
+    note({ text: 'Saved! CurioZoo now works without the internet.', done: true });
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(hideNote, 6000);
+  } else if (m.type === 'curiozoo-save-failed') {
+    /* The next visit tries again; nothing for a child to do about it. */
+    saving = false;
+    hideNote();
+  }
+}
+
 export function startOffline() {
   if (!('serviceWorker' in navigator)) return;
   if (!/^https?:$/.test(location.protocol)) return;
+
+  navigator.serviceWorker.addEventListener('message', onWorkerMessage);
+  if (navigator.serviceWorker.startMessages) navigator.serviceWorker.startMessages();
+  const close = document.getElementById('cz-offline-note-close');
+  if (close) close.addEventListener('click', () => { hidden = true; hideNote(); });
 
   /* Only an UPDATE reloads. On the very first install the worker takes the
      page too (see clients.claim in sw.js), and reloading then would flash the

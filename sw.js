@@ -83,18 +83,40 @@ async function saveEverything() {
   const cache = await caches.open(CACHE);
   const old = await oldCaches();
   const queue = FILES.slice();
+  /* The first visit tells the page how far it has got, so the child sees
+     "Saving games for offline play… 40%" instead of a site that feels slow.
+     An update copies most files across and says nothing. */
+  const first = old.length === 0;
+  const total = FILES.length;
+  let done = 0;
+  let told = 0;
+  const tell = (msg) => self.clients.matchAll({ type: 'window', includeUncontrolled: true })
+    .then((list) => list.forEach((c) => c.postMessage(msg)))
+    .catch(() => { /* no page to tell */ });
 
   async function worker() {
     while (queue.length) {
       const [path, hash] = queue.shift();
       const key = urlOf(path);
-      if (await copyIfSame(old, cache, key, hash)) continue;
-      const res = await fetch(key, { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`offline copy: ${path} answered ${res.status}`);
-      await cache.put(key, stamp(res, hash));
+      if (!(await copyIfSame(old, cache, key, hash))) {
+        const res = await fetch(key, { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`offline copy: ${path} answered ${res.status}`);
+        await cache.put(key, stamp(res, hash));
+      }
+      done += 1;
+      if (first && Date.now() - told > 300) {
+        told = Date.now();
+        tell({ type: 'curiozoo-saving', done, total });
+      }
     }
   }
-  await Promise.all(Array.from({ length: PARALLEL }, worker));
+  try {
+    await Promise.all(Array.from({ length: PARALLEL }, worker));
+  } catch (err) {
+    if (first) tell({ type: 'curiozoo-save-failed' });
+    throw err;
+  }
+  if (first) tell({ type: 'curiozoo-saved', total });
 }
 
 async function oldCaches() {

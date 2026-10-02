@@ -25,9 +25,9 @@ import * as speech from './modules/speech.js';
 import { icon } from './modules/icons.js';
 import { hydrateMascots, mascot, setMood } from './modules/mascot.js';
 import { applyStyles } from './modules/style.js';
-import { $, applySpeechButton, hydrateIcons, setBackResolver, showError, state } from './modules/shell.js';
+import { $, applySpeechButton, hydrateIcons, savingOffline, setBackResolver, setLoadingCreature, setSavingCheck, showError, state, whileLoading } from './modules/shell.js';
 import { backTarget, roomById, roomFile, roomForRoute } from './rooms/registry.js';
-import { startOffline, applyUpdateIfSafe } from './offline.js';
+import { startOffline, applyUpdateIfSafe, isSaving } from './offline.js';
 
 /* ------------------------------------------------------------------ */
 /* Theme                                                               */
@@ -150,7 +150,16 @@ async function route() {
 
   let room;
   try {
-    room = await openRoom(entry);
+    /* A room's first visit downloads its code; on a slow line, or while the
+       first visit is also saving the whole zoo for offline play, that can
+       take a moment, so the room's creature says what is happening. */
+    setLoadingCreature(entry.creature);
+    room = await whileLoading(openRoom(entry), () => ({
+      title: `Opening ${entry.name || 'CurioZoo'}…`,
+      text: savingOffline()
+        ? 'This first visit also saves every game on this device, so CurioZoo works without the internet. Next time it opens at once.'
+        : 'Getting everything ready.'
+    }));
   } catch (err) {
     console.error(err);
     showError(`${entry.name || 'This page'} could not be loaded. Check the connection and try again.`);
@@ -317,6 +326,7 @@ async function boot() {
     return;
   }
 
+  setSavingCheck(isSaving);
   route();
   startOffline();
 }
