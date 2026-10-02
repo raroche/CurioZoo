@@ -155,7 +155,7 @@ export const GAMES = [
     meta: { en: '600 puzzles · 3 levels', es: '600 acertijos · 3 niveles' }
   },
   {
-    id: 'bridges', live: false,
+    id: 'bridges', live: true,
     name: { en: 'Zoo Bridges', es: 'Puentes del zoo' },
     blurb: {
       en: 'Join the islands with bridges. Each island says how many it needs.',

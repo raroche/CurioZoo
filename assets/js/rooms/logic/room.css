@@ -451,3 +451,32 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
   .cz-rule-gate { grid-template-columns: 1fr; }
   .cz-rule-preview { min-width: 0; width: 100%; }
 }
+
+/* ==========================================================================
+   Zoo Bridges (rooms/logic/bridges.js)
+   ========================================================================== */
+
+.cz-br { display: grid; gap: var(--gp-space-3); }
+/* A big grid on a phone scrolls sideways inside its own box, never the page. */
+.cz-br-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.cz-br-svg { display: block; width: 100%; max-width: 720px; height: auto; margin-inline: auto; touch-action: manipulation; }
+.cz-br-water { fill: var(--cz-lagoon-soft); stroke: var(--cz-lagoon-line); stroke-width: 2; }
+.cz-br-planks line { stroke: var(--cz-mango); stroke-width: 5; stroke-linecap: round; }
+.cz-br-edge.is-wrong .cz-br-planks line { stroke: var(--gp-retry); stroke-dasharray: 7 5; }
+.cz-br-hit { fill: transparent; cursor: pointer; }
+.cz-br-hit:hover { fill: var(--cz-lagoon-line); fill-opacity: 0.35; }
+.cz-br-hit:focus { outline: none; }
+.cz-br-hit:focus-visible { stroke: var(--gp-focus); stroke-width: 3; stroke-dasharray: 6 4; }
+.cz-br-edge.is-hint .cz-br-hit { stroke: var(--gp-focus); stroke-width: 4; stroke-dasharray: 6 4; fill: var(--gp-focus); fill-opacity: 0.12; }
+.cz-br-edge.is-shake { animation: gp-wobble 460ms ease-in-out; transform-box: fill-box; transform-origin: center; }
+
+.cz-br-disc { fill: var(--gp-surface); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-br-island.is-full .cz-br-disc { fill: var(--gp-good-soft); stroke: var(--gp-good); stroke-width: 3; }
+.cz-br-island.is-over .cz-br-disc { stroke: var(--gp-retry); stroke-dasharray: 4 3; stroke-width: 3; }
+.cz-br-island.is-hint .cz-br-disc { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-br-n { font: 800 20px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; dominant-baseline: middle; }
+.cz-br-dot { fill: none; stroke: var(--gp-ink-muted); stroke-width: 1.5; }
+.cz-br-dot.is-on { fill: var(--gp-ink); stroke: var(--gp-ink); }
+.cz-br-tick { font: 800 11px var(--gp-font-ui); fill: var(--gp-good); text-anchor: middle; }
+.cz-br-visitor { font-size: 17px; text-anchor: middle; }
+.cz-br-badge.is-over { font: 900 20px var(--gp-font-ui); fill: var(--gp-retry); text-anchor: middle; }

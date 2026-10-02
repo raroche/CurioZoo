@@ -23,6 +23,8 @@ import * as T from '../assets/js/modules/truthlogic.js';
 import { TRUTH_TEXT, sentence } from '../assets/js/modules/truthtext.js';
 import * as R from '../assets/js/modules/rulelogic.js';
 import { RULE_TEXT, ruleSentence, describe } from '../assets/js/modules/ruletext.js';
+import * as B from '../assets/js/modules/bridgeslogic.js';
+import { BRIDGES_TEXT } from '../assets/js/modules/bridgestext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -246,6 +248,46 @@ export function checkRuleBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Zoo Bridges                                                         */
+/* ------------------------------------------------------------------ */
+
+export function checkBridgesBank(bank) {
+  const errs = [];
+  const err = (m) => errs.push(m);
+  if (bank.game !== 'bridges') err(`game is "${bank.game}", not "bridges"`);
+  const defs = B.CHAPTERS[bank.level];
+  if (!defs) { err(`no level called "${bank.level}"`); return errs; }
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) err(`${bank.level}: wrong chapters`);
+  const forms = new Set();
+  for (const chapter of bank.chapters || []) {
+    const ch = B.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== B.CHAPTER_SIZE) err(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    chapter.puzzles.forEach((q, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (q.id !== `${ch.id}-${pad(i + 1)}`) err(`${where}: id "${q.id}"`);
+      if (Boolean(q.teach) !== (i < B.TEACH)) err(`${where}: teach flag is wrong`);
+      let p;
+      try { p = B.parse(q.g); } catch (e) { err(`${where}: ${e.message}`); return; }
+      if (p.w !== ch.w || p.h !== ch.h) err(`${where}: grid is ${p.w}x${p.h}, chapter is ${ch.w}x${ch.h}`);
+      if (q.maxb !== ch.maxb) err(`${where}: maxb ${q.maxb}`);
+      if (p.isl.length < ch.isl[0] || p.isl.length > ch.isl[1]) err(`${where}: ${p.isl.length} islands`);
+      if (p.isl.some((x) => x.n > 4 * q.maxb)) err(`${where}: an island needs more than it can ever have`);
+      const run = B.humanSolve(p, q.maxb, { maxLevel: ch.tl });
+      if (!run.solved) { err(`${where}: the solver cannot finish it with the chapter's techniques`); return; }
+      if (run.level < B.minLevel(ch)) err(`${where}: too easy for the chapter (rung ${run.level})`);
+      if (ch.need && !ch.need.some((tg) => run.tags.includes(tg))) err(`${where}: the chapter's technique never comes up`);
+      if (q.tech !== run.level || q.steps !== run.steps.length) err(`${where}: stored tech/steps do not match the solver`);
+      for (const s of run.steps) if (!BRIDGES_TEXT.en[`why.${s.tag}`] || !BRIDGES_TEXT.en[`tech.${s.tag}`]) err(`${where}: no words for ${s.tag}`);
+      const form = B.canonical(q.g);
+      if (forms.has(form)) err(`${where}: the same grid (turned or flipped) twice`);
+      forms.add(form);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -292,6 +334,7 @@ function main() {
   errors.push(...checkParity('codetext', CODE_TEXT), ...checkCodeText());
   errors.push(...checkParity('truthtext', TRUTH_TEXT));
   errors.push(...checkParity('ruletext', RULE_TEXT));
+  errors.push(...checkParity('bridgestext', BRIDGES_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -302,7 +345,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

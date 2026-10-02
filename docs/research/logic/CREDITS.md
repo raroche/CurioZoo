@@ -12,6 +12,7 @@ here. These are the ideas it borrows and the facts it states.
 | Crack the Code, chapter m4 | The "682" lock puzzle (answer 042), which has circulated online for years with no known author. Puzzle m4-01 uses its five clues. | Folk puzzle |
 | Truth Island | The knights-and-knaves genre, popularised by Raymond Smullyan (*What Is the Name of This Book?*, 1978). Every puzzle is made by our generator; none of his puzzles or text is used. "Sun" and "Moon" animals are our own names. | Genre only |
 | Find the Rule | The family of *Logical Journey of the Zoombinis* (TERC, 1996; "Allergic Cliffs"), Kory Heath's *Zendo*, and Bongard problems. The counterexample answer to a wrong rule is Zendo's idea. Every creature, rule and puzzle here is our own. | Ideas only |
+| Zoo Bridges | A puzzle type first published by Nikoli (Japan, 1990) as *Hashiwokakero*. The grid notation and the "grow islands" generator follow Simon Tatham's *Bridges* (MIT licence), written fresh here; no code was copied. Our name, rules text and pictures. | Puzzle type |
 | Crack the Code, "Clue Safe" mode | Math Garden's *Deductive Mastermind* / Flowercode (Gierasimczuk, van der Maas and Raijmakers), where the child deduces the code from given clues. The format is borrowed, not their items. | Idea only |
 
 ## Animal facts (Crack the Code zoo map)
@@ -36,6 +37,4 @@ these on 2026-10-02.
 
 ## Still to be credited as the other games are built
 
-- Zoo Bridges: a puzzle type first published by Nikoli (Japan, 1990) as
-  *Hashiwokakero*. Our name, our rules text.
 - Train Tracks: railway ideas from Bebras tasks (CC BY-SA 4.0); mechanics only.

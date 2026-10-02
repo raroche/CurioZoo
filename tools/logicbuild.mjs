@@ -22,7 +22,8 @@ import { ANIMALS } from '../assets/js/modules/zooart.js';
 import { rngFor } from '../assets/js/modules/logicrng.js';
 import * as T from '../assets/js/modules/truthlogic.js';
 import * as R from '../assets/js/modules/rulelogic.js';
-import { checkCodeBank, checkRuleBank, checkTruthBank } from './logiccheck.mjs';
+import * as B from '../assets/js/modules/bridgeslogic.js';
+import { checkBridgesBank, checkCodeBank, checkRuleBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -297,7 +298,58 @@ function buildRule() {
   for (const bank of banks) writeBank(`data/logic/rule/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule };
+/* ------------------------------------------------------------------ */
+/* Zoo Bridges                                                         */
+/* ------------------------------------------------------------------ */
+
+function buildBridgesChapter(def, seen) {
+  const ch = B.chapter(def.id);
+  const pool = [];
+  for (let j = 0; pool.length < B.CHAPTER_SIZE && j < 3000; j++) {
+    const p = B.makePuzzle(ch, rngFor('bridges', ch.id, 'bank', j), { tries: 60 });
+    if (!p) continue;
+    const form = B.canonical(p.g);
+    if (seen.has(form)) continue;
+    seen.add(form);
+    pool.push(p);
+  }
+  if (pool.length < B.CHAPTER_SIZE) throw new Error(`${ch.id}: made only ${pool.length} of ${B.CHAPTER_SIZE}`);
+  pool.sort((a, b) => a.steps - b.steps);
+  const order = [...pool.slice(0, B.TEACH), ...interleave(pool.slice(B.TEACH))];
+  return {
+    id: ch.id,
+    puzzles: order.map((p, i) => ({
+      id: `${ch.id}-${pad(i + 1)}`, ...(i < B.TEACH ? { teach: true } : {}),
+      g: p.g, maxb: p.maxb, tech: p.tech, steps: p.steps
+    }))
+  };
+}
+
+function buildBridges() {
+  const banks = [];
+  for (const level of B.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const seen = new Set();
+    const chapters = B.CHAPTERS[level].map((d) => {
+      const c = buildBridgesChapter(d, seen);
+      process.stdout.write(`  ${d.id} ${((Date.now() - t0) / 1000).toFixed(0)}s\n`);
+      return c;
+    });
+    const bank = { game: 'bridges', level, v: 1, chapters };
+    const problems = checkBridgesBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`bridges/${level}: ${n} puzzles in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/bridges/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

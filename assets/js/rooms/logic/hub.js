@@ -26,7 +26,8 @@ import { backLink, esc, flipLang, lang, rec, save, say, stars, t, tools, winCard
 const LOADERS = {
   code: () => import('./code.js'),
   truth: () => import('./truth.js'),
-  rule: () => import('./rule.js')
+  rule: () => import('./rule.js'),
+  bridges: () => import('./bridges.js')
 };
 const loaded = new Map();
 

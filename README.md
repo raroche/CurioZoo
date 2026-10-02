@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Three are built: Crack the Code (840 safes), Truth Island (600 puzzles) and Find the Rule (600 puzzles), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Four more are planned |
+| **Logic Games** | Seven games that make a child think in steps. Four are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600) and Zoo Bridges (900), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. Three more are planned |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -390,6 +390,18 @@ they are worded: "cap or crown" is right when the rule is "wears a hat".
 Medium has a chapter of traps (every passer shares a second thing that does
 not matter); Hard has three-part rules, "one or the other but not both", and
 pairs, where the rule compares two creatures. 600 puzzles.
+
+**Zoo Bridges** is the fourth: islands with numbers, joined by straight
+bridges (at most two between a pair, never crossing) until every island has
+its number and all of them are joined. A puzzle type first published by
+Nikoli in 1990, here with our own name and words. Tap the water between two
+islands to build; every island wears a ring of dots that fill as bridges
+arrive, and a full island gets its visiting animal and a tick. The thirty
+chapters climb an eight-technique ladder, from "only one friend" and "just
+enough" to "don't trap a pair", "keep the zoo together" and "what if…?", and
+every puzzle is graded by the hardest technique it needs. The solver only
+ever deduces, so when it finishes a grid, that grid has one answer; the
+tests check this against brute force. 900 puzzles from 5×5 to 13×13.
 
 ## Math Lab
 

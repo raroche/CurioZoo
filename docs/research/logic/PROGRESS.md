@@ -17,7 +17,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 1 — Crack the Code (840 safes, room is live)
 - [x] 2026-10-02 Phase 2 — Truth Island (600 puzzles)
 - [x] 2026-10-02 Phase 3 — Find the Rule (600 puzzles)
-- [ ] Phase 4 — Zoo Bridges
+- [x] 2026-10-02 Phase 4 — Zoo Bridges (900 puzzles)
 - [ ] Phase 5 — Train Tracks
 - [ ] Phase 6 — Robot Path
 - [ ] Phase 7 — Fix the Bug
@@ -85,6 +85,19 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - Checked in the browser: Easy line + brave tester + sort to 3 stars; Medium
   wrong build → counterexample, right build; Hard pairs; Spanish after a win.
 
+## Zoo Bridges: what shipped
+- 30 chapters × 30 = 900 puzzles; Easy 6×6–7×7 (single bridges first),
+  Medium 7×7–10×10, Hard 10×10–13×13. First 2 of each chapter teach.
+- Solver: lo/hi per route + groups; techniques full/cap, noCross,
+  onlyNeighbour, justEnough, atLeastOne, pairIsolation, closedGroup,
+  onlyExit, whatIf. Tests check it against brute force on small grids.
+- Board trims to the islands; tap targets on the water; ring of dots per
+  island; ✓ + visiting animal when full, "!" + dashed ring when over.
+  Undo, start again, "Check my bridges" (count, then "show me").
+- Zoo map on the game page: one habitat per chapter, night version at all ★★★.
+- Checked in the browser: hints to a finished grid, Check/Show/Undo, big Hard
+  grid at iPad size in light mode.
+
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a
   child knows, no art to maintain, CSP-safe text.
@@ -106,6 +119,14 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   the builder can always express them.
 - **Hints in Find the Rule reason over rules of one or two parts.** Three-part
   rules are too many to list on a phone; the hint still finds good tests.
+- **Bridges micro-lessons** are the two teaching puzzles per chapter plus the
+  hint ladder, which names each technique ("Try this: Just enough") before
+  explaining it; there is no separate lesson screen.
+- **Bridges: some lessons are families.** "No crossing" and "only exit" are
+  rarely the hardest step on their own, so e2 accepts "full up" or "no
+  crossing" and m4/h2 accept either "keep together" rule. The biggest Hard
+  chapters (h8–h10) need "keep together" or "what if", not always "what if",
+  which would take minutes per puzzle to find.
 - **The Question Gate chapter was dropped** from Truth Island: there are only a
   handful of different yes/no-question puzzles, not forty.
 - `.claude/launch.json` has a second server, `giftedprep-alt` on port 8767, for
