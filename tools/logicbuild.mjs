@@ -25,7 +25,9 @@ import * as R from '../assets/js/modules/rulelogic.js';
 import * as B from '../assets/js/modules/bridgeslogic.js';
 import * as TR from '../assets/js/modules/trainslogic.js';
 import * as RG from '../assets/js/modules/robotgen.js';
-import { checkBridgesBank, checkCodeBank, checkRobotBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
+import * as BG from '../assets/js/modules/robotbug.js';
+import * as RV from '../assets/js/modules/robotvm.js';
+import { checkBridgesBank, checkBugBank, checkCodeBank, checkRobotBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -440,7 +442,58 @@ function buildRobot() {
   for (const bank of banks) writeBank(`data/logic/robot/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains, robot: buildRobot };
+/* ------------------------------------------------------------------ */
+/* Fix the Bug                                                         */
+/* ------------------------------------------------------------------ */
+
+/* Built from the Robot Path bank, so build that first. Each puzzle carries
+   its whole level, so the two banks can change apart. */
+function buildBugChapter(def, robotBank) {
+  const ch = BG.chapter(def.id);
+  const byWorld = ch.from.map((w) => robotBank.chapters.find((c) => c.id === w).puzzles);
+  /* Take levels in turn from each source world, so a chapter mixes them. */
+  const levels = [];
+  for (let i = 0; levels.length < byWorld.reduce((n, l) => n + l.length, 0); i++) {
+    for (const list of byWorld) if (list[i]) levels.push(list[i]);
+  }
+  const pool = [];
+  for (const l of levels) {
+    if (pool.length >= BG.CHAPTER_SIZE) break;
+    const p = BG.makeBugPuzzle(l, ch.mode, rngFor('bug', ch.id, l.id), { easy: Boolean(ch.exact), maxMoves: ch.maxMoves || 24 });
+    if (!p) continue;
+    const level = { ...l };
+    delete level.id;
+    delete level.teach;
+    /* The buggy program is `prog`; `start` stays the robot's starting square. */
+    pool.push({ src: l.id, ...level, ...p, mode: ch.mode, prog: p.start, start: level.start });
+  }
+  if (pool.length < BG.CHAPTER_SIZE) throw new Error(`${ch.id}: made only ${pool.length}`);
+  pool.sort((a, b) => RV.programSize(a.prog) - RV.programSize(b.prog));
+  const order = [...pool.slice(0, BG.TEACH), ...interleave(pool.slice(BG.TEACH))];
+  return { id: ch.id, puzzles: order.map((p, i) => ({ id: `${ch.id}-${pad(i + 1)}`, ...(i < BG.TEACH ? { teach: true } : {}), ...p })) };
+}
+
+function buildBug() {
+  const banks = [];
+  for (const level of BG.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const robotBank = JSON.parse(fs.readFileSync(`data/logic/robot/${level}.json`, 'utf8'));
+    const chapters = BG.CHAPTERS[level].map((d) => buildBugChapter(d, robotBank));
+    const bank = { game: 'bug', level, v: 1, chapters };
+    const problems = checkBugBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    banks.push(bank);
+    const n = chapters.reduce((sum, c) => sum + c.puzzles.length, 0);
+    console.log(`bug/${level}: ${n} puzzles in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+  for (const bank of banks) writeBank(`data/logic/bug/${bank.level}.json`, bank);
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains, robot: buildRobot, bug: buildBug };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);

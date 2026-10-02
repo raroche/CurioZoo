@@ -30,6 +30,7 @@ import { TRAINS_TEXT } from '../assets/js/modules/trainstext.js';
 import * as RG from '../assets/js/modules/robotgen.js';
 import * as RV from '../assets/js/modules/robotvm.js';
 import { ROBOT_TEXT, KIND_WORD } from '../assets/js/modules/robottext.js';
+import * as BG from '../assets/js/modules/robotbug.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -428,6 +429,68 @@ export function checkRobotBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Fix the Bug                                                         */
+/* ------------------------------------------------------------------ */
+
+export function checkBugBank(bank) {
+  const errs = [];
+  if (bank.game !== 'bug') errs.push(`game is "${bank.game}", not "bug"`);
+  const defs = BG.CHAPTERS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong chapters`);
+  for (const chapter of bank.chapters || []) {
+    const ch = BG.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== BG.CHAPTER_SIZE) errs.push(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    const seen = new Set();
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const err = (m) => errs.push(`${where}: ${m}`);
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < BG.TEACH)) err('teach flag is wrong');
+      if (p.mode !== ch.mode) err(`mode ${p.mode}`);
+      const w = RG.world(String(p.src).split('-')[0]);
+      if (!w || !ch.from.includes(w.id)) { err(`comes from ${p.src}, not from ${ch.from.join('/')}`); return; }
+      errs.push(...checkRobotLevel(p, w, where));
+      const key = JSON.stringify([p.src, p.prog]);
+      if (seen.has(key)) err('the same puzzle twice');
+      seen.add(key);
+      const res = RV.run(p, p.prog);
+      if (res.ok) err('the buggy program works');
+      if (res.why === 'tired' || res.why === 'deep') err('the buggy program never stops');
+      if (p.bug && !BG.MUTATIONS.includes(p.bug.m)) err('unknown kind of bug');
+      if (p.bug && !ROBOT_TEXT.en[`bug.${p.bug.m}`]) err(`no words for bug ${p.bug.m}`);
+      if (p.mode === 'fix') {
+        const fixes = BG.fixPlaces(p, p.prog);
+        if (!fixes.size) err('no single change fixes it');
+        if (fixes.size > (ch.exact ? 1 : 3)) err(`${fixes.size} places fix it`);
+      } else if (p.mode === 'find') {
+        const at = p.bug.at;
+        const works = p.options.filter((o) => {
+          const q = RV.clone(p.prog);
+          RV.listAt(q, at.slice(0, -1))[at[at.length - 1]] = o;
+          return RV.run(p, q).ok;
+        });
+        if (works.length !== 1 || p.options.length !== 3) err('the three choices must hold exactly one that works');
+        if (!BG.fixPlaces(p, p.prog).has(at.join('.'))) err('the marked tile is not where it is fixed');
+      } else if (p.mode === 'predict') {
+        const end = BG.endOf(p, p.prog);
+        if (end.x !== p.answer[0] || end.y !== p.answer[1]) err('the answer is not where the robot stops');
+        if (end.moves > (ch.maxMoves || 24)) err('too long a program to trace');
+        const keys = p.choices.map((c) => c.join(','));
+        if (new Set(keys).size !== keys.length || keys.length < 3 || !keys.includes(p.answer.join(','))) err('choices must be 3+ different squares including the answer');
+        const B = RV.board(p);
+        if (p.choices.some(([x, y]) => !B.open(x, y))) err('a choice is in a wall');
+      } else if (p.mode === 'order') {
+        const sort = (l) => l.map((c) => JSON.stringify(c)).sort().join();
+        if (sort(p.prog.main) !== sort(p.ref.main)) err('the mixed-up tiles are not the right tiles');
+      }
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -487,7 +550,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank, bug: checkBugBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

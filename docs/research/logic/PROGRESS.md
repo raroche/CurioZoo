@@ -20,7 +20,7 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 4 — Zoo Bridges (900 puzzles)
 - [x] 2026-10-02 Phase 5 — Train Tracks (1,000 puzzles)
 - [x] 2026-10-02 Phase 6 — Robot Path (600 levels)
-- [ ] Phase 7 — Fix the Bug
+- [x] 2026-10-02 Phase 7 — Fix the Bug (600 puzzles)
 - [ ] Phase 8 — Endless, room badge ladder, Spanish review list
       (Daily is already done for Crack the Code; each new game adds its own.)
 
@@ -121,6 +121,18 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
   runner; shared with Fix the Bug.
 - Checked in the browser: hints build a working start, Run to 3 stars;
   nested Until/If/F by tapping; a forever-loop stops "tired" with a bug mark.
+
+## Fix the Bug: what shipped
+- 12 chapters × 50 = 600: find (tap the wrong tile, pick its replacement),
+  order (swap mixed-up tiles), fix (edit until it works), predict (tap where
+  the robot stops; wrong answers from M1/M2 mistakes and the right program).
+- robotbug.js: nine mutations M1–M9, each a real misconception; kept only if
+  the program fails after doing something right and the places one edit can
+  fix it are 1 (Easy) or at most 3; any working fix is accepted in play.
+- Built from the Robot Path bank (build robot first); each puzzle carries its
+  whole level. Bug jar on the game page from solved puzzles.
+- Checked in the browser: find (slip, then right), order to ★★★, predict to
+  ★★★, fix by tapping the Repeat and "Fewer", daily.
 
 ## Decisions made while building
 - **Animals are emoji**, not drawn heads (PLAN 3.5 updated). Twelve shapes a

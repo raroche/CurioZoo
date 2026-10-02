@@ -29,7 +29,8 @@ const LOADERS = {
   rule: () => import('./rule.js'),
   bridges: () => import('./bridges.js'),
   trains: () => import('./trains.js'),
-  robot: () => import('./robot.js')
+  robot: () => import('./robot.js'),
+  bug: () => import('./bug.js')
 };
 const loaded = new Map();
 
@@ -61,7 +62,7 @@ export async function renderLogic(parts) {
   }
   if (location.hash !== here) return;
   if (!a) { await drawGameHome(mod); return; }
-  if (a === 'daily') { drawDaily(mod); return; }
+  if (a === 'daily') { await drawDaily(mod); return; }
   if (!b) { await drawChapter(mod, a); return; }
   await drawPuzzle(mod, a, Number(b));
 }
@@ -367,11 +368,16 @@ function showWin(news = null) {
 /* Today's puzzle                                                      */
 /* ------------------------------------------------------------------ */
 
-function drawDaily(mod) {
+async function drawDaily(mod) {
   const r = rec();
   const level = P.levelOf(r, mod.id);
   const iso = today();
-  const made = mod.dailyPuzzle(level, iso);
+  const here = location.hash;
+  /* Most games make today's puzzle at once; Fix the Bug reads the robot
+     levels first, so this may wait. */
+  let made = null;
+  try { made = await mod.dailyPuzzle(level, iso); } catch (err) { console.error(err); }
+  if (location.hash !== here) return;
   if (!made) { location.replace(`#/logic/${mod.id}`); return; }
   view = { kind: 'daily', mod, level, iso, puzzle: made.puzzle, chapterId: made.chapterId };
   drawDailyPlay();

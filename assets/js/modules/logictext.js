@@ -182,7 +182,7 @@ export const GAMES = [
     meta: { en: '600 levels · 3 levels', es: '600 niveles · 3 niveles' }
   },
   {
-    id: 'bug', live: false,
+    id: 'bug', live: true,
     name: { en: 'Fix the Bug', es: 'Arregla el error' },
     blurb: {
       en: 'This robot program almost works. Find the mistake and fix it.',

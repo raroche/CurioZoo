@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Six are built: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000) and Robot Path (600 levels), at three levels, in English and Spanish, and every puzzle is checked by machine on every build. One more is planned |
+| **Logic Games** | Seven games that make a child think in steps. Seven games and 5,140 puzzles: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000), Robot Path (600 levels) and Fix the Bug (600), at three levels, in English and Spanish, and every puzzle is checked by machine on every build |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -335,8 +335,9 @@ between them. The 106 items are half and half, in `data/fun/discover.json`, and
 ## Logic Games
 
 A room of its own at `#/logic`, for reasoning in steps: deduce, test, plan
-and program. Seven games are planned (`docs/research/logic/PLAN.md`); the
-hub shows the ones still to come as "coming soon".
+and program. Seven games, 5,140 puzzles, every one solved again by
+`tools/logiccheck.mjs` on every build (`docs/research/logic/PLAN.md` has the
+plan and `PROGRESS.md` the record of what was built and why).
 
 **Crack the Code** is the first. A safe is locked with a row of animals, and
 each clue is an earlier guess with what it got right. Most safes give all
@@ -433,6 +434,20 @@ is run on an open field to carve the path, and a loop or helper level is
 kept only if the plain program with no loops does not fit the slots, so the
 idea is needed, not optional. The program runner is our own, so no code is
 ever evaluated. 600 levels.
+
+**Fix the Bug** is the seventh, on the same workbench as Robot Path. Each
+puzzle takes a Robot Path level and the program that solves it, and puts in
+one bug of a kind children really make: a turn the wrong way, a Repeat one
+too many (children read "repeat 3" as "three more"), a missing or extra
+step, the wrong order, a step outside its loop, the wrong helper, the wrong
+check, a forgotten Feed. Easy taps the wrong tile and chooses its
+replacement, puts mixed-up tiles back in order, and fixes programs with
+exactly one place to fix; every level predicts where the robot will stop,
+with wrong answers taken from the same mistakes. Any fix that works counts,
+and the best stars go to finding the bug before pressing Run. The hints
+teach the routine itself: what happened, what should have happened, step
+until they part. A bug jar collects each kind caught, with what it teaches.
+600 puzzles.
 
 ## Math Lab
 

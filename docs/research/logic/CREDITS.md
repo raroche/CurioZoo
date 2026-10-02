@@ -14,6 +14,7 @@ here. These are the ideas it borrows and the facts it states.
 | Find the Rule | The family of *Logical Journey of the Zoombinis* (TERC, 1996; "Allergic Cliffs"), Kory Heath's *Zendo*, and Bongard problems. The counterexample answer to a wrong rule is Zendo's idea. Every creature, rule and puzzle here is our own. | Ideas only |
 | Zoo Bridges | A puzzle type first published by Nikoli (Japan, 1990) as *Hashiwokakero*. The grid notation and the "grow islands" generator follow Simon Tatham's *Bridges* (MIT licence), written fresh here; no code was copied. Our name, rules text and pictures. | Puzzle type |
 | Train Tracks | Ideas from Bebras tasks ("Railroad" 2018, "Freight Train" 2014, "Train Tracks" 2021; CC BY-SA 4.0), the Digi-Comp II and Turing Tumble flip-flops, and Knuth's railway stack sort (*The Art of Computer Programming*, vol. 1). Mechanics only: no Bebras text or picture is used, and every layout is generated here. | Ideas only |
+| Robot Path, Fix the Bug | Ideas from Lightbot (procedure rows with slot limits), Code.org CS Fundamentals (block limits, its four debugging bug types), Kodable (screen arrows for pre-readers, colour tiles), Robot Turtles, and Ahmed et al., "Synthesizing Tasks for Block-based Programming" (NeurIPS 2020) for program-first level making. Every board, tile and program here is our own. | Ideas only |
 | Crack the Code, "Clue Safe" mode | Math Garden's *Deductive Mastermind* / Flowercode (Gierasimczuk, van der Maas and Raijmakers), where the child deduces the code from given clues. The format is borrowed, not their items. | Idea only |
 
 ## Animal facts (Crack the Code zoo map)
@@ -36,6 +37,3 @@ these on 2026-10-02.
 | Panda | Spends about 10 to 16 hours a day eating | [Smithsonian's National Zoo](https://nationalzoo.si.edu/animals/news/keep-national-zoos-pandas-satisfied-staff-prepare-endless-supply-bamboo) |
 | Hippo | Cannot really swim; walks and bounces along the river bottom | [Londolozi](https://blog.londolozi.com/2021/10/07/can-hippos-swim/), [Snopes](https://www.snopes.com/fact-check/hippos-dense-swim/) |
 
-## Still to be credited as the other games are built
-
-- Robot Path and Fix the Bug: inspired by Lightbot, Code.org, Kodable and Robot Turtles; mechanics only.

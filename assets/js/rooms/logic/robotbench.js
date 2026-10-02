@@ -69,7 +69,8 @@ function scene(b) {
   return { x: e.x, y: e.y, dir: e.dir, fed, ev: e };
 }
 
-export function boardSvg(b, L) {
+/** The board. `marks` (Fix the Bug's "where will it stop?") are tappable squares. */
+export function boardSvg(b, L, marks = null) {
   const lv = b.level;
   const rows = lv.cells.split('/');
   const W = rows[0].length * CELL;
@@ -104,8 +105,12 @@ export function boardSvg(b, L) {
       <circle cx="-6" cy="-4" r="4" fill="#FFFFFF"/><circle cx="6" cy="-4" r="4" fill="#FFFFFF"/>
       <circle cx="-6" cy="-5" r="1.8" fill="#2B2926"/><circle cx="6" cy="-5" r="1.8" fill="#2B2926"/>
     </g>`;
+  const picks = (marks || []).map(([mx, my, state], i) => `<g class="cz-rb-mark${state ? ` is-${state}` : ''}" data-rb-mark="${i}"
+      role="button" tabindex="0" aria-label="${i + 1}">
+      <circle cx="${mx * CELL + CELL / 2}" cy="${my * CELL + CELL / 2}" r="${CELL / 2 - 5}"/>
+      <text x="${mx * CELL + CELL / 2}" y="${my * CELL + CELL / 2 + 6}">${i + 1}</text></g>`).join('');
   return `<div class="cz-br-wrap"><svg class="cz-rb-svg" viewBox="0 0 ${W} ${H}" role="img"
-    aria-label="${esc(rb('askAbs', L))}">${DEFS}${cells}${animals}${ahead}${robot}${bump}</svg></div>`;
+    aria-label="${esc(rb('askAbs', L))}">${DEFS}${cells}${animals}${ahead}${robot}${bump}${picks}</svg></div>`;
 }
 
 /* ------------------------------------------------------------------ */

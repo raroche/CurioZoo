@@ -608,3 +608,13 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 @media (max-width: 560px) {
   .cz-rb-row { grid-template-columns: 1fr; }
 }
+
+/* ---- Fix the Bug (rooms/logic/bug.js) ---- */
+.cz-rb-mark { cursor: pointer; }
+.cz-rb-mark circle { fill: var(--gp-focus); fill-opacity: 0.18; stroke: var(--gp-focus); stroke-width: 3; stroke-dasharray: 5 4; }
+.cz-rb-mark.is-picked circle { fill-opacity: 0.4; stroke-dasharray: none; }
+.cz-rb-mark text { font: 800 18px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; }
+.cz-rb-mark:focus { outline: none; }
+.cz-rb-mark:focus-visible circle { stroke-width: 5; }
+.cz-bug .cz-rb-tile.is-tappable:hover { border-color: var(--room); }
+.cz-bug-opt { min-height: 48px; font-size: var(--gp-text-md); }
