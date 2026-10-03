@@ -142,11 +142,25 @@
     document.querySelector('[data-logic-level="medium"]').click();
     await wait(50);
     document.querySelector('[data-logic-level="hard"]').click();
-    await wait(3500);
+    await wait(600);
+    check('a superseded load never covers the page with the loader', document.querySelector('.gp-screen.is-active').id === 'screen-logicgame');
+    await wait(2900);
     window.fetch = realFetch;
     const shown = document.querySelector('[data-logic-level][aria-checked="true"]')?.dataset.logicLevel;
     const firstCh = document.querySelector('.cz-logic-ch')?.getAttribute('href') || '';
     check('(review 7) the level shown is the last one tapped', shown === 'hard' && P.levelOf(F.rec(), 'rule') === 'hard' && firstCh.endsWith('/h1'), `${shown} ${firstCh}`);
+
+    /* A slow bank shows the room's creature thinking, then the page. */
+    fresh();
+    window.fetch = (u, o) => (String(u).includes('truth/hard') ? wait(1500).then(() => realFetch(u, o)) : realFetch(u, o));
+    record((r) => P.setLevel(r, 'truth', 'hard'));
+    location.hash = '#/logic/truth';
+    await wait(600);
+    check('a slow load shows the loading screen', document.querySelector('.gp-screen.is-active').id === 'screen-loading'
+      && !!document.querySelector('#cz-loading-pic svg'));
+    await wait(1500);
+    window.fetch = realFetch;
+    check('then the page itself', document.querySelector('.gp-screen.is-active').id === 'screen-logicgame');
 
     /* -------------------------------------------------------------- */
     /* (review 8) The robot editor and the keyboard                    */

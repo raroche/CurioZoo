@@ -702,6 +702,8 @@ GiftedPrep/
     ├── roomcheck.mjs           checks the room registry: files, routes, CSS, creatures
     ├── archcheck.mjs           checks the rooms stay apart and finds cycles
     ├── offline.mjs             checks and stamps the offline file list
+    ├── minify.mjs              shrinks the CSS at deploy time (offline.mjs --minify)
+    ├── preloadcheck.mjs        keeps index.html's preload list equal to the start-up imports
     ├── linkcheck.mjs           follows every internal link to a real route
     ├── smoke.js                plays every game in a real browser: paste it in
     │                           the console before shipping a change to a game

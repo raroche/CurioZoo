@@ -7,6 +7,9 @@
  *   node tools/offline.mjs --out dist   copy the site into dist/, stamped,
  *                                       to try offline on a laptop:
  *                                       python3 tools/serve.py 8766 dist
+ *   ... --minify                        with --stamp or --out: serve the
+ *                                       stylesheets minified (tools/minify.mjs),
+ *                                       and hash what is served
  *
  * The deploy runs --stamp on Netlify's own copy of the repository, so the
  * stamped sw.js is published and never committed. Committing it would mean
@@ -23,6 +26,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import vm from 'node:vm';
+import { minifyCss } from './minify.mjs';
 
 const SW = 'sw.js';
 const ROOT_FILES = ['index.html', 'manifest.webmanifest'];
@@ -58,10 +62,16 @@ export function siteFiles(root = '.') {
 
 const hashOf = (buf) => crypto.createHash('sha256').update(buf).digest('hex').slice(0, 16);
 
+/** A file as it will be served: stylesheets minified when `minify` is on. */
+export function contentOf(f, root = '.', minify = false) {
+  const buf = fs.readFileSync(path.join(root, f));
+  return minify && f.endsWith('.css') ? Buffer.from(minifyCss(buf.toString('utf8'))) : buf;
+}
+
 /** [[path, hash], ...] and a version that changes when any file does. */
-export function buildList(root = '.') {
+export function buildList(root = '.', minify = false) {
   const files = siteFiles(root).map((f) => {
-    const buf = fs.readFileSync(path.join(root, f));
+    const buf = contentOf(f, root, minify);
     return { path: f, hash: hashOf(buf), size: buf.length };
   });
   /* The worker's own code counts too: a fix to sw.js alone has to reach
@@ -85,6 +95,7 @@ function main() {
   const outAt = args.indexOf('--out');
   const out = outAt === -1 ? null : args[outAt + 1];
   const stampInPlace = args.includes('--stamp');
+  const minify = args.includes('--minify');
 
   if (!fs.existsSync(SW)) err(`${SW} is missing, so the site cannot work offline`);
   const source = fs.existsSync(SW) ? fs.readFileSync(SW, 'utf8') : '';
@@ -95,7 +106,7 @@ function main() {
     if (n !== 1) err(`${SW}: expected "${line}" once, found it ${n} times`);
   }
 
-  const list = buildList('.');
+  const list = buildList('.', minify);
   /* The worker is a plain script, not a module, and a syntax error in it
      fails silently: no offline copy, no message. Parse it, stamped too. */
   for (const [what, code] of [['as written', source], ['stamped', stampWorker(source, list)]]) {
@@ -116,18 +127,22 @@ function main() {
     if (!listed.has(ref)) err(`index.html loads ${ref}, which is not in the offline copy`);
   }
 
-  if (!errors.length && stampInPlace) fs.writeFileSync(SW, stampWorker(source, list));
+  if (!errors.length && stampInPlace) {
+    /* Netlify's own copy only: the stylesheets as they are hashed. */
+    if (minify) for (const f of list.files) if (f.path.endsWith('.css')) fs.writeFileSync(f.path, contentOf(f.path, '.', true));
+    fs.writeFileSync(SW, stampWorker(source, list));
+  }
   if (!errors.length && out) {
     fs.rmSync(out, { recursive: true, force: true });
     for (const f of list.files) {
       fs.mkdirSync(path.join(out, path.dirname(f.path)), { recursive: true });
-      fs.copyFileSync(f.path, path.join(out, f.path));
+      fs.writeFileSync(path.join(out, f.path), contentOf(f.path, '.', minify));
     }
     fs.writeFileSync(path.join(out, SW), stampWorker(source, list));
   }
 
   console.log(`${list.files.length} files, ${mb.toFixed(1)}MB, version ${list.version}`
-    + (stampInPlace ? `; ${SW} stamped` : '') + (out ? `; copied to ${out}/` : ''));
+    + (minify ? '; CSS minified' : '') + (stampInPlace ? `; ${SW} stamped` : '') + (out ? `; copied to ${out}/` : ''));
   if (warnings.length) {
     console.log(`\nwarnings (${warnings.length}):`);
     warnings.forEach((m) => console.log(`  ! ${m}`));

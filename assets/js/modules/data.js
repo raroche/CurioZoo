@@ -13,8 +13,8 @@ const BASE = 'data/';
 const cache = new Map();      // categoryId -> category object
 let manifestPromise = null;
 
-async function getJSON(path) {
-  const res = await fetch(path, { cache: 'no-cache' });
+async function getJSON(path, cache = 'no-cache') {
+  const res = await fetch(path, { cache });
   if (!res.ok) throw new Error(`Could not load ${path} (HTTP ${res.status})`);
   return res.json();
 }
@@ -22,7 +22,10 @@ async function getJSON(path) {
 /** Load and cache data/manifest.json. */
 export function loadManifest() {
   if (!manifestPromise) {
-    manifestPromise = getJSON(`${BASE}manifest.json`).catch((err) => {
+    /* The default cache mode, so it picks up index.html's <link rel=preload>
+       (a request with another mode does not match it and fetches twice).
+       The server already says no-cache for /data/, so it is still checked. */
+    manifestPromise = getJSON(`${BASE}manifest.json`, 'default').catch((err) => {
       manifestPromise = null;               // let a later attempt retry
       throw err;
     });

@@ -34,6 +34,52 @@
   const results = [];
   const check = (name, ok, detail = '') => results.push({ name, ok, detail });
 
+  /* The deploy serves the stylesheets minified (tools/minify.mjs). Node has
+     no CSS parser, so the proof that minifying changes nothing is here, in a
+     real browser: every stylesheet is parsed both ways and the rules compared
+     one by one. Only whitespace after a comma inside an unparsed value (a
+     var() fallback, which the browser keeps as written) may differ. */
+  {
+    const { minifyCss } = await import('/tools/minify.mjs');
+    const { REGISTRY, roomFile } = await import('/assets/js/rooms/registry.js');
+    const flat = (rules) => [...rules].flatMap((r) => (r.cssRules ? [r.cssText.split('{')[0].trim(), ...flat(r.cssRules)] : [r.cssText]));
+    const norm = (t) => t.replace(/\s*,\s*/g, ',').replace(/\(\s+/g, '(').replace(/\s+\)/g, ')');
+    const same = (a, b) => {
+      const x = new CSSStyleSheet(); x.replaceSync(a);
+      const y = new CSSStyleSheet(); y.replaceSync(b);
+      const A = flat(x.cssRules); const B = flat(y.cssRules);
+      if (A.length !== B.length) return `${A.length} rules, minified ${B.length}`;
+      const i = A.findIndex((r, k) => norm(r) !== norm(B[k]));
+      return i < 0 ? '' : `${A[i].slice(0, 80)} -> ${B[i].slice(0, 80)}`;
+    };
+    const sheets = [new URL('assets/css/design-system.css', location.href).href,
+      ...REGISTRY.filter((e) => e.css).map((e) => roomFile(e.css))];
+    for (const url of sheets) {
+      const src = await (await fetch(url)).text();
+      const diff = same(src, minifyCss(src));
+      check(`minified CSS means the same: ${url.split('/').slice(-2).join('/')}`, !diff, diff);
+    }
+    for (const css of ['.a/**/.b{color:red}', '.a /**/ .b{color:red}', 'a{b:red/**/blue}', 'a{width:calc(100% - 2px)}',
+      '.a :hover{x:1}', 'a::before{content:"/* x */ ; }"}', '@media (min-width:600px) and (hover:hover){a{b:c}}']) {
+      const diff = same(css, minifyCss(css));
+      check(`minifier keeps the meaning of ${css}`, !diff, diff);
+    }
+  }
+  /* The first-visit note: "failed" is an install's last word. A late
+     "saving" from the same install must not bring the note back. */
+  if ('serviceWorker' in navigator) {
+    const { isSaving } = await import('/assets/js/offline.js');
+    const note = document.getElementById('cz-offline-note');
+    const say = (data) => navigator.serviceWorker.dispatchEvent(new MessageEvent('message', { data: { install: 'smoke-test', ...data } }));
+    say({ type: 'curiozoo-saving', done: 1, total: 10 });
+    check('offline note: shows while saving', !note.hidden && isSaving());
+    check('offline note: a screen reader hears it', document.getElementById('cz-offline-live').textContent.length > 0);
+    say({ type: 'curiozoo-save-failed' });
+    say({ type: 'curiozoo-saving', done: 5, total: 10 });
+    check('offline note: a late "saving" after "failed" is ignored', note.hidden && !isSaving());
+  }
+
+
   const GAMES = [
     { id: 'flags', setupScreen: 'screen-flagsetup',    start: '[data-action="flag-start"]',  answer: '[data-flagpick]',
       screen: '#screen-flaggame', next: '[data-action="flag-next"]', setup: [] },
@@ -269,9 +315,8 @@
     await wait(1500);
     const board = document.querySelector('.cz-cb');
     check('chess: the lesson board is drawn', !!board && vis(board));
-    check('chess: the board has pieces on it',
-      document.querySelectorAll('.cz-cb__piece').length > 0,
-      `${document.querySelectorAll('.cz-cb__piece').length} pieces`);
+    /* "The Board" is taught on an empty board on purpose (every square has
+       a name), so pieces are checked in the game below, not here. */
     check('chess: every square is reachable without a mouse',
       document.querySelectorAll('.cz-cb__grid [data-sq]').length === 64);
     check('chess: the grid is one tab stop, not sixty-four',
@@ -279,9 +324,11 @@
     const next = document.querySelector('[data-action="chess-next"]');
     check('chess: the lesson can be stepped through', !!next && vis(next));
     if (next) {
+      const stepText = () => (document.querySelector('#screen-chesslesson') || document.body).innerText;
+      const before = stepText();
       next.click();
       await wait(600);
-      check('chess: stepping on redraws the board', document.querySelectorAll('.cz-cb__piece').length > 0);
+      check('chess: stepping on shows the next step', stepText() !== before);
     }
 
     /* Playing: the setup card, then a real game with a bot that answers. */
@@ -295,6 +342,8 @@
       start.click();
       await wait(1200);
       check('chess: the game board is drawn', vis(document.querySelector('.cz-cb')));
+      check('chess: the game board has pieces on it', document.querySelectorAll('.cz-cb__piece').length > 0,
+        `${document.querySelectorAll('.cz-cb__piece').length} pieces`);
       const grid = document.querySelector('.cz-cb__grid');
       if (grid) {
         grid.querySelector('[data-sq="e2"]')?.click();

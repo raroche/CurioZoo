@@ -19,7 +19,7 @@ import { GAMES, LEVEL_AGES, gameById } from '../../modules/logictext.js';
 import { gameArt, star } from '../../modules/zooart.js';
 import { today } from '../../modules/logicrng.js';
 import { celebrate } from '../../modules/celebrate.js';
-import { $, $$, paint, react, showError, showScreen } from '../../modules/shell.js';
+import { $, $$, paint, react, savingOffline, showError, showScreen, whileLoading } from '../../modules/shell.js';
 import { backLink, esc, flipLang, lang, rec, save, say, stars, t, tools, winCard } from './frame.js';
 import { makeDaily } from './daily.js';
 
@@ -77,7 +77,7 @@ export async function renderLogic(parts) {
   const n = ticket();
   let mod;
   try {
-    mod = await loadGame(game);
+    mod = await whileLoading(loadGame(game), loadingWords, () => !stale(n));
   } catch (err) {
     console.error(err);
     loaded.delete(game);
@@ -96,12 +96,15 @@ export async function renderLogic(parts) {
   await drawPuzzle(mod, a, Number(b));
 }
 
+/* What the loading screen says while a game or its puzzles arrive. */
+const loadingWords = () => ({ title: t('loadingTitle'), text: t(savingOffline() ? 'loadingSaving' : 'loadingText'), lang: lang() });
+
 /** Load a level's bank for draw `n`, or show the error screen; null if
     it failed or a newer draw has started meanwhile. */
 async function bankOf(mod, level, n) {
   const here = location.hash;
   try {
-    const bank = await mod.bank(level);
+    const bank = await whileLoading(mod.bank(level), loadingWords, () => !stale(n));
     return location.hash === here && !stale(n) ? bank : null;
   } catch (err) {
     console.error(err);

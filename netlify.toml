@@ -9,8 +9,10 @@
   # question used to be able to reach production; now the deploy fails first.
   #
   # Then the offline copy is stamped: sw.js learns this deploy's version and
-  # the hash of every file. Only Netlify's copy is changed; see tools/offline.mjs.
-  command = "npm run verify && node tools/offline.mjs --stamp"
+  # the hash of every file. The stylesheets are minified first (about half the
+  # size: the page waits for design-system.css before it draws anything). Only
+  # Netlify's copy is changed; see tools/offline.mjs and tools/minify.mjs.
+  command = "npm run verify && node tools/offline.mjs --minify --stamp"
 
 [build.environment]
   NODE_VERSION = "22"
