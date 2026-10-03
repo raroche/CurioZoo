@@ -217,7 +217,11 @@ function paintBoard() {
   const L = L0();
   const { ch, p } = play;
   let body = '';
-  const ask = `<p class="cz-code-ask">${esc(ct(`ask.${p.mode}`, L))}</p>`;
+  /* The goal, and for the modes where a code is typed in, how: a daily or
+     endless puzzle skips the chapter's teaching puzzles. */
+  const how = p.mode === 'could' ? ''
+    : `<p class="cz-rule-help">${esc(ct('howEnter', L, { button: p.mode === 'free' ? ct('guess', L) : t('check') }))}</p>`;
+  const ask = `<p class="cz-code-ask">${esc(ct(`ask.${p.mode}`, L))}</p>${how}`;
   if (p.mode === 'clue') {
     body = `${legend(ch, L)}
       <ol class="cz-code-clues">${play.clues.map((c, i) => clueRow(ch, c, i, L)).join('')}</ol>

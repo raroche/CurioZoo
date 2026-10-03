@@ -196,6 +196,10 @@ function islander(i, L) {
   </li>`;
 }
 
+/* "Sun or Moon", "Sol, Luna o Nube". */
+const orList = (words, L) => (words.length < 2 ? words.join('')
+  : `${words.slice(0, -1).join(', ')} ${L === 'es' ? 'o' : 'or'} ${words[words.length - 1]}`);
+
 function paintBoard() {
   const L = lang();
   const { p, ch } = play;
@@ -212,6 +216,7 @@ function paintBoard() {
     <p class="cz-code-ask">${esc(tt(p.cloud ? 'askCloud' : 'ask', L))}</p>
     <p class="cz-truth-rules">${token('sun', 20)}${token('moon', 20)}${p.cloud ? token('cloud', 20) : ''}
       <span>${esc(tt('rules', L))}${p.cloud ? ` ${esc(tt('rulesCloud', L))}` : ''}</span></p>
+    ${play.done ? '' : `<p class="cz-rule-help">${esc(tt('how', L, { kinds: orList(kinds().map((k) => kindName(k, L)), L), button: t('check') }))}</p>`}
     ${p.scene.c ? sceneHtml(p, L) : ''}
     <ul class="cz-truth-isle">${p.cast.map((_, i) => islander(i, L)).join('')}</ul>
     ${play.pencil ? `<p class="cz-truth-pencilhelp">✏️ ${esc(tt('pencilHelp', L))}</p>` : ''}

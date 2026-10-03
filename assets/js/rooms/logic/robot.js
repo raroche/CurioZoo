@@ -57,6 +57,7 @@ function paintBoard() {
   b.locked = play.done || Boolean(b.runner && b.runner.timer);
   RB.renderInto(play.host, `<div class="cz-rb" lang="${L}">
     <p class="cz-code-ask">${esc(rb(b.level.abs ? 'askAbs' : 'askRel', L))}</p>
+    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}</p>`}
     ${RB.boardSvg(b, L)}
     ${play.done ? '' : RB.runBar(b, L)}
     ${RB.editorHtml(b, L)}
