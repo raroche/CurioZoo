@@ -465,7 +465,8 @@ function drawDailyPlay() {
       let after = P.setDaily(rec(), v.mod.id, v.level, v.iso, got);
       after = P.markDay(after, today());
       save(after);
-      v.win = { got, best: P.dailyStars(after, v.mod.id, v.level, v.iso), why, next: null };
+      /* Today's puzzle is one a day; endless practice is the way on. */
+      v.win = { got, best: P.dailyStars(after, v.mod.id, v.level, v.iso), why, next: { href: `#/logic/${v.mod.id}/endless`, labelKey: 'dailyMore' } };
       showWin([esc(t('dailyDone'))]);
     }
   });

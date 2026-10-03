@@ -71,7 +71,8 @@ function ended() {
   const { b } = play;
   const res = RB.finish(b);
   if (res.ok) { win(); return; }
-  play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(rb(V.programSize(b.prog) ? `why.${res.why}` : 'why.empty', L))}</p>`;
+  const prog = V.clone(b.prog);
+  play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(RB.failWords(b.level, prog, res, L))}</p>`;
   react('oops', 1500);
   paintBoard();
 }

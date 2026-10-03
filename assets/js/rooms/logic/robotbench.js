@@ -18,7 +18,7 @@
  */
 
 import * as V from '../../modules/robotvm.js';
-import { animalById } from '../../modules/zooart.js';
+import { animalById, theAnimal } from '../../modules/zooart.js';
 import { OP_ICON, rb } from '../../modules/robottext.js';
 import { hash } from '../../modules/logicrng.js';
 import { esc } from './frame.js';
@@ -364,6 +364,22 @@ export function benchClick(b, ev) {
 /* Running                                                             */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Why a run went wrong, in words. The commonest slip -- walking onto an
+ * animal and never feeding it -- names the animal and says what Feed does,
+ * because "some animals are still hungry" alone left a parent stuck.
+ */
+export function failWords(level, prog, res, L) {
+  if (!V.programSize(prog)) return rb('why.empty', L);
+  if (res.why === 'unfed') {
+    const last = res.events[res.events.length - 1];
+    const fed = new Set(res.events.filter((e) => e.k === 'feed').map((e) => e.animal));
+    const i = last ? level.animals.findIndex(([x, y], k) => x === last.x && y === last.y && !fed.has(k)) : -1;
+    if (i >= 0) return rb('why.onAnimal', L, { animal: theAnimal(animalById(level.animals[i][2]), L) });
+  }
+  return rb(`why.${res.why}`, L);
+}
+
 /* Events a child sees as a step; the rest (entering a call, a loop's next
    turn) still light their tile but go by without a pause of their own. */
 const VISIBLE = new Set(['move', 'turn', 'feed', 'bump', 'nothing', 'skip']);
@@ -404,4 +420,4 @@ export function stopRun(b) {
   b.bug = null;
 }
 
-export default { robotBank, renderInto, makeBench, rowSize, benchSize, boardWords, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };
+export default { robotBank, failWords, renderInto, makeBench, rowSize, benchSize, boardWords, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };

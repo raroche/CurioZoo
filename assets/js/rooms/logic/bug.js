@@ -101,7 +101,9 @@ function paintBoard() {
     ${RB.editorHtml(b, L, { palette: mode === 'fix' })}
     ${extra}
     ${play.done ? '' : `<div class="cz-code-actions"><button type="button" class="gp-btn gp-btn--ghost" data-action="bug-hint">
-      <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button></div>`}
+      <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button>
+      ${mode === 'fix' ? `<button type="button" class="gp-btn gp-btn--ghost" data-action="bug-restart">
+      <span aria-hidden="true">⟲</span> ${esc(rb('bug.restart', L))}</button>` : ''}</div>`}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : ''}</div>
   </div>`);
   /* The tile picked to swap (order) and the tiles being tapped (find) are
@@ -143,7 +145,8 @@ function runIt() {
   play.msg = null;
   animate((res) => {
     if (res.ok) { win(); return; }
-    play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(rb(`why.${res.why}`, L))}</p>`;
+    const prog = V.clone(play.b.prog);
+    play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(RB.failWords(play.p, prog, res, L))}</p>`;
     react('oops', 1400);
     paintBoard();
   });
@@ -155,7 +158,8 @@ function stepIt() {
   if (RB.advance(b)) {
     const res = RB.finish(b);
     if (res.ok && play.mode === 'fix') { play.runs += 1; win(); return; }
-    play.msg = (L) => `<p class="cz-code-say ${res.ok ? 'is-right' : 'is-wrong'}">${esc(res.ok ? rb('right', L) : rb(`why.${res.why}`, L))}</p>`;
+    const prog = V.clone(b.prog);
+    play.msg = (L) => `<p class="cz-code-say ${res.ok ? 'is-right' : 'is-wrong'}">${esc(res.ok ? rb('right', L) : RB.failWords(play.p, prog, res, L))}</p>`;
   }
   paintBoard();
 }
@@ -288,6 +292,18 @@ function click(ev) {
   const action = q('[data-action]');
   const name = action ? action.dataset.action : '';
   if (name === 'bug-hint') { hint(); return true; }
+  if (name === 'bug-restart' && mode === 'fix') {
+    /* Back to the program as it came, bug and all: a child who rewrote the
+       whole row can always start again. Undo can still bring their work back. */
+    RB.stopRun(b);
+    b.undo.push(JSON.stringify(b.prog));
+    b.prog = V.clone(play.p.prog);
+    b.caret = { path: ['main'], index: b.prog.main.length };
+    b.sel = null;
+    play.msg = null;
+    paintBoard();
+    return true;
+  }
   if (name === 'rb-run') { runIt(); return true; }
   if (name === 'rb-step') { stepIt(); return true; }
   if (name === 'rb-reset') { RB.stopRun(b); play.msg = null; paintBoard(); return true; }
@@ -306,7 +322,9 @@ function click(ev) {
   const out = RB.benchClick(b, ev);
   if (!out) return false;
   if (JSON.stringify(b.prog) !== before) { play.edits += 1; RB.stopRun(b); }
-  play.msg = typeof out === 'string' ? (L) => `<p class="cz-code-say is-wrong">${esc(rb(out, L))}</p>` : null;
+  /* A full row in Fix the Bug means the child is adding, not fixing: say so. */
+  const said = out === 'rowFull' ? 'bug.rowFull' : out;
+  play.msg = typeof out === 'string' ? (L) => `<p class="cz-code-say is-wrong">${esc(rb(said, L))}</p>` : null;
   paintBoard();
   return true;
 }
