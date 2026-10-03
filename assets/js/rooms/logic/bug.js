@@ -322,7 +322,8 @@ function click(ev) {
   const out = RB.benchClick(b, ev);
   if (!out) return false;
   if (JSON.stringify(b.prog) !== before) { play.edits += 1; RB.stopRun(b); }
-  /* A full row in Fix the Bug means the child is adding, not fixing: say so. */
+  /* A full row in Fix the Bug: say how to make room, or how to start over
+     (a fix may need a tile added, so adding is not ruled out). */
   const said = out === 'rowFull' ? 'bug.rowFull' : out;
   play.msg = typeof out === 'string' ? (L) => `<p class="cz-code-say is-wrong">${esc(rb(said, L))}</p>` : null;
   paintBoard();
