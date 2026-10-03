@@ -434,7 +434,9 @@ async function drawDaily(mod, endless = null) {
   paintChrome();
   paint();
   showScreen('logicplay');
-  await new Promise((r) => requestAnimationFrame(() => setTimeout(r, 0)));
+  /* One frame for the message to paint; a hidden tab has no frames, so a
+     short timer goes on without one. */
+  await new Promise((r) => { requestAnimationFrame(() => setTimeout(r, 0)); setTimeout(r, 60); });
   if (location.hash !== here || stale(n)) return;
   /* Fix the Bug reads the robot levels first, so this may wait. A seed that
      makes nothing moves on to the next seed, and then to the bank, so this
@@ -468,7 +470,8 @@ function drawDailyPlay() {
       let after = P.setDaily(rec(), v.mod.id, v.level, v.iso, got);
       after = P.markDay(after, today());
       save(after);
-      v.win = { got, best: P.dailyStars(after, v.mod.id, v.level, v.iso), why, next: null };
+      /* Today's puzzle is one a day; endless practice is the way on. */
+      v.win = { got, best: P.dailyStars(after, v.mod.id, v.level, v.iso), why, next: { href: `#/logic/${v.mod.id}/endless`, labelKey: 'dailyMore' } };
       showWin([esc(t('dailyDone'))]);
     }
   });

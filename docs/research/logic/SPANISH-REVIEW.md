@@ -25,6 +25,9 @@ the list, with the choices most worth a second opinion first.
 | `robottext.js` | **"Poner las siguientes fichas en si no"** (the Else button) | Added after review | Clear to a child? |
 | `bridgestext.js` | **"la isla del león (C4)"** and "Cada isla tiene una letra y un número, como C4: su columna y su fila." | Added after review | Clear? |
 | `logictext.js` | **"Preparando tu acertijo…"** | Added after review | |
+| `robottext.js` | Fix the Bug goal line **"Meta: el robot debe dar de comer a todos los animales 🥕… una ficha está mal, falta o sobra"**, **"Empezar de nuevo"**, and **"El robot llegó hasta la jirafa, pero no le dio de comer…"** | Added after a parent playtest | Clear to a 6-year-old? |
+| `robottext.js`, `truthtext.js`, `codetext.js` | The how-to lines: **"Toca las fichas de abajo para hacer un programa…"**, **"Toca el ? debajo de cada animal para elegir Sol o Luna…"**, **"Toca los botones bajo tu código para llenarlo…"** | Added after a parent playtest | Natural? |
+| `logictext.js` | **"Más acertijos como este"** | Added after a parent playtest | |
 
 ## Files to read in full
 

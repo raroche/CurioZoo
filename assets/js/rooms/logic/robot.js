@@ -57,6 +57,7 @@ function paintBoard() {
   b.locked = play.done || Boolean(b.runner && b.runner.timer);
   RB.renderInto(play.host, `<div class="cz-rb" lang="${L}">
     <p class="cz-code-ask">${esc(rb(b.level.abs ? 'askAbs' : 'askRel', L))}</p>
+    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}</p>`}
     ${RB.boardSvg(b, L)}
     ${play.done ? '' : RB.runBar(b, L)}
     ${RB.editorHtml(b, L)}
@@ -71,7 +72,8 @@ function ended() {
   const { b } = play;
   const res = RB.finish(b);
   if (res.ok) { win(); return; }
-  play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(rb(V.programSize(b.prog) ? `why.${res.why}` : 'why.empty', L))}</p>`;
+  const prog = V.clone(b.prog);
+  play.msg = (L) => `<p class="cz-code-say is-wrong">🐞 ${esc(RB.failWords(b.level, prog, res, L))}</p>`;
   react('oops', 1500);
   paintBoard();
 }
