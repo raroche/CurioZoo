@@ -431,7 +431,9 @@ async function drawDaily(mod, endless = null) {
   paintChrome();
   paint();
   showScreen('logicplay');
-  await new Promise((r) => requestAnimationFrame(() => setTimeout(r, 0)));
+  /* One frame for the message to paint; a hidden tab has no frames, so a
+     short timer goes on without one. */
+  await new Promise((r) => { requestAnimationFrame(() => setTimeout(r, 0)); setTimeout(r, 60); });
   if (location.hash !== here || stale(n)) return;
   /* Fix the Bug reads the robot levels first, so this may wait. A seed that
      makes nothing moves on to the next seed, and then to the bank, so this
