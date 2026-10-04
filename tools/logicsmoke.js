@@ -228,6 +228,12 @@
     check('Zoo Bridges: Check names separate groups when every island is ticked',
       /split into 2 parts/.test(document.querySelector('.cz-code-say')?.textContent || '')
       && document.querySelectorAll('.cz-br-island.is-apart').length === 6);
+    /* D7-D10 would cross the bridge on row 9, so the tap is refused; the
+       rings must still go with Check's message. */
+    document.querySelector(`[data-br-edge="${routeId('D7', 'D10')}"]`).dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    await wait(100);
+    check('Zoo Bridges: a refused tap still clears the cut-off rings',
+      !document.querySelector('.cz-br-island.is-apart') && /cross/i.test(document.querySelector('.cz-code-say')?.textContent || ''));
 
     /* -------------------------------------------------------------- */
     /* Reduced motion: no ride, the result at once                     */

@@ -220,6 +220,9 @@ function setEdge(k, v) {
 
 function tap(k) {
   if (play.done) return;
+  /* Any tap replaces Check's message, so the rings that went with it go too,
+     even when the tap is refused for crossing a bridge. */
+  play.apart = new Set();
   const max = Math.min(play.maxb, 2);
   const next = (play.vals[k] + 1) % (max + 1);
   if (play.vals[k] === 0 && next > 0 && play.G.cross[k].some((j) => play.vals[j] > 0)) {
