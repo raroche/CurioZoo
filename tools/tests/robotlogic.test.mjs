@@ -9,6 +9,7 @@ import * as V from '../../assets/js/modules/robotvm.js';
 import * as G from '../../assets/js/modules/robotgen.js';
 import { ROBOT_TEXT } from '../../assets/js/modules/robottext.js';
 import { checkRobotBank, checkParity } from '../logiccheck.mjs';
+import { countKey, rowFullKey } from '../../assets/js/rooms/logic/robotbench.js';
 
 /* A corridor: start at the left facing right, one animal at the far end. */
 const corridor = {
@@ -106,4 +107,22 @@ describe('the shipped bank', () => {
       assert.deepEqual(checkRobotBank(bank), []);
     });
   }
+});
+
+describe('what a full row says', () => {
+  test('every level is told only about tiles it has', () => {
+    for (const level of ['easy', 'medium', 'hard']) {
+      const bank = JSON.parse(fs.readFileSync(`data/logic/robot/${level}.json`, 'utf8'));
+      for (const c of bank.chapters) {
+        const pal = c.puzzles[0].palette;
+        for (const key of [rowFullKey(pal), countKey(pal)].filter(Boolean)) {
+          const text = ROBOT_TEXT.en[key];
+          assert.ok(text, key);
+          if (/Repeat/.test(text)) assert.ok(pal.includes('rep'), `${c.id}: ${key} names Repeat`);
+          if (/Until/.test(text)) assert.ok(pal.includes('until'), `${c.id}: ${key} names Until`);
+          if (/helper|Ⓐ/.test(text)) assert.ok(pal.includes('h1'), `${c.id}: ${key} names a helper`);
+        }
+      }
+    }
+  });
 });

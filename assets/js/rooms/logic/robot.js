@@ -58,7 +58,7 @@ function paintBoard() {
   b.locked = play.done || Boolean(b.runner && b.runner.timer);
   RB.renderInto(play.host, `<div class="cz-rb" lang="${L}">
     <p class="cz-code-ask">${esc(rb(b.level.abs ? 'askAbs' : 'askRel', L))}</p>
-    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}${b.level.palette.includes('rep') ? ` ${esc(rb('howCount', L))}` : ''}${b.level.palette.includes('h1') ? ` ${esc(rb('howHelper', L))}` : ''}</p>`}
+    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}${RB.countKey(b.level.palette) ? ` ${esc(rb(RB.countKey(b.level.palette), L))}` : ''}${b.level.palette.includes('h1') ? ` ${esc(rb('howHelper', L))}` : ''}</p>`}
     ${RB.boardSvg(b, L)}
     ${play.done ? '' : RB.runBar(b, L)}
     ${RB.editorHtml(b, L)}
@@ -215,14 +215,8 @@ function click(ev) {
   return true;
 }
 
-/* A full row says what this level offers to make room: a Repeat (which
-   can hold several tiles), a helper, or neither. */
-function fullWord(key) {
-  if (key !== 'rowFull') return key;
-  const pal = play.b.level.palette;
-  if (pal.includes('h1')) return 'rowFullHelper';
-  return pal.includes('rep') || pal.includes('until') ? 'rowFull' : 'rowFullPlain';
-}
+/* A full row says what this level offers to make room (robotbench.js). */
+const fullWord = (key) => (key === 'rowFull' ? RB.rowFullKey(play.b.level.palette) : key);
 
 function key(ev) {
   if (!play || play.done) return false;
