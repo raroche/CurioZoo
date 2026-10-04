@@ -21,6 +21,7 @@ the list, with the choices most worth a second opinion first.
 | `robottext.js` | **"Gira a la izquierda/derecha"**, **"Dar de comer"**, **"Ayudante A"** | Imperatives on tiles | Imperative or infinitive on a tile? |
 | `robottext.js` | **"Frasco de bichos"** for the bug jar | Playful | Does "bicho" carry an unwanted meaning anywhere? |
 | `logictext.js` | Badge names: **"Cachorro curioso" … "Genio del zoo"** | | Fun for 6–13? |
+| `bridgestext.js` | **"Cada isla tiene sus puentes, pero forman 2 grupos separados…"** and **"aislada del resto"** | Added after a parent playtest | Clear? |
 | `robottext.js` | Screen-reader board: **"El robot está en la columna 3, fila 2, mirando hacia la derecha."** | Added after review | Natural when read aloud? |
 | `robottext.js` | **"Poner las siguientes fichas en si no"** (the Else button) | Added after review | Clear to a child? |
 | `bridgestext.js` | **"la isla del león (C4)"** and "Cada isla tiene una letra y un número, como C4: su columna y su fila." | Added after review | Clear? |

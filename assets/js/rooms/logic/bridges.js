@@ -69,7 +69,7 @@ function draw(host, ctx) {
     x0: Math.min(...p.isl.map((i) => i.x)), y0: Math.min(...p.isl.map((i) => i.y)),
     animal: p.isl.map((_, i) => ANIMALS[(start + i) % ANIMALS.length]),
     vals: G.edges.map(() => 0), undo: [],
-    hints: 0, reveals: 0, hint: null, msg: null, done: false, shake: -1, show: new Set()
+    hints: 0, reveals: 0, hint: null, msg: null, done: false, shake: -1, show: new Set(), apart: new Set()
   };
   paintBoard();
 }
@@ -128,8 +128,9 @@ function islandSvg(i, L) {
   }).join('');
   const badge = over ? `<text class="cz-br-badge is-over" x="${cx + 17}" y="${cy - 13}">!</text>`
     : full ? `<text class="cz-br-visitor" x="${cx + 19}" y="${cy - 12}">${play.animal[i].emoji}</text>` : '';
-  return `<g class="cz-br-island${full ? ' is-full' : ''}${over ? ' is-over' : ''}${hint}" role="img"
-      aria-label="${esc(bt('islandLabel', L, { I: name(i, L, true), n: isl.n, k }))}">
+  const apart = play.apart.has(i);
+  return `<g class="cz-br-island${full ? ' is-full' : ''}${over ? ' is-over' : ''}${apart ? ' is-apart' : ''}${hint}" role="img"
+      aria-label="${esc(bt('islandLabel', L, { I: name(i, L, true), n: isl.n, k }))}${apart ? `, ${esc(bt('apart', L))}` : ''}">
     ${dots}
     <circle class="cz-br-disc" cx="${cx}" cy="${cy}" r="20"/>
     <text class="cz-br-n" x="${cx}" y="${cy + 1}">${isl.n}</text>
@@ -214,6 +215,7 @@ function setEdge(k, v) {
   play.undo.push([k, play.vals[k]]);
   play.vals[k] = v;
   play.show.delete(k);
+  play.apart = new Set();
 }
 
 function tap(k) {
@@ -311,8 +313,20 @@ function hint() {
 function check() {
   const wrong = play.G.edges.map((_, k) => k).filter((k) => play.vals[k] > play.sol[k]);
   play.pendingShow = wrong;
+  /* Every island ticked but not one zoo: "2 bridges do not belong" alone
+     left a parent sure the board was right. Name the rule that is broken,
+     and mark the islands cut off from the biggest group. */
+  const { p, G } = play;
+  const ticked = p.isl.every((isl, i) => countAt(i) === isl.n);
+  const g = B.groups(p, G, play.vals);
+  const sizes = new Map();
+  g.forEach((r) => sizes.set(r, (sizes.get(r) || 0) + 1));
+  const main = [...sizes].sort((a, b) => b[1] - a[1])[0][0];
+  play.apart = ticked && sizes.size > 1 ? new Set(p.isl.map((_, i) => i).filter((i) => g[i] !== main)) : new Set();
+  const nGroups = sizes.size;
   play.msg = (L) => (wrong.length
-    ? `<p class="cz-code-say is-wrong">${esc(wrong.length === 1 ? bt('checkBad1', L) : bt('checkBadN', L, { n: wrong.length }))}
+    ? `<p class="cz-code-say is-wrong">${esc(play.apart.size ? bt('checkGroups', L, { n: nGroups })
+      : wrong.length === 1 ? bt('checkBad1', L) : bt('checkBadN', L, { n: wrong.length }))}
        <button type="button" class="gp-btn gp-btn--ghost" data-action="br-show">${esc(bt('showMe', L))}</button></p>`
     : `<p class="cz-code-say is-right">${esc(bt('checkOk', L))}</p>`);
   paintBoard();
@@ -370,6 +384,7 @@ function click(ev) {
     case 'br-undo': {
       const last = play.undo.pop();
       if (last) play.vals[last[0]] = last[1];
+      play.apart = new Set();
       play.msg = null;
       paintBoard();
       return true;
@@ -378,6 +393,7 @@ function click(ev) {
       play.vals = play.vals.map(() => 0);
       play.undo = [];
       play.show = new Set();
+      play.apart = new Set();
       play.msg = null;
       play.hint = null;
       paintBoard();
@@ -404,7 +420,7 @@ function key(ev) {
   }
   if ((ev.key === 'z' || ev.key === 'Z') && !ev.metaKey && !ev.ctrlKey) {
     const last = play.undo.pop();
-    if (last) { play.vals[last[0]] = last[1]; paintBoard(); }
+    if (last) { play.vals[last[0]] = last[1]; play.apart = new Set(); paintBoard(); }
     return true;
   }
   return false;
