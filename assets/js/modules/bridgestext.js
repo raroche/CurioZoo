@@ -12,7 +12,7 @@ import { lookup } from './logictext.js';
 export const BRIDGES_TEXT = {
   en: {
     ask: 'Join the islands with bridges. Each island shows how many bridges it needs.',
-    rules: 'Bridges go straight across or straight down, at most two between two islands, and they never cross. In the end every island must be joined to all the others.',
+    rules: 'Bridges go straight across or straight down, at most two between two islands, and they never cross. In the end you must be able to walk from any island to every other island.',
     tapHelp: 'Tap the water between two islands to build a bridge. Tap again for two, and again to take them away.',
     islandLabel: '{I}: needs {n}, has {k}',
     route: 'Route between {I} and {J}: {k} bridges',
@@ -24,7 +24,7 @@ export const BRIDGES_TEXT = {
     checkOk: 'Every bridge so far is right.',
     checkBad1: '1 bridge does not belong.',
     checkBadN: '{n} bridges do not belong.',
-    checkGroups: 'Every island has its bridges, but they make {n} separate groups. All the islands must be joined into one, so some bridges have to go somewhere else. The dashed islands are cut off from the rest.',
+    checkGroups: 'Almost! Every island has the right number of bridges, but the zoo is split into {n} parts that do not touch. The islands with a dashed ring cannot reach the rest. Move some bridges so you can walk from any island to every other island.',
     apart: 'cut off from the rest',
     showMe: 'Show me',
     undo: 'Undo',
@@ -102,7 +102,7 @@ export const BRIDGES_TEXT = {
   },
   es: {
     ask: 'Une las islas con puentes. Cada isla muestra cuántos puentes necesita.',
-    rules: 'Los puentes van rectos, de lado o hacia abajo, como mucho dos entre dos islas, y nunca se cruzan. Al final todas las islas tienen que quedar unidas.',
+    rules: 'Los puentes van rectos, de lado o hacia abajo, como mucho dos entre dos islas, y nunca se cruzan. Al final tienes que poder caminar de cualquier isla a todas las demás.',
     tapHelp: 'Toca el agua entre dos islas para hacer un puente. Toca otra vez para hacer dos, y otra vez para quitarlos.',
     islandLabel: '{I}: necesita {n}, tiene {k}',
     route: 'Ruta entre {I} y {J}: {k} puentes',
@@ -114,7 +114,7 @@ export const BRIDGES_TEXT = {
     checkOk: 'Todos los puentes hasta ahora están bien.',
     checkBad1: '1 puente no va ahí.',
     checkBadN: '{n} puentes no van ahí.',
-    checkGroups: 'Cada isla tiene sus puentes, pero forman {n} grupos separados. Todas las islas deben quedar unidas en uno, así que algunos puentes tienen que ir a otro sitio. Las islas con borde de rayas están aisladas del resto.',
+    checkGroups: '¡Casi! Cada isla tiene el número correcto de puentes, pero el zoo está partido en {n} partes que no se tocan. Las islas con borde de rayas no llegan al resto. Mueve algunos puentes para poder caminar de cualquier isla a todas las demás.',
     apart: 'aislada del resto',
     showMe: 'Muéstramelos',
     undo: 'Deshacer',

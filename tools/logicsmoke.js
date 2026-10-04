@@ -226,7 +226,7 @@
     document.querySelector('[data-action="br-check"]').click();
     await wait(100);
     check('Zoo Bridges: Check names separate groups when every island is ticked',
-      /2 separate groups/.test(document.querySelector('.cz-code-say')?.textContent || '')
+      /split into 2 parts/.test(document.querySelector('.cz-code-say')?.textContent || '')
       && document.querySelectorAll('.cz-br-island.is-apart').length === 6);
 
     /* -------------------------------------------------------------- */
