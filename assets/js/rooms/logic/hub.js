@@ -462,7 +462,9 @@ function drawDailyPlay() {
     onSolved: ({ stars: got, why }) => {
       if (view !== v) return;
       if (v.endless) {
-        save(P.markDay(P.addEndless(rec(), v.mod.id, v.level), today()));
+        /* A replay of the same endless puzzle does not count it twice. */
+        if (!v.counted) save(P.markDay(P.addEndless(rec(), v.mod.id, v.level), today()));
+        v.counted = true;
         v.win = { got, best: got, why, next: { href: `#/logic/${v.mod.id}/endless/${v.endless + 1}`, labelKey: 'endlessNext' } };
         showWin([esc(t('endlessCount', { n: P.endlessCount(rec(), v.mod.id, v.level) }))]);
         return;
@@ -520,6 +522,14 @@ export function logicClick(ev) {
     return true;
   }
   const action = ev.target.closest('[data-action]');
+  if (action && action.dataset.action === 'logic-again' && view && (view.kind === 'play' || view.kind === 'daily')) {
+    /* The same puzzle from the start. Stars keep the best result, so a
+       replay can only add, never take away. */
+    leaveView();
+    view.win = null;
+    if (view.kind === 'play') drawPlay(); else drawDailyPlay();
+    return true;
+  }
   if (action && action.dataset.action === 'logic-lang') {
     flipLang();
     rerender();

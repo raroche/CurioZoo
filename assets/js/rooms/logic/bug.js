@@ -68,7 +68,7 @@ function draw(host, ctx) {
   const b = RB.makeBench({ ...p, slots }, p.prog);
   play = {
     host, ctx, p, b, mode: p.mode, runs: 0, edits: 0, slips: 0, hint: 0, msg: null, done: false,
-    found: false, swapFrom: null, picked: null
+    found: false, swapFrom: null, picked: null, shown: false, answerOpt: -1
   };
   paintBoard();
 }
@@ -90,7 +90,7 @@ function paintBoard() {
   let extra = '';
   if (mode === 'find' && play.found && !play.done) {
     extra = `<p class="cz-code-hint">💡 ${esc(rb('bug.find.pick', L))}</p><div class="cz-tr-chips">${p.options.map((o, i) =>
-      `<button type="button" class="gp-pill cz-bug-opt" data-bug-opt="${i}">${esc(optionLabel(o, L))}</button>`).join('')}</div>`;
+      `<button type="button" class="gp-pill cz-bug-opt${i === play.answerOpt ? ' is-answer' : ''}" data-bug-opt="${i}">${i === play.answerOpt ? '💡 ' : ''}${esc(optionLabel(o, L))}</button>`).join('')}</div>`;
   }
   const runBar = mode === 'fix' || mode === 'order' || (mode === 'find' && !play.found)
     ? (play.done ? '' : RB.runBar(b, L)) : '';
@@ -102,6 +102,8 @@ function paintBoard() {
     ${extra}
     ${play.done ? '' : `<div class="cz-code-actions"><button type="button" class="gp-btn gp-btn--ghost" data-action="bug-hint">
       <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button>
+      ${play.hint >= 2 ? `<button type="button" class="gp-btn gp-btn--ghost" data-action="bug-answer">
+      <span aria-hidden="true">💡</span> ${esc(rb('bug.answer', L))}</button>` : ''}
       ${mode === 'fix' ? `<button type="button" class="gp-btn gp-btn--ghost" data-action="bug-restart">
       <span aria-hidden="true">⟲</span> ${esc(rb('bug.restart', L))}</button>` : ''}</div>`}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : ''}</div>
@@ -167,7 +169,8 @@ function stepIt() {
 function win() {
   play.done = true;
   const { p, mode } = play;
-  const stars = BG.starsFor(mode, { runs: play.runs, edits: play.edits, slips: play.slips });
+  /* Hints are free; seeing the whole fix is one star, so trying first pays. */
+  const stars = play.shown ? 1 : BG.starsFor(mode, { runs: play.runs, edits: play.edits, slips: play.slips });
   play.msg = (L) => `<p class="cz-code-say is-right">✓ ${esc(mode === 'predict' ? rb('bug.predict.right', L) : rb('right', L))}</p>`;
   paintBoard();
   react('happy', 2000);
@@ -281,6 +284,41 @@ function hint() {
   paintBoard();
 }
 
+/**
+ * The answer, after two hints, in the way each kind of puzzle is answered:
+ * the fixed program to run (fix, order), the bug and its right tile marked
+ * (find), or the program run so the child sees where it stops (predict).
+ */
+function showAnswer() {
+  const { p, b, mode } = play;
+  if (b.runner && b.runner.timer) return;
+  play.shown = true;
+  if (mode === 'fix' || mode === 'order') {
+    RB.stopRun(b);
+    b.undo.push(JSON.stringify(b.prog));
+    b.prog = V.clone(p.ref);
+    b.caret = { path: ['main'], index: b.prog.main.length };
+    b.sel = null;
+    play.swapFrom = null;
+    play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb('bug.answerShown', L))}</p>`;
+  } else if (mode === 'find') {
+    const at = p.bug.at;
+    play.found = true;
+    b.bug = at;
+    play.answerOpt = p.options.findIndex((o) => {
+      const q = V.clone(b.prog);
+      V.listAt(q, at.slice(0, -1))[at[at.length - 1]] = o;
+      return V.run(p, q).ok;
+    });
+    play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb('bug.answerFind', L))}</p>`;
+  } else {
+    play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb('bug.answerPredict', L))}</p>`;
+    animate(() => paintBoard());
+    return;
+  }
+  paintBoard();
+}
+
 /* ------------------------------------------------------------------ */
 /* Clicks, keys, reading aloud                                         */
 /* ------------------------------------------------------------------ */
@@ -292,6 +330,7 @@ function click(ev) {
   const action = q('[data-action]');
   const name = action ? action.dataset.action : '';
   if (name === 'bug-hint') { hint(); return true; }
+  if (name === 'bug-answer') { showAnswer(); return true; }
   if (name === 'bug-restart' && mode === 'fix') {
     /* Back to the program as it came, bug and all: a child who rewrote the
        whole row can always start again. Undo can still bring their work back. */

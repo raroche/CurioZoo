@@ -635,3 +635,6 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 
 /* Shown while today's or an endless puzzle is being made. */
 .cz-logic-making { padding: var(--gp-space-6) 0; text-align: center; color: var(--gp-ink-muted); font-weight: 700; }
+
+/* Fix the Bug, after "Show the fix": the right replacement tile. */
+.cz-bug-opt.is-answer { outline: 3px dashed var(--gp-focus); outline-offset: 2px; }
