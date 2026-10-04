@@ -15,6 +15,7 @@ import * as G from '../../modules/robotgen.js';
 import * as V from '../../modules/robotvm.js';
 import * as P from '../../modules/logicprogress.js';
 import { KIND_WORD, rb } from '../../modules/robottext.js';
+import { animalById, theAnimal } from '../../modules/zooart.js';
 import { hash, rngFor } from '../../modules/logicrng.js';
 import { calm } from '../../modules/celebrate.js';
 import { paint, react } from '../../modules/shell.js';
@@ -47,7 +48,7 @@ function leave() {
 
 function draw(host, ctx) {
   if (play && play.b) RB.stopRun(play.b);
-  play = { host, ctx, b: RB.makeBench(ctx.puzzle), hint: 0, done: false, msg: null };
+  play = { host, ctx, b: RB.makeBench(ctx.puzzle), hint: 0, done: false, msg: null, shown: false };
   paintBoard();
 }
 
@@ -57,12 +58,14 @@ function paintBoard() {
   b.locked = play.done || Boolean(b.runner && b.runner.timer);
   RB.renderInto(play.host, `<div class="cz-rb" lang="${L}">
     <p class="cz-code-ask">${esc(rb(b.level.abs ? 'askAbs' : 'askRel', L))}</p>
-    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}</p>`}
+    ${play.done ? '' : `<p class="cz-rule-help">${esc(rb('howRobot', L, { m: b.level.slots.main }))}${RB.countKey(b.level.palette) ? ` ${esc(rb(RB.countKey(b.level.palette), L))}` : ''}${b.level.palette.includes('h1') ? ` ${esc(rb('howHelper', L))}` : ''}</p>`}
     ${RB.boardSvg(b, L)}
     ${play.done ? '' : RB.runBar(b, L)}
     ${RB.editorHtml(b, L)}
     ${play.done ? '' : `<div class="cz-code-actions"><button type="button" class="gp-btn gp-btn--ghost" data-action="rb-hint">
-      <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button></div>`}
+      <span aria-hidden="true">🔎</span> ${esc(play.hint ? t('hintMore') : t('hint'))}</button>
+      ${play.hint >= 2 ? `<button type="button" class="gp-btn gp-btn--ghost" data-action="rb-answer">
+      <span aria-hidden="true">💡</span> ${esc(rb('answer', L))}</button>` : ''}</div>`}
     <div class="cz-code-msg" aria-live="polite">${play.msg ? play.msg(L) : ''}</div>
   </div>`);
   paint();
@@ -113,7 +116,8 @@ function win() {
   const { b } = play;
   const lv = b.level;
   const mine = V.programSize(b.prog);
-  const stars = mine <= lv.par ? 3 : mine <= lv.par + 2 ? 2 : 1;
+  /* Hints are free; seeing the whole answer is one star, so trying first pays. */
+  const stars = play.shown ? 1 : mine <= lv.par ? 3 : mine <= lv.par + 2 ? 2 : 1;
   const kind = KIND_WORD[lv.kind] || 'seq';
   play.msg = (L) => `<p class="cz-code-say is-right">✓ ${esc(rb('right', L))}</p>`;
   paintBoard();
@@ -139,15 +143,24 @@ function hint() {
   const { b } = play;
   play.hint += 1;
   const kind = KIND_WORD[b.level.kind] || 'seq';
+  const ref = b.level.ref;
   if (play.hint === 1) {
-    play.msg = (L) => `<p class="cz-code-hint">🔎 ${esc(rb('hint.process', L))}</p>`;
+    /* First, how to read the board: follow the path and say the moves. */
+    const animals = b.level.animals;
+    play.msg = (L) => `<p class="cz-code-hint">🔎 ${esc(animals.length === 1
+      ? rb('hint.trace1', L, { animal: theAnimal(animalById(animals[0][2]), L) })
+      : rb('hint.traceN', L))}</p>`;
   } else if (play.hint === 2) {
-    play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb(`hint.${kind}`, L))}</p>`;
+    /* Then the idea, as concretely as the level allows: a loop level names
+       the pattern (how many steps, how many times) without the tiles. */
+    const rep = ref.main.find((c) => c.op === 'rep');
+    play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rep && kind === 'loop'
+      ? rb(['', 'hint.repeat1', 'hint.repeat2'][rep.body.length] || 'hint.repeatN', L, { n: rep.n, k: rep.body.length })
+      : rb(`hint.${kind}`, L))}</p>`;
   } else {
     /* Show one more tile of a program that works: the first place the
        child's Main differs (extra tiles at its end are a difference too),
        or, once Main matches, the helper rows. */
-    const ref = b.level.ref;
     RB.stopRun(b);
     const mine = b.prog.main;
     let k = 0;
@@ -159,6 +172,20 @@ function hint() {
     b.sel = null;
     play.msg = (L) => `<p class="cz-code-hint">✋ ${esc(rb('hint.show', L))}</p>`;
   }
+  paintBoard();
+}
+
+/** The whole working program, after two hints. The child still presses Run. */
+function showAnswer() {
+  const { b } = play;
+  RB.stopRun(b);
+  b.undo.push(JSON.stringify(b.prog));
+  b.prog = V.clone(b.level.ref);
+  for (const r of b.rows) if (!b.prog[r]) b.prog[r] = [];
+  b.caret = { path: ['main'], index: b.prog.main.length };
+  b.sel = null;
+  play.shown = true;
+  play.msg = (L) => `<p class="cz-code-hint">💡 ${esc(rb('answerShown', L))}</p>`;
   paintBoard();
 }
 
@@ -176,16 +203,20 @@ function click(ev) {
   if (name === 'rb-reset') { RB.stopRun(b); play.msg = null; paintBoard(); return true; }
   if (name === 'rb-speed') { b.speed = b.speed > 200 ? 140 : 360; paintBoard(); return true; }
   if (name === 'rb-hint') { hint(); return true; }
+  if (name === 'rb-answer') { showAnswer(); return true; }
   if (b.runner && b.runner.timer) return false;
   /* Any edit sends the robot back to the start. */
   const before = JSON.stringify(b.prog);
   const out = RB.benchClick(b, ev);
   if (!out) return false;
   if (JSON.stringify(b.prog) !== before) RB.stopRun(b);
-  play.msg = typeof out === 'string' ? (L) => `<p class="cz-code-say is-wrong">${esc(rb(out, L))}</p>` : null;
+  play.msg = typeof out === 'string' ? (L) => `<p class="cz-code-say is-wrong">${esc(rb(fullWord(out), L))}</p>` : null;
   paintBoard();
   return true;
 }
+
+/* A full row says what this level offers to make room (robotbench.js). */
+const fullWord = (key) => (key === 'rowFull' ? RB.rowFullKey(play.b.level.palette) : key);
 
 function key(ev) {
   if (!play || play.done) return false;

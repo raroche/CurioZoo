@@ -90,7 +90,7 @@ export function say(parts) {
  *   next   { href, label } of the next puzzle, or null
  *   back   { href, label } of the chapter
  */
-export function winCard({ got, best, why = [], news = [], next = null, back, head }) {
+export function winCard({ got, best, why = [], news = [], next = null, back, head, again = true }) {
   const perfect = got === 3;
   return `
     <div class="gp-flagdone cz-logic-win${perfect ? ' is-perfect' : ''}" role="status">
@@ -106,6 +106,7 @@ export function winCard({ got, best, why = [], news = [], next = null, back, hea
       </section>` : ''}
       <div class="gp-flagdone__again">
         ${next ? `<a class="gp-btn gp-btn--primary gp-btn--big" href="${next.href}" data-logic-next>${esc(next.label)} &rarr;</a>` : ''}
+        ${again ? `<button type="button" class="gp-btn gp-btn--ghost" data-action="logic-again">↻ ${esc(t('playAgain'))}</button>` : ''}
         <a class="gp-btn gp-btn--ghost" href="${back.href}">${esc(back.label)}</a>
       </div>
     </div>`;

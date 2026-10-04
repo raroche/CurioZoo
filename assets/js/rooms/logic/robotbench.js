@@ -361,6 +361,32 @@ export function benchClick(b, ev) {
 }
 
 /* ------------------------------------------------------------------ */
+/* What a level offers, in words                                       */
+/* ------------------------------------------------------------------ */
+
+/**
+ * The message for a full row, naming only the tiles this level has: a
+ * Repeat, Until or a helper to fold steps into, or none of them.
+ */
+export function rowFullKey(palette) {
+  const rep = palette.includes('rep');
+  const until = palette.includes('until');
+  const helper = palette.includes('h1');
+  if (rep && helper) return 'rowFullHelper';
+  if (rep) return 'rowFull';
+  if (helper) return 'rowFullHelperOnly';
+  if (until) return 'rowFullUntil';
+  return 'rowFullPlain';
+}
+
+/** How brackets are counted, for the bracket tiles this level has; null if none. */
+export function countKey(palette) {
+  const rep = palette.includes('rep');
+  const until = palette.includes('until');
+  return rep && until ? 'howCountBoth' : rep ? 'howCount' : until ? 'howCountUntil' : null;
+}
+
+/* ------------------------------------------------------------------ */
 /* Running                                                             */
 /* ------------------------------------------------------------------ */
 
@@ -420,4 +446,4 @@ export function stopRun(b) {
   b.bug = null;
 }
 
-export default { robotBank, failWords, renderInto, makeBench, rowSize, benchSize, boardWords, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };
+export default { robotBank, rowFullKey, countKey, failWords, renderInto, makeBench, rowSize, benchSize, boardWords, boardSvg, editorHtml, runBar, insert, removeAt, benchClick, startRun, advance, finish, stopRun };
