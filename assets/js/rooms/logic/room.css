@@ -483,6 +483,8 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 .cz-br-island.is-full .cz-br-disc { fill: var(--gp-good-soft); stroke: var(--gp-good); stroke-width: 3; }
 .cz-br-island.is-over .cz-br-disc { stroke: var(--gp-retry); stroke-dasharray: 4 3; stroke-width: 3; }
 .cz-br-island.is-hint .cz-br-disc { stroke: var(--gp-focus); stroke-width: 5; }
+/* Cut off from the biggest group, after Check: a dashed ring, not colour alone. */
+.cz-br-island.is-apart .cz-br-disc { stroke: var(--gp-retry); stroke-width: 4; stroke-dasharray: 5 4; }
 .cz-br-n { font: 800 20px var(--gp-font-ui); fill: var(--gp-ink); text-anchor: middle; dominant-baseline: middle; }
 .cz-br-dot { fill: none; stroke: var(--gp-ink-muted); stroke-width: 1.5; }
 .cz-br-dot.is-on { fill: var(--gp-ink); stroke: var(--gp-ink); }

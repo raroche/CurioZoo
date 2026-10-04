@@ -209,6 +209,32 @@
     check('(review 11) every island has a name of its own', new Set(names).size === names.length && labels.every((l) => /\([A-Z]\d+\)/.test(l)), `${names.length} islands`);
     if (zoom) document.querySelector('[data-action="br-zoom"]').click();
 
+    /* A parent's board: every island ticked, but two separate groups.
+       Check must say so, not only "2 bridges do not belong". */
+    fresh({ bridges: 'hard' });
+    await go('#/logic/bridges/h1/3', 1500);
+    const routeId = (a, z) => [...document.querySelectorAll('[data-br-edge]')]
+      .find((e) => e.getAttribute('aria-label').includes(`(${a})`) && e.getAttribute('aria-label').includes(`(${z})`))?.dataset.brEdge;
+    for (const [a, z, n] of [['B1', 'G1', 2], ['B1', 'B9', 2], ['G1', 'G4', 2], ['J1', 'J4', 1], ['D2', 'D4', 2], ['D4', 'G4', 2],
+      ['D4', 'D7', 2], ['G4', 'G9', 1], ['J4', 'J10', 2], ['A5', 'A10', 2], ['I5', 'I9', 2], ['D7', 'F7', 2], ['B9', 'G9', 1],
+      ['G9', 'I9', 2], ['A10', 'D10', 1], ['D10', 'J10', 2]]) {
+      for (let i = 0; i < n; i++) {
+        document.querySelector(`[data-br-edge="${routeId(a, z)}"]`).dispatchEvent(new MouseEvent('click', { bubbles: true }));
+        await wait(20);
+      }
+    }
+    document.querySelector('[data-action="br-check"]').click();
+    await wait(100);
+    check('Zoo Bridges: Check names separate groups when every island is ticked',
+      /split into 2 parts/.test(document.querySelector('.cz-code-say')?.textContent || '')
+      && document.querySelectorAll('.cz-br-island.is-apart').length === 6);
+    /* D7-D10 would cross the bridge on row 9, so the tap is refused; the
+       rings must still go with Check's message. */
+    document.querySelector(`[data-br-edge="${routeId('D7', 'D10')}"]`).dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    await wait(100);
+    check('Zoo Bridges: a refused tap still clears the cut-off rings',
+      !document.querySelector('.cz-br-island.is-apart') && /cross/i.test(document.querySelector('.cz-code-say')?.textContent || ''));
+
     /* -------------------------------------------------------------- */
     /* Reduced motion: no ride, the result at once                     */
     /* -------------------------------------------------------------- */
