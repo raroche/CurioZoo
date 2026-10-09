@@ -115,6 +115,21 @@ const GAME_ART = {
     <circle cx="25" cy="33" r="3.5" fill="${t}"/><circle cx="39" cy="33" r="3.5" fill="${t}"/>
     <path d="M32 20 V13" stroke="${t}" stroke-width="4" stroke-linecap="round"/><circle cx="32" cy="11" r="3.5" fill="${t}"/>
     <path d="M26 41 H38" stroke="${t}" stroke-width="3.5" stroke-linecap="round"/>`,
+  jam: (t, p) => `<rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
+    <rect x="11" y="11" width="36" height="42" rx="5" fill="none" stroke="${t}" stroke-width="3.5"/>
+    <rect x="16" y="26" width="20" height="11" rx="4" fill="${t}"/>
+    <rect x="38" y="15" width="6" height="18" rx="2.5" fill="none" stroke="${t}" stroke-width="3"/>
+    <rect x="16" y="41" width="14" height="7" rx="2.5" fill="none" stroke="${t}" stroke-width="3"/>
+    <path d="M47 31.5 H56 M52 27 L56.5 31.5 L52 36" fill="none" stroke="${t}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>`,
+  gates: (t, p) => `<rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
+    <path d="M10 22 H22 M10 42 H22 M42 32 H52" stroke="${t}" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M22 16 H31 a16 16 0 0 1 0 32 H22 Z" fill="none" stroke="${t}" stroke-width="4.5" stroke-linejoin="round"/>
+    <circle cx="54" cy="32" r="4.5" fill="${t}"/>`,
+  mirrors: (t, p) => `<rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
+    <circle cx="15" cy="17" r="6" fill="${t}"/>
+    <path d="M15 7 V9 M15 25 V27 M5 17 H7 M23 17 H25" stroke="${t}" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M22 17 H40 V44 H55" fill="none" stroke="${t}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 0"/>
+    <path d="M34 11 L46 23 M34 50 L46 38" stroke="${t}" stroke-width="5" stroke-linecap="round"/>`,
   bug: (t, p) => `<rect x="4" y="4" width="56" height="56" rx="13" fill="${p}"/>
     <ellipse cx="32" cy="36" rx="11" ry="14" fill="none" stroke="${t}" stroke-width="4.5"/>
     <path d="M32 22 V50" stroke="${t}" stroke-width="3"/>

@@ -1,5 +1,5 @@
 /**
- * Play the seven Logic Games in a real browser, and check the things the node
+ * Play the ten Logic Games in a real browser, and check the things the node
  * tests cannot see: a screen that shows, a ride that stops when the child
  * leaves, a score that counts a wrong answer, a level that matches what was
  * tapped, a keyboard that keeps its place, a bridge a thumb can hit.
@@ -43,7 +43,7 @@
     return r;
   });
 
-  const GAMES = ['code', 'truth', 'rule', 'bridges', 'trains', 'robot', 'bug'];
+  const GAMES = ['code', 'truth', 'rule', 'bridges', 'trains', 'robot', 'bug', 'jam', 'gates', 'mirrors'];
 
   try {
     /* -------------------------------------------------------------- */
@@ -234,6 +234,85 @@
     await wait(100);
     check('Zoo Bridges: a refused tap still clears the cut-off rings',
       !document.querySelector('.cz-br-island.is-apart') && /cross/i.test(document.querySelector('.cz-code-say')?.textContent || ''));
+
+    /* -------------------------------------------------------------- */
+    /* Zoo Traffic Jam: tap a cart, tap a dot; the fewest moves is ★★★ */
+    /* -------------------------------------------------------------- */
+    {
+      const JL = await import('/assets/js/modules/jamlogic.js');
+      const jbank = await realFetch('data/logic/jam/medium.json').then((r) => r.json());
+      const jp = jbank.chapters[0].puzzles[1];
+      const path = JL.solve(JL.prepare(jp)).path;
+      fresh({ jam: 'medium' });
+      await go('#/logic/jam/m1/2');
+      const tapJ = (sel) => board().querySelector(sel).dispatchEvent(new MouseEvent('click', { bubbles: true }));
+      tapJ('[data-jam-car="1"]');
+      await wait(50);
+      check('Traffic Jam: picking a cart shows where it can slide', board().querySelectorAll('[data-jam-to]').length > 0 || /cannot slide/.test(board().textContent));
+      tapJ('[data-jam-car="1"]');
+      for (const [i, x] of path) {
+        tapJ(`[data-jam-car="${i}"]`);
+        await wait(20);
+        tapJ(`[data-jam-to="${x}"]`);
+        await wait(20);
+      }
+      await until(() => after().trim());
+      check('Traffic Jam: the fewest moves earns ★★★', starsOf('jam', 'm1-02') === 3, String(starsOf('jam', 'm1-02')));
+      document.querySelector('[data-action="logic-again"]').click();
+      await wait(300);
+      tapJ('[data-action="jam-hint"]');
+      await wait(50);
+      check('Traffic Jam: hint 1 marks the carts in the van\'s way', board().querySelectorAll('.cz-jam-car.is-block').length > 0);
+      tapJ('[data-action="jam-hint"]');
+      await wait(50);
+      check('Traffic Jam: hint 2 names the cart to move first', board().querySelectorAll('.cz-jam-car.is-hint').length === 1);
+      tapJ('[data-action="jam-answer"]');
+      await until(() => after().trim());
+      check('Traffic Jam: Show the answer gets the van out, for ★', /1 of 3/.test(after()), after().slice(0, 40));
+    }
+
+    /* -------------------------------------------------------------- */
+    /* Gate Factory: power on shows the current; a wrong door is ruled */
+    /* out with the try that rules it out                              */
+    /* -------------------------------------------------------------- */
+    {
+      const GL = await import('/assets/js/modules/gateslogic.js');
+      const gbank = await realFetch('data/logic/gates/easy.json').then((r) => r.json());
+      const gp = gbank.chapters[0].puzzles[1];
+      fresh();
+      await go('#/logic/gates/e1/2');
+      const tapG = (sel) => board().querySelector(sel).dispatchEvent(new MouseEvent('click', { bubbles: true }));
+      check('Gate Factory: puzzle 2 is a "light it" puzzle', gp.mode === 'light' && !!board().querySelector('[data-gt-switch]'));
+      const right = GL.bitsOf(gp.k, GL.answerOf(gp));
+      right.forEach((x, i) => { if (x) tapG(`[data-gt-switch="${i}"]`); });
+      tapG('[data-action="gt-power"]');
+      await until(() => after().trim(), 3000);
+      check('Gate Factory: the right switches, first power-on, is ★★★', starsOf('gates', 'e1-02') === 3, String(starsOf('gates', 'e1-02')));
+      document.querySelector('[data-action="logic-again"]').click();
+      await wait(300);
+      tapG('[data-action="gt-power"]');
+      await wait(100);
+      check('Gate Factory: a wire with current is solid, one without is dashed',
+        board().querySelectorAll('.cz-gt-wire.is-off').length > 0 && !!board().querySelector('.cz-code-say.is-wrong'));
+    }
+
+    /* -------------------------------------------------------------- */
+    /* Sunbeam Mirrors: the beam is live; the fewest taps is ★★★       */
+    /* -------------------------------------------------------------- */
+    {
+      const ML = await import('/assets/js/modules/mirrorslogic.js');
+      const mbank = await realFetch('data/logic/mirrors/easy.json').then((r) => r.json());
+      unlock('mirrors', ['e1']);
+      await go('#/logic/mirrors/e2/1');
+      const mp = mbank.chapters[1].puzzles[0];
+      const sol = ML.answerOf(mp);
+      check('Sunbeam Mirrors: the beam is drawn before any tap', !!board().querySelector('.cz-mr-beam'));
+      [...mp.start].forEach((x, k) => { if (x !== sol[k]) board().querySelector(`[data-mr-turn="${k}"]`).dispatchEvent(new MouseEvent('click', { bubbles: true })); });
+      await until(() => after().trim(), 3000);
+      check('Sunbeam Mirrors: turning only the wrong mirrors is ★★★', starsOf('mirrors', 'e2-01') === 3, String(starsOf('mirrors', 'e2-01')));
+      await go('#/logic/mirrors/e1/1');
+      check('Sunbeam Mirrors: "where does it go?" hides the beam', !board().querySelector('.cz-mr-beam'));
+    }
 
     /* -------------------------------------------------------------- */
     /* Reduced motion: no ride, the result at once                     */

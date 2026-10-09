@@ -1,7 +1,7 @@
 /**
  * rooms/logic/hub.js — the Logic Games room, apart from the games' boards.
  *
- *   #/logic                      the hub: seven games, today's puzzles
+ *   #/logic                      the hub: ten games, today's puzzles
  *   #/logic/<game>               a game's levels, chapters and collection
  *   #/logic/<game>/<chapter>     one chapter's puzzles
  *   #/logic/<game>/<chapter>/<n> one puzzle
@@ -31,7 +31,10 @@ const LOADERS = {
   bridges: () => import('./bridges.js'),
   trains: () => import('./trains.js'),
   robot: () => import('./robot.js'),
-  bug: () => import('./bug.js')
+  bug: () => import('./bug.js'),
+  jam: () => import('./jam.js'),
+  gates: () => import('./gates.js'),
+  mirrors: () => import('./mirrors.js')
 };
 const loaded = new Map();
 

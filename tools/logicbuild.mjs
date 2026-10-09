@@ -27,7 +27,10 @@ import * as TR from '../assets/js/modules/trainslogic.js';
 import * as RG from '../assets/js/modules/robotgen.js';
 import * as BG from '../assets/js/modules/robotbug.js';
 import * as RV from '../assets/js/modules/robotvm.js';
-import { checkBridgesBank, checkBugBank, checkCodeBank, checkRobotBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
+import * as J from '../assets/js/modules/jamlogic.js';
+import * as GT from '../assets/js/modules/gateslogic.js';
+import * as MR from '../assets/js/modules/mirrorslogic.js';
+import { checkBridgesBank, checkBugBank, checkCodeBank, checkGatesBank, checkJamBank, checkMirrorsBank, checkRobotBank, checkRuleBank, checkTrainsBank, checkTruthBank } from './logiccheck.mjs';
 
 const args = process.argv.slice(2);
 const game = args[0];
@@ -145,6 +148,10 @@ function writeBank(file, bank) {
     ch.puzzles.forEach((p, pi) => lines.push(`      ${JSON.stringify(p)}${pi < ch.puzzles.length - 1 ? ',' : ''}`));
     lines.push(`    ] }${ci < bank.chapters.length - 1 ? ',' : ''}`);
   });
+  if (bank.reserve) {
+    lines.push('  ],', '  "reserve": [');
+    bank.reserve.forEach((p, pi) => lines.push(`    ${JSON.stringify(p)}${pi < bank.reserve.length - 1 ? ',' : ''}`));
+  }
   lines.push('  ]', '}', '');
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, lines.join('\n'));
@@ -493,7 +500,170 @@ function buildBug() {
   for (const bank of banks) writeBank(`data/logic/bug/${bank.level}.json`, bank);
 }
 
-const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains, robot: buildRobot, bug: buildBug };
+/* ------------------------------------------------------------------ */
+/* Zoo Traffic Jam                                                     */
+/* ------------------------------------------------------------------ */
+
+/* Each chapter makes its 100 lots and a share of the level's pool for
+   today's puzzle and endless practice. A deep chapter climbs on from its
+   last deep lot, so each new one is a short climb (see jamlogic.js). */
+function buildJamChapter(def, shapes, extra) {
+  const ch = J.chapter(def.id);
+  const want = J.CHAPTER_SIZE + extra;
+  const pool = [];
+  let from = null;
+  const t0 = Date.now();
+  for (let j = 0; pool.length < want && j < 20000; j++) {
+    const p = J.makePuzzle(ch, rngFor('jam', ch.id, 'bank', j), { tries: ch.climb ? 3 : 40, from });
+    if (!p) { from = null; continue; }
+    from = ch.climb ? p.lot : null;
+    const { lot, ...q } = p;
+    const shape = J.shapeOf(q);
+    if (shapes.has(shape)) continue;
+    shapes.add(shape);
+    pool.push(q);
+    if (ch.climb && pool.length % 10 === 0) console.log(`  ${ch.id}: ${pool.length} of ${want} (${((Date.now() - t0) / 1000).toFixed(0)} s)`);
+  }
+  if (pool.length < want) throw new Error(`${ch.id}: made only ${pool.length} of ${want}`);
+  /* The pool takes every few lots, so it spans the chapter's range too. */
+  const reserve = [];
+  const keep = [];
+  pool.forEach((q, i) => ((i % Math.round(want / extra) === 0 && reserve.length < extra) ? reserve : keep).push(q));
+  while (keep.length > J.CHAPTER_SIZE) reserve.length < extra ? reserve.push(keep.pop()) : keep.pop();
+  keep.sort((a, b) => a.min - b.min || a.cars.length - b.cars.length);
+  const order = [...keep.slice(0, J.TEACH), ...interleave(keep.slice(J.TEACH))];
+  return {
+    chapter: { id: ch.id, puzzles: order.map((q, i) => ({ id: `${ch.id}-${pad(i + 1)}`, ...(i < J.TEACH ? { teach: true } : {}), ...q })) },
+    reserve: reserve.map((q) => ({ ch: ch.id, ...q }))
+  };
+}
+
+function buildJam() {
+  const banks = [];
+  for (const level of J.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const shapes = new Set();
+    const defs = J.CHAPTERS[level];
+    const extra = Math.ceil(J.RESERVE / defs.length);
+    const built = defs.map((d) => buildJamChapter(d, shapes, extra));
+    const reserve = built.flatMap((b) => b.reserve).slice(0, J.RESERVE);
+    const bank = { game: 'jam', level, v: 1, chapters: built.map((b) => b.chapter), reserve };
+    const problems = checkJamBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    writeBank(`data/logic/jam/${level}.json`, bank);
+    banks.push(bank);
+    console.log(`jam/${level}: ${bank.chapters.length * J.CHAPTER_SIZE} lots and a pool of ${reserve.length} in ${((Date.now() - t0) / 1000).toFixed(0)} s`);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Gate Factory                                                        */
+/* ------------------------------------------------------------------ */
+
+/* Each kind of puzzle is gathered on its own, an even share each. Small
+   machines have only a few different "light it" wishes, so a kind that runs
+   out leaves its places to the others. */
+function buildGatesChapter(def) {
+  const ch = GT.chapter(def.id);
+  const shapes = new Set();
+  const share = Math.ceil(GT.CHAPTER_SIZE / ch.modes.length);
+  const byMode = Object.fromEntries(ch.modes.map((m) => [m, []]));
+  for (let j = 0; j < 6000 && Object.values(byMode).some((l) => l.length < GT.CHAPTER_SIZE); j++) {
+    const mode = GT.modeAt(ch, j);
+    if (byMode[mode].length >= GT.CHAPTER_SIZE) continue;
+    const p = GT.makePuzzle(ch, mode, rngFor('gates', ch.id, 'bank', j), { tries: 60 });
+    if (!p) continue;
+    const shape = GT.shapeOf(p);
+    if (shapes.has(shape)) continue;
+    shapes.add(shape);
+    byMode[mode].push(p);
+  }
+  const pool = [];
+  for (const m of ch.modes) pool.push(...byMode[m].slice(0, share));
+  for (const m of ch.modes) for (const p of byMode[m].slice(share)) if (pool.length < GT.CHAPTER_SIZE) pool.push(p);
+  pool.length = Math.min(pool.length, GT.CHAPTER_SIZE);
+  if (pool.length < GT.CHAPTER_SIZE) throw new Error(`${ch.id}: made only ${pool.length}`);
+  /* Each kind from small machines to big, then the kinds spread evenly
+   through the chapter, so the teaching puzzles at the start show every
+   kind, and no kind turns up first at puzzle 19. */
+  const size = (p) => p.gates.length * 10 + p.k * 3 + p.lamps.length;
+  const lists = ch.modes.map((m) => {
+    const l = pool.filter((p) => p.mode === m).sort((a, b) => size(a) - size(b));
+    return l.length ? [l[0], ...interleave(l.slice(1))] : [];
+  }).filter((l) => l.length);
+  const taken = lists.map(() => 0);
+  const order = [];
+  while (order.length < pool.length) {
+    let best = -1;
+    lists.forEach((l, m) => {
+      if (taken[m] >= l.length) return;
+      if (best < 0 || taken[m] / l.length < taken[best] / lists[best].length) best = m;
+    });
+    order.push(lists[best][taken[best]]);
+    taken[best] += 1;
+  }
+  return { id: ch.id, puzzles: order.map((p, i) => ({ id: `${ch.id}-${pad(i + 1)}`, ...(i < GT.TEACH ? { teach: true } : {}), ...p })) };
+}
+
+function buildGates() {
+  for (const level of GT.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const bank = { game: 'gates', level, v: 1, chapters: GT.CHAPTERS[level].map((d) => buildGatesChapter(d)) };
+    const problems = checkGatesBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    writeBank(`data/logic/gates/${level}.json`, bank);
+    console.log(`gates/${level}: ${bank.chapters.length * GT.CHAPTER_SIZE} machines in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Sunbeam Mirrors                                                     */
+/* ------------------------------------------------------------------ */
+
+function buildMirrorsChapter(def) {
+  const ch = MR.chapter(def.id);
+  const pool = [];
+  const shapes = new Set();
+  for (let j = 0; pool.length < MR.CHAPTER_SIZE && j < 20000; j++) {
+    const p = MR.makePuzzle(ch, rngFor('mirrors', ch.id, 'bank', j), { tries: 100 });
+    if (!p) continue;
+    const shape = MR.shapeOf(p);
+    if (shapes.has(shape)) continue;
+    shapes.add(shape);
+    pool.push(p);
+  }
+  if (pool.length < MR.CHAPTER_SIZE) throw new Error(`${ch.id}: made only ${pool.length}`);
+  /* Small boards with few mirrors first; the first three teach. */
+  const size = (p) => p.n * 100 + [...p.cells].filter((x) => x !== '.').length * 3 + (p.mode === 'where' ? 0 : MR.fewestTaps(p) * 10);
+  pool.sort((a, b) => size(a) - size(b));
+  const order = [...pool.slice(0, MR.TEACH), ...interleave(pool.slice(MR.TEACH))];
+  return { id: ch.id, puzzles: order.map((p, i) => ({ id: `${ch.id}-${pad(i + 1)}`, ...(i < MR.TEACH ? { teach: true } : {}), ...p })) };
+}
+
+function buildMirrors() {
+  for (const level of MR.LEVELS) {
+    if (onlyLevel && level !== onlyLevel) continue;
+    const t0 = Date.now();
+    const bank = { game: 'mirrors', level, v: 1, chapters: MR.CHAPTERS[level].map((d) => buildMirrorsChapter(d)) };
+    const problems = checkMirrorsBank(bank);
+    if (problems.length) {
+      problems.slice(0, 20).forEach((m) => console.error(`  x ${m}`));
+      throw new Error(`${level}: ${problems.length} problem(s); nothing written`);
+    }
+    writeBank(`data/logic/mirrors/${level}.json`, bank);
+    console.log(`mirrors/${level}: ${bank.chapters.length * MR.CHAPTER_SIZE} boards in ${((Date.now() - t0) / 1000).toFixed(1)} s`);
+  }
+}
+
+const BUILDERS = { code: buildCode, truth: buildTruth, rule: buildRule, bridges: buildBridges, trains: buildTrains, robot: buildRobot, bug: buildBug, jam: buildJam, gates: buildGates, mirrors: buildMirrors };
 if (!BUILDERS[game]) {
   console.error(`Usage: node tools/logicbuild.mjs <${Object.keys(BUILDERS).join('|')}> [--level easy|medium|hard]`);
   process.exit(1);
