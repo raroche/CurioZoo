@@ -638,3 +638,110 @@ a.cz-logic-tile:hover, a.cz-logic-tile:focus-visible { border-color: var(--room)
 
 /* Fix the Bug, after "Show the fix": the right replacement tile. */
 .cz-bug-opt.is-answer { outline: 3px dashed var(--gp-focus); outline-offset: 2px; }
+
+/* ============================================================ */
+/* Zoo Traffic Jam                                               */
+/* ============================================================ */
+
+.cz-jam { display: grid; gap: var(--gp-space-2); }
+.cz-jam-count { margin: 0; font-size: var(--gp-text-md); }
+.cz-jam-svg { display: block; width: 100%; max-width: 560px; height: auto; margin-inline: auto; touch-action: manipulation; }
+.cz-jam-lot { fill: var(--gp-surface-2, var(--gp-surface)); stroke: var(--gp-line-strong); stroke-width: 3; }
+.cz-jam-cell { fill: var(--gp-surface); stroke: var(--gp-line); stroke-width: 1.5; }
+.cz-jam-cell.is-gaterow { stroke-dasharray: 5 4; stroke: var(--room-line, var(--gp-line-strong)); }
+.cz-jam-gate rect { fill: var(--room-soft, var(--gp-accent-soft)); stroke: var(--room-line, var(--gp-line-strong)); stroke-width: 2; }
+.cz-jam-gate path { fill: none; stroke: var(--room-ink, var(--gp-ink)); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.cz-jam-gateword { font-size: 13px; font-weight: 800; fill: var(--gp-ink-muted); text-anchor: middle; }
+.cz-jam-rock rect { fill: var(--gp-surface-3, var(--gp-line)); }
+.cz-jam-rock text { font-size: 30px; text-anchor: middle; }
+.cz-jam-car { cursor: pointer; }
+.cz-jam-car:focus { outline: none; }
+.cz-jam-body { stroke: var(--gp-ink); stroke-width: 2.5; fill: #F2C14E; }
+.cz-jam-car.is-k1 .cz-jam-body { fill: #8FC1E3; }
+.cz-jam-car.is-k2 .cz-jam-body { fill: #A8D5A2; }
+.cz-jam-car.is-k3 .cz-jam-body { fill: #F4A8B8; }
+.cz-jam-car.is-k4 .cz-jam-body { fill: #C9B6E4; }
+.cz-jam-car.is-k5 .cz-jam-body { fill: #F7C59F; }
+.cz-jam-car.is-k0 .cz-jam-body { fill: #B9D8D2; }
+.cz-jam-car.is-van .cz-jam-body { fill: var(--gp-accent); stroke-width: 3.5; }
+.cz-jam-wheel { fill: var(--gp-ink); }
+.cz-jam-emoji { font-size: 30px; text-anchor: middle; pointer-events: none; }
+.cz-jam-star { font-size: 16px; fill: #FFFFFF; text-anchor: middle; pointer-events: none; }
+/* Picked, hinted, in the way: outlines with their own dash, never colour alone. */
+.cz-jam-car.is-sel .cz-jam-body { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-jam-car.is-hint .cz-jam-body { stroke: var(--gp-focus); stroke-width: 5; stroke-dasharray: 9 5; }
+.cz-jam-car.is-block .cz-jam-body { stroke: var(--gp-retry); stroke-width: 4; stroke-dasharray: 4 4; }
+.cz-jam-car:focus-visible .cz-jam-body { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-jam-dot { cursor: pointer; }
+.cz-jam-dot:focus { outline: none; }
+.cz-jam-dothit { fill: transparent; }
+.cz-jam-dot circle { fill: var(--gp-focus); fill-opacity: .85; stroke: var(--gp-surface); stroke-width: 3; }
+.cz-jam-dot:hover circle, .cz-jam-dot:focus-visible circle { r: 15px; }
+
+/* ============================================================ */
+/* Gate Factory                                                  */
+/* ============================================================ */
+
+.cz-gt { display: grid; gap: var(--gp-space-2); }
+.cz-gt-svg { display: block; width: 100%; height: auto; margin-inline: auto; touch-action: manipulation; }
+/* A wire with current: thick and solid, with a bolt. Without: thin and dashed. */
+.cz-gt-wire { fill: none; stroke: var(--gp-line-strong); stroke-width: 3; }
+.cz-gt-wire.is-on { stroke: var(--gp-accent); stroke-width: 6; }
+.cz-gt-wire.is-off { stroke: var(--gp-ink-muted); stroke-width: 2.5; stroke-dasharray: 6 5; }
+.cz-gt-bolt { font-size: 15px; text-anchor: middle; pointer-events: none; }
+.cz-gt-switch rect { fill: var(--gp-surface-3); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-gt-switch.is-on rect { fill: var(--gp-accent-soft); stroke: var(--gp-accent); stroke-width: 3.5; }
+.cz-gt-knob { fill: var(--gp-surface); stroke: var(--gp-ink); stroke-width: 2.5; }
+.cz-gt-switch.is-on .cz-gt-knob { fill: var(--gp-accent); }
+.cz-gt-switchword { font-size: 14px; font-weight: 800; text-anchor: middle; fill: var(--gp-ink); pointer-events: none; }
+.cz-gt-switchn { font-size: 12px; font-weight: 700; text-anchor: middle; fill: var(--gp-ink-muted); }
+.cz-gt-switch.is-tap, .cz-gt-lamp.is-tap { cursor: pointer; }
+.cz-gt-switch:focus, .cz-gt-lamp:focus { outline: none; }
+.cz-gt-switch:focus-visible rect, .cz-gt-lamp:focus-visible path { stroke: var(--gp-focus); stroke-width: 5; }
+.cz-gt-door rect { fill: var(--gp-surface); stroke: var(--room-ink, var(--gp-ink)); stroke-width: 3; }
+.cz-gt-door.is-hidden rect { stroke-dasharray: 7 5; fill: var(--gp-surface-2); }
+.cz-gt-doorpic { font-size: 22px; text-anchor: middle; }
+.cz-gt-doorword { font-size: 14px; font-weight: 900; text-anchor: middle; fill: var(--room-ink, var(--gp-ink)); letter-spacing: .04em; }
+.cz-gt-lamp path { fill: var(--gp-surface-2); stroke: var(--gp-ink); stroke-width: 2.5; stroke-linejoin: round; }
+.cz-gt-lamp.is-lit path { fill: #FFF2B3; stroke-width: 3.5; }
+.cz-gt-lamp.is-dark path { fill: var(--gp-surface-3); stroke-dasharray: 5 4; }
+.cz-gt-lampface { font-size: 26px; text-anchor: middle; pointer-events: none; }
+.cz-gt-animal { font-size: 20px; text-anchor: middle; pointer-events: none; }
+.cz-gt-want { font-size: 13px; font-weight: 800; text-anchor: middle; fill: var(--gp-ink); }
+.cz-gt-table { border-collapse: collapse; font-size: var(--gp-text-sm); margin-block: var(--gp-space-2); }
+.cz-gt-table th, .cz-gt-table td { border: 1px solid var(--gp-line); padding: 6px 10px; text-align: center; }
+.cz-gt-table thead th { background: var(--gp-surface-2); }
+.cz-gt-opts { display: flex; flex-wrap: wrap; gap: var(--gp-space-2); }
+.cz-gt-opt.is-out { opacity: .45; text-decoration: line-through; }
+.cz-gt-opt.is-answer { outline: 3px dashed var(--gp-focus); outline-offset: 2px; }
+
+/* ============================================================ */
+/* Sunbeam Mirrors                                               */
+/* ============================================================ */
+
+.cz-mr { display: grid; gap: var(--gp-space-2); }
+.cz-mr-svg { display: block; width: 100%; max-width: 560px; height: auto; margin-inline: auto; touch-action: manipulation; }
+.cz-mr-board { fill: var(--gp-surface-2); stroke: var(--gp-line-strong); stroke-width: 3; }
+.cz-mr-cell { fill: var(--gp-surface); stroke: var(--gp-line); stroke-width: 1.5; }
+.cz-mr-rock, .cz-mr-emoji { font-size: 32px; text-anchor: middle; pointer-events: none; }
+.cz-mr-state { font-size: 15px; font-weight: 900; text-anchor: middle; fill: var(--gp-good); pointer-events: none; }
+.cz-mr-glow { fill: #FFF2B3; stroke: #E8B100; stroke-width: 3; }
+.cz-mr-animal.is-tap { cursor: pointer; }
+.cz-mr-animal:focus, .cz-mr-mirror:focus, .cz-mr-spot:focus { outline: none; }
+.cz-mr-mirror line { stroke: var(--gp-ink); stroke-width: 7; stroke-linecap: round; }
+.cz-mr-mirror.is-turn { cursor: pointer; }
+.cz-mr-mirror.is-turn line { stroke: var(--room-ink, var(--gp-accent)); }
+.cz-mr-mirror.is-placed line { stroke: var(--gp-accent); }
+.cz-mr-mirror.is-fixed line { stroke: var(--gp-ink-muted); }
+.cz-mr-hit { fill: transparent; }
+.cz-mr-spot { cursor: pointer; }
+.cz-mr-spot:hover .cz-mr-hit, .cz-mr-mirror.is-turn:hover .cz-mr-hit { fill: var(--gp-focus); fill-opacity: .12; }
+.cz-mr-badge { font-size: 17px; font-weight: 900; text-anchor: middle; fill: var(--gp-ink); pointer-events: none; }
+/* Marked by a hint, or focused: a dashed ring, never colour alone. */
+.cz-mr-mirror.is-mark .cz-mr-hit, .cz-mr-spot.is-mark .cz-mr-hit { stroke: var(--gp-focus); stroke-width: 4; stroke-dasharray: 7 5; }
+.cz-mr-markring { fill: none; stroke: var(--gp-focus); stroke-width: 4; stroke-dasharray: 7 5; }
+.cz-mr-animal:focus-visible .cz-mr-emoji { text-decoration: underline; }
+.cz-mr-mirror:focus-visible .cz-mr-hit, .cz-mr-spot:focus-visible .cz-mr-hit { stroke: var(--gp-focus); stroke-width: 4; }
+.cz-mr-beam { fill: none; stroke: #F2B705; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; opacity: .9; pointer-events: none; }
+.cz-mr-sun { fill: #FFE27A; stroke: #E8B100; stroke-width: 3; }
+.cz-mr-sunface { font-size: 26px; text-anchor: middle; pointer-events: none; }

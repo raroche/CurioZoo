@@ -43,6 +43,9 @@ the list, with the choices most worth a second opinion first.
 - `assets/js/modules/bridgestext.js` — Zoo Bridges
 - `assets/js/modules/trainstext.js` — Train Tracks
 - `assets/js/modules/robottext.js` — Robot Path and Fix the Bug
+- `assets/js/modules/jamtext.js` — Zoo Traffic Jam ("el carrito del león", "la furgoneta del cuidador")
+- `assets/js/modules/gatestext.js` — Gate Factory (doors Y, O, NO, SOLO UNO; switches SÍ/NO)
+- `assets/js/modules/mirrorstext.js` — Sunbeam Mirrors
 
 Generated sentences are easiest to judge in the game itself: switch to
 Español with the pill at the top of any Logic Games screen.
