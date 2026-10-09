@@ -68,7 +68,10 @@ const DEFAULTS = {
     teasers: {},
     /* Logic Games: stars per puzzle, daily puzzles, days played, level and
        language per game. Owned and validated by modules/logicprogress.js. */
-    logic: {}
+    logic: {},
+    /* Science Lab: the same shape as logic, plus surprises found and ideas
+       earned. Owned and validated by modules/scienceprogress.js. */
+    science: {}
   },
   /* stats[categoryId] = { seen, correct, streakBest, lastSeenIso } */
   stats: {},

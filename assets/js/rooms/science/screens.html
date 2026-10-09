@@ -1,0 +1,37 @@
+<!--
+  The Science Lab's screens.
+
+  Not a page of its own: the app fetches this file the first time a child
+  opens the room and adds these sections to <main> in index.html. See
+  assets/js/rooms/registry.js.
+
+  Three screens serve all ten games: the room's hub, a game's home (its
+  levels and chapters, one chapter's experiments, and the notebook), and one
+  experiment. Each game draws its own board inside the third. No style="..."
+  attributes: the Content-Security-Policy drops them; use data-style.
+-->
+<section class="gp-screen cz-room--iris" id="screen-sciencehub" aria-labelledby="sciencehub-title">
+  <div class="gp-container">
+    <div class="gp-backslot"></div>
+    <div class="cz-roomhead cz-tile--iris cz-sci-head">
+      <span class="cz-roomhead__pic" data-room-pic="science" aria-hidden="true"></span>
+      <div>
+        <h1 class="gp-page-title" id="sciencehub-title" data-sci-text="roomTitle">Science Lab</h1>
+        <p class="gp-page-lede" data-sci-text="roomLede">Guess what will happen, then watch.</p>
+      </div>
+    </div>
+    <div id="gp-sci-hub"></div>
+  </div>
+</section>
+
+<section class="gp-screen cz-room--iris" id="screen-sciencegame" aria-labelledby="sciencegame-title">
+  <div class="gp-container">
+    <div id="gp-sci-game"></div>
+  </div>
+</section>
+
+<section class="gp-screen cz-room--iris" id="screen-scienceplay" aria-labelledby="scienceplay-title">
+  <div class="gp-container">
+    <div id="gp-sci-play"></div>
+  </div>
+</section>

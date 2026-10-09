@@ -74,6 +74,14 @@ const EARS = {
     `<circle cx="47" cy="9" r="6.5" fill="${c}"/>`
   ],
 
+  /* The Science Lab's. Three feathery gills a side, fanned out: the only
+     creature with more than one shape per ear, so it reads apart from the
+     giraffe's single stalks even at tile size. */
+  axolotl: (c) => [
+    `<path d="M15 19.5 L3.5 9 M17.5 16.5 L9 3 M21.5 15 L19.5 1.5" stroke="${c}" stroke-width="4.2" stroke-linecap="round" fill="none"/>`,
+    `<path d="M49 19.5 L60.5 9 M46.5 16.5 L55 3 M42.5 15 L44.5 1.5" stroke="${c}" stroke-width="4.2" stroke-linecap="round" fill="none"/>`
+  ],
+
   /* The one on the sign. Plain round ears, because the mark has to survive a
      16px favicon where anything shaped turns to mush. */
   logo: (c) => [

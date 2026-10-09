@@ -136,6 +136,26 @@ export const REGISTRY = [
     back: (parts) => (parts.length > 1 ? null : HOME)
   },
   {
+    id: 'science',
+    name: 'Science Lab',
+    hue: 'iris',
+    /* Three feathery gills a side: the only creature with more than one
+       shape per ear, so it reads apart from the giraffe and the cat. */
+    creature: 'axolotl',
+    href: '#/science',
+    status: 'live',
+    blurb: 'Will it float? Which lands first? Guess, then watch what really happens.',
+    meta: '10 games · English or Spanish',
+
+    routes: ['science'],
+    code: () => import('./science/room.js'),
+    screens: 'science/screens.html',
+    css: 'science/room.css',
+    /* Inside a game every screen draws its own way back, in the child's
+       language, like Logic Games. */
+    back: (parts) => (parts.length > 1 ? null : HOME)
+  },
+  {
     id: 'fun',
     name: 'Fun and Games',
     hue: 'flamingo',

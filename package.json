@@ -17,7 +17,7 @@
     "mathverify": "node tools/mathverify.mjs",
     "flagcheck": "node tools/flagcheck.mjs",
     "test": "node --test",
-    "verify": "npm run parse && npm run validate && npm run dupcheck && npm run rulecheck && npm run mathcheck && npm run mathverify && npm run flagcheck && npm run shapecheck && npm run shapeverify && npm run capitalcheck && npm run elementcheck && npm run anglecheck && npm run triviacheck && npm run discovercheck && npm run teaserscheck && npm run logiccheck && npm run chesscheck && npm run roomcheck && npm run animcheck && npm run archcheck && npm run linkcheck && npm run cspcheck && npm run preloadcheck && npm run offlinecheck && npm test",
+    "verify": "npm run parse && npm run validate && npm run dupcheck && npm run rulecheck && npm run mathcheck && npm run mathverify && npm run flagcheck && npm run shapecheck && npm run shapeverify && npm run capitalcheck && npm run elementcheck && npm run anglecheck && npm run triviacheck && npm run discovercheck && npm run teaserscheck && npm run logiccheck && npm run sciencecheck && npm run chesscheck && npm run roomcheck && npm run animcheck && npm run archcheck && npm run linkcheck && npm run cspcheck && npm run preloadcheck && npm run offlinecheck && npm test",
     "serve": "python3 tools/serve.py 8765",
     "serve:offline": "node tools/offline.mjs --minify --out dist && python3 tools/serve.py 8766 dist",
     "offlinecheck": "node tools/offline.mjs",
@@ -36,6 +36,7 @@
     "triviacheck": "node tools/triviacheck.mjs",
     "discovercheck": "node tools/discovercheck.mjs",
     "teaserscheck": "node tools/teaserscheck.mjs",
-    "logiccheck": "node tools/logiccheck.mjs"
+    "logiccheck": "node tools/logiccheck.mjs",
+    "sciencecheck": "node tools/sciencecheck.mjs"
   }
 }

@@ -60,7 +60,7 @@ export const BG = {
   darkPage:  '#15181E', darkCard:  '#1E222A'
 };
 
-/* Eight hues, evenly spread so no two sections can be confused. Orange is the
+/* Nine hues, spread so no two sections can be confused. Orange is the
    brand; Lagoon sits opposite it on the wheel and is the contrast colour. */
 export const HUES = [
   { key: 'mango',    name: 'Mango',    h:  20, s: 0.65, role: 'brand / primary' },
@@ -70,7 +70,10 @@ export const HUES = [
   { key: 'lagoon',   name: 'Lagoon',   h: 195, s: 0.58, role: 'contrast to orange' },
   { key: 'sky',      name: 'Sky',      h: 218, s: 0.55, role: 'section' },
   { key: 'orchid',   name: 'Orchid',   h: 280, s: 0.40, role: 'section' },
-  { key: 'flamingo', name: 'Flamingo', h: 338, s: 0.55, role: 'section' }
+  { key: 'flamingo', name: 'Flamingo', h: 338, s: 0.55, role: 'section' },
+  /* The ninth, for the Science Lab: the one wide gap left on the wheel that
+     still clears AA without turning to mud. */
+  { key: 'iris',     name: 'Iris',     h: 248, s: 0.50, role: 'section' }
 ];
 
 /** Deepest shade of `hue` that still clears `target` against Mango. */
