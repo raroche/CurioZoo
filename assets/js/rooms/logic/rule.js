@@ -201,7 +201,10 @@ function sortHtml(L) {
     return `<li><button type="button" class="cz-rule-sortc${s === true ? ' is-pass' : s === false ? ' is-stop' : ''}" data-rule-sort="${i}"
       aria-label="${esc(caseWords(c, L))}: ${esc(word)}">${drawCase(c, L)}<span class="cz-rule-sortw">${esc(word)}</span></button></li>`;
   }).join('');
-  return `<section class="cz-rule-prove"><h3>${esc(rt('sortAsk', L))}</h3><ul class="cz-rule-sort">${cards}</ul></section>
+  /* Each tap moves a card on: ? → passes → stopped → ? again. Say so. */
+  return `<section class="cz-rule-prove"><h3>${esc(rt('sortAsk', L))}</h3>
+    <p class="cz-rule-help">${esc(rt('sortHow', L, { pass: rt('sayPass', L), stop: rt('sayStop', L) }))}</p>
+    <ul class="cz-rule-sort">${cards}</ul></section>
     <div class="cz-code-actions">
       <button type="button" class="gp-btn gp-btn--primary gp-btn--big" data-action="rule-sortcheck">${esc(rt('sortCheck', L))}</button>
       <button type="button" class="gp-btn gp-btn--ghost" data-action="rule-backtest">${esc(rt('backToTest', L))}</button>

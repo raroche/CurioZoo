@@ -21,6 +21,7 @@ the list, with the choices most worth a second opinion first.
 | `robottext.js` | **"Gira a la izquierda/derecha"**, **"Dar de comer"**, **"Ayudante A"** | Imperatives on tiles | Imperative or infinitive on a tile? |
 | `robottext.js` | **"Frasco de bichos"** for the bug jar | Playful | Does "bicho" carry an unwanted meaning anywhere? |
 | `logictext.js` | Badge names: **"Cachorro curioso" … "Genio del zoo"** | | Fun for 6–13? |
+| `ruletext.js` | **"Toca una criatura una vez para ✓ Pasa, dos veces para ✗ Se queda fuera y una tercera vez para borrarla."** | Added after a parent playtest | Clear? |
 | `robottext.js` | The new hints (**"Pon el dedo sobre el robot y sigue el camino marrón…"**, **"Los mismos 2 pasos se repiten 4 veces seguidas…"**) and **"Ver la respuesta"**, **"Ver el arreglo"** | Added after a parent playtest | Clear to an 8-year-old? |
 | `logictext.js` | **"Jugar este otra vez"** | Added after a parent playtest | |
 | `robottext.js` | The full-row messages (**"Busca pasos que se repiten una y otra vez y mete el grupo entero dentro de un Repetir…"**) and **"Un Repetir cuenta como 1 ficha, más las fichas que lleva dentro."** | Added after a parent playtest | Clear to an 8-year-old? |
