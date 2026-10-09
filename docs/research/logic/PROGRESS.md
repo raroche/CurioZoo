@@ -24,6 +24,11 @@ have one answer. The plan is [`PLAN.md`](PLAN.md).
 - [x] 2026-10-02 Phase 8 — Daily for every game, Endless practice for every
       game (#/logic/<game>/endless/<n>), the room's badge ladder, and
       SPANISH-REVIEW.md
+- [x] 2026-10-09 `PLAN-2.md`: three more games chosen from
+      `reports/More logic games for CurioZoo.md`
+- [x] 2026-10-09 Zoo Traffic Jam (900 lots and a pool of 360)
+- [x] 2026-10-09 Gate Factory (900 machines)
+- [x] 2026-10-09 Sunbeam Mirrors (900 boards)
 
 ## How the room is built (read before adding a game)
 - `rooms/logic/hub.js` routes every address and draws the hub, a game's
@@ -177,6 +182,37 @@ and has a test in node or in `tools/logicsmoke.js` (paste it on #/logic).
   are kept by date and endless by count, never by puzzle content, so a
   change to a maker may change which puzzle an old date shows but can never
   lose anything earned. No version number is needed.
+
+## Part 2: what shipped, and why
+
+**Zoo Traffic Jam** (`jamlogic.js`, `jam.js`). Positions are numbers (three
+bits a cart) so a family of 150,000 positions is a Map of numbers; that made
+the searches about three times faster. Random lots seldom need more than
+about 15 moves, so Hard chapters "climb" (change one cart, keep it if the
+family gets deeper) and chain from the last deep lot: about 3 to 10 seconds
+a lot, so the Hard bank takes about 25 minutes to build. Hard's move ranges
+were lowered to 16–21, 18–24 and 22–32 (still very hard at 10–13; the plan's
+25–40 was out of reach at a sensible build time). Because of that cost,
+today's puzzle and endless practice come from a checked pool (`reserve`, 120
+a level) in the bank, not made on the device. Moves by the same cart in a
+row count once, as in the toy. Hint 1 marks the carts in the van's way,
+hint 2 names the cart to move first (the first step of a shortest path),
+hint 3 makes it.
+
+**Gate Factory** (`gateslogic.js`, `gates.js`). Every machine is joined
+(each switch and door reaches a lamp) and lively (every lamp can be lit and
+dark, every switch matters). "Light it" puzzles are only kept when exactly
+one setting grants the wish; tiny Easy machines have few of those, so the
+builder gathers each kind of puzzle on its own and spreads the kinds evenly
+through a chapter (Easy chapter 1 is 88 "will it light?" and 12 "light it").
+The current from a switch is always drawn; what comes out of a door only
+after Power on, a hint, or the end, because working that out is the puzzle.
+
+**Sunbeam Mirrors** (`mirrorslogic.js`, `mirrors.js`). Turn and place boards
+are made from a beam path first (mirrors at its turns, animals along it),
+then animals are added on the true path wherever another setting would also
+work, until exactly one does. The beam is drawn live as the child taps
+(feedback is the fun), so stars count taps against the fewest needed.
 
 ## What is left for people, not code
 - A native Spanish read (SPANISH-REVIEW.md).

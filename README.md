@@ -106,7 +106,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Math Lab** | 86 topics and 609 exercises across grades 1–6. Real mathematics — primes, symmetry, graph colouring, the pigeonhole principle — not worksheets |
 | **Math Brain Teasers** | 327 math riddles and puzzles at three levels (ages 6–8, 8–10, 10–13), in English and Spanish, with a hint and a "why" |
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
-| **Logic Games** | Seven games that make a child think in steps. Seven games and 5,140 puzzles: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000), Robot Path (600 levels) and Fix the Bug (600), at three levels, in English and Spanish, and every puzzle is checked by machine on every build |
+| **Logic Games** | Ten games that make a child think in steps, with 7,840 puzzles: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000), Robot Path (600 levels), Fix the Bug (600), Zoo Traffic Jam (900 lots), Gate Factory (900 machines) and Sunbeam Mirrors (900 boards), at three levels, in English and Spanish, and every puzzle is checked by machine on every build |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
@@ -335,9 +335,10 @@ between them. The 106 items are half and half, in `data/fun/discover.json`, and
 ## Logic Games
 
 A room of its own at `#/logic`, for reasoning in steps: deduce, test, plan
-and program. Seven games, 5,140 puzzles, every one solved again by
-`tools/logiccheck.mjs` on every build (`docs/research/logic/PLAN.md` has the
-plan and `PROGRESS.md` the record of what was built and why).
+and program. Ten games, 7,840 puzzles, every one solved again by
+`tools/logiccheck.mjs` on every build (`docs/research/logic/PLAN.md` and
+`PLAN-2.md` have the plans and `PROGRESS.md` the record of what was built
+and why).
 
 Every game has a daily puzzle (the same for everyone, made on the device
 from the date) and endless practice that never runs out, on top of its
@@ -455,6 +456,37 @@ and the best stars go to finding the bug before pressing Run. The hints
 teach the routine itself: what happened, what should have happened, step
 until they part. A bug jar collects each kind caught, with what it teaches.
 600 puzzles.
+
+**Zoo Traffic Jam** is the sliding-block planning puzzle (Nob Yoshigahara's,
+sold as Rush Hour; the name and every lot here are the zoo's own). Carts
+carrying animals block the keeper's van; tap a cart, tap a dot, and it
+slides along its length. One slide is one move however far, and the counter
+shows the fewest possible, so ★★★ is a goal a child can see. The fewest
+moves is proved, not guessed: breadth-first search over every position the
+lot can reach. Lots are made by searching a lot's whole family of positions
+backwards from the solved ones and starting as far away as the chapter wants;
+for the deepest chapters a lot "climbs", one cart changed at a time, until it
+needs 16 to 32 moves. Those searches take seconds, so today's puzzle and
+endless practice come from a checked pool built with each bank, not made on
+the device. 900 lots and a pool of 360.
+
+**Gate Factory** turns logic gates into zoo doors: AND is a door with two
+locks, OR two doors side by side, NOT a flip door, and Hard adds ONLY ONE
+(exclusive or). Switches send current through the doors to the lamps at the
+animals' houses; a wire with current is thick and solid with a ⚡, one
+without thin and dashed. Three kinds of puzzle: say which lamps light, set
+the switches so the lamps light as the signs ask (exactly one setting
+works), and find the hidden door from a table of tries (exactly one door
+fits every try). Every answer is proved by trying every setting of the
+switches. 900 machines.
+
+**Sunbeam Mirrors** shines the sun into the zoo; mirrors turn the beam a
+quarter turn, rocks stop it, and every animal it passes over wakes up.
+Follow the beam to the animal it wakes, turn the mirrors so it wakes them
+all, and on Hard place the mirrors yourself. The beam is drawn live as the
+child taps, and stars count taps, so thinking first pays. Every board has
+exactly one answer, proved by trying every way to turn or place the
+mirrors. 900 boards.
 
 ## Math Lab
 
@@ -707,7 +739,7 @@ GiftedPrep/
     ├── linkcheck.mjs           follows every internal link to a real route
     ├── smoke.js                plays every game in a real browser: paste it in
     │                           the console before shipping a change to a game
-    ├── logicsmoke.js           the same for the seven Logic Games: leaving mid-ride,
+    ├── logicsmoke.js           the same for the ten Logic Games: leaving mid-ride,
     │                           scores, level taps, keyboard, phone-sized bridges
     ├── capitalcheck.mjs        checks the capital data and proves the typo
     │                           tolerance never accepts another country's answer

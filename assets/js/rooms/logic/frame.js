@@ -4,7 +4,7 @@
  * The progress record and how it is saved, the room's language, the little
  * pieces of markup every screen has (the language pill, the read-aloud
  * button, a way back, stars) and the card that ends a solved puzzle. A game
- * draws its own board and nothing else, so the seven games feel like one room.
+ * draws its own board and nothing else, so the ten games feel like one room.
  */
 
 import * as P from '../../modules/logicprogress.js';

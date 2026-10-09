@@ -31,6 +31,12 @@ import * as RG from '../assets/js/modules/robotgen.js';
 import * as RV from '../assets/js/modules/robotvm.js';
 import { ROBOT_TEXT, KIND_WORD } from '../assets/js/modules/robottext.js';
 import * as BG from '../assets/js/modules/robotbug.js';
+import * as J from '../assets/js/modules/jamlogic.js';
+import * as GT from '../assets/js/modules/gateslogic.js';
+import * as MR from '../assets/js/modules/mirrorslogic.js';
+import { MIRRORS_TEXT } from '../assets/js/modules/mirrorstext.js';
+import { GATES_TEXT } from '../assets/js/modules/gatestext.js';
+import { JAM_TEXT } from '../assets/js/modules/jamtext.js';
 import { ROOM, GAMES } from '../assets/js/modules/logictext.js';
 import { ANIMALS } from '../assets/js/modules/zooart.js';
 
@@ -493,6 +499,179 @@ export function checkBugBank(bank) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Zoo Traffic Jam                                                     */
+/* ------------------------------------------------------------------ */
+
+/** One lot: legal, the van where it belongs, and the fewest moves proven again. */
+export function checkJamPuzzle(q, ch, where) {
+  const errs = [];
+  const err = (m) => errs.push(`${where}: ${m}`);
+  if (q.n !== ch.n) err(`lot is ${q.n}×${q.n}, chapter is ${ch.n}×${ch.n}`);
+  const [van] = q.cars;
+  if (!van || van[0] !== J.gateRow(q.n) || van[2] !== 2 || van[3] !== 'h') err('the van is not a sideways 2-long cart on the gate row');
+  if (q.cars.slice(1).some(([r, , , d]) => d === 'h' && r === J.gateRow(q.n))) err('a sideways cart in the gate row could never let the van out');
+  const others = q.cars.length - 1;
+  if (others < ch.cars[0] || others > ch.cars[1]) err(`${others} carts`);
+  const trucks = q.cars.slice(1).filter((c) => c[2] === 3).length;
+  if (trucks < ch.trucks[0] || trucks > ch.trucks[1]) err(`${trucks} trucks`);
+  if (q.rocks.length < ch.rocks[0] || q.rocks.length > ch.rocks[1]) err(`${q.rocks.length} rocks`);
+  const L = J.prepare(q);
+  if (!J.legal(L, L.start)) { err('carts overlap, or one is off the lot'); return errs; }
+  const s = J.solve(L);
+  if (!s) { err('the van can never get out'); return errs; }
+  if (s.min !== q.min) err(`stored fewest moves ${q.min}, the search says ${s.min}`);
+  if (s.min < ch.moves[0] || s.min > ch.moves[1]) err(`${s.min} moves, the chapter wants ${ch.moves.join('–')}`);
+  return errs;
+}
+
+export function checkJamBank(bank) {
+  const errs = [];
+  if (bank.game !== 'jam') errs.push(`game is "${bank.game}", not "jam"`);
+  const defs = J.CHAPTERS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong chapters`);
+  const shapes = new Set();
+  const seen = (q, where) => {
+    const sh = J.shapeOf(q);
+    if (shapes.has(sh)) errs.push(`${where}: the same lot twice`);
+    shapes.add(sh);
+  };
+  for (const chapter of bank.chapters || []) {
+    const ch = J.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== J.CHAPTER_SIZE) errs.push(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    chapter.puzzles.forEach((q, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      if (q.id !== `${ch.id}-${pad(i + 1)}`) errs.push(`${where}: id "${q.id}"`);
+      if (Boolean(q.teach) !== (i < J.TEACH)) errs.push(`${where}: teach flag is wrong`);
+      errs.push(...checkJamPuzzle(q, ch, where));
+      seen(q, where);
+    });
+  }
+  /* The pool today's puzzle and endless practice draw from. */
+  if (!Array.isArray(bank.reserve) || bank.reserve.length !== J.RESERVE) errs.push(`${bank.level}: the pool needs ${J.RESERVE} lots`);
+  (bank.reserve || []).forEach((q, i) => {
+    const where = `pool #${i + 1}`;
+    const ch = J.chapter(q.ch);
+    if (!ch || ch.level !== bank.level) { errs.push(`${where}: chapter "${q.ch}" is not on this level`); return; }
+    errs.push(...checkJamPuzzle(q, ch, where));
+    seen(q, where);
+  });
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Gate Factory                                                        */
+/* ------------------------------------------------------------------ */
+
+export function checkGatesBank(bank) {
+  const errs = [];
+  if (bank.game !== 'gates') errs.push(`game is "${bank.game}", not "gates"`);
+  const defs = GT.CHAPTERS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong chapters`);
+  const shapes = new Set();
+  const within = (x, r) => { const [lo, hi] = Array.isArray(r) ? r : [r, r]; return x >= lo && x <= hi; };
+  for (const chapter of bank.chapters || []) {
+    const ch = GT.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== GT.CHAPTER_SIZE) errs.push(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const err = (m) => errs.push(`${where}: ${m}`);
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < GT.TEACH)) err('teach flag is wrong');
+      if (!ch.modes.includes(p.mode)) err(`mode ${p.mode}`);
+      if (!within(p.k, ch.k)) err(`${p.k} switches`);
+      if (!within(p.gates.length, ch.g)) err(`${p.gates.length} doors`);
+      if (!within(p.lamps.length, ch.lamps)) err(`${p.lamps.length} lamps`);
+      p.gates.forEach(([op, a, b], j) => {
+        if (!ch.ops.includes(op)) err(`door ${j} is ${op}`);
+        const top = p.k + j;
+        if (!(a >= 0 && a < top)) err(`door ${j} takes a wire from later on`);
+        if (!GT.UNARY.has(op) && !(b >= 0 && b < top && b !== a)) err(`door ${j} needs two different earlier wires`);
+      });
+      if (ch.need && !p.gates.some(([op]) => ch.need.includes(op))) err(`no ${ch.need.join('/')} door`);
+      if (!GT.joined(p)) err('a switch or door leads to no lamp');
+      if (!GT.lively(p)) err('a lamp never changes, or a switch changes nothing');
+      if (p.mode === 'predict' && !(Number.isInteger(p.set) && p.set >= 0 && p.set < 2 ** p.k)) err('no switch setting');
+      if (p.mode === 'light') {
+        if (!Array.isArray(p.want) || p.want.length !== p.lamps.length) err('the signs do not match the lamps');
+        else if (GT.settingsFor(p, p.want).length !== 1) err(`${GT.settingsFor(p, p.want).length} settings light the lamps as asked`);
+      }
+      if (p.mode === 'which') {
+        if (JSON.stringify(p.options) !== JSON.stringify(ch.options)) err('wrong door choices');
+        const hidden = p.gates[p.hide];
+        if (!hidden || GT.UNARY.has(hidden[0]) || !ch.options.includes(hidden[0])) err('the hidden door is not one of the choices');
+        for (const [bits, lamps] of p.rows || []) {
+          if (JSON.stringify(GT.lampsOf(p, GT.bitsOf(p.k, bits))) !== JSON.stringify(lamps)) err(`try ${bits} shows the wrong lamps`);
+        }
+        const fit = GT.doorsThatFit(p, p.hide, p.rows || [], ch.options);
+        if (fit.length !== 1 || (hidden && fit[0] !== hidden[0])) err(`${fit.length} doors fit the tries`);
+      }
+      const sh = GT.shapeOf(p);
+      if (shapes.has(sh)) err('the same machine twice');
+      shapes.add(sh);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
+/* Sunbeam Mirrors                                                     */
+/* ------------------------------------------------------------------ */
+
+export function checkMirrorsBank(bank) {
+  const errs = [];
+  if (bank.game !== 'mirrors') errs.push(`game is "${bank.game}", not "mirrors"`);
+  const defs = MR.CHAPTERS[bank.level];
+  if (!defs) return [`no level called "${bank.level}"`];
+  if ((bank.chapters || []).map((c) => c.id).join(',') !== defs.map((d) => d.id).join(',')) errs.push(`${bank.level}: wrong chapters`);
+  const shapes = new Set();
+  for (const chapter of bank.chapters || []) {
+    const ch = MR.chapter(chapter.id);
+    if (!ch) continue;
+    if (chapter.puzzles.length !== MR.CHAPTER_SIZE) errs.push(`${ch.id}: ${chapter.puzzles.length} puzzles`);
+    chapter.puzzles.forEach((p, i) => {
+      const where = `${ch.id} #${i + 1}`;
+      const err = (m) => errs.push(`${where}: ${m}`);
+      if (p.id !== `${ch.id}-${pad(i + 1)}`) err(`id "${p.id}"`);
+      if (Boolean(p.teach) !== (i < MR.TEACH)) err('teach flag is wrong');
+      if (p.mode !== ch.mode) err(`mode ${p.mode}`);
+      if (p.n < ch.n[0] || p.n > ch.n[1] || p.cells.length !== p.n * p.n) err(`board ${p.n}×${p.n}`);
+      if (/[^.#/\\Ta-l]/.test(p.cells)) err('a square the game does not know');
+      const [sr, sc, sd] = p.sun;
+      const outside = (sr === -1 && sd === 2) || (sr === p.n && sd === 0) || (sc === -1 && sd === 1) || (sc === p.n && sd === 3);
+      if (!outside) err('the sun is not just outside the board, shining in');
+      const animals = MR.animalCells(p).length;
+      if (!animals) err('no animals');
+      if (p.mode === 'where') {
+        const res = MR.beam(p);
+        if (res.end === 'loop') err('the beam goes round in a loop');
+        if (res.lit.size !== 1 || !res.lit.has(p.answer)) err('the beam does not wake exactly the answer');
+      } else if (p.mode === 'turn') {
+        const t = [...p.cells].filter((x) => x === 'T').length;
+        if (t < ch.turns[0] || t > ch.turns[1]) err(`${t} turning mirrors`);
+        if (!p.start || p.start.length !== t) err('no starting slants');
+        const sols = MR.turnSolutions(p);
+        if (sols.length !== 1) err(`${sols.length} ways wake every animal`);
+        else if (sols[0] === p.start) err('it starts solved');
+      } else {
+        if (p.place < ch.turns[0] || p.place > ch.turns[1]) err(`${p.place} mirrors to place`);
+        const sols = MR.placeSolutions(p);
+        if (sols.length !== 1) err(`${sols.length} ways to place the mirrors`);
+        for (let k = 0; k < p.place; k++) if (MR.placeSolutions(p, 1, k).length) err(`${k} mirrors are already enough`);
+        if (MR.wakesAll(p, p.cells)) err('it starts solved');
+      }
+      const sh = MR.shapeOf(p);
+      if (shapes.has(sh)) err('the same board twice');
+      shapes.add(sh);
+    });
+  }
+  return errs;
+}
+
+/* ------------------------------------------------------------------ */
 /* The two languages                                                   */
 /* ------------------------------------------------------------------ */
 
@@ -542,6 +721,9 @@ function main() {
   errors.push(...checkParity('bridgestext', BRIDGES_TEXT));
   errors.push(...checkParity('trainstext', TRAINS_TEXT));
   errors.push(...checkParity('robottext', ROBOT_TEXT));
+  errors.push(...checkParity('jamtext', JAM_TEXT));
+  errors.push(...checkParity('gatestext', GATES_TEXT));
+  errors.push(...checkParity('mirrorstext', MIRRORS_TEXT));
 
   const live = GAMES.filter((g) => g.live).map((g) => g.id);
   for (const game of live) {
@@ -552,7 +734,7 @@ function main() {
       let bank;
       try { bank = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${file}: ${e.message}`); continue; }
       if (bank.level !== level) errors.push(`${file}: says level "${bank.level}"`);
-      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank, bug: checkBugBank }[game];
+      const checker = { code: checkCodeBank, truth: checkTruthBank, rule: checkRuleBank, bridges: checkBridgesBank, trains: checkTrainsBank, robot: checkRobotBank, bug: checkBugBank, jam: checkJamBank, gates: checkGatesBank, mirrors: checkMirrorsBank }[game];
       if (!checker) { errors.push(`${game}: no checker in tools/logiccheck.mjs`); continue; }
       errors.push(...checker(bank).map((m) => `${file}: ${m}`));
       const n = bank.chapters.reduce((s, c) => s + c.puzzles.length, 0);

@@ -2,7 +2,7 @@
  * logictext.js — the words every Logic Game shares, in English and Spanish.
  *
  * Each game keeps its own sentences in its own *text.js file. This file holds
- * the room's: its name, the seven game cards, the levels and the buttons that
+ * the room's: its name, the ten game cards, the levels and the buttons that
  * every puzzle has. `tools/logiccheck.mjs` fails the build if a key is in one
  * language and not the other, or if the {slots} in the two differ.
  *
@@ -155,7 +155,7 @@ export const ui = (key, lang, vars) => lookup(ROOM, key, lang, vars);
 export const LEVEL_AGES = { easy: '6–8', medium: '8–10', hard: '10–13' };
 
 /**
- * The seven games, in the order of the build plan. `live` games have a room
+ * The games, in the order they were built (PLAN.md, then PLAN-2.md). `live` games have a room
  * of their own; the rest show as coming soon.
  */
 export const GAMES = [
@@ -221,6 +221,33 @@ export const GAMES = [
       es: 'Este programa del robot casi funciona. Encuentra el error y arréglalo.'
     },
     meta: { en: '600 puzzles · 3 levels', es: '600 acertijos · 3 niveles' }
+  },
+  {
+    id: 'jam', live: true,
+    name: { en: 'Zoo Traffic Jam', es: 'Atasco en el zoo' },
+    blurb: {
+      en: "The keeper's van is stuck in a full parking lot. Slide the carts and get it out.",
+      es: 'La furgoneta del cuidador está atrapada en un aparcamiento lleno. Desliza los carritos y sácala.'
+    },
+    meta: { en: '900 parking lots · 3 levels', es: '900 aparcamientos · 3 niveles' }
+  },
+  {
+    id: 'gates', live: true,
+    name: { en: 'Gate Factory', es: 'La fábrica de puertas' },
+    blurb: {
+      en: 'Switches, doors and lamps. AND, OR and NOT decide which houses light up.',
+      es: 'Interruptores, puertas y lámparas. Y, O y NO deciden qué casas se iluminan.'
+    },
+    meta: { en: '900 machines · 3 levels', es: '900 máquinas · 3 niveles' }
+  },
+  {
+    id: 'mirrors', live: true,
+    name: { en: 'Sunbeam Mirrors', es: 'Espejos de sol' },
+    blurb: {
+      en: 'Turn the mirrors so the sunbeam wakes every sleeping animal.',
+      es: 'Gira los espejos para que el rayo de sol despierte a todos los animales dormidos.'
+    },
+    meta: { en: '900 boards · 3 levels', es: '900 tableros · 3 niveles' }
   }
 ];
 
