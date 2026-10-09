@@ -50,7 +50,10 @@ describe('one answer', () => {
         assert.ok(p, `${id} ${j}`);
         if (p.mode === 'where') assert.equal(M.beam(p).lit.size, 1);
         if (p.mode === 'turn') { assert.equal(M.turnSolutions(p).length, 1); assert.notEqual(M.turnSolutions(p)[0], p.start); }
-        if (p.mode === 'place') assert.equal(M.placeSolutions(p).length, 1);
+        if (p.mode === 'place') {
+          assert.equal(M.placeSolutions(p).length, 1);
+          for (let k = 0; k < p.place; k++) assert.equal(M.placeSolutions(p, 1, k).length, 0, `${k} mirrors already work`);
+        }
       }
     });
   }

@@ -660,6 +660,7 @@ export function checkMirrorsBank(bank) {
         if (p.place < ch.turns[0] || p.place > ch.turns[1]) err(`${p.place} mirrors to place`);
         const sols = MR.placeSolutions(p);
         if (sols.length !== 1) err(`${sols.length} ways to place the mirrors`);
+        for (let k = 0; k < p.place; k++) if (MR.placeSolutions(p, 1, k).length) err(`${k} mirrors are already enough`);
         if (MR.wakesAll(p, p.cells)) err('it starts solved');
       }
       const sh = MR.shapeOf(p);

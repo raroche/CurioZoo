@@ -338,6 +338,8 @@ function pickDoor(op) {
   play.msg = (L) => `<p class="cz-code-say is-wrong">${esc(gt('wrong.which', L, { door: opWord(op, L), n: r + 1, would: stateWord(would, L), was: stateWord(was, L) }))}</p>`;
   react('oops', 1400);
   paintBoard();
+  /* The chosen door's button is gone with the repaint: stay among the doors. */
+  refocus('[data-gt-door]:not(.is-out)');
 }
 
 function win() {

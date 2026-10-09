@@ -80,7 +80,7 @@ function draw(host, ctx) {
   const first = hash(J.shapeOf(p)) % ANIMALS.length;
   play = {
     host, ctx, p, L, pos: L.start.slice(), sel: -1, moves: 0, last: -1, undo: [],
-    hints: 0, hintLevel: 0, hintCar: -1, blockers: [], shown: false, done: false, busy: false, msg: null,
+    hints: 0, hintLevel: 0, hintCar: -1, blockers: [], shown: false, done: false, busy: false, ending: false, msg: null,
     animals: p.cars.map((_, i) => ANIMALS[(first + i) % ANIMALS.length])
   };
   paintBoard();
@@ -216,6 +216,9 @@ function slide(i, x, { manual = true } = {}) {
   const solved = J.solvedPos(play.L, play.pos);
   play.sel = solved ? -1 : i;
   if (!manual || solved) play.sel = -1;
+  /* The van at the gate is the end: from now on no tap, key or repaint may
+     cancel the slide whose ending records the win. */
+  if (solved) play.ending = true;
   paintBoard();
   glide(i, from, x, () => { if (solved) win(); });
 }
@@ -350,7 +353,7 @@ function showAnswer() {
     const [i, x] = steps.shift();
     slide(i, x, { manual: false });
     if (steps.length) timer = setTimeout(go, still() ? 0 : 650);
-    else play.busy = false;
+    else if (!play.ending) play.busy = false;
   };
   go();
 }
@@ -398,7 +401,7 @@ function pick(i) {
 }
 
 function click(ev) {
-  if (!play || play.done) return false;
+  if (!play || play.done || play.ending) return false;
   const q = (s) => ev.target.closest(s);
   let el;
   if ((el = q('[data-action]'))) {
@@ -423,7 +426,7 @@ function refocusCar() {
 }
 
 function key(ev) {
-  if (!play || play.done || play.busy) return false;
+  if (!play || play.done || play.busy || play.ending) return false;
   const car = ev.target.closest && ev.target.closest('[data-jam-car]');
   const dot = ev.target.closest && ev.target.closest('[data-jam-to]');
   if ((ev.key === 'Enter' || ev.key === ' ') && (car || dot)) {
@@ -455,7 +458,7 @@ function readAloud() {
     })]);
 }
 
-const repaint = () => { if (play && !play.busy) paintBoard(); };
+const repaint = () => { if (play && !play.busy && !play.ending) paintBoard(); };
 
 /* ------------------------------------------------------------------ */
 /* Your parking lots, and today's puzzle                               */

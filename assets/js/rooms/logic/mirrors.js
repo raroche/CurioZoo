@@ -199,9 +199,13 @@ function paintBoard() {
 /* Playing                                                             */
 /* ------------------------------------------------------------------ */
 
+/* Solved: every animal awake, and in "place" with all the mirrors asked for. */
+const solvedNow = () => M.wakesAll(board(), play.cells, play.turn)
+  && (play.mode !== 'place' || placedCount() === play.p.place);
+
 function afterChange() {
   play.mark = -1;
-  if (M.wakesAll(board(), play.cells, play.turn)) { win(); return; }
+  if (solvedNow()) { win(); return; }
   play.msg = null;
   paintBoard();
 }
@@ -231,6 +235,8 @@ function pickAnimal(i) {
   play.msg = (L) => `<p class="cz-code-say is-wrong">${esc(mt('wrongWhere', L))}</p>`;
   react('oops', 1400);
   paintBoard();
+  /* The tapped animal was redrawn: give it the focus back. */
+  refocus(`[data-mr-animal="${i}"]`);
 }
 
 function win() {
@@ -298,7 +304,7 @@ function hint() {
     } else {
       play.turn[k] = solution[k];
       play.msg = (L) => `<p class="cz-code-hint">✋ ${esc(mt('hint.turn3', L))}</p>`;
-      if (M.wakesAll(board(), play.cells, play.turn)) { win(); return; }
+      if (solvedNow()) { win(); return; }
       play.mark = -1;
     }
     paintBoard();
@@ -320,7 +326,7 @@ function hint() {
     play.cells[need[0]] = solution[need[0]];
     play.mark = -1;
     play.msg = (L) => `<p class="cz-code-hint">✋ ${esc(mt('hint.place3', L))}</p>`;
-    if (M.wakesAll(board(), play.cells, play.turn)) { win(); return; }
+    if (solvedNow()) { win(); return; }
   }
   paintBoard();
 }

@@ -137,11 +137,13 @@ export function turnSolutions(b) {
   return out;
 }
 
-/** Every way to put `b.place` mirrors on empty squares that wakes all (stops at two). */
-export function placeSolutions(b, limit = 2) {
+/**
+ * Every way to put `k` mirrors (the puzzle's `b.place` unless given) on
+ * empty squares that wakes all; stops at `limit`.
+ */
+export function placeSolutions(b, limit = 2, k = b.place) {
   const empties = [];
   for (let i = 0; i < b.cells.length; i++) if (b.cells[i] === '.') empties.push(i);
-  const k = b.place;
   const out = [];
   const cells = [...b.cells];
   const pick = (from, left) => {
@@ -281,6 +283,8 @@ export function makePuzzle(ch, rng, { tries = 300 } = {}) {
       /* More animals on the path until only one placing works. */
       let sols = placeSolutions(b);
       let guard = 0;
+      /* Fewer mirrors must never be enough either: the goal says how many. */
+      const fewerWorks = () => Array.from({ length: turns }, (_, k) => k).some((k) => placeSolutions(b, 1, k).length);
       while (sols.length > 1 && guard++ < 6) {
         const truth = [...b.cells];
         route.mirrors.forEach(([i, s]) => { truth[i] = s; });
@@ -292,7 +296,7 @@ export function makePuzzle(ch, rng, { tries = 300 } = {}) {
         b.cells = arr.join('');
         sols = placeSolutions(b);
       }
-      if (sols.length !== 1) continue;
+      if (sols.length !== 1 || fewerWorks()) continue;
       if ([...b.cells].filter(isAnimal).length > ch.animals[1] + 1) continue;
       return b;
     }
