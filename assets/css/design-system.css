@@ -188,6 +188,9 @@
   --cz-flamingo:        #C84374;
   --cz-flamingo-soft:   #FCE6EE;
   --cz-flamingo-line:   #EBADC4;
+  --cz-iris:        #7466CC;
+  --cz-iris-soft:   #E9E6FB;
+  --cz-iris-line:   #B7B0E8;
 
   /* Text on a tinted room card. The section colour itself measured between
      3.92:1 and 4.36:1 against its own soft tint -- below AA on the room's
@@ -200,6 +203,7 @@
   --cz-sky-ink:    #386AC1;
   --cz-orchid-ink:    #914EB3;
   --cz-flamingo-ink:    #BD3768;
+  --cz-iris-ink:    #6758C7;
 
   --gp-line:          #E2DCCF;
   --gp-line-strong:   #C9C0AE;
@@ -363,6 +367,9 @@
     --cz-flamingo:        #DA5E8B;
     --cz-flamingo-soft:   #2D1820;
     --cz-flamingo-line:   #623747;
+    --cz-iris:        #887CDC;
+    --cz-iris-soft:   #1B182D;
+    --cz-iris-line:   #3D3762;
 
     --cz-mango-ink:    #DD6528;
     --cz-honey-ink:    #B58619;
@@ -372,6 +379,7 @@
     --cz-sky-ink:    #5586D9;
     --cz-orchid-ink:    #AA6ACB;
     --cz-flamingo-ink:    #D95887;
+    --cz-iris-ink:    #8275DA;
 
     --gp-line:          #333944;
     --gp-line-strong:   #48505D;
@@ -2599,6 +2607,7 @@ button, a, label, summary, [role="button"] {
 .cz-tile--sky      { --room: var(--cz-sky);      --room-soft: var(--cz-sky-soft);      --room-line: var(--cz-sky-line); --room-ink: var(--cz-sky-ink); }
 .cz-tile--orchid   { --room: var(--cz-orchid);   --room-soft: var(--cz-orchid-soft);   --room-line: var(--cz-orchid-line); --room-ink: var(--cz-orchid-ink); }
 .cz-tile--flamingo { --room: var(--cz-flamingo); --room-soft: var(--cz-flamingo-soft); --room-line: var(--cz-flamingo-line); --room-ink: var(--cz-flamingo-ink); }
+.cz-tile--iris     { --room: var(--cz-iris);     --room-soft: var(--cz-iris-soft);     --room-line: var(--cz-iris-line); --room-ink: var(--cz-iris-ink); }
 
 /* The welcome band. Deep is the one surface the brand orange may not sit on as
    text, so everything here uses the on-deep tokens. */

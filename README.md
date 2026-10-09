@@ -108,6 +108,7 @@ which is otherwise a rule the browser accepts and quietly ignores.
 | **Curio Trivia** | 4,739 questions on sixteen topics at three levels, in English and Spanish, with a "why" after every answer |
 | **Logic Games** | Ten games that make a child think in steps, with 7,840 puzzles: Crack the Code (840 safes), Truth Island (600), Find the Rule (600), Zoo Bridges (900), Train Tracks (1,000), Robot Path (600 levels), Fix the Bug (600), Zoo Traffic Jam (900 lots), Gate Factory (900 machines) and Sunbeam Mirrors (900 boards), at three levels, in English and Spanish, and every puzzle is checked by machine on every build |
 | **Fun and games** | Name the Flag, Name the Country Shape, Name the Capital, Name the Element, Guess the Angle and Discovered or Invented? — typed answers in English or Spanish, and a typo still counts |
+| **Science Lab** | Ten games about how the world works: floating, speed, circuits, levers, slopes, food chains, water, shadows, magnets and machines. 2,598 experiments at three levels, in English and Spanish. Guess first, then watch what really happens, and every experiment is proven by machine to have one answer |
 | **Chess Club** | Fifty-two lessons that start with "tap a piece, tap where it goes" and end with rook endings and tournament manners. Eight mini-games, five opponents, and 3,250 real puzzles |
 | **GiftedPrep** | 1,576 questions in the shapes used by the CogAT, NNAT and OLSAT, grades 1–4 |
 
@@ -588,6 +589,25 @@ documented and is the main obstacle to algebra later. Fixing it at six is free.
 Choices behind the number topics are in [`docs/research/math-grade1.md`](docs/research/math-grade1.md),
 including the grade-level benchmark each one sits on and where it reaches past it.
 
+## Science Lab
+
+A room of its own at `#/science`, built on predict, then watch, then "why"
+(`docs/research/science/PLAN.md` has the plan and `PROGRESS.md` the record of
+what was built and why). A wrong guess is a "Surprise!" 🤯, never a red cross,
+and every chapter adds one big idea to the child's Science Notebook.
+
+Ten games, 2,598 experiments: Hippo Pond (float or sink), Fruit Train
+(speed, distance and time), Firefly Circuits (loops, rows and side by side),
+Lift the Elephant (levers), Penguin Slide (slopes and friction), Sun to Lion
+(food chains and webs), Elephant Fountain (water finds its level), Shadow
+Show (straight-line light), Magnet Meerkats (poles, what sticks, the
+repulsion test, compasses) and Domino Zoo (chain-reaction machines, with
+Whitehead's 1½ rule for dominoes). There is no physics engine: every rule is
+whole-number arithmetic that a child can check, and `tools/sciencecheck.mjs`,
+part of `npm run verify`, proves every experiment again on every build.
+`node tools/sciencebuild.mjs <game>` rebuilds a game's bank from fixed seeds.
+The Spanish still needs a native read.
+
 ## The honest bit about test prep
 
 This project takes a position, and it is worth stating plainly.
@@ -746,6 +766,8 @@ GiftedPrep/
     ├── elementcheck.mjs        proves the periodic table is complete: 1 to 118,
     │                           no gaps, unique symbols, one cell each
     ├── animcheck.mjs           checks the mascot animations and their timing
+    ├── sciencecheck.mjs        proves every Science Lab experiment has one answer
+    ├── sciencebuild.mjs        builds the Science Lab banks from fixed seeds
     ├── palette.mjs             builds the palette and proves every contrast ratio
     ├── mkicon.py               rasterises the app icon (no dependencies)
     ├── serve.py                dev server with the production CSP
